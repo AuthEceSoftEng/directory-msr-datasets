@@ -1,0 +1,88 @@
+---
+layout: default
+title: {{ site.name }}
+permalink: /
+excluded_in_search: true
+---
+
+<div class="mt-0 p-5 bg-secondary text-white text-center">
+	<div class="container text-center">
+		<h1>{{ site.title }}</h1>
+		<p>Select filters</p>
+		<div class="row text-center justify-content-center align-items-center">
+			<div class="col-sm-4 text-center" style="min-width: 516px;">
+				<div class="input-group rounded">
+					<input class="search-input form-control rounded" type="search" placeholder="Filter using title, year (e.g. 2013) or category (e.g. Software Issues)"
+						aria-label="Filter title" aria-describedby="search-addon" />
+				</div>
+			</div>
+		</div>
+		<div class="row" style="margin-top: 14px;">
+			<div id="stats">
+				<div>
+					<span>Total <span id="selected-count"></span> out of {{ site.data.paperannotations | size }} results shown</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	{% for paper_item in site.data.paperannotations %}
+	{% assign paperid = paper_item[0] %}
+	{% assign paper = paper_item[1] %}
+	{% assign paperdoi = paper["doi"] %}
+	{% assign paperdataset = paper["dataset"] %}
+	{% assign papercategory = paper["category"] %}
+	{% assign paper = site.data.papermetadata[paperid] %}
+	{% assign paperfairness = site.data.fairassessments[paperid] %}
+	<div class="row mb-10 mt-10 p-0 paper-item {{ paperid }}"
+		paper-title="{{ paper.title | xml_escape }}" paper-year="{{ paper.year | xml_escape }}"
+		paper-category="{{ papercategory | xml_escape }}"
+		style="width: 100%; border: none; box-shadow: none; margin: 10px 0 10px 0;">
+		<div class="col-sm-12">
+			<div class="card">
+				<div class="card-body">
+					<h5 class="card-title">{{paper.title}}</h5>
+					<p class="card-text" style="margin-bottom: 0.5rem;">
+						{% for author in paper.authors %}{{author.name}}{% if forloop.last == false %}, {% endif %}{% endfor %}
+					</p>
+					<p class="card-text" style="margin-bottom: 0.5rem;">DOI: {{paperdoi}}
+						<a class="text-decoration-none" style="color: #069; cursor: pointer;" href="https://doi.org/{{paperdoi}}" target="_blank">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-link-45deg" viewBox="0 0 24 24" stroke="currentColor" fill="none">
+							<path d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11" stroke="currentColor" stroke-linejoin="round" stroke-linecap="round" stroke-width="2"></path>
+							</svg>
+						</a>
+					</p>
+					<p class="card-text" style="margin-bottom: 0.5rem;">
+						<span id="dots{{paperid}}">Abstract: {{paper.abstract | truncate: 200}}</span>
+						<span id="more{{paperid}}" style="display: none;">Abstract: {{paper.abstract}}</span>
+						<a onclick="{{paperid}}myFunction()" id="myBtn{{paperid}}" style="color: #069; cursor: pointer;">Read more</a>
+					</p>
+					<div class="row">
+						<div class="col-sm-4">
+							<span class="badge" style="background-color: #6c7d74;">{{papercategory}}</span>
+						</div>
+						<div class="col-sm-4 d-flex justify-content-center">
+							<a {% if paperdataset != "-" %}class="text-decoration-none" style="color: #069; cursor: pointer;" href="{{paperdataset}}" target="_blank"{% else %}class="text-decoration-none disabled" style="color: gray;"{% endif %}>
+								Link to dataset
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+								<path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z"></path>
+								<path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z"></path>
+								</svg>
+							</a>
+						</div>
+						<div class="col-sm-4 d-flex justify-content-end">
+							{% assign fairscore = paperfairness.summary.score_percent.FAIR %}
+							<div class="progress position-relative d-flex justify-content-start w-50 mt-1 h-75">
+							    <div class="progress-bar" role="progressbar" style="width: {{fairscore}}%; background-color: #6293a1;" aria-valuenow="{{fairscore}}" aria-valuemin="0" aria-valuemax="100"></div>
+							    <div class="justify-content-center d-flex position-absolute w-100 fw-bold">FAIR Score: {{fairscore}}%</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	{% endfor %}
+</div>
