@@ -1,0 +1,729 @@
+{
+    "abstract": "The same defect can be rediscovered by multiple clients, causing unplanned outages and leading to reduced customer satisfaction. In the case of popular open source software, high volume of defects is reported on a regular basis. A large number of these reports are actually duplicates / rediscoveries of each other. Researchers have analyzed the factors related to the content of duplicate defect reports in the past. However, some of the other potentially important factors, such as the inter-relationships among duplicate defect reports, are not readily available in defect tracking systems such as Bugzilla. This information may speed up bug fixing, enable efficient triaging, improve customer profiles, etc. In this paper, we present three defect rediscovery datasets mined from Bugzilla. The datasets capture data for three groups of open source software projects: Apache, Eclipse, and KDE. The datasets contain information about approximately 914 thousands of defect reports over a period of 18 years (1999-2017) to capture the inter-relationships among duplicate defects. We believe that sharing these data with the community will help researchers and practitioners to better understand the nature of defect rediscovery and enhance the analysis of defect reports.",
+    "arxivId": "1703.06337",
+    "authors": [
+        {
+            "authorId": "9077229",
+            "name": "Mefta Sadat",
+            "url": "https://www.semanticscholar.org/author/9077229"
+        },
+        {
+            "authorId": "1730000",
+            "name": "A. Bener",
+            "url": "https://www.semanticscholar.org/author/1730000"
+        },
+        {
+            "authorId": "3314051",
+            "name": "A. Miranskyy",
+            "url": "https://www.semanticscholar.org/author/3314051"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": "2204.07863",
+            "authors": [
+                {
+                    "authorId": "1750770",
+                    "name": "K. Perumalla"
+                },
+                {
+                    "authorId": "145588622",
+                    "name": "Aradhana Soni"
+                },
+                {
+                    "authorId": "2139970000",
+                    "name": "Rupam Dey"
+                },
+                {
+                    "authorId": "36117223",
+                    "name": "Steven Rich"
+                }
+            ],
+            "doi": "10.48550/arXiv.2204.07863",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1d57d9102dc777c54aa4a45c95079d9c8918745c",
+            "title": "ZeroIn: Characterizing the Data Distributions of Commits in Software Repositories",
+            "url": "https://www.semanticscholar.org/paper/1d57d9102dc777c54aa4a45c95079d9c8918745c",
+            "venue": "ArXiv",
+            "year": 2022
+        },
+        {
+            "arxivId": "2103.17054",
+            "authors": [
+                {
+                    "authorId": "27017817",
+                    "name": "Maria Papoutsoglou"
+                },
+                {
+                    "authorId": "39963117",
+                    "name": "Johannes Wachs"
+                },
+                {
+                    "authorId": "1680936",
+                    "name": "G. Kapitsaki"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00053",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1a14fe1dc2fc460c090e2f13528d20b3dbf627da",
+            "title": "Mining DEV for social and technical insights about software development",
+            "url": "https://www.semanticscholar.org/paper/1a14fe1dc2fc460c090e2f13528d20b3dbf627da",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40492227",
+                    "name": "Sukhjit Singh Sehra"
+                },
+                {
+                    "authorId": "2103420",
+                    "name": "T. Abdou"
+                },
+                {
+                    "authorId": "31131854",
+                    "name": "Ayse Basar"
+                },
+                {
+                    "authorId": "3141437",
+                    "name": "S. Sehra"
+                }
+            ],
+            "doi": "10.1007/978-3-030-47358-7_49",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2a8c154402f684fa02f140dd4968b2497d27e707",
+            "title": "Amalgamated Models for Detecting Duplicate Bug Reports",
+            "url": "https://www.semanticscholar.org/paper/2a8c154402f684fa02f140dd4968b2497d27e707",
+            "venue": "Canadian Conference on AI",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00085",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "43148fabe2636026e07ca04974aff40d204bfb6b",
+            "title": "Standing on Shoulders or Feet? The Usage of the MSR Data Papers",
+            "url": "https://www.semanticscholar.org/paper/43148fabe2636026e07ca04974aff40d204bfb6b",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": "1904.11164",
+            "authors": [
+                {
+                    "authorId": "80177375",
+                    "name": "P. Pickerill"
+                },
+                {
+                    "authorId": "81323265",
+                    "name": "Heiko Joshua Jungen"
+                },
+                {
+                    "authorId": "2723325",
+                    "name": "Miros\u0142aw Ochodek"
+                },
+                {
+                    "authorId": "1787356",
+                    "name": "M. Staron"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09825-8",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "51497665d475eb53a5818251a1202e0db93c9b59",
+            "title": "PHANTOM: Curating GitHub for engineered software projects using time-series clustering",
+            "url": "https://www.semanticscholar.org/paper/51497665d475eb53a5818251a1202e0db93c9b59",
+            "venue": "Empirical Software Engineering",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145471996",
+                    "name": "Oscar Chaparro"
+                },
+                {
+                    "authorId": "33350755",
+                    "name": "Juan Manuel Florez"
+                },
+                {
+                    "authorId": "2093182543",
+                    "name": "Unnati Singh"
+                },
+                {
+                    "authorId": "40473936",
+                    "name": "Andrian Marcus"
+                }
+            ],
+            "doi": "10.1109/SANER.2019.8667985",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6ce0ddd91f8aba4e4f064570985a77bfee9dbe6e",
+            "title": "Reformulating Queries for Duplicate Bug Report Detection",
+            "url": "https://www.semanticscholar.org/paper/6ce0ddd91f8aba4e4f064570985a77bfee9dbe6e",
+            "venue": "2019 IEEE 26th International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2141857035",
+                    "name": "T. Rocha"
+                },
+                {
+                    "authorId": "1840587",
+                    "name": "A. Carvalho"
+                }
+            ],
+            "doi": "10.1109/ACCESS.2021.3066283",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1d13e736b1d59dcdf7d1e17225de1681b3d532d7",
+            "title": "SiameseQAT: A Semantic Context-Based Duplicate Bug Report Detection Using Replicated Cluster Information",
+            "url": "https://www.semanticscholar.org/paper/1d13e736b1d59dcdf7d1e17225de1681b3d532d7",
+            "venue": "IEEE Access",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "79594213",
+                    "name": "Rin Hirakawa"
+                },
+                {
+                    "authorId": "89832781",
+                    "name": "Keitaro Tominaga"
+                },
+                {
+                    "authorId": "2155025",
+                    "name": "Y. Nakatoh"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a5562d6c65a37eea86e44366fdb2ecfbf98a639d",
+            "title": "Classification with pre-trained BERT",
+            "url": "https://www.semanticscholar.org/paper/a5562d6c65a37eea86e44366fdb2ecfbf98a639d",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "81323265",
+                    "name": "Heiko Joshua Jungen"
+                },
+                {
+                    "authorId": "80177375",
+                    "name": "P. Pickerill"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "55cb2cff59499e50d514411ae05531e45041f8d8",
+            "title": "Clustering software projects at large-scale using time-series",
+            "url": "https://www.semanticscholar.org/paper/55cb2cff59499e50d514411ae05531e45041f8d8",
+            "venue": "",
+            "year": 2018
+        }
+    ],
+    "corpusId": 18792800,
+    "doi": "10.1109/MSR.2017.50",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 11,
+    "numCiting": 13,
+    "paperId": "011549a9156a34fd65f11b5d51288646faf54c86",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49902369",
+                    "name": "Yuan Tian"
+                },
+                {
+                    "authorId": "2265890556",
+                    "name": "David Lo"
+                },
+                {
+                    "authorId": "2266029757",
+                    "name": "Chengnian Sun"
+                }
+            ],
+            "doi": "10.1109/ICSM.2013.31",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a07610da8b4ad6266d89d06309916a7e1ef17403",
+            "title": "DRONE: Predicting Priority of Reported Bugs by Multi-factor Analysis",
+            "url": "https://www.semanticscholar.org/paper/a07610da8b4ad6266d89d06309916a7e1ef17403",
+            "venue": "2013 IEEE International Conference on Software Maintenance",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1693773",
+                    "name": "Ahmed Lamkanfi"
+                },
+                {
+                    "authorId": "2115198492",
+                    "name": "Javier P\u00e9rez"
+                },
+                {
+                    "authorId": "1688862",
+                    "name": "S. Demeyer"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624028",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ee7d535cdef36c1733fa324fbdd835b9273e4960",
+            "title": "The Eclipse and Mozilla defect tracking dataset: A genuine dataset for mining bug information",
+            "url": "https://www.semanticscholar.org/paper/ee7d535cdef36c1733fa324fbdd835b9273e4960",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2238859",
+                    "name": "A. Alipour"
+                },
+                {
+                    "authorId": "145369636",
+                    "name": "Abram Hindle"
+                },
+                {
+                    "authorId": "1719731",
+                    "name": "Eleni Stroulia"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624026",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1841fca56dff854f1c27bf030bb20c4855796d75",
+            "title": "A contextual approach towards more accurate duplicate bug report detection",
+            "url": "https://www.semanticscholar.org/paper/1841fca56dff854f1c27bf030bb20c4855796d75",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": "1107.4016",
+            "authors": [
+                {
+                    "authorId": "3314051",
+                    "name": "A. Miranskyy"
+                },
+                {
+                    "authorId": "145540060",
+                    "name": "M. Davison"
+                },
+                {
+                    "authorId": "1918455",
+                    "name": "Mark Reesor"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "350b667d90621433e025ed1c2519585aa800df17",
+            "title": "Metrics of Risk Associated with Defects Rediscovery",
+            "url": "https://www.semanticscholar.org/paper/350b667d90621433e025ed1c2519585aa800df17",
+            "venue": "ArXiv",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3314051",
+                    "name": "A. Miranskyy"
+                },
+                {
+                    "authorId": "2835258",
+                    "name": "Enzo Cialini"
+                },
+                {
+                    "authorId": "2075328",
+                    "name": "David Godwin"
+                }
+            ],
+            "doi": "10.1145/1594156.1594165",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d4ed370a65269ab5d175cad66161d83f06becd54",
+            "title": "Selection of customers for operational and usage profiling",
+            "url": "https://www.semanticscholar.org/paper/d4ed370a65269ab5d175cad66161d83f06becd54",
+            "venue": "DBTest '09",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2426138",
+                    "name": "Nicolas Bettenburg"
+                },
+                {
+                    "authorId": "2000241",
+                    "name": "Rahul Premraj"
+                },
+                {
+                    "authorId": "143609903",
+                    "name": "Thomas Zimmermann"
+                },
+                {
+                    "authorId": "1787729",
+                    "name": "Sunghun Kim"
+                }
+            ],
+            "doi": "10.1109/ICSM.2008.4658082",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "86f1c6af91d49b2a4d0a82f05b69338b8344e39b",
+            "title": "Duplicate bug reports considered harmful \u2026 really?",
+            "url": "https://www.semanticscholar.org/paper/86f1c6af91d49b2a4d0a82f05b69338b8344e39b",
+            "venue": "2008 IEEE International Conference on Software Maintenance",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "35197893",
+                    "name": "I. Herraiz"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "1397826059",
+                    "name": "Jesus M. Gonzalez-Barahona"
+                },
+                {
+                    "authorId": "143684601",
+                    "name": "G. Robles"
+                }
+            ],
+            "doi": "10.1145/1370750.1370786",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0a027ccde140f5c6d7c45530118078905b81cbf7",
+            "title": "Towards a simplification of the bug report form in eclipse",
+            "url": "https://www.semanticscholar.org/paper/0a027ccde140f5c6d7c45530118078905b81cbf7",
+            "venue": "MSR '08",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2096418443",
+                    "name": "Pieter Hooimeijer"
+                },
+                {
+                    "authorId": "47211092",
+                    "name": "Westley Weimer"
+                }
+            ],
+            "doi": "10.1145/1321631.1321639",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9fc6894ea75e2880e764bcac88315accf3ac3ff5",
+            "title": "Modeling bug report quality",
+            "url": "https://www.semanticscholar.org/paper/9fc6894ea75e2880e764bcac88315accf3ac3ff5",
+            "venue": "ASE",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1785952",
+                    "name": "P. Runeson"
+                },
+                {
+                    "authorId": "1788979",
+                    "name": "Magnus Alexandersson"
+                },
+                {
+                    "authorId": "2101964543",
+                    "name": "Oskar Nyholm"
+                }
+            ],
+            "doi": "10.1109/ICSE.2007.32",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0d459e3be20f7f529bc0d92d42fa63e60fc1e1ba",
+            "title": "Detection of Duplicate Defect Reports Using Natural Language Processing",
+            "url": "https://www.semanticscholar.org/paper/0d459e3be20f7f529bc0d92d42fa63e60fc1e1ba",
+            "venue": "29th International Conference on Software Engineering (ICSE'07)",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2226695",
+                    "name": "J. Anvik"
+                },
+                {
+                    "authorId": "47799990",
+                    "name": "L. Hiew"
+                },
+                {
+                    "authorId": "1739674",
+                    "name": "G. Murphy"
+                }
+            ],
+            "doi": "10.1145/1134285.1134336",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b3b3c562a45d7710d6f62ad8f210ebca9a47d23f",
+            "title": "Who should fix this bug?",
+            "url": "https://www.semanticscholar.org/paper/b3b3c562a45d7710d6f62ad8f210ebca9a47d23f",
+            "venue": "ICSE",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1725593",
+                    "name": "E. Gansner"
+                },
+                {
+                    "authorId": "2885843",
+                    "name": "S. North"
+                }
+            ],
+            "doi": "10.1002/1097-024X(200009)30:11%3C1203::AID-SPE338%3E3.0.CO;2-N",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "19c64da92a8c67c14ddd9cced0d1d0b9ff6b39d1",
+            "title": "An open graph visualization system and its applications to software engineering",
+            "url": "https://www.semanticscholar.org/paper/19c64da92a8c67c14ddd9cced0d1d0b9ff6b39d1",
+            "venue": "Softw. Pract. Exp.",
+            "year": 2000
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "",
+            "title": "Rediscovery Datasets: Connecting Duplicate Reports of Apache, Eclipse, and KDE, Mar",
+            "url": "",
+            "venue": "Rediscovery Datasets: Connecting Duplicate Reports of Apache, Eclipse, and KDE, Mar",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144094404",
+                    "name": "E. N. Adams"
+                }
+            ],
+            "doi": "10.1147/RD.281.0002",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c0dca46c2a0669acaf0ea21741db70eff2d4b120",
+            "title": "Optimizing Preventive Service of Software Products",
+            "url": "https://www.semanticscholar.org/paper/c0dca46c2a0669acaf0ea21741db70eff2d4b120",
+            "venue": "IBM J. Res. Dev.",
+            "year": 1984
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "Rediscovery Datasets: Connecting Duplicate Reports",
+    "topics": [
+        {
+            "topic": "Bugzilla",
+            "topicId": "893656",
+            "url": "https://www.semanticscholar.org/topic/893656"
+        },
+        {
+            "topic": "Software bug",
+            "topicId": "37",
+            "url": "https://www.semanticscholar.org/topic/37"
+        },
+        {
+            "topic": "Eclipse",
+            "topicId": "91965",
+            "url": "https://www.semanticscholar.org/topic/91965"
+        },
+        {
+            "topic": "Software engineering",
+            "topicId": "7832",
+            "url": "https://www.semanticscholar.org/topic/7832"
+        },
+        {
+            "topic": "Open-source software",
+            "topicId": "8878",
+            "url": "https://www.semanticscholar.org/topic/8878"
+        },
+        {
+            "topic": "Database schema",
+            "topicId": "36353",
+            "url": "https://www.semanticscholar.org/topic/36353"
+        },
+        {
+            "topic": "Defect tracking",
+            "topicId": "541496",
+            "url": "https://www.semanticscholar.org/topic/541496"
+        },
+        {
+            "topic": "Customer relationship management",
+            "topicId": "21617",
+            "url": "https://www.semanticscholar.org/topic/21617"
+        },
+        {
+            "topic": "Tracking system",
+            "topicId": "14341",
+            "url": "https://www.semanticscholar.org/topic/14341"
+        },
+        {
+            "topic": "MinEd",
+            "topicId": "3856937",
+            "url": "https://www.semanticscholar.org/topic/3856937"
+        }
+    ],
+    "url": "https://www.semanticscholar.org/paper/011549a9156a34fd65f11b5d51288646faf54c86",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2017
+}

@@ -1,0 +1,342 @@
+{
+    "abstract": "Phabricator is a modern code collaboration tool used by popular projects like FreeBSD and Mozilla. However, unlike the other well-known code review environments, such as Gerrit or GitHub, there is no readily accessible public code review dataset for Phabricator. This paper describes our experience mining code reviews from five different projects that use Phabricator (Blender, FreeBSD, KDE, LLVM, and Mozilla). We discuss the challenges associated with the data retrieval process and our solutions, resulting in a dataset with details regarding 317,476 Phabricator code reviews. Our dataset11https://doi.org/10.6084/m9.figshare.17139245 is available in both JSON and MySQL database dump formats. The dataset enables analyses of the history of code reviews at a more granular level than other platforms. In addition, given that the projects we mined are publicly accessible via the Conduit API [18], our dataset can be used as a foundation to fetch additional details and insights.",
+    "arxivId": "2203.07473",
+    "authors": [
+        {
+            "authorId": "2737399",
+            "name": "Gunnar Kudrjavets",
+            "url": "https://www.semanticscholar.org/author/2737399"
+        },
+        {
+            "authorId": "1693689",
+            "name": "Nachiappan Nagappan",
+            "url": "https://www.semanticscholar.org/author/1693689"
+        },
+        {
+            "authorId": "40464536",
+            "name": "Ayushi Rastogi",
+            "url": "https://www.semanticscholar.org/author/40464536"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2307285550",
+                    "name": "Mingzhao Liang"
+                },
+                {
+                    "authorId": "2969085",
+                    "name": "Wachiraphan Charoenwet"
+                },
+                {
+                    "authorId": "2352093",
+                    "name": "Patanamon Thongtanunam"
+                }
+            ],
+            "doi": "10.1145/3643991.3644872",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "692ee9e66215a71ce1a5d0bfe63560adff221628",
+            "title": "Curated Email-Based Code Reviews Datasets",
+            "url": "https://www.semanticscholar.org/paper/692ee9e66215a71ce1a5d0bfe63560adff221628",
+            "venue": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2272542833",
+                    "name": "Gunnar Kudrjavets"
+                }
+            ],
+            "doi": "10.33612/diss.781738808",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ea99bfdb9b008eb1b6ba3140e642ef24a13828dc",
+            "title": "The Need for Speed: Increasing the Code Review Velocity",
+            "url": "https://www.semanticscholar.org/paper/ea99bfdb9b008eb1b6ba3140e642ef24a13828dc",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "corpusId": 247451159,
+    "doi": "10.1145/3524842.3528005",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 2,
+    "numCiting": 15,
+    "paperId": "6082d30a29b4cfe77d3fd2c37b2474fa648cec4d",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "11009809",
+                    "name": "M. Paix\u00e3o"
+                },
+                {
+                    "authorId": "1824150",
+                    "name": "J. Krinke"
+                },
+                {
+                    "authorId": "7883212",
+                    "name": "Donggyun Han"
+                },
+                {
+                    "authorId": "145836176",
+                    "name": "M. Harman"
+                }
+            ],
+            "doi": "10.1145/3196398.3196466",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6110c3c38919b0f3371e45c8823b94fb83ffbf62",
+            "title": "CROP: Linking Code Reviews to Source Code Changes",
+            "url": "https://www.semanticscholar.org/paper/6110c3c38919b0f3371e45c8823b94fb83ffbf62",
+            "venue": "2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2150438947",
+                    "name": "Xin Yang"
+                },
+                {
+                    "authorId": "1680034",
+                    "name": "R. Kula"
+                },
+                {
+                    "authorId": "143884632",
+                    "name": "Norihiro Yoshida"
+                },
+                {
+                    "authorId": "1687605",
+                    "name": "Hajimu Iida"
+                }
+            ],
+            "doi": "10.1145/2901739.2903504",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "75ed02717913c1bd147d196df2e77385dd109903",
+            "title": "Mining the Modern Code Review Repositories: A Dataset of People, Process and Product",
+            "url": "https://www.semanticscholar.org/paper/75ed02717913c1bd147d196df2e77385dd109903",
+            "venue": "2016 IEEE/ACM 13th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624034",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "2867eb64cc4bb1945363fdae12a168962ea823aa",
+            "title": "The GHTorent dataset and tool suite",
+            "url": "https://www.semanticscholar.org/paper/2867eb64cc4bb1945363fdae12a168962ea823aa",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40242908",
+                    "name": "M. Mukadam"
+                },
+                {
+                    "authorId": "145193818",
+                    "name": "C. Bird"
+                },
+                {
+                    "authorId": "39374345",
+                    "name": "Peter C. Rigby"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624002",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "1f62a5526c571aeb4a00a40b8de2b59a6c537449",
+            "title": "Gerrit software code review data from Android",
+            "url": "https://www.semanticscholar.org/paper/1f62a5526c571aeb4a00a40b8de2b59a6c537449",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Organizations Using Phabricator. Retrieved",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "The cURL project. 2021. Curl. Retrieved",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Database Systems: the Complete Book (2nd ed ed.)",
+            "url": "",
+            "venue": "",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Crawling Code Review Data From Phabricator",
+            "url": "",
+            "venue": "Master\u2019s thesis. Friedrich-Alexander University Erlangen-Nu\u0308rnberg. Retrieved November",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Meet Phabricator, The Witty Code Review Tool Built Inside Facebook. Retrieved",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "The Open Group Base Specifications Issue 7",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2021. diffstat manual",
+            "url": "",
+            "venue": "Retrieved November",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "LLVM's Phabricator instance",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Community Resources. Retrieved",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2021. differential.query. Retrieved",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Query: Modern Methods. Retrieved November 30",
+            "url": "",
+            "venue": "",
+            "year": 2021
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "The Unexplored Treasure Trove of Phabricator Code Reviews",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/6082d30a29b4cfe77d3fd2c37b2474fa648cec4d",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2022
+}

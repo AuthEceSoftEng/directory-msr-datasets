@@ -1,0 +1,975 @@
+{
+    "abstract": "The amount of Android apps available for download is constantly increasing, exerting a continuous pressure on developers to publish outstanding apps. Google Play (GP) is the default distribution chan-nel for Android apps, which provides mobile app users with metrics to identify and report apps quality such as rating, amount of down-loads, previous users comments, etc. In addition to those metrics, GP presents a set of top charts that highlight the outstanding apps in different categories. Both metrics and top app charts help developers to identify whether their development decisions are well valued by the community. Therefore, app presence in these top charts is a valuable information when understanding the features of top-apps. In this paper we present Hall-of-Apps, a dataset containing top charts' apps metadata extracted (weekly) from GP, for 4 different countries, during 30 weeks. The data is presented as (i) raw HTML files, (ii) a MongoDB database with all the information contained in app's HTML files (e.g., app description, category, general rating, etc.), and (iii) data visualizations built with the D3.js framework. A first characterization of the data along with the urls to retrieve it can be found in our online appendix: https://bit.ly/2uIkXs8. Dataset: https://bit.ly/2Wu9qsn",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "1410584179",
+            "name": "Laura Bello-Jim\u00e9nez",
+            "url": "https://www.semanticscholar.org/author/1410584179"
+        },
+        {
+            "authorId": "1410008957",
+            "name": "Camilo Escobar-Vel\u00e1squez",
+            "url": "https://www.semanticscholar.org/author/1410008957"
+        },
+        {
+            "authorId": "1949197826",
+            "name": "Anamaria Mojica-Hanke",
+            "url": "https://www.semanticscholar.org/author/1949197826"
+        },
+        {
+            "authorId": "1580303669",
+            "name": "S. Cort\u00e9s-Fern\u00e1ndez",
+            "url": "https://www.semanticscholar.org/author/1580303669"
+        },
+        {
+            "authorId": "1397411901",
+            "name": "Mario Linares-V\u00e1squez",
+            "url": "https://www.semanticscholar.org/author/1397411901"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        }
+    ],
+    "corpusId": 221785013,
+    "doi": "10.1145/3379597.3387497",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 1,
+    "numCiting": 32,
+    "paperId": "772bdd58ad1af3cd036dddee53f1b824bd66f5ab",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145593737",
+                    "name": "Saket Joshi"
+                },
+                {
+                    "authorId": "1926332",
+                    "name": "S. Chimalakonda"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00088",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b1bffb9d54687235b141372b4b94165a48e83bac",
+            "title": "RapidRelease - A Dataset of Projects and Issues on Github with Rapid Releases",
+            "url": "https://www.semanticscholar.org/paper/b1bffb9d54687235b141372b4b94165a48e83bac",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40642112",
+                    "name": "Gian Luca Scoccia"
+                },
+                {
+                    "authorId": "11002308",
+                    "name": "Anthony S Peruma"
+                },
+                {
+                    "authorId": "148313077",
+                    "name": "Virginia Pujols"
+                },
+                {
+                    "authorId": "146248626",
+                    "name": "Ben Christians"
+                },
+                {
+                    "authorId": "2013851",
+                    "name": "Daniel E. Krutz"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00090",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6ab7816ba1359953dd270983f30fc374189708c2",
+            "title": "An Empirical History of Permission Requests and Mistakes in Open Source Android Apps",
+            "url": "https://www.semanticscholar.org/paper/6ab7816ba1359953dd270983f30fc374189708c2",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": "1904.12607",
+            "authors": [
+                {
+                    "authorId": "2064136299",
+                    "name": "Daniel Martens"
+                },
+                {
+                    "authorId": "1706506",
+                    "name": "W. Maalej"
+                }
+            ],
+            "doi": "10.1007/s10664-019-09706-9",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "e41be9e1cb47fecfbcd20d9a810f3f807d7ec2e3",
+            "title": "Towards understanding and detecting fake reviews in app stores",
+            "url": "https://www.semanticscholar.org/paper/e41be9e1cb47fecfbcd20d9a810f3f807d7ec2e3",
+            "venue": "Empirical Software Engineering",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1403114578",
+                    "name": "A. Al-Subaihin"
+                },
+                {
+                    "authorId": "2103653",
+                    "name": "Federica Sarro"
+                },
+                {
+                    "authorId": "2054188708",
+                    "name": "S. Black"
+                },
+                {
+                    "authorId": "47809306",
+                    "name": "L. Capra"
+                },
+                {
+                    "authorId": "145836176",
+                    "name": "M. Harman"
+                }
+            ],
+            "doi": "10.1109/TSE.2019.2891715",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a8ad484a0930796487704f376bab7983f337ad0d",
+            "title": "App Store Effects on Software Engineering Practices",
+            "url": "https://www.semanticscholar.org/paper/a8ad484a0930796487704f376bab7983f337ad0d",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3252357",
+                    "name": "Stefano Comino"
+                },
+                {
+                    "authorId": "46536943",
+                    "name": "Fabio M. Manenti"
+                },
+                {
+                    "authorId": "11133440",
+                    "name": "Franco Mariuzzo"
+                }
+            ],
+            "doi": "10.1111/jems.12288",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6d48fb3aa510e8e7cdcd364587a3ce6592f3db3c",
+            "title": "Updates Management in Mobile Applications: Itunes Versus Google Play",
+            "url": "https://www.semanticscholar.org/paper/6d48fb3aa510e8e7cdcd364587a3ce6592f3db3c",
+            "venue": "Journal of Economics & Management Strategy",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51134165",
+                    "name": "F. Geiger"
+                },
+                {
+                    "authorId": "2331013",
+                    "name": "I. Malavolta"
+                },
+                {
+                    "authorId": "40695832",
+                    "name": "L. Pascarella"
+                },
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                },
+                {
+                    "authorId": "50515157",
+                    "name": "Dario Di Nucci"
+                },
+                {
+                    "authorId": "1686038",
+                    "name": "Alberto Bacchelli"
+                }
+            ],
+            "doi": "10.1145/3196398.3196460",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "370ed4a6b85454b6e2870530e1a0b5556d496b7e",
+            "title": "A Graph-Based Dataset of Commit History of Real-World Android apps",
+            "url": "https://www.semanticscholar.org/paper/370ed4a6b85454b6e2870530e1a0b5556d496b7e",
+            "venue": "2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                },
+                {
+                    "authorId": "1781267",
+                    "name": "M. V\u00e1squez"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                },
+                {
+                    "authorId": "145818752",
+                    "name": "A. D. Lucia"
+                }
+            ],
+            "doi": "10.1016/j.jss.2017.11.043",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "305b2f9ddcdc5ca4ce668d642893ded4b67aaa4d",
+            "title": "Crowdsourcing user reviews to support the evolution of mobile apps",
+            "url": "https://www.semanticscholar.org/paper/305b2f9ddcdc5ca4ce668d642893ded4b67aaa4d",
+            "venue": "J. Syst. Softw.",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3459335",
+                    "name": "Giovanni Grano"
+                },
+                {
+                    "authorId": "3144783",
+                    "name": "Andrea Di Sorbo"
+                },
+                {
+                    "authorId": "2112431",
+                    "name": "F. Mercaldo"
+                },
+                {
+                    "authorId": "1717023",
+                    "name": "C. A. Visaggio"
+                },
+                {
+                    "authorId": "1711200",
+                    "name": "G. Canfora"
+                },
+                {
+                    "authorId": "3117169",
+                    "name": "Sebastiano Panichella"
+                }
+            ],
+            "doi": "10.1145/3121264.3121266",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6d7ec7c464e27a696cf5cdac6766920d1b64405b",
+            "title": "Android apps and user feedback: a dataset for software evolution and quality improvement",
+            "url": "https://www.semanticscholar.org/paper/6d7ec7c464e27a696cf5cdac6766920d1b64405b",
+            "venue": "WAMA@ESEC/SIGSOFT FSE",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2068105297",
+                    "name": "William J. Martin"
+                },
+                {
+                    "authorId": "2103653",
+                    "name": "Federica Sarro"
+                },
+                {
+                    "authorId": "145401173",
+                    "name": "Yue Jia"
+                },
+                {
+                    "authorId": "2145793494",
+                    "name": "Yuanyuan Zhang"
+                },
+                {
+                    "authorId": "145836176",
+                    "name": "M. Harman"
+                }
+            ],
+            "doi": "10.1109/TSE.2016.2630689",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a75965753906c24a6a5715a695757a0de8447f26",
+            "title": "A Survey of App Store Analysis for Software Engineering",
+            "url": "https://www.semanticscholar.org/paper/a75965753906c24a6a5715a695757a0de8447f26",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2795942",
+                    "name": "Zijad Kurtanovi\u0107"
+                },
+                {
+                    "authorId": "1706506",
+                    "name": "W. Maalej"
+                }
+            ],
+            "doi": "10.1109/RE.2017.86",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1ec0c7d6cf87737dafa84c6fac004630a3db8d86",
+            "title": "Mining User Rationale from Software Reviews",
+            "url": "https://www.semanticscholar.org/paper/1ec0c7d6cf87737dafa84c6fac004630a3db8d86",
+            "venue": "2017 IEEE 25th International Requirements Engineering Conference (RE)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2197738",
+                    "name": "Timo Johann"
+                },
+                {
+                    "authorId": "3434782",
+                    "name": "Christoph Stanik"
+                },
+                {
+                    "authorId": "1410345745",
+                    "name": "B. AlirezaM.Alizadeh"
+                },
+                {
+                    "authorId": "1706506",
+                    "name": "W. Maalej"
+                }
+            ],
+            "doi": "10.1109/RE.2017.71",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "61c17d819a68daaef78f2db0dbb827d2ebde1f28",
+            "title": "SAFE: A Simple Approach for Feature Extraction from App Descriptions and App Reviews",
+            "url": "https://www.semanticscholar.org/paper/61c17d819a68daaef78f2db0dbb827d2ebde1f28",
+            "venue": "2017 IEEE 25th International Requirements Engineering Conference (RE)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2458645",
+                    "name": "Shahab Mokarizadeh"
+                },
+                {
+                    "authorId": "2110138936",
+                    "name": "M. T. Rahman"
+                },
+                {
+                    "authorId": "1709399",
+                    "name": "M. Matskin"
+                }
+            ],
+            "doi": "10.5220/0004502005270535",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "58c6db877d6d86f8f277cb9af6bab4532d32d4ae",
+            "title": "Mining and Analysis of Apps in Google Play",
+            "url": "https://www.semanticscholar.org/paper/58c6db877d6d86f8f277cb9af6bab4532d32d4ae",
+            "venue": "WEBIST",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2068105297",
+                    "name": "William J. Martin"
+                },
+                {
+                    "authorId": "2103653",
+                    "name": "Federica Sarro"
+                },
+                {
+                    "authorId": "145836176",
+                    "name": "M. Harman"
+                }
+            ],
+            "doi": "10.1145/2950290.2950320",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "65716fe3096aecf2c86331e98b7cc8a8089c3c5d",
+            "title": "Causal impact analysis for app releases in google play",
+            "url": "https://www.semanticscholar.org/paper/65716fe3096aecf2c86331e98b7cc8a8089c3c5d",
+            "venue": "SIGSOFT FSE",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3252357",
+                    "name": "Stefano Comino"
+                },
+                {
+                    "authorId": "46536943",
+                    "name": "Fabio M. Manenti"
+                },
+                {
+                    "authorId": "11133440",
+                    "name": "Franco Mariuzzo"
+                }
+            ],
+            "doi": "10.2139/ssrn.2664463",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8b7c6e86ecdf44eb4b8f9be3d99ac29071a6504a",
+            "title": "Updates Management in Mobile Applications. iTunes vs Google Play",
+            "url": "https://www.semanticscholar.org/paper/8b7c6e86ecdf44eb4b8f9be3d99ac29071a6504a",
+            "venue": "",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2065773129",
+                    "name": "Lorenzo Villarroel"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "143786074",
+                    "name": "B. Russo"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                }
+            ],
+            "doi": "10.1145/2884781.2884818",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "8204559805f2b45b43ce17efcb8adc6b631d9dca",
+            "title": "Release Planning of Mobile Apps Based on User Reviews",
+            "url": "https://www.semanticscholar.org/paper/8204559805f2b45b43ce17efcb8adc6b631d9dca",
+            "venue": "2016 IEEE/ACM 38th International Conference on Software Engineering (ICSE)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1790388",
+                    "name": "Kevin Allix"
+                },
+                {
+                    "authorId": "3023999",
+                    "name": "T\u00e9gawend\u00e9 F. Bissyand\u00e9"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                },
+                {
+                    "authorId": "47681863",
+                    "name": "Y. L. Traon"
+                }
+            ],
+            "doi": "10.1145/2901739.2903508",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "128add3f0e727b73b3df0ca13b4e818d543bdd98",
+            "title": "AndroZoo: Collecting Millions of Android Apps for the Research Community",
+            "url": "https://www.semanticscholar.org/paper/128add3f0e727b73b3df0ca13b4e818d543bdd98",
+            "venue": "2016 IEEE/ACM 13th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                },
+                {
+                    "authorId": "1781267",
+                    "name": "M. V\u00e1squez"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                },
+                {
+                    "authorId": "145818752",
+                    "name": "A. D. Lucia"
+                }
+            ],
+            "doi": "10.1109/ICSM.2015.7332475",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a8c5b8ea1e12d1cf7c4bc5579c76b2430eb453fb",
+            "title": "User reviews matter! Tracking crowdsourced reviews to support evolution of successful apps",
+            "url": "https://www.semanticscholar.org/paper/a8c5b8ea1e12d1cf7c4bc5579c76b2430eb453fb",
+            "venue": "2015 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2257400490",
+                    "name": "Dianne Martin"
+                }
+            ],
+            "doi": "10.1145/2794295",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "bc045fbcaa432c348a292b97832159d6c33c6804",
+            "title": "2015: the Year of Internet Governance",
+            "url": "https://www.semanticscholar.org/paper/bc045fbcaa432c348a292b97832159d6c33c6804",
+            "venue": "Inroads",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2068105297",
+                    "name": "William J. Martin"
+                },
+                {
+                    "authorId": "145836176",
+                    "name": "M. Harman"
+                },
+                {
+                    "authorId": "145401173",
+                    "name": "Yue Jia"
+                },
+                {
+                    "authorId": "2103653",
+                    "name": "Federica Sarro"
+                },
+                {
+                    "authorId": "2145793494",
+                    "name": "Yuanyuan Zhang"
+                }
+            ],
+            "doi": "10.1109/MSR.2015.19",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "8f9dcfcca159222ef1b307a169a0e96509f9d13b",
+            "title": "The App Sampling Problem for App Store Mining",
+            "url": "https://www.semanticscholar.org/paper/8f9dcfcca159222ef1b307a169a0e96509f9d13b",
+            "venue": "2015 IEEE/ACM 12th Working Conference on Mining Software Repositories",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2285193998",
+                    "name": "Gunwoong Lee"
+                },
+                {
+                    "authorId": "145054353",
+                    "name": "T. S. Raghu"
+                },
+                {
+                    "authorId": "2285193998",
+                    "name": "Gunwoong Lee"
+                }
+            ],
+            "doi": "10.2753/MIS0742-1222310206",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "dda6b6f404ca172da6482f2149e1bd31dab763b0",
+            "title": "Determinants of Mobile Apps' Success: Evidence from the App Store Market",
+            "url": "https://www.semanticscholar.org/paper/dda6b6f404ca172da6482f2149e1bd31dab763b0",
+            "venue": "J. Manag. Inf. Syst.",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144540463",
+                    "name": "Emitz\u00e1 Guzm\u00e1n"
+                },
+                {
+                    "authorId": "1706506",
+                    "name": "W. Maalej"
+                }
+            ],
+            "doi": "10.1109/RE.2014.6912257",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "030ea3f854d688659500a949eac095cdba087682",
+            "title": "How Do Users Like This Feature? A Fine Grained Sentiment Analysis of App Reviews",
+            "url": "https://www.semanticscholar.org/paper/030ea3f854d688659500a949eac095cdba087682",
+            "venue": "2014 IEEE 22nd International Requirements Engineering Conference (RE)",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145320309",
+                    "name": "Claudia Iacob"
+                },
+                {
+                    "authorId": "145044972",
+                    "name": "R. Harrison"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624001",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "af185f391d73e59c5e062de920d456e87c004d87",
+            "title": "Retrieving and analyzing mobile apps feature requests from online reviews",
+            "url": "https://www.semanticscholar.org/paper/af185f391d73e59c5e062de920d456e87c004d87",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "90168196",
+                    "name": "Dai Lulu"
+                },
+                {
+                    "authorId": "1770193",
+                    "name": "T. Kuflik"
+                }
+            ],
+            "doi": "10.1145/2449396.2449434",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "af3362b02515d1ea1dfd35b6bfcc00e6bb9d0108",
+            "title": "Functionality-based clustering using short textual description: helping users to find apps installed on their mobile device",
+            "url": "https://www.semanticscholar.org/paper/af3362b02515d1ea1dfd35b6bfcc00e6bb9d0108",
+            "venue": "IUI '13",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2109330484",
+                    "name": "Jieun Kim"
+                },
+                {
+                    "authorId": "1779818",
+                    "name": "Yongtae Park"
+                },
+                {
+                    "authorId": "34417180",
+                    "name": "Chulhyun Kim"
+                },
+                {
+                    "authorId": "2697033",
+                    "name": "Hakyeon Lee"
+                }
+            ],
+            "doi": "10.1007/s11628-013-0184-z",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "4386e521e8ed3d3dcfcf5770a898a4acac7368f2",
+            "title": "Mobile application service networks: Apple\u2019s App Store",
+            "url": "https://www.semanticscholar.org/paper/4386e521e8ed3d3dcfcf5770a898a4acac7368f2",
+            "venue": "Service Business",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2388036",
+                    "name": "Rishi Chandy"
+                },
+                {
+                    "authorId": "3282271",
+                    "name": "Haijie Gu"
+                }
+            ],
+            "doi": "10.1145/2184305.2184317",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "88d2479c176f62147b7e348c98ba371a748fc719",
+            "title": "Identifying spam in the iOS app store",
+            "url": "https://www.semanticscholar.org/paper/88d2479c176f62147b7e348c98ba371a748fc719",
+            "venue": "WebQuality '12",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1744047",
+                    "name": "M. Goul"
+                },
+                {
+                    "authorId": "1689351",
+                    "name": "O. Marjanovic"
+                },
+                {
+                    "authorId": "2448441",
+                    "name": "Susan Baxley"
+                },
+                {
+                    "authorId": "2106379",
+                    "name": "Karen Vizecky"
+                }
+            ],
+            "doi": "10.1109/HICSS.2012.421",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "99b35f18c26e74ba53fcf929e5f5d1d9549b5255",
+            "title": "Managing the Enterprise Business Intelligence App Store: Sentiment Analysis Supported Requirements Engineering",
+            "url": "https://www.semanticscholar.org/paper/99b35f18c26e74ba53fcf929e5f5d1d9549b5255",
+            "venue": "2012 45th Hawaii International Conference on System Sciences",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2238270909",
+                    "name": "Theo H\u00e4rder"
+                },
+                {
+                    "authorId": "40456559",
+                    "name": "A. Reuter"
+                }
+            ],
+            "doi": "10.1145/289.291",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "e72c49c059ac9926cc7e25d18971300f7ec2feef",
+            "title": "Principles of transaction-oriented database recovery",
+            "url": "https://www.semanticscholar.org/paper/e72c49c059ac9926cc7e25d18971300f7ec2feef",
+            "venue": "CSUR",
+            "year": 1983
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "",
+            "title": "Hall-of-Apps: The Top Android Apps Metadata Archive",
+            "url": "",
+            "venue": "",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2065092404",
+                    "name": "Andreas M\u00f6ller"
+                },
+                {
+                    "authorId": "1779122",
+                    "name": "F. Michahelles"
+                },
+                {
+                    "authorId": "2154445",
+                    "name": "Stefan Diewald"
+                },
+                {
+                    "authorId": "2207050",
+                    "name": "L. Roalter"
+                },
+                {
+                    "authorId": "1683258",
+                    "name": "M. Kranz"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "25e4b6841bf05510c32c72a1d4347c21db1125f7",
+            "title": "Update Behavior in App Markets and Security Implications : A Case Study in Google Play",
+            "url": "https://www.semanticscholar.org/paper/25e4b6841bf05510c32c72a1d4347c21db1125f7",
+            "venue": "",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "",
+            "title": "Hall-of-Apps Online Appendix",
+            "url": "",
+            "venue": "thesoftwaredesignlab",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "5 Quick Stats About Developers (And What They Mean)",
+            "url": "",
+            "venue": "stackoverflowbusiness",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Google Play: number of available apps 2009-2019",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "Hall-of-Apps: The Top Android Apps Metadata Archive",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/772bdd58ad1af3cd036dddee53f1b824bd66f5ab",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2020
+}

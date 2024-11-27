@@ -1,0 +1,1903 @@
+{
+    "abstract": "Due to the cost of developing and training deep learning models from scratch, machine learning engineers have begun to reuse pre-trained models (PTMs) and fine-tune them for downstream tasks. PTM registries known as \u201cmodel hubs\u201d support engineers in distributing and reusing deep learning models. PTM packages include pre-trained weights, documentation, model architectures, datasets, and metadata. Mining the information in PTM packages will enable the discovery of engineering phenomena and tools to support software engineers. However, accessing this information is difficult \u2014 there are many PTM registries, and both the registries and the individual packages may have rate limiting for accessing the data.We present an open-source dataset, PTMTorrent, to facilitate the evaluation and understanding of PTM packages. This paper describes the creation, structure, usage, and limitations of the dataset. The dataset includes a snapshot of 5 model hubs and a total of 15,913 PTM packages. These packages are represented in a uniform data schema for cross-hub mining. We describe prior uses of this data and suggest research opportunities for mining using our dataset.The PTMTorrent dataset (v1) is available at: https://app.globus.org/file-manager?origin_id=55e17a6e-9d8f-11ed-a2a2-8383522b48d9&origin_path=%2F%7E%2F.Our dataset generation tools are available on GitHub: https://doi.org/10.5281/zenodo.7570357",
+    "arxivId": "2303.08934",
+    "authors": [
+        {
+            "authorId": "2155573042",
+            "name": "Wenxin Jiang",
+            "url": "https://www.semanticscholar.org/author/2155573042"
+        },
+        {
+            "authorId": "2022972891",
+            "name": "Nicholas Synovic",
+            "url": "https://www.semanticscholar.org/author/2022972891"
+        },
+        {
+            "authorId": "1723431934",
+            "name": "Purvish Jajal",
+            "url": "https://www.semanticscholar.org/author/1723431934"
+        },
+        {
+            "authorId": "2190180622",
+            "name": "Taylor R. Schorlemmer",
+            "url": "https://www.semanticscholar.org/author/2190180622"
+        },
+        {
+            "authorId": "2211732677",
+            "name": "Arav Tewari",
+            "url": "https://www.semanticscholar.org/author/2211732677"
+        },
+        {
+            "authorId": "2211733038",
+            "name": "Bhavesh Pareek",
+            "url": "https://www.semanticscholar.org/author/2211733038"
+        },
+        {
+            "authorId": "145078593",
+            "name": "G. Thiruvathukal",
+            "url": "https://www.semanticscholar.org/author/145078593"
+        },
+        {
+            "authorId": "2111092425",
+            "name": "James C. Davis",
+            "url": "https://www.semanticscholar.org/author/2111092425"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50552573",
+                    "name": "Ge Han"
+                },
+                {
+                    "authorId": "2146248003",
+                    "name": "Zheng Li"
+                },
+                {
+                    "authorId": "2292890623",
+                    "name": "Shanqing Guo"
+                }
+            ],
+            "doi": "10.1109/IJCNN60899.2024.10650019",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "32640d0c04cdefbd3ebe262c6ff99a0e768fd6b8",
+            "title": "PRJack: Pruning-Resistant Model Hijacking Attack Against Deep Learning Models",
+            "url": "https://www.semanticscholar.org/paper/32640d0c04cdefbd3ebe262c6ff99a0e768fd6b8",
+            "venue": "2024 International Joint Conference on Neural Networks (IJCNN)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2406.08205",
+            "authors": [
+                {
+                    "authorId": "2254201244",
+                    "name": "Jason Jones"
+                },
+                {
+                    "authorId": "2155573042",
+                    "name": "Wenxin Jiang"
+                },
+                {
+                    "authorId": "2022972891",
+                    "name": "Nicholas Synovic"
+                },
+                {
+                    "authorId": "145078593",
+                    "name": "G. Thiruvathukal"
+                },
+                {
+                    "authorId": "2111092425",
+                    "name": "James C. Davis"
+                }
+            ],
+            "doi": "10.48550/arXiv.2406.08205",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7eb3c9572cb97f1b8c3b29c76eedd976eadcd9a3",
+            "title": "What do we know about Hugging Face? A systematic literature review and quantitative validation of qualitative claims",
+            "url": "https://www.semanticscholar.org/paper/7eb3c9572cb97f1b8c3b29c76eedd976eadcd9a3",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": "2405.16746",
+            "authors": [
+                {
+                    "authorId": "2287815395",
+                    "name": "Zhou Yang"
+                },
+                {
+                    "authorId": "151496516",
+                    "name": "Jieke Shi"
+                },
+                {
+                    "authorId": "2257269079",
+                    "name": "David Lo"
+                }
+            ],
+            "doi": "10.48550/arXiv.2405.16746",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e22e9a3b3ef727887dd50b08cef77a4ddd01d50e",
+            "title": "Ecosystem of Large Language Models for Code",
+            "url": "https://www.semanticscholar.org/paper/e22e9a3b3ef727887dd50b08cef77a4ddd01d50e",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": "2405.05541",
+            "authors": [
+                {
+                    "authorId": "2300370621",
+                    "name": "Philip Oliver"
+                },
+                {
+                    "authorId": "2300371031",
+                    "name": "Jens Dietrich"
+                },
+                {
+                    "authorId": "1741672",
+                    "name": "C. Anslow"
+                },
+                {
+                    "authorId": "2239110364",
+                    "name": "Michael Homer"
+                }
+            ],
+            "doi": "10.1145/3643991.3644912",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "aee4ae2631ef612458fead210ce214b3ffb1d6dd",
+            "title": "CrashJS: A NodeJS Benchmark for Automated Crash Reproduction",
+            "url": "https://www.semanticscholar.org/paper/aee4ae2631ef612458fead210ce214b3ffb1d6dd",
+            "venue": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2402.00699",
+            "authors": [
+                {
+                    "authorId": "2249756140",
+                    "name": "Wenxin Jiang"
+                },
+                {
+                    "authorId": "1917754410",
+                    "name": "Jerin Yasmin"
+                },
+                {
+                    "authorId": "2254201244",
+                    "name": "Jason Jones"
+                },
+                {
+                    "authorId": "2022972891",
+                    "name": "Nicholas Synovic"
+                },
+                {
+                    "authorId": "2282136870",
+                    "name": "Jiashen Kuo"
+                },
+                {
+                    "authorId": "2282136815",
+                    "name": "Nathaniel Bielanski"
+                },
+                {
+                    "authorId": "2254299985",
+                    "name": "Yuan Tian"
+                },
+                {
+                    "authorId": "145078593",
+                    "name": "G. Thiruvathukal"
+                },
+                {
+                    "authorId": "2111092425",
+                    "name": "James C. Davis"
+                }
+            ],
+            "doi": "10.1145/3643991.3644907",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8686805010697380c8ad1d908ce4074a99c924ab",
+            "title": "PeaTMOSS: A Dataset and Initial Analysis of Pre-Trained Models in Open-Source Software",
+            "url": "https://www.semanticscholar.org/paper/8686805010697380c8ad1d908ce4074a99c924ab",
+            "venue": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2401.14635",
+            "authors": [
+                {
+                    "authorId": "2190180622",
+                    "name": "Taylor R. Schorlemmer"
+                },
+                {
+                    "authorId": "2229562943",
+                    "name": "Kelechi G. Kalu"
+                },
+                {
+                    "authorId": "2281636818",
+                    "name": "Luke Chigges"
+                },
+                {
+                    "authorId": "2281637008",
+                    "name": "Kyung Myung Ko"
+                },
+                {
+                    "authorId": "2281636596",
+                    "name": "Eman Abdul-Muhd Abu Isghair"
+                },
+                {
+                    "authorId": "2281636854",
+                    "name": "Saurabh Baghi"
+                },
+                {
+                    "authorId": "2261287820",
+                    "name": "Santiago Torres-Arias"
+                },
+                {
+                    "authorId": "2281715077",
+                    "name": "James C. Davis"
+                }
+            ],
+            "doi": "10.1109/SP54263.2024.00215",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1b91604454aa47c76fc2f3903f8efb3323c79862",
+            "title": "Signing in Four Public Software Package Registries: Quantity, Quality, and Influencing Factors",
+            "url": "https://www.semanticscholar.org/paper/1b91604454aa47c76fc2f3903f8efb3323c79862",
+            "venue": "2024 IEEE Symposium on Security and Privacy (SP)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2310.01642",
+            "authors": [
+                {
+                    "authorId": "2155573042",
+                    "name": "Wenxin Jiang"
+                },
+                {
+                    "authorId": "2253407091",
+                    "name": "Chingwo Cheung"
+                },
+                {
+                    "authorId": "2294309398",
+                    "name": "Mingyu Kim"
+                },
+                {
+                    "authorId": "2295514237",
+                    "name": "Heesoo Kim"
+                },
+                {
+                    "authorId": "145078593",
+                    "name": "G. Thiruvathukal"
+                },
+                {
+                    "authorId": "2111092425",
+                    "name": "James C. Davis"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "85abae4b6401ad96125e4ca5a8d662d65f068fe4",
+            "title": "Naming Practices of Pre-Trained Models in Hugging Face",
+            "url": "https://www.semanticscholar.org/paper/85abae4b6401ad96125e4ca5a8d662d65f068fe4",
+            "venue": "",
+            "year": 2023
+        },
+        {
+            "arxivId": "2307.14781",
+            "authors": [
+                {
+                    "authorId": "2112312782",
+                    "name": "Shangde Gao"
+                },
+                {
+                    "authorId": "2219970402",
+                    "name": "Yichao Fu"
+                },
+                {
+                    "authorId": "47968272",
+                    "name": "Li-Yu Daisy Liu"
+                },
+                {
+                    "authorId": "2112896832",
+                    "name": "Yuqiang Han"
+                }
+            ],
+            "doi": "10.48550/arXiv.2307.14781",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "689281c2424eeeab83c677f3d1548af3aa22df1a",
+            "title": "Contrastive Knowledge Amalgamation for Unsupervised Image Classification",
+            "url": "https://www.semanticscholar.org/paper/689281c2424eeeab83c677f3d1548af3aa22df1a",
+            "venue": "ICANN",
+            "year": 2023
+        },
+        {
+            "arxivId": "2404.16688",
+            "authors": [
+                {
+                    "authorId": "2111092425",
+                    "name": "James C. Davis"
+                },
+                {
+                    "authorId": "1723431934",
+                    "name": "Purvish Jajal"
+                },
+                {
+                    "authorId": "2155573042",
+                    "name": "Wenxin Jiang"
+                },
+                {
+                    "authorId": "2190180622",
+                    "name": "Taylor R. Schorlemmer"
+                },
+                {
+                    "authorId": "2022972891",
+                    "name": "Nicholas Synovic"
+                },
+                {
+                    "authorId": "145078593",
+                    "name": "G. Thiruvathukal"
+                }
+            ],
+            "doi": "10.1109/JVA60410.2023.00015",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "432f05e19051b8ccdece6dd6e2df8468051f35d9",
+            "title": "Reusing Deep Learning Models: Challenges and Directions in Software Engineering",
+            "url": "https://www.semanticscholar.org/paper/432f05e19051b8ccdece6dd6e2df8468051f35d9",
+            "venue": "2023 IEEE John Vincent Atanasoff International Symposium on Modern Computing (JVA)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2303.07476",
+            "authors": [
+                {
+                    "authorId": "2155573042",
+                    "name": "Wenxin Jiang"
+                },
+                {
+                    "authorId": "1712261340",
+                    "name": "Vishnu Banna"
+                },
+                {
+                    "authorId": "2117569434",
+                    "name": "Naveen Vivek"
+                },
+                {
+                    "authorId": "145689527",
+                    "name": "Abhinav Goel"
+                },
+                {
+                    "authorId": "2022972891",
+                    "name": "Nicholas Synovic"
+                },
+                {
+                    "authorId": "145078593",
+                    "name": "G. Thiruvathukal"
+                },
+                {
+                    "authorId": "2111092425",
+                    "name": "James C. Davis"
+                }
+            ],
+            "doi": "10.48550/arXiv.2303.07476",
+            "intent": [
+                "result",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "572a36328adb06442d2fbee506df152183b167b2",
+            "title": "Challenges and Practices of Deep Learning Model Reengineering: A Case Study on Computer Vision",
+            "url": "https://www.semanticscholar.org/paper/572a36328adb06442d2fbee506df152183b167b2",
+            "venue": "Empir. Softw. Eng.",
+            "year": 2023
+        },
+        {
+            "arxivId": "2303.02552",
+            "authors": [
+                {
+                    "authorId": "2155573042",
+                    "name": "Wenxin Jiang"
+                },
+                {
+                    "authorId": "2022972891",
+                    "name": "Nicholas Synovic"
+                },
+                {
+                    "authorId": "2176789027",
+                    "name": "Matt Hyatt"
+                },
+                {
+                    "authorId": "2190180622",
+                    "name": "Taylor R. Schorlemmer"
+                },
+                {
+                    "authorId": "16336801",
+                    "name": "R. Sethi"
+                },
+                {
+                    "authorId": "1781255",
+                    "name": "Yung-Hsiang Lu"
+                },
+                {
+                    "authorId": "145078593",
+                    "name": "G. Thiruvathukal"
+                },
+                {
+                    "authorId": "2111092425",
+                    "name": "James C. Davis"
+                }
+            ],
+            "doi": "10.1109/ICSE48619.2023.00206",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2f4a119883e599f3202a483453250d7874c3c322",
+            "title": "An Empirical Study of Pre-Trained Model Reuse in the Hugging Face Deep Learning Model Registry",
+            "url": "https://www.semanticscholar.org/paper/2f4a119883e599f3202a483453250d7874c3c322",
+            "venue": "2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1723431934",
+                    "name": "Purvish Jajal"
+                },
+                {
+                    "authorId": "2155573042",
+                    "name": "Wenxin Jiang"
+                },
+                {
+                    "authorId": "2211732677",
+                    "name": "Arav Tewari"
+                },
+                {
+                    "authorId": "2212889051",
+                    "name": "Joseph Woo"
+                },
+                {
+                    "authorId": "1781255",
+                    "name": "Yung-Hsiang Lu"
+                },
+                {
+                    "authorId": "145078593",
+                    "name": "G. Thiruvathukal"
+                },
+                {
+                    "authorId": "2111092425",
+                    "name": "James C. Davis"
+                }
+            ],
+            "doi": "10.48550/arXiv.2303.17708",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "16311d71dd59c95c84ef31b27d8536e068bf5063",
+            "title": "Analysis of Failures and Risks in Deep Learning Model Converters: A Case Study in the ONNX Ecosystem",
+            "url": "https://www.semanticscholar.org/paper/16311d71dd59c95c84ef31b27d8536e068bf5063",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2155573042",
+                    "name": "Wenxin Jiang"
+                },
+                {
+                    "authorId": "2253407091",
+                    "name": "Chingwo Cheung"
+                },
+                {
+                    "authorId": "145078593",
+                    "name": "G. Thiruvathukal"
+                },
+                {
+                    "authorId": "2111092425",
+                    "name": "James C. Davis"
+                }
+            ],
+            "doi": "10.48550/arXiv.2310.01642",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4a607697d39989472b12c81be575a5afabecf8f7",
+            "title": "Exploring Naming Conventions (and Defects) of Pre-trained Deep Learning Models in Hugging Face and Other Model Hubs",
+            "url": "https://www.semanticscholar.org/paper/4a607697d39989472b12c81be575a5afabecf8f7",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2254201244",
+                    "name": "Jason Jones"
+                },
+                {
+                    "authorId": "2155573042",
+                    "name": "Wenxin Jiang"
+                },
+                {
+                    "authorId": "2022972891",
+                    "name": "Nicholas Synovic"
+                },
+                {
+                    "authorId": "2065788416",
+                    "name": "George K. Thiruvathukal"
+                },
+                {
+                    "authorId": "2111092968",
+                    "name": "James C. Davis"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e0b08cc0bc0293e4a041b2fd05834f26c3c1a94a",
+            "title": "Loyola eCommons Loyola eCommons",
+            "url": "https://www.semanticscholar.org/paper/e0b08cc0bc0293e4a041b2fd05834f26c3c1a94a",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "corpusId": 257557686,
+    "doi": "10.1109/MSR59073.2023.00021",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 14,
+    "numCiting": 49,
+    "paperId": "517a4c10716f5f329e33abed7407b40ca67a8917",
+    "references": [
+        {
+            "arxivId": "2303.02552",
+            "authors": [
+                {
+                    "authorId": "2155573042",
+                    "name": "Wenxin Jiang"
+                },
+                {
+                    "authorId": "2022972891",
+                    "name": "Nicholas Synovic"
+                },
+                {
+                    "authorId": "2176789027",
+                    "name": "Matt Hyatt"
+                },
+                {
+                    "authorId": "2190180622",
+                    "name": "Taylor R. Schorlemmer"
+                },
+                {
+                    "authorId": "16336801",
+                    "name": "R. Sethi"
+                },
+                {
+                    "authorId": "1781255",
+                    "name": "Yung-Hsiang Lu"
+                },
+                {
+                    "authorId": "145078593",
+                    "name": "G. Thiruvathukal"
+                },
+                {
+                    "authorId": "2111092425",
+                    "name": "James C. Davis"
+                }
+            ],
+            "doi": "10.1109/ICSE48619.2023.00206",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "2f4a119883e599f3202a483453250d7874c3c322",
+            "title": "An Empirical Study of Pre-Trained Model Reuse in the Hugging Face Deep Learning Model Registry",
+            "url": "https://www.semanticscholar.org/paper/2f4a119883e599f3202a483453250d7874c3c322",
+            "venue": "2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2155573042",
+                    "name": "Wenxin Jiang"
+                },
+                {
+                    "authorId": "2022972891",
+                    "name": "Nicholas Synovic"
+                },
+                {
+                    "authorId": "16336801",
+                    "name": "R. Sethi"
+                },
+                {
+                    "authorId": "2190180689",
+                    "name": "Aryan Indarapu"
+                },
+                {
+                    "authorId": "2176789027",
+                    "name": "Matt Hyatt"
+                },
+                {
+                    "authorId": "2190180622",
+                    "name": "Taylor R. Schorlemmer"
+                },
+                {
+                    "authorId": "145078593",
+                    "name": "G. Thiruvathukal"
+                },
+                {
+                    "authorId": "2111092425",
+                    "name": "James C. Davis"
+                }
+            ],
+            "doi": "10.1145/3560835.3564547",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "6c4b7a3abbee06c565dc1eefb39ffe06462c8715",
+            "title": "An Empirical Study of Artifacts and Security Risks in the Pre-trained Model Supply Chain",
+            "url": "https://www.semanticscholar.org/paper/6c4b7a3abbee06c565dc1eefb39ffe06462c8715",
+            "venue": "SCORED@CCS",
+            "year": 2022
+        },
+        {
+            "arxivId": "2303.02551",
+            "authors": [
+                {
+                    "authorId": "2190144697",
+                    "name": "Diego Montes"
+                },
+                {
+                    "authorId": "2190144567",
+                    "name": "Pongpatapee Peerapatanapokin"
+                },
+                {
+                    "authorId": "2190292262",
+                    "name": "Jeff Schultz"
+                },
+                {
+                    "authorId": "2187278706",
+                    "name": "Chengjun Guo"
+                },
+                {
+                    "authorId": "2155573042",
+                    "name": "Wenxin Jiang"
+                },
+                {
+                    "authorId": "2111092425",
+                    "name": "James C. Davis"
+                }
+            ],
+            "doi": "10.1145/3540250.3560881",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "790b656eb0abfa355692c679866788718ce133a3",
+            "title": "Discrepancies among pre-trained deep neural networks: a new threat to model zoo reliability",
+            "url": "https://www.semanticscholar.org/paper/790b656eb0abfa355692c679866788718ce133a3",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2022
+        },
+        {
+            "arxivId": "2207.11767",
+            "authors": [
+                {
+                    "authorId": "2022972891",
+                    "name": "Nicholas Synovic"
+                },
+                {
+                    "authorId": "2176789027",
+                    "name": "Matt Hyatt"
+                },
+                {
+                    "authorId": "16336801",
+                    "name": "R. Sethi"
+                },
+                {
+                    "authorId": "2176788295",
+                    "name": "Sohini Thota"
+                },
+                {
+                    "authorId": "41022949",
+                    "name": "Shilpika"
+                },
+                {
+                    "authorId": "2176784969",
+                    "name": "Allan J. Miller"
+                },
+                {
+                    "authorId": "2155573042",
+                    "name": "Wenxin Jiang"
+                },
+                {
+                    "authorId": "2165736379",
+                    "name": "Emmanuel S. Amobi"
+                },
+                {
+                    "authorId": "2176788220",
+                    "name": "Austin Pinderski"
+                },
+                {
+                    "authorId": "1807030",
+                    "name": "Konstantin L\u00e4ufer"
+                },
+                {
+                    "authorId": "143619613",
+                    "name": "N. J. Hayward"
+                },
+                {
+                    "authorId": "2119764",
+                    "name": "Neil Klingensmith"
+                },
+                {
+                    "authorId": "2111092425",
+                    "name": "James C. Davis"
+                },
+                {
+                    "authorId": "145078593",
+                    "name": "G. Thiruvathukal"
+                }
+            ],
+            "doi": "10.1145/3551349.3559517",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "06ddef17c0dd48430950c95ae1bb62246ac03374",
+            "title": "Snapshot Metrics Are Not Enough: Analyzing Software Repositories with Longitudinal Metrics",
+            "url": "https://www.semanticscholar.org/paper/06ddef17c0dd48430950c95ae1bb62246ac03374",
+            "venue": "ASE",
+            "year": 2022
+        },
+        {
+            "arxivId": "2204.04008",
+            "authors": [
+                {
+                    "authorId": "2161967507",
+                    "name": "Piergiorgio Ladisa"
+                },
+                {
+                    "authorId": "3283588",
+                    "name": "H. Plate"
+                },
+                {
+                    "authorId": "37368749",
+                    "name": "Matias Martinez"
+                },
+                {
+                    "authorId": "2454048",
+                    "name": "Olivier Barais"
+                }
+            ],
+            "doi": "10.1109/SP46215.2023.10179304",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "99041957b4d3b3c3f30a79e31c6e54756faa7ca0",
+            "title": "SoK: Taxonomy of Attacks on Open-Source Software Supply Chains",
+            "url": "https://www.semanticscholar.org/paper/99041957b4d3b3c3f30a79e31c6e54756faa7ca0",
+            "venue": "2023 IEEE Symposium on Security and Privacy (SP)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2112.10165",
+            "authors": [
+                {
+                    "authorId": "92248810",
+                    "name": "Nusrat Zahan"
+                },
+                {
+                    "authorId": "144426849",
+                    "name": "L. Williams"
+                },
+                {
+                    "authorId": "143609903",
+                    "name": "Thomas Zimmermann"
+                },
+                {
+                    "authorId": "1707506",
+                    "name": "Patrice Godefroid"
+                },
+                {
+                    "authorId": "49358427",
+                    "name": "Brendan Murphy"
+                },
+                {
+                    "authorId": "22192720",
+                    "name": "C. Maddila"
+                }
+            ],
+            "doi": "10.1145/3510457.3513044",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2559d57aa03f4e8da2a1d8dfb06f56d1399a83a9",
+            "title": "What are Weak Links in the npm Supply Chain?",
+            "url": "https://www.semanticscholar.org/paper/2559d57aa03f4e8da2a1d8dfb06f56d1399a83a9",
+            "venue": "2022 IEEE/ACM 44th International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2064171309",
+                    "name": "Daniel Elsner"
+                },
+                {
+                    "authorId": "2287987",
+                    "name": "Florian Hauer"
+                },
+                {
+                    "authorId": "144658639",
+                    "name": "A. Pretschner"
+                },
+                {
+                    "authorId": "25466001",
+                    "name": "Silke Reimer"
+                }
+            ],
+            "doi": "10.1145/3460319.3464834",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "bdab29415be76e68d3c98defb72fc882d9daaf42",
+            "title": "Empirically evaluating readily available information for regression test optimization in continuous integration",
+            "url": "https://www.semanticscholar.org/paper/bdab29415be76e68d3c98defb72fc882d9daaf42",
+            "venue": "ISSTA",
+            "year": 2021
+        },
+        {
+            "arxivId": "2107.00821",
+            "authors": [
+                {
+                    "authorId": "1712261340",
+                    "name": "Vishnu Banna"
+                },
+                {
+                    "authorId": "1704406921",
+                    "name": "Akhil Chinnakotla"
+                },
+                {
+                    "authorId": "2152533240",
+                    "name": "Zhengxin Yan"
+                },
+                {
+                    "authorId": "1643891673",
+                    "name": "Anirudh Vegesana"
+                },
+                {
+                    "authorId": "2117569434",
+                    "name": "Naveen Vivek"
+                },
+                {
+                    "authorId": "2117569218",
+                    "name": "Kruthi Krishnappa"
+                },
+                {
+                    "authorId": "2155573042",
+                    "name": "Wenxin Jiang"
+                },
+                {
+                    "authorId": "1781255",
+                    "name": "Yung-Hsiang Lu"
+                },
+                {
+                    "authorId": "145078593",
+                    "name": "G. Thiruvathukal"
+                },
+                {
+                    "authorId": "113882367",
+                    "name": "James C. Davis"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5a8fdbf82b043a84f1d8b868f37b74255e1858b3",
+            "title": "An Experience Report on Machine Learning Reproducibility: Guidance for Practitioners and TensorFlow Model Garden Contributors",
+            "url": "https://www.semanticscholar.org/paper/5a8fdbf82b043a84f1d8b868f37b74255e1858b3",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": "2104.10350",
+            "authors": [
+                {
+                    "authorId": "2084633463",
+                    "name": "David A. Patterson"
+                },
+                {
+                    "authorId": "2119114885",
+                    "name": "Joseph Gonzalez"
+                },
+                {
+                    "authorId": "1397917613",
+                    "name": "Quoc V. Le"
+                },
+                {
+                    "authorId": "145246869",
+                    "name": "Chen Liang"
+                },
+                {
+                    "authorId": "2371589",
+                    "name": "Llu\u00eds-Miquel Mungu\u00eda"
+                },
+                {
+                    "authorId": "66465431",
+                    "name": "D. Rothchild"
+                },
+                {
+                    "authorId": "48165870",
+                    "name": "David R. So"
+                },
+                {
+                    "authorId": "2080027603",
+                    "name": "Maud Texier"
+                },
+                {
+                    "authorId": "48448318",
+                    "name": "J. Dean"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7a16d9b4e04300d034502dc7dd58428714594e2c",
+            "title": "Carbon Emissions and Large Neural Network Training",
+            "url": "https://www.semanticscholar.org/paper/7a16d9b4e04300d034502dc7dd58428714594e2c",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "9724763",
+                    "name": "Mahmoud Alfadel"
+                },
+                {
+                    "authorId": "115989708",
+                    "name": "D. Costa"
+                },
+                {
+                    "authorId": "3318024",
+                    "name": "Emad Shihab"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10278-4",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "bd99aa53be0f6544e1f8db7ac60402cafa84f25d",
+            "title": "Empirical analysis of security vulnerabilities in Python packages",
+            "url": "https://www.semanticscholar.org/paper/bd99aa53be0f6544e1f8db7ac60402cafa84f25d",
+            "venue": "2021 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2010.16196",
+            "authors": [
+                {
+                    "authorId": "7777374",
+                    "name": "Yuxing Ma"
+                },
+                {
+                    "authorId": "8041820",
+                    "name": "Tapajit Dey"
+                },
+                {
+                    "authorId": "2065313146",
+                    "name": "Chris Bogart"
+                },
+                {
+                    "authorId": "3110752",
+                    "name": "Sadika Amreen"
+                },
+                {
+                    "authorId": "2091537692",
+                    "name": "Marat Valiev"
+                },
+                {
+                    "authorId": "1866565388",
+                    "name": "Adam Tutko"
+                },
+                {
+                    "authorId": "2081943297",
+                    "name": "David Kennard"
+                },
+                {
+                    "authorId": "2858102",
+                    "name": "R. Zaretzki"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09905-9",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "12404a5147b39e9a34849606bf2c056f84903c8d",
+            "title": "World of code: enabling a research workflow for mining and analyzing the universe of open source VCS data",
+            "url": "https://www.semanticscholar.org/paper/12404a5147b39e9a34849606bf2c056f84903c8d",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": "10.18653/v1/2020.emnlp-demos.6",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Transformers: State-of-the-Art Natural Language Processing",
+            "url": "",
+            "venue": "EMNLP",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49976542",
+                    "name": "H. Pham"
+                },
+                {
+                    "authorId": "2112296840",
+                    "name": "Shangshu Qian"
+                },
+                {
+                    "authorId": "2128721926",
+                    "name": "Jiannan Wang"
+                },
+                {
+                    "authorId": "2492099",
+                    "name": "Thibaud Lutellier"
+                },
+                {
+                    "authorId": "2061113229",
+                    "name": "Jonathan Rosenthal"
+                },
+                {
+                    "authorId": "2106349652",
+                    "name": "Lin Tan"
+                },
+                {
+                    "authorId": "40508553",
+                    "name": "Yaoliang Yu"
+                },
+                {
+                    "authorId": "1693689",
+                    "name": "Nachiappan Nagappan"
+                }
+            ],
+            "doi": "10.1145/3324884.3416545",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1e5fb8003f866f9beeb1003f0be9a129d480ae75",
+            "title": "Problems and Opportunities in Training Deep Learning Software Systems: An Analysis of Variance",
+            "url": "https://www.semanticscholar.org/paper/1e5fb8003f866f9beeb1003f0be9a129d480ae75",
+            "venue": "2020 35th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3251359",
+                    "name": "Toni Mattis"
+                },
+                {
+                    "authorId": "35178070",
+                    "name": "Patrick Rein"
+                },
+                {
+                    "authorId": "1396198176",
+                    "name": "Falco D\u00fcrsch"
+                },
+                {
+                    "authorId": "1741504",
+                    "name": "R. Hirschfeld"
+                }
+            ],
+            "doi": "10.1145/3379597.3387458",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c534772510d9df8d5da5286a2fdf70ef32fc723b",
+            "title": "RTPTorrent: An Open-source Dataset for Evaluating Regression Test Prioritization",
+            "url": "https://www.semanticscholar.org/paper/c534772510d9df8d5da5286a2fdf70ef32fc723b",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1719124",
+                    "name": "Saleema Amershi"
+                },
+                {
+                    "authorId": "1776779",
+                    "name": "Andrew Begel"
+                },
+                {
+                    "authorId": "145193818",
+                    "name": "C. Bird"
+                },
+                {
+                    "authorId": "1710751",
+                    "name": "R. Deline"
+                },
+                {
+                    "authorId": "50355692",
+                    "name": "H. Gall"
+                },
+                {
+                    "authorId": "1783184",
+                    "name": "Ece Kamar"
+                },
+                {
+                    "authorId": "1693689",
+                    "name": "Nachiappan Nagappan"
+                },
+                {
+                    "authorId": "2571049",
+                    "name": "Besmira Nushi"
+                },
+                {
+                    "authorId": "143609903",
+                    "name": "Thomas Zimmermann"
+                }
+            ],
+            "doi": "10.1109/ICSE-SEIP.2019.00042",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f70b2f20be241f445a61f33c4b8e76e554760340",
+            "title": "Software Engineering for Machine Learning: A Case Study",
+            "url": "https://www.semanticscholar.org/paper/f70b2f20be241f445a61f33c4b8e76e554760340",
+            "venue": "2019 IEEE/ACM 41st International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP)",
+            "year": 2019
+        },
+        {
+            "arxivId": "1902.09217",
+            "authors": [
+                {
+                    "authorId": "2054206337",
+                    "name": "Markus Zimmermann"
+                },
+                {
+                    "authorId": "40141524",
+                    "name": "Cristian-Alexandru Staicu"
+                },
+                {
+                    "authorId": "73771429",
+                    "name": "Cam Tenny"
+                },
+                {
+                    "authorId": "1884064",
+                    "name": "Michael Pradel"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "30c4476f6af1653874221b78a930a549a801e72c",
+            "title": "Small World with High Risks: A Study of Security Threats in the npm Ecosystem",
+            "url": "https://www.semanticscholar.org/paper/30c4476f6af1653874221b78a930a549a801e72c",
+            "venue": "USENIX Security Symposium",
+            "year": 2019
+        },
+        {
+            "arxivId": "1808.01974",
+            "authors": [
+                {
+                    "authorId": "2597292",
+                    "name": "Chuanqi Tan"
+                },
+                {
+                    "authorId": "143823065",
+                    "name": "F. Sun"
+                },
+                {
+                    "authorId": "145868988",
+                    "name": "Tao Kong"
+                },
+                {
+                    "authorId": "2109866658",
+                    "name": "Wenchang Zhang"
+                },
+                {
+                    "authorId": "2146345020",
+                    "name": "Chao Yang"
+                },
+                {
+                    "authorId": "50557305",
+                    "name": "Chunfang Liu"
+                }
+            ],
+            "doi": "10.1007/978-3-030-01424-7_27",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9235d511dea04aa563a577ab236506b8eb8242ff",
+            "title": "A Survey on Deep Transfer Learning",
+            "url": "https://www.semanticscholar.org/paper/9235d511dea04aa563a577ab236506b8eb8242ff",
+            "venue": "ICANN",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2794053",
+                    "name": "Alexandre Decan"
+                },
+                {
+                    "authorId": "1794675",
+                    "name": "T. Mens"
+                },
+                {
+                    "authorId": "2970508",
+                    "name": "Eleni Constantinou"
+                }
+            ],
+            "doi": "10.1145/3196398.3196401",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "211e923e1f80d29d7c3cac8aba249f5d7da3dd3e",
+            "title": "On the Impact of Security Vulnerabilities in the npm Package Dependency Network",
+            "url": "https://www.semanticscholar.org/paper/211e923e1f80d29d7c3cac8aba249f5d7da3dd3e",
+            "venue": "2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8701060",
+                    "name": "Fiorella Zampetti"
+                },
+                {
+                    "authorId": "3439470",
+                    "name": "Simone Scalabrino"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                },
+                {
+                    "authorId": "1711200",
+                    "name": "G. Canfora"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                }
+            ],
+            "doi": "10.1109/MSR.2017.2",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d88c60186aed638822ba7fb47ddb36533419fa67",
+            "title": "How Open Source Projects Use Static Code Analysis Tools in Continuous Integration Pipelines",
+            "url": "https://www.semanticscholar.org/paper/d88c60186aed638822ba7fb47ddb36533419fa67",
+            "venue": "2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "21003887",
+                    "name": "M. Beller"
+                },
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "1702285",
+                    "name": "A. Zaidman"
+                }
+            ],
+            "doi": "10.1109/MSR.2017.62",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "7ee65ebc3da7eb35e3bf1425008d22f693d135a4",
+            "title": "Oops, My Tests Broke the Build: An Explorative Analysis of Travis CI with GitHub",
+            "url": "https://www.semanticscholar.org/paper/7ee65ebc3da7eb35e3bf1425008d22f693d135a4",
+            "venue": "2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": "10.1109/MSR.2017.24",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "840d779e02a646d19cabd6bb186533cae81fc966",
+            "title": "TravisTorrent: Synthesizing Travis CI and GitHub for Full-Stack Research on Continuous Integration",
+            "url": "https://www.semanticscholar.org/paper/840d779e02a646d19cabd6bb186533cae81fc966",
+            "venue": "2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)",
+            "year": 2017
+        },
+        {
+            "arxivId": "1602.03001",
+            "authors": [
+                {
+                    "authorId": "3216345",
+                    "name": "Miltiadis Allamanis"
+                },
+                {
+                    "authorId": "1818378366",
+                    "name": "Hao Peng"
+                },
+                {
+                    "authorId": "37210858",
+                    "name": "Charles Sutton"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "484ed558a5863060b373e8a2cb7cb302b8c36116",
+            "title": "A Convolutional Attention Network for Extreme Summarization of Source Code",
+            "url": "https://www.semanticscholar.org/paper/484ed558a5863060b373e8a2cb7cb302b8c36116",
+            "venue": "ICML",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3091414",
+                    "name": "K. Chard"
+                },
+                {
+                    "authorId": "3264638",
+                    "name": "J. Pruyne"
+                },
+                {
+                    "authorId": "2338072",
+                    "name": "B. Blaiszik"
+                },
+                {
+                    "authorId": "2538180",
+                    "name": "R. Ananthakrishnan"
+                },
+                {
+                    "authorId": "1720669",
+                    "name": "S. Tuecke"
+                },
+                {
+                    "authorId": "1698701",
+                    "name": "Ian T Foster"
+                }
+            ],
+            "doi": "10.1109/eScience.2015.68",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c90833e224cb55bbbda7df4175fdff642a687f52",
+            "title": "Globus Data Publication as a Service: Lowering Barriers to Reproducible Science",
+            "url": "https://www.semanticscholar.org/paper/c90833e224cb55bbbda7df4175fdff642a687f52",
+            "venue": "2015 IEEE 11th International Conference on e-Science",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3222713",
+                    "name": "S. Malinen"
+                }
+            ],
+            "doi": "10.1016/j.chb.2015.01.004",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "504aa7e21be590110e775962b2382a305130e295",
+            "title": "Understanding user participation in online communities: A systematic literature review of empirical studies",
+            "url": "https://www.semanticscholar.org/paper/504aa7e21be590110e775962b2382a305130e295",
+            "venue": "Comput. Hum. Behav.",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "31631000",
+                    "name": "Baishakhi Ray"
+                },
+                {
+                    "authorId": "49703359",
+                    "name": "Daryl Posnett"
+                },
+                {
+                    "authorId": "3179220",
+                    "name": "V. Filkov"
+                },
+                {
+                    "authorId": "1730296",
+                    "name": "Premkumar T. Devanbu"
+                }
+            ],
+            "doi": "10.1145/2635868.2635922",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "346e2d94b09144375e2449cf214ac34ba93bb48c",
+            "title": "A large scale study of programming languages and code quality in github",
+            "url": "https://www.semanticscholar.org/paper/346e2d94b09144375e2449cf214ac34ba93bb48c",
+            "venue": "SIGSOFT FSE",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "1775709",
+                    "name": "M. Pinzger"
+                },
+                {
+                    "authorId": "1737202",
+                    "name": "A. Deursen"
+                }
+            ],
+            "doi": "10.1145/2568225.2568260",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "79d0909c84fbf4e0fba60ecc235192183fecc8c1",
+            "title": "An exploratory study of the pull-based software development model",
+            "url": "https://www.semanticscholar.org/paper/79d0909c84fbf4e0fba60ecc235192183fecc8c1",
+            "venue": "ICSE",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2002661",
+                    "name": "John Slankas"
+                },
+                {
+                    "authorId": "144426849",
+                    "name": "L. Williams"
+                }
+            ],
+            "doi": "10.1109/NATURALISE.2013.6611715",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "bd337b672bb6d89c6c5b94bcf1c7c0330b9a5ab4",
+            "title": "Automated extraction of non-functional requirements in available documentation",
+            "url": "https://www.semanticscholar.org/paper/bd337b672bb6d89c6c5b94bcf1c7c0330b9a5ab4",
+            "venue": "2013 1st International Workshop on Natural Language Analysis in Software Engineering (NaturaLiSE)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2012.6224294",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "de760552279b241976676f4723a159060a433198",
+            "title": "GHTorrent: Github's data from a firehose",
+            "url": "https://www.semanticscholar.org/paper/de760552279b241976676f4723a159060a433198",
+            "venue": "2012 9th IEEE Working Conference on Mining Software Repositories (MSR)",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1746914",
+                    "name": "Sinno Jialin Pan"
+                },
+                {
+                    "authorId": "152290618",
+                    "name": "Qiang Yang"
+                }
+            ],
+            "doi": "10.1109/TKDE.2009.191",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a25fbcbbae1e8f79c4360d26aa11a3abf1a11972",
+            "title": "A Survey on Transfer Learning",
+            "url": "https://www.semanticscholar.org/paper/a25fbcbbae1e8f79c4360d26aa11a3abf1a11972",
+            "venue": "IEEE Transactions on Knowledge and Data Engineering",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1710587",
+                    "name": "M. Robillard"
+                },
+                {
+                    "authorId": "13476544",
+                    "name": "R. Walker"
+                },
+                {
+                    "authorId": "143609903",
+                    "name": "Thomas Zimmermann"
+                }
+            ],
+            "doi": "10.1109/MS.2009.161",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "05882b3376dddab5066015b46704bb7bfe3946cc",
+            "title": "Recommendation Systems for Software Engineering",
+            "url": "https://www.semanticscholar.org/paper/05882b3376dddab5066015b46704bb7bfe3946cc",
+            "venue": "IEEE Software",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2094650725",
+                    "name": "Prasanth Anbalagan"
+                },
+                {
+                    "authorId": "1761588",
+                    "name": "M. Vouk"
+                }
+            ],
+            "doi": "10.1109/ICSM.2009.5306337",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d73037439245fad5c1b8ce03dac7d0ba6ad712be",
+            "title": "On predicting the time taken to correct bug reports in open source projects",
+            "url": "https://www.semanticscholar.org/paper/d73037439245fad5c1b8ce03dac7d0ba6ad712be",
+            "venue": "2009 IEEE International Conference on Software Maintenance",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Pinto model zoo",
+            "url": "",
+            "venue": "",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Papers with code",
+            "url": "",
+            "venue": "",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "npm",
+            "url": "",
+            "venue": "",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Hugging face documentations",
+            "url": "",
+            "venue": "",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Jetson zoo",
+            "url": "",
+            "venue": "2022. [Online]. Available: https://elinux. org/Jetson_Zoo",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Introducing chatgpt",
+            "url": "",
+            "venue": "https://openai.com/blog/ chatgpt, 2022.",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Python package index",
+            "url": "",
+            "venue": "2022. [Online]. Available: https://pypi.org",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "",
+            "title": "Model Zoo - Deep learning code and pretrained models",
+            "url": "",
+            "venue": "",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Hugging Face &#x2013; The AI community building the future",
+            "url": "",
+            "venue": "",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Pytorch hub",
+            "url": "",
+            "venue": "",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201cA Liter-ature Review of Using Machine Learning in Software Development Life Cycle Stages,\u201d",
+            "url": "",
+            "venue": "IEEE Access",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Introducing TensorFlow Hub: A Library for Reusable Machine Learning Modules in TensorFlow",
+            "url": "",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "eLinux",
+            "url": "",
+            "venue": "elinux. org/Jetson_Zoo",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Research , \u201c Papers with code , \u201d 2023 . [ Online ] Jetson zoo , \u201d 2022 . [ Online ]",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "PINTO0309",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Bioinformatics",
+            "url": "",
+            "venue": "modelhub",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201cTensor\ufb02ow hub,\u201d",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201cModelhub,\u201d",
+            "url": "",
+            "venue": "http://modelhub.ai",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "PTMTorrent: A Dataset for Mining Open-source Pre-trained Model Packages",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/517a4c10716f5f329e33abed7407b40ca67a8917",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2023
+}

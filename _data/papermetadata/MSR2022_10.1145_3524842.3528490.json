@@ -1,0 +1,824 @@
+{
+    "abstract": "It is recognized in the literature that finding representative data to conduct regression testing research is non-trivial. In our experience within this field, existing datasets are often affected by issues that limit their applicability. Indeed, these datasets often lack fine-grained coverage information, reference software repositories that are not available anymore, or do not allow researchers to readily build and run the software projects, e.g., to obtain additional information. As a step towards better replicability and data-availability in regression testing research, we introduce ReCover, a dataset of 114 pairs of subsequent versions from 28 open source Java projects from GitHub. In particular, ReCover is intended as a consolidation and enrichment of recent dedicated regression testing datasets proposed in the literature, to overcome some of the above described issues, and to make them ready to use with a broader number of regression testing techniques. To this end, we developed a custom mining tool, that we make available as well, to automatically process two recent, massive regression testing datasets, retaining pairs of software versions for which we were able to (1) retrieve the full source code; (2) build the software in a general-purpose Java/Maven environment (which we provide as a Docker container for ease of replication); and (3) compute fine-grained test coverage metrics. ReCover can be readily employed in regression testing studies, as it bundles in a single package full, buildable source code and detailed coverage reports for all the projects. We envision that its use could foster regression testing research, improving replicability and long-term data availability.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "13396020",
+            "name": "Francesco Altiero",
+            "url": "https://www.semanticscholar.org/author/13396020"
+        },
+        {
+            "authorId": "13851143",
+            "name": "A. Corazza",
+            "url": "https://www.semanticscholar.org/author/13851143"
+        },
+        {
+            "authorId": "2517508",
+            "name": "S. Martino",
+            "url": "https://www.semanticscholar.org/author/2517508"
+        },
+        {
+            "authorId": "2069796365",
+            "name": "A. Peron",
+            "url": "https://www.semanticscholar.org/author/2069796365"
+        },
+        {
+            "authorId": "2015982664",
+            "name": "L. L. L. Starace",
+            "url": "https://www.semanticscholar.org/author/2015982664"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2265669289",
+                    "name": "Dirk Beyer"
+                },
+                {
+                    "authorId": "2264972118",
+                    "name": "Lars Grunske"
+                },
+                {
+                    "authorId": "2160992830",
+                    "name": "Matthias Kettl"
+                },
+                {
+                    "authorId": "2298987272",
+                    "name": "Marian Lingsch-Rosenfeld"
+                },
+                {
+                    "authorId": "1379958663",
+                    "name": "Moeketsi Raselimo"
+                }
+            ],
+            "doi": "10.1145/3643991.3644889",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6ff0291277e1c9a33f7be7f86e0882b454993bb2",
+            "title": "P3: A Dataset of Partial Program Patches",
+            "url": "https://www.semanticscholar.org/paper/6ff0291277e1c9a33f7be7f86e0882b454993bb2",
+            "venue": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "13396020",
+                    "name": "Francesco Altiero"
+                },
+                {
+                    "authorId": "2275358366",
+                    "name": "Anna Corazza"
+                },
+                {
+                    "authorId": "2517508",
+                    "name": "S. Martino"
+                },
+                {
+                    "authorId": "2069796365",
+                    "name": "A. Peron"
+                },
+                {
+                    "authorId": "2015982664",
+                    "name": "L. L. L. Starace"
+                }
+            ],
+            "doi": "10.1002/smr.2653",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d35108ed020314b970009f08e0a41f043ec0f4c3",
+            "title": "Regression test prioritization leveraging source code similarity with tree kernels",
+            "url": "https://www.semanticscholar.org/paper/d35108ed020314b970009f08e0a41f043ec0f4c3",
+            "venue": "J. Softw. Evol. Process.",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "13396020",
+                    "name": "Francesco Altiero"
+                },
+                {
+                    "authorId": "2069623490",
+                    "name": "Giovanni Colella"
+                },
+                {
+                    "authorId": "13851143",
+                    "name": "A. Corazza"
+                },
+                {
+                    "authorId": "2517508",
+                    "name": "S. Martino"
+                },
+                {
+                    "authorId": "2069796365",
+                    "name": "A. Peron"
+                },
+                {
+                    "authorId": "2015982664",
+                    "name": "L. L. L. Starace"
+                }
+            ],
+            "doi": "10.1109/SEAA56994.2022.00028",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "dcb2469b73c2383b343dcf84b6347458cfca35d6",
+            "title": "Change-Aware Regression Test Prioritization using Genetic Algorithms",
+            "url": "https://www.semanticscholar.org/paper/dcb2469b73c2383b343dcf84b6347458cfca35d6",
+            "venue": "2022 48th Euromicro Conference on Software Engineering and Advanced Applications (SEAA)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "13396020",
+                    "name": "Francesco Altiero"
+                },
+                {
+                    "authorId": "2275358366",
+                    "name": "Anna Corazza"
+                },
+                {
+                    "authorId": "2517508",
+                    "name": "S. Martino"
+                },
+                {
+                    "authorId": "2069796365",
+                    "name": "A. Peron"
+                },
+                {
+                    "authorId": "2015982664",
+                    "name": "L. L. L. Starace"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1fc2249a0c89a295585410a166836c4252e95a57",
+            "title": "Tree Kernels to Support Formal Methods-based Testing of Evolving Specifications",
+            "url": "https://www.semanticscholar.org/paper/1fc2249a0c89a295585410a166836c4252e95a57",
+            "venue": "OVERLAY@AI*IA",
+            "year": 2023
+        }
+    ],
+    "corpusId": 249929598,
+    "doi": "10.1145/3524842.3528490",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 4,
+    "numCiting": 24,
+    "paperId": "fc3e64291d819f0b51f30a043d9385dc5f92bd59",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2093212591",
+                    "name": "Qianyang Peng"
+                },
+                {
+                    "authorId": "40128780",
+                    "name": "A. Shi"
+                },
+                {
+                    "authorId": "2145398332",
+                    "name": "Lingming Zhang"
+                }
+            ],
+            "doi": "10.1145/3395363.3397383",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "68598f59698ededb65d997803db708b7ec7cb853",
+            "title": "Empirically revisiting and enhancing IR-based test-case prioritization",
+            "url": "https://www.semanticscholar.org/paper/68598f59698ededb65d997803db708b7ec7cb853",
+            "venue": "ISSTA",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3251359",
+                    "name": "Toni Mattis"
+                },
+                {
+                    "authorId": "35178070",
+                    "name": "Patrick Rein"
+                },
+                {
+                    "authorId": "1396198176",
+                    "name": "Falco D\u00fcrsch"
+                },
+                {
+                    "authorId": "1741504",
+                    "name": "R. Hirschfeld"
+                }
+            ],
+            "doi": "10.1145/3379597.3387458",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "c534772510d9df8d5da5286a2fdf70ef32fc723b",
+            "title": "RTPTorrent: An Open-source Dataset for Evaluating Regression Test Prioritization",
+            "url": "https://www.semanticscholar.org/paper/c534772510d9df8d5da5286a2fdf70ef32fc723b",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2288180309",
+                    "name": "Jude Cruise"
+                }
+            ],
+            "doi": "10.1017/9781108591942.021",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a6d02a259d7a153cc83b35c06e664d4063c56c3f",
+            "title": "SQLite",
+            "url": "https://www.semanticscholar.org/paper/a6d02a259d7a153cc83b35c06e664d4063c56c3f",
+            "venue": "Python by Example",
+            "year": 2019
+        },
+        {
+            "arxivId": "1807.08823",
+            "authors": [
+                {
+                    "authorId": "144464685",
+                    "name": "Qi Luo"
+                },
+                {
+                    "authorId": "1381376597",
+                    "name": "Kevin Moran"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                }
+            ],
+            "doi": "10.1109/ICSME.2018.00033",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b3bca0bf111b8419c27dacbc3e5b6186684ceb2d",
+            "title": "Assessing Test Case Prioritization on Real Faults and Mutants",
+            "url": "https://www.semanticscholar.org/paper/b3bca0bf111b8419c27dacbc3e5b6186684ceb2d",
+            "venue": "2018 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40128780",
+                    "name": "A. Shi"
+                },
+                {
+                    "authorId": "2280378",
+                    "name": "A. Gyori"
+                },
+                {
+                    "authorId": "51101692",
+                    "name": "Suleman Mahmood"
+                },
+                {
+                    "authorId": "2114872267",
+                    "name": "Peiyuan Zhao"
+                },
+                {
+                    "authorId": "1718171",
+                    "name": "D. Marinov"
+                }
+            ],
+            "doi": "10.1145/3213846.3213875",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c6f456b9efc7db477f200fd1806742e8b9ec9bf0",
+            "title": "Evaluating test-suite reduction in real software evolution",
+            "url": "https://www.semanticscholar.org/paper/c6f456b9efc7db477f200fd1806742e8b9ec9bf0",
+            "venue": "ISSTA",
+            "year": 2018
+        },
+        {
+            "arxivId": "1806.09774",
+            "authors": [
+                {
+                    "authorId": "144464685",
+                    "name": "Qi Luo"
+                },
+                {
+                    "authorId": "1381376597",
+                    "name": "Kevin Moran"
+                },
+                {
+                    "authorId": "2145398332",
+                    "name": "Lingming Zhang"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                }
+            ],
+            "doi": "10.1109/TSE.2018.2822270",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "cf927b955926803265a7cd786d3f47ff2de9ce5f",
+            "title": "How Do Static and Dynamic Test Case Prioritization Techniques Perform on Modern Software Systems? An Extensive Study on GitHub Projects",
+            "url": "https://www.semanticscholar.org/paper/cf927b955926803265a7cd786d3f47ff2de9ce5f",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2281748966",
+                    "name": "Jonathan Bell"
+                },
+                {
+                    "authorId": "3023790",
+                    "name": "Owolabi Legunsen"
+                },
+                {
+                    "authorId": "2281744748",
+                    "name": "Michael Hilton"
+                },
+                {
+                    "authorId": "2424998",
+                    "name": "Lamyaa Eloussi"
+                },
+                {
+                    "authorId": "2604935",
+                    "name": "Tifany Yung"
+                },
+                {
+                    "authorId": "1718171",
+                    "name": "D. Marinov"
+                }
+            ],
+            "doi": "10.1145/3180155.3180164",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4e202c1c05565114952655d0fc717dd89433784b",
+            "title": "DeFlaker: Automatically Detecting Flaky Tests",
+            "url": "https://www.semanticscholar.org/paper/4e202c1c05565114952655d0fc717dd89433784b",
+            "venue": "2018 IEEE/ACM 40th International Conference on Software Engineering (ICSE)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": "10.1109/MSR.2017.24",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "840d779e02a646d19cabd6bb186533cae81fc966",
+            "title": "TravisTorrent: Synthesizing Travis CI and GitHub for Full-Stack Research on Continuous Integration",
+            "url": "https://www.semanticscholar.org/paper/840d779e02a646d19cabd6bb186533cae81fc966",
+            "venue": "2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2143809151",
+                    "name": "Yafeng Lu"
+                },
+                {
+                    "authorId": "2539239",
+                    "name": "Yiling Lou"
+                },
+                {
+                    "authorId": "2287937938",
+                    "name": "Shiyang Cheng"
+                },
+                {
+                    "authorId": "2268851903",
+                    "name": "Lingming Zhang"
+                },
+                {
+                    "authorId": "145478119",
+                    "name": "Dan Hao"
+                },
+                {
+                    "authorId": "2286674092",
+                    "name": "Yangfan Zhou"
+                },
+                {
+                    "authorId": "2267875131",
+                    "name": "Lu Zhang"
+                }
+            ],
+            "doi": "10.1145/2884781.2884874",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "47da099731ddc18bcb04e814ed81b50bfc889d85",
+            "title": "How Does Regression Test Prioritization Perform in Real-World Software Evolution?",
+            "url": "https://www.semanticscholar.org/paper/47da099731ddc18bcb04e814ed81b50bfc889d85",
+            "venue": "2016 IEEE/ACM 38th International Conference on Software Engineering (ICSE)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8150345",
+                    "name": "D. D. Nardo"
+                },
+                {
+                    "authorId": "3000736",
+                    "name": "N. Alshahwan"
+                },
+                {
+                    "authorId": "1722904",
+                    "name": "L. Briand"
+                },
+                {
+                    "authorId": "1689124",
+                    "name": "Y. Labiche"
+                }
+            ],
+            "doi": "10.1002/stvr.1572",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4674dbcab48d42c78c31cd6f4c1ac34f11243cc6",
+            "title": "Coverage\u2010based regression test case selection, minimization and prioritization: a case study on an industrial system",
+            "url": "https://www.semanticscholar.org/paper/4674dbcab48d42c78c31cd6f4c1ac34f11243cc6",
+            "venue": "Softw. Test. Verification Reliab.",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2671585",
+                    "name": "Ripon K. Saha"
+                },
+                {
+                    "authorId": "2145398332",
+                    "name": "Lingming Zhang"
+                },
+                {
+                    "authorId": "145802044",
+                    "name": "S. Khurshid"
+                },
+                {
+                    "authorId": "143977783",
+                    "name": "D. Perry"
+                }
+            ],
+            "doi": "10.1109/ICSE.2015.47",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "5622150975290eab199779c3b072ab75e5d99765",
+            "title": "An Information Retrieval Approach for Regression Test Prioritization Based on Program Changes",
+            "url": "https://www.semanticscholar.org/paper/5622150975290eab199779c3b072ab75e5d99765",
+            "venue": "2015 IEEE/ACM 37th IEEE International Conference on Software Engineering",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3177870",
+                    "name": "Omar S. G\u00f3mez"
+                },
+                {
+                    "authorId": "1682367",
+                    "name": "Natalia Juristo Juzgado"
+                },
+                {
+                    "authorId": "2831847",
+                    "name": "S. Vegas"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2014.04.004",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "76157cdbd7ca2f0c74eae4aba4ded14985a3e2b6",
+            "title": "Understanding replication of experiments in software engineering: A classification",
+            "url": "https://www.semanticscholar.org/paper/76157cdbd7ca2f0c74eae4aba4ded14985a3e2b6",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624034",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2867eb64cc4bb1945363fdae12a168962ea823aa",
+            "title": "The GHTorent dataset and tool suite",
+            "url": "https://www.semanticscholar.org/paper/2867eb64cc4bb1945363fdae12a168962ea823aa",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143828721",
+                    "name": "S. Yoo"
+                },
+                {
+                    "authorId": "145836176",
+                    "name": "M. Harman"
+                }
+            ],
+            "doi": "10.1002/stvr.430",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "34811b5b64c7b5b228d1dd12735a8a8b09bd357e",
+            "title": "Regression testing minimization, selection and prioritization: a survey",
+            "url": "https://www.semanticscholar.org/paper/34811b5b64c7b5b228d1dd12735a8a8b09bd357e",
+            "venue": "Softw. Test. Verification Reliab.",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1679280",
+                    "name": "Hyunsook Do"
+                },
+                {
+                    "authorId": "143754832",
+                    "name": "Sebastian G. Elbaum"
+                },
+                {
+                    "authorId": "1722304",
+                    "name": "G. Rothermel"
+                }
+            ],
+            "doi": "10.1007/s10664-005-3861-2",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "94782b2954ae2451a5963cdc39a954b5bfd077aa",
+            "title": "Supporting Controlled Experimentation with Testing Techniques: An Infrastructure and its Potential Impact",
+            "url": "https://www.semanticscholar.org/paper/94782b2954ae2451a5963cdc39a954b5bfd077aa",
+            "venue": "Empirical Software Engineering",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2145432102",
+                    "name": "Jung-Min Kim"
+                },
+                {
+                    "authorId": "1713495",
+                    "name": "A. Porter"
+                }
+            ],
+            "doi": "10.1109/ICSE.2002.1007961",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "5b1c46d25de97710f4594ff575753ddfd517e94b",
+            "title": "A history-based test prioritization technique for regression testing in resource constrained environments",
+            "url": "https://www.semanticscholar.org/paper/5b1c46d25de97710f4594ff575753ddfd517e94b",
+            "venue": "Proceedings of the 24th International Conference on Software Engineering. ICSE 2002",
+            "year": 2002
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143754832",
+                    "name": "Sebastian G. Elbaum"
+                },
+                {
+                    "authorId": "2120544",
+                    "name": "Alexey G. Malishevsky"
+                },
+                {
+                    "authorId": "1722304",
+                    "name": "G. Rothermel"
+                }
+            ],
+            "doi": "10.1109/32.988497",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9d603bd5f6862687e0de7fe07dd8ae086758b25f",
+            "title": "Test Case Prioritization: A Family of Empirical Studies",
+            "url": "https://www.semanticscholar.org/paper/9d603bd5f6862687e0de7fe07dd8ae086758b25f",
+            "venue": "IEEE Trans. Software Eng.",
+            "year": 2002
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143754832",
+                    "name": "Sebastian G. Elbaum"
+                },
+                {
+                    "authorId": "2120544",
+                    "name": "Alexey G. Malishevsky"
+                },
+                {
+                    "authorId": "1722304",
+                    "name": "G. Rothermel"
+                }
+            ],
+            "doi": "10.1109/ICSE.2001.919106",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c482f553e8ff9daf5eb21fc7f12153ef3cc52d36",
+            "title": "Incorporating varying test costs and fault severities into test case prioritization",
+            "url": "https://www.semanticscholar.org/paper/c482f553e8ff9daf5eb21fc7f12153ef3cc52d36",
+            "venue": "Proceedings of the 23rd International Conference on Software Engineering. ICSE 2001",
+            "year": 2001
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1722304",
+                    "name": "G. Rothermel"
+                },
+                {
+                    "authorId": "2798871",
+                    "name": "R. Untch"
+                },
+                {
+                    "authorId": "40048177",
+                    "name": "Chengyun Chu"
+                },
+                {
+                    "authorId": "4933686",
+                    "name": "M. J. Harrold"
+                }
+            ],
+            "doi": "10.1145/347324.348910",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "86294296ca6efafb2f8db96687e77a4b3cbed7c7",
+            "title": "Prioritizing test cases for regression testing",
+            "url": "https://www.semanticscholar.org/paper/86294296ca6efafb2f8db96687e77a4b3cbed7c7",
+            "venue": "ISSTA '00",
+            "year": 2000
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "13396020",
+                    "name": "Francesco Altiero"
+                },
+                {
+                    "authorId": "13851143",
+                    "name": "A. Corazza"
+                },
+                {
+                    "authorId": "2517508",
+                    "name": "S. Martino"
+                },
+                {
+                    "authorId": "145917338",
+                    "name": "A. Peron"
+                },
+                {
+                    "authorId": "2015982664",
+                    "name": "L. L. L. Starace"
+                }
+            ],
+            "doi": "10.1007/978-3-030-64881-7_17",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0b7a28f37290e26d4990693527f661bd0c797aa1",
+            "title": "Inspecting Code Churns to Prioritize Test Cases",
+            "url": "https://www.semanticscholar.org/paper/0b7a28f37290e26d4990693527f661bd0c797aa1",
+            "venue": "ICTSS",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Java, groovy and ASPECTJ code coverage tool",
+            "url": "",
+            "venue": "OpenClover",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "MSR \u201922, May 23\u201324, 2022, Pittsburgh, PA, USA",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "ReCover Dockerfile",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Homepage | TravisCI | Start building today!",
+            "url": "",
+            "venue": "www",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "ReCover: a Curated Dataset for Regression Testing Research",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/fc3e64291d819f0b51f30a043d9385dc5f92bd59",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2022
+}

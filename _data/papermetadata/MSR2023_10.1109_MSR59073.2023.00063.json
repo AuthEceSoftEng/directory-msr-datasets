@@ -1,0 +1,1140 @@
+{
+    "abstract": "Most Self-Admitted Technical Debt (SATD) research utilizes explicit SATD features such as \u2018TODO\u2019 and \u2018FIXME\u2019 for SATD detection. A closer look reveals several SATD research uses simple SATD (\u2018Easy to Find\u2019) code comments without contextual data (preceding and succeeding source code context). This work addresses this gap through PENTACET (or 5C dataset) data. PENTACET is a large Curated Contextual Code Comments per Contributor and the most extensive SATD data. We mine 9,096 Open Source Software Java projects totaling over 400 million LOC. The outcome is a dataset with 23 million code comments, preceding and succeeding source code context for each comment, and more than 250,000 SATD comments, including both \u2018Easy to Find\u2019 and \u2018Hard to Find\u2019 SATD. We believe PENTACET data will further SATD research using Artificial Intelligence techniques.",
+    "arxivId": "2303.14029",
+    "authors": [
+        {
+            "authorId": "1411949200",
+            "name": "Murali Sridharan",
+            "url": "https://www.semanticscholar.org/author/1411949200"
+        },
+        {
+            "authorId": "150192393",
+            "name": "Leevi Rantala",
+            "url": "https://www.semanticscholar.org/author/150192393"
+        },
+        {
+            "authorId": "144811716",
+            "name": "M. M\u00e4ntyl\u00e4",
+            "url": "https://www.semanticscholar.org/author/144811716"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2405.06806",
+            "authors": [
+                {
+                    "authorId": "9259222",
+                    "name": "Mohammad Sadegh Sheikhaei"
+                },
+                {
+                    "authorId": "2152949514",
+                    "name": "Yuan Tian"
+                },
+                {
+                    "authorId": "2275181339",
+                    "name": "Shaowei Wang"
+                },
+                {
+                    "authorId": "2301270255",
+                    "name": "Bowen Xu"
+                }
+            ],
+            "doi": "10.48550/arXiv.2405.06806",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "4053adcc254898ac50abe5f3c701c27b4cbce33b",
+            "title": "An Empirical Study on the Effectiveness of Large Language Models for SATD Identification and Classification",
+            "url": "https://www.semanticscholar.org/paper/4053adcc254898ac50abe5f3c701c27b4cbce33b",
+            "venue": "Empirical Software Engineering",
+            "year": 2024
+        },
+        {
+            "arxivId": "2405.05541",
+            "authors": [
+                {
+                    "authorId": "2300370621",
+                    "name": "Philip Oliver"
+                },
+                {
+                    "authorId": "2300371031",
+                    "name": "Jens Dietrich"
+                },
+                {
+                    "authorId": "1741672",
+                    "name": "C. Anslow"
+                },
+                {
+                    "authorId": "2239110364",
+                    "name": "Michael Homer"
+                }
+            ],
+            "doi": "10.1145/3643991.3644912",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "aee4ae2631ef612458fead210ce214b3ffb1d6dd",
+            "title": "CrashJS: A NodeJS Benchmark for Automated Crash Reproduction",
+            "url": "https://www.semanticscholar.org/paper/aee4ae2631ef612458fead210ce214b3ffb1d6dd",
+            "venue": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2403.06484",
+            "authors": [
+                {
+                    "authorId": "1727328",
+                    "name": "P. Avgeriou"
+                },
+                {
+                    "authorId": "2177439",
+                    "name": "Ipek Ozkaya"
+                },
+                {
+                    "authorId": "1709819",
+                    "name": "A. Chatzigeorgiou"
+                },
+                {
+                    "authorId": "2290086982",
+                    "name": "Marcus Ciolkowski"
+                },
+                {
+                    "authorId": "1755165",
+                    "name": "Neil A. Ernst"
+                },
+                {
+                    "authorId": "49848418",
+                    "name": "Ronald J. Koontz"
+                },
+                {
+                    "authorId": "2686396",
+                    "name": "E. Poort"
+                },
+                {
+                    "authorId": "2290092474",
+                    "name": "Forrest Shull"
+                }
+            ],
+            "doi": "10.1109/ICSE-FoSE59343.2023.00007",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "ded3f6151f8286e3841fb295e1ba89fb16fc08dd",
+            "title": "Technical Debt Management: The Road Ahead for Successful Software Delivery",
+            "url": "https://www.semanticscholar.org/paper/ded3f6151f8286e3841fb295e1ba89fb16fc08dd",
+            "venue": "2023 IEEE/ACM International Conference on Software Engineering: Future of Software Engineering (ICSE-FoSE)",
+            "year": 2023
+        }
+    ],
+    "corpusId": 257757331,
+    "doi": "10.1109/MSR59073.2023.00063",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 1,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 3,
+    "numCiting": 38,
+    "paperId": "413f2bc634d54baec015563b60b049d10477fe76",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1411949200",
+                    "name": "Murali Sridharan"
+                },
+                {
+                    "authorId": "144811716",
+                    "name": "M. M\u00e4ntyl\u00e4"
+                },
+                {
+                    "authorId": "2002057",
+                    "name": "Ma\u00eblick Claes"
+                },
+                {
+                    "authorId": "150192393",
+                    "name": "Leevi Rantala"
+                }
+            ],
+            "doi": "10.1145/3524842.3527998",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "a36bc577b54fbec7de7f0400c74bccdb86522db6",
+            "title": "SoCCMiner: A Source Code-Comments and Comment-Context Miner",
+            "url": "https://www.semanticscholar.org/paper/a36bc577b54fbec7de7f0400c74bccdb86522db6",
+            "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "10408468",
+                    "name": "Sulabh Tyagi"
+                },
+                {
+                    "authorId": "2646772",
+                    "name": "Ritu Sibal"
+                },
+                {
+                    "authorId": "1864402",
+                    "name": "Bharti Suri"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2022.106828",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4199149d7fd0598100352e1735b17f294dc72a67",
+            "title": "Empirically developed framework for building trust in distributed agile teams",
+            "url": "https://www.semanticscholar.org/paper/4199149d7fd0598100352e1735b17f294dc72a67",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1754291",
+                    "name": "N. Gold"
+                },
+                {
+                    "authorId": "1824150",
+                    "name": "J. Krinke"
+                }
+            ],
+            "doi": "10.1007/s10664-021-10057-7",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "8a7ab081a35f9f7336c60d6cf1c6a9627e8c71e1",
+            "title": "Ethics in the mining of software repositories",
+            "url": "https://www.semanticscholar.org/paper/8a7ab081a35f9f7336c60d6cf1c6a9627e8c71e1",
+            "venue": "Empirical Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8701060",
+                    "name": "Fiorella Zampetti"
+                },
+                {
+                    "authorId": "66394192",
+                    "name": "Gianmarco Fucci"
+                },
+                {
+                    "authorId": "1747171",
+                    "name": "Alexander Serebrenik"
+                },
+                {
+                    "authorId": "2121316867",
+                    "name": "M. Di"
+                },
+                {
+                    "authorId": "2121325855",
+                    "name": "Penta"
+                }
+            ],
+            "doi": "10.1007/s10664-021-10031-3",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9b30504e3bcb8fd9a8dad15327cfd0fabe4d6e02",
+            "title": "Self-admitted technical debt practices: a comparison between industry and open-source",
+            "url": "https://www.semanticscholar.org/paper/9b30504e3bcb8fd9a8dad15327cfd0fabe4d6e02",
+            "venue": "Empirical Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "95292083",
+                    "name": "Zhaoqiang Guo"
+                },
+                {
+                    "authorId": "2131152150",
+                    "name": "Shiran Liu"
+                },
+                {
+                    "authorId": "2108531395",
+                    "name": "Jinping Liu"
+                },
+                {
+                    "authorId": "2144433748",
+                    "name": "Yanhui Li"
+                },
+                {
+                    "authorId": "2118537038",
+                    "name": "Lin Chen"
+                },
+                {
+                    "authorId": "7182705",
+                    "name": "Hongmin Lu"
+                },
+                {
+                    "authorId": "7743656",
+                    "name": "Yuming Zhou"
+                }
+            ],
+            "doi": "10.1145/3447247",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "e94d40478e7d211975a6484b08752853c5c17f21",
+            "title": "How Far Have We Progressed in Identifying Self-admitted Technical Debts? A Comprehensive Empirical Study",
+            "url": "https://www.semanticscholar.org/paper/e94d40478e7d211975a6484b08752853c5c17f21",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2105.14220",
+            "authors": [
+                {
+                    "authorId": "2078332622",
+                    "name": "Masum Hasan"
+                },
+                {
+                    "authorId": "2077591349",
+                    "name": "Tanveer Muttaqueen"
+                },
+                {
+                    "authorId": "2077591505",
+                    "name": "Abdullah Al Ishtiaq"
+                },
+                {
+                    "authorId": "2077591291",
+                    "name": "Kazi Sajeed Mehrab"
+                },
+                {
+                    "authorId": "2077592775",
+                    "name": "Md. Mahim Anjum Haque"
+                },
+                {
+                    "authorId": "1400373232",
+                    "name": "Tahmid Hasan"
+                },
+                {
+                    "authorId": "38123220",
+                    "name": "Wasi Uddin Ahmad"
+                },
+                {
+                    "authorId": "1873031",
+                    "name": "Anindya Iqbal"
+                },
+                {
+                    "authorId": "2046603",
+                    "name": "Rifat Shahriyar"
+                }
+            ],
+            "doi": "10.18653/v1/2021.findings-acl.18",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8c4f89a9ac30cf94186916be1bfaa02dbfb3600d",
+            "title": "CoDesc: A Large Code\u2013Description Parallel Dataset",
+            "url": "https://www.semanticscholar.org/paper/8c4f89a9ac30cf94186916be1bfaa02dbfb3600d",
+            "venue": "FINDINGS",
+            "year": 2021
+        },
+        {
+            "arxivId": "2105.09523",
+            "authors": [
+                {
+                    "authorId": "41156480",
+                    "name": "Sai Datta Vishnubhotla"
+                },
+                {
+                    "authorId": "2256645012",
+                    "name": "Emilia Mendes"
+                },
+                {
+                    "authorId": "2256649379",
+                    "name": "Lars Lundberg"
+                }
+            ],
+            "doi": "10.1016/J.JSS.2021.111013",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d2ce0e95645e68ef2020480d95691b156da31ee2",
+            "title": "Understanding the Perceived Relevance of Capability Measures: A Survey of Agile Software Development Practitioners",
+            "url": "https://www.semanticscholar.org/paper/d2ce0e95645e68ef2020480d95691b156da31ee2",
+            "venue": "J. Syst. Softw.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.13165",
+            "authors": [
+                {
+                    "authorId": "1411949200",
+                    "name": "Murali Sridharan"
+                },
+                {
+                    "authorId": "144811716",
+                    "name": "M. M\u00e4ntyl\u00e4"
+                },
+                {
+                    "authorId": "150192393",
+                    "name": "Leevi Rantala"
+                },
+                {
+                    "authorId": "2002057",
+                    "name": "Ma\u00eblick Claes"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00048",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e8d2d40fceadb83a99173151d25fb0a6ba14acde",
+            "title": "Data Balancing Improves Self-Admitted Technical Debt Detection",
+            "url": "https://www.semanticscholar.org/paper/e8d2d40fceadb83a99173151d25fb0a6ba14acde",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": "10.1016/j.jss.2020.110586",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9dce9b765e198731d2014c52fbb7abfe3eb836de",
+            "title": "The influence of Technical Debt on software developer morale",
+            "url": "https://www.semanticscholar.org/paper/9dce9b765e198731d2014c52fbb7abfe3eb836de",
+            "venue": "J. Syst. Softw.",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2023750020",
+                    "name": "El\u00e7in G\u00fcveyi"
+                },
+                {
+                    "authorId": "145970294",
+                    "name": "M. Akta\u015f"
+                },
+                {
+                    "authorId": "48767751",
+                    "name": "O. Kalipsiz"
+                }
+            ],
+            "doi": "10.1007/978-3-030-58811-3_65",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3eaebe528c88b4375ef0312b0a5e8e99bfcb893a",
+            "title": "Human Factor on Software Quality: A Systematic Literature Review",
+            "url": "https://www.semanticscholar.org/paper/3eaebe528c88b4375ef0312b0a5e8e99bfcb893a",
+            "venue": "ICCSA",
+            "year": 2020
+        },
+        {
+            "arxivId": "2003.14015",
+            "authors": [
+                {
+                    "authorId": "2002057",
+                    "name": "Ma\u00eblick Claes"
+                },
+                {
+                    "authorId": "144811716",
+                    "name": "M. M\u00e4ntyl\u00e4"
+                }
+            ],
+            "doi": "10.1145/3379597.3387487",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "cd3370b044217e32e2753cba6597df6094de4603",
+            "title": "20-MAD - 20 Years of Issues and Commits of Mozilla and Apache Development",
+            "url": "https://www.semanticscholar.org/paper/cd3370b044217e32e2753cba6597df6094de4603",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2020
+        },
+        {
+            "arxivId": "2002.11049",
+            "authors": [
+                {
+                    "authorId": "1491247841",
+                    "name": "Zhe Yu"
+                },
+                {
+                    "authorId": "119098900",
+                    "name": "F. M. Fahid"
+                },
+                {
+                    "authorId": "41016373",
+                    "name": "Huy Tu"
+                },
+                {
+                    "authorId": "1703872",
+                    "name": "T. Menzies"
+                }
+            ],
+            "doi": "10.1109/tse.2020.3031401",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "e9a83451b2869213ac5184916abb2d39e9f33ebb",
+            "title": "Identifying Self-Admitted Technical Debts With Jitterbug: A Two-Step Approach",
+            "url": "https://www.semanticscholar.org/paper/e9a83451b2869213ac5184916abb2d39e9f33ebb",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51204084",
+                    "name": "Ben U. Gelman"
+                },
+                {
+                    "authorId": "1424299551",
+                    "name": "Banjo Obayomi"
+                },
+                {
+                    "authorId": "2110708022",
+                    "name": "Jessica Moore"
+                },
+                {
+                    "authorId": "2073939967",
+                    "name": "David Slater"
+                }
+            ],
+            "doi": "10.1016/j.dib.2019.104712",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "98a0737d28ee8e49ee48086781b7f108e0433258",
+            "title": "Source code analysis dataset",
+            "url": "https://www.semanticscholar.org/paper/98a0737d28ee8e49ee48086781b7f108e0433258",
+            "venue": "Data in brief",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2110435520",
+                    "name": "Hao He"
+                }
+            ],
+            "doi": "10.1145/3338906.3342494",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "52fea35417f05e5140537a4135045453f54255de",
+            "title": "Understanding source code comments at large-scale",
+            "url": "https://www.semanticscholar.org/paper/52fea35417f05e5140537a4135045453f54255de",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2019
+        },
+        {
+            "arxivId": "1908.00827",
+            "authors": [
+                {
+                    "authorId": "2989307",
+                    "name": "Valentina Lenarduzzi"
+                },
+                {
+                    "authorId": "122148075",
+                    "name": "Nyyti Saarim\u00e4ki"
+                },
+                {
+                    "authorId": "1766982",
+                    "name": "D. Taibi"
+                }
+            ],
+            "doi": "10.1145/3345629.3345630",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "9cc49b5245daca8eaf2b60de8b74d2802827a48c",
+            "title": "The Technical Debt Dataset",
+            "url": "https://www.semanticscholar.org/paper/9cc49b5245daca8eaf2b60de8b74d2802827a48c",
+            "venue": "PROMISE",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1977416789",
+                    "name": "Xiaoxue Ren"
+                },
+                {
+                    "authorId": "3138980",
+                    "name": "Zhenchang Xing"
+                },
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "143960552",
+                    "name": "David Lo"
+                },
+                {
+                    "authorId": "2115553036",
+                    "name": "Xinyu Wang"
+                },
+                {
+                    "authorId": "2095462233",
+                    "name": "John C. Grundy"
+                }
+            ],
+            "doi": "10.1145/3324916",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "497d1d1856f88e367524c98b9a999807d45e3250",
+            "title": "Neural Network-based Detection of Self-Admitted Technical Debt",
+            "url": "https://www.semanticscholar.org/paper/497d1d1856f88e367524c98b9a999807d45e3250",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2404391",
+                    "name": "Carmine Vassallo"
+                },
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                },
+                {
+                    "authorId": "1686038",
+                    "name": "Alberto Bacchelli"
+                },
+                {
+                    "authorId": "50355692",
+                    "name": "H. Gall"
+                }
+            ],
+            "doi": "10.1145/3238147.3240729",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c904bcda1a333dc5640c57fc5afe081eb0219cec",
+            "title": "Continuous Code Quality: Are We (Really) Doing That?",
+            "url": "https://www.semanticscholar.org/paper/c904bcda1a333dc5640c57fc5afe081eb0219cec",
+            "venue": "2018 33rd IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2018
+        },
+        {
+            "arxivId": "1803.07292",
+            "authors": [
+                {
+                    "authorId": "144811716",
+                    "name": "M. M\u00e4ntyl\u00e4"
+                },
+                {
+                    "authorId": "1810643",
+                    "name": "Fabio Calefato"
+                },
+                {
+                    "authorId": "2002057",
+                    "name": "Ma\u00eblick Claes"
+                }
+            ],
+            "doi": "10.1145/3196398.3196444",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "c87bc8e1f5beab3b474df28f10d1a5774c9759ef",
+            "title": "Natural Language or Not (NLoN) - A Package for Software Engineering Text Analysis Pipeline",
+            "url": "https://www.semanticscholar.org/paper/c87bc8e1f5beab3b474df28f10d1a5774c9759ef",
+            "venue": "2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2111287178",
+                    "name": "Qiao Huang"
+                },
+                {
+                    "authorId": "3318024",
+                    "name": "Emad Shihab"
+                },
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "143960552",
+                    "name": "David Lo"
+                },
+                {
+                    "authorId": "1773299",
+                    "name": "Shanping Li"
+                }
+            ],
+            "doi": "10.1007/s10664-017-9522-4",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "25200ca879b97b0b371c541bc69b5a9c8ed1bd8f",
+            "title": "Identifying self-admitted technical debt in open source projects using text mining",
+            "url": "https://www.semanticscholar.org/paper/25200ca879b97b0b371c541bc69b5a9c8ed1bd8f",
+            "venue": "Empirical Software Engineering",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1734481",
+                    "name": "Eirini Kalliamvakou"
+                },
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "1715864",
+                    "name": "Kelly Blincoe"
+                },
+                {
+                    "authorId": "18264995",
+                    "name": "Leif Singer"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "1741744",
+                    "name": "D. Damian"
+                }
+            ],
+            "doi": "10.1007/s10664-015-9393-5",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ec893b923db8f30349ef5a02b57bc928110f9f71",
+            "title": "An in-depth study of the promises and perils of mining GitHub",
+            "url": "https://www.semanticscholar.org/paper/ec893b923db8f30349ef5a02b57bc928110f9f71",
+            "venue": "Empirical Software Engineering",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34820138",
+                    "name": "Valerio Cosentino"
+                },
+                {
+                    "authorId": "144272262",
+                    "name": "Javier Luis C\u00e1novas Izquierdo"
+                },
+                {
+                    "authorId": "1705375",
+                    "name": "Jordi Cabot"
+                }
+            ],
+            "doi": "10.1145/2901739.2901776",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6da73f285b1a04ae416845172204e9dcae9bf1ea",
+            "title": "Findings from GitHub: Methods, Datasets and Limitations",
+            "url": "https://www.semanticscholar.org/paper/6da73f285b1a04ae416845172204e9dcae9bf1ea",
+            "venue": "2016 IEEE/ACM 13th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2016
+        },
+        {
+            "arxivId": "1511.06388",
+            "authors": [
+                {
+                    "authorId": "145994651",
+                    "name": "Andrew Trask"
+                },
+                {
+                    "authorId": "2674300",
+                    "name": "Phillip Michalak"
+                },
+                {
+                    "authorId": "2108420074",
+                    "name": "John Chih Liu"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "36f9886ad1cb9ee3f66c5af0282ae7a3359b86b2",
+            "title": "sense2vec - A Fast and Accurate Method for Word Sense Disambiguation In Neural Word Embeddings",
+            "url": "https://www.semanticscholar.org/paper/36f9886ad1cb9ee3f66c5af0282ae7a3359b86b2",
+            "venue": "ArXiv",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2098974",
+                    "name": "Everton da S. Maldonado"
+                },
+                {
+                    "authorId": "3318024",
+                    "name": "Emad Shihab"
+                }
+            ],
+            "doi": "10.1109/MTD.2015.7332619",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "49a7ea3492c078f1361bc89c03d56dd7cc25290d",
+            "title": "Detecting and quantifying different types of self-admitted technical Debt",
+            "url": "https://www.semanticscholar.org/paper/49a7ea3492c078f1361bc89c03d56dd7cc25290d",
+            "venue": "2015 IEEE 7th International Workshop on Managing Technical Debt (MTD)",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "36869703",
+                    "name": "A. Youssef"
+                },
+                {
+                    "authorId": "1729877",
+                    "name": "A. Capiluppi"
+                }
+            ],
+            "doi": "10.1145/2804360.2804365",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "cf8096751dd96dbcbf8f4259965ec571f380da86",
+            "title": "The impact of developer team sizes on the structural attributes of software",
+            "url": "https://www.semanticscholar.org/paper/cf8096751dd96dbcbf8f4259965ec571f380da86",
+            "venue": "IWPSE",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2064753",
+                    "name": "A. Potdar"
+                },
+                {
+                    "authorId": "3318024",
+                    "name": "Emad Shihab"
+                }
+            ],
+            "doi": "10.1109/ICSME.2014.31",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "ddf82ba67e252428fde55fcf9b73e848924a3372",
+            "title": "An Exploratory Study on Self-Admitted Technical Debt",
+            "url": "https://www.semanticscholar.org/paper/ddf82ba67e252428fde55fcf9b73e848924a3372",
+            "venue": "2014 IEEE International Conference on Software Maintenance and Evolution",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144955759",
+                    "name": "N. Matragkas"
+                },
+                {
+                    "authorId": "2111787154",
+                    "name": "James R. Williams"
+                },
+                {
+                    "authorId": "1798552",
+                    "name": "D. Kolovos"
+                },
+                {
+                    "authorId": "1739513",
+                    "name": "R. Paige"
+                }
+            ],
+            "doi": "10.1145/2597073.2597119",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "12c2374d62a03772d6bbfa88c1d5dfc4dae5bd45",
+            "title": "Analysing the 'biodiversity' of open source ecosystems: the GitHub case",
+            "url": "https://www.semanticscholar.org/paper/12c2374d62a03772d6bbfa88c1d5dfc4dae5bd45",
+            "venue": "MSR 2014",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2841174",
+                    "name": "Pavneet Singh Kochhar"
+                },
+                {
+                    "authorId": "3023999",
+                    "name": "T\u00e9gawend\u00e9 F. Bissyand\u00e9"
+                },
+                {
+                    "authorId": "2256258030",
+                    "name": "David Lo"
+                },
+                {
+                    "authorId": "1680504",
+                    "name": "Lingxiao Jiang"
+                }
+            ],
+            "doi": "10.1109/QSIC.2013.57",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ceb59650c4eaa49acbb3a0a4c6ffff10ecf7bb7c",
+            "title": "An Empirical Study of Adoption of Software Testing in Open Source Projects",
+            "url": "https://www.semanticscholar.org/paper/ceb59650c4eaa49acbb3a0a4c6ffff10ecf7bb7c",
+            "venue": "2013 13th International Conference on Quality Software",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5571580",
+                    "name": "Marco Lui"
+                },
+                {
+                    "authorId": "145465286",
+                    "name": "Timothy Baldwin"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "fdf29d5dec6f929409e0bb340ae973a91680ad17",
+            "title": "Cross-domain Feature Selection for Language Identification",
+            "url": "https://www.semanticscholar.org/paper/fdf29d5dec6f929409e0bb340ae973a91680ad17",
+            "venue": "IJCNLP",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6734096",
+                    "name": "J. Fleiss"
+                },
+                {
+                    "authorId": "2326456",
+                    "name": "B. Levin"
+                },
+                {
+                    "authorId": "1893021",
+                    "name": "M. Paik"
+                }
+            ],
+            "doi": "10.1002/0471445428.CH18",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "3cf7ef12a7d6211ac4bf6fa0e8aa45028bd8bac2",
+            "title": "The measurement of interrater agreement",
+            "url": "https://www.semanticscholar.org/paper/3cf7ef12a7d6211ac4bf6fa0e8aa45028bd8bac2",
+            "venue": "",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "7909794",
+                    "name": "K. Emam"
+                }
+            ],
+            "doi": "10.1023/A:1009820201126",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "ff32720c3e941037aa533224cad0b7d5fdc44ba7",
+            "title": "Benchmarking Kappa: Interrater Agreement in Software Process Assessments",
+            "url": "https://www.semanticscholar.org/paper/ff32720c3e941037aa533224cad0b7d5fdc44ba7",
+            "venue": "Empirical Software Engineering",
+            "year": 1999
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40482260",
+                    "name": "Ward Cunningham"
+                }
+            ],
+            "doi": "10.1145/157709.157715",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "27b66c6e7486bc036f05d58db9dd1d8dc8f4fc46",
+            "title": "The WyCash portfolio management system",
+            "url": "https://www.semanticscholar.org/paper/27b66c6e7486bc036f05d58db9dd1d8dc8f4fc46",
+            "venue": "OOPSLA '92",
+            "year": 1992
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "91913498",
+                    "name": "F. Cole"
+                }
+            ],
+            "doi": "10.1001/JAMA.1979.03290450014014",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e36862bf9b6d28dfa2e5df18f3910fbd7ec62d1b",
+            "title": "To the Best of Our Knowledge",
+            "url": "https://www.semanticscholar.org/paper/e36862bf9b6d28dfa2e5df18f3910fbd7ec62d1b",
+            "venue": "",
+            "year": 1979
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "",
+            "title": "Pentacet data - 23 million contextual code comments and 500,000 satd comments",
+            "url": "",
+            "venue": "",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "SonarSource, \u201cSonarqube,\u201d",
+            "url": "",
+            "venue": "sonarsource.com/products",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\ufb01rst dataset to capture the bi-directional source code context of SATD comments",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\ufb01rst attempt to identify and characterize \u2018Hard to Find\u2019 SATD",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\ufb01rst big SATD dataset with more than 500,000 SATD comments",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "applicable license agreement with IEEE. Restrictions apply",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "PENTACET data - 23 Million Contextual Code Comments and 250,000 SATD comments",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/413f2bc634d54baec015563b60b049d10477fe76",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2023
+}

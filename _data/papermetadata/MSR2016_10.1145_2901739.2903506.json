@@ -1,0 +1,3360 @@
+{
+    "abstract": "Over the last few years, researchers proposed a multitude of automated bug-detection approaches that mine a class of bugs that we call API misuses. Evaluations on a variety of software products show both the omnipresence of such misuses and the ability of the approaches to detect them. This work presents MuBench, a dataset of 89 API misuses that we collected from 33 real-world projects and a survey. With the dataset we empirically analyze the prevalence of API misuses compared to other types of bugs, finding that they are rare, but almost always cause crashes. Furthermore, we discuss how to use it to benchmark and compare API-misuse detectors.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "33787987",
+            "name": "Sven Amann",
+            "url": "https://www.semanticscholar.org/author/33787987"
+        },
+        {
+            "authorId": "1869015",
+            "name": "Sarah Nadi",
+            "url": "https://www.semanticscholar.org/author/1869015"
+        },
+        {
+            "authorId": "2909676",
+            "name": "H. Nguyen",
+            "url": "https://www.semanticscholar.org/author/2909676"
+        },
+        {
+            "authorId": "2327697",
+            "name": "T. Nguyen",
+            "url": "https://www.semanticscholar.org/author/2327697"
+        },
+        {
+            "authorId": "1681134",
+            "name": "M. Mezini",
+            "url": "https://www.semanticscholar.org/author/1681134"
+        }
+    ],
+    "citationVelocity": 12,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2297794082",
+                    "name": "Christoph Bockisch"
+                },
+                {
+                    "authorId": "2322399441",
+                    "name": "Deniz Eren"
+                },
+                {
+                    "authorId": "2322397420",
+                    "name": "Sascha Lehmann"
+                },
+                {
+                    "authorId": "2276017553",
+                    "name": "Daniel Neufeld"
+                },
+                {
+                    "authorId": "2276024776",
+                    "name": "Gabriele Taentzer"
+                }
+            ],
+            "doi": "10.1145/3640310.3674103",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0fdb23e95a44896cd023d45489ffd8992cf4e0d0",
+            "title": "Mutation Testing of Java Bytecode: A Model-Driven Approach",
+            "url": "https://www.semanticscholar.org/paper/0fdb23e95a44896cd023d45489ffd8992cf4e0d0",
+            "venue": "MODELS",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2321032721",
+                    "name": "Yunlong Ma"
+                },
+                {
+                    "authorId": "2320994366",
+                    "name": "Wentong Tian"
+                },
+                {
+                    "authorId": "2260832395",
+                    "name": "Xiang Gao"
+                },
+                {
+                    "authorId": "2265305015",
+                    "name": "Hailong Sun"
+                },
+                {
+                    "authorId": "2261457164",
+                    "name": "Li Li"
+                }
+            ],
+            "doi": "10.1145/3650212.3652112",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "caca92fc5373fa569cc33d0e761e2a1b5394658d",
+            "title": "API Misuse Detection via Probabilistic Graphical Model",
+            "url": "https://www.semanticscholar.org/paper/caca92fc5373fa569cc33d0e761e2a1b5394658d",
+            "venue": "ISSTA",
+            "year": 2024
+        },
+        {
+            "arxivId": "2409.06561",
+            "authors": [
+                {
+                    "authorId": "2299327183",
+                    "name": "Ehsan Firouzi"
+                },
+                {
+                    "authorId": "2299328283",
+                    "name": "Mohammad Ghafari"
+                },
+                {
+                    "authorId": "2320455400",
+                    "name": "Mike Ebrahimi"
+                }
+            ],
+            "doi": "10.1145/3674805.3695408",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "be3062042370b90eea303ba9a791bcc345747c8a",
+            "title": "ChatGPT's Potential in Cryptography Misuse Detection: A Comparative Analysis with Static Analysis Tools",
+            "url": "https://www.semanticscholar.org/paper/be3062042370b90eea303ba9a791bcc345747c8a",
+            "venue": "",
+            "year": 2024
+        },
+        {
+            "arxivId": "2408.15853",
+            "authors": [
+                {
+                    "authorId": "3034251",
+                    "name": "Akalanka Galappaththi"
+                },
+                {
+                    "authorId": "2317114000",
+                    "name": "Sarah Nadi"
+                },
+                {
+                    "authorId": "2317114602",
+                    "name": "Christoph Treude"
+                }
+            ],
+            "doi": "10.1145/3674805.3686685",
+            "intent": [
+                "background",
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "bb7d0c00f5ea28a5b714524e240a5999225b1b62",
+            "title": "An Empirical Study of API Misuses of Data-Centric Libraries",
+            "url": "https://www.semanticscholar.org/paper/bb7d0c00f5ea28a5b714524e240a5999225b1b62",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2307505464",
+                    "name": "Can Li"
+                },
+                {
+                    "authorId": "2144177754",
+                    "name": "Jingxuan Zhang"
+                },
+                {
+                    "authorId": "2307410383",
+                    "name": "Yixuan Tang"
+                },
+                {
+                    "authorId": "2307478127",
+                    "name": "Zhuhang Li"
+                },
+                {
+                    "authorId": "2307400845",
+                    "name": "Tianyue Sun"
+                }
+            ],
+            "doi": "10.1145/3643991.3644904",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a8a7a9db84269ef468425660bcdea580274f3b99",
+            "title": "Boosting API Misuse Detection via Integrating API Constraints from Multiple Sources",
+            "url": "https://www.semanticscholar.org/paper/a8a7a9db84269ef468425660bcdea580274f3b99",
+            "venue": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1411137832",
+                    "name": "Moshi Wei"
+                },
+                {
+                    "authorId": "51220845",
+                    "name": "Nima Shiri Harzevili"
+                },
+                {
+                    "authorId": "2108716128",
+                    "name": "Yuekai Huang"
+                },
+                {
+                    "authorId": "2266138898",
+                    "name": "Jinqiu Yang"
+                },
+                {
+                    "authorId": "2266137310",
+                    "name": "Junjie Wang"
+                },
+                {
+                    "authorId": "2257127006",
+                    "name": "Song Wang"
+                }
+            ],
+            "doi": "10.1145/3597503.3639177",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8b5026bb1c9af5ffb1ce34241d073a0d570d0919",
+            "title": "Demystifying and Detecting Misuses of Deep Learning APIs",
+            "url": "https://www.semanticscholar.org/paper/8b5026bb1c9af5ffb1ce34241d073a0d570d0919",
+            "venue": "2024 IEEE/ACM 46th International Conference on Software Engineering (ICSE)",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2296501128",
+                    "name": "Yuchen Cai"
+                },
+                {
+                    "authorId": "2133066141",
+                    "name": "Aashish Yadavally"
+                },
+                {
+                    "authorId": "2296565028",
+                    "name": "Abhishek Mishra"
+                },
+                {
+                    "authorId": "2296534054",
+                    "name": "Genesis Montejo"
+                },
+                {
+                    "authorId": "2216769546",
+                    "name": "Tien N. Nguyen"
+                }
+            ],
+            "doi": "10.1145/3597503.3639188",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "19f6d2401281c75e68ff431fb08aa6653a194bde",
+            "title": "Programming Assistant for Exception Handling with CodeBERT",
+            "url": "https://www.semanticscholar.org/paper/19f6d2401281c75e68ff431fb08aa6653a194bde",
+            "venue": "2024 IEEE/ACM 46th International Conference on Software Engineering (ICSE)",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50773303",
+                    "name": "Deheng Yang"
+                },
+                {
+                    "authorId": "145407228",
+                    "name": "Kui Liu"
+                },
+                {
+                    "authorId": "2265389567",
+                    "name": "Yan Lei"
+                },
+                {
+                    "authorId": "2284525326",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "2117713939",
+                    "name": "Huan Xie"
+                },
+                {
+                    "authorId": "2156066280",
+                    "name": "Chunyan Liu"
+                },
+                {
+                    "authorId": "2284581162",
+                    "name": "Zhenyu Wang"
+                },
+                {
+                    "authorId": "2067696492",
+                    "name": "Xiaoguang Mao"
+                },
+                {
+                    "authorId": "3023999",
+                    "name": "T\u00e9gawend\u00e9 F. Bissyand\u00e9"
+                }
+            ],
+            "doi": "10.1007/s10664-023-10413-9",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "72aa4f964fd5cb0a96f88c9f83bd966b631be716",
+            "title": "Demystifying API misuses in deep learning applications",
+            "url": "https://www.semanticscholar.org/paper/72aa4f964fd5cb0a96f88c9f83bd966b631be716",
+            "venue": "Empir. Softw. Eng.",
+            "year": 2024
+        },
+        {
+            "arxivId": "2402.07542",
+            "authors": [
+                {
+                    "authorId": "3289277",
+                    "name": "Sebastian Nielebock"
+                },
+                {
+                    "authorId": "1844282240",
+                    "name": "Paul Blockhaus"
+                },
+                {
+                    "authorId": "2156838820",
+                    "name": "Jacob Kr\u00fcger"
+                },
+                {
+                    "authorId": "2421227",
+                    "name": "F. Ortmeier"
+                }
+            ],
+            "doi": "10.1145/3643788.3648011",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d6413dc45c365ef8e3feb6f81fa5ae9772d580ea",
+            "title": "ASAP-Repair: API-Specific Automated Program Repair Based on API Usage Graphs",
+            "url": "https://www.semanticscholar.org/paper/d6413dc45c365ef8e3feb6f81fa5ae9772d580ea",
+            "venue": "2024 IEEE/ACM International Workshop on Automated Program Repair (APR)",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49560201",
+                    "name": "Guosheng Xu"
+                },
+                {
+                    "authorId": "2278784485",
+                    "name": "Xinyu Wang"
+                },
+                {
+                    "authorId": "2278803622",
+                    "name": "Cheng Yu"
+                },
+                {
+                    "authorId": "2278623949",
+                    "name": "Haoran Zhao"
+                },
+                {
+                    "authorId": "2278939064",
+                    "name": "Yanhui Guo"
+                },
+                {
+                    "authorId": "2278635048",
+                    "name": "Jinghong Guo"
+                },
+                {
+                    "authorId": "2278625101",
+                    "name": "Chenyu Wang"
+                }
+            ],
+            "doi": "10.1145/3603273.3634708",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5a5b6c63a42a30c0a13eb8885f07ab0fd92339fa",
+            "title": "Research on Cryptographic Misuse Detection for Android Applications Based on Dynamic and Static Combination",
+            "url": "https://www.semanticscholar.org/paper/5a5b6c63a42a30c0a13eb8885f07ab0fd92339fa",
+            "venue": "AAIA",
+            "year": 2023
+        },
+        {
+            "arxivId": "2310.16390",
+            "authors": [
+                {
+                    "authorId": "2146322053",
+                    "name": "Ting Zhang"
+                },
+                {
+                    "authorId": "9223952",
+                    "name": "I. Irsan"
+                },
+                {
+                    "authorId": "2121315",
+                    "name": "Ferdian Thung"
+                },
+                {
+                    "authorId": "2258948597",
+                    "name": "David Lo"
+                },
+                {
+                    "authorId": "2261698735",
+                    "name": "Asankhaya Sharma"
+                },
+                {
+                    "authorId": "1680504",
+                    "name": "Lingxiao Jiang"
+                }
+            ],
+            "doi": "10.48550/arXiv.2310.16390",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "13c978bc2c27d1753354160f989c6334254fad9b",
+            "title": "Evaluating Pre-trained Language Models for Repairing API Misuses",
+            "url": "https://www.semanticscholar.org/paper/13c978bc2c27d1753354160f989c6334254fad9b",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40893135",
+                    "name": "Diego Marcilio"
+                },
+                {
+                    "authorId": "1710489",
+                    "name": "Carlo A. Furia"
+                }
+            ],
+            "doi": "10.1109/ICSME58846.2023.00046",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "866a2254b41e9a28196ddfaaca0140f888908a78",
+            "title": "Towards Code Improvements Suggestions from Client Exception Analysis",
+            "url": "https://www.semanticscholar.org/paper/866a2254b41e9a28196ddfaaca0140f888908a78",
+            "venue": "2023 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2306.08869",
+            "authors": [
+                {
+                    "authorId": "2150573680",
+                    "name": "Zahra Mousavi"
+                },
+                {
+                    "authorId": "118995692",
+                    "name": "Chadni Islam"
+                },
+                {
+                    "authorId": "2142773270",
+                    "name": "M. A. Babar"
+                },
+                {
+                    "authorId": "1990239",
+                    "name": "A. Abuadbba"
+                },
+                {
+                    "authorId": "2087142588",
+                    "name": "Kristen Moore"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "09e0c677d676b44cba1a20720df1ef0dda1b52d8",
+            "title": "Detecting Misuse of Security APIs: A Systematic Review",
+            "url": "https://www.semanticscholar.org/paper/09e0c677d676b44cba1a20720df1ef0dda1b52d8",
+            "venue": "",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2227700751",
+                    "name": "Deepak Panda"
+                },
+                {
+                    "authorId": "2199265219",
+                    "name": "Piyush Basia"
+                },
+                {
+                    "authorId": "2227732139",
+                    "name": "Kushal Nallavolu"
+                },
+                {
+                    "authorId": "2227726377",
+                    "name": "Xin Zhong"
+                },
+                {
+                    "authorId": "3204630",
+                    "name": "Harvey P. Siy"
+                },
+                {
+                    "authorId": "2294648",
+                    "name": "Myoungkyu Song"
+                }
+            ],
+            "doi": "10.1109/SERA57763.2023.10197708",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fddf9b34b46414cc16a7124433376db18c181bc5",
+            "title": "A Statistical Method for API Usage Learning and API Misuse Violation Finding",
+            "url": "https://www.semanticscholar.org/paper/fddf9b34b46414cc16a7124433376db18c181bc5",
+            "venue": "2023 IEEE/ACIS 21st International Conference on Software Engineering Research, Management and Applications (SERA)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": null,
+                    "name": "Yue Wang"
+                },
+                {
+                    "authorId": "2044594153",
+                    "name": "Zhide Zhou"
+                },
+                {
+                    "authorId": "7680483",
+                    "name": "Zhilei Ren"
+                },
+                {
+                    "authorId": "2152507758",
+                    "name": "Dong Liu"
+                },
+                {
+                    "authorId": "2142704681",
+                    "name": "He Jiang"
+                }
+            ],
+            "doi": "10.1109/SANER56733.2023.00041",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a2c61cecdaba30e39564727e074c6b1f13c17190",
+            "title": "A Comprehensive Study of WebAssembly Runtime Bugs",
+            "url": "https://www.semanticscholar.org/paper/a2c61cecdaba30e39564727e074c6b1f13c17190",
+            "venue": "2023 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1516911398",
+                    "name": "Dip Kiran Pradhan Newar"
+                },
+                {
+                    "authorId": "2048995333",
+                    "name": "Rui Zhao"
+                },
+                {
+                    "authorId": "3204630",
+                    "name": "Harvey P. Siy"
+                },
+                {
+                    "authorId": "144578385",
+                    "name": "Leen-Kiat Soh"
+                },
+                {
+                    "authorId": "2294648",
+                    "name": "Myoungkyu Song"
+                }
+            ],
+            "doi": "10.1016/j.scico.2023.102933",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "917fbcc481750b62a709f9e764407f099758506a",
+            "title": "SSDTutor: A feedback-driven intelligent tutoring system for secure software development",
+            "url": "https://www.semanticscholar.org/paper/917fbcc481750b62a709f9e764407f099758506a",
+            "venue": "Sci. Comput. Program.",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48379623",
+                    "name": "Y. Zhang"
+                },
+                {
+                    "authorId": "2154337000",
+                    "name": "M. Kabir"
+                },
+                {
+                    "authorId": "152130112",
+                    "name": "Y. Xiao"
+                },
+                {
+                    "authorId": "2065759959",
+                    "name": "D. Yao"
+                },
+                {
+                    "authorId": "46720340",
+                    "name": "Na Meng"
+                }
+            ],
+            "doi": "10.1109/TSE.2022.3150302",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "4f005e28c4042a8c300a2ea6976139f80bbc4ea7",
+            "title": "Automatic Detection of Java Cryptographic API Misuses: Are We There Yet?",
+            "url": "https://www.semanticscholar.org/paper/4f005e28c4042a8c300a2ea6976139f80bbc4ea7",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2121290935",
+                    "name": "Jingbo Yang"
+                },
+                {
+                    "authorId": "2111473034",
+                    "name": "Jian Ren"
+                },
+                {
+                    "authorId": "2143794960",
+                    "name": "Wenjun Wu"
+                }
+            ],
+            "doi": "10.1109/QRS57517.2022.00100",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "aa743379c89c353a435e38f53fa51a2870a45cde",
+            "title": "API Misuse Detection Method Based on Transformer",
+            "url": "https://www.semanticscholar.org/paper/aa743379c89c353a435e38f53fa51a2870a45cde",
+            "venue": "2022 IEEE 22nd International Conference on Software Quality, Reliability and Security (QRS)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2192914947",
+                    "name": "Simon Binder"
+                },
+                {
+                    "authorId": "2118930782",
+                    "name": "Krishna Narasimhan"
+                },
+                {
+                    "authorId": "2193049894",
+                    "name": "Svenja Kernig"
+                },
+                {
+                    "authorId": "1681134",
+                    "name": "M. Mezini"
+                }
+            ],
+            "doi": "10.1145/3567512.3567526",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8b2392c79eb527a84ec634cd7e99b5f8f015db78",
+            "title": "jGuard: Programming Misuse-Resilient APIs",
+            "url": "https://www.semanticscholar.org/paper/8b2392c79eb527a84ec634cd7e99b5f8f015db78",
+            "venue": "SLE",
+            "year": 2022
+        },
+        {
+            "arxivId": "2211.13498",
+            "authors": [
+                {
+                    "authorId": "2164989094",
+                    "name": "Catherine Tony"
+                },
+                {
+                    "authorId": "2156116825",
+                    "name": "Nicol'as E. D'iaz Ferreyra"
+                },
+                {
+                    "authorId": "1723601",
+                    "name": "R. Scandariato"
+                }
+            ],
+            "doi": "10.1109/QRS57517.2022.00094",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "ce9397eaa3de0f791bead5d16f14b5dd4a15052f",
+            "title": "GitHub Considered Harmful? Analyzing Open-Source Projects for the Automatic Generation of Cryptographic API Call Sequences",
+            "url": "https://www.semanticscholar.org/paper/ce9397eaa3de0f791bead5d16f14b5dd4a15052f",
+            "venue": "2022 IEEE 22nd International Conference on Software Quality, Reliability and Security (QRS)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2209.04791",
+            "authors": [
+                {
+                    "authorId": "2047509548",
+                    "name": "Lili Quan"
+                },
+                {
+                    "authorId": "51037101",
+                    "name": "Qianyu Guo"
+                },
+                {
+                    "authorId": "49419199",
+                    "name": "Xiaofei Xie"
+                },
+                {
+                    "authorId": "48847695",
+                    "name": "Sen Chen"
+                },
+                {
+                    "authorId": "2118890600",
+                    "name": "Xiaohong Li"
+                },
+                {
+                    "authorId": "40457423",
+                    "name": "Yang Liu"
+                }
+            ],
+            "doi": "10.1145/3551349.3560427",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1c03f109f7d9beff9e98b83771810e1dc3bb5fc7",
+            "title": "Towards Understanding the Faults of JavaScript-Based Deep Learning Systems",
+            "url": "https://www.semanticscholar.org/paper/1c03f109f7d9beff9e98b83771810e1dc3bb5fc7",
+            "venue": "ASE",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": null,
+                    "name": "Zhuo Li"
+                },
+                {
+                    "authorId": "150352908",
+                    "name": "Yuechen Wu"
+                },
+                {
+                    "authorId": "143828252",
+                    "name": "L. Ma"
+                },
+                {
+                    "authorId": "49419199",
+                    "name": "Xiaofei Xie"
+                },
+                {
+                    "authorId": "152829349",
+                    "name": "Yingfeng Chen"
+                },
+                {
+                    "authorId": "3120655",
+                    "name": "Changjie Fan"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10158-x",
+            "intent": [],
+            "isInfluential": true,
+            "paperId": "14927c8d68fa0cbad652514d2c4aec4c3b523b87",
+            "title": "GBGallery : A benchmark and framework for game testing",
+            "url": "https://www.semanticscholar.org/paper/14927c8d68fa0cbad652514d2c4aec4c3b523b87",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": "2207.06665",
+            "authors": [
+                {
+                    "authorId": "3289277",
+                    "name": "Sebastian Nielebock"
+                },
+                {
+                    "authorId": "1844282240",
+                    "name": "Paul Blockhaus"
+                },
+                {
+                    "authorId": "2156838820",
+                    "name": "Jacob Kr\u00fcger"
+                },
+                {
+                    "authorId": "2421227",
+                    "name": "F. Ortmeier"
+                }
+            ],
+            "doi": "10.48550/arXiv.2207.06665",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "541115cd797bcbfe636fe753b179a89e6e250dd8",
+            "title": "Automated Change Rule Inference for Distance-Based API Misuse Detection",
+            "url": "https://www.semanticscholar.org/paper/541115cd797bcbfe636fe753b179a89e6e250dd8",
+            "venue": "ArXiv",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2185239120",
+                    "name": "Qingmi Liang"
+                },
+                {
+                    "authorId": "2141228682",
+                    "name": "Zhirui Kuai"
+                },
+                {
+                    "authorId": "46867651",
+                    "name": "Yangqi Zhang"
+                },
+                {
+                    "authorId": "2140306519",
+                    "name": "Zhiyang Zhang"
+                },
+                {
+                    "authorId": "2139848285",
+                    "name": "Li Kuang"
+                },
+                {
+                    "authorId": "2145404342",
+                    "name": "Lingyan Zhang"
+                }
+            ],
+            "doi": "10.1109/ICWS55610.2022.00046",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a463afc277468b63c43cc5dfcfa24a8d1cc7dfc0",
+            "title": "MisuseHint: A Service for API Misuse Detection Based on Building Knowledge Graph from Documentation and Codebase",
+            "url": "https://www.semanticscholar.org/paper/a463afc277468b63c43cc5dfcfa24a8d1cc7dfc0",
+            "venue": "2022 IEEE International Conference on Web Services (ICWS)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144188161",
+                    "name": "Thomas Hirsch"
+                },
+                {
+                    "authorId": "3334382",
+                    "name": "Birgit Hofer"
+                }
+            ],
+            "doi": "10.1016/j.jss.2022.111423",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9a7b7867d1c2a540fd2c3ad9df666a32751374e2",
+            "title": "A systematic literature review on benchmarks for evaluating debugging approaches",
+            "url": "https://www.semanticscholar.org/paper/9a7b7867d1c2a540fd2c3ad9df666a32751374e2",
+            "venue": "J. Syst. Softw.",
+            "year": 2022
+        },
+        {
+            "arxivId": "2204.09945",
+            "authors": [
+                {
+                    "authorId": "48654378",
+                    "name": "Hong Jin Kang"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                }
+            ],
+            "doi": "10.1109/TSE.2021.3069978",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "8cb83022c0d9edb9628a7fc0e9bbce7825a21fa1",
+            "title": "Active Learning of Discriminative Subgraph Patterns for API Misuse Detection",
+            "url": "https://www.semanticscholar.org/paper/8cb83022c0d9edb9628a7fc0e9bbce7825a21fa1",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": "2204.06447",
+            "authors": [
+                {
+                    "authorId": "51174451",
+                    "name": "Michael Schlichtig"
+                },
+                {
+                    "authorId": "3469814",
+                    "name": "A. Wickert"
+                },
+                {
+                    "authorId": "1508873065",
+                    "name": "Stefan Kr\u00fcger"
+                },
+                {
+                    "authorId": "1752222",
+                    "name": "E. Bodden"
+                },
+                {
+                    "authorId": "1681134",
+                    "name": "M. Mezini"
+                }
+            ],
+            "doi": "10.48550/arXiv.2204.06447",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "0b4f4cab119263e610cc65e2b16d842f0c0c6308",
+            "title": "CamBench - Cryptographic API Misuse Detection Tool Benchmark Suite",
+            "url": "https://www.semanticscholar.org/paper/0b4f4cab119263e610cc65e2b16d842f0c0c6308",
+            "venue": "ArXiv",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144121517",
+                    "name": "Ting Su"
+                },
+                {
+                    "authorId": "41075481",
+                    "name": "Lingling Fan"
+                },
+                {
+                    "authorId": "48847695",
+                    "name": "Sen Chen"
+                },
+                {
+                    "authorId": "2152797936",
+                    "name": "Yang Liu"
+                },
+                {
+                    "authorId": "46265379",
+                    "name": "Lihua Xu"
+                },
+                {
+                    "authorId": "4166714",
+                    "name": "G. Pu"
+                },
+                {
+                    "authorId": "38319925",
+                    "name": "Z. Su"
+                }
+            ],
+            "doi": "10.1109/tse.2020.3013438",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d9fb2e0243368623542ceacf3be5563b1de68d79",
+            "title": "Why My App Crashes? Understanding and Benchmarking Framework-Specific Exceptions of Android Apps",
+            "url": "https://www.semanticscholar.org/paper/d9fb2e0243368623542ceacf3be5563b1de68d79",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": "2203.04026",
+            "authors": [
+                {
+                    "authorId": "123878903",
+                    "name": "Junjie Chen"
+                },
+                {
+                    "authorId": "2141192860",
+                    "name": "Yihua Liang"
+                },
+                {
+                    "authorId": "2147268520",
+                    "name": "Qingchao Shen"
+                },
+                {
+                    "authorId": "2149532327",
+                    "name": "Jiajun Jiang"
+                },
+                {
+                    "authorId": "2223145054",
+                    "name": "Shuochuan Li"
+                }
+            ],
+            "doi": "10.1145/3587155",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7f8d53af9bf983a7b1b7b2901b5dc4fe2e8da6b2",
+            "title": "Toward Understanding Deep Learning Framework Bugs",
+            "url": "https://www.semanticscholar.org/paper/7f8d53af9bf983a7b1b7b2901b5dc4fe2e8da6b2",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51174451",
+                    "name": "Michael Schlichtig"
+                },
+                {
+                    "authorId": "2178779969",
+                    "name": "Steffen Sassalla"
+                },
+                {
+                    "authorId": "2118930782",
+                    "name": "Krishna Narasimhan"
+                },
+                {
+                    "authorId": "1752222",
+                    "name": "E. Bodden"
+                }
+            ],
+            "doi": "10.1109/saner53432.2022.00085",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "b815563b2d18413d93d709472a358aa8487d69e7",
+            "title": "FUM - A Framework for API Usage constraint and Misuse Classification",
+            "url": "https://www.semanticscholar.org/paper/b815563b2d18413d93d709472a358aa8487d69e7",
+            "venue": "2022 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2202.11999",
+            "authors": [
+                {
+                    "authorId": "3121105",
+                    "name": "O. Riganelli"
+                },
+                {
+                    "authorId": "2156139376",
+                    "name": "Ionut Daniel Fagadau"
+                },
+                {
+                    "authorId": "1699669",
+                    "name": "D. Micucci"
+                },
+                {
+                    "authorId": "39348287",
+                    "name": "L. Mariani"
+                }
+            ],
+            "doi": "10.1145/3510454.3516837",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3f54455d38d1e383be8b2103182484f126df9f37",
+            "title": "Proactive Libraries: Enforcing Correct Behaviors in Android Apps",
+            "url": "https://www.semanticscholar.org/paper/3f54455d38d1e383be8b2103182484f126df9f37",
+            "venue": "2022 IEEE/ACM 44th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2042714081",
+                    "name": "Hushuang Zeng"
+                },
+                {
+                    "authorId": "2155658329",
+                    "name": "Jingxin Chen"
+                },
+                {
+                    "authorId": "37421035",
+                    "name": "Beijun Shen"
+                },
+                {
+                    "authorId": "47067440",
+                    "name": "Hao Zhong"
+                }
+            ],
+            "doi": "10.1109/APSEC53868.2021.00024",
+            "intent": [
+                "methodology",
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "6a6595059ff882f99114a31f833e3663476ea3c7",
+            "title": "Mining API Constraints from Library and Client to Detect API Misuses",
+            "url": "https://www.semanticscholar.org/paper/6a6595059ff882f99114a31f833e3663476ea3c7",
+            "venue": "2021 28th Asia-Pacific Software Engineering Conference (APSEC)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51118871",
+                    "name": "Maxime Lamothe"
+                },
+                {
+                    "authorId": "1718050",
+                    "name": "Yann-Ga\u00ebl Gu\u00e9h\u00e9neuc"
+                },
+                {
+                    "authorId": "39724619",
+                    "name": "Weiyi Shang"
+                }
+            ],
+            "doi": "10.1145/3470133",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "f5b8084c6d171cd3c0d8b330c7aeeae65b9a6383",
+            "title": "A Systematic Review of API Evolution Literature",
+            "url": "https://www.semanticscholar.org/paper/f5b8084c6d171cd3c0d8b330c7aeeae65b9a6383",
+            "venue": "ACM Comput. Surv.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2108.12511",
+            "authors": [
+                {
+                    "authorId": "3289277",
+                    "name": "Sebastian Nielebock"
+                },
+                {
+                    "authorId": "1844282240",
+                    "name": "Paul Blockhaus"
+                },
+                {
+                    "authorId": "38256069",
+                    "name": "J. Kr\u00fcger"
+                },
+                {
+                    "authorId": "2421227",
+                    "name": "F. Ortmeier"
+                }
+            ],
+            "doi": "10.26226/morressier.613b54401459512fce6a7d05",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "82aaae90ad2ff525e9bd94b4105783a089139811",
+            "title": "An Experimental Analysis of Graph-Distance Algorithms for Comparing API Usages",
+            "url": "https://www.semanticscholar.org/paper/82aaae90ad2ff525e9bd94b4105783a089139811",
+            "venue": "2021 IEEE 21st International Working Conference on Source Code Analysis and Manipulation (SCAM)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2147268520",
+                    "name": "Qingchao Shen"
+                },
+                {
+                    "authorId": "2042692720",
+                    "name": "Haoyang Ma"
+                },
+                {
+                    "authorId": "123878903",
+                    "name": "Junjie Chen"
+                },
+                {
+                    "authorId": "1976722537",
+                    "name": "Yongqiang Tian"
+                },
+                {
+                    "authorId": "143608708",
+                    "name": "S. Cheung"
+                },
+                {
+                    "authorId": "2143737767",
+                    "name": "Xiang Chen"
+                }
+            ],
+            "doi": "10.1145/3468264.3468591",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "e65608becfe31db8491cf1bdbbceee64f89db937",
+            "title": "A comprehensive study of deep learning compiler bugs",
+            "url": "https://www.semanticscholar.org/paper/e65608becfe31db8491cf1bdbbceee64f89db937",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1977416789",
+                    "name": "Xiaoxue Ren"
+                },
+                {
+                    "authorId": "96243837",
+                    "name": "Xinyuan Ye"
+                },
+                {
+                    "authorId": "3138980",
+                    "name": "Zhenchang Xing"
+                },
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "3087664",
+                    "name": "Xiwei Xu"
+                },
+                {
+                    "authorId": "144694615",
+                    "name": "Liming Zhu"
+                },
+                {
+                    "authorId": "48480254",
+                    "name": "Jianling Sun"
+                }
+            ],
+            "doi": "10.1145/3468264.3473112",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "ea556bc00a12e45fc1b76c7083a3cea9ce9b1112",
+            "title": "KGAMD: an API-misuse detector driven by fine-grained API-constraint knowledge graph",
+            "url": "https://www.semanticscholar.org/paper/ea556bc00a12e45fc1b76c7083a3cea9ce9b1112",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2090219",
+                    "name": "Yida Tao"
+                },
+                {
+                    "authorId": "119710813",
+                    "name": "Shan Tang"
+                },
+                {
+                    "authorId": "39584070",
+                    "name": "Yepang Liu"
+                },
+                {
+                    "authorId": "35159204",
+                    "name": "Zhiwu Xu"
+                },
+                {
+                    "authorId": "8307590",
+                    "name": "S. Qin"
+                }
+            ],
+            "doi": "10.1145/3456873",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "55739c266c43580e5d923c98e59d7d66ed82a91a",
+            "title": "Speeding Up Data Manipulation Tasks with Alternative Implementations",
+            "url": "https://www.semanticscholar.org/paper/55739c266c43580e5d923c98e59d7d66ed82a91a",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "72946714",
+                    "name": "Larry Singleton"
+                },
+                {
+                    "authorId": "2048995333",
+                    "name": "Rui Zhao"
+                },
+                {
+                    "authorId": "3204630",
+                    "name": "Harvey P. Siy"
+                },
+                {
+                    "authorId": "2294648",
+                    "name": "Myoungkyu Song"
+                }
+            ],
+            "doi": "10.1109/COMPSAC51774.2021.00165",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "87b2dec9d0512bffb70c0001a295c2058e2065b2",
+            "title": "FireBugs: Finding and Repairing Cryptography API Misuses in Mobile Applications",
+            "url": "https://www.semanticscholar.org/paper/87b2dec9d0512bffb70c0001a295c2058e2065b2",
+            "venue": "2021 IEEE 45th Annual Computers, Software, and Applications Conference (COMPSAC)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2104.09693",
+            "authors": [
+                {
+                    "authorId": "49830829",
+                    "name": "Peipei Wang"
+                },
+                {
+                    "authorId": "1965873243",
+                    "name": "Chris Brown"
+                },
+                {
+                    "authorId": "2074156646",
+                    "name": "Jamie A. Jennings"
+                },
+                {
+                    "authorId": "2619495",
+                    "name": "Kathryn T. Stolee"
+                }
+            ],
+            "doi": "10.1007/s10664-021-10033-1",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c24a90362a9e1a22488ad1a4dd838d10c6715841",
+            "title": "Demystifying regular expression bugs",
+            "url": "https://www.semanticscholar.org/paper/c24a90362a9e1a22488ad1a4dd838d10c6715841",
+            "venue": "Empirical Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48569910",
+                    "name": "Xia Li"
+                },
+                {
+                    "authorId": "46401073",
+                    "name": "Jiajun Jiang"
+                },
+                {
+                    "authorId": "2105536355",
+                    "name": "Samuel Benton"
+                },
+                {
+                    "authorId": "144019830",
+                    "name": "Y. Xiong"
+                },
+                {
+                    "authorId": "2145398332",
+                    "name": "Lingming Zhang"
+                }
+            ],
+            "doi": "10.1109/ICST49551.2021.00034",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "18205495bef4fcd7bab0553fb3f2d1af4bc150a8",
+            "title": "A Large-scale Study on API Misuses in the Wild",
+            "url": "https://www.semanticscholar.org/paper/18205495bef4fcd7bab0553fb3f2d1af4bc150a8",
+            "venue": "2021 14th IEEE Conference on Software Testing, Verification and Validation (ICST)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3126897",
+                    "name": "M. Kechagia"
+                },
+                {
+                    "authorId": "2679031",
+                    "name": "Sergey Mechtaev"
+                },
+                {
+                    "authorId": "2103653",
+                    "name": "Federica Sarro"
+                },
+                {
+                    "authorId": "145836176",
+                    "name": "M. Harman"
+                }
+            ],
+            "doi": "10.1109/TSE.2021.3067156",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "d5c9ca4211da7ab6298e650fa0c0871986b795f4",
+            "title": "Evaluating Automatic Program Repair Capabilities to Repair API Misuses",
+            "url": "https://www.semanticscholar.org/paper/d5c9ca4211da7ab6298e650fa0c0871986b795f4",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": "2012.14078",
+            "authors": [
+                {
+                    "authorId": "1410310131",
+                    "name": "Maxime Gallais-Jimenez"
+                },
+                {
+                    "authorId": "2909676",
+                    "name": "H. Nguyen"
+                },
+                {
+                    "authorId": "39014194",
+                    "name": "M. Saied"
+                },
+                {
+                    "authorId": "2327697",
+                    "name": "T. Nguyen"
+                },
+                {
+                    "authorId": "9460712",
+                    "name": "H. Sahraoui"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology",
+                "result"
+            ],
+            "isInfluential": true,
+            "paperId": "14fbd28e148682bf4218bb9024954095a408b281",
+            "title": "API Misuse Detection An Immune System inspired Approach",
+            "url": "https://www.semanticscholar.org/paper/14fbd28e148682bf4218bb9024954095a408b281",
+            "venue": "ArXiv",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3439470",
+                    "name": "Simone Scalabrino"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "1397411901",
+                    "name": "Mario Linares-V\u00e1squez"
+                },
+                {
+                    "authorId": "134846475",
+                    "name": "Valentina Piantadosi"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09877-w",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0220b4fe0247094527404568af19c4b7e5b85a20",
+            "title": "API compatibility issues in Android: Causes and effectiveness of data-driven detection techniques",
+            "url": "https://www.semanticscholar.org/paper/0220b4fe0247094527404568af19c4b7e5b85a20",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": "2103.02386",
+            "authors": [
+                {
+                    "authorId": "144188161",
+                    "name": "Thomas Hirsch"
+                }
+            ],
+            "doi": "10.1109/ISSREW51248.2020.00053",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5d5e353f7ffa621a5f98cbab5a7e266ff970bc35",
+            "title": "A Fault Localization and Debugging Support Framework driven by Bug Tracking Data",
+            "url": "https://www.semanticscholar.org/paper/5d5e353f7ffa621a5f98cbab5a7e266ff970bc35",
+            "venue": "2020 IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1977416789",
+                    "name": "Xiaoxue Ren"
+                },
+                {
+                    "authorId": "96243837",
+                    "name": "Xinyuan Ye"
+                },
+                {
+                    "authorId": "3138980",
+                    "name": "Zhenchang Xing"
+                },
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "3087664",
+                    "name": "Xiwei Xu"
+                },
+                {
+                    "authorId": "144694615",
+                    "name": "Liming Zhu"
+                },
+                {
+                    "authorId": "4346236",
+                    "name": "Jianling Sun"
+                }
+            ],
+            "doi": "10.1145/3324884.3416551",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "0c75090bc135597b04b3a84392cdd055705ab12d",
+            "title": "API-Misuse Detection Driven by Fine-Grained API-Constraint Knowledge Graph",
+            "url": "https://www.semanticscholar.org/paper/0c75090bc135597b04b3a84392cdd055705ab12d",
+            "venue": "2020 35th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2020
+        },
+        {
+            "arxivId": "2008.00277",
+            "authors": [
+                {
+                    "authorId": "3289277",
+                    "name": "Sebastian Nielebock"
+                },
+                {
+                    "authorId": "2350478",
+                    "name": "R. Heum\u00fcller"
+                },
+                {
+                    "authorId": "2052588771",
+                    "name": "Kevin Michael Schott"
+                },
+                {
+                    "authorId": "2421227",
+                    "name": "F. Ortmeier"
+                }
+            ],
+            "doi": "10.1007/s10515-021-00294-x",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "b2fb4dff8ce7a53324a8d862babcdb48e1058e5a",
+            "title": "Guided pattern mining for API misuse detection by change-based code analysis",
+            "url": "https://www.semanticscholar.org/paper/b2fb4dff8ce7a53324a8d862babcdb48e1058e5a",
+            "venue": "Automated Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3289277",
+                    "name": "Sebastian Nielebock"
+                },
+                {
+                    "authorId": "2350478",
+                    "name": "R. Heum\u00fcller"
+                },
+                {
+                    "authorId": "38256069",
+                    "name": "J. Kr\u00fcger"
+                },
+                {
+                    "authorId": "2421227",
+                    "name": "F. Ortmeier"
+                }
+            ],
+            "doi": "10.1145/3377816.3381735",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "ae6bae7a27eda45ad989d3a1d3c0d5d76f625540",
+            "title": "Cooperative API Misuse Detection Using Correction Rules",
+            "url": "https://www.semanticscholar.org/paper/ae6bae7a27eda45ad989d3a1d3c0d5d76f625540",
+            "venue": "2020 IEEE/ACM 42nd International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51118871",
+                    "name": "Maxime Lamothe"
+                },
+                {
+                    "authorId": "39724619",
+                    "name": "Weiyi Shang"
+                }
+            ],
+            "doi": "10.1145/3377811.3380433",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fb267600eaac25398f0748eb21ae32a1c2728bb8",
+            "title": "When APIs are Intentionally Bypassed: An Exploratory Study of API Workarounds",
+            "url": "https://www.semanticscholar.org/paper/fb267600eaac25398f0748eb21ae32a1c2728bb8",
+            "venue": "2020 IEEE/ACM 42nd International Conference on Software Engineering (ICSE)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": null,
+                    "name": "Henry Tang"
+                },
+                {
+                    "authorId": "1869015",
+                    "name": "Sarah Nadi"
+                }
+            ],
+            "doi": "10.1007/s10664-021-09954-8",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5219c539a59599cc5f1237cc36453a8a2a9e0197",
+            "title": "On using Stack Overflow comment-edit pairs to recommend code maintenance changes",
+            "url": "https://www.semanticscholar.org/paper/5219c539a59599cc5f1237cc36453a8a2a9e0197",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": "2004.08378",
+            "authors": [
+                {
+                    "authorId": null,
+                    "name": "Henry Tang"
+                },
+                {
+                    "authorId": "1869015",
+                    "name": "Sarah Nadi"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0eb3d4c95b370601309262a09e64ac0fbdc6e580",
+            "title": "Can We Use Stack Overflow as a Source of Explainable Bug-fix Data?",
+            "url": "https://www.semanticscholar.org/paper/0eb3d4c95b370601309262a09e64ac0fbdc6e580",
+            "venue": "ArXiv",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144397789",
+                    "name": "Tam The Nguyen"
+                },
+                {
+                    "authorId": "2541020",
+                    "name": "P. Vu"
+                },
+                {
+                    "authorId": "40538640",
+                    "name": "Tung Thanh Nguyen"
+                }
+            ],
+            "doi": "10.1145/3374135.3385307",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "86a9675d8f9369c531ffb26c372bfdc103db4e1a",
+            "title": "API Misuse Correction: A Fuzzy Logic Approach",
+            "url": "https://www.semanticscholar.org/paper/86a9675d8f9369c531ffb26c372bfdc103db4e1a",
+            "venue": "ACM Southeast Regional Conference",
+            "year": 2020
+        },
+        {
+            "arxivId": "1911.09357",
+            "authors": [
+                {
+                    "authorId": "3121105",
+                    "name": "O. Riganelli"
+                },
+                {
+                    "authorId": "1699669",
+                    "name": "D. Micucci"
+                },
+                {
+                    "authorId": "39348287",
+                    "name": "L. Mariani"
+                }
+            ],
+            "doi": "10.1145/3368087",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "97b3fa4c8ce751c7893e20eab46ae388f4fc3214",
+            "title": "Controlling Interactions with Libraries in Android Apps Through Runtime Enforcement",
+            "url": "https://www.semanticscholar.org/paper/97b3fa4c8ce751c7893e20eab46ae388f4fc3214",
+            "venue": "ACM Trans. Auton. Adapt. Syst.",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2109747559",
+                    "name": "Chi Li"
+                },
+                {
+                    "authorId": "33761432",
+                    "name": "Zuxing Gu"
+                },
+                {
+                    "authorId": "144994012",
+                    "name": "Min Zhou"
+                },
+                {
+                    "authorId": "134233543",
+                    "name": "Jiecheng Wu"
+                },
+                {
+                    "authorId": "2305242488",
+                    "name": "Jiarui Zhang"
+                },
+                {
+                    "authorId": "145932525",
+                    "name": "M. Gu"
+                }
+            ],
+            "doi": "10.1142/s0218194019400205",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c375e76fd4960ddd958df8826fd7578524a0ce97",
+            "title": "API Misuse Detection in C Programs: Practice on SSL APIs",
+            "url": "https://www.semanticscholar.org/paper/c375e76fd4960ddd958df8826fd7578524a0ce97",
+            "venue": "Int. J. Softw. Eng. Knowl. Eng.",
+            "year": 2019
+        },
+        {
+            "arxivId": "1908.06492",
+            "authors": [
+                {
+                    "authorId": "144397789",
+                    "name": "Tam The Nguyen"
+                },
+                {
+                    "authorId": "2541020",
+                    "name": "P. Vu"
+                },
+                {
+                    "authorId": "40538640",
+                    "name": "Tung Thanh Nguyen"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "fbefecc95ca1855c86f73d959a8a42fb160816fb",
+            "title": "API Misuse Correction: A Statistical Approach",
+            "url": "https://www.semanticscholar.org/paper/fbefecc95ca1855c86f73d959a8a42fb160816fb",
+            "venue": "ArXiv",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2350478",
+                    "name": "R. Heum\u00fcller"
+                },
+                {
+                    "authorId": "3289277",
+                    "name": "Sebastian Nielebock"
+                },
+                {
+                    "authorId": "2421227",
+                    "name": "F. Ortmeier"
+                }
+            ],
+            "doi": "10.1109/SEAA.2019.00036",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "7dcd56e77123f5d6648432121460b08c55a07b9e",
+            "title": "SpecTackle - A Specification Mining Experimentation Platform",
+            "url": "https://www.semanticscholar.org/paper/7dcd56e77123f5d6648432121460b08c55a07b9e",
+            "venue": "2019 45th Euromicro Conference on Software Engineering and Advanced Applications (SEAA)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "120332517",
+                    "name": "Majid Zolfaghari"
+                },
+                {
+                    "authorId": "1491639679",
+                    "name": "Solmaz Salimi"
+                },
+                {
+                    "authorId": "145046236",
+                    "name": "M. Kharrazi"
+                }
+            ],
+            "doi": "10.1109/ISCISC48546.2019.8985157",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "dd67c4c1a4155faafa7397c008880409ae8b0480",
+            "title": "Inferring API Correct Usage Rules: A Tree-based Approach",
+            "url": "https://www.semanticscholar.org/paper/dd67c4c1a4155faafa7397c008880409ae8b0480",
+            "venue": "2019 16th International ISC (Iranian Society of Cryptology) Conference on Information Security and Cryptology (ISCISC)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3126897",
+                    "name": "M. Kechagia"
+                },
+                {
+                    "authorId": "2212443",
+                    "name": "Xavier Devroey"
+                },
+                {
+                    "authorId": "3013302",
+                    "name": "Annibale Panichella"
+                },
+                {
+                    "authorId": "2229081040",
+                    "name": "Georgios"
+                },
+                {
+                    "authorId": "2229084310",
+                    "name": "Gousios"
+                }
+            ],
+            "doi": "10.1145/3293882.3330552",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "caa90f6db23b16734af15a28623cac63313aeb9e",
+            "title": "Effective and efficient API misuse detection via exception propagation and search-based testing",
+            "url": "https://www.semanticscholar.org/paper/caa90f6db23b16734af15a28623cac63313aeb9e",
+            "venue": "ISSTA",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "33761432",
+                    "name": "Zuxing Gu"
+                },
+                {
+                    "authorId": "134233543",
+                    "name": "Jiecheng Wu"
+                },
+                {
+                    "authorId": "2108354524",
+                    "name": "Jiaxiang Liu"
+                },
+                {
+                    "authorId": "144994012",
+                    "name": "Min Zhou"
+                },
+                {
+                    "authorId": "145932525",
+                    "name": "M. Gu"
+                }
+            ],
+            "doi": "10.1109/COMPSAC.2019.00012",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ed2f59b981a988653dc6adc1082746082d62c23a",
+            "title": "An Empirical Study on API-Misuse Bugs in Open-Source C Programs",
+            "url": "https://www.semanticscholar.org/paper/ed2f59b981a988653dc6adc1082746082d62c23a",
+            "venue": "2019 IEEE 43rd Annual Computer Software and Applications Conference (COMPSAC)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "33761432",
+                    "name": "Zuxing Gu"
+                },
+                {
+                    "authorId": "144994012",
+                    "name": "Min Zhou"
+                },
+                {
+                    "authorId": "134233543",
+                    "name": "Jiecheng Wu"
+                },
+                {
+                    "authorId": "152771714",
+                    "name": "Yu Jiang"
+                },
+                {
+                    "authorId": "2108354524",
+                    "name": "Jiaxiang Liu"
+                },
+                {
+                    "authorId": "145932525",
+                    "name": "M. Gu"
+                }
+            ],
+            "doi": "10.1109/TASE.2019.00006",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "75e352580171d29ffb1fda6f7a2d578397a4aa74",
+            "title": "IMSpec: An Extensible Approach to Exploring the Incorrect Usage of APIs",
+            "url": "https://www.semanticscholar.org/paper/75e352580171d29ffb1fda6f7a2d578397a4aa74",
+            "venue": "2019 International Symposium on Theoretical Aspects of Software Engineering (TASE)",
+            "year": 2019
+        },
+        {
+            "arxivId": "1906.11940",
+            "authors": [
+                {
+                    "authorId": "48489351",
+                    "name": "Md Johirul Islam"
+                },
+                {
+                    "authorId": "2909676",
+                    "name": "H. Nguyen"
+                },
+                {
+                    "authorId": "134665157",
+                    "name": "Rangeet Pan"
+                },
+                {
+                    "authorId": "144212535",
+                    "name": "Hridesh Rajan"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4e7eb2c9ee49cb253cadda1628a7a4f28422bcfd",
+            "title": "What Do Developers Ask About ML Libraries? A Large-scale Study Using Stack Overflow",
+            "url": "https://www.semanticscholar.org/paper/4e7eb2c9ee49cb253cadda1628a7a4f28422bcfd",
+            "venue": "ArXiv",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2110049191",
+                    "name": "Xing Hu"
+                },
+                {
+                    "authorId": "1410115257",
+                    "name": "Ge Li"
+                },
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                },
+                {
+                    "authorId": "1700880",
+                    "name": "Zhi Jin"
+                }
+            ],
+            "doi": "10.1007/s10664-019-09730-9",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "84f7b32fa871a105b39e457fce1b74f57f72e60b",
+            "title": "Deep code comment generation with hybrid lexical and syntactical information",
+            "url": "https://www.semanticscholar.org/paper/84f7b32fa871a105b39e457fce1b74f57f72e60b",
+            "venue": "Empirical Software Engineering",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39584070",
+                    "name": "Yepang Liu"
+                },
+                {
+                    "authorId": "2109763051",
+                    "name": "Jue Wang"
+                },
+                {
+                    "authorId": "2110552415",
+                    "name": "Lili Wei"
+                },
+                {
+                    "authorId": "2115473037",
+                    "name": "Chang Xu"
+                },
+                {
+                    "authorId": "143608708",
+                    "name": "S. Cheung"
+                },
+                {
+                    "authorId": "2641861",
+                    "name": "Tianyong Wu"
+                },
+                {
+                    "authorId": "2112592443",
+                    "name": "Jun Yan"
+                },
+                {
+                    "authorId": "2151809812",
+                    "name": "Jian Zhang"
+                }
+            ],
+            "doi": "10.1007/s10664-019-09715-8",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "72910de1bd12bb7aa6a3a95db75cbf019c382e36",
+            "title": "DroidLeaks: a comprehensive database of resource leaks in Android apps",
+            "url": "https://www.semanticscholar.org/paper/72910de1bd12bb7aa6a3a95db75cbf019c382e36",
+            "venue": "Empirical Software Engineering",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3469814",
+                    "name": "A. Wickert"
+                },
+                {
+                    "authorId": "47138634",
+                    "name": "Michael Reif"
+                },
+                {
+                    "authorId": "1696396",
+                    "name": "Michael Eichberg"
+                },
+                {
+                    "authorId": "79420173",
+                    "name": "Anam Dodhy"
+                },
+                {
+                    "authorId": "1681134",
+                    "name": "M. Mezini"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00023",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "8a29e6fe92b8f8c0d5461feaee8ec59a2b063aea",
+            "title": "A Dataset of Parametric Cryptographic Misuses",
+            "url": "https://www.semanticscholar.org/paper/8a29e6fe92b8f8c0d5461feaee8ec59a2b063aea",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00085",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "43148fabe2636026e07ca04974aff40d204bfb6b",
+            "title": "Standing on Shoulders or Feet? The Usage of the MSR Data Papers",
+            "url": "https://www.semanticscholar.org/paper/43148fabe2636026e07ca04974aff40d204bfb6b",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "146167364",
+                    "name": "Aida Radu"
+                },
+                {
+                    "authorId": "1869015",
+                    "name": "Sarah Nadi"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00066",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "02ad3b2ee3439ae4e28f6bb7bf46cb3eda927416",
+            "title": "A Dataset of Non-Functional Bugs",
+            "url": "https://www.semanticscholar.org/paper/02ad3b2ee3439ae4e28f6bb7bf46cb3eda927416",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "33761432",
+                    "name": "Zuxing Gu"
+                },
+                {
+                    "authorId": "134233543",
+                    "name": "Jiecheng Wu"
+                },
+                {
+                    "authorId": "2109747559",
+                    "name": "Chi Li"
+                },
+                {
+                    "authorId": "144994012",
+                    "name": "Min Zhou"
+                },
+                {
+                    "authorId": "152771714",
+                    "name": "Yu Jiang"
+                },
+                {
+                    "authorId": "145932525",
+                    "name": "M. Gu"
+                },
+                {
+                    "authorId": "2109517420",
+                    "name": "Jiaguang Sun"
+                }
+            ],
+            "doi": "10.1109/ICSE-Companion.2019.00046",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9dfe6668b358eca2e1cd21bd53cdd1edf14d6224",
+            "title": "Vetting API Usages in C Programs with IMChecker",
+            "url": "https://www.semanticscholar.org/paper/9dfe6668b358eca2e1cd21bd53cdd1edf14d6224",
+            "venue": "2019 IEEE/ACM 41st International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3439470",
+                    "name": "Simone Scalabrino"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "1397411901",
+                    "name": "Mario Linares-V\u00e1squez"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00055",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "30a007a63903d845f133f5965bc103b3fb3ae1cb",
+            "title": "Data-Driven Solutions to Detect API Compatibility Issues in Android: An Empirical Study",
+            "url": "https://www.semanticscholar.org/paper/30a007a63903d845f133f5965bc103b3fb3ae1cb",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "33787987",
+                    "name": "Sven Amann"
+                },
+                {
+                    "authorId": "2909676",
+                    "name": "H. Nguyen"
+                },
+                {
+                    "authorId": "1869015",
+                    "name": "Sarah Nadi"
+                },
+                {
+                    "authorId": "2327697",
+                    "name": "T. Nguyen"
+                },
+                {
+                    "authorId": "1681134",
+                    "name": "M. Mezini"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00053",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "cfdbfdd9b2720e0ceba36de460d10650929823d0",
+            "title": "Investigating Next Steps in Static API-Misuse Detection",
+            "url": "https://www.semanticscholar.org/paper/cfdbfdd9b2720e0ceba36de460d10650929823d0",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3121105",
+                    "name": "O. Riganelli"
+                },
+                {
+                    "authorId": "1699669",
+                    "name": "D. Micucci"
+                },
+                {
+                    "authorId": "39348287",
+                    "name": "L. Mariani"
+                }
+            ],
+            "doi": "10.1002/spe.2672",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5a8f13cd3419aab5341bd0c24841e82684885d6f",
+            "title": "From source code to test cases: A comprehensive benchmark for resource leak detection in Android apps",
+            "url": "https://www.semanticscholar.org/paper/5a8f13cd3419aab5341bd0c24841e82684885d6f",
+            "venue": "Softw. Pract. Exp.",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "46259000",
+                    "name": "Anastasia Reinhardt"
+                },
+                {
+                    "authorId": "2146331419",
+                    "name": "Tianyi Zhang"
+                },
+                {
+                    "authorId": "2056039931",
+                    "name": "Mihir Mathur"
+                },
+                {
+                    "authorId": "35710133",
+                    "name": "Miryung Kim"
+                }
+            ],
+            "doi": "10.1145/3236024.3264585",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "5f3ec1d1488d5126cfa63eac791a32d7f06b6b0d",
+            "title": "Augmenting stack overflow with API usage patterns mined from GitHub",
+            "url": "https://www.semanticscholar.org/paper/5f3ec1d1488d5126cfa63eac791a32d7f06b6b0d",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3289277",
+                    "name": "Sebastian Nielebock"
+                },
+                {
+                    "authorId": "2350478",
+                    "name": "R. Heum\u00fcller"
+                },
+                {
+                    "authorId": "2421227",
+                    "name": "F. Ortmeier"
+                }
+            ],
+            "doi": "10.1145/3242887.3242890",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "f6021520039e57c3cc9a19fce5f2b3bb3bb1299d",
+            "title": "Commits as a basis for API misuse detection",
+            "url": "https://www.semanticscholar.org/paper/f6021520039e57c3cc9a19fce5f2b3bb3bb1299d",
+            "venue": "SoftwareMining@ASE",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3282351",
+                    "name": "Ervina \u00c7ergani"
+                },
+                {
+                    "authorId": "1681134",
+                    "name": "M. Mezini"
+                }
+            ],
+            "doi": "10.1007/978-3-030-29157-0_4",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ce4bdff444ab19d3838471c10f5bd65478e842c8",
+            "title": "On the Impact of Order Information in API Usage Patterns",
+            "url": "https://www.semanticscholar.org/paper/ce4bdff444ab19d3838471c10f5bd65478e842c8",
+            "venue": "ICSOFT",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "33787987",
+                    "name": "Sven Amann"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "17815bc1d9e92b0ab0b52a6aeada36acecccca77",
+            "title": "A Systematic Approach to Benchmark and Improve Automated Static Detection of Java-API Misuses",
+            "url": "https://www.semanticscholar.org/paper/17815bc1d9e92b0ab0b52a6aeada36acecccca77",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2101501",
+                    "name": "Claudio Corrodi"
+                },
+                {
+                    "authorId": "50817194",
+                    "name": "Timo Spring"
+                },
+                {
+                    "authorId": "50403294",
+                    "name": "Mohammad Ghafari"
+                },
+                {
+                    "authorId": "144591580",
+                    "name": "Oscar Nierstrasz"
+                }
+            ],
+            "doi": "10.1007/978-3-319-94496-8_9",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "458a9fc9a504c9e9c1882cf2bf6739fa95171a79",
+            "title": "Idea: Benchmarking Android Data Leak Detection Tools",
+            "url": "https://www.semanticscholar.org/paper/458a9fc9a504c9e9c1882cf2bf6739fa95171a79",
+            "venue": "ESSoS",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2146331419",
+                    "name": "Tianyi Zhang"
+                },
+                {
+                    "authorId": "145926658",
+                    "name": "Ganesha Upadhyaya"
+                },
+                {
+                    "authorId": "46259000",
+                    "name": "Anastasia Reinhardt"
+                },
+                {
+                    "authorId": "144212535",
+                    "name": "Hridesh Rajan"
+                },
+                {
+                    "authorId": "35710133",
+                    "name": "Miryung Kim"
+                }
+            ],
+            "doi": "10.1145/3180155.3180260",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9f1ec3594a4d534e9e86c9d9680d2c50647b5c43",
+            "title": "Are Code Examples on an Online Q&A Forum Reliable?: A Study of API Misuse on Stack Overflow",
+            "url": "https://www.semanticscholar.org/paper/9f1ec3594a4d534e9e86c9d9680d2c50647b5c43",
+            "venue": "2018 IEEE/ACM 40th International Conference on Software Engineering (ICSE)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2830272",
+                    "name": "Sergio Mover"
+                },
+                {
+                    "authorId": "1741190",
+                    "name": "S. Sankaranarayanan"
+                },
+                {
+                    "authorId": "40901609",
+                    "name": "Rhys Braginton Pettee Olsen"
+                },
+                {
+                    "authorId": "1759442",
+                    "name": "B. E. Chang"
+                }
+            ],
+            "doi": "10.1109/SANER.2018.8330216",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "11b2172fe27ee71c4406d93e9d1cf12a4027d718",
+            "title": "Mining framework usage graphs from app corpora",
+            "url": "https://www.semanticscholar.org/paper/11b2172fe27ee71c4406d93e9d1cf12a4027d718",
+            "venue": "2018 IEEE 25th International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "33787987",
+                    "name": "Sven Amann"
+                },
+                {
+                    "authorId": "2909676",
+                    "name": "H. Nguyen"
+                },
+                {
+                    "authorId": "1869015",
+                    "name": "Sarah Nadi"
+                },
+                {
+                    "authorId": "2327697",
+                    "name": "T. Nguyen"
+                },
+                {
+                    "authorId": "1681134",
+                    "name": "M. Mezini"
+                }
+            ],
+            "doi": "10.1109/TSE.2018.2827384",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "f436230166963725638114133ddb4fa096a9c4d4",
+            "title": "A Systematic Evaluation of Static API-Misuse Detectors",
+            "url": "https://www.semanticscholar.org/paper/f436230166963725638114133ddb4fa096a9c4d4",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2017
+        },
+        {
+            "arxivId": "1712.00242",
+            "authors": [
+                {
+                    "authorId": "33787987",
+                    "name": "Sven Amann"
+                },
+                {
+                    "authorId": "2909676",
+                    "name": "H. Nguyen"
+                },
+                {
+                    "authorId": "1869015",
+                    "name": "Sarah Nadi"
+                },
+                {
+                    "authorId": "2327697",
+                    "name": "T. Nguyen"
+                },
+                {
+                    "authorId": "1681134",
+                    "name": "M. Mezini"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "0046d232176dfb5fbc1d6a48b0fc593e3c62288c",
+            "title": "A Systematic Evaluation of API-Misuse Detectors",
+            "url": "https://www.semanticscholar.org/paper/0046d232176dfb5fbc1d6a48b0fc593e3c62288c",
+            "venue": "ArXiv",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3289277",
+                    "name": "Sebastian Nielebock"
+                }
+            ],
+            "doi": "10.1109/ASE.2017.8115721",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "689f9b5f4e1c26fa4ed64a12d4c805e1430018e6",
+            "title": "Towards API-specific automatic program repair",
+            "url": "https://www.semanticscholar.org/paper/689f9b5f4e1c26fa4ed64a12d4c805e1430018e6",
+            "venue": "2017 32nd IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2017
+        },
+        {
+            "arxivId": "1703.08005",
+            "authors": [
+                {
+                    "authorId": "3121105",
+                    "name": "O. Riganelli"
+                },
+                {
+                    "authorId": "1699669",
+                    "name": "D. Micucci"
+                },
+                {
+                    "authorId": "39348287",
+                    "name": "L. Mariani"
+                }
+            ],
+            "doi": "10.1109/SEAMS.2017.9",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7b366022060acf83e81c1b07cc250a841cd429e7",
+            "title": "Policy Enforcement with Proactive Libraries",
+            "url": "https://www.semanticscholar.org/paper/7b366022060acf83e81c1b07cc250a841cd429e7",
+            "venue": "2017 IEEE/ACM 12th International Symposium on Software Engineering for Adaptive and Self-Managing Systems (SEAMS)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "38392588",
+                    "name": "Manuel Benz"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "48e686f63856f457455eafa960184507afc4cea7",
+            "title": "Interprocedural Graph-based Object Usage Model Generation for Detecting Anomalous Usage of Cryptographic APIs",
+            "url": "https://www.semanticscholar.org/paper/48e686f63856f457455eafa960184507afc4cea7",
+            "venue": "",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2320552743",
+                    "name": "Heewon Baek"
+                },
+                {
+                    "authorId": "2215622585",
+                    "name": "Minwook Lee"
+                },
+                {
+                    "authorId": "2320811186",
+                    "name": "Hyoungshick Kim"
+                }
+            ],
+            "doi": "10.1007/978-3-031-70879-4_18",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7180838ac6af291b0f355be5b6922dc81262a821",
+            "title": "CryptoLLM: Harnessing the Power of LLMs to Detect Cryptographic API Misuse",
+            "url": "https://www.semanticscholar.org/paper/7180838ac6af291b0f355be5b6922dc81262a821",
+            "venue": "ESORICS",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2221135213",
+                    "name": "Scott Marsden"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ed3e823fd29f9856d3e7f14263124d1c7c924514",
+            "title": "A Reevaluation of Why Crypto-detectors Fail: A Systematic Revaluation of Cryptographic Misuse Detection Techniques",
+            "url": "https://www.semanticscholar.org/paper/ed3e823fd29f9856d3e7f14263124d1c7c924514",
+            "venue": "",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2188817847",
+                    "name": "Jens Berberich"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "81bb522ccf4767c68176dd306d6c8420e9f72d60",
+            "title": "Automatic Derivation of Rules for Static Security Analysis from Public Source Code Repositories",
+            "url": "https://www.semanticscholar.org/paper/81bb522ccf4767c68176dd306d6c8420e9f72d60",
+            "venue": "",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "46867651",
+                    "name": "Yangqi Zhang"
+                },
+                {
+                    "authorId": "2141228682",
+                    "name": "Zhirui Kuai"
+                },
+                {
+                    "authorId": "2114976023",
+                    "name": "Wenjin Yao"
+                },
+                {
+                    "authorId": "2140306519",
+                    "name": "Zhiyang Zhang"
+                },
+                {
+                    "authorId": "2139848285",
+                    "name": "Li Kuang"
+                }
+            ],
+            "doi": "10.1007/978-3-030-91431-8_65",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "805050f982119d0f57662e048df9ecf83775aa11",
+            "title": "KG2Code: Correct Code Examples Mining Service Based on Knowledge Graph for Fixing API Misuses",
+            "url": "https://www.semanticscholar.org/paper/805050f982119d0f57662e048df9ecf83775aa11",
+            "venue": "ICSOC",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48323908",
+                    "name": "Philipp Keck"
+                }
+            ],
+            "doi": "10.18419/opus-9294",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c9d3fff0a3fca87ecea9a1dccddfe2dbe51d90ed",
+            "title": "Analysing and improving the crypto ecosystem of Rust",
+            "url": "https://www.semanticscholar.org/paper/c9d3fff0a3fca87ecea9a1dccddfe2dbe51d90ed",
+            "venue": "",
+            "year": 2017
+        }
+    ],
+    "corpusId": 14423439,
+    "doi": "10.1145/2901739.2903506",
+    "fieldsOfStudy": [
+        "Engineering",
+        "Computer Science"
+    ],
+    "influentialCitationCount": 9,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 88,
+    "numCiting": 25,
+    "paperId": "e51ba9911af6e355277f5268f7e8312a5931599b",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1869015",
+                    "name": "Sarah Nadi"
+                },
+                {
+                    "authorId": "1508873065",
+                    "name": "Stefan Kr\u00fcger"
+                },
+                {
+                    "authorId": "1681134",
+                    "name": "M. Mezini"
+                },
+                {
+                    "authorId": "1752222",
+                    "name": "E. Bodden"
+                }
+            ],
+            "doi": "10.1145/2884781.2884790",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ffb2003551fa97cde9d82f8219fb2754090e37b3",
+            "title": "\"Jumping Through Hoops\": Why do Java Developers Struggle with Cryptography APIs?",
+            "url": "https://www.semanticscholar.org/paper/ffb2003551fa97cde9d82f8219fb2754090e37b3",
+            "venue": "2016 IEEE/ACM 38th International Conference on Software Engineering (ICSE)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2117204990",
+                    "name": "Qing Gao"
+                },
+                {
+                    "authorId": "11666687",
+                    "name": "Hansheng Zhang"
+                },
+                {
+                    "authorId": "2146043162",
+                    "name": "Jie Wang"
+                },
+                {
+                    "authorId": "3096536",
+                    "name": "Yingfei Xiong"
+                },
+                {
+                    "authorId": "144281339",
+                    "name": "Lu Zhang"
+                },
+                {
+                    "authorId": "145642974",
+                    "name": "Hong Mei"
+                }
+            ],
+            "doi": "10.1109/ASE.2015.81",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6ea5ad051fbf2d1308459ed79784359520472492",
+            "title": "Fixing Recurring Crash Bugs via Analyzing Q&A Sites (T)",
+            "url": "https://www.semanticscholar.org/paper/6ea5ad051fbf2d1308459ed79784359520472492",
+            "venue": "2015 30th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2707595",
+                    "name": "Ren\u00e9 Just"
+                },
+                {
+                    "authorId": "2728496",
+                    "name": "D. Jalali"
+                },
+                {
+                    "authorId": "6698059",
+                    "name": "Michael D. Ernst"
+                }
+            ],
+            "doi": "10.1145/2610384.2628055",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "37e2106bebd02f4ac9c410941fde7f358279e4a4",
+            "title": "Defects4J: a database of existing faults to enable controlled testing studies for Java programs",
+            "url": "https://www.semanticscholar.org/paper/37e2106bebd02f4ac9c410941fde7f358279e4a4",
+            "venue": "ISSTA 2014",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144623320",
+                    "name": "David Lazar"
+                },
+                {
+                    "authorId": "2812833",
+                    "name": "Haogang Chen"
+                },
+                {
+                    "authorId": "2108249416",
+                    "name": "Xi Wang"
+                },
+                {
+                    "authorId": "1789973",
+                    "name": "Nickolai Zeldovich"
+                }
+            ],
+            "doi": "10.1145/2637166.2637237",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f7642fb46cd7fba5ea01cc5e49f7631b9f561d6d",
+            "title": "Why does cryptographic software fail?: a case study and open problems",
+            "url": "https://www.semanticscholar.org/paper/f7642fb46cd7fba5ea01cc5e49f7631b9f561d6d",
+            "venue": "APSys",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2489809",
+                    "name": "Manuel Egele"
+                },
+                {
+                    "authorId": "145959809",
+                    "name": "David Brumley"
+                },
+                {
+                    "authorId": "2416629",
+                    "name": "Y. Fratantonio"
+                },
+                {
+                    "authorId": "69508619",
+                    "name": "C. Kruegel"
+                }
+            ],
+            "doi": "10.1145/2508859.2516693",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "14a0511f05820914a3c10f5c43f2c6bd8d069c9a",
+            "title": "An empirical study of cryptographic misuse in android applications",
+            "url": "https://www.semanticscholar.org/paper/14a0511f05820914a3c10f5c43f2c6bd8d069c9a",
+            "venue": "CCS",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39496137",
+                    "name": "Kim Herzig"
+                },
+                {
+                    "authorId": "39855161",
+                    "name": "Sascha Just"
+                },
+                {
+                    "authorId": "145594351",
+                    "name": "A. Zeller"
+                }
+            ],
+            "doi": "10.1109/ICSE.2013.6606585",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "86a0e7286fb27d8e817c3831982d50cadddc498f",
+            "title": "It's not a bug, it's a feature: How misclassification impacts bug prediction",
+            "url": "https://www.semanticscholar.org/paper/86a0e7286fb27d8e817c3831982d50cadddc498f",
+            "venue": "2013 35th International Conference on Software Engineering (ICSE)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1710587",
+                    "name": "M. Robillard"
+                },
+                {
+                    "authorId": "1752222",
+                    "name": "E. Bodden"
+                },
+                {
+                    "authorId": "2600635",
+                    "name": "David Kawrykow"
+                },
+                {
+                    "authorId": "1681134",
+                    "name": "M. Mezini"
+                },
+                {
+                    "authorId": "2428189",
+                    "name": "Tristan Ratchford"
+                }
+            ],
+            "doi": "10.1109/TSE.2012.63",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "cfc10d808c906700da96d057e3f832c262fd2811",
+            "title": "Automated API Property Inference Techniques",
+            "url": "https://www.semanticscholar.org/paper/cfc10d808c906700da96d057e3f832c262fd2811",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49515716",
+                    "name": "Martin Georgiev"
+                },
+                {
+                    "authorId": "50502978",
+                    "name": "S. Iyengar"
+                },
+                {
+                    "authorId": "39400201",
+                    "name": "S. Jana"
+                },
+                {
+                    "authorId": "2432216",
+                    "name": "Rishita Anubhai"
+                },
+                {
+                    "authorId": "1752788",
+                    "name": "D. Boneh"
+                },
+                {
+                    "authorId": "1723945",
+                    "name": "Vitaly Shmatikov"
+                }
+            ],
+            "doi": "10.1145/2382196.2382204",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e5e18c4a1f5fa362448dca35bc381c04c4a863c1",
+            "title": "The most dangerous code in the world: validating SSL certificates in non-browser software",
+            "url": "https://www.semanticscholar.org/paper/e5e18c4a1f5fa362448dca35bc381c04c4a863c1",
+            "venue": "CCS",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2909676",
+                    "name": "H. Nguyen"
+                },
+                {
+                    "authorId": "40538640",
+                    "name": "Tung Thanh Nguyen"
+                },
+                {
+                    "authorId": "33426141",
+                    "name": "N. Pham"
+                },
+                {
+                    "authorId": "1403198972",
+                    "name": "Jafar M. Al-Kofahi"
+                },
+                {
+                    "authorId": "2327697",
+                    "name": "T. Nguyen"
+                }
+            ],
+            "doi": "10.1109/TSE.2011.90",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "8e3ffec56da6184ed9a96e2eee491effc351b48a",
+            "title": "Clone Management for Evolving Software",
+            "url": "https://www.semanticscholar.org/paper/8e3ffec56da6184ed9a96e2eee491effc351b48a",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2909676",
+                    "name": "H. Nguyen"
+                },
+                {
+                    "authorId": "40538640",
+                    "name": "Tung Thanh Nguyen"
+                },
+                {
+                    "authorId": "2070346544",
+                    "name": "G. Wilson"
+                },
+                {
+                    "authorId": "144659797",
+                    "name": "A. Nguyen"
+                },
+                {
+                    "authorId": "35710133",
+                    "name": "Miryung Kim"
+                },
+                {
+                    "authorId": "2327697",
+                    "name": "T. Nguyen"
+                }
+            ],
+            "doi": "10.1145/1869459.1869486",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "ed8cffcec5c9fe9a9ebbb5a0613ea9d3e3b1f2d9",
+            "title": "A graph-based approach to API usage adaptation",
+            "url": "https://www.semanticscholar.org/paper/ed8cffcec5c9fe9a9ebbb5a0613ea9d3e3b1f2d9",
+            "venue": "OOPSLA",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3047368",
+                    "name": "Andrzej Wasylkowski"
+                },
+                {
+                    "authorId": "145594351",
+                    "name": "A. Zeller"
+                }
+            ],
+            "doi": "10.1007/s10515-011-0084-1",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "30116137bf26dce687e89e86cd40276631d5e253",
+            "title": "Mining temporal specifications from object usage",
+            "url": "https://www.semanticscholar.org/paper/30116137bf26dce687e89e86cd40276631d5e253",
+            "venue": "2009 IEEE/ACM International Conference on Automated Software Engineering",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144350187",
+                    "name": "C. Cifuentes"
+                },
+                {
+                    "authorId": "2070142547",
+                    "name": "Christian Hoermann"
+                },
+                {
+                    "authorId": "1773318",
+                    "name": "Nathan Keynes"
+                },
+                {
+                    "authorId": "2154883679",
+                    "name": "Lian Li"
+                },
+                {
+                    "authorId": "2053990794",
+                    "name": "Simon Long"
+                },
+                {
+                    "authorId": "1743304",
+                    "name": "E. Mealy"
+                },
+                {
+                    "authorId": "138324235",
+                    "name": "M. Mounteney"
+                },
+                {
+                    "authorId": "144650318",
+                    "name": "Bernhard Scholz"
+                }
+            ],
+            "doi": "10.1145/1555860.1555866",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "46bc0bc11b49531c94968b36c32940eeb4c0cb05",
+            "title": "BegBunch: benchmarking for C bug detection tools",
+            "url": "https://www.semanticscholar.org/paper/46bc0bc11b49531c94968b36c32940eeb4c0cb05",
+            "venue": "DEFECTS '09",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1783197",
+                    "name": "Valentin Dallmeier"
+                },
+                {
+                    "authorId": "143609903",
+                    "name": "Thomas Zimmermann"
+                }
+            ],
+            "doi": "10.1145/1321631.1321702",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1062eca8785ff8665949ac3e11ab843246a05a84",
+            "title": "Extraction of bug localization benchmarks from history",
+            "url": "https://www.semanticscholar.org/paper/1062eca8785ff8665949ac3e11ab843246a05a84",
+            "venue": "ASE",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2002604",
+                    "name": "Zhenmin Li"
+                },
+                {
+                    "authorId": "145850061",
+                    "name": "Yuanyuan Zhou"
+                }
+            ],
+            "doi": "10.1145/1081706.1081755",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5eab6c72ba39e0fea5c3aac0c2f5f9cc0a03eb0c",
+            "title": "PR-Miner: automatically extracting implicit programming rules and detecting violations in large software code",
+            "url": "https://www.semanticscholar.org/paper/5eab6c72ba39e0fea5c3aac0c2f5f9cc0a03eb0c",
+            "venue": "ESEC/FSE-13",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "and E",
+            "url": "",
+            "venue": "Bodden. \u201dJumping Through Hoops\u201d: Why do Developers Struggle with Cryptography APIs? ICSE\u201916",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": "10.7748/ns.21.22.64.s64",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "946ec5675f3df2ae6e02e94edcb2d6743d420ede",
+            "title": "Jumping through hoops.",
+            "url": "https://www.semanticscholar.org/paper/946ec5675f3df2ae6e02e94edcb2d6743d420ede",
+            "venue": "Nursing standard (Royal College of Nursing (Great Britain) : 1987)",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "multiple usages - the misuse interleaves with other usages of the same type",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "multi-method - the misuse spreads over multiple methods",
+            "url": "",
+            "venue": "Detectors need to consider called methods",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "path dependent",
+            "url": "",
+            "venue": "unrelated",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "single object - the usage involves only a single object with multiple calls",
+            "url": "",
+            "venue": "how to open, use, and close a stream",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "wrong call",
+            "url": "",
+            "venue": "when File",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "single node - the misuse consists of a single call",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "multiple object",
+            "url": "",
+            "venue": "how to use an Iterator created from a Collection",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "missing catch - the misuse does not handle a particular exception or any exception at all",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "missing finally - (part of) the misuse should happen in a finally block, regardless of whether there already is such a block or even a try statement",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "MUBench: A Benchmark for API-Misuse Detectors",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/e51ba9911af6e355277f5268f7e8312a5931599b",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2016
+}

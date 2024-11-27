@@ -1,0 +1,2238 @@
+{
+    "abstract": "In this paper, we present a collection of Modern Code Review data for five open source projects. The data showcases mined data from both an integrated peer review system and source code repositories. We present an easy\u2013to\u2013use andricher data structure to retrieve the 1.) People 2.) Process and 3.) Product aspects of the peer review. This paperpresents the extraction methodology, the dataset structure, and a collection of database dumps.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2150438947",
+            "name": "Xin Yang",
+            "url": "https://www.semanticscholar.org/author/2150438947"
+        },
+        {
+            "authorId": "1680034",
+            "name": "R. Kula",
+            "url": "https://www.semanticscholar.org/author/1680034"
+        },
+        {
+            "authorId": "143884632",
+            "name": "Norihiro Yoshida",
+            "url": "https://www.semanticscholar.org/author/143884632"
+        },
+        {
+            "authorId": "1687605",
+            "name": "Hajimu Iida",
+            "url": "https://www.semanticscholar.org/author/1687605"
+        }
+    ],
+    "citationVelocity": 7,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2265047764",
+                    "name": "Junyi Lu"
+                },
+                {
+                    "authorId": "2324003162",
+                    "name": "Zhangyi Li"
+                },
+                {
+                    "authorId": "2320879897",
+                    "name": "Chenjie Shen"
+                },
+                {
+                    "authorId": "2265091230",
+                    "name": "Li Yang"
+                },
+                {
+                    "authorId": "31841234",
+                    "name": "Chun Zuo"
+                }
+            ],
+            "doi": "10.1007/s10515-024-00469-2",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "170f799adf21443131cf834d422f2a90aa433d55",
+            "title": "Exploring the impact of code review factors on the code review comment generation",
+            "url": "https://www.semanticscholar.org/paper/170f799adf21443131cf834d422f2a90aa433d55",
+            "venue": "Automated Software Engineering",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2307285550",
+                    "name": "Mingzhao Liang"
+                },
+                {
+                    "authorId": "2969085",
+                    "name": "Wachiraphan Charoenwet"
+                },
+                {
+                    "authorId": "2352093",
+                    "name": "Patanamon Thongtanunam"
+                }
+            ],
+            "doi": "10.1145/3643991.3644872",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "692ee9e66215a71ce1a5d0bfe63560adff221628",
+            "title": "Curated Email-Based Code Reviews Datasets",
+            "url": "https://www.semanticscholar.org/paper/692ee9e66215a71ce1a5d0bfe63560adff221628",
+            "venue": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2401.10755",
+            "authors": [
+                {
+                    "authorId": "2274936082",
+                    "name": "Yu Qiao"
+                },
+                {
+                    "authorId": "2275582812",
+                    "name": "Jian Wang"
+                },
+                {
+                    "authorId": "2385947",
+                    "name": "Can Cheng"
+                },
+                {
+                    "authorId": "2274983908",
+                    "name": "Wei Tang"
+                },
+                {
+                    "authorId": "2279024575",
+                    "name": "Peng Liang"
+                },
+                {
+                    "authorId": "2109906220",
+                    "name": "Yuqi Zhao"
+                },
+                {
+                    "authorId": "71788627",
+                    "name": "Bing Li"
+                }
+            ],
+            "doi": "10.1109/SANER60148.2024.00049",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3b0f2a5a7d58e14723d5e0cecad43e92060c423a",
+            "title": "Code Reviewer Recommendation Based on a Hypergraph with Multiplex Relationships",
+            "url": "https://www.semanticscholar.org/paper/3b0f2a5a7d58e14723d5e0cecad43e92060c423a",
+            "venue": "2024 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1802926824",
+                    "name": "Moataz Chouchen"
+                },
+                {
+                    "authorId": "1994554",
+                    "name": "Ali Ouni"
+                }
+            ],
+            "doi": "10.1007/s10664-023-10431-7",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f72dd55bd8f82001819990541167a75778aec1f3",
+            "title": "A multi-objective effort-aware approach for early code review prediction and prioritization",
+            "url": "https://www.semanticscholar.org/paper/f72dd55bd8f82001819990541167a75778aec1f3",
+            "venue": "Empir. Softw. Eng.",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2295162153",
+                    "name": "Jiawei Lu"
+                },
+                {
+                    "authorId": "2282358332",
+                    "name": "Zhijie Tang"
+                },
+                {
+                    "authorId": "2295152058",
+                    "name": "Zhongxin Liu"
+                }
+            ],
+            "doi": "10.1109/APSEC60848.2023.00026",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7543e04d29f69c2adaafc420f5e9b7316fcd89cf",
+            "title": "Improving Code Refinement for Code Review Via Input Reconstruction and Ensemble Learning",
+            "url": "https://www.semanticscholar.org/paper/7543e04d29f69c2adaafc420f5e9b7316fcd89cf",
+            "venue": "2023 30th Asia-Pacific Software Engineering Conference (APSEC)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2310.06770",
+            "authors": [
+                {
+                    "authorId": "2155269683",
+                    "name": "Carlos E. Jimenez"
+                },
+                {
+                    "authorId": "2109727379",
+                    "name": "John Yang"
+                },
+                {
+                    "authorId": "2127066887",
+                    "name": "Alexander Wettig"
+                },
+                {
+                    "authorId": "2256984659",
+                    "name": "Shunyu Yao"
+                },
+                {
+                    "authorId": "2256993083",
+                    "name": "Kexin Pei"
+                },
+                {
+                    "authorId": "40170001",
+                    "name": "Ofir Press"
+                },
+                {
+                    "authorId": "2135381714",
+                    "name": "Karthik Narasimhan"
+                }
+            ],
+            "doi": "10.48550/arXiv.2310.06770",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "94a5f96308729e31c1ffbc0f0618db87795092fe",
+            "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+            "url": "https://www.semanticscholar.org/paper/94a5f96308729e31c1ffbc0f0618db87795092fe",
+            "venue": "ICLR",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2007378555",
+                    "name": "Ohiduzzaman Shuvo"
+                },
+                {
+                    "authorId": "16284251",
+                    "name": "Parvez Mahbub"
+                },
+                {
+                    "authorId": "2274096537",
+                    "name": "Mohammad Masudur Rahman"
+                }
+            ],
+            "doi": "10.1109/ICSME58846.2023.00029",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a4544a20f7c33f986a2aa4ed546d4eba38b3a8e4",
+            "title": "Recommending Code Reviews Leveraging Code Changes with Structured Information Retrieval",
+            "url": "https://www.semanticscholar.org/paper/a4544a20f7c33f986a2aa4ed546d4eba38b3a8e4",
+            "venue": "2023 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2108421526",
+                    "name": "Jiahui Liu"
+                },
+                {
+                    "authorId": "38459018",
+                    "name": "Ansheng Deng"
+                },
+                {
+                    "authorId": "50266946",
+                    "name": "Qiuju Xie"
+                },
+                {
+                    "authorId": "1380235560",
+                    "name": "Guanli Yue"
+                }
+            ],
+            "doi": "10.3390/electronics12092113",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d0c75eea20e390dfe68315f25acff331080fe08f",
+            "title": "A Code Reviewer Recommendation Approach Based on Attentive Neighbor Embedding Propagation",
+            "url": "https://www.semanticscholar.org/paper/d0c75eea20e390dfe68315f25acff331080fe08f",
+            "venue": "Electronics",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2005355070",
+                    "name": "Leon Bein"
+                }
+            ],
+            "doi": "10.1145/3555776.3577205",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "44af46ad128b401346a06837a92b24bf1a8f3ef9",
+            "title": "Student Research Abstract: Why and Where Software Developers are (not) using Project Data in Agile Retrospectives",
+            "url": "https://www.semanticscholar.org/paper/44af46ad128b401346a06837a92b24bf1a8f3ef9",
+            "venue": "SAC",
+            "year": 2023
+        },
+        {
+            "arxivId": "2303.04293",
+            "authors": [
+                {
+                    "authorId": "2737399",
+                    "name": "Gunnar Kudrjavets"
+                },
+                {
+                    "authorId": "1693689",
+                    "name": "Nachiappan Nagappan"
+                },
+                {
+                    "authorId": "40464536",
+                    "name": "Ayushi Rastogi"
+                }
+            ],
+            "doi": "10.1109/MSR59073.2023.00046",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "edc9a92ee9c10b7d3232df0c13b2ca2e5fc82f71",
+            "title": "Are We Speeding Up or Slowing Down? On Temporal Aspects of Code Velocity",
+            "url": "https://www.semanticscholar.org/paper/edc9a92ee9c10b7d3232df0c13b2ca2e5fc82f71",
+            "venue": "2023 IEEE/ACM 20th International Conference on Mining Software Repositories (MSR)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2080377382",
+                    "name": "Bilal Mehboob"
+                },
+                {
+                    "authorId": "2904316",
+                    "name": "Chun Yong Chong"
+                }
+            ],
+            "doi": "10.1002/spe.3187",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c9c5881982a4e83797e37f8b8686e68e31b92275",
+            "title": "A metadata driven process for assessing stability and reusability based on risk of change of software systems",
+            "url": "https://www.semanticscholar.org/paper/c9c5881982a4e83797e37f8b8686e68e31b92275",
+            "venue": "Softw. Pract. Exp.",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39112959",
+                    "name": "B. Martens"
+                },
+                {
+                    "authorId": "2053121415",
+                    "name": "J\u00f6rg Franke"
+                }
+            ],
+            "doi": "10.1109/ICoDSE56892.2022.9971901",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "90375a28069a5b231f633ab8bbf7b9c1623800bb",
+            "title": "Identifying Agile Roles in Software Engineering Projects using Repository and Work-Tracking Data",
+            "url": "https://www.semanticscholar.org/paper/90375a28069a5b231f633ab8bbf7b9c1623800bb",
+            "venue": "2022 International Conference on Data and Software Engineering (ICoDSE)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": "2203.14404",
+            "authors": [
+                {
+                    "authorId": "52378466",
+                    "name": "E. Alomar"
+                },
+                {
+                    "authorId": "1802926824",
+                    "name": "Moataz Chouchen"
+                },
+                {
+                    "authorId": "2121857527",
+                    "name": "Mohamed Wiem Mkaouer"
+                },
+                {
+                    "authorId": "1994554",
+                    "name": "Ali Ouni"
+                }
+            ],
+            "doi": "10.1145/3524842.3527932",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "bc6d4d0690b676b360c59c96d7bdc93651cf8667",
+            "title": "Code Review Practices for Refactoring Changes: An Empirical Study on OpenStack",
+            "url": "https://www.semanticscholar.org/paper/bc6d4d0690b676b360c59c96d7bdc93651cf8667",
+            "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2203.09095",
+            "authors": [
+                {
+                    "authorId": "2109823035",
+                    "name": "Zhiyu Li"
+                },
+                {
+                    "authorId": "2115338656",
+                    "name": "Shuai Lu"
+                },
+                {
+                    "authorId": "2278834796",
+                    "name": "Daya Guo"
+                },
+                {
+                    "authorId": "46429989",
+                    "name": "Nan Duan"
+                },
+                {
+                    "authorId": "2159203257",
+                    "name": "Shailesh Jannu"
+                },
+                {
+                    "authorId": "150111669",
+                    "name": "Grant Jenks"
+                },
+                {
+                    "authorId": "2159206257",
+                    "name": "Deep Majumder"
+                },
+                {
+                    "authorId": "2159198069",
+                    "name": "Jared Green"
+                },
+                {
+                    "authorId": "2061625488",
+                    "name": "Alexey Svyatkovskiy"
+                },
+                {
+                    "authorId": "2072784644",
+                    "name": "Shengyu Fu"
+                },
+                {
+                    "authorId": "145507437",
+                    "name": "Neel Sundaresan"
+                }
+            ],
+            "doi": "10.1145/3540250.3549081",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b893513bf54c534adda24da8124ea904e0541ace",
+            "title": "Automating code review activities by large-scale pre-training",
+            "url": "https://www.semanticscholar.org/paper/b893513bf54c534adda24da8124ea904e0541ace",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2022
+        },
+        {
+            "arxivId": "2203.07473",
+            "authors": [
+                {
+                    "authorId": "2737399",
+                    "name": "Gunnar Kudrjavets"
+                },
+                {
+                    "authorId": "1693689",
+                    "name": "Nachiappan Nagappan"
+                },
+                {
+                    "authorId": "40464536",
+                    "name": "Ayushi Rastogi"
+                }
+            ],
+            "doi": "10.1145/3524842.3528005",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6082d30a29b4cfe77d3fd2c37b2474fa648cec4d",
+            "title": "The Unexplored Treasure Trove of Phabricator Code Reviews",
+            "url": "https://www.semanticscholar.org/paper/6082d30a29b4cfe77d3fd2c37b2474fa648cec4d",
+            "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2203.05048",
+            "authors": [
+                {
+                    "authorId": "2737399",
+                    "name": "Gunnar Kudrjavets"
+                },
+                {
+                    "authorId": "2145751247",
+                    "name": "Aditya Kumar"
+                },
+                {
+                    "authorId": "1693689",
+                    "name": "Nachiappan Nagappan"
+                },
+                {
+                    "authorId": "40464536",
+                    "name": "Ayushi Rastogi"
+                }
+            ],
+            "doi": "10.1145/3524842.3528432",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "46b49047c2a809c3cf5447543b9289bdaa3ac43e",
+            "title": "Mining Code Review Data to Understand Waiting Times Between Acceptance and Merging: An Empirical Analysis",
+            "url": "https://www.semanticscholar.org/paper/46b49047c2a809c3cf5447543b9289bdaa3ac43e",
+            "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2203.05045",
+            "authors": [
+                {
+                    "authorId": "2737399",
+                    "name": "Gunnar Kudrjavets"
+                },
+                {
+                    "authorId": "1693689",
+                    "name": "Nachiappan Nagappan"
+                },
+                {
+                    "authorId": "40464536",
+                    "name": "Ayushi Rastogi"
+                }
+            ],
+            "doi": "10.1145/3524842.3528448",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "265cc6897fdb002e62068e2b89566fc54e25e3a8",
+            "title": "Do Small Code Changes Merge Faster? A Multi-Language Empirical Investigation",
+            "url": "https://www.semanticscholar.org/paper/265cc6897fdb002e62068e2b89566fc54e25e3a8",
+            "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34755489",
+                    "name": "M. Vidoni"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2021.106791",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8b608f646a96c545af167e66a146f54ecd595ffa",
+            "title": "A systematic process for Mining Software Repositories: Results from a systematic literature review",
+            "url": "https://www.semanticscholar.org/paper/8b608f646a96c545af167e66a146f54ecd595ffa",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2350478",
+                    "name": "R. Heum\u00fcller"
+                },
+                {
+                    "authorId": "3289277",
+                    "name": "Sebastian Nielebock"
+                },
+                {
+                    "authorId": "2421227",
+                    "name": "F. Ortmeier"
+                }
+            ],
+            "doi": "10.1145/3468264.3473110",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "acf4642798cc98c117937fd9893626cf6d8628e7",
+            "title": "Exploit those code reviews! bigger data for deeper learning",
+            "url": "https://www.semanticscholar.org/paper/acf4642798cc98c117937fd9893626cf6d8628e7",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2021
+        },
+        {
+            "arxivId": "2106.02306",
+            "authors": [
+                {
+                    "authorId": "2152688335",
+                    "name": "Dong Wang"
+                },
+                {
+                    "authorId": "1680034",
+                    "name": "R. Kula"
+                },
+                {
+                    "authorId": "145682543",
+                    "name": "T. Ishio"
+                },
+                {
+                    "authorId": "144975613",
+                    "name": "Ken-ichi Matsumoto"
+                }
+            ],
+            "doi": "10.1016/J.INFSOF.2021.106637",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1612d4d2f6d69f33432a0925c9faa00815ace794",
+            "title": "Automatic Patch Linkage Detection in Code Review Using TextualContent and File Location Features",
+            "url": "https://www.semanticscholar.org/paper/1612d4d2f6d69f33432a0925c9faa00815ace794",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2104.08310",
+            "authors": [
+                {
+                    "authorId": "2350478",
+                    "name": "R. Heum\u00fcller"
+                }
+            ],
+            "doi": "10.1109/ICSE-Companion52605.2021.00126",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "486f91014f9da92518b988b3da4c008cb40cc8d3",
+            "title": "Learning to Boost the Efficiency of Modern Code Review",
+            "url": "https://www.semanticscholar.org/paper/486f91014f9da92518b988b3da4c008cb40cc8d3",
+            "venue": "2021 IEEE/ACM 43rd International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1802926824",
+                    "name": "Moataz Chouchen"
+                },
+                {
+                    "authorId": "1994554",
+                    "name": "Ali Ouni"
+                },
+                {
+                    "authorId": "1680034",
+                    "name": "R. Kula"
+                },
+                {
+                    "authorId": "2152688335",
+                    "name": "Dong Wang"
+                },
+                {
+                    "authorId": "2352093",
+                    "name": "Patanamon Thongtanunam"
+                },
+                {
+                    "authorId": "1810097",
+                    "name": "Mohamed Wiem Mkaouer"
+                },
+                {
+                    "authorId": "144975613",
+                    "name": "Ken-ichi Matsumoto"
+                }
+            ],
+            "doi": "10.1109/SANER50967.2021.00060",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "69b6172ce52d34d6ce37d3e7f6b2bfe2b7bfa571",
+            "title": "Anti-patterns in Modern Code Review: Symptoms and Prevalence",
+            "url": "https://www.semanticscholar.org/paper/69b6172ce52d34d6ce37d3e7f6b2bfe2b7bfa571",
+            "venue": "2021 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1802926824",
+                    "name": "Moataz Chouchen"
+                },
+                {
+                    "authorId": "1994554",
+                    "name": "Ali Ouni"
+                },
+                {
+                    "authorId": "1810097",
+                    "name": "Mohamed Wiem Mkaouer"
+                },
+                {
+                    "authorId": "2041860640",
+                    "name": "Raula Gaikovina Kuka"
+                },
+                {
+                    "authorId": "144875558",
+                    "name": "Katsuro Inoue"
+                }
+            ],
+            "doi": "10.1016/j.asoc.2020.106908",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "73195943a83b8ed9c4a732dc8e04d272fc5000c7",
+            "title": "WhoReview: A multi-objective search-based approach for code reviewers recommendation in modern code review",
+            "url": "https://www.semanticscholar.org/paper/73195943a83b8ed9c4a732dc8e04d272fc5000c7",
+            "venue": "Appl. Soft Comput.",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1409143772",
+                    "name": "W. Al-Zubaidi"
+                },
+                {
+                    "authorId": "2352093",
+                    "name": "Patanamon Thongtanunam"
+                },
+                {
+                    "authorId": "2199994",
+                    "name": "K. Dam"
+                },
+                {
+                    "authorId": "1957122",
+                    "name": "C. Tantithamthavorn"
+                },
+                {
+                    "authorId": "1695281",
+                    "name": "A. Ghose"
+                }
+            ],
+            "doi": "10.1145/3416508.3417115",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "bc686e570b661a969b217c20a154c3414de2448b",
+            "title": "Workload-aware reviewer recommendation using a multi-objective search-based approach",
+            "url": "https://www.semanticscholar.org/paper/bc686e570b661a969b217c20a154c3414de2448b",
+            "venue": "PROMISE",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1669575427",
+                    "name": "Nafiz Sadman"
+                },
+                {
+                    "authorId": "145981714",
+                    "name": "M. Ahsan"
+                },
+                {
+                    "authorId": "2065474466",
+                    "name": "M. Mahmud"
+                }
+            ],
+            "doi": "10.1109/UEMCON51285.2020.9298102",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "40f0809380d244fcfde113806b89f4eff80039b4",
+            "title": "ADCR: An Adaptive TOOL to select \u201dAppropriate Developer for Code Review\u201d based on Code Context",
+            "url": "https://www.semanticscholar.org/paper/40f0809380d244fcfde113806b89f4eff80039b4",
+            "venue": "2020 11th IEEE Annual Ubiquitous Computing, Electronics & Mobile Communication Conference (UEMCON)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "22212795",
+                    "name": "Felipe Ebert"
+                },
+                {
+                    "authorId": "9393830",
+                    "name": "Fernando Castor"
+                },
+                {
+                    "authorId": "9393830",
+                    "name": "Fernando Castor"
+                },
+                {
+                    "authorId": "1750021",
+                    "name": "Nicole Novielli"
+                },
+                {
+                    "authorId": "1747171",
+                    "name": "Alexander Serebrenik"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09909-5",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "59e4a62edd7e36330685dc00e21ac33038d748ea",
+            "title": "An exploratory study on confusion in code reviews",
+            "url": "https://www.semanticscholar.org/paper/59e4a62edd7e36330685dc00e21ac33038d748ea",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1455157146",
+                    "name": "Soumaya Rebai"
+                },
+                {
+                    "authorId": "2005973198",
+                    "name": "Abderrahmen Amich"
+                },
+                {
+                    "authorId": "3140774",
+                    "name": "S. Molaei"
+                },
+                {
+                    "authorId": "1705734",
+                    "name": "Marouane Kessentini"
+                },
+                {
+                    "authorId": "1699020",
+                    "name": "R. Kazman"
+                }
+            ],
+            "doi": "10.1007/s10515-020-00275-6",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "3ccfe81b6424b804bddc6201b8e2782a05d2cc5c",
+            "title": "Multi-objective code reviewer recommendations: balancing expertise, availability and collaborations",
+            "url": "https://www.semanticscholar.org/paper/3ccfe81b6424b804bddc6201b8e2782a05d2cc5c",
+            "venue": "Automated Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": "2008.03439",
+            "authors": [
+                {
+                    "authorId": "1866565388",
+                    "name": "Adam Tutko"
+                },
+                {
+                    "authorId": "34968683",
+                    "name": "Austin Z. Henley"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0f5ec9fd111c5ca54d27ae316944024a3b0bcea1",
+            "title": "More Effective Software Repository Mining",
+            "url": "https://www.semanticscholar.org/paper/0f5ec9fd111c5ca54d27ae316944024a3b0bcea1",
+            "venue": "ArXiv",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1866565388",
+                    "name": "Adam Tutko"
+                }
+            ],
+            "doi": "10.1109/VL/HCC50065.2020.9127206",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2fbc412b68bf09e4c5bcd673e0fb2f4cbcaa6b9b",
+            "title": "Designing an Effective User Interface for Analyzing Software Repositories",
+            "url": "https://www.semanticscholar.org/paper/2fbc412b68bf09e4c5bcd673e0fb2f4cbcaa6b9b",
+            "venue": "2020 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC)",
+            "year": 2020
+        },
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2091850674",
+                    "name": "Motaz Chouchen"
+                },
+                {
+                    "authorId": "1994554",
+                    "name": "Ali Ouni"
+                },
+                {
+                    "authorId": "1810097",
+                    "name": "Mohamed Wiem Mkaouer"
+                },
+                {
+                    "authorId": "1680034",
+                    "name": "R. Kula"
+                },
+                {
+                    "authorId": "144875558",
+                    "name": "Katsuro Inoue"
+                }
+            ],
+            "doi": "10.1145/3377929.3390057",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e7e7d7813ee463701ff99637340b19ef995f2933",
+            "title": "Recommending peer reviewers in modern code review: a multi-objective search-based approach",
+            "url": "https://www.semanticscholar.org/paper/e7e7d7813ee463701ff99637340b19ef995f2933",
+            "venue": "GECCO Companion",
+            "year": 2020
+        },
+        {
+            "arxivId": "2007.08265",
+            "authors": [
+                {
+                    "authorId": "36577903",
+                    "name": "Christoph Matthies"
+                },
+                {
+                    "authorId": "71642289",
+                    "name": "Franziska Dobrigkeit"
+                },
+                {
+                    "authorId": "153548469",
+                    "name": "Guenter Hesse"
+                }
+            ],
+            "doi": "10.1145/3387940.3392168",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "163798625c069524fb82ec3b9b022070316f462a",
+            "title": "Mining for Process Improvements: Analyzing Software Repositories in Agile Retrospectives",
+            "url": "https://www.semanticscholar.org/paper/163798625c069524fb82ec3b9b022070316f462a",
+            "venue": "ICSE",
+            "year": 2020
+        },
+        {
+            "arxivId": "1912.03437",
+            "authors": [
+                {
+                    "authorId": "2210667472",
+                    "name": "Md. Khairul Islam"
+                },
+                {
+                    "authorId": "3432275",
+                    "name": "Toufique Ahmed"
+                },
+                {
+                    "authorId": "2046603",
+                    "name": "Rifat Shahriyar"
+                },
+                {
+                    "authorId": "1873031",
+                    "name": "Anindya Iqbal"
+                },
+                {
+                    "authorId": "28334651",
+                    "name": "Gias Uddin"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2021.106756",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f74bed87c0edeed9b8ac22d17b74dfffa015d4a7",
+            "title": "Early prediction for merged vs abandoned code changes in modern code reviews",
+            "url": "https://www.semanticscholar.org/paper/f74bed87c0edeed9b8ac22d17b74dfffa015d4a7",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1978134",
+                    "name": "Toshiki Hirao"
+                },
+                {
+                    "authorId": "1680034",
+                    "name": "R. Kula"
+                },
+                {
+                    "authorId": "2385419",
+                    "name": "Akinori Ihara"
+                },
+                {
+                    "authorId": "144975613",
+                    "name": "Ken-ichi Matsumoto"
+                }
+            ],
+            "doi": "10.1587/transinf.2019mpp0005",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a258b096644a95030b62814ba4097213734adfd4",
+            "title": "Understanding Developer Commenting in Code Reviews",
+            "url": "https://www.semanticscholar.org/paper/a258b096644a95030b62814ba4097213734adfd4",
+            "venue": "IEICE Trans. Inf. Syst.",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2242768692",
+                    "name": "R.P. Jagadeesh Chandra Bose"
+                },
+                {
+                    "authorId": "73068292",
+                    "name": "Kanchanjot Kaur Phokela"
+                },
+                {
+                    "authorId": "10774539",
+                    "name": "Vikrant S. Kaulgud"
+                },
+                {
+                    "authorId": "49424498",
+                    "name": "Sanjay Podder"
+                }
+            ],
+            "doi": "10.1109/APSEC48747.2019.00010",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "36a0a6a8c27420d3e49017a4649fd03d9940086d",
+            "title": "BLINKER: A Blockchain-Enabled Framework for Software Provenance",
+            "url": "https://www.semanticscholar.org/paper/36a0a6a8c27420d3e49017a4649fd03d9940086d",
+            "venue": "2019 26th Asia-Pacific Software Engineering Conference (APSEC)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3461385",
+                    "name": "Ikram El Asri"
+                },
+                {
+                    "authorId": "2630405",
+                    "name": "Noureddine Kerzazi"
+                },
+                {
+                    "authorId": "28334651",
+                    "name": "Gias Uddin"
+                },
+                {
+                    "authorId": "1703493",
+                    "name": "Foutse Khomh"
+                },
+                {
+                    "authorId": "35158660",
+                    "name": "M. Idrissi"
+                }
+            ],
+            "doi": "10.1016/J.INFSOF.2019.06.005",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d292750efd0fd0dd5868d4c16115cd0897c5dab0",
+            "title": "An empirical study of sentiments in code reviews",
+            "url": "https://www.semanticscholar.org/paper/d292750efd0fd0dd5868d4c16115cd0897c5dab0",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2023278",
+                    "name": "Hrvoje Karna"
+                },
+                {
+                    "authorId": "1396941427",
+                    "name": "Ana Masnov"
+                },
+                {
+                    "authorId": "1396941433",
+                    "name": "Darija Jurko"
+                },
+                {
+                    "authorId": "1381658807",
+                    "name": "Tomislav Peri\u0107"
+                }
+            ],
+            "doi": "10.23919/SOFTCOM.2019.8903752",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5f033660dde03cca40933a05a22aa531ce0ef44f",
+            "title": "Cross-Project Estimation of Software Development Effort Using In-House Sources and Data Mining Methods - an Experiment",
+            "url": "https://www.semanticscholar.org/paper/5f033660dde03cca40933a05a22aa531ce0ef44f",
+            "venue": "2019 International Conference on Software, Telecommunications and Computer Networks (SoftCOM)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1978134",
+                    "name": "Toshiki Hirao"
+                },
+                {
+                    "authorId": "1725534",
+                    "name": "Shane McIntosh"
+                },
+                {
+                    "authorId": "2385419",
+                    "name": "Akinori Ihara"
+                },
+                {
+                    "authorId": "144975613",
+                    "name": "Ken-ichi Matsumoto"
+                }
+            ],
+            "doi": "10.1145/3338906.3338949",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c646e6c2ffe0ddf17953db65e69fdb3142fb361f",
+            "title": "The review linkage graph for code review analytics: a recovery approach and empirical study",
+            "url": "https://www.semanticscholar.org/paper/c646e6c2ffe0ddf17953db65e69fdb3142fb361f",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00085",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "43148fabe2636026e07ca04974aff40d204bfb6b",
+            "title": "Standing on Shoulders or Feet? The Usage of the MSR Data Papers",
+            "url": "https://www.semanticscholar.org/paper/43148fabe2636026e07ca04974aff40d204bfb6b",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": "1903.03426",
+            "authors": [
+                {
+                    "authorId": "49973098",
+                    "name": "D. Fucci"
+                },
+                {
+                    "authorId": "24071491",
+                    "name": "Daniela Girardi"
+                },
+                {
+                    "authorId": "1750021",
+                    "name": "Nicole Novielli"
+                },
+                {
+                    "authorId": "80099077",
+                    "name": "L. Quaranta"
+                },
+                {
+                    "authorId": "1743022",
+                    "name": "F. Lanubile"
+                }
+            ],
+            "doi": "10.1109/ICPC.2019.00050",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8356630126316f6444cf8bc91449a67600fce13b",
+            "title": "A Replication Study on Code Comprehension and Expertise using Lightweight Biometric Sensors",
+            "url": "https://www.semanticscholar.org/paper/8356630126316f6444cf8bc91449a67600fce13b",
+            "venue": "2019 IEEE/ACM 27th International Conference on Program Comprehension (ICPC)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "22212795",
+                    "name": "Felipe Ebert"
+                },
+                {
+                    "authorId": "1719483",
+                    "name": "F. C. Filho"
+                },
+                {
+                    "authorId": "1750021",
+                    "name": "Nicole Novielli"
+                },
+                {
+                    "authorId": "1747171",
+                    "name": "Alexander Serebrenik"
+                }
+            ],
+            "doi": "10.1109/SANER.2019.8668024",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e45843d8d2a64aa49b03a16f1e145741d7dc2c1f",
+            "title": "Confusion in Code Reviews: Reasons, Impacts, and Coping Strategies",
+            "url": "https://www.semanticscholar.org/paper/e45843d8d2a64aa49b03a16f1e145741d7dc2c1f",
+            "venue": "2019 IEEE 26th International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2152688335",
+                    "name": "Dong Wang"
+                },
+                {
+                    "authorId": "1680034",
+                    "name": "R. Kula"
+                },
+                {
+                    "authorId": "144975613",
+                    "name": "Ken-ichi Matsumoto"
+                }
+            ],
+            "doi": "10.1109/APSEC.2018.00107",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "677bd44e5d072ac703bf814fcb6a105abf97a1d6",
+            "title": "An Exploratory Study to Identify Similar Patches: A Case Study in Modern Code Review",
+            "url": "https://www.semanticscholar.org/paper/677bd44e5d072ac703bf814fcb6a105abf97a1d6",
+            "venue": "2018 25th Asia-Pacific Software Engineering Conference (APSEC)",
+            "year": 2018
+        },
+        {
+            "arxivId": "1806.10277",
+            "authors": [
+                {
+                    "authorId": "51001352",
+                    "name": "Shade Ruangwan"
+                },
+                {
+                    "authorId": "2352093",
+                    "name": "Patanamon Thongtanunam"
+                },
+                {
+                    "authorId": "2385419",
+                    "name": "Akinori Ihara"
+                },
+                {
+                    "authorId": "144975613",
+                    "name": "Ken-ichi Matsumoto"
+                }
+            ],
+            "doi": "10.1007/s10664-018-9646-1",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "7dd10da932363e29d6d76caf53da00eee1ed6548",
+            "title": "The impact of human factors on the participation decision of reviewers in modern code review",
+            "url": "https://www.semanticscholar.org/paper/7dd10da932363e29d6d76caf53da00eee1ed6548",
+            "venue": "Empirical Software Engineering",
+            "year": 2018
+        },
+        {
+            "arxivId": "1806.07619",
+            "authors": [
+                {
+                    "authorId": "51031488",
+                    "name": "Jakub Lipcak"
+                },
+                {
+                    "authorId": "36811031",
+                    "name": "B. Rossi"
+                }
+            ],
+            "doi": "10.1109/SEAA.2018.00068",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5533f9a0cc73236a3257e0928b332cee9b621349",
+            "title": "A Large-Scale Study on Source Code Reviewer Recommendation",
+            "url": "https://www.semanticscholar.org/paper/5533f9a0cc73236a3257e0928b332cee9b621349",
+            "venue": "2018 44th Euromicro Conference on Software Engineering and Advanced Applications (SEAA)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2668626",
+                    "name": "C. E. Gerede"
+                },
+                {
+                    "authorId": "51204932",
+                    "name": "Zeki Mazan"
+                }
+            ],
+            "doi": "10.3906/elk-1707-173",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d237949e54b6f2a956c1a41251f831597735345c",
+            "title": "Will it pass? Predicting the outcome of a source code review",
+            "url": "https://www.semanticscholar.org/paper/d237949e54b6f2a956c1a41251f831597735345c",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "11009809",
+                    "name": "M. Paix\u00e3o"
+                },
+                {
+                    "authorId": "1824150",
+                    "name": "J. Krinke"
+                },
+                {
+                    "authorId": "7883212",
+                    "name": "Donggyun Han"
+                },
+                {
+                    "authorId": "145836176",
+                    "name": "M. Harman"
+                }
+            ],
+            "doi": "10.1145/3196398.3196466",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6110c3c38919b0f3371e45c8823b94fb83ffbf62",
+            "title": "CROP: Linking Code Reviews to Source Code Changes",
+            "url": "https://www.semanticscholar.org/paper/6110c3c38919b0f3371e45c8823b94fb83ffbf62",
+            "venue": "2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40791764",
+                    "name": "Yuanrui Fan"
+                },
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                },
+                {
+                    "authorId": "1773299",
+                    "name": "Shanping Li"
+                }
+            ],
+            "doi": "10.1007/s10664-018-9602-0",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0f7fcceb78e500ff8e02cd3cf4baa5e5aa6ab6f7",
+            "title": "Early prediction of merged code changes to prioritize reviewing tasks",
+            "url": "https://www.semanticscholar.org/paper/0f7fcceb78e500ff8e02cd3cf4baa5e5aa6ab6f7",
+            "venue": "Empirical Software Engineering",
+            "year": 2018
+        },
+        {
+            "arxivId": "1803.02205",
+            "authors": [
+                {
+                    "authorId": "2122187",
+                    "name": "V. Efstathiou"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1145/3183399.3183411",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1d5e5330d294e9403ee7f137f1b6a8bdb9c42388",
+            "title": "Code Review Comments: Language Matters",
+            "url": "https://www.semanticscholar.org/paper/1d5e5330d294e9403ee7f137f1b6a8bdb9c42388",
+            "venue": "2018 IEEE/ACM 40th International Conference on Software Engineering: New Ideas and Emerging Technologies Results (ICSE-NIER)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "22212795",
+                    "name": "Felipe Ebert"
+                },
+                {
+                    "authorId": "1719483",
+                    "name": "F. C. Filho"
+                },
+                {
+                    "authorId": "1750021",
+                    "name": "Nicole Novielli"
+                },
+                {
+                    "authorId": "1747171",
+                    "name": "Alexander Serebrenik"
+                }
+            ],
+            "doi": "10.1109/ICSME.2017.40",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "87b5293fc8d40056fc361b99c238871349443228",
+            "title": "Confusion Detection in Code Reviews",
+            "url": "https://www.semanticscholar.org/paper/87b5293fc8d40056fc361b99c238871349443228",
+            "venue": "2017 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "89397481",
+                    "name": "M. Madera"
+                },
+                {
+                    "authorId": "115604951",
+                    "name": "R. Tomon"
+                }
+            ],
+            "doi": "10.15439/2017F536",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "95f20ba99e936c214f8698d1f6802aa3a0a67629",
+            "title": "A case study on machine learning model for code review expert system in software engineering",
+            "url": "https://www.semanticscholar.org/paper/95f20ba99e936c214f8698d1f6802aa3a0a67629",
+            "venue": "2017 Federated Conference on Computer Science and Information Systems (FedCSIS)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1994554",
+                    "name": "Ali Ouni"
+                },
+                {
+                    "authorId": "1680034",
+                    "name": "R. Kula"
+                },
+                {
+                    "authorId": "144875558",
+                    "name": "Katsuro Inoue"
+                }
+            ],
+            "doi": "10.1109/ICSME.2016.65",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "5dcd0ed6f8767b764133a21bd54ae721e7230c54",
+            "title": "Search-Based Peer Reviewers Recommendation in Modern Code Review",
+            "url": "https://www.semanticscholar.org/paper/5dcd0ed6f8767b764133a21bd54ae721e7230c54",
+            "venue": "2016 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2109823035",
+                    "name": "Zhiyu Li"
+                },
+                {
+                    "authorId": "2115338656",
+                    "name": "Shuai Lu"
+                },
+                {
+                    "authorId": "2278834796",
+                    "name": "Daya Guo"
+                },
+                {
+                    "authorId": "46429989",
+                    "name": "Nan Duan"
+                },
+                {
+                    "authorId": "2159203257",
+                    "name": "Shailesh Jannu"
+                },
+                {
+                    "authorId": "150111669",
+                    "name": "Grant Jenks"
+                },
+                {
+                    "authorId": "2159206257",
+                    "name": "Deep Majumder"
+                },
+                {
+                    "authorId": "2159198069",
+                    "name": "Jared Green"
+                },
+                {
+                    "authorId": "2061625488",
+                    "name": "Alexey Svyatkovskiy"
+                },
+                {
+                    "authorId": "2072784644",
+                    "name": "Shengyu Fu"
+                },
+                {
+                    "authorId": "145507437",
+                    "name": "Neel Sundaresan"
+                }
+            ],
+            "doi": "10.48550/arXiv.2203.09095",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b951c0691a0d2ca65202a1eed2ccedf6e305d035",
+            "title": "CodeReviewer: Pre-Training for Automating Code Review Activities",
+            "url": "https://www.semanticscholar.org/paper/b951c0691a0d2ca65202a1eed2ccedf6e305d035",
+            "venue": "ArXiv",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1455157146",
+                    "name": "Soumaya Rebai"
+                },
+                {
+                    "authorId": "2005973198",
+                    "name": "Abderrahmen Amich"
+                },
+                {
+                    "authorId": "3140774",
+                    "name": "S. Molaei"
+                },
+                {
+                    "authorId": "1705734",
+                    "name": "Marouane Kessentini"
+                },
+                {
+                    "authorId": "1699020",
+                    "name": "R. Kazman"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c8ccfe2597b6e335735b60474078d3ed0402c9fc",
+            "title": "Code Reviewer Recommendations as a Multi-Objective Problem: Balancing Expertise, Availability and Collaborations",
+            "url": "https://www.semanticscholar.org/paper/c8ccfe2597b6e335735b60474078d3ed0402c9fc",
+            "venue": "",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2272542833",
+                    "name": "Gunnar Kudrjavets"
+                }
+            ],
+            "doi": "10.33612/diss.781738808",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "ea99bfdb9b008eb1b6ba3140e642ef24a13828dc",
+            "title": "The Need for Speed: Increasing the Code Review Velocity",
+            "url": "https://www.semanticscholar.org/paper/ea99bfdb9b008eb1b6ba3140e642ef24a13828dc",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "corpusId": 1830613,
+    "doi": "10.1145/2901739.2903504",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 1,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 55,
+    "numCiting": 19,
+    "paperId": "75ed02717913c1bd147d196df2e77385dd109903",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145701062",
+                    "name": "Oleksii Kononenko"
+                },
+                {
+                    "authorId": "25701557",
+                    "name": "Olga Baysal"
+                },
+                {
+                    "authorId": "47521175",
+                    "name": "Michael W. Godfrey"
+                }
+            ],
+            "doi": "10.1145/2884781.2884840",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "88997c8b7daa74cd822d82bf33581c8fa966a347",
+            "title": "Code Review Quality: How Developers See It",
+            "url": "https://www.semanticscholar.org/paper/88997c8b7daa74cd822d82bf33581c8fa966a347",
+            "venue": "2016 IEEE/ACM 38th International Conference on Software Engineering (ICSE)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2352093",
+                    "name": "Patanamon Thongtanunam"
+                },
+                {
+                    "authorId": "1725534",
+                    "name": "Shane McIntosh"
+                },
+                {
+                    "authorId": "144890499",
+                    "name": "A. Hassan"
+                },
+                {
+                    "authorId": "1687605",
+                    "name": "Hajimu Iida"
+                }
+            ],
+            "doi": "10.1145/2884781.2884852",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "db61996c021c2c9fcbc40aee63d248d61dce97d3",
+            "title": "Revisiting Code Ownership and Its Relationship with Software Quality in the Scope of Modern Code Review",
+            "url": "https://www.semanticscholar.org/paper/db61996c021c2c9fcbc40aee63d248d61dce97d3",
+            "venue": "2016 IEEE/ACM 38th International Conference on Software Engineering (ICSE)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2150438947",
+                    "name": "Xin Yang"
+                },
+                {
+                    "authorId": "143884632",
+                    "name": "Norihiro Yoshida"
+                },
+                {
+                    "authorId": "1680034",
+                    "name": "R. Kula"
+                },
+                {
+                    "authorId": "1687605",
+                    "name": "Hajimu Iida"
+                }
+            ],
+            "doi": "10.1587/TRANSINF.2015EDP7261",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "be20db8557cb341e36b5bcf058334bce99cad438",
+            "title": "Peer Review Social Network (PeRSoN) in Open Source Projects",
+            "url": "https://www.semanticscholar.org/paper/be20db8557cb341e36b5bcf058334bce99cad438",
+            "venue": "IEICE Trans. Inf. Syst.",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2352093",
+                    "name": "Patanamon Thongtanunam"
+                },
+                {
+                    "authorId": "1725534",
+                    "name": "Shane McIntosh"
+                },
+                {
+                    "authorId": "144890499",
+                    "name": "A. Hassan"
+                },
+                {
+                    "authorId": "1687605",
+                    "name": "Hajimu Iida"
+                }
+            ],
+            "doi": "10.1109/MSR.2015.23",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "44335cad5e13436cf75315e4d6be457b1faadc9b",
+            "title": "Investigating Code Review Practices in Defective Files: An Empirical Study of the Qt System",
+            "url": "https://www.semanticscholar.org/paper/44335cad5e13436cf75315e4d6be457b1faadc9b",
+            "venue": "2015 IEEE/ACM 12th Working Conference on Mining Software Repositories",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2352093",
+                    "name": "Patanamon Thongtanunam"
+                },
+                {
+                    "authorId": "1957122",
+                    "name": "C. Tantithamthavorn"
+                },
+                {
+                    "authorId": "1680034",
+                    "name": "R. Kula"
+                },
+                {
+                    "authorId": "143884632",
+                    "name": "Norihiro Yoshida"
+                },
+                {
+                    "authorId": "1687605",
+                    "name": "Hajimu Iida"
+                },
+                {
+                    "authorId": "144975613",
+                    "name": "Ken-ichi Matsumoto"
+                }
+            ],
+            "doi": "10.1109/SANER.2015.7081824",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "62ebbaaefa0aea8dbf5f145d7d3a228448565770",
+            "title": "Who should review my code? A file location-based code-reviewer recommendation approach for Modern Code Review",
+            "url": "https://www.semanticscholar.org/paper/62ebbaaefa0aea8dbf5f145d7d3a228448565770",
+            "venue": "2015 IEEE 22nd International Conference on Software Analysis, Evolution, and Reengineering (SANER)",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2352093",
+                    "name": "Patanamon Thongtanunam"
+                },
+                {
+                    "authorId": "2150438947",
+                    "name": "Xin Yang"
+                },
+                {
+                    "authorId": "143884632",
+                    "name": "Norihiro Yoshida"
+                },
+                {
+                    "authorId": "1680034",
+                    "name": "R. Kula"
+                },
+                {
+                    "authorId": "23635036",
+                    "name": "Ana Erika Camargo Cruz"
+                },
+                {
+                    "authorId": "46891693",
+                    "name": "Kenji Fujiwara"
+                },
+                {
+                    "authorId": "1687605",
+                    "name": "Hajimu Iida"
+                }
+            ],
+            "doi": "10.1109/ICSME.2014.106",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "25e8f8a56e9099bbf1557a185da088fe3d11601c",
+            "title": "ReDA: A Web-Based Visualization Tool for Analyzing Modern Code Review Dataset",
+            "url": "https://www.semanticscholar.org/paper/25e8f8a56e9099bbf1557a185da088fe3d11601c",
+            "venue": "2014 IEEE International Conference on Software Maintenance and Evolution",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39374345",
+                    "name": "Peter C. Rigby"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "87904327",
+                    "name": "L. Cowen"
+                },
+                {
+                    "authorId": "1734938",
+                    "name": "M. Storey"
+                }
+            ],
+            "doi": "10.1145/2594458",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1015ceea2997701b3c74d32d9d5950a57ea600a6",
+            "title": "Peer Review on Open-Source Software Projects: Parameters, Statistical Models, and Theory",
+            "url": "https://www.semanticscholar.org/paper/1015ceea2997701b3c74d32d9d5950a57ea600a6",
+            "venue": "TSEM",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1725534",
+                    "name": "Shane McIntosh"
+                },
+                {
+                    "authorId": "1706639",
+                    "name": "Yasutaka Kamei"
+                },
+                {
+                    "authorId": "143612725",
+                    "name": "Bram Adams"
+                },
+                {
+                    "authorId": "144890499",
+                    "name": "A. Hassan"
+                }
+            ],
+            "doi": "10.1145/2597073.2597076",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "af526d95e51940cac7aef7a60d4341bb2990aba2",
+            "title": "The impact of code review coverage and code review participation on software quality: a case study of the qt, VTK, and ITK projects",
+            "url": "https://www.semanticscholar.org/paper/af526d95e51940cac7aef7a60d4341bb2990aba2",
+            "venue": "MSR 2014",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40242908",
+                    "name": "M. Mukadam"
+                },
+                {
+                    "authorId": "145193818",
+                    "name": "C. Bird"
+                },
+                {
+                    "authorId": "39374345",
+                    "name": "Peter C. Rigby"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624002",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1f62a5526c571aeb4a00a40b8de2b59a6c537449",
+            "title": "Gerrit software code review data from Android",
+            "url": "https://www.semanticscholar.org/paper/1f62a5526c571aeb4a00a40b8de2b59a6c537449",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1686038",
+                    "name": "Alberto Bacchelli"
+                },
+                {
+                    "authorId": "145193818",
+                    "name": "C. Bird"
+                }
+            ],
+            "doi": "10.1109/ICSE.2013.6606617",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3ad467fe13ffa8ee705d62d8228a2c254a96f5bd",
+            "title": "Expectations, outcomes, and challenges of modern code review",
+            "url": "https://www.semanticscholar.org/paper/3ad467fe13ffa8ee705d62d8228a2c254a96f5bd",
+            "venue": "2013 35th International Conference on Software Engineering (ICSE)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "28356180",
+                    "name": "Kazuki Hamasaki"
+                },
+                {
+                    "authorId": "1680034",
+                    "name": "R. Kula"
+                },
+                {
+                    "authorId": "143884632",
+                    "name": "Norihiro Yoshida"
+                },
+                {
+                    "authorId": "23635036",
+                    "name": "Ana Erika Camargo Cruz"
+                },
+                {
+                    "authorId": "46891693",
+                    "name": "Kenji Fujiwara"
+                },
+                {
+                    "authorId": "1687605",
+                    "name": "Hajimu Iida"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624003",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e062d9ef26a07a9d8a0dd0a185b995f465011f16",
+            "title": "Who does what during a code review? Datasets of OSS peer review repositories",
+            "url": "https://www.semanticscholar.org/paper/e062d9ef26a07a9d8a0dd0a185b995f465011f16",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2150438947",
+                    "name": "Xin Yang"
+                },
+                {
+                    "authorId": "1680034",
+                    "name": "R. Kula"
+                },
+                {
+                    "authorId": "23635036",
+                    "name": "Ana Erika Camargo Cruz"
+                },
+                {
+                    "authorId": "143884632",
+                    "name": "Norihiro Yoshida"
+                },
+                {
+                    "authorId": "28356180",
+                    "name": "Kazuki Hamasaki"
+                },
+                {
+                    "authorId": "46891693",
+                    "name": "Kenji Fujiwara"
+                },
+                {
+                    "authorId": "1687605",
+                    "name": "Hajimu Iida"
+                }
+            ],
+            "doi": "10.1109/APSEC.2012.63",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9a2f4f52eaafdc7e085fa13f70694d2332356479",
+            "title": "Understanding OSS Peer Review Roles in Peer Review Social Network (PeRSoN)",
+            "url": "https://www.semanticscholar.org/paper/9a2f4f52eaafdc7e085fa13f70694d2332356479",
+            "venue": "2012 19th Asia-Pacific Software Engineering Conference",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1680034",
+                    "name": "R. Kula"
+                },
+                {
+                    "authorId": "2288585566",
+                    "name": "Ana Erika Camargo Cruz"
+                },
+                {
+                    "authorId": "143884632",
+                    "name": "Norihiro Yoshida"
+                },
+                {
+                    "authorId": "28356180",
+                    "name": "Kazuki Hamasaki"
+                },
+                {
+                    "authorId": "46891693",
+                    "name": "Kenji Fujiwara"
+                },
+                {
+                    "authorId": "2150438947",
+                    "name": "Xin Yang"
+                },
+                {
+                    "authorId": "1687605",
+                    "name": "Hajimu Iida"
+                }
+            ],
+            "doi": "10.1109/ISSREW.2012.50",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "63485b9e96f36fdb175938aa197f1e5a7339d6d0",
+            "title": "Using Profiling Metrics to Categorise Peer Review Types in the Android Project",
+            "url": "https://www.semanticscholar.org/paper/63485b9e96f36fdb175938aa197f1e5a7339d6d0",
+            "venue": "2012 IEEE 23rd International Symposium on Software Reliability Engineering Workshops",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1726629",
+                    "name": "D. Parnas"
+                },
+                {
+                    "authorId": "1766205",
+                    "name": "M. Lawford"
+                }
+            ],
+            "doi": "10.1109/TSE.2003.1223642",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5f343e59abe4dcbd7f74f0ccc5cb2adcb9fbd7b2",
+            "title": "The Role of Inspection in Software Quality Assurance",
+            "url": "https://www.semanticscholar.org/paper/5f343e59abe4dcbd7f74f0ccc5cb2adcb9fbd7b2",
+            "venue": "IEEE Trans. Software Eng.",
+            "year": 2003
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1678530",
+                    "name": "Giedre Sabaliauskaite"
+                },
+                {
+                    "authorId": "30765405",
+                    "name": "F. Matsukawa"
+                },
+                {
+                    "authorId": "49220716",
+                    "name": "S. Kusumoto"
+                },
+                {
+                    "authorId": "144875558",
+                    "name": "Katsuro Inoue"
+                }
+            ],
+            "doi": "10.1016/S0950-5849(03)00044-2",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7cc8b9f5c1db957eec58b335948edfe83381635f",
+            "title": "Further investigations of reading techniques for object-oriented design inspection",
+            "url": "https://www.semanticscholar.org/paper/7cc8b9f5c1db957eec58b335948edfe83381635f",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2003
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1688347",
+                    "name": "G. Travassos"
+                },
+                {
+                    "authorId": "1723491",
+                    "name": "F. Shull"
+                },
+                {
+                    "authorId": "2092903277",
+                    "name": "Michael Fredericks"
+                },
+                {
+                    "authorId": "1678713",
+                    "name": "V. Basili"
+                }
+            ],
+            "doi": "10.1145/320384.320389",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6d831f6c093439ea1c71241fe98cf47e0c7ba4d6",
+            "title": "Detecting defects in object-oriented designs: using reading techniques to increase software quality",
+            "url": "https://www.semanticscholar.org/paper/6d831f6c093439ea1c71241fe98cf47e0c7ba4d6",
+            "venue": "OOPSLA '99",
+            "year": 1999
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34673364",
+                    "name": "Michael E. Fagan"
+                }
+            ],
+            "doi": "10.1147/sj.382.0258",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fe02f66911c6331a81d01f9cf4fdce05b6b2aca3",
+            "title": "Design and Code Inspections to Reduce Errors in Program Development",
+            "url": "https://www.semanticscholar.org/paper/fe02f66911c6331a81d01f9cf4fdce05b6b2aca3",
+            "venue": "IBM Syst. J.",
+            "year": 1976
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "7 https://github.com/kin-y/miningReviewRepo/wiki/ Publications",
+            "url": "",
+            "venue": "7 https://github.com/kin-y/miningReviewRepo/wiki/ Publications",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2109845802",
+                    "name": "Alex Wilson"
+                }
+            ],
+            "doi": "10.1017/S0033822200040042",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d25a26cce22ec9fe8bf4deca76cb4f8f1537a3c2",
+            "title": "Review",
+            "url": "https://www.semanticscholar.org/paper/d25a26cce22ec9fe8bf4deca76cb4f8f1537a3c2",
+            "venue": "Radiocarbon",
+            "year": 1990
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "Mining the Modern Code Review Repositories: A Dataset of People, Process and Product",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/75ed02717913c1bd147d196df2e77385dd109903",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2016
+}

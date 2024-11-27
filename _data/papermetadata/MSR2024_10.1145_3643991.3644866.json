@@ -1,0 +1,1036 @@
+{
+    "abstract": "Android app developers extensively employ code reuse, integrating many third-party libraries into their apps. While such integration is practical for developers, it can be challenging for static analyzers to achieve scalability and precision when libraries account for a large part of the code. As a direct consequence, it is common practice in the literature to consider developer code only during static analysis \u2013with the assumption that the sought issues are in developer code rather than the libraries. However, analysts need to distinguish between library and developer code. Currently, many static analyses rely on white lists of libraries. However, these white lists are unreliable, inaccurate, and largely non-comprehensive.In this paper, we propose a new approach to address the lack of comprehensive and automated solutions for the production of accurate and \"always up to date\" sets of libraries. First, we demonstrate the continued need for a white list of libraries. Second, we propose an automated approach to produce an accurate and up-to-date set of third-party libraries in the form of a dataset called AndroLibZoo. Our dataset, which we make available to the community, contains to date 34 813 libraries and is meant to evolve.",
+    "arxivId": "2307.12609",
+    "authors": [
+        {
+            "authorId": "1753394319",
+            "name": "Jordan Samhi",
+            "url": "https://www.semanticscholar.org/author/1753394319"
+        },
+        {
+            "authorId": "2092593204",
+            "name": "Marco Alecci",
+            "url": "https://www.semanticscholar.org/author/2092593204"
+        },
+        {
+            "authorId": "2199740497",
+            "name": "Tegawend'e F. Bissyand'e",
+            "url": "https://www.semanticscholar.org/author/2199740497"
+        },
+        {
+            "authorId": "2445617",
+            "name": "Jacques Klein",
+            "url": "https://www.semanticscholar.org/author/2445617"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2407.07804",
+            "authors": [
+                {
+                    "authorId": "1753394319",
+                    "name": "Jordan Samhi"
+                },
+                {
+                    "authorId": "2310610101",
+                    "name": "Ren'e Just"
+                },
+                {
+                    "authorId": "2282977242",
+                    "name": "Tegawend'e F. Bissyand'e"
+                },
+                {
+                    "authorId": "2310610294",
+                    "name": "Michael D. Ernst"
+                },
+                {
+                    "authorId": "2300287181",
+                    "name": "Jacques Klein"
+                }
+            ],
+            "doi": "10.48550/arXiv.2407.07804",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "088837b546d1303d90546101d83c7fbf8b95f777",
+            "title": "Call Graph Soundness in Android Static Analysis",
+            "url": "https://www.semanticscholar.org/paper/088837b546d1303d90546101d83c7fbf8b95f777",
+            "venue": "ISSTA",
+            "year": 2024
+        }
+    ],
+    "corpusId": 260125210,
+    "doi": "10.1145/3643991.3644866",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 1,
+    "numCiting": 30,
+    "paperId": "7be8f1418b5ecfb0ece928349198bcd48730f3bc",
+    "references": [
+        {
+            "arxivId": "2210.10997",
+            "authors": [
+                {
+                    "authorId": "2112561483",
+                    "name": "Xiaoyu Sun"
+                },
+                {
+                    "authorId": "2117025592",
+                    "name": "Xiao Chen"
+                },
+                {
+                    "authorId": "2156057406",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "39136735",
+                    "name": "Haipeng Cai"
+                },
+                {
+                    "authorId": "2095462233",
+                    "name": "John C. Grundy"
+                },
+                {
+                    "authorId": "1753394319",
+                    "name": "Jordan Samhi"
+                },
+                {
+                    "authorId": "2170164497",
+                    "name": "Tegawend'e F. Bissyand'e"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                }
+            ],
+            "doi": "10.1145/3574158",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "35cd046462e805d5f1c9e35156a28e5d612efe18",
+            "title": "Demystifying Hidden Sensitive Operations in Android Apps",
+            "url": "https://www.semanticscholar.org/paper/35cd046462e805d5f1c9e35156a28e5d612efe18",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2022
+        },
+        {
+            "arxivId": "2112.10470",
+            "authors": [
+                {
+                    "authorId": "1753394319",
+                    "name": "Jordan Samhi"
+                },
+                {
+                    "authorId": "2156057406",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "11128727",
+                    "name": "Tegawend'e F. Bissyand'e"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                }
+            ],
+            "doi": "10.1145/3510003.3510135",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4712a4ebfc9db0296bb775e4e282a2b8c4155453",
+            "title": "Difuzer: Uncovering Suspicious Hidden Sensitive Operations in Android Apps",
+            "url": "https://www.semanticscholar.org/paper/4712a4ebfc9db0296bb775e4e282a2b8c4155453",
+            "venue": "2022 IEEE/ACM 44th International Conference on Software Engineering (ICSE)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2108.03787",
+            "authors": [
+                {
+                    "authorId": "1486437441",
+                    "name": "Xian Zhan"
+                },
+                {
+                    "authorId": "1486296675",
+                    "name": "Tianming Liu"
+                },
+                {
+                    "authorId": "41075481",
+                    "name": "Lingling Fan"
+                },
+                {
+                    "authorId": "51421294",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "48847695",
+                    "name": "Sen Chen"
+                },
+                {
+                    "authorId": "1708419",
+                    "name": "Xiapu Luo"
+                },
+                {
+                    "authorId": "2152797936",
+                    "name": "Yang Liu"
+                }
+            ],
+            "doi": "10.1109/TSE.2021.3114381",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "33b372c36fc79c851976c59a555119f1879820cc",
+            "title": "Research on Third-Party Libraries in Android Apps: A Taxonomy and Systematic Literature Review",
+            "url": "https://www.semanticscholar.org/paper/33b372c36fc79c851976c59a555119f1879820cc",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": "2012.09916",
+            "authors": [
+                {
+                    "authorId": "1753394319",
+                    "name": "Jordan Samhi"
+                },
+                {
+                    "authorId": "2857320",
+                    "name": "Alexandre Bartel"
+                },
+                {
+                    "authorId": "11128727",
+                    "name": "Tegawend'e F. Bissyand'e"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                }
+            ],
+            "doi": "10.1109/ICSE43902.2021.00126",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5dee8edb8bd664dcaa264cb3a0843d4c579ae7e4",
+            "title": "RAICC: Revealing Atypical Inter-Component Communication in Android Apps",
+            "url": "https://www.semanticscholar.org/paper/5dee8edb8bd664dcaa264cb3a0843d4c579ae7e4",
+            "venue": "2021 IEEE/ACM 43rd International Conference on Software Engineering (ICSE)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1486437441",
+                    "name": "Xian Zhan"
+                },
+                {
+                    "authorId": "41075481",
+                    "name": "Lingling Fan"
+                },
+                {
+                    "authorId": "1486296675",
+                    "name": "Tianming Liu"
+                },
+                {
+                    "authorId": "48847695",
+                    "name": "Sen Chen"
+                },
+                {
+                    "authorId": "51421294",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "2109570965",
+                    "name": "Haoyu Wang"
+                },
+                {
+                    "authorId": "2110154637",
+                    "name": "Yifei Xu"
+                },
+                {
+                    "authorId": "1708419",
+                    "name": "Xiapu Luo"
+                },
+                {
+                    "authorId": "40013516",
+                    "name": "Yang Liu"
+                }
+            ],
+            "doi": "10.1145/3324884.3416582",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "8afddcba699efec0e945762ca8723566b226bd25",
+            "title": "Automated Third-Party Library Detection for Android Applications: Are We There Yet?",
+            "url": "https://www.semanticscholar.org/paper/8afddcba699efec0e945762ca8723566b226bd25",
+            "venue": "2020 35th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2156057406",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "118113165",
+                    "name": "Timoth\u00e9e Riom"
+                },
+                {
+                    "authorId": "3023999",
+                    "name": "T\u00e9gawend\u00e9 F. Bissyand\u00e9"
+                },
+                {
+                    "authorId": "2109570965",
+                    "name": "Haoyu Wang"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                },
+                {
+                    "authorId": "47681863",
+                    "name": "Y. L. Traon"
+                }
+            ],
+            "doi": "10.1016/J.JSS.2019.04.065",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7eb05fc1b42ad6797ed9701363a65d47fba1295e",
+            "title": "Revisiting the impact of common libraries for android-related investigations",
+            "url": "https://www.semanticscholar.org/paper/7eb05fc1b42ad6797ed9701363a65d47fba1295e",
+            "venue": "J. Syst. Softw.",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2300486345",
+                    "name": "Yan Wang"
+                },
+                {
+                    "authorId": "2119797194",
+                    "name": "Haowei Wu"
+                },
+                {
+                    "authorId": "1456075239",
+                    "name": "Hailong Zhang"
+                },
+                {
+                    "authorId": "1793925",
+                    "name": "A. Rountev"
+                }
+            ],
+            "doi": "10.1145/3197231.3197248",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f572d11fbc20587f76f0a7275c61108cb025a973",
+            "title": "Orlis: Obfuscation-Resilient Library Detection for Android",
+            "url": "https://www.semanticscholar.org/paper/f572d11fbc20587f76f0a7275c61108cb025a973",
+            "venue": "2018 IEEE/ACM 5th International Conference on Mobile Software Engineering and Systems (MOBILESoft)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": null,
+                    "name": "Yuan Zhang"
+                },
+                {
+                    "authorId": "40902227",
+                    "name": "Jiarun Dai"
+                },
+                {
+                    "authorId": "2108583363",
+                    "name": "Xiaohan Zhang"
+                },
+                {
+                    "authorId": "40898494",
+                    "name": "S. Huang"
+                },
+                {
+                    "authorId": "2133673",
+                    "name": "Zhemin Yang"
+                },
+                {
+                    "authorId": "2110950734",
+                    "name": "Min Yang"
+                },
+                {
+                    "authorId": "2149051139",
+                    "name": "Hao Chen"
+                }
+            ],
+            "doi": "10.1109/SANER.2018.8330204",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1d3ee39736299b9948b7d0264bac32ef4ef0c47e",
+            "title": "Detecting third-party libraries in Android applications with high precision and recall",
+            "url": "https://www.semanticscholar.org/paper/1d3ee39736299b9948b7d0264bac32ef4ef0c47e",
+            "venue": "2018 IEEE 25th International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2156057406",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "3023999",
+                    "name": "T\u00e9gawend\u00e9 F. Bissyand\u00e9"
+                },
+                {
+                    "authorId": "37766916",
+                    "name": "Mike Papadakis"
+                },
+                {
+                    "authorId": "2864202",
+                    "name": "Siegfried Rasthofer"
+                },
+                {
+                    "authorId": "2857320",
+                    "name": "Alexandre Bartel"
+                },
+                {
+                    "authorId": "1793187",
+                    "name": "Damien Octeau"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                },
+                {
+                    "authorId": "47681863",
+                    "name": "Y. L. Traon"
+                }
+            ],
+            "doi": "10.1016/J.INFSOF.2017.04.001",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "116e047cb9076bfd95139c00680f1114f4f5fa15",
+            "title": "Static analysis of android apps: A systematic literature review",
+            "url": "https://www.semanticscholar.org/paper/116e047cb9076bfd95139c00680f1114f4f5fa15",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144588806",
+                    "name": "M. Backes"
+                },
+                {
+                    "authorId": "2214494",
+                    "name": "Sven Bugiel"
+                },
+                {
+                    "authorId": "3409894",
+                    "name": "Erik Derr"
+                }
+            ],
+            "doi": "10.1145/2976749.2978333",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ea4f8cd1495903cc262d255db8bbd697180e194b",
+            "title": "Reliable Third-Party Library Detection in Android and its Security Applications",
+            "url": "https://www.semanticscholar.org/paper/ea4f8cd1495903cc262d255db8bbd697180e194b",
+            "venue": "CCS",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2416629",
+                    "name": "Y. Fratantonio"
+                },
+                {
+                    "authorId": "145978812",
+                    "name": "Antonio Bianchi"
+                },
+                {
+                    "authorId": "145368442",
+                    "name": "William K. Robertson"
+                },
+                {
+                    "authorId": "1707794",
+                    "name": "E. Kirda"
+                },
+                {
+                    "authorId": "1715189",
+                    "name": "Christopher Kr\u00fcgel"
+                },
+                {
+                    "authorId": "1711242",
+                    "name": "Giovanni Vigna"
+                }
+            ],
+            "doi": "10.1109/SP.2016.30",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a6a93704f29d8d3487b4b45f1bcca44a95b6505e",
+            "title": "TriggerScope: Towards Detecting Logic Bombs in Android Applications",
+            "url": "https://www.semanticscholar.org/paper/a6a93704f29d8d3487b4b45f1bcca44a95b6505e",
+            "venue": "2016 IEEE Symposium on Security and Privacy (SP)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1790388",
+                    "name": "Kevin Allix"
+                },
+                {
+                    "authorId": "3023999",
+                    "name": "T\u00e9gawend\u00e9 F. Bissyand\u00e9"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                },
+                {
+                    "authorId": "47681863",
+                    "name": "Y. L. Traon"
+                }
+            ],
+            "doi": "10.1145/2901739.2903508",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "128add3f0e727b73b3df0ca13b4e818d543bdd98",
+            "title": "AndroZoo: Collecting Millions of Android Apps for the Research Community",
+            "url": "https://www.semanticscholar.org/paper/128add3f0e727b73b3df0ca13b4e818d543bdd98",
+            "venue": "2016 IEEE/ACM 13th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2696142",
+                    "name": "Ziang Ma"
+                },
+                {
+                    "authorId": "2109570965",
+                    "name": "Haoyu Wang"
+                },
+                {
+                    "authorId": "145508275",
+                    "name": "Yao Guo"
+                },
+                {
+                    "authorId": "2143733795",
+                    "name": "Xiangqun Chen"
+                }
+            ],
+            "doi": "10.1145/2889160.2889178",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4e145225ce8918b36b311c08571e3839214b0604",
+            "title": "LibRadar: Fast and Accurate Detection of Third-Party Libraries in Android Apps",
+            "url": "https://www.semanticscholar.org/paper/4e145225ce8918b36b311c08571e3839214b0604",
+            "venue": "2016 IEEE/ACM 38th International Conference on Software Engineering Companion (ICSE-C)",
+            "year": 2016
+        },
+        {
+            "arxivId": "1511.06554",
+            "authors": [
+                {
+                    "authorId": "2156057406",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "3023999",
+                    "name": "T\u00e9gawend\u00e9 F. Bissyand\u00e9"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                },
+                {
+                    "authorId": "47681863",
+                    "name": "Y. L. Traon"
+                }
+            ],
+            "doi": "10.1109/SANER.2016.52",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c58f4037474c35f4c4624dfc55630a2325e1e9df",
+            "title": "An Investigation into the Use of Common Libraries in Android Apps",
+            "url": "https://www.semanticscholar.org/paper/c58f4037474c35f4c4624dfc55630a2325e1e9df",
+            "venue": "2016 IEEE 23rd International Conference on Software Analysis, Evolution, and Reengineering (SANER)",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2156057406",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "2857320",
+                    "name": "Alexandre Bartel"
+                },
+                {
+                    "authorId": "3023999",
+                    "name": "T\u00e9gawend\u00e9 F. Bissyand\u00e9"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                },
+                {
+                    "authorId": "47681863",
+                    "name": "Y. L. Traon"
+                },
+                {
+                    "authorId": "2524362",
+                    "name": "Steven Arzt"
+                },
+                {
+                    "authorId": "2864202",
+                    "name": "Siegfried Rasthofer"
+                },
+                {
+                    "authorId": "1752222",
+                    "name": "E. Bodden"
+                },
+                {
+                    "authorId": "1793187",
+                    "name": "Damien Octeau"
+                },
+                {
+                    "authorId": "144061974",
+                    "name": "P. Mcdaniel"
+                }
+            ],
+            "doi": "10.1109/ICSE.2015.48",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d78411dd0113c6a3023815353ef58442abf1fd78",
+            "title": "IccTA: Detecting Inter-Component Privacy Leaks in Android Apps",
+            "url": "https://www.semanticscholar.org/paper/d78411dd0113c6a3023815353ef58442abf1fd78",
+            "venue": "2015 IEEE/ACM 37th IEEE International Conference on Software Engineering",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2447686",
+                    "name": "Vitalii Avdiienko"
+                },
+                {
+                    "authorId": "143927203",
+                    "name": "Konstantin Kuznetsov"
+                },
+                {
+                    "authorId": "2762411",
+                    "name": "Alessandra Gorla"
+                },
+                {
+                    "authorId": "145594351",
+                    "name": "A. Zeller"
+                },
+                {
+                    "authorId": "2524362",
+                    "name": "Steven Arzt"
+                },
+                {
+                    "authorId": "2864202",
+                    "name": "Siegfried Rasthofer"
+                },
+                {
+                    "authorId": "1752222",
+                    "name": "E. Bodden"
+                }
+            ],
+            "doi": "10.1109/ICSE.2015.61",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e953e42fca52e3d15fab3ffd423a64177a9dddac",
+            "title": "Mining Apps for Abnormal Usage of Sensitive Data",
+            "url": "https://www.semanticscholar.org/paper/e953e42fca52e3d15fab3ffd423a64177a9dddac",
+            "venue": "2015 IEEE/ACM 37th IEEE International Conference on Software Engineering",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3305506",
+                    "name": "Fengguo Wei"
+                },
+                {
+                    "authorId": "40400362",
+                    "name": "Sankardas Roy"
+                },
+                {
+                    "authorId": "1932524",
+                    "name": "Xinming Ou"
+                },
+                {
+                    "authorId": "1929466",
+                    "name": "Robby"
+                }
+            ],
+            "doi": "10.1145/2660267.2660357",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "533dae27450f6978f21ecd4fce57e3f0c7ca07d8",
+            "title": "Amandroid: A Precise and General Inter-component Data Flow Analysis Framework for Security Vetting of Android Apps",
+            "url": "https://www.semanticscholar.org/paper/533dae27450f6978f21ecd4fce57e3f0c7ca07d8",
+            "venue": "CCS",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2524362",
+                    "name": "Steven Arzt"
+                },
+                {
+                    "authorId": "2864202",
+                    "name": "Siegfried Rasthofer"
+                },
+                {
+                    "authorId": "48279085",
+                    "name": "Christian G Fritz"
+                },
+                {
+                    "authorId": "1752222",
+                    "name": "E. Bodden"
+                },
+                {
+                    "authorId": "2857320",
+                    "name": "Alexandre Bartel"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                },
+                {
+                    "authorId": "47681863",
+                    "name": "Y. L. Traon"
+                },
+                {
+                    "authorId": "1793187",
+                    "name": "Damien Octeau"
+                },
+                {
+                    "authorId": "144061974",
+                    "name": "P. Mcdaniel"
+                }
+            ],
+            "doi": "10.1145/2594291.2594299",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b585c2e102f20a71f1588440470186c49a532dfd",
+            "title": "FlowDroid: precise context, flow, field, object-sensitive and lifecycle-aware taint analysis for Android apps",
+            "url": "https://www.semanticscholar.org/paper/b585c2e102f20a71f1588440470186c49a532dfd",
+            "venue": "PLDI",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34526205",
+                    "name": "Kai Chen"
+                },
+                {
+                    "authorId": "145779142",
+                    "name": "Peng Liu"
+                },
+                {
+                    "authorId": "2108307643",
+                    "name": "Yingjun Zhang"
+                }
+            ],
+            "doi": "10.1145/2568225.2568286",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d479afec8c7ede2797b4b65458d26e02914f6785",
+            "title": "Achieving accuracy and scalability simultaneously in detecting application clones on Android markets",
+            "url": "https://www.semanticscholar.org/paper/d479afec8c7ede2797b4b65458d26e02914f6785",
+            "venue": "ICSE",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3216258",
+                    "name": "Yousra Aafer"
+                },
+                {
+                    "authorId": "3656182",
+                    "name": "Wenliang Du"
+                },
+                {
+                    "authorId": "145503585",
+                    "name": "Heng Yin"
+                }
+            ],
+            "doi": "10.1007/978-3-319-04283-1_6",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2831d26ee3cdd40791c534af2647c588e659dff0",
+            "title": "DroidAPIMiner: Mining API-Level Features for Robust Malware Detection in Android",
+            "url": "https://www.semanticscholar.org/paper/2831d26ee3cdd40791c534af2647c588e659dff0",
+            "venue": "SecureComm",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34548699",
+                    "name": "Michael C. Grace"
+                },
+                {
+                    "authorId": "2115341253",
+                    "name": "Wu Zhou"
+                },
+                {
+                    "authorId": "1740888",
+                    "name": "Xuxian Jiang"
+                },
+                {
+                    "authorId": "145897166",
+                    "name": "A. Sadeghi"
+                }
+            ],
+            "doi": "10.1145/2185448.2185464",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "446b1664275bb9a5d28d07970c1971f1719ff7e3",
+            "title": "Unsafe exposure analysis of mobile in-app advertisements",
+            "url": "https://www.semanticscholar.org/paper/446b1664275bb9a5d28d07970c1971f1719ff7e3",
+            "venue": "WISEC '12",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "JFrog",
+            "url": "",
+            "venue": ". Jcenter",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2149841255",
+                    "name": "Younghoon Ban"
+                },
+                {
+                    "authorId": "83320383",
+                    "name": "Sunjun Lee"
+                },
+                {
+                    "authorId": "30059659",
+                    "name": "Dokyung Song"
+                },
+                {
+                    "authorId": "2431295",
+                    "name": "Haehyun Cho"
+                },
+                {
+                    "authorId": "1689648",
+                    "name": "J. Yi"
+                }
+            ],
+            "doi": "10.1109/ACCESS.2022.3151357",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "922e53fdd3b79a75bcea0434650f0aa9c2def225",
+            "title": "FAM: Featuring Android Malware for Deep Learning-Based Familial Analysis",
+            "url": "https://www.semanticscholar.org/paper/922e53fdd3b79a75bcea0434650f0aa9c2def225",
+            "venue": "IEEE Access",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Google maven repositoryhttps",
+            "url": "",
+            "venue": "://docs.gradle.org/current/userguide/ declaring_repositories.html#sub:maven_google, 2022",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": null,
+                    "name": "Andrzej Bialecki"
+                },
+                {
+                    "authorId": "69562841",
+                    "name": "R. Muir"
+                },
+                {
+                    "authorId": "49667583",
+                    "name": "Grant Ingersoll"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2795d9d165607b5ad6d8b9718373b82e55f41606",
+            "title": "Apache Lucene 4",
+            "url": "https://www.semanticscholar.org/paper/2795d9d165607b5ad6d8b9718373b82e55f41606",
+            "venue": "OSIR@SIGIR",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Auto-matically Identifying Trigger-based Behavior",
+            "url": "",
+            "venue": "Malware",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Jucify:Asteptowardsandroidcodeunificationforenhanced staticanalysis",
+            "url": "",
+            "venue": "2022 IEEE/ACM 44th International Conference on Software Engineering (ICSE) (Los Alamitos, CA, USA, May 2022)",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "MSR \u201924, April 15\u201316, 2024,",
+            "url": "",
+            "venue": "Lisbon",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Flowdroid\u2019s systemclasshandler class",
+            "url": "",
+            "venue": ":/",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "license agreement with IEEE. Restrictions apply",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "AndroLibZoo: A Reliable Dataset of Libraries Based on Software Dependency Analysis",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/7be8f1418b5ecfb0ece928349198bcd48730f3bc",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2023
+}

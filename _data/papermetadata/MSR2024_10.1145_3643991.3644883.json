@@ -1,0 +1,482 @@
+{
+    "abstract": "The prevalent use of third-party components in modern software development, rapid modernization, and digitization have significantly amplified the risk of software supply chain attacks. Popular large registries like npm and PyPI are highly targeted malware distribution channels for attackers due to heavy growth and dependence on third-party components. Industry and academia are working towards building tools to detect malware in the software supply chain. However, a lack of benchmark datasets containing both malicious and neutral packages hampers the evaluation of the performance of these malware detection tools. The goal of our study is to aid researchers and tool developers in evaluating and improving malware detection tools by contributing a benchmark dataset built by systematically collecting malicious and neutral packages from the npm and PyPI ecosystems. We present MalwareBench, a labeled dataset of 20,792 packages (of which 6,659 are malicious) from the npm and PyPI ecosystems. We constructed the benchmark dataset by incorporating pre-existing malware datasets with the Socket internal benchmark data and including popular and newly released npm and PyPI packages. The ground truth labels of these neutral packages were determined using the Socket AI Scanner and manual inspection.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "92248810",
+            "name": "Nusrat Zahan",
+            "url": "https://www.semanticscholar.org/author/92248810"
+        },
+        {
+            "authorId": "2292197937",
+            "name": "Philipp Burckhardt",
+            "url": "https://www.semanticscholar.org/author/2292197937"
+        },
+        {
+            "authorId": "2292194581",
+            "name": "Mikola Lysenko",
+            "url": "https://www.semanticscholar.org/author/2292194581"
+        },
+        {
+            "authorId": "2228986053",
+            "name": "Feross Aboukhadijeh",
+            "url": "https://www.semanticscholar.org/author/2228986053"
+        },
+        {
+            "authorId": "2292673371",
+            "name": "Laurie Williams",
+            "url": "https://www.semanticscholar.org/author/2292673371"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "92248810",
+                    "name": "Nusrat Zahan"
+                },
+                {
+                    "authorId": "2292197937",
+                    "name": "Philipp Burckhardt"
+                },
+                {
+                    "authorId": "2292194581",
+                    "name": "Mikola Lysenko"
+                },
+                {
+                    "authorId": "2228986053",
+                    "name": "Feross Aboukhadijeh"
+                },
+                {
+                    "authorId": "2292673371",
+                    "name": "Laurie Williams"
+                }
+            ],
+            "doi": "10.48550/arXiv.2403.12196",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "daba806bd8490d1ccfffcf4765700dc137a3c391",
+            "title": "Shifting the Lens: Detecting Malware in npm Ecosystem with Large Language Models",
+            "url": "https://www.semanticscholar.org/paper/daba806bd8490d1ccfffcf4765700dc137a3c391",
+            "venue": "ArXiv",
+            "year": 2024
+        }
+    ],
+    "corpusId": 270592954,
+    "doi": "10.1145/3643991.3644883",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 1,
+    "numCiting": 18,
+    "paperId": "f8b5395fe0c9106ee48589957ba2588e98c97789",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2268114678",
+                    "name": "Fabian Niklas Froh"
+                },
+                {
+                    "authorId": "2267734862",
+                    "name": "M. F. Gobbi"
+                },
+                {
+                    "authorId": "2267733530",
+                    "name": "Johannes Kinder"
+                }
+            ],
+            "doi": "10.1145/3605770.3625211",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0f6f1323062ad24c24a8f7ce1661ceab1b99b345",
+            "title": "Differential Static Analysis for Detecting Malicious Updates to Open Source Packages",
+            "url": "https://www.semanticscholar.org/paper/0f6f1323062ad24c24a8f7ce1661ceab1b99b345",
+            "venue": "SCORED@CCS",
+            "year": 2023
+        },
+        {
+            "arxivId": "2310.09571",
+            "authors": [
+                {
+                    "authorId": "2161967507",
+                    "name": "Piergiorgio Ladisa"
+                },
+                {
+                    "authorId": "2005211",
+                    "name": "Serena Elisa Ponta"
+                },
+                {
+                    "authorId": "2258716292",
+                    "name": "Nicola Ronzoni"
+                },
+                {
+                    "authorId": "2214087158",
+                    "name": "Matias Martinez"
+                },
+                {
+                    "authorId": "2454048",
+                    "name": "Olivier Barais"
+                }
+            ],
+            "doi": "10.1145/3627106.3627138",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "af38453ef5542530ab5b5b1e36aa29046e5a5906",
+            "title": "On the Feasibility of Cross-Language Detection of Malicious Packages in npm and PyPI",
+            "url": "https://www.semanticscholar.org/paper/af38453ef5542530ab5b5b1e36aa29046e5a5906",
+            "venue": "ACSAC",
+            "year": 2023
+        },
+        {
+            "arxivId": "2309.11021",
+            "authors": [
+                {
+                    "authorId": "3138660",
+                    "name": "Wenbo Guo"
+                },
+                {
+                    "authorId": "3430657",
+                    "name": "Zhengzi Xu"
+                },
+                {
+                    "authorId": "2158155335",
+                    "name": "Chengwei Liu"
+                },
+                {
+                    "authorId": "2242985209",
+                    "name": "Cheng Huang"
+                },
+                {
+                    "authorId": "2266707379",
+                    "name": "Yong Fang"
+                },
+                {
+                    "authorId": "40457423",
+                    "name": "Yang Liu"
+                }
+            ],
+            "doi": "10.1109/ASE56229.2023.00135",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "fa19205d574e9e7b676a62aa8ab9b4a98d988b6b",
+            "title": "An Empirical Study of Malicious Code In PyPI Ecosystem",
+            "url": "https://www.semanticscholar.org/paper/fa19205d574e9e7b676a62aa8ab9b4a98d988b6b",
+            "venue": "2023 38th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2209.13288",
+            "authors": [
+                {
+                    "authorId": "146562819",
+                    "name": "Duc-Ly Vu"
+                },
+                {
+                    "authorId": "2071586622",
+                    "name": "Zachary Newman"
+                },
+                {
+                    "authorId": "34739010",
+                    "name": "J. Meyers"
+                }
+            ],
+            "doi": "10.1109/ICSE48619.2023.00052",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "bbcbfad3a514de8dc83275cccbfd41bf7d6b93a0",
+            "title": "Bad Snakes: Understanding and Improving Python Package Index Malware Scanning",
+            "url": "https://www.semanticscholar.org/paper/bbcbfad3a514de8dc83275cccbfd41bf7d6b93a0",
+            "venue": "2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2112.10165",
+            "authors": [
+                {
+                    "authorId": "92248810",
+                    "name": "Nusrat Zahan"
+                },
+                {
+                    "authorId": "144426849",
+                    "name": "L. Williams"
+                },
+                {
+                    "authorId": "143609903",
+                    "name": "Thomas Zimmermann"
+                },
+                {
+                    "authorId": "1707506",
+                    "name": "Patrice Godefroid"
+                },
+                {
+                    "authorId": "49358427",
+                    "name": "Brendan Murphy"
+                },
+                {
+                    "authorId": "22192720",
+                    "name": "C. Maddila"
+                }
+            ],
+            "doi": "10.1145/3510457.3513044",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2559d57aa03f4e8da2a1d8dfb06f56d1399a83a9",
+            "title": "What are Weak Links in the npm Supply Chain?",
+            "url": "https://www.semanticscholar.org/paper/2559d57aa03f4e8da2a1d8dfb06f56d1399a83a9",
+            "venue": "2022 IEEE/ACM 44th International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3194663",
+                    "name": "Ruian Duan"
+                },
+                {
+                    "authorId": "145782417",
+                    "name": "Omar Alrawi"
+                },
+                {
+                    "authorId": "152944596",
+                    "name": "R. Kasturi"
+                },
+                {
+                    "authorId": "2055737097",
+                    "name": "R. Elder"
+                },
+                {
+                    "authorId": "2617324",
+                    "name": "Brendan Saltaformaggio"
+                },
+                {
+                    "authorId": "1738428",
+                    "name": "Wenke Lee"
+                }
+            ],
+            "doi": "10.14722/NDSS.2021.23055",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "ba4b081b71f0b876495573790a261ba3c1971091",
+            "title": "Towards Measuring Supply Chain Attacks on Package Managers for Interpreted Languages",
+            "url": "https://www.semanticscholar.org/paper/ba4b081b71f0b876495573790a261ba3c1971091",
+            "venue": "NDSS",
+            "year": 2020
+        },
+        {
+            "arxivId": "2005.09535",
+            "authors": [
+                {
+                    "authorId": "51178698",
+                    "name": "Marc Ohm"
+                },
+                {
+                    "authorId": "3283588",
+                    "name": "H. Plate"
+                },
+                {
+                    "authorId": "51127456",
+                    "name": "Arnold Sykosch"
+                },
+                {
+                    "authorId": "145504199",
+                    "name": "M. Meier"
+                }
+            ],
+            "doi": "10.1007/978-3-030-52683-2_2",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "4c7183fb2109271405e4a0fe23b5e827520a9f68",
+            "title": "Backstabber\u2019s Knife Collection: A Review of Open Source Software Supply Chain Attacks",
+            "url": "https://www.semanticscholar.org/paper/4c7183fb2109271405e4a0fe23b5e827520a9f68",
+            "venue": "DIMVA",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2022. Protestware on the rise: Why developers are sabotaging their own code",
+            "url": "",
+            "venue": "techcrunch",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2023. Introducing Socket AI \u2013 ChatGPT-Powered Threat Analysis",
+            "url": "",
+            "venue": "/",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": "10.1007/978-3-030-58292-0_190806",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7f751609048e1983265a332db2c566def0a04e66",
+            "title": "Socket",
+            "url": "https://www.semanticscholar.org/paper/7f751609048e1983265a332db2c566def0a04e66",
+            "venue": "Encyclopedic Dictionary of Archaeology",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2022. 7TopTrendsinCybersecurityfor2022",
+            "url": "",
+            "venue": "2,2023fromhttps",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "DataDog",
+            "url": "",
+            "venue": "malicious-software-packages-dataset",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2023.HowSocketCombatsInsidiousTyposquattingSupplyChainAttacks",
+            "url": "",
+            "venue": "/",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2023. SmoothOperatorSupplyChainAttackTargeting3CXVOIPDesk-top Client",
+            "url": "",
+            "venue": "socradar.io/smoothoperator-supply-chain-attack-targeting-3cx-voip-desktop-client/",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Lxyeternal Blue",
+            "url": "",
+            "venue": "PyPI Malregistry",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "NIST Special Publication 800-12, Revision 1",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Restrictions apply",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2023. NPM ecosystem at risk from \u201cManifest Confusion\u201d attacks",
+            "url": "",
+            "venue": "www",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "MalwareBench: Malware samples are not enough",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/f8b5395fe0c9106ee48589957ba2588e98c97789",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2024
+}

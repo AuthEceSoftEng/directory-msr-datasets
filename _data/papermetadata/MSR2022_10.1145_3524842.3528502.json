@@ -1,0 +1,753 @@
+{
+    "abstract": "System call traces are an invaluable source of information about a program's runtime behavior and be particularly useful for malware detection in Android apps. However, the paucity of publicly available high-quality datasets hinders the development of the field. In this paper, we introduce TwinDroid, a dataset of over 1000 system calls traces, from both benign and infected Android apps. A large part of the apps used to create the dataset is from benign-malicious app pairs, identical apart from the inclusion of malware in the latter. This makes TwinDroid an ideal basis for security research, and an earlier version of TwinDroid has already been used for this purpose. In addition to a dataset of traces, TwinDroid includes a fully automated traces generation pipeline, which allows users to generate new traces in a standardized manner seamlessly. This pipeline will enable the dataset to remain up-to-date and relevant despite the rapid pace of change that characterizes Android security.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2172233891",
+            "name": "Asma Razagallah",
+            "url": "https://www.semanticscholar.org/author/2172233891"
+        },
+        {
+            "authorId": "51879462",
+            "name": "R. Khoury",
+            "url": "https://www.semanticscholar.org/author/51879462"
+        },
+        {
+            "authorId": "50500935",
+            "name": "Jean-Baptiste Poulet",
+            "url": "https://www.semanticscholar.org/author/50500935"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145182849",
+                    "name": "Teenu S. John"
+                },
+                {
+                    "authorId": "1476818813",
+                    "name": "Tony Thomas"
+                },
+                {
+                    "authorId": "145406385",
+                    "name": "S. Emmanuel"
+                }
+            ],
+            "doi": "10.1016/j.jisa.2024.103880",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "095a2cc7167a4d339b65eb78776f3b0a86285738",
+            "title": "Detection of Evasive Android Malware Using EigenGCN",
+            "url": "https://www.semanticscholar.org/paper/095a2cc7167a4d339b65eb78776f3b0a86285738",
+            "venue": "Journal of Information Security and Applications",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "121454434",
+                    "name": "Guoyun Duan"
+                },
+                {
+                    "authorId": "2308790714",
+                    "name": "Haopeng Liu"
+                },
+                {
+                    "authorId": "2308759500",
+                    "name": "Minjie Cai"
+                },
+                {
+                    "authorId": "2276365929",
+                    "name": "Jian-Fang Sun"
+                },
+                {
+                    "authorId": "2149052491",
+                    "name": "Hao Chen"
+                }
+            ],
+            "doi": "10.1016/j.cose.2024.103969",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c00c99a17a0803609861a580f54b37c00ecfcd94",
+            "title": "MaDroid: A maliciousness-aware multifeatured dataset for detecting android malware",
+            "url": "https://www.semanticscholar.org/paper/c00c99a17a0803609861a580f54b37c00ecfcd94",
+            "venue": "Comput. Secur.",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2051205922",
+                    "name": "Asma Razgallah"
+                },
+                {
+                    "authorId": "2281980177",
+                    "name": "Rapha\u00ebl Khoury"
+                },
+                {
+                    "authorId": "1840110",
+                    "name": "Kobra Khanmohammadi"
+                },
+                {
+                    "authorId": "2129408801",
+                    "name": "Christophe Pere"
+                }
+            ],
+            "doi": "10.1109/SMC53992.2023.10394198",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3688ddcd9b7c6cce3bd571dae2239072432b2bf7",
+            "title": "Comparing the Effectiveness of Static, Dynamic and Hybrid Malware Detection on a Common Dataset",
+            "url": "https://www.semanticscholar.org/paper/3688ddcd9b7c6cce3bd571dae2239072432b2bf7",
+            "venue": "2023 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2289384984",
+                    "name": "Arunab Singh"
+                },
+                {
+                    "authorId": "2289405484",
+                    "name": "Maryam Tanha"
+                },
+                {
+                    "authorId": "2289406974",
+                    "name": "Yashsvi Girdhar"
+                },
+                {
+                    "authorId": "2289410022",
+                    "name": "Aaron Hunter"
+                }
+            ],
+            "doi": "10.5220/0012415800003648",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b064834379800e231b839279a67ce9f5ad3ac270",
+            "title": "Interpretable Android Malware Detection Based on Dynamic Analysis",
+            "url": "https://www.semanticscholar.org/paper/b064834379800e231b839279a67ce9f5ad3ac270",
+            "venue": "ICISSP",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1580669658",
+                    "name": "Gouayon Koala"
+                },
+                {
+                    "authorId": "3492831",
+                    "name": "Didier Bassol\u00e9"
+                },
+                {
+                    "authorId": "2111964",
+                    "name": "T\u00e9lesphore Tiendr\u00e9b\u00e9ogo"
+                },
+                {
+                    "authorId": "7763701",
+                    "name": "Oumarou Si\u00e9"
+                }
+            ],
+            "doi": "10.14569/ijacsa.2023.01406136",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "efb2fb7fa9492ab27e322f86d861afb99ace08a1",
+            "title": "Software Vulnerabilities\u2019 Detection by Analysing Application Execution Traces",
+            "url": "https://www.semanticscholar.org/paper/efb2fb7fa9492ab27e322f86d861afb99ace08a1",
+            "venue": "International Journal of Advanced Computer Science and Applications",
+            "year": 2023
+        }
+    ],
+    "corpusId": 249929841,
+    "doi": "10.1145/3524842.3528502",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 5,
+    "numCiting": 19,
+    "paperId": "b0e02f5f8f0862ba8ba35d189a179f21eb0f9f48",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2051205922",
+                    "name": "Asma Razgallah"
+                },
+                {
+                    "authorId": "51879462",
+                    "name": "R. Khoury"
+                }
+            ],
+            "doi": "10.1109/APSEC53868.2021.00012",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "88693f0c95e50896cb7af055543e7a1f286ef39a",
+            "title": "Behavioral classification of Android applications using system calls",
+            "url": "https://www.semanticscholar.org/paper/88693f0c95e50896cb7af055543e7a1f286ef39a",
+            "venue": "2021 28th Asia-Pacific Software Engineering Conference (APSEC)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1405597198",
+                    "name": "Naser Ezzati-Jivan"
+                },
+                {
+                    "authorId": "28063014",
+                    "name": "Houssem Daoud"
+                },
+                {
+                    "authorId": "145360463",
+                    "name": "M. Dagenais"
+                }
+            ],
+            "doi": "10.1155/2021/8478076",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3cbde0c2f797166302ca8719392d7b861f874cd7",
+            "title": "Debugging of Performance Degradation in Distributed Requests Handling Using Multilevel Trace Analysis",
+            "url": "https://www.semanticscholar.org/paper/3cbde0c2f797166302ca8719392d7b861f874cd7",
+            "venue": "Wireless Communications and Mobile Computing",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6769473",
+                    "name": "Fenghao Xu"
+                },
+                {
+                    "authorId": "2152107297",
+                    "name": "Siyu Shen"
+                },
+                {
+                    "authorId": "2147784",
+                    "name": "Wenrui Diao"
+                },
+                {
+                    "authorId": "121544553",
+                    "name": "Zhou Li"
+                },
+                {
+                    "authorId": "2141586964",
+                    "name": "Yi Chen"
+                },
+                {
+                    "authorId": "2150926214",
+                    "name": "Rui Li"
+                },
+                {
+                    "authorId": "3297454",
+                    "name": "Kehuan Zhang"
+                }
+            ],
+            "doi": "10.1145/3460120.3484774",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9f993705716a104c659869153e1c99e879636549",
+            "title": "Android on PC: On the Security of End-user Android Emulators",
+            "url": "https://www.semanticscholar.org/paper/9f993705716a104c659869153e1c99e879636549",
+            "venue": "CCS",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1831379",
+                    "name": "R. Karn"
+                },
+                {
+                    "authorId": "145822807",
+                    "name": "P. Kudva"
+                },
+                {
+                    "authorId": "2146284642",
+                    "name": "Hai Huang"
+                },
+                {
+                    "authorId": "40005837",
+                    "name": "Sahil Suneja"
+                },
+                {
+                    "authorId": "144961113",
+                    "name": "I. Elfadel"
+                }
+            ],
+            "doi": "10.1109/TPDS.2020.3029088",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2274681395e2f6699079131c3247d7e6a03ef5d3",
+            "title": "Cryptomining Detection in Container Clouds Using System Calls and Explainable Machine Learning",
+            "url": "https://www.semanticscholar.org/paper/2274681395e2f6699079131c3247d7e6a03ef5d3",
+            "venue": "IEEE Transactions on Parallel and Distributed Systems",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2118503704",
+                    "name": "Lihong Han"
+                },
+                {
+                    "authorId": "1782395",
+                    "name": "Qingguo Zhou"
+                },
+                {
+                    "authorId": "40322188",
+                    "name": "Juheng Zhang"
+                },
+                {
+                    "authorId": "47008724",
+                    "name": "Xuhui Yang"
+                },
+                {
+                    "authorId": "145976291",
+                    "name": "R. Zhou"
+                },
+                {
+                    "authorId": "2115854836",
+                    "name": "Jianxin Tang"
+                }
+            ],
+            "doi": "10.1142/s0129183120501260",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "799a8d57cb70633fc75ea2d2baa920f8ce35e0d0",
+            "title": "Polymorphism and consistency: Complex network based on execution trace of system calls in Linux kernels",
+            "url": "https://www.semanticscholar.org/paper/799a8d57cb70633fc75ea2d2baa920f8ce35e0d0",
+            "venue": "",
+            "year": 2020
+        },
+        {
+            "arxivId": "1907.13039",
+            "authors": [
+                {
+                    "authorId": "96647860",
+                    "name": "J. Simonsson"
+                },
+                {
+                    "authorId": "2145189428",
+                    "name": "Long Zhang"
+                },
+                {
+                    "authorId": "1771452",
+                    "name": "Brice Morin"
+                },
+                {
+                    "authorId": "1730420",
+                    "name": "B. Baudry"
+                },
+                {
+                    "authorId": "150220964",
+                    "name": "Monperrus Martin"
+                }
+            ],
+            "doi": "10.1016/J.FUTURE.2021.04.001",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3196146dd76f7a32a074ef57efb51331533e96df",
+            "title": "Observability and Chaos Engineering on System Calls for Containerized Applications in Docker",
+            "url": "https://www.semanticscholar.org/paper/3196146dd76f7a32a074ef57efb51331533e96df",
+            "venue": "Future Gener. Comput. Syst.",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2475464",
+                    "name": "Zhenzhou Tian"
+                },
+                {
+                    "authorId": "144003898",
+                    "name": "Ting Liu"
+                },
+                {
+                    "authorId": "50320297",
+                    "name": "Q. Zheng"
+                },
+                {
+                    "authorId": "153441905",
+                    "name": "Ming Fan"
+                },
+                {
+                    "authorId": "2352285",
+                    "name": "Eryue Zhuang"
+                },
+                {
+                    "authorId": "1752757",
+                    "name": "Z. Yang"
+                }
+            ],
+            "doi": "10.1016/j.jss.2016.06.014",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "175d9ebac2f927fb7dfe2afe1befe6792a3f562d",
+            "title": "Exploiting thread-related system calls for plagiarism detection of multithreaded programs",
+            "url": "https://www.semanticscholar.org/paper/175d9ebac2f927fb7dfe2afe1befe6792a3f562d",
+            "venue": "J. Syst. Softw.",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3160067",
+                    "name": "Mengyu Qiao"
+                },
+                {
+                    "authorId": "1742050",
+                    "name": "A. Sung"
+                },
+                {
+                    "authorId": "1945248",
+                    "name": "Qingzhong Liu"
+                }
+            ],
+            "doi": "10.1109/IIAI-AAI.2016.237",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b904c0278ca72f485e9e32b94eb84ef107025a34",
+            "title": "Merging Permission and API Features for Android Malware Detection",
+            "url": "https://www.semanticscholar.org/paper/b904c0278ca72f485e9e32b94eb84ef107025a34",
+            "venue": "2016 5th IIAI International Congress on Advanced Applied Informatics (IIAI-AAI)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1790388",
+                    "name": "Kevin Allix"
+                },
+                {
+                    "authorId": "3023999",
+                    "name": "T\u00e9gawend\u00e9 F. Bissyand\u00e9"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                },
+                {
+                    "authorId": "47681863",
+                    "name": "Y. L. Traon"
+                }
+            ],
+            "doi": "10.1145/2901739.2903508",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "128add3f0e727b73b3df0ca13b4e818d543bdd98",
+            "title": "AndroZoo: Collecting Millions of Android Apps for the Research Community",
+            "url": "https://www.semanticscholar.org/paper/128add3f0e727b73b3df0ca13b4e818d543bdd98",
+            "venue": "2016 IEEE/ACM 13th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2755024",
+                    "name": "Karan Aggarwal"
+                },
+                {
+                    "authorId": "50445644",
+                    "name": "Chenlei Zhang"
+                },
+                {
+                    "authorId": "12323854",
+                    "name": "Hazel Victoria Campbell"
+                },
+                {
+                    "authorId": "145369636",
+                    "name": "Abram Hindle"
+                },
+                {
+                    "authorId": "1719731",
+                    "name": "Eleni Stroulia"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b0e36896bb41e2e54223bfc52e0768e058571422",
+            "title": "The power of system call traces: predicting the software energy consumption impact of changes",
+            "url": "https://www.semanticscholar.org/paper/b0e36896bb41e2e54223bfc52e0768e058571422",
+            "venue": "CASCON",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "46439710",
+                    "name": "W. Fadel"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "88d053aac78716832aa7c310528aa2eb11979204",
+            "title": "Techniques for the Abstraction of System Call Traces to Facilitate the Understanding of the Behavioural Aspects of the Linux Kernel",
+            "url": "https://www.semanticscholar.org/paper/88d053aac78716832aa7c310528aa2eb11979204",
+            "venue": "",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1716269",
+                    "name": "W. Enck"
+                },
+                {
+                    "authorId": "2287321",
+                    "name": "Machigar Ongtang"
+                },
+                {
+                    "authorId": "144061974",
+                    "name": "P. Mcdaniel"
+                }
+            ],
+            "doi": "10.1145/1653662.1653691",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a7e8910b74715175cb20d9a08d34b3541060076b",
+            "title": "On lightweight mobile phone application certification",
+            "url": "https://www.semanticscholar.org/paper/a7e8910b74715175cb20d9a08d34b3541060076b",
+            "venue": "CCS",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1736072",
+                    "name": "S. Hofmeyr"
+                },
+                {
+                    "authorId": "30123380",
+                    "name": "S. Forrest"
+                },
+                {
+                    "authorId": "1950877",
+                    "name": "Anil Somayaji"
+                }
+            ],
+            "doi": "10.3233/JCS-980109",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "424e3a0aaa7d9a987a9957f71a63b882f8f63484",
+            "title": "Intrusion Detection Using Sequences of System Calls",
+            "url": "https://www.semanticscholar.org/paper/424e3a0aaa7d9a987a9957f71a63b882f8f63484",
+            "venue": "J. Comput. Secur.",
+            "year": 1998
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2051205922",
+                    "name": "Asma Razgallah"
+                },
+                {
+                    "authorId": "51879462",
+                    "name": "R. Khoury"
+                },
+                {
+                    "authorId": "145559637",
+                    "name": "Sylvain Hall\u00e9"
+                },
+                {
+                    "authorId": "1840110",
+                    "name": "Kobra Khanmohammadi"
+                }
+            ],
+            "doi": "10.1016/j.cosrev.2020.100358",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "efab4809dbc39a6e7c10689d044690d1ad8e2c91",
+            "title": "A survey of malware detection in Android apps: Recommendations and perspectives for future research",
+            "url": "https://www.semanticscholar.org/paper/efab4809dbc39a6e7c10689d044690d1ad8e2c91",
+            "venue": "Comput. Sci. Rev.",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3319300",
+                    "name": "Toqeer Ali Syed"
+                },
+                {
+                    "authorId": "9151354",
+                    "name": "Salman Jan"
+                },
+                {
+                    "authorId": "1787276",
+                    "name": "Shahrulniza Musa"
+                },
+                {
+                    "authorId": "2064704989",
+                    "name": "Jawad Ali"
+                }
+            ],
+            "doi": "10.1109/ICICTM.2016.7890807",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0ccaadebffcdcccf103a49cdac6cf4d21a57f08f",
+            "title": "Providing efficient, scalable and privacy preserved verification mechanism in remote attestation",
+            "url": "https://www.semanticscholar.org/paper/0ccaadebffcdcccf103a49cdac6cf4d21a57f08f",
+            "venue": "2016 International Conference on Information and Communication Technology (ICICTM)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "79405068",
+                    "name": "Dan Arp"
+                },
+                {
+                    "authorId": "3219416",
+                    "name": "Michael Spreitzenbarth"
+                },
+                {
+                    "authorId": "145035359",
+                    "name": "M. Hubner"
+                },
+                {
+                    "authorId": "3088551",
+                    "name": "Hugo Gascon"
+                },
+                {
+                    "authorId": "144825749",
+                    "name": "Konrad Rieck"
+                }
+            ],
+            "doi": "10.14722/NDSS.2014.23247",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0b38a236d2377068408309f1d31e5c5fc5eedd0b",
+            "title": "DREBIN: Effective and Explainable Detection of Android Malware in Your Pocket",
+            "url": "https://www.semanticscholar.org/paper/0b38a236d2377068408309f1d31e5c5fc5eedd0b",
+            "venue": "NDSS",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "152641282",
+                    "name": "Yajin Zhou"
+                },
+                {
+                    "authorId": "144145752",
+                    "name": "Zhi Wang"
+                },
+                {
+                    "authorId": "2115341253",
+                    "name": "Wu Zhou"
+                },
+                {
+                    "authorId": "1740888",
+                    "name": "Xuxian Jiang"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e4f7e5a5886c06f3f84e1256941ceb3d149471bf",
+            "title": "Hey, You, Get Off of My Market: Detecting Malicious Apps in Official and Alternative Android Markets",
+            "url": "https://www.semanticscholar.org/paper/e4f7e5a5886c06f3f84e1256941ceb3d149471bf",
+            "venue": "NDSS",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Google Play",
+            "url": "",
+            "venue": "",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "APKPure",
+            "url": "",
+            "venue": "apkpure.com/",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "TwinDroid: A Dataset of Android app System call traces and Trace Generation Pipeline",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/b0e02f5f8f0862ba8ba35d189a179f21eb0f9f48",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2022
+}

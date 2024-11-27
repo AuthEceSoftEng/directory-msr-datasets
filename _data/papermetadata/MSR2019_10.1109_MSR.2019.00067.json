@@ -1,0 +1,3183 @@
+{
+    "abstract": "A large number of research studies have been focused on detecting Android malware in recent years. As a result, a reliable and large-scale malware dataset is essential to build effective malware classifiers and evaluate the performance of different detection techniques. Although several Android malware benchmarks have been widely used in our research community, these benchmarks face several major limitations. First, most of the existing datasets are outdated and cannot reflect current malware evolution trends. Second, most of them only rely on VirusTotal to label the ground truth of malware, while some anti-virus engines on VirusTotal may not always report reliable results. Third, all of them only contain the apps themselves (apks), while other important app information (e.g., app description, user rating, and app installs) is missing, which greatly limits the usage scenarios of these datasets. In this paper, we have created a reliable Android malware dataset based on Google Play's app maintenance results over several years. We first created four snapshots of Google Play in 2014, 2015, 2017 and 2018 respectively. Then we use VirusTotal to label apps with possible sensitive behaviors, and monitor these apps on Google Play to see whether Google has removed them or not. Based on this approach, we have created a malware dataset containing 9,133 samples that belong to 56 malware families with high confidence. We believe this dataset will boost a series of research studies including Android malware detection and classification, mining apps for anomalies, and app store mining, etc.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2109570965",
+            "name": "Haoyu Wang",
+            "url": "https://www.semanticscholar.org/author/2109570965"
+        },
+        {
+            "authorId": "2057225616",
+            "name": "Junjun Si",
+            "url": "https://www.semanticscholar.org/author/2057225616"
+        },
+        {
+            "authorId": null,
+            "name": "Hao Li",
+            "url": null
+        },
+        {
+            "authorId": "145508275",
+            "name": "Yao Guo",
+            "url": "https://www.semanticscholar.org/author/145508275"
+        }
+    ],
+    "citationVelocity": 12,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2299742712",
+                    "name": "Huan Liu"
+                },
+                {
+                    "authorId": "2238634671",
+                    "name": "Liangyi Gong"
+                },
+                {
+                    "authorId": "2299644487",
+                    "name": "Xiuliang Mo"
+                },
+                {
+                    "authorId": "2299625149",
+                    "name": "Guozhong Dong"
+                },
+                {
+                    "authorId": "2299751681",
+                    "name": "Jie Yu"
+                }
+            ],
+            "doi": "10.1109/JIOT.2024.3394555",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "73551013136924e87a37d9da098781534295a4c2",
+            "title": "LTAChecker: Lightweight Android Malware Detection Based on Dalvik Opcode Sequences Using Attention Temporal Networks",
+            "url": "https://www.semanticscholar.org/paper/73551013136924e87a37d9da098781534295a4c2",
+            "venue": "IEEE Internet of Things Journal",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2299108470",
+                    "name": "Huijuan Wang"
+                },
+                {
+                    "authorId": "2305842700",
+                    "name": "Boyan Cui"
+                },
+                {
+                    "authorId": "34553316",
+                    "name": "Quanbo Yuan"
+                },
+                {
+                    "authorId": "2306824341",
+                    "name": "Ruonan Shi"
+                },
+                {
+                    "authorId": "2306875729",
+                    "name": "Mengying Huang"
+                }
+            ],
+            "doi": "10.1016/j.neucom.2024.128010",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "46b8ffa0ce997faf72955d2c00d612f9beafdc03",
+            "title": "A review of deep learning based malware detection techniques",
+            "url": "https://www.semanticscholar.org/paper/46b8ffa0ce997faf72955d2c00d612f9beafdc03",
+            "venue": "Neurocomputing",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "121454434",
+                    "name": "Guoyun Duan"
+                },
+                {
+                    "authorId": "2308790714",
+                    "name": "Haopeng Liu"
+                },
+                {
+                    "authorId": "2308759500",
+                    "name": "Minjie Cai"
+                },
+                {
+                    "authorId": "2276365929",
+                    "name": "Jian-Fang Sun"
+                },
+                {
+                    "authorId": "2149052491",
+                    "name": "Hao Chen"
+                }
+            ],
+            "doi": "10.1016/j.cose.2024.103969",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c00c99a17a0803609861a580f54b37c00ecfcd94",
+            "title": "MaDroid: A maliciousness-aware multifeatured dataset for detecting android malware",
+            "url": "https://www.semanticscholar.org/paper/c00c99a17a0803609861a580f54b37c00ecfcd94",
+            "venue": "Comput. Secur.",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2064670062",
+                    "name": "E. P. Neto"
+                },
+                {
+                    "authorId": "38268697",
+                    "name": "Sajjad Dadkhah"
+                },
+                {
+                    "authorId": "48788463",
+                    "name": "Somayeh Sadeghi"
+                },
+                {
+                    "authorId": "2265613581",
+                    "name": "Heather Molyneaux"
+                },
+                {
+                    "authorId": "2239942636",
+                    "name": "Ali A. Ghorbani"
+                }
+            ],
+            "doi": "10.1016/j.comcom.2023.11.002",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9e4d635e282e3515be94a9afaa567887367a1a1c",
+            "title": "A review of Machine Learning (ML)-based IoT security in healthcare: A dataset perspective",
+            "url": "https://www.semanticscholar.org/paper/9e4d635e282e3515be94a9afaa567887367a1a1c",
+            "venue": "Comput. Commun.",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "32198376",
+                    "name": "Pascal Maniriho"
+                },
+                {
+                    "authorId": "1749644",
+                    "name": "A. Mahmood"
+                },
+                {
+                    "authorId": "2274991119",
+                    "name": "Mohammad Jabed Morshed Chowdhury"
+                }
+            ],
+            "doi": "10.1145/3638240",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2c34657d563b2ed34960aaabacb66a83d6b9ef66",
+            "title": "A Survey of Recent Advances in Deep Learning Models for Detecting Malware in Desktop and Mobile Platforms",
+            "url": "https://www.semanticscholar.org/paper/2c34657d563b2ed34960aaabacb66a83d6b9ef66",
+            "venue": "ACM Comput. Surv.",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2265859026",
+                    "name": "Luiz Felipe Laviola"
+                },
+                {
+                    "authorId": "2154455800",
+                    "name": "K. O. Paim"
+                },
+                {
+                    "authorId": "2081967630",
+                    "name": "Diego Kreutz"
+                },
+                {
+                    "authorId": "2119479962",
+                    "name": "R. Mansilha"
+                }
+            ],
+            "doi": "10.5753/errc.2023.929",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c8c065a34e34d2f460317208609ce99bf05d6094",
+            "title": "AutoDroid: disponibilizando a ferramenta DroidAugmentor como servi\u00e7o",
+            "url": "https://www.semanticscholar.org/paper/c8c065a34e34d2f460317208609ce99bf05d6094",
+            "venue": "Anais da XX Escola Regional de Redes de Computadores (ERRC 2023)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2243449439",
+                    "name": "I. M. Ibrahim"
+                },
+                {
+                    "authorId": "70101614",
+                    "name": "A. Sallow"
+                }
+            ],
+            "doi": "10.18280/ria.370405",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6dd1e8e306daa21520e8a9d0e93e00778f357a68",
+            "title": "Feature Selection for Android Malware Detection with Random Forest on Smartphones",
+            "url": "https://www.semanticscholar.org/paper/6dd1e8e306daa21520e8a9d0e93e00778f357a68",
+            "venue": "Revue d'Intelligence Artificielle",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "101418924",
+                    "name": "Himanshi Babbar"
+                },
+                {
+                    "authorId": "5363117",
+                    "name": "Shalli Rani"
+                },
+                {
+                    "authorId": "1752577027",
+                    "name": "D. K. Sah"
+                },
+                {
+                    "authorId": "2103839093",
+                    "name": "Salman A. Alqahtani"
+                },
+                {
+                    "authorId": "47311590",
+                    "name": "A. Bashir"
+                }
+            ],
+            "doi": "10.3390/s23167256",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "18686988bf8b537fe45361f7bb75ebe1528fef64",
+            "title": "Detection of Android Malware in the Internet of Things through the K-Nearest Neighbor Algorithm",
+            "url": "https://www.semanticscholar.org/paper/18686988bf8b537fe45361f7bb75ebe1528fef64",
+            "venue": "Sensors",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1811410987",
+                    "name": "Ying Zhao"
+                },
+                {
+                    "authorId": "2223845493",
+                    "name": "Shenglan Lv"
+                },
+                {
+                    "authorId": "2223848915",
+                    "name": "Wenwei Long"
+                },
+                {
+                    "authorId": "2012745",
+                    "name": "Yilun Fan"
+                },
+                {
+                    "authorId": "2224019938",
+                    "name": "Jian Yuan"
+                },
+                {
+                    "authorId": "1492121524",
+                    "name": "Haojin Jiang"
+                },
+                {
+                    "authorId": "47978638",
+                    "name": "Fangfang Zhou"
+                }
+            ],
+            "doi": "10.1016/j.visinf.2023.06.008",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "438301d4599a0685e486ae8edaeb87b5bccf6832",
+            "title": "Malicious webshell family dataset for webshell multi-classification research",
+            "url": "https://www.semanticscholar.org/paper/438301d4599a0685e486ae8edaeb87b5bccf6832",
+            "venue": "Vis. Informatics",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2115117300",
+                    "name": "Aaron Walker"
+                },
+                {
+                    "authorId": "9225595",
+                    "name": "R. Shukla"
+                },
+                {
+                    "authorId": "1820935697",
+                    "name": "Tapadhir Das"
+                },
+                {
+                    "authorId": "3265875",
+                    "name": "S. Sengupta"
+                }
+            ],
+            "doi": "10.1109/MCNA59361.2023.10185752",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d2f43fb574f98a9b4f51fd17490371608ec750cc",
+            "title": "Runs in the Family: Malware Family Variants Identification through API Sequence and Frequency Analysis",
+            "url": "https://www.semanticscholar.org/paper/d2f43fb574f98a9b4f51fd17490371608ec750cc",
+            "venue": "2023 International Conference on Multimedia Computing, Networking and Applications (MCNA)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2305.09699",
+            "authors": [
+                {
+                    "authorId": "148427191",
+                    "name": "Zhangxuan Gu"
+                },
+                {
+                    "authorId": "1998950177",
+                    "name": "Zhuoer Xu"
+                },
+                {
+                    "authorId": "47666864",
+                    "name": "Haoxing Chen"
+                },
+                {
+                    "authorId": "2158820459",
+                    "name": "Jun Lan"
+                },
+                {
+                    "authorId": "2114323322",
+                    "name": "Changhua Meng"
+                },
+                {
+                    "authorId": null,
+                    "name": "Weiqiang Wang"
+                }
+            ],
+            "doi": "10.1109/CVPR52729.2023.01073",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d99ba7fbd5d1096b2892a8369b478cffc792fdf7",
+            "title": "Mobile User Interface Element Detection Via Adaptively Prompt Tuning",
+            "url": "https://www.semanticscholar.org/paper/d99ba7fbd5d1096b2892a8369b478cffc792fdf7",
+            "venue": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2144151812",
+                    "name": "Min Wu"
+                },
+                {
+                    "authorId": "2065563779",
+                    "name": "Chen-Yu Chiu"
+                },
+                {
+                    "authorId": "47513127",
+                    "name": "JianMin Huang"
+                },
+                {
+                    "authorId": "2204884508",
+                    "name": "Jian-Xin Chen"
+                },
+                {
+                    "authorId": "2205033761",
+                    "name": "Hao-Jyun Wang"
+                },
+                {
+                    "authorId": "2117033811",
+                    "name": "Ying Lin"
+                }
+            ],
+            "doi": "10.1109/ECEI57668.2023.10105425",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "892c58340d8aaa570ae64775e04865c1cbdf1204",
+            "title": "Protection Mechanism in JavaScript Attacks",
+            "url": "https://www.semanticscholar.org/paper/892c58340d8aaa570ae64775e04865c1cbdf1204",
+            "venue": "2023 IEEE 6th Eurasian Conference on Educational Innovation (ECEI)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2301.07346",
+            "authors": [
+                {
+                    "authorId": "1414028770",
+                    "name": "Savino Dambra"
+                },
+                {
+                    "authorId": "1684288",
+                    "name": "Leyla Bilge"
+                },
+                {
+                    "authorId": "3048941",
+                    "name": "Platon Kotzias"
+                },
+                {
+                    "authorId": "2117688523",
+                    "name": "Yun Shen"
+                },
+                {
+                    "authorId": "144274911",
+                    "name": "Juan Caballero"
+                }
+            ],
+            "doi": "10.48550/arXiv.2301.07346",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "1078ca56dafaa098673942e30b630cfd74cd50ac",
+            "title": "One Size Does not Fit All: Quantifying the Risk of Malicious App Encounters for Different Android User Profiles",
+            "url": "https://www.semanticscholar.org/paper/1078ca56dafaa098673942e30b630cfd74cd50ac",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2198286790",
+                    "name": "Yanping Guo"
+                },
+                {
+                    "authorId": "2072779307",
+                    "name": "Qiao Yan"
+                }
+            ],
+            "doi": "10.1007/s13042-022-01747-9",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b7d7bfccc64be21aac5dc4e2a525776ca1fbd740",
+            "title": "Android malware adversarial attacks based on feature importance prediction",
+            "url": "https://www.semanticscholar.org/paper/b7d7bfccc64be21aac5dc4e2a525776ca1fbd740",
+            "venue": "International Journal of Machine Learning and Cybernetics",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2212226451",
+                    "name": "Wenyu Zhang"
+                },
+                {
+                    "authorId": "2211975222",
+                    "name": "Xiaojuan Wang"
+                },
+                {
+                    "authorId": "2146348960",
+                    "name": "Shanyan Lai"
+                },
+                {
+                    "authorId": "2034353110",
+                    "name": "Chunyang Ye"
+                },
+                {
+                    "authorId": "1870070740",
+                    "name": "Hui Zhou"
+                }
+            ],
+            "doi": "10.1109/QRS57517.2022.00115",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "999d955b1f4dc730f2583c53fbf1a94ae8de000c",
+            "title": "Fine-Tuning Pre-Trained Model to Extract Undesired Behaviors from App Reviews",
+            "url": "https://www.semanticscholar.org/paper/999d955b1f4dc730f2583c53fbf1a94ae8de000c",
+            "venue": "2022 IEEE 22nd International Conference on Software Quality, Reliability and Security (QRS)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2211.13104",
+            "authors": [
+                {
+                    "authorId": "39753995",
+                    "name": "Kaspar Hageman"
+                },
+                {
+                    "authorId": "72785998",
+                    "name": "\u00c1lvaro Feal"
+                },
+                {
+                    "authorId": "46213185",
+                    "name": "Julien Gamba"
+                },
+                {
+                    "authorId": "2188749727",
+                    "name": "Aniketh Girish"
+                },
+                {
+                    "authorId": "90483496",
+                    "name": "J. Bleier"
+                },
+                {
+                    "authorId": "40608753",
+                    "name": "Martina Lindorfer"
+                },
+                {
+                    "authorId": "145170015",
+                    "name": "J. Tapiador"
+                },
+                {
+                    "authorId": "1398192285",
+                    "name": "Narseo Vallina-Rodriguez"
+                }
+            ],
+            "doi": "10.1109/TSE.2023.3236582",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "65e614f957e2532548cd21f469827995be01b510",
+            "title": "Mixed Signals: Analyzing Software Attribution Challenges in the Android Ecosystem",
+            "url": "https://www.semanticscholar.org/paper/65e614f957e2532548cd21f469827995be01b510",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2049033148",
+                    "name": "Husnain Rafiq"
+                },
+                {
+                    "authorId": "145891853",
+                    "name": "N. Aslam"
+                },
+                {
+                    "authorId": "2144610409",
+                    "name": "Muhammad Aleem"
+                },
+                {
+                    "authorId": "145724583",
+                    "name": "B. Issac"
+                },
+                {
+                    "authorId": "47432202",
+                    "name": "Rizwan Hamid Randhawa"
+                }
+            ],
+            "doi": "10.1038/s41598-022-23766-w",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "5379b66e2831ac7525713a2e5a21410f4ef4f8d6",
+            "title": "AndroMalPack: enhancing the ML-based malware classification by detection and removal of repacked apps for Android systems",
+            "url": "https://www.semanticscholar.org/paper/5379b66e2831ac7525713a2e5a21410f4ef4f8d6",
+            "venue": "Scientific Reports",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2108551924",
+                    "name": "Liu Wang"
+                },
+                {
+                    "authorId": null,
+                    "name": "Haoyu Wang"
+                },
+                {
+                    "authorId": "1708419",
+                    "name": "Xiapu Luo"
+                },
+                {
+                    "authorId": "101643752",
+                    "name": "Tao Zhang"
+                },
+                {
+                    "authorId": "2177451",
+                    "name": "Shangguang Wang"
+                },
+                {
+                    "authorId": "2110773587",
+                    "name": "Xuanzhe Liu"
+                }
+            ],
+            "doi": "10.1145/3540250.3558966",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d7c7674c60cb4f8aee6e2596ab1d8bbeb005e8b0",
+            "title": "Demystifying \u201cremoved reviews\u201d in iOS app store",
+            "url": "https://www.semanticscholar.org/paper/d7c7674c60cb4f8aee6e2596ab1d8bbeb005e8b0",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "30915039",
+                    "name": "Xiaomei Gao"
+                },
+                {
+                    "authorId": "2160100402",
+                    "name": "Xiyin Ma"
+                }
+            ],
+            "doi": "10.1109/ICECAA55415.2022.9936557",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3b2423615741d5d12f0301ff541b666dc86c2d48",
+            "title": "Application of Gestalt Psychological Big Data Mapping Algorithm in CAD Realization of Architectural Design Fingerprinting Software",
+            "url": "https://www.semanticscholar.org/paper/3b2423615741d5d12f0301ff541b666dc86c2d48",
+            "venue": "2022 International Conference on Edge Computing and Applications (ICECAA)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2053413814",
+                    "name": "Rahman Ali"
+                },
+                {
+                    "authorId": "2112248669",
+                    "name": "Asmat Ali"
+                },
+                {
+                    "authorId": "2670601",
+                    "name": "Farkhund Iqbal"
+                },
+                {
+                    "authorId": "2004858657",
+                    "name": "Mohammed Hussain"
+                },
+                {
+                    "authorId": "48634318",
+                    "name": "Farhan Ullah"
+                }
+            ],
+            "doi": "10.1155/2022/2959222",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "93a65b63100499c393dd5c404885cf51018eeec7",
+            "title": "Deep Learning Methods for Malware and Intrusion Detection: A Systematic Literature Review",
+            "url": "https://www.semanticscholar.org/paper/93a65b63100499c393dd5c404885cf51018eeec7",
+            "venue": "Security and Communication Networks",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2108551924",
+                    "name": "Liu Wang"
+                },
+                {
+                    "authorId": "2145339122",
+                    "name": "Haoyu Wang"
+                },
+                {
+                    "authorId": "1708419",
+                    "name": "Xiapu Luo"
+                },
+                {
+                    "authorId": "34296085",
+                    "name": "Yulei Sui"
+                }
+            ],
+            "doi": "10.1145/3551349.3560418",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "f1bbf9c46364a4a64cfa0328e455eecb4f23d240",
+            "title": "MalWhiteout: Reducing Label Errors in Android Malware Detection",
+            "url": "https://www.semanticscholar.org/paper/f1bbf9c46364a4a64cfa0328e455eecb4f23d240",
+            "venue": "ASE",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2200542410",
+                    "name": "Boladji Vinny Adjibi"
+                },
+                {
+                    "authorId": "1580498698",
+                    "name": "Fatou Ndiaye Mbodji"
+                },
+                {
+                    "authorId": "3023999",
+                    "name": "T\u00e9gawend\u00e9 F. Bissyand\u00e9"
+                },
+                {
+                    "authorId": "1790388",
+                    "name": "Kevin Allix"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                }
+            ],
+            "doi": "10.1109/SCAM55253.2022.00023",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "920f0e7bbb60277719bcb47dfa98138593d5ea39",
+            "title": "The Devil is in the Details: Unwrapping the Cryptojacking Malware Ecosystem on Android",
+            "url": "https://www.semanticscholar.org/paper/920f0e7bbb60277719bcb47dfa98138593d5ea39",
+            "venue": "2022 IEEE 22nd International Working Conference on Source Code Analysis and Manipulation (SCAM)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1729244409",
+                    "name": "Lucas Vilanova"
+                },
+                {
+                    "authorId": "2081967630",
+                    "name": "Diego Kreutz"
+                },
+                {
+                    "authorId": "2140967799",
+                    "name": "Joner Assolin"
+                },
+                {
+                    "authorId": "2128629977",
+                    "name": "Vagner E. Quincozes"
+                },
+                {
+                    "authorId": "2035629156",
+                    "name": "C. Miers"
+                },
+                {
+                    "authorId": "2119479962",
+                    "name": "R. Mansilha"
+                },
+                {
+                    "authorId": "31447438",
+                    "name": "Eduardo L. Feitosa"
+                }
+            ],
+            "doi": "10.5753/sbseg_estendido.2022.227038",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c09ed3551b8f034d2df5ae86dcb92c46184a6f93",
+            "title": "ADBuilder: uma Ferramenta de Constru\u00e7\u00e3o de Datasets para Detec\u00e7\u00e3o de Malwares Android",
+            "url": "https://www.semanticscholar.org/paper/c09ed3551b8f034d2df5ae86dcb92c46184a6f93",
+            "venue": "Anais Estendidos do XXII Simp\u00f3sio Brasileiro de Seguran\u00e7a da Informa\u00e7\u00e3o e de Sistemas Computacionais (SBSeg Estendido 2022)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2209.03622",
+            "authors": [
+                {
+                    "authorId": "32198376",
+                    "name": "Pascal Maniriho"
+                },
+                {
+                    "authorId": "1749644",
+                    "name": "A. Mahmood"
+                },
+                {
+                    "authorId": "2724118",
+                    "name": "M. Chowdhury"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8c192716dfc326dafa9ecfaf9ccb6915b3f16088",
+            "title": "Deep Learning Models for Detecting Malware Attacks",
+            "url": "https://www.semanticscholar.org/paper/8c192716dfc326dafa9ecfaf9ccb6915b3f16088",
+            "venue": "",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2209199721",
+                    "name": "Jingsong Xue"
+                },
+                {
+                    "authorId": "2209581840",
+                    "name": "Zhenyu Wang"
+                },
+                {
+                    "authorId": "2054599030",
+                    "name": "Renjun Feng"
+                }
+            ],
+            "doi": "10.1109/ICNISC57059.2022.00032",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5a4092e38cf493385186481dd715a3305153aebc",
+            "title": "Malicious Network Software Detection Based on API Call",
+            "url": "https://www.semanticscholar.org/paper/5a4092e38cf493385186481dd715a3305153aebc",
+            "venue": "2022 8th Annual International Conference on Network and Information Systems for Computers (ICNISC)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2142911230",
+                    "name": "Majdi K. Qabalin"
+                },
+                {
+                    "authorId": "145046936",
+                    "name": "Mu'awya Naser"
+                },
+                {
+                    "authorId": "2158168175",
+                    "name": "Mouhammd Alkasassbeh"
+                }
+            ],
+            "doi": "10.3390/s22155765",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0e56f3a7c6cad288deeec1bd65c2f3bd6049e9a5",
+            "title": "Android Spyware Detection Using Machine Learning: A Novel Dataset",
+            "url": "https://www.semanticscholar.org/paper/0e56f3a7c6cad288deeec1bd65c2f3bd6049e9a5",
+            "venue": "Sensors",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2108192527",
+                    "name": "Yin Liu"
+                },
+                {
+                    "authorId": "8712645",
+                    "name": "Breno Dantas Cruz"
+                },
+                {
+                    "authorId": "1682441",
+                    "name": "E. Tilevich"
+                }
+            ],
+            "doi": "10.1016/j.jss.2022.111460",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "566798c0fc0339395ffb5dbafd7ca57802b8b8eb",
+            "title": "Secure and flexible message-based communication for mobile apps within and across devices",
+            "url": "https://www.semanticscholar.org/paper/566798c0fc0339395ffb5dbafd7ca57802b8b8eb",
+            "venue": "J. Syst. Softw.",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2186558688",
+                    "name": "Christian Leka"
+                },
+                {
+                    "authorId": "2931274",
+                    "name": "Christoforos Ntantogian"
+                },
+                {
+                    "authorId": "13150007",
+                    "name": "Stylianos Karagiannis"
+                },
+                {
+                    "authorId": "1738986",
+                    "name": "E. Magkos"
+                },
+                {
+                    "authorId": "1744411",
+                    "name": "V. Verykios"
+                }
+            ],
+            "doi": "10.1109/IISA56318.2022.9904382",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a45d73ead132b4d85a41d89c238852add6aea81c",
+            "title": "A Comparative Analysis of VirusTotal and Desktop Antivirus Detection Capabilities",
+            "url": "https://www.semanticscholar.org/paper/a45d73ead132b4d85a41d89c238852add6aea81c",
+            "venue": "2022 13th International Conference on Information, Intelligence, Systems & Applications (IISA)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2205.15532",
+            "authors": [
+                {
+                    "authorId": "2149203554",
+                    "name": "Yan Lin"
+                },
+                {
+                    "authorId": "1486296675",
+                    "name": "Tianming Liu"
+                },
+                {
+                    "authorId": "46641573",
+                    "name": "W. Liu"
+                },
+                {
+                    "authorId": "2167503328",
+                    "name": "Zhigaoyuan Wang"
+                },
+                {
+                    "authorId": "2156056522",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "3027277",
+                    "name": "Guoai Xu"
+                },
+                {
+                    "authorId": "2138204735",
+                    "name": "Haoyu Wang"
+                }
+            ],
+            "doi": "10.48550/arXiv.2205.15532",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f90ba2617c74449ae49f55fae1339387d9fe7dfc",
+            "title": "Dataset Bias in Android Malware Detection",
+            "url": "https://www.semanticscholar.org/paper/f90ba2617c74449ae49f55fae1339387d9fe7dfc",
+            "venue": "ArXiv",
+            "year": 2022
+        },
+        {
+            "arxivId": "2205.14576",
+            "authors": [
+                {
+                    "authorId": "146870954",
+                    "name": "Harel Berger"
+                },
+                {
+                    "authorId": "3313085",
+                    "name": "Chen Hajaj"
+                },
+                {
+                    "authorId": "2439506",
+                    "name": "A. Dvir"
+                }
+            ],
+            "doi": "10.48550/arXiv.2205.14576",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6e79c672591287ccbbf9582cb6dfb1a53a338570",
+            "title": "Problem-Space Evasion Attacks in the Android OS: a Survey",
+            "url": "https://www.semanticscholar.org/paper/6e79c672591287ccbbf9582cb6dfb1a53a338570",
+            "venue": "ArXiv",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2108551924",
+                    "name": "Liu Wang"
+                },
+                {
+                    "authorId": "2145339122",
+                    "name": "Haoyu Wang"
+                },
+                {
+                    "authorId": "2053864722",
+                    "name": "Ren He"
+                },
+                {
+                    "authorId": "2167580797",
+                    "name": "Ran Tao"
+                },
+                {
+                    "authorId": "47211542",
+                    "name": "Guozhu Meng"
+                },
+                {
+                    "authorId": "1708419",
+                    "name": "Xiapu Luo"
+                },
+                {
+                    "authorId": "2110773587",
+                    "name": "Xuanzhe Liu"
+                }
+            ],
+            "doi": "10.1145/3530906",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "f067d699cedeea818a9d5e7aa337450d8238bf05",
+            "title": "MalRadar",
+            "url": "https://www.semanticscholar.org/paper/f067d699cedeea818a9d5e7aa337450d8238bf05",
+            "venue": "SIGMETRICS",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2042707112",
+                    "name": "Michael Cao"
+                },
+                {
+                    "authorId": "2013642430",
+                    "name": "Khaled Ahmed"
+                },
+                {
+                    "authorId": "40575065",
+                    "name": "J. Rubin"
+                }
+            ],
+            "doi": "10.1145/3510003.3510161",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9208b4089700bda2bf754b4b4be6a04cbb64c0a2",
+            "title": "Rotten Apples Spoil the Bunch: An Anatomy of Google Play Malware",
+            "url": "https://www.semanticscholar.org/paper/9208b4089700bda2bf754b4b4be6a04cbb64c0a2",
+            "venue": "2022 IEEE/ACM 44th International Conference on Software Engineering (ICSE)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2144041323",
+                    "name": "Saurabh Kumar"
+                },
+                {
+                    "authorId": "2484837",
+                    "name": "Debadatta Mishra"
+                },
+                {
+                    "authorId": "2899161",
+                    "name": "Biswabandan Panda"
+                },
+                {
+                    "authorId": "2150905311",
+                    "name": "S. Shukla"
+                }
+            ],
+            "doi": "10.1145/3524842.3528493",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6b3e22afc6d97f41346e57a80e7a60d91d94b410",
+            "title": "AndroOBFS: Time-tagged Obfuscated Android Malware Dataset with Family Information",
+            "url": "https://www.semanticscholar.org/paper/6b3e22afc6d97f41346e57a80e7a60d91d94b410",
+            "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2164016229",
+                    "name": "Meijin Li"
+                },
+                {
+                    "authorId": "2072875578",
+                    "name": "Zhiyang Fang"
+                },
+                {
+                    "authorId": "2155107063",
+                    "name": "Junfeng Wang"
+                },
+                {
+                    "authorId": "2158336036",
+                    "name": "Luyu Cheng"
+                },
+                {
+                    "authorId": "2163452697",
+                    "name": "Qi Zeng"
+                },
+                {
+                    "authorId": "2259714136",
+                    "name": "Tao Yang"
+                },
+                {
+                    "authorId": "48608236",
+                    "name": "Y. Wu"
+                },
+                {
+                    "authorId": "11873158",
+                    "name": "Jiaxuan Geng"
+                }
+            ],
+            "doi": "10.1080/08839514.2021.2007327",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e17673d1548da0661840c31fac01f9c0fa4054ce",
+            "title": "A Systematic Overview of Android Malware Detection",
+            "url": "https://www.semanticscholar.org/paper/e17673d1548da0661840c31fac01f9c0fa4054ce",
+            "venue": "Appl. Artif. Intell.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2111.07201",
+            "authors": [
+                {
+                    "authorId": "47115854",
+                    "name": "S. Roy"
+                },
+                {
+                    "authorId": "2124500256",
+                    "name": "Unique Karanjit"
+                },
+                {
+                    "authorId": "2267110",
+                    "name": "Shirin Nilizadeh"
+                }
+            ],
+            "doi": "10.1109/eCrime54498.2021.9738786",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3da3c0dde5869e36584dbd47c3b1580fd4b11d5c",
+            "title": "Evaluating the Effectiveness of Phishing Reports on Twitter",
+            "url": "https://www.semanticscholar.org/paper/3da3c0dde5869e36584dbd47c3b1580fd4b11d5c",
+            "venue": "2021 APWG Symposium on Electronic Crime Research (eCrime)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2053548478",
+                    "name": "Mohammed Rashed"
+                },
+                {
+                    "authorId": "1388800688",
+                    "name": "Guillermo Suarez-Tangil"
+                }
+            ],
+            "doi": "10.3390/s21165671",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "4db986cb592533fee1ecde11ec96db8e77dbb809",
+            "title": "An Analysis of Android Malware Classification Services",
+            "url": "https://www.semanticscholar.org/paper/4db986cb592533fee1ecde11ec96db8e77dbb809",
+            "venue": "Sensors",
+            "year": 2021
+        },
+        {
+            "arxivId": "2107.03072",
+            "authors": [
+                {
+                    "authorId": "1786213",
+                    "name": "Sevil \u015een"
+                },
+                {
+                    "authorId": "3300407",
+                    "name": "Burcu Can"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "72e505696c573c3e3a440ecbcad652a8a60f45dc",
+            "title": "Android Security using NLP Techniques: A Review",
+            "url": "https://www.semanticscholar.org/paper/72e505696c573c3e3a440ecbcad652a8a60f45dc",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2109712263",
+                    "name": "Yanjie Zhao"
+                },
+                {
+                    "authorId": "2156057406",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "2109570965",
+                    "name": "Haoyu Wang"
+                },
+                {
+                    "authorId": "39136735",
+                    "name": "Haipeng Cai"
+                },
+                {
+                    "authorId": "3023999",
+                    "name": "T\u00e9gawend\u00e9 F. Bissyand\u00e9"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                },
+                {
+                    "authorId": "1687239",
+                    "name": "J. Grundy"
+                }
+            ],
+            "doi": "10.1145/3446905",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8bcadedef6b874b15ef8ba7d18ede1ee3608ac36",
+            "title": "On the Impact of Sample Duplication in Machine-Learning-Based Android Malware Detection",
+            "url": "https://www.semanticscholar.org/paper/8bcadedef6b874b15ef8ba7d18ede1ee3608ac36",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2109052025",
+                    "name": "Wen Li"
+                },
+                {
+                    "authorId": "1677649703",
+                    "name": "Xiaoqin Fu"
+                },
+                {
+                    "authorId": "39136735",
+                    "name": "Haipeng Cai"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00076",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "68024158cef13941a50b2cc5226a997dbd5255bd",
+            "title": "AndroCT: Ten Years of App Call Traces in Android",
+            "url": "https://www.semanticscholar.org/paper/68024158cef13941a50b2cc5226a997dbd5255bd",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "94055162",
+                    "name": "Siming Su"
+                },
+                {
+                    "authorId": "2145339122",
+                    "name": "Haoyu Wang"
+                },
+                {
+                    "authorId": "3027277",
+                    "name": "Guoai Xu"
+                }
+            ],
+            "doi": "10.1109/MobileSoft52590.2021.00011",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "adf7c02796b47ca5bb0214e378490c31b46eaa86",
+            "title": "Towards Understanding iOS App Store Search Advertising: An Explorative Study",
+            "url": "https://www.semanticscholar.org/paper/adf7c02796b47ca5bb0214e378490c31b46eaa86",
+            "venue": "2021 IEEE/ACM 8th International Conference on Mobile Software Engineering and Systems (MobileSoft)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2141041832",
+                    "name": "Yuhao Gao"
+                },
+                {
+                    "authorId": "2109570965",
+                    "name": "Haoyu Wang"
+                },
+                {
+                    "authorId": "2156056522",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "1708419",
+                    "name": "Xiapu Luo"
+                },
+                {
+                    "authorId": "3027277",
+                    "name": "Guoai Xu"
+                },
+                {
+                    "authorId": "2110773587",
+                    "name": "Xuanzhe Liu"
+                }
+            ],
+            "doi": "10.1145/3442381.3449932",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "513cda75d9d36f66996a973d77f2d807a8aebac2",
+            "title": "Demystifying Illegal Mobile Gambling Apps",
+            "url": "https://www.semanticscholar.org/paper/513cda75d9d36f66996a973d77f2d807a8aebac2",
+            "venue": "WWW",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.00712",
+            "authors": [
+                {
+                    "authorId": "7741730",
+                    "name": "Yangyu Hu"
+                },
+                {
+                    "authorId": "2109570965",
+                    "name": "Haoyu Wang"
+                },
+                {
+                    "authorId": "2051715419",
+                    "name": "Tiantong Ji"
+                },
+                {
+                    "authorId": "40637427",
+                    "name": "Xusheng Xiao"
+                },
+                {
+                    "authorId": "1708419",
+                    "name": "Xiapu Luo"
+                },
+                {
+                    "authorId": "2097572801",
+                    "name": "Peng Gao"
+                },
+                {
+                    "authorId": "145508275",
+                    "name": "Yao Guo"
+                }
+            ],
+            "doi": "10.1109/ICSE43902.2021.00089",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0bc58d5f8ceb573587679c78794298dc7d339bd6",
+            "title": "CHAMP: Characterizing Undesired App Behaviors from User Comments Based on Market Policies",
+            "url": "https://www.semanticscholar.org/paper/0bc58d5f8ceb573587679c78794298dc7d339bd6",
+            "venue": "2021 IEEE/ACM 43rd International Conference on Software Engineering (ICSE)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2102.06528",
+            "authors": [
+                {
+                    "authorId": "2108551924",
+                    "name": "Liu Wang"
+                },
+                {
+                    "authorId": "2145339122",
+                    "name": "Haoyu Wang"
+                },
+                {
+                    "authorId": "2154458221",
+                    "name": "Yi Wang"
+                },
+                {
+                    "authorId": "1749012",
+                    "name": "Gareth Tyson"
+                },
+                {
+                    "authorId": "2174841367",
+                    "name": "Fei Lyu"
+                }
+            ],
+            "doi": "10.1145/3524613.3527818",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fa95f05de7d693df105777002d59513b9cc5c6db",
+            "title": "A Tale of Two Countries: A Longitudinal Cross-Country Study of Mobile Users' Reactions to the COVID-19 Pandemic Through the Lens of App Popularity",
+            "url": "https://www.semanticscholar.org/paper/fa95f05de7d693df105777002d59513b9cc5c6db",
+            "venue": "2022 IEEE/ACM 9th International Conference on Mobile Software Engineering and Systems (MobileSoft)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2101.05100",
+            "authors": [
+                {
+                    "authorId": "2034352679",
+                    "name": "Fuqi Lin"
+                }
+            ],
+            "doi": "10.1145/3442381.3449990",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7dbde8325aacaf9ee5b98deb60d2e969fa04f096",
+            "title": "A Longitudinal Study of Removed Apps in iOS App Store",
+            "url": "https://www.semanticscholar.org/paper/7dbde8325aacaf9ee5b98deb60d2e969fa04f096",
+            "venue": "WWW",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2112693130",
+                    "name": "Xu Xu"
+                },
+                {
+                    "authorId": "7741730",
+                    "name": "Yangyu Hu"
+                },
+                {
+                    "authorId": "144160789",
+                    "name": "Qian Guo"
+                },
+                {
+                    "authorId": "2053864722",
+                    "name": "Ren He"
+                },
+                {
+                    "authorId": "2156056522",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "3027277",
+                    "name": "Guoai Xu"
+                },
+                {
+                    "authorId": "2113961403",
+                    "name": "Zhihui Han"
+                },
+                {
+                    "authorId": "2109570965",
+                    "name": "Haoyu Wang"
+                }
+            ],
+            "doi": "10.1109/QRS51102.2020.00072",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b5729207e00d016c5381c9466f69237fe7458856",
+            "title": "Dissecting Mobile Offerwall Advertisements: An Explorative Study",
+            "url": "https://www.semanticscholar.org/paper/b5729207e00d016c5381c9466f69237fe7458856",
+            "venue": "2020 IEEE 20th International Conference on Software Quality, Reliability and Security (QRS)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "67250450",
+                    "name": "N. O. Ogwara"
+                },
+                {
+                    "authorId": "144338576",
+                    "name": "K. Petrova"
+                },
+                {
+                    "authorId": "9352446",
+                    "name": "M. Yang"
+                }
+            ],
+            "doi": "10.1109/ITNAC50341.2020.9315052",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "28c60b20aca5f1ba08beaa9303b977473dcd730f",
+            "title": "MOBDroid: An Intelligent Malware Detection System for Improved Data Security in Mobile Cloud Computing Environments",
+            "url": "https://www.semanticscholar.org/paper/28c60b20aca5f1ba08beaa9303b977473dcd730f",
+            "venue": "2020 30th International Telecommunication Networks and Applications Conference (ITNAC)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2156060644",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "49952079",
+                    "name": "Jun Gao"
+                },
+                {
+                    "authorId": "1990261",
+                    "name": "Pingfan Kong"
+                },
+                {
+                    "authorId": "2287531153",
+                    "name": "Haoyu Wang"
+                },
+                {
+                    "authorId": "2287218171",
+                    "name": "Mengyu Huang"
+                },
+                {
+                    "authorId": "2287790590",
+                    "name": "Yuan-Fang Li"
+                },
+                {
+                    "authorId": "3023999",
+                    "name": "T\u00e9gawend\u00e9 F. Bissyand\u00e9"
+                }
+            ],
+            "doi": "10.1145/3417113.3422187",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "db9a6fbb4b22b0afea401f983d8e62bd8618c386",
+            "title": "KnowledgeZooClient: Constructing Knowledge Graph for Android",
+            "url": "https://www.semanticscholar.org/paper/db9a6fbb4b22b0afea401f983d8e62bd8618c386",
+            "venue": "2020 35th IEEE/ACM International Conference on Automated Software Engineering Workshops (ASEW)",
+            "year": 2020
+        },
+        {
+            "arxivId": "2008.05895",
+            "authors": [
+                {
+                    "authorId": "153441905",
+                    "name": "Ming Fan"
+                },
+                {
+                    "authorId": "1949327548",
+                    "name": "Wenying Wei"
+                },
+                {
+                    "authorId": "49419199",
+                    "name": "Xiaofei Xie"
+                },
+                {
+                    "authorId": "144440741",
+                    "name": "Yang Liu"
+                },
+                {
+                    "authorId": "143923928",
+                    "name": "X. Guan"
+                },
+                {
+                    "authorId": "144003898",
+                    "name": "Ting Liu"
+                }
+            ],
+            "doi": "10.1109/TIFS.2020.3021924",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "dd74b7260581a1110c79d41a8c23874f071fa5ae",
+            "title": "Can We Trust Your Explanations? Sanity Checks for Interpreters in Android Malware Analysis",
+            "url": "https://www.semanticscholar.org/paper/dd74b7260581a1110c79d41a8c23874f071fa5ae",
+            "venue": "IEEE Transactions on Information Forensics and Security",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2115431240",
+                    "name": "Ting Liu"
+                },
+                {
+                    "authorId": "40478976",
+                    "name": "J. Liu"
+                },
+                {
+                    "authorId": "2241567897",
+                    "name": "Xiapu Luo"
+                },
+                {
+                    "authorId": "17964478",
+                    "name": "Yueran Le"
+                },
+                {
+                    "authorId": "2179242991",
+                    "name": "Xiaohong Guan"
+                }
+            ],
+            "doi": "10.1360/ssi-2019-0149",
+            "intent": [],
+            "isInfluential": true,
+            "paperId": "8f919a182d712309c0f6061469a4d9945a8fefc1",
+            "title": "Android malware detection: a survey",
+            "url": "https://www.semanticscholar.org/paper/8f919a182d712309c0f6061469a4d9945a8fefc1",
+            "venue": "SCIENTIA SINICA Informationis",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1828725529",
+                    "name": "Kaijun Liu"
+                },
+                {
+                    "authorId": "50433409",
+                    "name": "Shengwei Xu"
+                },
+                {
+                    "authorId": "3027277",
+                    "name": "Guoai Xu"
+                },
+                {
+                    "authorId": "2108160165",
+                    "name": "Miao Zhang"
+                },
+                {
+                    "authorId": "2112672824",
+                    "name": "Dawei Sun"
+                },
+                {
+                    "authorId": "2109497722",
+                    "name": "Haifeng Liu"
+                }
+            ],
+            "doi": "10.1109/ACCESS.2020.3006143",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4eabb5b4cf137c27917a8b91c471a6a2b9407469",
+            "title": "A Review of Android Malware Detection Approaches Based on Machine Learning",
+            "url": "https://www.semanticscholar.org/paper/4eabb5b4cf137c27917a8b91c471a6a2b9407469",
+            "venue": "IEEE Access",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51256448",
+                    "name": "Shengqu Xi"
+                },
+                {
+                    "authorId": "2115300398",
+                    "name": "Shao Yang"
+                },
+                {
+                    "authorId": "40637427",
+                    "name": "Xusheng Xiao"
+                },
+                {
+                    "authorId": "2116470867",
+                    "name": "Yuan Yao"
+                },
+                {
+                    "authorId": "1845834121",
+                    "name": "Yayuan Xiong"
+                },
+                {
+                    "authorId": "1741521",
+                    "name": "Fengyuan Xu"
+                },
+                {
+                    "authorId": "2109570965",
+                    "name": "Haoyu Wang"
+                },
+                {
+                    "authorId": "2097572801",
+                    "name": "Peng Gao"
+                },
+                {
+                    "authorId": "3147217",
+                    "name": "Zhuotao Liu"
+                },
+                {
+                    "authorId": "102467100",
+                    "name": "F. Xu"
+                },
+                {
+                    "authorId": "145002167",
+                    "name": "Jian Lu"
+                }
+            ],
+            "doi": "10.1145/3319535.3363193",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c7e7ce5ea5a02d6aa0a532fd96c0e31a092ad9ea",
+            "title": "DeepIntent: Deep Icon-Behavior Learning for Detecting Intention-Behavior Discrepancy in Mobile Apps",
+            "url": "https://www.semanticscholar.org/paper/c7e7ce5ea5a02d6aa0a532fd96c0e31a092ad9ea",
+            "venue": "CCS",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2109570965",
+                    "name": "Haoyu Wang"
+                },
+                {
+                    "authorId": "2110176601",
+                    "name": "Hongxuan Liu"
+                },
+                {
+                    "authorId": "40637427",
+                    "name": "Xusheng Xiao"
+                },
+                {
+                    "authorId": "2018895",
+                    "name": "Guozhu Meng"
+                },
+                {
+                    "authorId": "145508275",
+                    "name": "Yao Guo"
+                }
+            ],
+            "doi": "10.1109/ASE.2019.00035",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "bbdd2be7524b872f1d609017c772560161946efd",
+            "title": "Characterizing Android App Signing Issues",
+            "url": "https://www.semanticscholar.org/paper/bbdd2be7524b872f1d609017c772560161946efd",
+            "venue": "2019 34th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1486296675",
+                    "name": "Tianming Liu"
+                },
+                {
+                    "authorId": "2109570965",
+                    "name": "Haoyu Wang"
+                },
+                {
+                    "authorId": "2156056522",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "2729535",
+                    "name": "Guangdong Bai"
+                },
+                {
+                    "authorId": "145508275",
+                    "name": "Yao Guo"
+                },
+                {
+                    "authorId": "3027277",
+                    "name": "Guoai Xu"
+                }
+            ],
+            "doi": "10.1109/ASE.2019.00017",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2a90d5806d443e9e9228e806d7a3abf2d74a1f34",
+            "title": "DaPanda: Detecting Aggressive Push Notifications in Android Apps",
+            "url": "https://www.semanticscholar.org/paper/2a90d5806d443e9e9228e806d7a3abf2d74a1f34",
+            "venue": "2019 34th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": "10.1109/msr45733.2019",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "de20e3a4dbd7d0d30eb4a5b46d6222ba827cf208",
+            "title": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "url": "https://www.semanticscholar.org/paper/de20e3a4dbd7d0d30eb4a5b46d6222ba827cf208",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2312342362",
+                    "name": "Jiawei Li"
+                },
+                {
+                    "authorId": "2312346042",
+                    "name": "Jian Mao"
+                },
+                {
+                    "authorId": "2072984554",
+                    "name": "Jun Zeng"
+                },
+                {
+                    "authorId": "72995536",
+                    "name": "Qixiao Lin"
+                },
+                {
+                    "authorId": "2312892501",
+                    "name": "Shaowen Feng"
+                },
+                {
+                    "authorId": "2307048260",
+                    "name": "Zhenkai Liang"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b4816037111282e7600d580f6139019bf8858f46",
+            "title": "UIHash: Detecting Similar Android UIs through Grid-Based Visual Appearance Representation",
+            "url": "https://www.semanticscholar.org/paper/b4816037111282e7600d580f6139019bf8858f46",
+            "venue": "USENIX Security Symposium",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2065565041",
+                    "name": "Monika"
+                },
+                {
+                    "authorId": "2222028022",
+                    "name": "Y. K. Sharma"
+                },
+                {
+                    "authorId": "8902952",
+                    "name": "D. Tomar"
+                },
+                {
+                    "authorId": "144821178",
+                    "name": "R. Pateriya"
+                }
+            ],
+            "doi": "10.1051/itmconf/20235403002",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "978bcbf92d74b96c036b5a7c95004be4fb97b824",
+            "title": "Analysing mobile forensic datasets: A systematic review on availability, efficacy, and limitations",
+            "url": "https://www.semanticscholar.org/paper/978bcbf92d74b96c036b5a7c95004be4fb97b824",
+            "venue": "ITM Web of Conferences",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1728002",
+                    "name": "L. Caviglione"
+                },
+                {
+                    "authorId": "1749015",
+                    "name": "M. Chora\u015b"
+                },
+                {
+                    "authorId": "2338858",
+                    "name": "Igino Corona"
+                },
+                {
+                    "authorId": "145091516",
+                    "name": "A. Janicki"
+                },
+                {
+                    "authorId": "1738681",
+                    "name": "W. Mazurczyk"
+                },
+                {
+                    "authorId": "1700893781",
+                    "name": "M. Pawlicki"
+                },
+                {
+                    "authorId": "1728410",
+                    "name": "K. Wasielewska"
+                }
+            ],
+            "doi": "10.1109/ACCESS.2020.3048319",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "4d3179cdc8c306ab6a046251d12492526c2f8feb",
+            "title": "Tight Arms Race: Overview of Current Malware Threats and Trends in Their Detection",
+            "url": "https://www.semanticscholar.org/paper/4d3179cdc8c306ab6a046251d12492526c2f8feb",
+            "venue": "IEEE Access",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47115854",
+                    "name": "S. Roy"
+                },
+                {
+                    "authorId": "2124500256",
+                    "name": "Unique Karanjit"
+                },
+                {
+                    "authorId": "2267110",
+                    "name": "Shirin Nilizadeh"
+                }
+            ],
+            "doi": "10.14722/madweb.2021.23028",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "34874dd5eff1ad9654c8c4dcf17c2fc7dda114cd",
+            "title": "What Remains Uncaught?: Characterizing Sparsely Detected Malicious URLs on Twitter",
+            "url": "https://www.semanticscholar.org/paper/34874dd5eff1ad9654c8c4dcf17c2fc7dda114cd",
+            "venue": "Proceedings 2021 Workshop on Measurements, Attacks, and Defenses for the Web",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "52005368",
+                    "name": "S. Selvaganapathy"
+                },
+                {
+                    "authorId": "123961327",
+                    "name": "S. Sadasivam"
+                },
+                {
+                    "authorId": "1588167645",
+                    "name": "Vinayakumar Ravi"
+                }
+            ],
+            "doi": "10.13052/jcsm2245-1439.1017",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5089a53019d766be2318a1496fcadd96050c7d36",
+            "title": "A Review on Android Malware: Attacks, Countermeasures and Challenges Ahead",
+            "url": "https://www.semanticscholar.org/paper/5089a53019d766be2318a1496fcadd96050c7d36",
+            "venue": "J. Cyber Secur. Mobil.",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2912191",
+                    "name": "V. Syrris"
+                },
+                {
+                    "authorId": "1697349",
+                    "name": "Dimitris Geneiatakis"
+                }
+            ],
+            "doi": "10.1016/j.jisa.2021.102794",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "da1424719931bde3351eab93fc04c5ebf0f9499d",
+            "title": "On machine learning effectiveness for malware detection in Android OS using static analysis data",
+            "url": "https://www.semanticscholar.org/paper/da1424719931bde3351eab93fc04c5ebf0f9499d",
+            "venue": "J. Inf. Secur. Appl.",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "669ce66ce497328d7fa40775d8b3b0cf6b51fe71",
+            "title": "Evaluating Phishing Reports shared on Twitter",
+            "url": "https://www.semanticscholar.org/paper/669ce66ce497328d7fa40775d8b3b0cf6b51fe71",
+            "venue": "",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1845347",
+                    "name": "William La Cholter"
+                },
+                {
+                    "authorId": "153886665",
+                    "name": "Matthew Elder"
+                },
+                {
+                    "authorId": "146197150",
+                    "name": "Antonius Stalick"
+                }
+            ],
+            "doi": "10.5220/0010237904750484",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "89f518a3bc64f875c89ba7afa37a4f7fa6a770fa",
+            "title": "Windows Malware Binaries in C/C++ GitHub Repositories: Prevalence and Lessons Learned",
+            "url": "https://www.semanticscholar.org/paper/89f518a3bc64f875c89ba7afa37a4f7fa6a770fa",
+            "venue": "ICISSP",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "89601314",
+                    "name": "Neda Firoz"
+                },
+                {
+                    "authorId": "88784785",
+                    "name": "M. Tahsin"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "76191dbaa4f21537c06b12fb942c018f95f486e9",
+            "title": "Comprehensive Analysis of Android Malware detection through Semi-supervised Autoencoder models",
+            "url": "https://www.semanticscholar.org/paper/76191dbaa4f21537c06b12fb942c018f95f486e9",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2212620225",
+                    "name": "Jawhara Z. Boodai"
+                },
+                {
+                    "authorId": "2221450512",
+                    "name": "Aminah Alqahtani"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6feee9a083682118539f4a2f484422e6d3f36511",
+            "title": "DEEP LEARNING FOR MALWARE DETECTION: LITERATURE REVIEW",
+            "url": "https://www.semanticscholar.org/paper/6feee9a083682118539f4a2f484422e6d3f36511",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "corpusId": 195298479,
+    "doi": "10.1109/MSR.2019.00067",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 6,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 64,
+    "numCiting": 32,
+    "paperId": "6031380b6c3d5d2a9ca6221270ada9e64d28fcde",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2109570965",
+                    "name": "Haoyu Wang"
+                },
+                {
+                    "authorId": "2157148234",
+                    "name": "Hao Li"
+                },
+                {
+                    "authorId": "145508275",
+                    "name": "Yao Guo"
+                }
+            ],
+            "doi": "10.1145/3308558.3313611",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "52be5c8610e1405cd3dc73b656471193e8d3eb8e",
+            "title": "Understanding the Evolution of Mobile App Ecosystems: A Longitudinal Measurement Study of Google Play",
+            "url": "https://www.semanticscholar.org/paper/52be5c8610e1405cd3dc73b656471193e8d3eb8e",
+            "venue": "WWW",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "7741730",
+                    "name": "Yangyu Hu"
+                },
+                {
+                    "authorId": "2109570965",
+                    "name": "Haoyu Wang"
+                },
+                {
+                    "authorId": "2156056522",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "145508275",
+                    "name": "Yao Guo"
+                },
+                {
+                    "authorId": "3027277",
+                    "name": "Guoai Xu"
+                },
+                {
+                    "authorId": "2053864722",
+                    "name": "Ren He"
+                }
+            ],
+            "doi": "10.1109/SANER.2019.8668035",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "3a37c67da4614e8aa6e2c81555dd282e8e061e77",
+            "title": "Want to Earn a Few Extra Bucks? A First Look at Money-Making Apps",
+            "url": "https://www.semanticscholar.org/paper/3a37c67da4614e8aa6e2c81555dd282e8e061e77",
+            "venue": "2019 IEEE 26th International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2019
+        },
+        {
+            "arxivId": "1810.07780",
+            "authors": [
+                {
+                    "authorId": "2109570965",
+                    "name": "Haoyu Wang"
+                },
+                {
+                    "authorId": "2116746514",
+                    "name": "Zhe Liu"
+                },
+                {
+                    "authorId": "81545726",
+                    "name": "Jingyue Liang"
+                },
+                {
+                    "authorId": "1398192285",
+                    "name": "Narseo Vallina-Rodriguez"
+                },
+                {
+                    "authorId": "145508275",
+                    "name": "Yao Guo"
+                },
+                {
+                    "authorId": "2156056522",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "145170015",
+                    "name": "J. Tapiador"
+                },
+                {
+                    "authorId": "1410244791",
+                    "name": "Jingcun Cao"
+                },
+                {
+                    "authorId": "3027277",
+                    "name": "Guoai Xu"
+                }
+            ],
+            "doi": "10.1145/3278532.3278558",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f497978c9715cd365eb514936a7d97fc5f302291",
+            "title": "Beyond Google Play: A Large-Scale Comparative Study of Chinese Android App Markets",
+            "url": "https://www.semanticscholar.org/paper/f497978c9715cd365eb514936a7d97fc5f302291",
+            "venue": "Internet Measurement Conference",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "33253422",
+                    "name": "Le Yu"
+                },
+                {
+                    "authorId": "1708419",
+                    "name": "Xiapu Luo"
+                },
+                {
+                    "authorId": "3103967",
+                    "name": "Chenxiong Qian"
+                },
+                {
+                    "authorId": "2118511020",
+                    "name": "Shuai Wang"
+                },
+                {
+                    "authorId": "2630157",
+                    "name": "Hareton K. N. Leung"
+                }
+            ],
+            "doi": "10.1109/TSE.2017.2730198",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3c3b152c950e7e983c205cf8b0a4f6ce70908575",
+            "title": "Enhancing the Description-to-Behavior Fidelity in Android Apps with Privacy Policy",
+            "url": "https://www.semanticscholar.org/paper/3c3b152c950e7e983c205cf8b0a4f6ce70908575",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2018
+        },
+        {
+            "arxivId": "1807.04901",
+            "authors": [
+                {
+                    "authorId": "7741730",
+                    "name": "Yangyu Hu"
+                },
+                {
+                    "authorId": "2109570965",
+                    "name": "Haoyu Wang"
+                },
+                {
+                    "authorId": "152641282",
+                    "name": "Yajin Zhou"
+                },
+                {
+                    "authorId": "145508275",
+                    "name": "Yao Guo"
+                },
+                {
+                    "authorId": "2156056522",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "51138886",
+                    "name": "Bingxuan Luo"
+                },
+                {
+                    "authorId": "2143943875",
+                    "name": "Fangren Xu"
+                }
+            ],
+            "doi": "10.1109/TDSC.2019.2908939",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0aa0dfaa47e96f86a226053d58821d8f834f4512",
+            "title": "Dating with Scambots: Understanding the Ecosystem of Fraudulent Dating Applications",
+            "url": "https://www.semanticscholar.org/paper/0aa0dfaa47e96f86a226053d58821d8f834f4512",
+            "venue": "IEEE Transactions on Dependable and Secure Computing",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144101190",
+                    "name": "Jean-Fran\u00e7ois Lalande"
+                },
+                {
+                    "authorId": "1787093",
+                    "name": "Val\u00e9rie Viet Triem Tong"
+                },
+                {
+                    "authorId": "3469231",
+                    "name": "M. Leslous"
+                },
+                {
+                    "authorId": "2073987841",
+                    "name": "Pierre Graux"
+                }
+            ],
+            "doi": "10.1109/HPCS.2018.00173",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "be443014ce6e1da68b758af4715f9a9e0cd41e3f",
+            "title": "Challenges for Reliable and Large Scale Evaluation of Android Malware Analysis",
+            "url": "https://www.semanticscholar.org/paper/be443014ce6e1da68b758af4715f9a9e0cd41e3f",
+            "venue": "2018 International Conference on High Performance Computing & Simulation (HPCS)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2109570965",
+                    "name": "Haoyu Wang"
+                },
+                {
+                    "authorId": "1706574",
+                    "name": "Hao Li"
+                },
+                {
+                    "authorId": "2156056522",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "145508275",
+                    "name": "Yao Guo"
+                },
+                {
+                    "authorId": "3027277",
+                    "name": "Guoai Xu"
+                }
+            ],
+            "doi": "10.1145/3196398.3196412",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "377d767fe4bf529e3937fc6e8c46e6867e946265",
+            "title": "Why are Android Apps Removed From Google Play? A Large-Scale Empirical Study",
+            "url": "https://www.semanticscholar.org/paper/377d767fe4bf529e3937fc6e8c46e6867e946265",
+            "venue": "2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144205306",
+                    "name": "Wei Yang"
+                },
+                {
+                    "authorId": "145134489",
+                    "name": "M. Prasad"
+                },
+                {
+                    "authorId": "145906750",
+                    "name": "Tao Xie"
+                }
+            ],
+            "doi": "10.1145/3180155.3180223",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d24bc60c2bb5c0f0d51312538bcf20bb7b262e70",
+            "title": "EnMobile: Entity-Based Characterization and Analysis of Mobile Malware",
+            "url": "https://www.semanticscholar.org/paper/d24bc60c2bb5c0f0d51312538bcf20bb7b262e70",
+            "venue": "2018 IEEE/ACM 40th International Conference on Software Engineering (ICSE)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40445635",
+                    "name": "J. Chen"
+                },
+                {
+                    "authorId": "1954131",
+                    "name": "Chiheng Wang"
+                },
+                {
+                    "authorId": "2724702",
+                    "name": "Ziming Zhao"
+                },
+                {
+                    "authorId": "34526205",
+                    "name": "Kai Chen"
+                },
+                {
+                    "authorId": "3302691",
+                    "name": "Ruiying Du"
+                },
+                {
+                    "authorId": "1720429",
+                    "name": "Gail-Joon Ahn"
+                }
+            ],
+            "doi": "10.1109/TIFS.2017.2787905",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c179c347b95d2a33dc0104f78c1386135ff17041",
+            "title": "Uncovering the Face of Android Ransomware: Characterization and Real-Time Detection",
+            "url": "https://www.semanticscholar.org/paper/c179c347b95d2a33dc0104f78c1386135ff17041",
+            "venue": "IEEE Transactions on Information Forensics and Security",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3468546",
+                    "name": "Paul Irolla"
+                },
+                {
+                    "authorId": "40865273",
+                    "name": "Alexandre Dey"
+                }
+            ],
+            "doi": "10.1007/s11416-018-0316-z",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "56848e7c8180390540d656b6aa6932992e23bafd",
+            "title": "The duplication issue within the Drebin dataset",
+            "url": "https://www.semanticscholar.org/paper/56848e7c8180390540d656b6aa6932992e23bafd",
+            "venue": "Journal of Computer Virology and Hacking Techniques",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2065125544",
+                    "name": "Feng Dong"
+                },
+                {
+                    "authorId": "2109570965",
+                    "name": "Haoyu Wang"
+                },
+                {
+                    "authorId": "2156056522",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "145508275",
+                    "name": "Yao Guo"
+                },
+                {
+                    "authorId": "3027277",
+                    "name": "Guoai Xu"
+                },
+                {
+                    "authorId": "2116578043",
+                    "name": "Shaodong Zhang"
+                }
+            ],
+            "doi": "10.1145/3177102.3177113",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "330cc903de08a092ea1868e13909017e176f6a61",
+            "title": "How do Mobile Apps Violate the Behavioral Policy of Advertisement Libraries?",
+            "url": "https://www.semanticscholar.org/paper/330cc903de08a092ea1868e13909017e176f6a61",
+            "venue": "HotMobile",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2065125544",
+                    "name": "Feng Dong"
+                },
+                {
+                    "authorId": "2109570965",
+                    "name": "Haoyu Wang"
+                },
+                {
+                    "authorId": "2156056522",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "145508275",
+                    "name": "Yao Guo"
+                },
+                {
+                    "authorId": "3023999",
+                    "name": "T\u00e9gawend\u00e9 F. Bissyand\u00e9"
+                },
+                {
+                    "authorId": "1486296675",
+                    "name": "Tianming Liu"
+                },
+                {
+                    "authorId": "3027277",
+                    "name": "Guoai Xu"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                }
+            ],
+            "doi": "10.1145/3236024.3236045",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ba395665b41010675206a9d06a958241eaf84e02",
+            "title": "FraudDroid: automated ad fraud detection for Android apps",
+            "url": "https://www.semanticscholar.org/paper/ba395665b41010675206a9d06a958241eaf84e02",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3305506",
+                    "name": "Fengguo Wei"
+                },
+                {
+                    "authorId": "2110458167",
+                    "name": "Yuping Li"
+                },
+                {
+                    "authorId": "40400362",
+                    "name": "Sankardas Roy"
+                },
+                {
+                    "authorId": "1932524",
+                    "name": "Xinming Ou"
+                },
+                {
+                    "authorId": "2118084539",
+                    "name": "Wu Zhou"
+                }
+            ],
+            "doi": "10.1007/978-3-319-60876-1_12",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c58e3b32bc88ed3d8e7bcdf0523eb27057bd7d0f",
+            "title": "Deep Ground Truth Analysis of Current Android Malware",
+            "url": "https://www.semanticscholar.org/paper/c58e3b32bc88ed3d8e7bcdf0523eb27057bd7d0f",
+            "venue": "DIMVA",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2156057406",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "2108395470",
+                    "name": "Daoyuan Li"
+                },
+                {
+                    "authorId": "3023999",
+                    "name": "T\u00e9gawend\u00e9 F. Bissyand\u00e9"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                },
+                {
+                    "authorId": "118221059",
+                    "name": "Yves Le Traon"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                },
+                {
+                    "authorId": "2189170",
+                    "name": "L. Cavallaro"
+                }
+            ],
+            "doi": "10.1109/TIFS.2017.2656460",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b34eb7aa9ee3c89b9d284a20904a8b4a8ef1524d",
+            "title": "Understanding Android App Piggybacking: A Systematic Study of Malicious Code Grafting",
+            "url": "https://www.semanticscholar.org/paper/b34eb7aa9ee3c89b9d284a20904a8b4a8ef1524d",
+            "venue": "IEEE Transactions on Information Forensics and Security",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2554953",
+                    "name": "Niall McLaughlin"
+                },
+                {
+                    "authorId": "2248667",
+                    "name": "J. M. D. Rinc\u00f3n"
+                },
+                {
+                    "authorId": "38744391",
+                    "name": "Boojoong Kang"
+                },
+                {
+                    "authorId": "1839835",
+                    "name": "S. Yerima"
+                },
+                {
+                    "authorId": "145460322",
+                    "name": "P. Miller"
+                },
+                {
+                    "authorId": "1738421",
+                    "name": "S. Sezer"
+                },
+                {
+                    "authorId": "3434559",
+                    "name": "Y. Safaei"
+                },
+                {
+                    "authorId": "9680491",
+                    "name": "Erik Trickel"
+                },
+                {
+                    "authorId": "2724702",
+                    "name": "Ziming Zhao"
+                },
+                {
+                    "authorId": "2527531",
+                    "name": "Adam Doup\u00e9"
+                },
+                {
+                    "authorId": "1720429",
+                    "name": "Gail-Joon Ahn"
+                }
+            ],
+            "doi": "10.1145/3029806.3029823",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "95707d8e38241fddb375caf5354313c034e28e19",
+            "title": "Deep Android Malware Detection",
+            "url": "https://www.semanticscholar.org/paper/95707d8e38241fddb375caf5354313c034e28e19",
+            "venue": "CODASPY",
+            "year": 2017
+        },
+        {
+            "arxivId": "1612.04433",
+            "authors": [
+                {
+                    "authorId": "3378428",
+                    "name": "Enrico Mariconti"
+                },
+                {
+                    "authorId": "2371085",
+                    "name": "Lucky Onwuzurike"
+                },
+                {
+                    "authorId": "1749393",
+                    "name": "Panagiotis Andriotis"
+                },
+                {
+                    "authorId": "1728207",
+                    "name": "Emiliano De Cristofaro"
+                },
+                {
+                    "authorId": "34672651",
+                    "name": "Gordon J. Ross"
+                },
+                {
+                    "authorId": "2350947",
+                    "name": "G. Stringhini"
+                }
+            ],
+            "doi": "10.14722/NDSS.2017.23353",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e8ee8fbf3a9eead394af0c8f93e02f88f7704a50",
+            "title": "MaMaDroid: Detecting Android Malware by Building Markov Chains of Behavioral Models",
+            "url": "https://www.semanticscholar.org/paper/e8ee8fbf3a9eead394af0c8f93e02f88f7704a50",
+            "venue": "NDSS",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2057740860",
+                    "name": "Marcos Sebasti\u00e1n"
+                },
+                {
+                    "authorId": "2068464115",
+                    "name": "Richard Rivera"
+                },
+                {
+                    "authorId": "3048941",
+                    "name": "Platon Kotzias"
+                },
+                {
+                    "authorId": "144274911",
+                    "name": "Juan Caballero"
+                }
+            ],
+            "doi": "10.1007/978-3-319-45719-2_11",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "f74804eaf20b71da1ad2ebbbb429595c133459c8",
+            "title": "AVclass: A Tool for Massive Malware Labeling",
+            "url": "https://www.semanticscholar.org/paper/f74804eaf20b71da1ad2ebbbb429595c133459c8",
+            "venue": "RAID",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1796709",
+                    "name": "Siqi Ma"
+                },
+                {
+                    "authorId": "1390898759",
+                    "name": "Shaowei Wang"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                },
+                {
+                    "authorId": "1713669",
+                    "name": "R. Deng"
+                },
+                {
+                    "authorId": "2145963585",
+                    "name": "Cong Sun"
+                }
+            ],
+            "doi": "10.1109/COMPSAC.2015.93",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c572c43e29777378426ef76b80c49768037c7247",
+            "title": "Active Semi-supervised Approach for Checking App Behavior against Its Description",
+            "url": "https://www.semanticscholar.org/paper/c572c43e29777378426ef76b80c49768037c7247",
+            "venue": "2015 IEEE 39th Annual Computer Software and Applications Conference",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2466451",
+                    "name": "Parvez Faruki"
+                },
+                {
+                    "authorId": "2343473",
+                    "name": "A. Bharmal"
+                },
+                {
+                    "authorId": "145159112",
+                    "name": "V. Laxmi"
+                },
+                {
+                    "authorId": "1827512",
+                    "name": "Vijay Ganmoor"
+                },
+                {
+                    "authorId": "1869272",
+                    "name": "M. Gaur"
+                },
+                {
+                    "authorId": "145746490",
+                    "name": "M. Conti"
+                },
+                {
+                    "authorId": "1759654",
+                    "name": "M. Rajarajan"
+                }
+            ],
+            "doi": "10.1109/COMST.2014.2386139",
+            "intent": [
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "996fcf5bf7b7145fdcfb89ee6997efb6d6d0c210",
+            "title": "Android Security: A Survey of Issues, Malware Penetration, and Defenses",
+            "url": "https://www.semanticscholar.org/paper/996fcf5bf7b7145fdcfb89ee6997efb6d6d0c210",
+            "venue": "IEEE Communications Surveys & Tutorials",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2150671055",
+                    "name": "Yu Feng"
+                },
+                {
+                    "authorId": "33209907",
+                    "name": "Saswat Anand"
+                },
+                {
+                    "authorId": "1714075",
+                    "name": "I\u015f\u0131l Dillig"
+                },
+                {
+                    "authorId": "144653825",
+                    "name": "A. Aiken"
+                }
+            ],
+            "doi": "10.1145/2635868.2635869",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "737c1927a221bf1864af8622d6d4a85733325cb6",
+            "title": "Apposcopy: semantics-based detection of Android malware through static analysis",
+            "url": "https://www.semanticscholar.org/paper/737c1927a221bf1864af8622d6d4a85733325cb6",
+            "venue": "SIGSOFT FSE",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2762411",
+                    "name": "Alessandra Gorla"
+                },
+                {
+                    "authorId": "2462939",
+                    "name": "Ilaria Tavecchia"
+                },
+                {
+                    "authorId": "2278244",
+                    "name": "F. Gross"
+                },
+                {
+                    "authorId": "145594351",
+                    "name": "A. Zeller"
+                }
+            ],
+            "doi": "10.1145/2568225.2568276",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "97b3a08ee39fd82ceb0bb6bfd42d22903b487352",
+            "title": "Checking app behavior against app descriptions",
+            "url": "https://www.semanticscholar.org/paper/97b3a08ee39fd82ceb0bb6bfd42d22903b487352",
+            "venue": "ICSE",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1716269",
+                    "name": "W. Enck"
+                },
+                {
+                    "authorId": "118022961",
+                    "name": "Peter Gilbert"
+                },
+                {
+                    "authorId": "1704157",
+                    "name": "Byung-Gon Chun"
+                },
+                {
+                    "authorId": "2554943",
+                    "name": "Landon P. Cox"
+                },
+                {
+                    "authorId": "33481800",
+                    "name": "Jaeyeon Jung"
+                },
+                {
+                    "authorId": "144061974",
+                    "name": "P. Mcdaniel"
+                },
+                {
+                    "authorId": "144948702",
+                    "name": "Anmol Sheth"
+                }
+            ],
+            "doi": "10.1145/2494522",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a71c32a1a18647b73704731d9c64673a3e06dc86",
+            "title": "TaintDroid",
+            "url": "https://www.semanticscholar.org/paper/a71c32a1a18647b73704731d9c64673a3e06dc86",
+            "venue": "Commun. ACM",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "152641282",
+                    "name": "Yajin Zhou"
+                },
+                {
+                    "authorId": "1740888",
+                    "name": "Xuxian Jiang"
+                }
+            ],
+            "doi": "10.1109/SP.2012.16",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "12ef153d9c7ccc374d56acf34b59fb2eaec6f755",
+            "title": "Dissecting Android Malware: Characterization and Evolution",
+            "url": "https://www.semanticscholar.org/paper/12ef153d9c7ccc374d56acf34b59fb2eaec6f755",
+            "venue": "2012 IEEE Symposium on Security and Privacy",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1716269",
+                    "name": "W. Enck"
+                },
+                {
+                    "authorId": "118022961",
+                    "name": "Peter Gilbert"
+                },
+                {
+                    "authorId": "1704157",
+                    "name": "Byung-Gon Chun"
+                },
+                {
+                    "authorId": "2554943",
+                    "name": "Landon P. Cox"
+                },
+                {
+                    "authorId": "33481800",
+                    "name": "Jaeyeon Jung"
+                },
+                {
+                    "authorId": "144061974",
+                    "name": "P. Mcdaniel"
+                },
+                {
+                    "authorId": "144948702",
+                    "name": "Anmol Sheth"
+                }
+            ],
+            "doi": "10.1145/2619091",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f7c69271951842a2be9f3126d2ef16ce949df58f",
+            "title": "TaintDroid",
+            "url": "https://www.semanticscholar.org/paper/f7c69271951842a2be9f3126d2ef16ce949df58f",
+            "venue": "OSDI",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201cGoogle Play API,\u201d",
+            "url": "",
+            "venue": "github",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201cTool for leaking and bypassing Android malware detection system,\u201d",
+            "url": "",
+            "venue": "github.com/sslab-gatech/avpass",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201cMassive Android Malware Outbreak Invades Google Play Store,\u201d",
+            "url": "",
+            "venue": "http://fortune.com/2017/09/14/google-play-android-malware/",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201cMalicious Android apps sneak malware onto your phone with droppers,\u201d",
+            "url": "",
+            "venue": "mashable.com/article/ droppers-malware-android-google-play-store/",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201c2018 Malware Forecast: the onward march of Android malware,\u201d",
+            "url": "",
+            "venue": "",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39796055",
+                    "name": "Saba Arshad"
+                },
+                {
+                    "authorId": "35191617",
+                    "name": "M. A. Shah"
+                },
+                {
+                    "authorId": "49213111",
+                    "name": "Abid Khan"
+                },
+                {
+                    "authorId": "50307408",
+                    "name": "Mansoor Ahmed"
+                }
+            ],
+            "doi": "10.14569/IJACSA.2016.070262",
+            "intent": [
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "0f1f0e5212aa55204d11a0880f5d1abdbfe703d2",
+            "title": "Android Malware Detection & Protection: A Survey",
+            "url": "https://www.semanticscholar.org/paper/0f1f0e5212aa55204d11a0880f5d1abdbfe703d2",
+            "venue": "",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1968806",
+                    "name": "Hengshu Zhu"
+                },
+                {
+                    "authorId": "144467554",
+                    "name": "Hui Xiong"
+                },
+                {
+                    "authorId": "2068905418",
+                    "name": "Yong Ge"
+                },
+                {
+                    "authorId": "2227868312",
+                    "name": "Enhong Chen"
+                }
+            ],
+            "doi": "10.1109/TKDE.2014.2320733",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9c34f1c8282585e68b0540a50b1905780c483c1b",
+            "title": "Discovery of Ranking Fraud for Mobile Apps",
+            "url": "https://www.semanticscholar.org/paper/9c34f1c8282585e68b0540a50b1905780c483c1b",
+            "venue": "IEEE Transactions on Knowledge and Data Engineering",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "79405068",
+                    "name": "Dan Arp"
+                },
+                {
+                    "authorId": "3219416",
+                    "name": "Michael Spreitzenbarth"
+                },
+                {
+                    "authorId": "145035359",
+                    "name": "M. Hubner"
+                },
+                {
+                    "authorId": "3088551",
+                    "name": "Hugo Gascon"
+                },
+                {
+                    "authorId": "144825749",
+                    "name": "Konrad Rieck"
+                }
+            ],
+            "doi": "10.14722/NDSS.2014.23247",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0b38a236d2377068408309f1d31e5c5fc5eedd0b",
+            "title": "DREBIN: Effective and Explainable Detection of Android Malware in Your Pocket",
+            "url": "https://www.semanticscholar.org/paper/0b38a236d2377068408309f1d31e5c5fc5eedd0b",
+            "venue": "NDSS",
+            "year": 2014
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "RmvDroid: Towards A Reliable Android Malware Dataset with App Metadata",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/6031380b6c3d5d2a9ca6221270ada9e64d28fcde",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2019
+}

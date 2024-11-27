@@ -1,0 +1,1529 @@
+{
+    "abstract": "Today, software developers work on complex and fast-moving projects that often require instant assistance from other domain and subject matter experts. Chat servers such as Discord facilitate live communication and collaboration among developers all over the world. With numerous topics discussed in parallel, mining and analyzing the chat data of these platforms would offer researchers and tool makers opportunities to develop software tools and services such as automated virtual assistants, chat bots, chat summarization techniques, Q&A thesaurus, and more. In this paper, we propose a dataset called DISCO consisting of the one-year public DIScord chat COnversations of four software development communities. We have collected the chat data of the channels containing general programming Q&A discussions from the four Discord servers, applied a disentanglement technique [13] to extract conversations from the chat transcripts, and performed a manual validation of conversations on a random sample (500 conversations). Our dataset consists of 28, 712 conversations, 1,508,093 messages posted by 323, 562 users. As a case study on the dataset, we applied a topic modelling technique for extracting the top five general topics that are most discussed in each Discord channel.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2172214457",
+            "name": "Keerthana Muthu Subash",
+            "url": "https://www.semanticscholar.org/author/2172214457"
+        },
+        {
+            "authorId": "2052125282",
+            "name": "L. P. Kumar",
+            "url": "https://www.semanticscholar.org/author/2052125282"
+        },
+        {
+            "authorId": "2555008",
+            "name": "Srinivas Vadlamani",
+            "url": "https://www.semanticscholar.org/author/2555008"
+        },
+        {
+            "authorId": "9728244",
+            "name": "Preetha Chatterjee",
+            "url": "https://www.semanticscholar.org/author/9728244"
+        },
+        {
+            "authorId": "25701557",
+            "name": "Olga Baysal",
+            "url": "https://www.semanticscholar.org/author/25701557"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2273956338",
+                    "name": "Esteban Parra"
+                }
+            ],
+            "doi": "10.1109/ICSME58846.2023.00078",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "891f2ed257821b9368c023ef2ac22b38745e126c",
+            "title": "Developers and Modern Communication Mediums",
+            "url": "https://www.semanticscholar.org/paper/891f2ed257821b9368c023ef2ac22b38745e126c",
+            "venue": "2023 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2093184672",
+                    "name": "Guodong Fan"
+                },
+                {
+                    "authorId": "2110750613",
+                    "name": "Shizhan Chen"
+                },
+                {
+                    "authorId": "2120430652",
+                    "name": "Hongyue Wu"
+                },
+                {
+                    "authorId": "2337550",
+                    "name": "Cuiyun Gao"
+                },
+                {
+                    "authorId": "27058920",
+                    "name": "Jianmao Xiao"
+                },
+                {
+                    "authorId": "144664442",
+                    "name": "Xiao Xue"
+                },
+                {
+                    "authorId": "2113907598",
+                    "name": "Zhiyong Feng"
+                }
+            ],
+            "doi": "10.1016/j.jss.2023.111763",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2f21d897cb1e808c609d7a0e6a136cce23e9050d",
+            "title": "Dialog summarization for software collaborative platform via tuning pre-trained models",
+            "url": "https://www.semanticscholar.org/paper/2f21d897cb1e808c609d7a0e6a136cce23e9050d",
+            "venue": "J. Syst. Softw.",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2071967484",
+                    "name": "E. Riggio"
+                },
+                {
+                    "authorId": "2248487",
+                    "name": "Marco Raglianti"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                }
+            ],
+            "doi": "10.1109/ICPC58990.2023.00018",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0930105c63685cb3a13d877aa8a146682f84de53",
+            "title": "Conversation Disentanglement As-a-Service",
+            "url": "https://www.semanticscholar.org/paper/0930105c63685cb3a13d877aa8a146682f84de53",
+            "venue": "2023 IEEE/ACM 31st International Conference on Program Comprehension (ICPC)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2212374857",
+                    "name": "Anand Ravi Aiyer"
+                },
+                {
+                    "authorId": "2106368959",
+                    "name": "I. Ramakrishnan"
+                },
+                {
+                    "authorId": "145070406",
+                    "name": "V. Ashok"
+                }
+            ],
+            "doi": "10.1145/3581641.3584073",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "89c76352b124728781347a02104c93031e7dd75b",
+            "title": "Taming Entangled Accessibility Forum Threads for Efficient Screen Reading",
+            "url": "https://www.semanticscholar.org/paper/89c76352b124728781347a02104c93031e7dd75b",
+            "venue": "IUI",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2248487",
+                    "name": "Marco Raglianti"
+                },
+                {
+                    "authorId": "144116331",
+                    "name": "Csaba Nagy"
+                },
+                {
+                    "authorId": "2623644",
+                    "name": "Roberto Minelli"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                }
+            ],
+            "doi": "10.1109/ICSME55016.2022.00062",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1511c7f4cad5510ed58222869c7be27cb51ab570",
+            "title": "DiscOrDance: Visualizing Software Developers Communities on Discord",
+            "url": "https://www.semanticscholar.org/paper/1511c7f4cad5510ed58222869c7be27cb51ab570",
+            "venue": "2022 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2206.14118",
+            "authors": [
+                {
+                    "authorId": "2156237",
+                    "name": "M. Wessel"
+                },
+                {
+                    "authorId": "1522034371",
+                    "name": "Joseph Vargovich"
+                },
+                {
+                    "authorId": "143911967",
+                    "name": "M. Gerosa"
+                },
+                {
+                    "authorId": "1685418",
+                    "name": "Christoph Treude"
+                }
+            ],
+            "doi": "10.1007/s10664-023-10369-w",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a15dcdede812815df972de7c04df44f12546e6f2",
+            "title": "GitHub Actions: The Impact on the Pull Request Process",
+            "url": "https://www.semanticscholar.org/paper/a15dcdede812815df972de7c04df44f12546e6f2",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2152631859",
+                    "name": "Hanzhi Jiang"
+                },
+                {
+                    "authorId": "2305416699",
+                    "name": "Lin Shi"
+                },
+                {
+                    "authorId": "2305355075",
+                    "name": "Meiru Che"
+                },
+                {
+                    "authorId": "2167503058",
+                    "name": "Yuxia Zhang"
+                },
+                {
+                    "authorId": "2157214565",
+                    "name": "Qing Wang"
+                }
+            ],
+            "doi": "10.1109/tse.2024.3410292",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "89dba1ca7e3313f227ed56166a56fb5d4b1aebd1",
+            "title": "Bringing Open Source Communication and Development Together: A Cross-Platform Study on Gitter and GitHub",
+            "url": "https://www.semanticscholar.org/paper/89dba1ca7e3313f227ed56166a56fb5d4b1aebd1",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2304900899",
+                    "name": "Shridhar Joshi"
+                },
+                {
+                    "authorId": "2304696242",
+                    "name": "Akshada Warik"
+                },
+                {
+                    "authorId": "2304693781",
+                    "name": "Harsh Rathod"
+                },
+                {
+                    "authorId": "2304667719",
+                    "name": "Jayshree Jha"
+                },
+                {
+                    "authorId": "2304659376",
+                    "name": "Anagha Aher"
+                }
+            ],
+            "doi": "10.1063/5.0211884",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "3e47d8e090098e0fcabf0af3dd6f71aa7275821c",
+            "title": "Developing chat server for addressing FAQ\u2019s about creative learning",
+            "url": "https://www.semanticscholar.org/paper/3e47d8e090098e0fcabf0af3dd6f71aa7275821c",
+            "venue": "AIP Conference Proceedings",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2248487",
+                    "name": "Marco Raglianti"
+                },
+                {
+                    "authorId": "144116331",
+                    "name": "Csaba Nagy"
+                },
+                {
+                    "authorId": "2623644",
+                    "name": "Roberto Minelli"
+                },
+                {
+                    "authorId": "144375145",
+                    "name": "B. Lin"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                }
+            ],
+            "doi": "10.4230/LIPIcs.ECOOP.2023.43",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1c1d03fbee03c62ee28cb196001c7fa43f96edf2",
+            "title": "On the Rise of Modern Software Documentation (Pearl/Brave New Idea)",
+            "url": "https://www.semanticscholar.org/paper/1c1d03fbee03c62ee28cb196001c7fa43f96edf2",
+            "venue": "ECOOP",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2223962470",
+                    "name": "Aditya Srivatsa"
+                },
+                {
+                    "authorId": "2045067",
+                    "name": "Manish Shrivastava"
+                },
+                {
+                    "authorId": "1829635",
+                    "name": "R. Mamidi"
+                },
+                {
+                    "authorId": "2051500132",
+                    "name": "I. S. Upadhyay"
+                },
+                {
+                    "authorId": "2121363293",
+                    "name": "Monil Gokani"
+                },
+                {
+                    "authorId": "2101317204",
+                    "name": "Prashant Kodali"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2c2c132613cc3fd8a6eb619c0bf18fe03413ceeb",
+            "title": "Improving Text Accessibility using Text Simplification and Conversation Disentanglement",
+            "url": "https://www.semanticscholar.org/paper/2c2c132613cc3fd8a6eb619c0bf18fe03413ceeb",
+            "venue": "",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "120128619",
+                    "name": "Tiago Rom\u00e3o"
+                },
+                {
+                    "authorId": "2231126918",
+                    "name": "Pedro Pestana"
+                },
+                {
+                    "authorId": "1715374",
+                    "name": "Leonel Morgado"
+                }
+            ],
+            "doi": "10.4230/OASIcs.ICPEC.2023.13",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "18fedfdd24f1d920aa3c022092a431c93e5b3904",
+            "title": "A Systematic Review of Teacher-Facing Dashboards for Collaborative Learning Activities and Tools in Online Higher Education",
+            "url": "https://www.semanticscholar.org/paper/18fedfdd24f1d920aa3c022092a431c93e5b3904",
+            "venue": "ICPEC",
+            "year": 2023
+        }
+    ],
+    "corpusId": 249929281,
+    "doi": "10.1145/3524842.3528018",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 1,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 11,
+    "numCiting": 42,
+    "paperId": "10aad7fdd11997f6c78934ca76771ba46867fcf8",
+    "references": [
+        {
+            "arxivId": "2109.03199",
+            "authors": [
+                {
+                    "authorId": "39080911",
+                    "name": "Hui Liu"
+                },
+                {
+                    "authorId": "145459175",
+                    "name": "Zhan Shi"
+                },
+                {
+                    "authorId": "2130251018",
+                    "name": "Xiao-Dan Zhu"
+                }
+            ],
+            "doi": "10.18653/v1/2021.emnlp-main.181",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "890a9c6345cd2d0ca95c76d870b7d3f754671bb5",
+            "title": "Unsupervised Conversation Disentanglement through Co-Training",
+            "url": "https://www.semanticscholar.org/paper/890a9c6345cd2d0ca95c76d870b7d3f754671bb5",
+            "venue": "EMNLP",
+            "year": 2021
+        },
+        {
+            "arxivId": "2107.05823",
+            "authors": [
+                {
+                    "authorId": "2152999042",
+                    "name": "Lin Shi"
+                },
+                {
+                    "authorId": "2119244568",
+                    "name": "Xiao Chen"
+                },
+                {
+                    "authorId": "49307665",
+                    "name": "Ye Yang"
+                },
+                {
+                    "authorId": "2152631859",
+                    "name": "Hanzhi Jiang"
+                },
+                {
+                    "authorId": "2108879204",
+                    "name": "Ziyou Jiang"
+                },
+                {
+                    "authorId": "2793310",
+                    "name": "Nan Niu"
+                },
+                {
+                    "authorId": "40326638",
+                    "name": "Qing Wang"
+                }
+            ],
+            "doi": "10.1145/3468264.3468562",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "de2544e66a99b49da65f7ecb0f63d6ea817d3083",
+            "title": "A first look at developers\u2019 live chat on Gitter",
+            "url": "https://www.semanticscholar.org/paper/de2544e66a99b49da65f7ecb0f63d6ea817d3083",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "9728244",
+                    "name": "Preetha Chatterjee"
+                },
+                {
+                    "authorId": "1703177",
+                    "name": "Kostadin Damevski"
+                },
+                {
+                    "authorId": "1699934",
+                    "name": "L. Pollock"
+                }
+            ],
+            "doi": "10.1109/ICSE43902.2021.00115",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "569dbf8dc94a0cf9c113519897c671357b57656a",
+            "title": "Automatic Extraction of Opinion-Based Q&A from Online Developer Chats",
+            "url": "https://www.semanticscholar.org/paper/569dbf8dc94a0cf9c113519897c671357b57656a",
+            "venue": "2021 IEEE/ACM 43rd International Conference on Software Engineering (ICSE)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "28096370",
+                    "name": "Hareem Sahar"
+                },
+                {
+                    "authorId": "145369636",
+                    "name": "Abram Hindle"
+                },
+                {
+                    "authorId": "1755660",
+                    "name": "C. Bezemer"
+                }
+            ],
+            "doi": "10.1016/j.jss.2020.110852",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "bba120860f58e47fd47728261f6c6193d5bda40e",
+            "title": "How are issue reports discussed in Gitter chat rooms?",
+            "url": "https://www.semanticscholar.org/paper/bba120860f58e47fd47728261f6c6193d5bda40e",
+            "venue": "J. Syst. Softw.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2010.11080",
+            "authors": [
+                {
+                    "authorId": "2117900202",
+                    "name": "Tao Yu"
+                },
+                {
+                    "authorId": "2708940",
+                    "name": "Shafiq R. Joty"
+                }
+            ],
+            "doi": "10.18653/v1/2020.emnlp-main.512",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e87bfdfe2e34f71720bada2915cf1e06fdc09be8",
+            "title": "Online Conversation Disentanglement with Pointer Networks",
+            "url": "https://www.semanticscholar.org/paper/e87bfdfe2e34f71720bada2915cf1e06fdc09be8",
+            "venue": "EMNLP",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "9728244",
+                    "name": "Preetha Chatterjee"
+                }
+            ],
+            "doi": "10.1145/3377812.3381391",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5c62c2a4b3c871411052c950872973cd7cc625ae",
+            "title": "Extracting Archival-Quality Information from Software-Related Chats",
+            "url": "https://www.semanticscholar.org/paper/5c62c2a4b3c871411052c950872973cd7cc625ae",
+            "venue": "2020 IEEE/ACM 42nd International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "9728244",
+                    "name": "Preetha Chatterjee"
+                },
+                {
+                    "authorId": "1703177",
+                    "name": "Kostadin Damevski"
+                },
+                {
+                    "authorId": "1679523",
+                    "name": "Nicholas A. Kraft"
+                },
+                {
+                    "authorId": "1699934",
+                    "name": "L. Pollock"
+                }
+            ],
+            "doi": "10.1145/3379597.3387493",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "aed33f077178911736031028bc4e55e372e5380f",
+            "title": "Software-related Slack Chats with Disentangled Conversations",
+            "url": "https://www.semanticscholar.org/paper/aed33f077178911736031028bc4e55e372e5380f",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143855593",
+                    "name": "Esteban Parra"
+                },
+                {
+                    "authorId": "153263280",
+                    "name": "A. Ellis"
+                },
+                {
+                    "authorId": "1762499",
+                    "name": "S. Haiduc"
+                }
+            ],
+            "doi": "10.1145/3379597.3387494",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "07267f6419c5bb2620d9e037f4bea90242595cd7",
+            "title": "GitterCom - A Dataset of Open Source Developer Communications in Gitter",
+            "url": "https://www.semanticscholar.org/paper/07267f6419c5bb2620d9e037f4bea90242595cd7",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "9728244",
+                    "name": "Preetha Chatterjee"
+                },
+                {
+                    "authorId": "46935646",
+                    "name": "Minji Kong"
+                },
+                {
+                    "authorId": "1699934",
+                    "name": "L. Pollock"
+                }
+            ],
+            "doi": "10.1016/j.jss.2019.110454",
+            "intent": [
+                "result",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a1fda252a5ec5ee02e950bb4ab0871a4a0f85290",
+            "title": "Finding help with programming errors: An exploratory study of novice software engineers' focus in stack overflow posts",
+            "url": "https://www.semanticscholar.org/paper/a1fda252a5ec5ee02e950bb4ab0871a4a0f85290",
+            "venue": "J. Syst. Softw.",
+            "year": 2020
+        },
+        {
+            "arxivId": "1906.01756",
+            "authors": [
+                {
+                    "authorId": "36743361",
+                    "name": "Dakuo Wang"
+                },
+                {
+                    "authorId": "2145339153",
+                    "name": "Haoyu Wang"
+                },
+                {
+                    "authorId": "2110318482",
+                    "name": "Mo Yu"
+                },
+                {
+                    "authorId": "2220428",
+                    "name": "Zahra Ashktorab"
+                },
+                {
+                    "authorId": "2118278769",
+                    "name": "Ming Tan"
+                }
+            ],
+            "doi": "10.1145/3512941",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "97520353cf11a262a9fb0ed706b694f77744e09b",
+            "title": "Group Chat Ecology in Enterprise Instant Messaging: How Employees Collaborate Through Multi-User Chat Channels on Slack",
+            "url": "https://www.semanticscholar.org/paper/97520353cf11a262a9fb0ed706b694f77744e09b",
+            "venue": "Proc. ACM Hum. Comput. Interact.",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "23159151",
+                    "name": "V. Stray"
+                },
+                {
+                    "authorId": "1705411",
+                    "name": "N. B. Moe"
+                },
+                {
+                    "authorId": "1811235696",
+                    "name": "M. Noroozi"
+                }
+            ],
+            "doi": "10.1109/ICGSE.2019.00031",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4d7e2751687ba239fdc8384f17d90128991d91ba",
+            "title": "Slack Me If You Can! Using Enterprise Social Networking Tools in Virtual Agile Teams",
+            "url": "https://www.semanticscholar.org/paper/4d7e2751687ba239fdc8384f17d90128991d91ba",
+            "venue": "2019 ACM/IEEE 14th International Conference on Global Software Engineering (ICGSE)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "9728244",
+                    "name": "Preetha Chatterjee"
+                },
+                {
+                    "authorId": "1703177",
+                    "name": "Kostadin Damevski"
+                },
+                {
+                    "authorId": "1699934",
+                    "name": "L. Pollock"
+                },
+                {
+                    "authorId": "2648839",
+                    "name": "Vinay Augustine"
+                },
+                {
+                    "authorId": "1679523",
+                    "name": "Nicholas A. Kraft"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00075",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c78fb820c84ba7195207a413c6401a27997e0750",
+            "title": "Exploratory Study of Slack Q&A Chats as a Mining Source for Software Engineering Tools",
+            "url": "https://www.semanticscholar.org/paper/c78fb820c84ba7195207a413c6401a27997e0750",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1727211",
+                    "name": "Jonathan K. Kummerfeld"
+                },
+                {
+                    "authorId": "1905888",
+                    "name": "S. R. Gouravajhala"
+                },
+                {
+                    "authorId": "79548673",
+                    "name": "Joseph Peper"
+                },
+                {
+                    "authorId": "81176329",
+                    "name": "V. Athreya"
+                },
+                {
+                    "authorId": "144543562",
+                    "name": "R. Chulaka Gunasekara"
+                },
+                {
+                    "authorId": "2504586",
+                    "name": "Jatin Ganhotra"
+                },
+                {
+                    "authorId": "80836534",
+                    "name": "S. Patel"
+                },
+                {
+                    "authorId": "1725498",
+                    "name": "L. Polymenakos"
+                },
+                {
+                    "authorId": "2598433",
+                    "name": "Walter S. Lasecki"
+                }
+            ],
+            "doi": "10.18653/v1/P19-1374",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c59d36e79d573cc4a2440cb2a7154eada5c0ead2",
+            "title": "A Large-Scale Corpus for Conversation Disentanglement",
+            "url": "https://www.semanticscholar.org/paper/c59d36e79d573cc4a2440cb2a7154eada5c0ead2",
+            "venue": "ACL",
+            "year": 2018
+        },
+        {
+            "arxivId": "1807.02255",
+            "authors": [
+                {
+                    "authorId": "2210196781",
+                    "name": "M. M. Rahman"
+                },
+                {
+                    "authorId": "2215270",
+                    "name": "S. Yeasmin"
+                },
+                {
+                    "authorId": "1738612",
+                    "name": "C. Roy"
+                }
+            ],
+            "doi": "10.1109/CSMR-WCRE.2014.6747170",
+            "intent": [
+                "result",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a6f1bb6ab494adb05fcf6a74af05ea048fbe5816",
+            "title": "Towards a context-aware IDE-based meta search engine for recommendation about programming errors and exceptions",
+            "url": "https://www.semanticscholar.org/paper/a6f1bb6ab494adb05fcf6a74af05ea048fbe5816",
+            "venue": "2014 Software Evolution Week - IEEE Conference on Software Maintenance, Reengineering, and Reverse Engineering (CSMR-WCRE)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3165179",
+                    "name": "Jyun-Yu Jiang"
+                },
+                {
+                    "authorId": "27375808",
+                    "name": "Francine Chen"
+                },
+                {
+                    "authorId": "35081710",
+                    "name": "Yan-Ying Chen"
+                },
+                {
+                    "authorId": "46315104",
+                    "name": "Wei Wang"
+                }
+            ],
+            "doi": "10.18653/v1/N18-1164",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ce336a1b429f7fc2eccc83f741904155be26ec8c",
+            "title": "Learning to Disentangle Interleaved Conversational Threads with a Siamese Hierarchical Network and Similarity Ranking",
+            "url": "https://www.semanticscholar.org/paper/ce336a1b429f7fc2eccc83f741904155be26ec8c",
+            "venue": "NAACL",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "32251567",
+                    "name": "Shikib Mehri"
+                },
+                {
+                    "authorId": "1825424",
+                    "name": "G. Carenini"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d532e607dbdc537f6c4708c8136a2472055af972",
+            "title": "Chat Disentanglement: Identifying Semantic Reply Relationships with Random Forests and Recurrent Neural Networks",
+            "url": "https://www.semanticscholar.org/paper/d532e607dbdc537f6c4708c8136a2472055af972",
+            "venue": "IJCNLP",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "46729152",
+                    "name": "Chunyang Chen"
+                },
+                {
+                    "authorId": "3138980",
+                    "name": "Zhenchang Xing"
+                },
+                {
+                    "authorId": "2217310402",
+                    "name": "Ximing Wang"
+                }
+            ],
+            "doi": "10.1109/ICSE.2017.48",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "329947aa599c968941ffc17a3f0df9f632ab9a62",
+            "title": "Unsupervised Software-Specific Morphological Forms Inference from Informal Discussions",
+            "url": "https://www.semanticscholar.org/paper/329947aa599c968941ffc17a3f0df9f632ab9a62",
+            "venue": "2017 IEEE/ACM 39th International Conference on Software Engineering (ICSE)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2053999085",
+                    "name": "Ryan Lowe"
+                },
+                {
+                    "authorId": "3236233",
+                    "name": "Nissan Pow"
+                },
+                {
+                    "authorId": "35224828",
+                    "name": "Iulian Serban"
+                },
+                {
+                    "authorId": "1778839",
+                    "name": "Laurent Charlin"
+                },
+                {
+                    "authorId": "2144634184",
+                    "name": "Chia-Wei Liu"
+                },
+                {
+                    "authorId": "145134886",
+                    "name": "Joelle Pineau"
+                }
+            ],
+            "doi": "10.5087/dad.2017.102",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d261286b18d37aaf5ebf70a0325e43fb5357442d",
+            "title": "Training End-to-End Dialogue Systems with the Ubuntu Dialogue Corpus",
+            "url": "https://www.semanticscholar.org/paper/d261286b18d37aaf5ebf70a0325e43fb5357442d",
+            "venue": "Dialogue Discourse",
+            "year": 2017
+        },
+        {
+            "arxivId": "1807.02953",
+            "authors": [
+                {
+                    "authorId": "2210196781",
+                    "name": "M. M. Rahman"
+                },
+                {
+                    "authorId": "1738612",
+                    "name": "C. Roy"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                }
+            ],
+            "doi": "10.1109/SANER.2016.80",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "17b4db75ac30890c150e42c1fd23b4ab17a3593e",
+            "title": "RACK: Automatic API Recommendation Using Crowdsourced Knowledge",
+            "url": "https://www.semanticscholar.org/paper/17b4db75ac30890c150e42c1fd23b4ab17a3593e",
+            "venue": "2016 IEEE 23rd International Conference on Software Analysis, Evolution, and Reengineering (SANER)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144375145",
+                    "name": "B. Lin"
+                },
+                {
+                    "authorId": "1945021",
+                    "name": "A. Zagalsky"
+                },
+                {
+                    "authorId": "1734938",
+                    "name": "M. Storey"
+                },
+                {
+                    "authorId": "1747171",
+                    "name": "Alexander Serebrenik"
+                }
+            ],
+            "doi": "10.1145/2818052.2869117",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "83360d01cec5f578585354b296e0ea625c7a26e9",
+            "title": "Why Developers Are Slacking Off: Understanding How Software Teams Use Slack",
+            "url": "https://www.semanticscholar.org/paper/83360d01cec5f578585354b296e0ea625c7a26e9",
+            "venue": "CSCW Companion",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40474886",
+                    "name": "Matthieu Riou"
+                },
+                {
+                    "authorId": "3449460",
+                    "name": "S. Salim"
+                },
+                {
+                    "authorId": "145664662",
+                    "name": "Nicolas Hernandez"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "80174c1a7e1803d1fb1747a27d0e77e74db4f1e9",
+            "title": "Using discursive information to disentangle French language chat",
+            "url": "https://www.semanticscholar.org/paper/80174c1a7e1803d1fb1747a27d0e77e74db4f1e9",
+            "venue": "",
+            "year": 2015
+        },
+        {
+            "arxivId": "1807.02278",
+            "authors": [
+                {
+                    "authorId": "2210196781",
+                    "name": "M. M. Rahman"
+                },
+                {
+                    "authorId": "1738612",
+                    "name": "C. Roy"
+                },
+                {
+                    "authorId": "1829628",
+                    "name": "I. Keivanloo"
+                }
+            ],
+            "doi": "10.1109/SCAM.2015.7335404",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4459aae345de8e00de0510e2b8aedee39bfb1815",
+            "title": "Recommending insightful comments for source code using crowdsourced knowledge",
+            "url": "https://www.semanticscholar.org/paper/4459aae345de8e00de0510e2b8aedee39bfb1815",
+            "venue": "2015 IEEE 15th International Working Conference on Source Code Analysis and Manipulation (SCAM)",
+            "year": 2015
+        },
+        {
+            "arxivId": "1506.08909",
+            "authors": [
+                {
+                    "authorId": "2054294",
+                    "name": "Ryan Lowe"
+                },
+                {
+                    "authorId": "3236233",
+                    "name": "Nissan Pow"
+                },
+                {
+                    "authorId": "35224828",
+                    "name": "Iulian Serban"
+                },
+                {
+                    "authorId": "145134886",
+                    "name": "Joelle Pineau"
+                }
+            ],
+            "doi": "10.18653/v1/w15-4640",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "916441619914101258c71669b5ccc36424b54a6c",
+            "title": "The Ubuntu Dialogue Corpus: A Large Dataset for Research in Unstructured Multi-Turn Dialogue Systems",
+            "url": "https://www.semanticscholar.org/paper/916441619914101258c71669b5ccc36424b54a6c",
+            "venue": "SIGDIAL Conference",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2693610",
+                    "name": "G. Petrosyan"
+                },
+                {
+                    "authorId": "1710587",
+                    "name": "M. Robillard"
+                },
+                {
+                    "authorId": "1714393",
+                    "name": "R. Mori"
+                }
+            ],
+            "doi": "10.1109/ICSE.2015.97",
+            "intent": [
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "f56e1b7dd59fdc834a6b523ca75049ff59effc3b",
+            "title": "Discovering Information Explaining API Types Using Text Classification",
+            "url": "https://www.semanticscholar.org/paper/f56e1b7dd59fdc834a6b523ca75049ff59effc3b",
+            "venue": "2015 IEEE/ACM 37th IEEE International Conference on Software Engineering",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3308761",
+                    "name": "Anton Barua"
+                },
+                {
+                    "authorId": "1847208",
+                    "name": "Stephen W. Thomas"
+                },
+                {
+                    "authorId": "144890499",
+                    "name": "A. Hassan"
+                }
+            ],
+            "doi": "10.1007/s10664-012-9231-y",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6f471ab81a994c77a5d0336e03807bc6839261eb",
+            "title": "What are developers talking about? An analysis of topics and trends in Stack Overflow",
+            "url": "https://www.semanticscholar.org/paper/6f471ab81a994c77a5d0336e03807bc6839261eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1767060",
+                    "name": "Luca Ponzanelli"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                }
+            ],
+            "doi": "10.1145/2597073.2597077",
+            "intent": [
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "123216dfa1b6028856c753dd47b96105135685fd",
+            "title": "Mining StackOverflow to turn the IDE into a self-confident programming prompter",
+            "url": "https://www.semanticscholar.org/paper/123216dfa1b6028856c753dd47b96105135685fd",
+            "venue": "MSR 2014",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49902369",
+                    "name": "Yuan Tian"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                },
+                {
+                    "authorId": "1793096",
+                    "name": "J. Lawall"
+                }
+            ],
+            "doi": "10.1109/CSMR-WCRE.2014.6747213",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1e12f01425dcf73cbf823c4250d47086d60c5afe",
+            "title": "Automated construction of a software-specific word similarity database",
+            "url": "https://www.semanticscholar.org/paper/1e12f01425dcf73cbf823c4250d47086d60c5afe",
+            "venue": "2014 Software Evolution Week - IEEE Conference on Software Maintenance, Reengineering, and Reverse Engineering (CSMR-WCRE)",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2053678636",
+                    "name": "Edmund Wong"
+                },
+                {
+                    "authorId": "1410146355",
+                    "name": "Jinqiu Yang"
+                },
+                {
+                    "authorId": "144938015",
+                    "name": "Lin Tan"
+                }
+            ],
+            "doi": "10.1109/ASE.2013.6693113",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "600586ed0ca601a03f754463639b737861c5c994",
+            "title": "AutoComment: Mining question and answer sites for automatic comment generation",
+            "url": "https://www.semanticscholar.org/paper/600586ed0ca601a03f754463639b737861c5c994",
+            "venue": "2013 28th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3046959",
+                    "name": "David C. Uthus"
+                },
+                {
+                    "authorId": "1969847",
+                    "name": "D. Aha"
+                }
+            ],
+            "doi": "10.1016/j.artint.2013.02.004",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "231e4a50c45baa9b2541854b62588a1916de18b2",
+            "title": "Multiparticipant chat analysis: A survey",
+            "url": "https://www.semanticscholar.org/paper/231e4a50c45baa9b2541854b62588a1916de18b2",
+            "venue": "Artif. Intell.",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39470145",
+                    "name": "Wei Wang"
+                },
+                {
+                    "authorId": "47521175",
+                    "name": "Michael W. Godfrey"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624006",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b2bdf993e4b8b4185ea3cdda1c563919086f3a01",
+            "title": "Detecting API usage obstacles: A study of iOS and Android developer questions",
+            "url": "https://www.semanticscholar.org/paper/b2bdf993e4b8b4185ea3cdda1c563919086f3a01",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1711200",
+                    "name": "G. Canfora"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                },
+                {
+                    "authorId": "3117169",
+                    "name": "Sebastiano Panichella"
+                }
+            ],
+            "doi": "10.1145/2393596.2393647",
+            "intent": [
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "d5fcde0d635fbf195172b4516b1c1c9fcc2efb9b",
+            "title": "Who is going to mentor newcomers in open source projects?",
+            "url": "https://www.semanticscholar.org/paper/d5fcde0d635fbf195172b4516b1c1c9fcc2efb9b",
+            "venue": "SIGSOFT FSE",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1686038",
+                    "name": "Alberto Bacchelli"
+                },
+                {
+                    "authorId": "1767060",
+                    "name": "Luca Ponzanelli"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                }
+            ],
+            "doi": "10.1109/RSSE.2012.6233404",
+            "intent": [
+                "result",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "533124473315ab7961c399e6229819272c3f75a6",
+            "title": "Harnessing Stack Overflow for the IDE",
+            "url": "https://www.semanticscholar.org/paper/533124473315ab7961c399e6229819272c3f75a6",
+            "venue": "2012 Third International Workshop on Recommendation Systems for Software Engineering (RSSE)",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2065324993",
+                    "name": "Micha Elsner"
+                },
+                {
+                    "authorId": "2064198914",
+                    "name": "Eugene Charniak"
+                }
+            ],
+            "doi": "10.1162/coli_a_00003",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "230290009c8a9e53cb18b7a99467113cf57eae1e",
+            "title": "Disentangling Chat",
+            "url": "https://www.semanticscholar.org/paper/230290009c8a9e53cb18b7a99467113cf57eae1e",
+            "venue": "CL",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "67057961",
+                    "name": "D. Newman"
+                },
+                {
+                    "authorId": "1800564",
+                    "name": "Jey Han Lau"
+                },
+                {
+                    "authorId": "2635108",
+                    "name": "Karl Grieser"
+                },
+                {
+                    "authorId": "145465286",
+                    "name": "Timothy Baldwin"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8e31f3c7e70e9a5f8afafd86cebc004d5eca8c2b",
+            "title": "Automatic Evaluation of Topic Coherence",
+            "url": "https://www.semanticscholar.org/paper/8e31f3c7e70e9a5f8afafd86cebc004d5eca8c2b",
+            "venue": "NAACL",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1689233",
+                    "name": "Micha Elsner"
+                },
+                {
+                    "authorId": "1749837",
+                    "name": "Eugene Charniak"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "c70c697425c3f23ca42d97a58380ff0cf3a1644b",
+            "title": "You Talking to Me? A Corpus and Algorithm for Conversation Disentanglement",
+            "url": "https://www.semanticscholar.org/paper/c70c697425c3f23ca42d97a58380ff0cf3a1644b",
+            "venue": "ACL",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Wikipedia contributors",
+            "url": "",
+            "venue": "Discord (software) \u2014 Wikipedia, The Free Encyclo-pedia",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "DIscord Chat Exporter - Open Source application",
+            "url": "",
+            "venue": "",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Why we moved from Slack to Discord?",
+            "url": "",
+            "venue": "Romaric Philog\u00e8ne",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Moving from Slack to Discord. https://medium.com/vaticle/ moving-from-slack-to-discord-82a5817cec43",
+            "url": "",
+            "venue": "",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Chapter 6 - Latent Dirichlet Allocation: Extracting Topics from Software Engineering Data",
+            "url": "",
+            "venue": "In The Art and Science of Analyzing Software Data,",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1796335",
+                    "name": "D. Blei"
+                },
+                {
+                    "authorId": "34699434",
+                    "name": "A. Ng"
+                },
+                {
+                    "authorId": "1694621",
+                    "name": "Michael I. Jordan"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "4574d77fff19e093782178595a8988a7f3aa1969",
+            "title": "Latent Dirichlet Allocation",
+            "url": "https://www.semanticscholar.org/paper/4574d77fff19e093782178595a8988a7f3aa1969",
+            "venue": "",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "MSR\u201922, May 23\u201324, 2022, Pittsburgh, PA, USA",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "DISCO: A Dataset of Discord Chat Conversations for Software Engineering Research",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/10aad7fdd11997f6c78934ca76771ba46867fcf8",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2022
+}

@@ -1,0 +1,583 @@
+{
+    "abstract": "In many open source software projects (e.g., the Linux kernel), people contribute by sending code patches to the community. The community evaluates these contributions and decides whether to integrate the changes. To improve the efficiency of code contributions, substantial effort has been devoted to analyzing how patches are submitted and processed. Patch data are critical for this type of analysis, while retrieving and cleaning the data is a non-trivial job. To facilitate these studies, we share a multi-level dataset of a Linux kernel patchwork covering a nine-year history of patches and related discussion recorded by the Linux kernel mailing list (LKML). The data and scripts are provided at: https://zenodo.org/record/1165576",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2110180441",
+            "name": "Yulin Xu",
+            "url": "https://www.semanticscholar.org/author/2110180441"
+        },
+        {
+            "authorId": "40318014",
+            "name": "Minghui Zhou",
+            "url": "https://www.semanticscholar.org/author/40318014"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2307285550",
+                    "name": "Mingzhao Liang"
+                },
+                {
+                    "authorId": "2969085",
+                    "name": "Wachiraphan Charoenwet"
+                },
+                {
+                    "authorId": "2352093",
+                    "name": "Patanamon Thongtanunam"
+                }
+            ],
+            "doi": "10.1145/3643991.3644872",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "692ee9e66215a71ce1a5d0bfe63560adff221628",
+            "title": "Curated Email-Based Code Reviews Datasets",
+            "url": "https://www.semanticscholar.org/paper/692ee9e66215a71ce1a5d0bfe63560adff221628",
+            "venue": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2210.02656",
+            "authors": [
+                {
+                    "authorId": "36757957",
+                    "name": "H. S\u00e1nchez"
+                },
+                {
+                    "authorId": "1997436",
+                    "name": "B. Hitaj"
+                }
+            ],
+            "doi": "10.48550/arXiv.2210.02656",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0a26fb939322eda025a8cf755ec7aff9402bd926",
+            "title": "Trust in Motion: Capturing Trust Ascendancy in Open-Source Projects using Hybrid AI",
+            "url": "https://www.semanticscholar.org/paper/0a26fb939322eda025a8cf755ec7aff9402bd926",
+            "venue": "ArXiv",
+            "year": 2022
+        },
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": "2103.11339",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "145310968",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00022",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6292534df173d295c8ffe489134c81593a2f7592",
+            "title": "Escaping the Time Pit: Pitfalls and Guidelines for Using Time-Based Git Data",
+            "url": "https://www.semanticscholar.org/paper/6292534df173d295c8ffe489134c81593a2f7592",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2112780861",
+                    "name": "Xin Tan"
+                },
+                {
+                    "authorId": "40318014",
+                    "name": "Minghui Zhou"
+                }
+            ],
+            "doi": "10.1145/3359210",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "f3ae00ce67b57f8ae1acd717b20aaad3ed98a014",
+            "title": "How to Communicate when Submitting Patches",
+            "url": "https://www.semanticscholar.org/paper/f3ae00ce67b57f8ae1acd717b20aaad3ed98a014",
+            "venue": "Proc. ACM Hum. Comput. Interact.",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2058999729",
+                    "name": "Renan G. Vieira"
+                },
+                {
+                    "authorId": "2122102379",
+                    "name": "Ant\u00f4nio da Silva"
+                },
+                {
+                    "authorId": "3225841",
+                    "name": "L. Rocha"
+                },
+                {
+                    "authorId": "144227442",
+                    "name": "J. Gomes"
+                }
+            ],
+            "doi": "10.1145/3345629.3345639",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "43a4962ff6b3eeee2ef9d44e73efed1027d2f80c",
+            "title": "From Reports to Bug-Fix Commits: A 10 Years Dataset of Bug-Fixing Activity from 55 Apache's Open Source Projects",
+            "url": "https://www.semanticscholar.org/paper/43a4962ff6b3eeee2ef9d44e73efed1027d2f80c",
+            "venue": "PROMISE",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00085",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "43148fabe2636026e07ca04974aff40d204bfb6b",
+            "title": "Standing on Shoulders or Feet? The Usage of the MSR Data Papers",
+            "url": "https://www.semanticscholar.org/paper/43148fabe2636026e07ca04974aff40d204bfb6b",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2296801957",
+                    "name": "Yuan Feng"
+                },
+                {
+                    "authorId": "2297254875",
+                    "name": "Yukun Cao"
+                },
+                {
+                    "authorId": "2296940063",
+                    "name": "Hairu Wang"
+                },
+                {
+                    "authorId": "2279249222",
+                    "name": "Xike Xie"
+                },
+                {
+                    "authorId": "2288042256",
+                    "name": "S. K. Zhou"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "aff5de7ebd5aaf54541ae8a6a381a20abef75a28",
+            "title": "Mayfly: a Neural Data Structure for Graph Stream Summarization",
+            "url": "https://www.semanticscholar.org/paper/aff5de7ebd5aaf54541ae8a6a381a20abef75a28",
+            "venue": "ICLR",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2272542833",
+                    "name": "Gunnar Kudrjavets"
+                }
+            ],
+            "doi": "10.33612/diss.781738808",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ea99bfdb9b008eb1b6ba3140e642ef24a13828dc",
+            "title": "The Need for Speed: Increasing the Code Review Velocity",
+            "url": "https://www.semanticscholar.org/paper/ea99bfdb9b008eb1b6ba3140e642ef24a13828dc",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "corpusId": 50772274,
+    "doi": "10.1145/3196398.3196475",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 10,
+    "numCiting": 10,
+    "paperId": "91f3852ce194e09635375c09927851d637720f28",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2290445146",
+                    "name": "Jiaxin Zhu"
+                },
+                {
+                    "authorId": "40318014",
+                    "name": "Minghui Zhou"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": "10.1145/2950290.2950364",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "123450427f0644a09ab9e8a21d5ec151f3c513e1",
+            "title": "Effectiveness of code contribution: from patch-based to pull-request-based tools",
+            "url": "https://www.semanticscholar.org/paper/123450427f0644a09ab9e8a21d5ec151f3c513e1",
+            "venue": "SIGSOFT FSE",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2290445146",
+                    "name": "Jiaxin Zhu"
+                },
+                {
+                    "authorId": "40318014",
+                    "name": "Minghui Zhou"
+                },
+                {
+                    "authorId": "145642974",
+                    "name": "Hong Mei"
+                }
+            ],
+            "doi": "10.1145/2901739.2903502",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "9b3aba7d1cc17d76cd2407a5acfa3d2d363c6ab3",
+            "title": "Multi-extract and Multi-level Dataset of Mozilla Issue Tracking History",
+            "url": "https://www.semanticscholar.org/paper/9b3aba7d1cc17d76cd2407a5acfa3d2d363c6ab3",
+            "venue": "2016 IEEE/ACM 13th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2090219",
+                    "name": "Yida Tao"
+                },
+                {
+                    "authorId": "7883212",
+                    "name": "Donggyun Han"
+                },
+                {
+                    "authorId": "1787729",
+                    "name": "Sunghun Kim"
+                }
+            ],
+            "doi": "10.1109/ICSME.2014.49",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "ec625b9b4100582ad6c129f9fc86ab21b7dece87",
+            "title": "Writing Acceptable Patches: An Empirical Study of Open Source Project Patches",
+            "url": "https://www.semanticscholar.org/paper/ec625b9b4100582ad6c129f9fc86ab21b7dece87",
+            "venue": "2014 IEEE International Conference on Software Maintenance and Evolution",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "38008881",
+                    "name": "Yujuan Jiang"
+                },
+                {
+                    "authorId": "143612725",
+                    "name": "Bram Adams"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624016",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "67ccad6ded2fc84491f96671469a55dbbca57239",
+            "title": "Will my patch make it? And how fast? Case study on the Linux kernel",
+            "url": "https://www.semanticscholar.org/paper/67ccad6ded2fc84491f96671469a55dbbca57239",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "25701557",
+                    "name": "Olga Baysal"
+                },
+                {
+                    "authorId": "145701062",
+                    "name": "Oleksii Kononenko"
+                },
+                {
+                    "authorId": "1789705",
+                    "name": "Reid Holmes"
+                },
+                {
+                    "authorId": "47521175",
+                    "name": "Michael W. Godfrey"
+                }
+            ],
+            "doi": "10.1109/WCRE.2012.54",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6a7811bd52161764e9900d51b7626ce1ecf352a3",
+            "title": "The Secret Life of Patches: A Firefox Case Study",
+            "url": "https://www.semanticscholar.org/paper/6a7811bd52161764e9900d51b7626ce1ecf352a3",
+            "venue": "2012 19th Working Conference on Reverse Engineering",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49902369",
+                    "name": "Yuan Tian"
+                },
+                {
+                    "authorId": "1793096",
+                    "name": "J. Lawall"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                }
+            ],
+            "doi": "10.1109/ICSE.2012.6227176",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "fefe8167fee266c9ca7ed2946a849e032e1b015b",
+            "title": "Identifying Linux bug fixing patches",
+            "url": "https://www.semanticscholar.org/paper/fefe8167fee266c9ca7ed2946a849e032e1b015b",
+            "venue": "2012 34th International Conference on Software Engineering (ICSE)",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "153809230",
+                    "name": "Walid M. Ibrahim"
+                },
+                {
+                    "authorId": "2426138",
+                    "name": "Nicolas Bettenburg"
+                },
+                {
+                    "authorId": "3318024",
+                    "name": "Emad Shihab"
+                },
+                {
+                    "authorId": "143612725",
+                    "name": "Bram Adams"
+                },
+                {
+                    "authorId": "144890499",
+                    "name": "A. Hassan"
+                }
+            ],
+            "doi": "10.1109/MSR.2010.5463345",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1ab4aa0591ff7ae3c90c715654d2b25181140954",
+            "title": "Should I contribute to this discussion?",
+            "url": "https://www.semanticscholar.org/paper/1ab4aa0591ff7ae3c90c715654d2b25181140954",
+            "venue": "2010 7th IEEE Working Conference on Mining Software Repositories (MSR 2010)",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1974054",
+                    "name": "P. Wei\u00dfgerber"
+                },
+                {
+                    "authorId": "2074098424",
+                    "name": "Daniel Neu"
+                },
+                {
+                    "authorId": "1680836",
+                    "name": "S. Diehl"
+                }
+            ],
+            "doi": "10.1145/1370750.1370767",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "f28ecdd0a501ce8300f577dad0d473e32083a4ff",
+            "title": "Small patches get in!",
+            "url": "https://www.semanticscholar.org/paper/f28ecdd0a501ce8300f577dad0d473e32083a4ff",
+            "venue": "MSR '08",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145193818",
+                    "name": "C. Bird"
+                },
+                {
+                    "authorId": "2047076",
+                    "name": "A. Gourley"
+                },
+                {
+                    "authorId": "1730296",
+                    "name": "Premkumar T. Devanbu"
+                }
+            ],
+            "doi": "10.1109/MSR.2007.6",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c9dc4f7b62f073a287a8eb7c2c3b73f92e00d243",
+            "title": "Detecting Patch Submission and Acceptance in OSS Projects",
+            "url": "https://www.semanticscholar.org/paper/c9dc4f7b62f073a287a8eb7c2c3b73f92e00d243",
+            "venue": "Fourth International Workshop on Mining Software Repositories (MSR'07:ICSE Workshops 2007)",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3049213",
+                    "name": "A. Kleen"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "05595248d573f7ee17a6c67cb2757f5e0697fc9f",
+            "title": "On submitting kernel patches",
+            "url": "https://www.semanticscholar.org/paper/05595248d573f7ee17a6c67cb2757f5e0697fc9f",
+            "venue": "",
+            "year": 2008
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "A Multi-level Dataset of Linux Kernel Patchwork",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/91f3852ce194e09635375c09927851d637720f28",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2018
+}

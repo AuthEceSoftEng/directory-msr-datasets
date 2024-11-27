@@ -1,0 +1,752 @@
+{
+    "abstract": "With the introduction of smart contacts, Ethereum has become one of the most popular blockchain networks. In the wake of its popularity, an increasing number of Ethereum-based software have been developed. However, the carbon emissions resulting from these software has been pointed out as a global issue. It is necessary to reduce the energy consumed by these software to reduce carbon emissions. Recently, most studies have focused on smart contracts and proposed energy-efficient methods for the development of carbon friendly Ethereum networks. However, in addition to smart contracts, the energy used by client software in Ethereum networks should also be reviewed. This is because the client software performs all functions occurring in the Ethereum network, including smart contracts. Therefore, energy bugs that waste energy in Ethereum client software should be investigated and solved. The first task to enable this is to build an energy bug benchmark of Ethereum client software. This study introduces ECench, an energy bug benchmark of Ethereum client software. ECench includes 507 energy buggy commits from 7 series of client software that are officially operated in the Ethereum network. We carefully collected and manually reviewed them for cleaner commits. A key strength of our benchmark is that it provides eight energy wastage categories, which can serve as a cornerstone for researchers to identify energy waste codes. ECench can provide a valuable starting point for studies on energy reduction and carbon reduction in Ethereum.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2110055847",
+            "name": "Jinyoung Kim",
+            "url": "https://www.semanticscholar.org/author/2110055847"
+        },
+        {
+            "authorId": "50828217",
+            "name": "Misoo Kim",
+            "url": "https://www.semanticscholar.org/author/50828217"
+        },
+        {
+            "authorId": "3282389",
+            "name": "Eunseok Lee",
+            "url": "https://www.semanticscholar.org/author/3282389"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2276023715",
+                    "name": "Hossein Shahinzadeh"
+                },
+                {
+                    "authorId": "2316757020",
+                    "name": "Mahtab Nasri Nasrabadi"
+                },
+                {
+                    "authorId": "3369447",
+                    "name": "H. Nafisi"
+                },
+                {
+                    "authorId": "38793079",
+                    "name": "M. Moazzami"
+                },
+                {
+                    "authorId": "2316755840",
+                    "name": "Francisco Jurado"
+                },
+                {
+                    "authorId": "33412181",
+                    "name": "A. Abdelaziz"
+                }
+            ],
+            "doi": "10.1109/ICTEM60690.2024.10631949",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "cdb98dd098d34fbb1b9aca1c89acb92cf644588a",
+            "title": "Enhancing Transparency in the Peer-to-Peer Transactive Energy Market: Smart Contract Monitoring in Bilateral Negotiations with the Ethereum Platform",
+            "url": "https://www.semanticscholar.org/paper/cdb98dd098d34fbb1b9aca1c89acb92cf644588a",
+            "venue": "2024 9th International Conference on Technology and Energy Management (ICTEM)",
+            "year": 2024
+        }
+    ],
+    "corpusId": 249928794,
+    "doi": "10.1145/3524842.3528028",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 1,
+    "numCiting": 24,
+    "paperId": "ea86ed6cf48197608848f04075e75fb9796f36c8",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1711200",
+                    "name": "G. Canfora"
+                },
+                {
+                    "authorId": "3144783",
+                    "name": "Andrea Di Sorbo"
+                },
+                {
+                    "authorId": "67190120",
+                    "name": "Sonia Laudanna"
+                },
+                {
+                    "authorId": "40330057",
+                    "name": "A. Vacca"
+                },
+                {
+                    "authorId": "1717023",
+                    "name": "C. A. Visaggio"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1d02f7cec616f2dd93c7c011e1655ee7791b0cf4",
+            "title": "Profiling Gas Leaks in Solidity Smart Contracts.",
+            "url": "https://www.semanticscholar.org/paper/1d02f7cec616f2dd93c7c011e1655ee7791b0cf4",
+            "venue": "",
+            "year": 2020
+        },
+        {
+            "arxivId": "2007.04771",
+            "authors": [
+                {
+                    "authorId": "40252594",
+                    "name": "J. Ferreira"
+                },
+                {
+                    "authorId": "2053749797",
+                    "name": "Pedro Cruz"
+                },
+                {
+                    "authorId": "1882033",
+                    "name": "Thomas Durieux"
+                },
+                {
+                    "authorId": "144837389",
+                    "name": "Rui Abreu"
+                }
+            ],
+            "doi": "10.1145/3324884.3415298",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5d2ba840ab0b3f282134d0820e7a8015af3c6612",
+            "title": "SmartBugs: A Framework to Analyze Solidity Smart Contracts",
+            "url": "https://www.semanticscholar.org/paper/5d2ba840ab0b3f282134d0820e7a8015af3c6612",
+            "venue": "2020 35th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "35965002",
+                    "name": "Lodovica Marchesi"
+                },
+                {
+                    "authorId": "144083401",
+                    "name": "M. Marchesi"
+                },
+                {
+                    "authorId": "2048851",
+                    "name": "Giuseppe Destefanis"
+                },
+                {
+                    "authorId": "40381649",
+                    "name": "G. Barabino"
+                },
+                {
+                    "authorId": "2471844",
+                    "name": "Danilo Tigano"
+                }
+            ],
+            "doi": "10.1109/IWBOSE50093.2020.9050163",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7640ec77712479d9e9214bc5ccc1642786b9ea2a",
+            "title": "Design Patterns for Gas Optimization in Ethereum",
+            "url": "https://www.semanticscholar.org/paper/7640ec77712479d9e9214bc5ccc1642786b9ea2a",
+            "venue": "2020 IEEE International Workshop on Blockchain Oriented Software Engineering (IWBOSE)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49917477",
+                    "name": "Chao Peng"
+                },
+                {
+                    "authorId": "152351491",
+                    "name": "Sefa Ak\u00e7a"
+                },
+                {
+                    "authorId": "2002781",
+                    "name": "A. Rajan"
+                }
+            ],
+            "doi": "10.1109/APSEC48747.2019.00069",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1433ea5fcb175e2528dc576027a56630efce1021",
+            "title": "SIF: A Framework for Solidity Contract Instrumentation and Analysis",
+            "url": "https://www.semanticscholar.org/paper/1433ea5fcb175e2528dc576027a56630efce1021",
+            "venue": "2019 26th Asia-Pacific Software Engineering Conference (APSEC)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "30691397",
+                    "name": "Ahmed Afif Monrat"
+                },
+                {
+                    "authorId": "2509535",
+                    "name": "O. Schel\u00e9n"
+                },
+                {
+                    "authorId": "145667775",
+                    "name": "K. Andersson"
+                }
+            ],
+            "doi": "10.1109/ACCESS.2019.2936094",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "627341e1a5872676798c3ab56355157c1fe78bcc",
+            "title": "A Survey of Blockchain From the Perspectives of Applications, Challenges, and Opportunities",
+            "url": "https://www.semanticscholar.org/paper/627341e1a5872676798c3ab56355157c1fe78bcc",
+            "venue": "IEEE Access",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "31441585",
+                    "name": "P. Howson"
+                }
+            ],
+            "doi": "10.1038/s41558-019-0567-9",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "34ea4f813a29132afe0f93b83ea5e37aa01c8bcd",
+            "title": "Tackling climate change with blockchain",
+            "url": "https://www.semanticscholar.org/paper/34ea4f813a29132afe0f93b83ea5e37aa01c8bcd",
+            "venue": "Nature Climate Change",
+            "year": 2019
+        },
+        {
+            "arxivId": "1903.08409",
+            "authors": [
+                {
+                    "authorId": "145407228",
+                    "name": "Kui Liu"
+                },
+                {
+                    "authorId": "31491515",
+                    "name": "Anil Koyuncu"
+                },
+                {
+                    "authorId": "144213448",
+                    "name": "Dongsun Kim"
+                },
+                {
+                    "authorId": "3023999",
+                    "name": "T\u00e9gawend\u00e9 F. Bissyand\u00e9"
+                }
+            ],
+            "doi": "10.1145/3293882.3330577",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "3c9b9664ca8cbbd17f5153997c276b0ce5c4f3bd",
+            "title": "TBar: revisiting template-based automated program repair",
+            "url": "https://www.semanticscholar.org/paper/3c9b9664ca8cbbd17f5153997c276b0ce5c4f3bd",
+            "venue": "ISSTA",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2065621588",
+                    "name": "Muhammad Ahmad Zafar"
+                },
+                {
+                    "authorId": "2141980955",
+                    "name": "Falak Sher"
+                },
+                {
+                    "authorId": "11479521",
+                    "name": "M. Janjua"
+                },
+                {
+                    "authorId": "1708848",
+                    "name": "Salman Baset"
+                }
+            ],
+            "doi": "10.1145/3284764.3284768",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5ba0a7a5b6535a36251920d52b314b1ebfe8d520",
+            "title": "Sol2js: Translating Solidity Contracts into Javascript for Hyperledger Fabric",
+            "url": "https://www.semanticscholar.org/paper/5ba0a7a5b6535a36251920d52b314b1ebfe8d520",
+            "venue": "SERIAL@Middleware",
+            "year": 2018
+        },
+        {
+            "arxivId": "1810.01791",
+            "authors": [
+                {
+                    "authorId": "31491515",
+                    "name": "Anil Koyuncu"
+                },
+                {
+                    "authorId": "145407228",
+                    "name": "Kui Liu"
+                },
+                {
+                    "authorId": "3023999",
+                    "name": "T\u00e9gawend\u00e9 F. Bissyand\u00e9"
+                },
+                {
+                    "authorId": "144213448",
+                    "name": "Dongsun Kim"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                },
+                {
+                    "authorId": "150220964",
+                    "name": "Monperrus Martin"
+                },
+                {
+                    "authorId": "118221059",
+                    "name": "Yves Le Traon"
+                }
+            ],
+            "doi": "10.1007/s10664-019-09780-z",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c9cc70ace5e8d93dba73d3182710551b201293f8",
+            "title": "FixMiner: Mining relevant fix patterns for automated program repair",
+            "url": "https://www.semanticscholar.org/paper/c9cc70ace5e8d93dba73d3182710551b201293f8",
+            "venue": "Empirical Software Engineering",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144766213",
+                    "name": "A.W.G. de Vries"
+                }
+            ],
+            "doi": "10.1016/J.JOULE.2018.04.016",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "51648f57cd9d445519ebba8ff583a7150d9bd0e7",
+            "title": "Bitcoin's Growing Energy Problem",
+            "url": "https://www.semanticscholar.org/paper/51648f57cd9d445519ebba8ff583a7150d9bd0e7",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5375074",
+                    "name": "Abhijeet Banerjee"
+                },
+                {
+                    "authorId": "20892470",
+                    "name": "Lee Kee Chong"
+                },
+                {
+                    "authorId": "1707721",
+                    "name": "C. Ballabriga"
+                },
+                {
+                    "authorId": "1789700",
+                    "name": "Abhik Roychoudhury"
+                }
+            ],
+            "doi": "10.1109/TSE.2017.2689012",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "dddb059712718719851b0f19bbc879fb87272bb6",
+            "title": "EnergyPatch: Repairing Resource Leaks to Improve Energy-Efficiency of Android Apps",
+            "url": "https://www.semanticscholar.org/paper/dddb059712718719851b0f19bbc879fb87272bb6",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3453740",
+                    "name": "Zhiyuan Wan"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                },
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "2112830053",
+                    "name": "Liang Cai"
+                }
+            ],
+            "doi": "10.1109/MSR.2017.59",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5cfeb05333b55677cb6ac822230dacd74179baad",
+            "title": "Bug Characteristics in Blockchain Systems: A Large-Scale Empirical Study",
+            "url": "https://www.semanticscholar.org/paper/5cfeb05333b55677cb6ac822230dacd74179baad",
+            "venue": "2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)",
+            "year": 2017
+        },
+        {
+            "arxivId": "1703.03994",
+            "authors": [
+                {
+                    "authorId": "145358510",
+                    "name": "Ting Chen"
+                },
+                {
+                    "authorId": "47056770",
+                    "name": "Xiaoqi Li"
+                },
+                {
+                    "authorId": "1708419",
+                    "name": "Xiapu Luo"
+                },
+                {
+                    "authorId": "9117563",
+                    "name": "Xiaosong Zhang"
+                }
+            ],
+            "doi": "10.1109/SANER.2017.7884650",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "78b7ebe5a9d47ddaaa31f876125fc6f791f68a2c",
+            "title": "Under-optimized smart contracts devour your money",
+            "url": "https://www.semanticscholar.org/paper/78b7ebe5a9d47ddaaa31f876125fc6f791f68a2c",
+            "venue": "2017 IEEE 24th International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1994235",
+                    "name": "Reyhaneh Jabbarvand Behrouz"
+                },
+                {
+                    "authorId": "2055684632",
+                    "name": "Alireza Sadeghi"
+                },
+                {
+                    "authorId": "1727809",
+                    "name": "H. Bagheri"
+                },
+                {
+                    "authorId": "144575444",
+                    "name": "S. Malek"
+                }
+            ],
+            "doi": "10.1145/2931037.2931067",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a9a151888436dc9cc4819abbd028be58e1557be1",
+            "title": "Energy-aware test-suite minimization for Android apps",
+            "url": "https://www.semanticscholar.org/paper/a9a151888436dc9cc4819abbd028be58e1557be1",
+            "venue": "ISSTA",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "83263357",
+                    "name": "X. Le"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                },
+                {
+                    "authorId": "2957803",
+                    "name": "Claire Le Goues"
+                }
+            ],
+            "doi": "10.1109/SANER.2016.76",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a331e24a763fb411a51a4962731976d9030e2556",
+            "title": "History Driven Program Repair",
+            "url": "https://www.semanticscholar.org/paper/a331e24a763fb411a51a4962731976d9030e2556",
+            "venue": "2016 IEEE 23rd International Conference on Software Analysis, Evolution, and Reengineering (SANER)",
+            "year": 2016
+        },
+        {
+            "arxivId": "1912.11929",
+            "authors": [
+                {
+                    "authorId": "144956200",
+                    "name": "E. Albert"
+                },
+                {
+                    "authorId": "2456728",
+                    "name": "J. Fern\u00e1ndez"
+                },
+                {
+                    "authorId": "144985521",
+                    "name": "Pablo Gordillo"
+                },
+                {
+                    "authorId": "1403830724",
+                    "name": "G. Rom\u00e1n-D\u00edez"
+                },
+                {
+                    "authorId": "144763741",
+                    "name": "A. Rubio"
+                }
+            ],
+            "doi": "10.1007/978-3-030-45237-7_7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "68c89823f6027795738edde03960bfd2a4b07e9d",
+            "title": "GASOL: Gas Analysis and Optimization for Ethereum Smart Contracts",
+            "url": "https://www.semanticscholar.org/paper/68c89823f6027795738edde03960bfd2a4b07e9d",
+            "venue": "TACAS",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145088168",
+                    "name": "Ding Li"
+                },
+                {
+                    "authorId": "2110895343",
+                    "name": "Yuchen Jin"
+                },
+                {
+                    "authorId": "2677478",
+                    "name": "C. Sahin"
+                },
+                {
+                    "authorId": "3185237",
+                    "name": "J. Clause"
+                },
+                {
+                    "authorId": "1716654",
+                    "name": "William G. J. Halfond"
+                }
+            ],
+            "doi": "10.1145/2610384.2610414",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2f128dd6f76021c80cad70e932b7ccdcc7b43e79",
+            "title": "Integrated energy-directed test suite optimization",
+            "url": "https://www.semanticscholar.org/paper/2f128dd6f76021c80cad70e932b7ccdcc7b43e79",
+            "venue": "ISSTA 2014",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145088168",
+                    "name": "Ding Li"
+                },
+                {
+                    "authorId": "47596114",
+                    "name": "Shuai Hao"
+                },
+                {
+                    "authorId": "1716654",
+                    "name": "William G. J. Halfond"
+                },
+                {
+                    "authorId": "1747970",
+                    "name": "R. Govindan"
+                }
+            ],
+            "doi": "10.1145/2483760.2483780",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2e2289d350ee7b0627f5e54785d21fc07c1e9d3f",
+            "title": "Calculating source line level energy information for Android applications",
+            "url": "https://www.semanticscholar.org/paper/2e2289d350ee7b0627f5e54785d21fc07c1e9d3f",
+            "venue": "ISSTA",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2055142839",
+                    "name": "Shahed Zaman"
+                },
+                {
+                    "authorId": "143612725",
+                    "name": "Bram Adams"
+                },
+                {
+                    "authorId": "144890499",
+                    "name": "A. Hassan"
+                }
+            ],
+            "doi": "10.1109/MSR.2012.6224281",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c26a07783e476098300f26152202be34810a71c2",
+            "title": "A qualitative study on performance bugs",
+            "url": "https://www.semanticscholar.org/paper/c26a07783e476098300f26152202be34810a71c2",
+            "venue": "2012 9th IEEE Working Conference on Mining Software Repositories (MSR)",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2109841892",
+                    "name": "A. B. S\u00e1nchez"
+                },
+                {
+                    "authorId": "1403564003",
+                    "name": "Pedro Delgado-P\u00e9rez"
+                },
+                {
+                    "authorId": "1401934646",
+                    "name": "I. Medina-Bulo"
+                },
+                {
+                    "authorId": "145135083",
+                    "name": "Sergio Segura"
+                }
+            ],
+            "doi": "10.1109/ACCESS.2020.3000928",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f21b50889893197a8fb2f5d943ee84d303e72e4e",
+            "title": "TANDEM: A Taxonomy and a Dataset of Real-World Performance Bugs",
+            "url": "https://www.semanticscholar.org/paper/f21b50889893197a8fb2f5d943ee84d303e72e4e",
+            "venue": "IEEE Access",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2120466245",
+                    "name": "Anthony Dewayne Hunt"
+                }
+            ],
+            "doi": "10.2139/ssrn.3440802",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4e9ec92a90c5d571d2f1d496f8df01f0a8f38596",
+            "title": "Bitcoin: A Peer-to-Peer Electronic Cash System",
+            "url": "https://www.semanticscholar.org/paper/4e9ec92a90c5d571d2f1d496f8df01f0a8f38596",
+            "venue": "",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Various blockchains networks",
+            "url": "",
+            "venue": ":",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Definition of smart contract",
+            "url": "",
+            "venue": "ethereum.org/en/developers/docs/smart-contracts/",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "MSR \u201922, May 23\u201324, 2022, Pittsburgh, PA, USA",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "ECench: An Energy Bug Benchmark of Ethereum Client Software",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/ea86ed6cf48197608848f04075e75fb9796f36c8",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2022
+}

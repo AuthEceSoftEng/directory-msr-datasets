@@ -1,0 +1,1883 @@
+{
+    "abstract": "Android has grown to be the world's most popular mobile platform with apps that are capable of doing everything from checking sports scores to purchasing stocks. In order to assist researchers and developers in better understanding the development process as well as the current state of the apps themselves, we present a large dataset of analyzed open-source Android applications and provide a brief analysis of the data, demonstrating potential usefulness. This dataset contains 1,179 applications, including 4,416 different versions of these apps and 435,680 total commits. Furthermore, for each app we include the analytical results obtained from several static analysis tools including Androguard, Sonar, and Stowaway. In order to better support the community in conducting research on the security characteristics of the apps, our large analytical dataset comes with the detailed information including various versions of AndroidManifest.xml files and synthesized information such as permissions, intents, and minimum SDK. We collected 13,036 commits of the manifest files and recorded over 69,707 total permissions used. The results and a brief set of analytics are presented on our website: http://androsec.rit.edu.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2013851",
+            "name": "Daniel E. Krutz",
+            "url": "https://www.semanticscholar.org/author/2013851"
+        },
+        {
+            "authorId": "2097532",
+            "name": "Mehdi Mirakhorli",
+            "url": "https://www.semanticscholar.org/author/2097532"
+        },
+        {
+            "authorId": "2049817",
+            "name": "Samuel A. Malachowsky",
+            "url": "https://www.semanticscholar.org/author/2049817"
+        },
+        {
+            "authorId": "123234157",
+            "name": "Andres Ruiz",
+            "url": "https://www.semanticscholar.org/author/123234157"
+        },
+        {
+            "authorId": "2105886491",
+            "name": "Jacob Peterson",
+            "url": "https://www.semanticscholar.org/author/2105886491"
+        },
+        {
+            "authorId": "2078650756",
+            "name": "Andrew Filipski",
+            "url": "https://www.semanticscholar.org/author/2078650756"
+        },
+        {
+            "authorId": "2119127513",
+            "name": "Jared Smith",
+            "url": "https://www.semanticscholar.org/author/2119127513"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3200791",
+                    "name": "Diego Clerissi"
+                },
+                {
+                    "authorId": "1807844",
+                    "name": "G. Denaro"
+                },
+                {
+                    "authorId": "1749560",
+                    "name": "M. Mobilio"
+                },
+                {
+                    "authorId": "2280069499",
+                    "name": "Leonardo Mariani"
+                }
+            ],
+            "doi": "10.1109/TSE.2024.3439002",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9398dc69afecd7bcc29cd85ee7170e2a430338b8",
+            "title": "DBInputs: Exploiting Persistent Data to Improve Automated GUI Testing",
+            "url": "https://www.semanticscholar.org/paper/9398dc69afecd7bcc29cd85ee7170e2a430338b8",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1643390875",
+                    "name": "Youshuai Tan"
+                },
+                {
+                    "authorId": "2108146300",
+                    "name": "Jinfu Chen"
+                },
+                {
+                    "authorId": "39724619",
+                    "name": "Weiyi Shang"
+                },
+                {
+                    "authorId": "101643752",
+                    "name": "Tao Zhang"
+                },
+                {
+                    "authorId": "2110316453",
+                    "name": "Sen Fang"
+                },
+                {
+                    "authorId": "1708419",
+                    "name": "Xiapu Luo"
+                },
+                {
+                    "authorId": "1936777680",
+                    "name": "Zijie Chen"
+                },
+                {
+                    "authorId": "5823278",
+                    "name": "Shuhao Qi"
+                }
+            ],
+            "doi": "10.1109/TSE.2023.3285743",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "51fac189dd00ab17513fb25b43801430cebfc1b5",
+            "title": "STRE: An Automated Approach to Suggesting App Developers When to Stop Reading Reviews",
+            "url": "https://www.semanticscholar.org/paper/51fac189dd00ab17513fb25b43801430cebfc1b5",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2212791271",
+                    "name": "Raheela Chand"
+                },
+                {
+                    "authorId": "9231650",
+                    "name": "Saif Ur Rehman Khan"
+                },
+                {
+                    "authorId": "2113621236",
+                    "name": "S. Hussain"
+                },
+                {
+                    "authorId": "47825073",
+                    "name": "Wen Wang"
+                }
+            ],
+            "doi": "10.1109/QRS-C57518.2022.00093",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a2f1b9941fdcf81fa1653f2e8e5c6c3854b3e600",
+            "title": "TTAG+R: A Dataset of Google Play Store's Top Trending Android Games and User Reviews",
+            "url": "https://www.semanticscholar.org/paper/a2f1b9941fdcf81fa1653f2e8e5c6c3854b3e600",
+            "venue": "2022 IEEE 22nd International Conference on Software Quality, Reliability, and Security Companion (QRS-C)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1485105897",
+                    "name": "Xueling Zhang"
+                },
+                {
+                    "authorId": "48377745",
+                    "name": "John Heaps"
+                },
+                {
+                    "authorId": "25772095",
+                    "name": "Rocky Slavin"
+                },
+                {
+                    "authorId": "144254697",
+                    "name": "Jianwei Niu"
+                },
+                {
+                    "authorId": "1679197",
+                    "name": "T. Breaux"
+                },
+                {
+                    "authorId": "1524732329",
+                    "name": "Xiaoyin Wang"
+                }
+            ],
+            "doi": "10.1145/3569936",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f9ff234791ce13f4273b7fb711aa90d63098b6d6",
+            "title": "DAISY: Dynamic-Analysis-Induced Source Discovery for Sensitive Data",
+            "url": "https://www.semanticscholar.org/paper/f9ff234791ce13f4273b7fb711aa90d63098b6d6",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2022
+        },
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "52178314",
+                    "name": "R. M. Abdullah"
+                },
+                {
+                    "authorId": "2396516",
+                    "name": "A. Abualkishik"
+                },
+                {
+                    "authorId": "2156463598",
+                    "name": "Najla Matti Isaacc"
+                },
+                {
+                    "authorId": "48385295",
+                    "name": "A. Alwan"
+                },
+                {
+                    "authorId": "8783129",
+                    "name": "Yonis Gulzar"
+                }
+            ],
+            "doi": "10.11591/ijeecs.v25.i3.pp1736-1748",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1f10f2380e012e00a609d880458b54fac160b5ba",
+            "title": "An investigation study for risk calculation of security vulnerabilities on android applications",
+            "url": "https://www.semanticscholar.org/paper/1f10f2380e012e00a609d880458b54fac160b5ba",
+            "venue": "Indonesian Journal of Electrical Engineering and Computer Science",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "133972345",
+                    "name": "Fabiano Pecorelli"
+                },
+                {
+                    "authorId": "13721350",
+                    "name": "Gemma Catolino"
+                },
+                {
+                    "authorId": "1760777",
+                    "name": "F. Ferrucci"
+                },
+                {
+                    "authorId": "145818752",
+                    "name": "A. D. Lucia"
+                },
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                }
+            ],
+            "doi": "10.1007/s10664-021-10059-5",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a1662f538be68adca10019e91aaabae340a5717e",
+            "title": "Software testing and Android applications: a large-scale empirical study",
+            "url": "https://www.semanticscholar.org/paper/a1662f538be68adca10019e91aaabae340a5717e",
+            "venue": "Empirical Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2134139346",
+                    "name": "Namrud Zakeya"
+                },
+                {
+                    "authorId": "66912025",
+                    "name": "Kpodjedo S\u00e9gla"
+                },
+                {
+                    "authorId": "2134135406",
+                    "name": "Talhi Chamseddine"
+                },
+                {
+                    "authorId": "2045600384",
+                    "name": "Boaye Belle Alvine"
+                }
+            ],
+            "doi": "10.1016/j.jksuci.2021.08.033",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1e22463e4222d193ce3a3656e22b49976c06a3bb",
+            "title": "Probing AndroVul dataset for studies on Android malware classification",
+            "url": "https://www.semanticscholar.org/paper/1e22463e4222d193ce3a3656e22b49976c06a3bb",
+            "venue": "Journal of King Saud University - Computer and Information Sciences",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144087768",
+                    "name": "F. Liang"
+                },
+                {
+                    "authorId": "2119921945",
+                    "name": "Rongri Li"
+                },
+                {
+                    "authorId": "2087692373",
+                    "name": "Lili Mu"
+                }
+            ],
+            "doi": "10.1016/J.MICPRO.2021.103927",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "bbd30fbb3acce9326529f68db5dbed4e31adbb70",
+            "title": "Research on the spread effect of data recording sports app on outdoor running group",
+            "url": "https://www.semanticscholar.org/paper/bbd30fbb3acce9326529f68db5dbed4e31adbb70",
+            "venue": "Microprocess. Microsystems",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2968950",
+                    "name": "Zahid Hussain Qaisar"
+                },
+                {
+                    "authorId": "1773599",
+                    "name": "Ruixuan Li"
+                }
+            ],
+            "doi": "10.1007/s11042-021-10749-8",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "46a3663c27e2adf2463afba50c843a4535249848",
+            "title": "Multimodal information fusion for android malware detection using lazy learning",
+            "url": "https://www.semanticscholar.org/paper/46a3663c27e2adf2463afba50c843a4535249848",
+            "venue": "Multimedia Tools and Applications",
+            "year": 2021
+        },
+        {
+            "arxivId": "2010.07121",
+            "authors": [
+                {
+                    "authorId": "20687549",
+                    "name": "Sarra Habchi"
+                },
+                {
+                    "authorId": "2420979",
+                    "name": "Naouel Moha"
+                },
+                {
+                    "authorId": "1809154",
+                    "name": "Romain Rouvoy"
+                }
+            ],
+            "doi": "10.1016/j.jss.2021.110964",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "60f861623ed65b3f0830fece97e8e9744477eac6",
+            "title": "Android Code Smells: From Introduction to Refactoring",
+            "url": "https://www.semanticscholar.org/paper/60f861623ed65b3f0830fece97e8e9744477eac6",
+            "venue": "J. Syst. Softw.",
+            "year": 2020
+        },
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "133972345",
+                    "name": "Fabiano Pecorelli"
+                },
+                {
+                    "authorId": "13721350",
+                    "name": "Gemma Catolino"
+                },
+                {
+                    "authorId": "1760777",
+                    "name": "F. Ferrucci"
+                },
+                {
+                    "authorId": "145818752",
+                    "name": "A. D. Lucia"
+                },
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                }
+            ],
+            "doi": "10.1145/3387904.3389256",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4598da39a1145d80be1ffc304c7b52145fe0aabc",
+            "title": "Testing of Mobile Applications in the Wild: A large-Scale Empirical Study on Android Apps",
+            "url": "https://www.semanticscholar.org/paper/4598da39a1145d80be1ffc304c7b52145fe0aabc",
+            "venue": "2020 IEEE/ACM 28th International Conference on Program Comprehension (ICPC)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1753334740",
+                    "name": "Mehrdad Razavi Dehkordi"
+                },
+                {
+                    "authorId": "2220851",
+                    "name": "Habib Seifzadeh"
+                },
+                {
+                    "authorId": "1700598",
+                    "name": "G. Beydoun"
+                },
+                {
+                    "authorId": "1401905662",
+                    "name": "Mohammad-Hossein Nadimi-Shahraki"
+                }
+            ],
+            "doi": "10.1007/s40747-020-00154-3",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "ac355249c9c58758ef118d1752b710c6977b03b0",
+            "title": "Success prediction of android applications in a novel repository using neural networks",
+            "url": "https://www.semanticscholar.org/paper/ac355249c9c58758ef118d1752b710c6977b03b0",
+            "venue": "Complex & Intelligent Systems",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2113250846",
+                    "name": "Pei Liu"
+                },
+                {
+                    "authorId": "2156057192",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "2109712263",
+                    "name": "Yanjie Zhao"
+                },
+                {
+                    "authorId": "2112561483",
+                    "name": "Xiaoyu Sun"
+                },
+                {
+                    "authorId": "1687239",
+                    "name": "J. Grundy"
+                }
+            ],
+            "doi": "10.1145/3379597.3387503",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b80f7cc6321ddcb59595bfb3226f233082ceb987",
+            "title": "AndroZooOpen: Collecting Large-scale Open Source Android Apps for the Research Community",
+            "url": "https://www.semanticscholar.org/paper/b80f7cc6321ddcb59595bfb3226f233082ceb987",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2114354518",
+                    "name": "Jianfeng Cui"
+                },
+                {
+                    "authorId": "2108632014",
+                    "name": "Lixin Wang"
+                },
+                {
+                    "authorId": "2145735156",
+                    "name": "Xin Zhao"
+                },
+                {
+                    "authorId": "2108880169",
+                    "name": "Hongyi Zhang"
+                }
+            ],
+            "doi": "10.1016/j.comcom.2020.02.078",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f5fbda0d5516d9cfd89957d6154999c62442894e",
+            "title": "Towards predictive analysis of android vulnerability using statistical codes and machine learning for IoT applications",
+            "url": "https://www.semanticscholar.org/paper/f5fbda0d5516d9cfd89957d6154999c62442894e",
+            "venue": "Comput. Commun.",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "20687549",
+                    "name": "Sarra Habchi"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d053ab8424a9b8c6d088f5cdbd5417259e0c8060",
+            "title": "Understanding Mobile-Specific Code Smells",
+            "url": "https://www.semanticscholar.org/paper/d053ab8424a9b8c6d088f5cdbd5417259e0c8060",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "11002308",
+                    "name": "Anthony S Peruma"
+                },
+                {
+                    "authorId": "81531565",
+                    "name": "Khalid Almalki"
+                },
+                {
+                    "authorId": "21216319",
+                    "name": "Christian D. Newman"
+                },
+                {
+                    "authorId": "1810097",
+                    "name": "Mohamed Wiem Mkaouer"
+                },
+                {
+                    "authorId": "1994554",
+                    "name": "Ali Ouni"
+                },
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                }
+            ],
+            "doi": "10.5555/3370272.3370293",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "326c0e02cbe8b9043d943037250729290e6be393",
+            "title": "On the distribution of test smells in open source Android applications: an exploratory study",
+            "url": "https://www.semanticscholar.org/paper/326c0e02cbe8b9043d943037250729290e6be393",
+            "venue": "CASCON",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2203459",
+                    "name": "Bowen Xu"
+                },
+                {
+                    "authorId": "1820006",
+                    "name": "Le An"
+                },
+                {
+                    "authorId": "2121315",
+                    "name": "Ferdian Thung"
+                },
+                {
+                    "authorId": "1703493",
+                    "name": "Foutse Khomh"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                }
+            ],
+            "doi": "10.1007/s10664-019-09771-0",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "f8f93ba8a3dd0a9b2d8aeed95851920d8fdf871c",
+            "title": "Why reinventing the wheels? An empirical study on library reuse and re-implementation",
+            "url": "https://www.semanticscholar.org/paper/f8f93ba8a3dd0a9b2d8aeed95851920d8fdf871c",
+            "venue": "Empirical Software Engineering",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40642112",
+                    "name": "Gian Luca Scoccia"
+                },
+                {
+                    "authorId": "11002308",
+                    "name": "Anthony S Peruma"
+                },
+                {
+                    "authorId": "148313077",
+                    "name": "Virginia Pujols"
+                },
+                {
+                    "authorId": "2331013",
+                    "name": "I. Malavolta"
+                },
+                {
+                    "authorId": "2013851",
+                    "name": "Daniel E. Krutz"
+                }
+            ],
+            "doi": "10.1109/SCAM.2019.00034",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "224410d355e8641f20c472824b51fca83d9fc919",
+            "title": "Permission Issues in Open-Source Android Apps: An Exploratory Study",
+            "url": "https://www.semanticscholar.org/paper/224410d355e8641f20c472824b51fca83d9fc919",
+            "venue": "2019 19th International Working Conference on Source Code Analysis and Manipulation (SCAM)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2603954",
+                    "name": "P. Salza"
+                },
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                },
+                {
+                    "authorId": "116336149",
+                    "name": "Dario Di Nucci"
+                },
+                {
+                    "authorId": "72187755",
+                    "name": "A. De Lucia"
+                },
+                {
+                    "authorId": "1760777",
+                    "name": "F. Ferrucci"
+                }
+            ],
+            "doi": "10.1007/s10664-019-09754-1",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2dae9bf427f4e8740c64f735b5922d7de479ad48",
+            "title": "Third-party libraries in mobile apps",
+            "url": "https://www.semanticscholar.org/paper/2dae9bf427f4e8740c64f735b5922d7de479ad48",
+            "venue": "Empirical Software Engineering",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1396390997",
+                    "name": "Luis Cruz"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2fd751bfc62de7db99bd06cdfd238eb136175fa7",
+            "title": "Tools and Techniques for Energy-Efficient Mobile Application Development",
+            "url": "https://www.semanticscholar.org/paper/2fd751bfc62de7db99bd06cdfd238eb136175fa7",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "20687549",
+                    "name": "Sarra Habchi"
+                },
+                {
+                    "authorId": "1809154",
+                    "name": "Romain Rouvoy"
+                },
+                {
+                    "authorId": "2420979",
+                    "name": "Naouel Moha"
+                }
+            ],
+            "doi": "10.1109/MOBILESoft.2019.00022",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6030ca3e012b9dac1232eaadc932fc9bc202f0b4",
+            "title": "On the Survival of Android Code Smells in the Wild",
+            "url": "https://www.semanticscholar.org/paper/6030ca3e012b9dac1232eaadc932fc9bc202f0b4",
+            "venue": "2019 IEEE/ACM 6th International Conference on Mobile Software Engineering and Systems (MOBILESoft)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143996875",
+                    "name": "S. Chowdhury"
+                },
+                {
+                    "authorId": "145369636",
+                    "name": "Abram Hindle"
+                },
+                {
+                    "authorId": "1699020",
+                    "name": "R. Kazman"
+                },
+                {
+                    "authorId": "134808777",
+                    "name": "Takumi Shuto"
+                },
+                {
+                    "authorId": "2056136547",
+                    "name": "Ken Matsui"
+                },
+                {
+                    "authorId": "1706639",
+                    "name": "Yasutaka Kamei"
+                }
+            ],
+            "doi": "10.1109/ICSE.2019.00114",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "80ebb5db527d85d82bb78ab94fe205876659368f",
+            "title": "GreenBundle: An Empirical Study on the Energy Impact of Bundled Processing",
+            "url": "https://www.semanticscholar.org/paper/80ebb5db527d85d82bb78ab94fe205876659368f",
+            "venue": "2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00085",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "43148fabe2636026e07ca04974aff40d204bfb6b",
+            "title": "Standing on Shoulders or Feet? The Usage of the MSR Data Papers",
+            "url": "https://www.semanticscholar.org/paper/43148fabe2636026e07ca04974aff40d204bfb6b",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40642112",
+                    "name": "Gian Luca Scoccia"
+                },
+                {
+                    "authorId": "11002308",
+                    "name": "Anthony S Peruma"
+                },
+                {
+                    "authorId": "148313077",
+                    "name": "Virginia Pujols"
+                },
+                {
+                    "authorId": "146248626",
+                    "name": "Ben Christians"
+                },
+                {
+                    "authorId": "2013851",
+                    "name": "Daniel E. Krutz"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00090",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6ab7816ba1359953dd270983f30fc374189708c2",
+            "title": "An Empirical History of Permission Requests and Mistakes in Open Source Android Apps",
+            "url": "https://www.semanticscholar.org/paper/6ab7816ba1359953dd270983f30fc374189708c2",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "20687549",
+                    "name": "Sarra Habchi"
+                },
+                {
+                    "authorId": "2420979",
+                    "name": "Naouel Moha"
+                },
+                {
+                    "authorId": "1809154",
+                    "name": "Romain Rouvoy"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00071",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "cb82ff20ebf59b5063eda253c42ca333327e6432",
+            "title": "The Rise of Android Code Smells: Who is to Blame?",
+            "url": "https://www.semanticscholar.org/paper/cb82ff20ebf59b5063eda253c42ca333327e6432",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": "1902.02610",
+            "authors": [
+                {
+                    "authorId": "144758605",
+                    "name": "L. Cruz"
+                },
+                {
+                    "authorId": "144837389",
+                    "name": "Rui Abreu"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                }
+            ],
+            "doi": "10.1007/s10664-019-09701-0",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "1b97263299efb3328571bc6133966f8fa0962777",
+            "title": "To the attention of mobile software developers: guess what, test your app!",
+            "url": "https://www.semanticscholar.org/paper/1b97263299efb3328571bc6133966f8fa0962777",
+            "venue": "Empirical Software Engineering",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2125613759",
+                    "name": "Andr\u00e9s Navarro Cadavid"
+                },
+                {
+                    "authorId": "2267755903",
+                    "name": "Christian Camilo Urcuqui L\u00f3pez"
+                },
+                {
+                    "authorId": "2267750964",
+                    "name": "Melisa Garc\u00eda Pe\u00f1a"
+                },
+                {
+                    "authorId": "2267753177",
+                    "name": "Jos\u00e9 Luis Osorio Quintero"
+                }
+            ],
+            "doi": "10.18046/EUI/ee.4.2018",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "96175271daca44573757f959a411e1be8352dc83",
+            "title": "Ciberseguridad: un enfoque desde la ciencia de datos",
+            "url": "https://www.semanticscholar.org/paper/96175271daca44573757f959a411e1be8352dc83",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": "1809.10069",
+            "authors": [
+                {
+                    "authorId": "51134165",
+                    "name": "F. Geiger"
+                },
+                {
+                    "authorId": "2331013",
+                    "name": "I. Malavolta"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "154c1f3e2b4f310cc161c56eb4340a33d19390b6",
+            "title": "Datasets of Android Applications: a Literature Review",
+            "url": "https://www.semanticscholar.org/paper/154c1f3e2b4f310cc161c56eb4340a33d19390b6",
+            "venue": "ArXiv",
+            "year": 2018
+        },
+        {
+            "arxivId": "1808.00025",
+            "authors": [
+                {
+                    "authorId": "1445347033",
+                    "name": "Bruno G\u00f3is Mateus"
+                },
+                {
+                    "authorId": "37368749",
+                    "name": "Matias Martinez"
+                }
+            ],
+            "doi": "10.1007/s10664-019-09727-4",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "3b5a5ef67d8a888fa8dd00ab532ed2a8a80fbc49",
+            "title": "An empirical study on quality of Android applications written in Kotlin language",
+            "url": "https://www.semanticscholar.org/paper/3b5a5ef67d8a888fa8dd00ab532ed2a8a80fbc49",
+            "venue": "Empirical Software Engineering",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "11149136",
+                    "name": "Paolo Calciati"
+                },
+                {
+                    "authorId": "143927203",
+                    "name": "Konstantin Kuznetsov"
+                },
+                {
+                    "authorId": "50078092",
+                    "name": "Xue Bai"
+                },
+                {
+                    "authorId": "2762411",
+                    "name": "Alessandra Gorla"
+                }
+            ],
+            "doi": "10.1145/3196398.3196449",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b4ee82bdb79276d421210e5945695fdf4abda6ac",
+            "title": "What did Really Change with the New Release of the App?",
+            "url": "https://www.semanticscholar.org/paper/b4ee82bdb79276d421210e5945695fdf4abda6ac",
+            "venue": "2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51134165",
+                    "name": "F. Geiger"
+                },
+                {
+                    "authorId": "2331013",
+                    "name": "I. Malavolta"
+                },
+                {
+                    "authorId": "40695832",
+                    "name": "L. Pascarella"
+                },
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                },
+                {
+                    "authorId": "50515157",
+                    "name": "Dario Di Nucci"
+                },
+                {
+                    "authorId": "1686038",
+                    "name": "Alberto Bacchelli"
+                }
+            ],
+            "doi": "10.1145/3196398.3196460",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "370ed4a6b85454b6e2870530e1a0b5556d496b7e",
+            "title": "A Graph-Based Dataset of Commit History of Real-World Android apps",
+            "url": "https://www.semanticscholar.org/paper/370ed4a6b85454b6e2870530e1a0b5556d496b7e",
+            "venue": "2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "11002308",
+                    "name": "Anthony S Peruma"
+                },
+                {
+                    "authorId": "2013851",
+                    "name": "Daniel E. Krutz"
+                }
+            ],
+            "doi": "10.1145/3194707.3194711",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "22bbb630aa0205e94bad235c6dced277dcc0831d",
+            "title": "Understanding the Relationship between Quality and Security: A Large-Scale Analysis of Android Applications",
+            "url": "https://www.semanticscholar.org/paper/22bbb630aa0205e94bad235c6dced277dcc0831d",
+            "venue": "2018 IEEE/ACM 1st International Workshop on Security Awareness from Design to Deployment (SEAD)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3459335",
+                    "name": "Giovanni Grano"
+                },
+                {
+                    "authorId": "3144783",
+                    "name": "Andrea Di Sorbo"
+                },
+                {
+                    "authorId": "2112431",
+                    "name": "F. Mercaldo"
+                },
+                {
+                    "authorId": "1717023",
+                    "name": "C. A. Visaggio"
+                },
+                {
+                    "authorId": "1711200",
+                    "name": "G. Canfora"
+                },
+                {
+                    "authorId": "3117169",
+                    "name": "Sebastiano Panichella"
+                }
+            ],
+            "doi": "10.1145/3121264.3121266",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6d7ec7c464e27a696cf5cdac6766920d1b64405b",
+            "title": "Android apps and user feedback: a dataset for software evolution and quality improvement",
+            "url": "https://www.semanticscholar.org/paper/6d7ec7c464e27a696cf5cdac6766920d1b64405b",
+            "venue": "WAMA@ESEC/SIGSOFT FSE",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2068105297",
+                    "name": "William J. Martin"
+                },
+                {
+                    "authorId": "2103653",
+                    "name": "Federica Sarro"
+                },
+                {
+                    "authorId": "145401173",
+                    "name": "Yue Jia"
+                },
+                {
+                    "authorId": "2145793494",
+                    "name": "Yuanyuan Zhang"
+                },
+                {
+                    "authorId": "145836176",
+                    "name": "M. Harman"
+                }
+            ],
+            "doi": "10.1109/TSE.2016.2630689",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a75965753906c24a6a5715a695757a0de8447f26",
+            "title": "A Survey of App Store Analysis for Software Engineering",
+            "url": "https://www.semanticscholar.org/paper/a75965753906c24a6a5715a695757a0de8447f26",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51905158",
+                    "name": "T. Shanmuigapriya"
+                },
+                {
+                    "authorId": "144975917",
+                    "name": "S. Swamynathan"
+                }
+            ],
+            "doi": "10.1007/s00500-017-2774-5",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1c2ca9df6aca62549221c5125f2ca05ca4a3b7f8",
+            "title": "Reliability score inference and recommendation using fuzzy-based technique for social media applications",
+            "url": "https://www.semanticscholar.org/paper/1c2ca9df6aca62549221c5125f2ca05ca4a3b7f8",
+            "venue": "Soft Computing",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39602632",
+                    "name": "Marianna Rapoport"
+                },
+                {
+                    "authorId": "4010451",
+                    "name": "Philippe Suter"
+                },
+                {
+                    "authorId": "101116834",
+                    "name": "Erik Wittern"
+                },
+                {
+                    "authorId": "3284421",
+                    "name": "Ond\u0159ej Lhot\u00e1k"
+                },
+                {
+                    "authorId": "145989430",
+                    "name": "Julian T Dolby"
+                }
+            ],
+            "doi": "10.1109/MSR.2017.11",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "959ae336def97ac35972dd81948a6fa6206e5bd9",
+            "title": "Who you gonna call?: analyzing web requests in Android applications",
+            "url": "https://www.semanticscholar.org/paper/959ae336def97ac35972dd81948a6fa6206e5bd9",
+            "venue": "MSR",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2013851",
+                    "name": "Daniel E. Krutz"
+                },
+                {
+                    "authorId": "5511581",
+                    "name": "Nuthan Munaiah"
+                },
+                {
+                    "authorId": "11002308",
+                    "name": "Anthony S Peruma"
+                },
+                {
+                    "authorId": "1810097",
+                    "name": "Mohamed Wiem Mkaouer"
+                }
+            ],
+            "doi": "10.1109/MOBILESoft.2017.5",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "530e703e60fa532f727dc7be83e814d84808f7d5",
+            "title": "Who Added That Permission to My App? An Analysis of Developer Permission Changes in Open Source Android Apps",
+            "url": "https://www.semanticscholar.org/paper/530e703e60fa532f727dc7be83e814d84808f7d5",
+            "venue": "2017 IEEE/ACM 4th International Conference on Mobile Software Engineering and Systems (MOBILESoft)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39864830",
+                    "name": "A. Rahman"
+                },
+                {
+                    "authorId": "31607807",
+                    "name": "Priysha Pradhan"
+                },
+                {
+                    "authorId": "20852267",
+                    "name": "Asif Partho"
+                },
+                {
+                    "authorId": "144426849",
+                    "name": "L. Williams"
+                }
+            ],
+            "doi": "10.1109/MOBILESoft.2017.14",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6905b3f88f09382510648b16822616332269daa3",
+            "title": "Predicting Android Application Security and Privacy Risk with Static Code Metrics",
+            "url": "https://www.semanticscholar.org/paper/6905b3f88f09382510648b16822616332269daa3",
+            "venue": "2017 IEEE/ACM 4th International Conference on Mobile Software Engineering and Systems (MOBILESoft)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "11149136",
+                    "name": "Paolo Calciati"
+                },
+                {
+                    "authorId": "2762411",
+                    "name": "Alessandra Gorla"
+                }
+            ],
+            "doi": "10.1109/MSR.2017.64",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "094346cc89455ca3ad7f4200df6ccf5e87a4e7a1",
+            "title": "How Do Apps Evolve in Their Permission Requests? A Preliminary Study",
+            "url": "https://www.semanticscholar.org/paper/094346cc89455ca3ad7f4200df6ccf5e87a4e7a1",
+            "venue": "2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2013851",
+                    "name": "Daniel E. Krutz"
+                },
+                {
+                    "authorId": "5511581",
+                    "name": "Nuthan Munaiah"
+                },
+                {
+                    "authorId": "2152806",
+                    "name": "Andrew Meneely"
+                },
+                {
+                    "authorId": "2049817",
+                    "name": "Samuel A. Malachowsky"
+                }
+            ],
+            "doi": "10.1145/2993259.2993260",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1e9706e3c5bf90eacbfefc2dda274342e8fd3d15",
+            "title": "Examining the relationship between security metrics and user ratings of mobile apps: a case study",
+            "url": "https://www.semanticscholar.org/paper/1e9706e3c5bf90eacbfefc2dda274342e8fd3d15",
+            "venue": "WAMA@SIGSOFT FSE",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5511581",
+                    "name": "Nuthan Munaiah"
+                },
+                {
+                    "authorId": "1403434027",
+                    "name": "Casey Klimkowsky"
+                },
+                {
+                    "authorId": "46213540",
+                    "name": "S. mcrae"
+                },
+                {
+                    "authorId": "1400479718",
+                    "name": "Adam Blaine"
+                },
+                {
+                    "authorId": "2049817",
+                    "name": "Samuel A. Malachowsky"
+                },
+                {
+                    "authorId": "121091140",
+                    "name": "Cesar Perez"
+                },
+                {
+                    "authorId": "2013851",
+                    "name": "Daniel E. Krutz"
+                }
+            ],
+            "doi": "10.1145/2993259.2993264",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "83c89f82c7dcce16bda2eb2ce9be927a5ec590d0",
+            "title": "Darwin: a static analysis dataset of malicious and benign Android apps",
+            "url": "https://www.semanticscholar.org/paper/83c89f82c7dcce16bda2eb2ce9be927a5ec590d0",
+            "venue": "WAMA@SIGSOFT FSE",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "3318024",
+                    "name": "Emad Shihab"
+                },
+                {
+                    "authorId": "1706639",
+                    "name": "Yasutaka Kamei"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                },
+                {
+                    "authorId": "2115553036",
+                    "name": "Xinyu Wang"
+                }
+            ],
+            "doi": "10.1145/2961111.2962606",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "08d3a9ebb6c276d687c3876f14064cae4712f67d",
+            "title": "Predicting Crashing Releases of Mobile Applications",
+            "url": "https://www.semanticscholar.org/paper/08d3a9ebb6c276d687c3876f14064cae4712f67d",
+            "venue": "ESEM",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1468414269",
+                    "name": "Christian Urcuqui-L\u00f3pez"
+                },
+                {
+                    "authorId": "1835359",
+                    "name": "A. N. Cadavid"
+                }
+            ],
+            "doi": "10.18046/SYT.V14I37.2241",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e93d4e02667d6acd148f22e354805d0af8818806",
+            "title": "Framework for malware analysis in Android",
+            "url": "https://www.semanticscholar.org/paper/e93d4e02667d6acd148f22e354805d0af8818806",
+            "venue": "",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2551250",
+                    "name": "Lingfeng Bao"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                },
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "2115553036",
+                    "name": "Xinyu Wang"
+                },
+                {
+                    "authorId": "2053444",
+                    "name": "Cong Tian"
+                }
+            ],
+            "doi": "10.1145/2901739.2901748",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "25e9823815a6d9f74e9b2c2af3aa8157763a840e",
+            "title": "How Android App Developers Manage Power Consumption? - An Empirical Study by Mining Power Management Commits",
+            "url": "https://www.semanticscholar.org/paper/25e9823815a6d9f74e9b2c2af3aa8157763a840e",
+            "venue": "2016 IEEE/ACM 13th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51312105",
+                    "name": "Christian Camilo Urcuqui L\u00f3pez"
+                },
+                {
+                    "authorId": "1835359",
+                    "name": "A. N. Cadavid"
+                }
+            ],
+            "doi": "10.1109/COLCOMCON.2016.7516385",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "0133603212853b56fc3e32b7f755575d11d270d0",
+            "title": "Machine learning classifiers for android malware analysis",
+            "url": "https://www.semanticscholar.org/paper/0133603212853b56fc3e32b7f755575d11d270d0",
+            "venue": "",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1661036943",
+                    "name": "Zakeya Namrud"
+                },
+                {
+                    "authorId": "1809427",
+                    "name": "S\u00e8gla Kpodjedo"
+                },
+                {
+                    "authorId": "2063935310",
+                    "name": "Ahmed Bali"
+                },
+                {
+                    "authorId": "1723554",
+                    "name": "C. Talhi"
+                }
+            ],
+            "doi": "10.1109/ACCESS.2022.3156083",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2c26e68a7e7c856bb0d6a20fff6ada4108ca5a80",
+            "title": "Deep-layer clustering to identify permission usage patterns of Android app categories",
+            "url": "https://www.semanticscholar.org/paper/2c26e68a7e7c856bb0d6a20fff6ada4108ca5a80",
+            "venue": "IEEE Access",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "11002308",
+                    "name": "Anthony S Peruma"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "12eef28ddbb0d4eb396d83352a8e85278009e139",
+            "title": "What the Smell? An Empirical Investigation on the Distribution and Severity of Test Smells in Open Source Android Applications",
+            "url": "https://www.semanticscholar.org/paper/12eef28ddbb0d4eb396d83352a8e85278009e139",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "23107451",
+                    "name": "F. I. Abro"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8b89e3d7cf1e7b5c24d66b2af346a52d145cad11",
+            "title": "Investigating Android permissions and intents for malware detection",
+            "url": "https://www.semanticscholar.org/paper/8b89e3d7cf1e7b5c24d66b2af346a52d145cad11",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143927203",
+                    "name": "Konstantin Kuznetsov"
+                },
+                {
+                    "authorId": "50078092",
+                    "name": "Xue Bai"
+                },
+                {
+                    "authorId": "2762411",
+                    "name": "Alessandra Gorla"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "326e4df6c536e27ee2e9a1a44d92fe288b22190c",
+            "title": "Downloading Filtering App Market or Database Metadata Libraries APK Content Data Flows APIs",
+            "url": "https://www.semanticscholar.org/paper/326e4df6c536e27ee2e9a1a44d92fe288b22190c",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "113639511",
+                    "name": "Mile Stojkovski"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4af13ad739489d7dbfa9c8ac15a3a18b956626ec",
+            "title": "Thresholds for Software Quality Metrics in Open Source Android Projects",
+            "url": "https://www.semanticscholar.org/paper/4af13ad739489d7dbfa9c8ac15a3a18b956626ec",
+            "venue": "",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "9429427",
+                    "name": "Christian Camilo Urcuqui Lopez"
+                },
+                {
+                    "authorId": "30612713",
+                    "name": "Andr\u00e9s Navarro Cadavid"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4cbfb741342bf1dee5c9a68e3913a8bb84b9325c",
+            "title": "Machine learning classifiers for android malware analysis",
+            "url": "https://www.semanticscholar.org/paper/4cbfb741342bf1dee5c9a68e3913a8bb84b9325c",
+            "venue": "2016 IEEE Colombian Conference on Communications and Computing (COLCOM)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2288151941",
+                    "name": "Md. Shohel"
+                },
+                {
+                    "authorId": "2288152643",
+                    "name": "Andrew H. Sung"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "adfe5076309b6e978b04e34aea69bd4bfad68f0c",
+            "title": "The Aquila Digital Community The Aquila Digital Community",
+            "url": "https://www.semanticscholar.org/paper/adfe5076309b6e978b04e34aea69bd4bfad68f0c",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "corpusId": 13257508,
+    "doi": "10.1109/MSR.2015.79",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 3,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 54,
+    "numCiting": 8,
+    "paperId": "96dcbf0c80aa7d866c8d8a82f4abe2f204398331",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2489809",
+                    "name": "Manuel Egele"
+                },
+                {
+                    "authorId": "145959809",
+                    "name": "David Brumley"
+                },
+                {
+                    "authorId": "2416629",
+                    "name": "Y. Fratantonio"
+                },
+                {
+                    "authorId": "69508619",
+                    "name": "C. Kruegel"
+                }
+            ],
+            "doi": "10.1145/2508859.2516693",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "14a0511f05820914a3c10f5c43f2c6bd8d069c9a",
+            "title": "An empirical study of cryptographic misuse in android applications",
+            "url": "https://www.semanticscholar.org/paper/14a0511f05820914a3c10f5c43f2c6bd8d069c9a",
+            "venue": "CCS",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145738410",
+                    "name": "W. Xu"
+                },
+                {
+                    "authorId": "2153306735",
+                    "name": "Fangfang Zhang"
+                },
+                {
+                    "authorId": "1712616",
+                    "name": "Sencun Zhu"
+                }
+            ],
+            "doi": "10.1109/ISSRE.2013.6698893",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "cdc6a5f827cd6fc2b16c8f93644bf9c70b7f3af0",
+            "title": "Permlyzer: Analyzing permission usage in Android applications",
+            "url": "https://www.semanticscholar.org/paper/cdc6a5f827cd6fc2b16c8f93644bf9c70b7f3af0",
+            "venue": "2013 IEEE 24th International Symposium on Software Reliability Engineering (ISSRE)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49902369",
+                    "name": "Yuan Tian"
+                },
+                {
+                    "authorId": "1793096",
+                    "name": "J. Lawall"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                }
+            ],
+            "doi": "10.1109/ICSE.2012.6227176",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fefe8167fee266c9ca7ed2946a849e032e1b015b",
+            "title": "Identifying Linux bug fixing patches",
+            "url": "https://www.semanticscholar.org/paper/fefe8167fee266c9ca7ed2946a849e032e1b015b",
+            "venue": "2012 34th International Conference on Software Engineering (ICSE)",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2838694",
+                    "name": "A. Felt"
+                },
+                {
+                    "authorId": "144061142",
+                    "name": "Erika Chin"
+                },
+                {
+                    "authorId": "144063487",
+                    "name": "Steve Hanna"
+                },
+                {
+                    "authorId": "143711382",
+                    "name": "D. Song"
+                },
+                {
+                    "authorId": "145394689",
+                    "name": "D. Wagner"
+                }
+            ],
+            "doi": "10.1145/2046707.2046779",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "bd736ada1822b69e13d5a5aa68acc84cb9c5fb36",
+            "title": "Android permissions demystified",
+            "url": "https://www.semanticscholar.org/paper/bd736ada1822b69e13d5a5aa68acc84cb9c5fb36",
+            "venue": "CCS '11",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2099637",
+                    "name": "Jon Eyolfson"
+                },
+                {
+                    "authorId": "144938015",
+                    "name": "Lin Tan"
+                },
+                {
+                    "authorId": "145773256",
+                    "name": "Patrick Lam"
+                }
+            ],
+            "doi": "10.1145/1985441.1985464",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "83f93d5d0306dbbb387ffeffafa6e2ea33986d3d",
+            "title": "Do time of day and developer experience affect commit bugginess?",
+            "url": "https://www.semanticscholar.org/paper/83f93d5d0306dbbb387ffeffafa6e2ea33986d3d",
+            "venue": "MSR '11",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2836641",
+                    "name": "Adrian Bachmann"
+                },
+                {
+                    "authorId": "145193818",
+                    "name": "C. Bird"
+                },
+                {
+                    "authorId": "2235107",
+                    "name": "Foyzur Rahman"
+                },
+                {
+                    "authorId": "1730296",
+                    "name": "Premkumar T. Devanbu"
+                },
+                {
+                    "authorId": "145704191",
+                    "name": "A. Bernstein"
+                }
+            ],
+            "doi": "10.1145/1882291.1882308",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a7b4f2f383f8d4c53f52ba6c64bdeaabc76e2ff1",
+            "title": "The missing links: bugs and bug-fix commits",
+            "url": "https://www.semanticscholar.org/paper/a7b4f2f383f8d4c53f52ba6c64bdeaabc76e2ff1",
+            "venue": "FSE '10",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3016560",
+                    "name": "Raymond P. L. Buse"
+                },
+                {
+                    "authorId": "47211092",
+                    "name": "Westley Weimer"
+                }
+            ],
+            "doi": "10.1145/1858996.1859005",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "467966cd135e25b1b27e78bc4626a8c354796d74",
+            "title": "Automatically documenting program changes",
+            "url": "https://www.semanticscholar.org/paper/467966cd135e25b1b27e78bc4626a8c354796d74",
+            "venue": "ASE",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1783197",
+                    "name": "Valentin Dallmeier"
+                },
+                {
+                    "authorId": "143609903",
+                    "name": "Thomas Zimmermann"
+                }
+            ],
+            "doi": "10.1145/1321631.1321702",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1062eca8785ff8665949ac3e11ab843246a05a84",
+            "title": "Extraction of bug localization benchmarks from history",
+            "url": "https://www.semanticscholar.org/paper/1062eca8785ff8665949ac3e11ab843246a05a84",
+            "venue": "ASE",
+            "year": 2007
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "A Dataset of Open-Source Android Applications",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/96dcbf0c80aa7d866c8d8a82f4abe2f204398331",
+    "venue": "2015 IEEE/ACM 12th Working Conference on Mining Software Repositories",
+    "year": 2015
+}

@@ -1,0 +1,927 @@
+{
+    "abstract": "We call a program that passes existing tests but still contains bugs as a buggy plausible program. Bugs in such a program can bypass the testing environment and enter the production environment, causing unpredictable consequences. Therefore, discovering and fixing such bugs is a fundamental and critical problem. However, no existing bug dataset is purposed to collect this kind of bug, posing significant obstacles to relevant research. To address this gap, we introduce TrickyBugs, a bug dataset with 3,043 buggy plausible programs sourced from human-written submissions of 324 real-world competition coding tasks. We identified the buggy plausible programs from approximately 400,000 submissions, and all the bugs in TrickyBugs were not previously detected. We hope that TrickyBugs can effectively facilitate research in the fields of automated program repair, fault localization, test generation, and test adequacy.CCS CONCEPTS\u2022Software and its engineering \u2192 Software testing and debugging.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2279437904",
+            "name": "Kaibo Liu",
+            "url": "https://www.semanticscholar.org/author/2279437904"
+        },
+        {
+            "authorId": "2152494777",
+            "name": "Yudong Han",
+            "url": "https://www.semanticscholar.org/author/2152494777"
+        },
+        {
+            "authorId": "2297059271",
+            "name": "Yiyang Liu",
+            "url": "https://www.semanticscholar.org/author/2297059271"
+        },
+        {
+            "authorId": "2267391486",
+            "name": "Zhenpeng Chen",
+            "url": "https://www.semanticscholar.org/author/2267391486"
+        },
+        {
+            "authorId": "2293042568",
+            "name": "Jie M. Zhang",
+            "url": "https://www.semanticscholar.org/author/2293042568"
+        },
+        {
+            "authorId": "2275465565",
+            "name": "Federica Sarro",
+            "url": "https://www.semanticscholar.org/author/2275465565"
+        },
+        {
+            "authorId": "2291485395",
+            "name": "Gang Huang",
+            "url": "https://www.semanticscholar.org/author/2291485395"
+        },
+        {
+            "authorId": "2297416948",
+            "name": "Yun Ma",
+            "url": "https://www.semanticscholar.org/author/2297416948"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2409.09271",
+            "authors": [
+                {
+                    "authorId": "2305566740",
+                    "name": "Wenhan Wang"
+                },
+                {
+                    "authorId": "2279437904",
+                    "name": "Kaibo Liu"
+                },
+                {
+                    "authorId": "2309000990",
+                    "name": "An Ran Chen"
+                },
+                {
+                    "authorId": "2296952459",
+                    "name": "Ge Li"
+                },
+                {
+                    "authorId": "2152843753",
+                    "name": "Zhi Jin"
+                },
+                {
+                    "authorId": "2291485395",
+                    "name": "Gang Huang"
+                },
+                {
+                    "authorId": "2321447875",
+                    "name": "Lei Ma"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "9165f54bc04a617797dd20e52f73dec8da311525",
+            "title": "Python Symbolic Execution with LLM-powered Code Generation",
+            "url": "https://www.semanticscholar.org/paper/9165f54bc04a617797dd20e52f73dec8da311525",
+            "venue": "",
+            "year": 2024
+        },
+        {
+            "arxivId": "2404.10304",
+            "authors": [
+                {
+                    "authorId": "2279437904",
+                    "name": "Kaibo Liu"
+                },
+                {
+                    "authorId": "2297059271",
+                    "name": "Yiyang Liu"
+                },
+                {
+                    "authorId": "2267391486",
+                    "name": "Zhenpeng Chen"
+                },
+                {
+                    "authorId": "2293042568",
+                    "name": "Jie M. Zhang"
+                },
+                {
+                    "authorId": "2152494777",
+                    "name": "Yudong Han"
+                },
+                {
+                    "authorId": "2297416948",
+                    "name": "Yun Ma"
+                },
+                {
+                    "authorId": "2296952459",
+                    "name": "Ge Li"
+                },
+                {
+                    "authorId": "2291485395",
+                    "name": "Gang Huang"
+                }
+            ],
+            "doi": "10.48550/arXiv.2404.10304",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "f8fc00a90d808cafc0cf054243ebf7521b5849c5",
+            "title": "LLM-Powered Test Case Generation for Detecting Tricky Bugs",
+            "url": "https://www.semanticscholar.org/paper/f8fc00a90d808cafc0cf054243ebf7521b5849c5",
+            "venue": "ArXiv",
+            "year": 2024
+        }
+    ],
+    "corpusId": 270593082,
+    "doi": "10.1145/3643991.3644870",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 2,
+    "numCiting": 24,
+    "paperId": "ad20247560219735e6bf05916b5e83565f869c9e",
+    "references": [
+        {
+            "arxivId": "2310.16253",
+            "authors": [
+                {
+                    "authorId": "2115859696",
+                    "name": "Yonghao Wu"
+                },
+                {
+                    "authorId": "2238446991",
+                    "name": "Zheng Li"
+                },
+                {
+                    "authorId": "2261729749",
+                    "name": "Jie M. Zhang"
+                },
+                {
+                    "authorId": "2144385436",
+                    "name": "Yong Liu"
+                }
+            ],
+            "doi": "10.48550/arXiv.2310.16253",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a0af2f9bf5d59131ba509ae97994c13c4bf5ebc7",
+            "title": "ConDefects: A New Dataset to Address the Data Leakage Concern for LLM-based Fault Localization and Program Repair",
+            "url": "https://www.semanticscholar.org/paper/a0af2f9bf5d59131ba509ae97994c13c4bf5ebc7",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": "2307.07221",
+            "authors": [
+                {
+                    "authorId": "2109763128",
+                    "name": "Junjie Wang"
+                },
+                {
+                    "authorId": "2115708808",
+                    "name": "Yuchao Huang"
+                },
+                {
+                    "authorId": "46729152",
+                    "name": "Chunyang Chen"
+                },
+                {
+                    "authorId": "2116746462",
+                    "name": "Zhe Liu"
+                },
+                {
+                    "authorId": "2117074753",
+                    "name": "Song Wang"
+                },
+                {
+                    "authorId": "2145464944",
+                    "name": "Qing Wang"
+                }
+            ],
+            "doi": "10.1109/TSE.2024.3368208",
+            "intent": [
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "f43b8a87a96f8abc2467b90538b643a6061416e9",
+            "title": "Software Testing With Large Language Models: Survey, Landscape, and Vision",
+            "url": "https://www.semanticscholar.org/paper/f43b8a87a96f8abc2467b90538b643a6061416e9",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2279437904",
+                    "name": "Kaibo Liu"
+                },
+                {
+                    "authorId": "2152494777",
+                    "name": "Yudong Han"
+                },
+                {
+                    "authorId": "51250527",
+                    "name": "J Zhang"
+                },
+                {
+                    "authorId": "115023982",
+                    "name": "Zhenpeng Chen"
+                },
+                {
+                    "authorId": "2103653",
+                    "name": "Federica Sarro"
+                },
+                {
+                    "authorId": "145836176",
+                    "name": "M. Harman"
+                },
+                {
+                    "authorId": "2181800064",
+                    "name": "Gang Huang"
+                },
+                {
+                    "authorId": "48521633",
+                    "name": "Yun Ma"
+                }
+            ],
+            "doi": "10.1145/3597926.3598060",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "21b49a149046b39a38b96d9326260ea0d32fddd3",
+            "title": "Who Judges the Judge: An Empirical Study on Online Judge Tests",
+            "url": "https://www.semanticscholar.org/paper/21b49a149046b39a38b96d9326260ea0d32fddd3",
+            "venue": "ISSTA",
+            "year": 2023
+        },
+        {
+            "arxivId": "2304.11686",
+            "authors": [
+                {
+                    "authorId": "51129571",
+                    "name": "T. Li"
+                },
+                {
+                    "authorId": "14921484",
+                    "name": "Wen-yi Zong"
+                },
+                {
+                    "authorId": "2143436737",
+                    "name": "Yibo Wang"
+                },
+                {
+                    "authorId": "2069990130",
+                    "name": "Haoye Tian"
+                },
+                {
+                    "authorId": "49416173",
+                    "name": "Y. Wang"
+                },
+                {
+                    "authorId": "143608708",
+                    "name": "S. Cheung"
+                }
+            ],
+            "doi": "10.1109/ASE56229.2023.00089",
+            "intent": [
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "c63f92f5598f72e214291e54cacda43eaf26c04c",
+            "title": "Nuances are the Key: Unlocking ChatGPT to Find Failure-Inducing Tests with Differential Prompting",
+            "url": "https://www.semanticscholar.org/paper/c63f92f5598f72e214291e54cacda43eaf26c04c",
+            "venue": "2023 38th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2203.07814",
+            "authors": [
+                {
+                    "authorId": "47002813",
+                    "name": "Yujia Li"
+                },
+                {
+                    "authorId": "2114950020",
+                    "name": "David Choi"
+                },
+                {
+                    "authorId": "8270717",
+                    "name": "Junyoung Chung"
+                },
+                {
+                    "authorId": "1684887",
+                    "name": "Nate Kushman"
+                },
+                {
+                    "authorId": "4337102",
+                    "name": "Julian Schrittwieser"
+                },
+                {
+                    "authorId": "37212795",
+                    "name": "R\u00e9mi Leblond"
+                },
+                {
+                    "authorId": "2152472076",
+                    "name": "Tom"
+                },
+                {
+                    "authorId": "2152469120",
+                    "name": "Eccles"
+                },
+                {
+                    "authorId": "2058168486",
+                    "name": "James Keeling"
+                },
+                {
+                    "authorId": "49423009",
+                    "name": "Felix Gimeno"
+                },
+                {
+                    "authorId": "2152469362",
+                    "name": "Agustin Dal Lago"
+                },
+                {
+                    "authorId": "2067208983",
+                    "name": "T. Hubert"
+                },
+                {
+                    "authorId": "2070068655",
+                    "name": "Peter Choy"
+                },
+                {
+                    "authorId": "2154435638",
+                    "name": "Cyprien de"
+                },
+                {
+                    "authorId": "2152471553",
+                    "name": "Masson d\u2019Autume"
+                },
+                {
+                    "authorId": "2256699276",
+                    "name": "Igor Babuschkin"
+                },
+                {
+                    "authorId": "1425082935",
+                    "name": "Xinyun Chen"
+                },
+                {
+                    "authorId": "2421691",
+                    "name": "Po-Sen Huang"
+                },
+                {
+                    "authorId": "1851564",
+                    "name": "Johannes Welbl"
+                },
+                {
+                    "authorId": "2071666",
+                    "name": "Sven Gowal"
+                },
+                {
+                    "authorId": "2079024030",
+                    "name": "Alexey"
+                },
+                {
+                    "authorId": "152394142",
+                    "name": "Cherepanov"
+                },
+                {
+                    "authorId": "2065370007",
+                    "name": "James Molloy"
+                },
+                {
+                    "authorId": "3187297",
+                    "name": "D. Mankowitz"
+                },
+                {
+                    "authorId": "2152471960",
+                    "name": "Esme Sutherland Robson"
+                },
+                {
+                    "authorId": "143967473",
+                    "name": "Pushmeet Kohli"
+                },
+                {
+                    "authorId": "2152472162",
+                    "name": "Nando de"
+                },
+                {
+                    "authorId": "2152469135",
+                    "name": "Freitas"
+                },
+                {
+                    "authorId": "2645384",
+                    "name": "K. Kavukcuoglu"
+                },
+                {
+                    "authorId": "1689108",
+                    "name": "O. Vinyals"
+                }
+            ],
+            "doi": "10.1126/science.abq1158",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5cbe278b65a81602a864184bbca37de91448a5f5",
+            "title": "Competition-level code generation with AlphaCode",
+            "url": "https://www.semanticscholar.org/paper/5cbe278b65a81602a864184bbca37de91448a5f5",
+            "venue": "Science",
+            "year": 2022
+        },
+        {
+            "arxivId": "2102.03300",
+            "authors": [
+                {
+                    "authorId": "118283839",
+                    "name": "Giovanni Rosa"
+                },
+                {
+                    "authorId": "40695832",
+                    "name": "L. Pascarella"
+                },
+                {
+                    "authorId": "3439470",
+                    "name": "Simone Scalabrino"
+                },
+                {
+                    "authorId": "2045297541",
+                    "name": "Rosalia Tufano"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                }
+            ],
+            "doi": "10.1109/ICSE43902.2021.00049",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5e8ce0c69b0c1872b5f2e9b12d627be926db8dab",
+            "title": "Evaluating SZZ Implementations Through a Developer-Informed Oracle",
+            "url": "https://www.semanticscholar.org/paper/5e8ce0c69b0c1872b5f2e9b12d627be926db8dab",
+            "venue": "2021 IEEE/ACM 43rd International Conference on Software Engineering (ICSE)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2116444056",
+                    "name": "Derrick Lin"
+                },
+                {
+                    "authorId": "39465522",
+                    "name": "James Koppel"
+                },
+                {
+                    "authorId": null,
+                    "name": "Angela Chen"
+                },
+                {
+                    "authorId": "1389870240",
+                    "name": "Armando Solar-Lezama"
+                }
+            ],
+            "doi": "10.1145/3135932.3135941",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "7f1d443ab526240e2647e77e042434fc98249302",
+            "title": "QuixBugs: a multi-lingual program repair benchmark set based on the quixey challenge",
+            "url": "https://www.semanticscholar.org/paper/7f1d443ab526240e2647e77e042434fc98249302",
+            "venue": "SPLASH",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1747226",
+                    "name": "Shin Hwei Tan"
+                },
+                {
+                    "authorId": "34276932",
+                    "name": "Jooyong Yi"
+                },
+                {
+                    "authorId": "11021244",
+                    "name": "Yulis"
+                },
+                {
+                    "authorId": "2679031",
+                    "name": "Sergey Mechtaev"
+                },
+                {
+                    "authorId": "1789700",
+                    "name": "Abhik Roychoudhury"
+                }
+            ],
+            "doi": "10.1109/ICSE-C.2017.76",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "aef542decbd262689a16b06809b37ef319807cba",
+            "title": "Codeflaws: A Programming Competition Benchmark for Evaluating Automated Program Repair Tools",
+            "url": "https://www.semanticscholar.org/paper/aef542decbd262689a16b06809b37ef319807cba",
+            "venue": "2017 IEEE/ACM 39th International Conference on Software Engineering Companion (ICSE-C)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2957803",
+                    "name": "Claire Le Goues"
+                },
+                {
+                    "authorId": "8374259",
+                    "name": "Neal J. Holtschulte"
+                },
+                {
+                    "authorId": "21401565",
+                    "name": "Edward K. Smith"
+                },
+                {
+                    "authorId": "2932798",
+                    "name": "Yuriy Brun"
+                },
+                {
+                    "authorId": "1730296",
+                    "name": "Premkumar T. Devanbu"
+                },
+                {
+                    "authorId": "30123380",
+                    "name": "S. Forrest"
+                },
+                {
+                    "authorId": "47211092",
+                    "name": "Westley Weimer"
+                }
+            ],
+            "doi": "10.1109/TSE.2015.2454513",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ea73e3c069f4593e916737ca8f59a3faf51d1f0c",
+            "title": "The ManyBugs and IntroClass Benchmarks for Automated Repair of C Programs",
+            "url": "https://www.semanticscholar.org/paper/ea73e3c069f4593e916737ca8f59a3faf51d1f0c",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1757975",
+                    "name": "Earl T. Barr"
+                },
+                {
+                    "authorId": "145836176",
+                    "name": "M. Harman"
+                },
+                {
+                    "authorId": "3033824",
+                    "name": "Phil McMinn"
+                },
+                {
+                    "authorId": "11963195",
+                    "name": "Muzammil Shahbaz"
+                },
+                {
+                    "authorId": "143828721",
+                    "name": "S. Yoo"
+                }
+            ],
+            "doi": "10.1109/TSE.2014.2372785",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0e17ab6c9d31a481c641f2b1760e09ea51ab76cc",
+            "title": "The Oracle Problem in Software Testing: A Survey",
+            "url": "https://www.semanticscholar.org/paper/0e17ab6c9d31a481c641f2b1760e09ea51ab76cc",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2707595",
+                    "name": "Ren\u00e9 Just"
+                },
+                {
+                    "authorId": "2728496",
+                    "name": "D. Jalali"
+                },
+                {
+                    "authorId": "6698059",
+                    "name": "Michael D. Ernst"
+                }
+            ],
+            "doi": "10.1145/2610384.2628055",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "37e2106bebd02f4ac9c410941fde7f358279e4a4",
+            "title": "Defects4J: a database of existing faults to enable controlled testing studies for Java programs",
+            "url": "https://www.semanticscholar.org/paper/37e2106bebd02f4ac9c410941fde7f358279e4a4",
+            "venue": "ISSTA 2014",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2115604345",
+                    "name": "R. Evans"
+                },
+                {
+                    "authorId": "35133622",
+                    "name": "A. Savoia"
+                }
+            ],
+            "doi": "10.1145/1287624.1287707",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2f7c09b8b67f680c998e9b86bb94d6738d1bceb1",
+            "title": "Differential testing: a new approach to change detection",
+            "url": "https://www.semanticscholar.org/paper/2f7c09b8b67f680c998e9b86bb94d6738d1bceb1",
+            "venue": "ESEC-FSE '07",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47587611",
+                    "name": "Ruchi Puri"
+                },
+                {
+                    "authorId": "2257294285",
+                    "name": "David S. Kung"
+                },
+                {
+                    "authorId": "2257225965",
+                    "name": "Geert Janssen"
+                },
+                {
+                    "authorId": "2257355423",
+                    "name": "Wei Zhang"
+                },
+                {
+                    "authorId": "2257294469",
+                    "name": "Giacomo Domeniconi"
+                },
+                {
+                    "authorId": "2257294460",
+                    "name": "Vladimir Zolotov"
+                },
+                {
+                    "authorId": "2257182237",
+                    "name": "Julian Dolby"
+                },
+                {
+                    "authorId": "2257353879",
+                    "name": "Jie Chen"
+                },
+                {
+                    "authorId": "2257221668",
+                    "name": "Mihir R. Choudhury"
+                },
+                {
+                    "authorId": "2105608829",
+                    "name": "Lindsey Decker"
+                },
+                {
+                    "authorId": "2268673381",
+                    "name": "Veronika Thost"
+                },
+                {
+                    "authorId": "2065154010",
+                    "name": "Luca Buratti"
+                },
+                {
+                    "authorId": "1403641392",
+                    "name": "Saurabh Pujar"
+                },
+                {
+                    "authorId": "1727959",
+                    "name": "Ulrich Finkler"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "8cd41c9a29069099943e45d3fcfa884ecc900fbe",
+            "title": "Project CodeNet: A Large-Scale AI for Code Dataset for Learning a Diversity of Coding Tasks",
+            "url": "https://www.semanticscholar.org/paper/8cd41c9a29069099943e45d3fcfa884ecc900fbe",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "luogu dev",
+            "url": "",
+            "venue": "Cyaron",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Atcoder problems models",
+            "url": "",
+            "venue": "kenkoooo.com atcoder/resources/problem-models",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2299955910",
+                    "name": "Arne Olav Fredheim"
+                },
+                {
+                    "authorId": "91494289",
+                    "name": "Audun Br\u00e5then"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "dda432618d94972810725cbeeebfdd50992b1d10",
+            "title": "Problem Description",
+            "url": "https://www.semanticscholar.org/paper/dda432618d94972810725cbeeebfdd50992b1d10",
+            "venue": "",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2115604345",
+                    "name": "R. Evans"
+                },
+                {
+                    "authorId": "35133622",
+                    "name": "A. Savoia"
+                }
+            ],
+            "doi": "10.1145/1295014.1295038",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f0ec054721d2fd9839155b1ac8ba9d6fb19f0710",
+            "title": "Differential testing: a new approach to change detection",
+            "url": "https://www.semanticscholar.org/paper/f0ec054721d2fd9839155b1ac8ba9d6fb19f0710",
+            "venue": "ESEC-FSE companion '07",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40762940",
+                    "name": "N. Falconer"
+                }
+            ],
+            "doi": "10.1038/244318b0",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "cfb4de71e59e38de32471a156f26917fae82f5d2",
+            "title": "Structured Programming",
+            "url": "https://www.semanticscholar.org/paper/cfb4de71e59e38de32471a156f26917fae82f5d2",
+            "venue": "Nature",
+            "year": 1973
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2023. AnAnalysisoftheAutomatic Bug Fixing Performance of ChatGPT",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2022.SZZinthetimeofpullrequests",
+            "url": "",
+            "venue": "arXiv preprint",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "metainfo",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "additional_test_cases : A directory",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "reference_programs : A directory",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "MSR \u201924, April 15\u201316, 2024, Lisbon, Portugal",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "TrickyBugs: A Dataset of Corner-case Bugs in Plausible Programs",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/ad20247560219735e6bf05916b5e83565f869c9e",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2024
+}

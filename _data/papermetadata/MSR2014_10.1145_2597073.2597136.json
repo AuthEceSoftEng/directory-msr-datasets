@@ -1,0 +1,510 @@
+{
+    "abstract": "Software engineering is a maturing discipline which has seen many drastic advances in the last years. However, some studies still point to the lack of rigorous and mathematically grounded methods to raise the field to a new emerging science, with proper and reproducible foundations to build upon. Indeed, mathematicians and statisticians do not necessarily have software engineering knowledge, while software engineers and practitioners do not necessarily have a mathematical background. \n The Maisqual research project intends to fill the gap between both fields by proposing a controlled and peer-reviewed data set series ready to use and study. These data sets feature metrics from different repositories, from source code to mail activity and configuration management meta data. Metrics are described and commented, and all the steps followed for their extraction and treatment are described with contextual information about the data and its meaning. \n This article introduces the Apache Ant weekly data set, featuring 636 extracts of the project over 12 years at different levels of artefacts \u2013 application, files, functions. By associating community and process related information to code extracts, this data set unveils interesting perspectives on the evolution of one of the great success stories of open source.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "3048485",
+            "name": "B. Baldassari",
+            "url": "https://www.semanticscholar.org/author/3048485"
+        },
+        {
+            "authorId": "34682317",
+            "name": "P. Preux",
+            "url": "https://www.semanticscholar.org/author/34682317"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00085",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "43148fabe2636026e07ca04974aff40d204bfb6b",
+            "title": "Standing on Shoulders or Feet? The Usage of the MSR Data Papers",
+            "url": "https://www.semanticscholar.org/paper/43148fabe2636026e07ca04974aff40d204bfb6b",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47837120",
+                    "name": "Shilpi Saha"
+                },
+                {
+                    "authorId": "2116998694",
+                    "name": "Samip Jain"
+                },
+                {
+                    "authorId": "145042312",
+                    "name": "S. Majumder"
+                },
+                {
+                    "authorId": "34074917",
+                    "name": "Subhajit Datta"
+                }
+            ],
+            "doi": "10.1109/IC3I.2014.7019731",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "558bda774639fcdfafa5265bb1d1a59d6ac8b199",
+            "title": "Understanding bug fixes in Ant: An observational study",
+            "url": "https://www.semanticscholar.org/paper/558bda774639fcdfafa5265bb1d1a59d6ac8b199",
+            "venue": "2014 International Conference on Contemporary Computing and Informatics (IC3I)",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3048485",
+                    "name": "B. Baldassari"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "654b24937b5588132ed5748933e7a82687a0b165",
+            "title": "Mining Software Engineering Datafor Useful Knowledge",
+            "url": "https://www.semanticscholar.org/paper/654b24937b5588132ed5748933e7a82687a0b165",
+            "venue": "",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "33787987",
+                    "name": "Sven Amann"
+                },
+                {
+                    "authorId": "1839778",
+                    "name": "S. Beyer"
+                },
+                {
+                    "authorId": "3194068",
+                    "name": "Katja Kevic"
+                },
+                {
+                    "authorId": "50355692",
+                    "name": "H. Gall"
+                }
+            ],
+            "doi": "10.1007/978-3-319-28406-4_5",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "178a226a4fa68d80f709d0cfff5f5458df0daad3",
+            "title": "Software Mining Studies: Goals, Approaches, Artifacts, and Replicability",
+            "url": "https://www.semanticscholar.org/paper/178a226a4fa68d80f709d0cfff5f5458df0daad3",
+            "venue": "LASER Summer School",
+            "year": 2013
+        }
+    ],
+    "corpusId": 3044715,
+    "doi": "10.1145/2597073.2597136",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 6,
+    "numCiting": 15,
+    "paperId": "d5aec1065ccd75565cda586d2d6854a45369f64d",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49291169",
+                    "name": "Yihui Xie"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0f93935a2916a046f46811119c9133506f39dc78",
+            "title": "A General-Purpose Package for Dynamic Report Generation in R",
+            "url": "https://www.semanticscholar.org/paper/0f93935a2916a046f46811119c9133506f39dc78",
+            "venue": "",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49703359",
+                    "name": "Daryl Posnett"
+                },
+                {
+                    "authorId": "3179220",
+                    "name": "V. Filkov"
+                },
+                {
+                    "authorId": "1730296",
+                    "name": "Premkumar T. Devanbu"
+                }
+            ],
+            "doi": "10.1109/ASE.2011.6100074",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "bdfb23a874d6222d4a800b3379348d784ff4f43d",
+            "title": "Ecological inference in empirical software engineering",
+            "url": "https://www.semanticscholar.org/paper/bdfb23a874d6222d4a800b3379348d784ff4f43d",
+            "venue": "2011 26th IEEE/ACM International Conference on Automated Software Engineering (ASE 2011)",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2100569",
+                    "name": "N. Ayewah"
+                },
+                {
+                    "authorId": "1683113",
+                    "name": "David Hovemeyer"
+                },
+                {
+                    "authorId": "143814426",
+                    "name": "J. D. Morgenthaler"
+                },
+                {
+                    "authorId": "2653481",
+                    "name": "J. Penix"
+                },
+                {
+                    "authorId": "144022269",
+                    "name": "W. Pugh"
+                }
+            ],
+            "doi": "10.1109/MS.2008.130",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9e0d757cca617d59b19490483ee6bea0ebb16384",
+            "title": "Using Static Analysis to Find Bugs",
+            "url": "https://www.semanticscholar.org/paper/9e0d757cca617d59b19490483ee6bea0ebb16384",
+            "venue": "IEEE Software",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1399279909",
+                    "name": "Anas N. Al-Rabadi"
+                },
+                {
+                    "authorId": "2285935329",
+                    "name": "Marek Perkowski"
+                },
+                {
+                    "authorId": "2285953900",
+                    "name": "Martin Zwick"
+                }
+            ],
+            "doi": "10.1108/03684920410533985",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1e41ed1ac234cba0138329047e16a8a424389e77",
+            "title": "A comparison of modified reconstructability analysis and Ashenhurst\u2010Curtis decomposition of Boolean functions",
+            "url": "https://www.semanticscholar.org/paper/1e41ed1ac234cba0138329047e16a8a424389e77",
+            "venue": "",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2296334370",
+                    "name": "Frank Bennewitz"
+                }
+            ],
+            "doi": "10.1007/978-1-4419-5906-5_1371",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0642c10bd2f88414d8d7c66e0bb5e130daacbc2b",
+            "title": "Static Code Analysis",
+            "url": "https://www.semanticscholar.org/paper/0642c10bd2f88414d8d7c66e0bb5e130daacbc2b",
+            "venue": "Encyclopedia of Cryptography and Security",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1685349",
+                    "name": "N. Fenton"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "472d123a14002199e563c576d5830eacd5248955",
+            "title": "Measurement : A Necessary Scientific Basis",
+            "url": "https://www.semanticscholar.org/paper/472d123a14002199e563c576d5830eacd5248955",
+            "venue": "",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2154222",
+                    "name": "C. Kaner"
+                },
+                {
+                    "authorId": "2068654",
+                    "name": "Walter P. Bond"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "7e63e256311e956093f9bea27456bc4e7206325a",
+            "title": "Software Engineering Metrics: What Do They Measure and How Do We Know?",
+            "url": "https://www.semanticscholar.org/paper/7e63e256311e956093f9bea27456bc4e7206325a",
+            "venue": "",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49826711",
+                    "name": "F. Leisch"
+                }
+            ],
+            "doi": "10.1007/978-3-642-57489-4_89",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5cfac1dd6110c94dfe009fcd787b57c4655b4474",
+            "title": "Sweave: Dynamic Generation of Statistical Reports Using Literate Data Analysis",
+            "url": "https://www.semanticscholar.org/paper/5cfac1dd6110c94dfe009fcd787b57c4655b4474",
+            "venue": "COMPSTAT",
+            "year": 2002
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2199832",
+                    "name": "M. Halstead"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "69e18701cf756d8463f3dde24dcb84c5e2e6dcdf",
+            "title": "Elements of software science",
+            "url": "https://www.semanticscholar.org/paper/69e18701cf756d8463f3dde24dcb84c5e2e6dcdf",
+            "venue": "",
+            "year": 1977
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2199832",
+                    "name": "M. Halstead"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1215e771ccbc06a899397230f9febf244c843174",
+            "title": "Elements of software science (Operating and programming systems series)",
+            "url": "https://www.semanticscholar.org/paper/1215e771ccbc06a899397230f9febf244c843174",
+            "venue": "",
+            "year": 1977
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "O. Burn. Checkstyle",
+            "url": "",
+            "venue": "O. Burn. Checkstyle",
+            "year": 2001
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Conventions for the Java Programming Language",
+            "url": "",
+            "venue": "Technical report,",
+            "year": 1999
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "SQuORE: A new approach to software project quality measurement",
+            "url": "",
+            "venue": "International Conference on Software & Systems Engineering and their Applications",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "A complexity measure. Software Engineering",
+            "url": "",
+            "venue": "IEEE Transactions on",
+            "year": 1976
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Code Conventions for the Java Programming Language",
+            "url": "",
+            "venue": "Code Conventions for the Java Programming Language",
+            "year": 1999
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "Understanding software evolution: the maisqual ant data set",
+    "topics": [
+        {
+            "topic": "Software engineering",
+            "topicId": "7832",
+            "url": "https://www.semanticscholar.org/topic/7832"
+        },
+        {
+            "topic": "Software evolution",
+            "topicId": "59151",
+            "url": "https://www.semanticscholar.org/topic/59151"
+        },
+        {
+            "topic": "Apache Ant (Another Neat Tool)",
+            "topicId": "39443",
+            "url": "https://www.semanticscholar.org/topic/39443"
+        },
+        {
+            "topic": "Configuration management",
+            "topicId": "14692",
+            "url": "https://www.semanticscholar.org/topic/14692"
+        },
+        {
+            "topic": "Software engineer",
+            "topicId": "21860",
+            "url": "https://www.semanticscholar.org/topic/21860"
+        },
+        {
+            "topic": "Open-source software",
+            "topicId": "8878",
+            "url": "https://www.semanticscholar.org/topic/8878"
+        }
+    ],
+    "url": "https://www.semanticscholar.org/paper/d5aec1065ccd75565cda586d2d6854a45369f64d",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2014
+}

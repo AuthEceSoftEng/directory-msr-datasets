@@ -1,0 +1,1246 @@
+{
+    "abstract": "In the past, techniques for detecting similarly behaving code fragments were often only evaluated with small, artificial oracles or with code originating from programming competitions. Such code fragments differ largely from production codes. To enable more realistic evaluations, this paper presents SeSaMe, a data set of method pairs that are classified according to their semantic similarity. We applied text similarity measures on JavaDoc comments mined from 11 open source repositories and manually classified a selection of 857 pairs.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "35300186",
+            "name": "Marius Kamp",
+            "url": "https://www.semanticscholar.org/author/35300186"
+        },
+        {
+            "authorId": "47534998",
+            "name": "Patrick Kreutzer",
+            "url": "https://www.semanticscholar.org/author/47534998"
+        },
+        {
+            "authorId": "1703535",
+            "name": "M. Philippsen",
+            "url": "https://www.semanticscholar.org/author/1703535"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2408.05534",
+            "authors": [
+                {
+                    "authorId": "2271468417",
+                    "name": "Toufique Ahmed"
+                },
+                {
+                    "authorId": "114875459",
+                    "name": "Prem Devanbu"
+                },
+                {
+                    "authorId": "2257011464",
+                    "name": "Christoph Treude"
+                },
+                {
+                    "authorId": "2282536979",
+                    "name": "Michael Pradel"
+                }
+            ],
+            "doi": "10.48550/arXiv.2408.05534",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e2b5f5c3205dfcd255a311821e4241d293e929c8",
+            "title": "Can LLMs Replace Manual Annotation of Software Engineering Artifacts?",
+            "url": "https://www.semanticscholar.org/paper/e2b5f5c3205dfcd255a311821e4241d293e929c8",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": "2402.03773",
+            "authors": [
+                {
+                    "authorId": "2283087031",
+                    "name": "Huy Nguyen"
+                },
+                {
+                    "authorId": "2268491428",
+                    "name": "Christoph Treude"
+                },
+                {
+                    "authorId": "2352093",
+                    "name": "Patanamon Thongtanunam"
+                }
+            ],
+            "doi": "10.1145/3643991.3644929",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "95696ba52bc8ef90e8a92fa398fd499a0ffcf2f5",
+            "title": "Encoding Version History Context for Better Code Representation",
+            "url": "https://www.semanticscholar.org/paper/95696ba52bc8ef90e8a92fa398fd499a0ffcf2f5",
+            "venue": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1941756666",
+                    "name": "Nikita Mehrotra"
+                },
+                {
+                    "authorId": "2238397979",
+                    "name": "Akash Sharma"
+                },
+                {
+                    "authorId": "2238326760",
+                    "name": "Anmol Jindal"
+                },
+                {
+                    "authorId": "2238326672",
+                    "name": "Rahul Purandare"
+                }
+            ],
+            "doi": "10.1109/TSE.2023.3311796",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a2fb11b146ff791d60ac7f2cd8207226a0b51847",
+            "title": "Improving Cross-Language Code Clone Detection via Code Representation Learning and Graph Neural Networks",
+            "url": "https://www.semanticscholar.org/paper/a2fb11b146ff791d60ac7f2cd8207226a0b51847",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2023
+        },
+        {
+            "arxivId": "2208.00203",
+            "authors": [
+                {
+                    "authorId": "2179885476",
+                    "name": "Fuwei Tian"
+                },
+                {
+                    "authorId": "1685418",
+                    "name": "Christoph Treude"
+                }
+            ],
+            "doi": "10.1109/ICSME55016.2022.00042",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b46aee75b9580c3cf580ff398aefc5129ae8b449",
+            "title": "Adding Context to Source Code Representations for Deep Learning",
+            "url": "https://www.semanticscholar.org/paper/b46aee75b9580c3cf580ff398aefc5129ae8b449",
+            "venue": "2022 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2109.12079",
+            "authors": [
+                {
+                    "authorId": "2052284158",
+                    "name": "Zhipeng Xue"
+                },
+                {
+                    "authorId": "2143857491",
+                    "name": "Haoran Liu"
+                },
+                {
+                    "authorId": "2055609728",
+                    "name": "Chen Zeng"
+                },
+                {
+                    "authorId": "2128235664",
+                    "name": "Chenglong Zhou"
+                },
+                {
+                    "authorId": "2108860856",
+                    "name": "Xiaodong Liu"
+                },
+                {
+                    "authorId": "2150458552",
+                    "name": "Yangtao Ge"
+                },
+                {
+                    "authorId": "2121071040",
+                    "name": "Jinjing Zhao"
+                }
+            ],
+            "doi": "10.1007/978-3-031-08129-3_8",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "b4343a3259e52b24d24ae79eb689c91e7a779a19",
+            "title": "SEED: Semantic Graph based Deep detection for type-4 clone",
+            "url": "https://www.semanticscholar.org/paper/b4343a3259e52b24d24ae79eb689c91e7a779a19",
+            "venue": "ICSR",
+            "year": 2021
+        },
+        {
+            "arxivId": "2011.11228",
+            "authors": [
+                {
+                    "authorId": "1941756666",
+                    "name": "Nikita Mehrotra"
+                },
+                {
+                    "authorId": "2028201063",
+                    "name": "Navdha Agarwal"
+                },
+                {
+                    "authorId": "2122334891",
+                    "name": "P. Gupta"
+                },
+                {
+                    "authorId": "144024614",
+                    "name": "Saket Anand"
+                },
+                {
+                    "authorId": "143960552",
+                    "name": "David Lo"
+                },
+                {
+                    "authorId": "3349425",
+                    "name": "Rahul Purandare"
+                }
+            ],
+            "doi": "10.1109/TSE.2021.3105556",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9733db75d9f1805643de10c3285974c198d579cb",
+            "title": "Modeling Functional Similarity in Source Code With Graph-Based Siamese Networks",
+            "url": "https://www.semanticscholar.org/paper/9733db75d9f1805643de10c3285974c198d579cb",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": "10.1109/msr45733.2019",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "de20e3a4dbd7d0d30eb4a5b46d6222ba827cf208",
+            "title": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "url": "https://www.semanticscholar.org/paper/de20e3a4dbd7d0d30eb4a5b46d6222ba827cf208",
+            "venue": "",
+            "year": 2019
+        }
+    ],
+    "corpusId": 195298571,
+    "doi": "10.1109/MSR.2019.00079",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 1,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 7,
+    "numCiting": 38,
+    "paperId": "4b84549e6b198fc1f28f95abcedac528c284f163",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2105853182",
+                    "name": "Ryo Tajima"
+                },
+                {
+                    "authorId": "3194883",
+                    "name": "Masataka Nagura"
+                },
+                {
+                    "authorId": "153026555",
+                    "name": "Shingo Takada"
+                }
+            ],
+            "doi": "10.1109/IWSC.2018.8327319",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a5c096fe8dccecd8da1cb8b95744504e669b7714",
+            "title": "Detecting functionally similar code within the same project",
+            "url": "https://www.semanticscholar.org/paper/a5c096fe8dccecd8da1cb8b95744504e669b7714",
+            "venue": "2018 IEEE 12th International Workshop on Software Clones (IWSC)",
+            "year": 2018
+        },
+        {
+            "arxivId": "1803.10542",
+            "authors": [
+                {
+                    "authorId": "3326871",
+                    "name": "Verena K\u00e4fer"
+                },
+                {
+                    "authorId": "49859108",
+                    "name": "S. Wagner"
+                },
+                {
+                    "authorId": "1704279",
+                    "name": "R. Koschke"
+                }
+            ],
+            "doi": "10.1109/IWSC.2018.8327312",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "46248718937f0b1e611b62e9e9ae7826cf92196e",
+            "title": "Are there functionally similar code clones in practice?",
+            "url": "https://www.semanticscholar.org/paper/46248718937f0b1e611b62e9e9ae7826cf92196e",
+            "venue": "2018 IEEE 12th International Workshop on Software Clones (IWSC)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3075072",
+                    "name": "Fang-Hsiang Su"
+                },
+                {
+                    "authorId": "144023217",
+                    "name": "Jonathan Bell"
+                },
+                {
+                    "authorId": "145087755",
+                    "name": "Kenneth Harvey"
+                },
+                {
+                    "authorId": "1738240",
+                    "name": "S. Sethumadhavan"
+                },
+                {
+                    "authorId": "1694056",
+                    "name": "G. Kaiser"
+                },
+                {
+                    "authorId": "1768120",
+                    "name": "Tony Jebara"
+                }
+            ],
+            "doi": "10.1145/2950290.2950321",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ba10b95ae2c6fe8d1f7a0c07c00dd0c652757e4f",
+            "title": "Code relatives: detecting similarly behaving software",
+            "url": "https://www.semanticscholar.org/paper/ba10b95ae2c6fe8d1f7a0c07c00dd0c652757e4f",
+            "venue": "SIGSOFT FSE",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "20809735",
+                    "name": "Meital Zilberstein"
+                },
+                {
+                    "authorId": "1743232",
+                    "name": "Eran Yahav"
+                }
+            ],
+            "doi": "10.1145/2986012.2986013",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0d58a913f4ef36f23ae324445a2b22d5723486cf",
+            "title": "Leveraging a corpus of natural language descriptions for program similarity",
+            "url": "https://www.semanticscholar.org/paper/0d58a913f4ef36f23ae324445a2b22d5723486cf",
+            "venue": "Onward!",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47112907",
+                    "name": "Wenchao Li"
+                },
+                {
+                    "authorId": "2685329",
+                    "name": "H. Saidi"
+                },
+                {
+                    "authorId": "36757957",
+                    "name": "H. S\u00e1nchez"
+                },
+                {
+                    "authorId": "1716925",
+                    "name": "Martin Sch\u00e4f"
+                },
+                {
+                    "authorId": "31500557",
+                    "name": "Pascal Schweitzer"
+                }
+            ],
+            "doi": "10.1007/978-3-319-35122-3_21",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "83b8b21842bf4257f55f75d86aadfb964ec41096",
+            "title": "Detecting Similar Programs via The Weisfeiler-Leman Graph Kernel",
+            "url": "https://www.semanticscholar.org/paper/83b8b21842bf4257f55f75d86aadfb964ec41096",
+            "venue": "ICSR",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3075072",
+                    "name": "Fang-Hsiang Su"
+                },
+                {
+                    "authorId": "144023217",
+                    "name": "Jonathan Bell"
+                },
+                {
+                    "authorId": "1694056",
+                    "name": "G. Kaiser"
+                },
+                {
+                    "authorId": "1738240",
+                    "name": "S. Sethumadhavan"
+                }
+            ],
+            "doi": "10.1109/ICPC.2016.7503720",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "bd579c2e24a2bcdd5af3cf51b7e92cbefc51c627",
+            "title": "Identifying functionally similar code in complex codebases",
+            "url": "https://www.semanticscholar.org/paper/bd579c2e24a2bcdd5af3cf51b7e92cbefc51c627",
+            "venue": "2016 IEEE 24th International Conference on Program Comprehension (ICPC)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "7890087",
+                    "name": "Yusuke Yuki"
+                },
+                {
+                    "authorId": "2271908",
+                    "name": "Yoshiki Higo"
+                },
+                {
+                    "authorId": "2875222",
+                    "name": "Keisuke Hotta"
+                },
+                {
+                    "authorId": "49220716",
+                    "name": "S. Kusumoto"
+                }
+            ],
+            "doi": "10.1109/ICPC.2016.7503739",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2524ec6934e179bcbfca9db1cb70aad332d0e9fd",
+            "title": "Generating clone references with less human subjectivity",
+            "url": "https://www.semanticscholar.org/paper/2524ec6934e179bcbfca9db1cb70aad332d0e9fd",
+            "venue": "2016 IEEE 24th International Conference on Program Comprehension (ICPC)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "33614690",
+                    "name": "Sihan Li"
+                },
+                {
+                    "authorId": "40637427",
+                    "name": "Xusheng Xiao"
+                },
+                {
+                    "authorId": "1981043",
+                    "name": "Blake Bassett"
+                },
+                {
+                    "authorId": "145906750",
+                    "name": "Tao Xie"
+                },
+                {
+                    "authorId": "1975055",
+                    "name": "N. Tillmann"
+                }
+            ],
+            "doi": "10.1145/2889160.2889204",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "e98b8b543d461b79df6c5677e9574127d152bc15",
+            "title": "Measuring Code Behavioral Similarity for Programming and Software Engineering Education",
+            "url": "https://www.semanticscholar.org/paper/e98b8b543d461b79df6c5677e9574127d152bc15",
+            "venue": "2016 IEEE/ACM 38th International Conference on Software Engineering Companion (ICSE-C)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144659797",
+                    "name": "A. Nguyen"
+                },
+                {
+                    "authorId": "2909676",
+                    "name": "H. Nguyen"
+                },
+                {
+                    "authorId": "2327697",
+                    "name": "T. Nguyen"
+                }
+            ],
+            "doi": "10.1145/2901739.2901759",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "07657ea37e196c0869e7c3bf388c0eae071363e0",
+            "title": "A Large-Scale Study on Repetitiveness, Containment, and Composability of Routines in Open-Source Projects",
+            "url": "https://www.semanticscholar.org/paper/07657ea37e196c0869e7c3bf388c0eae071363e0",
+            "venue": "2016 IEEE/ACM 13th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49859108",
+                    "name": "S. Wagner"
+                },
+                {
+                    "authorId": "2996295",
+                    "name": "Asim Abdulkhaleq"
+                },
+                {
+                    "authorId": "145083636",
+                    "name": "Ivan Bogicevic"
+                },
+                {
+                    "authorId": "34786974",
+                    "name": "Jan-Peter Ostberg"
+                },
+                {
+                    "authorId": "3184244",
+                    "name": "Jasmin Ramadani"
+                }
+            ],
+            "doi": "10.7717/PEERJ-CS.49",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c2df73638f62fa53426917833f94fb8fc48e3851",
+            "title": "How are functionally similar code clones syntactically different? An empirical study and a benchmark",
+            "url": "https://www.semanticscholar.org/paper/c2df73638f62fa53426917833f94fb8fc48e3851",
+            "venue": "PeerJ Comput. Sci.",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39455775",
+                    "name": "Omer Levy"
+                },
+                {
+                    "authorId": "2089067",
+                    "name": "Yoav Goldberg"
+                },
+                {
+                    "authorId": "7465342",
+                    "name": "Ido Dagan"
+                }
+            ],
+            "doi": "10.1162/tacl_a_00134",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6aa3d8bcca2ebdc52ef7cd786204c338f9d609f2",
+            "title": "Improving Distributional Similarity with Lessons Learned from Word Embeddings",
+            "url": "https://www.semanticscholar.org/paper/6aa3d8bcca2ebdc52ef7cd786204c338f9d609f2",
+            "venue": "TACL",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1732111",
+                    "name": "Jeffrey Svajlenko"
+                },
+                {
+                    "authorId": "3332189",
+                    "name": "Judith F. Islam"
+                },
+                {
+                    "authorId": "1829628",
+                    "name": "I. Keivanloo"
+                },
+                {
+                    "authorId": "1738612",
+                    "name": "C. Roy"
+                },
+                {
+                    "authorId": "2156659322",
+                    "name": "Mohammad Mamun Mia"
+                }
+            ],
+            "doi": "10.1109/ICSME.2014.77",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9277dc7dd5b348645e8fcf4a987e5b3fc9132c7c",
+            "title": "Towards a Big Data Curated Benchmark of Inter-project Code Clones",
+            "url": "https://www.semanticscholar.org/paper/9277dc7dd5b348645e8fcf4a987e5b3fc9132c7c",
+            "venue": "2014 IEEE International Conference on Software Maintenance and Evolution",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2013851",
+                    "name": "Daniel E. Krutz"
+                },
+                {
+                    "authorId": "145588581",
+                    "name": "Wei Le"
+                }
+            ],
+            "doi": "10.1145/2597073.2597127",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "20f127692faf72164b7c684c33437e26826cc4f7",
+            "title": "A code clone oracle",
+            "url": "https://www.semanticscholar.org/paper/20f127692faf72164b7c684c33437e26826cc4f7",
+            "venue": "MSR 2014",
+            "year": 2014
+        },
+        {
+            "arxivId": "1405.4053",
+            "authors": [
+                {
+                    "authorId": "2827616",
+                    "name": "Quoc V. Le"
+                },
+                {
+                    "authorId": "2047446108",
+                    "name": "Tomas Mikolov"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "f3de86aeb442216a8391befcacb49e58b478f512",
+            "title": "Distributed Representations of Sentences and Documents",
+            "url": "https://www.semanticscholar.org/paper/f3de86aeb442216a8391befcacb49e58b478f512",
+            "venue": "ICML",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2013851",
+                    "name": "Daniel E. Krutz"
+                },
+                {
+                    "authorId": "3318024",
+                    "name": "Emad Shihab"
+                }
+            ],
+            "doi": "10.1109/WCRE.2013.6671332",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "386ce6b2affe7dc075cf1bdd028e67c5c30ef4f6",
+            "title": "CCCD: Concolic code clone detection",
+            "url": "https://www.semanticscholar.org/paper/386ce6b2affe7dc075cf1bdd028e67c5c30ef4f6",
+            "venue": "2013 20th Working Conference on Reverse Engineering (WCRE)",
+            "year": 2013
+        },
+        {
+            "arxivId": "1310.4546",
+            "authors": [
+                {
+                    "authorId": "2047446108",
+                    "name": "Tomas Mikolov"
+                },
+                {
+                    "authorId": "1701686",
+                    "name": "I. Sutskever"
+                },
+                {
+                    "authorId": "2118440152",
+                    "name": "Kai Chen"
+                },
+                {
+                    "authorId": "32131713",
+                    "name": "G. Corrado"
+                },
+                {
+                    "authorId": "49959210",
+                    "name": "J. Dean"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "87f40e6f3022adbc1f1905e3e506abad05a9964f",
+            "title": "Distributed Representations of Words and Phrases and their Compositionality",
+            "url": "https://www.semanticscholar.org/paper/87f40e6f3022adbc1f1905e3e506abad05a9964f",
+            "venue": "NIPS",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2108984595",
+                    "name": "Heejung Kim"
+                },
+                {
+                    "authorId": "1708872",
+                    "name": "Yungbum Jung"
+                },
+                {
+                    "authorId": "1787729",
+                    "name": "Sunghun Kim"
+                },
+                {
+                    "authorId": "40344266",
+                    "name": "K. Yi"
+                }
+            ],
+            "doi": "10.1145/1985793.1985835",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "08bb71228d1a2afdd9780ede1b5f071309694716",
+            "title": "MeCC: memory comparison-based clone detector",
+            "url": "https://www.semanticscholar.org/paper/08bb71228d1a2afdd9780ede1b5f071309694716",
+            "venue": "2011 33rd International Conference on Software Engineering (ICSE)",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2037611",
+                    "name": "Elmar J\u00fcrgens"
+                },
+                {
+                    "authorId": "1750958",
+                    "name": "F. Dei\u00dfenb\u00f6ck"
+                },
+                {
+                    "authorId": "1951116",
+                    "name": "B. Hummel"
+                }
+            ],
+            "doi": "10.1109/CSMR.2010.33",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7fcdaa68ba731da7c1fd5360e71a18f9e12beac2",
+            "title": "Code Similarities Beyond Copy & Paste",
+            "url": "https://www.semanticscholar.org/paper/7fcdaa68ba731da7c1fd5360e71a18f9e12beac2",
+            "venue": "2010 14th European Conference on Software Maintenance and Reengineering",
+            "year": 2010
+        },
+        {
+            "arxivId": "1003.1141",
+            "authors": [
+                {
+                    "authorId": "1689647",
+                    "name": "Peter D. Turney"
+                },
+                {
+                    "authorId": "1990190",
+                    "name": "Patrick Pantel"
+                }
+            ],
+            "doi": "10.1613/jair.2934",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "3a0e788268fafb23ab20da0e98bb578b06830f7d",
+            "title": "From Frequency to Meaning: Vector Space Models of Semantics",
+            "url": "https://www.semanticscholar.org/paper/3a0e788268fafb23ab20da0e98bb578b06830f7d",
+            "venue": "J. Artif. Intell. Res.",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1680504",
+                    "name": "Lingxiao Jiang"
+                },
+                {
+                    "authorId": "38319925",
+                    "name": "Z. Su"
+                }
+            ],
+            "doi": "10.1145/1572272.1572283",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a046c1b1293dab97cfc19392dc0f92a79c799a72",
+            "title": "Automatic mining of functionally equivalent code fragments via random testing",
+            "url": "https://www.semanticscholar.org/paper/a046c1b1293dab97cfc19392dc0f92a79c799a72",
+            "venue": "ISSTA",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1738612",
+                    "name": "C. Roy"
+                },
+                {
+                    "authorId": "1683822",
+                    "name": "J. Cordy"
+                },
+                {
+                    "authorId": "1704279",
+                    "name": "R. Koschke"
+                }
+            ],
+            "doi": "10.1016/j.scico.2009.02.007",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fb35f65339c4f1bbe9c0bd25f09f83e65e436d51",
+            "title": "Comparison and evaluation of code clone detection techniques and tools: A qualitative approach",
+            "url": "https://www.semanticscholar.org/paper/fb35f65339c4f1bbe9c0bd25f09f83e65e436d51",
+            "venue": "Sci. Comput. Program.",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2038490",
+                    "name": "Ron Artstein"
+                },
+                {
+                    "authorId": "1678591",
+                    "name": "Massimo Poesio"
+                }
+            ],
+            "doi": "10.1162/coli.07-034-R2",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "69d59eba999f754ea7c88b69c0b34c0208a54cfa",
+            "title": "Survey Article: Inter-Coder Agreement for Computational Linguistics",
+            "url": "https://www.semanticscholar.org/paper/69d59eba999f754ea7c88b69c0b34c0208a54cfa",
+            "venue": "CL",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1836606",
+                    "name": "T. Landauer"
+                },
+                {
+                    "authorId": "1728602",
+                    "name": "S. Dumais"
+                }
+            ],
+            "doi": "10.4249/scholarpedia.4356",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "164125a65d42a791d2c1e108559344caef96d08b",
+            "title": "Latent semantic analysis",
+            "url": "https://www.semanticscholar.org/paper/164125a65d42a791d2c1e108559344caef96d08b",
+            "venue": "Scholarpedia",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "153030932",
+                    "name": "Stefan Bellon"
+                },
+                {
+                    "authorId": "1704279",
+                    "name": "R. Koschke"
+                },
+                {
+                    "authorId": "1692292",
+                    "name": "G. Antoniol"
+                },
+                {
+                    "authorId": "1824150",
+                    "name": "J. Krinke"
+                },
+                {
+                    "authorId": "1750177",
+                    "name": "E. Merlo"
+                }
+            ],
+            "doi": "10.1109/TSE.2007.70725",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a369ec7cc8a6d84bbae2b1f0fa073a06e7d32ac0",
+            "title": "Comparison and Evaluation of Clone Detection Tools",
+            "url": "https://www.semanticscholar.org/paper/a369ec7cc8a6d84bbae2b1f0fa073a06e7d32ac0",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "146470291",
+                    "name": "Daniel Bratton"
+                },
+                {
+                    "authorId": "143953756",
+                    "name": "J. Kennedy"
+                }
+            ],
+            "doi": "10.1109/SIS.2007.368035",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "3d0feaed033b0689b624428f65408d2d13664af7",
+            "title": "Defining a Standard for Particle Swarm Optimization",
+            "url": "https://www.semanticscholar.org/paper/3d0feaed033b0689b624428f65408d2d13664af7",
+            "venue": "2007 IEEE Swarm Intelligence Symposium",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2270059405",
+                    "name": "James Kennedy"
+                },
+                {
+                    "authorId": "2271324973",
+                    "name": "Russell Eberhart"
+                }
+            ],
+            "doi": "10.1109/ICNN.1995.488968",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b0fa6699b932bf18c404f84bddc4b9fe8ab4a864",
+            "title": "Particle swarm optimization",
+            "url": "https://www.semanticscholar.org/paper/b0fa6699b932bf18c404f84bddc4b9fe8ab4a864",
+            "venue": "Proceedings of ICNN'95 - International Conference on Neural Networks",
+            "year": 2002
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49814656",
+                    "name": "K. Barraclough"
+                }
+            ],
+            "doi": "10.1136/BMJ.323.7325.1375/A",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "666010dc3621e1a08fb6830f03a1f7857c7377cc",
+            "title": "I and i",
+            "url": "https://www.semanticscholar.org/paper/666010dc3621e1a08fb6830f03a1f7857c7377cc",
+            "venue": "BMJ : British Medical Journal",
+            "year": 2001
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40473936",
+                    "name": "Andrian Marcus"
+                },
+                {
+                    "authorId": "2518515",
+                    "name": "Jonathan I. Maletic"
+                }
+            ],
+            "doi": "10.1109/ASE.2001.989796",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8a3c20b35d57b86802621b3399e2a5960780aac0",
+            "title": "Identification of high-level concept clones in source code",
+            "url": "https://www.semanticscholar.org/paper/8a3c20b35d57b86802621b3399e2a5960780aac0",
+            "venue": "Proceedings 16th Annual International Conference on Automated Software Engineering (ASE 2001)",
+            "year": 2001
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2248457364",
+                    "name": "Daniel D. Lee"
+                },
+                {
+                    "authorId": "2250498179",
+                    "name": "H. S. Seung"
+                }
+            ],
+            "doi": "10.1038/44565",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "29bae9472203546847ec1352a604566d0f602728",
+            "title": "Learning the parts of objects by non-negative matrix factorization",
+            "url": "https://www.semanticscholar.org/paper/29bae9472203546847ec1352a604566d0f602728",
+            "venue": "Nature",
+            "year": 1999
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143712374",
+                    "name": "J. Carbonell"
+                },
+                {
+                    "authorId": "1403730511",
+                    "name": "Jade Goldstein-Stewart"
+                }
+            ],
+            "doi": "10.1145/3130348.3130369",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "10ce81dadc2e07d69c8a4f0bbdf7d14b3f37882e",
+            "title": "The Use of MMR, Diversity-Based Reranking for Reordering Documents and Producing Summaries",
+            "url": "https://www.semanticscholar.org/paper/10ce81dadc2e07d69c8a4f0bbdf7d14b3f37882e",
+            "venue": "SIGIR Forum",
+            "year": 1998
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1381184794",
+                    "name": "Cynthia D. Fisherl"
+                }
+            ],
+            "doi": "10.1177/001872679304600305",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "82df87348c14f7ee55aa9b2b90228513bd2968ee",
+            "title": "Boredom at Work: A Neglected Concept",
+            "url": "https://www.semanticscholar.org/paper/82df87348c14f7ee55aa9b2b90228513bd2968ee",
+            "venue": "",
+            "year": 1993
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2244184",
+                    "name": "Kenneth Ward Church"
+                },
+                {
+                    "authorId": "145165877",
+                    "name": "Patrick Hanks"
+                }
+            ],
+            "doi": "10.3115/981623.981633",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9e2caa39ac534744a180972a30a320ad0ae41ea3",
+            "title": "Word Association Norms, Mutual Information, and Lexicography",
+            "url": "https://www.semanticscholar.org/paper/9e2caa39ac534744a180972a30a320ad0ae41ea3",
+            "venue": "ACL",
+            "year": 1989
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144161686",
+                    "name": "S. Ceri"
+                },
+                {
+                    "authorId": "1710630",
+                    "name": "A. Bozzon"
+                },
+                {
+                    "authorId": "40350773",
+                    "name": "Marco Brambilla"
+                },
+                {
+                    "authorId": "2539248",
+                    "name": "Emanuele Della Valle"
+                },
+                {
+                    "authorId": "1704595",
+                    "name": "P. Fraternali"
+                },
+                {
+                    "authorId": "1794305",
+                    "name": "S. Quarteroni"
+                }
+            ],
+            "doi": "10.1007/978-3-642-39314-3_1",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ea67efe9866b245ea2b0bbb526239fbd7070f635",
+            "title": "An Introduction to Information Retrieval",
+            "url": "https://www.semanticscholar.org/paper/ea67efe9866b245ea2b0bbb526239fbd7070f635",
+            "venue": "",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1796335",
+                    "name": "D. Blei"
+                },
+                {
+                    "authorId": "34699434",
+                    "name": "A. Ng"
+                },
+                {
+                    "authorId": "1694621",
+                    "name": "Michael I. Jordan"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "4574d77fff19e093782178595a8988a7f3aa1969",
+            "title": "Latent Dirichlet Allocation",
+            "url": "https://www.semanticscholar.org/paper/4574d77fff19e093782178595a8988a7f3aa1969",
+            "venue": "",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2060917627",
+                    "name": "Jaime Carbonell"
+                },
+                {
+                    "authorId": "1403730511",
+                    "name": "Jade Goldstein-Stewart"
+                }
+            ],
+            "doi": "10.1145/290941.291025",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0541579506575301ba7457d5a7f16b45e08a300c",
+            "title": "The use of MMR, diversity-based reranking for reordering documents and producing summaries",
+            "url": "https://www.semanticscholar.org/paper/0541579506575301ba7457d5a7f16b45e08a300c",
+            "venue": "SIGIR '98",
+            "year": 1998
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2154179",
+                    "name": "V. Levenshtein"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b2f8876482c97e804bb50a5e2433881ae31d0cdd",
+            "title": "Binary codes capable of correcting deletions, insertions, and reversals",
+            "url": "https://www.semanticscholar.org/paper/b2f8876482c97e804bb50a5e2433881ae31d0cdd",
+            "venue": "",
+            "year": 1965
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2274425",
+                    "name": "D. Palermo"
+                },
+                {
+                    "authorId": "48566306",
+                    "name": "J. Jenkins"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "91556a9ef3b88c8a3252a9d39630734047ee0c43",
+            "title": "Word association norms",
+            "url": "https://www.semanticscholar.org/paper/91556a9ef3b88c8a3252a9d39630734047ee0c43",
+            "venue": "",
+            "year": 1964
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Google CodeJam",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "SeSaMe: A Data Set of Semantically Similar Java Methods",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/4b84549e6b198fc1f28f95abcedac528c284f163",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2019
+}

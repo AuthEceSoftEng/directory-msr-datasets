@@ -1,0 +1,1350 @@
+{
+    "abstract": "In Open Source Software, the source code and any other resources available in a project can be viewed or reused by anyone subject to often permissive licensing restrictions. In contrast to some studies of dependency-based reuse supported via package managers, no studies of OSS-wide copy-based reuse exist. This dataset seeks to encourage the studies of OSS-wide copy-based reuse by providing copying activity data that captures whole-file reuse in nearly all OSS. To accomplish that, we develop approaches to detect copybased reuse by developing an efficient algorithm that exploits World of Code infrastructure: a curated and cross referenced collection of nearly all open source repositories. We expect this data will enable future research and tool development that support such reuse and minimize associated risks.CCS CONCEPTS\u2022Software and its engineering \u2192 Software creation and management; \u2022 General and reference \u2192 Empirical studies.",
+    "arxivId": "2312.09370",
+    "authors": [
+        {
+            "authorId": "2057485166",
+            "name": "Mahmoud Jahanshahi",
+            "url": "https://www.semanticscholar.org/author/2057485166"
+        },
+        {
+            "authorId": "1702551",
+            "name": "A. Mockus",
+            "url": "https://www.semanticscholar.org/author/1702551"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [],
+    "corpusId": 266335442,
+    "doi": "10.1145/3643991.3644868",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 0,
+    "numCiting": 46,
+    "paperId": "66d8a00fe55582c86495715da256708fc70360e6",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2058644472",
+                    "name": "David Reid"
+                },
+                {
+                    "authorId": "2057485166",
+                    "name": "Mahmoud Jahanshahi"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": "10.1145/3510003.3510216",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "db5c5f69cbf840a1b70087a17ea1f2d89c481a38",
+            "title": "The Extent of Orphan Vulnerabilities from Code Reuse in Open Source Software",
+            "url": "https://www.semanticscholar.org/paper/db5c5f69cbf840a1b70087a17ea1f2d89c481a38",
+            "venue": "2022 IEEE/ACM 44th International Conference on Software Engineering (ICSE)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145050815",
+                    "name": "Hideaki Hata"
+                },
+                {
+                    "authorId": "1680034",
+                    "name": "R. Kula"
+                },
+                {
+                    "authorId": "145682543",
+                    "name": "T. Ishio"
+                },
+                {
+                    "authorId": "1685418",
+                    "name": "Christoph Treude"
+                }
+            ],
+            "doi": "10.1109/ICSE-Companion52605.2021.00084",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a0f1758f940fc1cf467921365e36b332cec0a067",
+            "title": "Research Artifact: The Potential of Meta-Maintenance on GitHub",
+            "url": "https://www.semanticscholar.org/paper/a0f1758f940fc1cf467921365e36b332cec0a067",
+            "venue": "2021 IEEE/ACM 43rd International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.12168",
+            "authors": [
+                {
+                    "authorId": "21780991",
+                    "name": "Elena Lyulina"
+                },
+                {
+                    "authorId": "2057485166",
+                    "name": "Mahmoud Jahanshahi"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00086",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6e1c2ed0d4c3ea5780e9c295a60b1814791336e0",
+            "title": "Building the Collaboration Graph of Open-Source Software Ecosystem",
+            "url": "https://www.semanticscholar.org/paper/6e1c2ed0d4c3ea5780e9c295a60b1814791336e0",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.11339",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "145310968",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00022",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6292534df173d295c8ffe489134c81593a2f7592",
+            "title": "Escaping the Time Pit: Pitfalls and Guidelines for Using Time-Based Git Data",
+            "url": "https://www.semanticscholar.org/paper/6292534df173d295c8ffe489134c81593a2f7592",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2102.06355",
+            "authors": [
+                {
+                    "authorId": "145050815",
+                    "name": "Hideaki Hata"
+                },
+                {
+                    "authorId": "1680034",
+                    "name": "R. Kula"
+                },
+                {
+                    "authorId": "145682543",
+                    "name": "T. Ishio"
+                },
+                {
+                    "authorId": "1685418",
+                    "name": "Christoph Treude"
+                }
+            ],
+            "doi": "10.1109/ICSE43902.2021.00076",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f0b5abd70efe722efd5c99079ceb255b3fc2a366",
+            "title": "Same File, Different Changes: The Potential of Meta-Maintenance on GitHub",
+            "url": "https://www.semanticscholar.org/paper/f0b5abd70efe722efd5c99079ceb255b3fc2a366",
+            "venue": "2021 IEEE/ACM 43rd International Conference on Software Engineering (ICSE)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2647473",
+                    "name": "Antonios Gkortzis"
+                },
+                {
+                    "authorId": "144052468",
+                    "name": "Daniel Feitosa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1016/j.jss.2020.110653",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "99b3efb223c6f4adcf7ae61e87d2aa63d2ee2923",
+            "title": "Software reuse cuts both ways: An empirical analysis of its relationship with security vulnerabilities",
+            "url": "https://www.semanticscholar.org/paper/99b3efb223c6f4adcf7ae61e87d2aa63d2ee2923",
+            "venue": "J. Syst. Softw.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2010.16196",
+            "authors": [
+                {
+                    "authorId": "7777374",
+                    "name": "Yuxing Ma"
+                },
+                {
+                    "authorId": "8041820",
+                    "name": "Tapajit Dey"
+                },
+                {
+                    "authorId": "2065313146",
+                    "name": "Chris Bogart"
+                },
+                {
+                    "authorId": "3110752",
+                    "name": "Sadika Amreen"
+                },
+                {
+                    "authorId": "2091537692",
+                    "name": "Marat Valiev"
+                },
+                {
+                    "authorId": "1866565388",
+                    "name": "Adam Tutko"
+                },
+                {
+                    "authorId": "2081943297",
+                    "name": "David Kennard"
+                },
+                {
+                    "authorId": "2858102",
+                    "name": "R. Zaretzki"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09905-9",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "12404a5147b39e9a34849606bf2c056f84903c8d",
+            "title": "World of code: enabling a research workflow for mining and analyzing the universe of open source VCS data",
+            "url": "https://www.semanticscholar.org/paper/12404a5147b39e9a34849606bf2c056f84903c8d",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": "2003.08349",
+            "authors": [
+                {
+                    "authorId": "1557361743",
+                    "name": "Tanner Fry"
+                },
+                {
+                    "authorId": "8041820",
+                    "name": "Tapajit Dey"
+                },
+                {
+                    "authorId": "98524776",
+                    "name": "Andrey Karnauch"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": "10.1145/3379597.3387500",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c8d40343dfc0654154e42717209e1d6ab70ebc01",
+            "title": "A Dataset and an Approach for Identity Resolution of 38 Million Author IDs extracted from 2B Git Commits",
+            "url": "https://www.semanticscholar.org/paper/c8d40343dfc0654154e42717209e1d6ab70ebc01",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2020
+        },
+        {
+            "arxivId": "2002.02707",
+            "authors": [
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                },
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1491707489",
+                    "name": "G. J. Dusing"
+                }
+            ],
+            "doi": "10.1145/3379597.3387499",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4f346ee669c7fe7c952cc01dfcc7fbbe7d6cc794",
+            "title": "A Complete Set of Related Git Repositories Identified via Community Detection Approaches Based on Shared Commits",
+            "url": "https://www.semanticscholar.org/paper/4f346ee669c7fe7c952cc01dfcc7fbbe7d6cc794",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2164510987",
+                    "name": "Q. Ain"
+                },
+                {
+                    "authorId": "2962670",
+                    "name": "W. H. Butt"
+                },
+                {
+                    "authorId": "36195161",
+                    "name": "Muhammad Waseem Anwar"
+                },
+                {
+                    "authorId": "2360429",
+                    "name": "F. Azam"
+                },
+                {
+                    "authorId": "11262761",
+                    "name": "B. Maqbool"
+                }
+            ],
+            "doi": "10.1109/ACCESS.2019.2918202",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "70a69d9482758685ea83210d41bdf2a9597ac173",
+            "title": "A Systematic Review on Code Clone Detection",
+            "url": "https://www.semanticscholar.org/paper/70a69d9482758685ea83210d41bdf2a9597ac173",
+            "venue": "IEEE Access",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "7777374",
+                    "name": "Yuxing Ma"
+                },
+                {
+                    "authorId": "2065313146",
+                    "name": "Chris Bogart"
+                },
+                {
+                    "authorId": "3110752",
+                    "name": "Sadika Amreen"
+                },
+                {
+                    "authorId": "2858102",
+                    "name": "R. Zaretzki"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00031",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "53b56a0f176d2fb025678d864dd6e390282ffbea",
+            "title": "World of Code: An Infrastructure for Mining the Universe of Open Source VCS Data",
+            "url": "https://www.semanticscholar.org/paper/53b56a0f176d2fb025678d864dd6e390282ffbea",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2056397338",
+                    "name": "R. Cox"
+                }
+            ],
+            "doi": "10.1145/3347446",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4a4f40263336027e703eca26eddbc95fc968fd44",
+            "title": "Surviving software dependencies",
+            "url": "https://www.semanticscholar.org/paper/4a4f40263336027e703eca26eddbc95fc968fd44",
+            "venue": "ACM Queue",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "86922589",
+                    "name": "Muyue Feng"
+                },
+                {
+                    "authorId": "2122741",
+                    "name": "Weixuan Mao"
+                },
+                {
+                    "authorId": "2091824207",
+                    "name": "Zimu Yuan"
+                },
+                {
+                    "authorId": "2116643764",
+                    "name": "Yang Xiao"
+                },
+                {
+                    "authorId": "153656408",
+                    "name": "Gu Ban"
+                },
+                {
+                    "authorId": "144487526",
+                    "name": "Wei Wang"
+                },
+                {
+                    "authorId": "2109478157",
+                    "name": "Shiyang Wang"
+                },
+                {
+                    "authorId": "2069578261",
+                    "name": "Qian Tang"
+                },
+                {
+                    "authorId": "1486269375",
+                    "name": "Jiahuan Xu"
+                },
+                {
+                    "authorId": "1485839353",
+                    "name": "He Su"
+                },
+                {
+                    "authorId": "2149125199",
+                    "name": "Binghong Liu"
+                },
+                {
+                    "authorId": "2056206270",
+                    "name": "Wei Huo"
+                }
+            ],
+            "doi": "10.1109/SANER.2019.8667977",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "548fb3d48ea6c48843d2daf85684c842a06d07fc",
+            "title": "Open-Source License Violations of Binary Software at Large Scale",
+            "url": "https://www.semanticscholar.org/paper/548fb3d48ea6c48843d2daf85684c842a06d07fc",
+            "venue": "2019 IEEE 26th International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3155647",
+                    "name": "Mohammad Gharehyazie"
+                },
+                {
+                    "authorId": "31631000",
+                    "name": "Baishakhi Ray"
+                },
+                {
+                    "authorId": "47583328",
+                    "name": "Mehdi Keshani"
+                },
+                {
+                    "authorId": "80981900",
+                    "name": "Masoumeh Soleimani Zavosht"
+                },
+                {
+                    "authorId": "1798455",
+                    "name": "A. Heydarnoori"
+                },
+                {
+                    "authorId": "3179220",
+                    "name": "V. Filkov"
+                }
+            ],
+            "doi": "10.1007/s10664-018-9648-z",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "020ba12d8029a5689412ba12155613dd4267baa0",
+            "title": "Cross-project code clones in GitHub",
+            "url": "https://www.semanticscholar.org/paper/020ba12d8029a5689412ba12155613dd4267baa0",
+            "venue": "Empirical Software Engineering",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2317038686",
+                    "name": "Yuxing Ma"
+                }
+            ],
+            "doi": "10.1145/3183440.3183454",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a991f2a5f2fbcf2891bfb911af7bd3977eefb335",
+            "title": "Constructing Supply Chains in Open Source Software",
+            "url": "https://www.semanticscholar.org/paper/a991f2a5f2fbcf2891bfb911af7bd3977eefb335",
+            "venue": "2018 IEEE/ACM 40th International Conference on Software Engineering: Companion (ICSE-Companion)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34955824",
+                    "name": "C. Lopes"
+                },
+                {
+                    "authorId": "32514549",
+                    "name": "Petr Maj"
+                },
+                {
+                    "authorId": "145784437",
+                    "name": "Pedro Martins"
+                },
+                {
+                    "authorId": "40188003",
+                    "name": "V. Saini"
+                },
+                {
+                    "authorId": "2110919594",
+                    "name": "Di Yang"
+                },
+                {
+                    "authorId": "67102999",
+                    "name": "Jakub Zitny"
+                },
+                {
+                    "authorId": "1906848",
+                    "name": "Hitesh Sajnani"
+                },
+                {
+                    "authorId": "144376283",
+                    "name": "J. Vitek"
+                }
+            ],
+            "doi": "10.1145/3133908",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a26b00c607b6d6a2697f5444f14a9afc37701444",
+            "title": "D\u00e9j\u00e0Vu: a map of code duplicates on GitHub",
+            "url": "https://www.semanticscholar.org/paper/a26b00c607b6d6a2697f5444f14a9afc37701444",
+            "venue": "Proc. ACM Program. Lang.",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3155647",
+                    "name": "Mohammad Gharehyazie"
+                },
+                {
+                    "authorId": "31631000",
+                    "name": "Baishakhi Ray"
+                },
+                {
+                    "authorId": "3179220",
+                    "name": "V. Filkov"
+                }
+            ],
+            "doi": "10.1109/MSR.2017.15",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d1e61c73c8834acb63811d2e2bd9e6c4076b6a20",
+            "title": "Some from Here, Some from There: Cross-Project Code Reuse in GitHub",
+            "url": "https://www.semanticscholar.org/paper/d1e61c73c8834acb63811d2e2bd9e6c4076b6a20",
+            "venue": "2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)",
+            "year": 2017
+        },
+        {
+            "arxivId": "1703.03897",
+            "authors": [
+                {
+                    "authorId": "1820006",
+                    "name": "Le An"
+                },
+                {
+                    "authorId": "3408541",
+                    "name": "Ons Mlouki"
+                },
+                {
+                    "authorId": "1703493",
+                    "name": "Foutse Khomh"
+                },
+                {
+                    "authorId": "1692292",
+                    "name": "G. Antoniol"
+                }
+            ],
+            "doi": "10.1109/SANER.2017.7884629",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ef573a9a3f6d6cd78264844e4181f5886b327c43",
+            "title": "Stack Overflow: A code laundering platform?",
+            "url": "https://www.semanticscholar.org/paper/ef573a9a3f6d6cd78264844e4181f5886b327c43",
+            "venue": "2017 IEEE 24th International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2118713819",
+                    "name": "Martin White"
+                },
+                {
+                    "authorId": "40626221",
+                    "name": "Michele Tufano"
+                },
+                {
+                    "authorId": "2664645",
+                    "name": "Christopher Vendome"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                }
+            ],
+            "doi": "10.1145/2970276.2970326",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "775dd65fd70c13bc4144c28b25aa3376bbab3254",
+            "title": "Deep learning code fragments for code clone detection",
+            "url": "https://www.semanticscholar.org/paper/775dd65fd70c13bc4144c28b25aa3376bbab3254",
+            "venue": "2016 31st IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3089183",
+                    "name": "Naohiro Kawamitsu"
+                },
+                {
+                    "authorId": "145682543",
+                    "name": "T. Ishio"
+                },
+                {
+                    "authorId": "3457243",
+                    "name": "Tetsuya Kanda"
+                },
+                {
+                    "authorId": "1680034",
+                    "name": "R. Kula"
+                },
+                {
+                    "authorId": "2502279",
+                    "name": "Coen De Roover"
+                },
+                {
+                    "authorId": "144875558",
+                    "name": "Katsuro Inoue"
+                }
+            ],
+            "doi": "10.1109/SCAM.2014.17",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "50f3e284442b0534332446634e057392b2bf2a4f",
+            "title": "Identifying Source Code Reuse across Repositories Using LCS-Based Source Code Similarity",
+            "url": "https://www.semanticscholar.org/paper/50f3e284442b0534332446634e057392b2bf2a4f",
+            "venue": "2014 IEEE 14th International Working Conference on Source Code Analysis and Manipulation",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1732111",
+                    "name": "Jeffrey Svajlenko"
+                },
+                {
+                    "authorId": "1829628",
+                    "name": "I. Keivanloo"
+                },
+                {
+                    "authorId": "1738612",
+                    "name": "C. Roy"
+                }
+            ],
+            "doi": "10.1109/IWSC.2013.6613037",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1899b0499f927461420fb3f1aa6648b73738f11",
+            "title": "Scaling classical clone detection tools for ultra-large datasets: An exploratory study",
+            "url": "https://www.semanticscholar.org/paper/d1899b0499f927461420fb3f1aa6648b73738f11",
+            "venue": "2013 7th International Workshop on Software Clones (IWSC)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2226465",
+                    "name": "Werner Janjic"
+                },
+                {
+                    "authorId": "2982670",
+                    "name": "Oliver Hummel"
+                },
+                {
+                    "authorId": "2439959",
+                    "name": "M. Schumacher"
+                },
+                {
+                    "authorId": "144711075",
+                    "name": "C. Atkinson"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624047",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "65e0e696e81407db6e1b8e5fec86f7f90e44d044",
+            "title": "An unabridged source code dataset for research in software reuse",
+            "url": "https://www.semanticscholar.org/paper/65e0e696e81407db6e1b8e5fec86f7f90e44d044",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144063487",
+                    "name": "Steve Hanna"
+                },
+                {
+                    "authorId": "50055322",
+                    "name": "Ling Huang"
+                },
+                {
+                    "authorId": "2871458",
+                    "name": "E. Wu"
+                },
+                {
+                    "authorId": "2673598",
+                    "name": "Saung Li"
+                },
+                {
+                    "authorId": "1722299",
+                    "name": "Charles Chen"
+                },
+                {
+                    "authorId": "143711382",
+                    "name": "D. Song"
+                }
+            ],
+            "doi": "10.1007/978-3-642-37300-8_4",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "086f9aa55f99187176a77ab1931ed797addfa058",
+            "title": "Juxtapp: A Scalable System for Detecting Code Reuse among Android Applications",
+            "url": "https://www.semanticscholar.org/paper/086f9aa55f99187176a77ab1931ed797addfa058",
+            "venue": "DIMVA",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34289841",
+                    "name": "L. Heinemann"
+                },
+                {
+                    "authorId": "1750958",
+                    "name": "F. Dei\u00dfenb\u00f6ck"
+                },
+                {
+                    "authorId": "1859476",
+                    "name": "Mario Gleirscher"
+                },
+                {
+                    "authorId": "1951116",
+                    "name": "B. Hummel"
+                },
+                {
+                    "authorId": "34819615",
+                    "name": "M. Irlbeck"
+                }
+            ],
+            "doi": "10.1007/978-3-642-21347-2_16",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "56f72868a1ffd4ae6b6e9f975f98599d059f1a3b",
+            "title": "On the Extent and Nature of Software Reuse in Open Source Java Projects",
+            "url": "https://www.semanticscholar.org/paper/56f72868a1ffd4ae6b6e9f975f98599d059f1a3b",
+            "venue": "ICSR",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "1718050",
+                    "name": "Yann-Ga\u00ebl Gu\u00e9h\u00e9neuc"
+                },
+                {
+                    "authorId": "1692292",
+                    "name": "G. Antoniol"
+                }
+            ],
+            "doi": "10.1145/1806799.1806824",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fed6b2b1a7f03363abc2ae3dbb4e276d49982548",
+            "title": "An exploratory study of the evolution of software licensing",
+            "url": "https://www.semanticscholar.org/paper/fed6b2b1a7f03363abc2ae3dbb4e276d49982548",
+            "venue": "2010 ACM/IEEE 32nd International Conference on Software Engineering",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "35038486",
+                    "name": "M. Sojer"
+                },
+                {
+                    "authorId": "37558120",
+                    "name": "J. Henkel"
+                }
+            ],
+            "doi": "10.17705/1JAIS.00248",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "531333a0df82f7a7f5d6adc8cfc8a0f1c0a6d674",
+            "title": "Code Reuse in Open Source Software Development: Quantitative Evidence, Drivers, and Impediments",
+            "url": "https://www.semanticscholar.org/paper/531333a0df82f7a7f5d6adc8cfc8a0f1c0a6d674",
+            "venue": "J. Assoc. Inf. Syst.",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "144890499",
+                    "name": "A. Hassan"
+                }
+            ],
+            "doi": "10.1109/ICSE.2009.5070520",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d1924343a715ccdc8fc11a66f47d78123a2cab7e",
+            "title": "License integration patterns: Addressing license mismatches in component-based development",
+            "url": "https://www.semanticscholar.org/paper/d1924343a715ccdc8fc11a66f47d78123a2cab7e",
+            "venue": "2009 IEEE 31st International Conference on Software Engineering",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "1718050",
+                    "name": "Yann-Ga\u00ebl Gu\u00e9h\u00e9neuc"
+                },
+                {
+                    "authorId": "1692292",
+                    "name": "G. Antoniol"
+                }
+            ],
+            "doi": "10.1109/MSR.2009.5069483",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "57a73fd8f11859277505bb2b54111d51c9bf772a",
+            "title": "Code siblings: Technical and legal implications of copying code between applications",
+            "url": "https://www.semanticscholar.org/paper/57a73fd8f11859277505bb2b54111d51c9bf772a",
+            "venue": "2009 6th IEEE International Working Conference on Mining Software Repositories",
+            "year": 2009
+        },
+        {
+            "arxivId": "1701.05472",
+            "authors": [
+                {
+                    "authorId": "2037611",
+                    "name": "Elmar J\u00fcrgens"
+                },
+                {
+                    "authorId": "1750958",
+                    "name": "F. Dei\u00dfenb\u00f6ck"
+                },
+                {
+                    "authorId": "1951116",
+                    "name": "B. Hummel"
+                },
+                {
+                    "authorId": "49859108",
+                    "name": "S. Wagner"
+                }
+            ],
+            "doi": "10.1109/ICSE.2009.5070547",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "65f5ba6c95888ce66a84bf91f3505e42ffd141db",
+            "title": "Do code clones matter?",
+            "url": "https://www.semanticscholar.org/paper/65f5ba6c95888ce66a84bf91f3505e42ffd141db",
+            "venue": "2009 IEEE 31st International Conference on Software Engineering",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1738612",
+                    "name": "C. Roy"
+                },
+                {
+                    "authorId": "1683822",
+                    "name": "J. Cordy"
+                },
+                {
+                    "authorId": "1704279",
+                    "name": "R. Koschke"
+                }
+            ],
+            "doi": "10.1016/j.scico.2009.02.007",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fb35f65339c4f1bbe9c0bd25f09f83e65e436d51",
+            "title": "Comparison and evaluation of code clone detection techniques and tools: A qualitative approach",
+            "url": "https://www.semanticscholar.org/paper/fb35f65339c4f1bbe9c0bd25f09f83e65e436d51",
+            "venue": "Sci. Comput. Program.",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1680504",
+                    "name": "Lingxiao Jiang"
+                },
+                {
+                    "authorId": "2909453",
+                    "name": "Ghassan Misherghi"
+                },
+                {
+                    "authorId": "38319925",
+                    "name": "Z. Su"
+                },
+                {
+                    "authorId": "3292657",
+                    "name": "St\u00e9phane Glondu"
+                }
+            ],
+            "doi": "10.1109/ICSE.2007.30",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2d3efc22854e07d2b84c92446ef5e8cdd2c6b965",
+            "title": "DECKARD: Scalable and Accurate Tree-Based Detection of Code Clones",
+            "url": "https://www.semanticscholar.org/paper/2d3efc22854e07d2b84c92446ef5e8cdd2c6b965",
+            "venue": "29th International Conference on Software Engineering (ICSE'07)",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": "10.1109/FLOSS.2007.10",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a64e7bc31a18d0240e544415215a0603067142d8",
+            "title": "Large-Scale Code Reuse in Open Source Software",
+            "url": "https://www.semanticscholar.org/paper/a64e7bc31a18d0240e544415215a0603067142d8",
+            "venue": "First International Workshop on Emerging Trends in FLOSS Research and Development (FLOSS'07: ICSE Workshops 2007)",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145253906",
+                    "name": "Jeffrey A. Roberts"
+                },
+                {
+                    "authorId": "1797169",
+                    "name": "I. Hann"
+                },
+                {
+                    "authorId": "94812404",
+                    "name": "S. Slaughter"
+                }
+            ],
+            "doi": "10.1287/MNSC.1060.0554",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "bbe089fedff2d9579c9c624539a7afbf505988b2",
+            "title": "Understanding the Motivations, Participation, and Performance of Open Source Software Developers: A Longitudinal Study of the Apache Projects",
+            "url": "https://www.semanticscholar.org/paper/bbe089fedff2d9579c9c624539a7afbf505988b2",
+            "venue": "Manag. Sci.",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2002604",
+                    "name": "Zhenmin Li"
+                },
+                {
+                    "authorId": "144134982",
+                    "name": "Shan Lu"
+                },
+                {
+                    "authorId": "2797555",
+                    "name": "Suvda Myagmar"
+                },
+                {
+                    "authorId": "145850061",
+                    "name": "Yuanyuan Zhou"
+                }
+            ],
+            "doi": "10.1109/TSE.2006.28",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "82de0c1dadc711763ed7b4aa49e27c72522e6a49",
+            "title": "CP-Miner: finding copy-paste and related bugs in large-scale software code",
+            "url": "https://www.semanticscholar.org/paper/82de0c1dadc711763ed7b4aa49e27c72522e6a49",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143632630",
+                    "name": "H. Zhuge"
+                }
+            ],
+            "doi": "10.1016/S0950-7051(02)00031-X",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3db99033eeef54ab2b18a0df8783985f4f7d6c57",
+            "title": "Knowledge flow management for distributed team software development",
+            "url": "https://www.semanticscholar.org/paper/3db99033eeef54ab2b18a0df8783985f4f7d6c57",
+            "venue": "Knowl. Based Syst.",
+            "year": 2002
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3163834",
+                    "name": "W. Frakes"
+                },
+                {
+                    "authorId": "144248287",
+                    "name": "G. Succi"
+                }
+            ],
+            "doi": "10.1016/S0164-1212(00)00121-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "88d61d8fa962ff0486fc1c179eeea43f9ad1be5a",
+            "title": "An industrial study of reuse, quality, and productivity",
+            "url": "https://www.semanticscholar.org/paper/88d61d8fa962ff0486fc1c179eeea43f9ad1be5a",
+            "venue": "J. Syst. Softw.",
+            "year": 2001
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1705823",
+                    "name": "S. Sim"
+                },
+                {
+                    "authorId": "1751287",
+                    "name": "C. Clarke"
+                },
+                {
+                    "authorId": "144345125",
+                    "name": "R. Holt"
+                }
+            ],
+            "doi": "10.1109/WPC.1998.693351",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5ba97d06c8716f12982762703c149052fbc309d1",
+            "title": "Archetypal source code searches: a survey of software developers and maintainers",
+            "url": "https://www.semanticscholar.org/paper/5ba97d06c8716f12982762703c149052fbc309d1",
+            "venue": "Proceedings. 6th International Workshop on Program Comprehension. IWPC'98 (Cat. No.98TB100242)",
+            "year": 1998
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3020533",
+                    "name": "C. Krueger"
+                }
+            ],
+            "doi": "10.1145/130844.130856",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "09734f4478103a88aa979fc8d428073727de92f8",
+            "title": "Software reuse",
+            "url": "https://www.semanticscholar.org/paper/09734f4478103a88aa979fc8d428073727de92f8",
+            "venue": "CSUR",
+            "year": 1992
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144875558",
+                    "name": "Katsuro Inoue"
+                },
+                {
+                    "authorId": "2055111888",
+                    "name": "Yuya Miyamoto"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "145682543",
+                    "name": "T. Ishio"
+                }
+            ],
+            "doi": "10.1007/978-3-030-75251-4_3",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2cb0378abe99c484dde5f9a23a0391cdad1a59f0",
+            "title": "Finding Code-Clone Snippets in Large Source-Code Collection by ccgrep",
+            "url": "https://www.semanticscholar.org/paper/2cb0378abe99c484dde5f9a23a0391cdad1a59f0",
+            "venue": "OSS",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2055117727",
+                    "name": "Shi Qiu"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "144875558",
+                    "name": "Katsuro Inoue"
+                }
+            ],
+            "doi": "10.2197/ipsjjip.29.296",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b29c704873ee2245e3a4889c6462bfdd4385017a",
+            "title": "Empirical Study on Dependency-related License Violation in the JavaScript Package Ecosystem",
+            "url": "https://www.semanticscholar.org/paper/b29c704873ee2245e3a4889c6462bfdd4385017a",
+            "venue": "J. Inf. Process.",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "StackOverflowConsideredHarmful?TheImpactofCopy&PasteonAndroidApplicationSecurity",
+            "url": "",
+            "venue": "2017 IEEE Symposium on Security and Privacy (SP)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2002969",
+                    "name": "S. Ghobadi"
+                }
+            ],
+            "doi": "10.1016/j.im.2014.10.008",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1bf0e2b4af37e5d6976cde4be9997f72b7de4ad1",
+            "title": "What drives knowledge sharing in software development teams: A literature review and classification framework",
+            "url": "https://www.semanticscholar.org/paper/1bf0e2b4af37e5d6976cde4be9997f72b7de4ad1",
+            "venue": "Inf. Manag.",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Fowler/noll/vo (fnv) hash",
+            "url": "",
+            "venue": "",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2764976",
+                    "name": "Stefan Haefliger"
+                },
+                {
+                    "authorId": "8354543",
+                    "name": "G. Krogh"
+                },
+                {
+                    "authorId": "1749307",
+                    "name": "Sebastian Spaeth"
+                }
+            ],
+            "doi": "10.1287/MNSC.1070.0748",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b380f360f4eec2426e5f045dc72452b954422d48",
+            "title": "Code Reuse in Open Source Software",
+            "url": "https://www.semanticscholar.org/paper/b380f360f4eec2426e5f045dc72452b954422d48",
+            "venue": "Manag. Sci.",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "MSR \u201924, April 15\u201316, 2024, Lisbon, Portugal",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "applicable license agreement with IEEE. Restrictions apply",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "Dataset: Copy-based Reuse in Open Source Software",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/66d8a00fe55582c86495715da256708fc70360e6",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2023
+}

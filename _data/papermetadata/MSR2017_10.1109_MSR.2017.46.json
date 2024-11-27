@@ -1,0 +1,1104 @@
+{
+    "abstract": "We would like to present the idea of our Continuous Defect Prediction (CDP) research and a related dataset that we created and share. Our dataset is currently a set of more than 11 million data rows, representing files involved in Continuous Integration (CI) builds, that synthesize the results of CI builds with data we mine from software repositories. Our dataset embraces 1265 software projects, 30,022 distinct commit authors and several software process metrics that in earlier research appeared to be useful in software defect prediction. In this particular dataset we use TravisTorrent as the source of CI data. TravisTorrent synthesizes commit level information from the Travis CI server and GitHub open-source projects repositories. We extend this data to a file change level and calculate the software process metrics that may be used, for example, as features to predict risky software changes that could break the build if committed to a repository with CI enabled.",
+    "arxivId": "1703.04142",
+    "authors": [
+        {
+            "authorId": "1731361",
+            "name": "L. Madeyski",
+            "url": "https://www.semanticscholar.org/author/1731361"
+        },
+        {
+            "authorId": "2162510",
+            "name": "M. Kawalerowicz",
+            "url": "https://www.semanticscholar.org/author/2162510"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2408.11544",
+            "authors": [
+                {
+                    "authorId": "50269468",
+                    "name": "Mat\u00fa\u0161 Sul\u00edr"
+                },
+                {
+                    "authorId": "2889084",
+                    "name": "J. Porub\u00e4n"
+                },
+                {
+                    "authorId": "2277315",
+                    "name": "Sergej Chodarev"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b86798860e3f1af373089fa5c85ae2626ebd975e",
+            "title": "Local Software Buildability across Java Versions (Registered Report)",
+            "url": "https://www.semanticscholar.org/paper/b86798860e3f1af373089fa5c85ae2626ebd975e",
+            "venue": "",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "30449582",
+                    "name": "Kevin Lumbard"
+                },
+                {
+                    "authorId": "3226457",
+                    "name": "Matt Germonprez"
+                },
+                {
+                    "authorId": "1682547",
+                    "name": "S. Goggins"
+                }
+            ],
+            "doi": "10.1111/isj.12485",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4171a1a8bfe9bb4ca122c1f2408992cfc2aac0ae",
+            "title": "An empirical investigation of social comparison and open source community health",
+            "url": "https://www.semanticscholar.org/paper/4171a1a8bfe9bb4ca122c1f2408992cfc2aac0ae",
+            "venue": "Inf. Syst. J.",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2185437149",
+                    "name": "Szymon Stradowski"
+                },
+                {
+                    "authorId": "1731361",
+                    "name": "L. Madeyski"
+                }
+            ],
+            "doi": "10.1109/ICSE-Companion58688.2023.00104",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fda4b915ca644212a40e474331dbbc74b6a08384",
+            "title": "Can we Knapsack Software Defect Prediction? Nokia 5G Case",
+            "url": "https://www.semanticscholar.org/paper/fda4b915ca644212a40e474331dbbc74b6a08384",
+            "venue": "2023 IEEE/ACM 45th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2162510",
+                    "name": "M. Kawalerowicz"
+                },
+                {
+                    "authorId": "1731361",
+                    "name": "L. Madeyski"
+                }
+            ],
+            "doi": "10.1007/s10489-023-04523-6",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "869afa04d00a0813be5374572780e205929739e1",
+            "title": "Continuous build outcome prediction: an experimental evaluation and acceptance modelling",
+            "url": "https://www.semanticscholar.org/paper/869afa04d00a0813be5374572780e205929739e1",
+            "venue": "Applied Intelligence",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2108282735",
+                    "name": "Long Zhang"
+                },
+                {
+                    "authorId": "2217469276",
+                    "name": "Binyi Cui"
+                },
+                {
+                    "authorId": "144470702",
+                    "name": "Zhenyu Zhang"
+                }
+            ],
+            "doi": "10.1109/SANER56733.2023.00048",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b49a3d0e3e22590887a6fc3c5dab4ee778ac5246",
+            "title": "Optimizing Continuous Integration by Dynamic Test Proportion Selection",
+            "url": "https://www.semanticscholar.org/paper/b49a3d0e3e22590887a6fc3c5dab4ee778ac5246",
+            "venue": "2023 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2080377382",
+                    "name": "Bilal Mehboob"
+                },
+                {
+                    "authorId": "2904316",
+                    "name": "Chun Yong Chong"
+                }
+            ],
+            "doi": "10.1002/spe.3187",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c9c5881982a4e83797e37f8b8686e68e31b92275",
+            "title": "A metadata driven process for assessing stability and reusability based on risk of change of software systems",
+            "url": "https://www.semanticscholar.org/paper/c9c5881982a4e83797e37f8b8686e68e31b92275",
+            "venue": "Softw. Pract. Exp.",
+            "year": 2023
+        },
+        {
+            "arxivId": "2210.14884",
+            "authors": [
+                {
+                    "authorId": "92248810",
+                    "name": "Nusrat Zahan"
+                },
+                {
+                    "authorId": "95855265",
+                    "name": "S. Shohan"
+                },
+                {
+                    "authorId": "2075342644",
+                    "name": "Dan Harris"
+                },
+                {
+                    "authorId": "2146679113",
+                    "name": "Laurie A. Williams"
+                }
+            ],
+            "doi": "10.1109/ICSE-SEIP58684.2023.00032",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8f1e189fc177388e592841d7f9280f90df9fed36",
+            "title": "Do Software Security Practices Yield Fewer Vulnerabilities?",
+            "url": "https://www.semanticscholar.org/paper/8f1e189fc177388e592841d7f9280f90df9fed36",
+            "venue": "2023 IEEE/ACM 45th International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51213491",
+                    "name": "Francesco Lomio"
+                },
+                {
+                    "authorId": "40695832",
+                    "name": "L. Pascarella"
+                },
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                },
+                {
+                    "authorId": "2989307",
+                    "name": "Valentina Lenarduzzi"
+                }
+            ],
+            "doi": "10.1109/SEAA56994.2022.00049",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "23cc367a81d891861d40fc29e5ad91ddcdafae0b",
+            "title": "Regularity or Anomaly? On The Use of Anomaly Detection for Fine-Grained JIT Defect Prediction",
+            "url": "https://www.semanticscholar.org/paper/23cc367a81d891861d40fc29e5ad91ddcdafae0b",
+            "venue": "2022 48th Euromicro Conference on Software Engineering and Advanced Applications (SEAA)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2147337678",
+                    "name": "Kun Song"
+                },
+                {
+                    "authorId": "2142492678",
+                    "name": "Shengkai Lv"
+                },
+                {
+                    "authorId": "2147393453",
+                    "name": "Die Hu"
+                },
+                {
+                    "authorId": "145688453",
+                    "name": "Peng He"
+                }
+            ],
+            "doi": "10.1155/2021/5954432",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e9b19c390b8385b9eac09ff4ad8551a6b9959981",
+            "title": "Software Defect Prediction Based on Elman Neural Network and Cuckoo Search Algorithm",
+            "url": "https://www.semanticscholar.org/paper/e9b19c390b8385b9eac09ff4ad8551a6b9959981",
+            "venue": "Mathematical Problems in Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1682547",
+                    "name": "S. Goggins"
+                },
+                {
+                    "authorId": "30449582",
+                    "name": "Kevin Lumbard"
+                },
+                {
+                    "authorId": "3226457",
+                    "name": "Matt Germonprez"
+                }
+            ],
+            "doi": "10.1109/SoHeal52568.2021.00010",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "07f00dda866a4566e017d07546b31e9f8e6291cc",
+            "title": "Open Source Community Health: Analytical Metrics and Their Corresponding Narratives",
+            "url": "https://www.semanticscholar.org/paper/07f00dda866a4566e017d07546b31e9f8e6291cc",
+            "venue": "2021 IEEE/ACM 4th International Workshop on Software Health in Projects, Ecosystems and Communities (SoHeal)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50269468",
+                    "name": "Mat\u00fa\u0161 Sul\u00edr"
+                },
+                {
+                    "authorId": "2365135",
+                    "name": "M. Ba\u010d\u00edkov\u00e1"
+                },
+                {
+                    "authorId": "40859887",
+                    "name": "Matej Madeja"
+                },
+                {
+                    "authorId": "2277315",
+                    "name": "Sergej Chodarev"
+                },
+                {
+                    "authorId": "2131288",
+                    "name": "J\u00e1n Juh\u00e1r"
+                }
+            ],
+            "doi": "10.3390/data5030086",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "bd159dab4db21748a0df31d58c25ed37e02823fa",
+            "title": "Large-Scale Dataset of Local Java Software Build Results",
+            "url": "https://www.semanticscholar.org/paper/bd159dab4db21748a0df31d58c25ed37e02823fa",
+            "venue": "Data",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40695832",
+                    "name": "L. Pascarella"
+                }
+            ],
+            "doi": "10.4233/UUID:E553E8AE-73BE-4718-AB93-81F466DB7347",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5c9ce2e6ac647bdbabb7dcfcee7020f7b3ef89a7",
+            "title": "Augmented Fine-Grained Defect Prediction for Code Review",
+            "url": "https://www.semanticscholar.org/paper/5c9ce2e6ac647bdbabb7dcfcee7020f7b3ef89a7",
+            "venue": "",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144943089",
+                    "name": "Bihuan Chen"
+                },
+                {
+                    "authorId": "2109073875",
+                    "name": "Linlin Chen"
+                },
+                {
+                    "authorId": "2111575377",
+                    "name": "Chen Zhang"
+                },
+                {
+                    "authorId": "143621878",
+                    "name": "Xin Peng"
+                }
+            ],
+            "doi": "10.1145/3324884.3416616",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "862a0bfe6593ec157e3ad7dfd0baee2b2a707b46",
+            "title": "BUILDFAST: History-Aware Build Outcome Prediction for Fast Feedback and Reduced Cost in Continuous Integration",
+            "url": "https://www.semanticscholar.org/paper/862a0bfe6593ec157e3ad7dfd0baee2b2a707b46",
+            "venue": "2020 35th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2020
+        },
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": "2003.10750",
+            "authors": [
+                {
+                    "authorId": "9193431",
+                    "name": "Abdulkadir Seker"
+                },
+                {
+                    "authorId": "3278786",
+                    "name": "B. Diri"
+                },
+                {
+                    "authorId": "2060742163",
+                    "name": "Halil Arslan"
+                },
+                {
+                    "authorId": "1775715",
+                    "name": "M. Amasyal\u0131"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6808fd739bfed343221dcbe593304fbea538a303",
+            "title": "A Systematic Mapping of Software Engineering Challenges: GHTorrent Case",
+            "url": "https://www.semanticscholar.org/paper/6808fd739bfed343221dcbe593304fbea538a303",
+            "venue": "ArXiv",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "9193431",
+                    "name": "Abdulkadir Seker"
+                },
+                {
+                    "authorId": "3278786",
+                    "name": "B. Diri"
+                },
+                {
+                    "authorId": "2060742163",
+                    "name": "Halil Arslan"
+                },
+                {
+                    "authorId": "1775715",
+                    "name": "M. Amasyal\u0131"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0d0430681a2aeff6e7c07ffa9303384003ffb299",
+            "title": "Open Source Software Development Challenges: A Systematic Literature Review on GitHub",
+            "url": "https://www.semanticscholar.org/paper/0d0430681a2aeff6e7c07ffa9303384003ffb299",
+            "venue": "Int. J. Open Source Softw. Process.",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40695832",
+                    "name": "L. Pascarella"
+                },
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                },
+                {
+                    "authorId": "1686038",
+                    "name": "Alberto Bacchelli"
+                }
+            ],
+            "doi": "10.1016/J.JSS.2018.12.001",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4724561bd25fdbe206fe61c3e967645d34231345",
+            "title": "Fine-grained just-in-time defect prediction",
+            "url": "https://www.semanticscholar.org/paper/4724561bd25fdbe206fe61c3e967645d34231345",
+            "venue": "J. Syst. Softw.",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2108239779",
+                    "name": "Weiqiang Zhang"
+                },
+                {
+                    "authorId": "9220930",
+                    "name": "Zhenyu Chen"
+                },
+                {
+                    "authorId": "152196691",
+                    "name": "B. Luo"
+                }
+            ],
+            "doi": "10.1109/QRS.2018.00046",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "6e209ed214d3a41b5b37e001fcd3e433e17c7f41",
+            "title": "Does Socio-Technical Congruence Have an Effect on Continuous Integration Build Failures? An Empirical Study on 10 GitHub Projects",
+            "url": "https://www.semanticscholar.org/paper/6e209ed214d3a41b5b37e001fcd3e433e17c7f41",
+            "venue": "2018 IEEE International Conference on Software Quality, Reliability and Security (QRS)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2114115114",
+                    "name": "Zheng Xie"
+                },
+                {
+                    "authorId": "35834541",
+                    "name": "Ming Li"
+                }
+            ],
+            "doi": "10.24963/ijcai.2018/399",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9ee259df919c78d70f007e5c3f2b87e998029779",
+            "title": "Cutting the Software Building Efforts in Continuous Integration by Semi-Supervised Online AUC Optimization",
+            "url": "https://www.semanticscholar.org/paper/9ee259df919c78d70f007e5c3f2b87e998029779",
+            "venue": "IJCAI",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "90312758",
+                    "name": "Bulat Gabdrakhmanov"
+                },
+                {
+                    "authorId": "16692862",
+                    "name": "A. Tolkachev"
+                },
+                {
+                    "authorId": "144248287",
+                    "name": "G. Succi"
+                },
+                {
+                    "authorId": "34276932",
+                    "name": "Jooyong Yi"
+                }
+            ],
+            "doi": "10.1007/978-3-030-14687-0_7",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6fd924f70a7ab1bb7ba0e655e7f0513434f8f6e7",
+            "title": "An Open-Source Software Metric Tool for Defect Prediction, Its Case Study and Lessons We Learned",
+            "url": "https://www.semanticscholar.org/paper/6fd924f70a7ab1bb7ba0e655e7f0513434f8f6e7",
+            "venue": "SEDA",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2177207",
+                    "name": "Zhifang Liao"
+                },
+                {
+                    "authorId": "2220644371",
+                    "name": "Fangying Fu"
+                },
+                {
+                    "authorId": "2118943077",
+                    "name": "Yiqi Zhao"
+                },
+                {
+                    "authorId": "92657638",
+                    "name": "Sui Tan"
+                },
+                {
+                    "authorId": "48567540",
+                    "name": "Zhiwu Yu"
+                },
+                {
+                    "authorId": "2152821277",
+                    "name": "Yan Zhang"
+                }
+            ],
+            "doi": "10.32604/csse.2023.038087",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "86c436c3bbb2dff88fa5a1d7f2b2623d45a9cf83",
+            "title": "HSPM: A Better Model to Effectively Preventing Open-Source Projects from Dying",
+            "url": "https://www.semanticscholar.org/paper/86c436c3bbb2dff88fa5a1d7f2b2623d45a9cf83",
+            "venue": "Comput. Syst. Sci. Eng.",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "92248810",
+                    "name": "Nusrat Zahan"
+                },
+                {
+                    "authorId": "95855265",
+                    "name": "S. Shohan"
+                },
+                {
+                    "authorId": "2075342644",
+                    "name": "Dan Harris"
+                },
+                {
+                    "authorId": "2146679113",
+                    "name": "Laurie A. Williams"
+                }
+            ],
+            "doi": "10.48550/arXiv.2210.14884",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f234e9c0b7aef0133773a0b52c5011acf67e3994",
+            "title": "PREPRINT: Do OpenSSF Scorecard Practices Contribute to Fewer Vulnerabilities?",
+            "url": "https://www.semanticscholar.org/paper/f234e9c0b7aef0133773a0b52c5011acf67e3994",
+            "venue": "ArXiv",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51213491",
+                    "name": "Francesco Lomio"
+                },
+                {
+                    "authorId": "40695832",
+                    "name": "L. Pascarella"
+                },
+                {
+                    "authorId": "2288338893",
+                    "name": "Fabio Palomba"
+                },
+                {
+                    "authorId": "2989307",
+                    "name": "Valentina Lenarduzzi"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "bf51cfd8cf09698ad1b9e0d35b7dcb11b0074d86",
+            "title": "Regularity or Anomaly? On The Use of Anomaly Detection for Fine-Grained Just-in-Time Defect Prediction",
+            "url": "https://www.semanticscholar.org/paper/bf51cfd8cf09698ad1b9e0d35b7dcb11b0074d86",
+            "venue": "",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2159679725",
+                    "name": "Giorgio Lazzarinetti"
+                },
+                {
+                    "authorId": "2049049676",
+                    "name": "Nicola Massarenti"
+                },
+                {
+                    "authorId": "2159678421",
+                    "name": "Fabio Sgr\u00f2"
+                },
+                {
+                    "authorId": "2159679208",
+                    "name": "Andrea Salafia"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e4bea1decaea116bd706094cf75f4c37773fff9f",
+            "title": "A Machine Learning Based Framework for Continuous Defect Prediction in CI/CD pipelines",
+            "url": "https://www.semanticscholar.org/paper/e4bea1decaea116bd706094cf75f4c37773fff9f",
+            "venue": "AIABI@AI*IA",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2178381478",
+                    "name": "Lazzarinetti Giorgio"
+                },
+                {
+                    "authorId": "2178383076",
+                    "name": "Massarenti Nicola"
+                },
+                {
+                    "authorId": "2178369809",
+                    "name": "Sgr\u00f2 Fabio"
+                },
+                {
+                    "authorId": "2178381629",
+                    "name": "Salafia Andrea"
+                }
+            ],
+            "doi": "10.1007/978-3-031-08421-8_41",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "61fbc6cf6002995c8fe0a87f6437ab89bca187be",
+            "title": "Continuous Defect Prediction in CI/CD Pipelines: A Machine Learning-Based Framework",
+            "url": "https://www.semanticscholar.org/paper/61fbc6cf6002995c8fe0a87f6437ab89bca187be",
+            "venue": "AI*IA",
+            "year": 2021
+        }
+    ],
+    "corpusId": 9268364,
+    "doi": "10.1109/MSR.2017.46",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 1,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 26,
+    "numCiting": 13,
+    "paperId": "d513f5ca5820c87a5e768c828598bde539cf4a3d",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": "10.1109/MSR.2017.24",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "840d779e02a646d19cabd6bb186533cae81fc966",
+            "title": "TravisTorrent: Synthesizing Travis CI and GitHub for Full-Stack Research on Continuous Integration",
+            "url": "https://www.semanticscholar.org/paper/840d779e02a646d19cabd6bb186533cae81fc966",
+            "venue": "2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1731361",
+                    "name": "L. Madeyski"
+                },
+                {
+                    "authorId": "2558123",
+                    "name": "Marian Jureczko"
+                }
+            ],
+            "doi": "10.1007/s11219-014-9241-7",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1077726f1f3e44eb0932efafa0114650b5cf083c",
+            "title": "Which Process Metrics Can Significantly Improve Defect Prediction Models? An Empirical Study",
+            "url": "https://www.semanticscholar.org/paper/1077726f1f3e44eb0932efafa0114650b5cf083c",
+            "venue": "Software Quality Journal",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3312173",
+                    "name": "Xinli Yang"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                },
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "2049104435",
+                    "name": "Yun Zhang"
+                },
+                {
+                    "authorId": "4346236",
+                    "name": "Jianling Sun"
+                }
+            ],
+            "doi": "10.1109/QRS.2015.14",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "e4be4ba1d428bc89f63662ae7b0db097fa83d651",
+            "title": "Deep Learning for Just-in-Time Defect Prediction",
+            "url": "https://www.semanticscholar.org/paper/e4be4ba1d428bc89f63662ae7b0db097fa83d651",
+            "venue": "2015 IEEE International Conference on Software Quality, Reliability and Security",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1731361",
+                    "name": "L. Madeyski"
+                },
+                {
+                    "authorId": "2558123",
+                    "name": "Marian Jureczko"
+                }
+            ],
+            "doi": "10.1007/s11219-014-9241-7",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "bf385e784cb8f825190aa67b45b96dea9d7e381b",
+            "title": "Which process metrics can significantly improve defect prediction models? An empirical study",
+            "url": "https://www.semanticscholar.org/paper/bf385e784cb8f825190aa67b45b96dea9d7e381b",
+            "venue": "Software Quality Journal",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1706639",
+                    "name": "Yasutaka Kamei"
+                },
+                {
+                    "authorId": "3318024",
+                    "name": "Emad Shihab"
+                },
+                {
+                    "authorId": "143612725",
+                    "name": "Bram Adams"
+                },
+                {
+                    "authorId": "144890499",
+                    "name": "A. Hassan"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                },
+                {
+                    "authorId": "2079873209",
+                    "name": "Anand Sinha"
+                },
+                {
+                    "authorId": "1806862",
+                    "name": "Naoyasu Ubayashi"
+                }
+            ],
+            "doi": "10.1109/TSE.2012.70",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "04eb410c0a59fc08a4648af43f7de323cc7d06c2",
+            "title": "A large-scale empirical study of just-in-time quality assurance",
+            "url": "https://www.semanticscholar.org/paper/04eb410c0a59fc08a4648af43f7de323cc7d06c2",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624034",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2867eb64cc4bb1945363fdae12a168962ea823aa",
+            "title": "The GHTorent dataset and tool suite",
+            "url": "https://www.semanticscholar.org/paper/2867eb64cc4bb1945363fdae12a168962ea823aa",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "153685300",
+                    "name": "Marco D'Ambros"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                },
+                {
+                    "authorId": "1853058",
+                    "name": "R. Robbes"
+                }
+            ],
+            "doi": "10.1007/s10664-011-9173-9",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ba98d43080bd0eeecba24c3124d63216c78494b8",
+            "title": "Evaluating defect prediction approaches: a benchmark and an extensive comparison",
+            "url": "https://www.semanticscholar.org/paper/ba98d43080bd0eeecba24c3124d63216c78494b8",
+            "venue": "Empirical Software Engineering",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145973228",
+                    "name": "Burak Turhan"
+                },
+                {
+                    "authorId": "1703872",
+                    "name": "T. Menzies"
+                },
+                {
+                    "authorId": "1730000",
+                    "name": "A. Bener"
+                },
+                {
+                    "authorId": "1864615",
+                    "name": "Justin S. Di Stefano"
+                }
+            ],
+            "doi": "10.1007/s10664-008-9103-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "cfe0a2bf6fb69e97b2d8173df35518e67efbf537",
+            "title": "On the relative value of cross-company and within-company data for defect prediction",
+            "url": "https://www.semanticscholar.org/paper/cfe0a2bf6fb69e97b2d8173df35518e67efbf537",
+            "venue": "Empirical Software Engineering",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1787729",
+                    "name": "Sunghun Kim"
+                },
+                {
+                    "authorId": "145007710",
+                    "name": "E. J. Whitehead"
+                },
+                {
+                    "authorId": "34577272",
+                    "name": "Yi Zhang"
+                }
+            ],
+            "doi": "10.1109/TSE.2007.70773",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "9f905c4050131f82bcfb503a580cfcfdedc25fc9",
+            "title": "Classifying Software Changes: Clean or Buggy?",
+            "url": "https://www.semanticscholar.org/paper/9f905c4050131f82bcfb503a580cfcfdedc25fc9",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1731361",
+                    "name": "L. Madeyski"
+                },
+                {
+                    "authorId": "2162510",
+                    "name": "M. Kawalerowicz"
+                }
+            ],
+            "doi": "10.1007/978-3-319-43606-7_11",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4687e234eec88f8dc08cd005b088b691da3278cb",
+            "title": "Software Engineering Needs Agile Experimentation: A New Practice and Supporting Tool",
+            "url": "https://www.semanticscholar.org/paper/4687e234eec88f8dc08cd005b088b691da3278cb",
+            "venue": "KKIO Software Engineering Conference",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2558123",
+                    "name": "Marian Jureczko"
+                },
+                {
+                    "authorId": "1731361",
+                    "name": "L. Madeyski"
+                }
+            ],
+            "doi": "10.5277/e-Inf150102",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6c299913f538b06e812fc5a7f8ea268182fce2c8",
+            "title": "Cross-Project Defect Prediction With Respect To Code Ownership Model: An Empirical Study",
+            "url": "https://www.semanticscholar.org/paper/6c299913f538b06e812fc5a7f8ea268182fce2c8",
+            "venue": "e Informatica Softw. Eng. J.",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1731361",
+                    "name": "L. Madeyski"
+                },
+                {
+                    "authorId": "2162510",
+                    "name": "M. Kawalerowicz"
+                }
+            ],
+            "doi": "10.5220/0004587202600267",
+            "intent": [
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "e8bb2cab664616a2bf3b4d69ed9c323630510bde",
+            "title": "Continuous Test-Driven Development - A Novel Agile Software Development Practice and Supporting Tool",
+            "url": "https://www.semanticscholar.org/paper/e8bb2cab664616a2bf3b4d69ed9c323630510bde",
+            "venue": "ENASE",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2 https://figshare.com/s/302814fa28cb1fbde705 3 https://figshare.com/s",
+            "url": "",
+            "venue": "2 https://figshare.com/s/302814fa28cb1fbde705 3 https://figshare.com/s",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "Continuous Defect Prediction: The Idea and a Related Dataset",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/d513f5ca5820c87a5e768c828598bde539cf4a3d",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2017
+}

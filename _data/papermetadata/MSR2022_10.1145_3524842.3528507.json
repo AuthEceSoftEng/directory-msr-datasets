@@ -1,0 +1,1632 @@
+{
+    "abstract": "In this paper, we present ManyTypes4TypeScript, a very large corpus for training and evaluating machine-learning models for sequence-based type inference in TypeScript. The dataset includes over 9 million type annotations, across 13,953 projects and 539,571 files. The dataset is approximately 10x larger than analogous type inference datasets for Python, and is the largest available for Type-Script. We also provide API access to the dataset, which can be integrated into any tokenizer and used with any state-of-the-art sequence-based model. Finally, we provide analysis and performance results for state-of-the-art code-specific models, for baselining. ManyTypes4TypeScript is available on Huggingface, Zenodo, and CodeXGLUE.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "1382369659",
+            "name": "Kevin Jesse",
+            "url": "https://www.semanticscholar.org/author/1382369659"
+        },
+        {
+            "authorId": "2164399652",
+            "name": "krjesse",
+            "url": "https://www.semanticscholar.org/author/2164399652"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8943291",
+                    "name": "Piyush Jha"
+                },
+                {
+                    "authorId": "2311724394",
+                    "name": "Werner Dietl"
+                }
+            ],
+            "doi": "10.1109/SANER60148.2024.00021",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "66392d333b5d1b0da2aa7b106bb23791c8551f22",
+            "title": "OppropBERL: A GNN and BERT-Style Reinforcement Learning-Based Type Inference",
+            "url": "https://www.semanticscholar.org/paper/66392d333b5d1b0da2aa7b106bb23791c8551f22",
+            "venue": "2024 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2310.00673",
+            "authors": [
+                {
+                    "authorId": "2249761338",
+                    "name": "Lukas Seidel"
+                },
+                {
+                    "authorId": "1727622943",
+                    "name": "Sedick Baker Effendi"
+                },
+                {
+                    "authorId": "2249761139",
+                    "name": "Xavier Pinho"
+                },
+                {
+                    "authorId": "2249761790",
+                    "name": "Konrad Rieck"
+                },
+                {
+                    "authorId": "2249761184",
+                    "name": "Brink van der Merwe"
+                },
+                {
+                    "authorId": "2944486",
+                    "name": "Fabian Yamaguchi"
+                }
+            ],
+            "doi": "10.48550/arXiv.2310.00673",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "83051a21847236fefc5e66f5cadf40dc18cb0dd6",
+            "title": "Learning Type Inference for Enhanced Dataflow Analysis",
+            "url": "https://www.semanticscholar.org/paper/83051a21847236fefc5e66f5cadf40dc18cb0dd6",
+            "venue": "ESORICS",
+            "year": 2023
+        },
+        {
+            "arxivId": "2305.17145",
+            "authors": [
+                {
+                    "authorId": "2197063831",
+                    "name": "Federico Cassano"
+                },
+                {
+                    "authorId": "39043661",
+                    "name": "Ming-Ho Yee"
+                },
+                {
+                    "authorId": "2212367248",
+                    "name": "Noah Shinn"
+                },
+                {
+                    "authorId": "2100712",
+                    "name": "Arjun Guha"
+                },
+                {
+                    "authorId": "5341399",
+                    "name": "Steven Holtzen"
+                }
+            ],
+            "doi": "10.48550/arXiv.2305.17145",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "93107809381d75143ec3bac1ed1339ed78740c92",
+            "title": "Type Prediction With Program Decomposition and Fill-in-the-Type Training",
+            "url": "https://www.semanticscholar.org/paper/93107809381d75143ec3bac1ed1339ed78740c92",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2187951739",
+                    "name": "Sivani Voruganti"
+                },
+                {
+                    "authorId": "1382369659",
+                    "name": "Kevin Jesse"
+                },
+                {
+                    "authorId": "114875459",
+                    "name": "Prem Devanbu"
+                }
+            ],
+            "doi": "10.1145/3551349.3559527",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0c78a473e33a81246d5c0fbbda7e7de168814c18",
+            "title": "FlexType: A Plug-and-Play Framework for Type Inference Models",
+            "url": "https://www.semanticscholar.org/paper/0c78a473e33a81246d5c0fbbda7e7de168814c18",
+            "venue": "ASE",
+            "year": 2022
+        },
+        {
+            "arxivId": "2208.08643",
+            "authors": [
+                {
+                    "authorId": "2108977762",
+                    "name": "Wenhan Wang"
+                },
+                {
+                    "authorId": "2033148496",
+                    "name": "Kechi Zhang"
+                },
+                {
+                    "authorId": "2154591375",
+                    "name": "Ge Li"
+                },
+                {
+                    "authorId": "13877308",
+                    "name": "Shangqing Liu"
+                },
+                {
+                    "authorId": "2112838196",
+                    "name": "Anran Li"
+                },
+                {
+                    "authorId": "2152843753",
+                    "name": "Zhi Jin"
+                },
+                {
+                    "authorId": "2153564286",
+                    "name": "Yang Liu"
+                }
+            ],
+            "doi": "10.1109/SANER56733.2023.00032",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "369a564359d467eb3878d01f9f36e79703aa0374",
+            "title": "Learning Program Representations with a Tree-Structured Transformer",
+            "url": "https://www.semanticscholar.org/paper/369a564359d467eb3878d01f9f36e79703aa0374",
+            "venue": "2023 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2022
+        }
+    ],
+    "corpusId": 248575270,
+    "doi": "10.1145/3524842.3528507",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 5,
+    "numCiting": 37,
+    "paperId": "fab636ef521c60636b57e7c1c28f9eb0a6c4d756",
+    "references": [
+        {
+            "arxivId": "2201.01988",
+            "authors": [
+                {
+                    "authorId": "151496516",
+                    "name": "Jieke Shi"
+                },
+                {
+                    "authorId": "2139059234",
+                    "name": "Zhou Yang"
+                },
+                {
+                    "authorId": "2158107537",
+                    "name": "Junda He"
+                },
+                {
+                    "authorId": "2203459",
+                    "name": "Bowen Xu"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                }
+            ],
+            "doi": "10.1109/saner53432.2022.00130",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b2affc6e4871fadf2a0f3a4acc0b654f1b53b1ad",
+            "title": "Can Identifier Splitting Improve Open-Vocabulary Language Model of Code?",
+            "url": "https://www.semanticscholar.org/paper/b2affc6e4871fadf2a0f3a4acc0b654f1b53b1ad",
+            "venue": "2022 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2112.02043",
+            "authors": [
+                {
+                    "authorId": "3432275",
+                    "name": "Toufique Ahmed"
+                },
+                {
+                    "authorId": "114875459",
+                    "name": "Prem Devanbu"
+                }
+            ],
+            "doi": "10.1145/3510003.3510049",
+            "intent": [
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "775a9c722262c7b656876a5fef20f4577afd8981",
+            "title": "Multilingual training for Software Engineering",
+            "url": "https://www.semanticscholar.org/paper/775a9c722262c7b656876a5fef20f4577afd8981",
+            "venue": "2022 IEEE/ACM 44th International Conference on Software Engineering (ICSE)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2109.02846",
+            "authors": [
+                {
+                    "authorId": "2113836945",
+                    "name": "Quentin Lhoest"
+                },
+                {
+                    "authorId": "46219923",
+                    "name": "Albert Villanova del Moral"
+                },
+                {
+                    "authorId": "2262249",
+                    "name": "Yacine Jernite"
+                },
+                {
+                    "authorId": "1563206882",
+                    "name": "A. Thakur"
+                },
+                {
+                    "authorId": "138609838",
+                    "name": "Patrick von Platen"
+                },
+                {
+                    "authorId": "2113317708",
+                    "name": "Suraj Patil"
+                },
+                {
+                    "authorId": "40811585",
+                    "name": "Julien Chaumond"
+                },
+                {
+                    "authorId": "2125818054",
+                    "name": "Mariama Drame"
+                },
+                {
+                    "authorId": "3008389",
+                    "name": "J. Plu"
+                },
+                {
+                    "authorId": "2072250824",
+                    "name": "Lewis Tunstall"
+                },
+                {
+                    "authorId": "48776237",
+                    "name": "Joe Davison"
+                },
+                {
+                    "authorId": "2125821515",
+                    "name": "Mario vSavsko"
+                },
+                {
+                    "authorId": "1509809381",
+                    "name": "Gunjan Chhablani"
+                },
+                {
+                    "authorId": "2081608023",
+                    "name": "Bhavitvya Malik"
+                },
+                {
+                    "authorId": "1929563111",
+                    "name": "Simon Brandeis"
+                },
+                {
+                    "authorId": "1379806208",
+                    "name": "Teven Le Scao"
+                },
+                {
+                    "authorId": "2285868436",
+                    "name": "Victor Sanh"
+                },
+                {
+                    "authorId": "66247317",
+                    "name": "Canwen Xu"
+                },
+                {
+                    "authorId": "31614549",
+                    "name": "N. Patry"
+                },
+                {
+                    "authorId": "1584940075",
+                    "name": "Angelina McMillan-Major"
+                },
+                {
+                    "authorId": "47261946",
+                    "name": "Philipp Schmid"
+                },
+                {
+                    "authorId": "103682620",
+                    "name": "Sylvain Gugger"
+                },
+                {
+                    "authorId": "40899333",
+                    "name": "Clement Delangue"
+                },
+                {
+                    "authorId": "2125822087",
+                    "name": "Th'eo Matussiere"
+                },
+                {
+                    "authorId": "1380459402",
+                    "name": "Lysandre Debut"
+                },
+                {
+                    "authorId": "32136590",
+                    "name": "Stas Bekman"
+                },
+                {
+                    "authorId": "1382164165",
+                    "name": "Pierric Cistac"
+                },
+                {
+                    "authorId": "2125818023",
+                    "name": "Thibault Goehringer"
+                },
+                {
+                    "authorId": "2125811887",
+                    "name": "Victor Mustar"
+                },
+                {
+                    "authorId": "2083688752",
+                    "name": "Fran\u00e7ois Lagunas"
+                },
+                {
+                    "authorId": "2531268",
+                    "name": "Alexander M. Rush"
+                },
+                {
+                    "authorId": "50335211",
+                    "name": "Thomas Wolf"
+                }
+            ],
+            "doi": "10.18653/v1/2021.emnlp-demo.21",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "cddf40e579a596d0110b260313adf43470617c4c",
+            "title": "Datasets: A Community Library for Natural Language Processing",
+            "url": "https://www.semanticscholar.org/paper/cddf40e579a596d0110b260313adf43470617c4c",
+            "venue": "EMNLP",
+            "year": 2021
+        },
+        {
+            "arxivId": "2109.00859",
+            "authors": [
+                {
+                    "authorId": "49416727",
+                    "name": "Yue Wang"
+                },
+                {
+                    "authorId": "2108528154",
+                    "name": "Weishi Wang"
+                },
+                {
+                    "authorId": "2708940",
+                    "name": "Shafiq R. Joty"
+                },
+                {
+                    "authorId": "1741126",
+                    "name": "S. Hoi"
+                }
+            ],
+            "doi": "10.18653/v1/2021.emnlp-main.685",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a30f912f8c5e2a2bfb06351d4578e1ba3fa37896",
+            "title": "CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation",
+            "url": "https://www.semanticscholar.org/paper/a30f912f8c5e2a2bfb06351d4578e1ba3fa37896",
+            "venue": "EMNLP",
+            "year": 2021
+        },
+        {
+            "arxivId": "2108.11308",
+            "authors": [
+                {
+                    "authorId": "100721942",
+                    "name": "Anjan Karmakar"
+                },
+                {
+                    "authorId": "1853058",
+                    "name": "R. Robbes"
+                }
+            ],
+            "doi": "10.1109/ASE51524.2021.9678927",
+            "intent": [
+                "result",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "70087677fd1a6309829b42968934575d05a95f92",
+            "title": "What do pre-trained code models know about code?",
+            "url": "https://www.semanticscholar.org/paper/70087677fd1a6309829b42968934575d05a95f92",
+            "venue": "2021 36th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1382369659",
+                    "name": "Kevin Jesse"
+                },
+                {
+                    "authorId": "114875459",
+                    "name": "Prem Devanbu"
+                },
+                {
+                    "authorId": "3432275",
+                    "name": "Toufique Ahmed"
+                }
+            ],
+            "doi": "10.1145/3468264.3473135",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1aaddc7a5bfa9fbfad540f682f45ecd1ededcfd8",
+            "title": "Learning type annotation: is big data enough?",
+            "url": "https://www.semanticscholar.org/paper/1aaddc7a5bfa9fbfad540f682f45ecd1ededcfd8",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2021
+        },
+        {
+            "arxivId": "2104.04706",
+            "authors": [
+                {
+                    "authorId": "143909797",
+                    "name": "A. Mir"
+                },
+                {
+                    "authorId": "2046786069",
+                    "name": "Evaldas Latoskinas"
+                },
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00079",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "13c6ad940b0f0298ee7f437d8239ccbca6b240ed",
+            "title": "ManyTypes4Py: A Benchmark Python Dataset for Machine Learning-based Type Inference",
+            "url": "https://www.semanticscholar.org/paper/13c6ad940b0f0298ee7f437d8239ccbca6b240ed",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.06333",
+            "authors": [
+                {
+                    "authorId": "38123220",
+                    "name": "Wasi Uddin Ahmad"
+                },
+                {
+                    "authorId": "47570053",
+                    "name": "Saikat Chakraborty"
+                },
+                {
+                    "authorId": "31631000",
+                    "name": "Baishakhi Ray"
+                },
+                {
+                    "authorId": "2782886",
+                    "name": "Kai-Wei Chang"
+                }
+            ],
+            "doi": "10.18653/V1/2021.NAACL-MAIN.211",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0646bb09db4d1ba24150e69b71edcd4aff691b3c",
+            "title": "Unified Pre-training for Program Understanding and Generation",
+            "url": "https://www.semanticscholar.org/paper/0646bb09db4d1ba24150e69b71edcd4aff691b3c",
+            "venue": "NAACL",
+            "year": 2021
+        },
+        {
+            "arxivId": "2102.04664",
+            "authors": [
+                {
+                    "authorId": "2115338656",
+                    "name": "Shuai Lu"
+                },
+                {
+                    "authorId": "2278834796",
+                    "name": "Daya Guo"
+                },
+                {
+                    "authorId": "50052368",
+                    "name": "Shuo Ren"
+                },
+                {
+                    "authorId": "145505727",
+                    "name": "Junjie Huang"
+                },
+                {
+                    "authorId": "47090739",
+                    "name": "Alexey Svyatkovskiy"
+                },
+                {
+                    "authorId": "37488446",
+                    "name": "Ambrosio Blanco"
+                },
+                {
+                    "authorId": "2064509404",
+                    "name": "Colin B. Clement"
+                },
+                {
+                    "authorId": "1943097969",
+                    "name": "Dawn Drain"
+                },
+                {
+                    "authorId": "71790825",
+                    "name": "Daxin Jiang"
+                },
+                {
+                    "authorId": "39483833",
+                    "name": "Duyu Tang"
+                },
+                {
+                    "authorId": "1410115257",
+                    "name": "Ge Li"
+                },
+                {
+                    "authorId": "2143359114",
+                    "name": "Lidong Zhou"
+                },
+                {
+                    "authorId": "24962156",
+                    "name": "Linjun Shou"
+                },
+                {
+                    "authorId": "2135918679",
+                    "name": "Long Zhou"
+                },
+                {
+                    "authorId": "40626221",
+                    "name": "Michele Tufano"
+                },
+                {
+                    "authorId": "50175330",
+                    "name": "Ming Gong"
+                },
+                {
+                    "authorId": "92660691",
+                    "name": "Ming Zhou"
+                },
+                {
+                    "authorId": "46429989",
+                    "name": "Nan Duan"
+                },
+                {
+                    "authorId": "145507437",
+                    "name": "Neel Sundaresan"
+                },
+                {
+                    "authorId": "1702996983",
+                    "name": "Shao Kun Deng"
+                },
+                {
+                    "authorId": "2072784644",
+                    "name": "Shengyu Fu"
+                },
+                {
+                    "authorId": "1803054",
+                    "name": "Shujie Liu"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "870ff1dde0c103c3d90be51880f984628e77a8d6",
+            "title": "CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation",
+            "url": "https://www.semanticscholar.org/paper/870ff1dde0c103c3d90be51880f984628e77a8d6",
+            "venue": "NeurIPS Datasets and Benchmarks",
+            "year": 2021
+        },
+        {
+            "arxivId": "2009.08366",
+            "authors": [
+                {
+                    "authorId": "2278834796",
+                    "name": "Daya Guo"
+                },
+                {
+                    "authorId": "50052368",
+                    "name": "Shuo Ren"
+                },
+                {
+                    "authorId": "2115338656",
+                    "name": "Shuai Lu"
+                },
+                {
+                    "authorId": "51056532",
+                    "name": "Zhangyin Feng"
+                },
+                {
+                    "authorId": "39483833",
+                    "name": "Duyu Tang"
+                },
+                {
+                    "authorId": "1803054",
+                    "name": "Shujie Liu"
+                },
+                {
+                    "authorId": "2135918679",
+                    "name": "Long Zhou"
+                },
+                {
+                    "authorId": "46429989",
+                    "name": "Nan Duan"
+                },
+                {
+                    "authorId": "144926874",
+                    "name": "Jian Yin"
+                },
+                {
+                    "authorId": "71790825",
+                    "name": "Daxin Jiang"
+                },
+                {
+                    "authorId": "143849609",
+                    "name": "M. Zhou"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4083958684292f6fa2f5c7fd4f9be975e80145b6",
+            "title": "GraphCodeBERT: Pre-training Code Representations with Data Flow",
+            "url": "https://www.semanticscholar.org/paper/4083958684292f6fa2f5c7fd4f9be975e80145b6",
+            "venue": "ICLR",
+            "year": 2020
+        },
+        {
+            "arxivId": "2006.12641",
+            "authors": [
+                {
+                    "authorId": "2065154010",
+                    "name": "Luca Buratti"
+                },
+                {
+                    "authorId": "1403641392",
+                    "name": "Saurabh Pujar"
+                },
+                {
+                    "authorId": "3229805",
+                    "name": "Mihaela A. Bornea"
+                },
+                {
+                    "authorId": "1753655609",
+                    "name": "Scott McCarley"
+                },
+                {
+                    "authorId": "2668271",
+                    "name": "Yunhui Zheng"
+                },
+                {
+                    "authorId": "3415700",
+                    "name": "Gaetano Rossiello"
+                },
+                {
+                    "authorId": "2520357",
+                    "name": "Alessandro Morari"
+                },
+                {
+                    "authorId": "40643656",
+                    "name": "Jim Laredo"
+                },
+                {
+                    "authorId": "1861119",
+                    "name": "Veronika Thost"
+                },
+                {
+                    "authorId": "1505801820",
+                    "name": "Yufan Zhuang"
+                },
+                {
+                    "authorId": "2972684",
+                    "name": "Giacomo Domeniconi"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "406afe68e789fcb0d7e3d24ebea65b53d206f740",
+            "title": "Exploring Software Naturalness through Neural Language Models",
+            "url": "https://www.semanticscholar.org/paper/406afe68e789fcb0d7e3d24ebea65b53d206f740",
+            "venue": "ArXiv",
+            "year": 2020
+        },
+        {
+            "arxivId": "2005.02161",
+            "authors": [
+                {
+                    "authorId": "49319137",
+                    "name": "Jiayi Wei"
+                },
+                {
+                    "authorId": "2067482988",
+                    "name": "Maruth Goyal"
+                },
+                {
+                    "authorId": "1814094",
+                    "name": "Greg Durrett"
+                },
+                {
+                    "authorId": "1714075",
+                    "name": "I\u015f\u0131l Dillig"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "29fc7ff02e68537a86d32978bfd2e8e45258e77d",
+            "title": "LambdaNet: Probabilistic Type Inference using Graph Neural Networks",
+            "url": "https://www.semanticscholar.org/paper/29fc7ff02e68537a86d32978bfd2e8e45258e77d",
+            "venue": "ICLR",
+            "year": 2020
+        },
+        {
+            "arxivId": "2004.10657",
+            "authors": [
+                {
+                    "authorId": "3216345",
+                    "name": "Miltiadis Allamanis"
+                },
+                {
+                    "authorId": "1757975",
+                    "name": "Earl T. Barr"
+                },
+                {
+                    "authorId": "1648699839",
+                    "name": "Soline Ducousso"
+                },
+                {
+                    "authorId": "2116491634",
+                    "name": "Zheng Gao"
+                }
+            ],
+            "doi": "10.1145/3385412.3385997",
+            "intent": [
+                "result",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1e655fa69c62b430b051224153f701f1b607fd9c",
+            "title": "Typilus: neural type hints",
+            "url": "https://www.semanticscholar.org/paper/1e655fa69c62b430b051224153f701f1b607fd9c",
+            "venue": "PLDI",
+            "year": 2020
+        },
+        {
+            "arxivId": "2004.00348",
+            "authors": [
+                {
+                    "authorId": "1602854503",
+                    "name": "Irene Vlassi Pandi"
+                },
+                {
+                    "authorId": "1757975",
+                    "name": "Earl T. Barr"
+                },
+                {
+                    "authorId": "144376271",
+                    "name": "A. Gordon"
+                },
+                {
+                    "authorId": "152549864",
+                    "name": "Charles Sutton"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "270897709b9e32eccb4b8968402be1700d1e28e6",
+            "title": "OptTyper: Probabilistic Type Inference by Optimising Logical and Natural Constraints",
+            "url": "https://www.semanticscholar.org/paper/270897709b9e32eccb4b8968402be1700d1e28e6",
+            "venue": "ArXiv",
+            "year": 2020
+        },
+        {
+            "arxivId": "2002.08155",
+            "authors": [
+                {
+                    "authorId": "51056532",
+                    "name": "Zhangyin Feng"
+                },
+                {
+                    "authorId": "2278834796",
+                    "name": "Daya Guo"
+                },
+                {
+                    "authorId": "39483833",
+                    "name": "Duyu Tang"
+                },
+                {
+                    "authorId": "46429989",
+                    "name": "Nan Duan"
+                },
+                {
+                    "authorId": "2674998",
+                    "name": "Xiaocheng Feng"
+                },
+                {
+                    "authorId": "50175330",
+                    "name": "Ming Gong"
+                },
+                {
+                    "authorId": "24962156",
+                    "name": "Linjun Shou"
+                },
+                {
+                    "authorId": "152277111",
+                    "name": "Bing Qin"
+                },
+                {
+                    "authorId": "40282288",
+                    "name": "Ting Liu"
+                },
+                {
+                    "authorId": "71790825",
+                    "name": "Daxin Jiang"
+                },
+                {
+                    "authorId": "92660691",
+                    "name": "Ming Zhou"
+                }
+            ],
+            "doi": "10.18653/v1/2020.findings-emnlp.139",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0fe2636446cd686830da3d971b31a004d6094b3c",
+            "title": "CodeBERT: A Pre-Trained Model for Programming and Natural Languages",
+            "url": "https://www.semanticscholar.org/paper/0fe2636446cd686830da3d971b31a004d6094b3c",
+            "venue": "FINDINGS",
+            "year": 2020
+        },
+        {
+            "arxivId": "1912.03768",
+            "authors": [
+                {
+                    "authorId": "1884064",
+                    "name": "Michael Pradel"
+                },
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "2119081469",
+                    "name": "Jason Liu"
+                },
+                {
+                    "authorId": "145486355",
+                    "name": "S. Chandra"
+                }
+            ],
+            "doi": "10.1145/3368089.3409715",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a429c6c8407b10a89c9610ab5e9682ec89772356",
+            "title": "TypeWriter: neural type prediction with search-based validation",
+            "url": "https://www.semanticscholar.org/paper/a429c6c8407b10a89c9610ab5e9682ec89772356",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2019
+        },
+        {
+            "arxivId": "1910.03771",
+            "authors": [
+                {
+                    "authorId": "2257007291",
+                    "name": "Thomas Wolf"
+                },
+                {
+                    "authorId": "1380459402",
+                    "name": "Lysandre Debut"
+                },
+                {
+                    "authorId": "51918868",
+                    "name": "Victor Sanh"
+                },
+                {
+                    "authorId": "40811585",
+                    "name": "Julien Chaumond"
+                },
+                {
+                    "authorId": "40899333",
+                    "name": "Clement Delangue"
+                },
+                {
+                    "authorId": "1382164294",
+                    "name": "Anthony Moi"
+                },
+                {
+                    "authorId": "1382164165",
+                    "name": "Pierric Cistac"
+                },
+                {
+                    "authorId": "1382164170",
+                    "name": "Tim Rault"
+                },
+                {
+                    "authorId": "2185329",
+                    "name": "R\u00e9mi Louf"
+                },
+                {
+                    "authorId": "97662964",
+                    "name": "Morgan Funtowicz"
+                },
+                {
+                    "authorId": "48776237",
+                    "name": "Joe Davison"
+                },
+                {
+                    "authorId": "88728159",
+                    "name": "Sam Shleifer"
+                },
+                {
+                    "authorId": "138609838",
+                    "name": "Patrick von Platen"
+                },
+                {
+                    "authorId": "2257128341",
+                    "name": "Clara Ma"
+                },
+                {
+                    "authorId": "2268491803",
+                    "name": "Yacine Jernite"
+                },
+                {
+                    "authorId": "3008389",
+                    "name": "J. Plu"
+                },
+                {
+                    "authorId": "2257127518",
+                    "name": "Canwen Xu"
+                },
+                {
+                    "authorId": "1379806208",
+                    "name": "Teven Le Scao"
+                },
+                {
+                    "authorId": "103682620",
+                    "name": "Sylvain Gugger"
+                },
+                {
+                    "authorId": "2125818054",
+                    "name": "Mariama Drame"
+                },
+                {
+                    "authorId": "2113836945",
+                    "name": "Quentin Lhoest"
+                },
+                {
+                    "authorId": "2260132137",
+                    "name": "Alexander M. Rush"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c95383f251a62c63217586059c67f63507c3e839",
+            "title": "HuggingFace's Transformers: State-of-the-art Natural Language Processing",
+            "url": "https://www.semanticscholar.org/paper/c95383f251a62c63217586059c67f63507c3e839",
+            "venue": "ArXiv",
+            "year": 2019
+        },
+        {
+            "arxivId": "2001.00059",
+            "authors": [
+                {
+                    "authorId": "2594759",
+                    "name": "Aditya Kanade"
+                },
+                {
+                    "authorId": "2286904",
+                    "name": "Petros Maniatis"
+                },
+                {
+                    "authorId": "2560300",
+                    "name": "Gogul Balakrishnan"
+                },
+                {
+                    "authorId": "2362367",
+                    "name": "Kensen Shi"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "463fefdbd81a4a0a32cf59bc58a9545757c8cf2e",
+            "title": "Pre-trained Contextual Embedding of Source Code",
+            "url": "https://www.semanticscholar.org/paper/463fefdbd81a4a0a32cf59bc58a9545757c8cf2e",
+            "venue": "ArXiv",
+            "year": 2019
+        },
+        {
+            "arxivId": "1907.11692",
+            "authors": [
+                {
+                    "authorId": "11323179",
+                    "name": "Yinhan Liu"
+                },
+                {
+                    "authorId": "40511414",
+                    "name": "Myle Ott"
+                },
+                {
+                    "authorId": "39589154",
+                    "name": "Naman Goyal"
+                },
+                {
+                    "authorId": "3048577",
+                    "name": "Jingfei Du"
+                },
+                {
+                    "authorId": "144863691",
+                    "name": "Mandar Joshi"
+                },
+                {
+                    "authorId": "50536468",
+                    "name": "Danqi Chen"
+                },
+                {
+                    "authorId": "39455775",
+                    "name": "Omer Levy"
+                },
+                {
+                    "authorId": "35084211",
+                    "name": "M. Lewis"
+                },
+                {
+                    "authorId": "1982950",
+                    "name": "Luke Zettlemoyer"
+                },
+                {
+                    "authorId": "1759422",
+                    "name": "Veselin Stoyanov"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "077f8329a7b6fa3b7c877a57b81eb6c18b5f87de",
+            "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "url": "https://www.semanticscholar.org/paper/077f8329a7b6fa3b7c877a57b81eb6c18b5f87de",
+            "venue": "ArXiv",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "32166282",
+                    "name": "Rabee Sohail Malik"
+                },
+                {
+                    "authorId": "1954023",
+                    "name": "Jibesh Patra"
+                },
+                {
+                    "authorId": "1884064",
+                    "name": "Michael Pradel"
+                }
+            ],
+            "doi": "10.1109/ICSE.2019.00045",
+            "intent": [
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "8e71af3fbec666e67c0fcfefedb38881027a0254",
+            "title": "NL2Type: Inferring JavaScript Function Types from Natural Language Information",
+            "url": "https://www.semanticscholar.org/paper/8e71af3fbec666e67c0fcfefedb38881027a0254",
+            "venue": "2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE)",
+            "year": 2019
+        },
+        {
+            "arxivId": "1812.06469",
+            "authors": [
+                {
+                    "authorId": "3216345",
+                    "name": "Miltiadis Allamanis"
+                }
+            ],
+            "doi": "10.1145/3359591.3359735",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8ace1951c95f9bbbcf83571ff6c0579521507e2e",
+            "title": "The adverse effects of code duplication in machine learning models of code",
+            "url": "https://www.semanticscholar.org/paper/8ace1951c95f9bbbcf83571ff6c0579521507e2e",
+            "venue": "Onward!",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "22747364",
+                    "name": "Vincent J. Hellendoorn"
+                },
+                {
+                    "authorId": "145193818",
+                    "name": "C. Bird"
+                },
+                {
+                    "authorId": "1757975",
+                    "name": "Earl T. Barr"
+                },
+                {
+                    "authorId": "3216345",
+                    "name": "Miltiadis Allamanis"
+                }
+            ],
+            "doi": "10.1145/3236024.3236051",
+            "intent": [
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "ea1b62a03ab16c4acca6f7041c6f096bedec244b",
+            "title": "Deep learning type inference",
+            "url": "https://www.semanticscholar.org/paper/ea1b62a03ab16c4acca6f7041c6f096bedec244b",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2018
+        },
+        {
+            "arxivId": "1808.06226",
+            "authors": [
+                {
+                    "authorId": "1765329",
+                    "name": "Taku Kudo"
+                },
+                {
+                    "authorId": "2113584859",
+                    "name": "John Richardson"
+                }
+            ],
+            "doi": "10.18653/v1/D18-2012",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b5246fa284f86b544a7c31f050b3bd0defd053fd",
+            "title": "SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing",
+            "url": "https://www.semanticscholar.org/paper/b5246fa284f86b544a7c31f050b3bd0defd053fd",
+            "venue": "EMNLP",
+            "year": 2018
+        },
+        {
+            "arxivId": "1804.10959",
+            "authors": [
+                {
+                    "authorId": "1765329",
+                    "name": "Taku Kudo"
+                }
+            ],
+            "doi": "10.18653/v1/P18-1007",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e73bd7f9bdc262b9b7fb60ca0d5230d3ab0fad5e",
+            "title": "Subword Regularization: Improving Neural Network Translation Models with Multiple Subword Candidates",
+            "url": "https://www.semanticscholar.org/paper/e73bd7f9bdc262b9b7fb60ca0d5230d3ab0fad5e",
+            "venue": "ACL",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34955824",
+                    "name": "C. Lopes"
+                },
+                {
+                    "authorId": "32514549",
+                    "name": "Petr Maj"
+                },
+                {
+                    "authorId": "145784437",
+                    "name": "Pedro Martins"
+                },
+                {
+                    "authorId": "40188003",
+                    "name": "V. Saini"
+                },
+                {
+                    "authorId": "2110919594",
+                    "name": "Di Yang"
+                },
+                {
+                    "authorId": "67102999",
+                    "name": "Jakub Zitny"
+                },
+                {
+                    "authorId": "1906848",
+                    "name": "Hitesh Sajnani"
+                },
+                {
+                    "authorId": "144376283",
+                    "name": "J. Vitek"
+                }
+            ],
+            "doi": "10.1145/3133908",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a26b00c607b6d6a2697f5444f14a9afc37701444",
+            "title": "D\u00e9j\u00e0Vu: a map of code duplicates on GitHub",
+            "url": "https://www.semanticscholar.org/paper/a26b00c607b6d6a2697f5444f14a9afc37701444",
+            "venue": "Proc. ACM Program. Lang.",
+            "year": 2017
+        },
+        {
+            "arxivId": "1709.06182",
+            "authors": [
+                {
+                    "authorId": "3216345",
+                    "name": "Miltiadis Allamanis"
+                },
+                {
+                    "authorId": "1757975",
+                    "name": "Earl T. Barr"
+                },
+                {
+                    "authorId": "1730296",
+                    "name": "Premkumar T. Devanbu"
+                },
+                {
+                    "authorId": "37210858",
+                    "name": "Charles Sutton"
+                }
+            ],
+            "doi": "10.1145/3212695",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "960ba564e9e598d864dff38d2f3d0bad1b319ead",
+            "title": "A Survey of Machine Learning for Big Code and Naturalness",
+            "url": "https://www.semanticscholar.org/paper/960ba564e9e598d864dff38d2f3d0bad1b319ead",
+            "venue": "ACM Comput. Surv.",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2116491634",
+                    "name": "Zheng Gao"
+                },
+                {
+                    "authorId": "145193818",
+                    "name": "C. Bird"
+                },
+                {
+                    "authorId": "1757975",
+                    "name": "Earl T. Barr"
+                }
+            ],
+            "doi": "10.1109/ICSE.2017.75",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "955baf8c8a2a42a78aca39fc5e755b8d7536636a",
+            "title": "To Type or Not to Type: Quantifying Detectable Bugs in JavaScript",
+            "url": "https://www.semanticscholar.org/paper/955baf8c8a2a42a78aca39fc5e755b8d7536636a",
+            "venue": "2017 IEEE/ACM 39th International Conference on Software Engineering (ICSE)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2984585",
+                    "name": "Zhaogui Xu"
+                },
+                {
+                    "authorId": "1771551",
+                    "name": "X. Zhang"
+                },
+                {
+                    "authorId": "2118537038",
+                    "name": "Lin Chen"
+                },
+                {
+                    "authorId": "40428350",
+                    "name": "Kexin Pei"
+                },
+                {
+                    "authorId": "144380518",
+                    "name": "Baowen Xu"
+                }
+            ],
+            "doi": "10.1145/2950290.2950343",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f801f962c895d5c606cb52db85f099a4ed8c34e2",
+            "title": "Python probabilistic type inference with natural language support",
+            "url": "https://www.semanticscholar.org/paper/f801f962c895d5c606cb52db85f099a4ed8c34e2",
+            "venue": "SIGSOFT FSE",
+            "year": 2016
+        },
+        {
+            "arxivId": "1508.07909",
+            "authors": [
+                {
+                    "authorId": "2082372",
+                    "name": "Rico Sennrich"
+                },
+                {
+                    "authorId": "2259100",
+                    "name": "B. Haddow"
+                },
+                {
+                    "authorId": "2539211",
+                    "name": "Alexandra Birch"
+                }
+            ],
+            "doi": "10.18653/v1/P16-1162",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1518039b5001f1836565215eb047526b3ac7f462",
+            "title": "Neural Machine Translation of Rare Words with Subword Units",
+            "url": "https://www.semanticscholar.org/paper/1518039b5001f1836565215eb047526b3ac7f462",
+            "venue": "ACL",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1967472",
+                    "name": "Veselin Raychev"
+                },
+                {
+                    "authorId": "1736447",
+                    "name": "Martin T. Vechev"
+                },
+                {
+                    "authorId": "145343838",
+                    "name": "Andreas Krause"
+                }
+            ],
+            "doi": "10.1145/2775051.2677009",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "be6665462fd6c56e8756dadf23373bb0c90b2b19",
+            "title": "Predicting Program Properties from \"Big Code\"",
+            "url": "https://www.semanticscholar.org/paper/be6665462fd6c56e8756dadf23373bb0c90b2b19",
+            "venue": "POPL",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1471621799",
+                    "name": "Xiaobing Sun"
+                },
+                {
+                    "authorId": "1771984",
+                    "name": "Xiangyue Liu"
+                },
+                {
+                    "authorId": "2112508869",
+                    "name": "Jiajun Hu"
+                },
+                {
+                    "authorId": "1756644",
+                    "name": "Junwu Zhu"
+                }
+            ],
+            "doi": "10.1145/2627508.2627514",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "581029749664d97851575e3fbb741540971ca197",
+            "title": "Empirical studies on the NLP techniques for source code data preprocessing",
+            "url": "https://www.semanticscholar.org/paper/581029749664d97851575e3fbb741540971ca197",
+            "venue": "EAST 2014",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2111035155",
+                    "name": "Yun Peng"
+                },
+                {
+                    "authorId": "2118207559",
+                    "name": "Zongjie Li"
+                },
+                {
+                    "authorId": "2337550",
+                    "name": "Cuiyun Gao"
+                },
+                {
+                    "authorId": "2067892534",
+                    "name": "Bo Gao"
+                },
+                {
+                    "authorId": "143960552",
+                    "name": "David Lo"
+                },
+                {
+                    "authorId": "145609003",
+                    "name": "M. Lyu"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5764c15df4219194b3339b20738f4d823a841d53",
+            "title": "HiTyper: A Hybrid Static Type Inference Framework with Neural Prediction",
+            "url": "https://www.semanticscholar.org/paper/5764c15df4219194b3339b20738f4d823a841d53",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143909797",
+                    "name": "A. Mir"
+                },
+                {
+                    "authorId": "2046786069",
+                    "name": "Evaldas Latoskinas"
+                },
+                {
+                    "authorId": "1933475",
+                    "name": "Sebastian Proksch"
+                },
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "b6c960e92d24fdc1f2e19151278c94957388aaeb",
+            "title": "Type4Py: Deep Similarity Learning-Based Type Inference for Python",
+            "url": "https://www.semanticscholar.org/paper/b6c960e92d24fdc1f2e19151278c94957388aaeb",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": "1810.04805",
+            "authors": [
+                {
+                    "authorId": "39172707",
+                    "name": "Jacob Devlin"
+                },
+                {
+                    "authorId": "1744179",
+                    "name": "Ming-Wei Chang"
+                },
+                {
+                    "authorId": "2544107",
+                    "name": "Kenton Lee"
+                },
+                {
+                    "authorId": "3259253",
+                    "name": "Kristina Toutanova"
+                }
+            ],
+            "doi": "10.18653/v1/N19-1423",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "df2b0e26d0599ce3e70df8a9da02e51594e0e992",
+            "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "url": "https://www.semanticscholar.org/paper/df2b0e26d0599ce3e70df8a9da02e51594e0e992",
+            "venue": "NAACL",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "The label list is extracted from the ManyTypes4TypeScript meta data. label_list = tokenized_dataset",
+            "url": "",
+            "venue": "feature.names",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Inference MSR \u201922, May 23\u201324, 2022, Pittsburgh, PA, USA",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Then the tokenizer is instantiated",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "ManyTypes4TypeScript: A Comprehensive TypeScript Dataset for Sequence-Based Type Inference",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/fab636ef521c60636b57e7c1c28f9eb0a6c4d756",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2022
+}

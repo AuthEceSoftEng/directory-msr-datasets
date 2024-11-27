@@ -1,0 +1,933 @@
+{
+    "abstract": "This paper describes a dataset of feature additions and removals in the Linux kernel evolution history, spanning over seven years of kernel development. Features, in this context, denote configurable system options that users select when creating customized kernel images. The provided dataset is the largest corpus we are aware of capturing feature additions and removals, allowing researchers to assess the kernel evolution from a feature-oriented point-of-view. Furthermore, the dataset can be used to better understand how features evolve over time, and how different artifacts change as a result. One particular use of the dataset is to provide a real-world case to assess existing support for feature traceability and evolution. In this paper, we detail the dataset extraction process, the underlying database schema, and example queries. The dataset is directly available at our Bitbucket repository: https://bitbucket.org/lpassos/kconfigdb",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2036209",
+            "name": "L. Passos",
+            "url": "https://www.semanticscholar.org/author/2036209"
+        },
+        {
+            "authorId": "1726889",
+            "name": "K. Czarnecki",
+            "url": "https://www.semanticscholar.org/author/1726889"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2294487423",
+                    "name": "Jacob Kr\u00fcger"
+                },
+                {
+                    "authorId": "2265422274",
+                    "name": "Yi Li"
+                },
+                {
+                    "authorId": "2298481473",
+                    "name": "Kirill Lossev"
+                },
+                {
+                    "authorId": "2298618947",
+                    "name": "Chenguang Zhu"
+                },
+                {
+                    "authorId": "1854323",
+                    "name": "M. Chechik"
+                },
+                {
+                    "authorId": "2242416696",
+                    "name": "Thorsten Berger"
+                },
+                {
+                    "authorId": "2242472874",
+                    "name": "Julia Rubin"
+                }
+            ],
+            "doi": "10.1145/3661484",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0a93644f25559025fdc2091d6b49f3ced5d5e470",
+            "title": "A Meta-Study of Software-Change Intentions",
+            "url": "https://www.semanticscholar.org/paper/0a93644f25559025fdc2091d6b49f3ced5d5e470",
+            "venue": "ACM Computing Surveys",
+            "year": 2024
+        },
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00085",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "43148fabe2636026e07ca04974aff40d204bfb6b",
+            "title": "Standing on Shoulders or Feet? The Usage of the MSR Data Papers",
+            "url": "https://www.semanticscholar.org/paper/43148fabe2636026e07ca04974aff40d204bfb6b",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2520632",
+                    "name": "J. Conejero"
+                },
+                {
+                    "authorId": "1402330235",
+                    "name": "Roberto Rodr\u00edguez-Echeverr\u00eda"
+                },
+                {
+                    "authorId": "144490558",
+                    "name": "Juan Hern\u00e1ndez"
+                },
+                {
+                    "authorId": "144814183",
+                    "name": "Pedro J. Clemente"
+                },
+                {
+                    "authorId": "1402329921",
+                    "name": "Carmen Ortiz-Caraballo"
+                },
+                {
+                    "authorId": "144080001",
+                    "name": "E. Jurado"
+                },
+                {
+                    "authorId": "1402939222",
+                    "name": "Fernando S\u00e1nchez-Figueroa"
+                }
+            ],
+            "doi": "10.1016/J.JSS.2018.04.035",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "cf5ec9625e0d9ec2175dd8c3183392428f075ec4",
+            "title": "Early evaluation of technical debt impact on maintainability",
+            "url": "https://www.semanticscholar.org/paper/cf5ec9625e0d9ec2175dd8c3183392428f075ec4",
+            "venue": "J. Syst. Softw.",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1854276",
+                    "name": "Nicolas Dintzner"
+                },
+                {
+                    "authorId": "2285282211",
+                    "name": "Arie van Deursen"
+                },
+                {
+                    "authorId": "1775709",
+                    "name": "M. Pinzger"
+                }
+            ],
+            "doi": "10.1007/s10664-017-9557-6",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "f39a287f75a6d6a918aab5563b9760564264c67f",
+            "title": "FEVER: An approach to analyze feature-oriented changes and artefact co-evolution in highly configurable systems",
+            "url": "https://www.semanticscholar.org/paper/f39a287f75a6d6a918aab5563b9760564264c67f",
+            "venue": "Empirical Software Engineering",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1854276",
+                    "name": "Nicolas Dintzner"
+                }
+            ],
+            "doi": "10.4233/uuid:d23770ce-51ad-43d3-960b-3fa2ad7623f1",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1e181901f192cd27cd0299ed4a7dd3be209e9488",
+            "title": "Feature-Oriented Evolution of Variant-rich software systems",
+            "url": "https://www.semanticscholar.org/paper/1e181901f192cd27cd0299ed4a7dd3be209e9488",
+            "venue": "",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2036209",
+                    "name": "L. Passos"
+                },
+                {
+                    "authorId": "40065372",
+                    "name": "Leopoldo Teixeira"
+                },
+                {
+                    "authorId": "1854276",
+                    "name": "Nicolas Dintzner"
+                },
+                {
+                    "authorId": "1721771",
+                    "name": "S. Apel"
+                },
+                {
+                    "authorId": "1723400",
+                    "name": "A. W\u0105sowski"
+                },
+                {
+                    "authorId": "1726889",
+                    "name": "K. Czarnecki"
+                },
+                {
+                    "authorId": "144505000",
+                    "name": "Paulo Borba"
+                },
+                {
+                    "authorId": "3123889",
+                    "name": "Jianmei Guo"
+                }
+            ],
+            "doi": "10.1007/s10664-015-9364-x",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2345da4fac8bf390f7c8ac1362b277a968ef2a53",
+            "title": "Coevolution of variability models and related software artifacts",
+            "url": "https://www.semanticscholar.org/paper/2345da4fac8bf390f7c8ac1362b277a968ef2a53",
+            "venue": "Empirical Software Engineering",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1854276",
+                    "name": "Nicolas Dintzner"
+                },
+                {
+                    "authorId": "1737202",
+                    "name": "A. Deursen"
+                },
+                {
+                    "authorId": "1775709",
+                    "name": "M. Pinzger"
+                }
+            ],
+            "doi": "10.1145/2901739.2901755",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "497ceffa44dc17c811c437bb7920c94ea588874e",
+            "title": "FEVER: Extracting Feature-oriented Changes from Commits",
+            "url": "https://www.semanticscholar.org/paper/497ceffa44dc17c811c437bb7920c94ea588874e",
+            "venue": "2016 IEEE/ACM 13th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1854276",
+                    "name": "Nicolas Dintzner"
+                },
+                {
+                    "authorId": "1737202",
+                    "name": "A. Deursen"
+                },
+                {
+                    "authorId": "1775709",
+                    "name": "M. Pinzger"
+                }
+            ],
+            "doi": "10.1007/s10270-015-0472-2",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6517e69a358f5a659c2b024897a561d61bf2450b",
+            "title": "Analysing the Linux kernel feature model changes using FMDiff",
+            "url": "https://www.semanticscholar.org/paper/6517e69a358f5a659c2b024897a561d61bf2450b",
+            "venue": "Software & Systems Modeling",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1854276",
+                    "name": "Nicolas Dintzner"
+                },
+                {
+                    "authorId": "1737202",
+                    "name": "A. Deursen"
+                },
+                {
+                    "authorId": "1775709",
+                    "name": "M. Pinzger"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c3ecdd70065fb44c7c7b543bff3fb3b303113d6e",
+            "title": "Analysing Feature Model Changes using FMDiff",
+            "url": "https://www.semanticscholar.org/paper/c3ecdd70065fb44c7c7b543bff3fb3b303113d6e",
+            "venue": "",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2036209",
+                    "name": "L. Passos"
+                },
+                {
+                    "authorId": "1491594708",
+                    "name": "Jes\u00fas Padilla"
+                },
+                {
+                    "authorId": "39565422",
+                    "name": "T. Berger"
+                },
+                {
+                    "authorId": "1721771",
+                    "name": "S. Apel"
+                },
+                {
+                    "authorId": "1726889",
+                    "name": "K. Czarnecki"
+                },
+                {
+                    "authorId": "1757592",
+                    "name": "M. T. Valente"
+                }
+            ],
+            "doi": "10.1145/2724525.2724575",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0b7deb43b352b9ba454c7184de9ff9f251357433",
+            "title": "Feature scattering in the large: a longitudinal study of Linux kernel device drivers",
+            "url": "https://www.semanticscholar.org/paper/0b7deb43b352b9ba454c7184de9ff9f251357433",
+            "venue": "MODULARITY",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "33787987",
+                    "name": "Sven Amann"
+                },
+                {
+                    "authorId": "1839778",
+                    "name": "S. Beyer"
+                },
+                {
+                    "authorId": "3194068",
+                    "name": "Katja Kevic"
+                },
+                {
+                    "authorId": "50355692",
+                    "name": "H. Gall"
+                }
+            ],
+            "doi": "10.1007/978-3-319-28406-4_5",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "178a226a4fa68d80f709d0cfff5f5458df0daad3",
+            "title": "Software Mining Studies: Goals, Approaches, Artifacts, and Replicability",
+            "url": "https://www.semanticscholar.org/paper/178a226a4fa68d80f709d0cfff5f5458df0daad3",
+            "venue": "LASER Summer School",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2350345",
+                    "name": "Jaison Kuriakose"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ef3c8cbe22e3f3aa561f59ad0941a60ea59faae5",
+            "title": "Understanding and improving requirements discovery in open source software development: an initial exploration",
+            "url": "https://www.semanticscholar.org/paper/ef3c8cbe22e3f3aa561f59ad0941a60ea59faae5",
+            "venue": "",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1854276",
+                    "name": "Nicolas Dintzner"
+                },
+                {
+                    "authorId": "2285303742",
+                    "name": "Arie Pinzger"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1ec84f4882654427b1dfc205a233d9ece0ff5559",
+            "title": "Delft University of Technology FEVER An approach to analyze feature-oriented changes and artefact co-evolution in highly configurable systems",
+            "url": "https://www.semanticscholar.org/paper/1ec84f4882654427b1dfc205a233d9ece0ff5559",
+            "venue": "",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1854276",
+                    "name": "Nicolas Dintzner"
+                },
+                {
+                    "authorId": "1737202",
+                    "name": "A. Deursen"
+                },
+                {
+                    "authorId": "1775709",
+                    "name": "M. Pinzger"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "dba70ed4b86c65392959e5bf0c657c75e7a307a0",
+            "title": "Group Technical Report Series Analysing Feature Model Changes using FMDiff",
+            "url": "https://www.semanticscholar.org/paper/dba70ed4b86c65392959e5bf0c657c75e7a307a0",
+            "venue": "",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1792963",
+                    "name": "John V. Monaco"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "bb051492c859d65dd819ec4cd99e1c40ce922d05",
+            "title": "Time intervals as a Behavioral Biometric",
+            "url": "https://www.semanticscholar.org/paper/bb051492c859d65dd819ec4cd99e1c40ce922d05",
+            "venue": "",
+            "year": 2015
+        }
+    ],
+    "corpusId": 8614822,
+    "doi": "10.1145/2597073.2597124",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 2,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 17,
+    "numCiting": 15,
+    "paperId": "96e374b0becaaa10916ee01ebca7c34872accbf4",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39565422",
+                    "name": "T. Berger"
+                },
+                {
+                    "authorId": "3134301",
+                    "name": "S. She"
+                },
+                {
+                    "authorId": "40201960",
+                    "name": "Rafael Lotufo"
+                },
+                {
+                    "authorId": "1723400",
+                    "name": "A. W\u0105sowski"
+                },
+                {
+                    "authorId": "1726889",
+                    "name": "K. Czarnecki"
+                }
+            ],
+            "doi": "10.1109/TSE.2013.34",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "00d22499a51d54df544800d503b157df6466175b",
+            "title": "A Study of Variability Models and Languages in the Systems Software Domain",
+            "url": "https://www.semanticscholar.org/paper/00d22499a51d54df544800d503b157df6466175b",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2036209",
+                    "name": "L. Passos"
+                },
+                {
+                    "authorId": "3123889",
+                    "name": "Jianmei Guo"
+                },
+                {
+                    "authorId": "40065372",
+                    "name": "Leopoldo Teixeira"
+                },
+                {
+                    "authorId": "1726889",
+                    "name": "K. Czarnecki"
+                },
+                {
+                    "authorId": "1723400",
+                    "name": "A. W\u0105sowski"
+                },
+                {
+                    "authorId": "144505000",
+                    "name": "Paulo Borba"
+                }
+            ],
+            "doi": "10.1145/2491627.2491628",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "62d08b9464bdfca56df91b2dcc80b041100bd7df",
+            "title": "Coevolution of variability models and related artifacts: a case study from the Linux kernel",
+            "url": "https://www.semanticscholar.org/paper/62d08b9464bdfca56df91b2dcc80b041100bd7df",
+            "venue": "SPLC '13",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1704858",
+                    "name": "L. Baresi"
+                },
+                {
+                    "authorId": "1683524",
+                    "name": "Sam Guinea"
+                },
+                {
+                    "authorId": "1696375",
+                    "name": "L. Pasquale"
+                }
+            ],
+            "doi": "10.1109/MC.2012.289",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4703366f3e9210aa50c44635bc144ef4a31bd05a",
+            "title": "Service-Oriented Dynamic Software Product Lines",
+            "url": "https://www.semanticscholar.org/paper/4703366f3e9210aa50c44635bc144ef4a31bd05a",
+            "venue": "Computer",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39565422",
+                    "name": "T. Berger"
+                },
+                {
+                    "authorId": "3134301",
+                    "name": "S. She"
+                },
+                {
+                    "authorId": "40201960",
+                    "name": "Rafael Lotufo"
+                },
+                {
+                    "authorId": "1726889",
+                    "name": "K. Czarnecki"
+                },
+                {
+                    "authorId": "1723400",
+                    "name": "A. W\u0105sowski"
+                }
+            ],
+            "doi": "10.1007/978-3-642-15579-6_48",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "4a421d3a992d7bc3c40e6caf181d1ca2537a8d33",
+            "title": "Feature-to-Code Mapping in Two Large Product Lines",
+            "url": "https://www.semanticscholar.org/paper/4a421d3a992d7bc3c40e6caf181d1ca2537a8d33",
+            "venue": "SPLC",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1691006",
+                    "name": "Thomas Th\u00fcm"
+                },
+                {
+                    "authorId": "1751603",
+                    "name": "D. Batory"
+                },
+                {
+                    "authorId": "145832795",
+                    "name": "Christian K\u00e4stner"
+                }
+            ],
+            "doi": "10.1109/ICSE.2009.5070526",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "538ce907de1b78804ccb31810e8fd6633adef997",
+            "title": "Reasoning about edits to feature models",
+            "url": "https://www.semanticscholar.org/paper/538ce907de1b78804ccb31810e8fd6633adef997",
+            "venue": "2009 IEEE 31st International Conference on Software Engineering",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3308799",
+                    "name": "Anna-Brith Arntsen"
+                },
+                {
+                    "authorId": "2285038158",
+                    "name": "Marts Mortensen"
+                },
+                {
+                    "authorId": "2009803",
+                    "name": "Randi Karlsen"
+                },
+                {
+                    "authorId": "49016428",
+                    "name": "Anders Andersen"
+                },
+                {
+                    "authorId": "1404641912",
+                    "name": "Arne Munch-Ellingsen"
+                }
+            ],
+            "doi": "10.1145/1385486.1385488",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "995e35cf3a5bf0bd0fe9fa681cc5b49dbae9d403",
+            "title": "FAME-DBMS: tailor-made data management solutions for embedded systems",
+            "url": "https://www.semanticscholar.org/paper/995e35cf3a5bf0bd0fe9fa681cc5b49dbae9d403",
+            "venue": "SETMDM '08",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145832795",
+                    "name": "Christian K\u00e4stner"
+                },
+                {
+                    "authorId": "1721771",
+                    "name": "S. Apel"
+                },
+                {
+                    "authorId": "1751603",
+                    "name": "D. Batory"
+                }
+            ],
+            "doi": "10.1109/SPLINE.2007.12",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "afcaa28bdf7c6742715b2caf1942ca0f89220286",
+            "title": "A Case Study Implementing Features Using AspectJ",
+            "url": "https://www.semanticscholar.org/paper/afcaa28bdf7c6742715b2caf1942ca0f89220286",
+            "venue": "11th International Software Product Line Conference (SPLC 2007)",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144393257",
+                    "name": "J. V. Gurp"
+                },
+                {
+                    "authorId": "144913779",
+                    "name": "J. Bosch"
+                },
+                {
+                    "authorId": "1725849",
+                    "name": "Mikael Svahnberg"
+                }
+            ],
+            "doi": "10.1109/WICSA.2001.948406",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "bf85d6ffff86f2064369fe526f289f231c20109e",
+            "title": "On the notion of variability in software product lines",
+            "url": "https://www.semanticscholar.org/paper/bf85d6ffff86f2064369fe526f289f231c20109e",
+            "venue": "Proceedings Working IEEE/IFIP Conference on Software Architecture",
+            "year": 2001
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1751603",
+                    "name": "D. Batory"
+                },
+                {
+                    "authorId": "2057503325",
+                    "name": "J. Barnett"
+                },
+                {
+                    "authorId": "2114691",
+                    "name": "J. Garza"
+                },
+                {
+                    "authorId": "2107804886",
+                    "name": "K. P. Smith"
+                },
+                {
+                    "authorId": "70566464",
+                    "name": "K. Tsukuda"
+                },
+                {
+                    "authorId": "2286098",
+                    "name": "B. C. Twichell"
+                },
+                {
+                    "authorId": "145988838",
+                    "name": "T. E. Wise"
+                }
+            ],
+            "doi": "10.1109/32.9057",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "de6fef53de6bdc5e5e8fef559564946bec201ff7",
+            "title": "GENESIS: An Extensible Database Management System",
+            "url": "https://www.semanticscholar.org/paper/de6fef53de6bdc5e5e8fef559564946bec201ff7",
+            "venue": "IEEE Trans. Software Eng.",
+            "year": 1988
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Framebuffer HOWTO",
+            "url": "",
+            "venue": "www.tldp.org/HOWTO/Framebuffer-HOWTO/, 2008. Last seen: February 16th",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Feature-Oriented Software Product Lines: Concepts and Implementation",
+            "url": "",
+            "venue": "Springer",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Last seen: February 16th",
+            "url": "",
+            "venue": "Last seen: February 16th",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144393257",
+                    "name": "J. V. Gurp"
+                },
+                {
+                    "authorId": "144913779",
+                    "name": "J. Bosch"
+                },
+                {
+                    "authorId": "1725849",
+                    "name": "Mikael Svahnberg"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ffdaf797e8108bb4f0f2c8d6e48ecda02120b027",
+            "title": "Managing Variability in Software Product Lines",
+            "url": "https://www.semanticscholar.org/paper/ffdaf797e8108bb4f0f2c8d6e48ecda02120b027",
+            "venue": "",
+            "year": 2000
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "",
+            "title": "The Kernel Configuration Language (Kconfig",
+            "url": "",
+            "venue": "The Kernel Configuration Language (Kconfig",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "73f36ff3a6d340606e09d2d0091da27a13af7a6f",
+            "title": "and as an in",
+            "url": "https://www.semanticscholar.org/paper/73f36ff3a6d340606e09d2d0091da27a13af7a6f",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "A dataset of feature additions and feature removals from the Linux kernel",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/96e374b0becaaa10916ee01ebca7c34872accbf4",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2014
+}

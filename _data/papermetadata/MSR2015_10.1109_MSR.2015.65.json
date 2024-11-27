@@ -1,0 +1,421 @@
+{
+    "abstract": "We present the Debsources Dataset: distribution metadata and source code metrics spanning two decades of Free and Open Source Software (FOSS) history, seen through the lens of the Debian distribution. Debsources is a software platform used to gather, search, and publish on the Web the full source code of the Debian operating system, as well as measures about it. A notable public instance of Debsources is available at http://sources.debian.net, it includes both current and historical releases of Debian. Plugins to compute popular source code metrics (lines of code, defined symbols, disk usage) and other derived data (e.g., Checksums) have been written, integrated, and run on all the source code available on sources.debian.net. The Debsources Dataset is a PostgreSQL database dump of sources.debian.net metadata, as of February 10th, 2015. The dataset contains both Debian-specific metadata -- e.g., which software packages are available in which release, which source code file belong to which package, release dates, etc. -- and source code information gathered by running Debsources plugins. The Debsources Dataset offer a very long-term historical view of the macro-level evolution and constitution of FOSS through the lens of popular, representative FOSS projects of their times.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "1682225",
+            "name": "Stefano Zacchiroli",
+            "url": "https://www.semanticscholar.org/author/1682225"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2057841635",
+                    "name": "Gang Fan"
+                },
+                {
+                    "authorId": "39766214",
+                    "name": "Rongxin Wu"
+                },
+                {
+                    "authorId": "2226677",
+                    "name": "Qingkai Shi"
+                },
+                {
+                    "authorId": "145783735",
+                    "name": "Xiao Xiao"
+                },
+                {
+                    "authorId": "2249994",
+                    "name": "Jinguo Zhou"
+                },
+                {
+                    "authorId": "32545055",
+                    "name": "Charles Zhang"
+                }
+            ],
+            "doi": "10.1109/ICSE.2019.00025",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d0e23baf655713857e7eef0cf9b6320a8cad5c55",
+            "title": "SMOKE: Scalable Path-Sensitive Memory Leak Detection for Millions of Lines of Code",
+            "url": "https://www.semanticscholar.org/paper/d0e23baf655713857e7eef0cf9b6320a8cad5c55",
+            "venue": "2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00085",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "43148fabe2636026e07ca04974aff40d204bfb6b",
+            "title": "Standing on Shoulders or Feet? The Usage of the MSR Data Papers",
+            "url": "https://www.semanticscholar.org/paper/43148fabe2636026e07ca04974aff40d204bfb6b",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2850502",
+                    "name": "Matthieu Caneill"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "1682225",
+                    "name": "Stefano Zacchiroli"
+                }
+            ],
+            "doi": "10.1007/s10664-016-9461-5",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "40857f9cf875c1856e28e907b35c18b1d0c841f3",
+            "title": "The Debsources Dataset: two decades of free and open source software",
+            "url": "https://www.semanticscholar.org/paper/40857f9cf875c1856e28e907b35c18b1d0c841f3",
+            "venue": "Empirical Software Engineering",
+            "year": 2016
+        }
+    ],
+    "corpusId": 16869478,
+    "doi": "10.1109/MSR.2015.65",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 5,
+    "numCiting": 10,
+    "paperId": "8555a11188e6624a1e9a5682f0d6ea03e0205be4",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2850502",
+                    "name": "Matthieu Caneill"
+                },
+                {
+                    "authorId": "1682225",
+                    "name": "Stefano Zacchiroli"
+                }
+            ],
+            "doi": "10.1145/2652524.2652528",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8cb48eace4d8a9cb4ae84f88eb1c4be8dbaaf1e6",
+            "title": "Debsources: live and historical views on macro-level software evolution",
+            "url": "https://www.semanticscholar.org/paper/8cb48eace4d8a9cb4ae84f88eb1c4be8dbaaf1e6",
+            "venue": "ESEM '14",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145310968",
+                    "name": "Robert Dyer"
+                },
+                {
+                    "authorId": "2909676",
+                    "name": "H. Nguyen"
+                },
+                {
+                    "authorId": "144212535",
+                    "name": "Hridesh Rajan"
+                },
+                {
+                    "authorId": "2327697",
+                    "name": "T. Nguyen"
+                }
+            ],
+            "doi": "10.1109/ICSE.2013.6606588",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "20379f1cc87c9bf20ff18f976bc1f7dcbfa920cd",
+            "title": "Boa: A language and infrastructure for analyzing ultra-large-scale software repositories",
+            "url": "https://www.semanticscholar.org/paper/20379f1cc87c9bf20ff18f976bc1f7dcbfa920cd",
+            "venue": "2013 35th International Conference on Software Engineering (ICSE)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "92e094aa2c1aa8044135a9bd771b7711bed79b3e",
+            "title": "Mining software repositories",
+            "url": "https://www.semanticscholar.org/paper/92e094aa2c1aa8044135a9bd771b7711bed79b3e",
+            "venue": "",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2465432",
+                    "name": "L. Nussbaum"
+                },
+                {
+                    "authorId": "1682225",
+                    "name": "Stefano Zacchiroli"
+                }
+            ],
+            "doi": "10.1109/MSR.2010.5463277",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "02eb959d3b2a1594f7eedbcc8f9d7721c7977798",
+            "title": "The Ultimate Debian Database: Consolidating bazaar metadata for Quality Assurance and data mining",
+            "url": "https://www.semanticscholar.org/paper/02eb959d3b2a1594f7eedbcc8f9d7721c7977798",
+            "venue": "2010 7th IEEE Working Conference on Mining Software Repositories (MSR 2010)",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1397826059",
+                    "name": "Jesus M. Gonzalez-Barahona"
+                },
+                {
+                    "authorId": "143684601",
+                    "name": "G. Robles"
+                },
+                {
+                    "authorId": "1704603",
+                    "name": "Martin Michlmayr"
+                },
+                {
+                    "authorId": "47626328",
+                    "name": "Juan Jos\u00e9 Amor"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                }
+            ],
+            "doi": "10.1007/s10664-008-9100-x",
+            "intent": [
+                "background",
+                "result"
+            ],
+            "isInfluential": true,
+            "paperId": "497f6c53b09f276b826649d2bfffddddd259a278",
+            "title": "Macro-level software evolution: a case study of a large software compilation",
+            "url": "https://www.semanticscholar.org/paper/497f6c53b09f276b826649d2bfffddddd259a278",
+            "venue": "Empirical Software Engineering",
+            "year": 2009
+        },
+        {
+            "arxivId": "0905.4226",
+            "authors": [
+                {
+                    "authorId": "1686963",
+                    "name": "P. Abate"
+                },
+                {
+                    "authorId": "9381770",
+                    "name": "R. D. Cosmo"
+                },
+                {
+                    "authorId": "144433479",
+                    "name": "J. Boender"
+                },
+                {
+                    "authorId": "1682225",
+                    "name": "Stefano Zacchiroli"
+                }
+            ],
+            "doi": "10.1109/ESEM.2009.5316017",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "96347c507894bb691ca321992cc0647b3089bd73",
+            "title": "Strong dependencies between software components",
+            "url": "https://www.semanticscholar.org/paper/96347c507894bb691ca321992cc0647b3089bd73",
+            "venue": "2009 3rd International Symposium on Empirical Software Engineering and Measurement",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "147350144",
+                    "name": "L. Owens"
+                }
+            ],
+            "doi": "10.1109/MAHC.1996.539925",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "cf5e3bdb305241876cce27b93f930cd74c127798",
+            "title": "The mythical man-month: Essays on software engineering",
+            "url": "https://www.semanticscholar.org/paper/cf5e3bdb305241876cce27b93f930cd74c127798",
+            "venue": "IEEE Annals of the History of Computing",
+            "year": 1996
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "81561270",
+                    "name": "J. F. Brooks"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e4995560fe8cf32e6106e1f0751360a68be766ac",
+            "title": "The mythical man-month (anniversary ed.)",
+            "url": "https://www.semanticscholar.org/paper/e4995560fe8cf32e6106e1f0751360a68be766ac",
+            "venue": "",
+            "year": 1995
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1771065",
+                    "name": "M. Lehman"
+                }
+            ],
+            "doi": "10.1109/PROC.1980.11805",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f997b973e85f48a0a14907ab3c5ff2b852236ab0",
+            "title": "Programs, life cycles, and laws of software evolution",
+            "url": "https://www.semanticscholar.org/paper/f997b973e85f48a0a14907ab3c5ff2b852236ab0",
+            "venue": "Proceedings of the IEEE",
+            "year": 1980
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2178028",
+                    "name": "J. Howison"
+                },
+                {
+                    "authorId": "39106713",
+                    "name": "Megan Conklin"
+                },
+                {
+                    "authorId": "1716974",
+                    "name": "Kevin Crowston"
+                }
+            ],
+            "doi": "10.4018/978-1-60566-418-7.CH002",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7a4c775e05e2948d8b19034c346791e1c94c0898",
+            "title": "FLOSSmole: A Collaborative Repository for FLOSS Research Data and Analyses",
+            "url": "https://www.semanticscholar.org/paper/7a4c775e05e2948d8b19034c346791e1c94c0898",
+            "venue": "Int. J. Inf. Technol. Web Eng.",
+            "year": 2006
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "History",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "The Debsources Dataset: Two Decades of Debian Source Code Metadata",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/8555a11188e6624a1e9a5682f0d6ea03e0205be4",
+    "venue": "2015 IEEE/ACM 12th Working Conference on Mining Software Repositories",
+    "year": 2015
+}

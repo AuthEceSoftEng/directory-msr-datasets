@@ -1,0 +1,969 @@
+{
+    "abstract": "Android applications (apps) rely upon proper permission usage to ensure that the user's privacy and security are adequately protected. Unfortunately, developers frequently misuse app permissions in a variety of ways ranging from using too many permissions to not correctly adhering to Android's defined permission guidelines. The implications of these permissionissues (possible permission problems) can range from harming the user's perception of the app to significantly impacting their privacy and security. An imperative component to creating more secure apps that better protect a user's privacy is an improved understanding of how and when these issues are being introduced and repaired. While there are existing permissions-analysis tools and Android datasets, there are no available datasets that contain a large-scale empirical history of permission changes and mistakes. This limitation inhibits both developers and researchers from empirically studying and constructing a holistic understanding of permission-related issues. To address this shortfall with existing resources, we created a dataset of permission-based changes and permission-issues in open source Android apps. Our unique dataset contains information from 2,002 apps with commits from 10,601 unique committers, totaling 789,577 commits. We accomplished this by mining app repositories from F-Droid, extracting their version and commit histories, and analyzing this information using two permission analysis tools. Our work creates the foundation for future research in permission decisions and mistakes. Complete project details and data is available on our project website: https://mobilepermissions.github.io",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "40642112",
+            "name": "Gian Luca Scoccia",
+            "url": "https://www.semanticscholar.org/author/40642112"
+        },
+        {
+            "authorId": "11002308",
+            "name": "Anthony S Peruma",
+            "url": "https://www.semanticscholar.org/author/11002308"
+        },
+        {
+            "authorId": "148313077",
+            "name": "Virginia Pujols",
+            "url": "https://www.semanticscholar.org/author/148313077"
+        },
+        {
+            "authorId": "146248626",
+            "name": "Ben Christians",
+            "url": "https://www.semanticscholar.org/author/146248626"
+        },
+        {
+            "authorId": "2013851",
+            "name": "Daniel E. Krutz",
+            "url": "https://www.semanticscholar.org/author/2013851"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2283989223",
+                    "name": "Anna Barzolevskaia"
+                },
+                {
+                    "authorId": "2137731728",
+                    "name": "Enrico Branca"
+                },
+                {
+                    "authorId": "2265762507",
+                    "name": "Natalia Stakhanova"
+                }
+            ],
+            "doi": "10.1109/TSE.2024.3362921",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fc77a72a3a3cb9b57d46fb8733da7bff48f1d846",
+            "title": "Measuring and Characterizing (Mis)compliance of the Android Permission System",
+            "url": "https://www.semanticscholar.org/paper/fc77a72a3a3cb9b57d46fb8733da7bff48f1d846",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2146253644",
+                    "name": "Zhiqiang Wu"
+                },
+                {
+                    "authorId": "2145230431",
+                    "name": "Xin Chen"
+                },
+                {
+                    "authorId": "29790155",
+                    "name": "S. Lee"
+                }
+            ],
+            "doi": "10.1016/j.jss.2023.111677",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ef68c56d16c40078da6a1aa2657ec2b5540141b3",
+            "title": "A systematic literature review on Android-specific smells",
+            "url": "https://www.semanticscholar.org/paper/ef68c56d16c40078da6a1aa2657ec2b5540141b3",
+            "venue": "J. Syst. Softw.",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40300027",
+                    "name": "Minxue Pan"
+                },
+                {
+                    "authorId": "2163041685",
+                    "name": "Yifei Lu"
+                },
+                {
+                    "authorId": "145141196",
+                    "name": "Yu Pei"
+                },
+                {
+                    "authorId": "49104922",
+                    "name": "Tian Zhang"
+                },
+                {
+                    "authorId": "2108262661",
+                    "name": "Xuandong Li"
+                }
+            ],
+            "doi": "10.1145/3511804",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8d8d4a4b2318c0366315d40c022a096449c6b340",
+            "title": "Preference-wise Testing of Android Apps via Test Amplification",
+            "url": "https://www.semanticscholar.org/paper/8d8d4a4b2318c0366315d40c022a096449c6b340",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2004457",
+                    "name": "Neetu Sardana"
+                },
+                {
+                    "authorId": "2903906",
+                    "name": "Arpita Jadhav Bhatt"
+                }
+            ],
+            "doi": "10.1145/3474124.3474136",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "19d066cd2e233c6735f7c42341fb65e1b91f64d8",
+            "title": "Detection of iOS Malware apps based on Significant Services Identification using Borda count",
+            "url": "https://www.semanticscholar.org/paper/19d066cd2e233c6735f7c42341fb65e1b91f64d8",
+            "venue": "IC3",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1410584179",
+                    "name": "Laura Bello-Jim\u00e9nez"
+                },
+                {
+                    "authorId": "1410008957",
+                    "name": "Camilo Escobar-Vel\u00e1squez"
+                },
+                {
+                    "authorId": "1949197826",
+                    "name": "Anamaria Mojica-Hanke"
+                },
+                {
+                    "authorId": "1580303669",
+                    "name": "S. Cort\u00e9s-Fern\u00e1ndez"
+                },
+                {
+                    "authorId": "1397411901",
+                    "name": "Mario Linares-V\u00e1squez"
+                }
+            ],
+            "doi": "10.1145/3379597.3387497",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "772bdd58ad1af3cd036dddee53f1b824bd66f5ab",
+            "title": "Hall-of-Apps: The Top Android Apps Metadata Archive",
+            "url": "https://www.semanticscholar.org/paper/772bdd58ad1af3cd036dddee53f1b824bd66f5ab",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40642112",
+                    "name": "Gian Luca Scoccia"
+                },
+                {
+                    "authorId": "11002308",
+                    "name": "Anthony S Peruma"
+                },
+                {
+                    "authorId": "148313077",
+                    "name": "Virginia Pujols"
+                },
+                {
+                    "authorId": "2331013",
+                    "name": "I. Malavolta"
+                },
+                {
+                    "authorId": "2013851",
+                    "name": "Daniel E. Krutz"
+                }
+            ],
+            "doi": "10.1109/SCAM.2019.00034",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "224410d355e8641f20c472824b51fca83d9fc919",
+            "title": "Permission Issues in Open-Source Android Apps: An Exploratory Study",
+            "url": "https://www.semanticscholar.org/paper/224410d355e8641f20c472824b51fca83d9fc919",
+            "venue": "2019 19th International Working Conference on Source Code Analysis and Manipulation (SCAM)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": "10.1109/msr45733.2019",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "de20e3a4dbd7d0d30eb4a5b46d6222ba827cf208",
+            "title": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "url": "https://www.semanticscholar.org/paper/de20e3a4dbd7d0d30eb4a5b46d6222ba827cf208",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2392696",
+                    "name": "Iman M. Almomani"
+                },
+                {
+                    "authorId": "66785386",
+                    "name": "A. Khayer"
+                }
+            ],
+            "doi": "10.1109/ACCESS.2020.3041432",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b412388850903b1f586697180c496c11d92fc903",
+            "title": "A Comprehensive Analysis of the Android Permissions System",
+            "url": "https://www.semanticscholar.org/paper/b412388850903b1f586697180c496c11d92fc903",
+            "venue": "IEEE Access",
+            "year": 2020
+        }
+    ],
+    "corpusId": 195298523,
+    "doi": "10.1109/MSR.2019.00090",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 8,
+    "numCiting": 22,
+    "paperId": "6ab7816ba1359953dd270983f30fc374189708c2",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51134165",
+                    "name": "F. Geiger"
+                },
+                {
+                    "authorId": "2331013",
+                    "name": "I. Malavolta"
+                },
+                {
+                    "authorId": "40695832",
+                    "name": "L. Pascarella"
+                },
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                },
+                {
+                    "authorId": "50515157",
+                    "name": "Dario Di Nucci"
+                },
+                {
+                    "authorId": "1686038",
+                    "name": "Alberto Bacchelli"
+                }
+            ],
+            "doi": "10.1145/3196398.3196460",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "370ed4a6b85454b6e2870530e1a0b5556d496b7e",
+            "title": "A Graph-Based Dataset of Commit History of Real-World Android apps",
+            "url": "https://www.semanticscholar.org/paper/370ed4a6b85454b6e2870530e1a0b5556d496b7e",
+            "venue": "2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40642112",
+                    "name": "Gian Luca Scoccia"
+                },
+                {
+                    "authorId": "2878866",
+                    "name": "Stefano Ruberto"
+                },
+                {
+                    "authorId": "2331013",
+                    "name": "I. Malavolta"
+                },
+                {
+                    "authorId": "1747339",
+                    "name": "M. Autili"
+                },
+                {
+                    "authorId": "1700564",
+                    "name": "P. Inverardi"
+                }
+            ],
+            "doi": "10.1145/3197231.3197236",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "870ae585ddbbf8441fb197a6e93ee1fa0235cf6c",
+            "title": "An Investigation Into Android Run-Time Permissions from the End Users' Perspective",
+            "url": "https://www.semanticscholar.org/paper/870ae585ddbbf8441fb197a6e93ee1fa0235cf6c",
+            "venue": "2018 IEEE/ACM 5th International Conference on Mobile Software Engineering and Systems (MOBILESoft)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "11002308",
+                    "name": "Anthony S Peruma"
+                },
+                {
+                    "authorId": "51119034",
+                    "name": "Jeffrey Palmerino"
+                },
+                {
+                    "authorId": "2013851",
+                    "name": "Daniel E. Krutz"
+                }
+            ],
+            "doi": "10.1145/3197231.3197246",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e8e58107976540ae7ebc33836b73e0bf69421d69",
+            "title": "Investigating User Perception and Comprehension of Android Permission Models",
+            "url": "https://www.semanticscholar.org/paper/e8e58107976540ae7ebc33836b73e0bf69421d69",
+            "venue": "2018 IEEE/ACM 5th International Conference on Mobile Software Engineering and Systems (MOBILESoft)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3459335",
+                    "name": "Giovanni Grano"
+                },
+                {
+                    "authorId": "3144783",
+                    "name": "Andrea Di Sorbo"
+                },
+                {
+                    "authorId": "2112431",
+                    "name": "F. Mercaldo"
+                },
+                {
+                    "authorId": "1717023",
+                    "name": "C. A. Visaggio"
+                },
+                {
+                    "authorId": "1711200",
+                    "name": "G. Canfora"
+                },
+                {
+                    "authorId": "3117169",
+                    "name": "Sebastiano Panichella"
+                }
+            ],
+            "doi": "10.1145/3121264.3121266",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6d7ec7c464e27a696cf5cdac6766920d1b64405b",
+            "title": "Android apps and user feedback: a dataset for software evolution and quality improvement",
+            "url": "https://www.semanticscholar.org/paper/6d7ec7c464e27a696cf5cdac6766920d1b64405b",
+            "venue": "WAMA@ESEC/SIGSOFT FSE",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1724400919",
+                    "name": "Junwei Tang"
+                },
+                {
+                    "authorId": "1773599",
+                    "name": "Ruixuan Li"
+                },
+                {
+                    "authorId": "2673631",
+                    "name": "Hongmu Han"
+                },
+                {
+                    "authorId": "39712796",
+                    "name": "Heng Zhang"
+                },
+                {
+                    "authorId": "1793753",
+                    "name": "X. Gu"
+                }
+            ],
+            "doi": "10.1109/Trustcom/BigDataSE/ICESS.2017.303",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b3cb574b0732121dcf8d96f334f65600f32dd0d6",
+            "title": "Detecting Permission Over-claim of Android Applications with Static and Semantic Analysis Approach",
+            "url": "https://www.semanticscholar.org/paper/b3cb574b0732121dcf8d96f334f65600f32dd0d6",
+            "venue": "2017 IEEE Trustcom/BigDataSE/ICESS",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2058472722",
+                    "name": "Colton Dennis"
+                },
+                {
+                    "authorId": "2013851",
+                    "name": "Daniel E. Krutz"
+                },
+                {
+                    "authorId": "1810097",
+                    "name": "Mohamed Wiem Mkaouer"
+                }
+            ],
+            "doi": "10.1109/MOBILESoft.2017.24",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "b1d4882480a903c6f3a3279fbf1e6c01f6e4f60f",
+            "title": "P-Lint: A Permission Smell Detector for Android Applications",
+            "url": "https://www.semanticscholar.org/paper/b1d4882480a903c6f3a3279fbf1e6c01f6e4f60f",
+            "venue": "2017 IEEE/ACM 4th International Conference on Mobile Software Engineering and Systems (MOBILESoft)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "20687549",
+                    "name": "Sarra Habchi"
+                },
+                {
+                    "authorId": "37378795",
+                    "name": "Geoffrey Hecht"
+                },
+                {
+                    "authorId": "1809154",
+                    "name": "Romain Rouvoy"
+                },
+                {
+                    "authorId": "2420979",
+                    "name": "Naouel Moha"
+                }
+            ],
+            "doi": "10.1109/mobilesoft.2017.11",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "738e849dfe0b6e5b430985200ea15b4bfdf30d30",
+            "title": "Code Smells in iOS Apps: How Do They Compare to Android?",
+            "url": "https://www.semanticscholar.org/paper/738e849dfe0b6e5b430985200ea15b4bfdf30d30",
+            "venue": "2017 IEEE/ACM 4th International Conference on Mobile Software Engineering and Systems (MOBILESoft)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48318095",
+                    "name": "P. Chester"
+                },
+                {
+                    "authorId": "2115600183",
+                    "name": "Chris Jones"
+                },
+                {
+                    "authorId": "1810097",
+                    "name": "Mohamed Wiem Mkaouer"
+                },
+                {
+                    "authorId": "2013851",
+                    "name": "Daniel E. Krutz"
+                }
+            ],
+            "doi": "10.1109/MOBILESoft.2017.23",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "9b6e7fb34a08e5a174b0c5007ea86d1fbfe7ce22",
+            "title": "M-Perm: A Lightweight Detector for Android Permission Gaps",
+            "url": "https://www.semanticscholar.org/paper/9b6e7fb34a08e5a174b0c5007ea86d1fbfe7ce22",
+            "venue": "2017 IEEE/ACM 4th International Conference on Mobile Software Engineering and Systems (MOBILESoft)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "11149136",
+                    "name": "Paolo Calciati"
+                },
+                {
+                    "authorId": "2762411",
+                    "name": "Alessandra Gorla"
+                }
+            ],
+            "doi": "10.1109/MSR.2017.64",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "094346cc89455ca3ad7f4200df6ccf5e87a4e7a1",
+            "title": "How Do Apps Evolve in Their Permission Requests? A Preliminary Study",
+            "url": "https://www.semanticscholar.org/paper/094346cc89455ca3ad7f4200df6ccf5e87a4e7a1",
+            "venue": "2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2303700",
+                    "name": "Vincent F. Taylor"
+                },
+                {
+                    "authorId": "1697125",
+                    "name": "I. Martinovic"
+                }
+            ],
+            "doi": "10.1145/3052973.3052990",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "094cc47d7bcc3c0bef3665591fac52a69f2a8f1d",
+            "title": "To Update or Not to Update: Insights From a Two-Year Study of Android App Evolution",
+            "url": "https://www.semanticscholar.org/paper/094cc47d7bcc3c0bef3665591fac52a69f2a8f1d",
+            "venue": "AsiaCCS",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5511581",
+                    "name": "Nuthan Munaiah"
+                },
+                {
+                    "authorId": "1403434027",
+                    "name": "Casey Klimkowsky"
+                },
+                {
+                    "authorId": "46213540",
+                    "name": "S. mcrae"
+                },
+                {
+                    "authorId": "1400479718",
+                    "name": "Adam Blaine"
+                },
+                {
+                    "authorId": "2049817",
+                    "name": "Samuel A. Malachowsky"
+                },
+                {
+                    "authorId": "121091140",
+                    "name": "Cesar Perez"
+                },
+                {
+                    "authorId": "2013851",
+                    "name": "Daniel E. Krutz"
+                }
+            ],
+            "doi": "10.1145/2993259.2993264",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "83c89f82c7dcce16bda2eb2ce9be927a5ec590d0",
+            "title": "Darwin: a static analysis dataset of malicious and benign Android apps",
+            "url": "https://www.semanticscholar.org/paper/83c89f82c7dcce16bda2eb2ce9be927a5ec590d0",
+            "venue": "WAMA@SIGSOFT FSE",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1790388",
+                    "name": "Kevin Allix"
+                },
+                {
+                    "authorId": "3023999",
+                    "name": "T\u00e9gawend\u00e9 F. Bissyand\u00e9"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                },
+                {
+                    "authorId": "47681863",
+                    "name": "Y. L. Traon"
+                }
+            ],
+            "doi": "10.1145/2901739.2903508",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "128add3f0e727b73b3df0ca13b4e818d543bdd98",
+            "title": "AndroZoo: Collecting Millions of Android Apps for the Research Community",
+            "url": "https://www.semanticscholar.org/paper/128add3f0e727b73b3df0ca13b4e818d543bdd98",
+            "venue": "2016 IEEE/ACM 13th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2109103128",
+                    "name": "Xing Gao"
+                },
+                {
+                    "authorId": "2115193278",
+                    "name": "Dachuan Liu"
+                },
+                {
+                    "authorId": "46507023",
+                    "name": "Haining Wang"
+                },
+                {
+                    "authorId": "145044928",
+                    "name": "Kun Sun"
+                }
+            ],
+            "doi": "10.1109/SRDS.2015.41",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4cd2af55da85726d7ab7ce77a171cea385ce012a",
+            "title": "PmDroid: Permission Supervision for Android Advertising",
+            "url": "https://www.semanticscholar.org/paper/4cd2af55da85726d7ab7ce77a171cea385ce012a",
+            "venue": "2015 IEEE 34th Symposium on Reliable Distributed Systems (SRDS)",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2013851",
+                    "name": "Daniel E. Krutz"
+                },
+                {
+                    "authorId": "2097532",
+                    "name": "Mehdi Mirakhorli"
+                },
+                {
+                    "authorId": "2049817",
+                    "name": "Samuel A. Malachowsky"
+                },
+                {
+                    "authorId": "123234157",
+                    "name": "Andres Ruiz"
+                },
+                {
+                    "authorId": "2105886491",
+                    "name": "Jacob Peterson"
+                },
+                {
+                    "authorId": "2078650756",
+                    "name": "Andrew Filipski"
+                },
+                {
+                    "authorId": "2119127513",
+                    "name": "Jared Smith"
+                }
+            ],
+            "doi": "10.1109/MSR.2015.79",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "96dcbf0c80aa7d866c8d8a82f4abe2f204398331",
+            "title": "A Dataset of Open-Source Android Applications",
+            "url": "https://www.semanticscholar.org/paper/96dcbf0c80aa7d866c8d8a82f4abe2f204398331",
+            "venue": "2015 IEEE/ACM 12th Working Conference on Mining Software Repositories",
+            "year": 2015
+        },
+        {
+            "arxivId": "1504.03747",
+            "authors": [
+                {
+                    "authorId": "2166431",
+                    "name": "Primal Wijesekera"
+                },
+                {
+                    "authorId": "2606009",
+                    "name": "Arjun Baokar"
+                },
+                {
+                    "authorId": "2064886839",
+                    "name": "Ashkan Hosseini"
+                },
+                {
+                    "authorId": "2645852",
+                    "name": "Serge Egelman"
+                },
+                {
+                    "authorId": "145394689",
+                    "name": "D. Wagner"
+                },
+                {
+                    "authorId": "1756107",
+                    "name": "K. Beznosov"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3ce1072ac56cf77ed5c0f086b8ae629b574f0f41",
+            "title": "Android Permissions Remystified: A Field Study on Contextual Integrity",
+            "url": "https://www.semanticscholar.org/paper/3ce1072ac56cf77ed5c0f086b8ae629b574f0f41",
+            "venue": "USENIX Security Symposium",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2466451",
+                    "name": "Parvez Faruki"
+                },
+                {
+                    "authorId": "2343473",
+                    "name": "A. Bharmal"
+                },
+                {
+                    "authorId": "145159112",
+                    "name": "V. Laxmi"
+                },
+                {
+                    "authorId": "1827512",
+                    "name": "Vijay Ganmoor"
+                },
+                {
+                    "authorId": "1869272",
+                    "name": "M. Gaur"
+                },
+                {
+                    "authorId": "145746490",
+                    "name": "M. Conti"
+                },
+                {
+                    "authorId": "1759654",
+                    "name": "M. Rajarajan"
+                }
+            ],
+            "doi": "10.1109/COMST.2014.2386139",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "996fcf5bf7b7145fdcfb89ee6997efb6d6d0c210",
+            "title": "Android Security: A Survey of Issues, Malware Penetration, and Defenses",
+            "url": "https://www.semanticscholar.org/paper/996fcf5bf7b7145fdcfb89ee6997efb6d6d0c210",
+            "venue": "IEEE Communications Surveys & Tutorials",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2112818",
+                    "name": "K. Au"
+                },
+                {
+                    "authorId": "2118765417",
+                    "name": "Yi Fan Zhou"
+                },
+                {
+                    "authorId": "2151324507",
+                    "name": "Zhen Huang"
+                },
+                {
+                    "authorId": "47412202",
+                    "name": "D. Lie"
+                }
+            ],
+            "doi": "10.1145/2382196.2382222",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2fe33f4b7c75d9e29bf80e7bdd719205cfafc3c9",
+            "title": "PScout: analyzing the Android permission specification",
+            "url": "https://www.semanticscholar.org/paper/2fe33f4b7c75d9e29bf80e7bdd719205cfafc3c9",
+            "venue": "CCS",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34548699",
+                    "name": "Michael C. Grace"
+                },
+                {
+                    "authorId": "2115341253",
+                    "name": "Wu Zhou"
+                },
+                {
+                    "authorId": "1740888",
+                    "name": "Xuxian Jiang"
+                },
+                {
+                    "authorId": "145897166",
+                    "name": "A. Sadeghi"
+                }
+            ],
+            "doi": "10.1145/2185448.2185464",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "446b1664275bb9a5d28d07970c1971f1719ff7e3",
+            "title": "Unsafe exposure analysis of mobile in-app advertisements",
+            "url": "https://www.semanticscholar.org/paper/446b1664275bb9a5d28d07970c1971f1719ff7e3",
+            "venue": "WISEC '12",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2838694",
+                    "name": "A. Felt"
+                },
+                {
+                    "authorId": "144061142",
+                    "name": "Erika Chin"
+                },
+                {
+                    "authorId": "144063487",
+                    "name": "Steve Hanna"
+                },
+                {
+                    "authorId": "143711382",
+                    "name": "D. Song"
+                },
+                {
+                    "authorId": "145394689",
+                    "name": "D. Wagner"
+                }
+            ],
+            "doi": "10.1145/2046707.2046779",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "bd736ada1822b69e13d5a5aa68acc84cb9c5fb36",
+            "title": "Android permissions demystified",
+            "url": "https://www.semanticscholar.org/paper/bd736ada1822b69e13d5a5aa68acc84cb9c5fb36",
+            "venue": "CCS '11",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Investigating permission issues in open-source android apps",
+            "url": "",
+            "venue": "mobilepermissions",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "De\ufb01ne a custom app permission",
+            "url": "",
+            "venue": "developer.android.com/guide/ topics/permissions/de\ufb01ning",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Permissions best practices",
+            "url": "",
+            "venue": "developer",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "An Empirical History of Permission Requests and Mistakes in Open Source Android Apps",
+    "topics": [
+        {
+            "topic": "Android",
+            "topicId": "6012",
+            "url": "https://www.semanticscholar.org/topic/6012"
+        },
+        {
+            "topic": "Open-source software",
+            "topicId": "8878",
+            "url": "https://www.semanticscholar.org/topic/8878"
+        }
+    ],
+    "url": "https://www.semanticscholar.org/paper/6ab7816ba1359953dd270983f30fc374189708c2",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2019
+}

@@ -1,0 +1,316 @@
+{
+    "abstract": "Race detection is increasingly popular, both in the academic research and in industrial practice. However, there is no specialized and comprehensive dataset of the data race, making it difficult to achieve the purpose of effectively evaluating race detectors or developing efficient race detection algorithms. In this paper, we presented JBench, a dataset with a total number of 985 data races from real-world applications and academic artifacts. We pointed out the locations of data races, provided source code, provided running commands and standardized storage structure. We also analyzed all the data races and classified them from four aspects: variable type, code structure, method span and cause. Furthermore, we discussed usages of the dataset in two scenarios: optimize race detection techniques and extract concurrency patterns.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2149257964",
+            "name": "Jian Gao",
+            "url": "https://www.semanticscholar.org/author/2149257964"
+        },
+        {
+            "authorId": "2150441159",
+            "name": "Xin Yang",
+            "url": "https://www.semanticscholar.org/author/2150441159"
+        },
+        {
+            "authorId": "152771714",
+            "name": "Yu Jiang",
+            "url": "https://www.semanticscholar.org/author/152771714"
+        },
+        {
+            "authorId": "2118959568",
+            "name": "Han Liu",
+            "url": "https://www.semanticscholar.org/author/2118959568"
+        },
+        {
+            "authorId": "51117269",
+            "name": "Weiliang Ying",
+            "url": "https://www.semanticscholar.org/author/51117269"
+        },
+        {
+            "authorId": "2108304903",
+            "name": "Xian Zhang",
+            "url": "https://www.semanticscholar.org/author/2108304903"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1715618848",
+                    "name": "Jihyun Park"
+                },
+                {
+                    "authorId": "2303854",
+                    "name": "Byoungju Choi"
+                },
+                {
+                    "authorId": "2046116423",
+                    "name": "Se\uff0dRin Jang"
+                }
+            ],
+            "doi": "10.1007/s10766-020-00661-3",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "cf12d78e8613706929fabc1a177672e8d17f9809",
+            "title": "Dynamic Analysis Method for Concurrency Bugs in Multi-process/Multi-thread Environments",
+            "url": "https://www.semanticscholar.org/paper/cf12d78e8613706929fabc1a177672e8d17f9809",
+            "venue": "International Journal of Parallel Programming",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1986196",
+                    "name": "Hongliang Liang"
+                },
+                {
+                    "authorId": "2108932359",
+                    "name": "Mingyu Li"
+                },
+                {
+                    "authorId": "2110275042",
+                    "name": "Jianli Wang"
+                }
+            ],
+            "doi": "10.1145/3380786.3391401",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "08be3bb1787eda8cf0a0b895343b6c059cc7356b",
+            "title": "Automated data race bugs addition",
+            "url": "https://www.semanticscholar.org/paper/08be3bb1787eda8cf0a0b895343b6c059cc7356b",
+            "venue": "EuroSec@EuroSys",
+            "year": 2020
+        }
+    ],
+    "corpusId": 243884865,
+    "doi": "10.1145/3196398.3196451",
+    "fieldsOfStudy": null,
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 2,
+    "numCiting": 8,
+    "paperId": "237757b3ddf86996ec26145c6b0079778302db3c",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "7604095",
+                    "name": "C. Liao"
+                },
+                {
+                    "authorId": "1905021",
+                    "name": "Pei-Hung Lin"
+                },
+                {
+                    "authorId": "2072144692",
+                    "name": "Joshua Asplund"
+                },
+                {
+                    "authorId": "1736921",
+                    "name": "M. Schordan"
+                },
+                {
+                    "authorId": "33950551",
+                    "name": "I. Karlin"
+                }
+            ],
+            "doi": "10.1145/3126908.3126958",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ef45aed93b176c3018ba76943699ac8b647914b3",
+            "title": "DataRaceBench: A Benchmark Suite for Systematic Evaluation of Data Race Detection Tools",
+            "url": "https://www.semanticscholar.org/paper/ef45aed93b176c3018ba76943699ac8b647914b3",
+            "venue": "SC17: International Conference for High Performance Computing, Networking, Storage and Analysis",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "32065383",
+                    "name": "Jeff Huang"
+                },
+                {
+                    "authorId": "1689939",
+                    "name": "Lawrence Rauchwerger"
+                }
+            ],
+            "doi": "10.1145/2786805.2786840",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "86adb0dd8f7a2dbd971aaa8ea79f30e81e434fda",
+            "title": "Finding schedule-sensitive branches",
+            "url": "https://www.semanticscholar.org/paper/86adb0dd8f7a2dbd971aaa8ea79f30e81e434fda",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "32065383",
+                    "name": "Jeff Huang"
+                },
+                {
+                    "authorId": "7199590",
+                    "name": "P. Meredith"
+                },
+                {
+                    "authorId": "1682619",
+                    "name": "Grigore Ro\u015fu"
+                }
+            ],
+            "doi": "10.1145/2594291.2594315",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8f5ae8330cf81f6b4f334c074122383974481e13",
+            "title": "Maximal sound predictive race detection with control flow abstraction",
+            "url": "https://www.semanticscholar.org/paper/8f5ae8330cf81f6b4f334c074122383974481e13",
+            "venue": "PLDI",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144692078",
+                    "name": "C. Flanagan"
+                },
+                {
+                    "authorId": "35267242",
+                    "name": "Stephen N. Freund"
+                }
+            ],
+            "doi": "10.1145/1839676.1839699",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a41b1420abbbf42774bbaf083b848cef8aa7acaf",
+            "title": "FastTrack",
+            "url": "https://www.semanticscholar.org/paper/a41b1420abbbf42774bbaf083b848cef8aa7acaf",
+            "venue": "Commun. ACM",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144368892",
+                    "name": "Pallavi Joshi"
+                },
+                {
+                    "authorId": "145835621",
+                    "name": "M. Naik"
+                },
+                {
+                    "authorId": "2688430",
+                    "name": "Chang-Seo Park"
+                },
+                {
+                    "authorId": "145741786",
+                    "name": "Koushik Sen"
+                }
+            ],
+            "doi": "10.1007/978-3-642-02658-4_54",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "dcc6d27427ae69b9ae83737c4c98b3729dac3810",
+            "title": "CalFuzzer: An Extensible Active Testing Framework for Concurrent Programs",
+            "url": "https://www.semanticscholar.org/paper/dcc6d27427ae69b9ae83737c4c98b3729dac3810",
+            "venue": "CAV",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1683113",
+                    "name": "David Hovemeyer"
+                },
+                {
+                    "authorId": "144022269",
+                    "name": "W. Pugh"
+                }
+            ],
+            "doi": "10.1145/1052883.1052895",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "24f9bbadcfbddad0bec4a89aa2df5bb10f39fb97",
+            "title": "Finding bugs is easy",
+            "url": "https://www.semanticscholar.org/paper/24f9bbadcfbddad0bec4a89aa2df5bb10f39fb97",
+            "venue": "SIGP",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2107559621",
+                    "name": "L. Smith"
+                },
+                {
+                    "authorId": "145745546",
+                    "name": "J. M. Bull"
+                },
+                {
+                    "authorId": "2619678",
+                    "name": "J. Obdr\u017e\u00e1lek"
+                }
+            ],
+            "doi": "10.1145/582034.582042",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b10e039be584b716c88ad96610ce6e90721857db",
+            "title": "A Parallel Java Grande Benchmark Suite",
+            "url": "https://www.semanticscholar.org/paper/b10e039be584b716c88ad96610ce6e90721857db",
+            "venue": "ACM/IEEE SC 2001 Conference (SC'01)",
+            "year": 2001
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1727599",
+                    "name": "S. Savage"
+                },
+                {
+                    "authorId": "32623151",
+                    "name": "M. Burrows"
+                },
+                {
+                    "authorId": "145802352",
+                    "name": "Greg Nelson"
+                },
+                {
+                    "authorId": "3082907",
+                    "name": "P. Sobalvarro"
+                },
+                {
+                    "authorId": "145559915",
+                    "name": "T. Anderson"
+                }
+            ],
+            "doi": "10.1145/268998.266641",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "29e1c71edbb56eed613d29edac1ad35b084e6a0f",
+            "title": "Eraser: a dynamic data race detector for multi-threaded programs",
+            "url": "https://www.semanticscholar.org/paper/29e1c71edbb56eed613d29edac1ad35b084e6a0f",
+            "venue": "TOCS",
+            "year": 1997
+        }
+    ],
+    "s2FieldsOfStudy": [],
+    "title": "JBench: A Dataset of Data Races for Concurrency Testing",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/237757b3ddf86996ec26145c6b0079778302db3c",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2018
+}

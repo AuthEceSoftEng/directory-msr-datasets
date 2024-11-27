@@ -1,0 +1,942 @@
+{
+    "abstract": "We present a dataset of the open source software ecosystem Gnome from a social point of view. We have collected historical data about the contributors to all Gnome projects stored on git.gnome.org, taking into account the problem of identity matching, and associating different activity types to the contributors. This type of information is very useful to complement the traditional, source-code related information one can obtain by mining and analyzing the actual source code. The dataset can be obtained at https://bitbucket.org/mgoeminne/sgl-flossmetric-dbmerge.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2855002",
+            "name": "M. Goeminne",
+            "url": "https://www.semanticscholar.org/author/2855002"
+        },
+        {
+            "authorId": "2002057",
+            "name": "Ma\u00eblick Claes",
+            "url": "https://www.semanticscholar.org/author/2002057"
+        },
+        {
+            "authorId": "1794675",
+            "name": "T. Mens",
+            "url": "https://www.semanticscholar.org/author/1794675"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": "2103.11339",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "145310968",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00022",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6292534df173d295c8ffe489134c81593a2f7592",
+            "title": "Escaping the Time Pit: Pitfalls and Guidelines for Using Time-Based Git Data",
+            "url": "https://www.semanticscholar.org/paper/6292534df173d295c8ffe489134c81593a2f7592",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34074917",
+                    "name": "Subhajit Datta"
+                }
+            ],
+            "doi": "10.1109/APSEC48747.2019.00061",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "99d42749fc18e0d1fc06d0824a5f388a069aa885",
+            "title": "Influence, Information and Team Outcomes in Large Scale Software Development",
+            "url": "https://www.semanticscholar.org/paper/99d42749fc18e0d1fc06d0824a5f388a069aa885",
+            "venue": "2019 26th Asia-Pacific Software Engineering Conference (APSEC)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2171192",
+                    "name": "Vijay K. Eluri"
+                },
+                {
+                    "authorId": "2785471",
+                    "name": "S. Sarkani"
+                },
+                {
+                    "authorId": "3039590",
+                    "name": "T. Mazzuchi"
+                }
+            ],
+            "doi": "10.29007/cmc6",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "601512e0a80f8f8d0f80922512020ed1577429e0",
+            "title": "Open Source Software Survivability Prediction Using Multi Layer Perceptron",
+            "url": "https://www.semanticscholar.org/paper/601512e0a80f8f8d0f80922512020ed1577429e0",
+            "venue": "ICSE 2019",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00085",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "43148fabe2636026e07ca04974aff40d204bfb6b",
+            "title": "Standing on Shoulders or Feet? The Usage of the MSR Data Papers",
+            "url": "https://www.semanticscholar.org/paper/43148fabe2636026e07ca04974aff40d204bfb6b",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1405194653",
+                    "name": "Oscar Franco-Bedoya"
+                },
+                {
+                    "authorId": "1760223",
+                    "name": "David Ameller"
+                },
+                {
+                    "authorId": "2510958",
+                    "name": "Dolors Costal"
+                },
+                {
+                    "authorId": "1689870",
+                    "name": "Xavier Franch"
+                }
+            ],
+            "doi": "10.1016/J.INFSOF.2017.07.007",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f0aef73cb167851a83f57b8c492c9f07192e5c25",
+            "title": "Open source software ecosystems: A Systematic mapping",
+            "url": "https://www.semanticscholar.org/paper/f0aef73cb167851a83f57b8c492c9f07192e5c25",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3155647",
+                    "name": "Mohammad Gharehyazie"
+                },
+                {
+                    "authorId": "3179220",
+                    "name": "V. Filkov"
+                }
+            ],
+            "doi": "10.1007/s10664-016-9463-3",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "7be71c8a7ff6e844b8613fae881fba12ff03332a",
+            "title": "Tracing distributed collaborative development in apache software foundation projects",
+            "url": "https://www.semanticscholar.org/paper/7be71c8a7ff6e844b8613fae881fba12ff03332a",
+            "venue": "Empirical Software Engineering",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40333094",
+                    "name": "C. Alves"
+                },
+                {
+                    "authorId": "46609431",
+                    "name": "Joyce Aline Oliveira"
+                },
+                {
+                    "authorId": "1698329",
+                    "name": "S. Jansen"
+                }
+            ],
+            "doi": "10.1007/978-3-319-93375-7_24",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "3ee36e351c10d9e817e0d3f81f61b94c7e870dcb",
+            "title": "Understanding Governance Mechanisms and Health in Software Ecosystems: A Systematic Literature Review",
+            "url": "https://www.semanticscholar.org/paper/3ee36e351c10d9e817e0d3f81f61b94c7e870dcb",
+            "venue": "ICEIS",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2385947",
+                    "name": "Can Cheng"
+                },
+                {
+                    "authorId": "2152691873",
+                    "name": "Bing Li"
+                },
+                {
+                    "authorId": "2045008",
+                    "name": "Zengyang Li"
+                },
+                {
+                    "authorId": "2109906220",
+                    "name": "Yuqi Zhao"
+                },
+                {
+                    "authorId": "2058871870",
+                    "name": "Feng-Ling Liao"
+                }
+            ],
+            "doi": "10.1007/s11390-017-1728-9",
+            "intent": [],
+            "isInfluential": true,
+            "paperId": "374759e5e0ce72a6a9438c9c283e10b657d9fa81",
+            "title": "Developer Role Evolution in Open Source Software Ecosystem: An Explanatory Study on GNOME",
+            "url": "https://www.semanticscholar.org/paper/374759e5e0ce72a6a9438c9c283e10b657d9fa81",
+            "venue": "Journal of Computer Science and Technology",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145915991",
+                    "name": "K. Manikas"
+                }
+            ],
+            "doi": "10.1016/j.jss.2016.02.003",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "3b2de57b0e4ca968c0e78b76b7cf18c15c654aa0",
+            "title": "Revisiting software ecosystems Research: A longitudinal literature study",
+            "url": "https://www.semanticscholar.org/paper/3b2de57b0e4ca968c0e78b76b7cf18c15c654aa0",
+            "venue": "J. Syst. Softw.",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "1711200",
+                    "name": "G. Canfora"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                },
+                {
+                    "authorId": "3117169",
+                    "name": "Sebastiano Panichella"
+                }
+            ],
+            "doi": "10.1007/s10664-014-9325-9",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "064a9483abc4018f4651f01880cf0a945579ba46",
+            "title": "How the Apache community upgrades dependencies: an evolutionary study",
+            "url": "https://www.semanticscholar.org/paper/064a9483abc4018f4651f01880cf0a945579ba46",
+            "venue": "Empirical Software Engineering",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2916074",
+                    "name": "Philip Makedonski"
+                },
+                {
+                    "authorId": "2688844",
+                    "name": "Fabian Sudau"
+                },
+                {
+                    "authorId": "144470884",
+                    "name": "J. Grabowski"
+                }
+            ],
+            "doi": "10.1145/2693208.2693224",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "bcda55d7c12afceb267f627c5490f7777cda1b54",
+            "title": "Towards a Model-based Software Mining Infrastructure",
+            "url": "https://www.semanticscholar.org/paper/bcda55d7c12afceb267f627c5490f7777cda1b54",
+            "venue": "SOEN",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1405194653",
+                    "name": "Oscar Franco-Bedoya"
+                },
+                {
+                    "authorId": "1760223",
+                    "name": "David Ameller"
+                },
+                {
+                    "authorId": "2510958",
+                    "name": "Dolors Costal"
+                },
+                {
+                    "authorId": "1689870",
+                    "name": "Xavier Franch"
+                }
+            ],
+            "doi": "10.1007/978-3-319-25579-8_3",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "8928b0cca4f908029f00ab102bf24b9133b1e94c",
+            "title": "Measuring the Quality of Open Source Software Ecosystems Using QuESo",
+            "url": "https://www.semanticscholar.org/paper/8928b0cca4f908029f00ab102bf24b9133b1e94c",
+            "venue": "ICSOFT",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1794675",
+                    "name": "T. Mens"
+                },
+                {
+                    "authorId": "2002057",
+                    "name": "Ma\u00eblick Claes"
+                },
+                {
+                    "authorId": "34653341",
+                    "name": "P. Grosjean"
+                }
+            ],
+            "doi": "10.1109/CSMR-WCRE.2014.6747205",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "55d9b45fbab62fbcb7ec09ef4495103361880419",
+            "title": "ECOS: Ecological studies of open source software ecosystems",
+            "url": "https://www.semanticscholar.org/paper/55d9b45fbab62fbcb7ec09ef4495103361880419",
+            "venue": "2014 Software Evolution Week - IEEE Conference on Software Maintenance, Reengineering, and Reverse Engineering (CSMR-WCRE)",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1794675",
+                    "name": "T. Mens"
+                },
+                {
+                    "authorId": "1747171",
+                    "name": "Alexander Serebrenik"
+                },
+                {
+                    "authorId": "2377431",
+                    "name": "Anthony Cleve"
+                }
+            ],
+            "doi": "10.1007/978-3-642-45398-4",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "799169e956f803c4f26c923107abcc9453835bff",
+            "title": "Evolving Software Systems",
+            "url": "https://www.semanticscholar.org/paper/799169e956f803c4f26c923107abcc9453835bff",
+            "venue": "Springer Berlin Heidelberg",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40333094",
+                    "name": "C. Alves"
+                },
+                {
+                    "authorId": "46609431",
+                    "name": "Joyce Aline Oliveira"
+                },
+                {
+                    "authorId": "1698329",
+                    "name": "S. Jansen"
+                }
+            ],
+            "doi": "10.5220/0006269402150226",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "adf9373ffeb0945b9e0ec8698fe8fd3c157cdec1",
+            "title": "Software Ecosystems Governance - A Systematic Literature Review and Research Agenda",
+            "url": "https://www.semanticscholar.org/paper/adf9373ffeb0945b9e0ec8698fe8fd3c157cdec1",
+            "venue": "ICEIS",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2885291",
+                    "name": "Elina Annanper\u00e4"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "185155c44362b565bb82cb462299ec2f947eef04",
+            "title": "Source Software Ecosystem : A Systematic Literature",
+            "url": "https://www.semanticscholar.org/paper/185155c44362b565bb82cb462299ec2f947eef04",
+            "venue": "",
+            "year": 2016
+        }
+    ],
+    "corpusId": 15526693,
+    "doi": "10.1109/MSR.2013.6624032",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 2,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 18,
+    "numCiting": 16,
+    "paperId": "ddd2a0d77b1094edca9adad0d3999f696d7cd612",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2434621",
+                    "name": "Bogdan Vasilescu"
+                },
+                {
+                    "authorId": "1747171",
+                    "name": "Alexander Serebrenik"
+                },
+                {
+                    "authorId": "2855002",
+                    "name": "M. Goeminne"
+                },
+                {
+                    "authorId": "1794675",
+                    "name": "T. Mens"
+                }
+            ],
+            "doi": "10.1007/s10664-013-9244-1",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "e25bc6dcc95b80b3c54012925f65167d0f812288",
+            "title": "On the variation and specialisation of workload\u2014A case study of the Gnome ecosystem community",
+            "url": "https://www.semanticscholar.org/paper/e25bc6dcc95b80b3c54012925f65167d0f812288",
+            "venue": "Empirical Software Engineering",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2855002",
+                    "name": "M. Goeminne"
+                },
+                {
+                    "authorId": "1794675",
+                    "name": "T. Mens"
+                }
+            ],
+            "doi": "10.1016/J.SCICO.2011.11.004",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0927dc66bc647ea249c731c76da4b0f17be52c2c",
+            "title": "A comparison of identity merge algorithms for software repositories",
+            "url": "https://www.semanticscholar.org/paper/0927dc66bc647ea249c731c76da4b0f17be52c2c",
+            "venue": "Sci. Comput. Program.",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2855002",
+                    "name": "M. Goeminne"
+                },
+                {
+                    "authorId": "1794675",
+                    "name": "T. Mens"
+                }
+            ],
+            "doi": "10.4337/9781781955635.00021",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f41531ef690515ac6bfb573a43b8b2a7045c21ec",
+            "title": "Analyzing ecosystems for open source software developer communities: Analyzing and Managing Business Networks in the Software Industry",
+            "url": "https://www.semanticscholar.org/paper/f41531ef690515ac6bfb573a43b8b2a7045c21ec",
+            "venue": "",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1406428931",
+                    "name": "S. Neu"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                },
+                {
+                    "authorId": "1817341",
+                    "name": "Lile Hattori"
+                },
+                {
+                    "authorId": "153685300",
+                    "name": "Marco D'Ambros"
+                }
+            ],
+            "doi": "10.1109/VISSOF.2011.6069459",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "aced2ea0dad91e386f5b6139b41125eceb08b299",
+            "title": "Telling stories about GNOME with Complicity",
+            "url": "https://www.semanticscholar.org/paper/aced2ea0dad91e386f5b6139b41125eceb08b299",
+            "venue": "2011 6th International Workshop on Visualizing Software for Understanding and Analysis (VISSOFT)",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2488565",
+                    "name": "C. Jergensen"
+                },
+                {
+                    "authorId": "2805449",
+                    "name": "A. Sarma"
+                },
+                {
+                    "authorId": "1728292",
+                    "name": "Patrick Wagstrom"
+                }
+            ],
+            "doi": "10.1145/2025113.2025127",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e4f9a6c0c182986deaf34c1f00c2dbef142d3b54",
+            "title": "The onion patch: migration in open source ecosystems",
+            "url": "https://www.semanticscholar.org/paper/e4f9a6c0c182986deaf34c1f00c2dbef142d3b54",
+            "venue": "ESEC/FSE '11",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1824150",
+                    "name": "J. Krinke"
+                },
+                {
+                    "authorId": "1754291",
+                    "name": "N. Gold"
+                },
+                {
+                    "authorId": "145401173",
+                    "name": "Yue Jia"
+                },
+                {
+                    "authorId": "3408880",
+                    "name": "D. Binkley"
+                }
+            ],
+            "doi": "10.1109/MSR.2010.5463290",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "06062d6d870a8c9799d6851dd351b055ef5c7e39",
+            "title": "Cloning and copying between GNOME projects",
+            "url": "https://www.semanticscholar.org/paper/06062d6d870a8c9799d6851dd351b055ef5c7e39",
+            "venue": "2010 7th IEEE Working Conference on Mining Software Repositories (MSR 2010)",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145369636",
+                    "name": "Abram Hindle"
+                },
+                {
+                    "authorId": "35197893",
+                    "name": "I. Herraiz"
+                },
+                {
+                    "authorId": "3318024",
+                    "name": "Emad Shihab"
+                },
+                {
+                    "authorId": "1762589",
+                    "name": "Z. Jiang"
+                }
+            ],
+            "doi": "10.1109/MSR.2010.5463350",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b786e0718f92328e7dd463be3dca5d1954325f0f",
+            "title": "Mining Challenge 2010: FreeBSD, GNOME Desktop and Debian/Ubuntu",
+            "url": "https://www.semanticscholar.org/paper/b786e0718f92328e7dd463be3dca5d1954325f0f",
+            "venue": "2010 7th IEEE Working Conference on Mining Software Repositories (MSR 2010)",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2223593",
+                    "name": "Bart Luijten"
+                },
+                {
+                    "authorId": "145039625",
+                    "name": "Joost Visser"
+                },
+                {
+                    "authorId": "1702285",
+                    "name": "A. Zaidman"
+                }
+            ],
+            "doi": "10.1109/MSR.2010.5463292",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "38b2a3bf6b51c2598778f02b4d7c11247a691419",
+            "title": "Assessment of issue handling efficiency",
+            "url": "https://www.semanticscholar.org/paper/38b2a3bf6b51c2598778f02b4d7c11247a691419",
+            "venue": "2010 7th IEEE Working Conference on Mining Software Repositories (MSR 2010)",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3186827",
+                    "name": "Erik J. Linstead"
+                },
+                {
+                    "authorId": "144902513",
+                    "name": "P. Baldi"
+                }
+            ],
+            "doi": "10.1109/MSR.2009.5069486",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e4d026f5437b837f22b79b19ecf34b7b806f0820",
+            "title": "Mining the coherence of GNOME bug reports with statistical topic models",
+            "url": "https://www.semanticscholar.org/paper/e4d026f5437b837f22b79b19ecf34b7b806f0820",
+            "venue": "2009 6th IEEE International Working Conference on Mining Software Repositories",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2288367",
+                    "name": "Holger Schackmann"
+                },
+                {
+                    "authorId": "1780564",
+                    "name": "H. Lichter"
+                }
+            ],
+            "doi": "10.1109/MSR.2009.5069485",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "18c66f9cdc28cbe787080e03ff608c549cbdb054",
+            "title": "Evaluating process quality in GNOME based on change request data",
+            "url": "https://www.semanticscholar.org/paper/18c66f9cdc28cbe787080e03ff608c549cbdb054",
+            "venue": "2009 6th IEEE International Working Conference on Mining Software Repositories",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2564200",
+                    "name": "Jason R. Casebolt"
+                },
+                {
+                    "authorId": "1734066",
+                    "name": "Jonathan L. Krein"
+                },
+                {
+                    "authorId": "1795822",
+                    "name": "Alexander C. MacLean"
+                },
+                {
+                    "authorId": "1752895",
+                    "name": "C. Knutson"
+                },
+                {
+                    "authorId": "38571794",
+                    "name": "Daniel P. Delorey"
+                }
+            ],
+            "doi": "10.1109/MSR.2009.5069484",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fb93c3b3d030c110be574c43187b06f22ba968e7",
+            "title": "Author entropy vs. file size in the gnome suite of applications",
+            "url": "https://www.semanticscholar.org/paper/fb93c3b3d030c110be574c43187b06f22ba968e7",
+            "venue": "2009 6th IEEE International Working Conference on Mining Software Repositories",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145724817",
+                    "name": "M. Lungu"
+                },
+                {
+                    "authorId": "2249754",
+                    "name": "Jacopo Malnati"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                }
+            ],
+            "doi": "10.1109/MSR.2009.5069487",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "bc690d71bec7103bd406967cef1bc81cb338f0d7",
+            "title": "Visualizing Gnome with the Small Project Observatory",
+            "url": "https://www.semanticscholar.org/paper/bc690d71bec7103bd406967cef1bc81cb338f0d7",
+            "venue": "2009 6th IEEE International Working Conference on Mining Software Repositories",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2075264068",
+                    "name": "Luis L\u00f3pez-Fern\u00e1ndez"
+                },
+                {
+                    "authorId": "143684601",
+                    "name": "G. Robles"
+                },
+                {
+                    "authorId": "1397826059",
+                    "name": "Jesus M. Gonzalez-Barahona"
+                },
+                {
+                    "authorId": "35197893",
+                    "name": "I. Herraiz"
+                }
+            ],
+            "doi": "10.4018/JITWE.2006070103",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7e7c42c1671aa4d88f827de370082d665c6296e2",
+            "title": "Applying Social Network Analysis Techniques to Community-Driven Libre Software Projects",
+            "url": "https://www.semanticscholar.org/paper/7e7c42c1671aa4d88f827de370082d665c6296e2",
+            "venue": "Int. J. Inf. Technol. Web Eng.",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "115911797",
+                    "name": "S. Koch"
+                },
+                {
+                    "authorId": "145406807",
+                    "name": "George H. Schneider"
+                }
+            ],
+            "doi": "10.1046/j.1365-2575.2002.00110.x",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "f95a755eb3446b52c395a9a19be140b6b3a2b92b",
+            "title": "Effort, co\u2010operation and co\u2010ordination in an open source software project: GNOME",
+            "url": "https://www.semanticscholar.org/paper/f95a755eb3446b52c395a9a19be140b6b3a2b92b",
+            "venue": "Inf. Syst. J.",
+            "year": 2002
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1734481",
+                    "name": "Eirini Kalliamvakou"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "896213ef594afb6c5ddf9b0dbbbe4d0975424c23",
+            "title": "Mediterranean Conference on Information Systems ( MCIS ) 2009 Measuring Developer Contribution From Software Repository Data",
+            "url": "https://www.semanticscholar.org/paper/896213ef594afb6c5ddf9b0dbbbe4d0975424c23",
+            "venue": "",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2317796647",
+                    "name": "Christof Ebert"
+                },
+                {
+                    "authorId": "39934325",
+                    "name": "P. D. Neve"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "3e66cd642250e0209a35acf739a9b576df6333ae",
+            "title": "global softwar e development",
+            "url": "https://www.semanticscholar.org/paper/3e66cd642250e0209a35acf739a9b576df6333ae",
+            "venue": "",
+            "year": 2001
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "History",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "A historical dataset for the Gnome ecosystem",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/ddd2a0d77b1094edca9adad0d3999f696d7cd612",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2013
+}

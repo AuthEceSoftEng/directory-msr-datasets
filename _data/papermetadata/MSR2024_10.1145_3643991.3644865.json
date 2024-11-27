@@ -1,0 +1,461 @@
+{
+    "abstract": "Pure Data (PD), a data-flow based visual programming language utilized for music and sound synthesis, remains underexplored in software engineering research. Existing literature fails to address the nuanced programming practices within PD, prompting the need to investigate how end-users manipulate nodes and edges in this visual language. This paper systematically extracts and analyzes 6,534 publicly available PD projects from GitHub. Employing source code parsing, pattern matching, and statistical analysis, we unveil usage patterns of PD by the end-user programmers. We found that most revisions of the PD files are small and simple, with fewer than 64 nodes, 51 connections, and 3 revisions. Most PD projects have less than 17 PD files, 31 commits, and only 1 author working on the PD files. The median differences in the number of nodes and edges between each commit and its parents, modifying the same file, are 3 and 0, respectively, implying small changes across various revisions of a PD file. Our findings contribute a valuable dataset for future studies, addressing the dearth of research in PD. By unraveling usage patterns, we provide insights that empower scholars and practitioners to optimize the programming experience for end-users in the realm of visual programming languages.CCS CONCEPTS\u2022 Software and its engineering \u2192 Visual languages.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2223110142",
+            "name": "Anisha Islam",
+            "url": "https://www.semanticscholar.org/author/2223110142"
+        },
+        {
+            "authorId": "71278583",
+            "name": "Kalvin Eng",
+            "url": "https://www.semanticscholar.org/author/71278583"
+        },
+        {
+            "authorId": "145369636",
+            "name": "Abram Hindle",
+            "url": "https://www.semanticscholar.org/author/145369636"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [],
+    "corpusId": 270594234,
+    "doi": "10.1145/3643991.3644865",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 0,
+    "numCiting": 18,
+    "paperId": "aaa161560a85a0339b1251c343159e03f185e45d",
+    "references": [
+        {
+            "arxivId": "2309.03414",
+            "authors": [
+                {
+                    "authorId": "71278583",
+                    "name": "Kalvin Eng"
+                },
+                {
+                    "authorId": "145369636",
+                    "name": "Abram Hindle"
+                },
+                {
+                    "authorId": "2238206143",
+                    "name": "Alexander Senchenko"
+                }
+            ],
+            "doi": "10.1109/ICSME58846.2023.00062",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "bb1867bc2695b05f22d5b47660b567faa96ec61a",
+            "title": "Predicting Defective Visual Code Changes in a Multi-Language AAA Video Game Project",
+            "url": "https://www.semanticscholar.org/paper/bb1867bc2695b05f22d5b47660b567faa96ec61a",
+            "venue": "2023 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2309.03411",
+            "authors": [
+                {
+                    "authorId": "71278583",
+                    "name": "Kalvin Eng"
+                },
+                {
+                    "authorId": "145369636",
+                    "name": "Abram Hindle"
+                },
+                {
+                    "authorId": "2238206143",
+                    "name": "Alexander Senchenko"
+                }
+            ],
+            "doi": "10.1109/ICSME58846.2023.00061",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1b78669e3686c9d653e2da344e59f10ddf6fcf2e",
+            "title": "Identifying Defect-Inducing Changes in Visual Code",
+            "url": "https://www.semanticscholar.org/paper/1b78669e3686c9d653e2da344e59f10ddf6fcf2e",
+            "venue": "2023 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2010.16196",
+            "authors": [
+                {
+                    "authorId": "7777374",
+                    "name": "Yuxing Ma"
+                },
+                {
+                    "authorId": "8041820",
+                    "name": "Tapajit Dey"
+                },
+                {
+                    "authorId": "2065313146",
+                    "name": "Chris Bogart"
+                },
+                {
+                    "authorId": "3110752",
+                    "name": "Sadika Amreen"
+                },
+                {
+                    "authorId": "2091537692",
+                    "name": "Marat Valiev"
+                },
+                {
+                    "authorId": "1866565388",
+                    "name": "Adam Tutko"
+                },
+                {
+                    "authorId": "2081943297",
+                    "name": "David Kennard"
+                },
+                {
+                    "authorId": "2858102",
+                    "name": "R. Zaretzki"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09905-9",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "12404a5147b39e9a34849606bf2c056f84903c8d",
+            "title": "World of code: enabling a research workflow for mining and analyzing the universe of open source VCS data",
+            "url": "https://www.semanticscholar.org/paper/12404a5147b39e9a34849606bf2c056f84903c8d",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "122175005",
+                    "name": "L. Gopalan"
+                }
+            ],
+            "doi": "10.1215/9781478007081-004",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0807fea3352abadc78bab9b4926beaa50d5e5c53",
+            "title": "[Opening]",
+            "url": "https://www.semanticscholar.org/paper/0807fea3352abadc78bab9b4926beaa50d5e5c53",
+            "venue": "YEAR 1",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2437564",
+                    "name": "Hsin-Ming Lin"
+                },
+                {
+                    "authorId": "2146115851",
+                    "name": "Chin-Ming Lin"
+                }
+            ],
+            "doi": "10.5281/zenodo.1179118",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f7b7924e45a8aef896bebf2abe3b7492b9164b98",
+            "title": "Harmonic intonation trainer: an open implementation in pure data",
+            "url": "https://www.semanticscholar.org/paper/f7b7924e45a8aef896bebf2abe3b7492b9164b98",
+            "venue": "NIME",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40425335",
+                    "name": "Gregory Burlet"
+                },
+                {
+                    "authorId": "145369636",
+                    "name": "Abram Hindle"
+                }
+            ],
+            "doi": "10.1109/MSR.2015.34",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "e2ba7f0dee4e3f8bc75df84deca700b87357c6ec",
+            "title": "An Empirical Study of End-User Programmers in the Computer Music Community",
+            "url": "https://www.semanticscholar.org/paper/e2ba7f0dee4e3f8bc75df84deca700b87357c6ec",
+            "venue": "2015 IEEE/ACM 12th Working Conference on Mining Software Repositories",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144057160",
+                    "name": "M. Miron"
+                },
+                {
+                    "authorId": "145932555",
+                    "name": "M. Davies"
+                },
+                {
+                    "authorId": "3173571",
+                    "name": "F. Gouyon"
+                }
+            ],
+            "doi": "10.1109/ICASSP.2013.6637641",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e86d91cbada68bd9ad027bc549ed342915110146",
+            "title": "An open-source drum transcription system for Pure Data and Max MSP",
+            "url": "https://www.semanticscholar.org/paper/e86d91cbada68bd9ad027bc549ed342915110146",
+            "venue": "2013 IEEE International Conference on Acoustics, Speech and Signal Processing",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40463279",
+                    "name": "Gilberto Bernardes"
+                },
+                {
+                    "authorId": "144453899",
+                    "name": "C. Guedes"
+                },
+                {
+                    "authorId": "2423263",
+                    "name": "B. Pennycook"
+                }
+            ],
+            "doi": "10.1007/978-3-642-41248-6_7",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "014de74f609bf6f9eb63afb4afc2248253437e5f",
+            "title": "EarGram: An Application for Interactive Exploration of Concatenative Sound Synthesis in Pure Data",
+            "url": "https://www.semanticscholar.org/paper/014de74f609bf6f9eb63afb4afc2248253437e5f",
+            "venue": "CMMR",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2619495",
+                    "name": "Kathryn T. Stolee"
+                },
+                {
+                    "authorId": "143754832",
+                    "name": "Sebastian G. Elbaum"
+                },
+                {
+                    "authorId": "2805449",
+                    "name": "A. Sarma"
+                }
+            ],
+            "doi": "10.1109/ESEM.2011.23",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c421e8aa28f1129186ee37486858b6691ca28166",
+            "title": "End-User Programmers and their Communities: An Artifact-based Analysis",
+            "url": "https://www.semanticscholar.org/paper/c421e8aa28f1129186ee37486858b6691ca28166",
+            "venue": "2011 International Symposium on Empirical Software Engineering and Measurement",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1730462",
+                    "name": "Christopher Scaffidi"
+                },
+                {
+                    "authorId": "143921383",
+                    "name": "M. Shaw"
+                },
+                {
+                    "authorId": "1707801",
+                    "name": "B. Myers"
+                }
+            ],
+            "doi": "10.1109/VLHCC.2005.34",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4367371ad5f701af6b079e49da3d27776872bf6f",
+            "title": "Estimating the numbers of end users and end user programmers",
+            "url": "https://www.semanticscholar.org/paper/4367371ad5f701af6b079e49da3d27776872bf6f",
+            "venue": "2005 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC'05)",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "ADatasetofScratchPrograms:Scraped,ShapedandScored",
+            "url": "",
+            "venue": "2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145914568",
+                    "name": "Roger K. Moore"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "101f60ee31c80e5d150f556998cec7122d2b41cb",
+            "title": "On the use of the 'pure data' programming language for teaching and public outreach in speech processing",
+            "url": "https://www.semanticscholar.org/paper/101f60ee31c80e5d150f556998cec7122d2b41cb",
+            "venue": "INTERSPEECH",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "35479075",
+                    "name": "P. Bruel"
+                },
+                {
+                    "authorId": "143689138",
+                    "name": "M. Queiroz"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "90233377794450eb5b50c6175d5b81f804fabd6e",
+            "title": "A Protocol for creating Multiagent Systems in Ensemble with Pure Data",
+            "url": "https://www.semanticscholar.org/paper/90233377794450eb5b50c6175d5b81f804fabd6e",
+            "venue": "ICMC",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Git SCM",
+            "url": "",
+            "venue": "Fips pub",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145034709",
+                    "name": "Marcos Alonso"
+                },
+                {
+                    "authorId": "1832040",
+                    "name": "G. Geiger"
+                },
+                {
+                    "authorId": "143622686",
+                    "name": "S. Jord\u00e0"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8bce36cadc301cb5abf4f2a573bc4bfc4ed07772",
+            "title": "An Internet Browser Plug-in for Real-time Sound Synthesis using Pure Data",
+            "url": "https://www.semanticscholar.org/paper/8bce36cadc301cb5abf4f2a573bc4bfc4ed07772",
+            "venue": "ICMC",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1737204",
+                    "name": "M. Burnett"
+                }
+            ],
+            "doi": "10.1142/9789812389701_0004",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9f7fae782a438f986d90154ad51dfc332bf8e0ac",
+            "title": "SOFTWARE ENGINEERING FOR VISUAL PROGRAMMING LANGUAGES",
+            "url": "https://www.semanticscholar.org/paper/9f7fae782a438f986d90154ad51dfc332bf8e0ac",
+            "venue": "",
+            "year": 2001
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "PureData:anotherintegratedcomputermusicenvironment",
+            "url": "",
+            "venue": "Proceedings of the second intercollege computer music concerts",
+            "year": 1996
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "applicable license agreement with IEEE. Restrictions apply",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "Opening the Valve on Pure-Data: Usage Patterns and Programming Practices of a Data-Flow Based Visual Programming Language",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/aaa161560a85a0339b1251c343159e03f185e45d",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2024
+}

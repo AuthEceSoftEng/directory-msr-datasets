@@ -1,0 +1,848 @@
+{
+    "abstract": "While computer science papers frequently include their associated code repositories, establishing a clear link between papers and their corresponding implementations may be challenging due to the number of code repositories used in research publications. In this paper we describe a lightweight method for effectively identifying bidirectional links between papers and repositories from both LaTeX and PDF sources. We have used our approach to analyze more than 14000 PDF and Latex files in the Software Engineering category of Arxiv, generating a dataset of more than 1400 paper-code implementations and assessing current citation practices on it.CCS CONCEPTS\u2022Applied computing \u2192 Document analysis; \u2022 Software and its engineering \u2192 Software libraries and repositories.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2288094260",
+            "name": "Daniel Garijo",
+            "url": "https://www.semanticscholar.org/author/2288094260"
+        },
+        {
+            "authorId": "2288088666",
+            "name": "Miguel Arroyo",
+            "url": "https://www.semanticscholar.org/author/2288088666"
+        },
+        {
+            "authorId": "2289692409",
+            "name": "Esteban Gonzalez",
+            "url": "https://www.semanticscholar.org/author/2289692409"
+        },
+        {
+            "authorId": "2275887557",
+            "name": "Christoph Treude",
+            "url": "https://www.semanticscholar.org/author/2275887557"
+        },
+        {
+            "authorId": "2288089537",
+            "name": "Nicola Tarocco",
+            "url": "https://www.semanticscholar.org/author/2288089537"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2302339201",
+                    "name": "Aleksandar Stankovski"
+                },
+                {
+                    "authorId": "2302334256",
+                    "name": "Daniel Garijo"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "e987532db0e14299075a5e4deda88eeec38f472f",
+            "title": "RepoFromPaper: An Approach to Extract Software Code Implementations from Scientific Publications",
+            "url": "https://www.semanticscholar.org/paper/e987532db0e14299075a5e4deda88eeec38f472f",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "corpusId": 268053827,
+    "doi": "10.1145/3643991.3644876",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 1,
+    "numCiting": 21,
+    "paperId": "13acedfcbbb42d855b51a044ee693818cf47f939",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2265029378",
+                    "name": "Domhnall Carlin"
+                },
+                {
+                    "authorId": "2264585647",
+                    "name": "Austen Rainer"
+                },
+                {
+                    "authorId": "2264535701",
+                    "name": "David Wilson"
+                }
+            ],
+            "doi": "10.7717/peerj-cs.1546",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7c0af1a5eecfd258c05d3c2ec9350782cd570476",
+            "title": "Where is all the research software? An analysis of software in UK academic repositories",
+            "url": "https://www.semanticscholar.org/paper/7c0af1a5eecfd258c05d3c2ec9350782cd570476",
+            "venue": "PeerJ Comput. Sci.",
+            "year": 2023
+        },
+        {
+            "arxivId": "2307.14469",
+            "authors": [
+                {
+                    "authorId": "2180918738",
+                    "name": "Emily Escamilla"
+                },
+                {
+                    "authorId": "2163311486",
+                    "name": "Lamia Salsabil"
+                },
+                {
+                    "authorId": "144940287",
+                    "name": "Martin Klein"
+                },
+                {
+                    "authorId": "97569165",
+                    "name": "Jian Wu"
+                },
+                {
+                    "authorId": "2223644049",
+                    "name": "C. Michele"
+                },
+                {
+                    "authorId": "2223662642",
+                    "name": "Weigle"
+                },
+                {
+                    "authorId": "1750903",
+                    "name": "Michael L. Nelson"
+                }
+            ],
+            "doi": "10.48550/arXiv.2307.14469",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5ab66e825d5f2c8299a1d098e7a5554cd511be4b",
+            "title": "It's Not Just GitHub: Identifying Data and Software Sources Included in Publications",
+            "url": "https://www.semanticscholar.org/paper/5ab66e825d5f2c8299a1d098e7a5554cd511be4b",
+            "venue": "TPDL",
+            "year": 2023
+        },
+        {
+            "arxivId": "2209.00693",
+            "authors": [
+                {
+                    "authorId": "1972212353",
+                    "name": "Ana-Maria Istrate"
+                },
+                {
+                    "authorId": "49620913",
+                    "name": "Donghui Li"
+                },
+                {
+                    "authorId": "1682815",
+                    "name": "Dario Taraborelli"
+                },
+                {
+                    "authorId": "9787718",
+                    "name": "M. Torkar"
+                },
+                {
+                    "authorId": "3728225",
+                    "name": "Boris Veytsman"
+                },
+                {
+                    "authorId": "153921540",
+                    "name": "Ivana Williams"
+                }
+            ],
+            "doi": "10.48550/arXiv.2209.00693",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7df7782e87e4ab23cfd66031d519b0f90921ef53",
+            "title": "A large dataset of software mentions in the biomedical literature",
+            "url": "https://www.semanticscholar.org/paper/7df7782e87e4ab23cfd66031d519b0f90921ef53",
+            "venue": "ArXiv",
+            "year": 2022
+        },
+        {
+            "arxivId": "2208.04895",
+            "authors": [
+                {
+                    "authorId": "2180918738",
+                    "name": "Emily Escamilla"
+                },
+                {
+                    "authorId": "144940287",
+                    "name": "Martin Klein"
+                },
+                {
+                    "authorId": "2180876342",
+                    "name": "Talya Cooper"
+                },
+                {
+                    "authorId": "2093168445",
+                    "name": "Vicky Rampin"
+                },
+                {
+                    "authorId": "1793181",
+                    "name": "Michele C. Weigle"
+                },
+                {
+                    "authorId": "2074104282",
+                    "name": "Michael L. Nelson"
+                }
+            ],
+            "doi": "10.48550/arXiv.2208.04895",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "ab748ede07332f9bca7f95a6938f34fb6a9d368f",
+            "title": "The Rise of GitHub in Scholarly Publications",
+            "url": "https://www.semanticscholar.org/paper/ab748ede07332f9bca7f95a6938f34fb6a9d368f",
+            "venue": "TPDL",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2060790637",
+                    "name": "David Schindler"
+                },
+                {
+                    "authorId": "2493865",
+                    "name": "Felix Bensmann"
+                },
+                {
+                    "authorId": "3081683",
+                    "name": "S. Dietze"
+                },
+                {
+                    "authorId": "2056602911",
+                    "name": "Frank Kr\u00fcger"
+                }
+            ],
+            "doi": "10.7717/peerj-cs.835",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "eec7e7eea9fe6cdf84954f3ce0dab7897bfb061f",
+            "title": "The role of software in science: a knowledge graph-based analysis of software mentions in PubMed Central",
+            "url": "https://www.semanticscholar.org/paper/eec7e7eea9fe6cdf84954f3ce0dab7897bfb061f",
+            "venue": "PeerJ Comput. Sci.",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "115336976",
+                    "name": "Aidan Kelley"
+                },
+                {
+                    "authorId": "1398926410",
+                    "name": "D. Garijo"
+                }
+            ],
+            "doi": "10.1162/qss_a_00167",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "3e66ebde989ccc54ca42e4a4a7ac9c5ff9fd07a2",
+            "title": "A framework for creating knowledge graphs of scientific software metadata",
+            "url": "https://www.semanticscholar.org/paper/3e66ebde989ccc54ca42e4a4a7ac9c5ff9fd07a2",
+            "venue": "Quantitative Science Studies",
+            "year": 2021
+        },
+        {
+            "arxivId": "2104.05891",
+            "authors": [
+                {
+                    "authorId": "145050815",
+                    "name": "Hideaki Hata"
+                },
+                {
+                    "authorId": "2157959410",
+                    "name": "Jin L. C. Guo"
+                },
+                {
+                    "authorId": "1680034",
+                    "name": "R. Kula"
+                },
+                {
+                    "authorId": "1685418",
+                    "name": "Christoph Treude"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "7ab6fbde3b3580ec9990d51f56565103752a593f",
+            "title": "Science-Software Linkage: The Challenges of Traceability between Scientific Knowledge and Software Artifacts",
+            "url": "https://www.semanticscholar.org/paper/7ab6fbde3b3580ec9990d51f56565103752a593f",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2052318588",
+                    "name": "C. Du"
+                },
+                {
+                    "authorId": "2582225",
+                    "name": "J. Cohoon"
+                },
+                {
+                    "authorId": "143831992",
+                    "name": "Patrice Lopez"
+                },
+                {
+                    "authorId": "2178028",
+                    "name": "J. Howison"
+                }
+            ],
+            "doi": "10.1002/asi.24454",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "ff8287560c18c4c905f533bd3e423570ce1004fe",
+            "title": "Softcite dataset: A dataset of software mentions in biomedical and economic research publications",
+            "url": "https://www.semanticscholar.org/paper/ff8287560c18c4c905f533bd3e423570ce1004fe",
+            "venue": "J. Assoc. Inf. Sci. Technol.",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2350478",
+                    "name": "R. Heum\u00fcller"
+                },
+                {
+                    "authorId": "3289277",
+                    "name": "Sebastian Nielebock"
+                },
+                {
+                    "authorId": "38256069",
+                    "name": "J. Kr\u00fcger"
+                },
+                {
+                    "authorId": "2421227",
+                    "name": "F. Ortmeier"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09851-6",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6f0d5b82b01ccd9b1b3d9443107a8484a5bc57cb",
+            "title": "Publish or perish, but do not forget your software artifacts",
+            "url": "https://www.semanticscholar.org/paper/6f0d5b82b01ccd9b1b3d9443107a8484a5bc57cb",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": "2004.00199",
+            "authors": [
+                {
+                    "authorId": "84165401",
+                    "name": "Supatsara Wattanakriengkrai"
+                },
+                {
+                    "authorId": "3409698",
+                    "name": "Bodin Chinthanet"
+                },
+                {
+                    "authorId": "145050815",
+                    "name": "Hideaki Hata"
+                },
+                {
+                    "authorId": "1680034",
+                    "name": "R. Kula"
+                },
+                {
+                    "authorId": "1685418",
+                    "name": "Christoph Treude"
+                },
+                {
+                    "authorId": "2157959410",
+                    "name": "Jin L. C. Guo"
+                },
+                {
+                    "authorId": "2148302707",
+                    "name": "Kenichi Matsumoto"
+                }
+            ],
+            "doi": "10.1016/j.jss.2021.111117",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e4e76f0d7aaf03e1c258e0f09e48b3142cd39adc",
+            "title": "GitHub repositories with links to academic papers: Public access, traceability, and evolution",
+            "url": "https://www.semanticscholar.org/paper/e4e76f0d7aaf03e1c258e0f09e48b3142cd39adc",
+            "venue": "J. Syst. Softw.",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2064017837",
+                    "name": "Allen Mao"
+                },
+                {
+                    "authorId": "1398926410",
+                    "name": "D. Garijo"
+                },
+                {
+                    "authorId": "2936338",
+                    "name": "Shobeir Fakhraei"
+                }
+            ],
+            "doi": "10.1109/BigData47090.2019.9006447",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "918695c01099f8391f6345881674611247720010",
+            "title": "SoMEF: A Framework for Capturing Scientific Software Metadata from its Documentation",
+            "url": "https://www.semanticscholar.org/paper/918695c01099f8391f6345881674611247720010",
+            "venue": "2019 IEEE International Conference on Big Data (Big Data)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2144654209",
+                    "name": "Arfon M. Smith"
+                },
+                {
+                    "authorId": "47036435",
+                    "name": "D. Katz"
+                },
+                {
+                    "authorId": "2373019",
+                    "name": "Kyle E. Niemeyer"
+                }
+            ],
+            "doi": "10.7717/PEERJ-CS.86",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "14b8b99e57c4476a6661044ad5dc3c802b62655b",
+            "title": "Software citation principles",
+            "url": "https://www.semanticscholar.org/paper/14b8b99e57c4476a6661044ad5dc3c802b62655b",
+            "venue": "PeerJ Comput. Sci.",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "31764087",
+                    "name": "Mark D. Wilkinson"
+                },
+                {
+                    "authorId": "1736389",
+                    "name": "M. Dumontier"
+                },
+                {
+                    "authorId": "1975615",
+                    "name": "I. J. Aalbersberg"
+                },
+                {
+                    "authorId": "74186014",
+                    "name": "Gabrielle Appleton"
+                },
+                {
+                    "authorId": "4006952",
+                    "name": "M. Axton"
+                },
+                {
+                    "authorId": "20313879",
+                    "name": "A. Baak"
+                },
+                {
+                    "authorId": "2776517",
+                    "name": "N. Blomberg"
+                },
+                {
+                    "authorId": "34945757",
+                    "name": "J. Boiten"
+                },
+                {
+                    "authorId": "115529154",
+                    "name": "Luiz Olavo Bonino da Silva Santos"
+                },
+                {
+                    "authorId": "2048644",
+                    "name": "P. Bourne"
+                },
+                {
+                    "authorId": "47611747",
+                    "name": "J. Bouwman"
+                },
+                {
+                    "authorId": "2160154",
+                    "name": "A. Brookes"
+                },
+                {
+                    "authorId": "145469718",
+                    "name": "Tim Clark"
+                },
+                {
+                    "authorId": "3000963",
+                    "name": "M. Crosas"
+                },
+                {
+                    "authorId": "145479127",
+                    "name": "I. Dillo"
+                },
+                {
+                    "authorId": "116235596",
+                    "name": "Olivier Dumon"
+                },
+                {
+                    "authorId": "1940242",
+                    "name": "S. Edmunds"
+                },
+                {
+                    "authorId": "2185817",
+                    "name": "C. Evelo"
+                },
+                {
+                    "authorId": "2425367",
+                    "name": "R. Finkers"
+                },
+                {
+                    "authorId": "1401553965",
+                    "name": "Alejandra N. Gonz\u00e1lez-Beltr\u00e1n"
+                },
+                {
+                    "authorId": "34071005",
+                    "name": "A. Gray"
+                },
+                {
+                    "authorId": "143772714",
+                    "name": "Paul Groth"
+                },
+                {
+                    "authorId": "46555127",
+                    "name": "C. Goble"
+                },
+                {
+                    "authorId": "1736528",
+                    "name": "J. Grethe"
+                },
+                {
+                    "authorId": "1699372",
+                    "name": "J. Heringa"
+                },
+                {
+                    "authorId": "1396879481",
+                    "name": "P. \u2019. \u2019t Hoen"
+                },
+                {
+                    "authorId": "2359250",
+                    "name": "R. Hooft"
+                },
+                {
+                    "authorId": "145727607",
+                    "name": "Tobias Kuhn"
+                },
+                {
+                    "authorId": "47044989",
+                    "name": "Ruben G. Kok"
+                },
+                {
+                    "authorId": "1713683",
+                    "name": "J. Kok"
+                },
+                {
+                    "authorId": "4297975",
+                    "name": "S. Lusher"
+                },
+                {
+                    "authorId": "2969738",
+                    "name": "M. Martone"
+                },
+                {
+                    "authorId": "6027579",
+                    "name": "Albert Mons"
+                },
+                {
+                    "authorId": "2455243",
+                    "name": "A. Packer"
+                },
+                {
+                    "authorId": "2059300547",
+                    "name": "Bengt Persson"
+                },
+                {
+                    "authorId": "1397958214",
+                    "name": "P. Rocca-Serra"
+                },
+                {
+                    "authorId": "144140870",
+                    "name": "M. Roos"
+                },
+                {
+                    "authorId": "51420525",
+                    "name": "Rene C. van Schaik"
+                },
+                {
+                    "authorId": "1760490",
+                    "name": "Susanna-Assunta Sansone"
+                },
+                {
+                    "authorId": "1883372",
+                    "name": "E. Schultes"
+                },
+                {
+                    "authorId": "2510671",
+                    "name": "T. Sengstag"
+                },
+                {
+                    "authorId": "38261192",
+                    "name": "Ted Slater"
+                },
+                {
+                    "authorId": "2013713",
+                    "name": "George O. Strawn"
+                },
+                {
+                    "authorId": "144034058",
+                    "name": "M. Swertz"
+                },
+                {
+                    "authorId": "143962914",
+                    "name": "Mark Thompson"
+                },
+                {
+                    "authorId": "84257307",
+                    "name": "J. van der Lei"
+                },
+                {
+                    "authorId": "11563451",
+                    "name": "Erik M. van Mulligen"
+                },
+                {
+                    "authorId": "3261874",
+                    "name": "Jan Velterop"
+                },
+                {
+                    "authorId": "48709451",
+                    "name": "A. Waagmeester"
+                },
+                {
+                    "authorId": "1681130",
+                    "name": "P. Wittenburg"
+                },
+                {
+                    "authorId": "143780913",
+                    "name": "K. Wolstencroft"
+                },
+                {
+                    "authorId": "48019160",
+                    "name": "Jun Zhao"
+                },
+                {
+                    "authorId": "1995836",
+                    "name": "B. Mons"
+                }
+            ],
+            "doi": "10.1038/sdata.2016.18",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e936f248b2c0489316ed1521656af2564c3502c3",
+            "title": "The FAIR Guiding Principles for scientific data management and stewardship",
+            "url": "https://www.semanticscholar.org/paper/e936f248b2c0489316ed1521656af2564c3502c3",
+            "venue": "Scientific Data",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2178028",
+                    "name": "J. Howison"
+                },
+                {
+                    "authorId": "1705550",
+                    "name": "J. Herbsleb"
+                }
+            ],
+            "doi": "10.1145/2441776.2441828",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "787e1f911def81beeadaa7db383e6247899a8cd9",
+            "title": "Incentives and integration in scientific software production",
+            "url": "https://www.semanticscholar.org/paper/787e1f911def81beeadaa7db383e6247899a8cd9",
+            "venue": "CSCW",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1820821064",
+                    "name": "T. Mackey"
+                }
+            ],
+            "doi": "10.1111/j.1600-0897.2005.00313.x",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "32982b84936a147fe46f444d63038f2824d1544c",
+            "title": "Format",
+            "url": "https://www.semanticscholar.org/paper/32982b84936a147fe46f444d63038f2824d1544c",
+            "venue": "",
+            "year": 2005
+        },
+        {
+            "arxivId": "2209.14155",
+            "authors": [
+                {
+                    "authorId": "1651633605",
+                    "name": "Jialiang Lin"
+                },
+                {
+                    "authorId": "2157276604",
+                    "name": "Yingmin Wang"
+                },
+                {
+                    "authorId": "2166593892",
+                    "name": "Yao Yu"
+                },
+                {
+                    "authorId": "2289031922",
+                    "name": "Yu Zhou"
+                },
+                {
+                    "authorId": "47558200",
+                    "name": "Yidong Chen"
+                },
+                {
+                    "authorId": "1755321",
+                    "name": "X. Shi"
+                }
+            ],
+            "doi": "10.1142/S0218194022500358",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "a42161645527bc5fb16a671345b7c51414401778",
+            "title": "Automatic Analysis of Available Source Code of Top Artificial Intelligence Conference Papers",
+            "url": "https://www.semanticscholar.org/paper/a42161645527bc5fb16a671345b7c51414401778",
+            "venue": "Int. J. Softw. Eng. Knowl. Eng.",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Defining Research Software: a controversial discussion",
+            "url": "",
+            "venue": "",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "FromAcademiatoSoftwareDevelopment:PublicationCitationsinSource CodeComments",
+            "url": "",
+            "venue": "",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": true,
+            "paperId": "",
+            "title": "2024. Scripts and data used in the paper",
+            "url": "",
+            "venue": "the evaluation",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "agreement with IEEE. Restrictions apply",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2023. Bidirectional paper-repository",
+            "url": "",
+            "venue": "paper-repository traceability",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "Bidirectional Paper-Repository Tracing in Software Engineering",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/13acedfcbbb42d855b51a044ee693818cf47f939",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2024
+}

@@ -1,0 +1,558 @@
+{
+    "abstract": "Deep learning (dl) models are being widely deployed in real-world applications, but their usage remains computationally intensive and energy-hungry. While prior work has examined model-level energy usage, the energy footprint of the dl frameworks, such as TensorFlow and PyTorch, used to train and build these models, has not been thoroughly studied. We present Greenlight, a large-scale dataset containing fine-grained energy profiling information of 1284 TensorFlow api calls. We developed a command line tool called CodeGreen to curate such a dataset. CodeGreen is based on our previously proposed framework FECoM, which employs static analysis and code instrumentation to isolate invocations of TensorFlow operations and measure their energy consumption precisely. By executing api calls on representative workloads and measuring the consumed energy, we construct detailed energy profiles for the apis. Several factors, such as input data size and the type of operation, significantly impact energy footprints. Greenlight provides a ground-truth dataset capturing energy consumption along with relevant factors such as input parameter size to take the first step towards optimization of energy-intensive TensorFlow code. The Greenlight dataset opens up new research directions such as predicting api energy consumption, automated optimization, modeling efficiency trade-offs, and empirical studies into energy-aware dl system design.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2281652672",
+            "name": "Saurabhsingh Rajput",
+            "url": "https://www.semanticscholar.org/author/2281652672"
+        },
+        {
+            "authorId": "3126897",
+            "name": "M. Kechagia",
+            "url": "https://www.semanticscholar.org/author/3126897"
+        },
+        {
+            "authorId": "2275465565",
+            "name": "Federica Sarro",
+            "url": "https://www.semanticscholar.org/author/2275465565"
+        },
+        {
+            "authorId": "2233087051",
+            "name": "Tushar Sharma",
+            "url": "https://www.semanticscholar.org/author/2233087051"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [],
+    "corpusId": 267302140,
+    "doi": "10.1145/3643991.3644894",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 0,
+    "numCiting": 20,
+    "paperId": "7df415736e82811cd48ac4dab00d5e0b0c000801",
+    "references": [
+        {
+            "arxivId": "2311.16863",
+            "authors": [
+                {
+                    "authorId": "2165225321",
+                    "name": "Sasha Luccioni"
+                },
+                {
+                    "authorId": "2268491803",
+                    "name": "Yacine Jernite"
+                },
+                {
+                    "authorId": "2268272",
+                    "name": "Emma Strubell"
+                }
+            ],
+            "doi": "10.1145/3630106.3658542",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9eb476cd15becf02163d6f3dab75d207eed52214",
+            "title": "Power Hungry Processing: Watts Driving the Cost of AI Deployment?",
+            "url": "https://www.semanticscholar.org/paper/9eb476cd15becf02163d6f3dab75d207eed52214",
+            "venue": "FAccT",
+            "year": 2023
+        },
+        {
+            "arxivId": "2307.00368",
+            "authors": [
+                {
+                    "authorId": "2221010412",
+                    "name": "Dario Lazzaro"
+                },
+                {
+                    "authorId": "1941248366",
+                    "name": "Antonio Emanuele Cin\u00e0"
+                },
+                {
+                    "authorId": "77543631",
+                    "name": "Maura Pintor"
+                },
+                {
+                    "authorId": "2272441",
+                    "name": "Ambra Demontis"
+                },
+                {
+                    "authorId": "1684175",
+                    "name": "B. Biggio"
+                },
+                {
+                    "authorId": "1710171",
+                    "name": "F. Roli"
+                },
+                {
+                    "authorId": "8111020",
+                    "name": "M. Pelillo"
+                }
+            ],
+            "doi": "10.48550/arXiv.2307.00368",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b47a576d7e6208314791cc20e1b65894096a45b0",
+            "title": "Minimizing Energy Consumption of Deep Learning Models by Energy-Aware Training",
+            "url": "https://www.semanticscholar.org/paper/b47a576d7e6208314791cc20e1b65894096a45b0",
+            "venue": "ICIAP",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2072539183",
+                    "name": "Zhi Qi"
+                },
+                {
+                    "authorId": "2109955995",
+                    "name": "Weijian Chen"
+                },
+                {
+                    "authorId": "8683310",
+                    "name": "R. A. Naqvi"
+                },
+                {
+                    "authorId": "38672851",
+                    "name": "Kamran Siddique"
+                }
+            ],
+            "doi": "10.1155/2022/1291103",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3789b21e9b0ce048755f0e3b21942d5ef39eb449",
+            "title": "Designing Deep Learning Hardware Accelerator and Efficiency Evaluation",
+            "url": "https://www.semanticscholar.org/paper/3789b21e9b0ce048755f0e3b21942d5ef39eb449",
+            "venue": "Computational intelligence and neuroscience",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2386975",
+                    "name": "Stefanos Georgiou"
+                },
+                {
+                    "authorId": "3126897",
+                    "name": "M. Kechagia"
+                },
+                {
+                    "authorId": "2103653",
+                    "name": "Federica Sarro"
+                }
+            ],
+            "doi": "10.1145/3510003.3510221",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d04a4775312f9738ba716e1f863ed365d63122d3",
+            "title": "Green AI: Do Deep Learning Frameworks Have Different Costs?",
+            "url": "https://www.semanticscholar.org/paper/d04a4775312f9738ba716e1f863ed365d63122d3",
+            "venue": "2022 IEEE/ACM 44th International Conference on Software Engineering (ICSE)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1807421",
+                    "name": "Junyi Chai"
+                },
+                {
+                    "authorId": "2113558501",
+                    "name": "Hao Zeng"
+                },
+                {
+                    "authorId": "77689435",
+                    "name": "Anming Li"
+                },
+                {
+                    "authorId": "1790824",
+                    "name": "E. Ngai"
+                }
+            ],
+            "doi": "10.1016/J.MLWA.2021.100134",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "cb99e6974ed40d2c2d9b8c831e45356f73d1cd91",
+            "title": "Deep learning in computer vision: A critical review of emerging techniques and application scenarios",
+            "url": "https://www.semanticscholar.org/paper/cb99e6974ed40d2c2d9b8c831e45356f73d1cd91",
+            "venue": "",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51309902",
+                    "name": "S. Dong"
+                },
+                {
+                    "authorId": "2152209342",
+                    "name": "Ping Wang"
+                },
+                {
+                    "authorId": "32499031",
+                    "name": "Khushnood Abbas"
+                }
+            ],
+            "doi": "10.1016/J.COSREV.2021.100379",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3af679c9c4f727dd4e6dc69dfde22a871e85da1e",
+            "title": "A survey on deep learning and its applications",
+            "url": "https://www.semanticscholar.org/paper/3af679c9c4f727dd4e6dc69dfde22a871e85da1e",
+            "venue": "Comput. Sci. Rev.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2101.09671",
+            "authors": [
+                {
+                    "authorId": "123804153",
+                    "name": "Tailin Liang"
+                },
+                {
+                    "authorId": "145073018",
+                    "name": "C. Glossner"
+                },
+                {
+                    "authorId": "66148232",
+                    "name": "Lei Wang"
+                },
+                {
+                    "authorId": "2072685048",
+                    "name": "Shaobo Shi"
+                }
+            ],
+            "doi": "10.1016/J.NEUCOM.2021.07.045",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "949c0941d4c57482318afa28f2c8eb82569fb401",
+            "title": "Pruning and Quantization for Deep Neural Network Acceleration: A Survey",
+            "url": "https://www.semanticscholar.org/paper/949c0941d4c57482318afa28f2c8eb82569fb401",
+            "venue": "Neurocomputing",
+            "year": 2021
+        },
+        {
+            "arxivId": "2006.05525",
+            "authors": [
+                {
+                    "authorId": "38978232",
+                    "name": "Jianping Gou"
+                },
+                {
+                    "authorId": "2425630",
+                    "name": "B. Yu"
+                },
+                {
+                    "authorId": "144555237",
+                    "name": "S. Maybank"
+                },
+                {
+                    "authorId": "143719920",
+                    "name": "D. Tao"
+                }
+            ],
+            "doi": "10.1007/s11263-021-01453-z",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1728cb805a9573b59330890ba9723e73d6c3c974",
+            "title": "Knowledge Distillation: A Survey",
+            "url": "https://www.semanticscholar.org/paper/1728cb805a9573b59330890ba9723e73d6c3c974",
+            "venue": "International Journal of Computer Vision",
+            "year": 2020
+        },
+        {
+            "arxivId": "2002.05651",
+            "authors": [
+                {
+                    "authorId": "40068904",
+                    "name": "Peter Henderson"
+                },
+                {
+                    "authorId": "2143911040",
+                    "name": "Jie Hu"
+                },
+                {
+                    "authorId": "8365320",
+                    "name": "Joshua Romoff"
+                },
+                {
+                    "authorId": "2563117",
+                    "name": "E. Brunskill"
+                },
+                {
+                    "authorId": "1746807",
+                    "name": "Dan Jurafsky"
+                },
+                {
+                    "authorId": "145134886",
+                    "name": "Joelle Pineau"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "74b4f16c5ac91e3e7c88ae81cc8c91416b71d151",
+            "title": "Towards the Systematic Reporting of the Energy and Carbon Footprints of Machine Learning",
+            "url": "https://www.semanticscholar.org/paper/74b4f16c5ac91e3e7c88ae81cc8c91416b71d151",
+            "venue": "ArXiv",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2072782550",
+                    "name": "Zhihao Jia"
+                },
+                {
+                    "authorId": "2381030",
+                    "name": "Oded Padon"
+                },
+                {
+                    "authorId": "2110226192",
+                    "name": "James J. Thomas"
+                },
+                {
+                    "authorId": "2155642",
+                    "name": "Todd Warszawski"
+                },
+                {
+                    "authorId": "143834867",
+                    "name": "M. Zaharia"
+                },
+                {
+                    "authorId": "144653825",
+                    "name": "A. Aiken"
+                }
+            ],
+            "doi": "10.1145/3341301.3359630",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "80b362efee95c1759c6dab9219eb77ca3ee44475",
+            "title": "TASO: optimizing deep learning computation with automatic generation of graph substitutions",
+            "url": "https://www.semanticscholar.org/paper/80b362efee95c1759c6dab9219eb77ca3ee44475",
+            "venue": "SOSP",
+            "year": 2019
+        },
+        {
+            "arxivId": "1907.10597",
+            "authors": [
+                {
+                    "authorId": "4671928",
+                    "name": "Roy Schwartz"
+                },
+                {
+                    "authorId": "34176020",
+                    "name": "Jesse Dodge"
+                },
+                {
+                    "authorId": "144365875",
+                    "name": "Noah A. Smith"
+                },
+                {
+                    "authorId": "1741101",
+                    "name": "Oren Etzioni"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3c5f1ab37f70db503636075e15b3173f86eea00b",
+            "title": "Green AI",
+            "url": "https://www.semanticscholar.org/paper/3c5f1ab37f70db503636075e15b3173f86eea00b",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "7377735",
+                    "name": "Yunji Chen"
+                },
+                {
+                    "authorId": "40894913",
+                    "name": "Tian-ping Chen"
+                },
+                {
+                    "authorId": "1719934",
+                    "name": "Zhiwei Xu"
+                },
+                {
+                    "authorId": "145550877",
+                    "name": "Ninghui Sun"
+                },
+                {
+                    "authorId": "1731764",
+                    "name": "O. Temam"
+                }
+            ],
+            "doi": "10.1145/2996864",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5142c8273e0273230a10d836cdb26b029dc5cef5",
+            "title": "DianNao family",
+            "url": "https://www.semanticscholar.org/paper/5142c8273e0273230a10d836cdb26b029dc5cef5",
+            "venue": "Commun. ACM",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Code Carbon.",
+            "url": "",
+            "venue": "Code Carbon",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "",
+            "title": "and Compute",
+            "url": "",
+            "venue": "AI",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2023. Greenlight",
+            "url": "",
+            "venue": "Commun. ACM",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "The Linux PowerTOP Tool",
+            "url": "",
+            "venue": "github",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Linux manual page",
+            "url": "",
+            "venue": "perf-stat\u2014 Linux manual page",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2023. CodeGreen",
+            "url": "",
+            "venue": "zenodo",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "High Voltage Power Monitor",
+            "url": "",
+            "venue": ". msoon.com/",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2023. FECoM: A Step towards Fine-Grained Energy Measurement for Deep Learning",
+            "url": "",
+            "venue": "arXiv preprint",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "Greenlight: Highlighting TensorFlow APIs Energy Footprint",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/7df415736e82811cd48ac4dab00d5e0b0c000801",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2024
+}

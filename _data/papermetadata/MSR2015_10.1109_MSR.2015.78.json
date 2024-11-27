@@ -1,0 +1,2008 @@
+{
+    "abstract": "The importance of supporting test and maintenance activities in software development has been increasing, since recent software systems have become large and complex. Although in the field of Mining Software Repositories (MSR) there are many promising approaches to predicting, localizing, and triaging bugs, most of them do not consider impacts of each bug on users and developers but rather treat all bugs with equal weighting, excepting a few studies on high impact bugs including security, performance, blocking, and so forth. To make MSR techniques more actionable and effective in practice, we need deeper understandings of high impact bugs. In this paper we introduced our dataset of high impact bugs which was created by manually reviewing four thousand issue reports in four open source projects (Ambari, Camel, Derby and Wicket).",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "9455254",
+            "name": "M. Ohira",
+            "url": "https://www.semanticscholar.org/author/9455254"
+        },
+        {
+            "authorId": "40293906",
+            "name": "Yutaro Kashiwa",
+            "url": "https://www.semanticscholar.org/author/40293906"
+        },
+        {
+            "authorId": "2775792",
+            "name": "Yosuke Yamatani",
+            "url": "https://www.semanticscholar.org/author/2775792"
+        },
+        {
+            "authorId": "3088751",
+            "name": "Hayato Yoshiyuki",
+            "url": "https://www.semanticscholar.org/author/3088751"
+        },
+        {
+            "authorId": "30339616",
+            "name": "Yoshiya Maeda",
+            "url": "https://www.semanticscholar.org/author/30339616"
+        },
+        {
+            "authorId": "1829238",
+            "name": "Nachai Limsettho",
+            "url": "https://www.semanticscholar.org/author/1829238"
+        },
+        {
+            "authorId": "47071405",
+            "name": "K. Fujino",
+            "url": "https://www.semanticscholar.org/author/47071405"
+        },
+        {
+            "authorId": "145050815",
+            "name": "Hideaki Hata",
+            "url": "https://www.semanticscholar.org/author/145050815"
+        },
+        {
+            "authorId": "2385419",
+            "name": "Akinori Ihara",
+            "url": "https://www.semanticscholar.org/author/2385419"
+        },
+        {
+            "authorId": "144975613",
+            "name": "Ken-ichi Matsumoto",
+            "url": "https://www.semanticscholar.org/author/144975613"
+        }
+    ],
+    "citationVelocity": 5,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1666360735",
+                    "name": "Yutong Zhao"
+                },
+                {
+                    "authorId": "2297422494",
+                    "name": "Lu Xiao"
+                },
+                {
+                    "authorId": "2297374509",
+                    "name": "Sunny Wong"
+                }
+            ],
+            "doi": "10.1109/TSE.2024.3390623",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "38340475aa9c04642520b8fd9d3bf4f0d3d57f14",
+            "title": "A Platform-Agnostic Framework for Automatically Identifying Performance Issue Reports With Heuristic Linguistic Patterns",
+            "url": "https://www.semanticscholar.org/paper/38340475aa9c04642520b8fd9d3bf4f0d3d57f14",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2311717867",
+                    "name": "Issei Morita"
+                },
+                {
+                    "authorId": "40293906",
+                    "name": "Yutaro Kashiwa"
+                },
+                {
+                    "authorId": "22022819",
+                    "name": "Masanari Kondo"
+                },
+                {
+                    "authorId": "2311721115",
+                    "name": "Jeongju Sohn"
+                },
+                {
+                    "authorId": "2305856388",
+                    "name": "Shane McIntosh"
+                },
+                {
+                    "authorId": "2306049062",
+                    "name": "Yasutaka Kamei"
+                },
+                {
+                    "authorId": "1806862",
+                    "name": "Naoyasu Ubayashi"
+                }
+            ],
+            "doi": "10.1109/SANER60148.2024.00065",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "56b53496af4ee16f66e05dcb3c1edff5bcde3220",
+            "title": "TraceJIT: Evaluating the Impact of Behavioral Code Change on Just-In-Time Defect Prediction",
+            "url": "https://www.semanticscholar.org/paper/56b53496af4ee16f66e05dcb3c1edff5bcde3220",
+            "venue": "2024 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2401.12060",
+            "authors": [
+                {
+                    "authorId": "2246170375",
+                    "name": "Y. Liao"
+                },
+                {
+                    "authorId": "2280286189",
+                    "name": "T. Zhang"
+                }
+            ],
+            "doi": "10.48550/arXiv.2401.12060",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6303ffe71c73f17d17a90b7ba324dbc488f6fc88",
+            "title": "SEDAC: A CVAE-Based Data Augmentation Method for Security Bug Report Identification",
+            "url": "https://www.semanticscholar.org/paper/6303ffe71c73f17d17a90b7ba324dbc488f6fc88",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2188250743",
+                    "name": "M. Bhuiyan"
+                },
+                {
+                    "authorId": "2223176973",
+                    "name": "Adithya Srinivas Parthasarathy"
+                },
+                {
+                    "authorId": "2220400096",
+                    "name": "Nikos Vasilakis"
+                },
+                {
+                    "authorId": "1884064",
+                    "name": "Michael Pradel"
+                },
+                {
+                    "authorId": "40141524",
+                    "name": "Cristian-Alexandru Staicu"
+                }
+            ],
+            "doi": "10.1109/ICSE48619.2023.00096",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9819a1114cbc1648d4f35b40271908daae9557a0",
+            "title": "SecBench.js: An Executable Security Benchmark Suite for Server-Side JavaScript",
+            "url": "https://www.semanticscholar.org/paper/9819a1114cbc1648d4f35b40271908daae9557a0",
+            "venue": "2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1395091002",
+                    "name": "Akhila Sri Manasa Venigalla"
+                },
+                {
+                    "authorId": "1926332",
+                    "name": "S. Chimalakonda"
+                }
+            ],
+            "doi": "10.1109/MSR59073.2023.00062",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fa7ae1c4892eedc12504f2e66d094f5fb7e5379b",
+            "title": "DocMine: A Software Documentation-Related Dataset of 950 GitHub Repositories",
+            "url": "https://www.semanticscholar.org/paper/fa7ae1c4892eedc12504f2e66d094f5fb7e5379b",
+            "venue": "2023 IEEE/ACM 20th International Conference on Mining Software Repositories (MSR)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "30707115",
+                    "name": "Harguneet Kaur"
+                },
+                {
+                    "authorId": "1731050",
+                    "name": "Arvinder Kaur"
+                }
+            ],
+            "doi": "10.31449/inf.v46i8.4197",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "cd159035e33570a7b4147ded41a50c1d9e6c7499",
+            "title": "An empirical study of Aging Related Bug prediction using Cross Project in Cloud Oriented Software",
+            "url": "https://www.semanticscholar.org/paper/cd159035e33570a7b4147ded41a50c1d9e6c7499",
+            "venue": "Informatica",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1907618",
+                    "name": "Shengyi Pan"
+                },
+                {
+                    "authorId": "2143462940",
+                    "name": "Jiayuan Zhou"
+                },
+                {
+                    "authorId": "3261420",
+                    "name": "F. C\u00f4go"
+                },
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "2551250",
+                    "name": "Lingfeng Bao"
+                },
+                {
+                    "authorId": "2110049191",
+                    "name": "Xing Hu"
+                },
+                {
+                    "authorId": "1773299",
+                    "name": "Shanping Li"
+                },
+                {
+                    "authorId": "1891605",
+                    "name": "Ahmed E. Hassan"
+                }
+            ],
+            "doi": "10.1145/3540250.3549156",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "5196a4f7c50e57f49fbb1af6903d63ef3d4d5255",
+            "title": "Automated unearthing of dangerous issue reports",
+            "url": "https://www.semanticscholar.org/paper/5196a4f7c50e57f49fbb1af6903d63ef3d4d5255",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2022
+        },
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2188494905",
+                    "name": "\u015eevval Mehder"
+                },
+                {
+                    "authorId": "1889983",
+                    "name": "Fatma Ba\u015fak Aydemir"
+                }
+            ],
+            "doi": "10.1109/REW56159.2022.00040",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c08bd45a68e0f34e75aff5a52433d7e6f2bed311",
+            "title": "Classification of Issue Discussions in Open Source Projects Using Deep Language Models*",
+            "url": "https://www.semanticscholar.org/paper/c08bd45a68e0f34e75aff5a52433d7e6f2bed311",
+            "venue": "2022 IEEE 30th International Requirements Engineering Conference Workshops (REW)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1482478849",
+                    "name": "Xiaoxue Wu"
+                },
+                {
+                    "authorId": "151503915",
+                    "name": "Wei Zheng"
+                },
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                }
+            ],
+            "doi": "10.1109/TSE.2021.3063727",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "7be3022d83dfcb3f0851e81af4d842944fbcd45c",
+            "title": "Data Quality Matters: A Case Study on Data Label Correctness for Security Bug Report Prediction",
+            "url": "https://www.semanticscholar.org/paper/7be3022d83dfcb3f0851e81af4d842944fbcd45c",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": "2207.00623",
+            "authors": [
+                {
+                    "authorId": "2273549702",
+                    "name": "Rima Hazra"
+                },
+                {
+                    "authorId": "2166046513",
+                    "name": "Arpit Dwivedi"
+                },
+                {
+                    "authorId": "33392067",
+                    "name": "Animesh Mukherjee"
+                }
+            ],
+            "doi": "10.48550/arXiv.2207.00623",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "93103b2368d530dcf2b6e033920d1f950483b63b",
+            "title": "Is this bug severe? A text-cum-graph based model for bug severity prediction",
+            "url": "https://www.semanticscholar.org/paper/93103b2368d530dcf2b6e033920d1f950483b63b",
+            "venue": "ECML/PKDD",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144188161",
+                    "name": "Thomas Hirsch"
+                },
+                {
+                    "authorId": "3334382",
+                    "name": "Birgit Hofer"
+                }
+            ],
+            "doi": "10.1016/j.jss.2022.111423",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9a7b7867d1c2a540fd2c3ad9df666a32751374e2",
+            "title": "A systematic literature review on benchmarks for evaluating debugging approaches",
+            "url": "https://www.semanticscholar.org/paper/9a7b7867d1c2a540fd2c3ad9df666a32751374e2",
+            "venue": "J. Syst. Softw.",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2115722051",
+                    "name": "Xiaoxue Ma"
+                },
+                {
+                    "authorId": "46796087",
+                    "name": "J. Keung"
+                },
+                {
+                    "authorId": "2149233503",
+                    "name": "Zhen Yang"
+                },
+                {
+                    "authorId": "2139766813",
+                    "name": "Xiao Yu"
+                },
+                {
+                    "authorId": "2144423880",
+                    "name": "Yishu Li"
+                },
+                {
+                    "authorId": "2144617242",
+                    "name": "Hao Zhang"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2022.106906",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1c85e377077f305b1cc36988003b90c16119f2c0",
+            "title": "CASMS: Combining clustering with attention semantic model for identifying security bug reports",
+            "url": "https://www.semanticscholar.org/paper/1c85e377077f305b1cc36988003b90c16119f2c0",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34755489",
+                    "name": "M. Vidoni"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2021.106791",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8b608f646a96c545af167e66a146f54ecd595ffa",
+            "title": "A systematic process for Mining Software Repositories: Results from a systematic literature review",
+            "url": "https://www.semanticscholar.org/paper/8b608f646a96c545af167e66a146f54ecd595ffa",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2107.08364",
+            "authors": [
+                {
+                    "authorId": "47267142",
+                    "name": "T. H. Le"
+                },
+                {
+                    "authorId": "49177531",
+                    "name": "Huaming Chen"
+                },
+                {
+                    "authorId": "2142773270",
+                    "name": "M. A. Babar"
+                }
+            ],
+            "doi": "10.1145/3529757",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d18029fe49e70895c15164a6ad8e541b63243593",
+            "title": "A Survey on Data-driven Software Vulnerability Assessment and Prioritization",
+            "url": "https://www.semanticscholar.org/paper/d18029fe49e70895c15164a6ad8e541b63243593",
+            "venue": "ACM Comput. Surv.",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2108048373",
+                    "name": "Xinda Wang"
+                },
+                {
+                    "authorId": "2116931743",
+                    "name": "Shu Wang"
+                },
+                {
+                    "authorId": "10412040",
+                    "name": "Pengbin Feng"
+                },
+                {
+                    "authorId": "145044928",
+                    "name": "Kun Sun"
+                },
+                {
+                    "authorId": "1699357",
+                    "name": "S. Jajodia"
+                }
+            ],
+            "doi": "10.1109/DSN48987.2021.00030",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "4334496d109bb089c8d9ff9052f127166be811c0",
+            "title": "PatchDB: A Large-Scale Security Patch Dataset",
+            "url": "https://www.semanticscholar.org/paper/4334496d109bb089c8d9ff9052f127166be811c0",
+            "venue": "2021 51st Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2149772",
+                    "name": "Tosin Daniel Oyetoyan"
+                },
+                {
+                    "authorId": "2739437",
+                    "name": "P. Morrison"
+                }
+            ],
+            "doi": "10.1007/s11219-020-09546-7",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "cc06a373bf56e8d0402149170dd9470b3f68ef24",
+            "title": "An improved text classification modelling approach to identify security messages in heterogeneous projects",
+            "url": "https://www.semanticscholar.org/paper/cc06a373bf56e8d0402149170dd9470b3f68ef24",
+            "venue": "Software Quality Journal",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2111248420",
+                    "name": "Sophia Quach"
+                },
+                {
+                    "authorId": "51118871",
+                    "name": "Maxime Lamothe"
+                },
+                {
+                    "authorId": "1706639",
+                    "name": "Yasutaka Kamei"
+                },
+                {
+                    "authorId": "39724619",
+                    "name": "Weiyi Shang"
+                }
+            ],
+            "doi": "10.1007/s10664-021-09970-8",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "232f40025e471c8bde240a449a3d953d38e3e9f3",
+            "title": "An empirical study on the use of SZZ for identifying inducing changes of non-functional bugs",
+            "url": "https://www.semanticscholar.org/paper/232f40025e471c8bde240a449a3d953d38e3e9f3",
+            "venue": "Empirical Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1482478849",
+                    "name": "Xiaoxue Wu"
+                },
+                {
+                    "authorId": "1563064128",
+                    "name": "Wei Zheng"
+                },
+                {
+                    "authorId": "2143735810",
+                    "name": "Xiang Chen"
+                },
+                {
+                    "authorId": "2110260346",
+                    "name": "Yu Zhao"
+                },
+                {
+                    "authorId": "2117901513",
+                    "name": "Tingting Yu"
+                },
+                {
+                    "authorId": "1721427",
+                    "name": "Dejun Mu"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2021.106530",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ddaa9471ec0e27b4793270070fa95b2e6f82ba9b",
+            "title": "Improving high-impact bug report prediction with combination of interactive machine learning and active learning",
+            "url": "https://www.semanticscholar.org/paper/ddaa9471ec0e27b4793270070fa95b2e6f82ba9b",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1666360735",
+                    "name": "Yutong Zhao"
+                },
+                {
+                    "authorId": "144172480",
+                    "name": "Lu Xiao"
+                },
+                {
+                    "authorId": "1646492522",
+                    "name": "Pouria Babvey"
+                },
+                {
+                    "authorId": "2110833030",
+                    "name": "Lei Sun"
+                },
+                {
+                    "authorId": "145370804",
+                    "name": "Sunny Wong"
+                },
+                {
+                    "authorId": "2111087745",
+                    "name": "Angel A. Martinez"
+                },
+                {
+                    "authorId": "144129720",
+                    "name": "Xiao Wang"
+                }
+            ],
+            "doi": "10.1145/3368089.3409674",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1fdb9d6c78042630242ecfb86d8a33b50266c441",
+            "title": "Automatically identifying performance issue reports with heuristic linguistic patterns",
+            "url": "https://www.semanticscholar.org/paper/1fdb9d6c78042630242ecfb86d8a33b50266c441",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1482478849",
+                    "name": "Xiaoxue Wu"
+                },
+                {
+                    "authorId": "2015284946",
+                    "name": "Weiqiang Fu"
+                },
+                {
+                    "authorId": "1721427",
+                    "name": "Dejun Mu"
+                },
+                {
+                    "authorId": "51221486",
+                    "name": "Deming Mao"
+                },
+                {
+                    "authorId": "2153730255",
+                    "name": "Hui Zhang"
+                },
+                {
+                    "authorId": "151503915",
+                    "name": "Wei Zheng"
+                }
+            ],
+            "doi": "10.1109/ICCC49849.2020.9238816",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "515e4ab1903773362660cf94982299b31738430c",
+            "title": "Improving the Security of Wireless Network Through Cross-project Security Issue Prediction",
+            "url": "https://www.semanticscholar.org/paper/515e4ab1903773362660cf94982299b31738430c",
+            "venue": "2020 IEEE/CIC International Conference on Communications in China (ICCC)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2117807802",
+                    "name": "Yuan Jiang"
+                },
+                {
+                    "authorId": "2069299919",
+                    "name": "Pengcheng Lu"
+                },
+                {
+                    "authorId": "1803456",
+                    "name": "Xiaohong Su"
+                },
+                {
+                    "authorId": "46958716",
+                    "name": "Tiantian Wang"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2020.106314",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "cdc2a2cff3b946a5680422df0ae49269fda4ca06",
+            "title": "LTRWES: A new framework for security bug report detection",
+            "url": "https://www.semanticscholar.org/paper/cdc2a2cff3b946a5680422df0ae49269fda4ca06",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2020
+        },
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": null,
+                    "name": "Henry Tang"
+                },
+                {
+                    "authorId": "1869015",
+                    "name": "Sarah Nadi"
+                }
+            ],
+            "doi": "10.1007/s10664-021-09954-8",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5219c539a59599cc5f1237cc36453a8a2a9e0197",
+            "title": "On using Stack Overflow comment-edit pairs to recommend code maintenance changes",
+            "url": "https://www.semanticscholar.org/paper/5219c539a59599cc5f1237cc36453a8a2a9e0197",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2155493417",
+                    "name": "Hui Li"
+                },
+                {
+                    "authorId": "2069177943",
+                    "name": "Yang Qu"
+                },
+                {
+                    "authorId": "3467285",
+                    "name": "Shikai Guo"
+                },
+                {
+                    "authorId": "2084530182",
+                    "name": "Guofeng Gao"
+                },
+                {
+                    "authorId": "144593772",
+                    "name": "Rong Chen"
+                },
+                {
+                    "authorId": "2110226371",
+                    "name": "Chen Guo"
+                }
+            ],
+            "doi": "10.1155/2020/8509821",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "a2df8ebb64dcf8117bc93bdaed60b20586ada82c",
+            "title": "Surprise Bug Report Prediction Utilizing Optimized Integration with Imbalanced Learning Strategy",
+            "url": "https://www.semanticscholar.org/paper/a2df8ebb64dcf8117bc93bdaed60b20586ada82c",
+            "venue": "Complex.",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1482478849",
+                    "name": "Xiaoxue Wu"
+                },
+                {
+                    "authorId": "151503915",
+                    "name": "Wei Zheng"
+                },
+                {
+                    "authorId": "2143735810",
+                    "name": "Xiang Chen"
+                },
+                {
+                    "authorId": "145165431",
+                    "name": "F. Wang"
+                },
+                {
+                    "authorId": "1721427",
+                    "name": "Dejun Mu"
+                }
+            ],
+            "doi": "10.1016/j.jss.2019.110456",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b79002e958dabeeb61973c9290d202d4e3e05011",
+            "title": "CVE-assisted large-scale security bug report dataset construction method",
+            "url": "https://www.semanticscholar.org/paper/b79002e958dabeeb61973c9290d202d4e3e05011",
+            "venue": "J. Syst. Softw.",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "73523851",
+                    "name": "Thendral Puyalnithi"
+                }
+            ],
+            "doi": "10.35940/ijrte.d1130.1284s219",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0e8fe2891b4add3633bca840af68c0ac79be76f0",
+            "title": "Mining Severe Priority Bugs in Software Maintenance",
+            "url": "https://www.semanticscholar.org/paper/0e8fe2891b4add3633bca840af68c0ac79be76f0",
+            "venue": "International Journal of Recent Technology and Engineering",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2066150016",
+                    "name": "Rui Shu"
+                },
+                {
+                    "authorId": "40844021",
+                    "name": "Tianpei Xia"
+                },
+                {
+                    "authorId": "2108303426",
+                    "name": "Jianfeng Chen"
+                },
+                {
+                    "authorId": "144426849",
+                    "name": "L. Williams"
+                },
+                {
+                    "authorId": "1703872",
+                    "name": "T. Menzies"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09906-8",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "2b4669ce059414043c34363a92cc0a104b98cb63",
+            "title": "How to Better Distinguish Security Bug Reports (Using Dual Hyperparameter Optimization)",
+            "url": "https://www.semanticscholar.org/paper/2b4669ce059414043c34363a92cc0a104b98cb63",
+            "venue": "Empirical Software Engineering",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144191695",
+                    "name": "R. Mello"
+                },
+                {
+                    "authorId": "10798107",
+                    "name": "Anderson G. Uch\u00f4a"
+                },
+                {
+                    "authorId": "2807876",
+                    "name": "R. Oliveira"
+                },
+                {
+                    "authorId": "2004169353",
+                    "name": "Daniel Oliveira"
+                },
+                {
+                    "authorId": "2849051",
+                    "name": "W. Oizumi"
+                },
+                {
+                    "authorId": "2095017225",
+                    "name": "Jairo Souza"
+                },
+                {
+                    "authorId": "3252372",
+                    "name": "B. Neto"
+                },
+                {
+                    "authorId": "144447774",
+                    "name": "Alessandro F. Garcia"
+                }
+            ],
+            "doi": "10.1145/3350768.3351794",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f6f5b47ae0665ef3e9dea514dc4800b9ae3426ce",
+            "title": "Investigating the Social Representations of the Identification of Code Smells by Practitioners and Students from Brazil",
+            "url": "https://www.semanticscholar.org/paper/f6f5b47ae0665ef3e9dea514dc4800b9ae3426ce",
+            "venue": "SBES",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "31388948",
+                    "name": "M. Karim"
+                },
+                {
+                    "authorId": "2385419",
+                    "name": "Akinori Ihara"
+                },
+                {
+                    "authorId": "3117408",
+                    "name": "Eunjong Choi"
+                },
+                {
+                    "authorId": "1687605",
+                    "name": "Hajimu Iida"
+                }
+            ],
+            "doi": "10.1002/smr.2184",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1bef0497b8bba93cc73caa39d9b2bffe974557c5",
+            "title": "Identifying and predicting key features to support bug reporting",
+            "url": "https://www.semanticscholar.org/paper/1bef0497b8bba93cc73caa39d9b2bffe974557c5",
+            "venue": "J. Softw. Evol. Process.",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40546912",
+                    "name": "Fayola Peters"
+                },
+                {
+                    "authorId": "2478133",
+                    "name": "T. Tun"
+                },
+                {
+                    "authorId": "47111898",
+                    "name": "Yijun Yu"
+                },
+                {
+                    "authorId": "1695510",
+                    "name": "B. Nuseibeh"
+                }
+            ],
+            "doi": "10.1109/TSE.2017.2787653",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "26bcbab21f8bb02db99afde05d6f9042972de090",
+            "title": "Text Filtering and Ranking for Security Bug Report Prediction",
+            "url": "https://www.semanticscholar.org/paper/26bcbab21f8bb02db99afde05d6f9042972de090",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00085",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "43148fabe2636026e07ca04974aff40d204bfb6b",
+            "title": "Standing on Shoulders or Feet? The Usage of the MSR Data Papers",
+            "url": "https://www.semanticscholar.org/paper/43148fabe2636026e07ca04974aff40d204bfb6b",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "146167364",
+                    "name": "Aida Radu"
+                },
+                {
+                    "authorId": "1869015",
+                    "name": "Sarah Nadi"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00066",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "02ad3b2ee3439ae4e28f6bb7bf46cb3eda927416",
+            "title": "A Dataset of Non-Functional Bugs",
+            "url": "https://www.semanticscholar.org/paper/02ad3b2ee3439ae4e28f6bb7bf46cb3eda927416",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144191695",
+                    "name": "R. Mello"
+                },
+                {
+                    "authorId": "10798107",
+                    "name": "Anderson G. Uch\u00f4a"
+                },
+                {
+                    "authorId": "2807876",
+                    "name": "R. Oliveira"
+                },
+                {
+                    "authorId": "2004169353",
+                    "name": "Daniel Oliveira"
+                },
+                {
+                    "authorId": "3252372",
+                    "name": "B. Neto"
+                },
+                {
+                    "authorId": "144447774",
+                    "name": "Alessandro F. Garcia"
+                },
+                {
+                    "authorId": "2057947074",
+                    "name": "F. Mello"
+                }
+            ],
+            "doi": "10.1109/CHASE.2019.00022",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4b3fadab74dba756e141dcd030c3bdaac3e73f51",
+            "title": "Investigating the Social Representations of Code Smell Identification: A Preliminary Study",
+            "url": "https://www.semanticscholar.org/paper/4b3fadab74dba756e141dcd030c3bdaac3e73f51",
+            "venue": "2019 IEEE/ACM 12th International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2056216088",
+                    "name": "Fernando L\u00f3pez de la Mora"
+                },
+                {
+                    "authorId": "1869015",
+                    "name": "Sarah Nadi"
+                }
+            ],
+            "doi": "10.1145/3273934.3273937",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2c2e6e95d15f09dae7d2eb13d0e65a79583fe4c7",
+            "title": "An Empirical Study of Metric-based Comparisons of Software Libraries",
+            "url": "https://www.semanticscholar.org/paper/2c2e6e95d15f09dae7d2eb13d0e65a79583fe4c7",
+            "venue": "PROMISE",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2068865",
+                    "name": "Deqing Zou"
+                },
+                {
+                    "authorId": null,
+                    "name": "Zhijun Deng"
+                },
+                {
+                    "authorId": "1700892",
+                    "name": "Z. Li"
+                },
+                {
+                    "authorId": "145914256",
+                    "name": "Hai Jin"
+                }
+            ],
+            "doi": "10.1007/978-3-319-93638-3_35",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7cd388664adcc498bab8b4233b8d05fc806f6984",
+            "title": "Automatically Identifying Security Bug Reports via Multitype Features Analysis",
+            "url": "https://www.semanticscholar.org/paper/7cd388664adcc498bab8b4233b8d05fc806f6984",
+            "venue": "ACISP",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "70353661",
+                    "name": "Dipok Chandra Das"
+                },
+                {
+                    "authorId": "9449596",
+                    "name": "Md. Rayhanur Rahman"
+                }
+            ],
+            "doi": "10.1109/ICIEV.2018.8641045",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "c81dc1a6f6de3b4a5bbe5070b1e64a58b14b6110",
+            "title": "Security and Performance Bug Reports Identification with Class-Imbalance Sampling and Feature Selection",
+            "url": "https://www.semanticscholar.org/paper/c81dc1a6f6de3b4a5bbe5070b1e64a58b14b6110",
+            "venue": "2018 Joint 7th International Conference on Informatics, Electronics & Vision (ICIEV) and 2018 2nd International Conference on Imaging, Vision & Pattern Recognition (icIVPR)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2056216088",
+                    "name": "Fernando L\u00f3pez de la Mora"
+                },
+                {
+                    "authorId": "1869015",
+                    "name": "Sarah Nadi"
+                }
+            ],
+            "doi": "10.1145/3183399.3183418",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "09fcb3ec064d8de12ad200afc71fefed940735c7",
+            "title": "Which Library Should I Use?: A Metric-Based Comparison of Software Libraries",
+            "url": "https://www.semanticscholar.org/paper/09fcb3ec064d8de12ad200afc71fefed940735c7",
+            "venue": "2018 IEEE/ACM 40th International Conference on Software Engineering: New Ideas and Emerging Technologies Results (ICSE-NIER)",
+            "year": 2018
+        },
+        {
+            "arxivId": "1804.02053",
+            "authors": [
+                {
+                    "authorId": "145078593",
+                    "name": "G. Thiruvathukal"
+                },
+                {
+                    "authorId": "41022949",
+                    "name": "Shilpika"
+                },
+                {
+                    "authorId": "143619613",
+                    "name": "N. J. Hayward"
+                },
+                {
+                    "authorId": "1807030",
+                    "name": "Konstantin L\u00e4ufer"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "f2398a163ccaba53461b212468822d6624511dff",
+            "title": "Metrics Dashboard: A Hosted Platform for Software Quality Metrics",
+            "url": "https://www.semanticscholar.org/paper/f2398a163ccaba53461b212468822d6624511dff",
+            "venue": "ArXiv",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "25699856",
+                    "name": "Nitish Pandey"
+                },
+                {
+                    "authorId": "11575056",
+                    "name": "Debarshi Kumar Sanyal"
+                },
+                {
+                    "authorId": "9118932",
+                    "name": "Abir Hudait"
+                },
+                {
+                    "authorId": "2065333697",
+                    "name": "Amitava Sen"
+                }
+            ],
+            "doi": "10.1007/s11334-017-0294-1",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "35fee5e6fccbdad9582a305475b26c08f2e7c6b7",
+            "title": "Automated classification of software issue reports using machine learning techniques: an empirical study",
+            "url": "https://www.semanticscholar.org/paper/35fee5e6fccbdad9582a305475b26c08f2e7c6b7",
+            "venue": "Innovations in Systems and Software Engineering",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "31388948",
+                    "name": "M. Karim"
+                },
+                {
+                    "authorId": "2385419",
+                    "name": "Akinori Ihara"
+                },
+                {
+                    "authorId": "2150438947",
+                    "name": "Xin Yang"
+                },
+                {
+                    "authorId": "1687605",
+                    "name": "Hajimu Iida"
+                },
+                {
+                    "authorId": "144975613",
+                    "name": "Ken-ichi Matsumoto"
+                }
+            ],
+            "doi": "10.1109/IWESEP.2017.17",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fa18476fcfb78f08f09d69d7dc41c14f7310a7ee",
+            "title": "Understanding Key Features of High-Impact Bug Reports",
+            "url": "https://www.semanticscholar.org/paper/fa18476fcfb78f08f09d69d7dc41c14f7310a7ee",
+            "venue": "2017 8th International Workshop on Empirical Software Engineering in Practice (IWESEP)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3312173",
+                    "name": "Xinli Yang"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                },
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "2111287178",
+                    "name": "Qiao Huang"
+                },
+                {
+                    "authorId": "4346236",
+                    "name": "Jianling Sun"
+                }
+            ],
+            "doi": "10.1007/s11390-017-1713-3",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "dc84e699d3525b33ac58a5a98d4dedbee703e98a",
+            "title": "High-Impact Bug Report Identification with Imbalanced Learning Strategies",
+            "url": "https://www.semanticscholar.org/paper/dc84e699d3525b33ac58a5a98d4dedbee703e98a",
+            "venue": "Journal of Computer Science and Technology",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2123642205",
+                    "name": "Yosery Shehab"
+                },
+                {
+                    "authorId": "8572349",
+                    "name": "Fayrouz Elsalmy"
+                },
+                {
+                    "authorId": "2303862",
+                    "name": "W. Abdelmoez"
+                },
+                {
+                    "authorId": "1403210424",
+                    "name": "Y. El-Sonbaty"
+                }
+            ],
+            "doi": "10.1109/ICCTA40200.2016.9513231",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "02a90317e02e948e0a52afa5fcbb2700218449ac",
+            "title": "High Impact Bugs Recommender Model",
+            "url": "https://www.semanticscholar.org/paper/02a90317e02e948e0a52afa5fcbb2700218449ac",
+            "venue": "2016 26th International Conference on Computer Theory and Applications (ICCTA)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "9455254",
+                    "name": "M. Ohira"
+                },
+                {
+                    "authorId": "3088751",
+                    "name": "Hayato Yoshiyuki"
+                },
+                {
+                    "authorId": "2775792",
+                    "name": "Yosuke Yamatani"
+                }
+            ],
+            "doi": "10.1109/ICIS.2016.7550866",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ee998d90541aec525de803291f200502a16870ad",
+            "title": "A case study on the misclassification of software performance issues in an issue tracking system",
+            "url": "https://www.semanticscholar.org/paper/ee998d90541aec525de803291f200502a16870ad",
+            "venue": "2016 IEEE/ACIS 15th International Conference on Computer and Information Science (ICIS)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3312173",
+                    "name": "Xinli Yang"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                },
+                {
+                    "authorId": "2111287178",
+                    "name": "Qiao Huang"
+                },
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "4346236",
+                    "name": "Jianling Sun"
+                }
+            ],
+            "doi": "10.1109/COMPSAC.2016.67",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "ad01322153691c15e96aa4e6a16d59c9ce7398d5",
+            "title": "Automated Identification of High Impact Bug Reports Leveraging Imbalanced Learning Strategies",
+            "url": "https://www.semanticscholar.org/paper/ad01322153691c15e96aa4e6a16d59c9ce7398d5",
+            "venue": "2016 IEEE 40th Annual Computer Software and Applications Conference (COMPSAC)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3364630",
+                    "name": "Shahab Bayati"
+                }
+            ],
+            "doi": "10.1145/2889160.2892648",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d748fbd6632717cbf01b93da22bf7ecb59b0f059",
+            "title": "Security Expert Recommender in Software Engineering",
+            "url": "https://www.semanticscholar.org/paper/d748fbd6632717cbf01b93da22bf7ecb59b0f059",
+            "venue": "2016 IEEE/ACM 38th International Conference on Software Engineering Companion (ICSE-C)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3364630",
+                    "name": "Shahab Bayati"
+                },
+                {
+                    "authorId": "143642764",
+                    "name": "Marzieh Heidary"
+                }
+            ],
+            "doi": "10.1007/978-3-319-31863-9_14",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0c66e69534b37bbf83b62a2f46866543c911f7af",
+            "title": "Information Security in Software Engineering, Analysis of Developers Communications About Security in Social Q&A Website",
+            "url": "https://www.semanticscholar.org/paper/0c66e69534b37bbf83b62a2f46866543c911f7af",
+            "venue": "PAISI",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1403424628",
+                    "name": "Hani Bani-Salameh"
+                },
+                {
+                    "authorId": "2111732209",
+                    "name": "Mohammed Sallam"
+                },
+                {
+                    "authorId": "1403736012",
+                    "name": "B. Al-Shboul"
+                }
+            ],
+            "doi": "10.37190/e-inf210102",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e78da5d84dfff4d20add5c617b60a30354f18ffd",
+            "title": "A Deep-Learning-Based Bug Priority Prediction Using RNN-LSTM Neural",
+            "url": "https://www.semanticscholar.org/paper/e78da5d84dfff4d20add5c617b60a30354f18ffd",
+            "venue": "e Informatica Softw. Eng. J.",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "113323742",
+                    "name": "T. Lewowski"
+                },
+                {
+                    "authorId": "1731361",
+                    "name": "L. Madeyski"
+                }
+            ],
+            "doi": "10.1007/978-3-030-26574-8_1",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "43e60e7a4ad086644c5b1a4ef2810a76f5bae19c",
+            "title": "Creating Evolving Project Data Sets in Software Engineering",
+            "url": "https://www.semanticscholar.org/paper/43e60e7a4ad086644c5b1a4ef2810a76f5bae19c",
+            "venue": "Integrating Research and Practice in Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "73272494",
+                    "name": "Qiushi Wu"
+                },
+                {
+                    "authorId": "2146003205",
+                    "name": "Yang He"
+                },
+                {
+                    "authorId": "1736680",
+                    "name": "Stephen McCamant"
+                },
+                {
+                    "authorId": "40001161",
+                    "name": "Kangjie Lu"
+                }
+            ],
+            "doi": "10.14722/ndss.2020.24419",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "27c9166785a33906f9da707bb2d2b837b579852d",
+            "title": "Precisely Characterizing Security Impact in a Flood of Patches via Symbolic Rule Comparison",
+            "url": "https://www.semanticscholar.org/paper/27c9166785a33906f9da707bb2d2b837b579852d",
+            "venue": "NDSS",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1718749",
+                    "name": "Y. Yu"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "2c081c824e293d9fe0b9e89ca6139e725baef966",
+            "title": "Filtering and Ranking for Security Bug Report Prediction Journal Item",
+            "url": "https://www.semanticscholar.org/paper/2c081c824e293d9fe0b9e89ca6139e725baef966",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "25699856",
+                    "name": "Nitish Pandey"
+                },
+                {
+                    "authorId": "9118932",
+                    "name": "Abir Hudait"
+                },
+                {
+                    "authorId": "11575056",
+                    "name": "Debarshi Kumar Sanyal"
+                },
+                {
+                    "authorId": "2065333697",
+                    "name": "Amitava Sen"
+                }
+            ],
+            "doi": "10.1007/978-981-10-3373-5_42",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "726841b955e0614b4798f859c6e48b7b2c4079cc",
+            "title": "Automated Classification of Issue Reports from a Software Issue Tracker",
+            "url": "https://www.semanticscholar.org/paper/726841b955e0614b4798f859c6e48b7b2c4079cc",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2078872041",
+                    "name": "ajimu"
+                },
+                {
+                    "authorId": "2076319451",
+                    "name": "Ida"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fcaaf4ad521ec84fbf8015d44f335484020eaffa",
+            "title": "Improving the High-Impact Bug Reports : A Case Study of Apache Projects",
+            "url": "https://www.semanticscholar.org/paper/fcaaf4ad521ec84fbf8015d44f335484020eaffa",
+            "venue": "",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2268721871",
+                    "name": "Zheng Wei"
+                },
+                {
+                    "authorId": "2268641353",
+                    "name": "Jun-zheng Chen"
+                },
+                {
+                    "authorId": "2268640430",
+                    "name": "Xiao-xue Wu"
+                },
+                {
+                    "authorId": "2268512509",
+                    "name": "Chen Xiang"
+                },
+                {
+                    "authorId": "2268514532",
+                    "name": "Xia Xin"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9304c99375bb060da44bdfe5b889cd63c283c53c",
+            "title": "Empirical Studies on Deep Learning-Based Security Bug Report Prediction Methods",
+            "url": "https://www.semanticscholar.org/paper/9304c99375bb060da44bdfe5b889cd63c283c53c",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "corpusId": 2218640,
+    "doi": "10.1109/MSR.2015.78",
+    "fieldsOfStudy": [
+        "Computer Science",
+        "Engineering"
+    ],
+    "influentialCitationCount": 12,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 55,
+    "numCiting": 12,
+    "paperId": "32073cff67553fdad2b01c6fbb0dd4fd73b5508f",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4458730",
+                    "name": "Ayse Tosun Misirli"
+                },
+                {
+                    "authorId": "3318024",
+                    "name": "Emad Shihab"
+                },
+                {
+                    "authorId": "1706639",
+                    "name": "Yasutaka Kamei"
+                }
+            ],
+            "doi": "10.1007/s10664-015-9370-z",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e68947c31c9248d22fe29af6da5a3c7ea004901d",
+            "title": "Studying high impact fix-inducing changes",
+            "url": "https://www.semanticscholar.org/paper/e68947c31c9248d22fe29af6da5a3c7ea004901d",
+            "venue": "Empirical Software Engineering",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40293906",
+                    "name": "Yutaro Kashiwa"
+                },
+                {
+                    "authorId": "3088751",
+                    "name": "Hayato Yoshiyuki"
+                },
+                {
+                    "authorId": "2240168",
+                    "name": "Yusuke Kukita"
+                },
+                {
+                    "authorId": "9455254",
+                    "name": "M. Ohira"
+                }
+            ],
+            "doi": "10.1109/ICSME.2014.89",
+            "intent": [
+                "result",
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "39e46d2e7cdc8145c16252804072778ff500536f",
+            "title": "A Pilot Study of Diversity in High Impact Bugs",
+            "url": "https://www.semanticscholar.org/paper/39e46d2e7cdc8145c16252804072778ff500536f",
+            "venue": "2014 IEEE International Conference on Software Maintenance and Evolution",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1738429",
+                    "name": "P. Agarwal"
+                },
+                {
+                    "authorId": "2370463",
+                    "name": "A. Agrawal"
+                }
+            ],
+            "doi": "10.1145/2659118.2659125",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "24ea35d880277351661bfc2dd72a22615d633d1d",
+            "title": "Fault-localization techniques for software systems: a literature review",
+            "url": "https://www.semanticscholar.org/paper/24ea35d880277351661bfc2dd72a22615d633d1d",
+            "venue": "SOEN",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "32732864",
+                    "name": "H. Garcia"
+                },
+                {
+                    "authorId": "3318024",
+                    "name": "Emad Shihab"
+                }
+            ],
+            "doi": "10.1145/2597073.2597099",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "a3e61203c32d6f1a70e7b9de3f333f9f76ca776d",
+            "title": "Characterizing and predicting blocking bugs in open source projects",
+            "url": "https://www.semanticscholar.org/paper/a3e61203c32d6f1a70e7b9de3f333f9f76ca776d",
+            "venue": "MSR 2014",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50815221",
+                    "name": "T. Chen"
+                },
+                {
+                    "authorId": "7274019",
+                    "name": "M. Nagappan"
+                },
+                {
+                    "authorId": "3318024",
+                    "name": "Emad Shihab"
+                },
+                {
+                    "authorId": "144890499",
+                    "name": "A. Hassan"
+                }
+            ],
+            "doi": "10.1145/2597073.2597108",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4aa874bab6338140cd5618f4fde97e6caff9c349",
+            "title": "An empirical study of dormant bugs",
+            "url": "https://www.semanticscholar.org/paper/4aa874bab6338140cd5618f4fde97e6caff9c349",
+            "venue": "MSR 2014",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34745061",
+                    "name": "Adrian Nistor"
+                },
+                {
+                    "authorId": "2114746159",
+                    "name": "Tian Jiang"
+                },
+                {
+                    "authorId": "144938015",
+                    "name": "Lin Tan"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624035",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c6f0db7d72101acf89e1690bfe77e88331c2c023",
+            "title": "Discovering, reporting, and fixing performance bugs",
+            "url": "https://www.semanticscholar.org/paper/c6f0db7d72101acf89e1690bfe77e88331c2c023",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3318024",
+                    "name": "Emad Shihab"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                },
+                {
+                    "authorId": "1706639",
+                    "name": "Yasutaka Kamei"
+                },
+                {
+                    "authorId": "143612725",
+                    "name": "Bram Adams"
+                },
+                {
+                    "authorId": "144890499",
+                    "name": "A. Hassan"
+                }
+            ],
+            "doi": "10.1145/2025113.2025155",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "9ced8ce94b6dc5a4e2aa4fe2760c26d294769745",
+            "title": "High-impact defects: a study of breakage and surprise defects",
+            "url": "https://www.semanticscholar.org/paper/9ced8ce94b6dc5a4e2aa4fe2760c26d294769745",
+            "venue": "ESEC/FSE '11",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2226695",
+                    "name": "J. Anvik"
+                },
+                {
+                    "authorId": "1739674",
+                    "name": "G. Murphy"
+                }
+            ],
+            "doi": "10.1145/2000791.2000794",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "03d7e1ab249c5c7c78ef1e3a45caadb7bc3c7079",
+            "title": "Reducing the effort of bug report triage: Recommenders for development-oriented decisions",
+            "url": "https://www.semanticscholar.org/paper/03d7e1ab249c5c7c78ef1e3a45caadb7bc3c7079",
+            "venue": "TSEM",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2055142839",
+                    "name": "Shahed Zaman"
+                },
+                {
+                    "authorId": "143612725",
+                    "name": "Bram Adams"
+                },
+                {
+                    "authorId": "144890499",
+                    "name": "A. Hassan"
+                }
+            ],
+            "doi": "10.1145/1985441.1985457",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5b1ccd0692eccbc80944ec3d1e227eb2c3b0381c",
+            "title": "Security versus performance bugs: a case study on Firefox",
+            "url": "https://www.semanticscholar.org/paper/5b1ccd0692eccbc80944ec3d1e227eb2c3b0381c",
+            "venue": "MSR '11",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2185857",
+                    "name": "M. Gegick"
+                },
+                {
+                    "authorId": "1786227",
+                    "name": "Pete Rotella"
+                },
+                {
+                    "authorId": "145906750",
+                    "name": "Tao Xie"
+                }
+            ],
+            "doi": "10.1109/MSR.2010.5463340",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "698bcda4787f8294e0d72c15a25c5e705ebad455",
+            "title": "Identifying security bug reports via text mining: An industrial case study",
+            "url": "https://www.semanticscholar.org/paper/698bcda4787f8294e0d72c15a25c5e705ebad455",
+            "venue": "2010 7th IEEE Working Conference on Mining Software Repositories (MSR 2010)",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34751114",
+                    "name": "Chengnian Sun"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                },
+                {
+                    "authorId": "1524732329",
+                    "name": "Xiaoyin Wang"
+                },
+                {
+                    "authorId": "144924150",
+                    "name": "Jing Jiang"
+                },
+                {
+                    "authorId": "144195334",
+                    "name": "Siau-Cheng Khoo"
+                }
+            ],
+            "doi": "10.1145/1806799.1806811",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ddbec64e25d7db22326b5350110e3f3a283ea6a8",
+            "title": "A discriminative model approach for accurate duplicate bug report retrieval",
+            "url": "https://www.semanticscholar.org/paper/ddbec64e25d7db22326b5350110e3f3a283ea6a8",
+            "venue": "2010 ACM/IEEE 32nd International Conference on Software Engineering",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2284056",
+                    "name": "Ian Molyneaux"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "667e976b4a8c7e1656a5d85648cb27176201cdbd",
+            "title": "The Art of Application Performance Testing - Help for Programmers and Quality Assurance",
+            "url": "https://www.semanticscholar.org/paper/667e976b4a8c7e1656a5d85648cb27176201cdbd",
+            "venue": "",
+            "year": 2009
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "A Dataset of High Impact Bugs: Manually-Classified Issue Reports",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/32073cff67553fdad2b01c6fbb0dd4fd73b5508f",
+    "venue": "2015 IEEE/ACM 12th Working Conference on Mining Software Repositories",
+    "year": 2015
+}

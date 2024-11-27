@@ -1,0 +1,646 @@
+{
+    "abstract": "In 2016, we released AndroZoo, a continuously expanding dataset of Android applications that aggregates apps from various sources, including the official Google Play app market. As of today, AndroZoo contains approximately 24 million APK files, making it, to the best of our knowledge, the most extensive dataset of Android APKs accessible to the research community. Currently, an average of 500 000 APKs are downloaded every day, with our initial MSR paper counting more than 880 citations on Google Scholar.Over time, we have consistently expanded AndroZoo, adapting to app markets\u2019 evolution and refining our collection process. Additionally, we have started collecting supplementary data that could be valuable for various Android-related research projects and that we are providing to users, such as app descriptions, upload dates, ratings, lists of permissions, and many other kinds of data.This paper begins with a retrospective analysis of AndroZoo, offering statistics on APK files, apps, users, and downloads. Then, we introduce the new data we are releasing to users, offering insights and examples of their usage.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2092593204",
+            "name": "Marco Alecci",
+            "url": "https://www.semanticscholar.org/author/2092593204"
+        },
+        {
+            "authorId": "2308488787",
+            "name": "Pedro Jes\u00fas Ruiz Jim\u00e9nez",
+            "url": "https://www.semanticscholar.org/author/2308488787"
+        },
+        {
+            "authorId": "1790388",
+            "name": "Kevin Allix",
+            "url": "https://www.semanticscholar.org/author/1790388"
+        },
+        {
+            "authorId": "3023999",
+            "name": "T\u00e9gawend\u00e9 F. Bissyand\u00e9",
+            "url": "https://www.semanticscholar.org/author/3023999"
+        },
+        {
+            "authorId": "2257181768",
+            "name": "Jacques Klein",
+            "url": "https://www.semanticscholar.org/author/2257181768"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [],
+    "corpusId": 270593247,
+    "doi": "10.1145/3643991.3644863",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 0,
+    "numCiting": 22,
+    "paperId": "2cd495477f5f42b103262a1ab5cb528e2329e6ad",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2267735057",
+                    "name": "Anhao Xiang"
+                },
+                {
+                    "authorId": "31942796",
+                    "name": "Weiping Pei"
+                },
+                {
+                    "authorId": "2090513498",
+                    "name": "Chuan Yue"
+                }
+            ],
+            "doi": "10.1145/3576915.3623067",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1b2ded75d7e560ef077cc0cca443f1b57f135a71",
+            "title": "PolicyChecker: Analyzing the GDPR Completeness of Mobile Apps' Privacy Policies",
+            "url": "https://www.semanticscholar.org/paper/1b2ded75d7e560ef077cc0cca443f1b57f135a71",
+            "venue": "CCS",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49952079",
+                    "name": "Jun Gao"
+                },
+                {
+                    "authorId": "2156057406",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "1990261",
+                    "name": "Pingfan Kong"
+                },
+                {
+                    "authorId": "3023999",
+                    "name": "T\u00e9gawend\u00e9 F. Bissyand\u00e9"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                }
+            ],
+            "doi": "10.1109/TR.2019.2956690",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b7548641432c05fb3ce54ed3f938eeb96983bd84",
+            "title": "Understanding the Evolution of Android App Vulnerabilities",
+            "url": "https://www.semanticscholar.org/paper/b7548641432c05fb3ce54ed3f938eeb96983bd84",
+            "venue": "IEEE Transactions on Reliability",
+            "year": 2021
+        },
+        {
+            "arxivId": "2006.02231",
+            "authors": [
+                {
+                    "authorId": "88829172",
+                    "name": "Naveen Karunanayake"
+                },
+                {
+                    "authorId": "32548363",
+                    "name": "Jathushan Rajasegaran"
+                },
+                {
+                    "authorId": "3249965",
+                    "name": "Ashanie Gunathillake"
+                },
+                {
+                    "authorId": "35070097",
+                    "name": "Suranga Seneviratne"
+                },
+                {
+                    "authorId": "1778394",
+                    "name": "Guillaume Jourjon"
+                }
+            ],
+            "doi": "10.1109/tmc.2020.3007260",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e6a8c71b38d6a0b8d0d2d45b256a2cb21e898d99",
+            "title": "A Multi-Modal Neural Embeddings Approach for Detecting Mobile Counterfeit Apps: A Case Study on Google Play Store",
+            "url": "https://www.semanticscholar.org/paper/e6a8c71b38d6a0b8d0d2d45b256a2cb21e898d99",
+            "venue": "IEEE Transactions on Mobile Computing",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39136735",
+                    "name": "Haipeng Cai"
+                },
+                {
+                    "authorId": "1677649703",
+                    "name": "Xiaoqin Fu"
+                },
+                {
+                    "authorId": "1398138642",
+                    "name": "A. Hamou-Lhadj"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2020.106291",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0999984dabe36812e78b41a6e6ef2fa9f0e25516",
+            "title": "A study of run-time behavioral evolution of benign versus malicious apps in android",
+            "url": "https://www.semanticscholar.org/paper/0999984dabe36812e78b41a6e6ef2fa9f0e25516",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39136735",
+                    "name": "Haipeng Cai"
+                },
+                {
+                    "authorId": "9404966",
+                    "name": "B. Ryder"
+                }
+            ],
+            "doi": "10.1109/tse.2020.2975176",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d5b1101eef2854681befe53e0cf79ec8a0d9916c",
+            "title": "A Longitudinal Study of Application Structure and Behaviors in Android",
+            "url": "https://www.semanticscholar.org/paper/d5b1101eef2854681befe53e0cf79ec8a0d9916c",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1403114578",
+                    "name": "A. Al-Subaihin"
+                },
+                {
+                    "authorId": "2103653",
+                    "name": "Federica Sarro"
+                },
+                {
+                    "authorId": "2054188708",
+                    "name": "S. Black"
+                },
+                {
+                    "authorId": "47809306",
+                    "name": "L. Capra"
+                }
+            ],
+            "doi": "10.1007/s10664-019-09726-5",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "21a861159736315dd6d5b94b3c45cb60fe4fdb67",
+            "title": "Empirical comparison of text-based mobile apps similarity measurement techniques",
+            "url": "https://www.semanticscholar.org/paper/21a861159736315dd6d5b94b3c45cb60fe4fdb67",
+            "venue": "Empirical Software Engineering",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2405425",
+                    "name": "Keiichi Ochiai"
+                },
+                {
+                    "authorId": "151002805",
+                    "name": "Fatina Putri"
+                },
+                {
+                    "authorId": "3170301",
+                    "name": "Yusuke Fukazawa"
+                }
+            ],
+            "doi": "10.1109/PERCOM.2019.8767416",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "69a00910ad483acb9d203a3604780d6199296f5e",
+            "title": "Local App Classification using Deep Neural Network based on Mobile App Market Data",
+            "url": "https://www.semanticscholar.org/paper/69a00910ad483acb9d203a3604780d6199296f5e",
+            "venue": "2019 IEEE International Conference on Pervasive Computing and Communications (PerCom",
+            "year": 2019
+        },
+        {
+            "arxivId": "1809.05693",
+            "authors": [
+                {
+                    "authorId": "2075601",
+                    "name": "A. Narayanan"
+                },
+                {
+                    "authorId": "40664822",
+                    "name": "C. Soh"
+                },
+                {
+                    "authorId": "6187400",
+                    "name": "Lihui Chen"
+                },
+                {
+                    "authorId": "2152799887",
+                    "name": "Yang Liu"
+                },
+                {
+                    "authorId": "46659335",
+                    "name": "Lipo Wang"
+                }
+            ],
+            "doi": "10.1109/ICDM.2018.00051",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3f147d5150aead1c38d386b7938ba8b8ee3d10e9",
+            "title": "Apk2vec: Semi-Supervised Multi-view Representation Learning for Profiling Android Applications",
+            "url": "https://www.semanticscholar.org/paper/3f147d5150aead1c38d386b7938ba8b8ee3d10e9",
+            "venue": "2018 IEEE International Conference on Data Mining (ICDM)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2020605676",
+                    "name": "Dongjie He"
+                },
+                {
+                    "authorId": "50704040",
+                    "name": "Lian Li"
+                },
+                {
+                    "authorId": "2152514328",
+                    "name": "Lei Wang"
+                },
+                {
+                    "authorId": "2115584578",
+                    "name": "Hengjie Zheng"
+                },
+                {
+                    "authorId": "2151299176",
+                    "name": "Guangwei Li"
+                },
+                {
+                    "authorId": "144198209",
+                    "name": "Jingling Xue"
+                }
+            ],
+            "doi": "10.1145/3238147.3238185",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b60c96581d8de06ca7fcdf74ad487fa252a61e35",
+            "title": "Understanding and Detecting Evolution-Induced Compatibility Issues in Android Apps",
+            "url": "https://www.semanticscholar.org/paper/b60c96581d8de06ca7fcdf74ad487fa252a61e35",
+            "venue": "2018 33rd IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2018
+        },
+        {
+            "arxivId": "1807.08221",
+            "authors": [
+                {
+                    "authorId": "39136735",
+                    "name": "Haipeng Cai"
+                }
+            ],
+            "doi": "10.1145/3371924",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1f2e188b86cb1a13b54eaf844e94d45efc89b7d6",
+            "title": "Assessing and Improving Malware Detection Sustainability through App Evolution Studies",
+            "url": "https://www.semanticscholar.org/paper/1f2e188b86cb1a13b54eaf844e94d45efc89b7d6",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "11149136",
+                    "name": "Paolo Calciati"
+                },
+                {
+                    "authorId": "2762411",
+                    "name": "Alessandra Gorla"
+                }
+            ],
+            "doi": "10.1109/MSR.2017.64",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "094346cc89455ca3ad7f4200df6ccf5e87a4e7a1",
+            "title": "How Do Apps Evolve in Their Permission Requests? A Preliminary Study",
+            "url": "https://www.semanticscholar.org/paper/094346cc89455ca3ad7f4200df6ccf5e87a4e7a1",
+            "venue": "2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1403114578",
+                    "name": "A. Al-Subaihin"
+                },
+                {
+                    "authorId": "2103653",
+                    "name": "Federica Sarro"
+                },
+                {
+                    "authorId": "2054188708",
+                    "name": "S. Black"
+                },
+                {
+                    "authorId": "47809306",
+                    "name": "L. Capra"
+                },
+                {
+                    "authorId": "145836176",
+                    "name": "M. Harman"
+                },
+                {
+                    "authorId": "145401173",
+                    "name": "Yue Jia"
+                },
+                {
+                    "authorId": "2145793494",
+                    "name": "Yuanyuan Zhang"
+                }
+            ],
+            "doi": "10.1145/2961111.2962600",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "13e9b28ac7201eec9261dbd8cc2cb5136adec2d9",
+            "title": "Clustering Mobile Apps Based on Mined Textual Features",
+            "url": "https://www.semanticscholar.org/paper/13e9b28ac7201eec9261dbd8cc2cb5136adec2d9",
+            "venue": "ESEM",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1790388",
+                    "name": "Kevin Allix"
+                },
+                {
+                    "authorId": "3023999",
+                    "name": "T\u00e9gawend\u00e9 F. Bissyand\u00e9"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                },
+                {
+                    "authorId": "47681863",
+                    "name": "Y. L. Traon"
+                }
+            ],
+            "doi": "10.1145/2901739.2903508",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "128add3f0e727b73b3df0ca13b4e818d543bdd98",
+            "title": "AndroZoo: Collecting Millions of Android Apps for the Research Community",
+            "url": "https://www.semanticscholar.org/paper/128add3f0e727b73b3df0ca13b4e818d543bdd98",
+            "venue": "2016 IEEE/ACM 13th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3087655",
+                    "name": "Zhengyang Qu"
+                },
+                {
+                    "authorId": "35915880",
+                    "name": "Vaibhav Rastogi"
+                },
+                {
+                    "authorId": "2125497132",
+                    "name": "Xinyi Zhang"
+                },
+                {
+                    "authorId": "2048685606",
+                    "name": "Yan Chen"
+                },
+                {
+                    "authorId": "50380137",
+                    "name": "Tiantian Zhu"
+                },
+                {
+                    "authorId": "2144174905",
+                    "name": "Zhongchao Chen"
+                }
+            ],
+            "doi": "10.1145/2660267.2660287",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6dca2790ec2874752e1f05eae32622116dc5ded8",
+            "title": "AutoCog: Measuring the Description-to-permission Fidelity in Android Applications",
+            "url": "https://www.semanticscholar.org/paper/6dca2790ec2874752e1f05eae32622116dc5ded8",
+            "venue": "CCS",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2762411",
+                    "name": "Alessandra Gorla"
+                },
+                {
+                    "authorId": "2462939",
+                    "name": "Ilaria Tavecchia"
+                },
+                {
+                    "authorId": "2278244",
+                    "name": "F. Gross"
+                },
+                {
+                    "authorId": "145594351",
+                    "name": "A. Zeller"
+                }
+            ],
+            "doi": "10.1145/2568225.2568276",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "97b3a08ee39fd82ceb0bb6bfd42d22903b487352",
+            "title": "Checking app behavior against app descriptions",
+            "url": "https://www.semanticscholar.org/paper/97b3a08ee39fd82ceb0bb6bfd42d22903b487352",
+            "venue": "ICSE",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "TESSERACT:EliminatingExperimentalBiasinMalware Classification across Space and Time",
+            "url": "",
+            "venue": "arXiv:cs.CR/",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "AutomatedandpersonalizedprivacypolicyextractionunderGDPRconsideration",
+            "url": "",
+            "venue": "Wireless Algorithms, Systems, and Applications: 14th International Conference, WASA 2019, Honolulu, HI, USA, June 24\u201326, 2019, Proceedings 14",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145065636",
+                    "name": "A. Saracino"
+                },
+                {
+                    "authorId": "3276915",
+                    "name": "D. Sgandurra"
+                },
+                {
+                    "authorId": "34586193",
+                    "name": "G. Dini"
+                },
+                {
+                    "authorId": "145355672",
+                    "name": "F. Martinelli"
+                }
+            ],
+            "doi": "10.1109/TDSC.2016.2536605",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "e9a706d8c882fbd6e3b50c87ee4be9d760d89074",
+            "title": "MADAM: Effective and Efficient Behavior-based Android Malware Detection and Prevention",
+            "url": "https://www.semanticscholar.org/paper/e9a706d8c882fbd6e3b50c87ee4be9d760d89074",
+            "venue": "IEEE Transactions on Dependable and Secure Computing",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "ASurveyofAppStoreAnalysisforSoftwareEngineering",
+            "url": "",
+            "venue": "IEEETransactions on Software Engineering",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "79405068",
+                    "name": "Dan Arp"
+                },
+                {
+                    "authorId": "3219416",
+                    "name": "Michael Spreitzenbarth"
+                },
+                {
+                    "authorId": "145035359",
+                    "name": "M. Hubner"
+                },
+                {
+                    "authorId": "3088551",
+                    "name": "Hugo Gascon"
+                },
+                {
+                    "authorId": "144825749",
+                    "name": "Konrad Rieck"
+                }
+            ],
+            "doi": "10.14722/NDSS.2014.23247",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0b38a236d2377068408309f1d31e5c5fc5eedd0b",
+            "title": "DREBIN: Effective and Explainable Detection of Android Malware in Your Pocket",
+            "url": "https://www.semanticscholar.org/paper/0b38a236d2377068408309f1d31e5c5fc5eedd0b",
+            "venue": "NDSS",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2024. RevisitingAndroidAppCategorization",
+            "url": "",
+            "venue": "46rdInternationalConferenceonSoftware Engineering (ICSE)",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "MSR \u201924, April 15\u201316, 2024, Lisbon, Portugal",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "AndroZoo: A Retrospective with a Glimpse into the Future",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/2cd495477f5f42b103262a1ab5cb528e2329e6ad",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2024
+}

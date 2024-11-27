@@ -1,0 +1,619 @@
+{
+    "abstract": "Dockerfiles are one of the most prevalent kinds of DevOps artifacts used in industry. Despite their prevalence, there is a lack of sophisticated semantics-aware static analysis of Dockerfiles. In this paper, we introduce a dataset of approximately 178,000 unique Dockerfiles collected from GitHub. To enhance the usability of this data, we describe five representations we have devised for working with, mining from, and analyzing these Dockerfiles. Each Dockerfile representation builds upon the previous ones, and the final representation, created by three levels of nested parsing and abstraction, makes tasks such as mining and static checking tractable. The Dockerfiles, in each of the five representations, along with metadata and the tools used to shepard the data from one representation to the next are all available at: https://doi.org/10.5281/zenodo.3628771.",
+    "arxivId": "2003.12912",
+    "authors": [
+        {
+            "authorId": "40282163",
+            "name": "Jordan Henkel",
+            "url": "https://www.semanticscholar.org/author/40282163"
+        },
+        {
+            "authorId": "145193818",
+            "name": "C. Bird",
+            "url": "https://www.semanticscholar.org/author/145193818"
+        },
+        {
+            "authorId": "145474353",
+            "name": "Shuvendu K. Lahiri",
+            "url": "https://www.semanticscholar.org/author/145474353"
+        },
+        {
+            "authorId": "1703130",
+            "name": "T. Reps",
+            "url": "https://www.semanticscholar.org/author/1703130"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "118283839",
+                    "name": "Giovanni Rosa"
+                },
+                {
+                    "authorId": "3439470",
+                    "name": "Simone Scalabrino"
+                },
+                {
+                    "authorId": "2258156664",
+                    "name": "Gregorio Robles"
+                },
+                {
+                    "authorId": "2287253439",
+                    "name": "Rocco Oliveto"
+                }
+            ],
+            "doi": "10.1145/3643991.3644905",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "66ef223195b8e712cc8bd569b2b1a42bb727294d",
+            "title": "Not all Dockerfile Smells are the Same: An Empirical Evaluation of Hadolint Writing Practices by Experts",
+            "url": "https://www.semanticscholar.org/paper/66ef223195b8e712cc8bd569b2b1a42bb727294d",
+            "venue": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2306.04892",
+            "authors": [
+                {
+                    "authorId": "2197659721",
+                    "name": "Mir Sameed Ali"
+                },
+                {
+                    "authorId": "2197582565",
+                    "name": "Nikhil Manjunath"
+                },
+                {
+                    "authorId": "1926332",
+                    "name": "S. Chimalakonda"
+                }
+            ],
+            "doi": "10.48550/arXiv.2306.04892",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1006367adb5eafd2a434808b8b3fa951a4e59490",
+            "title": "X-COBOL: A Dataset of COBOL Repositories",
+            "url": "https://www.semanticscholar.org/paper/1006367adb5eafd2a434808b8b3fa951a4e59490",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "118283839",
+                    "name": "Giovanni Rosa"
+                },
+                {
+                    "authorId": "3439470",
+                    "name": "Simone Scalabrino"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                }
+            ],
+            "doi": "10.1145/3603111",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8e8b0e34f83b999722c3a5d1f7c12578a8db4169",
+            "title": "What Quality Aspects Influence the Adoption of Docker Images?",
+            "url": "https://www.semanticscholar.org/paper/8e8b0e34f83b999722c3a5d1f7c12578a8db4169",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2023
+        },
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1965904563",
+                    "name": "Hideaki Azuma"
+                },
+                {
+                    "authorId": "1774171",
+                    "name": "S. Matsumoto"
+                },
+                {
+                    "authorId": "1706639",
+                    "name": "Yasutaka Kamei"
+                },
+                {
+                    "authorId": "49220716",
+                    "name": "S. Kusumoto"
+                }
+            ],
+            "doi": "10.1007/s10664-021-10081-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c1c9e67b27118c6dfe8d0c37141941ae814ea2e7",
+            "title": "An empirical study on self-admitted technical debt in Dockerfiles",
+            "url": "https://www.semanticscholar.org/paper/c1c9e67b27118c6dfe8d0c37141941ae814ea2e7",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": "2112.12597",
+            "authors": [
+                {
+                    "authorId": "3367165",
+                    "name": "Mubin Ul Haque"
+                },
+                {
+                    "authorId": "145348760",
+                    "name": "M. Babar"
+                }
+            ],
+            "doi": "10.1109/saner53432.2022.00124",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a8e1fd78284439f82d85f8119a638b458356b214",
+            "title": "Well Begun is Half Done: An Empirical Study of Exploitability & Impact of Base-Image Vulnerabilities",
+            "url": "https://www.semanticscholar.org/paper/a8e1fd78284439f82d85f8119a638b458356b214",
+            "venue": "2022 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.02591",
+            "authors": [
+                {
+                    "authorId": "40282163",
+                    "name": "Jordan Henkel"
+                },
+                {
+                    "authorId": "2006451021",
+                    "name": "Denini Silva"
+                },
+                {
+                    "authorId": "40065372",
+                    "name": "Leopoldo Teixeira"
+                },
+                {
+                    "authorId": "1403835151",
+                    "name": "Marcelo d\u2019Amorim"
+                },
+                {
+                    "authorId": "1703130",
+                    "name": "T. Reps"
+                }
+            ],
+            "doi": "10.1109/ICSE43902.2021.00106",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "945de1be1ca7877d68624b4f34a3e87e45900a87",
+            "title": "Shipwright: A Human-in-the-Loop System for Dockerfile Repair",
+            "url": "https://www.semanticscholar.org/paper/945de1be1ca7877d68624b4f34a3e87e45900a87",
+            "venue": "2021 IEEE/ACM 43rd International Conference on Software Engineering (ICSE)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "73320618",
+                    "name": "Chang-Yang Lin"
+                },
+                {
+                    "authorId": "1869015",
+                    "name": "Sarah Nadi"
+                },
+                {
+                    "authorId": "2974067",
+                    "name": "Hamzeh Khazaei"
+                }
+            ],
+            "doi": "10.1109/ICSME46990.2020.00043",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "36572c40ddaf84a0d22058a333f1f6b89719ab33",
+            "title": "A Large-scale Data Set and an Empirical Study of Docker Images Hosted on Docker Hub",
+            "url": "https://www.semanticscholar.org/paper/36572c40ddaf84a0d22058a333f1f6b89719ab33",
+            "venue": "2020 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2020
+        },
+        {
+            "arxivId": "1912.06914",
+            "authors": [
+                {
+                    "authorId": "2145189428",
+                    "name": "Long Zhang"
+                },
+                {
+                    "authorId": "2058355374",
+                    "name": "Deepika Tiwari"
+                },
+                {
+                    "authorId": "1771452",
+                    "name": "Brice Morin"
+                },
+                {
+                    "authorId": "1730420",
+                    "name": "B. Baudry"
+                },
+                {
+                    "authorId": "150220964",
+                    "name": "Monperrus Martin"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2718fd6b7275c634a95b746f48a20d7af1e6913c",
+            "title": "Automatic Observability for Dockerized Java Applications",
+            "url": "https://www.semanticscholar.org/paper/2718fd6b7275c634a95b746f48a20d7af1e6913c",
+            "venue": "ArXiv",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "151424798",
+                    "name": "Kaisei Hanayama"
+                },
+                {
+                    "authorId": "1774171",
+                    "name": "S. Matsumoto"
+                },
+                {
+                    "authorId": "49220716",
+                    "name": "S. Kusumoto"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "703ab31c6344bfe3a1b3efbd8421d9e735325e53",
+            "title": "Humpback: Code Completion System for Dockerfile Based on Language Models (short paper)",
+            "url": "https://www.semanticscholar.org/paper/703ab31c6344bfe3a1b3efbd8421d9e735325e53",
+            "venue": "SEED/NLPaSE@APSEC",
+            "year": 2020
+        }
+    ],
+    "corpusId": 214714276,
+    "doi": "10.1145/3379597.3387498",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 10,
+    "numCiting": 11,
+    "paperId": "a086dfdc2a69d20b2656799bbed3557bc6d63397",
+    "references": [
+        {
+            "arxivId": "2002.03064",
+            "authors": [
+                {
+                    "authorId": "40282163",
+                    "name": "Jordan Henkel"
+                },
+                {
+                    "authorId": "145193818",
+                    "name": "C. Bird"
+                },
+                {
+                    "authorId": "145474353",
+                    "name": "Shuvendu K. Lahiri"
+                },
+                {
+                    "authorId": "1703130",
+                    "name": "T. Reps"
+                }
+            ],
+            "doi": "10.1145/3377811.3380406",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b1debd250d9cf2e1cea7edb4a665d56dfab08a67",
+            "title": "Learning from, Understanding, and Supporting DevOps Artifacts for Docker",
+            "url": "https://www.semanticscholar.org/paper/b1debd250d9cf2e1cea7edb4a665d56dfab08a67",
+            "venue": "2020 IEEE/ACM 42nd International Conference on Software Engineering (ICSE)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "87947892",
+                    "name": "P. K. Sidhu"
+                },
+                {
+                    "authorId": "1741154",
+                    "name": "G. Mussbacher"
+                },
+                {
+                    "authorId": "1725534",
+                    "name": "Shane McIntosh"
+                }
+            ],
+            "doi": "10.1109/SANER.2019.8668029",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4fec8079bd2b68614492a080449606bd8ecbd92f",
+            "title": "Reuse (or Lack Thereof) in Travis CI Specifications: An Empirical Study of CI Phases and Commands",
+            "url": "https://www.semanticscholar.org/paper/4fec8079bd2b68614492a080449606bd8ecbd92f",
+            "venue": "2019 IEEE 26th International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "46867931",
+                    "name": "Yang Zhang"
+                },
+                {
+                    "authorId": "2434621",
+                    "name": "Bogdan Vasilescu"
+                },
+                {
+                    "authorId": "143969934",
+                    "name": "Huaimin Wang"
+                },
+                {
+                    "authorId": "3179220",
+                    "name": "V. Filkov"
+                }
+            ],
+            "doi": "10.1145/3236024.3236033",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fae808435f09ec37ac6d0c183a422260175cb446",
+            "title": "One size does not fit all: an empirical study of containerized continuous deployment workflows",
+            "url": "https://www.semanticscholar.org/paper/fae808435f09ec37ac6d0c183a422260175cb446",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2897763",
+                    "name": "J\u00fcrgen Cito"
+                },
+                {
+                    "authorId": "36196893",
+                    "name": "Gerald Schermann"
+                },
+                {
+                    "authorId": "101116834",
+                    "name": "Erik Wittern"
+                },
+                {
+                    "authorId": "1910406",
+                    "name": "P. Leitner"
+                },
+                {
+                    "authorId": "10733499",
+                    "name": "Sali Zumberi"
+                },
+                {
+                    "authorId": "50355692",
+                    "name": "H. Gall"
+                }
+            ],
+            "doi": "10.7287/peerj.preprints.2905v1",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "e2ec370f9dead9c7c214337473c3a4577facf4e1",
+            "title": "An Empirical Analysis of the Docker Container Ecosystem on GitHub",
+            "url": "https://www.semanticscholar.org/paper/e2ec370f9dead9c7c214337473c3a4577facf4e1",
+            "venue": "2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2057505176",
+                    "name": "Yun Chi"
+                },
+                {
+                    "authorId": "145205814",
+                    "name": "Yi Xia"
+                },
+                {
+                    "authorId": "2108757619",
+                    "name": "Yirong Yang"
+                },
+                {
+                    "authorId": "1704462",
+                    "name": "R. Muntz"
+                }
+            ],
+            "doi": "10.1109/TKDE.2005.30",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8af52c946f7b2952c1ca34cfaab97cf367777cb2",
+            "title": "Mining closed and maximal frequent subtrees from databases of labeled rooted trees",
+            "url": "https://www.semanticscholar.org/paper/8af52c946f7b2952c1ca34cfaab97cf367777cb2",
+            "venue": "IEEE Transactions on Knowledge and Data Engineering",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2057505176",
+                    "name": "Yun Chi"
+                },
+                {
+                    "authorId": "1704462",
+                    "name": "R. Muntz"
+                },
+                {
+                    "authorId": "1702481",
+                    "name": "Siegfried Nijssen"
+                },
+                {
+                    "authorId": "1713683",
+                    "name": "J. Kok"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2f2011cb497424060526a3c57aa29e2c324d3ab3",
+            "title": "Frequent Subtree Mining - An Overview",
+            "url": "https://www.semanticscholar.org/paper/2f2011cb497424060526a3c57aa29e2c324d3ab3",
+            "venue": "Fundam. Informaticae",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3000041",
+                    "name": "S\u00e9bastien Ferr\u00e9"
+                },
+                {
+                    "authorId": "33654217",
+                    "name": "R. King"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "3493234cdb8d2cc0d5a5105e09a84a084399cea4",
+            "title": "A Dichotomic Search Algorithm for Mining and Learning in Domain-Specific Logics",
+            "url": "https://www.semanticscholar.org/paper/3493234cdb8d2cc0d5a5105e09a84a084399cea4",
+            "venue": "Fundam. Informaticae",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "marketplace.visualstudio.com/items?itemName=ms-azuretools",
+            "url": "",
+            "venue": "vscode-docker",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Annual Container Adoption Report",
+            "url": "",
+            "venue": "Portworx",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2771866",
+                    "name": "Mirjana Mazuran"
+                },
+                {
+                    "authorId": "2710276",
+                    "name": "E. Quintarelli"
+                },
+                {
+                    "authorId": "1779997",
+                    "name": "L. Tanca"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "72dbb9d71d5e6676268f089dbaf5896eb23ce7ed",
+            "title": "Mining tree-based association rules from XML documents",
+            "url": "https://www.semanticscholar.org/paper/72dbb9d71d5e6676268f089dbaf5896eb23ce7ed",
+            "venue": "SEBD",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Visual Studio Code Marketplace. 2020. Docker. https://marketplace.visualstudio. com/items?itemName=ms-azuretools.vscode-docker [Online; accessed 29",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "A Dataset of Dockerfiles",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/a086dfdc2a69d20b2656799bbed3557bc6d63397",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2020
+}

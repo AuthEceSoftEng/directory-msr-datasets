@@ -1,0 +1,1179 @@
+{
+    "abstract": "Defect prediction has been a popular research topic where machine learning (ML) and deep learning (DL) have found numerous applications. However, these ML/DL-based defect prediction models are often limited by the quality and size of their datasets. In this paper, we present Defectors, a large dataset for just-in-time and line-level defect prediction. Defectors consists of \u2248 213K source code files (\u2248 93K defective and \u2248 120K defect- free) that span across 24 popular Python projects. These projects come from 18 different domains, including machine learning, automation, and internet-of-things. Such a scale and diversity make Defectors a suitable dataset for training ML/DL models, especially transformer models that require large and diverse datasets. We also foresee several application areas of our dataset including defect prediction and defect explanation.",
+    "arxivId": "2303.04738",
+    "authors": [
+        {
+            "authorId": "16284251",
+            "name": "Parvez Mahbub",
+            "url": "https://www.semanticscholar.org/author/16284251"
+        },
+        {
+            "authorId": "2007378555",
+            "name": "Ohiduzzaman Shuvo",
+            "url": "https://www.semanticscholar.org/author/2007378555"
+        },
+        {
+            "authorId": "2210196781",
+            "name": "M. M. Rahman",
+            "url": "https://www.semanticscholar.org/author/2210196781"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2406.11731",
+            "authors": [
+                {
+                    "authorId": "2253424169",
+                    "name": "Md. Abul Kalam Azad"
+                },
+                {
+                    "authorId": "2306958891",
+                    "name": "Manoj Alexender"
+                },
+                {
+                    "authorId": "2306958893",
+                    "name": "Matthew Alexender"
+                },
+                {
+                    "authorId": "2256255175",
+                    "name": "Syed Salauddin Mohammad Tariq"
+                },
+                {
+                    "authorId": "2306958754",
+                    "name": "Foyzul Hassan"
+                },
+                {
+                    "authorId": "2238441457",
+                    "name": "Probir Roy"
+                }
+            ],
+            "doi": "10.48550/arXiv.2406.11731",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "39b3f0fe076cc39dd01bef11d58f4bd345cd4de7",
+            "title": "PerfCurator: Curating a large-scale dataset of performance bug-related commits from public repositories",
+            "url": "https://www.semanticscholar.org/paper/39b3f0fe076cc39dd01bef11d58f4bd345cd4de7",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": "2405.05541",
+            "authors": [
+                {
+                    "authorId": "2300370621",
+                    "name": "Philip Oliver"
+                },
+                {
+                    "authorId": "2300371031",
+                    "name": "Jens Dietrich"
+                },
+                {
+                    "authorId": "1741672",
+                    "name": "C. Anslow"
+                },
+                {
+                    "authorId": "2239110364",
+                    "name": "Michael Homer"
+                }
+            ],
+            "doi": "10.1145/3643991.3644912",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "aee4ae2631ef612458fead210ce214b3ffb1d6dd",
+            "title": "CrashJS: A NodeJS Benchmark for Automated Crash Reproduction",
+            "url": "https://www.semanticscholar.org/paper/aee4ae2631ef612458fead210ce214b3ffb1d6dd",
+            "venue": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2312.11889",
+            "authors": [
+                {
+                    "authorId": "16284251",
+                    "name": "Parvez Mahbub"
+                },
+                {
+                    "authorId": "2274096537",
+                    "name": "Mohammad Masudur Rahman"
+                }
+            ],
+            "doi": "10.1109/SANER60148.2024.00038",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "593d7231040ab75f6dfa7218a75193b74ca76af2",
+            "title": "Predicting Line-Level Defects by Capturing Code Contexts with Hierarchical Transformers",
+            "url": "https://www.semanticscholar.org/paper/593d7231040ab75f6dfa7218a75193b74ca76af2",
+            "venue": "2024 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50448100",
+                    "name": "G\u00e1bor Antal"
+                },
+                {
+                    "authorId": "1975081712",
+                    "name": "Norbert V\u00e1ndor"
+                },
+                {
+                    "authorId": "2317343328",
+                    "name": "Istv\u00e1n Koll\u00e1th"
+                },
+                {
+                    "authorId": "1975033603",
+                    "name": "Bal\u00e1zs Mosolyg\u00f3"
+                },
+                {
+                    "authorId": "49516010",
+                    "name": "P\u00e9ter Heged\u0171s"
+                },
+                {
+                    "authorId": "2274741028",
+                    "name": "Rudolf Ferenc"
+                }
+            ],
+            "doi": "10.1109/ACCESS.2024.3449106",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6f24c742e35774e858738c4a5bb41bdb82ddabd8",
+            "title": "PyBugHive: A Comprehensive Database of Manually Validated, Reproducible Python Bugs",
+            "url": "https://www.semanticscholar.org/paper/6f24c742e35774e858738c4a5bb41bdb82ddabd8",
+            "venue": "IEEE Access",
+            "year": 2024
+        }
+    ],
+    "corpusId": 257405078,
+    "doi": "10.1109/MSR59073.2023.00085",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 4,
+    "numCiting": 36,
+    "paperId": "969c3923bdaea7b6f2a42076b908e1d2adcce06f",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1845848811",
+                    "name": "Chanathip Pornprasit"
+                },
+                {
+                    "authorId": "1957122",
+                    "name": "C. Tantithamthavorn"
+                }
+            ],
+            "doi": "10.1109/TSE.2022.3144348",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d48bf319c44b36f793ed30b8bfb3d8ac4982d8e8",
+            "title": "DeepLineDP: Towards a Deep Learning Approach for Line-Level Defect Prediction",
+            "url": "https://www.semanticscholar.org/paper/d48bf319c44b36f793ed30b8bfb3d8ac4982d8e8",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2023
+        },
+        {
+            "arxivId": "2212.04584",
+            "authors": [
+                {
+                    "authorId": "16284251",
+                    "name": "Parvez Mahbub"
+                },
+                {
+                    "authorId": "2007378555",
+                    "name": "Ohiduzzaman Shuvo"
+                },
+                {
+                    "authorId": "2210196781",
+                    "name": "M. M. Rahman"
+                }
+            ],
+            "doi": "10.1109/ICSE48619.2023.00063",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "70bdb9ec87efa2b23f4a377040ad76f995c960d5",
+            "title": "Explaining Software Bugs Leveraging Code Structures in Neural Machine Translation",
+            "url": "https://www.semanticscholar.org/paper/70bdb9ec87efa2b23f4a377040ad76f995c960d5",
+            "venue": "2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6299740",
+                    "name": "Yi Li"
+                },
+                {
+                    "authorId": "2145317386",
+                    "name": "Shaohua Wang"
+                },
+                {
+                    "authorId": "2327697",
+                    "name": "T. Nguyen"
+                }
+            ],
+            "doi": "10.1145/3540250.3549137",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fa0221f2fc2978f7e930347c8fc558bcd03eba7e",
+            "title": "Fault localization to detect co-change fixing locations",
+            "url": "https://www.semanticscholar.org/paper/fa0221f2fc2978f7e930347c8fc558bcd03eba7e",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48178867",
+                    "name": "Chao Ni"
+                },
+                {
+                    "authorId": "39470145",
+                    "name": "Wei Wang"
+                },
+                {
+                    "authorId": "2044649857",
+                    "name": "Kaiwen Yang"
+                },
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "145407228",
+                    "name": "Kui Liu"
+                },
+                {
+                    "authorId": "143960552",
+                    "name": "David Lo"
+                }
+            ],
+            "doi": "10.1145/3540250.3549165",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "aa9a794d00d403e7ab24e551e9714900d7f2bc1c",
+            "title": "The best of both worlds: integrating semantic features with expert features for defect prediction and localization",
+            "url": "https://www.semanticscholar.org/paper/aa9a794d00d403e7ab24e551e9714900d7f2bc1c",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2022
+        },
+        {
+            "arxivId": "2203.00101",
+            "authors": [
+                {
+                    "authorId": "2065304163",
+                    "name": "Hossein Keshavarz"
+                },
+                {
+                    "authorId": "7274019",
+                    "name": "M. Nagappan"
+                }
+            ],
+            "doi": "10.1145/3524842.3527996",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b1441b34abe1642321184fc4534b165e606b6241",
+            "title": "ApacheJIT: A Large Dataset for Just-In-Time Defect Prediction",
+            "url": "https://www.semanticscholar.org/paper/b1441b34abe1642321184fc4534b165e606b6241",
+            "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2202.06145",
+            "authors": [
+                {
+                    "authorId": "145685957",
+                    "name": "Lina Gong"
+                },
+                {
+                    "authorId": "19248159",
+                    "name": "Gopi Krishnan Rajbahadur"
+                },
+                {
+                    "authorId": "144890499",
+                    "name": "A. Hassan"
+                },
+                {
+                    "authorId": "2220918867",
+                    "name": "S. Jiang"
+                }
+            ],
+            "doi": "10.1109/TSE.2021.3131950",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c257b36986506e998001e11abfc45e5e7df568eb",
+            "title": "Revisiting the Impact of Dependency Network Metrics on Software Defect Prediction",
+            "url": "https://www.semanticscholar.org/paper/c257b36986506e998001e11abfc45e5e7df568eb",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2115024456",
+                    "name": "A. \u00c7ay\u0131r"
+                },
+                {
+                    "authorId": "30598205",
+                    "name": "T. S. Navruz"
+                }
+            ],
+            "doi": "10.1109/HORA52670.2021.9461395",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a0e8b0b79c67c6090a2c7ce5eab0efba9d42b22b",
+            "title": "Effect of Dataset Size on Deep Learning in Voice Recognition",
+            "url": "https://www.semanticscholar.org/paper/a0e8b0b79c67c6090a2c7ce5eab0efba9d42b22b",
+            "venue": "2021 3rd International Congress on Human-Computer Interaction, Optimization and Robotic Applications (HORA)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.07068",
+            "authors": [
+                {
+                    "authorId": "1845848811",
+                    "name": "Chanathip Pornprasit"
+                },
+                {
+                    "authorId": "1957122",
+                    "name": "C. Tantithamthavorn"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00049",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1a150497c2e122df33cb56b033490b55085387e8",
+            "title": "JITLine: A Simpler, Better, Faster, Finer-grained Just-In-Time Defect Prediction",
+            "url": "https://www.semanticscholar.org/paper/1a150497c2e122df33cb56b033490b55085387e8",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2102.12007",
+            "authors": [
+                {
+                    "authorId": "3269086",
+                    "name": "Jirayus Jiarpakdee"
+                },
+                {
+                    "authorId": "1957122",
+                    "name": "C. Tantithamthavorn"
+                },
+                {
+                    "authorId": "1687239",
+                    "name": "J. Grundy"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00055",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b532107dc86c70cd4d3405e17db1d288467f26f5",
+            "title": "Practitioners\u2019 Perceptions of the Goals and Visual Explanations of Defect Prediction Models",
+            "url": "https://www.semanticscholar.org/paper/b532107dc86c70cd4d3405e17db1d288467f26f5",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2009.03612",
+            "authors": [
+                {
+                    "authorId": "84165401",
+                    "name": "Supatsara Wattanakriengkrai"
+                },
+                {
+                    "authorId": "2352093",
+                    "name": "Patanamon Thongtanunam"
+                },
+                {
+                    "authorId": "1957122",
+                    "name": "C. Tantithamthavorn"
+                },
+                {
+                    "authorId": "145050815",
+                    "name": "Hideaki Hata"
+                },
+                {
+                    "authorId": "144975613",
+                    "name": "Ken-ichi Matsumoto"
+                }
+            ],
+            "doi": "10.1109/TSE.2020.3023177",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1c20867c4f8781d22d6875372d38e1b2f1d8caa8",
+            "title": "Predicting Defective Lines Using a Model-Agnostic Technique",
+            "url": "https://www.semanticscholar.org/paper/1c20867c4f8781d22d6875372d38e1b2f1d8caa8",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1798181",
+                    "name": "W. Zou"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                },
+                {
+                    "authorId": "9220930",
+                    "name": "Zhenyu Chen"
+                },
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "48260350",
+                    "name": "Yang Feng"
+                },
+                {
+                    "authorId": "144380518",
+                    "name": "Baowen Xu"
+                }
+            ],
+            "doi": "10.1109/TSE.2018.2870414",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "05e17bafebb4de0f74a33ecd39ec4ddb51adbd06",
+            "title": "How Practitioners Perceive Automated Bug Report Management Techniques",
+            "url": "https://www.semanticscholar.org/paper/05e17bafebb4de0f74a33ecd39ec4ddb51adbd06",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3048822",
+                    "name": "Jinyin Chen"
+                },
+                {
+                    "authorId": "123768548",
+                    "name": "Keke Hu"
+                },
+                {
+                    "authorId": "47111832",
+                    "name": "Yue Yu"
+                },
+                {
+                    "authorId": "9220941",
+                    "name": "Zhuangzhi Chen"
+                },
+                {
+                    "authorId": "151507448",
+                    "name": "Qi Xuan"
+                },
+                {
+                    "authorId": "2153629454",
+                    "name": "Yi Liu"
+                },
+                {
+                    "authorId": "3179220",
+                    "name": "V. Filkov"
+                }
+            ],
+            "doi": "10.1145/3377811.3380389",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e05c187eb7918c28533b2de17fc8f5cb511852a4",
+            "title": "Software Visualization and Deep Transfer Learning for Effective Software Defect Prediction",
+            "url": "https://www.semanticscholar.org/paper/e05c187eb7918c28533b2de17fc8f5cb511852a4",
+            "venue": "2020 IEEE/ACM 42nd International Conference on Software Engineering (ICSE)",
+            "year": 2020
+        },
+        {
+            "arxivId": "2003.05620",
+            "authors": [
+                {
+                    "authorId": "9719656",
+                    "name": "Thong Hoang"
+                },
+                {
+                    "authorId": "48654378",
+                    "name": "Hong Jin Kang"
+                },
+                {
+                    "authorId": "1793096",
+                    "name": "J. Lawall"
+                },
+                {
+                    "authorId": "143960552",
+                    "name": "David Lo"
+                }
+            ],
+            "doi": "10.1145/3377811.3380361",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0dfe706526e5234338411489e1826b4060acc4e8",
+            "title": "CC2Vec: Distributed Representations of Code Changes",
+            "url": "https://www.semanticscholar.org/paper/0dfe706526e5234338411489e1826b4060acc4e8",
+            "venue": "2020 IEEE/ACM 42nd International Conference on Software Engineering (ICSE)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40791764",
+                    "name": "Yuanrui Fan"
+                },
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "1776368",
+                    "name": "D. A. D. Costa"
+                },
+                {
+                    "authorId": "143960552",
+                    "name": "David Lo"
+                },
+                {
+                    "authorId": "144890499",
+                    "name": "A. Hassan"
+                },
+                {
+                    "authorId": "1773299",
+                    "name": "Shanping Li"
+                }
+            ],
+            "doi": "10.1109/TSE.2019.2929761",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "70fcecf4c46c07b53a6db9968f2cb3b62384cb63",
+            "title": "The Impact of Mislabeled Changes by SZZ on Just-in-Time Defect Prediction",
+            "url": "https://www.semanticscholar.org/paper/70fcecf4c46c07b53a6db9968f2cb3b62384cb63",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "9719656",
+                    "name": "Thong Hoang"
+                },
+                {
+                    "authorId": "2199994",
+                    "name": "K. Dam"
+                },
+                {
+                    "authorId": "1706639",
+                    "name": "Yasutaka Kamei"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                },
+                {
+                    "authorId": "1806862",
+                    "name": "Naoyasu Ubayashi"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00016",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "952fe2400f4b1a33fa45aa1aefaa856235e13c0c",
+            "title": "DeepJIT: An End-to-End Deep Learning Framework for Just-in-Time Defect Prediction",
+            "url": "https://www.semanticscholar.org/paper/952fe2400f4b1a33fa45aa1aefaa856235e13c0c",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "114242451",
+                    "name": "S. Yatish"
+                },
+                {
+                    "authorId": "3269086",
+                    "name": "Jirayus Jiarpakdee"
+                },
+                {
+                    "authorId": "2352093",
+                    "name": "Patanamon Thongtanunam"
+                },
+                {
+                    "authorId": "1957122",
+                    "name": "C. Tantithamthavorn"
+                }
+            ],
+            "doi": "10.1109/ICSE.2019.00075",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3097abfde15d20c5a34756080adfb18f52436df0",
+            "title": "Mining Software Defects: Should We Consider Affected Releases?",
+            "url": "https://www.semanticscholar.org/paper/3097abfde15d20c5a34756080adfb18f52436df0",
+            "venue": "2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40695832",
+                    "name": "L. Pascarella"
+                },
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                },
+                {
+                    "authorId": "1686038",
+                    "name": "Alberto Bacchelli"
+                }
+            ],
+            "doi": "10.1016/J.JSS.2018.12.001",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4724561bd25fdbe206fe61c3e967645d34231345",
+            "title": "Fine-grained just-in-time defect prediction",
+            "url": "https://www.semanticscholar.org/paper/4724561bd25fdbe206fe61c3e967645d34231345",
+            "venue": "J. Syst. Softw.",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145351948",
+                    "name": "Thomas Shippey"
+                },
+                {
+                    "authorId": "143969104",
+                    "name": "David Bowes"
+                },
+                {
+                    "authorId": "143936625",
+                    "name": "T. Hall"
+                }
+            ],
+            "doi": "10.1016/J.INFSOF.2018.10.001",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "22f59dc87300f8154fddfe0b899bd380a9f18608",
+            "title": "Automatically identifying code features for software defect prediction: Using AST N-grams",
+            "url": "https://www.semanticscholar.org/paper/22f59dc87300f8154fddfe0b899bd380a9f18608",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144922494",
+                    "name": "Xiao Yu"
+                },
+                {
+                    "authorId": "2885656",
+                    "name": "K. E. Bennin"
+                },
+                {
+                    "authorId": "48211677",
+                    "name": "Jin Liu"
+                },
+                {
+                    "authorId": "46796087",
+                    "name": "J. Keung"
+                },
+                {
+                    "authorId": "144440418",
+                    "name": "Xiaofei Yin"
+                },
+                {
+                    "authorId": "50879470",
+                    "name": "Zhou Xu"
+                }
+            ],
+            "doi": "10.1109/SANER.2019.8668033",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b866089169cf88fd5bb07d6c426cdc739968feb2",
+            "title": "An Empirical Study of Learning to Rank Techniques for Effort-Aware Defect Prediction",
+            "url": "https://www.semanticscholar.org/paper/b866089169cf88fd5bb07d6c426cdc739968feb2",
+            "venue": "2019 IEEE 26th International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2111287178",
+                    "name": "Qiao Huang"
+                },
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                }
+            ],
+            "doi": "10.1007/s10664-018-9661-2",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6566b01f14f46f0a75fb5840a33f27f263ac26a5",
+            "title": "Revisiting supervised and unsupervised models for effort-aware just-in-time defect prediction",
+            "url": "https://www.semanticscholar.org/paper/6566b01f14f46f0a75fb5840a33f27f263ac26a5",
+            "venue": "Empirical Software Engineering",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "19165535",
+                    "name": "D. Spadini"
+                },
+                {
+                    "authorId": "2289215",
+                    "name": "M. Aniche"
+                },
+                {
+                    "authorId": "1686038",
+                    "name": "Alberto Bacchelli"
+                }
+            ],
+            "doi": "10.1145/3236024.3264598",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "7b5f909e1ab4d076116d11e1e7754b3c12471db8",
+            "title": "PyDriller: Python framework for mining software repositories",
+            "url": "https://www.semanticscholar.org/paper/7b5f909e1ab4d076116d11e1e7754b3c12471db8",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1725534",
+                    "name": "Shane McIntosh"
+                },
+                {
+                    "authorId": "1706639",
+                    "name": "Yasutaka Kamei"
+                }
+            ],
+            "doi": "10.1109/TSE.2017.2693980",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "5944dbfd8309c8f25ca07b14933eab9843bcc68b",
+            "title": "Are Fix-Inducing Changes a Moving Target? A Longitudinal Case Study of Just-In-Time Defect Prediction",
+            "url": "https://www.semanticscholar.org/paper/5944dbfd8309c8f25ca07b14933eab9843bcc68b",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1776368",
+                    "name": "D. A. D. Costa"
+                },
+                {
+                    "authorId": "1725534",
+                    "name": "Shane McIntosh"
+                },
+                {
+                    "authorId": "39724619",
+                    "name": "Weiyi Shang"
+                },
+                {
+                    "authorId": "1717396",
+                    "name": "U. Kulesza"
+                },
+                {
+                    "authorId": "144242964",
+                    "name": "Roberta Coelho"
+                },
+                {
+                    "authorId": "144890499",
+                    "name": "A. Hassan"
+                }
+            ],
+            "doi": "10.1109/TSE.2016.2616306",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "5e47e7c5ca3d1adb4f6283395630b01047de4d84",
+            "title": "A Framework for Evaluating the Results of the SZZ Approach for Identifying Bug-Introducing Changes",
+            "url": "https://www.semanticscholar.org/paper/5e47e7c5ca3d1adb4f6283395630b01047de4d84",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2352093",
+                    "name": "Patanamon Thongtanunam"
+                },
+                {
+                    "authorId": "1725534",
+                    "name": "Shane McIntosh"
+                },
+                {
+                    "authorId": "144890499",
+                    "name": "A. Hassan"
+                },
+                {
+                    "authorId": "1687605",
+                    "name": "Hajimu Iida"
+                }
+            ],
+            "doi": "10.1145/2884781.2884852",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "db61996c021c2c9fcbc40aee63d248d61dce97d3",
+            "title": "Revisiting Code Ownership and Its Relationship with Software Quality in the Scope of Modern Code Review",
+            "url": "https://www.semanticscholar.org/paper/db61996c021c2c9fcbc40aee63d248d61dce97d3",
+            "venue": "2016 IEEE/ACM 38th International Conference on Software Engineering (ICSE)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2352093",
+                    "name": "Patanamon Thongtanunam"
+                },
+                {
+                    "authorId": "1725534",
+                    "name": "Shane McIntosh"
+                },
+                {
+                    "authorId": "144890499",
+                    "name": "A. Hassan"
+                },
+                {
+                    "authorId": "1687605",
+                    "name": "Hajimu Iida"
+                }
+            ],
+            "doi": "10.1109/MSR.2015.23",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "44335cad5e13436cf75315e4d6be457b1faadc9b",
+            "title": "Investigating Code Review Practices in Defective Files: An Empirical Study of the Qt System",
+            "url": "https://www.semanticscholar.org/paper/44335cad5e13436cf75315e4d6be457b1faadc9b",
+            "venue": "2015 IEEE/ACM 12th Working Conference on Mining Software Repositories",
+            "year": 2015
+        },
+        {
+            "arxivId": "1503.01508",
+            "authors": [
+                {
+                    "authorId": "32015491",
+                    "name": "Xiangxin Zhu"
+                },
+                {
+                    "authorId": "1856025",
+                    "name": "Carl Vondrick"
+                },
+                {
+                    "authorId": "143800213",
+                    "name": "Charless C. Fowlkes"
+                },
+                {
+                    "authorId": "1770537",
+                    "name": "Deva Ramanan"
+                }
+            ],
+            "doi": "10.1007/s11263-015-0812-2",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "36961e595e31dea127bfa49124b5cc4f2100710f",
+            "title": "Do We Need More Training Data?",
+            "url": "https://www.semanticscholar.org/paper/36961e595e31dea127bfa49124b5cc4f2100710f",
+            "venue": "International Journal of Computer Vision",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2114746159",
+                    "name": "Tian Jiang"
+                },
+                {
+                    "authorId": "144938015",
+                    "name": "Lin Tan"
+                },
+                {
+                    "authorId": "1787729",
+                    "name": "Sunghun Kim"
+                }
+            ],
+            "doi": "10.1109/ASE.2013.6693087",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fe6e37337ce3dd73abccf9c8aa7f56383abfbf50",
+            "title": "Personalized defect prediction",
+            "url": "https://www.semanticscholar.org/paper/fe6e37337ce3dd73abccf9c8aa7f56383abfbf50",
+            "venue": "2013 28th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1706639",
+                    "name": "Yasutaka Kamei"
+                },
+                {
+                    "authorId": "3318024",
+                    "name": "Emad Shihab"
+                },
+                {
+                    "authorId": "143612725",
+                    "name": "Bram Adams"
+                },
+                {
+                    "authorId": "144890499",
+                    "name": "A. Hassan"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                },
+                {
+                    "authorId": "2079873209",
+                    "name": "Anand Sinha"
+                },
+                {
+                    "authorId": "1806862",
+                    "name": "Naoyasu Ubayashi"
+                }
+            ],
+            "doi": "10.1109/TSE.2012.70",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "04eb410c0a59fc08a4648af43f7de323cc7d06c2",
+            "title": "A large-scale empirical study of just-in-time quality assurance",
+            "url": "https://www.semanticscholar.org/paper/04eb410c0a59fc08a4648af43f7de323cc7d06c2",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1787729",
+                    "name": "Sunghun Kim"
+                },
+                {
+                    "authorId": "143609903",
+                    "name": "Thomas Zimmermann"
+                },
+                {
+                    "authorId": "145834128",
+                    "name": "Kai Pan"
+                },
+                {
+                    "authorId": "2227924013",
+                    "name": "E. James Jr. Whitehead"
+                }
+            ],
+            "doi": "10.1109/ASE.2006.23",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1f7432f3b8cf8196dbbf46086deb65aa1bb43997",
+            "title": "Automatic Identification of Bug-Introducing Changes",
+            "url": "https://www.semanticscholar.org/paper/1f7432f3b8cf8196dbbf46086deb65aa1bb43997",
+            "venue": "21st IEEE/ACM International Conference on Automated Software Engineering (ASE'06)",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2460404",
+                    "name": "Jacek Sliwerski"
+                },
+                {
+                    "authorId": "143609903",
+                    "name": "Thomas Zimmermann"
+                },
+                {
+                    "authorId": "145594351",
+                    "name": "A. Zeller"
+                }
+            ],
+            "doi": "10.1145/1082983.1083147",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9784038a293df294d955c0edd72ee37a4bfe8705",
+            "title": "When do changes induce fixes?",
+            "url": "https://www.semanticscholar.org/paper/9784038a293df294d955c0edd72ee37a4bfe8705",
+            "venue": "ACM SIGSOFT Softw. Eng. Notes",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Reversible Debugging Software: Quantify the time and cost saved using reversible debuggers",
+            "url": "",
+            "venue": "",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "dce99209120ebed7f5d68e3644fdcd160d4c366c",
+            "title": "Standard Glossary of Software Engineering Terminology",
+            "url": "https://www.semanticscholar.org/paper/dce99209120ebed7f5d68e3644fdcd160d4c366c",
+            "venue": "",
+            "year": 1990
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "We \ufb01nd the PRs using these labels. If the number of such PRs is more than 100, then we accept the repository. We \ufb01nd 11 projects with consistently labelled PRs",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Size: To the best of our knowledge, Defectors is the largest defect prediction dataset and is twice in size as the previous largest dataset (i.e., \u2248 106K)",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Class Balance: It maintains a near 1:1 ratio between defective and defect-free instances in the training set, where existing datasets contain only 5%-26% defective instances",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "For a mature repository, we identify all the bug-related labels (e.g., bug, bug\ufb01x) from the repository",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "Defectors: A Large, Diverse Python Dataset for Defect Prediction",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/969c3923bdaea7b6f2a42076b908e1d2adcce06f",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2023
+}

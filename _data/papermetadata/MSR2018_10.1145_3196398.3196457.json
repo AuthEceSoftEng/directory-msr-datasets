@@ -1,0 +1,964 @@
+{
+    "abstract": "There are two well-known difficulties to test and interpret methodologies for mining developer interaction traces: first, the lack of enough large datasets needed by mining or machine learning approaches to provide reliable results; and second, the lack of \"ground truth\" or empirical evidence that can be used to triangulate the results, or to verify their accuracy and correctness. Moreover, relying solely on interaction traces limits our ability to take into account contextual factors that can affect the applicability of mining techniques in other contexts, as well hinders our ability to fully understand the mechanics behind observed phenomena. The data presented in this paper attempts to alleviate these challenges by providing 600+ hours of developer interaction traces, from which 26+ hours are backed with video recordings of the IDE screen and developer's comments. This data set is relevant to researchers interested in investigating program comprehension, and those who are developing techniques for interaction traces analysis and mining.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "40340068",
+            "name": "A. Yamashita",
+            "url": "https://www.semanticscholar.org/author/40340068"
+        },
+        {
+            "authorId": "145400424",
+            "name": "F\u00e1bio Petrillo",
+            "url": "https://www.semanticscholar.org/author/145400424"
+        },
+        {
+            "authorId": "1703493",
+            "name": "Foutse Khomh",
+            "url": "https://www.semanticscholar.org/author/1703493"
+        },
+        {
+            "authorId": "1718050",
+            "name": "Yann-Ga\u00ebl Gu\u00e9h\u00e9neuc",
+            "url": "https://www.semanticscholar.org/author/1718050"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2285000552",
+                    "name": "Zeyu Wang"
+                },
+                {
+                    "authorId": "2284890434",
+                    "name": "Fuping Zeng"
+                }
+            ],
+            "doi": "10.1109/QRS-C60940.2023.00119",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a4c2929653727c7fea187ad0b0d1b43eec483599",
+            "title": "Fault Localization of Software: A Literature Review",
+            "url": "https://www.semanticscholar.org/paper/a4c2929653727c7fea187ad0b0d1b43eec483599",
+            "venue": "2023 IEEE 23rd International Conference on Software Quality, Reliability, and Security Companion (QRS-C)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2062882044",
+                    "name": "Ferenc Horv\u00e1th"
+                },
+                {
+                    "authorId": "1752419",
+                    "name": "\u00c1rp\u00e1d Besz\u00e9des"
+                },
+                {
+                    "authorId": "51492931",
+                    "name": "B\u00e9la Vancsics"
+                },
+                {
+                    "authorId": "36966333",
+                    "name": "Gerg\u00f5 Balogh"
+                },
+                {
+                    "authorId": "1793601",
+                    "name": "L\u00e1szl\u00f3 Vid\u00e1cs"
+                },
+                {
+                    "authorId": "1681248",
+                    "name": "T. Gyim\u00f3thy"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10190-x",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "aa21506e236e09abea2e62c9fd870f444077934d",
+            "title": "Using contextual knowledge in interactive fault localization",
+            "url": "https://www.semanticscholar.org/paper/aa21506e236e09abea2e62c9fd870f444077934d",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1754291",
+                    "name": "N. Gold"
+                },
+                {
+                    "authorId": "1824150",
+                    "name": "J. Krinke"
+                }
+            ],
+            "doi": "10.1007/s10664-021-10057-7",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8a7ab081a35f9f7336c60d6cf1c6a9627e8c71e1",
+            "title": "Ethics in the mining of software repositories",
+            "url": "https://www.semanticscholar.org/paper/8a7ab081a35f9f7336c60d6cf1c6a9627e8c71e1",
+            "venue": "Empirical Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51407707",
+                    "name": "V. Shynkarenko"
+                },
+                {
+                    "authorId": "2037007901",
+                    "name": "Oleksandr K. Zhevaho"
+                }
+            ],
+            "doi": "10.15587/1729-4061.2020.215090",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "21baa1be295dc3ad16349991578ba235910fb742",
+            "title": "Development of a Toolkit for Analyzing Software Debugging Processes Using the Constructive Approach",
+            "url": "https://www.semanticscholar.org/paper/21baa1be295dc3ad16349991578ba235910fb742",
+            "venue": "Eastern-European Journal of Enterprise Technologies",
+            "year": 2020
+        },
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00085",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "43148fabe2636026e07ca04974aff40d204bfb6b",
+            "title": "Standing on Shoulders or Feet? The Usage of the MSR Data Papers",
+            "url": "https://www.semanticscholar.org/paper/43148fabe2636026e07ca04974aff40d204bfb6b",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1830950",
+                    "name": "Elena Planas"
+                },
+                {
+                    "authorId": "1705375",
+                    "name": "Jordi Cabot"
+                }
+            ],
+            "doi": "10.1016/J.CSI.2019.103363",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f786f06db97a1e355ce3e7ab7600991dfe717f84",
+            "title": "How are UML class diagrams built in practice? A usability study of two UML tools: Magicdraw and Papyrus",
+            "url": "https://www.semanticscholar.org/paper/f786f06db97a1e355ce3e7ab7600991dfe717f84",
+            "venue": "Comput. Stand. Interfaces",
+            "year": 2020
+        }
+    ],
+    "corpusId": 44073827,
+    "doi": "10.1145/3196398.3196457",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 1,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 8,
+    "numCiting": 25,
+    "paperId": "b6168caf63709e584ebba78f3c4555722236cf36",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1518242971",
+                    "name": "S. \u041dorbachenko"
+                },
+                {
+                    "authorId": "2138053857",
+                    "name": "V. Kharlamova"
+                }
+            ],
+            "doi": "10.18524/2413-9998.2019.3(43).183665",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "14da2c332b7a84438ef79e1b664bbd2257219826",
+            "title": "MANAGEMENT TEAMS",
+            "url": "https://www.semanticscholar.org/paper/14da2c332b7a84438ef79e1b664bbd2257219826",
+            "venue": "Market economy: modern management theory and practice",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40340068",
+                    "name": "A. Yamashita"
+                },
+                {
+                    "authorId": "1924512",
+                    "name": "S. Amirhossein Abtahizadeh"
+                },
+                {
+                    "authorId": "1703493",
+                    "name": "Foutse Khomh"
+                },
+                {
+                    "authorId": "1718050",
+                    "name": "Yann-Ga\u00ebl Gu\u00e9h\u00e9neuc"
+                }
+            ],
+            "doi": "10.1109/MSR.2017.44",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d21acf00a909e97cbaa4d6f6e4478e07c1bf7580",
+            "title": "Software Evolution and Quality Data from Controlled, Multiple, Industrial Case Studies",
+            "url": "https://www.semanticscholar.org/paper/d21acf00a909e97cbaa4d6f6e4478e07c1bf7580",
+            "venue": "2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1764959",
+                    "name": "O. Ba\u00f1os"
+                },
+                {
+                    "authorId": "31754393",
+                    "name": "Claudia Villalonga"
+                },
+                {
+                    "authorId": "37390258",
+                    "name": "J. Bang"
+                },
+                {
+                    "authorId": "81492933",
+                    "name": "T. Hur"
+                },
+                {
+                    "authorId": "2113556917",
+                    "name": "Dong Uk Kang"
+                },
+                {
+                    "authorId": "2115610160",
+                    "name": "S. Park"
+                },
+                {
+                    "authorId": "1402997421",
+                    "name": "Thien Huynh-The"
+                },
+                {
+                    "authorId": "1930176",
+                    "name": "Le-Ba Vui"
+                },
+                {
+                    "authorId": "1755774",
+                    "name": "M. B. Amin"
+                },
+                {
+                    "authorId": "2161256",
+                    "name": "Muhammad Asif Razzaq"
+                },
+                {
+                    "authorId": "2794241",
+                    "name": "W. A. Khan"
+                },
+                {
+                    "authorId": "143849708",
+                    "name": "C. Hong"
+                },
+                {
+                    "authorId": "31273100",
+                    "name": "Sungyoung Lee"
+                }
+            ],
+            "doi": "10.3390/s16081264",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "77d126555663e47b507e72b88b3f3442fb687680",
+            "title": "Human Behavior Analysis by Means of Multimodal Context Mining",
+            "url": "https://www.semanticscholar.org/paper/77d126555663e47b507e72b88b3f3442fb687680",
+            "venue": "Sensors",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3021119",
+                    "name": "Z. Soh"
+                },
+                {
+                    "authorId": "40340068",
+                    "name": "A. Yamashita"
+                },
+                {
+                    "authorId": "1703493",
+                    "name": "Foutse Khomh"
+                },
+                {
+                    "authorId": "1718050",
+                    "name": "Yann-Ga\u00ebl Gu\u00e9h\u00e9neuc"
+                }
+            ],
+            "doi": "10.1109/SANER.2016.103",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "5c07b92d689a41db0ad3dacd147bd34d139edda9",
+            "title": "Do Code Smells Impact the Effort of Different Maintenance Programming Activities?",
+            "url": "https://www.semanticscholar.org/paper/5c07b92d689a41db0ad3dacd147bd34d139edda9",
+            "venue": "2016 IEEE 23rd International Conference on Software Analysis, Evolution, and Reengineering (SANER)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2803579",
+                    "name": "Mike Barnett"
+                },
+                {
+                    "authorId": "145193818",
+                    "name": "C. Bird"
+                },
+                {
+                    "authorId": "145663521",
+                    "name": "Jo\u00e3o Brunet"
+                },
+                {
+                    "authorId": "145474353",
+                    "name": "Shuvendu K. Lahiri"
+                }
+            ],
+            "doi": "10.1109/ICSE.2015.35",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fee5ad386a4d665751f980b4f662200b37480524",
+            "title": "Helping Developers Help Themselves: Automatic Decomposition of Code Review Changesets",
+            "url": "https://www.semanticscholar.org/paper/fee5ad386a4d665751f980b4f662200b37480524",
+            "venue": "2015 IEEE/ACM 37th IEEE International Conference on Software Engineering",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40340068",
+                    "name": "A. Yamashita"
+                },
+                {
+                    "authorId": "1762006",
+                    "name": "L. Moonen"
+                }
+            ],
+            "doi": "10.1016/J.INFSOF.2013.08.002",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "895bdcb6a8035ddb9b09588c0084587c7cf2b214",
+            "title": "To what extent can maintenance problems be predicted by code smell detection? - An empirical study",
+            "url": "https://www.semanticscholar.org/paper/895bdcb6a8035ddb9b09588c0084587c7cf2b214",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40340068",
+                    "name": "A. Yamashita"
+                },
+                {
+                    "authorId": "145677084",
+                    "name": "S. Counsell"
+                }
+            ],
+            "doi": "10.1016/J.JSS.2013.05.007",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "bee7b2bf042bbe1c82aa07b8776d26a5522426d1",
+            "title": "Code smells as system-level indicators of maintainability: An empirical study",
+            "url": "https://www.semanticscholar.org/paper/bee7b2bf042bbe1c82aa07b8776d26a5522426d1",
+            "venue": "J. Syst. Softw.",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "52099029",
+                    "name": "Dag I.K. Sj\u00f8berg"
+                },
+                {
+                    "authorId": "40340068",
+                    "name": "A. Yamashita"
+                },
+                {
+                    "authorId": "2766941",
+                    "name": "Bente Anda"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                },
+                {
+                    "authorId": "1724774",
+                    "name": "T. Dyb\u00e5"
+                }
+            ],
+            "doi": "10.1109/TSE.2012.89",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "8b0197d7c528c72c2997ec09091956de29783da6",
+            "title": "Quantifying the Effect of Code Smells on Maintenance Effort",
+            "url": "https://www.semanticscholar.org/paper/8b0197d7c528c72c2997ec09091956de29783da6",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1782810",
+                    "name": "R. Prikladnicki"
+                },
+                {
+                    "authorId": "3259396",
+                    "name": "Rashina Hoda"
+                },
+                {
+                    "authorId": "35110398",
+                    "name": "M. Cataldo"
+                },
+                {
+                    "authorId": "145574559",
+                    "name": "H. Sharp"
+                },
+                {
+                    "authorId": "2273436",
+                    "name": "Y. Dittrich"
+                },
+                {
+                    "authorId": "4572461",
+                    "name": "C. D. Souza"
+                }
+            ],
+            "doi": "10.1109/CHASE.2013.6614724",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "bb05940c8f46b67b01902fbe656b39c290340e47",
+            "title": "6 th International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE)",
+            "url": "https://www.semanticscholar.org/paper/bb05940c8f46b67b01902fbe656b39c290340e47",
+            "venue": "CHASE 2013",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40340068",
+                    "name": "A. Yamashita"
+                },
+                {
+                    "authorId": "1762006",
+                    "name": "L. Moonen"
+                }
+            ],
+            "doi": "10.1109/ICSE.2013.6606614",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "e18944245819cfc6905af89dd4bc93268f7e5558",
+            "title": "Exploring the impact of inter-smell relations on software maintainability: An empirical study",
+            "url": "https://www.semanticscholar.org/paper/e18944245819cfc6905af89dd4bc93268f7e5558",
+            "venue": "2013 35th International Conference on Software Engineering (ICSE)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1755651",
+                    "name": "Julia Kiseleva"
+                }
+            ],
+            "doi": "10.1145/2487788.2487947",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "932584878c12049829a907a5afd54044e5c86856",
+            "title": "Context mining and integration into predictive web analytics",
+            "url": "https://www.semanticscholar.org/paper/932584878c12049829a907a5afd54044e5c86856",
+            "venue": "WWW",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40340068",
+                    "name": "A. Yamashita"
+                }
+            ],
+            "doi": "10.1007/s10664-013-9250-3",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "e8907ec317b4f4ae090988a3252f9d622130765b",
+            "title": "Assessing the capability of code smells to explain maintenance problems: an empirical study combining quantitative and qualitative data",
+            "url": "https://www.semanticscholar.org/paper/e8907ec317b4f4ae090988a3252f9d622130765b",
+            "venue": "Empirical Software Engineering",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3027235",
+                    "name": "Gunnar R. Bergersen"
+                },
+                {
+                    "authorId": "103154097",
+                    "name": "J. Gustafsson"
+                }
+            ],
+            "doi": "10.1027/1614-0001/A000052",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4c915241ba9ed69dff8cdb22321062f9aa4e02b0",
+            "title": "Programming Skill, Knowledge, and Working Memory Among Professional Software Developers from an Investment Theory Perspective",
+            "url": "https://www.semanticscholar.org/paper/4c915241ba9ed69dff8cdb22321062f9aa4e02b0",
+            "venue": "",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1721793",
+                    "name": "L. Layman"
+                },
+                {
+                    "authorId": "144426849",
+                    "name": "L. Williams"
+                },
+                {
+                    "authorId": "1736796",
+                    "name": "R. Amant"
+                }
+            ],
+            "doi": "10.1145/1370114.1370133",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d0ec08d9dfcaf5f243297040be0e580936e32e1c",
+            "title": "MimEc: intelligent user notification of faults in the eclipse IDE",
+            "url": "https://www.semanticscholar.org/paper/d0ec08d9dfcaf5f243297040be0e580936e32e1c",
+            "venue": "CHASE",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2766941",
+                    "name": "Bente Anda"
+                }
+            ],
+            "doi": "10.1109/ICSM.2007.4362633",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "72b1a5f3c61c2d3a1cfa88763d86da9e287d132a",
+            "title": "Assessing Software System Maintainability using Structural Measures and Expert Assessments",
+            "url": "https://www.semanticscholar.org/paper/72b1a5f3c61c2d3a1cfa88763d86da9e287d132a",
+            "venue": "2007 IEEE International Conference on Software Maintenance",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "115552366",
+                    "name": "J. Bullock"
+                }
+            ],
+            "doi": "10.1108/01437730410544791",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "014f828dcc622523b655b9518c75295c7ff6f264",
+            "title": "Management Teams: Why They Succeed or Fail",
+            "url": "https://www.semanticscholar.org/paper/014f828dcc622523b655b9518c75295c7ff6f264",
+            "venue": "",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1723491",
+                    "name": "F. Shull"
+                },
+                {
+                    "authorId": "1678713",
+                    "name": "V. Basili"
+                },
+                {
+                    "authorId": "1680416",
+                    "name": "Jeffrey C. Carver"
+                },
+                {
+                    "authorId": "32768962",
+                    "name": "J. Maldonado"
+                },
+                {
+                    "authorId": "1688347",
+                    "name": "G. Travassos"
+                },
+                {
+                    "authorId": "1723519",
+                    "name": "Manoel G. Mendon\u00e7a"
+                },
+                {
+                    "authorId": "40202024",
+                    "name": "S. Fabbri"
+                }
+            ],
+            "doi": "10.1109/ISESE.2002.1166920",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "29f908a6026f4a64ce76531720a27511e2ccd35a",
+            "title": "Replicating software engineering experiments: addressing the tacit knowledge problem",
+            "url": "https://www.semanticscholar.org/paper/29f908a6026f4a64ce76531720a27511e2ccd35a",
+            "venue": "Proceedings International Symposium on Empirical Software Engineering",
+            "year": 2002
+        },
+        {
+            "arxivId": "cs/0612004",
+            "authors": [
+                {
+                    "authorId": "38818920",
+                    "name": "Jean-Marie Burkhardt"
+                },
+                {
+                    "authorId": "1693932",
+                    "name": "F. D\u00e9tienne"
+                },
+                {
+                    "authorId": "1682649",
+                    "name": "Susan Wiedenbeck"
+                }
+            ],
+            "doi": "10.1023/A:1015297914742",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "08504be2b1185e92b3c04e860a95326369beea2e",
+            "title": "Object-Oriented Program Comprehension: Effect of Expertise, Task and Phase",
+            "url": "https://www.semanticscholar.org/paper/08504be2b1185e92b3c04e860a95326369beea2e",
+            "venue": "Empirical Software Engineering",
+            "year": 2002
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3771519",
+                    "name": "Matthew Kutz"
+                }
+            ],
+            "doi": "10.1007/978-3-319-44998-2_2",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8ee84e76cfd5c181083430c169d8f8a06d03f34f",
+            "title": "What Is Contextual Intelligence",
+            "url": "https://www.semanticscholar.org/paper/8ee84e76cfd5c181083430c169d8f8a06d03f34f",
+            "venue": "",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Digitizing the consumer decision journey",
+            "url": "",
+            "venue": "McKinsey Quarterly",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40340068",
+                    "name": "A. Yamashita"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "322451b37abdb1f492100ebe0ec54bfff433d604",
+            "title": "Assessing the Capability of Code Smells to Support Software Maintainability Assessments: Empirical Inquiry and Methodological Approach",
+            "url": "https://www.semanticscholar.org/paper/322451b37abdb1f492100ebe0ec54bfff433d604",
+            "venue": "",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "The necessity of metadata for linked open data and its contribution to policy analyses",
+            "url": "",
+            "venue": "",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47605333",
+                    "name": "Anthony J. Mayo"
+                },
+                {
+                    "authorId": "5104836",
+                    "name": "N. Nohria"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0fbaff0dfd9d92eef82b5606609e9faa44c6d297",
+            "title": "Zeitgeist leadership.",
+            "url": "https://www.semanticscholar.org/paper/0fbaff0dfd9d92eef82b5606609e9faa44c6d297",
+            "venue": "Harvard business review",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145241666",
+                    "name": "A. J. Mayo"
+                },
+                {
+                    "authorId": "2092915607",
+                    "name": "Nitin Nohria"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0a379a070c3d37519f9fb54b36ceb761d80f7d73",
+            "title": "Liderar de acuerdo a los tiempos",
+            "url": "https://www.semanticscholar.org/paper/0a379a070c3d37519f9fb54b36ceb761d80f7d73",
+            "venue": "",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144145499",
+                    "name": "J. Kidd"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "efeeebfc5273898c8f40f923d9f2026b462af059",
+            "title": "Management Teams: Why They Succeed or Fail",
+            "url": "https://www.semanticscholar.org/paper/efeeebfc5273898c8f40f923d9f2026b462af059",
+            "venue": "",
+            "year": 1982
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "Developer Interaction Traces Backed by IDE Screen Recordings from Think Aloud Sessions",
+    "topics": [
+        {
+            "topic": "Tracing (software)",
+            "topicId": "2918",
+            "url": "https://www.semanticscholar.org/topic/2918"
+        },
+        {
+            "topic": "Software engineering",
+            "topicId": "7832",
+            "url": "https://www.semanticscholar.org/topic/7832"
+        },
+        {
+            "topic": "Program comprehension",
+            "topicId": "231624",
+            "url": "https://www.semanticscholar.org/topic/231624"
+        },
+        {
+            "topic": "Machine learning",
+            "topicId": "168",
+            "url": "https://www.semanticscholar.org/topic/168"
+        },
+        {
+            "topic": "Ground truth",
+            "topicId": "33313",
+            "url": "https://www.semanticscholar.org/topic/33313"
+        },
+        {
+            "topic": "Docker",
+            "topicId": "220344",
+            "url": "https://www.semanticscholar.org/topic/220344"
+        },
+        {
+            "topic": "Issue tracking system",
+            "topicId": "364727",
+            "url": "https://www.semanticscholar.org/topic/364727"
+        },
+        {
+            "topic": "Computer monitor",
+            "topicId": "4493",
+            "url": "https://www.semanticscholar.org/topic/4493"
+        },
+        {
+            "topic": "Correctness (computer science)",
+            "topicId": "12411",
+            "url": "https://www.semanticscholar.org/topic/12411"
+        },
+        {
+            "topic": "Software bug",
+            "topicId": "37",
+            "url": "https://www.semanticscholar.org/topic/37"
+        },
+        {
+            "topic": "Digital footprint",
+            "topicId": "35533",
+            "url": "https://www.semanticscholar.org/topic/35533"
+        },
+        {
+            "topic": "SWAT",
+            "topicId": "658487",
+            "url": "https://www.semanticscholar.org/topic/658487"
+        }
+    ],
+    "url": "https://www.semanticscholar.org/paper/b6168caf63709e584ebba78f3c4555722236cf36",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2018
+}

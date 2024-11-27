@@ -1,0 +1,667 @@
+{
+    "abstract": "Several researchers have studied that developers contributing to open source systems tend to self-organize in \u201cemerging\u201d teams. The structure of these latent teams has a significant impact on software quality, with development teams structure somewhat reflected in the way developers communicate and contribute in the subsystems of a system. Therefore, in order to study socio-technical interactions as well as the software evolution dynamics of open source systems, in this paper, we present a novel dataset, gathered from 20 open source projects, which report the developers' activities in the scope of commits and issues at the level of subsystems. Thus, the new, generated dataset comprises of emerging and explicit links among developers, commits, issues, and source code artifacts, with data grouped around the subsystems point of view, which can be used to better study the system dynamics behind the extracted sociotechnical interactions.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "1733336",
+            "name": "Usman Ashraf",
+            "url": "https://www.semanticscholar.org/author/1733336"
+        },
+        {
+            "authorId": "1412106655",
+            "name": "Christoph Mayr-Dorn",
+            "url": "https://www.semanticscholar.org/author/1412106655"
+        },
+        {
+            "authorId": "1690528",
+            "name": "Alexander Egyed",
+            "url": "https://www.semanticscholar.org/author/1690528"
+        },
+        {
+            "authorId": "3117169",
+            "name": "Sebastiano Panichella",
+            "url": "https://www.semanticscholar.org/author/3117169"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1817470",
+                    "name": "David Broneske"
+                },
+                {
+                    "authorId": "2311223875",
+                    "name": "Sebastian Kittan"
+                },
+                {
+                    "authorId": "2294487423",
+                    "name": "Jacob Kr\u00fcger"
+                }
+            ],
+            "doi": "10.1145/3660798",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6f30b34e9e923168baa57f2edc5233577d778292",
+            "title": "Sharing Software-Evolution Datasets: Practices, Challenges, and Recommendations",
+            "url": "https://www.semanticscholar.org/paper/6f30b34e9e923168baa57f2edc5233577d778292",
+            "venue": "Proceedings of the ACM on Software Engineering",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "30665018",
+                    "name": "J. L. C\u00e1novas Izquierdo"
+                },
+                {
+                    "authorId": "1705375",
+                    "name": "Jordi Cabot"
+                }
+            ],
+            "doi": "10.1007/s10664-021-10061-x",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7eccb603aad5a67773a15a7fbbb68fa72a0105a4",
+            "title": "On the analysis of non-coding roles in open source development",
+            "url": "https://www.semanticscholar.org/paper/7eccb603aad5a67773a15a7fbbb68fa72a0105a4",
+            "venue": "Empirical Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144125116",
+                    "name": "Santiago Due\u00f1as"
+                },
+                {
+                    "authorId": "34820138",
+                    "name": "Valerio Cosentino"
+                },
+                {
+                    "authorId": "1397826059",
+                    "name": "Jesus M. Gonzalez-Barahona"
+                },
+                {
+                    "authorId": "2120374921",
+                    "name": "Alvaro del Castillo San Felix"
+                },
+                {
+                    "authorId": "1384382015",
+                    "name": "Daniel Izquierdo-Cortazar"
+                },
+                {
+                    "authorId": "2120340149",
+                    "name": "Luis Ca\u00f1as-D\u00edaz"
+                },
+                {
+                    "authorId": "2120359686",
+                    "name": "Alberto P\u00e9rez Garc\u00eda-Plaza"
+                }
+            ],
+            "doi": "10.7717/peerj-cs.601",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7e383ddd9aaecc4c700f47ad824f4dfb711e5c14",
+            "title": "GrimoireLab: A toolset for software development analytics",
+            "url": "https://www.semanticscholar.org/paper/7e383ddd9aaecc4c700f47ad824f4dfb711e5c14",
+            "venue": "PeerJ Comput. Sci.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2104.03648",
+            "authors": [
+                {
+                    "authorId": "1733336",
+                    "name": "Usman Ashraf"
+                },
+                {
+                    "authorId": "1412106655",
+                    "name": "Christoph Mayr-Dorn"
+                },
+                {
+                    "authorId": "2678825",
+                    "name": "A. Mashkoor"
+                },
+                {
+                    "authorId": "1690528",
+                    "name": "Alexander Egyed"
+                },
+                {
+                    "authorId": "3117169",
+                    "name": "Sebastiano Panichella"
+                }
+            ],
+            "doi": "10.1109/ICSSP-ICGSE52873.2021.00016",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7b8aa97b11854fbad29fb0897d6b569254140e7c",
+            "title": "Do Communities in Developer Interaction Networks align with Subsystem Developer Teams? An Empirical Study of Open Source Systems",
+            "url": "https://www.semanticscholar.org/paper/7b8aa97b11854fbad29fb0897d6b569254140e7c",
+            "venue": "2021 IEEE/ACM Joint 15th International Conference on Software and System Processes (ICSSP) and 16th ACM/IEEE International Conference on Global Software Engineering (ICGSE)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2404391",
+                    "name": "Carmine Vassallo"
+                },
+                {
+                    "authorId": "3117169",
+                    "name": "Sebastiano Panichella"
+                },
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                },
+                {
+                    "authorId": "1933475",
+                    "name": "Sebastian Proksch"
+                },
+                {
+                    "authorId": "50355692",
+                    "name": "H. Gall"
+                },
+                {
+                    "authorId": "1702285",
+                    "name": "A. Zaidman"
+                }
+            ],
+            "doi": "10.1007/s10664-019-09750-5",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1b16c2c70e86aa3117dc7923280171ac74cf7272",
+            "title": "How developers engage with static analysis tools in different contexts",
+            "url": "https://www.semanticscholar.org/paper/1b16c2c70e86aa3117dc7923280171ac74cf7272",
+            "venue": "Empirical Software Engineering",
+            "year": 2019
+        },
+        {
+            "arxivId": "1904.02414",
+            "authors": [
+                {
+                    "authorId": "3144783",
+                    "name": "Andrea Di Sorbo"
+                },
+                {
+                    "authorId": "1765470",
+                    "name": "Josef Spillner"
+                },
+                {
+                    "authorId": "1711200",
+                    "name": "G. Canfora"
+                },
+                {
+                    "authorId": "3117169",
+                    "name": "Sebastiano Panichella"
+                }
+            ],
+            "doi": "10.1016/J.INFSOF.2021.106665",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9fad68beb7c40895609edc3cc3b1933a55de2206",
+            "title": "\"Won't We Fix this Issue?\" Qualitative Characterization and Automated Identification of Wontfix Issues on GitHub",
+            "url": "https://www.semanticscholar.org/paper/9fad68beb7c40895609edc3cc3b1933a55de2206",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2019
+        }
+    ],
+    "corpusId": 221784725,
+    "doi": "10.1145/3379597.3387492",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 6,
+    "numCiting": 16,
+    "paperId": "8a02019cd76d6ddb69b8b20372e82d5e1e7a0847",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144125116",
+                    "name": "Santiago Due\u00f1as"
+                },
+                {
+                    "authorId": "34820138",
+                    "name": "Valerio Cosentino"
+                },
+                {
+                    "authorId": "143684601",
+                    "name": "G. Robles"
+                },
+                {
+                    "authorId": "1397826059",
+                    "name": "Jesus M. Gonzalez-Barahona"
+                }
+            ],
+            "doi": "10.1145/3183440.3183475",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "d2efef27cc5a10d61c50a5298019cbd6991fe42d",
+            "title": "Perceval: Software Project Data at Your Will",
+            "url": "https://www.semanticscholar.org/paper/d2efef27cc5a10d61c50a5298019cbd6991fe42d",
+            "venue": "2018 IEEE/ACM 40th International Conference on Software Engineering: Companion (ICSE-Companion)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2989307",
+                    "name": "Valentina Lenarduzzi"
+                },
+                {
+                    "authorId": "1403101501",
+                    "name": "Outi Sievi-Korte"
+                }
+            ],
+            "doi": "10.1145/3234152.3234191",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "265ced0b207470729184eecce3bd7bb30e702c81",
+            "title": "On the negative impact of team independence in microservices software development",
+            "url": "https://www.semanticscholar.org/paper/265ced0b207470729184eecce3bd7bb30e702c81",
+            "venue": "XP Companion",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "41022914",
+                    "name": "M. Rath"
+                },
+                {
+                    "authorId": "2669096",
+                    "name": "P. Rempel"
+                },
+                {
+                    "authorId": "35215848",
+                    "name": "Patrick M\u00e4der"
+                }
+            ],
+            "doi": "10.1109/RE.2017.18",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fd9e74dbeea7b78a96c5b1dfdb8e62e8160e10cc",
+            "title": "The IlmSeven Dataset",
+            "url": "https://www.semanticscholar.org/paper/fd9e74dbeea7b78a96c5b1dfdb8e62e8160e10cc",
+            "venue": "2017 IEEE 25th International Requirements Engineering Conference (RE)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3155647",
+                    "name": "Mohammad Gharehyazie"
+                },
+                {
+                    "authorId": "3179220",
+                    "name": "V. Filkov"
+                }
+            ],
+            "doi": "10.1007/s10664-016-9463-3",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7be71c8a7ff6e844b8613fae881fba12ff03332a",
+            "title": "Tracing distributed collaborative development in apache software foundation projects",
+            "url": "https://www.semanticscholar.org/paper/7be71c8a7ff6e844b8613fae881fba12ff03332a",
+            "venue": "Empirical Software Engineering",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1721943",
+                    "name": "Bora Caglayan"
+                },
+                {
+                    "authorId": "1730000",
+                    "name": "A. Bener"
+                }
+            ],
+            "doi": "10.1016/J.JSS.2016.03.055",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0be2a2e1b69bbcdc48861ac394365b65c5adaf80",
+            "title": "Effect of developer collaboration activity on software quality in two large scale projects",
+            "url": "https://www.semanticscholar.org/paper/0be2a2e1b69bbcdc48861ac394365b65c5adaf80",
+            "venue": "J. Syst. Softw.",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3117169",
+                    "name": "Sebastiano Panichella"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "1711200",
+                    "name": "G. Canfora"
+                },
+                {
+                    "authorId": "1692292",
+                    "name": "G. Antoniol"
+                }
+            ],
+            "doi": "10.1109/ICSME.2014.47",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9a4d5542e87efeca045bd8eeae4d21f049ee3cfe",
+            "title": "How Developers' Collaborations Identified from Different Sources Tell Us about Code Changes",
+            "url": "https://www.semanticscholar.org/paper/9a4d5542e87efeca045bd8eeae4d21f049ee3cfe",
+            "venue": "2014 IEEE International Conference on Software Maintenance and Evolution",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1741744",
+                    "name": "D. Damian"
+                },
+                {
+                    "authorId": "145211992",
+                    "name": "R. Helms"
+                },
+                {
+                    "authorId": "2207293",
+                    "name": "Irwin Kwan"
+                },
+                {
+                    "authorId": "2055086",
+                    "name": "S. Marczak"
+                },
+                {
+                    "authorId": "2080308770",
+                    "name": "Benjamin Koelewijn"
+                }
+            ],
+            "doi": "10.1109/ICSE.2013.6606590",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c3e6f8cd1dabcb8993bd056a1f7710c65a1eba39",
+            "title": "The role of domain knowledge and cross-functional communication in socio-technical coordination",
+            "url": "https://www.semanticscholar.org/paper/c3e6f8cd1dabcb8993bd056a1f7710c65a1eba39",
+            "venue": "2013 35th International Conference on Software Engineering (ICSE)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1711200",
+                    "name": "G. Canfora"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                },
+                {
+                    "authorId": "3117169",
+                    "name": "Sebastiano Panichella"
+                }
+            ],
+            "doi": "10.1145/2393596.2393647",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d5fcde0d635fbf195172b4516b1c1c9fcc2efb9b",
+            "title": "Who is going to mentor newcomers in open source projects?",
+            "url": "https://www.semanticscholar.org/paper/d5fcde0d635fbf195172b4516b1c1c9fcc2efb9b",
+            "venue": "SIGSOFT FSE",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1711200",
+                    "name": "G. Canfora"
+                },
+                {
+                    "authorId": "1715558",
+                    "name": "L. Cerulo"
+                },
+                {
+                    "authorId": "1706324",
+                    "name": "Marta Cimitile"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                }
+            ],
+            "doi": "10.1145/1985441.1985463",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e086c88e7ef176b4f8b8d5ede9ae67f41f315a14",
+            "title": "Social interactions around cross-system bug fixings: the case of FreeBSD and OpenBSD",
+            "url": "https://www.semanticscholar.org/paper/e086c88e7ef176b4f8b8d5ede9ae67f41f315a14",
+            "venue": "MSR '11",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144700989",
+                    "name": "Jorge Aranda"
+                },
+                {
+                    "authorId": "1785079",
+                    "name": "Gina Venolia"
+                }
+            ],
+            "doi": "10.1109/ICSE.2009.5070530",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f4cdca608479bdc4f167c960e4ad2e0f25c5207e",
+            "title": "The secret life of bugs: Going past the errors and omissions in software repositories",
+            "url": "https://www.semanticscholar.org/paper/f4cdca608479bdc4f167c960e4ad2e0f25c5207e",
+            "venue": "2009 IEEE 31st International Conference on Software Engineering",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145193818",
+                    "name": "C. Bird"
+                },
+                {
+                    "authorId": "36210726",
+                    "name": "David S. Pattison"
+                },
+                {
+                    "authorId": "1401971414",
+                    "name": "R. D\u2019Souza"
+                },
+                {
+                    "authorId": "3179220",
+                    "name": "V. Filkov"
+                },
+                {
+                    "authorId": "1730296",
+                    "name": "Premkumar T. Devanbu"
+                }
+            ],
+            "doi": "10.1145/1453101.1453107",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9cf9bb212d73a54686181cc9ab4d3488204baac4",
+            "title": "Latent social structure in open source projects",
+            "url": "https://www.semanticscholar.org/paper/9cf9bb212d73a54686181cc9ab4d3488204baac4",
+            "venue": "SIGSOFT '08/FSE-16",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2553048",
+                    "name": "E. Capra"
+                },
+                {
+                    "authorId": "1746199",
+                    "name": "A. Wasserman"
+                }
+            ],
+            "doi": "10.1007/978-0-387-09684-1_1",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4c0705a059f967a4bd44e4ae0c204159aa60a274",
+            "title": "A Framework for Evaluating Managerial Styles in Open Source Projects",
+            "url": "https://www.semanticscholar.org/paper/4c0705a059f967a4bd44e4ae0c204159aa60a274",
+            "venue": "OSS",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1776779",
+                    "name": "Andrew Begel"
+                },
+                {
+                    "authorId": "1693689",
+                    "name": "Nachiappan Nagappan"
+                }
+            ],
+            "doi": "10.1109/ICGSE.2008.17",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "936e4a49b24e2b489b7c680b3be010ba45478614",
+            "title": "Global Software Development: Who Does It?",
+            "url": "https://www.semanticscholar.org/paper/936e4a49b24e2b489b7c680b3be010ba45478614",
+            "venue": "2008 IEEE International Conference on Global Software Engineering",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "On the negativeimpact of team independence in microservicessoftware developmentIn Proceedingsofthe 19th InternationalConferenceon AgileSoftwareDevelopment:Companion;XP '18",
+            "url": "",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2149265446",
+                    "name": "Jing Wu"
+                },
+                {
+                    "authorId": "2979479",
+                    "name": "K. Goh"
+                },
+                {
+                    "authorId": "2153612625",
+                    "name": "He Li"
+                },
+                {
+                    "authorId": "2237125541",
+                    "name": "Chuan Luo"
+                },
+                {
+                    "authorId": "2286973741",
+                    "name": "Haichao Zheng"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0119c5b387a03c4b032adb2f87e482e4d599e368",
+            "title": "The Effects of Communication Patterns on the Success of Open Source Software Projects: An Empirical Analysis from Social Network Perspectives",
+            "url": "https://www.semanticscholar.org/paper/0119c5b387a03c4b032adb2f87e482e4d599e368",
+            "venue": "J. Glob. Inf. Manag.",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Globalsoftwaredevelopment:Who doesit? In 3rdIEEEInternat ionalConference on GlobalSoftwareEngineering",
+            "url": "",
+            "venue": "ICGSE 2008",
+            "year": 2008
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Sociology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "A Mixed Graph-Relational Dataset of Socio-technical Interactions in Open Source Systems",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/8a02019cd76d6ddb69b8b20372e82d5e1e7a0847",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2020
+}

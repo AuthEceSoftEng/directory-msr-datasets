@@ -1,0 +1,924 @@
+{
+    "abstract": "With the large-scale adaptation of Android OS and ever-increasing contributions in the Android application space, Android has become the number one target of malware writers. In recent years, a large number of automatic malware detection and classification systems have evolved to tackle the dynamic nature of malware growth using either static or dynamic analysis techniques. Performance of static malware detection methods degrade due to the obfuscation attacks. Although many benchmark datasets are available to measure the performance of malware detection and classification systems, only a single obfuscated malware dataset (PRAGuard) is available to show-case the efficacy of the existing malware detection systems against the obfuscation attacks. PRAGuard contains outdated samples till March 2013 and does not represent the latest application categories. Moreover, PRAGuard does not provide the family information for malware because of which PRAGuard can not be used to evaluate the efficacy of the malware family classification systems. In this work, we create and release AndroOBFS, a time-tagged (at month granularity) obfuscated malware dataset with familial information spanning over three years from 2018 to 2020. We create this dataset by obfuscating 16279 unique real-world malware in six different obfuscation categories. Out of 16279 obfuscated malware samples, 14579 samples are distributed across 158 families with at least two unique malware samples in each family. We release this dataset to facilitate Android malware study towards designing robust and obfuscation resilient malware detection and classification systems.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2144041323",
+            "name": "Saurabh Kumar",
+            "url": "https://www.semanticscholar.org/author/2144041323"
+        },
+        {
+            "authorId": "2484837",
+            "name": "Debadatta Mishra",
+            "url": "https://www.semanticscholar.org/author/2484837"
+        },
+        {
+            "authorId": "2899161",
+            "name": "Biswabandan Panda",
+            "url": "https://www.semanticscholar.org/author/2899161"
+        },
+        {
+            "authorId": "2150905311",
+            "name": "S. Shukla",
+            "url": "https://www.semanticscholar.org/author/2150905311"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145182849",
+                    "name": "Teenu S. John"
+                },
+                {
+                    "authorId": "1476818813",
+                    "name": "Tony Thomas"
+                },
+                {
+                    "authorId": "145406385",
+                    "name": "S. Emmanuel"
+                }
+            ],
+            "doi": "10.1016/j.jisa.2024.103880",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "095a2cc7167a4d339b65eb78776f3b0a86285738",
+            "title": "Detection of Evasive Android Malware Using EigenGCN",
+            "url": "https://www.semanticscholar.org/paper/095a2cc7167a4d339b65eb78776f3b0a86285738",
+            "venue": "Journal of Information Security and Applications",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2301722290",
+                    "name": "Murray Fleming"
+                },
+                {
+                    "authorId": "152836390",
+                    "name": "Oluwafemi Olukoya"
+                }
+            ],
+            "doi": "10.1016/j.fsidi.2024.301770",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "44ab1a91a94d26f8c6e3d4612f59095085e33524",
+            "title": "A temporal analysis and evaluation of fuzzy hashing algorithms for Android malware analysis",
+            "url": "https://www.semanticscholar.org/paper/44ab1a91a94d26f8c6e3d4612f59095085e33524",
+            "venue": "Forensic Science International: Digital Investigation",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2299108470",
+                    "name": "Huijuan Wang"
+                },
+                {
+                    "authorId": "2305842700",
+                    "name": "Boyan Cui"
+                },
+                {
+                    "authorId": "34553316",
+                    "name": "Quanbo Yuan"
+                },
+                {
+                    "authorId": "2306824341",
+                    "name": "Ruonan Shi"
+                },
+                {
+                    "authorId": "2306875729",
+                    "name": "Mengying Huang"
+                }
+            ],
+            "doi": "10.1016/j.neucom.2024.128010",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "46b8ffa0ce997faf72955d2c00d612f9beafdc03",
+            "title": "A review of deep learning based malware detection techniques",
+            "url": "https://www.semanticscholar.org/paper/46b8ffa0ce997faf72955d2c00d612f9beafdc03",
+            "venue": "Neurocomputing",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2293471448",
+                    "name": "Hend Aboud"
+                },
+                {
+                    "authorId": "2279912158",
+                    "name": "Hanan Hindy"
+                },
+                {
+                    "authorId": "1446885679",
+                    "name": "S. Gaber"
+                },
+                {
+                    "authorId": "2293424605",
+                    "name": "Abdel-Badeeh Salem"
+                }
+            ],
+            "doi": "10.21608/ijicis.2024.250295.1308",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "4c7b0a1aac4a57a010e60d08509f993f6861f9ed",
+            "title": "Artificial Intelligence based Algorithm for Detecting Android Obfuscated Applications",
+            "url": "https://www.semanticscholar.org/paper/4c7b0a1aac4a57a010e60d08509f993f6861f9ed",
+            "venue": "International Journal of Intelligent Computing and Information Sciences",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2276577028",
+                    "name": "Aman Pratap Singh"
+                },
+                {
+                    "authorId": "2276534837",
+                    "name": "Rohit Negi"
+                },
+                {
+                    "authorId": "39119171",
+                    "name": "Anand Handa"
+                },
+                {
+                    "authorId": "2276537547",
+                    "name": "Sandeep K. Shukla"
+                }
+            ],
+            "doi": "10.1109/DASC/PiCom/CBDCom/Cy59711.2023.10361467",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c97b53378f93dc22c267970b953ea244e132a6c8",
+            "title": "Monitoring Application Behaviours to Detect Android Malware",
+            "url": "https://www.semanticscholar.org/paper/c97b53378f93dc22c267970b953ea244e132a6c8",
+            "venue": "2023 IEEE Intl Conf on Dependable, Autonomic and Secure Computing, Intl Conf on Pervasive Intelligence and Computing, Intl Conf on Cloud and Big Data Computing, Intl Conf on Cyber Science and Technology Congress (DASC/PiCom/CBDCom/CyberSciTech)",
+            "year": 2023
+        }
+    ],
+    "corpusId": 247849980,
+    "doi": "10.1145/3524842.3528493",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 5,
+    "numCiting": 25,
+    "paperId": "6b3e22afc6d97f41346e57a80e7a60d91d94b410",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2144041323",
+                    "name": "Saurabh Kumar"
+                },
+                {
+                    "authorId": "2484837",
+                    "name": "Debadatta Mishra"
+                },
+                {
+                    "authorId": "2150905311",
+                    "name": "S. Shukla"
+                }
+            ],
+            "doi": "10.1109/SIN54109.2021.9699322",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4f69cada6e1562fb9d3b2832e6cbb58e9bd7deba",
+            "title": "Android Malware Family Classification: What Works \u2013 API Calls, Permissions or API Packages?",
+            "url": "https://www.semanticscholar.org/paper/4f69cada6e1562fb9d3b2832e6cbb58e9bd7deba",
+            "venue": "2021 14th International Conference on Security of Information and Networks (SIN)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2144041323",
+                    "name": "Saurabh Kumar"
+                },
+                {
+                    "authorId": "2484837",
+                    "name": "Debadatta Mishra"
+                },
+                {
+                    "authorId": "2899161",
+                    "name": "Biswabandan Panda"
+                },
+                {
+                    "authorId": "2150905311",
+                    "name": "S. Shukla"
+                }
+            ],
+            "doi": "10.1109/QRS54544.2021.00015",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "9bb2874d5c43d832b1bbccaad19fd9210966eb61",
+            "title": "DeepDetect: A Practical On-device Android Malware Detector",
+            "url": "https://www.semanticscholar.org/paper/9bb2874d5c43d832b1bbccaad19fd9210966eb61",
+            "venue": "2021 IEEE 21st International Conference on Software Quality, Reliability and Security (QRS)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "23164826",
+                    "name": "Simone Aonzo"
+                },
+                {
+                    "authorId": "2700694",
+                    "name": "Gabriel Claudiu Georgiu"
+                },
+                {
+                    "authorId": "2033786",
+                    "name": "Luca Verderame"
+                },
+                {
+                    "authorId": "152607302",
+                    "name": "A. Merlo"
+                }
+            ],
+            "doi": "10.1016/j.softx.2020.100403",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "309a9b198c98bc662d49a95b45d7919f6030cf3d",
+            "title": "Obfuscapk: An open-source black-box obfuscation tool for Android apps",
+            "url": "https://www.semanticscholar.org/paper/309a9b198c98bc662d49a95b45d7919f6030cf3d",
+            "venue": "SoftwareX",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1388581006",
+                    "name": "Sercan T\u00fcrker"
+                },
+                {
+                    "authorId": "1804182",
+                    "name": "Ahmet Burak Can"
+                }
+            ],
+            "doi": "10.1109/PIMRCW.2019.8880840",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d91c7b4114299abbd129e30f3fd601e1f0695fd2",
+            "title": "AndMFC: Android Malware Family Classification Framework",
+            "url": "https://www.semanticscholar.org/paper/d91c7b4114299abbd129e30f3fd601e1f0695fd2",
+            "venue": "2019 IEEE 30th International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC Workshops)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2109570965",
+                    "name": "Haoyu Wang"
+                },
+                {
+                    "authorId": "2057225616",
+                    "name": "Junjun Si"
+                },
+                {
+                    "authorId": null,
+                    "name": "Hao Li"
+                },
+                {
+                    "authorId": "145508275",
+                    "name": "Yao Guo"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00067",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6031380b6c3d5d2a9ca6221270ada9e64d28fcde",
+            "title": "RmvDroid: Towards A Reliable Android Malware Dataset with App Metadata",
+            "url": "https://www.semanticscholar.org/paper/6031380b6c3d5d2a9ca6221270ada9e64d28fcde",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2156057406",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "3023999",
+                    "name": "T\u00e9gawend\u00e9 F. Bissyand\u00e9"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                }
+            ],
+            "doi": "10.1109/ISSRE.2018.00031",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c974ca742f2dc083d933668a10a4bce0edc98b9a",
+            "title": "MoonlightBox: Mining Android API Histories for Uncovering Release-Time Inconsistencies",
+            "url": "https://www.semanticscholar.org/paper/c974ca742f2dc083d933668a10a4bce0edc98b9a",
+            "venue": "2018 IEEE 29th International Symposium on Software Reliability Engineering (ISSRE)",
+            "year": 2018
+        },
+        {
+            "arxivId": "1906.09456",
+            "authors": [
+                {
+                    "authorId": "2109579397",
+                    "name": "Hye Min Kim"
+                },
+                {
+                    "authorId": "30978217",
+                    "name": "Hyun Min Song"
+                },
+                {
+                    "authorId": "2930700",
+                    "name": "J. Seo"
+                },
+                {
+                    "authorId": "1802174",
+                    "name": "H. Kim"
+                }
+            ],
+            "doi": "10.1109/PST.2018.8514216",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "686f8389c04bc4e0df1df9912685f79854dde900",
+            "title": "Andro-Simnet: Android Malware Family Classification using Social Network Analysis",
+            "url": "https://www.semanticscholar.org/paper/686f8389c04bc4e0df1df9912685f79854dde900",
+            "venue": "2018 16th Annual Conference on Privacy, Security and Trust (PST)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2117101397",
+                    "name": "Ke Xu"
+                },
+                {
+                    "authorId": "1692462",
+                    "name": "Yingjiu Li"
+                },
+                {
+                    "authorId": "1713669",
+                    "name": "R. Deng"
+                },
+                {
+                    "authorId": "34526205",
+                    "name": "Kai Chen"
+                }
+            ],
+            "doi": "10.1109/EuroSP.2018.00040",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5444f9d3566bc0a11e01580a6fc89b3c937b3bd9",
+            "title": "DeepRefiner: Multi-layer Android Malware Detection System Applying Deep Neural Networks",
+            "url": "https://www.semanticscholar.org/paper/5444f9d3566bc0a11e01580a6fc89b3c937b3bd9",
+            "venue": "2018 IEEE European Symposium on Security and Privacy (EuroS&P)",
+            "year": 2018
+        },
+        {
+            "arxivId": "1709.00875",
+            "authors": [
+                {
+                    "authorId": "49490071",
+                    "name": "Luca Massarelli"
+                },
+                {
+                    "authorId": "2047634",
+                    "name": "Leonardo Aniello"
+                },
+                {
+                    "authorId": "2373906",
+                    "name": "Claudio Ciccotelli"
+                },
+                {
+                    "authorId": "1775963",
+                    "name": "Leonardo Querzoni"
+                },
+                {
+                    "authorId": "40271658",
+                    "name": "Daniele Ucci"
+                },
+                {
+                    "authorId": "1696934",
+                    "name": "R. Baldoni"
+                }
+            ],
+            "doi": "10.1109/MALWARE.2017.8323954",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "cfba53ef3b6a3823748ee7210a43d69ae8b3273e",
+            "title": "Android malware family classification based on resource consumption over time",
+            "url": "https://www.semanticscholar.org/paper/cfba53ef3b6a3823748ee7210a43d69ae8b3273e",
+            "venue": "2017 12th International Conference on Malicious and Unwanted Software (MALWARE)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3305506",
+                    "name": "Fengguo Wei"
+                },
+                {
+                    "authorId": "2110458167",
+                    "name": "Yuping Li"
+                },
+                {
+                    "authorId": "40400362",
+                    "name": "Sankardas Roy"
+                },
+                {
+                    "authorId": "1932524",
+                    "name": "Xinming Ou"
+                },
+                {
+                    "authorId": "2118084539",
+                    "name": "Wu Zhou"
+                }
+            ],
+            "doi": "10.1007/978-3-319-60876-1_12",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c58e3b32bc88ed3d8e7bcdf0523eb27057bd7d0f",
+            "title": "Deep Ground Truth Analysis of Current Android Malware",
+            "url": "https://www.semanticscholar.org/paper/c58e3b32bc88ed3d8e7bcdf0523eb27057bd7d0f",
+            "venue": "DIMVA",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1388800688",
+                    "name": "Guillermo Suarez-Tangil"
+                },
+                {
+                    "authorId": "70354487",
+                    "name": "Santanu Kumar Dash"
+                },
+                {
+                    "authorId": "48378247",
+                    "name": "Mansour Ahmadi"
+                },
+                {
+                    "authorId": "1764655",
+                    "name": "Johannes Kinder"
+                },
+                {
+                    "authorId": "1779484",
+                    "name": "G. Giacinto"
+                },
+                {
+                    "authorId": "2189170",
+                    "name": "L. Cavallaro"
+                }
+            ],
+            "doi": "10.1145/3029806.3029825",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "9c6c6137e58081d0319c37d35ba76ca7c0e3d8f8",
+            "title": "DroidSieve: Fast and Accurate Classification of Obfuscated Android Malware",
+            "url": "https://www.semanticscholar.org/paper/9c6c6137e58081d0319c37d35ba76ca7c0e3d8f8",
+            "venue": "CODASPY",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2057740860",
+                    "name": "Marcos Sebasti\u00e1n"
+                },
+                {
+                    "authorId": "2068464115",
+                    "name": "Richard Rivera"
+                },
+                {
+                    "authorId": "3048941",
+                    "name": "Platon Kotzias"
+                },
+                {
+                    "authorId": "144274911",
+                    "name": "Juan Caballero"
+                }
+            ],
+            "doi": "10.1007/978-3-319-45719-2_11",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "f74804eaf20b71da1ad2ebbbb429595c133459c8",
+            "title": "AVclass: A Tool for Massive Malware Labeling",
+            "url": "https://www.semanticscholar.org/paper/f74804eaf20b71da1ad2ebbbb429595c133459c8",
+            "venue": "RAID",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1790388",
+                    "name": "Kevin Allix"
+                },
+                {
+                    "authorId": "3023999",
+                    "name": "T\u00e9gawend\u00e9 F. Bissyand\u00e9"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                },
+                {
+                    "authorId": "47681863",
+                    "name": "Y. L. Traon"
+                }
+            ],
+            "doi": "10.1145/2901739.2903508",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "128add3f0e727b73b3df0ca13b4e818d543bdd98",
+            "title": "AndroZoo: Collecting Millions of Android Apps for the Research Community",
+            "url": "https://www.semanticscholar.org/paper/128add3f0e727b73b3df0ca13b4e818d543bdd98",
+            "venue": "2016 IEEE/ACM 13th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2970223",
+                    "name": "Zhenlong Yuan"
+                },
+                {
+                    "authorId": "2115728499",
+                    "name": "Yongqiang Lu"
+                },
+                {
+                    "authorId": "2564865",
+                    "name": "Y. Xue"
+                }
+            ],
+            "doi": "10.1109/TST.2016.7399288",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "bfbdf36d50066c39dedf688150d63ba4b84d7e52",
+            "title": "DroidDetector: Android Malware Characterization and Detection Using Deep Learning",
+            "url": "https://www.semanticscholar.org/paper/bfbdf36d50066c39dedf688150d63ba4b84d7e52",
+            "venue": "",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "38983411",
+                    "name": "Xiaolei Wang"
+                },
+                {
+                    "authorId": "1700043",
+                    "name": "Yuexiang Yang"
+                },
+                {
+                    "authorId": "2776384",
+                    "name": "Yingzhi Zeng"
+                }
+            ],
+            "doi": "10.1186/s40064-015-1356-1",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9bbbb118fffaf65bad481076633379a2c6cf999a",
+            "title": "Accurate mobile malware detection and classification in the cloud",
+            "url": "https://www.semanticscholar.org/paper/9bbbb118fffaf65bad481076633379a2c6cf999a",
+            "venue": "SpringerPlus",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3248803",
+                    "name": "Davide Maiorca"
+                },
+                {
+                    "authorId": "2455275",
+                    "name": "Davide Ariu"
+                },
+                {
+                    "authorId": "2338858",
+                    "name": "Igino Corona"
+                },
+                {
+                    "authorId": "31798936",
+                    "name": "M. Aresu"
+                },
+                {
+                    "authorId": "1779484",
+                    "name": "G. Giacinto"
+                }
+            ],
+            "doi": "10.1016/J.COSE.2015.02.007",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "2417ddac552e8d4f845d80d6ee63b6abb48fbfbc",
+            "title": "Stealth attacks: An extended insight into the obfuscation effects on Android malware",
+            "url": "https://www.semanticscholar.org/paper/2417ddac552e8d4f845d80d6ee63b6abb48fbfbc",
+            "venue": "Comput. Secur.",
+            "year": 2015
+        },
+        {
+            "arxivId": "1607.08186",
+            "authors": [
+                {
+                    "authorId": "1839835",
+                    "name": "S. Yerima"
+                },
+                {
+                    "authorId": "1738421",
+                    "name": "S. Sezer"
+                },
+                {
+                    "authorId": "2448335",
+                    "name": "Igor Muttik"
+                }
+            ],
+            "doi": "10.1109/NGMAST.2014.23",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f24f951e23c12138e73049e48e29d141d5da498b",
+            "title": "Android Malware Detection Using Parallel Machine Learning Classifiers",
+            "url": "https://www.semanticscholar.org/paper/f24f951e23c12138e73049e48e29d141d5da498b",
+            "venue": "2014 Eighth International Conference on Next Generation Mobile Apps, Services and Technologies",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40022069",
+                    "name": "Lok K. Yan"
+                },
+                {
+                    "authorId": "145503585",
+                    "name": "Heng Yin"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "519b17ea300eda0e30ac00f532db48215b56b354",
+            "title": "DroidScope: Seamlessly Reconstructing the OS and Dalvik Semantic Views for Dynamic Android Malware Analysis",
+            "url": "https://www.semanticscholar.org/paper/519b17ea300eda0e30ac00f532db48215b56b354",
+            "venue": "USENIX Security Symposium",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2144041323",
+                    "name": "Saurabh Kumar"
+                },
+                {
+                    "authorId": "2150905311",
+                    "name": "S. Shukla"
+                }
+            ],
+            "doi": "10.1007/978-981-15-1675-7_2",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0842ea9b076a7854bf81acc1fbfd1321682aa6c1",
+            "title": "The State of Android Security",
+            "url": "https://www.semanticscholar.org/paper/0842ea9b076a7854bf81acc1fbfd1321682aa6c1",
+            "venue": "Cyber Security in India",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2144041323",
+                    "name": "Saurabh Kumar"
+                },
+                {
+                    "authorId": "2484837",
+                    "name": "Debadatta Mishra"
+                },
+                {
+                    "authorId": "2899161",
+                    "name": "Biswabandan Panda"
+                },
+                {
+                    "authorId": "2150905311",
+                    "name": "S. Shukla"
+                }
+            ],
+            "doi": "10.1007/978-3-030-65411-5_5",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5a47274231e0d9e675ad820a61b6022bddf8c3a2",
+            "title": "STDNeut: Neutralizing Sensor, Telephony System and Device State Information on Emulated Android Environments",
+            "url": "https://www.semanticscholar.org/paper/5a47274231e0d9e675ad820a61b6022bddf8c3a2",
+            "venue": "CANS",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2059222883",
+                    "name": "Anam Fatima"
+                },
+                {
+                    "authorId": "2144041319",
+                    "name": "Saurabh Kumar"
+                },
+                {
+                    "authorId": "2112192193",
+                    "name": "M. Dutta"
+                }
+            ],
+            "doi": "10.1007/978-981-15-1275-9_17",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d8ad886318d60744a914c4fd2807afbdad481680",
+            "title": "Host-Server-Based Malware Detection System for Android Platforms Using Machine Learning",
+            "url": "https://www.semanticscholar.org/paper/d8ad886318d60744a914c4fd2807afbdad481680",
+            "venue": "",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143626316",
+                    "name": "Caijun Sun"
+                },
+                {
+                    "authorId": "2108905494",
+                    "name": "Hua Zhang"
+                },
+                {
+                    "authorId": "153524902",
+                    "name": "Sujuan Qin"
+                },
+                {
+                    "authorId": "2114048843",
+                    "name": "Jiawei Qin"
+                },
+                {
+                    "authorId": "46571819",
+                    "name": "Yijie Shi"
+                },
+                {
+                    "authorId": "145287269",
+                    "name": "Q. Wen"
+                }
+            ],
+            "doi": "10.1109/ACCESS.2020.3010588",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f516c6c68ff6abc0557275021da1dc0ae13a489f",
+            "title": "DroidPDF: The Obfuscation Resilient Packer Detection Framework for Android Apps",
+            "url": "https://www.semanticscholar.org/paper/f516c6c68ff6abc0557275021da1dc0ae13a489f",
+            "venue": "IEEE Access",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145065636",
+                    "name": "A. Saracino"
+                },
+                {
+                    "authorId": "3276915",
+                    "name": "D. Sgandurra"
+                },
+                {
+                    "authorId": "34586193",
+                    "name": "G. Dini"
+                },
+                {
+                    "authorId": "145355672",
+                    "name": "F. Martinelli"
+                }
+            ],
+            "doi": "10.1109/TDSC.2016.2536605",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e9a706d8c882fbd6e3b50c87ee4be9d760d89074",
+            "title": "MADAM: Effective and Efficient Behavior-based Android Malware Detection and Prevention",
+            "url": "https://www.semanticscholar.org/paper/e9a706d8c882fbd6e3b50c87ee4be9d760d89074",
+            "venue": "IEEE Transactions on Dependable and Secure Computing",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "79405068",
+                    "name": "Dan Arp"
+                },
+                {
+                    "authorId": "3219416",
+                    "name": "Michael Spreitzenbarth"
+                },
+                {
+                    "authorId": "145035359",
+                    "name": "M. Hubner"
+                },
+                {
+                    "authorId": "3088551",
+                    "name": "Hugo Gascon"
+                },
+                {
+                    "authorId": "144825749",
+                    "name": "Konrad Rieck"
+                }
+            ],
+            "doi": "10.14722/NDSS.2014.23247",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0b38a236d2377068408309f1d31e5c5fc5eedd0b",
+            "title": "DREBIN: Effective and Explainable Detection of Android Malware in Your Pocket",
+            "url": "https://www.semanticscholar.org/paper/0b38a236d2377068408309f1d31e5c5fc5eedd0b",
+            "venue": "NDSS",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Number of daily Android app releases worldwide | statista",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "AndroOBFS: Time-tagged Obfuscated Android Malware Dataset with Family Information",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/6b3e22afc6d97f41346e57a80e7a60d91d94b410",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2022
+}

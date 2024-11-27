@@ -1,0 +1,987 @@
+{
+    "abstract": "Conducting socio-technical software engineering research on closed-source software is difficult as most organizations do not want to give access to their code repositories. Most experiments and publications therefore focus on open-source projects, which only provides a partial view of software development communities. Yet, closing the gap between open and closed source software industries is es-sential to increase the validity and applicability of results stemming from socio-technical software engineering research. We contribute to this effort by sharing our work in a large company counting 4,800 employees. We mined 101 repositories and produced the GDED dataset containing socio-technical information about 106,216 commits, 470,940 file modifications and 3,471,556 method modifications from 164 developers during the last 13 years, using various programming languages. For that, we used GitDelver, an open-source tool we developed on top of Pydriller, and anonymized and scrambled the data to comply with legal and corporate requirements. Our dataset can be used for various purposes and provides information about code complexity, self-admitted technical debt, bug fixes, as well as temporal information. We also share our experience regarding the processing of sensitive data to help other organizations making datasets publicly available to the research community.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2164392678",
+            "name": "Nicolas Riquet",
+            "url": "https://www.semanticscholar.org/author/2164392678"
+        },
+        {
+            "authorId": "2212443",
+            "name": "Xavier Devroey",
+            "url": "https://www.semanticscholar.org/author/2212443"
+        },
+        {
+            "authorId": "3168244",
+            "name": "B. Vanderose",
+            "url": "https://www.semanticscholar.org/author/3168244"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2164392678",
+                    "name": "Nicolas Riquet"
+                },
+                {
+                    "authorId": "2212443",
+                    "name": "Xavier Devroey"
+                },
+                {
+                    "authorId": "2305431288",
+                    "name": "Beno\u00eet Vanderose"
+                }
+            ],
+            "doi": "10.1145/3644384.3644473",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5d51a5eb683d9a0fa426d384f4de69c992a119fe",
+            "title": "Debt Stories: Capturing Social and Technical Debt in the Industry",
+            "url": "https://www.semanticscholar.org/paper/5d51a5eb683d9a0fa426d384f4de69c992a119fe",
+            "venue": "2024 IEEE/ACM International Conference on Technical Debt (TechDebt)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2403.08311",
+            "authors": [
+                {
+                    "authorId": "2179956422",
+                    "name": "Gilberto Recupito"
+                },
+                {
+                    "authorId": "2144755750",
+                    "name": "Giammaria Giordano"
+                },
+                {
+                    "authorId": "1760777",
+                    "name": "F. Ferrucci"
+                },
+                {
+                    "authorId": "50515157",
+                    "name": "Dario Di Nucci"
+                },
+                {
+                    "authorId": "2275651738",
+                    "name": "Fabio Palomba"
+                }
+            ],
+            "doi": "10.48550/arXiv.2403.08311",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2caeed4221ccada11a19fcc27c3c637aeda43574",
+            "title": "When Code Smells Meet ML: On the Lifecycle of ML-specific Code Smells in ML-enabled Systems",
+            "url": "https://www.semanticscholar.org/paper/2caeed4221ccada11a19fcc27c3c637aeda43574",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145677084",
+                    "name": "S. Counsell"
+                },
+                {
+                    "authorId": "145695434",
+                    "name": "S. Swift"
+                }
+            ],
+            "doi": "10.1109/SEAA56994.2022.00056",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "ffa7d3042d0b4709468a4c605ad3703e3018755f",
+            "title": "Timing is Everything! A Test and Production Class View of Self-Admitted Technical Debt",
+            "url": "https://www.semanticscholar.org/paper/ffa7d3042d0b4709468a4c605ad3703e3018755f",
+            "venue": "2022 48th Euromicro Conference on Software Engineering and Advanced Applications (SEAA)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2105158158",
+                    "name": "N. Riquet"
+                },
+                {
+                    "authorId": "2248290918",
+                    "name": "Xavier Devroey"
+                },
+                {
+                    "authorId": "2064412296",
+                    "name": "Beno\u00eet Vanderose"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0c4776fcac0e7cc8714bd3b31a20836ba6ee8c4c",
+            "title": "RESEARCH OUTPUTS / R\u00c9SULTATS DE RECHERCHE",
+            "url": "https://www.semanticscholar.org/paper/0c4776fcac0e7cc8714bd3b31a20836ba6ee8c4c",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "corpusId": 248574809,
+    "doi": "10.1145/3524842.3528003",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 1,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 4,
+    "numCiting": 36,
+    "paperId": "3c4196bb29763441ec1bd7d22fa87eb5b0ee1719",
+    "references": [
+        {
+            "arxivId": "2103.09766",
+            "authors": [
+                {
+                    "authorId": "102568802",
+                    "name": "N. Sviridov"
+                },
+                {
+                    "authorId": "2319412060",
+                    "name": "Mikhail Evtikhiev"
+                },
+                {
+                    "authorId": "145218314",
+                    "name": "V. Kovalenko"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00041",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "57c0579ca2b5ee7fd79928153c90766b9e800ecf",
+            "title": "TNM: A Tool for Mining of Socio-Technical Data from Git Repositories",
+            "url": "https://www.semanticscholar.org/paper/57c0579ca2b5ee7fd79928153c90766b9e800ecf",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8850063",
+                    "name": "Bahareh Bafandeh Mayvan"
+                },
+                {
+                    "authorId": "2419417",
+                    "name": "Abbas Rasoolzadegan Barforoush"
+                },
+                {
+                    "authorId": "48898996",
+                    "name": "Abbas Javan Jafari"
+                }
+            ],
+            "doi": "10.1002/smr.2255",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9176bc7bc98718d5dc21575629013e277d74e678",
+            "title": "Bad smell detection using quality metrics and refactoring opportunities",
+            "url": "https://www.semanticscholar.org/paper/9176bc7bc98718d5dc21575629013e277d74e678",
+            "venue": "J. Softw. Evol. Process.",
+            "year": 2020
+        },
+        {
+            "arxivId": "1908.00827",
+            "authors": [
+                {
+                    "authorId": "2989307",
+                    "name": "Valentina Lenarduzzi"
+                },
+                {
+                    "authorId": "122148075",
+                    "name": "Nyyti Saarim\u00e4ki"
+                },
+                {
+                    "authorId": "1766982",
+                    "name": "D. Taibi"
+                }
+            ],
+            "doi": "10.1145/3345629.3345630",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "9cc49b5245daca8eaf2b60de8b74d2802827a48c",
+            "title": "The Technical Debt Dataset",
+            "url": "https://www.semanticscholar.org/paper/9cc49b5245daca8eaf2b60de8b74d2802827a48c",
+            "venue": "PROMISE",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "19165535",
+                    "name": "D. Spadini"
+                },
+                {
+                    "authorId": "2289215",
+                    "name": "M. Aniche"
+                },
+                {
+                    "authorId": "1686038",
+                    "name": "Alberto Bacchelli"
+                }
+            ],
+            "doi": "10.1145/3236024.3264598",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "7b5f909e1ab4d076116d11e1e7754b3c12471db8",
+            "title": "PyDriller: Python framework for mining software repositories",
+            "url": "https://www.semanticscholar.org/paper/7b5f909e1ab4d076116d11e1e7754b3c12471db8",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2018
+        },
+        {
+            "arxivId": "1810.08532",
+            "authors": [
+                {
+                    "authorId": "37368749",
+                    "name": "Matias Martinez"
+                },
+                {
+                    "authorId": "150220964",
+                    "name": "Monperrus Martin"
+                }
+            ],
+            "doi": "10.1109/ICSE-Companion.2019.00043",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "474a5c58922a23e7bb92f2f0f896ee7e38e47c68",
+            "title": "Coming: A Tool for Mining Change Pattern Instances from Git Commits",
+            "url": "https://www.semanticscholar.org/paper/474a5c58922a23e7bb92f2f0f896ee7e38e47c68",
+            "venue": "2019 IEEE/ACM 41st International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39626720",
+                    "name": "M. Nassif"
+                },
+                {
+                    "authorId": "1710587",
+                    "name": "M. Robillard"
+                }
+            ],
+            "doi": "10.1109/ICSME.2017.64",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9b2b53a99b85360340453bc6f9a7a9b92528db44",
+            "title": "Revisiting Turnover-Induced Knowledge Loss in Software Projects",
+            "url": "https://www.semanticscholar.org/paper/9b2b53a99b85360340453bc6f9a7a9b92528db44",
+            "venue": "2017 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2017
+        },
+        {
+            "arxivId": "1604.06766",
+            "authors": [
+                {
+                    "authorId": "2203504",
+                    "name": "G. Avelino"
+                },
+                {
+                    "authorId": "2036209",
+                    "name": "L. Passos"
+                },
+                {
+                    "authorId": "143857974",
+                    "name": "Andr\u00e9 C. Hora"
+                },
+                {
+                    "authorId": "1757592",
+                    "name": "M. T. Valente"
+                }
+            ],
+            "doi": "10.1109/ICPC.2016.7503718",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0180369ee913930bdb6d437eaa17b7e00e8f397b",
+            "title": "A novel approach for estimating Truck Factors",
+            "url": "https://www.semanticscholar.org/paper/0180369ee913930bdb6d437eaa17b7e00e8f397b",
+            "venue": "2016 IEEE 24th International Conference on Program Comprehension (ICPC)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3348154",
+                    "name": "Marco Ortu"
+                },
+                {
+                    "authorId": "2048851",
+                    "name": "Giuseppe Destefanis"
+                },
+                {
+                    "authorId": "143612725",
+                    "name": "Bram Adams"
+                },
+                {
+                    "authorId": "39381939",
+                    "name": "Alessandro Murgia"
+                },
+                {
+                    "authorId": "144083401",
+                    "name": "M. Marchesi"
+                },
+                {
+                    "authorId": "2192634",
+                    "name": "R. Tonelli"
+                }
+            ],
+            "doi": "10.1145/2810146.2810147",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8bb5fb97a6998d40b227dc6941466ee4b7a8294c",
+            "title": "The JIRA Repository Dataset: Understanding Social Aspects of Software Development",
+            "url": "https://www.semanticscholar.org/paper/8bb5fb97a6998d40b227dc6941466ee4b7a8294c",
+            "venue": "PROMISE",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144273542",
+                    "name": "D. Tamburri"
+                },
+                {
+                    "authorId": "144947570",
+                    "name": "Philippe B Kruchten"
+                },
+                {
+                    "authorId": "144946385",
+                    "name": "P. Lago"
+                },
+                {
+                    "authorId": "144884703",
+                    "name": "H. Vliet"
+                }
+            ],
+            "doi": "10.1186/s13174-015-0024-6",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1bb14708558f7153e6b1c6d4f0d9d1fe891f4f4d",
+            "title": "Social debt in software engineering: insights from industry",
+            "url": "https://www.semanticscholar.org/paper/1bb14708558f7153e6b1c6d4f0d9d1fe891f4f4d",
+            "venue": "Journal of Internet Services and Applications",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3095052",
+                    "name": "Mamdouh Alenezi"
+                },
+                {
+                    "authorId": "1791662",
+                    "name": "K. Almustafa"
+                },
+                {
+                    "authorId": "145319527",
+                    "name": "S. Arabia"
+                }
+            ],
+            "doi": "10.14257/IJHIT.2015.8.2.24",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2baef35356afc65b4912b9b9cdd6c95efde546b7",
+            "title": "Empirical Analysis of the Complexity Evolution in Open-Source Software Systems",
+            "url": "https://www.semanticscholar.org/paper/2baef35356afc65b4912b9b9cdd6c95efde546b7",
+            "venue": "",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145310968",
+                    "name": "Robert Dyer"
+                },
+                {
+                    "authorId": "2909676",
+                    "name": "H. Nguyen"
+                },
+                {
+                    "authorId": "144212535",
+                    "name": "Hridesh Rajan"
+                },
+                {
+                    "authorId": "2327697",
+                    "name": "T. Nguyen"
+                }
+            ],
+            "doi": "10.1109/ICSE.2013.6606588",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "20379f1cc87c9bf20ff18f976bc1f7dcbfa920cd",
+            "title": "Boa: A language and infrastructure for analyzing ultra-large-scale software repositories",
+            "url": "https://www.semanticscholar.org/paper/20379f1cc87c9bf20ff18f976bc1f7dcbfa920cd",
+            "venue": "2013 35th International Conference on Software Engineering (ICSE)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624034",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2867eb64cc4bb1945363fdae12a168962ea823aa",
+            "title": "The GHTorent dataset and tool suite",
+            "url": "https://www.semanticscholar.org/paper/2867eb64cc4bb1945363fdae12a168962ea823aa",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144947570",
+                    "name": "Philippe B Kruchten"
+                },
+                {
+                    "authorId": "2715685",
+                    "name": "R. Nord"
+                },
+                {
+                    "authorId": "2177439",
+                    "name": "Ipek Ozkaya"
+                }
+            ],
+            "doi": "10.1109/MS.2012.167",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d53f01b23b2f2f96de1584c5191856619a250706",
+            "title": "Technical Debt: From Metaphor to Theory and Practice",
+            "url": "https://www.semanticscholar.org/paper/d53f01b23b2f2f96de1584c5191856619a250706",
+            "venue": "IEEE Software",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3318024",
+                    "name": "Emad Shihab"
+                },
+                {
+                    "authorId": "145193818",
+                    "name": "C. Bird"
+                },
+                {
+                    "authorId": "143609903",
+                    "name": "Thomas Zimmermann"
+                }
+            ],
+            "doi": "10.1145/2372251.2372305",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "144a5e7781b4462ebc95b31cac8e5a357c949962",
+            "title": "The effect of branching strategies on software quality",
+            "url": "https://www.semanticscholar.org/paper/144a5e7781b4462ebc95b31cac8e5a357c949962",
+            "venue": "Proceedings of the 2012 ACM-IEEE International Symposium on Empirical Software Engineering and Measurement",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2069355001",
+                    "name": "Shaun Phillips"
+                },
+                {
+                    "authorId": "2072868",
+                    "name": "Jonathan Sillito"
+                },
+                {
+                    "authorId": "13476544",
+                    "name": "R. Walker"
+                }
+            ],
+            "doi": "10.1145/1984642.1984645",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "77fd91d5dba9e7330e76d83ca77475ddeb308128",
+            "title": "Branching and merging: an investigation into current version control practices",
+            "url": "https://www.semanticscholar.org/paper/77fd91d5dba9e7330e76d83ca77475ddeb308128",
+            "venue": "CHASE",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2235107",
+                    "name": "Foyzur Rahman"
+                },
+                {
+                    "authorId": "1730296",
+                    "name": "Premkumar T. Devanbu"
+                }
+            ],
+            "doi": "10.1145/1985793.1985860",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "96cf80a71be3305b990c6a35e08e61cd60702bb0",
+            "title": "Ownership, experience and defects: a fine-grained study of authorship",
+            "url": "https://www.semanticscholar.org/paper/96cf80a71be3305b990c6a35e08e61cd60702bb0",
+            "venue": "2011 33rd International Conference on Software Engineering (ICSE)",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2099637",
+                    "name": "Jon Eyolfson"
+                },
+                {
+                    "authorId": "144938015",
+                    "name": "Lin Tan"
+                },
+                {
+                    "authorId": "145773256",
+                    "name": "Patrick Lam"
+                }
+            ],
+            "doi": "10.1145/1985441.1985464",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "83f93d5d0306dbbb387ffeffafa6e2ea33986d3d",
+            "title": "Do time of day and developer experience affect commit bugginess?",
+            "url": "https://www.semanticscholar.org/paper/83f93d5d0306dbbb387ffeffafa6e2ea33986d3d",
+            "venue": "MSR '11",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145301038",
+                    "name": "Brian P. Robinson"
+                },
+                {
+                    "authorId": "37761102",
+                    "name": "Patrick Francis"
+                }
+            ],
+            "doi": "10.1145/1852786.1852814",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1700dedc2f62a17007a63ad84a4d72f5e7d7d1d1",
+            "title": "Improving industrial adoption of software engineering research: a comparison of open and closed source software",
+            "url": "https://www.semanticscholar.org/paper/1700dedc2f62a17007a63ad84a4d72f5e7d7d1d1",
+            "venue": "ESEM '10",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1817341",
+                    "name": "Lile Hattori"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                }
+            ],
+            "doi": "10.1109/ASEW.2008.4686322",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "abe0a5ba0382806d901fd443f82dabb4affc2327",
+            "title": "On the nature of commits",
+            "url": "https://www.semanticscholar.org/paper/abe0a5ba0382806d901fd443f82dabb4affc2327",
+            "venue": "2008 23rd IEEE/ACM International Conference on Automated Software Engineering - Workshops",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1702285",
+                    "name": "A. Zaidman"
+                },
+                {
+                    "authorId": "2047164",
+                    "name": "B. Rompaey"
+                },
+                {
+                    "authorId": "1688862",
+                    "name": "S. Demeyer"
+                },
+                {
+                    "authorId": "1737202",
+                    "name": "A. Deursen"
+                }
+            ],
+            "doi": "10.1109/ICST.2008.47",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8ada4427e71ad8be957c6d050f6123ed696157a6",
+            "title": "Mining Software Repositories to Study Co-Evolution of Production & Test Code",
+            "url": "https://www.semanticscholar.org/paper/8ada4427e71ad8be957c6d050f6123ed696157a6",
+            "venue": "2008 1st International Conference on Software Testing, Verification, and Validation",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "13602116",
+                    "name": "Srinivasan Raghunathan"
+                },
+                {
+                    "authorId": "2149554901",
+                    "name": "A. Prasad"
+                },
+                {
+                    "authorId": "1795959",
+                    "name": "B. K. Mishra"
+                },
+                {
+                    "authorId": "2468246",
+                    "name": "Hsihui Chang"
+                }
+            ],
+            "doi": "10.1109/TSMCA.2005.853493",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "abcda8f0f6afb28237e248be9ab6da6c9058600e",
+            "title": "Open source versus closed source: software quality in monopoly and competitive markets",
+            "url": "https://www.semanticscholar.org/paper/abcda8f0f6afb28237e248be9ab6da6c9058600e",
+            "venue": "IEEE Transactions on Systems, Man, and Cybernetics - Part A: Systems and Humans",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1399279909",
+                    "name": "Anas N. Al-Rabadi"
+                },
+                {
+                    "authorId": "2285935329",
+                    "name": "Marek Perkowski"
+                },
+                {
+                    "authorId": "2285953900",
+                    "name": "Martin Zwick"
+                }
+            ],
+            "doi": "10.1108/03684920410533985",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1e41ed1ac234cba0138329047e16a8a424389e77",
+            "title": "A comparison of modified reconstructability analysis and Ashenhurst\u2010Curtis decomposition of Boolean functions",
+            "url": "https://www.semanticscholar.org/paper/1e41ed1ac234cba0138329047e16a8a424389e77",
+            "venue": "",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143609903",
+                    "name": "Thomas Zimmermann"
+                },
+                {
+                    "authorId": "1974054",
+                    "name": "P. Wei\u00dfgerber"
+                },
+                {
+                    "authorId": "2241466401",
+                    "name": "Stephan Diehl"
+                },
+                {
+                    "authorId": "2238316130",
+                    "name": "Andreas Zeller"
+                }
+            ],
+            "doi": "10.1109/ICSE.2004.1317478",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d61f6562c34b482dc195ccbd737500718d9be249",
+            "title": "Mining version histories to guide software changes",
+            "url": "https://www.semanticscholar.org/paper/d61f6562c34b482dc195ccbd737500718d9be249",
+            "venue": "Proceedings. 26th International Conference on Software Engineering",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "GDED (GitDelver Enterprise Dataset)",
+            "url": "",
+            "venue": "",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2022. nicolasriquet/GitDelver: 1.7.3",
+            "url": "",
+            "venue": "",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1755165",
+                    "name": "Neil A. Ernst"
+                },
+                {
+                    "authorId": "1699020",
+                    "name": "R. Kazman"
+                },
+                {
+                    "authorId": "1825705",
+                    "name": "Julien Delange"
+                }
+            ],
+            "doi": "10.7551/mitpress/12440.001.0001",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5bddae721c44a2a2134b9031d2efa744dbdcba24",
+            "title": "Technical Debt in Practice",
+            "url": "https://www.semanticscholar.org/paper/5bddae721c44a2a2134b9031d2efa744dbdcba24",
+            "venue": "",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Lizard\u2019s GitHub page. https://github.com/terryyin/lizard",
+            "url": "",
+            "venue": "",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Code Quality and Code Security -SonarQube",
+            "url": "",
+            "venue": "",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Software Design X-Rays: Fix Technical Debt with Behavioral Code Analysis",
+            "url": "",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1795959",
+                    "name": "B. K. Mishra"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d01069b3fb61efe5b9d85648c470e615d6e62a04",
+            "title": "International Conference on Information Systems ( ICIS ) December 2002 Quality and Profits Under Open Source Versus Closed Source",
+            "url": "https://www.semanticscholar.org/paper/d01069b3fb61efe5b9d85648c470e615d6e62a04",
+            "venue": "",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49018948",
+                    "name": "Wes McKinney"
+                }
+            ],
+            "doi": "10.25080/MAJORA-92BF1922-00A",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "f6dac1c52d3b07c993fe52513b8964f86e8fe381",
+            "title": "Data Structures for Statistical Computing in Python",
+            "url": "https://www.semanticscholar.org/paper/f6dac1c52d3b07c993fe52513b8964f86e8fe381",
+            "venue": "SciPy",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1728243",
+                    "name": "V. Potdar"
+                },
+                {
+                    "authorId": "48025725",
+                    "name": "E. Chang"
+                }
+            ],
+            "doi": "10.1049/IC:20040275",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f129adb3dfbdda483ce974bd4527af20d112eaa2",
+            "title": "Open Source and Closed Source Software Development Methodologies",
+            "url": "https://www.semanticscholar.org/paper/f129adb3dfbdda483ce974bd4527af20d112eaa2",
+            "venue": "ICSE 2004",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": ": An Industrial Closed-source Dataset for Socio-Technical",
+            "url": "",
+            "venue": "Enterprise Dataset (GDED)",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "MSR \u201922, May 23\u201324, 2022, Pittsburgh, PA, USA",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Socio-Technical Research",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "The pandas development team. 2020. pandas-dev/pandas: Pandas",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Sociology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "GitDelver Enterprise Dataset (GDED): An Industrial Closed-source Dataset for Socio-Technical Research",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/3c4196bb29763441ec1bd7d22fa87eb5b0ee1719",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2022
+}

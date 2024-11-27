@@ -1,0 +1,1409 @@
+{
+    "abstract": "GitHub\u2019s issue reports provide developers with valuable information that is essential to the evolution of a software development project. Contributors can use these reports to perform software engineering tasks like submitting bugs, requesting features, and collaborating on ideas. In the initial versions of issue reports, there was no standard way of using them. As a result, the quality of issue reports varied widely. To improve the quality of issue reports, GitHub introduced issue report templates (IRTs), which pre-fill issue descriptions when a new issue is opened. An IRT usually contains greeting contributors, describing project guidelines, and collecting relevant information. However, despite of effectiveness of this feature which was introduced in 2016, only nearly 5% of GitHub repositories (with more than 10 stars) utilize it. There are currently few articles on IRTs, and the available ones only consider a small number of repositories.In this work, we introduce GIRT-DATA, the first and largest dataset of IRTs in both YAML and Markdown format. This dataset and its corresponding open-source crawler tool are intended to support research in this area and to encourage more developers to use IRTs in their repositories. The stable version of the dataset contains 1,084,300 repositories and 50,032 of them support IRTs. The stable version of the dataset and crawler is available here: https://github.com/kargaranamir/girt-data",
+    "arxivId": "2303.09236",
+    "authors": [
+        {
+            "authorId": "2210982230",
+            "name": "Nafiseh Nikeghbal",
+            "url": "https://www.semanticscholar.org/author/2210982230"
+        },
+        {
+            "authorId": "98623604",
+            "name": "Amir Hossein Kargaran",
+            "url": "https://www.semanticscholar.org/author/98623604"
+        },
+        {
+            "authorId": "1798455",
+            "name": "A. Heydarnoori",
+            "url": "https://www.semanticscholar.org/author/1798455"
+        },
+        {
+            "authorId": "2270950464",
+            "name": "Hinrich Schutze",
+            "url": "https://www.semanticscholar.org/author/2270950464"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2295089187",
+                    "name": "Jin Zhang"
+                },
+                {
+                    "authorId": "2186525949",
+                    "name": "Xingjin Wu"
+                },
+                {
+                    "authorId": "2295310465",
+                    "name": "Yang Zhang"
+                },
+                {
+                    "authorId": "2294764829",
+                    "name": "Shunyu Xu"
+                },
+                {
+                    "authorId": "2317100672",
+                    "name": "Maoqi Peng"
+                }
+            ],
+            "doi": "10.1109/COMPSAC61105.2024.00180",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "3e4b1c464d48f5a12a36d616039f93e7509b7d5a",
+            "title": "Enhancing Collaborative Software Development: A Deep Learning Approach for Bot Recommendation",
+            "url": "https://www.semanticscholar.org/paper/3e4b1c464d48f5a12a36d616039f93e7509b7d5a",
+            "venue": "2024 IEEE 48th Annual Computers, Software, and Applications Conference (COMPSAC)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2405.05541",
+            "authors": [
+                {
+                    "authorId": "2300370621",
+                    "name": "Philip Oliver"
+                },
+                {
+                    "authorId": "2300371031",
+                    "name": "Jens Dietrich"
+                },
+                {
+                    "authorId": "1741672",
+                    "name": "C. Anslow"
+                },
+                {
+                    "authorId": "2239110364",
+                    "name": "Michael Homer"
+                }
+            ],
+            "doi": "10.1145/3643991.3644912",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "aee4ae2631ef612458fead210ce214b3ffb1d6dd",
+            "title": "CrashJS: A NodeJS Benchmark for Automated Crash Reproduction",
+            "url": "https://www.semanticscholar.org/paper/aee4ae2631ef612458fead210ce214b3ffb1d6dd",
+            "venue": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2403.05716",
+            "authors": [
+                {
+                    "authorId": "2290847527",
+                    "name": "Lloyd Montgomery"
+                },
+                {
+                    "authorId": "51508446",
+                    "name": "C. Luders"
+                },
+                {
+                    "authorId": "1706506",
+                    "name": "W. Maalej"
+                }
+            ],
+            "doi": "10.48550/arXiv.2403.05716",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ea3b8409e09defd4bdffacbb4c0685bc4c2eb96c",
+            "title": "Mining Issue Trackers: Concepts and Techniques",
+            "url": "https://www.semanticscholar.org/paper/ea3b8409e09defd4bdffacbb4c0685bc4c2eb96c",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": "2402.02632",
+            "authors": [
+                {
+                    "authorId": "2210982230",
+                    "name": "Nafiseh Nikeghbal"
+                },
+                {
+                    "authorId": "98623604",
+                    "name": "Amir Hossein Kargaran"
+                },
+                {
+                    "authorId": "2282540996",
+                    "name": "Abbas Heydarnoori"
+                }
+            ],
+            "doi": "10.1145/3643991.3644906",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "2c2585c5098ad2309591b4a1f090bd552d3a6f30",
+            "title": "GIRT-Model: Automated Generation of Issue Report Templates",
+            "url": "https://www.semanticscholar.org/paper/2c2585c5098ad2309591b4a1f090bd552d3a6f30",
+            "venue": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+            "year": 2024
+        }
+    ],
+    "corpusId": 257557538,
+    "doi": "10.1109/MSR59073.2023.00026",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 4,
+    "numCiting": 43,
+    "paperId": "967335fc6dfc85011cabaa16d4190067adffc529",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1935710",
+                    "name": "Montassar Ben Messaoud"
+                },
+                {
+                    "authorId": "2181182267",
+                    "name": "Asma Miladi"
+                },
+                {
+                    "authorId": "3011155",
+                    "name": "Ilyes Jenhani"
+                },
+                {
+                    "authorId": "1810097",
+                    "name": "Mohamed Wiem Mkaouer"
+                },
+                {
+                    "authorId": "2087596696",
+                    "name": "Lobna Ghadhab"
+                }
+            ],
+            "doi": "10.1109/TR.2022.3193645",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f5016dca54b2f122b91f386901d20554580dd69d",
+            "title": "Duplicate Bug Report Detection Using an Attention-Based Neural Language Model",
+            "url": "https://www.semanticscholar.org/paper/f5016dca54b2f122b91f386901d20554580dd69d",
+            "venue": "IEEE Transactions on Reliability",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "46948203",
+                    "name": "Zhixing Li"
+                },
+                {
+                    "authorId": "47111832",
+                    "name": "Yue Yu"
+                },
+                {
+                    "authorId": "39082503",
+                    "name": "Tao Wang"
+                },
+                {
+                    "authorId": "2091862892",
+                    "name": "Yan Lei"
+                },
+                {
+                    "authorId": "49416173",
+                    "name": "Y. Wang"
+                },
+                {
+                    "authorId": "143969934",
+                    "name": "Huaimin Wang"
+                }
+            ],
+            "doi": "10.1109/TSE.2022.3224053",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "40ae0930e5e51cc891f2fb153da8487720e0d3e1",
+            "title": "To Follow or Not to Follow: Understanding Issue/Pull-Request Templates on GitHub",
+            "url": "https://www.semanticscholar.org/paper/40ae0930e5e51cc891f2fb153da8487720e0d3e1",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2023
+        },
+        {
+            "arxivId": "2212.00548",
+            "authors": [
+                {
+                    "authorId": "2146322053",
+                    "name": "Ting Zhang"
+                },
+                {
+                    "authorId": "7883212",
+                    "name": "Donggyun Han"
+                },
+                {
+                    "authorId": "2970997",
+                    "name": "Venkatesh Vinayakarao"
+                },
+                {
+                    "authorId": "9223952",
+                    "name": "I. Irsan"
+                },
+                {
+                    "authorId": "2203459",
+                    "name": "Bowen Xu"
+                },
+                {
+                    "authorId": "2121315",
+                    "name": "Ferdian Thung"
+                },
+                {
+                    "authorId": "2150912791",
+                    "name": "David Lo"
+                },
+                {
+                    "authorId": "1680504",
+                    "name": "Lingxiao Jiang"
+                }
+            ],
+            "doi": "10.1145/3576042",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6f5ea2b9143ff67bb6288ab084ceecbbf16318d2",
+            "title": "Duplicate Bug Report Detection: How Far Are We?",
+            "url": "https://www.semanticscholar.org/paper/6f5ea2b9143ff67bb6288ab084ceecbbf16318d2",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2022
+        },
+        {
+            "arxivId": "2206.10811",
+            "authors": [
+                {
+                    "authorId": "2146322053",
+                    "name": "Ting Zhang"
+                },
+                {
+                    "authorId": "9223952",
+                    "name": "I. Irsan"
+                },
+                {
+                    "authorId": "2121315",
+                    "name": "Ferdian Thung"
+                },
+                {
+                    "authorId": "7883212",
+                    "name": "Donggyun Han"
+                },
+                {
+                    "authorId": "2150912791",
+                    "name": "David Lo"
+                },
+                {
+                    "authorId": "1680504",
+                    "name": "Lingxiao Jiang"
+                }
+            ],
+            "doi": "10.1145/3540250.3558934",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "499b1e29cd764f83d681b834f5dfd2319fc5f64b",
+            "title": "iTiger: an automatic issue title generation tool",
+            "url": "https://www.semanticscholar.org/paper/499b1e29cd764f83d681b834f5dfd2319fc5f64b",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1452341528",
+                    "name": "Rafael Kallis"
+                },
+                {
+                    "authorId": "145471996",
+                    "name": "Oscar Chaparro"
+                },
+                {
+                    "authorId": "3144783",
+                    "name": "Andrea Di Sorbo"
+                },
+                {
+                    "authorId": "3117169",
+                    "name": "Sebastiano Panichella"
+                }
+            ],
+            "doi": "10.1145/3528588.3528664",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9011d1e4b70a22ab4c67103e961dc337104ce492",
+            "title": "NLBSE\u201922 Tool Competition",
+            "url": "https://www.semanticscholar.org/paper/9011d1e4b70a22ab4c67103e961dc337104ce492",
+            "venue": "2022 IEEE/ACM 1st International Workshop on Natural Language-Based Software Engineering (NLBSE)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2153207977",
+                    "name": "Mengxi Zhang"
+                },
+                {
+                    "authorId": "8424919",
+                    "name": "Huaxiao Liu"
+                },
+                {
+                    "authorId": "46729152",
+                    "name": "Chunyang Chen"
+                },
+                {
+                    "authorId": "2136358114",
+                    "name": "Yuzhou Liu"
+                },
+                {
+                    "authorId": "2150364286",
+                    "name": "Shuotong Bai"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2021.106797",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4d989234de8e474bf06c1304c98a65efecda7e2c",
+            "title": "Consistent or not? An investigation of using Pull Request Template in GitHub",
+            "url": "https://www.semanticscholar.org/paper/4d989234de8e474bf06c1304c98a65efecda7e2c",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1486267221",
+                    "name": "Robert Crystal\u2010Ornelas"
+                },
+                {
+                    "authorId": "11914137",
+                    "name": "C. Varadharajan"
+                },
+                {
+                    "authorId": "1422519120",
+                    "name": "B. Bond\u2010Lamberty"
+                },
+                {
+                    "authorId": "152175066",
+                    "name": "K. Boye"
+                },
+                {
+                    "authorId": "1474566411",
+                    "name": "M. Burrus"
+                },
+                {
+                    "authorId": "1918932",
+                    "name": "S. Cholia"
+                },
+                {
+                    "authorId": "114033337",
+                    "name": "M. Crow"
+                },
+                {
+                    "authorId": "104733257",
+                    "name": "J. Damerow"
+                },
+                {
+                    "authorId": "3029298",
+                    "name": "R. Devarakonda"
+                },
+                {
+                    "authorId": "2070539837",
+                    "name": "K. Ely"
+                },
+                {
+                    "authorId": "2343783",
+                    "name": "A. Goldman"
+                },
+                {
+                    "authorId": "2123304871",
+                    "name": "S. Heinz"
+                },
+                {
+                    "authorId": "3035301",
+                    "name": "V. Hendrix"
+                },
+                {
+                    "authorId": "1474554913",
+                    "name": "Z. Kakalia"
+                },
+                {
+                    "authorId": "107793402",
+                    "name": "S. Pennington"
+                },
+                {
+                    "authorId": "152696929",
+                    "name": "E. Robles"
+                },
+                {
+                    "authorId": "34333849",
+                    "name": "A. Rogers"
+                },
+                {
+                    "authorId": "38321967",
+                    "name": "M. Simmonds"
+                },
+                {
+                    "authorId": "2128755520",
+                    "name": "Terri Velliquette"
+                },
+                {
+                    "authorId": "2085481569",
+                    "name": "Helen Weierbach"
+                },
+                {
+                    "authorId": "3529083",
+                    "name": "P. Weisenhorn"
+                },
+                {
+                    "authorId": "38909031",
+                    "name": "J. N. Welch"
+                },
+                {
+                    "authorId": "1962078",
+                    "name": "D. Agarwal"
+                }
+            ],
+            "doi": "10.1029/2021EA001797",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "3bc3db4df05ce97ea373e1c124e3e3e2bd39b7fe",
+            "title": "A Guide to Using GitHub for Developing and Versioning Data Standards and Reporting Formats",
+            "url": "https://www.semanticscholar.org/paper/3bc3db4df05ce97ea373e1c124e3e3e2bd39b7fe",
+            "venue": "Earth and Space Science",
+            "year": 2021
+        },
+        {
+            "arxivId": "2107.09936",
+            "authors": [
+                {
+                    "authorId": "1452341528",
+                    "name": "Rafael Kallis"
+                },
+                {
+                    "authorId": "3144783",
+                    "name": "Andrea Di Sorbo"
+                },
+                {
+                    "authorId": "1711200",
+                    "name": "G. Canfora"
+                },
+                {
+                    "authorId": "3117169",
+                    "name": "Sebastiano Panichella"
+                }
+            ],
+            "doi": "10.1016/j.scico.2020.102598",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "73883dedecffd9c4bae962305ffea314069f46b4",
+            "title": "Predicting issue types on GitHub",
+            "url": "https://www.semanticscholar.org/paper/73883dedecffd9c4bae962305ffea314069f46b4",
+            "venue": "Sci. Comput. Program.",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2157672809",
+                    "name": "Som Gupta"
+                },
+                {
+                    "authorId": "2118973294",
+                    "name": "S. Gupta"
+                }
+            ],
+            "doi": "10.1016/J.ESWA.2021.114816",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c225cf04cdb1685cccc68f5c4882b440c011d7c4",
+            "title": "An approach to generate the bug report summaries using two-level feature extraction",
+            "url": "https://www.semanticscholar.org/paper/c225cf04cdb1685cccc68f5c4882b440c011d7c4",
+            "venue": "Expert Syst. Appl.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.04682",
+            "authors": [
+                {
+                    "authorId": "2052098645",
+                    "name": "Ozren Dabi\u0107"
+                },
+                {
+                    "authorId": "32805864",
+                    "name": "Emad Aghajani"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00074",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "e3efb13319b5fe721ac53498a723ca13b1f6c934",
+            "title": "Sampling Projects in GitHub for MSR Studies",
+            "url": "https://www.semanticscholar.org/paper/e3efb13319b5fe721ac53498a723ca13b1f6c934",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2012.10951",
+            "authors": [
+                {
+                    "authorId": "145774460",
+                    "name": "M. Izadi"
+                },
+                {
+                    "authorId": "2039954926",
+                    "name": "Kiana Akbari"
+                },
+                {
+                    "authorId": "1798455",
+                    "name": "A. Heydarnoori"
+                }
+            ],
+            "doi": "10.1007/s10664-021-10085-3",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8a2382b27931d64c892bc9d84ce4ace0fa708637",
+            "title": "Predicting the objective and priority of issue reports in software repositories",
+            "url": "https://www.semanticscholar.org/paper/8a2382b27931d64c892bc9d84ce4ace0fa708637",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": "2012.03453",
+            "authors": [
+                {
+                    "authorId": "114320437",
+                    "name": "S. Surana"
+                },
+                {
+                    "authorId": "101498723",
+                    "name": "Smit Detroja"
+                },
+                {
+                    "authorId": "144355416",
+                    "name": "Saurabh Tiwari"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b10c0f6a441eeae257a857b23e2e9da8b3382e70",
+            "title": "A Tool to Extract Structured Data from GitHub",
+            "url": "https://www.semanticscholar.org/paper/b10c0f6a441eeae257a857b23e2e9da8b3382e70",
+            "venue": "ArXiv",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144404428",
+                    "name": "Yang Song"
+                },
+                {
+                    "authorId": "145471996",
+                    "name": "Oscar Chaparro"
+                }
+            ],
+            "doi": "10.1145/3368089.3417928",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1ff9159280dd7626e091133d6b0a88be6b3a2086",
+            "title": "BEE: a tool for structuring and analyzing bug reports",
+            "url": "https://www.semanticscholar.org/paper/1ff9159280dd7626e091133d6b0a88be6b3a2086",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1853891",
+                    "name": "Mozhan Soltani"
+                },
+                {
+                    "authorId": "1688711",
+                    "name": "F. Hermans"
+                },
+                {
+                    "authorId": "3247745",
+                    "name": "Thomas B\u00e4ck"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09882-z",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d95c77fa9df50a135c23425816b56cd469bad574",
+            "title": "The significance of bug report elements",
+            "url": "https://www.semanticscholar.org/paper/d95c77fa9df50a135c23425816b56cd469bad574",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "10707876",
+                    "name": "Danielle Gonzalez"
+                },
+                {
+                    "authorId": "143609903",
+                    "name": "Thomas Zimmermann"
+                },
+                {
+                    "authorId": "1693689",
+                    "name": "Nachiappan Nagappan"
+                }
+            ],
+            "doi": "10.1145/3379597.3387473",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "14b42a095728221f9ea1698c9749634574c9980e",
+            "title": "The State of the ML-universe: 10 Years of Artificial Intelligence & Machine Learning Software Development on GitHub",
+            "url": "https://www.semanticscholar.org/paper/14b42a095728221f9ea1698c9749634574c9980e",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2020
+        },
+        {
+            "arxivId": "2201.02215",
+            "authors": [
+                {
+                    "authorId": "1949900135",
+                    "name": "B. Muse"
+                },
+                {
+                    "authorId": "2210196781",
+                    "name": "M. M. Rahman"
+                },
+                {
+                    "authorId": "144116331",
+                    "name": "Csaba Nagy"
+                },
+                {
+                    "authorId": "2377431",
+                    "name": "Anthony Cleve"
+                },
+                {
+                    "authorId": "1703493",
+                    "name": "Foutse Khomh"
+                },
+                {
+                    "authorId": "1692292",
+                    "name": "G. Antoniol"
+                }
+            ],
+            "doi": "10.1145/3379597.3387467",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "90a81d858905f22e24498c0a87c1eb675222481c",
+            "title": "On the Prevalence, Impact, and Evolution of SQL Code Smells in Data-Intensive Systems",
+            "url": "https://www.semanticscholar.org/paper/90a81d858905f22e24498c0a87c1eb675222481c",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "27316908",
+                    "name": "Tomoki Nakamaru"
+                },
+                {
+                    "authorId": "1949949863",
+                    "name": "Tomomasa Matsunaga"
+                },
+                {
+                    "authorId": "1949181108",
+                    "name": "Tetsuro Yamazaki"
+                },
+                {
+                    "authorId": "7667124",
+                    "name": "Soramichi Akiyama"
+                },
+                {
+                    "authorId": "48770523",
+                    "name": "S. Chiba"
+                }
+            ],
+            "doi": "10.1145/3379597.3387441",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ef1602371451592503bf9d1c47fd39b0907b84cc",
+            "title": "An Empirical Study of Method Chaining in Java",
+            "url": "https://www.semanticscholar.org/paper/ef1602371451592503bf9d1c47fd39b0907b84cc",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "133972345",
+                    "name": "Fabiano Pecorelli"
+                },
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                },
+                {
+                    "authorId": "1703493",
+                    "name": "Foutse Khomh"
+                },
+                {
+                    "authorId": "145818752",
+                    "name": "A. D. Lucia"
+                }
+            ],
+            "doi": "10.1145/3379597.3387457",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "bc751643d4a4c8db89723799bedcb1df11053b19",
+            "title": "Developer-Driven Code Smell Prioritization",
+            "url": "https://www.semanticscholar.org/paper/bc751643d4a4c8db89723799bedcb1df11053b19",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2020
+        },
+        {
+            "arxivId": "2006.14553",
+            "authors": [
+                {
+                    "authorId": "10707876",
+                    "name": "Danielle Gonzalez"
+                },
+                {
+                    "authorId": "41022914",
+                    "name": "M. Rath"
+                },
+                {
+                    "authorId": "2097532",
+                    "name": "Mehdi Mirakhorli"
+                }
+            ],
+            "doi": "10.1145/3379597.3387471",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1172578494a4373f41aa7ea3f6635e895164bda6",
+            "title": "Did You Remember To Test Your Tokens?",
+            "url": "https://www.semanticscholar.org/paper/1172578494a4373f41aa7ea3f6635e895164bda6",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2078352003",
+                    "name": "Antonio Borrelli"
+                },
+                {
+                    "authorId": "2583741",
+                    "name": "Vittoria Nardone"
+                },
+                {
+                    "authorId": "1790268",
+                    "name": "G. D. Lucca"
+                },
+                {
+                    "authorId": "1711200",
+                    "name": "G. Canfora"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                }
+            ],
+            "doi": "10.1145/3379597.3387454",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f33997220d5d46cd41a67fb32fcce9a25f72cfd1",
+            "title": "Detecting Video Game-Specific Bad Smells in Unity Projects",
+            "url": "https://www.semanticscholar.org/paper/f33997220d5d46cd41a67fb32fcce9a25f72cfd1",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2020
+        },
+        {
+            "arxivId": "2004.01618",
+            "authors": [
+                {
+                    "authorId": "2851011",
+                    "name": "T. Bryksin"
+                },
+                {
+                    "authorId": "153401272",
+                    "name": "V. Petukhov"
+                },
+                {
+                    "authorId": "1610939327",
+                    "name": "Ilya Alexin"
+                },
+                {
+                    "authorId": "1610933532",
+                    "name": "Stanislav Prikhodko"
+                },
+                {
+                    "authorId": "51111583",
+                    "name": "A. Shpilman"
+                },
+                {
+                    "authorId": "145218314",
+                    "name": "V. Kovalenko"
+                },
+                {
+                    "authorId": "145336581",
+                    "name": "Nikita Povarov"
+                }
+            ],
+            "doi": "10.1145/3379597.3387447",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "547b52a967ecb98837816e7a632693e25a5eac7d",
+            "title": "Using Large-Scale Anomaly Detection on Code to Improve Kotlin Compiler",
+            "url": "https://www.semanticscholar.org/paper/547b52a967ecb98837816e7a632693e25a5eac7d",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2020
+        },
+        {
+            "arxivId": "2003.04755",
+            "authors": [
+                {
+                    "authorId": "37127134",
+                    "name": "Jailton Coelho"
+                },
+                {
+                    "authorId": "1757592",
+                    "name": "M. T. Valente"
+                },
+                {
+                    "authorId": "1947176",
+                    "name": "Luciano O. Milen"
+                },
+                {
+                    "authorId": "1391027283",
+                    "name": "L. L. Silva"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2020.106274",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "364e64ea2f4faaebaddb81d3f5b913a848e13083",
+            "title": "Is this GitHub Project Maintained? Measuring the Level of Maintenance Activity of Open-Source Projects",
+            "url": "https://www.semanticscholar.org/paper/364e64ea2f4faaebaddb81d3f5b913a848e13083",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "52175948",
+                    "name": "Junxiao Han"
+                },
+                {
+                    "authorId": "145590434",
+                    "name": "Shuiguang Deng"
+                },
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "2940191",
+                    "name": "Dongjing Wang"
+                },
+                {
+                    "authorId": "1734105",
+                    "name": "Jianwei Yin"
+                }
+            ],
+            "doi": "10.1109/COMPSAC.2019.00013",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "df1ea389066b4bb95b954f1b353217e2d23339a3",
+            "title": "Characterization and Prediction of Popular Projects on GitHub",
+            "url": "https://www.semanticscholar.org/paper/df1ea389066b4bb95b954f1b353217e2d23339a3",
+            "venue": "2019 IEEE 43rd Annual Computer Software and Applications Conference (COMPSAC)",
+            "year": 2019
+        },
+        {
+            "arxivId": "1905.03593",
+            "authors": [
+                {
+                    "authorId": "113594261",
+                    "name": "Jirateep Tantisuwankul"
+                },
+                {
+                    "authorId": "2058384884",
+                    "name": "Yusuf Sulistyo Nugroho"
+                },
+                {
+                    "authorId": "1680034",
+                    "name": "R. Kula"
+                },
+                {
+                    "authorId": "145050815",
+                    "name": "Hideaki Hata"
+                },
+                {
+                    "authorId": "2835436",
+                    "name": "A. Rungsawang"
+                },
+                {
+                    "authorId": "1943332",
+                    "name": "P. Leelaprute"
+                },
+                {
+                    "authorId": "144975613",
+                    "name": "Ken-ichi Matsumoto"
+                }
+            ],
+            "doi": "10.1016/j.jss.2019.110416",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6a9be25d33907c171279750ba3d9ad9c5c5cc9d5",
+            "title": "A Topological Analysis of Communication Channels for Knowledge Sharing in Contemporary GitHub Projects",
+            "url": "https://www.semanticscholar.org/paper/6a9be25d33907c171279750ba3d9ad9c5c5cc9d5",
+            "venue": "J. Syst. Softw.",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8701060",
+                    "name": "Fiorella Zampetti"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "1711200",
+                    "name": "G. Canfora"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                }
+            ],
+            "doi": "10.1109/SANER.2019.8667996",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "16848609ac05a3eda1026d3a9e550dd896fa4b25",
+            "title": "A Study on the Interplay between Pull Request Review and Continuous Integration Builds",
+            "url": "https://www.semanticscholar.org/paper/16848609ac05a3eda1026d3a9e550dd896fa4b25",
+            "venue": "2019 IEEE 26th International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2019
+        },
+        {
+            "arxivId": "1809.04041",
+            "authors": [
+                {
+                    "authorId": "37127134",
+                    "name": "Jailton Coelho"
+                },
+                {
+                    "authorId": "1757592",
+                    "name": "M. T. Valente"
+                },
+                {
+                    "authorId": "1391027283",
+                    "name": "L. L. Silva"
+                },
+                {
+                    "authorId": "3318024",
+                    "name": "Emad Shihab"
+                }
+            ],
+            "doi": "10.1145/3239235.3240501",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "edd1dfff74869dc1c3600a8c3f877a688390bde1",
+            "title": "Identifying unmaintained projects in github",
+            "url": "https://www.semanticscholar.org/paper/edd1dfff74869dc1c3600a8c3f877a688390bde1",
+            "venue": "ESEM",
+            "year": 2018
+        },
+        {
+            "arxivId": "1803.10144",
+            "authors": [
+                {
+                    "authorId": "2092112186",
+                    "name": "Vadim Markovtsev"
+                },
+                {
+                    "authorId": "40899253",
+                    "name": "Waren Long"
+                }
+            ],
+            "doi": "10.1145/3196398.3196464",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ef945d09f35d288e887d9d6ce80377e738a23580",
+            "title": "Public Git Archive: A Big Code Dataset for All",
+            "url": "https://www.semanticscholar.org/paper/ef945d09f35d288e887d9d6ce80377e738a23580",
+            "venue": "2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "9381770",
+                    "name": "R. D. Cosmo"
+                },
+                {
+                    "authorId": "1682225",
+                    "name": "Stefano Zacchiroli"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "46b38ff701867c5f5c0436290b5ddaee1acd46a5",
+            "title": "Software Heritage: Why and How to Preserve Software Source Code",
+            "url": "https://www.semanticscholar.org/paper/46b38ff701867c5f5c0436290b5ddaee1acd46a5",
+            "venue": "iPRES",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2409308",
+                    "name": "Jyoti Sheoran"
+                },
+                {
+                    "authorId": "1715864",
+                    "name": "Kelly Blincoe"
+                },
+                {
+                    "authorId": "1734481",
+                    "name": "Eirini Kalliamvakou"
+                },
+                {
+                    "authorId": "1741744",
+                    "name": "D. Damian"
+                },
+                {
+                    "authorId": "2448114",
+                    "name": "J. Ell"
+                }
+            ],
+            "doi": "10.1145/2597073.2597114",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "fd48a7fd819ab193704a6283933f5a4883bcdd7d",
+            "title": "Understanding \"watchers\" on GitHub",
+            "url": "https://www.semanticscholar.org/paper/fd48a7fd819ab193704a6283933f5a4883bcdd7d",
+            "venue": "MSR 2014",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3023999",
+                    "name": "T\u00e9gawend\u00e9 F. Bissyand\u00e9"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                },
+                {
+                    "authorId": "1680504",
+                    "name": "Lingxiao Jiang"
+                },
+                {
+                    "authorId": "2367871",
+                    "name": "Laurent R\u00e9veill\u00e8re"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                },
+                {
+                    "authorId": "47681863",
+                    "name": "Y. L. Traon"
+                }
+            ],
+            "doi": "10.1109/ISSRE.2013.6698918",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "870e7b24d0c379c1076baede45673c817a5f3079",
+            "title": "Got issues? Who cares about it? A large scale investigation of issue trackers from GitHub",
+            "url": "https://www.semanticscholar.org/paper/870e7b24d0c379c1076baede45673c817a5f3079",
+            "venue": "2013 IEEE 24th International Symposium on Software Reliability Engineering (ISSRE)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624034",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2867eb64cc4bb1945363fdae12a168962ea823aa",
+            "title": "The GHTorent dataset and tool suite",
+            "url": "https://www.semanticscholar.org/paper/2867eb64cc4bb1945363fdae12a168962ea823aa",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143609903",
+                    "name": "Thomas Zimmermann"
+                },
+                {
+                    "authorId": "2000241",
+                    "name": "Rahul Premraj"
+                },
+                {
+                    "authorId": "2426138",
+                    "name": "Nicolas Bettenburg"
+                },
+                {
+                    "authorId": "39855161",
+                    "name": "Sascha Just"
+                },
+                {
+                    "authorId": "1870251",
+                    "name": "Adrian Schr\u00f6ter"
+                },
+                {
+                    "authorId": "19293876",
+                    "name": "Cathrin Weiss"
+                }
+            ],
+            "doi": "10.1145/1453101.1453146",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "21fa1dba8539598210496cfcdb853fef719a0805",
+            "title": "What Makes a Good Bug Report?",
+            "url": "https://www.semanticscholar.org/paper/21fa1dba8539598210496cfcdb853fef719a0805",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3394035",
+                    "name": "E. Ma"
+                },
+                {
+                    "authorId": "12839809",
+                    "name": "M. Atzmon"
+                },
+                {
+                    "authorId": "5097915",
+                    "name": "C. Koch"
+                }
+            ],
+            "doi": "10.1557/mrs2002.257",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ca5d01967f2c68e5bb9fcf1196f080e140ee0b28",
+            "title": "Library",
+            "url": "https://www.semanticscholar.org/paper/ca5d01967f2c68e5bb9fcf1196f080e140ee0b28",
+            "venue": "",
+            "year": 2002
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2193741990",
+                    "name": "Taemin Kim"
+                },
+                {
+                    "authorId": "2485632",
+                    "name": "Geunseok Yang"
+                }
+            ],
+            "doi": "10.1109/ACCESS.2022.3226238",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6b563b7a6dafdcf677372d9e2dd32545ff701ca7",
+            "title": "Predicting Duplicate in Bug Report Using Topic-Based Duplicate Learning With Fine Tuning-Based BERT Algorithm",
+            "url": "https://www.semanticscholar.org/paper/6b563b7a6dafdcf677372d9e2dd32545ff701ca7",
+            "venue": "IEEE Access",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201chttps://github.blog/2016-02-17-issue-and-pull-request-templates/,\u201d2016",
+            "url": "",
+            "venue": "",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201chttps://www.github.com,\u201d",
+            "url": "",
+            "venue": "\u201chttps://www.github.com,\u201d",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "The second component retrieves the repository characteristics that need to be collected using GitHub search API",
+            "url": "",
+            "venue": "This part uses",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201cPandoc",
+            "url": "",
+            "venue": "\u201cPandoc",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201chttps://api.github.com/search/repositories?q=is:public+fork:true,\u201d",
+            "url": "",
+            "venue": "\u201chttps://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues,\u201d2023",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201chttps://docs.github.com/en/rest/search?apiVersion=2022-11-28,\u201d",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "locating \ufb01les and download them. The data for this part is stored as individual IRT \ufb01les for each repository",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201chttps://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues",
+            "url": "",
+            "venue": "about-issues",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201chttps://doi.org/10.5281/zenodo.7724792,\u201d",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "GIRT-Data: Sampling GitHub Issue Report Templates",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/967335fc6dfc85011cabaa16d4190067adffc529",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2023
+}

@@ -1,0 +1,949 @@
+{
+    "abstract": "In the recent years, there has been a surge in the adoption of agile development model and continuous integration (CI) in software development. Recent trends have reduced average release cycle lengths to as low as 1-2 weeks, leading to an extensive number of studies in release engineering. Open-source development (OSD) has also witnessed a rapid increase in release rates, however, no large dataset of open-source projects exists which features high release rates. In this paper, we introduce the RapidRelease dataset, a data showcase of high release frequency open-source projects. The dataset hosts 994 projects from Github, with over 2 million issue reports. To the best of our knowledge, this is the first dataset that can facilitate researchers to empirically study release engineering and agile software development in open-source projects with rapid releases.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "145593737",
+            "name": "Saket Joshi",
+            "url": "https://www.semanticscholar.org/author/145593737"
+        },
+        {
+            "authorId": "1926332",
+            "name": "S. Chimalakonda",
+            "url": "https://www.semanticscholar.org/author/1926332"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2308.10022",
+            "authors": [
+                {
+                    "authorId": "2146322053",
+                    "name": "Ting Zhang"
+                },
+                {
+                    "authorId": "9223952",
+                    "name": "I. Irsan"
+                },
+                {
+                    "authorId": "2121315",
+                    "name": "Ferdian Thung"
+                },
+                {
+                    "authorId": "2150912791",
+                    "name": "David Lo"
+                }
+            ],
+            "doi": "10.48550/arXiv.2308.10022",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c1de3f236064836c376036099f269b95ee738fc0",
+            "title": "Cupid: Leveraging ChatGPT for More Accurate Duplicate Bug Report Detection",
+            "url": "https://www.semanticscholar.org/paper/c1de3f236064836c376036099f269b95ee738fc0",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "119120016",
+                    "name": "Vartika Agrahari"
+                },
+                {
+                    "authorId": "2169794374",
+                    "name": "Shriram Shanbhag"
+                },
+                {
+                    "authorId": "1926332",
+                    "name": "S. Chimalakonda"
+                },
+                {
+                    "authorId": "2113655040",
+                    "name": "A. Rao"
+                }
+            ],
+            "doi": "10.1016/j.jss.2023.111789",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "41eb83b6586b904fba7d6702d472e68a3b1c3db5",
+            "title": "A catalogue of game-specific anti-patterns based on GitHub and Game Development Stack Exchange",
+            "url": "https://www.semanticscholar.org/paper/41eb83b6586b904fba7d6702d472e68a3b1c3db5",
+            "venue": "J. Syst. Softw.",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2222982929",
+                    "name": "Oz Kilic"
+                },
+                {
+                    "authorId": "119980523",
+                    "name": "Nathan Bowness"
+                },
+                {
+                    "authorId": "25701557",
+                    "name": "Olga Baysal"
+                }
+            ],
+            "doi": "10.1109/MSR59073.2023.00058",
+            "intent": [
+                "result",
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "8910d681c34819bc3a79e2eeaeb21dcbc10218bf",
+            "title": "Keep the Ball Rolling: Analyzing Release Cadence in GitHub Projects",
+            "url": "https://www.semanticscholar.org/paper/8910d681c34819bc3a79e2eeaeb21dcbc10218bf",
+            "venue": "2023 IEEE/ACM 20th International Conference on Mining Software Repositories (MSR)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2119271445",
+                    "name": "Kowndinya Boyalakuntla"
+                },
+                {
+                    "authorId": "7274019",
+                    "name": "M. Nagappan"
+                },
+                {
+                    "authorId": "1926332",
+                    "name": "S. Chimalakonda"
+                },
+                {
+                    "authorId": "5511581",
+                    "name": "Nuthan Munaiah"
+                }
+            ],
+            "doi": "10.1109/ICSME55016.2022.00069",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1f22757464b5c3f21b6b374b5642ac2bb08d3eef",
+            "title": "RepoQuester: A Tool Towards Evaluating GitHub Projects",
+            "url": "https://www.semanticscholar.org/paper/1f22757464b5c3f21b6b374b5642ac2bb08d3eef",
+            "venue": "2022 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "9404479",
+                    "name": "Debasish Chakroborti"
+                },
+                {
+                    "authorId": "35617944",
+                    "name": "Sristy Sumana Nath"
+                },
+                {
+                    "authorId": "38558513",
+                    "name": "Kevin A. Schneider"
+                },
+                {
+                    "authorId": "1738612",
+                    "name": "C. Roy"
+                }
+            ],
+            "doi": "10.1002/smr.2499",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6e03d115f930709364b1753412abc9c58acf3f60",
+            "title": "Release conventions of open\u2010source software: An exploratory study",
+            "url": "https://www.semanticscholar.org/paper/6e03d115f930709364b1753412abc9c58acf3f60",
+            "venue": "J. Softw. Evol. Process.",
+            "year": 2022
+        },
+        {
+            "arxivId": "2107.10059",
+            "authors": [
+                {
+                    "authorId": "97623802",
+                    "name": "A. R. Nasab"
+                },
+                {
+                    "authorId": "32723366",
+                    "name": "Mojtaba Shahin"
+                },
+                {
+                    "authorId": "1750130",
+                    "name": "Peng Liang"
+                },
+                {
+                    "authorId": "2774687",
+                    "name": "Mohammad Ehsan Basiri"
+                },
+                {
+                    "authorId": "2120208804",
+                    "name": "Seyed Ali Hoseyni Raviz"
+                },
+                {
+                    "authorId": "8772629",
+                    "name": "Hourieh Khalajzadeh"
+                },
+                {
+                    "authorId": "50716636",
+                    "name": "M. Waseem"
+                },
+                {
+                    "authorId": "153161170",
+                    "name": "Amineh Naseri"
+                }
+            ],
+            "doi": "10.1016/J.JSS.2021.111046",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a0eba00e24181e1010b0f3913af128b0b9bf8e21",
+            "title": "Automated Identification of Security Discussions in Microservices Systems: Industrial Surveys and Experiments",
+            "url": "https://www.semanticscholar.org/paper/a0eba00e24181e1010b0f3913af128b0b9bf8e21",
+            "venue": "J. Syst. Softw.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2106.12239",
+            "authors": [
+                {
+                    "authorId": "3409698",
+                    "name": "Bodin Chinthanet"
+                },
+                {
+                    "authorId": "2064151983",
+                    "name": "Brittany Reid"
+                },
+                {
+                    "authorId": "1685418",
+                    "name": "Christoph Treude"
+                },
+                {
+                    "authorId": "2114343070",
+                    "name": "Markus Wagner"
+                },
+                {
+                    "authorId": "1680034",
+                    "name": "R. Kula"
+                },
+                {
+                    "authorId": "145682543",
+                    "name": "T. Ishio"
+                },
+                {
+                    "authorId": "144975613",
+                    "name": "Ken-ichi Matsumoto"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2f338d99d55705c20192bf142c784eca366216f3",
+            "title": "What makes a good Node.js package? Investigating Users, Contributors, and Runnability",
+            "url": "https://www.semanticscholar.org/paper/2f338d99d55705c20192bf142c784eca366216f3",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.08648",
+            "authors": [
+                {
+                    "authorId": "2054110762",
+                    "name": "Thorn Jansen"
+                },
+                {
+                    "authorId": "151409813",
+                    "name": "Zeinab Abou Khalil"
+                },
+                {
+                    "authorId": "2970508",
+                    "name": "Eleni Constantinou"
+                },
+                {
+                    "authorId": "1794675",
+                    "name": "T. Mens"
+                }
+            ],
+            "doi": "10.1109/SoHeal52568.2021.00009",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "9063887314835a798e09f8db0ff0b40cefe5a1eb",
+            "title": "Does the duration of rapid release cycles affect the bug handling activity?",
+            "url": "https://www.semanticscholar.org/paper/9063887314835a798e09f8db0ff0b40cefe5a1eb",
+            "venue": "2021 IEEE/ACM 4th International Workshop on Software Health in Projects, Ecosystems and Communities (SoHeal)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "151409813",
+                    "name": "Zeinab Abou Khalil"
+                },
+                {
+                    "authorId": "2970508",
+                    "name": "Eleni Constantinou"
+                },
+                {
+                    "authorId": "1794675",
+                    "name": "T. Mens"
+                },
+                {
+                    "authorId": "1696297",
+                    "name": "L. Duchien"
+                }
+            ],
+            "doi": "10.1016/j.jss.2020.110882",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "528fc49be307e51bb764deef56d129bff2bf393d",
+            "title": "On the impact of release policies on bug handling activity: A case study of Eclipse",
+            "url": "https://www.semanticscholar.org/paper/528fc49be307e51bb764deef56d129bff2bf393d",
+            "venue": "J. Syst. Softw.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2012.11348",
+            "authors": [
+                {
+                    "authorId": "2113655040",
+                    "name": "A. Rao"
+                },
+                {
+                    "authorId": "1645254938",
+                    "name": "Dheeraj Vagavolu"
+                },
+                {
+                    "authorId": "1926332",
+                    "name": "S. Chimalakonda"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "f3ffa4a99c7fe484ce42ffb52d7dbb1580231534",
+            "title": "AC2 - Towards Understanding Architectural Changes in Rapid Releases",
+            "url": "https://www.semanticscholar.org/paper/f3ffa4a99c7fe484ce42ffb52d7dbb1580231534",
+            "venue": "ArXiv",
+            "year": 2020
+        },
+        {
+            "arxivId": "2012.03453",
+            "authors": [
+                {
+                    "authorId": "114320437",
+                    "name": "S. Surana"
+                },
+                {
+                    "authorId": "101498723",
+                    "name": "Smit Detroja"
+                },
+                {
+                    "authorId": "144355416",
+                    "name": "Saurabh Tiwari"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b10c0f6a441eeae257a857b23e2e9da8b3382e70",
+            "title": "A Tool to Extract Structured Data from GitHub",
+            "url": "https://www.semanticscholar.org/paper/b10c0f6a441eeae257a857b23e2e9da8b3382e70",
+            "venue": "ArXiv",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2040106135",
+                    "name": "Rui Santos Carig\u00e9"
+                },
+                {
+                    "authorId": "1782362",
+                    "name": "G. Carneiro"
+                }
+            ],
+            "doi": "10.1145/3422392.3422401",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "e55345e2465e265a4d82b18e85b91127e66cf04c",
+            "title": "Sentiment Polarity of Programmers in an Open Source Software Project: An Exploratory Study",
+            "url": "https://www.semanticscholar.org/paper/e55345e2465e265a4d82b18e85b91127e66cf04c",
+            "venue": "SBES",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "119120016",
+                    "name": "Vartika Agrahari"
+                },
+                {
+                    "authorId": "1926332",
+                    "name": "S. Chimalakonda"
+                }
+            ],
+            "doi": "10.1145/3511430.3511436",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0932de6d731ff4376afa4802a67c729525b0cbdd",
+            "title": "A Catalogue of Game-Specific Anti-Patterns",
+            "url": "https://www.semanticscholar.org/paper/0932de6d731ff4376afa4802a67c729525b0cbdd",
+            "venue": "ISEC",
+            "year": 2020
+        },
+        {
+            "arxivId": "2006.13129",
+            "authors": [
+                {
+                    "authorId": "119120016",
+                    "name": "Vartika Agrahari"
+                },
+                {
+                    "authorId": "1926332",
+                    "name": "S. Chimalakonda"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c404d5b4434dd12bf4990de30f2d65dd560527d6",
+            "title": "A Catalogue of Game-Specific Software Nuggets",
+            "url": "https://www.semanticscholar.org/paper/c404d5b4434dd12bf4990de30f2d65dd560527d6",
+            "venue": "",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1410584179",
+                    "name": "Laura Bello-Jim\u00e9nez"
+                },
+                {
+                    "authorId": "1410008957",
+                    "name": "Camilo Escobar-Vel\u00e1squez"
+                },
+                {
+                    "authorId": "1949197826",
+                    "name": "Anamaria Mojica-Hanke"
+                },
+                {
+                    "authorId": "1580303669",
+                    "name": "S. Cort\u00e9s-Fern\u00e1ndez"
+                },
+                {
+                    "authorId": "1397411901",
+                    "name": "Mario Linares-V\u00e1squez"
+                }
+            ],
+            "doi": "10.1145/3379597.3387497",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "772bdd58ad1af3cd036dddee53f1b824bd66f5ab",
+            "title": "Hall-of-Apps: The Top Android Apps Metadata Archive",
+            "url": "https://www.semanticscholar.org/paper/772bdd58ad1af3cd036dddee53f1b824bd66f5ab",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": "10.1109/msr45733.2019",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "de20e3a4dbd7d0d30eb4a5b46d6222ba827cf208",
+            "title": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "url": "https://www.semanticscholar.org/paper/de20e3a4dbd7d0d30eb4a5b46d6222ba827cf208",
+            "venue": "",
+            "year": 2019
+        }
+    ],
+    "corpusId": 195298576,
+    "doi": "10.1109/MSR.2019.00088",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 2,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 16,
+    "numCiting": 16,
+    "paperId": "b1bffb9d54687235b141372b4b94165a48e83bac",
+    "references": [
+        {
+            "arxivId": "1811.07643",
+            "authors": [
+                {
+                    "authorId": "145153225",
+                    "name": "H. Borges"
+                },
+                {
+                    "authorId": "1757592",
+                    "name": "M. T. Valente"
+                }
+            ],
+            "doi": "10.1016/j.jss.2018.09.016",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "98e267871e7f71b91910c42eb52709c9c8515dcb",
+            "title": "What's in a GitHub Star? Understanding Repository Starring Practices in a Social Coding Platform",
+            "url": "https://www.semanticscholar.org/paper/98e267871e7f71b91910c42eb52709c9c8515dcb",
+            "venue": "J. Syst. Softw.",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1765944",
+                    "name": "Teemu Karvonen"
+                },
+                {
+                    "authorId": "28034750",
+                    "name": "W. Behutiye"
+                },
+                {
+                    "authorId": "1744431",
+                    "name": "M. Oivo"
+                },
+                {
+                    "authorId": "1780090",
+                    "name": "P. Kuvaja"
+                }
+            ],
+            "doi": "10.1016/J.INFSOF.2017.01.009",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f181312539df82eb00a35947c20b60f6866e49ad",
+            "title": "Systematic literature review on the impacts of agile release engineering practices",
+            "url": "https://www.semanticscholar.org/paper/f181312539df82eb00a35947c20b60f6866e49ad",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143612725",
+                    "name": "Bram Adams"
+                },
+                {
+                    "authorId": "1725534",
+                    "name": "Shane McIntosh"
+                }
+            ],
+            "doi": "10.1109/SANER.2016.108",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4e5d99f46087faa6311274d6365017d9cfebc3a7",
+            "title": "Modern Release Engineering in a Nutshell -- Why Researchers Should Care",
+            "url": "https://www.semanticscholar.org/paper/4e5d99f46087faa6311274d6365017d9cfebc3a7",
+            "venue": "2016 IEEE 23rd International Conference on Software Analysis, Evolution, and Reengineering (SANER)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144811716",
+                    "name": "M. M\u00e4ntyl\u00e4"
+                },
+                {
+                    "authorId": "143612725",
+                    "name": "Bram Adams"
+                },
+                {
+                    "authorId": "1703493",
+                    "name": "Foutse Khomh"
+                },
+                {
+                    "authorId": "1777300",
+                    "name": "Emelie Engstr\u00f6m"
+                },
+                {
+                    "authorId": "1737649",
+                    "name": "K. Petersen"
+                }
+            ],
+            "doi": "10.1007/s10664-014-9338-4",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8feb993be18c0f3c90dd40528df3d5a265fb02b2",
+            "title": "On rapid releases and software testing: a case study and a semi-systematic literature review",
+            "url": "https://www.semanticscholar.org/paper/8feb993be18c0f3c90dd40528df3d5a265fb02b2",
+            "venue": "Empirical Software Engineering",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1772390",
+                    "name": "Andrej Dyck"
+                },
+                {
+                    "authorId": "1863578",
+                    "name": "R. Penners"
+                },
+                {
+                    "authorId": "1780564",
+                    "name": "H. Lichter"
+                }
+            ],
+            "doi": "10.1109/RELENG.2015.10",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9760557f0c8cbc5c047581308189d29354ca82ea",
+            "title": "Towards Definitions for Release Engineering and DevOps",
+            "url": "https://www.semanticscholar.org/paper/9760557f0c8cbc5c047581308189d29354ca82ea",
+            "venue": "2015 IEEE/ACM 3rd International Workshop on Release Engineering",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "31631000",
+                    "name": "Baishakhi Ray"
+                },
+                {
+                    "authorId": "49703359",
+                    "name": "Daryl Posnett"
+                },
+                {
+                    "authorId": "3179220",
+                    "name": "V. Filkov"
+                },
+                {
+                    "authorId": "1730296",
+                    "name": "Premkumar T. Devanbu"
+                }
+            ],
+            "doi": "10.1145/2635868.2635922",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "346e2d94b09144375e2449cf214ac34ba93bb48c",
+            "title": "A large scale study of programming languages and code quality in github",
+            "url": "https://www.semanticscholar.org/paper/346e2d94b09144375e2449cf214ac34ba93bb48c",
+            "venue": "SIGSOFT FSE",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49358427",
+                    "name": "Brendan Murphy"
+                },
+                {
+                    "authorId": "145193818",
+                    "name": "C. Bird"
+                },
+                {
+                    "authorId": "143609903",
+                    "name": "Thomas Zimmermann"
+                },
+                {
+                    "authorId": "144426849",
+                    "name": "L. Williams"
+                },
+                {
+                    "authorId": "1693689",
+                    "name": "Nachiappan Nagappan"
+                },
+                {
+                    "authorId": "1776779",
+                    "name": "Andrew Begel"
+                }
+            ],
+            "doi": "10.1109/ESEM.2013.21",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5aec2ed283ede7452ef13881b7dc32d757b03531",
+            "title": "Have Agile Techniques been the Silver Bullet for Software Development at Microsoft?",
+            "url": "https://www.semanticscholar.org/paper/5aec2ed283ede7452ef13881b7dc32d757b03531",
+            "venue": "2013 ACM / IEEE International Symposium on Empirical Software Engineering and Measurement",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "7274019",
+                    "name": "M. Nagappan"
+                },
+                {
+                    "authorId": "143609903",
+                    "name": "Thomas Zimmermann"
+                },
+                {
+                    "authorId": "145193818",
+                    "name": "C. Bird"
+                }
+            ],
+            "doi": "10.1145/2491411.2491415",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0bfca74dd16aad83216742115231d400d60a9f0d",
+            "title": "Diversity in software engineering research",
+            "url": "https://www.semanticscholar.org/paper/0bfca74dd16aad83216742115231d400d60a9f0d",
+            "venue": "ESEC/FSE 2013",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5882731",
+                    "name": "G. Valkenhoef"
+                },
+                {
+                    "authorId": "14301517",
+                    "name": "T. Tervonen"
+                },
+                {
+                    "authorId": "2066180",
+                    "name": "B. Brock"
+                },
+                {
+                    "authorId": "1706182",
+                    "name": "D. Postmus"
+                }
+            ],
+            "doi": "10.1016/J.INFSOF.2011.05.007",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d89c24824699689b3af37344a2003ae49079e8d1",
+            "title": "Quantitative release planning in extreme programming",
+            "url": "https://www.semanticscholar.org/paper/d89c24824699689b3af37344a2003ae49079e8d1",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "36061160",
+                    "name": "Jez Humble"
+                },
+                {
+                    "authorId": "48092244",
+                    "name": "D. Farley"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f1f724bb16cd549e9a59913e19d006d47904e9ca",
+            "title": "Continuous Delivery: Reliable Software Releases Through Build, Test, and Deployment Automation",
+            "url": "https://www.semanticscholar.org/paper/f1f724bb16cd549e9a59913e19d006d47904e9ca",
+            "venue": "",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1734481",
+                    "name": "Eirini Kalliamvakou"
+                },
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "1715864",
+                    "name": "Kelly Blincoe"
+                },
+                {
+                    "authorId": "18264995",
+                    "name": "Leif Singer"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "1741744",
+                    "name": "D. Damian"
+                }
+            ],
+            "doi": "10.1145/2597073.2597074",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d80d307a463df3526bf12ef1974afa7352f7b863",
+            "title": "The promises and perils of mining GitHub",
+            "url": "https://www.semanticscholar.org/paper/d80d307a463df3526bf12ef1974afa7352f7b863",
+            "venue": "MSR 2014",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1724774",
+                    "name": "T. Dyb\u00e5"
+                },
+                {
+                    "authorId": "1398385064",
+                    "name": "Torgeir Dings\u00f8yr"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2008.01.006",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "652db5cfe6f3c217710f40b62800d878a2183016",
+            "title": "Empirical studies of agile software development: A systematic review",
+            "url": "https://www.semanticscholar.org/paper/652db5cfe6f3c217710f40b62800d878a2183016",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "29621520",
+                    "name": "O. Salo"
+                },
+                {
+                    "authorId": "32130218",
+                    "name": "P. Abrahamsson"
+                }
+            ],
+            "doi": "10.1049/IET-SEN:20070038",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5c560ba4bffedc69b6695ba21a077b258654a284",
+            "title": "Agile methods in European embedded software development organisations: a survey on the actual use and usefulness of Extreme Programming and Scrum",
+            "url": "https://www.semanticscholar.org/paper/5c560ba4bffedc69b6695ba21a077b258654a284",
+            "venue": "IET Softw.",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1776779",
+                    "name": "Andrew Begel"
+                },
+                {
+                    "authorId": "1693689",
+                    "name": "Nachiappan Nagappan"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "15cc4e883b97cdcd8f817444b5318ca549837c63",
+            "title": "Usage and Perceptions of Agile Software Development in an Industrial Context: An Exploratory Study",
+            "url": "https://www.semanticscholar.org/paper/15cc4e883b97cdcd8f817444b5318ca549837c63",
+            "venue": "First International Symposium on Empirical Software Engineering and Measurement (ESEM 2007)",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "96710702",
+                    "name": "Agile Manifesto"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "85e8971ae39a24af9689385ca21ee50d5f775085",
+            "title": "Manifesto for Agile Software Development",
+            "url": "https://www.semanticscholar.org/paper/85e8971ae39a24af9689385ca21ee50d5f775085",
+            "venue": "",
+            "year": 2001
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Institutional Knowledge at Singapore Management University Institutional Knowledge at Singapore Management University Network structure of social coding in GitHub Network structure of social coding in GitHub",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "RapidRelease - A Dataset of Projects and Issues on Github with Rapid Releases",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/b1bffb9d54687235b141372b4b94165a48e83bac",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2019
+}

@@ -1,0 +1,1224 @@
+{
+    "abstract": "This paper presents the GreenSource infrastructure: a large body of open source code, executable Android applications, and curated dataset containing energy code metrics. The dataset contains energy metrics obtained by both static analysing the applications' source code and by executing them with available test inputs. To automate the execution of the applications we developed the AnaDroid tool which instruments its code, compiles and executes it with test inputs in any Android device, while collecting energy metrics. GreenSource includes all Android applications included in the MUSE Java source code repository, while AnaDroid implements all Android's energy greedy features described in the literature, GreenSource aims at characterizing energy consumption in the Android ecosystem, providing both Android developers and researchers a setting to reason about energy efficient Android software development.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "37685890",
+            "name": "Rui Rua",
+            "url": "https://www.semanticscholar.org/author/37685890"
+        },
+        {
+            "authorId": "39534603",
+            "name": "Marco Couto",
+            "url": "https://www.semanticscholar.org/author/39534603"
+        },
+        {
+            "authorId": "144562120",
+            "name": "J. Saraiva",
+            "url": "https://www.semanticscholar.org/author/144562120"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2289497417",
+                    "name": "Cagri Sahin"
+                }
+            ],
+            "doi": "10.7717/peerj-cs.1891",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a682fa93af5ef9d91460400c00f79e75bf0c424e",
+            "title": "Do popular apps have issues regarding energy efficiency?",
+            "url": "https://www.semanticscholar.org/paper/a682fa93af5ef9d91460400c00f79e75bf0c424e",
+            "venue": "PeerJ Comput. Sci.",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "37685890",
+                    "name": "Rui Rua"
+                },
+                {
+                    "authorId": "2274006680",
+                    "name": "Jo\u00e3o Saraiva"
+                }
+            ],
+            "doi": "10.1109/ICSME58846.2023.00077",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "47e518d4a2d92206762f9f706511e4f77e426870",
+            "title": "PyAnaDroid: A fully-customizable execution pipeline for benchmarking Android Applications",
+            "url": "https://www.semanticscholar.org/paper/47e518d4a2d92206762f9f706511e4f77e426870",
+            "venue": "2023 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2066313901",
+                    "name": "Wellington Oliveira"
+                },
+                {
+                    "authorId": "2219238229",
+                    "name": "Bernardo Moraes"
+                },
+                {
+                    "authorId": "1719483",
+                    "name": "F. C. Filho"
+                },
+                {
+                    "authorId": "2068338770",
+                    "name": "J. P. Fernandes"
+                }
+            ],
+            "doi": "10.1109/MOBILSoft59058.2023.00014",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c62e95da0c503bdf6fb13bcd617b4c99738334ff",
+            "title": "Ebserver: Automating Resource-Usage Data Collection of Android Applications",
+            "url": "https://www.semanticscholar.org/paper/c62e95da0c503bdf6fb13bcd617b4c99738334ff",
+            "venue": "2023 IEEE/ACM 10th International Conference on Mobile Software Engineering and Systems (MOBILESoft)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2950897",
+                    "name": "Z. Porkol\u00e1b"
+                }
+            ],
+            "doi": "10.1109/Informatics57926.2022.10083490",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b5af097716972905855b4de82eaeb6e613557ec9",
+            "title": "Save the Earth, Program in C++!",
+            "url": "https://www.semanticscholar.org/paper/b5af097716972905855b4de82eaeb6e613557ec9",
+            "venue": "2022 IEEE 16th International Scientific Conference on Informatics (Informatics)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "37685890",
+                    "name": "Rui Rua"
+                },
+                {
+                    "authorId": "153751556",
+                    "name": "J. Saraiva"
+                }
+            ],
+            "doi": "10.1145/3551349.3561342",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "5582ae58fb89f100ba9d9775e576da5a731df7cf",
+            "title": "E-MANAFA: Energy Monitoring and ANAlysis tool For Android",
+            "url": "https://www.semanticscholar.org/paper/5582ae58fb89f100ba9d9775e576da5a731df7cf",
+            "venue": "ASE",
+            "year": 2022
+        },
+        {
+            "arxivId": "2204.13993",
+            "authors": [
+                {
+                    "authorId": "2258701419",
+                    "name": "Pieter Koopman"
+                },
+                {
+                    "authorId": "36166260",
+                    "name": "Mart Lubbers"
+                },
+                {
+                    "authorId": "2267402994",
+                    "name": "Joao Paulo Fernandes Radboud University Nijmegen"
+                },
+                {
+                    "authorId": "2267409909",
+                    "name": "The Netherlands University of Porto"
+                },
+                {
+                    "authorId": "2224847697",
+                    "name": "Portugal"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "53c1444ebd945be32178d0a16cb35b569118c9a5",
+            "title": "SusTrainable: Promoting Sustainability as a Fundamental Driver in Software Development Training and Education. Teacher Training, November 1-5, Nijmegen, The Netherlands. Revised lecture notes",
+            "url": "https://www.semanticscholar.org/paper/53c1444ebd945be32178d0a16cb35b569118c9a5",
+            "venue": "",
+            "year": 2022
+        },
+        {
+            "arxivId": "2108.03028",
+            "authors": [
+                {
+                    "authorId": "144562120",
+                    "name": "J. Saraiva"
+                },
+                {
+                    "authorId": "144837389",
+                    "name": "Rui Abreu"
+                },
+                {
+                    "authorId": "1689398",
+                    "name": "J\u00e1come Cunha"
+                },
+                {
+                    "authorId": "145986024",
+                    "name": "J. Fernandes"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "a3a4209bf6aaf99232f43828519644992aa1745b",
+            "title": "Green Software Lab: Towards an Engineering Discipline for Green Software",
+            "url": "https://www.semanticscholar.org/paper/a3a4209bf6aaf99232f43828519644992aa1745b",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144562120",
+                    "name": "J. Saraiva"
+                },
+                {
+                    "authorId": "36491005",
+                    "name": "Ziliang Zong"
+                },
+                {
+                    "authorId": "145475398",
+                    "name": "Rui Pereira"
+                }
+            ],
+            "doi": "10.1145/3430665.3456386",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6246a1097905046bdfaa461a72af42d0cfc5d648",
+            "title": "Bringing Green Software to Computer Science Curriculum: Perspectives from Researchers and Educators",
+            "url": "https://www.semanticscholar.org/paper/6246a1097905046bdfaa461a72af42d0cfc5d648",
+            "venue": "ITiCSE",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "37685890",
+                    "name": "Rui Rua"
+                },
+                {
+                    "authorId": "107689726",
+                    "name": "T. Fraga"
+                },
+                {
+                    "authorId": "39534603",
+                    "name": "Marco Couto"
+                },
+                {
+                    "authorId": "144562120",
+                    "name": "J. Saraiva"
+                }
+            ],
+            "doi": "10.1145/3387905.3388600",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1392cd6aff47082350c9cde457e806048c7fb48b",
+            "title": "Greenspecting Android Virtual Keyboards",
+            "url": "https://www.semanticscholar.org/paper/1392cd6aff47082350c9cde457e806048c7fb48b",
+            "venue": "2020 IEEE/ACM 7th International Conference on Mobile Software Engineering and Systems (MOBILESoft)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1396390997",
+                    "name": "Luis Cruz"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2fd751bfc62de7db99bd06cdfd238eb136175fa7",
+            "title": "Tools and Techniques for Energy-Efficient Mobile Application Development",
+            "url": "https://www.semanticscholar.org/paper/2fd751bfc62de7db99bd06cdfd238eb136175fa7",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": "10.1109/msr45733.2019",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "de20e3a4dbd7d0d30eb4a5b46d6222ba827cf208",
+            "title": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "url": "https://www.semanticscholar.org/paper/de20e3a4dbd7d0d30eb4a5b46d6222ba827cf208",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144419970",
+                    "name": "P. Koopman"
+                },
+                {
+                    "authorId": "36166260",
+                    "name": "Mart Lubbers"
+                },
+                {
+                    "authorId": "145986024",
+                    "name": "J. Fernandes"
+                }
+            ],
+            "doi": "10.48550/arXiv.2204.13993",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "112b82e73229958ff53b19250536b9659b468b54",
+            "title": "SusTrainable: Promoting Sustainability as a Fundamental Driver in Software Development Training and Education. Teacher Training, November 1-5, Nijmegen, The Netherlands. Revised lecture notes",
+            "url": "https://www.semanticscholar.org/paper/112b82e73229958ff53b19250536b9659b468b54",
+            "venue": "ArXiv",
+            "year": 2022
+        }
+    ],
+    "corpusId": 195298510,
+    "doi": "10.1109/MSR.2019.00035",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 12,
+    "numCiting": 27,
+    "paperId": "e3bf854d759af50f586939b7e80fc4909ddb570e",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145475398",
+                    "name": "Rui Pereira"
+                },
+                {
+                    "authorId": "51183830",
+                    "name": "Pedro Sim\u00e3o"
+                },
+                {
+                    "authorId": "1689398",
+                    "name": "J\u00e1come Cunha"
+                },
+                {
+                    "authorId": "144562120",
+                    "name": "J. Saraiva"
+                }
+            ],
+            "doi": "10.1145/3238147.3240473",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7979bdc34f88620cc44f579d170d754cc258a7ea",
+            "title": "jStanley: Placing a Green Thumb on Java Collections",
+            "url": "https://www.semanticscholar.org/paper/7979bdc34f88620cc44f579d170d754cc258a7ea",
+            "venue": "2018 33rd IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2018
+        },
+        {
+            "arxivId": "1803.05889",
+            "authors": [
+                {
+                    "authorId": "144758605",
+                    "name": "L. Cruz"
+                },
+                {
+                    "authorId": "144837389",
+                    "name": "Rui Abreu"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "f3bd4fb9cf9ab16eaa662aad01365967ce4b535c",
+            "title": "Using Automatic Refactoring to Improve Energy Efficiency of Android Apps",
+            "url": "https://www.semanticscholar.org/paper/f3bd4fb9cf9ab16eaa662aad01365967ce4b535c",
+            "venue": "CIbSE",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145475398",
+                    "name": "Rui Pereira"
+                },
+                {
+                    "authorId": "39534603",
+                    "name": "Marco Couto"
+                },
+                {
+                    "authorId": "145957864",
+                    "name": "Francisco Ribeiro"
+                },
+                {
+                    "authorId": "37685890",
+                    "name": "Rui Rua"
+                },
+                {
+                    "authorId": "1689398",
+                    "name": "J\u00e1come Cunha"
+                },
+                {
+                    "authorId": "145986024",
+                    "name": "J. Fernandes"
+                },
+                {
+                    "authorId": "144562120",
+                    "name": "J. Saraiva"
+                }
+            ],
+            "doi": "10.1145/3136014.3136031",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "41a7b65039408af7802238aa6fdff724d880a408",
+            "title": "Energy efficiency across programming languages: how do energy, time, and memory relate?",
+            "url": "https://www.semanticscholar.org/paper/41a7b65039408af7802238aa6fdff724d880a408",
+            "venue": "SLE",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34955824",
+                    "name": "C. Lopes"
+                },
+                {
+                    "authorId": "32514549",
+                    "name": "Petr Maj"
+                },
+                {
+                    "authorId": "145784437",
+                    "name": "Pedro Martins"
+                },
+                {
+                    "authorId": "40188003",
+                    "name": "V. Saini"
+                },
+                {
+                    "authorId": "2110919594",
+                    "name": "Di Yang"
+                },
+                {
+                    "authorId": "67102999",
+                    "name": "Jakub Zitny"
+                },
+                {
+                    "authorId": "1906848",
+                    "name": "Hitesh Sajnani"
+                },
+                {
+                    "authorId": "144376283",
+                    "name": "J. Vitek"
+                }
+            ],
+            "doi": "10.1145/3133908",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a26b00c607b6d6a2697f5444f14a9afc37701444",
+            "title": "D\u00e9j\u00e0Vu: a map of code duplicates on GitHub",
+            "url": "https://www.semanticscholar.org/paper/a26b00c607b6d6a2697f5444f14a9afc37701444",
+            "venue": "Proc. ACM Program. Lang.",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39534603",
+                    "name": "Marco Couto"
+                },
+                {
+                    "authorId": "145475398",
+                    "name": "Rui Pereira"
+                },
+                {
+                    "authorId": "145957864",
+                    "name": "Francisco Ribeiro"
+                },
+                {
+                    "authorId": "37685890",
+                    "name": "Rui Rua"
+                },
+                {
+                    "authorId": "144562120",
+                    "name": "J. Saraiva"
+                }
+            ],
+            "doi": "10.1145/3125374.3125382",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "e487a90095cc8dd9b783391a5c4ce91b175b6d23",
+            "title": "Towards a Green Ranking for Programming Languages",
+            "url": "https://www.semanticscholar.org/paper/e487a90095cc8dd9b783391a5c4ce91b175b6d23",
+            "venue": "SBLP",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2113664139",
+                    "name": "Yan Hu"
+                },
+                {
+                    "authorId": "2219213508",
+                    "name": "Jiwei Yan"
+                },
+                {
+                    "authorId": "2069086240",
+                    "name": "Dong Yan"
+                },
+                {
+                    "authorId": "2117523306",
+                    "name": "Qiong Lu"
+                },
+                {
+                    "authorId": "2112592626",
+                    "name": "Jun Yan"
+                }
+            ],
+            "doi": "10.1016/j.scico.2017.05.002",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "99de6bd56830ead3dc258eae4fed4723e1f8ed14",
+            "title": "Lightweight energy consumption analysis and prediction for Android applications",
+            "url": "https://www.semanticscholar.org/paper/99de6bd56830ead3dc258eae4fed4723e1f8ed14",
+            "venue": "Sci. Comput. Program.",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144758605",
+                    "name": "L. Cruz"
+                },
+                {
+                    "authorId": "144837389",
+                    "name": "Rui Abreu"
+                }
+            ],
+            "doi": "10.1109/MOBILESoft.2017.19",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3295fdbb13608b1fbedc98bec465b77db177a336",
+            "title": "Performance-Based Guidelines for Energy Efficient Mobile Applications",
+            "url": "https://www.semanticscholar.org/paper/3295fdbb13608b1fbedc98bec465b77db177a336",
+            "venue": "2017 IEEE/ACM 4th International Conference on Mobile Software Engineering and Systems (MOBILESoft)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "117886013",
+                    "name": "G. Pinto"
+                },
+                {
+                    "authorId": "2152352593",
+                    "name": "Kenan Liu"
+                },
+                {
+                    "authorId": "1719483",
+                    "name": "F. C. Filho"
+                },
+                {
+                    "authorId": "2146399282",
+                    "name": "Yu David Liu"
+                }
+            ],
+            "doi": "10.1109/ICSME.2016.86",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "554b8b80361179bc3c9627fc6ccccd20c7257da2",
+            "title": "A Comprehensive Study on the Energy Efficiency of Java\u2019s Thread-Safe Collections",
+            "url": "https://www.semanticscholar.org/paper/554b8b80361179bc3c9627fc6ccccd20c7257da2",
+            "venue": "2016 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2604551",
+                    "name": "Nagaraj Hegde"
+                },
+                {
+                    "authorId": "2327334",
+                    "name": "E. Melanson"
+                },
+                {
+                    "authorId": "49553330",
+                    "name": "E. Sazonov"
+                }
+            ],
+            "doi": "10.1109/EMBC.2016.7591089",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0620bba0c5629fe70f52374a0dda4b8231802508",
+            "title": "Development of a real time activity monitoring Android application utilizing SmartStep",
+            "url": "https://www.semanticscholar.org/paper/0620bba0c5629fe70f52374a0dda4b8231802508",
+            "venue": "2016 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144732372",
+                    "name": "Ke Mao"
+                },
+                {
+                    "authorId": "145836176",
+                    "name": "M. Harman"
+                },
+                {
+                    "authorId": "145401173",
+                    "name": "Yue Jia"
+                }
+            ],
+            "doi": "10.1145/2931037.2931054",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6fa1c7156498ebfdfd5abb58e2f9858eb2ca28a8",
+            "title": "Sapienz: multi-objective automated testing for Android applications",
+            "url": "https://www.semanticscholar.org/paper/6fa1c7156498ebfdfd5abb58e2f9858eb2ca28a8",
+            "venue": "ISSTA",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "31537989",
+                    "name": "Samir Hasan"
+                },
+                {
+                    "authorId": "2751854",
+                    "name": "Zachary King"
+                },
+                {
+                    "authorId": "145988728",
+                    "name": "M. Hafiz"
+                },
+                {
+                    "authorId": "3045536",
+                    "name": "M. Sayagh"
+                },
+                {
+                    "authorId": "143612725",
+                    "name": "Bram Adams"
+                },
+                {
+                    "authorId": "145369636",
+                    "name": "Abram Hindle"
+                }
+            ],
+            "doi": "10.1145/2884781.2884869",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "4d125e263c46f397a17758ec3cae63b81615889a",
+            "title": "Energy Profiles of Java Collections Classes",
+            "url": "https://www.semanticscholar.org/paper/4d125e263c46f397a17758ec3cae63b81615889a",
+            "venue": "2016 IEEE/ACM 38th International Conference on Software Engineering (ICSE)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145088168",
+                    "name": "Ding Li"
+                },
+                {
+                    "authorId": "2745323",
+                    "name": "Yingjun Lyu"
+                },
+                {
+                    "authorId": "2461196",
+                    "name": "Jiaping Gui"
+                },
+                {
+                    "authorId": "1716654",
+                    "name": "William G. J. Halfond"
+                }
+            ],
+            "doi": "10.1145/2884781.2884867",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "033f6b3dbe92eae1d52c3cccfb92ecd2f9ac068e",
+            "title": "Automated Energy Optimization of HTTP Requests for Mobile Applications",
+            "url": "https://www.semanticscholar.org/paper/033f6b3dbe92eae1d52c3cccfb92ecd2f9ac068e",
+            "venue": "2016 IEEE/ACM 38th International Conference on Software Engineering (ICSE)",
+            "year": 2016
+        },
+        {
+            "arxivId": "1602.00984",
+            "authors": [
+                {
+                    "authorId": "145475398",
+                    "name": "Rui Pereira"
+                },
+                {
+                    "authorId": "39534603",
+                    "name": "Marco Couto"
+                },
+                {
+                    "authorId": "1689398",
+                    "name": "J\u00e1come Cunha"
+                },
+                {
+                    "authorId": "145986024",
+                    "name": "J. Fernandes"
+                },
+                {
+                    "authorId": "144562120",
+                    "name": "J. Saraiva"
+                }
+            ],
+            "doi": "10.1145/2896967.2896968",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "29448a2b4c926cac01e2895fcf7260e8b6c50376",
+            "title": "The Influence of the Java Collection Framework on Overall Energy Consumption",
+            "url": "https://www.semanticscholar.org/paper/29448a2b4c926cac01e2895fcf7260e8b6c50376",
+            "venue": "2016 IEEE/ACM 5th International Workshop on Green and Sustainable Software (GREENS)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "9306776",
+                    "name": "M. A. Hoque"
+                },
+                {
+                    "authorId": "3208235",
+                    "name": "M. Siekkinen"
+                },
+                {
+                    "authorId": "2536931",
+                    "name": "Kashif Nizam Khan"
+                },
+                {
+                    "authorId": "144755236",
+                    "name": "Yu Xiao"
+                },
+                {
+                    "authorId": "1759241",
+                    "name": "Sasu Tarkoma"
+                }
+            ],
+            "doi": "10.1145/2840723",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1b9b22b1da8c752f122ce7423e616c76053c5b38",
+            "title": "Modeling, Profiling, and Debugging the Energy Consumption of Mobile Devices",
+            "url": "https://www.semanticscholar.org/paper/1b9b22b1da8c752f122ce7423e616c76053c5b38",
+            "venue": "ACM Comput. Surv.",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1994235",
+                    "name": "Reyhaneh Jabbarvand Behrouz"
+                },
+                {
+                    "authorId": "2055684632",
+                    "name": "Alireza Sadeghi"
+                },
+                {
+                    "authorId": "2116496433",
+                    "name": "Joshua Garcia"
+                },
+                {
+                    "authorId": "144575444",
+                    "name": "S. Malek"
+                },
+                {
+                    "authorId": "144127529",
+                    "name": "P. Ammann"
+                }
+            ],
+            "doi": "10.1109/GREENS.2015.9",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "738834810271eb948ad967f3f06f66ea9f68f1b2",
+            "title": "EcoDroid: An Approach for Energy-Based Ranking of Android Apps",
+            "url": "https://www.semanticscholar.org/paper/738834810271eb948ad967f3f06f66ea9f68f1b2",
+            "venue": "2015 IEEE/ACM 4th International Workshop on Green and Sustainable Software",
+            "year": 2015
+        },
+        {
+            "arxivId": "1503.07217",
+            "authors": [
+                {
+                    "authorId": "34651528",
+                    "name": "Shauvik Roy Choudhary"
+                },
+                {
+                    "authorId": "2762411",
+                    "name": "Alessandra Gorla"
+                },
+                {
+                    "authorId": "8172306",
+                    "name": "A. Orso"
+                }
+            ],
+            "doi": "10.1109/ASE.2015.89",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c2f1c8abdf8b42cbe94e3cf3ddd114cf8ef658c9",
+            "title": "Automated Test Input Generation for Android: Are We There Yet? (E)",
+            "url": "https://www.semanticscholar.org/paper/c2f1c8abdf8b42cbe94e3cf3ddd114cf8ef658c9",
+            "venue": "2015 30th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145088168",
+                    "name": "Ding Li"
+                },
+                {
+                    "authorId": "1716654",
+                    "name": "William G. J. Halfond"
+                }
+            ],
+            "doi": "10.1145/2593743.2593750",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "53e04e3bd9b3589747eca3c8156b6d414a4cd1d2",
+            "title": "An investigation into energy-saving programming practices for Android smartphone app development",
+            "url": "https://www.semanticscholar.org/paper/53e04e3bd9b3589747eca3c8156b6d414a4cd1d2",
+            "venue": "GREENS 2014",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "117886013",
+                    "name": "G. Pinto"
+                },
+                {
+                    "authorId": "1719483",
+                    "name": "F. C. Filho"
+                },
+                {
+                    "authorId": "2146399282",
+                    "name": "Yu David Liu"
+                }
+            ],
+            "doi": "10.1145/2597073.2597110",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "62bf3e6ec717c42f02d16e8f1d217ad776cdab6a",
+            "title": "Mining questions about software energy consumption",
+            "url": "https://www.semanticscholar.org/paper/62bf3e6ec717c42f02d16e8f1d217ad776cdab6a",
+            "venue": "MSR 2014",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1781267",
+                    "name": "M. V\u00e1squez"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "1399311863",
+                    "name": "Carlos Bernal-C\u00e1rdenas"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                }
+            ],
+            "doi": "10.1145/2597073.2597085",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "9533f3aa81e8be03dcacb774956d6eccf8f9a24a",
+            "title": "Mining energy-greedy API usage patterns in Android apps: an empirical study",
+            "url": "https://www.semanticscholar.org/paper/9533f3aa81e8be03dcacb774956d6eccf8f9a24a",
+            "venue": "MSR 2014",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39729304",
+                    "name": "Abhinav Pathak"
+                },
+                {
+                    "authorId": "2223701500",
+                    "name": "Y. C. Hu"
+                },
+                {
+                    "authorId": "2108843609",
+                    "name": "Ming Zhang"
+                },
+                {
+                    "authorId": "2292948",
+                    "name": "P. Bahl"
+                },
+                {
+                    "authorId": "1997552",
+                    "name": "Yi-Min Wang"
+                }
+            ],
+            "doi": "10.1145/1966445.1966460",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "f8738e5d5f7a093b7abe434bff74eec2d287ce43",
+            "title": "Fine-grained power modeling for smartphones using system call tracing",
+            "url": "https://www.semanticscholar.org/paper/f8738e5d5f7a093b7abe434bff74eec2d287ce43",
+            "venue": "EuroSys '11",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1720251",
+                    "name": "Joel Ossher"
+                },
+                {
+                    "authorId": "1714659",
+                    "name": "S. Bajracharya"
+                },
+                {
+                    "authorId": "3186827",
+                    "name": "Erik J. Linstead"
+                },
+                {
+                    "authorId": "144902513",
+                    "name": "P. Baldi"
+                },
+                {
+                    "authorId": "34955824",
+                    "name": "C. Lopes"
+                }
+            ],
+            "doi": "10.1109/MSR.2009.5069501",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2582b486305ce677224d8632a3f24b880b533dcd",
+            "title": "SourcererDB: An aggregated repository of statically analyzed and cross-linked open source Java projects",
+            "url": "https://www.semanticscholar.org/paper/2582b486305ce677224d8632a3f24b880b533dcd",
+            "venue": "2009 6th IEEE International Working Conference on Mining Software Repositories",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3007989",
+                    "name": "S. Blackburn"
+                },
+                {
+                    "authorId": "145480995",
+                    "name": "Robin Garner"
+                },
+                {
+                    "authorId": "1720244",
+                    "name": "Chris Hoffmann"
+                },
+                {
+                    "authorId": "10044036",
+                    "name": "Asjad M. Khan"
+                },
+                {
+                    "authorId": "1766093",
+                    "name": "K. McKinley"
+                },
+                {
+                    "authorId": "2951850",
+                    "name": "Rotem Bentzur"
+                },
+                {
+                    "authorId": "145497691",
+                    "name": "Amer Diwan"
+                },
+                {
+                    "authorId": "2072122125",
+                    "name": "Daniel Feinberg"
+                },
+                {
+                    "authorId": "3043202",
+                    "name": "Daniel Frampton"
+                },
+                {
+                    "authorId": "2460388",
+                    "name": "Samuel Z. Guyer"
+                },
+                {
+                    "authorId": "1728836",
+                    "name": "Martin Hirzel"
+                },
+                {
+                    "authorId": "2094585",
+                    "name": "Antony Hosking"
+                },
+                {
+                    "authorId": "2540728",
+                    "name": "M. Jump"
+                },
+                {
+                    "authorId": "8385454",
+                    "name": "H. Lee"
+                },
+                {
+                    "authorId": "143852087",
+                    "name": "J. Moss"
+                },
+                {
+                    "authorId": "1862295",
+                    "name": "Aashish Phansalkar"
+                },
+                {
+                    "authorId": "2111306",
+                    "name": "D. Stefanovic"
+                },
+                {
+                    "authorId": "2042532",
+                    "name": "Thomas VanDrunen"
+                },
+                {
+                    "authorId": "1982980",
+                    "name": "D. V. Dincklage"
+                },
+                {
+                    "authorId": "31950940",
+                    "name": "Ben Wiedermann"
+                }
+            ],
+            "doi": "10.1145/1167473.1167488",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "00a9ba0063d34ec56792849a67ef57b4601becbb",
+            "title": "The DaCapo benchmarks: java benchmarking development and analysis",
+            "url": "https://www.semanticscholar.org/paper/00a9ba0063d34ec56792849a67ef57b4601becbb",
+            "venue": "OOPSLA '06",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Ui/application exerciser monkey",
+            "url": "",
+            "venue": "https://developer.android. com/studio/test/monkey, 2019.",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145475398",
+                    "name": "Rui Pereira"
+                },
+                {
+                    "authorId": "39534603",
+                    "name": "Marco Couto"
+                },
+                {
+                    "authorId": "145957864",
+                    "name": "Francisco Ribeiro"
+                },
+                {
+                    "authorId": "37685890",
+                    "name": "Rui Rua"
+                },
+                {
+                    "authorId": "144562120",
+                    "name": "J. Saraiva"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c51c967d72cd020d92ad89f6e458949358c31bb2",
+            "title": "Energyware Analysis",
+            "url": "https://www.semanticscholar.org/paper/c51c967d72cd020d92ad89f6e458949358c31bb2",
+            "venue": "SQAMIA",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "December) Uci source code data sets",
+            "url": "",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Trepn profiler. https://developer.qualcomm.com/software/ trepn-power-profiler",
+            "url": "",
+            "venue": "",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1714659",
+                    "name": "S. Bajracharya"
+                },
+                {
+                    "authorId": "1720251",
+                    "name": "Joel Ossher"
+                },
+                {
+                    "authorId": "34955824",
+                    "name": "C. Lopes"
+                }
+            ],
+            "doi": "10.1016/J.SCICO.2012.04.008",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "23a026a3da60544c1bcf0eb62c80e80f55128afd",
+            "title": "Sourcerer: An infrastructure for large-scale collection and analysis of open-source code",
+            "url": "https://www.semanticscholar.org/paper/23a026a3da60544c1bcf0eb62c80e80f55128afd",
+            "venue": "Sci. Comput. Program.",
+            "year": 2014
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "GreenSource: A Large-Scale Collection of Android Code, Tests and Energy Metrics",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/e3bf854d759af50f586939b7e80fc4909ddb570e",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2019
+}

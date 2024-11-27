@@ -1,0 +1,836 @@
+{
+    "abstract": "Identifying and fixing bugs in programs remains a challenge and is one of the most time-consuming tasks in software development. But even after a bug is identified, and a fix has been proposed by a developer or tool, it is not uncommon that the fix is incomplete and does not cover all possible inputs that trigger the bug. This can happen quite often and leads to re-opened issues and inefficiencies. In this paper, we introduce P3, a curated dataset composed of incomplete fixes. Each entry in the set contains a series of commits fixing the same underlying issue, where multiple of the intermediate commits are incomplete fixes. These are sourced from real-world open-source C projects. The selection process involves both automated and manual stages. Initially, we employ heuristics to identify potential partial fixes from repositories, subsequently we validate them through meticulous manual inspection. This process ensures the accuracy and reliability of our curated dataset. We envision that the dataset will support researchers while investigating partial fixes in more detail, allowing them to develop new techniques to detect and fix them. We make our dataset publicly available at https://gitlab.com/sosy-lab/research/data/partial-fix-dataset.CCS CONCEPTS\u2022Software and its engineering \u2192 Software testing and debugging.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2265669289",
+            "name": "Dirk Beyer",
+            "url": "https://www.semanticscholar.org/author/2265669289"
+        },
+        {
+            "authorId": "2264972118",
+            "name": "Lars Grunske",
+            "url": "https://www.semanticscholar.org/author/2264972118"
+        },
+        {
+            "authorId": "2160992830",
+            "name": "Matthias Kettl",
+            "url": "https://www.semanticscholar.org/author/2160992830"
+        },
+        {
+            "authorId": "2298987272",
+            "name": "Marian Lingsch-Rosenfeld",
+            "url": "https://www.semanticscholar.org/author/2298987272"
+        },
+        {
+            "authorId": "1379958663",
+            "name": "Moeketsi Raselimo",
+            "url": "https://www.semanticscholar.org/author/1379958663"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [],
+    "corpusId": 270879200,
+    "doi": "10.1145/3643991.3644889",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 0,
+    "numCiting": 26,
+    "paperId": "6ff0291277e1c9a33f7be7f86e0882b454993bb2",
+    "references": [
+        {
+            "arxivId": "2306.09892",
+            "authors": [
+                {
+                    "authorId": "2220218516",
+                    "name": "Dylan Callaghan"
+                },
+                {
+                    "authorId": "144261728",
+                    "name": "B. Fischer"
+                }
+            ],
+            "doi": "10.1145/3597926.3598148",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8696542b71f8e051f2d1138ccaedca060369b963",
+            "title": "Improving Spectrum-Based Localization of Multiple Faults by Iterative Test Suite Reduction",
+            "url": "https://www.semanticscholar.org/paper/8696542b71f8e051f2d1138ccaedca060369b963",
+            "venue": "ISSTA",
+            "year": 2023
+        },
+        {
+            "arxivId": "2206.08768",
+            "authors": [
+                {
+                    "authorId": "1417237585",
+                    "name": "Pedro Orvalho"
+                },
+                {
+                    "authorId": "1388403533",
+                    "name": "Mikol'avs Janota"
+                },
+                {
+                    "authorId": "3094458",
+                    "name": "Vasco M. Manquinho"
+                }
+            ],
+            "doi": "10.1145/3643788.3648010",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "58a53efd21070ed386065a36d1901ff93bcb7018",
+            "title": "C-Pack of IPAs: A C90 Program Benchmark of Introductory Programming Assignments",
+            "url": "https://www.semanticscholar.org/paper/58a53efd21070ed386065a36d1901ff93bcb7018",
+            "venue": "2024 IEEE/ACM International Workshop on Automated Program Repair (APR)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "13396020",
+                    "name": "Francesco Altiero"
+                },
+                {
+                    "authorId": "13851143",
+                    "name": "A. Corazza"
+                },
+                {
+                    "authorId": "2517508",
+                    "name": "S. Martino"
+                },
+                {
+                    "authorId": "2069796365",
+                    "name": "A. Peron"
+                },
+                {
+                    "authorId": "2015982664",
+                    "name": "L. L. L. Starace"
+                }
+            ],
+            "doi": "10.1145/3524842.3528490",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fc3e64291d819f0b51f30a043d9385dc5f92bd59",
+            "title": "ReCover: a Curated Dataset for Regression Testing Research",
+            "url": "https://www.semanticscholar.org/paper/fc3e64291d819f0b51f30a043d9385dc5f92bd59",
+            "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2107.08038",
+            "authors": [
+                {
+                    "authorId": "20973083",
+                    "name": "Dirk Beyer"
+                },
+                {
+                    "authorId": "1735743",
+                    "name": "Lars Grunske"
+                },
+                {
+                    "authorId": "40307239",
+                    "name": "T. Lemberger"
+                },
+                {
+                    "authorId": "35710927",
+                    "name": "Minxing Tang"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8ff4e0a2ec335cf4cf409273c70b2a8c70c0f95c",
+            "title": "Towards a Benchmark Set for Program Repair Based on Partial Fixes",
+            "url": "https://www.semanticscholar.org/paper/8ff4e0a2ec335cf4cf409273c70b2a8c70c0f95c",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": "2401.15481",
+            "authors": [
+                {
+                    "authorId": "2008294024",
+                    "name": "Ratnadira Widyasari"
+                },
+                {
+                    "authorId": "104176089",
+                    "name": "Sheng Qin Sim"
+                },
+                {
+                    "authorId": "2007922123",
+                    "name": "Camellia Lok"
+                },
+                {
+                    "authorId": "1505237850",
+                    "name": "Haodi Qi"
+                },
+                {
+                    "authorId": "115735169",
+                    "name": "J. Phan"
+                },
+                {
+                    "authorId": "2008285055",
+                    "name": "Qijin Tay"
+                },
+                {
+                    "authorId": "2007721798",
+                    "name": "Constance Tan"
+                },
+                {
+                    "authorId": "2008295858",
+                    "name": "Fiona Wee"
+                },
+                {
+                    "authorId": "2007771334",
+                    "name": "Jodie Ethelda Tan"
+                },
+                {
+                    "authorId": "2008291958",
+                    "name": "Yuheng Yieh"
+                },
+                {
+                    "authorId": "2062806707",
+                    "name": "Brian K. P. Goh"
+                },
+                {
+                    "authorId": "2121315",
+                    "name": "Ferdian Thung"
+                },
+                {
+                    "authorId": "48654378",
+                    "name": "Hong Jin Kang"
+                },
+                {
+                    "authorId": "9719656",
+                    "name": "Thong Hoang"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                },
+                {
+                    "authorId": "2809806",
+                    "name": "Eng Lieh Ouh"
+                }
+            ],
+            "doi": "10.1145/3368089.3417943",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "df0c1c146d6ea0694d955dfddc6f7bc4e1ba987a",
+            "title": "BugsInPy: a database of existing bugs in Python programs to enable controlled testing and debugging studies",
+            "url": "https://www.semanticscholar.org/paper/df0c1c146d6ea0694d955dfddc6f7bc4e1ba987a",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1747226",
+                    "name": "Shin Hwei Tan"
+                },
+                {
+                    "authorId": "2114027568",
+                    "name": "Zhen Dong"
+                },
+                {
+                    "authorId": "143856160",
+                    "name": "Xiang Gao"
+                },
+                {
+                    "authorId": "1789700",
+                    "name": "Abhik Roychoudhury"
+                }
+            ],
+            "doi": "10.1145/3180155.3180243",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "84a56df6ab124e14c20d3973167d4d78272f8c1c",
+            "title": "Repairing Crashes in Android Apps",
+            "url": "https://www.semanticscholar.org/paper/84a56df6ab124e14c20d3973167d4d78272f8c1c",
+            "venue": "2018 IEEE/ACM 40th International Conference on Software Engineering (ICSE)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34775038",
+                    "name": "Marcel B\u00f6hme"
+                },
+                {
+                    "authorId": "11032020",
+                    "name": "E. Soremekun"
+                },
+                {
+                    "authorId": "145213689",
+                    "name": "Sudipta Chattopadhyay"
+                },
+                {
+                    "authorId": "11005626",
+                    "name": "Emamurho Ugherughe"
+                },
+                {
+                    "authorId": "145594351",
+                    "name": "A. Zeller"
+                }
+            ],
+            "doi": "10.1145/3106237.3106255",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "cedf2cc20266d9e52fd4bd7e7c55b4a14d4e0c81",
+            "title": "Where is the bug and how is it fixed? an experiment with practitioners",
+            "url": "https://www.semanticscholar.org/paper/cedf2cc20266d9e52fd4bd7e7c55b4a14d4e0c81",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34276932",
+                    "name": "Jooyong Yi"
+                },
+                {
+                    "authorId": "32269697",
+                    "name": "Umair Z. Ahmed"
+                },
+                {
+                    "authorId": "1782446",
+                    "name": "Amey Karkare"
+                },
+                {
+                    "authorId": "1747226",
+                    "name": "Shin Hwei Tan"
+                },
+                {
+                    "authorId": "1789700",
+                    "name": "Abhik Roychoudhury"
+                }
+            ],
+            "doi": "10.1145/3106237.3106262",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6e5f3c4507aeb175da8712cff43cb8b2e60b5a12",
+            "title": "A feasibility study of using automated program repair for introductory programming assignments",
+            "url": "https://www.semanticscholar.org/paper/6e5f3c4507aeb175da8712cff43cb8b2e60b5a12",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1747226",
+                    "name": "Shin Hwei Tan"
+                },
+                {
+                    "authorId": "34276932",
+                    "name": "Jooyong Yi"
+                },
+                {
+                    "authorId": "11021244",
+                    "name": "Yulis"
+                },
+                {
+                    "authorId": "2679031",
+                    "name": "Sergey Mechtaev"
+                },
+                {
+                    "authorId": "1789700",
+                    "name": "Abhik Roychoudhury"
+                }
+            ],
+            "doi": "10.1109/ICSE-C.2017.76",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "aef542decbd262689a16b06809b37ef319807cba",
+            "title": "Codeflaws: A Programming Competition Benchmark for Evaluating Automated Program Repair Tools",
+            "url": "https://www.semanticscholar.org/paper/aef542decbd262689a16b06809b37ef319807cba",
+            "venue": "2017 IEEE/ACM 39th International Conference on Software Engineering Companion (ICSE-C)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2957803",
+                    "name": "Claire Le Goues"
+                },
+                {
+                    "authorId": "8374259",
+                    "name": "Neal J. Holtschulte"
+                },
+                {
+                    "authorId": "21401565",
+                    "name": "Edward K. Smith"
+                },
+                {
+                    "authorId": "2932798",
+                    "name": "Yuriy Brun"
+                },
+                {
+                    "authorId": "1730296",
+                    "name": "Premkumar T. Devanbu"
+                },
+                {
+                    "authorId": "30123380",
+                    "name": "S. Forrest"
+                },
+                {
+                    "authorId": "47211092",
+                    "name": "Westley Weimer"
+                }
+            ],
+            "doi": "10.1109/TSE.2015.2454513",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ea73e3c069f4593e916737ca8f59a3faf51d1f0c",
+            "title": "The ManyBugs and IntroClass Benchmarks for Automated Repair of C Programs",
+            "url": "https://www.semanticscholar.org/paper/ea73e3c069f4593e916737ca8f59a3faf51d1f0c",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1820006",
+                    "name": "Le An"
+                },
+                {
+                    "authorId": "1703493",
+                    "name": "Foutse Khomh"
+                },
+                {
+                    "authorId": "143612725",
+                    "name": "Bram Adams"
+                }
+            ],
+            "doi": "10.1109/SCAM.2014.29",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a4a39570a114d2f1dc67247dbb13580214c323ad",
+            "title": "Supplementary Bug Fixes vs. Re-opened Bugs",
+            "url": "https://www.semanticscholar.org/paper/a4a39570a114d2f1dc67247dbb13580214c323ad",
+            "venue": "2014 IEEE 14th International Working Conference on Source Code Analysis and Manipulation",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2707595",
+                    "name": "Ren\u00e9 Just"
+                },
+                {
+                    "authorId": "2728496",
+                    "name": "D. Jalali"
+                },
+                {
+                    "authorId": "6698059",
+                    "name": "Michael D. Ernst"
+                }
+            ],
+            "doi": "10.1145/2610384.2628055",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "37e2106bebd02f4ac9c410941fde7f358279e4a4",
+            "title": "Defects4J: a database of existing faults to enable controlled testing studies for Java programs",
+            "url": "https://www.semanticscholar.org/paper/37e2106bebd02f4ac9c410941fde7f358279e4a4",
+            "venue": "ISSTA 2014",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1718436",
+                    "name": "Zuoning Yin"
+                },
+                {
+                    "authorId": "2042324",
+                    "name": "Ding Yuan"
+                },
+                {
+                    "authorId": "145850061",
+                    "name": "Yuanyuan Zhou"
+                },
+                {
+                    "authorId": "40626838",
+                    "name": "S. Pasupathy"
+                },
+                {
+                    "authorId": "1799890",
+                    "name": "Lakshmi N. Bairavasundaram"
+                }
+            ],
+            "doi": "10.1145/2025113.2025121",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1f157f2b144528924eec46d9316bd5517352b89a",
+            "title": "How do fixes become bugs?",
+            "url": "https://www.semanticscholar.org/paper/1f157f2b144528924eec46d9316bd5517352b89a",
+            "venue": "ESEC/FSE '11",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2368366",
+                    "name": "Zhongxian Gu"
+                },
+                {
+                    "authorId": "1757975",
+                    "name": "Earl T. Barr"
+                },
+                {
+                    "authorId": "2052972168",
+                    "name": "David J. Hamilton"
+                },
+                {
+                    "authorId": "38319925",
+                    "name": "Z. Su"
+                }
+            ],
+            "doi": "10.1145/1806799.1806812",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "86344beead908a687f8ce13f4b943cb02b24716a",
+            "title": "Has the bug really been fixed?",
+            "url": "https://www.semanticscholar.org/paper/86344beead908a687f8ce13f4b943cb02b24716a",
+            "venue": "2010 ACM/IEEE 32nd International Conference on Software Engineering",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144350187",
+                    "name": "C. Cifuentes"
+                },
+                {
+                    "authorId": "2070142547",
+                    "name": "Christian Hoermann"
+                },
+                {
+                    "authorId": "1773318",
+                    "name": "Nathan Keynes"
+                },
+                {
+                    "authorId": "2154883679",
+                    "name": "Lian Li"
+                },
+                {
+                    "authorId": "2053990794",
+                    "name": "Simon Long"
+                },
+                {
+                    "authorId": "1743304",
+                    "name": "E. Mealy"
+                },
+                {
+                    "authorId": "138324235",
+                    "name": "M. Mounteney"
+                },
+                {
+                    "authorId": "144650318",
+                    "name": "Bernhard Scholz"
+                }
+            ],
+            "doi": "10.1145/1555860.1555866",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "46bc0bc11b49531c94968b36c32940eeb4c0cb05",
+            "title": "BegBunch: benchmarking for C bug detection tools",
+            "url": "https://www.semanticscholar.org/paper/46bc0bc11b49531c94968b36c32940eeb4c0cb05",
+            "venue": "DEFECTS '09",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1787729",
+                    "name": "Sunghun Kim"
+                },
+                {
+                    "authorId": "145834128",
+                    "name": "Kai Pan"
+                },
+                {
+                    "authorId": "145007710",
+                    "name": "E. J. Whitehead"
+                }
+            ],
+            "doi": "10.1145/1181775.1181781",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c4d20c13667e328b5a924c6773102b5b515ae5e5",
+            "title": "Memories of bug fixes",
+            "url": "https://www.semanticscholar.org/paper/c4d20c13667e328b5a924c6773102b5b515ae5e5",
+            "venue": "SIGSOFT '06/FSE-14",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145594351",
+                    "name": "A. Zeller"
+                },
+                {
+                    "authorId": "2071474367",
+                    "name": "Ralf Hildebrandt"
+                }
+            ],
+            "doi": "10.1109/32.988498",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a397c5d4fadcc0ce29123b78815987b543417ba4",
+            "title": "Simplifying and Isolating Failure-Inducing Input",
+            "url": "https://www.semanticscholar.org/paper/a397c5d4fadcc0ce29123b78815987b543417ba4",
+            "venue": "IEEE Trans. Software Eng.",
+            "year": 2002
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                },
+                {
+                    "authorId": "1773783",
+                    "name": "D. Weiss"
+                }
+            ],
+            "doi": "10.1002/bltj.2229",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2be4c677558a6ed18cef287f5580e4b9fbaf108b",
+            "title": "Predicting risk of software changes",
+            "url": "https://www.semanticscholar.org/paper/2be4c677558a6ed18cef287f5580e4b9fbaf108b",
+            "venue": "Bell Labs Technical Journal",
+            "year": 2000
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1708297",
+                    "name": "A. Onoma"
+                },
+                {
+                    "authorId": "1799574",
+                    "name": "W. Tsai"
+                },
+                {
+                    "authorId": "1854332",
+                    "name": "Mustafa H. Poonawala"
+                },
+                {
+                    "authorId": "121168644",
+                    "name": "H. Suganuma"
+                }
+            ],
+            "doi": "10.1145/274946.274960",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "857cef4370fb798c654e779cf642aa48bc08ac90",
+            "title": "Regression testing in an industrial environment",
+            "url": "https://www.semanticscholar.org/paper/857cef4370fb798c654e779cf642aa48bc08ac90",
+            "venue": "CACM",
+            "year": 1998
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1728696",
+                    "name": "F. I. Vokolos"
+                },
+                {
+                    "authorId": "31844146",
+                    "name": "P. Frankl"
+                }
+            ],
+            "doi": "10.1109/ICSM.1998.738488",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "eaafbcca79920e8c293ae94a423eb1746f05d778",
+            "title": "Empirical evaluation of the textual differencing regression testing technique",
+            "url": "https://www.semanticscholar.org/paper/eaafbcca79920e8c293ae94a423eb1746f05d778",
+            "venue": "Proceedings. International Conference on Software Maintenance (Cat. No. 98CB36272)",
+            "year": 1998
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2630157",
+                    "name": "Hareton K. N. Leung"
+                },
+                {
+                    "authorId": "33788851",
+                    "name": "L. White"
+                }
+            ],
+            "doi": "10.1109/ICSM.1989.65194",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c7dd1177876b3405386eaf51c4fb26898c2dfb60",
+            "title": "Insights into regression testing (software testing)",
+            "url": "https://www.semanticscholar.org/paper/c7dd1177876b3405386eaf51c4fb26898c2dfb60",
+            "venue": "Proceedings. Conference on Software Maintenance - 1989",
+            "year": 1989
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": ". Reproduction Package for MSR2024 Article \u2018P3: A Dataset of Partial Program Fixes\u2019",
+            "url": "",
+            "venue": "Zenodo",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "AnEmpiricalStudyofSupplementary Bug Fixes",
+            "url": "",
+            "venue": "Proc. MSR",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144134982",
+                    "name": "Shan Lu"
+                },
+                {
+                    "authorId": "2002604",
+                    "name": "Zhenmin Li"
+                },
+                {
+                    "authorId": "48385740",
+                    "name": "Feng Qin"
+                },
+                {
+                    "authorId": "144938015",
+                    "name": "Lin Tan"
+                },
+                {
+                    "authorId": "46842485",
+                    "name": "Pin Zhou"
+                },
+                {
+                    "authorId": "145850061",
+                    "name": "Yuanyuan Zhou"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ce6fe37c3d5f9ebbdf220413e15ca8ac9e2d5f62",
+            "title": "BugBench: Benchmarks for Evaluating Bug Detection Tools",
+            "url": "https://www.semanticscholar.org/paper/ce6fe37c3d5f9ebbdf220413e15ca8ac9e2d5f62",
+            "venue": "",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "MSR \u201924, April 15\u201316, 2024, Lisbon, Portugal",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "applicable license agreement with IEEE. Restrictions apply",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "P3: A Dataset of Partial Program Patches",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/6ff0291277e1c9a33f7be7f86e0882b454993bb2",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2024
+}

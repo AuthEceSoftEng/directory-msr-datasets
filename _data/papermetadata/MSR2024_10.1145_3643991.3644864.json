@@ -1,0 +1,1106 @@
+{
+    "abstract": "Motivated by recent work on lifelong learning applications for language models (LMs) of code, we introduce CodeLL, a lifelong learning dataset focused on code changes. Our contribution addresses a notable research gap marked by the absence of a long-term temporal dimension in existing code change datasets, limiting their suitability in lifelong learning scenarios. In contrast, our dataset aims to comprehensively capture code changes across the entire release history of open-source software repositories. In this work, we introduce an initial version of CodeLL, comprising 71 machine-learning-based projects mined from Software Heritage. This dataset enables the extraction and in-depth analysis of code changes spanning 2,483 releases at both the method and API levels. CodeLL enables researchers studying the behaviour of LMs in lifelong fine-tuning settings for learning code changes. Additionally, the dataset can help studying data distribution shifts within software repositories and the evolution of API usages over time.",
+    "arxivId": "2312.12492",
+    "authors": [
+        {
+            "authorId": "1820831988",
+            "name": "M. Weyssow",
+            "url": "https://www.semanticscholar.org/author/1820831988"
+        },
+        {
+            "authorId": "2113623494",
+            "name": "Claudio Di Sipio",
+            "url": "https://www.semanticscholar.org/author/2113623494"
+        },
+        {
+            "authorId": "2138839042",
+            "name": "Davide Di Ruscio",
+            "url": "https://www.semanticscholar.org/author/2138839042"
+        },
+        {
+            "authorId": "9460712",
+            "name": "H. Sahraoui",
+            "url": "https://www.semanticscholar.org/author/9460712"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [],
+    "corpusId": 266374627,
+    "doi": "10.1145/3643991.3644864",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 0,
+    "numCiting": 29,
+    "paperId": "d590f67e3c13bb5376a1f430a358e2b9f0eeeffb",
+    "references": [
+        {
+            "arxivId": "2308.12950",
+            "authors": [
+                {
+                    "authorId": "3361236",
+                    "name": "Baptiste Rozi\u00e8re"
+                },
+                {
+                    "authorId": "2401865",
+                    "name": "Jonas Gehring"
+                },
+                {
+                    "authorId": "2233293602",
+                    "name": "Fabian Gloeckle"
+                },
+                {
+                    "authorId": "31460313",
+                    "name": "Sten Sootla"
+                },
+                {
+                    "authorId": "2064713742",
+                    "name": "Itai Gat"
+                },
+                {
+                    "authorId": "46879944",
+                    "name": "Xiaoqing Tan"
+                },
+                {
+                    "authorId": "2727584",
+                    "name": "Yossi Adi"
+                },
+                {
+                    "authorId": "2301500865",
+                    "name": "Jingyu Liu"
+                },
+                {
+                    "authorId": "2211633",
+                    "name": "Tal Remez"
+                },
+                {
+                    "authorId": "2756187",
+                    "name": "J. Rapin"
+                },
+                {
+                    "authorId": "2233293962",
+                    "name": "Artyom Kozhevnikov"
+                },
+                {
+                    "authorId": "22229139",
+                    "name": "I. Evtimov"
+                },
+                {
+                    "authorId": "1749686057",
+                    "name": "Joanna Bitton"
+                },
+                {
+                    "authorId": "50420713",
+                    "name": "Manish P Bhatt"
+                },
+                {
+                    "authorId": "66286536",
+                    "name": "Cristian Cant\u00f3n Ferrer"
+                },
+                {
+                    "authorId": "2233294011",
+                    "name": "Aaron Grattafiori"
+                },
+                {
+                    "authorId": "22253126",
+                    "name": "Wenhan Xiong"
+                },
+                {
+                    "authorId": "2233294119",
+                    "name": "Alexandre D'efossez"
+                },
+                {
+                    "authorId": "1805998294",
+                    "name": "Jade Copet"
+                },
+                {
+                    "authorId": "34672074",
+                    "name": "F. Azhar"
+                },
+                {
+                    "authorId": "2113243762",
+                    "name": "Hugo Touvron"
+                },
+                {
+                    "authorId": "143792623",
+                    "name": "Louis Martin"
+                },
+                {
+                    "authorId": "1746841",
+                    "name": "Nicolas Usunier"
+                },
+                {
+                    "authorId": "2073456043",
+                    "name": "Thomas Scialom"
+                },
+                {
+                    "authorId": "2282478",
+                    "name": "Gabriel Synnaeve"
+                }
+            ],
+            "doi": "10.48550/arXiv.2308.12950",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0b0debb710366cdff461938c80763eace1651af6",
+            "title": "Code Llama: Open Foundation Models for Code",
+            "url": "https://www.semanticscholar.org/paper/0b0debb710366cdff461938c80763eace1651af6",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": "2306.11391",
+            "authors": [
+                {
+                    "authorId": "2200182953",
+                    "name": "Romain Lefeuvre"
+                },
+                {
+                    "authorId": "2037477411",
+                    "name": "Jessie Galasso"
+                },
+                {
+                    "authorId": "1744336",
+                    "name": "B. Combemale"
+                },
+                {
+                    "authorId": "9460712",
+                    "name": "H. Sahraoui"
+                },
+                {
+                    "authorId": "1682225",
+                    "name": "Stefano Zacchiroli"
+                }
+            ],
+            "doi": "10.1145/3589806.3600043",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8928f580221918a7ed47fd2ba5460a1dbd5b8e9f",
+            "title": "Fingerprinting and Building Large Reproducible Datasets",
+            "url": "https://www.semanticscholar.org/paper/8928f580221918a7ed47fd2ba5460a1dbd5b8e9f",
+            "venue": "ACM-REP",
+            "year": 2023
+        },
+        {
+            "arxivId": "2305.10785",
+            "authors": [
+                {
+                    "authorId": "2068283803",
+                    "name": "Bo Lin"
+                },
+                {
+                    "authorId": "49184504",
+                    "name": "Shangwen Wang"
+                },
+                {
+                    "authorId": "12907867",
+                    "name": "Zhongxin Liu"
+                },
+                {
+                    "authorId": "39584070",
+                    "name": "Yepang Liu"
+                },
+                {
+                    "authorId": "2150058039",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "2150465957",
+                    "name": "Xiaoguang Mao"
+                }
+            ],
+            "doi": "10.1145/3611643.3616339",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0b2d093ed117cacce230bf0f617ff4bb0fe7575b",
+            "title": "CCT5: A Code-Change-Oriented Pre-trained Model",
+            "url": "https://www.semanticscholar.org/paper/0b2d093ed117cacce230bf0f617ff4bb0fe7575b",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2174794868",
+                    "name": "Mohayeminul Islam"
+                },
+                {
+                    "authorId": "2055129243",
+                    "name": "Ajay Kumar Jha"
+                },
+                {
+                    "authorId": "1869015",
+                    "name": "Sarah Nadi"
+                },
+                {
+                    "authorId": "2210801948",
+                    "name": "Ildar Akhmetov"
+                }
+            ],
+            "doi": "10.1109/MSR59073.2023.00075",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "19ede50dc306f3d3e069d3ee4e074f057914db33",
+            "title": "PyMigBench: A Benchmark for Python Library Migration",
+            "url": "https://www.semanticscholar.org/paper/19ede50dc306f3d3e069d3ee4e074f057914db33",
+            "venue": "2023 IEEE/ACM 20th International Conference on Mining Software Repositories (MSR)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2302.03482",
+            "authors": [
+                {
+                    "authorId": "2112314113",
+                    "name": "Shuzheng Gao"
+                },
+                {
+                    "authorId": "2108881199",
+                    "name": "Hongyu Zhang"
+                },
+                {
+                    "authorId": "2337550",
+                    "name": "Cuiyun Gao"
+                },
+                {
+                    "authorId": "2135764153",
+                    "name": "Chaozheng Wang"
+                }
+            ],
+            "doi": "10.1109/ICSE48619.2023.00015",
+            "intent": [
+                "result",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1d74875aa4f415cb2c60b17fd1eb3e4ae543bfe1",
+            "title": "Keeping Pace with Ever-Increasing Data: Towards Continual Learning of Code Intelligence Models",
+            "url": "https://www.semanticscholar.org/paper/1d74875aa4f415cb2c60b17fd1eb3e4ae543bfe1",
+            "venue": "2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2211.15533",
+            "authors": [
+                {
+                    "authorId": "2192609008",
+                    "name": "Denis Kocetkov"
+                },
+                {
+                    "authorId": "2116277958",
+                    "name": "Raymond Li"
+                },
+                {
+                    "authorId": "2190281230",
+                    "name": "Loubna Ben Allal"
+                },
+                {
+                    "authorId": "2208883878",
+                    "name": "Jia Li"
+                },
+                {
+                    "authorId": "35966970",
+                    "name": "Chenghao Mou"
+                },
+                {
+                    "authorId": "2005399190",
+                    "name": "Carlos Mu\u00f1oz Ferrandis"
+                },
+                {
+                    "authorId": "2262249",
+                    "name": "Yacine Jernite"
+                },
+                {
+                    "authorId": "49501003",
+                    "name": "Margaret Mitchell"
+                },
+                {
+                    "authorId": "2192608539",
+                    "name": "Sean Hughes"
+                },
+                {
+                    "authorId": "145662441",
+                    "name": "Thomas Wolf"
+                },
+                {
+                    "authorId": "3335364",
+                    "name": "Dzmitry Bahdanau"
+                },
+                {
+                    "authorId": "51128119",
+                    "name": "Leandro von Werra"
+                },
+                {
+                    "authorId": "153559313",
+                    "name": "H. D. Vries"
+                }
+            ],
+            "doi": "10.48550/arXiv.2211.15533",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f3a6115e5fb2237df938976e005468f0b18da797",
+            "title": "The Stack: 3 TB of permissively licensed source code",
+            "url": "https://www.semanticscholar.org/paper/f3a6115e5fb2237df938976e005468f0b18da797",
+            "venue": "Trans. Mach. Learn. Res.",
+            "year": 2022
+        },
+        {
+            "arxivId": "2206.08474",
+            "authors": [
+                {
+                    "authorId": "145549146",
+                    "name": "Ming Zhu"
+                },
+                {
+                    "authorId": "2171130495",
+                    "name": "Aneesh Jain"
+                },
+                {
+                    "authorId": "144700168",
+                    "name": "Karthik Suresh"
+                },
+                {
+                    "authorId": "2171106643",
+                    "name": "Roshan Ravindran"
+                },
+                {
+                    "authorId": "2121914227",
+                    "name": "Sindhu Tipirneni"
+                },
+                {
+                    "authorId": "144417522",
+                    "name": "Chandan K. Reddy"
+                }
+            ],
+            "doi": "10.48550/arXiv.2206.08474",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "660fde2f51e025638b8c937bf228ecaa5c5b649c",
+            "title": "XLCoST: A Benchmark Dataset for Cross-lingual Code Intelligence",
+            "url": "https://www.semanticscholar.org/paper/660fde2f51e025638b8c937bf228ecaa5c5b649c",
+            "venue": "ArXiv",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2143967289",
+                    "name": "Phuong T. Nguyen"
+                },
+                {
+                    "authorId": "37121973",
+                    "name": "Juri Di Rocco"
+                },
+                {
+                    "authorId": "80788365",
+                    "name": "Riccardo Rubei"
+                },
+                {
+                    "authorId": "1644891552",
+                    "name": "Claudio Di Sipio"
+                },
+                {
+                    "authorId": "2133181",
+                    "name": "D. D. Ruscio"
+                }
+            ],
+            "doi": "10.1016/j.eswa.2022.117267",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "353c7195b7875a646b6876a881827b05d5c1729a",
+            "title": "DeepLib: Machine translation techniques to recommend upgrades for third-party libraries",
+            "url": "https://www.semanticscholar.org/paper/353c7195b7875a646b6876a881827b05d5c1729a",
+            "venue": "Expert Syst. Appl.",
+            "year": 2022
+        },
+        {
+            "arxivId": "2203.13474",
+            "authors": [
+                {
+                    "authorId": "2043490",
+                    "name": "Erik Nijkamp"
+                },
+                {
+                    "authorId": "2063096824",
+                    "name": "Bo Pang"
+                },
+                {
+                    "authorId": "50376014",
+                    "name": "Hiroaki Hayashi"
+                },
+                {
+                    "authorId": "3376969",
+                    "name": "Lifu Tu"
+                },
+                {
+                    "authorId": "46507194",
+                    "name": "Haiquan Wang"
+                },
+                {
+                    "authorId": "2118860628",
+                    "name": "Yingbo Zhou"
+                },
+                {
+                    "authorId": "1702137",
+                    "name": "S. Savarese"
+                },
+                {
+                    "authorId": "2054594326",
+                    "name": "Caiming Xiong"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "38115e80d805fb0fb8f090dc88ced4b24be07878",
+            "title": "CodeGen: An Open Large Language Model for Code with Multi-Turn Program Synthesis",
+            "url": "https://www.semanticscholar.org/paper/38115e80d805fb0fb8f090dc88ced4b24be07878",
+            "venue": "ICLR",
+            "year": 2022
+        },
+        {
+            "arxivId": "2108.04631",
+            "authors": [
+                {
+                    "authorId": "150220964",
+                    "name": "Monperrus Martin"
+                },
+                {
+                    "authorId": "2116312726",
+                    "name": "Matias Martinez"
+                },
+                {
+                    "authorId": "1391019398",
+                    "name": "He Ye"
+                },
+                {
+                    "authorId": "1396036039",
+                    "name": "Fernanda Madeiral"
+                },
+                {
+                    "authorId": "1882033",
+                    "name": "Thomas Durieux"
+                },
+                {
+                    "authorId": "2354569",
+                    "name": "Zhongxing Yu"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1107e3fcdc70fda9a284c7c2cc9fa51b2efd2761",
+            "title": "Megadiff: A Dataset of 600k Java Source Code Changes Categorized by Diff Size",
+            "url": "https://www.semanticscholar.org/paper/1107e3fcdc70fda9a284c7c2cc9fa51b2efd2761",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "31252716",
+                    "name": "Malinda Dilhara"
+                },
+                {
+                    "authorId": "21006921",
+                    "name": "Ameya Ketkar"
+                },
+                {
+                    "authorId": "1687704",
+                    "name": "Danny Dig"
+                }
+            ],
+            "doi": "10.1145/3453478",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ace201cad65058947e32d2502a451963f0ae01bc",
+            "title": "Understanding Software-2.0",
+            "url": "https://www.semanticscholar.org/paper/ace201cad65058947e32d2502a451963f0ae01bc",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2105.12655",
+            "authors": [
+                {
+                    "authorId": "47587611",
+                    "name": "Ruchi Puri"
+                },
+                {
+                    "authorId": "40831427",
+                    "name": "David S. Kung"
+                },
+                {
+                    "authorId": "40008827",
+                    "name": "G. Janssen"
+                },
+                {
+                    "authorId": "2155468228",
+                    "name": "Wei Zhang"
+                },
+                {
+                    "authorId": "2972684",
+                    "name": "Giacomo Domeniconi"
+                },
+                {
+                    "authorId": "2105606465",
+                    "name": "Vladmir A. Zolotov"
+                },
+                {
+                    "authorId": "2008196211",
+                    "name": "Julian Dolby"
+                },
+                {
+                    "authorId": "2155099587",
+                    "name": "Jie Chen"
+                },
+                {
+                    "authorId": "1800032",
+                    "name": "M. Choudhury"
+                },
+                {
+                    "authorId": "2105608829",
+                    "name": "Lindsey Decker"
+                },
+                {
+                    "authorId": "1861119",
+                    "name": "Veronika Thost"
+                },
+                {
+                    "authorId": "2065154010",
+                    "name": "Luca Buratti"
+                },
+                {
+                    "authorId": "1403641392",
+                    "name": "Saurabh Pujar"
+                },
+                {
+                    "authorId": "1727959",
+                    "name": "Ulrich Finkler"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7547680408358916e66917d03436fca7540a7528",
+            "title": "CodeNet: A Large-Scale AI for Code Dataset for Learning a Diversity of Coding Tasks",
+            "url": "https://www.semanticscholar.org/paper/7547680408358916e66917d03436fca7540a7528",
+            "venue": "NeurIPS Datasets and Benchmarks",
+            "year": 2021
+        },
+        {
+            "arxivId": "2102.04664",
+            "authors": [
+                {
+                    "authorId": "2115338656",
+                    "name": "Shuai Lu"
+                },
+                {
+                    "authorId": "2278834796",
+                    "name": "Daya Guo"
+                },
+                {
+                    "authorId": "50052368",
+                    "name": "Shuo Ren"
+                },
+                {
+                    "authorId": "145505727",
+                    "name": "Junjie Huang"
+                },
+                {
+                    "authorId": "47090739",
+                    "name": "Alexey Svyatkovskiy"
+                },
+                {
+                    "authorId": "37488446",
+                    "name": "Ambrosio Blanco"
+                },
+                {
+                    "authorId": "2064509404",
+                    "name": "Colin B. Clement"
+                },
+                {
+                    "authorId": "1943097969",
+                    "name": "Dawn Drain"
+                },
+                {
+                    "authorId": "71790825",
+                    "name": "Daxin Jiang"
+                },
+                {
+                    "authorId": "39483833",
+                    "name": "Duyu Tang"
+                },
+                {
+                    "authorId": "1410115257",
+                    "name": "Ge Li"
+                },
+                {
+                    "authorId": "2143359114",
+                    "name": "Lidong Zhou"
+                },
+                {
+                    "authorId": "24962156",
+                    "name": "Linjun Shou"
+                },
+                {
+                    "authorId": "2135918679",
+                    "name": "Long Zhou"
+                },
+                {
+                    "authorId": "40626221",
+                    "name": "Michele Tufano"
+                },
+                {
+                    "authorId": "50175330",
+                    "name": "Ming Gong"
+                },
+                {
+                    "authorId": "92660691",
+                    "name": "Ming Zhou"
+                },
+                {
+                    "authorId": "46429989",
+                    "name": "Nan Duan"
+                },
+                {
+                    "authorId": "145507437",
+                    "name": "Neel Sundaresan"
+                },
+                {
+                    "authorId": "1702996983",
+                    "name": "Shao Kun Deng"
+                },
+                {
+                    "authorId": "2072784644",
+                    "name": "Shengyu Fu"
+                },
+                {
+                    "authorId": "1803054",
+                    "name": "Shujie Liu"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "870ff1dde0c103c3d90be51880f984628e77a8d6",
+            "title": "CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation",
+            "url": "https://www.semanticscholar.org/paper/870ff1dde0c103c3d90be51880f984628e77a8d6",
+            "venue": "NeurIPS Datasets and Benchmarks",
+            "year": 2021
+        },
+        {
+            "arxivId": "2101.00027",
+            "authors": [
+                {
+                    "authorId": "2027599537",
+                    "name": "Leo Gao"
+                },
+                {
+                    "authorId": "103476203",
+                    "name": "Stella Biderman"
+                },
+                {
+                    "authorId": "2044098905",
+                    "name": "Sid Black"
+                },
+                {
+                    "authorId": "2044198157",
+                    "name": "Laurence Golding"
+                },
+                {
+                    "authorId": "47000911",
+                    "name": "Travis Hoppe"
+                },
+                {
+                    "authorId": "2064610125",
+                    "name": "Charles Foster"
+                },
+                {
+                    "authorId": "80842917",
+                    "name": "Jason Phang"
+                },
+                {
+                    "authorId": "46350295",
+                    "name": "Horace He"
+                },
+                {
+                    "authorId": "2044198037",
+                    "name": "Anish Thite"
+                },
+                {
+                    "authorId": "2044198503",
+                    "name": "Noa Nabeshima"
+                },
+                {
+                    "authorId": "2037326180",
+                    "name": "Shawn Presser"
+                },
+                {
+                    "authorId": "2044198134",
+                    "name": "Connor Leahy"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "db1afe3b3cd4cd90e41fbba65d3075dd5aebb61e",
+            "title": "The Pile: An 800GB Dataset of Diverse Text for Language Modeling",
+            "url": "https://www.semanticscholar.org/paper/db1afe3b3cd4cd90e41fbba65d3075dd5aebb61e",
+            "venue": "ArXiv",
+            "year": 2020
+        },
+        {
+            "arxivId": "1909.09436",
+            "authors": [
+                {
+                    "authorId": "1382152588",
+                    "name": "Hamel Husain"
+                },
+                {
+                    "authorId": "2120430544",
+                    "name": "Hongqiu Wu"
+                },
+                {
+                    "authorId": "1388000444",
+                    "name": "Tiferet Gazit"
+                },
+                {
+                    "authorId": "3216345",
+                    "name": "Miltiadis Allamanis"
+                },
+                {
+                    "authorId": "2107692",
+                    "name": "Marc Brockschmidt"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fbe25e4f069a19dc63daca27b7c98cff338663b9",
+            "title": "CodeSearchNet Challenge: Evaluating the State of Semantic Code Search",
+            "url": "https://www.semanticscholar.org/paper/fbe25e4f069a19dc63daca27b7c98cff338663b9",
+            "venue": "ArXiv",
+            "year": 2019
+        },
+        {
+            "arxivId": "1907.07724",
+            "authors": [
+                {
+                    "authorId": "66118525",
+                    "name": "Hussein Alrubaye"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2cebbcb00a68a6b601bbad505fe410eb63855123",
+            "title": "How Does API Migration Impact Software Quality and Comprehension? An Empirical Study",
+            "url": "https://www.semanticscholar.org/paper/2cebbcb00a68a6b601bbad505fe410eb63855123",
+            "venue": "ArXiv",
+            "year": 2019
+        },
+        {
+            "arxivId": "1905.13334",
+            "authors": [
+                {
+                    "authorId": "3466166",
+                    "name": "Rafael-Michael Karampatsis"
+                },
+                {
+                    "authorId": "37210858",
+                    "name": "Charles Sutton"
+                }
+            ],
+            "doi": "10.1145/3379597.3387491",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a14ef6eee732a0d66a6c534d4e696e36767332d7",
+            "title": "How Often Do Single-Statement Bugs Occur? The ManySStuBs4J Dataset",
+            "url": "https://www.semanticscholar.org/paper/a14ef6eee732a0d66a6c534d4e696e36767332d7",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "134770854",
+                    "name": "Shengzhe Xu"
+                },
+                {
+                    "authorId": "2114029215",
+                    "name": "Ziqi Dong"
+                },
+                {
+                    "authorId": "46720340",
+                    "name": "Na Meng"
+                }
+            ],
+            "doi": "10.1109/ICPC.2019.00052",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "498d5b6b228ff9de978b0c5b83b4718e9c159526",
+            "title": "Meditor: Inference and Application of API Migration Edits",
+            "url": "https://www.semanticscholar.org/paper/498d5b6b228ff9de978b0c5b83b4718e9c159526",
+            "venue": "2019 IEEE/ACM 27th International Conference on Program Comprehension (ICPC)",
+            "year": 2019
+        },
+        {
+            "arxivId": "1807.03200",
+            "authors": [
+                {
+                    "authorId": "46842516",
+                    "name": "Zimin Chen"
+                },
+                {
+                    "authorId": "150220964",
+                    "name": "Monperrus Martin"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "f8ff94520350485ef7ff5c2a640cc999986d6d9a",
+            "title": "The CodRep Machine Learning on Source Code Competition",
+            "url": "https://www.semanticscholar.org/paper/f8ff94520350485ef7ff5c2a640cc999986d6d9a",
+            "venue": "ArXiv",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145398100",
+                    "name": "Aline Brito"
+                },
+                {
+                    "authorId": "26698543",
+                    "name": "Laerte Xavier"
+                },
+                {
+                    "authorId": "143857974",
+                    "name": "Andr\u00e9 C. Hora"
+                },
+                {
+                    "authorId": "1757592",
+                    "name": "M. T. Valente"
+                }
+            ],
+            "doi": "10.1109/SANER.2018.8330249",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a02f93289afe58989589abafc6ae098ef8e544a8",
+            "title": "APIDiff: Detecting API breaking changes",
+            "url": "https://www.semanticscholar.org/paper/a02f93289afe58989589abafc6ae098ef8e544a8",
+            "venue": "2018 IEEE 25th International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "9381770",
+                    "name": "R. D. Cosmo"
+                },
+                {
+                    "authorId": "1682225",
+                    "name": "Stefano Zacchiroli"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "46b38ff701867c5f5c0436290b5ddaee1acd46a5",
+            "title": "Software Heritage: Why and How to Preserve Software Source Code",
+            "url": "https://www.semanticscholar.org/paper/46b38ff701867c5f5c0436290b5ddaee1acd46a5",
+            "venue": "iPRES",
+            "year": 2017
+        },
+        {
+            "arxivId": "1709.04621",
+            "authors": [
+                {
+                    "authorId": "1680034",
+                    "name": "R. Kula"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "1994554",
+                    "name": "Ali Ouni"
+                },
+                {
+                    "authorId": "145682543",
+                    "name": "T. Ishio"
+                },
+                {
+                    "authorId": "144875558",
+                    "name": "Katsuro Inoue"
+                }
+            ],
+            "doi": "10.1007/s10664-017-9521-5",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "87e5d3cde676c61681b12ba313d4d79c91789088",
+            "title": "Do developers update their library dependencies?",
+            "url": "https://www.semanticscholar.org/paper/87e5d3cde676c61681b12ba313d4d79c91789088",
+            "venue": "Empirical Software Engineering",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Evaluatinglargelanguagemodelstrainedoncode",
+            "url": "",
+            "venue": "arXiv preprint",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "result",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "",
+            "title": "2023. On the Usage of Continual Learning for Out-of-Distribution Generalization in Pre-trainedLanguageModelsofCode",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2023.Toolllm:Facilitatinglargelanguagemodelstomaster16000+real-worldapis",
+            "url": "",
+            "venue": "arXiv preprint",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "agreement with IEEE. Restrictions apply",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "of Code MSR \u201924, April 15\u201316, 2024, Lisbon, Portugal",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2023. Exploring Parameter-Efficient Fine-Tuning Techniques for Code Generation with Large Language Models",
+            "url": "",
+            "venue": "arXiv preprint",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2023. TheDevilisintheTails:HowLong-TailedCodeDistributionsImpactLarge Language Models",
+            "url": "",
+            "venue": "arXiv preprint",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "CodeLL: A Lifelong Learning Dataset to Support the Co-Evolution of Data and Language Models of Code",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/d590f67e3c13bb5376a1f430a358e2b9f0eeeffb",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2023
+}

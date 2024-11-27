@@ -1,0 +1,738 @@
+{
+    "abstract": "With the advent of mobile computing, the responsibility of software developers to update and ship energy efficient applications has never been more pronounced. Green mining attempts to address this responsibility by examining the impact of software change on energy consumption. One problem with green mining is that power performance data is not readily available, unlike many other forms of MSR research. Green miners have to create tests and run them across numerous versions of a software project because power performance data was either missing or never existed for that particular project. In this paper we describe multiple open green mining datasets used in prior green mining work. The dataset includes numerous power traces and parallel system call and CPU/IO/Memory traces of multiple versions of multiple products. These datasets enable those more interested in data-mining and modeling to work on green mining problems as well.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "50445644",
+            "name": "Chenlei Zhang",
+            "url": "https://www.semanticscholar.org/author/50445644"
+        },
+        {
+            "authorId": "145369636",
+            "name": "Abram Hindle",
+            "url": "https://www.semanticscholar.org/author/145369636"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2208139936",
+                    "name": "Sung Une Lee"
+                },
+                {
+                    "authorId": "2131391",
+                    "name": "Niroshinie Fernando"
+                },
+                {
+                    "authorId": "2110234014",
+                    "name": "Kevin Lee"
+                },
+                {
+                    "authorId": "2278061468",
+                    "name": "Jean-Guy Schneider"
+                }
+            ],
+            "doi": "10.1016/j.jss.2023.111944",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "22f996f5fd1d3ce6a671ee30ce850d103288df15",
+            "title": "A survey of energy concerns for software engineering",
+            "url": "https://www.semanticscholar.org/paper/22f996f5fd1d3ce6a671ee30ce850d103288df15",
+            "venue": "J. Syst. Softw.",
+            "year": 2024
+        },
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "66759609",
+                    "name": "Carlos V. Paradis"
+                },
+                {
+                    "authorId": "1699020",
+                    "name": "R. Kazman"
+                },
+                {
+                    "authorId": "144273542",
+                    "name": "D. Tamburri"
+                }
+            ],
+            "doi": "10.24251/HICSS.2021.867",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9336b6f7934a6ca1978104e122421c1983221bb0",
+            "title": "Architectural Tactics for Energy Efficiency: Review of the Literature and Research Roadmap",
+            "url": "https://www.semanticscholar.org/paper/9336b6f7934a6ca1978104e122421c1983221bb0",
+            "venue": "HICSS",
+            "year": 2021
+        },
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00085",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "43148fabe2636026e07ca04974aff40d204bfb6b",
+            "title": "Standing on Shoulders or Feet? The Usage of the MSR Data Papers",
+            "url": "https://www.semanticscholar.org/paper/43148fabe2636026e07ca04974aff40d204bfb6b",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143996875",
+                    "name": "S. Chowdhury"
+                },
+                {
+                    "authorId": "73721525",
+                    "name": "S. Borle"
+                },
+                {
+                    "authorId": "2066724863",
+                    "name": "Stephen Romansky"
+                },
+                {
+                    "authorId": "145369636",
+                    "name": "Abram Hindle"
+                }
+            ],
+            "doi": "10.1007/s10664-018-9640-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "376d84331ec85181ccc58f5becc810c9cabe79d0",
+            "title": "GreenScaler: training software energy models with automatic test generation",
+            "url": "https://www.semanticscholar.org/paper/376d84331ec85181ccc58f5becc810c9cabe79d0",
+            "venue": "Empirical Software Engineering",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1404583465",
+                    "name": "Gabriel Alberto Garc\u00eda-Mireles"
+                }
+            ],
+            "doi": "10.23919/CISTI.2018.8399319",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "67caae5f01e2102e97921a6f4d5f25faa612ab50",
+            "title": "Exploring sustainability from the software quality model perspective",
+            "url": "https://www.semanticscholar.org/paper/67caae5f01e2102e97921a6f4d5f25faa612ab50",
+            "venue": "2018 13th Iberian Conference on Information Systems and Technologies (CISTI)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1404583465",
+                    "name": "Gabriel Alberto Garc\u00eda-Mireles"
+                },
+                {
+                    "authorId": "1748259",
+                    "name": "M. A. Moraga"
+                },
+                {
+                    "authorId": "143661147",
+                    "name": "F\u00e9lix Garc\u00eda"
+                },
+                {
+                    "authorId": "1736121",
+                    "name": "C. Calero"
+                },
+                {
+                    "authorId": "1702096",
+                    "name": "M. Piattini"
+                }
+            ],
+            "doi": "10.1016/J.INFSOF.2017.10.002",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7f3d19f8df418e98278332818d05d3746ee5a2fd",
+            "title": "Interactions between environmental sustainability goals and software product quality: A mapping study",
+            "url": "https://www.semanticscholar.org/paper/7f3d19f8df418e98278332818d05d3746ee5a2fd",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40961550",
+                    "name": "Deepshika Nagpal"
+                },
+                {
+                    "authorId": "47342008",
+                    "name": "Rashi Srivastava"
+                },
+                {
+                    "authorId": "32198478",
+                    "name": "D. Mehrotra"
+                },
+                {
+                    "authorId": "30830124",
+                    "name": "Anuranjana"
+                }
+            ],
+            "doi": "10.1109/TEL-NET.2017.8343509",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4f968e8938f242f637f678c930b31675ce5f4216",
+            "title": "Feature selection approach for reducing the power consumption for a greener environment",
+            "url": "https://www.semanticscholar.org/paper/4f968e8938f242f637f678c930b31675ce5f4216",
+            "venue": "2017 2nd International Conference on Telecommunication and Networks (TEL-NET)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50515157",
+                    "name": "Dario Di Nucci"
+                },
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                },
+                {
+                    "authorId": "1647281022",
+                    "name": "A. Prota"
+                },
+                {
+                    "authorId": "3013302",
+                    "name": "Annibale Panichella"
+                },
+                {
+                    "authorId": "1702285",
+                    "name": "A. Zaidman"
+                },
+                {
+                    "authorId": "145818752",
+                    "name": "A. D. Lucia"
+                }
+            ],
+            "doi": "10.1109/SANER.2017.7884613",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2d3d544ba8b81327b894c84626b85fb6cce2e298",
+            "title": "Software-based energy profiling of Android apps: Simple, efficient and reliable?",
+            "url": "https://www.semanticscholar.org/paper/2d3d544ba8b81327b894c84626b85fb6cce2e298",
+            "venue": "2017 IEEE 24th International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145369636",
+                    "name": "Abram Hindle"
+                }
+            ],
+            "doi": "10.1109/SANER.2016.60",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c2d64eb24d4183a90b2301a707369a7e8c91920f",
+            "title": "Green Software Engineering: The Curse of Methodology",
+            "url": "https://www.semanticscholar.org/paper/c2d64eb24d4183a90b2301a707369a7e8c91920f",
+            "venue": "2016 IEEE 23rd International Conference on Software Analysis, Evolution, and Reengineering (SANER)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "33787987",
+                    "name": "Sven Amann"
+                },
+                {
+                    "authorId": "1839778",
+                    "name": "S. Beyer"
+                },
+                {
+                    "authorId": "3194068",
+                    "name": "Katja Kevic"
+                },
+                {
+                    "authorId": "50355692",
+                    "name": "H. Gall"
+                }
+            ],
+            "doi": "10.1007/978-3-319-28406-4_5",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "178a226a4fa68d80f709d0cfff5f5458df0daad3",
+            "title": "Software Mining Studies: Goals, Approaches, Artifacts, and Replicability",
+            "url": "https://www.semanticscholar.org/paper/178a226a4fa68d80f709d0cfff5f5458df0daad3",
+            "venue": "LASER Summer School",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2068544652",
+                    "name": "Hiroyuki Matsuo"
+                },
+                {
+                    "authorId": "1774171",
+                    "name": "S. Matsumoto"
+                },
+                {
+                    "authorId": "49220716",
+                    "name": "S. Kusumoto"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "500c9e99c6d4226160ed52dc3aecfa656c927653",
+            "title": "Towards Energy-Saving Program Implementation: A Comparative Study on Execution Time and Energy Consumption Based on Different Implementations",
+            "url": "https://www.semanticscholar.org/paper/500c9e99c6d4226160ed52dc3aecfa656c927653",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "11010018",
+                    "name": "S. Dahab"
+                },
+                {
+                    "authorId": "4006739",
+                    "name": "S. Maag"
+                },
+                {
+                    "authorId": "36000045",
+                    "name": "A. Bagnato"
+                },
+                {
+                    "authorId": "38935366",
+                    "name": "M. A. D. Silva"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "98876f91fdc7c901208430c6924b6b79003e3805",
+            "title": "A Learning based approach for Green Software Measurements",
+            "url": "https://www.semanticscholar.org/paper/98876f91fdc7c901208430c6924b6b79003e3805",
+            "venue": "MeGSuS@ESEM",
+            "year": 2016
+        }
+    ],
+    "corpusId": 6547956,
+    "doi": "10.1145/2597073.2597130",
+    "fieldsOfStudy": [
+        "Engineering",
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 14,
+    "numCiting": 10,
+    "paperId": "62f87d8472386050817ab99f8dcfd4426a2fa3f7",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50445644",
+                    "name": "Chenlei Zhang"
+                }
+            ],
+            "doi": "10.7939/R3GB1XT5C",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0d3d79e1b23eec8f398b3282e83753d47dd14ec2",
+            "title": "The Impact of User Choice and Software Change on Energy Consumption",
+            "url": "https://www.semanticscholar.org/paper/0d3d79e1b23eec8f398b3282e83753d47dd14ec2",
+            "venue": "",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145369636",
+                    "name": "Abram Hindle"
+                }
+            ],
+            "doi": "10.1007/s10664-013-9276-6",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "f37179a95deda55b665d564d5fe8533d68aebad2",
+            "title": "Green mining: a methodology of relating software change and configuration to power consumption",
+            "url": "https://www.semanticscholar.org/paper/f37179a95deda55b665d564d5fe8533d68aebad2",
+            "venue": "Empirical Software Engineering",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47596114",
+                    "name": "Shuai Hao"
+                },
+                {
+                    "authorId": "145088168",
+                    "name": "Ding Li"
+                },
+                {
+                    "authorId": "1716654",
+                    "name": "William G. J. Halfond"
+                },
+                {
+                    "authorId": "1747970",
+                    "name": "R. Govindan"
+                }
+            ],
+            "doi": "10.1109/ICSE.2013.6606555",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "207c712404b256fe5e71114c480571f99725f345",
+            "title": "Estimating mobile application energy consumption using program analysis",
+            "url": "https://www.semanticscholar.org/paper/207c712404b256fe5e71114c480571f99725f345",
+            "venue": "2013 35th International Conference on Software Engineering (ICSE)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145369636",
+                    "name": "Abram Hindle"
+                }
+            ],
+            "doi": "10.1109/MSR.2012.6224303",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "7c4c9c62b9d0c84c7ecafb9bcdc75afec0fdfaaa",
+            "title": "Green mining: A methodology of relating software change to power consumption",
+            "url": "https://www.semanticscholar.org/paper/7c4c9c62b9d0c84c7ecafb9bcdc75afec0fdfaaa",
+            "venue": "2012 9th IEEE Working Conference on Mining Software Repositories (MSR)",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50179113",
+                    "name": "A. Gupta"
+                },
+                {
+                    "authorId": "143609903",
+                    "name": "Thomas Zimmermann"
+                },
+                {
+                    "authorId": "145193818",
+                    "name": "C. Bird"
+                },
+                {
+                    "authorId": "1693689",
+                    "name": "Nachiappan Nagappan"
+                },
+                {
+                    "authorId": "144850026",
+                    "name": "Thirumalesh Bhat"
+                },
+                {
+                    "authorId": "2591889",
+                    "name": "S. Emran"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "4b435073a9e3016e79f1989e1228a8e9a6558bb4",
+            "title": "Detecting Energy Patterns in Software Development",
+            "url": "https://www.semanticscholar.org/paper/4b435073a9e3016e79f1989e1228a8e9a6558bb4",
+            "venue": "",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1926898",
+                    "name": "Mian Dong"
+                },
+                {
+                    "authorId": "2171880383",
+                    "name": "Lin Zhong"
+                }
+            ],
+            "doi": "10.1145/1999995.2000027",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e2351cbd936409dd21a3db76c1f25026075fa817",
+            "title": "Self-constructive high-rate system energy modeling for battery-powered mobile systems",
+            "url": "https://www.semanticscholar.org/paper/e2351cbd936409dd21a3db76c1f25026075fa817",
+            "venue": "MobiSys '11",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39729304",
+                    "name": "Abhinav Pathak"
+                },
+                {
+                    "authorId": "2223701500",
+                    "name": "Y. C. Hu"
+                },
+                {
+                    "authorId": "2108843609",
+                    "name": "Ming Zhang"
+                },
+                {
+                    "authorId": "2292948",
+                    "name": "P. Bahl"
+                },
+                {
+                    "authorId": "1997552",
+                    "name": "Yi-Min Wang"
+                }
+            ],
+            "doi": "10.1145/1966445.1966460",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "f8738e5d5f7a093b7abe434bff74eec2d287ce43",
+            "title": "Fine-grained power modeling for smartphones using system call tracing",
+            "url": "https://www.semanticscholar.org/paper/f8738e5d5f7a093b7abe434bff74eec2d287ce43",
+            "venue": "EuroSys '11",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2107923217",
+                    "name": "Lide Zhang"
+                },
+                {
+                    "authorId": "1871670",
+                    "name": "B. Tiwana"
+                },
+                {
+                    "authorId": "1794927",
+                    "name": "Zhiyun Qian"
+                },
+                {
+                    "authorId": "1876809314",
+                    "name": "Zhaoguang Wang"
+                },
+                {
+                    "authorId": "1792688",
+                    "name": "R. Dick"
+                },
+                {
+                    "authorId": "3895596",
+                    "name": "Z. Morley Mao"
+                },
+                {
+                    "authorId": "2145452879",
+                    "name": "Lei Yang"
+                }
+            ],
+            "doi": "10.1145/1878961.1878982",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "4ffcd50592eee39748d864b00b14a7c138e50a9a",
+            "title": "Accurate online power estimation and automatic battery behavior based power model generation for smartphones",
+            "url": "https://www.semanticscholar.org/paper/4ffcd50592eee39748d864b00b14a7c138e50a9a",
+            "venue": "2010 IEEE/ACM/IFIP International Conference on Hardware/Software Codesign and System Synthesis (CODES+ISSS)",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "SYSSTAT Utilities Home Page",
+            "url": "",
+            "venue": "SYSSTAT Utilities Home Page",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "The Linux man-pages project. Linux Man Pages Online. http://man7.org/linux/man-pages",
+            "url": "",
+            "venue": "The Linux man-pages project. Linux Man Pages Online. http://man7.org/linux/man-pages",
+            "year": 2013
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "A green miner's dataset: mining the impact of software change on energy consumption",
+    "topics": [
+        {
+            "topic": "Data mining",
+            "topicId": "7837",
+            "url": "https://www.semanticscholar.org/topic/7837"
+        },
+        {
+            "topic": "Mobile computing",
+            "topicId": "29120",
+            "url": "https://www.semanticscholar.org/topic/29120"
+        },
+        {
+            "topic": "Tracing (software)",
+            "topicId": "2918",
+            "url": "https://www.semanticscholar.org/topic/2918"
+        },
+        {
+            "topic": "Software developer",
+            "topicId": "52487",
+            "url": "https://www.semanticscholar.org/topic/52487"
+        },
+        {
+            "topic": "Software project management",
+            "topicId": "74173",
+            "url": "https://www.semanticscholar.org/topic/74173"
+        },
+        {
+            "topic": "System call",
+            "topicId": "15078",
+            "url": "https://www.semanticscholar.org/topic/15078"
+        },
+        {
+            "topic": "Microsoft Research",
+            "topicId": "73897",
+            "url": "https://www.semanticscholar.org/topic/73897"
+        },
+        {
+            "topic": "Central processing unit",
+            "topicId": "2752",
+            "url": "https://www.semanticscholar.org/topic/2752"
+        },
+        {
+            "topic": "Random-access memory",
+            "topicId": "31867",
+            "url": "https://www.semanticscholar.org/topic/31867"
+        }
+    ],
+    "url": "https://www.semanticscholar.org/paper/62f87d8472386050817ab99f8dcfd4426a2fa3f7",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2014
+}

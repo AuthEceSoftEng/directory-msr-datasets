@@ -1,0 +1,1234 @@
+{
+    "abstract": "In this paper, we present a novel industry dataset on static software and change metrics for Matlab/Simulink models and their corresponding auto-generated C source code. The data set comprises data of three automotive projects developed and tested accordingly to industry standards and restrictive software development guidelines. We present some background information of the projects, the development process and the issue tracking as well as the creation steps of the dataset and the used tools during development. A specific highlight of the dataset is a low measurement error on change metrics because of the used issue tracking and commit policies.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "3246236",
+            "name": "Harald Altinger",
+            "url": "https://www.semanticscholar.org/author/3246236"
+        },
+        {
+            "authorId": "1781478",
+            "name": "S. Siegl",
+            "url": "https://www.semanticscholar.org/author/1781478"
+        },
+        {
+            "authorId": "2025322",
+            "name": "Y. Dajsuren",
+            "url": "https://www.semanticscholar.org/author/2025322"
+        },
+        {
+            "authorId": "1743138",
+            "name": "F. Wotawa",
+            "url": "https://www.semanticscholar.org/author/1743138"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2308.01978",
+            "authors": [
+                {
+                    "authorId": "51248180",
+                    "name": "S. L. Shrestha"
+                },
+                {
+                    "authorId": "21511788",
+                    "name": "Shafiul Azam Chowdhury"
+                },
+                {
+                    "authorId": "2926604",
+                    "name": "Christoph Csallner"
+                }
+            ],
+            "doi": "10.1109/ESEM56168.2023.10304867",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0cdd4a779c435185813d960635ae132446f800cf",
+            "title": "Replicability Study: Corpora For Understanding Simulink Models & Projects",
+            "url": "https://www.semanticscholar.org/paper/0cdd4a779c435185813d960635ae132446f800cf",
+            "venue": "2023 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2149255576",
+                    "name": "Muhammad Rizwan"
+                },
+                {
+                    "authorId": "2213615865",
+                    "name": "Zulfiqar Habib"
+                },
+                {
+                    "authorId": "3196274",
+                    "name": "Sohail Sarwar"
+                },
+                {
+                    "authorId": "143957804",
+                    "name": "Muddesar Iqbal"
+                },
+                {
+                    "authorId": "1410237377",
+                    "name": "M. Safyan"
+                },
+                {
+                    "authorId": "1404308768",
+                    "name": "D. Al-Makhles"
+                }
+            ],
+            "doi": "10.1109/HCCS55241.2022.10090366",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "97b3a62016596263a09b144c970dcca8259a001f",
+            "title": "An Exploratory Framework for Intelligent Labelling of Fault Datasets",
+            "url": "https://www.semanticscholar.org/paper/97b3a62016596263a09b144c970dcca8259a001f",
+            "venue": "2022 Human-Centered Cognitive Systems (HCCS)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3350910",
+                    "name": "Amir Elmishali"
+                },
+                {
+                    "authorId": "1790492",
+                    "name": "Meir Kalech"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2022.107102",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4d7f6c9dd413fe9ae48ed91475b26fe6d3bc8199",
+            "title": "Issues-Driven features for software fault prediction",
+            "url": "https://www.semanticscholar.org/paper/4d7f6c9dd413fe9ae48ed91475b26fe6d3bc8199",
+            "venue": "Information and Software Technology",
+            "year": 2022
+        },
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3063461",
+                    "name": "Steffen Herbold"
+                },
+                {
+                    "authorId": "8058979",
+                    "name": "Alexander Trautsch"
+                },
+                {
+                    "authorId": "2940915",
+                    "name": "Fabian Trautsch"
+                },
+                {
+                    "authorId": "1477285159",
+                    "name": "Benjamin Ledel"
+                }
+            ],
+            "doi": "10.1007/s10664-021-10092-4",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a02b1df464734cd2d95f761a813dd387b5577607",
+            "title": "Problems with SZZ and features: An empirical study of the state of practice of defect prediction data collection",
+            "url": "https://www.semanticscholar.org/paper/a02b1df464734cd2d95f761a813dd387b5577607",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1787356",
+                    "name": "M. Staron"
+                },
+                {
+                    "authorId": "2674868",
+                    "name": "Wilhelm Meding"
+                }
+            ],
+            "doi": "10.1007/978-3-319-58610-6_7",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "02d967182bd9175b3c6dac2179411a47518f1612",
+            "title": "Metrics for Software Design and Architectures",
+            "url": "https://www.semanticscholar.org/paper/02d967182bd9175b3c6dac2179411a47518f1612",
+            "venue": "Automotive Software Architectures",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48729363",
+                    "name": "Jonggu Kang"
+                },
+                {
+                    "authorId": "1912898",
+                    "name": "Duksan Ryu"
+                },
+                {
+                    "authorId": "2186147",
+                    "name": "Jongmoon Baik"
+                }
+            ],
+            "doi": "10.1002/spe.2927",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d1032480d2339156df8223fa5a1b59668ea07b64",
+            "title": "Predicting just\u2010in\u2010time software defects to reduce post\u2010release quality costs in the maritime industry",
+            "url": "https://www.semanticscholar.org/paper/d1032480d2339156df8223fa5a1b59668ea07b64",
+            "venue": "Softw. Pract. Exp.",
+            "year": 2020
+        },
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": "1911.08938",
+            "authors": [
+                {
+                    "authorId": "3063461",
+                    "name": "Steffen Herbold"
+                },
+                {
+                    "authorId": "8058979",
+                    "name": "Alexander Trautsch"
+                },
+                {
+                    "authorId": "2940915",
+                    "name": "Fabian Trautsch"
+                },
+                {
+                    "authorId": "1477285159",
+                    "name": "Benjamin Ledel"
+                }
+            ],
+            "doi": "10.1007/s10664-021-10092-4",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "0e61c50103e1bc1de9417304ebb06c1fb504c080",
+            "title": "Problems with SZZ and features: An empirical study of the state of practice of defect prediction data collection",
+            "url": "https://www.semanticscholar.org/paper/0e61c50103e1bc1de9417304ebb06c1fb504c080",
+            "venue": "Empir. Softw. Eng.",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3063461",
+                    "name": "Steffen Herbold"
+                },
+                {
+                    "authorId": "8058979",
+                    "name": "Alexander Trautsch"
+                },
+                {
+                    "authorId": "2940915",
+                    "name": "Fabian Trautsch"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8921efbd3c0e7e9d196ccef0dcbb73df77b39cd4",
+            "title": "Issues with SZZ: An empirical assessment of the state of practice of defect prediction data collection",
+            "url": "https://www.semanticscholar.org/paper/8921efbd3c0e7e9d196ccef0dcbb73df77b39cd4",
+            "venue": "ArXiv",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2371186",
+                    "name": "C. Serban"
+                },
+                {
+                    "authorId": "1787161",
+                    "name": "A. Vescan"
+                }
+            ],
+            "doi": "10.1145/3340495.3342753",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "034d1742708e25a0b71992804f0c1f4e48c6f5c0",
+            "title": "Predicting reliability by severity and priority of defects",
+            "url": "https://www.semanticscholar.org/paper/034d1742708e25a0b71992804f0c1f4e48c6f5c0",
+            "venue": "SQUADE@ESEC/SIGSOFT FSE",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00085",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "43148fabe2636026e07ca04974aff40d204bfb6b",
+            "title": "Standing on Shoulders or Feet? The Usage of the MSR Data Papers",
+            "url": "https://www.semanticscholar.org/paper/43148fabe2636026e07ca04974aff40d204bfb6b",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2789398",
+                    "name": "T. Afanasieva"
+                },
+                {
+                    "authorId": "2056292520",
+                    "name": "Vladislav V. Moiseev"
+                }
+            ],
+            "doi": "10.1007/978-3-030-01818-4_20",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ccf4e5a99417cd54f51d2629efed11c4ecd9f41d",
+            "title": "Assessing the Software Developer\u2019s Quality Using Fuzzy Estimates",
+            "url": "https://www.semanticscholar.org/paper/ccf4e5a99417cd54f51d2629efed11c4ecd9f41d",
+            "venue": "Advances in Intelligent Systems and Computing",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2109765321",
+                    "name": "Zhiqiang Li"
+                },
+                {
+                    "authorId": "15132338",
+                    "name": "Xiaoyuan Jing"
+                },
+                {
+                    "authorId": "2323721053",
+                    "name": "Xiaoke Zhu"
+                }
+            ],
+            "doi": "10.1049/iet-sen.2017.0148",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "3da0f2dedae35fdacfe6d5c828c29e3ff7d315df",
+            "title": "Progress on approaches to software defect prediction",
+            "url": "https://www.semanticscholar.org/paper/3da0f2dedae35fdacfe6d5c828c29e3ff7d315df",
+            "venue": "IET Softw.",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3246236",
+                    "name": "Harald Altinger"
+                },
+                {
+                    "authorId": "3063461",
+                    "name": "Steffen Herbold"
+                },
+                {
+                    "authorId": "2154007",
+                    "name": "F. Schneemann"
+                },
+                {
+                    "authorId": "144470884",
+                    "name": "J. Grabowski"
+                },
+                {
+                    "authorId": "1743138",
+                    "name": "F. Wotawa"
+                }
+            ],
+            "doi": "10.1109/SANER.2017.7884667",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "46983edc690e97875cf35cacf5e27ca062119a99",
+            "title": "Performance tuning for automotive Software Fault Prediction",
+            "url": "https://www.semanticscholar.org/paper/46983edc690e97875cf35cacf5e27ca062119a99",
+            "venue": "2017 IEEE 24th International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2073056824",
+                    "name": "Marta Olszewska"
+                },
+                {
+                    "authorId": "2025322",
+                    "name": "Y. Dajsuren"
+                },
+                {
+                    "authorId": "3246236",
+                    "name": "Harald Altinger"
+                },
+                {
+                    "authorId": "1747171",
+                    "name": "Alexander Serebrenik"
+                },
+                {
+                    "authorId": "143935881",
+                    "name": "M. Wald\u00e9n"
+                },
+                {
+                    "authorId": "1718306",
+                    "name": "M. Brand"
+                }
+            ],
+            "doi": "10.1145/2993412.3004853",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "06fa59e4a699946ff2b4b4bb4f9f704b889061cc",
+            "title": "Tailoring complexity metrics for simulink models",
+            "url": "https://www.semanticscholar.org/paper/06fa59e4a699946ff2b4b4bb4f9f704b889061cc",
+            "venue": "ECSA Workshops",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3246236",
+                    "name": "Harald Altinger"
+                },
+                {
+                    "authorId": "2025322",
+                    "name": "Y. Dajsuren"
+                },
+                {
+                    "authorId": "1781478",
+                    "name": "S. Siegl"
+                },
+                {
+                    "authorId": "1791575",
+                    "name": "J. Vinju"
+                },
+                {
+                    "authorId": "1743138",
+                    "name": "F. Wotawa"
+                }
+            ],
+            "doi": "10.1109/SANER.2016.81",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "cc0e74d546b930f14e67145dd73182e4c5e2b433",
+            "title": "On Error-Class Distribution in Automotive Model-Based Software",
+            "url": "https://www.semanticscholar.org/paper/cc0e74d546b930f14e67145dd73182e4c5e2b433",
+            "venue": "2016 IEEE 23rd International Conference on Software Analysis, Evolution, and Reengineering (SANER)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3246236",
+                    "name": "Harald Altinger"
+                },
+                {
+                    "authorId": "3063461",
+                    "name": "Steffen Herbold"
+                },
+                {
+                    "authorId": "144470884",
+                    "name": "J. Grabowski"
+                },
+                {
+                    "authorId": "1743138",
+                    "name": "F. Wotawa"
+                }
+            ],
+            "doi": "10.1007/978-3-319-25945-1_9",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9dd7c5f27c7b419b48011da244ce26304e1f094f",
+            "title": "Novel Insights on Cross Project Fault Prediction Applied to Automotive Software",
+            "url": "https://www.semanticscholar.org/paper/9dd7c5f27c7b419b48011da244ce26304e1f094f",
+            "venue": "ICTSS",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3063461",
+                    "name": "Steffen Herbold"
+                }
+            ],
+            "doi": "10.1109/ASEW.2015.8",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "31f95ddfa291671e026b191cf7165bd5b9b0c6c8",
+            "title": "CrossPare: A Tool for Benchmarking Cross-Project Defect Predictions",
+            "url": "https://www.semanticscholar.org/paper/31f95ddfa291671e026b191cf7165bd5b9b0c6c8",
+            "venue": "2015 30th IEEE/ACM International Conference on Automated Software Engineering Workshop (ASEW)",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "153075635",
+                    "name": "Yanja Dajsuren"
+                }
+            ],
+            "doi": "10.6100/IR792083",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "06029a6e38595437bd45ce7af42d6341a083ec01",
+            "title": "On the design of an architecture framework and quality evaluation for automotive software systems",
+            "url": "https://www.semanticscholar.org/paper/06029a6e38595437bd45ce7af42d6341a083ec01",
+            "venue": "",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8788324",
+                    "name": "Diana-Lucia Miholca"
+                },
+                {
+                    "authorId": "1752880739",
+                    "name": "Vlad-Ioan Tomescu"
+                },
+                {
+                    "authorId": "1695873",
+                    "name": "G. Czibula"
+                }
+            ],
+            "doi": "10.1109/ACCESS.2022.3181995",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "330486cf211eab3ae9e17a7048094be657e27d49",
+            "title": "An in-Depth Analysis of the Software Features\u2019 Impact on the Performance of Deep Learning-Based Software Defect Predictors",
+            "url": "https://www.semanticscholar.org/paper/330486cf211eab3ae9e17a7048094be657e27d49",
+            "venue": "IEEE Access",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2144714081",
+                    "name": "Jaewook Lee"
+                },
+                {
+                    "authorId": "119675226",
+                    "name": "Jiwon Choi"
+                },
+                {
+                    "authorId": "1912898",
+                    "name": "Duksan Ryu"
+                },
+                {
+                    "authorId": "153274545",
+                    "name": "Suntae Kim"
+                }
+            ],
+            "doi": "10.1109/ACCESS.2022.3211978",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "69d8422199d36eef79b0d568f62b8b021a24a28c",
+            "title": "Holistic Parameter Optimization for Software Defect Prediction",
+            "url": "https://www.semanticscholar.org/paper/69d8422199d36eef79b0d568f62b8b021a24a28c",
+            "venue": "IEEE Access",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2110676640",
+                    "name": "Manpreet Singh"
+                },
+                {
+                    "authorId": "9362469",
+                    "name": "J. Chhabra"
+                }
+            ],
+            "doi": "10.1007/978-981-16-1480-4_3",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0dae5d3b0c6a74dde05c33aca238205aaa7096b5",
+            "title": "Software Fault Prediction Using Machine Learning Models and Comparative Analysis",
+            "url": "https://www.semanticscholar.org/paper/0dae5d3b0c6a74dde05c33aca238205aaa7096b5",
+            "venue": "Communications in Computer and Information Science",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "153075635",
+                    "name": "Yanja Dajsuren"
+                },
+                {
+                    "authorId": "2364689",
+                    "name": "Eric Bouwers"
+                },
+                {
+                    "authorId": "3246236",
+                    "name": "Harald Altinger"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0606f3cdb6546fe09bfec00a0bbaa13a04ae0639",
+            "title": "Adaptation of the Analysability Metric for the Automotive Domain",
+            "url": "https://www.semanticscholar.org/paper/0606f3cdb6546fe09bfec00a0bbaa13a04ae0639",
+            "venue": "",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1787356",
+                    "name": "M. Staron"
+                }
+            ],
+            "doi": "10.1007/978-3-319-58610-6",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8cfb8fb59bf1919abdc414a346a9f62922e9cd4b",
+            "title": "Automotive Software Architectures",
+            "url": "https://www.semanticscholar.org/paper/8cfb8fb59bf1919abdc414a346a9f62922e9cd4b",
+            "venue": "Springer International Publishing",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1787356",
+                    "name": "M. Staron"
+                },
+                {
+                    "authorId": "3630992",
+                    "name": "Rakesh Rana"
+                },
+                {
+                    "authorId": "34571178",
+                    "name": "J. Hansson"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e6882eb48b96b7d9ebdda9b780a5c8abafef6455",
+            "title": "Influence of Software Complexity on ISO/IEC 26262 Software Verification Requirements",
+            "url": "https://www.semanticscholar.org/paper/e6882eb48b96b7d9ebdda9b780a5c8abafef6455",
+            "venue": "",
+            "year": 2015
+        }
+    ],
+    "corpusId": 10568151,
+    "doi": "10.1109/MSR.2015.72",
+    "fieldsOfStudy": [
+        "Computer Science",
+        "Engineering"
+    ],
+    "influentialCitationCount": 1,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 26,
+    "numCiting": 19,
+    "paperId": "e541f24b4b890b5e999f66225727c35b1bbd5bb2",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3246236",
+                    "name": "Harald Altinger"
+                },
+                {
+                    "authorId": "1743138",
+                    "name": "F. Wotawa"
+                },
+                {
+                    "authorId": "1824890",
+                    "name": "Markus Schurius"
+                }
+            ],
+            "doi": "10.1145/2631890.2631891",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "5b27e6a19d688c68b13a290978c3f1652c7876e7",
+            "title": "Testing methods used in the automotive industry: results from a survey",
+            "url": "https://www.semanticscholar.org/paper/5b27e6a19d688c68b13a290978c3f1652c7876e7",
+            "venue": "JAMAICA 2014",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2025322",
+                    "name": "Y. Dajsuren"
+                },
+                {
+                    "authorId": "1718306",
+                    "name": "M. Brand"
+                },
+                {
+                    "authorId": "1747171",
+                    "name": "Alexander Serebrenik"
+                },
+                {
+                    "authorId": "1722802",
+                    "name": "S. Roubtsov"
+                }
+            ],
+            "doi": "10.1145/2465478.2465482",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5a67637f332ce68b2fa1924f8e164cacb42243d2",
+            "title": "Simulink models are also software: modularity assessment",
+            "url": "https://www.semanticscholar.org/paper/5a67637f332ce68b2fa1924f8e164cacb42243d2",
+            "venue": "QoSA '13",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2364689",
+                    "name": "Eric Bouwers"
+                },
+                {
+                    "authorId": "3218955",
+                    "name": "Jos\u00e9 Pedro Correia"
+                },
+                {
+                    "authorId": "1737202",
+                    "name": "A. Deursen"
+                },
+                {
+                    "authorId": "145039625",
+                    "name": "Joost Visser"
+                }
+            ],
+            "doi": "10.1109/WICSA.2011.20",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f2209edd2247ec35e7ddbe7979451047a1f6df02",
+            "title": "Quantifying the Analyzability of Software Architectures",
+            "url": "https://www.semanticscholar.org/paper/f2209edd2247ec35e7ddbe7979451047a1f6df02",
+            "venue": "2011 Ninth Working IEEE/IFIP Conference on Software Architecture",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1410636791",
+                    "name": "Li\uff0c Jin-hua"
+                },
+                {
+                    "authorId": "2104639146",
+                    "name": "Li Qiong"
+                },
+                {
+                    "authorId": "2113522958",
+                    "name": "Li Jing"
+                }
+            ],
+            "doi": "10.1109/ISCSCT.2008.34",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0ecb4c7218d04c07dd364d7bb4dc5ff8afcaa7d8",
+            "title": "The W-Model for Testing Software Product Lines",
+            "url": "https://www.semanticscholar.org/paper/0ecb4c7218d04c07dd364d7bb4dc5ff8afcaa7d8",
+            "venue": "2008 International Symposium on Computer Science and Computational Technology",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2252615840",
+                    "name": "Jason E. Fish"
+                },
+                {
+                    "authorId": "2308866194",
+                    "name": "Massimo M Santoro"
+                },
+                {
+                    "authorId": "2308867126",
+                    "name": "Sarah U Morton"
+                },
+                {
+                    "authorId": "2308905030",
+                    "name": "Sangho Yu"
+                },
+                {
+                    "authorId": "2308865674",
+                    "name": "Ru-Fang Yeh"
+                },
+                {
+                    "authorId": "4828144",
+                    "name": "Joshua D. Wythe"
+                },
+                {
+                    "authorId": "39524940",
+                    "name": "Kathryn N. Ivey"
+                },
+                {
+                    "authorId": "2245159335",
+                    "name": "Benoit G. Bruneau"
+                },
+                {
+                    "authorId": "2239308179",
+                    "name": "Didier Y. R. Stainier"
+                },
+                {
+                    "authorId": "2254139316",
+                    "name": "Deepak Srivastava"
+                }
+            ],
+            "doi": "10.1016/j.devcel.2008.07.008",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "3b3d4707bd2d443b2eb4e943c3376ea14a854eb6",
+            "title": "miR-126 regulates angiogenic signaling and vascular integrity.",
+            "url": "https://www.semanticscholar.org/paper/3b3d4707bd2d443b2eb4e943c3376ea14a854eb6",
+            "venue": "Developmental cell",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2639635",
+                    "name": "Eckard Bringmann"
+                },
+                {
+                    "authorId": "2056984615",
+                    "name": "Andreas Kr\u00e4mer"
+                }
+            ],
+            "doi": "10.1109/ICST.2008.45",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "03f13206719ee1195fea3b982d323caa2b34db28",
+            "title": "Model-Based Testing of Automotive Systems",
+            "url": "https://www.semanticscholar.org/paper/03f13206719ee1195fea3b982d323caa2b34db28",
+            "venue": "2008 1st International Conference on Software Testing, Verification, and Validation",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1787729",
+                    "name": "Sunghun Kim"
+                },
+                {
+                    "authorId": "143609903",
+                    "name": "Thomas Zimmermann"
+                },
+                {
+                    "authorId": "145834128",
+                    "name": "Kai Pan"
+                },
+                {
+                    "authorId": "2227924013",
+                    "name": "E. James Jr. Whitehead"
+                }
+            ],
+            "doi": "10.1109/ASE.2006.23",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1f7432f3b8cf8196dbbf46086deb65aa1bb43997",
+            "title": "Automatic Identification of Bug-Introducing Changes",
+            "url": "https://www.semanticscholar.org/paper/1f7432f3b8cf8196dbbf46086deb65aa1bb43997",
+            "venue": "21st IEEE/ACM International Conference on Automated Software Engineering (ASE'06)",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2113591957",
+                    "name": "Robert M. Bell"
+                },
+                {
+                    "authorId": "1704853",
+                    "name": "T. Ostrand"
+                },
+                {
+                    "authorId": "1739966",
+                    "name": "E. Weyuker"
+                }
+            ],
+            "doi": "10.1145/1146238.1146246",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5a659b1526cfa16d07a43fbfda275942d513ef3a",
+            "title": "Looking for bugs in all the right places",
+            "url": "https://www.semanticscholar.org/paper/5a659b1526cfa16d07a43fbfda275942d513ef3a",
+            "venue": "ISSTA '06",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1788195",
+                    "name": "I. Stamelos"
+                },
+                {
+                    "authorId": "1763735",
+                    "name": "L. Angelis"
+                },
+                {
+                    "authorId": "30074793",
+                    "name": "Apostolos Oikonomou"
+                },
+                {
+                    "authorId": "3184743",
+                    "name": "G. Bleris"
+                }
+            ],
+            "doi": "10.1046/j.1365-2575.2002.00117.x",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3ea12acd699b0be1985d51b49eeb48cab87034d0",
+            "title": "Code quality analysis in open source software development",
+            "url": "https://www.semanticscholar.org/paper/3ea12acd699b0be1985d51b49eeb48cab87034d0",
+            "venue": "Inf. Syst. J.",
+            "year": 2002
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144699242",
+                    "name": "B. Curtis"
+                },
+                {
+                    "authorId": "2182832",
+                    "name": "S. Sheppard"
+                },
+                {
+                    "authorId": "1847702",
+                    "name": "P. Milliman"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d357f651055147eb54e750f77f0a580012e269f8",
+            "title": "Third time charm: Stronger prediction of programmer performance by software complexity metrics",
+            "url": "https://www.semanticscholar.org/paper/d357f651055147eb54e750f77f0a580012e269f8",
+            "venue": "ICSE 1979",
+            "year": 1979
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Available: https://www.dspace. com/de/gmb/home/products/sw/pcgs/targetli",
+            "url": "",
+            "venue": "Available: https://www.dspace. com/de/gmb/home/products/sw/pcgs/targetli",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201cCMetric,\u201d",
+            "url": "",
+            "venue": "github.com/ MetricsGrimoire/CMetrics",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201cTargetLink,\u201d",
+            "url": "",
+            "venue": "www",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201cDataset on automotive software repository,\u201d",
+            "url": "",
+            "venue": "http://www.ist.tugraz.at/ attach/Publish/ AltingerHarald/MSR 2015 dataset automotive.zip",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201cBeyond compare 4,\u201d",
+            "url": "",
+            "venue": "http://www.scootersoftware.com/",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201cMathworks automotive advisory board checks (MAAB),\u201d",
+            "url": "",
+            "venue": "",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "The Motor Industry Software Reliability Asso-and ciation",
+            "url": "",
+            "venue": "MISRA-C",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2199832",
+                    "name": "M. Halstead"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1215e771ccbc06a899397230f9febf244c843174",
+            "title": "Elements of software science (Operating and programming systems series)",
+            "url": "https://www.semanticscholar.org/paper/1215e771ccbc06a899397230f9febf244c843174",
+            "venue": "",
+            "year": 1977
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "A complexity measure Software Engineering",
+            "url": "",
+            "venue": "IEEE Transactions on",
+            "year": 1976
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "A Novel Industry Grade Dataset for Fault Prediction Based on Model-Driven Developed Automotive Embedded Software",
+    "topics": [
+        {
+            "topic": "Simulink",
+            "topicId": "6114",
+            "url": "https://www.semanticscholar.org/topic/6114"
+        },
+        {
+            "topic": "Embedded software",
+            "topicId": "3616",
+            "url": "https://www.semanticscholar.org/topic/3616"
+        },
+        {
+            "topic": "Issue tracking system",
+            "topicId": "364727",
+            "url": "https://www.semanticscholar.org/topic/364727"
+        },
+        {
+            "topic": "Embedded system",
+            "topicId": "4423",
+            "url": "https://www.semanticscholar.org/topic/4423"
+        },
+        {
+            "topic": "Software development",
+            "topicId": "78",
+            "url": "https://www.semanticscholar.org/topic/78"
+        },
+        {
+            "topic": "MATLAB",
+            "topicId": "6120",
+            "url": "https://www.semanticscholar.org/topic/6120"
+        },
+        {
+            "topic": "Model-driven integration",
+            "topicId": "2088295",
+            "url": "https://www.semanticscholar.org/topic/2088295"
+        }
+    ],
+    "url": "https://www.semanticscholar.org/paper/e541f24b4b890b5e999f66225727c35b1bbd5bb2",
+    "venue": "2015 IEEE/ACM 12th Working Conference on Mining Software Repositories",
+    "year": 2015
+}

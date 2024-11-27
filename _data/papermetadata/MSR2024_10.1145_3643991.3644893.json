@@ -1,0 +1,718 @@
+{
+    "abstract": "We present the first four-dimension gold standard dataset to advance opinion mining focused on the software engineering domain. Through a well-defined sampling and annotation strategy leveraging multiple coders, we construct a corpus of 2,000 Stack Overflow posts labeled with four dimensions/tuples, including sentiments, polar facts, aspects, and named entities. This multidimensional ground truth dataset opens up new research opportunities for opinion mining in domain-adapted NLP tools for software engineering by capturing existing relationships between extracted elements at a more granular level. It also facilitates investigating the effects of sentiments in the developers\u2019 social forums.CCS CONCEPTS\u2022 Software and its engineering \u2192 Programming teams.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2301408398",
+            "name": "Md Rakibul Islam",
+            "url": "https://www.semanticscholar.org/author/2301408398"
+        },
+        {
+            "authorId": "12523006",
+            "name": "Md. Fazle Rabbi",
+            "url": "https://www.semanticscholar.org/author/12523006"
+        },
+        {
+            "authorId": "2309251687",
+            "name": "Jo Youngeun",
+            "url": "https://www.semanticscholar.org/author/2309251687"
+        },
+        {
+            "authorId": "1642314160",
+            "name": "A. I. Champa",
+            "url": "https://www.semanticscholar.org/author/1642314160"
+        },
+        {
+            "authorId": "2301236536",
+            "name": "Ethan Young",
+            "url": "https://www.semanticscholar.org/author/2301236536"
+        },
+        {
+            "authorId": "2301218714",
+            "name": "Camden Wilson",
+            "url": "https://www.semanticscholar.org/author/2301218714"
+        },
+        {
+            "authorId": "2301236678",
+            "name": "Gavin Scott",
+            "url": "https://www.semanticscholar.org/author/2301236678"
+        },
+        {
+            "authorId": "3258253",
+            "name": "M. Zibran",
+            "url": "https://www.semanticscholar.org/author/3258253"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [],
+    "corpusId": 269763725,
+    "doi": "10.1145/3643991.3644893",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 0,
+    "numCiting": 24,
+    "paperId": "e57a8ab8afe0eca0aaee275d08c7e4bc3b3f781e",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144375145",
+                    "name": "B. Lin"
+                },
+                {
+                    "authorId": "32891700",
+                    "name": "Nathan Cassee"
+                },
+                {
+                    "authorId": "1747171",
+                    "name": "Alexander Serebrenik"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "1750021",
+                    "name": "Nicole Novielli"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                }
+            ],
+            "doi": "10.1145/3490388",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e0a7e1c24edc628b093daf4dca1dca86a583c377",
+            "title": "Opinion Mining for Software Development: A Systematic Literature Review",
+            "url": "https://www.semanticscholar.org/paper/e0a7e1c24edc628b093daf4dca1dca86a583c377",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2022
+        },
+        {
+            "arxivId": "2004.00300",
+            "authors": [
+                {
+                    "authorId": "1750021",
+                    "name": "Nicole Novielli"
+                },
+                {
+                    "authorId": "1810643",
+                    "name": "Fabio Calefato"
+                },
+                {
+                    "authorId": "1602987472",
+                    "name": "D. Dongiovanni"
+                },
+                {
+                    "authorId": "24071491",
+                    "name": "Daniela Girardi"
+                },
+                {
+                    "authorId": "1743022",
+                    "name": "F. Lanubile"
+                }
+            ],
+            "doi": "10.1145/3379597.3387446",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "8f68627a00e8f4898834a54ec00a91616a426e29",
+            "title": "Can We Use SE-specific Sentiment Analysis Tools in a Cross-Platform Setting?",
+            "url": "https://www.semanticscholar.org/paper/8f68627a00e8f4898834a54ec00a91616a426e29",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2589314",
+                    "name": "M. R. Islam"
+                },
+                {
+                    "authorId": "30622748",
+                    "name": "Md Kauser Ahmmed"
+                },
+                {
+                    "authorId": "3258253",
+                    "name": "M. Zibran"
+                }
+            ],
+            "doi": "10.1145/3297280.3297455",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e2c573bd954dbee2e04427ddfc966471c2838181",
+            "title": "MarValous: machine learning based detection of emotions in the valence-arousal space in software engineering text",
+            "url": "https://www.semanticscholar.org/paper/e2c573bd954dbee2e04427ddfc966471c2838181",
+            "venue": "SAC",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2589314",
+                    "name": "M. R. Islam"
+                },
+                {
+                    "authorId": "3258253",
+                    "name": "M. Zibran"
+                }
+            ],
+            "doi": "10.1016/J.JSS.2018.08.030",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5f10a87977e8d542461a9a4deda3ea093238abcc",
+            "title": "SentiStrength-SE: Exploiting domain specificity for improved sentiment analysis in software engineering text",
+            "url": "https://www.semanticscholar.org/paper/5f10a87977e8d542461a9a4deda3ea093238abcc",
+            "venue": "J. Syst. Softw.",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "46204033",
+                    "name": "Jan-Christoph Klie"
+                },
+                {
+                    "authorId": "51202789",
+                    "name": "M. Bugert"
+                },
+                {
+                    "authorId": "5650585",
+                    "name": "Beto Boullosa"
+                },
+                {
+                    "authorId": "2011442",
+                    "name": "Richard Eckart de Castilho"
+                },
+                {
+                    "authorId": "1730400",
+                    "name": "Iryna Gurevych"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "80afc187ca1a0d71fb023d7a91da5dcb253086c4",
+            "title": "The INCEpTION Platform: Machine-Assisted and Knowledge-Oriented Interactive Annotation",
+            "url": "https://www.semanticscholar.org/paper/80afc187ca1a0d71fb023d7a91da5dcb253086c4",
+            "venue": "COLING",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144375145",
+                    "name": "B. Lin"
+                },
+                {
+                    "authorId": "8701060",
+                    "name": "Fiorella Zampetti"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                }
+            ],
+            "doi": "10.1145/3180155.3180195",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "967f4eb786aa143b7eb09f00d9ba8ddfe44e039f",
+            "title": "Sentiment Analysis for Software Engineering: How Far Can We Go?",
+            "url": "https://www.semanticscholar.org/paper/967f4eb786aa143b7eb09f00d9ba8ddfe44e039f",
+            "venue": "2018 IEEE/ACM 40th International Conference on Software Engineering (ICSE)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2589314",
+                    "name": "M. R. Islam"
+                },
+                {
+                    "authorId": "3258253",
+                    "name": "M. Zibran"
+                }
+            ],
+            "doi": "10.1145/3167132.3167296",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7f2ac0379243e75bfbea052f1320f964dd57296c",
+            "title": "DEVA: sensing emotions in the valence arousal space in software engineering text",
+            "url": "https://www.semanticscholar.org/paper/7f2ac0379243e75bfbea052f1320f964dd57296c",
+            "venue": "SAC",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2589314",
+                    "name": "M. R. Islam"
+                },
+                {
+                    "authorId": "3258253",
+                    "name": "M. Zibran"
+                }
+            ],
+            "doi": "10.1109/SANER.2018.8330245",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2910ef1e2682fa5b169ee0961433aa1eb93a4ac3",
+            "title": "A comparison of software engineering domain specific sentiment analysis tools",
+            "url": "https://www.semanticscholar.org/paper/2910ef1e2682fa5b169ee0961433aa1eb93a4ac3",
+            "venue": "2018 IEEE 25th International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2018
+        },
+        {
+            "arxivId": "1803.06525",
+            "authors": [
+                {
+                    "authorId": "1750021",
+                    "name": "Nicole Novielli"
+                },
+                {
+                    "authorId": "24071491",
+                    "name": "Daniela Girardi"
+                },
+                {
+                    "authorId": "1743022",
+                    "name": "F. Lanubile"
+                }
+            ],
+            "doi": "10.1145/3196398.3196403",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6f58d8b98c652897842afdd023c535f9724b4eb2",
+            "title": "A Benchmark Study on Sentiment Analysis for Software Engineering Research",
+            "url": "https://www.semanticscholar.org/paper/6f58d8b98c652897842afdd023c535f9724b4eb2",
+            "venue": "2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2589314",
+                    "name": "M. R. Islam"
+                },
+                {
+                    "authorId": "3258253",
+                    "name": "M. Zibran"
+                }
+            ],
+            "doi": "10.1109/ESEM.2017.67",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b699e0a806c30db17ded153f1ca9121e93736fce",
+            "title": "A Comparison of Dictionary Building Methods for Sentiment Analysis in Software Engineering Text",
+            "url": "https://www.semanticscholar.org/paper/b699e0a806c30db17ded153f1ca9121e93736fce",
+            "venue": "2017 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3432275",
+                    "name": "Toufique Ahmed"
+                },
+                {
+                    "authorId": "2517154",
+                    "name": "Amiangshu Bosu"
+                },
+                {
+                    "authorId": "1873031",
+                    "name": "Anindya Iqbal"
+                },
+                {
+                    "authorId": "145548298",
+                    "name": "S. Rahimi"
+                }
+            ],
+            "doi": "10.1109/ASE.2017.8115623",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "35b414824d1a8c852f4f68d6a5c34d5ec946315b",
+            "title": "SentiCR: A customized sentiment analysis tool for code review interactions",
+            "url": "https://www.semanticscholar.org/paper/35b414824d1a8c852f4f68d6a5c34d5ec946315b",
+            "venue": "2017 32nd IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2017
+        },
+        {
+            "arxivId": "1710.04692",
+            "authors": [
+                {
+                    "authorId": "1810643",
+                    "name": "Fabio Calefato"
+                },
+                {
+                    "authorId": "1743022",
+                    "name": "F. Lanubile"
+                },
+                {
+                    "authorId": "1750021",
+                    "name": "Nicole Novielli"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2017.10.009",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6e30e59a1ee731759cfb195387326f47896039f4",
+            "title": "How to ask for technical help? Evidence-based guidelines for writing questions on Stack Overflow",
+            "url": "https://www.semanticscholar.org/paper/6e30e59a1ee731759cfb195387326f47896039f4",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2017
+        },
+        {
+            "arxivId": "1709.02984",
+            "authors": [
+                {
+                    "authorId": "1810643",
+                    "name": "Fabio Calefato"
+                },
+                {
+                    "authorId": "1743022",
+                    "name": "F. Lanubile"
+                },
+                {
+                    "authorId": "26391277",
+                    "name": "Federico Maiorano"
+                },
+                {
+                    "authorId": "1750021",
+                    "name": "Nicole Novielli"
+                }
+            ],
+            "doi": "10.1007/s10664-017-9546-9",
+            "intent": [
+                "result",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "7deeb94777af3649a24402de1b0573294560bd56",
+            "title": "Sentiment Polarity Detection for Software Development",
+            "url": "https://www.semanticscholar.org/paper/7deeb94777af3649a24402de1b0573294560bd56",
+            "venue": "Empirical Software Engineering",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2589314",
+                    "name": "M. R. Islam"
+                },
+                {
+                    "authorId": "3258253",
+                    "name": "M. Zibran"
+                }
+            ],
+            "doi": "10.1109/MSR.2017.9",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "261043d80a2a66044e1ee0eaee46c7331687afa4",
+            "title": "Leveraging Automated Sentiment Analysis in Software Engineering",
+            "url": "https://www.semanticscholar.org/paper/261043d80a2a66044e1ee0eaee46c7331687afa4",
+            "venue": "2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2589314",
+                    "name": "M. R. Islam"
+                },
+                {
+                    "authorId": "3258253",
+                    "name": "M. Zibran"
+                }
+            ],
+            "doi": "10.1109/SERA.2016.7516145",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "95eafdf9c39d4c87a5ca0973bcdd08c149ad56e4",
+            "title": "Towards understanding and exploiting developers' emotional variations in software engineering",
+            "url": "https://www.semanticscholar.org/paper/95eafdf9c39d4c87a5ca0973bcdd08c149ad56e4",
+            "venue": "2016 IEEE 14th International Conference on Software Engineering Research, Management and Applications (SERA)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3348154",
+                    "name": "Marco Ortu"
+                },
+                {
+                    "authorId": "39381939",
+                    "name": "Alessandro Murgia"
+                },
+                {
+                    "authorId": "2048851",
+                    "name": "Giuseppe Destefanis"
+                },
+                {
+                    "authorId": "2762093",
+                    "name": "Parastou Tourani"
+                },
+                {
+                    "authorId": "2192634",
+                    "name": "R. Tonelli"
+                },
+                {
+                    "authorId": "144083401",
+                    "name": "M. Marchesi"
+                },
+                {
+                    "authorId": "143612725",
+                    "name": "Bram Adams"
+                }
+            ],
+            "doi": "10.1145/2901739.2903505",
+            "intent": [
+                "result",
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "dedc7d776d94da0270b38732f3da579fdb938ee3",
+            "title": "The Emotional Side of Software Developers in JIRA",
+            "url": "https://www.semanticscholar.org/paper/dedc7d776d94da0270b38732f3da579fdb938ee3",
+            "venue": "2016 IEEE/ACM 13th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3091234",
+                    "name": "Deheng Ye"
+                },
+                {
+                    "authorId": "3138980",
+                    "name": "Zhenchang Xing"
+                },
+                {
+                    "authorId": "3408900",
+                    "name": "Chee Yong Foo"
+                },
+                {
+                    "authorId": "3408854",
+                    "name": "Zi Qun Ang"
+                },
+                {
+                    "authorId": "39682944",
+                    "name": "J. Li"
+                },
+                {
+                    "authorId": "144193045",
+                    "name": "Nachiket Kapre"
+                }
+            ],
+            "doi": "10.1109/SANER.2016.10",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "994b8dbfa12027ed24285a1e34c20cae8831173c",
+            "title": "Software-Specific Named Entity Recognition in Software Engineering Social Content",
+            "url": "https://www.semanticscholar.org/paper/994b8dbfa12027ed24285a1e34c20cae8831173c",
+            "venue": "2016 IEEE 23rd International Conference on Software Analysis, Evolution, and Reengineering (SANER)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50081327",
+                    "name": "Lei Zhang"
+                },
+                {
+                    "authorId": "145321667",
+                    "name": "B. Liu"
+                }
+            ],
+            "doi": "10.2200/s00416ed1v01y201204hlt016",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "33c95f4d13958e65e676a9cd64bd4d8df0fdb44d",
+            "title": "Sentiment Analysis and Opinion Mining",
+            "url": "https://www.semanticscholar.org/paper/33c95f4d13958e65e676a9cd64bd4d8df0fdb44d",
+            "venue": "Synthesis Lectures on Human Language Technologies",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "",
+            "title": "AutomaticminingofopinionsexpressedaboutAPIs in Stack Overflow",
+            "url": "",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Pattern-BasedMining of Opinions in QA Websites",
+            "url": "",
+            "venue": "Proceedings of the IEEE/ACM 41st International Conference on Software Engineering (ICSE)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2589314",
+                    "name": "M. R. Islam"
+                },
+                {
+                    "authorId": "3258253",
+                    "name": "M. Zibran"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f5983c977baeb2ca2202117cc48b5dc3c141cb2c",
+            "title": "Analysis of Software Bug Related Commit Messages",
+            "url": "https://www.semanticscholar.org/paper/f5983c977baeb2ca2202117cc48b5dc3c141cb2c",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1701298",
+                    "name": "M. Thelwall"
+                },
+                {
+                    "authorId": "144563108",
+                    "name": "K. Buckley"
+                },
+                {
+                    "authorId": "1718676",
+                    "name": "G. Paltoglou"
+                }
+            ],
+            "doi": "10.1002/asi.21662",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d02927d4de4a2a51cced4970da04b812cbee4342",
+            "title": "Sentiment strength detection for the social web",
+            "url": "https://www.semanticscholar.org/paper/d02927d4de4a2a51cced4970da04b812cbee4342",
+            "venue": "J. Assoc. Inf. Sci. Technol.",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6734096",
+                    "name": "J. Fleiss"
+                }
+            ],
+            "doi": "10.1037/H0031619",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "cfb4592221080deb127de94e8063fb403b13a298",
+            "title": "Measuring nominal scale agreement among many raters.",
+            "url": "https://www.semanticscholar.org/paper/cfb4592221080deb127de94e8063fb403b13a298",
+            "venue": "",
+            "year": 1971
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "MSR \u201924, April 15\u201316, 2024, Lisbon, Portugal",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "A Four-Dimension Gold Standard Dataset for Opinion Mining in Software Engineering",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/e57a8ab8afe0eca0aaee275d08c7e4bc3b3f781e",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2024
+}

@@ -1,0 +1,483 @@
+{
+    "abstract": "Third party libraries are used to integrate existing solutions for common problems and help speed up development. The use of third party libraries, however, can carry risks, for example through vulnerabilities in these libraries. Studying the dependency networks of package managers lets us better understand and mitigate these risks. So far, the dependency networks of the three most important package managers of the Apple ecosystem, CocoaPods, Carthage and Swift PM, have not been studied. We analysed the dependencies for all publicly available open source libraries up to December 2021 and compiled a dataset containing the dependency networks of all three package managers. The dependency networks can be used to analyse how vulnerabilities are propagated through transitive dependencies. In order to ease the tracing of vulnerable libraries we also queried the NVD database and included publicly reported vulnerabilities for these libraries in the dataset.",
+    "arxivId": "2206.06083",
+    "authors": [
+        {
+            "authorId": "102449994",
+            "name": "Kristiina Rahkema",
+            "url": "https://www.semanticscholar.org/author/102449994"
+        },
+        {
+            "authorId": "1681323",
+            "name": "Dietmar Pfahl",
+            "url": "https://www.semanticscholar.org/author/1681323"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1412529541",
+                    "name": "Daniel Dom\u00ednguez-\u00c1lvarez"
+                },
+                {
+                    "authorId": "2305852267",
+                    "name": "Alejandro de la Cruz"
+                },
+                {
+                    "authorId": "2264966791",
+                    "name": "Alessandra Gorla"
+                },
+                {
+                    "authorId": "2238210367",
+                    "name": "Juan Caballero"
+                }
+            ],
+            "doi": "10.1145/3611643.3616344",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ce929beebbbeb4cb77b0bc1cd14c545077d3a032",
+            "title": "LibKit: Detecting Third-Party Libraries in iOS Apps",
+            "url": "https://www.semanticscholar.org/paper/ce929beebbbeb4cb77b0bc1cd14c545077d3a032",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2023
+        },
+        {
+            "arxivId": "2305.10339",
+            "authors": [
+                {
+                    "authorId": "102449994",
+                    "name": "Kristiina Rahkema"
+                },
+                {
+                    "authorId": "1681323",
+                    "name": "Dietmar Pfahl"
+                }
+            ],
+            "doi": "10.1109/MOBILSoft59058.2023.00015",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d72d5ad032eea0b6af664f02dfe9f1420e7ceb98",
+            "title": "Vulnerability Propagation in Package Managers Used in iOS Development",
+            "url": "https://www.semanticscholar.org/paper/d72d5ad032eea0b6af664f02dfe9f1420e7ceb98",
+            "venue": "2023 IEEE/ACM 10th International Conference on Mobile Software Engineering and Systems (MOBILESoft)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2305.10910",
+            "authors": [
+                {
+                    "authorId": "102449994",
+                    "name": "Kristiina Rahkema"
+                },
+                {
+                    "authorId": "1681323",
+                    "name": "Dietmar Pfahl"
+                },
+                {
+                    "authorId": "1776455",
+                    "name": "Rudolf Ramler"
+                }
+            ],
+            "doi": "10.1109/MOBILSoft59058.2023.00010",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "62b42b1c1c21db95579bf709da2daaf367d253a9",
+            "title": "Analysis of Library Dependency Networks of Package Managers Used in iOS Development",
+            "url": "https://www.semanticscholar.org/paper/62b42b1c1c21db95579bf709da2daaf367d253a9",
+            "venue": "2023 IEEE/ACM 10th International Conference on Mobile Software Engineering and Systems (MOBILESoft)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1412529541",
+                    "name": "Daniel Dom\u00ednguez-\u00c1lvarez"
+                },
+                {
+                    "authorId": "2762411",
+                    "name": "Alessandra Gorla"
+                },
+                {
+                    "authorId": "144274911",
+                    "name": "Juan Caballero"
+                }
+            ],
+            "doi": "10.1109/SCAM55253.2022.00026",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5a681184ec501935c43b810890bdcb00014a7fad",
+            "title": "On the Usage of Programming Languages in the iOS Ecosystem",
+            "url": "https://www.semanticscholar.org/paper/5a681184ec501935c43b810890bdcb00014a7fad",
+            "venue": "2022 IEEE 22nd International Working Conference on Source Code Analysis and Manipulation (SCAM)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "102449994",
+                    "name": "Kristiina Rahkema"
+                },
+                {
+                    "authorId": "1681323",
+                    "name": "Dietmar Pfahl"
+                }
+            ],
+            "doi": "10.1109/ICSME55016.2022.00083",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "25e40d001bbaf30490a0cbf47f384deb51a290ab",
+            "title": "Quality Analysis of iOS Applications with Focus on Maintainability and Security",
+            "url": "https://www.semanticscholar.org/paper/25e40d001bbaf30490a0cbf47f384deb51a290ab",
+            "venue": "2022 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2022
+        }
+    ],
+    "corpusId": 249625890,
+    "doi": "10.1145/3524842.3528016",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 5,
+    "numCiting": 15,
+    "paperId": "4f51009def45ed19ed6722a2dfbf0a7e1dd7c5a9",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "102449994",
+                    "name": "Kristiina Rahkema"
+                },
+                {
+                    "authorId": "1681323",
+                    "name": "Dietmar Pfahl"
+                }
+            ],
+            "doi": "10.1145/3524613.3527806",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0858a12b8ffa6df055a82d927e2042ad5619e73f",
+            "title": "SwiftDependencyChecker: Detecting Vulnerable Dependencies Declared Through CocoaPods, Carthage and Swift PM",
+            "url": "https://www.semanticscholar.org/paper/0858a12b8ffa6df055a82d927e2042ad5619e73f",
+            "venue": "2022 IEEE/ACM 9th International Conference on Mobile Software Engineering and Systems (MobileSoft)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2146262207",
+                    "name": "Qiang Li"
+                },
+                {
+                    "authorId": "1643560031",
+                    "name": "Jinke Song"
+                },
+                {
+                    "authorId": "2142585255",
+                    "name": "Dawei Tan"
+                },
+                {
+                    "authorId": "46507023",
+                    "name": "Haining Wang"
+                },
+                {
+                    "authorId": "9184144",
+                    "name": "Jiqiang Liu"
+                }
+            ],
+            "doi": "10.1109/DSN48987.2021.00031",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5faa712736df59d3ea5e5a6ee7c13b47ba6c193b",
+            "title": "PDGraph: A Large-Scale Empirical Study on Project Dependency of Security Vulnerabilities",
+            "url": "https://www.semanticscholar.org/paper/5faa712736df59d3ea5e5a6ee7c13b47ba6c193b",
+            "venue": "2021 51st Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "102449994",
+                    "name": "Kristiina Rahkema"
+                },
+                {
+                    "authorId": "1681323",
+                    "name": "Dietmar Pfahl"
+                }
+            ],
+            "doi": "10.1109/MobileSoft52590.2021.00009",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9497165c05c5ce8177d4cc45b32189be2f7f12d2",
+            "title": "GraphifyEvolution - A Modular Approach to Analysing Source Code Histories",
+            "url": "https://www.semanticscholar.org/paper/9497165c05c5ce8177d4cc45b32189be2f7f12d2",
+            "venue": "2021 IEEE/ACM 8th International Conference on Mobile Software Engineering and Systems (MobileSoft)",
+            "year": 2021
+        },
+        {
+            "arxivId": "1902.09217",
+            "authors": [
+                {
+                    "authorId": "2054206337",
+                    "name": "Markus Zimmermann"
+                },
+                {
+                    "authorId": "40141524",
+                    "name": "Cristian-Alexandru Staicu"
+                },
+                {
+                    "authorId": "73771429",
+                    "name": "Cam Tenny"
+                },
+                {
+                    "authorId": "1884064",
+                    "name": "Michael Pradel"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "30c4476f6af1653874221b78a930a549a801e72c",
+            "title": "Small World with High Risks: A Study of Security Threats in the npm Ecosystem",
+            "url": "https://www.semanticscholar.org/paper/30c4476f6af1653874221b78a930a549a801e72c",
+            "venue": "USENIX Security Symposium",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "100757368",
+                    "name": "Tracy C. Davis"
+                }
+            ],
+            "doi": "10.1080/13528165.2018.1506551",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "35b9504486dd3c58062b167d2df4f88dd4fa1652",
+            "title": "Libraries",
+            "url": "https://www.semanticscholar.org/paper/35b9504486dd3c58062b167d2df4f88dd4fa1652",
+            "venue": "PMLA/Publications of the Modern Language Association of America",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2794053",
+                    "name": "Alexandre Decan"
+                },
+                {
+                    "authorId": "1794675",
+                    "name": "T. Mens"
+                },
+                {
+                    "authorId": "2970508",
+                    "name": "Eleni Constantinou"
+                }
+            ],
+            "doi": "10.1145/3196398.3196401",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "211e923e1f80d29d7c3cac8aba249f5d7da3dd3e",
+            "title": "On the Impact of Security Vulnerabilities in the npm Package Dependency Network",
+            "url": "https://www.semanticscholar.org/paper/211e923e1f80d29d7c3cac8aba249f5d7da3dd3e",
+            "venue": "2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2064129137",
+                    "name": "Andrew M. Nesbitt"
+                },
+                {
+                    "authorId": "150045674",
+                    "name": "Benjamin Nickolls"
+                }
+            ],
+            "doi": "10.5281/ZENODO.1068916",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0ee7260904ad229d6d154f4e5953a0abf857c03c",
+            "title": "Libraries.io Open Source Repository and Dependency Metadata",
+            "url": "https://www.semanticscholar.org/paper/0ee7260904ad229d6d154f4e5953a0abf857c03c",
+            "venue": "",
+            "year": 2017
+        },
+        {
+            "arxivId": "1710.04936",
+            "authors": [
+                {
+                    "authorId": "2794053",
+                    "name": "Alexandre Decan"
+                },
+                {
+                    "authorId": "1794675",
+                    "name": "T. Mens"
+                },
+                {
+                    "authorId": "34653341",
+                    "name": "P. Grosjean"
+                }
+            ],
+            "doi": "10.1007/s10664-017-9589-y",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "141bfd55f50dbc9af1ee73805aeb9e248978e00c",
+            "title": "An empirical comparison of dependency network evolution in seven software packaging ecosystems",
+            "url": "https://www.semanticscholar.org/paper/141bfd55f50dbc9af1ee73805aeb9e248978e00c",
+            "venue": "Empirical Software Engineering",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2016688",
+                    "name": "R. Kikas"
+                },
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "144065089",
+                    "name": "M. Dumas"
+                },
+                {
+                    "authorId": "1681323",
+                    "name": "Dietmar Pfahl"
+                }
+            ],
+            "doi": "10.1109/MSR.2017.55",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "d0a9d38c33229834dd55dc2050bf43fb77be3328",
+            "title": "Structure and Evolution of Package Dependency Networks",
+            "url": "https://www.semanticscholar.org/paper/d0a9d38c33229834dd55dc2050bf43fb77be3328",
+            "venue": "2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Dependency Networks of Open Source Libraries Available Through CocoaPods",
+            "url": "",
+            "venue": "Carthage and Swift PM. https: //doi.org/10.5281/zenodo.6376009",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Understanding the Impact of Apache Log4j Vulnerability",
+            "url": "",
+            "venue": "Retrieved January",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "HTTPS snooping \ufb02aw in third-party library affected 1,000 iOS apps with millions of users",
+            "url": "",
+            "venue": "",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "This figure \"sample-franklin.png\" is available in \"png",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "MSR 2022, May 23\u201324, 2022, Pittsburgh, PA, USA",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Swift Package Manager for iOS",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "Dataset: Dependency Networks of Open Source Libraries Available Through CocoaPods, Carthage and Swift PM",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/4f51009def45ed19ed6722a2dfbf0a7e1dd7c5a9",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2022
+}

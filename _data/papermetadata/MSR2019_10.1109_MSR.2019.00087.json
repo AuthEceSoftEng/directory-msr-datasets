@@ -1,0 +1,703 @@
+{
+    "abstract": "Android apps must be able to deal with both stop events, which require immediately stopping the execution of the app without losing state information, and start events, which require resuming the execution of the app at the same point it was stopped. Support to these kinds of events must be explicitly implemented by developers who unfortunately often fail to implement the proper logic for saving and restoring the state of an app. As a consequence apps can lose data when moved to background and then back to foreground (e.g., to answer a call) or when the screen is simply rotated. These faults can be the cause of annoying usability issues and unexpected crashes. This paper presents a public benchmark of 110 data loss faults in Android apps that we systematically collected to facilitate research and experimentation with these problems. The benchmark is available on GitLab and includes the faulty apps, the fixed apps (when available), the test cases to automatically reproduce the problems, and additional information that may help researchers in their tasks.",
+    "arxivId": "1905.11040",
+    "authors": [
+        {
+            "authorId": "3121105",
+            "name": "O. Riganelli",
+            "url": "https://www.semanticscholar.org/author/3121105"
+        },
+        {
+            "authorId": "1749560",
+            "name": "M. Mobilio",
+            "url": "https://www.semanticscholar.org/author/1749560"
+        },
+        {
+            "authorId": "1699669",
+            "name": "D. Micucci",
+            "url": "https://www.semanticscholar.org/author/1699669"
+        },
+        {
+            "authorId": "39348287",
+            "name": "L. Mariani",
+            "url": "https://www.semanticscholar.org/author/39348287"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2209.08719",
+            "authors": [
+                {
+                    "authorId": "8513789",
+                    "name": "Wunan Guo"
+                },
+                {
+                    "authorId": "2114027568",
+                    "name": "Zhen Dong"
+                },
+                {
+                    "authorId": "3173231",
+                    "name": "Liwei Shen"
+                },
+                {
+                    "authorId": "2176396045",
+                    "name": "Wei Tian"
+                },
+                {
+                    "authorId": "2176394649",
+                    "name": "Ting Su"
+                },
+                {
+                    "authorId": "2277608905",
+                    "name": "Xin Peng"
+                }
+            ],
+            "doi": "10.1145/3533767.3534402",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "495b29babc5d2dd290f05a319f6031e298dce76f",
+            "title": "Detecting and fixing data loss issues in Android apps",
+            "url": "https://www.semanticscholar.org/paper/495b29babc5d2dd290f05a319f6031e298dce76f",
+            "venue": "ISSTA",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144188161",
+                    "name": "Thomas Hirsch"
+                },
+                {
+                    "authorId": "3334382",
+                    "name": "Birgit Hofer"
+                }
+            ],
+            "doi": "10.1016/j.jss.2022.111423",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9a7b7867d1c2a540fd2c3ad9df666a32751374e2",
+            "title": "A systematic literature review on benchmarks for evaluating debugging approaches",
+            "url": "https://www.semanticscholar.org/paper/9a7b7867d1c2a540fd2c3ad9df666a32751374e2",
+            "venue": "J. Syst. Softw.",
+            "year": 2022
+        },
+        {
+            "arxivId": "2202.11999",
+            "authors": [
+                {
+                    "authorId": "3121105",
+                    "name": "O. Riganelli"
+                },
+                {
+                    "authorId": "2156139376",
+                    "name": "Ionut Daniel Fagadau"
+                },
+                {
+                    "authorId": "1699669",
+                    "name": "D. Micucci"
+                },
+                {
+                    "authorId": "39348287",
+                    "name": "L. Mariani"
+                }
+            ],
+            "doi": "10.1145/3510454.3516837",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3f54455d38d1e383be8b2103182484f126df9f37",
+            "title": "Proactive Libraries: Enforcing Correct Behaviors in Android Apps",
+            "url": "https://www.semanticscholar.org/paper/3f54455d38d1e383be8b2103182484f126df9f37",
+            "venue": "2022 IEEE/ACM 44th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2206.09762",
+            "authors": [
+                {
+                    "authorId": "146449476",
+                    "name": "Chathrie Wimalasooriya"
+                },
+                {
+                    "authorId": "1716889",
+                    "name": "Sherlock A. Licorish"
+                },
+                {
+                    "authorId": "1776368",
+                    "name": "D. A. D. Costa"
+                },
+                {
+                    "authorId": "145405338",
+                    "name": "Stephen G. MacDonell"
+                }
+            ],
+            "doi": "10.1016/j.jss.2021.111166.",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5a1da8a92a525c0c994e1193fcf84bb2c90cb36d",
+            "title": "A systematic mapping study addressing the reliability of mobile applications: The need to move beyond testing reliability",
+            "url": "https://www.semanticscholar.org/paper/5a1da8a92a525c0c994e1193fcf84bb2c90cb36d",
+            "venue": "J. Syst. Softw.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2010.05584",
+            "authors": [
+                {
+                    "authorId": "3121105",
+                    "name": "O. Riganelli"
+                },
+                {
+                    "authorId": "1811418649",
+                    "name": "Simone Paolo Mottadelli"
+                },
+                {
+                    "authorId": "1811603307",
+                    "name": "Claudio Rota"
+                },
+                {
+                    "authorId": "1699669",
+                    "name": "D. Micucci"
+                },
+                {
+                    "authorId": "39348287",
+                    "name": "L. Mariani"
+                }
+            ],
+            "doi": "10.1145/3395363.3397379",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "c5352d0f3bf3038b7e69541ad3841bea53d79801",
+            "title": "Data loss detector: automatically revealing data loss bugs in Android apps",
+            "url": "https://www.semanticscholar.org/paper/c5352d0f3bf3038b7e69541ad3841bea53d79801",
+            "venue": "ISSTA",
+            "year": 2020
+        },
+        {
+            "arxivId": "1911.09357",
+            "authors": [
+                {
+                    "authorId": "3121105",
+                    "name": "O. Riganelli"
+                },
+                {
+                    "authorId": "1699669",
+                    "name": "D. Micucci"
+                },
+                {
+                    "authorId": "39348287",
+                    "name": "L. Mariani"
+                }
+            ],
+            "doi": "10.1145/3368087",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "97b3fa4c8ce751c7893e20eab46ae388f4fc3214",
+            "title": "Controlling Interactions with Libraries in Android Apps Through Runtime Enforcement",
+            "url": "https://www.semanticscholar.org/paper/97b3fa4c8ce751c7893e20eab46ae388f4fc3214",
+            "venue": "ACM Trans. Auton. Adapt. Syst.",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": "10.1109/msr45733.2019",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "de20e3a4dbd7d0d30eb4a5b46d6222ba827cf208",
+            "title": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "url": "https://www.semanticscholar.org/paper/de20e3a4dbd7d0d30eb4a5b46d6222ba827cf208",
+            "venue": "",
+            "year": 2019
+        }
+    ],
+    "corpusId": 166228512,
+    "doi": "10.1109/MSR.2019.00087",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 7,
+    "numCiting": 21,
+    "paperId": "a64be937fcf6ca8f6afa09461a11178041b92066",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3121105",
+                    "name": "O. Riganelli"
+                },
+                {
+                    "authorId": "1699669",
+                    "name": "D. Micucci"
+                },
+                {
+                    "authorId": "39348287",
+                    "name": "L. Mariani"
+                }
+            ],
+            "doi": "10.1002/spe.2672",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5a8f13cd3419aab5341bd0c24841e82684885d6f",
+            "title": "From source code to test cases: A comprehensive benchmark for resource leak detection in Android apps",
+            "url": "https://www.semanticscholar.org/paper/5a8f13cd3419aab5341bd0c24841e82684885d6f",
+            "venue": "Softw. Pract. Exp.",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143856160",
+                    "name": "Xiang Gao"
+                },
+                {
+                    "authorId": "1747226",
+                    "name": "Shin Hwei Tan"
+                },
+                {
+                    "authorId": "2114027568",
+                    "name": "Zhen Dong"
+                },
+                {
+                    "authorId": "1789700",
+                    "name": "Abhik Roychoudhury"
+                }
+            ],
+            "doi": "10.1145/3238147.3238225",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b442803e7072713a9eeaf3a6d118bf8fa0e755b3",
+            "title": "Android Testing via Synthetic Symbolic Execution",
+            "url": "https://www.semanticscholar.org/paper/b442803e7072713a9eeaf3a6d118bf8fa0e755b3",
+            "venue": "2018 33rd IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34871822",
+                    "name": "Luca Gazzola"
+                },
+                {
+                    "authorId": "1699669",
+                    "name": "D. Micucci"
+                },
+                {
+                    "authorId": "2276027549",
+                    "name": "Leonardo Mariani"
+                }
+            ],
+            "doi": "10.1145/3180155.3182526",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "046d34f9c797ffcba1cd0424792db7ebb643a0d3",
+            "title": "Automatic Software Repair: A Survey",
+            "url": "https://www.semanticscholar.org/paper/046d34f9c797ffcba1cd0424792db7ebb643a0d3",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1699799",
+                    "name": "Domenico Amalfitano"
+                },
+                {
+                    "authorId": "1490932156",
+                    "name": "Vincenzo Riccio"
+                },
+                {
+                    "authorId": "144425050",
+                    "name": "A. C. Paiva"
+                },
+                {
+                    "authorId": "1725488",
+                    "name": "A. Fasolino"
+                }
+            ],
+            "doi": "10.1002/stvr.1654",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7ebb1eca356fe99bcae70f627d02e7e3c9f878be",
+            "title": "Why does the orientation change mess up my Android application? From GUI failures to code faults",
+            "url": "https://www.semanticscholar.org/paper/7ebb1eca356fe99bcae70f627d02e7e3c9f878be",
+            "venue": "Softw. Test. Verification Reliab.",
+            "year": 2018
+        },
+        {
+            "arxivId": "1708.02380",
+            "authors": [
+                {
+                    "authorId": "2000648232",
+                    "name": "Joydeep Mitra"
+                },
+                {
+                    "authorId": "4876797",
+                    "name": "Venkatesh Prasad Ranganath"
+                }
+            ],
+            "doi": "10.1145/3127005.3127010",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6fa9fb14c032db6d46f9f8554ad17fac39c56b8d",
+            "title": "Ghera: A Repository of Android App Vulnerability Benchmarks",
+            "url": "https://www.semanticscholar.org/paper/6fa9fb14c032db6d46f9f8554ad17fac39c56b8d",
+            "venue": "PROMISE",
+            "year": 2017
+        },
+        {
+            "arxivId": "1707.07473",
+            "authors": [
+                {
+                    "authorId": "3121105",
+                    "name": "O. Riganelli"
+                },
+                {
+                    "authorId": "1699669",
+                    "name": "D. Micucci"
+                },
+                {
+                    "authorId": "39348287",
+                    "name": "L. Mariani"
+                },
+                {
+                    "authorId": "2225803",
+                    "name": "Yli\u00e8s Falcone"
+                }
+            ],
+            "doi": "10.1007/978-3-319-67531-2_15",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "040d9738bad80d9a585abb925ad3364c9e376eb8",
+            "title": "Verifying Policy Enforcers",
+            "url": "https://www.semanticscholar.org/paper/040d9738bad80d9a585abb925ad3364c9e376eb8",
+            "venue": "RV",
+            "year": 2017
+        },
+        {
+            "arxivId": "1703.08005",
+            "authors": [
+                {
+                    "authorId": "3121105",
+                    "name": "O. Riganelli"
+                },
+                {
+                    "authorId": "1699669",
+                    "name": "D. Micucci"
+                },
+                {
+                    "authorId": "39348287",
+                    "name": "L. Mariani"
+                }
+            ],
+            "doi": "10.1109/SEAMS.2017.9",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7b366022060acf83e81c1b07cc250a841cd429e7",
+            "title": "Policy Enforcement with Proactive Libraries",
+            "url": "https://www.semanticscholar.org/paper/7b366022060acf83e81c1b07cc250a841cd429e7",
+            "venue": "2017 IEEE/ACM 12th International Symposium on Software Engineering for Adaptive and Self-Managing Systems (SEAMS)",
+            "year": 2017
+        },
+        {
+            "arxivId": "1701.05467",
+            "authors": [
+                {
+                    "authorId": "3121105",
+                    "name": "O. Riganelli"
+                },
+                {
+                    "authorId": "1699669",
+                    "name": "D. Micucci"
+                },
+                {
+                    "authorId": "39348287",
+                    "name": "L. Mariani"
+                }
+            ],
+            "doi": "10.1109/ISSREW.2016.50",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "86d5fd0e94c0d8da2453c7e31330aab3613cf0fb",
+            "title": "Healing Data Loss Problems in Android Apps",
+            "url": "https://www.semanticscholar.org/paper/86d5fd0e94c0d8da2453c7e31330aab3613cf0fb",
+            "venue": "2016 IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1910260",
+                    "name": "Christoffer Quist Adamsen"
+                },
+                {
+                    "authorId": "34974511",
+                    "name": "Gianluca Mezzetti"
+                },
+                {
+                    "authorId": "144188798",
+                    "name": "Anders M\u00f8ller"
+                }
+            ],
+            "doi": "10.1145/2771783.2771786",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3c10b218e76ed78109ffaa5023b1d7ce07182826",
+            "title": "Systematic execution of Android test suites in adverse conditions",
+            "url": "https://www.semanticscholar.org/paper/3c10b218e76ed78109ffaa5023b1d7ce07182826",
+            "venue": "ISSTA",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2114118601",
+                    "name": "Gang Hu"
+                },
+                {
+                    "authorId": "2462551",
+                    "name": "Xinhao Yuan"
+                },
+                {
+                    "authorId": "2111285322",
+                    "name": "Yang Tang"
+                },
+                {
+                    "authorId": "152211006",
+                    "name": "Junfeng Yang"
+                }
+            ],
+            "doi": "10.1145/2592798.2592813",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7d2f57bd2e190e00cf2bd48c99b77a9c43b8bf4b",
+            "title": "Efficiently, effectively detecting mobile app bugs with AppDoctor",
+            "url": "https://www.semanticscholar.org/paper/7d2f57bd2e190e00cf2bd48c99b77a9c43b8bf4b",
+            "venue": "EuroSys '14",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1748979",
+                    "name": "Razieh Nokhbeh Zaeem"
+                },
+                {
+                    "authorId": "145134489",
+                    "name": "M. Prasad"
+                },
+                {
+                    "authorId": "145802044",
+                    "name": "S. Khurshid"
+                }
+            ],
+            "doi": "10.1109/ICST.2014.31",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b251e1476141b6196cb288e84b6c884a4aca9088",
+            "title": "Automated Generation of Oracles for Testing User-Interaction Features of Mobile Apps",
+            "url": "https://www.semanticscholar.org/paper/b251e1476141b6196cb288e84b6c884a4aca9088",
+            "venue": "2014 IEEE Seventh International Conference on Software Testing, Verification and Validation",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2068902857",
+                    "name": "Pedro Machado"
+                },
+                {
+                    "authorId": "145488888",
+                    "name": "Jos\u00e9 Campos"
+                },
+                {
+                    "authorId": "144837389",
+                    "name": "Rui Abreu"
+                }
+            ],
+            "doi": "10.1145/2501553.2501556",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2e039576a6222398506e94bf5596284584349678",
+            "title": "MZoltar: automatic debugging of Android applications",
+            "url": "https://www.semanticscholar.org/paper/2e039576a6222398506e94bf5596284584349678",
+            "venue": "DeMobile 2013",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2275943",
+                    "name": "Aravind Machiry"
+                },
+                {
+                    "authorId": "46546417",
+                    "name": "Rohan Tahiliani"
+                },
+                {
+                    "authorId": "145835621",
+                    "name": "M. Naik"
+                }
+            ],
+            "doi": "10.1145/2491411.2491450",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0b7f62a2ac217e035e0cd9cb73d2de4fb6135af5",
+            "title": "Dynodroid: an input generation system for Android apps",
+            "url": "https://www.semanticscholar.org/paper/0b7f62a2ac217e035e0cd9cb73d2de4fb6135af5",
+            "venue": "ESEC/FSE 2013",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Identi\ufb01cation of the apps that satisfy the reproducibility requirements",
+            "url": "",
+            "venue": "this step",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201cUnderstand the Activity Lifecycle,\u201d",
+            "url": "",
+            "venue": ":/",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "We implemented an automatic test case for each data loss we manually reproduced",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "the reproduction of the data loss implied immediately visibile effects on the faulty app",
+            "url": "",
+            "venue": "all the cases",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "When experiencing compilation errors, we tried to \ufb01x the app. In total we experienced compilation problems for 39 app releases. We managed",
+            "url": "",
+            "venue": "the version of the Gradle",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Compilation and execution of the apps",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "reports, and only a few cases required extensive checks. Our manual analysis \ufb01nally con\ufb01rmed the presence of 168 bugs affecting 82 different apps as actual cases of data loss faults. Out of 428 apps",
+            "url": "",
+            "venue": "that satisfy",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Start the emulator/device according to the attribute Mo-bileCapabilityType.VERSION speci\ufb01ed in the test case code",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "A Benchmark of Data Loss Bugs for Android Apps",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/a64be937fcf6ca8f6afa09461a11178041b92066",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2019
+}

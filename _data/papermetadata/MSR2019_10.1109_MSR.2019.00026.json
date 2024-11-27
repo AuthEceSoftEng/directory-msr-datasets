@@ -1,0 +1,1261 @@
+{
+    "abstract": "The analysis of correctness proofs and counterexamples of program source code is an important way to gain insights into methods that could make it easier in the future to find invariants to prove a program correct or to find bugs. The availability of high-quality data is often a limiting factor for researchers who want to study real program invariants and real bugs. The described data set provides a large collection of concrete verification results, which can be used in research projects as data source or for evaluation purposes. Each result is made available as verification witness, which represents either program invariants that were used to prove the program correct (correctness witness) or an error path to replay the actual bug (violation witness). The verification results are taken from actual verification runs on 10522 verification problems, using the 31 verification tools that participated in the 8th edition of the International Competition on Software Verification (SV-COMP). The collection contains a total of 125720 verification witnesses together with various meta data and a map to relate a witness to the C program that it originates from. Data set is available at: https://doi.org/10.5281/zenodo.2559175",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "20973083",
+            "name": "Dirk Beyer",
+            "url": "https://www.semanticscholar.org/author/20973083"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2265669289",
+                    "name": "Dirk Beyer"
+                },
+                {
+                    "authorId": "2160992830",
+                    "name": "Matthias Kettl"
+                },
+                {
+                    "authorId": "2296606076",
+                    "name": "Thomas Lemberger"
+                }
+            ],
+            "doi": "10.1145/3639478.3643099",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2327c37ff009216d0615a7b7299f3abb59b014b7",
+            "title": "Fault Localization on Verification Witnesses (Poster Paper)",
+            "url": "https://www.semanticscholar.org/paper/2327c37ff009216d0615a7b7299f3abb59b014b7",
+            "venue": "2024 IEEE/ACM 46th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2071179954",
+                    "name": "D. Beyer"
+                },
+                {
+                    "authorId": "39879816",
+                    "name": "Matthias Dangl"
+                },
+                {
+                    "authorId": "1798814",
+                    "name": "Daniel Dietsch"
+                },
+                {
+                    "authorId": "2050842",
+                    "name": "Matthias Heizmann"
+                },
+                {
+                    "authorId": "2071179954",
+                    "name": "D. Beyer"
+                },
+                {
+                    "authorId": "39879816",
+                    "name": "Matthias Dangl"
+                },
+                {
+                    "authorId": "1798814",
+                    "name": "Daniel Dietsch"
+                },
+                {
+                    "authorId": "2050842",
+                    "name": "Matthias Heizmann"
+                },
+                {
+                    "authorId": "40307239",
+                    "name": "T. Lemberger"
+                }
+            ],
+            "doi": "10.1145/3477579",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "223cadfa1b6eb84497dced3c5feaf77d33915860",
+            "title": "Verification Witnesses",
+            "url": "https://www.semanticscholar.org/paper/223cadfa1b6eb84497dced3c5feaf77d33915860",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": "10.1109/msr45733.2019",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "de20e3a4dbd7d0d30eb4a5b46d6222ba827cf208",
+            "title": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "url": "https://www.semanticscholar.org/paper/de20e3a4dbd7d0d30eb4a5b46d6222ba827cf208",
+            "venue": "",
+            "year": 2019
+        }
+    ],
+    "corpusId": 195298528,
+    "doi": "10.1109/MSR.2019.00026",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 3,
+    "numCiting": 42,
+    "paperId": "0a680e45314f2ece3e30f427903885b82bcddeae",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "20973083",
+                    "name": "Dirk Beyer"
+                }
+            ],
+            "doi": "10.5281/ZENODO.4459126",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "244615e44d9328d713c42d0c199b227d8c1eb6e4",
+            "title": "SV-Benchmarks: Benchmark Set of 10th Intl. Competition on Software Verification (SV-COMP 2021)",
+            "url": "https://www.semanticscholar.org/paper/244615e44d9328d713c42d0c199b227d8c1eb6e4",
+            "venue": "",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "91898848",
+                    "name": "Cedric Richter"
+                },
+                {
+                    "authorId": "1731680",
+                    "name": "H. Wehrheim"
+                }
+            ],
+            "doi": "10.1007/978-3-030-17502-3_19",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4910b810427e1265b503b254920152af5cd47a10",
+            "title": "PeSCo: Predicting Sequential Combinations of Verifiers - (Competition Contribution)",
+            "url": "https://www.semanticscholar.org/paper/4910b810427e1265b503b254920152af5cd47a10",
+            "venue": "TACAS",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3367870",
+                    "name": "Henrich Lauko"
+                },
+                {
+                    "authorId": "3009106",
+                    "name": "V. Still"
+                },
+                {
+                    "authorId": "1711423",
+                    "name": "P. Ro\u010dkai"
+                },
+                {
+                    "authorId": "1729124",
+                    "name": "J. Barnat"
+                }
+            ],
+            "doi": "10.1007/978-3-030-17502-3_14",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "06beff0c764ff41b7177bb42b23516a486193f92",
+            "title": "Extending DIVINE with Symbolic Verification Using SMT - (Competition Contribution)",
+            "url": "https://www.semanticscholar.org/paper/06beff0c764ff41b7177bb42b23516a486193f92",
+            "venue": "TACAS",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3435897",
+                    "name": "M. R. Gadelha"
+                },
+                {
+                    "authorId": "144182646",
+                    "name": "Felipe R. Monteiro"
+                },
+                {
+                    "authorId": "144040212",
+                    "name": "L. Cordeiro"
+                },
+                {
+                    "authorId": "1803920",
+                    "name": "D. Nicole"
+                }
+            ],
+            "doi": "10.1007/978-3-030-17502-3_15",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6b58c04fc1252926ec291ac91b96f962f28a657a",
+            "title": "ESBMC v6.0: Verifying C Programs Using k-Induction and Invariant Inference - (Competition Contribution)",
+            "url": "https://www.semanticscholar.org/paper/6b58c04fc1252926ec291ac91b96f962f28a657a",
+            "venue": "TACAS",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3374089",
+                    "name": "Kareem Khazem"
+                },
+                {
+                    "authorId": "1717266",
+                    "name": "Michael Tautschnig"
+                }
+            ],
+            "doi": "10.1007/978-3-030-17502-3_13",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ca74639e23e05423c69802ed20e0daec9d84ffe9",
+            "title": "CBMC Path: A Symbolic Execution Retrofit of the C Bounded Model Checker - (Competition Contribution)",
+            "url": "https://www.semanticscholar.org/paper/ca74639e23e05423c69802ed20e0daec9d84ffe9",
+            "venue": "TACAS",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "20973083",
+                    "name": "Dirk Beyer"
+                }
+            ],
+            "doi": "10.1007/978-3-030-17502-3_9",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d20641f80b8d2ba82df8fc6e60b5d59166aebb70",
+            "title": "Automatic Verification of C and Java Programs: SV-COMP 2019",
+            "url": "https://www.semanticscholar.org/paper/d20641f80b8d2ba82df8fc6e60b5d59166aebb70",
+            "venue": "TACAS",
+            "year": 2019
+        },
+        {
+            "arxivId": "1903.00712",
+            "authors": [
+                {
+                    "authorId": "40915925",
+                    "name": "Viktor Mal\u00edk"
+                },
+                {
+                    "authorId": "151493277",
+                    "name": "Martin Hruska"
+                },
+                {
+                    "authorId": "1750214",
+                    "name": "P. Schrammel"
+                },
+                {
+                    "authorId": "1808580",
+                    "name": "Tom\u00e1\u0161 Vojnar"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5647c4e3d755d0a0181a3e9ea882e764a3829315",
+            "title": "2LS: Heap Analysis and Memory Safety (Competition Contribution)",
+            "url": "https://www.semanticscholar.org/paper/5647c4e3d755d0a0181a3e9ea882e764a3829315",
+            "venue": "ArXiv",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "20973083",
+                    "name": "Dirk Beyer"
+                },
+                {
+                    "authorId": "39879816",
+                    "name": "Matthias Dangl"
+                },
+                {
+                    "authorId": "40307239",
+                    "name": "T. Lemberger"
+                },
+                {
+                    "authorId": "1717266",
+                    "name": "Michael Tautschnig"
+                }
+            ],
+            "doi": "10.1007/978-3-319-92994-1_1",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "48e3e4152b24478b3e54bda4728079a109acf50e",
+            "title": "Tests from Witnesses - Execution-Based Validation of Verification Results",
+            "url": "https://www.semanticscholar.org/paper/48e3e4152b24478b3e54bda4728079a109acf50e",
+            "venue": "TAP@STAF",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50019266",
+                    "name": "Marek Chalupa"
+                },
+                {
+                    "authorId": "151495575",
+                    "name": "J. Strej\u010dek"
+                },
+                {
+                    "authorId": "3377214",
+                    "name": "Martina Vitovsk\u00e1"
+                }
+            ],
+            "doi": "10.1007/978-3-319-94111-0_7",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "658c451aa56555df6535de930fbe23fc19b224a8",
+            "title": "Joint Forces for Memory Safety Checking",
+            "url": "https://www.semanticscholar.org/paper/658c451aa56555df6535de930fbe23fc19b224a8",
+            "venue": "SPIN",
+            "year": 2018
+        },
+        {
+            "arxivId": "1806.03959",
+            "authors": [
+                {
+                    "authorId": "3367870",
+                    "name": "Henrich Lauko"
+                },
+                {
+                    "authorId": "1711423",
+                    "name": "P. Ro\u010dkai"
+                },
+                {
+                    "authorId": "1729124",
+                    "name": "J. Barnat"
+                }
+            ],
+            "doi": "10.1007/978-3-030-02508-3_17",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "47b227b081d56dbb1b5c23839d051f94c899ca50",
+            "title": "Symbolic Computation via Program Transformation",
+            "url": "https://www.semanticscholar.org/paper/47b227b081d56dbb1b5c23839d051f94c899ca50",
+            "venue": "ICTAC",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50019266",
+                    "name": "Marek Chalupa"
+                },
+                {
+                    "authorId": "3377214",
+                    "name": "Martina Vitovsk\u00e1"
+                },
+                {
+                    "authorId": "151495575",
+                    "name": "J. Strej\u010dek"
+                }
+            ],
+            "doi": "10.1007/978-3-319-89963-3_29",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b4f689041665dbb3206646f17467cf057df371b2",
+            "title": "SYMBIOTIC 5: Boosted Instrumentation - (Competition Contribution)",
+            "url": "https://www.semanticscholar.org/paper/b4f689041665dbb3206646f17467cf057df371b2",
+            "venue": "TACAS",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "9922824",
+                    "name": "Zuzana Baranov\u00e1"
+                },
+                {
+                    "authorId": "1729124",
+                    "name": "J. Barnat"
+                },
+                {
+                    "authorId": "24369973",
+                    "name": "Katar\u00edna Kejstov\u00e1"
+                },
+                {
+                    "authorId": "116444509",
+                    "name": "T. Kucera"
+                },
+                {
+                    "authorId": "3367870",
+                    "name": "Henrich Lauko"
+                },
+                {
+                    "authorId": "2333168",
+                    "name": "J. Mr\u00e1zek"
+                },
+                {
+                    "authorId": "1711423",
+                    "name": "P. Ro\u010dkai"
+                },
+                {
+                    "authorId": "3009106",
+                    "name": "V. Still"
+                }
+            ],
+            "doi": "10.1007/978-3-319-68167-2_14",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6a432592792b0a9704f644bf9f8d0810ed2c9bd2",
+            "title": "Model Checking of C and C++ with DIVINE 4",
+            "url": "https://www.semanticscholar.org/paper/6a432592792b0a9704f644bf9f8d0810ed2c9bd2",
+            "venue": "ATVA",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2824560",
+                    "name": "Bharti Chimdyalwar"
+                },
+                {
+                    "authorId": "48307396",
+                    "name": "Priyanka Darke"
+                },
+                {
+                    "authorId": "2797790",
+                    "name": "Avriti Chauhan"
+                },
+                {
+                    "authorId": "2105650487",
+                    "name": "Punit Shah"
+                },
+                {
+                    "authorId": "2109680414",
+                    "name": "Shrawan Kumar"
+                },
+                {
+                    "authorId": "144690966",
+                    "name": "R. Venkatesh"
+                }
+            ],
+            "doi": "10.1007/978-3-662-54580-5_32",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "96c6da81b715ae6571129765086b34c9e85f4e4e",
+            "title": "VeriAbs: Verification by Abstraction (Competition Contribution)",
+            "url": "https://www.semanticscholar.org/paper/96c6da81b715ae6571129765086b34c9e85f4e4e",
+            "venue": "TACAS",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "20973083",
+                    "name": "Dirk Beyer"
+                }
+            ],
+            "doi": "10.1007/978-3-662-54580-5_20",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0cfad0b07e75778534e1a091ed0b05f145a40e8d",
+            "title": "Software Verification with Validation of Results - (Report on SV-COMP 2017)",
+            "url": "https://www.semanticscholar.org/paper/0cfad0b07e75778534e1a091ed0b05f145a40e8d",
+            "venue": "TACAS",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "9878531",
+                    "name": "Pavel S. Andrianov"
+                },
+                {
+                    "authorId": "2015560",
+                    "name": "Karlheinz Friedberger"
+                },
+                {
+                    "authorId": "2766858",
+                    "name": "M. Mandrykin"
+                },
+                {
+                    "authorId": "3086102",
+                    "name": "V. Mutilin"
+                },
+                {
+                    "authorId": "2054741851",
+                    "name": "A. Volkov"
+                }
+            ],
+            "doi": "10.1007/978-3-662-54580-5_22",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c9cafd78a75e5c91301dd453f627cf30804877d4",
+            "title": "CPA-BAM-BnB: Block-Abstraction Memoization and Region-Based Memory Models for Predicate Abstractions - (Competition Contribution)",
+            "url": "https://www.semanticscholar.org/paper/c9cafd78a75e5c91301dd453f627cf30804877d4",
+            "venue": "TACAS",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3065837",
+                    "name": "Marius Greitschus"
+                },
+                {
+                    "authorId": "1798814",
+                    "name": "Daniel Dietsch"
+                },
+                {
+                    "authorId": "2050842",
+                    "name": "Matthias Heizmann"
+                },
+                {
+                    "authorId": "2506980",
+                    "name": "Alexander Nutz"
+                },
+                {
+                    "authorId": "3366747",
+                    "name": "Claus Sch\u00e4tzle"
+                },
+                {
+                    "authorId": "144723689",
+                    "name": "Christian Schilling"
+                },
+                {
+                    "authorId": "9843728",
+                    "name": "Frank Sch\u00fcssele"
+                },
+                {
+                    "authorId": "1803881",
+                    "name": "A. Podelski"
+                }
+            ],
+            "doi": "10.1007/978-3-662-54580-5_31",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c93243cd5c62c0793945f48d845c5277165d547c",
+            "title": "Ultimate Taipan: Trace Abstraction and Abstract Interpretation - (Competition Contribution)",
+            "url": "https://www.semanticscholar.org/paper/c93243cd5c62c0793945f48d845c5277165d547c",
+            "venue": "TACAS",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "9874323",
+                    "name": "Williame Rocha"
+                },
+                {
+                    "authorId": "144202409",
+                    "name": "Herbert Rocha"
+                },
+                {
+                    "authorId": "38001171",
+                    "name": "Hussama Ismail"
+                },
+                {
+                    "authorId": "144040212",
+                    "name": "L. Cordeiro"
+                },
+                {
+                    "authorId": "144261728",
+                    "name": "B. Fischer"
+                }
+            ],
+            "doi": "10.1007/978-3-662-54580-5_23",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f5dab579993a42770a7de0f4fa2ae10b0b2bfdfe",
+            "title": "DepthK: A k-Induction Verifier Based on Invariant Inference for C Programs - (Competition Contribution)",
+            "url": "https://www.semanticscholar.org/paper/f5dab579993a42770a7de0f4fa2ae10b0b2bfdfe",
+            "venue": "TACAS",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2050842",
+                    "name": "Matthias Heizmann"
+                },
+                {
+                    "authorId": "2130462427",
+                    "name": "Yu-Wen Chen"
+                },
+                {
+                    "authorId": "1798814",
+                    "name": "Daniel Dietsch"
+                },
+                {
+                    "authorId": "3065837",
+                    "name": "Marius Greitschus"
+                },
+                {
+                    "authorId": "2506980",
+                    "name": "Alexander Nutz"
+                },
+                {
+                    "authorId": "144278636",
+                    "name": "B. Musa"
+                },
+                {
+                    "authorId": "3366747",
+                    "name": "Claus Sch\u00e4tzle"
+                },
+                {
+                    "authorId": "144723689",
+                    "name": "Christian Schilling"
+                },
+                {
+                    "authorId": "9843728",
+                    "name": "Frank Sch\u00fcssele"
+                },
+                {
+                    "authorId": "1803881",
+                    "name": "A. Podelski"
+                }
+            ],
+            "doi": "10.1007/978-3-662-54580-5_30",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a17e098f75ac974007644a8698a849c741839ff1",
+            "title": "Ultimate Automizer with an On-Demand Construction of Floyd-Hoare Automata - (Competition Contribution)",
+            "url": "https://www.semanticscholar.org/paper/a17e098f75ac974007644a8698a849c741839ff1",
+            "venue": "TACAS",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1707613",
+                    "name": "F. Cassez"
+                },
+                {
+                    "authorId": "3100464",
+                    "name": "A. Sloane"
+                },
+                {
+                    "authorId": "2111886633",
+                    "name": "Matthew Roberts"
+                },
+                {
+                    "authorId": "9836654",
+                    "name": "Matthew Pigram"
+                },
+                {
+                    "authorId": "9838302",
+                    "name": "Pongsak Suvanpong"
+                },
+                {
+                    "authorId": "2004169",
+                    "name": "Pablo Gonz\u00e1lez de Aledo Marug\u00e1n"
+                }
+            ],
+            "doi": "10.1007/978-3-662-54580-5_27",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "60ebe9e8bf50301325de46b4903cb22a374579c4",
+            "title": "Skink: Static Analysis of Programs in LLVM Intermediate Representation - (Competition Contribution)",
+            "url": "https://www.semanticscholar.org/paper/60ebe9e8bf50301325de46b4903cb22a374579c4",
+            "venue": "TACAS",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "20973083",
+                    "name": "Dirk Beyer"
+                },
+                {
+                    "authorId": "39879816",
+                    "name": "Matthias Dangl"
+                },
+                {
+                    "authorId": "1798814",
+                    "name": "Daniel Dietsch"
+                },
+                {
+                    "authorId": "2050842",
+                    "name": "Matthias Heizmann"
+                }
+            ],
+            "doi": "10.1145/2950290.2950351",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "20c076bb47abaef614771cdd64668a76248b5300",
+            "title": "Correctness witnesses: exchanging verification results between verifiers",
+            "url": "https://www.semanticscholar.org/paper/20c076bb47abaef614771cdd64668a76248b5300",
+            "venue": "SIGSOFT FSE",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "20973083",
+                    "name": "Dirk Beyer"
+                },
+                {
+                    "authorId": "39879816",
+                    "name": "Matthias Dangl"
+                }
+            ],
+            "doi": "10.1007/978-3-319-41540-6_28",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "693a04d0998d503626a29c066c3e3077306ddb4b",
+            "title": "Verification-Aided Debugging: An Interactive Web-Service for Exploring Error Witnesses",
+            "url": "https://www.semanticscholar.org/paper/693a04d0998d503626a29c066c3e3077306ddb4b",
+            "venue": "CAV",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3009106",
+                    "name": "V. Still"
+                },
+                {
+                    "authorId": "1711423",
+                    "name": "P. Ro\u010dkai"
+                },
+                {
+                    "authorId": "1729124",
+                    "name": "J. Barnat"
+                }
+            ],
+            "doi": "10.1007/978-3-662-49674-9_60",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "72c3fb0926557c7f8629510c0aaf3967f0e171bc",
+            "title": "DIVINE: Explicit-State LTL Model Checker - (Competition Contribution)",
+            "url": "https://www.semanticscholar.org/paper/72c3fb0926557c7f8629510c0aaf3967f0e171bc",
+            "venue": "TACAS",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1750214",
+                    "name": "P. Schrammel"
+                },
+                {
+                    "authorId": "145763733",
+                    "name": "D. Kroening"
+                }
+            ],
+            "doi": "10.1007/978-3-662-49674-9_56",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4486a1de3af219059cf91bccfe2d9a76c0d5c171",
+            "title": "2LS for Program Analysis - (Competition Contribution)",
+            "url": "https://www.semanticscholar.org/paper/4486a1de3af219059cf91bccfe2d9a76c0d5c171",
+            "venue": "TACAS",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3435897",
+                    "name": "M. R. Gadelha"
+                },
+                {
+                    "authorId": "38001171",
+                    "name": "Hussama Ismail"
+                },
+                {
+                    "authorId": "144040212",
+                    "name": "L. Cordeiro"
+                }
+            ],
+            "doi": "10.1007/s10009-015-0407-9",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "04f32a9d716800330085d56c46248d0cd69a3e85",
+            "title": "Handling loops in bounded model checking of C programs via k-induction",
+            "url": "https://www.semanticscholar.org/paper/04f32a9d716800330085d56c46248d0cd69a3e85",
+            "venue": "International Journal on Software Tools for Technology Transfer",
+            "year": 2015
+        },
+        {
+            "arxivId": "1509.02471",
+            "authors": [
+                {
+                    "authorId": "144202409",
+                    "name": "Herbert Rocha"
+                },
+                {
+                    "authorId": "38001171",
+                    "name": "Hussama Ismail"
+                },
+                {
+                    "authorId": "144040212",
+                    "name": "L. Cordeiro"
+                },
+                {
+                    "authorId": "3122557",
+                    "name": "R. Barreto"
+                }
+            ],
+            "doi": "10.1109/SBESC.2015.24",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "191f947edcff3db8e8fb7c6d3ed670de7cceca6a",
+            "title": "Model Checking Embedded C Software Using k-Induction and Invariants",
+            "url": "https://www.semanticscholar.org/paper/191f947edcff3db8e8fb7c6d3ed670de7cceca6a",
+            "venue": "2015 Brazilian Symposium on Computing Systems Engineering (SBESC)",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "20973083",
+                    "name": "Dirk Beyer"
+                },
+                {
+                    "authorId": "39879816",
+                    "name": "Matthias Dangl"
+                },
+                {
+                    "authorId": "1798814",
+                    "name": "Daniel Dietsch"
+                },
+                {
+                    "authorId": "2050842",
+                    "name": "Matthias Heizmann"
+                },
+                {
+                    "authorId": "2251284",
+                    "name": "Andreas Stahlbauer"
+                }
+            ],
+            "doi": "10.1145/2786805.2786867",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "cabc97715d13ace7de94d9623d2ef17d47c8e1e6",
+            "title": "Witness validation and stepwise testification across software verifiers",
+            "url": "https://www.semanticscholar.org/paper/cabc97715d13ace7de94d9623d2ef17d47c8e1e6",
+            "venue": "Software Engineering",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144653443",
+                    "name": "M. Mahajan"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "863f590a6513884baa354beea8cf37aabad2583b",
+            "title": "Proof carrying code",
+            "url": "https://www.semanticscholar.org/paper/863f590a6513884baa354beea8cf37aabad2583b",
+            "venue": "",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "20973083",
+                    "name": "Dirk Beyer"
+                },
+                {
+                    "authorId": "1766163",
+                    "name": "Stefan L\u00f6we"
+                },
+                {
+                    "authorId": "35046679",
+                    "name": "Philipp Wendler"
+                }
+            ],
+            "doi": "10.1007/978-3-319-23404-5_12",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d4f1cd496d16d1822e7495e32522656bf82d3515",
+            "title": "Benchmarking and Resource Measurement",
+            "url": "https://www.semanticscholar.org/paper/d4f1cd496d16d1822e7495e32522656bf82d3515",
+            "venue": "SPIN",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39879816",
+                    "name": "Matthias Dangl"
+                },
+                {
+                    "authorId": "1766163",
+                    "name": "Stefan L\u00f6we"
+                },
+                {
+                    "authorId": "35046679",
+                    "name": "Philipp Wendler"
+                }
+            ],
+            "doi": "10.1007/978-3-662-46681-0_34",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "afdb2523fd0022e42fa1159372ce5487f1809e9e",
+            "title": "CPAchecker with Support for Recursive Programs and Floating-Point Arithmetic - (Competition Contribution)",
+            "url": "https://www.semanticscholar.org/paper/afdb2523fd0022e42fa1159372ce5487f1809e9e",
+            "venue": "TACAS",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "20973083",
+                    "name": "Dirk Beyer"
+                }
+            ],
+            "doi": "10.1007/978-3-662-46681-0_31",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "85d9e0dfa2ad1e374ebe6c88dd805e5b21408863",
+            "title": "Software Verification and Verifiable Witnesses - (Report on SV-COMP 2015)",
+            "url": "https://www.semanticscholar.org/paper/85d9e0dfa2ad1e374ebe6c88dd805e5b21408863",
+            "venue": "TACAS",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2506980",
+                    "name": "Alexander Nutz"
+                },
+                {
+                    "authorId": "1798814",
+                    "name": "Daniel Dietsch"
+                },
+                {
+                    "authorId": "145807940",
+                    "name": "M. Mohamed"
+                },
+                {
+                    "authorId": "1803881",
+                    "name": "A. Podelski"
+                }
+            ],
+            "doi": "10.1007/978-3-662-46681-0_44",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1aebc8bf17caf07ba43609bacccc441541dca3b3",
+            "title": "ULTIMATE KOJAK with Memory Safety Checks - (Competition Contribution)",
+            "url": "https://www.semanticscholar.org/paper/1aebc8bf17caf07ba43609bacccc441541dca3b3",
+            "venue": "TACAS",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145763733",
+                    "name": "D. Kroening"
+                },
+                {
+                    "authorId": "1717266",
+                    "name": "Michael Tautschnig"
+                }
+            ],
+            "doi": "10.1007/978-3-642-54862-8_26",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a8154a72a9fa9a9ff630d8292967b9c81c4047f8",
+            "title": "CBMC - C Bounded Model Checker - (Competition Contribution)",
+            "url": "https://www.semanticscholar.org/paper/a8154a72a9fa9a9ff630d8292967b9c81c4047f8",
+            "venue": "TACAS",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "20973083",
+                    "name": "Dirk Beyer"
+                },
+                {
+                    "authorId": "35046679",
+                    "name": "Philipp Wendler"
+                }
+            ],
+            "doi": "10.1007/978-3-642-39176-7_1",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "80eff12753df6ecf5b2088ba6793d69296d111fc",
+            "title": "Reuse of Verification Results - Conditional Model Checking, Precision Reuse, and Verification Witnesses",
+            "url": "https://www.semanticscholar.org/paper/80eff12753df6ecf5b2088ba6793d69296d111fc",
+            "venue": "SPIN",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "20973083",
+                    "name": "Dirk Beyer"
+                }
+            ],
+            "doi": "10.1007/978-3-642-28756-5_38",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f11efebeac8a1a99ba0df5100330e4aa3f9d7676",
+            "title": "Competition on Software Verification - (SV-COMP)",
+            "url": "https://www.semanticscholar.org/paper/f11efebeac8a1a99ba0df5100330e4aa3f9d7676",
+            "venue": "TACAS",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1761164",
+                    "name": "R. McConnell"
+                },
+                {
+                    "authorId": "1698752",
+                    "name": "K. Mehlhorn"
+                },
+                {
+                    "authorId": "2954453",
+                    "name": "S. N\u00e4her"
+                },
+                {
+                    "authorId": "31500557",
+                    "name": "Pascal Schweitzer"
+                }
+            ],
+            "doi": "10.1016/j.cosrev.2010.09.009",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d300eb4b8cc5428b334dfcf3ed501bebe5f2f140",
+            "title": "Certifying algorithms",
+            "url": "https://www.semanticscholar.org/paper/d300eb4b8cc5428b334dfcf3ed501bebe5f2f140",
+            "venue": "Comput. Sci. Rev.",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1704687",
+                    "name": "A. Khoroshilov"
+                },
+                {
+                    "authorId": "3086102",
+                    "name": "V. Mutilin"
+                },
+                {
+                    "authorId": "1731807",
+                    "name": "A. Petrenko"
+                },
+                {
+                    "authorId": "2101058848",
+                    "name": "V. Zakharov"
+                }
+            ],
+            "doi": "10.1007/978-3-642-11486-1_14",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1511717339dcf5de649e5dab2d1f97667d74aed3",
+            "title": "Establishing Linux Driver Verification Process",
+            "url": "https://www.semanticscholar.org/paper/1511717339dcf5de649e5dab2d1f97667d74aed3",
+            "venue": "Ershov Memorial Conference",
+            "year": 2009
+        },
+        {
+            "arxivId": "0902.0019",
+            "authors": [
+                {
+                    "authorId": "20973083",
+                    "name": "Dirk Beyer"
+                },
+                {
+                    "authorId": "2209141",
+                    "name": "M. E. Keremoglu"
+                }
+            ],
+            "doi": "10.1007/978-3-642-22110-1_16",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fa817a9520a9d2f12b04c770c9f5b26754c0d2ca",
+            "title": "CPAchecker: A Tool for Configurable Software Verification",
+            "url": "https://www.semanticscholar.org/paper/fa817a9520a9d2f12b04c770c9f5b26754c0d2ca",
+            "venue": "CAV",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144434028",
+                    "name": "T. Ball"
+                },
+                {
+                    "authorId": "1685546",
+                    "name": "S. Rajamani"
+                }
+            ],
+            "doi": "10.1145/503272.503274",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "5459cd31ff0f182da81d5c58026546b995118676",
+            "title": "The SLAM project: debugging system software via static analysis",
+            "url": "https://www.semanticscholar.org/paper/5459cd31ff0f182da81d5c58026546b995118676",
+            "venue": "POPL '02",
+            "year": 2002
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1689559",
+                    "name": "U. Brandes"
+                },
+                {
+                    "authorId": "1778284",
+                    "name": "Markus Eiglsperger"
+                },
+                {
+                    "authorId": "1700939",
+                    "name": "I. Herman"
+                },
+                {
+                    "authorId": "1774319",
+                    "name": "Michael Himsolt"
+                },
+                {
+                    "authorId": "2257171914",
+                    "name": "M. S. Marshall"
+                }
+            ],
+            "doi": "10.1007/3-540-45848-4_59",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "685eed9b249c259acdf2535edbf5935cf9a3de3c",
+            "title": "GraphML Progress Report",
+            "url": "https://www.semanticscholar.org/paper/685eed9b249c259acdf2535edbf5935cf9a3de3c",
+            "venue": "GD",
+            "year": 2001
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "VIAP 1.1: Automated system for verifying integer assignment programs with loops (competition contribution)",
+            "url": "",
+            "venue": "Proc. TACAS. LNCS 11429,",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2079681794",
+                    "name": "A. Turing"
+                }
+            ],
+            "doi": "10.2307/2268810",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ab7790485f26ce65f9d83dd700c43e49058bdd2b",
+            "title": "On Computable Numbers, with an Application to the Entscheidungsproblem.",
+            "url": "https://www.semanticscholar.org/paper/ab7790485f26ce65f9d83dd700c43e49058bdd2b",
+            "venue": "",
+            "year": 1937
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Verification witnesses from SV - COMP 2019 verification tools",
+            "url": "",
+            "venue": "Zenodo ( 2019 )",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "A Data Set of Program Invariants and Error Paths",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/0a680e45314f2ece3e30f427903885b82bcddeae",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2019
+}

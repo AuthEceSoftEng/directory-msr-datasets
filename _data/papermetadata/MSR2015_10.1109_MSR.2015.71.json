@@ -1,0 +1,1176 @@
+{
+    "abstract": "Current research on change classification centers around automated and semi-automated approaches which are based on evaluation by either the researchers themselves or external experts. In most cases, the persons evaluating the effectiveness of the classification schemes are not the authors of the original changes and therefore can only make assumptions about the intent of the changes. To support validation of existing labeling mechanisms and to provide a training set for future approaches, we present a survey of source code changes that were labeled by their original authors. Seven developers from six different project applied three existing classification schemes from current literature to enrich their own changes with meta-information, so the intent of the changes becomes more evident. The final data set consists of 967 classified changes and is available as an SQLite database as part of the MSR data set.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2203229",
+            "name": "Andreas Mauczka",
+            "url": "https://www.semanticscholar.org/author/2203229"
+        },
+        {
+            "authorId": "49068583",
+            "name": "Florian Brosch",
+            "url": "https://www.semanticscholar.org/author/49068583"
+        },
+        {
+            "authorId": "1834545",
+            "name": "Christian Schanes",
+            "url": "https://www.semanticscholar.org/author/1834545"
+        },
+        {
+            "authorId": "1685888",
+            "name": "T. Grechenig",
+            "url": "https://www.semanticscholar.org/author/1685888"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2405.09165",
+            "authors": [
+                {
+                    "authorId": "22022819",
+                    "name": "Masanari Kondo"
+                },
+                {
+                    "authorId": "2301310561",
+                    "name": "Daniel M. German"
+                },
+                {
+                    "authorId": "1706639",
+                    "name": "Yasutaka Kamei"
+                },
+                {
+                    "authorId": "1806862",
+                    "name": "Naoyasu Ubayashi"
+                },
+                {
+                    "authorId": "2289689947",
+                    "name": "Osamu Mizuno"
+                }
+            ],
+            "doi": "10.48550/arXiv.2405.09165",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "00881e708b048d04341c7595a707cc1df8a10d90",
+            "title": "An Empirical Study of Token-based Micro Commits",
+            "url": "https://www.semanticscholar.org/paper/00881e708b048d04341c7595a707cc1df8a10d90",
+            "venue": "Empir. Softw. Eng.",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2294487423",
+                    "name": "Jacob Kr\u00fcger"
+                },
+                {
+                    "authorId": "2265422274",
+                    "name": "Yi Li"
+                },
+                {
+                    "authorId": "2298481473",
+                    "name": "Kirill Lossev"
+                },
+                {
+                    "authorId": "2298618947",
+                    "name": "Chenguang Zhu"
+                },
+                {
+                    "authorId": "1854323",
+                    "name": "M. Chechik"
+                },
+                {
+                    "authorId": "2242416696",
+                    "name": "Thorsten Berger"
+                },
+                {
+                    "authorId": "2242472874",
+                    "name": "Julia Rubin"
+                }
+            ],
+            "doi": "10.1145/3661484",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0a93644f25559025fdc2091d6b49f3ced5d5e470",
+            "title": "A Meta-Study of Software-Change Intentions",
+            "url": "https://www.semanticscholar.org/paper/0a93644f25559025fdc2091d6b49f3ced5d5e470",
+            "venue": "ACM Computing Surveys",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2233746242",
+                    "name": "Siyue Chen"
+                },
+                {
+                    "authorId": "2676844",
+                    "name": "L. Cleophas"
+                },
+                {
+                    "authorId": "2273452715",
+                    "name": "Sandro Schulze"
+                },
+                {
+                    "authorId": "2274005495",
+                    "name": "Jacob Kr\u00fcger"
+                }
+            ],
+            "doi": "10.1109/SANER60148.2024.00107",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "eb01e07ecb8498c8822a96a6bfd052c2a81253dc",
+            "title": "Use the Forks, Look! Visualizations for Exploring Fork Ecosystems",
+            "url": "https://www.semanticscholar.org/paper/eb01e07ecb8498c8822a96a6bfd052c2a81253dc",
+            "venue": "2024 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2312269673",
+                    "name": "Qunhong Zeng"
+                },
+                {
+                    "authorId": "2167503058",
+                    "name": "Yuxia Zhang"
+                },
+                {
+                    "authorId": "2296489839",
+                    "name": "Zeyu Sun"
+                },
+                {
+                    "authorId": "2311824209",
+                    "name": "Yujie Guo"
+                },
+                {
+                    "authorId": "2281332424",
+                    "name": "Hui Liu"
+                }
+            ],
+            "doi": "10.1109/SANER60148.2024.00082",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "17bb36fd4dbcfb52a7a5f8f7ba0a69d0211ccd83",
+            "title": "COLARE: Commit Classification via Fine-grained Context-aware Representation of Code Changes",
+            "url": "https://www.semanticscholar.org/paper/17bb36fd4dbcfb52a7a5f8f7ba0a69d0211ccd83",
+            "venue": "2024 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2276486770",
+                    "name": "Zaixing Zhang"
+                },
+                {
+                    "authorId": "2276448223",
+                    "name": "Liang Liu"
+                },
+                {
+                    "authorId": "2276487451",
+                    "name": "Jianming Chang"
+                },
+                {
+                    "authorId": "2276437761",
+                    "name": "Lulu Wang"
+                },
+                {
+                    "authorId": "2276478724",
+                    "name": "Li Liao"
+                }
+            ],
+            "doi": "10.1109/QRS60937.2023.00053",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4643217ba791f6fd32aa963bc101f00858cb7e76",
+            "title": "Commit Classification via Diff-Code GCN based on System Dependency Graph",
+            "url": "https://www.semanticscholar.org/paper/4643217ba791f6fd32aa963bc101f00858cb7e76",
+            "venue": "2023 IEEE 23rd International Conference on Software Quality, Reliability, and Security (QRS)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2308.10576",
+            "authors": [
+                {
+                    "authorId": "2173288776",
+                    "name": "Jiajun Tong"
+                },
+                {
+                    "authorId": "2128702149",
+                    "name": "Zhixi Wang"
+                },
+                {
+                    "authorId": "51115491",
+                    "name": "Xiaobin Rui"
+                }
+            ],
+            "doi": "10.48550/arXiv.2308.10576",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d6cc1ac6f0dbd1918c40a885de067f397fefbb55",
+            "title": "Incorprating Prompt tuning for Commit classification with prior Knowledge",
+            "url": "https://www.semanticscholar.org/paper/d6cc1ac6f0dbd1918c40a885de067f397fefbb55",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": "2308.08263",
+            "authors": [
+                {
+                    "authorId": "2173288776",
+                    "name": "Jiajun Tong"
+                },
+                {
+                    "authorId": "2128702149",
+                    "name": "Zhixi Wang"
+                },
+                {
+                    "authorId": "51115491",
+                    "name": "Xiaobin Rui"
+                }
+            ],
+            "doi": "10.48550/arXiv.2308.08263",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "07315e24f43308db08dcd0b61c16b40e5c0dcc90",
+            "title": "Boosting Commit Classification with Contrastive Learning",
+            "url": "https://www.semanticscholar.org/paper/07315e24f43308db08dcd0b61c16b40e5c0dcc90",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2133974276",
+                    "name": "Tja\u0161a Heri\u010dko"
+                },
+                {
+                    "authorId": "2675525",
+                    "name": "Bo\u0161tjan \u0160umak"
+                }
+            ],
+            "doi": "10.1109/COMPSAC57700.2023.00254",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "337daf6cb64ad61233448f1671371604878c2b55",
+            "title": "Commit Classification Into Software Maintenance Activities: A Systematic Literature Review",
+            "url": "https://www.semanticscholar.org/paper/337daf6cb64ad61233448f1671371604878c2b55",
+            "venue": "2023 IEEE 47th Annual Computers, Software, and Applications Conference (COMPSAC)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1417058166",
+                    "name": "Kai Presler-Marshall"
+                },
+                {
+                    "authorId": "143638773",
+                    "name": "S. Heckman"
+                },
+                {
+                    "authorId": "2619495",
+                    "name": "Kathryn T. Stolee"
+                }
+            ],
+            "doi": "10.1109/ICSE-SEET58685.2023.00030",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "26bd4dd314c384a88c6cdfdd3ed1c3094fe9d005",
+            "title": "Improving Grading Outcomes in Software Engineering Projects Through Automated Contributions Summaries",
+            "url": "https://www.semanticscholar.org/paper/26bd4dd314c384a88c6cdfdd3ed1c3094fe9d005",
+            "venue": "2023 IEEE/ACM 45th International Conference on Software Engineering: Software Engineering Education and Training (ICSE-SEET)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2785515",
+                    "name": "A. Mondal"
+                },
+                {
+                    "authorId": "38558513",
+                    "name": "Kevin A. Schneider"
+                },
+                {
+                    "authorId": "50666808",
+                    "name": "B. Roy"
+                },
+                {
+                    "authorId": "1738612",
+                    "name": "C. Roy"
+                }
+            ],
+            "doi": "10.2139/ssrn.4021915",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8c71fc1d73e9442a62d8bbadcf01d732e1affc2f",
+            "title": "A survey of software architectural change detection and categorization techniques",
+            "url": "https://www.semanticscholar.org/paper/8c71fc1d73e9442a62d8bbadcf01d732e1affc2f",
+            "venue": "J. Syst. Softw.",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2661654",
+                    "name": "E. Ronchieri"
+                },
+                {
+                    "authorId": "3277028",
+                    "name": "M. Canaparo"
+                },
+                {
+                    "authorId": "2109409809",
+                    "name": "Yue Yang"
+                }
+            ],
+            "doi": "10.22323/1.378.0025",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "164a87576d00d3212e0b304664b1aff87d6ebd51",
+            "title": "Using Natural Language Processing to Extract Information from Unstructured code-change version control data: lessons learned",
+            "url": "https://www.semanticscholar.org/paper/164a87576d00d3212e0b304664b1aff87d6ebd51",
+            "venue": "Proceedings of International Symposium on Grids & Clouds 2021 \u2014 PoS(ISGC2021)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2140747470",
+                    "name": "Priyadarshni Suresh Sagar"
+                },
+                {
+                    "authorId": "52378466",
+                    "name": "E. Alomar"
+                },
+                {
+                    "authorId": "2121857527",
+                    "name": "Mohamed Wiem Mkaouer"
+                },
+                {
+                    "authorId": "1994554",
+                    "name": "Ali Ouni"
+                },
+                {
+                    "authorId": "21216319",
+                    "name": "Christian D. Newman"
+                }
+            ],
+            "doi": "10.3390/a14100289",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2369119989579ef7c8576ebe170c0e3349bdd86d",
+            "title": "Comparing Commit Messages and Source Code Metrics for the Prediction Refactoring Activities",
+            "url": "https://www.semanticscholar.org/paper/2369119989579ef7c8576ebe170c0e3349bdd86d",
+            "venue": "Algorithms",
+            "year": 2021
+        },
+        {
+            "arxivId": "2109.03544",
+            "authors": [
+                {
+                    "authorId": "8058979",
+                    "name": "Alexander Trautsch"
+                },
+                {
+                    "authorId": "17665272",
+                    "name": "J. Erbel"
+                },
+                {
+                    "authorId": "3063461",
+                    "name": "Steffen Herbold"
+                },
+                {
+                    "authorId": "144470884",
+                    "name": "J. Grabowski"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10257-9",
+            "intent": [
+                "result",
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "fda0fbf3fca1a2f398edb46e0c8c9bb5e815b096",
+            "title": "What really changes when developers intend to improve their source code: a commit-level study of static metric value and static analysis warning changes",
+            "url": "https://www.semanticscholar.org/paper/fda0fbf3fca1a2f398edb46e0c8c9bb5e815b096",
+            "venue": "Empirical Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": "2105.14242",
+            "authors": [
+                {
+                    "authorId": "2055668649",
+                    "name": "Tae-Hwan Jung"
+                }
+            ],
+            "doi": "10.18653/v1/2021.nlp4prog-1.3",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0eb11495a21c0635c84cb8ce3764624ffa5d8214",
+            "title": "CommitBERT: Commit Message Generation Using Pre-Trained Programming Language Model",
+            "url": "https://www.semanticscholar.org/paper/0eb11495a21c0635c84cb8ce3764624ffa5d8214",
+            "venue": "NLP4PROG",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2087596696",
+                    "name": "Lobna Ghadhab"
+                },
+                {
+                    "authorId": "3011155",
+                    "name": "Ilyes Jenhani"
+                },
+                {
+                    "authorId": "1810097",
+                    "name": "Mohamed Wiem Mkaouer"
+                },
+                {
+                    "authorId": "1935710",
+                    "name": "Montassar Ben Messaoud"
+                }
+            ],
+            "doi": "10.1016/J.INFSOF.2021.106566",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "3ebd93358472dcdb1ece04b787c122bcd6948cb3",
+            "title": "Augmenting commit classification by using fine-grained source code changes and a pre-trained deep neural language model",
+            "url": "https://www.semanticscholar.org/paper/3ebd93358472dcdb1ece04b787c122bcd6948cb3",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2010.13890",
+            "authors": [
+                {
+                    "authorId": "52378466",
+                    "name": "E. Alomar"
+                },
+                {
+                    "authorId": "11002308",
+                    "name": "Anthony S Peruma"
+                },
+                {
+                    "authorId": "1810097",
+                    "name": "Mohamed Wiem Mkaouer"
+                },
+                {
+                    "authorId": "21216319",
+                    "name": "Christian D. Newman"
+                },
+                {
+                    "authorId": "1994554",
+                    "name": "Ali Ouni"
+                },
+                {
+                    "authorId": "1705734",
+                    "name": "Marouane Kessentini"
+                }
+            ],
+            "doi": "10.1016/j.eswa.2020.114176",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6042b77ec73d1896167ac6c9fddd37f6cd198883",
+            "title": "How We Refactor and How We Document it? On the Use of Supervised Machine Learning Algorithms to Classify Refactoring Documentation",
+            "url": "https://www.semanticscholar.org/paper/6042b77ec73d1896167ac6c9fddd37f6cd198883",
+            "venue": "Expert Syst. Appl.",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2014948906",
+                    "name": "Muhammad Usman Sarwar"
+                },
+                {
+                    "authorId": "7641396",
+                    "name": "Sarim Zafar"
+                },
+                {
+                    "authorId": "1810097",
+                    "name": "Mohamed Wiem Mkaouer"
+                },
+                {
+                    "authorId": "10100364",
+                    "name": "G. Walia"
+                },
+                {
+                    "authorId": "2093196225",
+                    "name": "Muhammad Zubair Malik"
+                }
+            ],
+            "doi": "10.1109/ISSREW51248.2020.00034",
+            "intent": [
+                "result",
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "44992ae2c3dd74f9dfb5b4847df20b17e7e01aeb",
+            "title": "Multi-label Classification of Commit Messages using Transfer Learning",
+            "url": "https://www.semanticscholar.org/paper/44992ae2c3dd74f9dfb5b4847df20b17e7e01aeb",
+            "venue": "2020 IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW)",
+            "year": 2020
+        },
+        {
+            "arxivId": "2009.09279",
+            "authors": [
+                {
+                    "authorId": "52378466",
+                    "name": "E. Alomar"
+                },
+                {
+                    "authorId": "1810097",
+                    "name": "Mohamed Wiem Mkaouer"
+                },
+                {
+                    "authorId": "1994554",
+                    "name": "Ali Ouni"
+                }
+            ],
+            "doi": "10.1016/J.JSS.2020.110821",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1df0f633ba04b45d4d414eb3a23c93b559b365c3",
+            "title": "Toward the Automatic Classification of Self-Affirmed Refactoring",
+            "url": "https://www.semanticscholar.org/paper/1df0f633ba04b45d4d414eb3a23c93b559b365c3",
+            "venue": "J. Syst. Softw.",
+            "year": 2020
+        },
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00085",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "43148fabe2636026e07ca04974aff40d204bfb6b",
+            "title": "Standing on Shoulders or Feet? The Usage of the MSR Data Papers",
+            "url": "https://www.semanticscholar.org/paper/43148fabe2636026e07ca04974aff40d204bfb6b",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": "1703.09603",
+            "authors": [
+                {
+                    "authorId": "39986904",
+                    "name": "Siyuan Jiang"
+                },
+                {
+                    "authorId": "1725171",
+                    "name": "Collin McMillan"
+                }
+            ],
+            "doi": "10.1109/ICPC.2017.12",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "e22df3f3fd6d86a4ed666ab7381054ba41f2dccd",
+            "title": "Towards Automatic Generation of Short Summaries of Commits",
+            "url": "https://www.semanticscholar.org/paper/e22df3f3fd6d86a4ed666ab7381054ba41f2dccd",
+            "venue": "2017 IEEE/ACM 25th International Conference on Program Comprehension (ICPC)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2109660394",
+                    "name": "Jinfeng Shen"
+                },
+                {
+                    "authorId": "1471621799",
+                    "name": "Xiaobing Sun"
+                },
+                {
+                    "authorId": "2156071626",
+                    "name": "Bin Li"
+                },
+                {
+                    "authorId": "2156108232",
+                    "name": "Hui Yang"
+                },
+                {
+                    "authorId": "2112508869",
+                    "name": "Jiajun Hu"
+                }
+            ],
+            "doi": "10.1109/COMPSAC.2016.162",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4b216681ae0594eea68002da197b3303dcb22f33",
+            "title": "On Automatic Summarization of What and Why Information in Source Code Changes",
+            "url": "https://www.semanticscholar.org/paper/4b216681ae0594eea68002da197b3303dcb22f33",
+            "venue": "2016 IEEE 40th Annual Computer Software and Applications Conference (COMPSAC)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3449957",
+                    "name": "Kyohei Uemura"
+                },
+                {
+                    "authorId": "2111191861",
+                    "name": "Yusuke Saito"
+                },
+                {
+                    "authorId": "2395257",
+                    "name": "Shin Fujiwara"
+                },
+                {
+                    "authorId": "2057512814",
+                    "name": "Daiki Tanaka"
+                },
+                {
+                    "authorId": "46891693",
+                    "name": "Kenji Fujiwara"
+                },
+                {
+                    "authorId": "1687605",
+                    "name": "Hajimu Iida"
+                },
+                {
+                    "authorId": "144975613",
+                    "name": "Ken-ichi Matsumoto"
+                }
+            ],
+            "doi": "10.1109/ICIS.2016.7550864",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0654a57b64a3d938c993639020e85364748d57b5",
+            "title": "A hosting service of multi-language historage repositories",
+            "url": "https://www.semanticscholar.org/paper/0654a57b64a3d938c993639020e85364748d57b5",
+            "venue": "2016 IEEE/ACIS 15th International Conference on Computer and Information Science (ICIS)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145513359",
+                    "name": "Meng Yan"
+                },
+                {
+                    "authorId": "2110659983",
+                    "name": "Ying Fu"
+                },
+                {
+                    "authorId": "8442644",
+                    "name": "Xiaohong Zhang"
+                },
+                {
+                    "authorId": "144553546",
+                    "name": "Dan Yang"
+                },
+                {
+                    "authorId": "153152486",
+                    "name": "Ling Xu"
+                },
+                {
+                    "authorId": "1401715724",
+                    "name": "Jeffrey D. Kymer"
+                }
+            ],
+            "doi": "10.1016/j.jss.2015.12.019",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "19d3cc9507bfc8cd75171c38a34da3c02054279a",
+            "title": "Automatically classifying software changes via discriminative topic model: Supporting multi-category and cross-project",
+            "url": "https://www.semanticscholar.org/paper/19d3cc9507bfc8cd75171c38a34da3c02054279a",
+            "venue": "J. Syst. Softw.",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2008177645",
+                    "name": "Hisashi Kamezawa"
+                },
+                {
+                    "authorId": "8058716",
+                    "name": "Noriki Nishida"
+                },
+                {
+                    "authorId": "3037066",
+                    "name": "N. Shimizu"
+                },
+                {
+                    "authorId": "145414551",
+                    "name": "Takashi Miyazaki"
+                },
+                {
+                    "authorId": "48731103",
+                    "name": "Hideki Nakayama"
+                }
+            ],
+            "doi": "10.18653/v1/2022.acl-long.597",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ec00df4a05bb9d1c70cc0b919a076de672565bba",
+            "title": "RNSum: A Large-Scale Dataset for Automatic Release Note Generation via Commit Logs Summarization",
+            "url": "https://www.semanticscholar.org/paper/ec00df4a05bb9d1c70cc0b919a076de672565bba",
+            "venue": "ACL",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8058979",
+                    "name": "Alexander Trautsch"
+                },
+                {
+                    "authorId": "17665272",
+                    "name": "J. Erbel"
+                },
+                {
+                    "authorId": "3063461",
+                    "name": "Steffen Herbold"
+                },
+                {
+                    "authorId": "144470884",
+                    "name": "J. Grabowski"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "b6c58f4218c42b8aeefe1ef9c495a45c4b5d9701",
+            "title": "On the differences between quality increasing and other changes in open source Java projects",
+            "url": "https://www.semanticscholar.org/paper/b6c58f4218c42b8aeefe1ef9c495a45c4b5d9701",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2140046195",
+                    "name": "Jian Yi David Lee"
+                },
+                {
+                    "authorId": "3024630",
+                    "name": "Hai Leong Chieu"
+                }
+            ],
+            "doi": "10.18653/v1/2021.wnut-1.43",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b410df16a1957d5aab1d3571659693808eead455",
+            "title": "Co-training for Commit Classification",
+            "url": "https://www.semanticscholar.org/paper/b410df16a1957d5aab1d3571659693808eead455",
+            "venue": "WNUT",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2467633",
+                    "name": "G. E. D. Santos"
+                },
+                {
+                    "authorId": "46653229",
+                    "name": "Eduardo Figueiredo"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "result",
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "11bcb99fb97422e1a136dfcdc38d094f94165870",
+            "title": "Commit Classification using Natural Language Processing: Experiments over Labeled Datasets",
+            "url": "https://www.semanticscholar.org/paper/11bcb99fb97422e1a136dfcdc38d094f94165870",
+            "venue": "CIbSE",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "52378466",
+                    "name": "E. Alomar"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2dc7b07c59340deee89f6d9dd77c662edebb6ccf",
+            "title": "How We Refactor and How We Mine it ? A Large Scale Study on Refactoring Activities in Open Source Systems",
+            "url": "https://www.semanticscholar.org/paper/2dc7b07c59340deee89f6d9dd77c662edebb6ccf",
+            "venue": "",
+            "year": 2018
+        }
+    ],
+    "corpusId": 14382169,
+    "doi": "10.1109/MSR.2015.71",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 4,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 30,
+    "numCiting": 8,
+    "paperId": "8d17a128e0250481b5dd6b54ba7935b0420dca70",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39496137",
+                    "name": "Kim Herzig"
+                },
+                {
+                    "authorId": "39855161",
+                    "name": "Sascha Just"
+                },
+                {
+                    "authorId": "145594351",
+                    "name": "A. Zeller"
+                }
+            ],
+            "doi": "10.1109/ICSE.2013.6606585",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "86a0e7286fb27d8e817c3831982d50cadddc498f",
+            "title": "It's not a bug, it's a feature: How misclassification impacts bug prediction",
+            "url": "https://www.semanticscholar.org/paper/86a0e7286fb27d8e817c3831982d50cadddc498f",
+            "venue": "2013 35th International Conference on Software Engineering (ICSE)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2203229",
+                    "name": "Andreas Mauczka"
+                },
+                {
+                    "authorId": "145947633",
+                    "name": "Markus Huber"
+                },
+                {
+                    "authorId": "1834545",
+                    "name": "Christian Schanes"
+                },
+                {
+                    "authorId": "145628217",
+                    "name": "W. Schramm"
+                },
+                {
+                    "authorId": "33733512",
+                    "name": "Mario Bernhart"
+                },
+                {
+                    "authorId": "1685888",
+                    "name": "T. Grechenig"
+                }
+            ],
+            "doi": "10.1007/978-3-642-28872-2_21",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c4d3976e2672d741937ee9ba32cf3dd74fc0a589",
+            "title": "Tracing Your Maintenance Work - A Cross-Project Validation of an Automated Classification Dictionary for Commit Messages",
+            "url": "https://www.semanticscholar.org/paper/c4d3976e2672d741937ee9ba32cf3dd74fc0a589",
+            "venue": "FASE",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145369636",
+                    "name": "Abram Hindle"
+                },
+                {
+                    "authorId": "1755165",
+                    "name": "Neil A. Ernst"
+                },
+                {
+                    "authorId": "47521175",
+                    "name": "Michael W. Godfrey"
+                },
+                {
+                    "authorId": "1750566",
+                    "name": "J. Mylopoulos"
+                }
+            ],
+            "doi": "10.1145/1985441.1985466",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e1636f68a76259123a35ce391c448ca39762b265",
+            "title": "Automated topic naming to support cross-project analysis of software maintenance activities",
+            "url": "https://www.semanticscholar.org/paper/e1636f68a76259123a35ce391c448ca39762b265",
+            "venue": "MSR '11",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1692292",
+                    "name": "G. Antoniol"
+                },
+                {
+                    "authorId": "1750557",
+                    "name": "K. Ayari"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "1703493",
+                    "name": "Foutse Khomh"
+                },
+                {
+                    "authorId": "1718050",
+                    "name": "Yann-Ga\u00ebl Gu\u00e9h\u00e9neuc"
+                }
+            ],
+            "doi": "10.1145/1463788.1463819",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6ea62d9f321fc7599ff86560b2294a37cc1809b6",
+            "title": "Is it a bug or an enhancement?: a text-based approach to classify change requests",
+            "url": "https://www.semanticscholar.org/paper/6ea62d9f321fc7599ff86560b2294a37cc1809b6",
+            "venue": "CASCON '08",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1817341",
+                    "name": "Lile Hattori"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                }
+            ],
+            "doi": "10.1109/ASEW.2008.4686322",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "abe0a5ba0382806d901fd443f82dabb4affc2327",
+            "title": "On the nature of commits",
+            "url": "https://www.semanticscholar.org/paper/abe0a5ba0382806d901fd443f82dabb4affc2327",
+            "venue": "2008 23rd IEEE/ACM International Conference on Automated Software Engineering - Workshops",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                },
+                {
+                    "authorId": "2578018",
+                    "name": "L. Votta"
+                }
+            ],
+            "doi": "10.1109/ICSM.2000.883028",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a61ce971a025b8fec904265f9d3e633de4f93cdb",
+            "title": "Identifying reasons for software changes using historic databases",
+            "url": "https://www.semanticscholar.org/paper/a61ce971a025b8fec904265f9d3e633de4f93cdb",
+            "venue": "Proceedings 2000 International Conference on Software Maintenance",
+            "year": 2000
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2110659983",
+                    "name": "Ying Fu"
+                },
+                {
+                    "authorId": "145513359",
+                    "name": "Meng Yan"
+                },
+                {
+                    "authorId": "8442644",
+                    "name": "Xiaohong Zhang"
+                },
+                {
+                    "authorId": "153152486",
+                    "name": "Ling Xu"
+                },
+                {
+                    "authorId": "144553546",
+                    "name": "Dan Yang"
+                },
+                {
+                    "authorId": "1401715724",
+                    "name": "Jeffrey D. Kymer"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2014.05.017",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d4e93cc138438fc7002e5c130897af98b7192949",
+            "title": "Automated classification of software change messages by semi-supervised Latent Dirichlet Allocation",
+            "url": "https://www.semanticscholar.org/paper/d4e93cc138438fc7002e5c130897af98b7192949",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "dce99209120ebed7f5d68e3644fdcd160d4c366c",
+            "title": "Standard Glossary of Software Engineering Terminology",
+            "url": "https://www.semanticscholar.org/paper/dce99209120ebed7f5d68e3644fdcd160d4c366c",
+            "venue": "",
+            "year": 1990
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "Dataset of Developer-Labeled Commit Messages",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/8d17a128e0250481b5dd6b54ba7935b0420dca70",
+    "venue": "2015 IEEE/ACM 12th Working Conference on Mining Software Repositories",
+    "year": 2015
+}

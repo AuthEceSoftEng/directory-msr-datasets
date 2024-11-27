@@ -1,0 +1,1123 @@
+{
+    "abstract": "In this paper, we present ManyTypes4Py, a large Python dataset for machine learning (ML)-based type inference. The dataset contains a total of 5,382 Python projects with more than 869K type annotations. Duplicate source code files were removed to eliminate the negative effect of the duplication bias. To facilitate training and evaluation of ML models, the dataset was split into training, validation and test sets by files. To extract type information from abstract syntax trees (ASTs), a light-weight static analyzer pipeline is developed and accompanied with the dataset. Using this pipeline, the collected Python projects were analyzed and the results of the AST analysis were stored in JSON-formatted files. The ManyTypes4Py dataset is shared on zenodo and its tools are publicly available on GitHub.",
+    "arxivId": "2104.04706",
+    "authors": [
+        {
+            "authorId": "143909797",
+            "name": "A. Mir",
+            "url": "https://www.semanticscholar.org/author/143909797"
+        },
+        {
+            "authorId": "2046786069",
+            "name": "Evaldas Latoskinas",
+            "url": "https://www.semanticscholar.org/author/2046786069"
+        },
+        {
+            "authorId": "2211882",
+            "name": "Georgios Gousios",
+            "url": "https://www.semanticscholar.org/author/2211882"
+        }
+    ],
+    "citationVelocity": 7,
+    "citations": [
+        {
+            "arxivId": "2407.02095",
+            "authors": [
+                {
+                    "authorId": "2276510804",
+                    "name": "Chong Wang"
+                },
+                {
+                    "authorId": "2265725720",
+                    "name": "Jian Zhang"
+                },
+                {
+                    "authorId": "2265400203",
+                    "name": "Yiling Lou"
+                },
+                {
+                    "authorId": "2007711208",
+                    "name": "Mingwei Liu"
+                },
+                {
+                    "authorId": "2294671786",
+                    "name": "Weisong Sun"
+                },
+                {
+                    "authorId": "2265753294",
+                    "name": "Yang Liu"
+                },
+                {
+                    "authorId": "2198359132",
+                    "name": "Xin Peng"
+                }
+            ],
+            "doi": "10.48550/arXiv.2407.02095",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d48e5b6ff8326c72219fd855d0fd92a62903aaff",
+            "title": "TIGER: A Generating-Then-Ranking Framework for Practical Python Type Inference",
+            "url": "https://www.semanticscholar.org/paper/d48e5b6ff8326c72219fd855d0fd92a62903aaff",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": "2404.01903",
+            "authors": [
+                {
+                    "authorId": "122674398",
+                    "name": "Francesca Lucchetti"
+                },
+                {
+                    "authorId": "2257234523",
+                    "name": "Arjun Guha"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2bd9b519cb5e6bfe448ba079077f7c14822d5260",
+            "title": "Understanding How CodeLLMs (Mis)Predict Types with Activation Steering",
+            "url": "https://www.semanticscholar.org/paper/2bd9b519cb5e6bfe448ba079077f7c14822d5260",
+            "venue": "",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2223248280",
+                    "name": "Yimeng Guo"
+                },
+                {
+                    "authorId": "2111317367",
+                    "name": "Zhifei Chen"
+                },
+                {
+                    "authorId": "2237511319",
+                    "name": "Lin Chen"
+                },
+                {
+                    "authorId": "2223183746",
+                    "name": "Wenjie Xu"
+                },
+                {
+                    "authorId": "2144433748",
+                    "name": "Yanhui Li"
+                },
+                {
+                    "authorId": "2265463724",
+                    "name": "Yuming Zhou"
+                },
+                {
+                    "authorId": "2259771927",
+                    "name": "Baowen Xu"
+                }
+            ],
+            "doi": "10.1145/3652153",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c57017f5df871714a02a8e765f285dfee4c0edb4",
+            "title": "Generating Python Type Annotations from Type Inference: How Far Are We?",
+            "url": "https://www.semanticscholar.org/paper/c57017f5df871714a02a8e765f285dfee4c0edb4",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6299740",
+                    "name": "Yi Li"
+                },
+                {
+                    "authorId": "2133066141",
+                    "name": "Aashish Yadavally"
+                },
+                {
+                    "authorId": "2268798991",
+                    "name": "Jiaxing Zhang"
+                },
+                {
+                    "authorId": "2145317386",
+                    "name": "Shaohua Wang"
+                },
+                {
+                    "authorId": "2216769546",
+                    "name": "Tien N. Nguyen"
+                }
+            ],
+            "doi": "10.1145/3611643.3616368",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "f6d0af4d9d0582f8679b595da0a68fc032ac49cb",
+            "title": "DeMinify: Neural Variable Name Recovery and Type Inference",
+            "url": "https://www.semanticscholar.org/paper/f6d0af4d9d0582f8679b595da0a68fc032ac49cb",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51890880",
+                    "name": "Fangke Ye"
+                },
+                {
+                    "authorId": "2109858020",
+                    "name": "Jisheng Zhao"
+                },
+                {
+                    "authorId": "3132400",
+                    "name": "J. Shirako"
+                },
+                {
+                    "authorId": "2258703086",
+                    "name": "Vivek Sarkar"
+                }
+            ],
+            "doi": "10.1145/3622825",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1746b539c2396f7fa27170e5cf897e96b6595d0e",
+            "title": "Concrete Type Inference for Code Optimization using Machine Learning with SMT Solving",
+            "url": "https://www.semanticscholar.org/paper/1746b539c2396f7fa27170e5cf897e96b6595d0e",
+            "venue": "Proc. ACM Program. Lang.",
+            "year": 2023
+        },
+        {
+            "arxivId": "2307.09163",
+            "authors": [
+                {
+                    "authorId": "2111035155",
+                    "name": "Yun Peng"
+                },
+                {
+                    "authorId": "2135764153",
+                    "name": "Chaozheng Wang"
+                },
+                {
+                    "authorId": "2144328160",
+                    "name": "Wenxuan Wang"
+                },
+                {
+                    "authorId": "2337550",
+                    "name": "Cuiyun Gao"
+                },
+                {
+                    "authorId": "2146840128",
+                    "name": "Michael R. Lyu"
+                }
+            ],
+            "doi": "10.1109/ASE56229.2023.00031",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "ddf2e20427e24b422cc11f58a27458b75e1d3cca",
+            "title": "Generative Type Inference for Python",
+            "url": "https://www.semanticscholar.org/paper/ddf2e20427e24b422cc11f58a27458b75e1d3cca",
+            "venue": "2023 38th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2305.17145",
+            "authors": [
+                {
+                    "authorId": "2197063831",
+                    "name": "Federico Cassano"
+                },
+                {
+                    "authorId": "39043661",
+                    "name": "Ming-Ho Yee"
+                },
+                {
+                    "authorId": "2212367248",
+                    "name": "Noah Shinn"
+                },
+                {
+                    "authorId": "2100712",
+                    "name": "Arjun Guha"
+                },
+                {
+                    "authorId": "5341399",
+                    "name": "Steven Holtzen"
+                }
+            ],
+            "doi": "10.48550/arXiv.2305.17145",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "93107809381d75143ec3bac1ed1339ed78740c92",
+            "title": "Type Prediction With Program Decomposition and Fill-in-the-Type Training",
+            "url": "https://www.semanticscholar.org/paper/93107809381d75143ec3bac1ed1339ed78740c92",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": "2308.02675",
+            "authors": [
+                {
+                    "authorId": "2227714729",
+                    "name": "Jonathan Elkobi"
+                },
+                {
+                    "authorId": "2142774467",
+                    "name": "Bernd Gruner"
+                },
+                {
+                    "authorId": "151237913",
+                    "name": "Tim Sonnekalb"
+                },
+                {
+                    "authorId": "2167834",
+                    "name": "C. Brust"
+                }
+            ],
+            "doi": "10.1109/SERA57763.2023.10197800",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "e3af3e8f4dea9bd06ae70983ecefa21aab53f97e",
+            "title": "TIPICAL - Type Inference for Python In Critical Accuracy Level",
+            "url": "https://www.semanticscholar.org/paper/e3af3e8f4dea9bd06ae70983ecefa21aab53f97e",
+            "venue": "2023 IEEE/ACIS 21st International Conference on Software Engineering Research, Management and Applications (SERA)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2117859043",
+                    "name": "Yanyan Yan"
+                },
+                {
+                    "authorId": "2115389493",
+                    "name": "Yang Feng"
+                },
+                {
+                    "authorId": "2118734401",
+                    "name": "Hongcheng Fan"
+                },
+                {
+                    "authorId": "2181642640",
+                    "name": "Baowen Xu"
+                }
+            ],
+            "doi": "10.1109/ICSE48619.2023.00170",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "07d7305f09d843b8fba7552fa8104b8f188f3f38",
+            "title": "DLInfer: Deep Learning with Static Slicing for Python Type Inference",
+            "url": "https://www.semanticscholar.org/paper/07d7305f09d843b8fba7552fa8104b8f188f3f38",
+            "venue": "2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2303.09564",
+            "authors": [
+                {
+                    "authorId": "49319137",
+                    "name": "Jiayi Wei"
+                },
+                {
+                    "authorId": "1814094",
+                    "name": "Greg Durrett"
+                },
+                {
+                    "authorId": "1714075",
+                    "name": "I\u015f\u0131l Dillig"
+                }
+            ],
+            "doi": "10.48550/arXiv.2303.09564",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0b7509abcf9af50ad4e551be35f11b62ce7d2695",
+            "title": "TypeT5: Seq2seq Type Inference using Static Analysis",
+            "url": "https://www.semanticscholar.org/paper/0b7509abcf9af50ad4e551be35f11b62ce7d2695",
+            "venue": "ICLR",
+            "year": 2023
+        },
+        {
+            "arxivId": "2212.09132",
+            "authors": [
+                {
+                    "authorId": "100721942",
+                    "name": "Anjan Karmakar"
+                },
+                {
+                    "authorId": "3216345",
+                    "name": "Miltiadis Allamanis"
+                },
+                {
+                    "authorId": "1853058",
+                    "name": "R. Robbes"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10275-7",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "42630c03d3817b1153d245f20742ad4b30a80b75",
+            "title": "JEMMA: An extensible Java dataset for ML4Code applications",
+            "url": "https://www.semanticscholar.org/paper/42630c03d3817b1153d245f20742ad4b30a80b75",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "33271558",
+                    "name": "Wonseok Oh"
+                },
+                {
+                    "authorId": "39476651",
+                    "name": "Hakjoo Oh"
+                }
+            ],
+            "doi": "10.1145/3540250.3549130",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "59f69c633da8882ceac2cc1c6e7319a622115187",
+            "title": "PyTER: effective program repair for Python type errors",
+            "url": "https://www.semanticscholar.org/paper/59f69c633da8882ceac2cc1c6e7319a622115187",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2022
+        },
+        {
+            "arxivId": "2208.09189",
+            "authors": [
+                {
+                    "authorId": "2142774467",
+                    "name": "Bernd Gruner"
+                },
+                {
+                    "authorId": "151237913",
+                    "name": "Tim Sonnekalb"
+                },
+                {
+                    "authorId": "122233317",
+                    "name": "Thomas S. Heinze"
+                },
+                {
+                    "authorId": "2167834",
+                    "name": "C. Brust"
+                }
+            ],
+            "doi": "10.1109/MSR59073.2023.00034",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "545edde66dfbc1d47c2d66a015872cbf718691c6",
+            "title": "Cross-Domain Evaluation of a Deep Learning-Based Type Inference System",
+            "url": "https://www.semanticscholar.org/paper/545edde66dfbc1d47c2d66a015872cbf718691c6",
+            "venue": "2023 IEEE/ACM 20th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2169551509",
+                    "name": "Youren Chen"
+                },
+                {
+                    "authorId": "2189062344",
+                    "name": "Yang Li"
+                },
+                {
+                    "authorId": "2165015408",
+                    "name": "Ming Wen"
+                }
+            ],
+            "doi": "10.1109/DSA56465.2022.00111",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1536a9502c305e97f5967cdfe7f987f7b4f7deca",
+            "title": "Chinese Psychological QA Database and its Research Problems",
+            "url": "https://www.semanticscholar.org/paper/1536a9502c305e97f5967cdfe7f987f7b4f7deca",
+            "venue": "2022 9th International Conference on Dependable Systems and Their Applications (DSA)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2155275032",
+                    "name": "Lu Liang"
+                },
+                {
+                    "authorId": "2154405275",
+                    "name": "Yong Li"
+                },
+                {
+                    "authorId": "2165015408",
+                    "name": "Ming Wen"
+                },
+                {
+                    "authorId": "2155355392",
+                    "name": "Ying Liu"
+                }
+            ],
+            "doi": "10.1080/09540091.2022.2072471",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d47f3d434b678ef3042d2caca9564b921b7419f3",
+            "title": "KG4Py: A toolkit for generating Python knowledge graph and code semantic search",
+            "url": "https://www.semanticscholar.org/paper/d47f3d434b678ef3042d2caca9564b921b7419f3",
+            "venue": "Connect. Sci.",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1382369659",
+                    "name": "Kevin Jesse"
+                },
+                {
+                    "authorId": "2164399652",
+                    "name": "krjesse"
+                }
+            ],
+            "doi": "10.1145/3524842.3528507",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "fab636ef521c60636b57e7c1c28f9eb0a6c4d756",
+            "title": "ManyTypes4TypeScript: A Comprehensive TypeScript Dataset for Sequence-Based Type Inference",
+            "url": "https://www.semanticscholar.org/paper/fab636ef521c60636b57e7c1c28f9eb0a6c4d756",
+            "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1698908",
+                    "name": "Rosa Filgueira"
+                },
+                {
+                    "authorId": "1398926410",
+                    "name": "D. Garijo"
+                }
+            ],
+            "doi": "10.1145/3524842.3528497",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2cfe60defe88396c14529d3ef501bd0bffa55b0f",
+            "title": "Inspect4py: A Knowledge Extraction Framework for Python Code Repositories",
+            "url": "https://www.semanticscholar.org/paper/2cfe60defe88396c14529d3ef501bd0bffa55b0f",
+            "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40129103",
+                    "name": "Xin Zhang"
+                },
+                {
+                    "authorId": "7303839",
+                    "name": "Rongjie Yan"
+                },
+                {
+                    "authorId": "2219213508",
+                    "name": "Jiwei Yan"
+                },
+                {
+                    "authorId": "150933091",
+                    "name": "Baoquan Cui"
+                },
+                {
+                    "authorId": "2112594505",
+                    "name": "Jun Yan"
+                },
+                {
+                    "authorId": "2151809812",
+                    "name": "Jian Zhang"
+                }
+            ],
+            "doi": "10.1109/saner53432.2022.00104",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9a6e70594868c6b41e89cc0435c727eee2eb71d9",
+            "title": "ExcePy: A Python Benchmark for Bugs with Python Built-in Types",
+            "url": "https://www.semanticscholar.org/paper/9a6e70594868c6b41e89cc0435c727eee2eb71d9",
+            "venue": "2022 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2111.05003",
+            "authors": [
+                {
+                    "authorId": "1486439695",
+                    "name": "Stephan Lukasczyk"
+                },
+                {
+                    "authorId": "1838844709",
+                    "name": "Florian Kroi\u00df"
+                },
+                {
+                    "authorId": "145507591",
+                    "name": "G. Fraser"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10248-w",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "b5722c2224dd4436d6756b8aec2596cef9b07c11",
+            "title": "An empirical study of automated unit test generation for Python",
+            "url": "https://www.semanticscholar.org/paper/b5722c2224dd4436d6756b8aec2596cef9b07c11",
+            "venue": "Empirical Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": "2105.03595",
+            "authors": [
+                {
+                    "authorId": "2111035155",
+                    "name": "Yun Peng"
+                },
+                {
+                    "authorId": "2337550",
+                    "name": "Cuiyun Gao"
+                },
+                {
+                    "authorId": "2118207559",
+                    "name": "Zongjie Li"
+                },
+                {
+                    "authorId": "2153852034",
+                    "name": "Bowei Gao"
+                },
+                {
+                    "authorId": "2150912791",
+                    "name": "David Lo"
+                },
+                {
+                    "authorId": "1997366512",
+                    "name": "Qi-reng Zhang"
+                },
+                {
+                    "authorId": "2146840128",
+                    "name": "Michael R. Lyu"
+                }
+            ],
+            "doi": "10.1145/3510003.3510038",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "e1bf21ab4f577d660a11727ebc3ee76b17b41693",
+            "title": "Static Inference Meets Deep learning: A Hybrid Type Inference Approach for Python",
+            "url": "https://www.semanticscholar.org/paper/e1bf21ab4f577d660a11727ebc3ee76b17b41693",
+            "venue": "2022 IEEE/ACM 44th International Conference on Software Engineering (ICSE)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2101.04470",
+            "authors": [
+                {
+                    "authorId": "143909797",
+                    "name": "A. Mir"
+                },
+                {
+                    "authorId": "2046786069",
+                    "name": "Evaldas Latoskinas"
+                },
+                {
+                    "authorId": "1933475",
+                    "name": "Sebastian Proksch"
+                },
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                }
+            ],
+            "doi": "10.1145/3510003.3510124",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "61106307c956e704e5a609f71b344a68bd51a9f2",
+            "title": "Type4Py: Practical Deep Similarity Learning-Based Type Inference for Python",
+            "url": "https://www.semanticscholar.org/paper/61106307c956e704e5a609f71b344a68bd51a9f2",
+            "venue": "2022 IEEE/ACM 44th International Conference on Software Engineering (ICSE)",
+            "year": 2021
+        }
+    ],
+    "corpusId": 233210280,
+    "doi": "10.1109/MSR52588.2021.00079",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 5,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 21,
+    "numCiting": 15,
+    "paperId": "13c6ad940b0f0298ee7f437d8239ccbca6b240ed",
+    "references": [
+        {
+            "arxivId": "2004.10657",
+            "authors": [
+                {
+                    "authorId": "3216345",
+                    "name": "Miltiadis Allamanis"
+                },
+                {
+                    "authorId": "1757975",
+                    "name": "Earl T. Barr"
+                },
+                {
+                    "authorId": "1648699839",
+                    "name": "Soline Ducousso"
+                },
+                {
+                    "authorId": "2116491634",
+                    "name": "Zheng Gao"
+                }
+            ],
+            "doi": "10.1145/3385412.3385997",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "1e655fa69c62b430b051224153f701f1b607fd9c",
+            "title": "Typilus: neural type hints",
+            "url": "https://www.semanticscholar.org/paper/1e655fa69c62b430b051224153f701f1b607fd9c",
+            "venue": "PLDI",
+            "year": 2020
+        },
+        {
+            "arxivId": "1912.03768",
+            "authors": [
+                {
+                    "authorId": "1884064",
+                    "name": "Michael Pradel"
+                },
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "2119081469",
+                    "name": "Jason Liu"
+                },
+                {
+                    "authorId": "145486355",
+                    "name": "S. Chandra"
+                }
+            ],
+            "doi": "10.1145/3368089.3409715",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "a429c6c8407b10a89c9610ab5e9682ec89772356",
+            "title": "TypeWriter: neural type prediction with search-based validation",
+            "url": "https://www.semanticscholar.org/paper/a429c6c8407b10a89c9610ab5e9682ec89772356",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2019
+        },
+        {
+            "arxivId": "1912.00742",
+            "authors": [
+                {
+                    "authorId": "47090739",
+                    "name": "Alexey Svyatkovskiy"
+                },
+                {
+                    "authorId": "2118977303",
+                    "name": "Ying Zhao"
+                },
+                {
+                    "authorId": "2072784644",
+                    "name": "Shengyu Fu"
+                },
+                {
+                    "authorId": "145507437",
+                    "name": "Neel Sundaresan"
+                }
+            ],
+            "doi": "10.1145/3292500.3330699",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "79b7a61abd4a4b4cf62c26cec815b55b0778f48d",
+            "title": "Pythia: AI-assisted Code Completion System",
+            "url": "https://www.semanticscholar.org/paper/79b7a61abd4a4b4cf62c26cec815b55b0778f48d",
+            "venue": "KDD",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "32166282",
+                    "name": "Rabee Sohail Malik"
+                },
+                {
+                    "authorId": "1954023",
+                    "name": "Jibesh Patra"
+                },
+                {
+                    "authorId": "1884064",
+                    "name": "Michael Pradel"
+                }
+            ],
+            "doi": "10.1109/ICSE.2019.00045",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "8e71af3fbec666e67c0fcfefedb38881027a0254",
+            "title": "NL2Type: Inferring JavaScript Function Types from Natural Language Information",
+            "url": "https://www.semanticscholar.org/paper/8e71af3fbec666e67c0fcfefedb38881027a0254",
+            "venue": "2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE)",
+            "year": 2019
+        },
+        {
+            "arxivId": "1812.06469",
+            "authors": [
+                {
+                    "authorId": "3216345",
+                    "name": "Miltiadis Allamanis"
+                }
+            ],
+            "doi": "10.1145/3359591.3359735",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "8ace1951c95f9bbbcf83571ff6c0579521507e2e",
+            "title": "The adverse effects of code duplication in machine learning models of code",
+            "url": "https://www.semanticscholar.org/paper/8ace1951c95f9bbbcf83571ff6c0579521507e2e",
+            "venue": "Onward!",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "22747364",
+                    "name": "Vincent J. Hellendoorn"
+                },
+                {
+                    "authorId": "145193818",
+                    "name": "C. Bird"
+                },
+                {
+                    "authorId": "1757975",
+                    "name": "Earl T. Barr"
+                },
+                {
+                    "authorId": "3216345",
+                    "name": "Miltiadis Allamanis"
+                }
+            ],
+            "doi": "10.1145/3236024.3236051",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "ea1b62a03ab16c4acca6f7041c6f096bedec244b",
+            "title": "Deep learning type inference",
+            "url": "https://www.semanticscholar.org/paper/ea1b62a03ab16c4acca6f7041c6f096bedec244b",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2515935",
+                    "name": "J. Ore"
+                },
+                {
+                    "authorId": "143754832",
+                    "name": "Sebastian G. Elbaum"
+                },
+                {
+                    "authorId": "1694389",
+                    "name": "Carrick Detweiler"
+                },
+                {
+                    "authorId": "2099059050",
+                    "name": "Lambros Karkazis"
+                }
+            ],
+            "doi": "10.1145/3238147.3238173",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c0eb27702d66644d5cad560035ca4d3d20ebade1",
+            "title": "Assessing the Type Annotation Burden",
+            "url": "https://www.semanticscholar.org/paper/c0eb27702d66644d5cad560035ca4d3d20ebade1",
+            "venue": "2018 33rd IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34955824",
+                    "name": "C. Lopes"
+                },
+                {
+                    "authorId": "32514549",
+                    "name": "Petr Maj"
+                },
+                {
+                    "authorId": "145784437",
+                    "name": "Pedro Martins"
+                },
+                {
+                    "authorId": "40188003",
+                    "name": "V. Saini"
+                },
+                {
+                    "authorId": "2110919594",
+                    "name": "Di Yang"
+                },
+                {
+                    "authorId": "67102999",
+                    "name": "Jakub Zitny"
+                },
+                {
+                    "authorId": "1906848",
+                    "name": "Hitesh Sajnani"
+                },
+                {
+                    "authorId": "144376283",
+                    "name": "J. Vitek"
+                }
+            ],
+            "doi": "10.1145/3133908",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a26b00c607b6d6a2697f5444f14a9afc37701444",
+            "title": "D\u00e9j\u00e0Vu: a map of code duplicates on GitHub",
+            "url": "https://www.semanticscholar.org/paper/a26b00c607b6d6a2697f5444f14a9afc37701444",
+            "venue": "Proc. ACM Program. Lang.",
+            "year": 2017
+        },
+        {
+            "arxivId": "1707.02968",
+            "authors": [
+                {
+                    "authorId": "1491624845",
+                    "name": "Chen Sun"
+                },
+                {
+                    "authorId": "1781242",
+                    "name": "Abhinav Shrivastava"
+                },
+                {
+                    "authorId": "2108498897",
+                    "name": "Saurabh Singh"
+                },
+                {
+                    "authorId": "1726095131",
+                    "name": "A. Gupta"
+                }
+            ],
+            "doi": "10.1109/ICCV.2017.97",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8760bc7631c0cb04e7138254e9fd6451b7def8ca",
+            "title": "Revisiting Unreasonable Effectiveness of Data in Deep Learning Era",
+            "url": "https://www.semanticscholar.org/paper/8760bc7631c0cb04e7138254e9fd6451b7def8ca",
+            "venue": "2017 IEEE International Conference on Computer Vision (ICCV)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1967472",
+                    "name": "Veselin Raychev"
+                },
+                {
+                    "authorId": "1689140",
+                    "name": "Pavol Bielik"
+                },
+                {
+                    "authorId": "1736447",
+                    "name": "Martin T. Vechev"
+                }
+            ],
+            "doi": "10.1145/2983990.2984041",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "62e176977d439aac2e2d7eca834a7a99016dfcaf",
+            "title": "Probabilistic model for code with decision trees",
+            "url": "https://www.semanticscholar.org/paper/62e176977d439aac2e2d7eca834a7a99016dfcaf",
+            "venue": "OOPSLA",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1724401",
+                    "name": "G. Bierman"
+                },
+                {
+                    "authorId": "145832079",
+                    "name": "M. Abadi"
+                },
+                {
+                    "authorId": "3301439",
+                    "name": "Mads Torgersen"
+                }
+            ],
+            "doi": "10.1007/978-3-662-44202-9_11",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1469b0cbb109c2a788a346dd0480070de8334dea",
+            "title": "Understanding TypeScript",
+            "url": "https://www.semanticscholar.org/paper/1469b0cbb109c2a788a346dd0480070de8334dea",
+            "venue": "ECOOP",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143909797",
+                    "name": "A. Mir"
+                },
+                {
+                    "authorId": "2046786069",
+                    "name": "Evaldas Latoskinas"
+                },
+                {
+                    "authorId": "1933475",
+                    "name": "Sebastian Proksch"
+                },
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b6c960e92d24fdc1f2e19151278c94957388aaeb",
+            "title": "Type4Py: Deep Similarity Learning-Based Type Inference for Python",
+            "url": "https://www.semanticscholar.org/paper/b6c960e92d24fdc1f2e19151278c94957388aaeb",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201cType inference in php using deep learning,\u201d",
+            "url": "",
+            "venue": "LU-CS-EX",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145330388",
+                    "name": "M. Scott"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "57f9f005f49eefdf1e476071fd8ee2d0a15e5d47",
+            "title": "Programming Language Pragmatics (3. ed.)",
+            "url": "https://www.semanticscholar.org/paper/57f9f005f49eefdf1e476071fd8ee2d0a15e5d47",
+            "venue": "",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201cIeee spectrum\u2019s the top programming languages 2019,\u201d",
+            "url": "",
+            "venue": "spectrum",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "ManyTypes4Py: A Benchmark Python Dataset for Machine Learning-based Type Inference",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/13c6ad940b0f0298ee7f437d8239ccbca6b240ed",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2021
+}

@@ -1,0 +1,1293 @@
+{
+    "abstract": "Generating source code API sequences from an English query using Machine Translation (MT) has gained much interest in recent years. For any kind of MT, the model needs to be trained on a parallel corpus. In this paper we clean StackOverflow, one of the most popular online discussion forums for programmers, to generate a parallel English-Code corpus from Android posts. We contrast three data cleaning approaches: standard NLP, title only, and software task extraction. We evaluate the quality of the each corpus for MT. To provide indicators of how useful each corpus will be for machine translation, we provide researchers with measurements of the corpus size, percentage of unique tokens, and per-word maximum likelihood alignment entropy. We have used these corpus cleaning approaches to translate between English and Code [22, 23], to compare existing SMT approaches from word mapping to neural networks [24], and to re-examine the \"natural software\" hypothesis [29]. After cleaning and aligning the data, we create a simple maximum likelihood MT model to show that English words in the corpus map to a small number of specific code elements. This model provides a basis for the success of using StackOverflow for search and other tasks in the software engineering literature and paves the way for MT. Our scripts and corpora are publicly available on GitHub [1] as well as at https://search.datacite.org/works/10.5281/zenodo.2558551.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "144534738",
+            "name": "Musfiqur Rahman",
+            "url": "https://www.semanticscholar.org/author/144534738"
+        },
+        {
+            "authorId": "39374345",
+            "name": "Peter C. Rigby",
+            "url": "https://www.semanticscholar.org/author/39374345"
+        },
+        {
+            "authorId": "144154147",
+            "name": "Dharani Palani",
+            "url": "https://www.semanticscholar.org/author/144154147"
+        },
+        {
+            "authorId": "2327697",
+            "name": "T. Nguyen",
+            "url": "https://www.semanticscholar.org/author/2327697"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2111266522",
+                    "name": "Shafaq Khan"
+                },
+                {
+                    "authorId": "2305854465",
+                    "name": "Seyede Sanaz Jedari Jafari"
+                },
+                {
+                    "authorId": "2305859622",
+                    "name": "Neha Anand"
+                },
+                {
+                    "authorId": "2306416105",
+                    "name": "Xinyu Wang"
+                },
+                {
+                    "authorId": "2305854853",
+                    "name": "Yugapriya Shankar"
+                }
+            ],
+            "doi": "10.1145/3641032.3641057",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "7299d601a02671eee4737df04af1a3116e4b4453",
+            "title": "Stack Overflow Data Warehouse System",
+            "url": "https://www.semanticscholar.org/paper/7299d601a02671eee4737df04af1a3116e4b4453",
+            "venue": "ICISE",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "73768589",
+                    "name": "Ifeanyi G. Ndukwe"
+                },
+                {
+                    "authorId": "1716889",
+                    "name": "Sherlock A. Licorish"
+                },
+                {
+                    "authorId": "2494905",
+                    "name": "Amjed Tahir"
+                },
+                {
+                    "authorId": "145405338",
+                    "name": "Stephen G. MacDonell"
+                }
+            ],
+            "doi": "10.1016/j.jss.2022.111524",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c12e11c8dd468d2b0fab032a9dd250510b3daa60",
+            "title": "How have views on Software Quality differed over time? Research and practice viewpoints",
+            "url": "https://www.semanticscholar.org/paper/c12e11c8dd468d2b0fab032a9dd250510b3daa60",
+            "venue": "Journal of Systems and Software",
+            "year": 2022
+        },
+        {
+            "arxivId": "2204.00603",
+            "authors": [
+                {
+                    "authorId": "2154777922",
+                    "name": "Melanie Warrick"
+                },
+                {
+                    "authorId": "84101078",
+                    "name": "Samuel F. Rosenblatt"
+                },
+                {
+                    "authorId": "2232853",
+                    "name": "Jean-Gabriel Young"
+                },
+                {
+                    "authorId": "1413053668",
+                    "name": "Amanda Casari"
+                },
+                {
+                    "authorId": "2023694909",
+                    "name": "Laurent H'ebert-Dufresne"
+                },
+                {
+                    "authorId": "46370057",
+                    "name": "J. Bagrow"
+                }
+            ],
+            "doi": "10.1145/3524842.3528479",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fe8758048232d038e206eb15b6bfad0f8eca988b",
+            "title": "The OCEAN mailing list data set: Network analysis spanning mailing lists and code repositories",
+            "url": "https://www.semanticscholar.org/paper/fe8758048232d038e206eb15b6bfad0f8eca988b",
+            "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2103.01722",
+            "authors": [
+                {
+                    "authorId": "96214938",
+                    "name": "Hlib Babii"
+                },
+                {
+                    "authorId": "2051798865",
+                    "name": "Julian Aron Prenner"
+                },
+                {
+                    "authorId": "2051798996",
+                    "name": "Laurin Stricker"
+                },
+                {
+                    "authorId": "100721942",
+                    "name": "Anjan Karmakar"
+                },
+                {
+                    "authorId": "145565492",
+                    "name": "Andrea Janes"
+                },
+                {
+                    "authorId": "1853058",
+                    "name": "R. Robbes"
+                }
+            ],
+            "doi": "10.1109/ICSE-NIER52604.2021.00030",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "9252cc9ab878bc5a33235a19d27a8f92872bd244",
+            "title": "Mining Software Repositories with a Collaborative Heuristic Repository",
+            "url": "https://www.semanticscholar.org/paper/9252cc9ab878bc5a33235a19d27a8f92872bd244",
+            "venue": "2021 IEEE/ACM 43rd International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2004.05589",
+            "authors": [
+                {
+                    "authorId": "1583778267",
+                    "name": "Jithin Cheriyan"
+                },
+                {
+                    "authorId": "1736420",
+                    "name": "B. Savarimuthu"
+                },
+                {
+                    "authorId": "1707051",
+                    "name": "Stephen Cranefield"
+                }
+            ],
+            "doi": "10.1007/978-3-030-72376-7_2",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8ee1546db52786a710e77b9f17bfe49f034fab5e",
+            "title": "Norm violation in online communities - A study of Stack Overflow comments",
+            "url": "https://www.semanticscholar.org/paper/8ee1546db52786a710e77b9f17bfe49f034fab5e",
+            "venue": "COIN@AAMAS",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": "10.1109/msr45733.2019",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "de20e3a4dbd7d0d30eb4a5b46d6222ba827cf208",
+            "title": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "url": "https://www.semanticscholar.org/paper/de20e3a4dbd7d0d30eb4a5b46d6222ba827cf208",
+            "venue": "",
+            "year": 2019
+        }
+    ],
+    "corpusId": 195298503,
+    "doi": "10.1109/MSR.2019.00021",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 1,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 6,
+    "numCiting": 42,
+    "paperId": "a57131646a16445df5ddbc86da917fb497cc27da",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40982698",
+                    "name": "Will Briggs"
+                }
+            ],
+            "doi": "10.1007/978-1-4842-5187-4_20",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "586d988ca9ecabf842304bbd2a58477fe8f0f7e0",
+            "title": "Templates",
+            "url": "https://www.semanticscholar.org/paper/586d988ca9ecabf842304bbd2a58477fe8f0f7e0",
+            "venue": "C++20 for Lazy Programmers",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2054067373",
+                    "name": "M. Serrano"
+                },
+                {
+                    "authorId": "2014879",
+                    "name": "R. Findler"
+                }
+            ],
+            "doi": "10.1145/3373123",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "044d43edb63a7119efa6e1ba99b2ee64aa8c4886",
+            "title": "Replication package for",
+            "url": "https://www.semanticscholar.org/paper/044d43edb63a7119efa6e1ba99b2ee64aa8c4886",
+            "venue": "Artifact Digital Object Group",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144534738",
+                    "name": "Musfiqur Rahman"
+                },
+                {
+                    "authorId": "144154147",
+                    "name": "Dharani Palani"
+                },
+                {
+                    "authorId": "39374345",
+                    "name": "Peter C. Rigby"
+                }
+            ],
+            "doi": "10.1109/ICSE.2019.00022",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0f444967c164c4cd0d27400be383fd4329cedc64",
+            "title": "Natural Software Revisited",
+            "url": "https://www.semanticscholar.org/paper/0f444967c164c4cd0d27400be383fd4329cedc64",
+            "venue": "2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144659797",
+                    "name": "A. Nguyen"
+                },
+                {
+                    "authorId": "39374345",
+                    "name": "Peter C. Rigby"
+                },
+                {
+                    "authorId": "47523387",
+                    "name": "THANH VAN NGUYEN"
+                },
+                {
+                    "authorId": "144154147",
+                    "name": "Dharani Palani"
+                },
+                {
+                    "authorId": "7275295",
+                    "name": "Mark Karanfil"
+                },
+                {
+                    "authorId": "2327697",
+                    "name": "T. Nguyen"
+                }
+            ],
+            "doi": "10.1109/ICSME.2018.00029",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "739d86f0513b03df0a0d4e940b0dc62031b5dbae",
+            "title": "Statistical Translation of English Texts to API Code Templates",
+            "url": "https://www.semanticscholar.org/paper/739d86f0513b03df0a0d4e940b0dc62031b5dbae",
+            "venue": "2018 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144154147",
+                    "name": "Dharani Palani"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "8b38cb6f415423f51d5cfce8211f261371bc03eb",
+            "title": "Statistical Machine Translation of English Text to API Code Usages:A comparison of Word Map, Contextual Graph Ordering, Phrase-based, and Neural Network Translations",
+            "url": "https://www.semanticscholar.org/paper/8b38cb6f415423f51d5cfce8211f261371bc03eb",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": "1805.08949",
+            "authors": [
+                {
+                    "authorId": "38253388",
+                    "name": "Pengcheng Yin"
+                },
+                {
+                    "authorId": "2070544979",
+                    "name": "Bowen Deng"
+                },
+                {
+                    "authorId": "49824718",
+                    "name": "Edgar Chen"
+                },
+                {
+                    "authorId": "2434621",
+                    "name": "Bogdan Vasilescu"
+                },
+                {
+                    "authorId": "1700325",
+                    "name": "Graham Neubig"
+                }
+            ],
+            "doi": "10.1145/3196398.3196408",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1a53e7446274016f737236bdd48e3ff05d966384",
+            "title": "Learning to Mine Aligned Code and Natural Language Pairs from Stack Overflow",
+            "url": "https://www.semanticscholar.org/paper/1a53e7446274016f737236bdd48e3ff05d966384",
+            "venue": "2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR)",
+            "year": 2018
+        },
+        {
+            "arxivId": "1701.05648",
+            "authors": [
+                {
+                    "authorId": "2064477242",
+                    "name": "Brock Angus Campbell"
+                },
+                {
+                    "authorId": "1685418",
+                    "name": "Christoph Treude"
+                }
+            ],
+            "doi": "10.1109/ICSME.2017.56",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "29841cbce41dc3b8f52cefc6acd17fe73b8111c3",
+            "title": "NLP2Code: Code Snippet Content Assist via Natural Language Tasks",
+            "url": "https://www.semanticscholar.org/paper/29841cbce41dc3b8f52cefc6acd17fe73b8111c3",
+            "venue": "2017 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47523387",
+                    "name": "THANH VAN NGUYEN"
+                },
+                {
+                    "authorId": "39374345",
+                    "name": "Peter C. Rigby"
+                },
+                {
+                    "authorId": "144659797",
+                    "name": "A. Nguyen"
+                },
+                {
+                    "authorId": "7275295",
+                    "name": "Mark Karanfil"
+                },
+                {
+                    "authorId": "2327697",
+                    "name": "T. Nguyen"
+                }
+            ],
+            "doi": "10.1145/2950290.2983931",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "f641c4ef600897420f455953bea35f37556e4ba4",
+            "title": "T2API: synthesizing API code usage templates from English texts with statistical translation",
+            "url": "https://www.semanticscholar.org/paper/f641c4ef600897420f455953bea35f37556e4ba4",
+            "venue": "SIGSOFT FSE",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2619495",
+                    "name": "Kathryn T. Stolee"
+                },
+                {
+                    "authorId": "143754832",
+                    "name": "Sebastian G. Elbaum"
+                },
+                {
+                    "authorId": "145738070",
+                    "name": "Matthew B. Dwyer"
+                }
+            ],
+            "doi": "10.1016/j.jss.2015.04.081",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4311aa9a2fce08873dbc11bca71e8d19ac98e536",
+            "title": "Code search with input/output queries: Generalizing, ranking, and assessment",
+            "url": "https://www.semanticscholar.org/paper/4311aa9a2fce08873dbc11bca71e8d19ac98e536",
+            "venue": "J. Syst. Softw.",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2054548554",
+                    "name": "Christoffer Rosen"
+                },
+                {
+                    "authorId": "3318024",
+                    "name": "Emad Shihab"
+                }
+            ],
+            "doi": "10.1007/s10664-015-9379-3",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0e8cfc2364d89530fccc0c14411e6740e0e049a6",
+            "title": "What are mobile developers asking about? A large scale study using stack overflow",
+            "url": "https://www.semanticscholar.org/paper/0e8cfc2364d89530fccc0c14411e6740e0e049a6",
+            "venue": "Empirical Software Engineering",
+            "year": 2016
+        },
+        {
+            "arxivId": "1605.08535",
+            "authors": [
+                {
+                    "authorId": "48531491",
+                    "name": "Xiaodong Gu"
+                },
+                {
+                    "authorId": "46702864",
+                    "name": "Hongyu Zhang"
+                },
+                {
+                    "authorId": "46334641",
+                    "name": "D. Zhang"
+                },
+                {
+                    "authorId": "1787729",
+                    "name": "Sunghun Kim"
+                }
+            ],
+            "doi": "10.1145/2950290.2950334",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "e4a323a3a1ca5ff4cc2dd74ede65f48fd62b897b",
+            "title": "Deep API learning",
+            "url": "https://www.semanticscholar.org/paper/e4a323a3a1ca5ff4cc2dd74ede65f48fd62b897b",
+            "venue": "SIGSOFT FSE",
+            "year": 2016
+        },
+        {
+            "arxivId": "1511.08497",
+            "authors": [
+                {
+                    "authorId": "2780408",
+                    "name": "Mukund Raghothaman"
+                },
+                {
+                    "authorId": "2112557038",
+                    "name": "Yi Wei"
+                },
+                {
+                    "authorId": "1728524",
+                    "name": "Y. Hamadi"
+                }
+            ],
+            "doi": "10.1145/2884781.2884808",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "493ecb754c8c772e1e1f91e4330e631116e8ba87",
+            "title": "SWIM: Synthesizing What I Mean - Code Search and Idiomatic Snippet Synthesis",
+            "url": "https://www.semanticscholar.org/paper/493ecb754c8c772e1e1f91e4330e631116e8ba87",
+            "venue": "2016 IEEE/ACM 38th International Conference on Software Engineering (ICSE)",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1685418",
+                    "name": "Christoph Treude"
+                },
+                {
+                    "authorId": "1710587",
+                    "name": "M. Robillard"
+                },
+                {
+                    "authorId": "3076399",
+                    "name": "Barth\u00e9l\u00e9my Dagenais"
+                }
+            ],
+            "doi": "10.1109/TSE.2014.2387172",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "5d000699e161ed35a86c03ff8b9d522b82fb3e98",
+            "title": "Extracting Development Tasks to Navigate Software Documentation",
+            "url": "https://www.semanticscholar.org/paper/5d000699e161ed35a86c03ff8b9d522b82fb3e98",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143996875",
+                    "name": "S. Chowdhury"
+                },
+                {
+                    "authorId": "145369636",
+                    "name": "Abram Hindle"
+                }
+            ],
+            "doi": "10.1109/MSR.2015.54",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "f698672cc3a08a0d41bf53b3d5a571b3e647ebe9",
+            "title": "Mining StackOverflow to Filter Out Off-Topic IRC Discussion",
+            "url": "https://www.semanticscholar.org/paper/f698672cc3a08a0d41bf53b3d5a571b3e647ebe9",
+            "venue": "2015 IEEE/ACM 12th Working Conference on Mining Software Repositories",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2909321",
+                    "name": "Zhaopeng Tu"
+                },
+                {
+                    "authorId": "38319925",
+                    "name": "Z. Su"
+                },
+                {
+                    "authorId": "1730296",
+                    "name": "Premkumar T. Devanbu"
+                }
+            ],
+            "doi": "10.1145/2635868.2635875",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9ef911fea38b43aedad131d5d08efa6a1833d747",
+            "title": "On the localness of software",
+            "url": "https://www.semanticscholar.org/paper/9ef911fea38b43aedad131d5d08efa6a1833d747",
+            "venue": "SIGSOFT FSE",
+            "year": 2014
+        },
+        {
+            "arxivId": "1409.0473",
+            "authors": [
+                {
+                    "authorId": "3335364",
+                    "name": "Dzmitry Bahdanau"
+                },
+                {
+                    "authorId": "1979489",
+                    "name": "Kyunghyun Cho"
+                },
+                {
+                    "authorId": "1751762",
+                    "name": "Yoshua Bengio"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5",
+            "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "url": "https://www.semanticscholar.org/paper/fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5",
+            "venue": "ICLR",
+            "year": 2014
+        },
+        {
+            "arxivId": "1408.3731",
+            "authors": [
+                {
+                    "authorId": "2859818",
+                    "name": "Micha\u0142 Jungiewicz"
+                },
+                {
+                    "authorId": "1714331",
+                    "name": "Michal Lopuszynski"
+                }
+            ],
+            "doi": "10.1007/978-3-319-10888-9_7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "73ff8d08235d2a13a56ec9445a3a8acd4d8652f4",
+            "title": "Unsupervised Keyword Extraction from Polish Legal Texts",
+            "url": "https://www.semanticscholar.org/paper/73ff8d08235d2a13a56ec9445a3a8acd4d8652f4",
+            "venue": "PolTAL",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3308761",
+                    "name": "Anton Barua"
+                },
+                {
+                    "authorId": "1847208",
+                    "name": "Stephen W. Thomas"
+                },
+                {
+                    "authorId": "144890499",
+                    "name": "A. Hassan"
+                }
+            ],
+            "doi": "10.1007/s10664-012-9231-y",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6f471ab81a994c77a5d0336e03807bc6839261eb",
+            "title": "What are developers talking about? An analysis of topics and trends in Stack Overflow",
+            "url": "https://www.semanticscholar.org/paper/6f471ab81a994c77a5d0336e03807bc6839261eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "117886013",
+                    "name": "G. Pinto"
+                },
+                {
+                    "authorId": "1719483",
+                    "name": "F. C. Filho"
+                },
+                {
+                    "authorId": "2146399282",
+                    "name": "Yu David Liu"
+                }
+            ],
+            "doi": "10.1145/2597073.2597110",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "62bf3e6ec717c42f02d16e8f1d217ad776cdab6a",
+            "title": "Mining questions about software energy consumption",
+            "url": "https://www.semanticscholar.org/paper/62bf3e6ec717c42f02d16e8f1d217ad776cdab6a",
+            "venue": "MSR 2014",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2244001304",
+                    "name": "Hany Hassan"
+                },
+                {
+                    "authorId": "143758717",
+                    "name": "Kareem Darwish"
+                }
+            ],
+            "doi": "10.1007/978-3-642-45358-8_6",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "68514af8a4ab5c8a10a6fb9e1f61948a94d90281",
+            "title": "Statistical Machine Translation",
+            "url": "https://www.semanticscholar.org/paper/68514af8a4ab5c8a10a6fb9e1f61948a94d90281",
+            "venue": "NLP of Semitic Languages",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2434621",
+                    "name": "Bogdan Vasilescu"
+                },
+                {
+                    "authorId": "1747171",
+                    "name": "Alexander Serebrenik"
+                },
+                {
+                    "authorId": "1730296",
+                    "name": "Premkumar T. Devanbu"
+                },
+                {
+                    "authorId": "3179220",
+                    "name": "V. Filkov"
+                }
+            ],
+            "doi": "10.1145/2531602.2531659",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2022ba66b132cbfe22c74068f9edea6b5ec9516a",
+            "title": "How social Q&A sites are changing knowledge sharing in open source software communities",
+            "url": "https://www.semanticscholar.org/paper/2022ba66b132cbfe22c74068f9edea6b5ec9516a",
+            "venue": "CSCW",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2053678636",
+                    "name": "Edmund Wong"
+                },
+                {
+                    "authorId": "1410146355",
+                    "name": "Jinqiu Yang"
+                },
+                {
+                    "authorId": "144938015",
+                    "name": "Lin Tan"
+                }
+            ],
+            "doi": "10.1109/ASE.2013.6693113",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "600586ed0ca601a03f754463639b737861c5c994",
+            "title": "AutoComment: Mining question and answer sites for automatic comment generation",
+            "url": "https://www.semanticscholar.org/paper/600586ed0ca601a03f754463639b737861c5c994",
+            "venue": "2013 28th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39374345",
+                    "name": "Peter C. Rigby"
+                },
+                {
+                    "authorId": "1710587",
+                    "name": "M. Robillard"
+                }
+            ],
+            "doi": "10.1109/ICSE.2013.6606629",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "5fd3029b5fcbbaa55b17466c476dc7b41897d9c2",
+            "title": "Discovering essential code elements in informal documentation",
+            "url": "https://www.semanticscholar.org/paper/5fd3029b5fcbbaa55b17466c476dc7b41897d9c2",
+            "venue": "2013 35th International Conference on Software Engineering (ICSE)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2517154",
+                    "name": "Amiangshu Bosu"
+                },
+                {
+                    "authorId": "2783719",
+                    "name": "Christopher S. Corley"
+                },
+                {
+                    "authorId": "35829397",
+                    "name": "D. Heaton"
+                },
+                {
+                    "authorId": "39471884",
+                    "name": "Deb Chatterji"
+                },
+                {
+                    "authorId": "1680416",
+                    "name": "Jeffrey C. Carver"
+                },
+                {
+                    "authorId": "1679523",
+                    "name": "Nicholas A. Kraft"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624013",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "343edae0cab9a649ad61d1c5ce36b20b52ae66df",
+            "title": "Building reputation in StackOverflow: An empirical investigation",
+            "url": "https://www.semanticscholar.org/paper/343edae0cab9a649ad61d1c5ce36b20b52ae66df",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1767060",
+                    "name": "Luca Ponzanelli"
+                },
+                {
+                    "authorId": "1686038",
+                    "name": "Alberto Bacchelli"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                }
+            ],
+            "doi": "10.1109/ICSE.2013.6606701",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "218f9e89f2f585b184d928b08636d300e1307c7f",
+            "title": "Seahawk: Stack Overflow in the IDE",
+            "url": "https://www.semanticscholar.org/paper/218f9e89f2f585b184d928b08636d300e1307c7f",
+            "venue": "2013 35th International Conference on Software Engineering (ICSE)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2265947368",
+                    "name": "Shaowei Wang"
+                },
+                {
+                    "authorId": "2289100311",
+                    "name": "David Lo"
+                },
+                {
+                    "authorId": "1680504",
+                    "name": "Lingxiao Jiang"
+                }
+            ],
+            "doi": "10.1145/2480362.2480557",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "3f9eddc3860f31362b7c3fc607ad8871df242639",
+            "title": "An empirical study on developer interactions in StackOverflow",
+            "url": "https://www.semanticscholar.org/paper/3f9eddc3860f31362b7c3fc607ad8871df242639",
+            "venue": "SAC '13",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145701062",
+                    "name": "Oleksii Kononenko"
+                },
+                {
+                    "authorId": "2071884907",
+                    "name": "D. Dietrich"
+                },
+                {
+                    "authorId": "2111333766",
+                    "name": "Rahul Sharma"
+                },
+                {
+                    "authorId": "1789705",
+                    "name": "Reid Holmes"
+                }
+            ],
+            "doi": "10.1109/VLHCC.2012.6344497",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "7c21188f4d338d9dd3090c34f09c0d85379d25a4",
+            "title": "Automatically locating relevant programming help online",
+            "url": "https://www.semanticscholar.org/paper/7c21188f4d338d9dd3090c34f09c0d85379d25a4",
+            "venue": "2012 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC)",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1730296",
+                    "name": "Premkumar T. Devanbu"
+                }
+            ],
+            "doi": "10.1109/ICSE.2012.6227135",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "77bdb4c1117d72ad863845f35ba50929cb623776",
+            "title": "On the naturalness of software",
+            "url": "https://www.semanticscholar.org/paper/77bdb4c1117d72ad863845f35ba50929cb623776",
+            "venue": "2012 34th International Conference on Software Engineering (ICSE)",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3245570",
+                    "name": "Lena Mamykina"
+                },
+                {
+                    "authorId": "2918047",
+                    "name": "Bella Manoim"
+                },
+                {
+                    "authorId": "2113291",
+                    "name": "Manas Mittal"
+                },
+                {
+                    "authorId": "1686114",
+                    "name": "G. Hripcsak"
+                },
+                {
+                    "authorId": "28226629",
+                    "name": "Bjoern Hartmann"
+                }
+            ],
+            "doi": "10.1145/1978942.1979366",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c426ab1cb2e12a5d09110866fb0e77cc6fcfa632",
+            "title": "Design lessons from the fastest q&a site in the west",
+            "url": "https://www.semanticscholar.org/paper/c426ab1cb2e12a5d09110866fb0e77cc6fcfa632",
+            "venue": "CHI",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "38630019",
+                    "name": "Stuart J. Rose"
+                },
+                {
+                    "authorId": "32357099",
+                    "name": "Dave W. Engel"
+                },
+                {
+                    "authorId": "153529792",
+                    "name": "Nick Cramer"
+                },
+                {
+                    "authorId": "1936533",
+                    "name": "W. Cowley"
+                }
+            ],
+            "doi": "10.1002/9780470689646.CH1",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7e0006dc1972e276805d1bd6c5dc2813c7a6d824",
+            "title": "Automatic Keyword Extraction from Individual Documents",
+            "url": "https://www.semanticscholar.org/paper/7e0006dc1972e276805d1bd6c5dc2813c7a6d824",
+            "venue": "",
+            "year": 2010
+        },
+        {
+            "arxivId": "cs/0205028",
+            "authors": [
+                {
+                    "authorId": "3213150",
+                    "name": "E. Loper"
+                },
+                {
+                    "authorId": "2066194290",
+                    "name": "Steven Bird"
+                }
+            ],
+            "doi": "10.3115/1118108.1118117",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "77a02706edbdca6ad63ddf903ebd559dd7d423ac",
+            "title": "NLTK: The Natural Language Toolkit",
+            "url": "https://www.semanticscholar.org/paper/77a02706edbdca6ad63ddf903ebd559dd7d423ac",
+            "venue": "ACL 2006",
+            "year": 2002
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1741283",
+                    "name": "R. Barzilay"
+                },
+                {
+                    "authorId": "145590324",
+                    "name": "K. McKeown"
+                }
+            ],
+            "doi": "10.3115/1073012.1073020",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8d7a692d8763a38283db54e19f1dcc694a34e706",
+            "title": "Extracting Paraphrases from a Parallel Corpus",
+            "url": "https://www.semanticscholar.org/paper/8d7a692d8763a38283db54e19f1dcc694a34e706",
+            "venue": "ACL",
+            "year": 2001
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2057287718",
+                    "name": "M. Porter"
+                }
+            ],
+            "doi": "10.1108/EB046814",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a651bb7cc7fc68ece0cc66ab921486d163373385",
+            "title": "An algorithm for suffix stripping",
+            "url": "https://www.semanticscholar.org/paper/a651bb7cc7fc68ece0cc66ab921486d163373385",
+            "venue": "Program",
+            "year": 1997
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145595269",
+                    "name": "Satoshi Sato"
+                }
+            ],
+            "doi": "10.11501/3086459",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "bb495860bd5fb71b3b0faa64d2c989e9d06381eb",
+            "title": "Example-based machine translation",
+            "url": "https://www.semanticscholar.org/paper/bb495860bd5fb71b3b0faa64d2c989e9d06381eb",
+            "venue": "",
+            "year": 1992
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "107613423",
+                    "name": "Quinn Lanners"
+                },
+                {
+                    "authorId": "2320777285",
+                    "name": "Thomas Laurent"
+                }
+            ],
+            "doi": "10.1007/978-981-32-9748-7_1",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7ccad715e253b360c646c77876535ad56633d39c",
+            "title": "Neural Machine Translation",
+            "url": "https://www.semanticscholar.org/paper/7ccad715e253b360c646c77876535ad56633d39c",
+            "venue": "Springer Theses",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "70730705",
+                    "name": "Marie-Catherine de Marnee"
+                },
+                {
+                    "authorId": "144783904",
+                    "name": "Christopher D. Manning"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0ad0a038a0bd241561462a005742193a7c623478",
+            "title": "Stanford typed dependencies manual",
+            "url": "https://www.semanticscholar.org/paper/0ad0a038a0bd241561462a005742193a7c623478",
+            "venue": "",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1755162",
+                    "name": "Philipp Koehn"
+                }
+            ],
+            "doi": "10.1017/CBO9780511815829.006",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "03e8e2d626457807af217b4ca2127beef875a9e1",
+            "title": "Statistical Machine Translation: Phrase-Based Models",
+            "url": "https://www.semanticscholar.org/paper/03e8e2d626457807af217b4ca2127beef875a9e1",
+            "venue": "",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "21308992",
+                    "name": "Steven Bird"
+                }
+            ],
+            "doi": "10.3115/1225403.1225421",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6ed9417eaa7ee16f0563599829a061421a3e0563",
+            "title": "NLTK: The Natural Language Toolkit",
+            "url": "https://www.semanticscholar.org/paper/6ed9417eaa7ee16f0563599829a061421a3e0563",
+            "venue": "ACL",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1755162",
+                    "name": "Philipp Koehn"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "694b3c58712deefb59502847ba1b52b192c413e5",
+            "title": "Europarl: A Parallel Corpus for Statistical Machine Translation",
+            "url": "https://www.semanticscholar.org/paper/694b3c58712deefb59502847ba1b52b192c413e5",
+            "venue": "MTSUMMIT",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2854524",
+                    "name": "D. Turcato"
+                },
+                {
+                    "authorId": "2822470",
+                    "name": "F. Popowich"
+                }
+            ],
+            "doi": "10.1007/978-94-010-0181-6_2",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c5cd3bd420171237b6ba9953ed5b95205441cc88",
+            "title": "What is example-based machine translation?",
+            "url": "https://www.semanticscholar.org/paper/c5cd3bd420171237b6ba9953ed5b95205441cc88",
+            "venue": "MTSUMMIT",
+            "year": 2001
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "82323309",
+                    "name": "Karen Sparck Jones"
+                }
+            ],
+            "doi": "10.1007/978-0-585-35958-8_1",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "744569e1ff6377ba0b7e3a8e2bcd88ac94d9a02d",
+            "title": "Natural Language Processing: A Historical Review",
+            "url": "https://www.semanticscholar.org/paper/744569e1ff6377ba0b7e3a8e2bcd88ac94d9a02d",
+            "venue": "",
+            "year": 1994
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Interlinear bitext. Language Technology",
+            "url": "",
+            "venue": "",
+            "year": 1988
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "Cleaning StackOverflow for Machine Translation",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/a57131646a16445df5ddbc86da917fb497cc27da",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2019
+}

@@ -1,0 +1,865 @@
+{
+    "abstract": "Code review is an important practice that improves the overall quality of a proposed patch (i.e. code changes). While much research focused on tool-based code reviews (e.g. a Gerrit code review tool, GitHub), many traditional open-source software (OSS) projects still conduct code reviews through emails. However, due to the nature of unstructured email-based data, it can be challenging to mine email-based code reviews, hindering researchers from delving into the code review practice of such long-standing OSS projects. Therefore, this paper presents large-scale datasets of email-based code reviews of 167 projects across three OSS communities (i.e. Linux Kernel, OzLabs, and FFmpeg). We mined the data from Patchwork, a web-based patch-tracking system for email-based code review, and curated the data by grouping a submitted patch and its revised versions and grouping email aliases. Our datasets include a total of 4.2M patches with 2.1M patch groups and 169K email addresses belonging to 141K individuals. Our published artefacts include the datasets as well as a tool suite to crawl, curate, and store Patch-work data. With our datasets, future work can directly delve into an email-based code review practice of large OSS projects without additional effort in data collection and curation.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2307285550",
+            "name": "Mingzhao Liang",
+            "url": "https://www.semanticscholar.org/author/2307285550"
+        },
+        {
+            "authorId": "2969085",
+            "name": "Wachiraphan Charoenwet",
+            "url": "https://www.semanticscholar.org/author/2969085"
+        },
+        {
+            "authorId": "2352093",
+            "name": "Patanamon Thongtanunam",
+            "url": "https://www.semanticscholar.org/author/2352093"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [],
+    "corpusId": 270593974,
+    "doi": "10.1145/3643991.3644872",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 0,
+    "numCiting": 33,
+    "paperId": "692ee9e66215a71ce1a5d0bfe63560adff221628",
+    "references": [
+        {
+            "arxivId": "2203.07473",
+            "authors": [
+                {
+                    "authorId": "2737399",
+                    "name": "Gunnar Kudrjavets"
+                },
+                {
+                    "authorId": "1693689",
+                    "name": "Nachiappan Nagappan"
+                },
+                {
+                    "authorId": "40464536",
+                    "name": "Ayushi Rastogi"
+                }
+            ],
+            "doi": "10.1145/3524842.3528005",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6082d30a29b4cfe77d3fd2c37b2474fa648cec4d",
+            "title": "The Unexplored Treasure Trove of Phabricator Code Reviews",
+            "url": "https://www.semanticscholar.org/paper/6082d30a29b4cfe77d3fd2c37b2474fa648cec4d",
+            "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2203.05048",
+            "authors": [
+                {
+                    "authorId": "2737399",
+                    "name": "Gunnar Kudrjavets"
+                },
+                {
+                    "authorId": "2145751247",
+                    "name": "Aditya Kumar"
+                },
+                {
+                    "authorId": "1693689",
+                    "name": "Nachiappan Nagappan"
+                },
+                {
+                    "authorId": "40464536",
+                    "name": "Ayushi Rastogi"
+                }
+            ],
+            "doi": "10.1145/3524842.3528432",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "46b49047c2a809c3cf5447543b9289bdaa3ac43e",
+            "title": "Mining Code Review Data to Understand Waiting Times Between Acceptance and Merging: An Empirical Analysis",
+            "url": "https://www.semanticscholar.org/paper/46b49047c2a809c3cf5447543b9289bdaa3ac43e",
+            "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2352093",
+                    "name": "Patanamon Thongtanunam"
+                },
+                {
+                    "authorId": "144890499",
+                    "name": "A. Hassan"
+                }
+            ],
+            "doi": "10.1109/tse.2020.2964660",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ac8dc86bf3fae2ad5cfe2fe764261781c4a0ff92",
+            "title": "Review Dynamics and Their Impact on Software Quality",
+            "url": "https://www.semanticscholar.org/paper/ac8dc86bf3fae2ad5cfe2fe764261781c4a0ff92",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2152688335",
+                    "name": "Dong Wang"
+                },
+                {
+                    "authorId": "2074111478",
+                    "name": "Yuki Ueda"
+                },
+                {
+                    "authorId": "1680034",
+                    "name": "R. Kula"
+                },
+                {
+                    "authorId": "145682543",
+                    "name": "T. Ishio"
+                },
+                {
+                    "authorId": "144975613",
+                    "name": "Ken-ichi Matsumoto"
+                }
+            ],
+            "doi": "10.1016/J.JSS.2021.111009",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "102ba248cc8ca37ebf144ad04703afd4bd62b6dd",
+            "title": "Can we benchmark Code Review studies? A systematic mapping study of methodology, dataset, and metric",
+            "url": "https://www.semanticscholar.org/paper/102ba248cc8ca37ebf144ad04703afd4bd62b6dd",
+            "venue": "J. Syst. Softw.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2108.09905",
+            "authors": [
+                {
+                    "authorId": "145241390",
+                    "name": "Isabella Ferreira"
+                },
+                {
+                    "authorId": "2178714",
+                    "name": "Jinghui Cheng"
+                },
+                {
+                    "authorId": "143612725",
+                    "name": "Bram Adams"
+                }
+            ],
+            "doi": "10.1145/3479497",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "612fc38991b3c5ba8fb67f65000719bcc31c4e50",
+            "title": "The \"Shut the f**k up\" Phenomenon: Characterizing Incivility in Open Source Code Review Discussions",
+            "url": "https://www.semanticscholar.org/paper/612fc38991b3c5ba8fb67f65000719bcc31c4e50",
+            "venue": "Proc. ACM Hum. Comput. Interact.",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2361028",
+                    "name": "Umme Ayda Mannan"
+                },
+                {
+                    "authorId": "144743420",
+                    "name": "Iftekhar Ahmed"
+                },
+                {
+                    "authorId": "144040576",
+                    "name": "Carlos Jensen"
+                },
+                {
+                    "authorId": "2805449",
+                    "name": "A. Sarma"
+                }
+            ],
+            "doi": "10.1145/3368089.3409707",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9bd9fb27485cc14d048d3938225ebd4cabcc62c6",
+            "title": "On the relationship between design discussions and design quality: a case study of Apache projects",
+            "url": "https://www.semanticscholar.org/paper/9bd9fb27485cc14d048d3938225ebd4cabcc62c6",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34653632",
+                    "name": "Maria Caulo"
+                },
+                {
+                    "authorId": "144375145",
+                    "name": "B. Lin"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "1730059",
+                    "name": "G. Scanniello"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                }
+            ],
+            "doi": "10.1145/3387904.3389270",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c295cbbcf23b5873f0d976d757bb061ec4e8e70e",
+            "title": "Knowledge Transfer in Modern Code Review",
+            "url": "https://www.semanticscholar.org/paper/c295cbbcf23b5873f0d976d757bb061ec4e8e70e",
+            "venue": "2020 IEEE/ACM 28th International Conference on Program Comprehension (ICPC)",
+            "year": 2020
+        },
+        {
+            "arxivId": "1806.10277",
+            "authors": [
+                {
+                    "authorId": "51001352",
+                    "name": "Shade Ruangwan"
+                },
+                {
+                    "authorId": "2352093",
+                    "name": "Patanamon Thongtanunam"
+                },
+                {
+                    "authorId": "2385419",
+                    "name": "Akinori Ihara"
+                },
+                {
+                    "authorId": "144975613",
+                    "name": "Ken-ichi Matsumoto"
+                }
+            ],
+            "doi": "10.1007/s10664-018-9646-1",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7dd10da932363e29d6d76caf53da00eee1ed6548",
+            "title": "The impact of human factors on the participation decision of reviewers in modern code review",
+            "url": "https://www.semanticscholar.org/paper/7dd10da932363e29d6d76caf53da00eee1ed6548",
+            "venue": "Empirical Software Engineering",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2110180441",
+                    "name": "Yulin Xu"
+                },
+                {
+                    "authorId": "40318014",
+                    "name": "Minghui Zhou"
+                }
+            ],
+            "doi": "10.1145/3196398.3196475",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "91f3852ce194e09635375c09927851d637720f28",
+            "title": "A Multi-level Dataset of Linux Kernel Patchwork",
+            "url": "https://www.semanticscholar.org/paper/91f3852ce194e09635375c09927851d637720f28",
+            "venue": "2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "11009809",
+                    "name": "M. Paix\u00e3o"
+                },
+                {
+                    "authorId": "1824150",
+                    "name": "J. Krinke"
+                },
+                {
+                    "authorId": "7883212",
+                    "name": "Donggyun Han"
+                },
+                {
+                    "authorId": "145836176",
+                    "name": "M. Harman"
+                }
+            ],
+            "doi": "10.1145/3196398.3196466",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6110c3c38919b0f3371e45c8823b94fb83ffbf62",
+            "title": "CROP: Linking Code Reviews to Source Code Changes",
+            "url": "https://www.semanticscholar.org/paper/6110c3c38919b0f3371e45c8823b94fb83ffbf62",
+            "venue": "2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2352093",
+                    "name": "Patanamon Thongtanunam"
+                },
+                {
+                    "authorId": "1725534",
+                    "name": "Shane McIntosh"
+                },
+                {
+                    "authorId": "144890499",
+                    "name": "A. Hassan"
+                },
+                {
+                    "authorId": "1687605",
+                    "name": "Hajimu Iida"
+                }
+            ],
+            "doi": "10.1109/SANER.2018.8330241",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e65cc76dc3173658abb3c77dc5010546c6b79238",
+            "title": "Review participation in modern code review: An empirical study of the Android, Qt, and OpenStack projects (journal-first abstract)",
+            "url": "https://www.semanticscholar.org/paper/e65cc76dc3173658abb3c77dc5010546c6b79238",
+            "venue": "SANER",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2150438947",
+                    "name": "Xin Yang"
+                },
+                {
+                    "authorId": "1680034",
+                    "name": "R. Kula"
+                },
+                {
+                    "authorId": "143884632",
+                    "name": "Norihiro Yoshida"
+                },
+                {
+                    "authorId": "1687605",
+                    "name": "Hajimu Iida"
+                }
+            ],
+            "doi": "10.1145/2901739.2903504",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "75ed02717913c1bd147d196df2e77385dd109903",
+            "title": "Mining the Modern Code Review Repositories: A Dataset of People, Process and Product",
+            "url": "https://www.semanticscholar.org/paper/75ed02717913c1bd147d196df2e77385dd109903",
+            "venue": "2016 IEEE/ACM 13th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2352093",
+                    "name": "Patanamon Thongtanunam"
+                },
+                {
+                    "authorId": "1725534",
+                    "name": "Shane McIntosh"
+                },
+                {
+                    "authorId": "144890499",
+                    "name": "A. Hassan"
+                },
+                {
+                    "authorId": "1687605",
+                    "name": "Hajimu Iida"
+                }
+            ],
+            "doi": "10.1109/MSR.2015.23",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "44335cad5e13436cf75315e4d6be457b1faadc9b",
+            "title": "Investigating Code Review Practices in Defective Files: An Empirical Study of the Qt System",
+            "url": "https://www.semanticscholar.org/paper/44335cad5e13436cf75315e4d6be457b1faadc9b",
+            "venue": "2015 IEEE/ACM 12th Working Conference on Mining Software Repositories",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "38008881",
+                    "name": "Yujuan Jiang"
+                },
+                {
+                    "authorId": "143612725",
+                    "name": "Bram Adams"
+                },
+                {
+                    "authorId": "1703493",
+                    "name": "Foutse Khomh"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                }
+            ],
+            "doi": "10.1145/2652524.2652542",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2a3937fd61ac395602acc0b8f26df4ebc547636e",
+            "title": "Tracing back the history of commits in low-tech reviewing environments: a case study of the Linux kernel",
+            "url": "https://www.semanticscholar.org/paper/2a3937fd61ac395602acc0b8f26df4ebc547636e",
+            "venue": "ESEM '14",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39374345",
+                    "name": "Peter C. Rigby"
+                },
+                {
+                    "authorId": "145193818",
+                    "name": "C. Bird"
+                }
+            ],
+            "doi": "10.1145/2491411.2491444",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b726137451e8c5e962ad7597c71c912a682848bf",
+            "title": "Convergent contemporary software peer review practices",
+            "url": "https://www.semanticscholar.org/paper/b726137451e8c5e962ad7597c71c912a682848bf",
+            "venue": "ESEC/FSE 2013",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "38008881",
+                    "name": "Yujuan Jiang"
+                },
+                {
+                    "authorId": "143612725",
+                    "name": "Bram Adams"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624016",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "67ccad6ded2fc84491f96671469a55dbbca57239",
+            "title": "Will my patch make it? And how fast? Case study on the Linux kernel",
+            "url": "https://www.semanticscholar.org/paper/67ccad6ded2fc84491f96671469a55dbbca57239",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1686038",
+                    "name": "Alberto Bacchelli"
+                },
+                {
+                    "authorId": "145193818",
+                    "name": "C. Bird"
+                }
+            ],
+            "doi": "10.1109/ICSE.2013.6606617",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3ad467fe13ffa8ee705d62d8228a2c254a96f5bd",
+            "title": "Expectations, outcomes, and challenges of modern code review",
+            "url": "https://www.semanticscholar.org/paper/3ad467fe13ffa8ee705d62d8228a2c254a96f5bd",
+            "venue": "2013 35th International Conference on Software Engineering (ICSE)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3295108",
+                    "name": "Anja Guzzi"
+                },
+                {
+                    "authorId": "1686038",
+                    "name": "Alberto Bacchelli"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                },
+                {
+                    "authorId": "1775709",
+                    "name": "M. Pinzger"
+                },
+                {
+                    "authorId": "1737202",
+                    "name": "A. Deursen"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624039",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2684c9f7678172907a29854ea010e3edcbe9370c",
+            "title": "Communication in open source software development mailing lists",
+            "url": "https://www.semanticscholar.org/paper/2684c9f7678172907a29854ea010e3edcbe9370c",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624034",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2867eb64cc4bb1945363fdae12a168962ea823aa",
+            "title": "The GHTorent dataset and tool suite",
+            "url": "https://www.semanticscholar.org/paper/2867eb64cc4bb1945363fdae12a168962ea823aa",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "28356180",
+                    "name": "Kazuki Hamasaki"
+                },
+                {
+                    "authorId": "1680034",
+                    "name": "R. Kula"
+                },
+                {
+                    "authorId": "143884632",
+                    "name": "Norihiro Yoshida"
+                },
+                {
+                    "authorId": "23635036",
+                    "name": "Ana Erika Camargo Cruz"
+                },
+                {
+                    "authorId": "46891693",
+                    "name": "Kenji Fujiwara"
+                },
+                {
+                    "authorId": "1687605",
+                    "name": "Hajimu Iida"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624003",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e062d9ef26a07a9d8a0dd0a185b995f465011f16",
+            "title": "Who does what during a code review? Datasets of OSS peer review repositories",
+            "url": "https://www.semanticscholar.org/paper/e062d9ef26a07a9d8a0dd0a185b995f465011f16",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "117714834",
+                    "name": "Autumn R. Green"
+                }
+            ],
+            "doi": "10.1177/0886109912475159",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e29361991ef6cad180f5f4a29c1500ff71541d2c",
+            "title": "Patchwork",
+            "url": "https://www.semanticscholar.org/paper/e29361991ef6cad180f5f4a29c1500ff71541d2c",
+            "venue": "",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145193818",
+                    "name": "C. Bird"
+                },
+                {
+                    "authorId": "36210726",
+                    "name": "David S. Pattison"
+                },
+                {
+                    "authorId": "1401971414",
+                    "name": "R. D\u2019Souza"
+                },
+                {
+                    "authorId": "3179220",
+                    "name": "V. Filkov"
+                },
+                {
+                    "authorId": "1730296",
+                    "name": "Premkumar T. Devanbu"
+                }
+            ],
+            "doi": "10.1145/1453101.1453107",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9cf9bb212d73a54686181cc9ab4d3488204baac4",
+            "title": "Latent social structure in open source projects",
+            "url": "https://www.semanticscholar.org/paper/9cf9bb212d73a54686181cc9ab4d3488204baac4",
+            "venue": "SIGSOFT '08/FSE-16",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39374345",
+                    "name": "Peter C. Rigby"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "1734938",
+                    "name": "M. Storey"
+                }
+            ],
+            "doi": "10.1145/1368088.1368162",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "792ad2b182e426531259c82424390eaa97501f22",
+            "title": "Open source software peer review practices",
+            "url": "https://www.semanticscholar.org/paper/792ad2b182e426531259c82424390eaa97501f22",
+            "venue": "2008 ACM/IEEE 30th International Conference on Software Engineering",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145193818",
+                    "name": "C. Bird"
+                },
+                {
+                    "authorId": "2047076",
+                    "name": "A. Gourley"
+                },
+                {
+                    "authorId": "1730296",
+                    "name": "Premkumar T. Devanbu"
+                },
+                {
+                    "authorId": "40136143",
+                    "name": "Michael Gertz"
+                },
+                {
+                    "authorId": "145014504",
+                    "name": "A. Swaminathan"
+                }
+            ],
+            "doi": "10.1145/1137983.1138016",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ef17134a558ca3c70d3bd50670835b947f033afb",
+            "title": "Mining email social networks",
+            "url": "https://www.semanticscholar.org/paper/ef17134a558ca3c70d3bd50670835b947f033afb",
+            "venue": "MSR '06",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2113574100",
+                    "name": "Richard A. Baker"
+                }
+            ],
+            "doi": "10.1145/253228.253461",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c110fb7a634ccbb45886ae1e46210241eafdbfc5",
+            "title": "Code Reviews Enhance Software Quality",
+            "url": "https://www.semanticscholar.org/paper/c110fb7a634ccbb45886ae1e46210241eafdbfc5",
+            "venue": "Proceedings of the (19th) International Conference on Software Engineering",
+            "year": 1997
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145670758",
+                    "name": "Jacob Cohen"
+                }
+            ],
+            "doi": "10.1177/001316446002000104",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9e463eefadbcd336c69270a299666e4104d50159",
+            "title": "A Coefficient of Agreement for Nominal Scales",
+            "url": "https://www.semanticscholar.org/paper/9e463eefadbcd336c69270a299666e4104d50159",
+            "venue": "",
+            "year": 1960
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Django Framwork",
+            "url": "",
+            "venue": "djangoproject.com",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "LinuxKernelDocuments",
+            "url": "",
+            "venue": "kernel.org/doc/",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2024. Curated Email-Based",
+            "url": "",
+            "venue": "Code Reviews Datasets",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Process: The Comment model stores the comments (i.e. reply emails) exchanged between reviewers and contributors",
+            "url": "",
+            "venue": "The ExactBoWGroup model aggregates the patch groups (i.e. a patch and its revised versions) using the exact BoW approach",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2024. Tool Suite for Curated Email-Based Code Reviews Datasets",
+            "url": "",
+            "venue": "github",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "MSR \u201924, April 15\u201316, 2024, Lisbon, Portugal",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "license agreement with IEEE. Restrictions apply",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "Curated Email-Based Code Reviews Datasets",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/692ee9e66215a71ce1a5d0bfe63560adff221628",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2024
+}

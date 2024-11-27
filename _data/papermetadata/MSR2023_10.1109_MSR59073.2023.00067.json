@@ -1,0 +1,1108 @@
+{
+    "abstract": "Researchers apply machine-learning techniques for code smell detection to counter the subjectivity of many code smells. Such approaches need a large, manually annotated dataset for training and benchmarking. Existing literature offers a few datasets; however, they are small in size and, more importantly, do not focus on the subjective code snippets. In this paper, we present DACOS, a manually annotated dataset containing 10, 267 annotations for 5, 192 code snippets. The dataset targets three kinds of code smells at different granularity\u2013multifaceted abstraction, complex method, and long parameter list. The dataset is created in two phases. The first phase helps us identify the code snippets that are potentially subjective by determining the thresholds of metrics used to detect a smell. The second phase collects annotations for potentially subjective snippets. We also offer an extended dataset DACOSX that includes definitely benign and definitely smelly snippets by using the thresholds identified in the first phase. We have developed TAGMAN, a web application to help annotators view and mark the snippets one-by-one and record the provided annotations. We make the datasets and the web application accessible publicly. This dataset will help researchers working on smell detection techniques to build relevant and context-aware machine-learning models.",
+    "arxivId": "2303.08729",
+    "authors": [
+        {
+            "authorId": "2211603094",
+            "name": "Himesh Nandani",
+            "url": "https://www.semanticscholar.org/author/2211603094"
+        },
+        {
+            "authorId": "2211603201",
+            "name": "M. Saad",
+            "url": "https://www.semanticscholar.org/author/2211603201"
+        },
+        {
+            "authorId": "2007882123",
+            "name": "Tushar Sharma",
+            "url": "https://www.semanticscholar.org/author/2007882123"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2405.05541",
+            "authors": [
+                {
+                    "authorId": "2300370621",
+                    "name": "Philip Oliver"
+                },
+                {
+                    "authorId": "2300371031",
+                    "name": "Jens Dietrich"
+                },
+                {
+                    "authorId": "1741672",
+                    "name": "C. Anslow"
+                },
+                {
+                    "authorId": "2239110364",
+                    "name": "Michael Homer"
+                }
+            ],
+            "doi": "10.1145/3643991.3644912",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "aee4ae2631ef612458fead210ce214b3ffb1d6dd",
+            "title": "CrashJS: A NodeJS Benchmark for Automated Crash Reproduction",
+            "url": "https://www.semanticscholar.org/paper/aee4ae2631ef612458fead210ce214b3ffb1d6dd",
+            "venue": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2401.17967",
+            "authors": [
+                {
+                    "authorId": "2211603201",
+                    "name": "M. Saad"
+                },
+                {
+                    "authorId": "2241604728",
+                    "name": "Tushar Sharma"
+                }
+            ],
+            "doi": "10.48550/arXiv.2401.17967",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "53359cdac9d4bfe23ac758527a81532fd7194853",
+            "title": "CONCORD: Towards a DSL for Configurable Graph Code Representation",
+            "url": "https://www.semanticscholar.org/paper/53359cdac9d4bfe23ac758527a81532fd7194853",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2247396488",
+                    "name": "Ruchika Malhotra"
+                },
+                {
+                    "authorId": "2253870002",
+                    "name": "Bhawna Jain"
+                },
+                {
+                    "authorId": "1705734",
+                    "name": "Marouane Kessentini"
+                }
+            ],
+            "doi": "10.1007/s10586-023-04144-1",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "523db0edd77f02b89ce526721b4a16551bb2fba6",
+            "title": "Examining deep learning\u2019s capability to spot code smells: a systematic literature review",
+            "url": "https://www.semanticscholar.org/paper/523db0edd77f02b89ce526721b4a16551bb2fba6",
+            "venue": "Cluster Computing",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2211603094",
+                    "name": "Himesh Nandani"
+                },
+                {
+                    "authorId": "2211603201",
+                    "name": "M. Saad"
+                },
+                {
+                    "authorId": "2241604728",
+                    "name": "Tushar Sharma"
+                }
+            ],
+            "doi": "10.1109/SCAM59687.2023.00015",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f8fd0055941b9b07ebbe95bf443de9406355a2b2",
+            "title": "Calibrating Deep Learning-based Code Smell Detection using Human Feedback",
+            "url": "https://www.semanticscholar.org/paper/f8fd0055941b9b07ebbe95bf443de9406355a2b2",
+            "venue": "2023 IEEE 23rd International Working Conference on Source Code Analysis and Manipulation (SCAM)",
+            "year": 2023
+        }
+    ],
+    "corpusId": 257532359,
+    "doi": "10.1109/MSR59073.2023.00067",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 4,
+    "numCiting": 36,
+    "paperId": "3b046c2df579d0d2d6a4e5261a84d0a1fecae43f",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2200531224",
+                    "name": "Aurel Ikama"
+                },
+                {
+                    "authorId": "2200531263",
+                    "name": "Vincent Du"
+                },
+                {
+                    "authorId": "2200538849",
+                    "name": "Philippe Belias"
+                },
+                {
+                    "authorId": "1949900135",
+                    "name": "B. Muse"
+                },
+                {
+                    "authorId": "1703493",
+                    "name": "Foutse Khomh"
+                },
+                {
+                    "authorId": "1770180",
+                    "name": "Mohammad Hamdaqa"
+                }
+            ],
+            "doi": "10.1109/SCAM55253.2022.00012",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "fda93d48528926f867be51095f3e6608e7de3329",
+            "title": "Revisiting the Impact of Anti-patterns on Fault-Proneness: A Differentiated Replication",
+            "url": "https://www.semanticscholar.org/paper/fda93d48528926f867be51095f3e6608e7de3329",
+            "venue": "2022 IEEE 22nd International Working Conference on Source Code Analysis and Manipulation (SCAM)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2110.09610",
+            "authors": [
+                {
+                    "authorId": "2007882123",
+                    "name": "Tushar Sharma"
+                },
+                {
+                    "authorId": "3126897",
+                    "name": "M. Kechagia"
+                },
+                {
+                    "authorId": "2386975",
+                    "name": "Stefanos Georgiou"
+                },
+                {
+                    "authorId": "2054167519",
+                    "name": "Rohit Tiwari"
+                },
+                {
+                    "authorId": "2103653",
+                    "name": "Federica Sarro"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "416bb2238e92cc9c664bc932a5e968bf03bd2845",
+            "title": "A Survey on Machine Learning Techniques for Source Code Analysis",
+            "url": "https://www.semanticscholar.org/paper/416bb2238e92cc9c664bc932a5e968bf03bd2845",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2007882123",
+                    "name": "Tushar Sharma"
+                },
+                {
+                    "authorId": "1705734",
+                    "name": "Marouane Kessentini"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00080",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "7de56fac20a524015f9efc91edc98fbdf9245f02",
+            "title": "QScored: A Large Dataset of Code Smells and Quality Metrics",
+            "url": "https://www.semanticscholar.org/paper/7de56fac20a524015f9efc91edc98fbdf9245f02",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "10798107",
+                    "name": "Anderson G. Uch\u00f4a"
+                },
+                {
+                    "authorId": "143995009",
+                    "name": "Caio Barbosa"
+                },
+                {
+                    "authorId": "2849051",
+                    "name": "W. Oizumi"
+                },
+                {
+                    "authorId": "2008217779",
+                    "name": "Publio Blenilio"
+                },
+                {
+                    "authorId": "1446932831",
+                    "name": "Rafael Lima"
+                },
+                {
+                    "authorId": "144447774",
+                    "name": "Alessandro F. Garcia"
+                },
+                {
+                    "authorId": "2904472",
+                    "name": "C. I. M. Bezerra"
+                }
+            ],
+            "doi": "10.1109/ICSME46990.2020.00055",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9ffecaf51f7e1790808d604994d262b5b635715a",
+            "title": "How Does Modern Code Review Impact Software Design Degradation? An In-depth Empirical Study",
+            "url": "https://www.semanticscholar.org/paper/9ffecaf51f7e1790808d604994d262b5b635715a",
+            "venue": "2020 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2007882123",
+                    "name": "Tushar Sharma"
+                },
+                {
+                    "authorId": "144874426",
+                    "name": "Paramvir Singh"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09847-2",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d12410660e5f36439440262e73ee32e7c17e55b6",
+            "title": "An empirical investigation on the relationship between design and architecture smells",
+            "url": "https://www.semanticscholar.org/paper/d12410660e5f36439440262e73ee32e7c17e55b6",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1731361",
+                    "name": "L. Madeyski"
+                },
+                {
+                    "authorId": "113323742",
+                    "name": "T. Lewowski"
+                }
+            ],
+            "doi": "10.1145/3383219.3383264",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "384d33cbd39ad5ad48a3dc6c0712b20eb0285b45",
+            "title": "MLCQ: Industry-Relevant Code Smell Data Set",
+            "url": "https://www.semanticscholar.org/paper/384d33cbd39ad5ad48a3dc6c0712b20eb0285b45",
+            "venue": "EASE",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2849051",
+                    "name": "W. Oizumi"
+                },
+                {
+                    "authorId": "144745121",
+                    "name": "L. Sousa"
+                },
+                {
+                    "authorId": "115598091",
+                    "name": "Anderson Oliveira"
+                },
+                {
+                    "authorId": "2073631508",
+                    "name": "L. Carvalho"
+                },
+                {
+                    "authorId": "144447774",
+                    "name": "Alessandro F. Garcia"
+                },
+                {
+                    "authorId": "1776943",
+                    "name": "T. Colanzi"
+                },
+                {
+                    "authorId": "2807876",
+                    "name": "R. Oliveira"
+                }
+            ],
+            "doi": "10.1109/ISSRE.2019.00042",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "11d6d74133e4aeb0c69e7bb5910e3544c1dc1105",
+            "title": "On the Density and Diversity of Degradation Symptoms in Refactored Classes: A Multi-case Study",
+            "url": "https://www.semanticscholar.org/paper/11d6d74133e4aeb0c69e7bb5910e3544c1dc1105",
+            "venue": "2019 IEEE 30th International Symposium on Software Reliability Engineering (ISSRE)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3159714",
+                    "name": "A. Imran"
+                }
+            ],
+            "doi": "10.1109/ICSME.2019.00104",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d641957e668d34f5aec9bcbb52fe0eed4cee1e66",
+            "title": "Design Smell Detection and Analysis for Open Source Java Software",
+            "url": "https://www.semanticscholar.org/paper/d641957e668d34f5aec9bcbb52fe0eed4cee1e66",
+            "venue": "2019 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "133589335",
+                    "name": "Andre Eposhi"
+                },
+                {
+                    "authorId": "2849051",
+                    "name": "W. Oizumi"
+                },
+                {
+                    "authorId": "144447774",
+                    "name": "Alessandro F. Garcia"
+                },
+                {
+                    "authorId": "144745121",
+                    "name": "L. Sousa"
+                },
+                {
+                    "authorId": "2807876",
+                    "name": "R. Oliveira"
+                },
+                {
+                    "authorId": "115598091",
+                    "name": "Anderson Oliveira"
+                }
+            ],
+            "doi": "10.1109/ICPC.2019.00032",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "3842ccb5dbfd4c6edae24e3b07fac39c16d4a548",
+            "title": "Removal of Design Problems through Refactorings: Are We Looking at the Right Symptoms?",
+            "url": "https://www.semanticscholar.org/paper/3842ccb5dbfd4c6edae24e3b07fac39c16d4a548",
+            "venue": "2019 IEEE/ACM 27th International Conference on Program Comprehension (ICPC)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "133972345",
+                    "name": "Fabiano Pecorelli"
+                },
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                },
+                {
+                    "authorId": "50515157",
+                    "name": "Dario Di Nucci"
+                },
+                {
+                    "authorId": "145818752",
+                    "name": "A. D. Lucia"
+                }
+            ],
+            "doi": "10.1109/ICPC.2019.00023",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8ddeb64ffc060fabdf843f01b0d51b1d3d946f08",
+            "title": "Comparing Heuristic and Machine Learning Approaches for Metric-Based Code Smell Detection",
+            "url": "https://www.semanticscholar.org/paper/8ddeb64ffc060fabdf843f01b0d51b1d3d946f08",
+            "venue": "2019 IEEE/ACM 27th International Conference on Program Comprehension (ICPC)",
+            "year": 2019
+        },
+        {
+            "arxivId": "1904.03031",
+            "authors": [
+                {
+                    "authorId": "50847845",
+                    "name": "Tushar Sharma"
+                },
+                {
+                    "authorId": "2122187",
+                    "name": "V. Efstathiou"
+                },
+                {
+                    "authorId": "123396793",
+                    "name": "Panos Louridas"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1016/j.jss.2021.110936",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "97cec4d8591c27bf1a9346a0a520c82fe37061be",
+            "title": "On the Feasibility of Transfer-learning Code Smells using Deep Learning",
+            "url": "https://www.semanticscholar.org/paper/97cec4d8591c27bf1a9346a0a520c82fe37061be",
+            "venue": "J. Syst. Softw.",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50820097",
+                    "name": "Umberto Azadi"
+                },
+                {
+                    "authorId": "1695555",
+                    "name": "F. Fontana"
+                },
+                {
+                    "authorId": "145844143",
+                    "name": "M. Zanoni"
+                }
+            ],
+            "doi": "10.1145/3183440.3194974",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2fa10380425ef5f08a796a21264bae712ce683b3",
+            "title": "Poster: Machine Learning Based Code Smell Detection Through WekaNose",
+            "url": "https://www.semanticscholar.org/paper/2fa10380425ef5f08a796a21264bae712ce683b3",
+            "venue": "2018 IEEE/ACM 40th International Conference on Software Engineering: Companion (ICSE-Companion)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50515157",
+                    "name": "Dario Di Nucci"
+                },
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                },
+                {
+                    "authorId": "144273542",
+                    "name": "D. Tamburri"
+                },
+                {
+                    "authorId": "1747171",
+                    "name": "Alexander Serebrenik"
+                },
+                {
+                    "authorId": "145818752",
+                    "name": "A. D. Lucia"
+                }
+            ],
+            "doi": "10.1109/SANER.2018.8330266",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b4be98bf9a1a635cd9ab8d14560c8371ca12eaaa",
+            "title": "Detecting code smells using machine learning techniques: Are we there yet?",
+            "url": "https://www.semanticscholar.org/paper/b4be98bf9a1a635cd9ab8d14560c8371ca12eaaa",
+            "venue": "2018 IEEE 25th International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2007882123",
+                    "name": "Tushar Sharma"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1016/J.JSS.2017.12.034",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6fa6e56c6d57efd5e0fbbe61093c0a0bd32f73cc",
+            "title": "A survey on software smells",
+            "url": "https://www.semanticscholar.org/paper/6fa6e56c6d57efd5e0fbbe61093c0a0bd32f73cc",
+            "venue": "J. Syst. Softw.",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2007882123",
+                    "name": "Tushar Sharma"
+                },
+                {
+                    "authorId": "1792039",
+                    "name": "Marios Fragkoulis"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/ESEM.2017.57",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "4441b135aa0897a716d70c483c7a372ca843d1e9",
+            "title": "House of Cards: Code Smells in Open-Source C# Repositories",
+            "url": "https://www.semanticscholar.org/paper/4441b135aa0897a716d70c483c7a372ca843d1e9",
+            "venue": "2017 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                },
+                {
+                    "authorId": "145844143",
+                    "name": "M. Zanoni"
+                },
+                {
+                    "authorId": "1695555",
+                    "name": "F. Fontana"
+                },
+                {
+                    "authorId": "145818752",
+                    "name": "A. D. Lucia"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                }
+            ],
+            "doi": "10.1109/ICSME.2016.27",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5f7257acedae57a8d57a176e2500a750dbc5138b",
+            "title": "Smells Like Teen Spirit: Improving Bug Prediction Performance Using the Intensity of Code Smells",
+            "url": "https://www.semanticscholar.org/paper/5f7257acedae57a8d57a176e2500a750dbc5138b",
+            "venue": "2016 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2007882123",
+                    "name": "Tushar Sharma"
+                },
+                {
+                    "authorId": "1792039",
+                    "name": "Marios Fragkoulis"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1145/2901739.2901761",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "7b7d94ad155a9c0006cf45272d60a485359252ac",
+            "title": "Does Your Configuration Code Smell?",
+            "url": "https://www.semanticscholar.org/paper/7b7d94ad155a9c0006cf45272d60a485359252ac",
+            "venue": "2016 IEEE/ACM 13th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2007882123",
+                    "name": "Tushar Sharma"
+                },
+                {
+                    "authorId": "2068143948",
+                    "name": "Pratibha Mishra"
+                },
+                {
+                    "authorId": "2054167519",
+                    "name": "Rohit Tiwari"
+                }
+            ],
+            "doi": "10.1145/2896935.2896938",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "07757363e6c605d0aac057bad439eb34da011d41",
+            "title": "Designite - A Software Design Quality Assessment Tool",
+            "url": "https://www.semanticscholar.org/paper/07757363e6c605d0aac057bad439eb34da011d41",
+            "venue": "2016 IEEE/ACM 1st International Workshop on Bringing Architectural Design Thinking Into Developers' Daily Activities (BRIDGE)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3021119",
+                    "name": "Z. Soh"
+                },
+                {
+                    "authorId": "40340068",
+                    "name": "A. Yamashita"
+                },
+                {
+                    "authorId": "1703493",
+                    "name": "Foutse Khomh"
+                },
+                {
+                    "authorId": "1718050",
+                    "name": "Yann-Ga\u00ebl Gu\u00e9h\u00e9neuc"
+                }
+            ],
+            "doi": "10.1109/SANER.2016.103",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5c07b92d689a41db0ad3dacd147bd34d139edda9",
+            "title": "Do Code Smells Impact the Effort of Different Maintenance Programming Activities?",
+            "url": "https://www.semanticscholar.org/paper/5c07b92d689a41db0ad3dacd147bd34d139edda9",
+            "venue": "2016 IEEE 23rd International Conference on Software Analysis, Evolution, and Reengineering (SANER)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                },
+                {
+                    "authorId": "50515157",
+                    "name": "Dario Di Nucci"
+                },
+                {
+                    "authorId": "40626221",
+                    "name": "Michele Tufano"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                },
+                {
+                    "authorId": "145818752",
+                    "name": "A. D. Lucia"
+                }
+            ],
+            "doi": "10.1109/MSR.2015.69",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f768340825b252213bf55093feb7b572f4d4ae53",
+            "title": "Landfill: An Open Dataset of Code Smells with Public Evaluation",
+            "url": "https://www.semanticscholar.org/paper/f768340825b252213bf55093feb7b572f4d4ae53",
+            "venue": "2015 IEEE/ACM 12th Working Conference on Mining Software Repositories",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "48546c87b9666199e16f93a66b1d0b9d6bac115e",
+            "title": "Refactoring for Software Design Smells: Managing Technical Debt",
+            "url": "https://www.semanticscholar.org/paper/48546c87b9666199e16f93a66b1d0b9d6bac115e",
+            "venue": "",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143936625",
+                    "name": "T. Hall"
+                },
+                {
+                    "authorId": "2157501478",
+                    "name": "Min Zhang"
+                },
+                {
+                    "authorId": "143969104",
+                    "name": "David Bowes"
+                },
+                {
+                    "authorId": "144822987",
+                    "name": "Yi Sun"
+                }
+            ],
+            "doi": "10.1145/2629648",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f02f802b044aaf07d0e408bb91cab690d37dafc0",
+            "title": "Some Code Smells Have a Significant but Small Effect on Faults",
+            "url": "https://www.semanticscholar.org/paper/f02f802b044aaf07d0e408bb91cab690d37dafc0",
+            "venue": "TSEM",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1763625",
+                    "name": "Fehmi Jaafar"
+                },
+                {
+                    "authorId": "1718050",
+                    "name": "Yann-Ga\u00ebl Gu\u00e9h\u00e9neuc"
+                },
+                {
+                    "authorId": "1715658",
+                    "name": "Sylvie Hamel"
+                },
+                {
+                    "authorId": "1703493",
+                    "name": "Foutse Khomh"
+                }
+            ],
+            "doi": "10.1109/WCRE.2013.6671310",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e23a0695748dd0f84f6d2d406090c784e102880d",
+            "title": "Mining the relationship between anti-patterns dependencies and fault-proneness",
+            "url": "https://www.semanticscholar.org/paper/e23a0695748dd0f84f6d2d406090c784e102880d",
+            "venue": "2013 20th Working Conference on Reverse Engineering (WCRE)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "52099029",
+                    "name": "Dag I.K. Sj\u00f8berg"
+                },
+                {
+                    "authorId": "40340068",
+                    "name": "A. Yamashita"
+                },
+                {
+                    "authorId": "2766941",
+                    "name": "Bente Anda"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                },
+                {
+                    "authorId": "1724774",
+                    "name": "T. Dyb\u00e5"
+                }
+            ],
+            "doi": "10.1109/TSE.2012.89",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8b0197d7c528c72c2997ec09091956de29783da6",
+            "title": "Quantifying the Effect of Code Smells on Maintenance Effort",
+            "url": "https://www.semanticscholar.org/paper/8b0197d7c528c72c2997ec09091956de29783da6",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "2595813",
+                    "name": "A. Qusef"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                },
+                {
+                    "authorId": "145818752",
+                    "name": "A. D. Lucia"
+                },
+                {
+                    "authorId": "3408880",
+                    "name": "D. Binkley"
+                }
+            ],
+            "doi": "10.1109/ICSM.2012.6405253",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a888fdf12af8af7a1a80ddafad6834d479d12680",
+            "title": "An empirical analysis of the distribution of unit test smells and their impact on software maintenance",
+            "url": "https://www.semanticscholar.org/paper/a888fdf12af8af7a1a80ddafad6834d479d12680",
+            "venue": "2012 28th IEEE International Conference on Software Maintenance (ICSM)",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40340068",
+                    "name": "A. Yamashita"
+                },
+                {
+                    "authorId": "1762006",
+                    "name": "L. Moonen"
+                }
+            ],
+            "doi": "10.1109/ICSM.2012.6405287",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "579272b3e502457cff0f6bc72579ab0a5334a628",
+            "title": "Do code smells reflect important maintainability aspects?",
+            "url": "https://www.semanticscholar.org/paper/579272b3e502457cff0f6bc72579ab0a5334a628",
+            "venue": "2012 28th IEEE International Conference on Software Maintenance (ICSM)",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1703493",
+                    "name": "Foutse Khomh"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "1718050",
+                    "name": "Yann-Ga\u00ebl Gu\u00e9h\u00e9neuc"
+                },
+                {
+                    "authorId": "1692292",
+                    "name": "G. Antoniol"
+                }
+            ],
+            "doi": "10.1007/s10664-011-9171-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "261eb5329e09e5864920b55388e24b93d65ef460",
+            "title": "An exploratory study of the impact of antipatterns on class change- and fault-proneness",
+            "url": "https://www.semanticscholar.org/paper/261eb5329e09e5864920b55388e24b93d65ef460",
+            "venue": "Empirical Software Engineering",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2659140",
+                    "name": "M. Perepletchikov"
+                },
+                {
+                    "authorId": "32656646",
+                    "name": "C. Ryan"
+                }
+            ],
+            "doi": "10.1109/TSE.2010.61",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9701bee0b3359db65b18c4380cf2824b4c0c684e",
+            "title": "A Controlled Experiment for Evaluating the Impact of Coupling on the Maintainability of Service-Oriented Software",
+            "url": "https://www.semanticscholar.org/paper/9701bee0b3359db65b18c4380cf2824b4c0c684e",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145793072",
+                    "name": "N. Williams"
+                }
+            ],
+            "doi": "10.1016/j.cub.2008.12.014",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8a3bcd90e5f44b16d3606fe5d0ca75846be8baae",
+            "title": "Data set",
+            "url": "https://www.semanticscholar.org/paper/8a3bcd90e5f44b16d3606fe5d0ca75846be8baae",
+            "venue": "Current Biology",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Dacos - dataset",
+            "url": "",
+            "venue": "",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "searchgithubrepo - search github repositories",
+            "url": "",
+            "venue": "",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Codesplitjava",
+            "url": "",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "73048206",
+                    "name": "Alenezi Mamdouh"
+                },
+                {
+                    "authorId": "108299100",
+                    "name": "Z. Mohammad"
+                },
+                {
+                    "authorId": "108502938",
+                    "name": "Computer Faculty Member"
+                }
+            ],
+            "doi": "10.26634/JSE.12.4.14958",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "854e9909d7ba00e5b8d6c05f114377f71cdaaf7f",
+            "title": "AN EMPIRICAL STUDY OF BAD SMELLS DURING SOFTWARE EVOLUTION USING DESIGNITE TOOL",
+            "url": "https://www.semanticscholar.org/paper/854e9909d7ba00e5b8d6c05f114377f71cdaaf7f",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Refactoring: Improving the Design of Existing Programs",
+            "url": "",
+            "venue": "",
+            "year": 1999
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "A complexity measure",
+            "url": "",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 1976
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Github graphql api documentation",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "DACOS\u2014A Manually Annotated Dataset of Code Smells",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/3b046c2df579d0d2d6a4e5261a84d0a1fecae43f",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2023
+}

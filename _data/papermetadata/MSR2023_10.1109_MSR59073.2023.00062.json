@@ -1,0 +1,847 @@
+{
+    "abstract": "Software documentation is one of the critical aspects of a software project, that could support multiple tasks throughout the software development life-cycle. There is extensive research on understanding issues and challenges with existing documentation, which is typically available as readme files. In projects that support collaborative development, such as those on GitHub, other software artifacts such as commits, pull requests and issues, apart from the conventional readme files, wikis and source code comments, also contain useful information, that supports in understanding, using, extending and maintaining the project. However, we are not aware of any dataset that explicitly focuses on documentation-related information in multiple software artifacts such as readme files, commits and pull requests across a repository. To address this concern and to facilitate further research in software documentation, we present DocMine, as a dataset of documentation-related information, extracted from around 1.35M software artifacts in 950 GitHub repositories, spanning across four different programming languages. The dataset along with its documentation is made available in CSV and .sql formats at - https://doi.org/10.5281/zenodo.5195084.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "1395091002",
+            "name": "Akhila Sri Manasa Venigalla",
+            "url": "https://www.semanticscholar.org/author/1395091002"
+        },
+        {
+            "authorId": "1926332",
+            "name": "S. Chimalakonda",
+            "url": "https://www.semanticscholar.org/author/1926332"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2405.05541",
+            "authors": [
+                {
+                    "authorId": "2300370621",
+                    "name": "Philip Oliver"
+                },
+                {
+                    "authorId": "2300371031",
+                    "name": "Jens Dietrich"
+                },
+                {
+                    "authorId": "1741672",
+                    "name": "C. Anslow"
+                },
+                {
+                    "authorId": "2239110364",
+                    "name": "Michael Homer"
+                }
+            ],
+            "doi": "10.1145/3643991.3644912",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "aee4ae2631ef612458fead210ce214b3ffb1d6dd",
+            "title": "CrashJS: A NodeJS Benchmark for Automated Crash Reproduction",
+            "url": "https://www.semanticscholar.org/paper/aee4ae2631ef612458fead210ce214b3ffb1d6dd",
+            "venue": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+            "year": 2024
+        }
+    ],
+    "corpusId": 259835796,
+    "doi": "10.1109/MSR59073.2023.00062",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 1,
+    "numCiting": 25,
+    "paperId": "fa7ae1c4892eedc12504f2e66d094f5fb7e5379b",
+    "references": [
+        {
+            "arxivId": "2103.00881",
+            "authors": [
+                {
+                    "authorId": "1395091002",
+                    "name": "Akhila Sri Manasa Venigalla"
+                },
+                {
+                    "authorId": "1926332",
+                    "name": "S. Chimalakonda"
+                }
+            ],
+            "doi": "10.1109/ICSE-SEIS52602.2021.00018",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "762ad418e532ed784c22062251924ef043fe1eda",
+            "title": "Understanding Emotions of Developer Community Towards Software Documentation",
+            "url": "https://www.semanticscholar.org/paper/762ad418e532ed784c22062251924ef043fe1eda",
+            "venue": "2021 IEEE/ACM 43rd International Conference on Software Engineering: Software Engineering in Society (ICSE-SEIS)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2539239",
+                    "name": "Yiling Lou"
+                },
+                {
+                    "authorId": "115023982",
+                    "name": "Zhenpeng Chen"
+                },
+                {
+                    "authorId": "2007813499",
+                    "name": "Yanbin Cao"
+                },
+                {
+                    "authorId": "145478119",
+                    "name": "Dan Hao"
+                },
+                {
+                    "authorId": "144281339",
+                    "name": "Lu Zhang"
+                }
+            ],
+            "doi": "10.1145/3368089.3409760",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2763d80a50a9225028c2398175483a8f18e2f537",
+            "title": "Understanding build issue resolution in practice: symptoms and fix patterns",
+            "url": "https://www.semanticscholar.org/paper/2763d80a50a9225028c2398175483a8f18e2f537",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1926332",
+                    "name": "S. Chimalakonda"
+                },
+                {
+                    "authorId": "1395091002",
+                    "name": "Akhila Sri Manasa Venigalla"
+                }
+            ],
+            "doi": "10.1145/3368089.3417044",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e94ea05843c0adc3ba6e215e629ae7b3e8acd6e6",
+            "title": "Software documentation and augmented reality: love or arranged marriage?",
+            "url": "https://www.semanticscholar.org/paper/e94ea05843c0adc3ba6e215e629ae7b3e8acd6e6",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2020
+        },
+        {
+            "arxivId": "2007.10744",
+            "authors": [
+                {
+                    "authorId": "1685418",
+                    "name": "Christoph Treude"
+                },
+                {
+                    "authorId": "144658360",
+                    "name": "Justin Middleton"
+                },
+                {
+                    "authorId": "2469250",
+                    "name": "Thushari Atapattu"
+                }
+            ],
+            "doi": "10.1145/3368089.3417045",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "24452f54ee3a3adaf8ebecdcaac8b414e874c1b9",
+            "title": "Beyond accuracy: assessing software documentation quality",
+            "url": "https://www.semanticscholar.org/paper/24452f54ee3a3adaf8ebecdcaac8b414e874c1b9",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2151810172",
+                    "name": "Jian Zhang"
+                },
+                {
+                    "authorId": "2108599817",
+                    "name": "Xu Wang"
+                },
+                {
+                    "authorId": "46702864",
+                    "name": "Hongyu Zhang"
+                },
+                {
+                    "authorId": "145631821",
+                    "name": "Hailong Sun"
+                },
+                {
+                    "authorId": "2108871532",
+                    "name": "Xudong Liu"
+                }
+            ],
+            "doi": "10.1145/3377811.3380383",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "bd47bb8cdd749a3356149da6155d2dcd7458779f",
+            "title": "Retrieval-based Neural Source Code Summarization",
+            "url": "https://www.semanticscholar.org/paper/bd47bb8cdd749a3356149da6155d2dcd7458779f",
+            "venue": "2020 IEEE/ACM 42nd International Conference on Software Engineering (ICSE)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "32805864",
+                    "name": "Emad Aghajani"
+                },
+                {
+                    "authorId": "144116331",
+                    "name": "Csaba Nagy"
+                },
+                {
+                    "authorId": "1397411901",
+                    "name": "Mario Linares-V\u00e1squez"
+                },
+                {
+                    "authorId": "144968299",
+                    "name": "Laura Moreno"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                },
+                {
+                    "authorId": "144452954",
+                    "name": "D. Shepherd"
+                }
+            ],
+            "doi": "10.1145/3377811.3380405",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "01c2335c9e30965b291a27731bd355d1199da84f",
+            "title": "Software Documentation: The Practitioners' Perspective",
+            "url": "https://www.semanticscholar.org/paper/01c2335c9e30965b291a27731bd355d1199da84f",
+            "venue": "2020 IEEE/ACM 42nd International Conference on Software Engineering (ICSE)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "100615577",
+                    "name": "Mohammad Tahaei"
+                },
+                {
+                    "authorId": "2833225",
+                    "name": "Kami Vaniea"
+                },
+                {
+                    "authorId": "2362960",
+                    "name": "Naomi Saphra"
+                }
+            ],
+            "doi": "10.1145/3313831.3376768",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "de2f6ce6f2bbdfe0a359114e4c863b343fe9d3e9",
+            "title": "Understanding Privacy-Related Questions on Stack Overflow",
+            "url": "https://www.semanticscholar.org/paper/de2f6ce6f2bbdfe0a359114e4c863b343fe9d3e9",
+            "venue": "CHI",
+            "year": 2020
+        },
+        {
+            "arxivId": "2004.02843",
+            "authors": [
+                {
+                    "authorId": "31848670",
+                    "name": "Alexander LeClair"
+                },
+                {
+                    "authorId": "1612080889",
+                    "name": "S. Haque"
+                },
+                {
+                    "authorId": "3008832",
+                    "name": "Lingfei Wu"
+                },
+                {
+                    "authorId": "1725171",
+                    "name": "Collin McMillan"
+                }
+            ],
+            "doi": "10.1145/3387904.3389268",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c345b74be9f98cca9592cc376465118df5c9f2da",
+            "title": "Improved Code Summarization via a Graph Neural Network",
+            "url": "https://www.semanticscholar.org/paper/c345b74be9f98cca9592cc376465118df5c9f2da",
+            "venue": "2020 IEEE/ACM 28th International Conference on Program Comprehension (ICPC)",
+            "year": 2020
+        },
+        {
+            "arxivId": "2002.02707",
+            "authors": [
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                },
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1491707489",
+                    "name": "G. J. Dusing"
+                }
+            ],
+            "doi": "10.1145/3379597.3387499",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4f346ee669c7fe7c952cc01dfcc7fbbe7d6cc794",
+            "title": "A Complete Set of Related Git Repositories Identified via Community Detection Approaches Based on Shared Commits",
+            "url": "https://www.semanticscholar.org/paper/4f346ee669c7fe7c952cc01dfcc7fbbe7d6cc794",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1626086882",
+                    "name": "Marcus Vinicius Bertoncello"
+                },
+                {
+                    "authorId": "117886013",
+                    "name": "G. Pinto"
+                },
+                {
+                    "authorId": "2381447",
+                    "name": "I. Wiese"
+                },
+                {
+                    "authorId": "2091414",
+                    "name": "Igor Steinmacher"
+                }
+            ],
+            "doi": "10.1109/SANER48275.2020.9054855",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4c2cddcf44b10fba73063f7633af9c40493e1a31",
+            "title": "Pull Requests or Commits? Which Method Should We Use to Study Contributors' Behavior?",
+            "url": "https://www.semanticscholar.org/paper/4c2cddcf44b10fba73063f7633af9c40493e1a31",
+            "venue": "2020 IEEE 27th International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "32805864",
+                    "name": "Emad Aghajani"
+                },
+                {
+                    "authorId": "144116331",
+                    "name": "Csaba Nagy"
+                },
+                {
+                    "authorId": "1412295121",
+                    "name": "Olga Lucero Vega-M\u00e1rquez"
+                },
+                {
+                    "authorId": "1397411901",
+                    "name": "Mario Linares-V\u00e1squez"
+                },
+                {
+                    "authorId": "144968299",
+                    "name": "Laura Moreno"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                }
+            ],
+            "doi": "10.1109/ICSE.2019.00122",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "55b6029411225a6eee4f88b3fc4bf3869e667e01",
+            "title": "Software Documentation Issues Unveiled",
+            "url": "https://www.semanticscholar.org/paper/55b6029411225a6eee4f88b3fc4bf3869e667e01",
+            "venue": "2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE)",
+            "year": 2019
+        },
+        {
+            "arxivId": "1811.07643",
+            "authors": [
+                {
+                    "authorId": "145153225",
+                    "name": "H. Borges"
+                },
+                {
+                    "authorId": "1757592",
+                    "name": "M. T. Valente"
+                }
+            ],
+            "doi": "10.1016/j.jss.2018.09.016",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "98e267871e7f71b91910c42eb52709c9c8515dcb",
+            "title": "What's in a GitHub Star? Understanding Repository Starring Practices in a Social Coding Platform",
+            "url": "https://www.semanticscholar.org/paper/98e267871e7f71b91910c42eb52709c9c8515dcb",
+            "venue": "J. Syst. Softw.",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47111832",
+                    "name": "Yue Yu"
+                },
+                {
+                    "authorId": "46948203",
+                    "name": "Zhixing Li"
+                },
+                {
+                    "authorId": "143634613",
+                    "name": "Gang Yin"
+                },
+                {
+                    "authorId": "39082503",
+                    "name": "Tao Wang"
+                },
+                {
+                    "authorId": "143969934",
+                    "name": "Huaimin Wang"
+                }
+            ],
+            "doi": "10.1145/3196398.3196455",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "33dab73c106d9b4e50c272d829b5c3249a81293c",
+            "title": "A Dataset of Duplicate Pull-Requests in GitHub",
+            "url": "https://www.semanticscholar.org/paper/33dab73c106d9b4e50c272d829b5c3249a81293c",
+            "venue": "2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2110049191",
+                    "name": "Xing Hu"
+                },
+                {
+                    "authorId": "1410115257",
+                    "name": "Ge Li"
+                },
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                },
+                {
+                    "authorId": "1700880",
+                    "name": "Zhi Jin"
+                }
+            ],
+            "doi": "10.1145/3196321.3196334",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "15f16252af84a630f1f9442d4e0367b6fba089cf",
+            "title": "Deep Code Comment Generation",
+            "url": "https://www.semanticscholar.org/paper/15f16252af84a630f1f9442d4e0367b6fba089cf",
+            "venue": "2018 IEEE/ACM 26th International Conference on Program Comprehension (ICPC)",
+            "year": 2018
+        },
+        {
+            "arxivId": "1802.06997",
+            "authors": [
+                {
+                    "authorId": "35899298",
+                    "name": "Gede Artha Azriadi Prana"
+                },
+                {
+                    "authorId": "1685418",
+                    "name": "Christoph Treude"
+                },
+                {
+                    "authorId": "2121315",
+                    "name": "Ferdian Thung"
+                },
+                {
+                    "authorId": "2469250",
+                    "name": "Thushari Atapattu"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                }
+            ],
+            "doi": "10.1007/s10664-018-9660-3",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7cc4e9afe905cddabe1d36c5b1e63b5a3a909ca6",
+            "title": "Categorizing the Content of GitHub README Files",
+            "url": "https://www.semanticscholar.org/paper/7cc4e9afe905cddabe1d36c5b1e63b5a3a909ca6",
+            "venue": "Empirical Software Engineering",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                },
+                {
+                    "authorId": "2603954",
+                    "name": "P. Salza"
+                },
+                {
+                    "authorId": "9743854",
+                    "name": "Adelina Ciurumelea"
+                },
+                {
+                    "authorId": "3117169",
+                    "name": "Sebastiano Panichella"
+                },
+                {
+                    "authorId": "50355692",
+                    "name": "H. Gall"
+                },
+                {
+                    "authorId": "1760777",
+                    "name": "F. Ferrucci"
+                },
+                {
+                    "authorId": "145818752",
+                    "name": "A. D. Lucia"
+                }
+            ],
+            "doi": "10.1109/ICSE.2017.18",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4486cc6be8d0ed5f10745d725152136fbbfa4b63",
+            "title": "Recommending and Localizing Change Requests for Mobile Apps Based on User Reviews",
+            "url": "https://www.semanticscholar.org/paper/4486cc6be8d0ed5f10745d725152136fbbfa4b63",
+            "venue": "2017 IEEE/ACM 39th International Conference on Software Engineering (ICSE)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "9455254",
+                    "name": "M. Ohira"
+                },
+                {
+                    "authorId": "40293906",
+                    "name": "Yutaro Kashiwa"
+                },
+                {
+                    "authorId": "2775792",
+                    "name": "Yosuke Yamatani"
+                },
+                {
+                    "authorId": "3088751",
+                    "name": "Hayato Yoshiyuki"
+                },
+                {
+                    "authorId": "30339616",
+                    "name": "Yoshiya Maeda"
+                },
+                {
+                    "authorId": "1829238",
+                    "name": "Nachai Limsettho"
+                },
+                {
+                    "authorId": "47071405",
+                    "name": "K. Fujino"
+                },
+                {
+                    "authorId": "145050815",
+                    "name": "Hideaki Hata"
+                },
+                {
+                    "authorId": "2385419",
+                    "name": "Akinori Ihara"
+                },
+                {
+                    "authorId": "144975613",
+                    "name": "Ken-ichi Matsumoto"
+                }
+            ],
+            "doi": "10.1109/MSR.2015.78",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "32073cff67553fdad2b01c6fbb0dd4fd73b5508f",
+            "title": "A Dataset of High Impact Bugs: Manually-Classified Issue Reports",
+            "url": "https://www.semanticscholar.org/paper/32073cff67553fdad2b01c6fbb0dd4fd73b5508f",
+            "venue": "2015 IEEE/ACM 12th Working Conference on Mining Software Repositories",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "1702285",
+                    "name": "A. Zaidman"
+                }
+            ],
+            "doi": "10.1145/2597073.2597122",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0d855817b4218b87e5b58b05b039fee3ba108710",
+            "title": "A dataset for pull-based development research",
+            "url": "https://www.semanticscholar.org/paper/0d855817b4218b87e5b58b05b039fee3ba108710",
+            "venue": "MSR 2014",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624034",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2867eb64cc4bb1945363fdae12a168962ea823aa",
+            "title": "The GHTorent dataset and tool suite",
+            "url": "https://www.semanticscholar.org/paper/2867eb64cc4bb1945363fdae12a168962ea823aa",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1933707",
+                    "name": "C. J. Stettina"
+                },
+                {
+                    "authorId": "3325018",
+                    "name": "W. Heijstek"
+                }
+            ],
+            "doi": "10.1145/2038476.2038509",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f2417429068b90966ac687e83b7e8adc7f0c1075",
+            "title": "Necessary and neglected?: an empirical study of internal documentation in agile software development teams",
+            "url": "https://www.semanticscholar.org/paper/f2417429068b90966ac687e83b7e8adc7f0c1075",
+            "venue": "SIGDOC '11",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1734481",
+                    "name": "Eirini Kalliamvakou"
+                },
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "1715864",
+                    "name": "Kelly Blincoe"
+                },
+                {
+                    "authorId": "18264995",
+                    "name": "Leif Singer"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "1741744",
+                    "name": "D. Damian"
+                }
+            ],
+            "doi": "10.1145/2597073.2597074",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d80d307a463df3526bf12ef1974afa7352f7b863",
+            "title": "The promises and perils of mining GitHub",
+            "url": "https://www.semanticscholar.org/paper/d80d307a463df3526bf12ef1974afa7352f7b863",
+            "venue": "MSR 2014",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1395091002",
+                    "name": "Akhila Sri Manasa Venigalla"
+                },
+                {
+                    "authorId": "1926332",
+                    "name": "S. Chimalakonda"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2024.107425",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "face71a28d5f84627a387a007dc1ed1914910a8b",
+            "title": "An exploratory study of software artifacts on GitHub from the lens of documentation",
+            "url": "https://www.semanticscholar.org/paper/face71a28d5f84627a387a007dc1ed1914910a8b",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1875793",
+                    "name": "Golara Garousi"
+                },
+                {
+                    "authorId": "1761511",
+                    "name": "V. Garousi"
+                },
+                {
+                    "authorId": "1730441",
+                    "name": "G. Ruhe"
+                },
+                {
+                    "authorId": "2672962",
+                    "name": "Junji Zhi"
+                },
+                {
+                    "authorId": "37323364",
+                    "name": "M. Moussavi"
+                },
+                {
+                    "authorId": "153703985",
+                    "name": "Brian Smith"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2014.08.003",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1baf9ad8fb2dee22a002173cf15c50e69396ae6f",
+            "title": "Usage and usefulness of technical software documentation: An industrial case study",
+            "url": "https://www.semanticscholar.org/paper/1baf9ad8fb2dee22a002173cf15c50e69396ae6f",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Latent dirichlet allocation: extracting topics from software engineering data",
+            "url": "",
+            "venue": "The art and science of analyzing software data. Elsevier, 2015, pp. 139\u2013159.",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "70402715",
+                    "name": "Noela Jemutai Kipyegen"
+                },
+                {
+                    "authorId": "72349377",
+                    "name": "William Korir"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "15181463ffa167ba482a709e39afd98b7322c420",
+            "title": "Importance of Software Documentation",
+            "url": "https://www.semanticscholar.org/paper/15181463ffa167ba482a709e39afd98b7322c420",
+            "venue": "",
+            "year": 2013
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "DocMine: A Software Documentation-Related Dataset of 950 GitHub Repositories",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/fa7ae1c4892eedc12504f2e66d094f5fb7e5379b",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2023
+}

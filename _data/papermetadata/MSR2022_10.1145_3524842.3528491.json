@@ -1,0 +1,1021 @@
+{
+    "abstract": "We introduce a large-scale dataset of the complete texts of free/open source software (FOSS) license variants. To assemble it we have collected from the Software Heritage archive-the largest publicly available archive of FOSS source code with accompanying development history-all versions of files whose names are commonly used to convey licensing terms to software users and developers. The dataset consists of 6.5 million unique license files that can be used to conduct empirical studies on open source licensing, training of automated license classifiers, natural language processing (NLP) analyses of legal texts, as well as historical and phylogenetic studies on FOSS licensing. Additional metadata about shipped license files are also provided, making the dataset ready to use in various contexts; they include: file length measures, detected MIME type, detected SPDX license (using ScanCode), example origin (e.g., GitHub repository), oldest public commit in which the license appeared. The dataset is released as open data as an archive file containing all deduplicated license files, plus several portable CSV files for metadata, referencing files via cryptographic checksums.",
+    "arxivId": "2204.00256",
+    "authors": [
+        {
+            "authorId": "1682225",
+            "name": "Stefano Zacchiroli",
+            "url": "https://www.semanticscholar.org/author/1682225"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "31736099",
+                    "name": "Alessia Antelmi"
+                },
+                {
+                    "authorId": "1805776",
+                    "name": "M. Torquati"
+                },
+                {
+                    "authorId": "2295561799",
+                    "name": "Giacomo Corridori"
+                },
+                {
+                    "authorId": "2278866994",
+                    "name": "Daniele Gregori"
+                },
+                {
+                    "authorId": "2502327",
+                    "name": "Francesco Polzella"
+                },
+                {
+                    "authorId": "2489597",
+                    "name": "Gianmarco Spinatelli"
+                },
+                {
+                    "authorId": "2295126558",
+                    "name": "Marco Aldinucci"
+                }
+            ],
+            "doi": "10.1007/s11227-024-06069-x",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "dee0f554072910e8bd2b974466ef4ce8931a5b58",
+            "title": "Analyzing FOSS license usage in publicly available software at scale via the SWH-analytics framework",
+            "url": "https://www.semanticscholar.org/paper/dee0f554072910e8bd2b974466ef4ce8931a5b58",
+            "venue": "J. Supercomput.",
+            "year": 2024
+        },
+        {
+            "arxivId": "2403.14927",
+            "authors": [
+                {
+                    "authorId": "2243335814",
+                    "name": "Nathan Wintersgill"
+                },
+                {
+                    "authorId": "2243336470",
+                    "name": "Trevor Stalnaker"
+                },
+                {
+                    "authorId": "2293172797",
+                    "name": "Laura A. Heymann"
+                },
+                {
+                    "authorId": "2243336324",
+                    "name": "Oscar Chaparro"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                }
+            ],
+            "doi": "10.48550/arXiv.2403.14927",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2e39405cff8bb54c8f13ef0be32b40f67de46efe",
+            "title": "\"The Law Doesn't Work Like a Computer\": Exploring Software Licensing Issues Faced by Legal Practitioners",
+            "url": "https://www.semanticscholar.org/paper/2e39405cff8bb54c8f13ef0be32b40f67de46efe",
+            "venue": "Proc. ACM Softw. Eng.",
+            "year": 2024
+        },
+        {
+            "arxivId": "2310.10295",
+            "authors": [
+                {
+                    "authorId": "9381770",
+                    "name": "R. D. Cosmo"
+                },
+                {
+                    "authorId": "1682225",
+                    "name": "Stefano Zacchiroli"
+                }
+            ],
+            "doi": "10.1007/978-3-031-36060-2_2",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a5c4a50e7749ff6d4eb151773f1a5c1a5db62e94",
+            "title": "The Software Heritage Open Science Ecosystem",
+            "url": "https://www.semanticscholar.org/paper/a5c4a50e7749ff6d4eb151773f1a5c1a5db62e94",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": "2308.11258",
+            "authors": [
+                {
+                    "authorId": "1397826059",
+                    "name": "Jesus M. Gonzalez-Barahona"
+                },
+                {
+                    "authorId": "2066034130",
+                    "name": "Sergio Ra\u00fal Montes Le\u00f3n"
+                },
+                {
+                    "authorId": "143684601",
+                    "name": "G. Robles"
+                },
+                {
+                    "authorId": "1682225",
+                    "name": "Stefano Zacchiroli"
+                }
+            ],
+            "doi": "10.1007/s10664-023-10377-w",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "9e957d6b79a607544f29e10767898d52cca29271",
+            "title": "The software heritage license dataset (2022 edition)",
+            "url": "https://www.semanticscholar.org/paper/9e957d6b79a607544f29e10767898d52cca29271",
+            "venue": "Empirical Software Engineering",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2094922549",
+                    "name": "T. Wolter"
+                },
+                {
+                    "authorId": "2286393",
+                    "name": "Ann Barcomb"
+                },
+                {
+                    "authorId": "2905414",
+                    "name": "D. Riehle"
+                },
+                {
+                    "authorId": "50826696",
+                    "name": "Nikolay Harutyunyan"
+                }
+            ],
+            "doi": "10.1145/3571852",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "9ecdbed87f5ff7d5b79a73d6e5782c5a73c8e501",
+            "title": "Open Source License Inconsistencies on GitHub",
+            "url": "https://www.semanticscholar.org/paper/9ecdbed87f5ff7d5b79a73d6e5782c5a73c8e501",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2022
+        },
+        {
+            "arxivId": "2112.13217",
+            "authors": [
+                {
+                    "authorId": "1728942",
+                    "name": "D. Feitelson"
+                }
+            ],
+            "doi": "10.1016/j.jss.2023.111774",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3cd6f7d5ca85d62851049a598a980ce268cd0cb6",
+            "title": "\"We do not appreciate being experimented on\": Developer and Researcher Views on the Ethics of Experiments on Open-Source Projects",
+            "url": "https://www.semanticscholar.org/paper/3cd6f7d5ca85d62851049a598a980ce268cd0cb6",
+            "venue": "J. Syst. Softw.",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "31736099",
+                    "name": "Alessia Antelmi"
+                },
+                {
+                    "authorId": "1805776",
+                    "name": "M. Torquati"
+                },
+                {
+                    "authorId": "2278866994",
+                    "name": "Daniele Gregori"
+                },
+                {
+                    "authorId": "2502327",
+                    "name": "Francesco Polzella"
+                },
+                {
+                    "authorId": "2489597",
+                    "name": "Gianmarco Spinatelli"
+                },
+                {
+                    "authorId": "2250844920",
+                    "name": "M. Aldinucci"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "032a9054b887893245fe3a5252b2a213f1fbe5d0",
+            "title": "The SWH-Analytics Framework",
+            "url": "https://www.semanticscholar.org/paper/032a9054b887893245fe3a5252b2a213f1fbe5d0",
+            "venue": "itaDATA",
+            "year": 2023
+        }
+    ],
+    "corpusId": 247922555,
+    "doi": "10.1145/3524842.3528491",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 1,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 7,
+    "numCiting": 33,
+    "paperId": "924317e542cf8613b1fa9f4f8920fcc647d591e2",
+    "references": [
+        {
+            "arxivId": "2102.06390",
+            "authors": [
+                {
+                    "authorId": "2051206860",
+                    "name": "Thibault Allan\u00e7on"
+                },
+                {
+                    "authorId": "114748393",
+                    "name": "Antoine Pietri"
+                },
+                {
+                    "authorId": "1682225",
+                    "name": "Stefano Zacchiroli"
+                }
+            ],
+            "doi": "10.1109/ICSE-Companion52605.2021.00032",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0a22fe5e7fe74c9058aa7dcf8637eecad93f5ee7",
+            "title": "The Software Heritage Filesystem (SwhFS): Integrating Source Code Archival with Development",
+            "url": "https://www.semanticscholar.org/paper/0a22fe5e7fe74c9058aa7dcf8637eecad93f5ee7",
+            "venue": "2021 IEEE/ACM 43rd International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2011.08489",
+            "authors": [
+                {
+                    "authorId": "70360132",
+                    "name": "S. Phipps"
+                },
+                {
+                    "authorId": "1682225",
+                    "name": "Stefano Zacchiroli"
+                }
+            ],
+            "doi": "10.1109/MC.2020.3024403",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "cb5fd5d8dedcdbd61d20491f9d994c0d0bcb2e03",
+            "title": "Continuous Open Source License Compliance",
+            "url": "https://www.semanticscholar.org/paper/cb5fd5d8dedcdbd61d20491f9d994c0d0bcb2e03",
+            "venue": "Computer",
+            "year": 2020
+        },
+        {
+            "arxivId": "2010.16196",
+            "authors": [
+                {
+                    "authorId": "7777374",
+                    "name": "Yuxing Ma"
+                },
+                {
+                    "authorId": "8041820",
+                    "name": "Tapajit Dey"
+                },
+                {
+                    "authorId": "2065313146",
+                    "name": "Chris Bogart"
+                },
+                {
+                    "authorId": "3110752",
+                    "name": "Sadika Amreen"
+                },
+                {
+                    "authorId": "2091537692",
+                    "name": "Marat Valiev"
+                },
+                {
+                    "authorId": "1866565388",
+                    "name": "Adam Tutko"
+                },
+                {
+                    "authorId": "2081943297",
+                    "name": "David Kennard"
+                },
+                {
+                    "authorId": "2858102",
+                    "name": "R. Zaretzki"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09905-9",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "12404a5147b39e9a34849606bf2c056f84903c8d",
+            "title": "World of code: enabling a research workflow for mining and analyzing the universe of open source VCS data",
+            "url": "https://www.semanticscholar.org/paper/12404a5147b39e9a34849606bf2c056f84903c8d",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "147825896",
+                    "name": "Philippe Ombredanne"
+                }
+            ],
+            "doi": "10.1109/MC.2020.3011082",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5c26205200961a249496809c04275bb140ed071e",
+            "title": "Free and Open Source Software License Compliance: Tools for Software Composition Analysis",
+            "url": "https://www.semanticscholar.org/paper/5c26205200961a249496809c04275bb140ed071e",
+            "venue": "Computer",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50826696",
+                    "name": "Nikolay Harutyunyan"
+                }
+            ],
+            "doi": "10.1109/mc.2020.2983530",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9d6c40f2ba80395fafdd2688357d9b896a6ee4fd",
+            "title": "Managing Your Open Source Supply Chain-Why and How?",
+            "url": "https://www.semanticscholar.org/paper/9d6c40f2ba80395fafdd2688357d9b896a6ee4fd",
+            "venue": "Computer",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2056082988",
+                    "name": "Guillaume Rousseau"
+                },
+                {
+                    "authorId": "9381770",
+                    "name": "R. D. Cosmo"
+                },
+                {
+                    "authorId": "1682225",
+                    "name": "Stefano Zacchiroli"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09828-5",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "7e5f90d5a977ecb530d5f0247be7bbf165c7490e",
+            "title": "Software provenance tracking at the scale of public source code",
+            "url": "https://www.semanticscholar.org/paper/7e5f90d5a977ecb530d5f0247be7bbf165c7490e",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1733343",
+                    "name": "P. Boldi"
+                },
+                {
+                    "authorId": "114748393",
+                    "name": "Antoine Pietri"
+                },
+                {
+                    "authorId": "1737624",
+                    "name": "S. Vigna"
+                },
+                {
+                    "authorId": "1682225",
+                    "name": "Stefano Zacchiroli"
+                }
+            ],
+            "doi": "10.1109/SANER48275.2020.9054827",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "dc58afb0f08fafca65033146fb35eef9a445ba4c",
+            "title": "Ultra-Large-Scale Repository Analysis via Graph Compression",
+            "url": "https://www.semanticscholar.org/paper/dc58afb0f08fafca65033146fb35eef9a445ba4c",
+            "venue": "2020 IEEE 27th International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "114748393",
+                    "name": "Antoine Pietri"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                },
+                {
+                    "authorId": "1682225",
+                    "name": "Stefano Zacchiroli"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00030",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2f7e2700f241ca48b43c559583dd60ea47c59e43",
+            "title": "The Software Heritage Graph Dataset: Public Software Development Under One Roof",
+            "url": "https://www.semanticscholar.org/paper/2f7e2700f241ca48b43c559583dd60ea47c59e43",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "7209844",
+                    "name": "Y. Collet"
+                },
+                {
+                    "authorId": "2434592",
+                    "name": "M. Kucherawy"
+                }
+            ],
+            "doi": "10.17487/RFC8478",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "fc1b3de3edd9695154ccc53fe598f8a1553d5803",
+            "title": "Zstandard Compression and the application/zstd Media Type",
+            "url": "https://www.semanticscholar.org/paper/fc1b3de3edd9695154ccc53fe598f8a1553d5803",
+            "venue": "RFC",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "9381770",
+                    "name": "R. D. Cosmo"
+                },
+                {
+                    "authorId": "72310231",
+                    "name": "Morane Gruenpeter"
+                },
+                {
+                    "authorId": "1682225",
+                    "name": "Stefano Zacchiroli"
+                }
+            ],
+            "doi": "10.17605/OSF.IO/KDE56",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "8c3f80b7140a2ccc0bef2bad10f3d00e3e6aef56",
+            "title": "Identifiers for Digital Objects: The case of software source code preservation",
+            "url": "https://www.semanticscholar.org/paper/8c3f80b7140a2ccc0bef2bad10f3d00e3e6aef56",
+            "venue": "iPRES",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1964248",
+                    "name": "R. Gandhi"
+                },
+                {
+                    "authorId": "3226457",
+                    "name": "Matt Germonprez"
+                },
+                {
+                    "authorId": "2854197",
+                    "name": "Georg J. P. Link"
+                }
+            ],
+            "doi": "10.1145/3148330.3148333",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ac2028593f3e3ced2d88b00df44f6d31a9eb0ba4",
+            "title": "Open Data Standards for Open Source Software Risk Management Routines: An Examination of SPDX",
+            "url": "https://www.semanticscholar.org/paper/ac2028593f3e3ced2d88b00df44f6d31a9eb0ba4",
+            "venue": "GROUP",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "9381770",
+                    "name": "R. D. Cosmo"
+                },
+                {
+                    "authorId": "1682225",
+                    "name": "Stefano Zacchiroli"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "46b38ff701867c5f5c0436290b5ddaee1acd46a5",
+            "title": "Software Heritage: Why and How to Preserve Software Source Code",
+            "url": "https://www.semanticscholar.org/paper/46b38ff701867c5f5c0436290b5ddaee1acd46a5",
+            "venue": "iPRES",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2664645",
+                    "name": "Christopher Vendome"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "1781267",
+                    "name": "M. V\u00e1squez"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                }
+            ],
+            "doi": "10.1007/s10664-016-9438-4",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d8b238e2a7003c14527894d0681233db92868e23",
+            "title": "License usage and changes: a large-scale study on gitHub",
+            "url": "https://www.semanticscholar.org/paper/d8b238e2a7003c14527894d0681233db92868e23",
+            "venue": "Empirical Software Engineering",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2664645",
+                    "name": "Christopher Vendome"
+                },
+                {
+                    "authorId": "1781267",
+                    "name": "M. V\u00e1squez"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                }
+            ],
+            "doi": "10.1109/ICSE.2017.19",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4e3772f98d6b099cc578e0767af250a7bbe4c1e4",
+            "title": "Machine Learning-Based Detection of Open Source License Exceptions",
+            "url": "https://www.semanticscholar.org/paper/4e3772f98d6b099cc578e0767af250a7bbe4c1e4",
+            "venue": "2017 IEEE/ACM 39th International Conference on Software Engineering (ICSE)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2850502",
+                    "name": "Matthieu Caneill"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "1682225",
+                    "name": "Stefano Zacchiroli"
+                }
+            ],
+            "doi": "10.1007/s10664-016-9461-5",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "40857f9cf875c1856e28e907b35c18b1d0c841f3",
+            "title": "The Debsources Dataset: two decades of free and open source software",
+            "url": "https://www.semanticscholar.org/paper/40857f9cf875c1856e28e907b35c18b1d0c841f3",
+            "venue": "Empirical Software Engineering",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1403968560",
+                    "name": "Trevor Maryka"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "1401989901",
+                    "name": "Germ\u00e1n Poo-Caama\u00f1o"
+                }
+            ],
+            "doi": "10.1007/978-3-319-17837-0_14",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "242264d26972fcf1daf1d12ed93b35dab2c33f1a",
+            "title": "On the Variability of the BSD and MIT Licenses",
+            "url": "https://www.semanticscholar.org/paper/242264d26972fcf1daf1d12ed93b35dab2c33f1a",
+            "venue": "OSS",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48596247",
+                    "name": "Jonathan J. Oliver"
+                },
+                {
+                    "authorId": "145824419",
+                    "name": "C. Cheng"
+                },
+                {
+                    "authorId": "2048678045",
+                    "name": "Yanggui Chen"
+                }
+            ],
+            "doi": "10.1109/CTC.2013.9",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1f2f8a3b324fbc2a4c114b13a69b0b993768d315",
+            "title": "TLSH -- A Locality Sensitive Hash",
+            "url": "https://www.semanticscholar.org/paper/1f2f8a3b324fbc2a4c114b13a69b0b993768d315",
+            "venue": "2013 Fourth Cybercrime and Trustworthy Computing Workshop",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2012.6224294",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "de760552279b241976676f4723a159060a433198",
+            "title": "GHTorrent: Github's data from a firehose",
+            "url": "https://www.semanticscholar.org/paper/de760552279b241976676f4723a159060a433198",
+            "venue": "2012 9th IEEE Working Conference on Mining Software Repositories (MSR)",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                }
+            ],
+            "doi": "10.1109/MS.2012.50",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "711b25a6b06e48000b92eb26ed1e6cc6b94caf6d",
+            "title": "A Method for Open Source License Compliance of Java Applications",
+            "url": "https://www.semanticscholar.org/paper/711b25a6b06e48000b92eb26ed1e6cc6b94caf6d",
+            "venue": "IEEE Software",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48959635",
+                    "name": "Kate Stewart"
+                },
+                {
+                    "authorId": "70510230",
+                    "name": "Phil Odence"
+                },
+                {
+                    "authorId": "69528672",
+                    "name": "Esteban Rockett"
+                }
+            ],
+            "doi": "10.5033/IFOSSLR.V2I2.45",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f01b6465041085ffe1dc364ee4f88e5e4256d8aa",
+            "title": "Software Package Data Exchange (SPDX\u2122) Specification",
+            "url": "https://www.semanticscholar.org/paper/f01b6465041085ffe1dc364ee4f88e5e4256d8aa",
+            "venue": "",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2061022586",
+                    "name": "Yuki Manabe"
+                },
+                {
+                    "authorId": "33527192",
+                    "name": "Yasuhiro Hayase"
+                },
+                {
+                    "authorId": "144875558",
+                    "name": "Katsuro Inoue"
+                }
+            ],
+            "doi": "10.1145/1862372.1862391",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "91f0f911f02dfd11d14daa763b74f9f526424611",
+            "title": "Evolutional analysis of licenses in FOSS",
+            "url": "https://www.semanticscholar.org/paper/91f0f911f02dfd11d14daa763b74f9f526424611",
+            "venue": "IWPSE-EVOL '10",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "15635809",
+                    "name": "R. Gobeille"
+                }
+            ],
+            "doi": "10.1145/1370750.1370763",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "dd4c388b8402f3e63c64a4abd509407e1e6aef79",
+            "title": "The FOSSology project",
+            "url": "https://www.semanticscholar.org/paper/dd4c388b8402f3e63c64a4abd509407e1e6aef79",
+            "venue": "MSR '08",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2601421",
+                    "name": "Y. Shafranovich"
+                }
+            ],
+            "doi": "10.17487/RFC4180",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6c2f4cf9abb53f6dadd41c42e5acba2b8c15c592",
+            "title": "Common Format and MIME Type for Comma-Separated Values (CSV) Files",
+            "url": "https://www.semanticscholar.org/paper/6c2f4cf9abb53f6dadd41c42e5acba2b8c15c592",
+            "venue": "RFC",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49256117",
+                    "name": "Janet Hope"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "24395f581232fb892c6ba9ab97b94bb87cc42244",
+            "title": "Open Source Licensing",
+            "url": "https://www.semanticscholar.org/paper/24395f581232fb892c6ba9ab97b94bb87cc42244",
+            "venue": "",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "A Large-scale Dataset of (Open Source",
+            "url": "",
+            "venue": "License Text Variants",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2020 Open Source Security and Risk Analysis Report (OSSRA) . Technical Report",
+            "url": "",
+            "venue": "Synopsis",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "SPDX Workgroup",
+            "url": "",
+            "venue": "Software Package",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "file: determine file type",
+            "url": "",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49018948",
+                    "name": "Wes McKinney"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1a62eb61b2663f8135347171e30cb9dc0a8931b5",
+            "title": "pandas: a Foundational Python Library for Data Analysis and Statistics",
+            "url": "https://www.semanticscholar.org/paper/1a62eb61b2663f8135347171e30cb9dc0a8931b5",
+            "venue": "",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Intellectual property and open source: a practical guide to protecting code",
+            "url": "",
+            "venue": "",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "21308992",
+                    "name": "Steven Bird"
+                }
+            ],
+            "doi": "10.3115/1225403.1225421",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6ed9417eaa7ee16f0563599829a061421a3e0563",
+            "title": "NLTK: The Natural Language Toolkit",
+            "url": "https://www.semanticscholar.org/paper/6ed9417eaa7ee16f0563599829a061421a3e0563",
+            "venue": "ACL",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Open Source Initiative. 2022. Machine readable OSI license information",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "MSR \u201922, May 23\u201324, 2022, Pittsburgh, PA, USA",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Law",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "A Large-scale Dataset of (Open Source) License Text Variants",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/924317e542cf8613b1fa9f4f8920fcc647d591e2",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2022
+}

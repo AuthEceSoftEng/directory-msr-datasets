@@ -1,0 +1,1394 @@
+{
+    "abstract": "Scratch is increasingly popular, both as an introductory programming language and as a research target in the computing education research field. In this paper, we present a dataset of 250K recent Scratch projects from 100K different authors scraped from the Scratch project repository. We processed the projects' source code and metadata to encode them into a database that facilitates querying and further analysis. We further evaluated the projects in terms of programming skills and mastery, and included the project scoring results. The dataset enables the analysis of the source code of Scratch projects, of their quality characteristics, and of the programming skills that their authors exhibit. The dataset can be used for empirical research in software engineering and computing education.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "1689403",
+            "name": "Efthimia Aivaloglou",
+            "url": "https://www.semanticscholar.org/author/1689403"
+        },
+        {
+            "authorId": "1688711",
+            "name": "F. Hermans",
+            "url": "https://www.semanticscholar.org/author/1688711"
+        },
+        {
+            "authorId": "1403064976",
+            "name": "J. Moreno-Le\u00f3n",
+            "url": "https://www.semanticscholar.org/author/1403064976"
+        },
+        {
+            "authorId": "143684601",
+            "name": "G. Robles",
+            "url": "https://www.semanticscholar.org/author/143684601"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2213551652",
+                    "name": "Laura Caspari"
+                },
+                {
+                    "authorId": "2123209982",
+                    "name": "Luisa Greifenstein"
+                },
+                {
+                    "authorId": "2091813780",
+                    "name": "Ute Heuer"
+                },
+                {
+                    "authorId": "145507591",
+                    "name": "G. Fraser"
+                }
+            ],
+            "doi": "10.1145/3587102.3588836",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2f8d5361fed62cf37b09c9138006b6daf472967b",
+            "title": "ScratchLog: Live Learning Analytics for Scratch",
+            "url": "https://www.semanticscholar.org/paper/2f8d5361fed62cf37b09c9138006b6daf472967b",
+            "venue": "ITiCSE",
+            "year": 2023
+        },
+        {
+            "arxivId": "2304.08940",
+            "authors": [
+                {
+                    "authorId": "118902322",
+                    "name": "Isabella Gra\u00dfl"
+                },
+                {
+                    "authorId": "145507591",
+                    "name": "G. Fraser"
+                }
+            ],
+            "doi": "10.1109/ICSE-SEET58685.2023.00018",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "14c52cada2ec6f3cb3ca1e0227c31637412db4ba",
+            "title": "The ABC of Pair Programming: Gender-dependent Attitude, Behavior and Code of Young Learners",
+            "url": "https://www.semanticscholar.org/paper/14c52cada2ec6f3cb3ca1e0227c31637412db4ba",
+            "venue": "2023 IEEE/ACM 45th International Conference on Software Engineering: Software Engineering Education and Training (ICSE-SEET)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2126189949",
+                    "name": "Adrian A. de Freitas"
+                },
+                {
+                    "authorId": "37622168",
+                    "name": "Joel Coffman"
+                },
+                {
+                    "authorId": "1684341896",
+                    "name": "Michelle de Freitas"
+                },
+                {
+                    "authorId": "2155278988",
+                    "name": "Justin C. Wilson"
+                },
+                {
+                    "authorId": "2383160",
+                    "name": "Troy Weingart"
+                }
+            ],
+            "doi": "10.1145/3545945.3569822",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fd585ba7c0caf1a55e3b879d987e789238a53c5a",
+            "title": "FalconCode: A Multiyear Dataset of Python Code Samples from an Introductory Computer Science Course",
+            "url": "https://www.semanticscholar.org/paper/fd585ba7c0caf1a55e3b879d987e789238a53c5a",
+            "venue": "SIGCSE",
+            "year": 2023
+        },
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144679397",
+                    "name": "Neil C. C. Brown"
+                },
+                {
+                    "authorId": "1402245372",
+                    "name": "Pierre Weill-Tessier"
+                },
+                {
+                    "authorId": "2179743025",
+                    "name": "Maksymilian Sekula"
+                },
+                {
+                    "authorId": "2076377790",
+                    "name": "A. Costache"
+                },
+                {
+                    "authorId": "2736407",
+                    "name": "Michael K\u00f6lling"
+                }
+            ],
+            "doi": "10.1145/3551393",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "53d2ce74ed61e8bf337ba9a756af783551014da0",
+            "title": "Novice Use of the Java Programming Language",
+            "url": "https://www.semanticscholar.org/paper/53d2ce74ed61e8bf337ba9a756af783551014da0",
+            "venue": "ACM Trans. Comput. Educ.",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2114189487",
+                    "name": "Bo Jiang"
+                },
+                {
+                    "authorId": "144876311",
+                    "name": "Wei Zhao"
+                },
+                {
+                    "authorId": "3293660",
+                    "name": "X. Gu"
+                },
+                {
+                    "authorId": "1802861",
+                    "name": "Chengjiu Yin"
+                }
+            ],
+            "doi": "10.1007/s11423-021-10021-8",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "979d7a682dab0a80b3a2f7f7261d6d89457ad82c",
+            "title": "Understanding the relationship between computational thinking and computational participation: a case study from Scratch online community",
+            "url": "https://www.semanticscholar.org/paper/979d7a682dab0a80b3a2f7f7261d6d89457ad82c",
+            "venue": "Educational Technology Research and Development",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48442127",
+                    "name": "G. Troiano"
+                },
+                {
+                    "authorId": "2918207",
+                    "name": "Dylan G. M. Schouten"
+                },
+                {
+                    "authorId": "152440756",
+                    "name": "Michael P. Cassidy"
+                },
+                {
+                    "authorId": "1413927631",
+                    "name": "Eli Tucker-Raymond"
+                },
+                {
+                    "authorId": "2616379",
+                    "name": "G. Puttick"
+                },
+                {
+                    "authorId": "32498179",
+                    "name": "C. Harteveld"
+                }
+            ],
+            "doi": "10.1145/3410404.3414256",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9cd55bb3f988b211e2d9aa4c33965faafc3061c5",
+            "title": "Ice Paddles, CO2 Invaders, and Exploding Planets: How Young Students Transform Climate Science Into Serious Games",
+            "url": "https://www.semanticscholar.org/paper/9cd55bb3f988b211e2d9aa4c33965faafc3061c5",
+            "venue": "CHI PLAY",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2059018700",
+                    "name": "Nathalia Da Cruz Alves"
+                },
+                {
+                    "authorId": "146370881",
+                    "name": "Christiane Gresse von Wangenheim"
+                },
+                {
+                    "authorId": "2059018610",
+                    "name": "Jean Carlo Rossa Hauck"
+                }
+            ],
+            "doi": "10.1109/LACLO50806.2020.9381172",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d7b1dc8f2065ee304697d12b346d73e275d00c8d",
+            "title": "Teaching Programming to Novices: A Large-scale Analysis of App Inventor Projects",
+            "url": "https://www.semanticscholar.org/paper/d7b1dc8f2065ee304697d12b346d73e275d00c8d",
+            "venue": "2020 XV Conferencia Latinoamericana de Tecnologias de Aprendizaje (LACLO)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51501983",
+                    "name": "Max Kesselbacher"
+                },
+                {
+                    "authorId": "2003700819",
+                    "name": "Kevin Wiltschnig"
+                },
+                {
+                    "authorId": "1762310",
+                    "name": "A. Bollin"
+                }
+            ],
+            "doi": "10.1145/3421590.3421662",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "364a60ce8fdfeff30c942e9ed7997baade8a065d",
+            "title": "Block-based learning analytics repository and dashboard: towards an interface between researcher and educator",
+            "url": "https://www.semanticscholar.org/paper/364a60ce8fdfeff30c942e9ed7997baade8a065d",
+            "venue": "WiPSCE",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2114189680",
+                    "name": "Bo Jiang"
+                },
+                {
+                    "authorId": "2112453174",
+                    "name": "Simin Wu"
+                },
+                {
+                    "authorId": "1802861",
+                    "name": "Chengjiu Yin"
+                },
+                {
+                    "authorId": "2108784639",
+                    "name": "Haifeng Zhang"
+                }
+            ],
+            "doi": "10.1109/TLT.2020.3032980",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "6bb34be8f6bc4a7197ecf63d246d57e7eb661001",
+            "title": "Knowledge Tracing Within Single Programming Practice Using Problem-Solving Process Data",
+            "url": "https://www.semanticscholar.org/paper/6bb34be8f6bc4a7197ecf63d246d57e7eb661001",
+            "venue": "IEEE Transactions on Learning Technologies",
+            "year": 2020
+        },
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": "2006.11327",
+            "authors": [
+                {
+                    "authorId": "71703366",
+                    "name": "Nathalia da Cruz Alves"
+                },
+                {
+                    "authorId": "2355912",
+                    "name": "C. V. Wangenheim"
+                },
+                {
+                    "authorId": "38230143",
+                    "name": "J. Hauck"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3b4a412c526bb0ab2f57499a34e7ed7fd54e91b7",
+            "title": "A Large-scale Analysis of App Inventor Projects",
+            "url": "https://www.semanticscholar.org/paper/3b4a412c526bb0ab2f57499a34e7ed7fd54e91b7",
+            "venue": "ArXiv",
+            "year": 2020
+        },
+        {
+            "arxivId": "2112.00858",
+            "authors": [
+                {
+                    "authorId": "8185543",
+                    "name": "Christoph Fr\u00e4drich"
+                },
+                {
+                    "authorId": "1734973332",
+                    "name": "Florian Oberm\u00fcller"
+                },
+                {
+                    "authorId": "1734978809",
+                    "name": "Nina K\u00f6rber"
+                },
+                {
+                    "authorId": "2091813780",
+                    "name": "Ute Heuer"
+                },
+                {
+                    "authorId": "145507591",
+                    "name": "G. Fraser"
+                }
+            ],
+            "doi": "10.1145/3341525.3387389",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "616d6ef6354c01196cab3f5a9e8bebdfa2d838c0",
+            "title": "Common Bugs in Scratch Programs",
+            "url": "https://www.semanticscholar.org/paper/616d6ef6354c01196cab3f5a9e8bebdfa2d838c0",
+            "venue": "ITiCSE",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1845789350",
+                    "name": "Youhua Jiang"
+                },
+                {
+                    "authorId": "2111431631",
+                    "name": "Siyi Yan"
+                },
+                {
+                    "authorId": "2063066983",
+                    "name": "Peng Qi"
+                },
+                {
+                    "authorId": "48186839",
+                    "name": "Yan Sun"
+                }
+            ],
+            "doi": "10.1109/IWCMC48107.2020.9148105",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "547942e150aa3eeffce97c28d3e9c04df589c075",
+            "title": "Adapting to User Interest Drifts for Recommendations in Scratch",
+            "url": "https://www.semanticscholar.org/paper/547942e150aa3eeffce97c28d3e9c04df589c075",
+            "venue": "2020 International Wireless Communications and Mobile Computing (IWCMC)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3408286",
+                    "name": "Alaaeddin Swidan"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ff6d434c0875fb73ffd59bf98788747aa5de8011",
+            "title": "Challenges of end-user programmers : Reflections from two groups of end-users",
+            "url": "https://www.semanticscholar.org/paper/ff6d434c0875fb73ffd59bf98788747aa5de8011",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48442127",
+                    "name": "G. Troiano"
+                },
+                {
+                    "authorId": "29929346",
+                    "name": "Sam Snodgrass"
+                },
+                {
+                    "authorId": "1416355445",
+                    "name": "Erin\u00e7 Argimak"
+                },
+                {
+                    "authorId": "143684601",
+                    "name": "G. Robles"
+                },
+                {
+                    "authorId": "40633152",
+                    "name": "Gillian Smith"
+                },
+                {
+                    "authorId": "152440756",
+                    "name": "Michael P. Cassidy"
+                },
+                {
+                    "authorId": "1413927631",
+                    "name": "Eli Tucker-Raymond"
+                },
+                {
+                    "authorId": "2616379",
+                    "name": "G. Puttick"
+                },
+                {
+                    "authorId": "32498179",
+                    "name": "C. Harteveld"
+                }
+            ],
+            "doi": "10.1145/3311927.3323152",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "558bbc51a5b2d6805cd7a1d248d22e161cfc719b",
+            "title": "Is My Game OK Dr. Scratch?: Exploring Programming and Computational Thinking Development via Metrics in Student-Designed Serious Games for STEM",
+            "url": "https://www.semanticscholar.org/paper/558bbc51a5b2d6805cd7a1d248d22e161cfc719b",
+            "venue": "IDC",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "114986238",
+                    "name": "Simon P. Rose"
+                },
+                {
+                    "authorId": "145578287",
+                    "name": "M. Habgood"
+                },
+                {
+                    "authorId": "143947095",
+                    "name": "T. Jay"
+                }
+            ],
+            "doi": "10.1145/3290607.3312871",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "056292111a08395370d4cb037aa044875ac9c926",
+            "title": "Using Pirate Plunder to Develop Children's Abstraction Skills in Scratch",
+            "url": "https://www.semanticscholar.org/paper/056292111a08395370d4cb037aa044875ac9c926",
+            "venue": "CHI Extended Abstracts",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2113568932",
+                    "name": "Cong Peng"
+                },
+                {
+                    "authorId": "49696992",
+                    "name": "Y. Sun"
+                },
+                {
+                    "authorId": "2053308847",
+                    "name": "Wei Ren"
+                }
+            ],
+            "doi": "10.1109/ICCE-TW46550.2019.8991986",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "aa7d4f01a842beaf50733a878f28052577c18dd2",
+            "title": "A Multi-dimensional Dataset Construction Strategy for Scratch",
+            "url": "https://www.semanticscholar.org/paper/aa7d4f01a842beaf50733a878f28052577c18dd2",
+            "venue": "2019 IEEE International Conference on Consumer Electronics - Taiwan (ICCE-TW)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00085",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "43148fabe2636026e07ca04974aff40d204bfb6b",
+            "title": "Standing on Shoulders or Feet? The Usage of the MSR Data Papers",
+            "url": "https://www.semanticscholar.org/paper/43148fabe2636026e07ca04974aff40d204bfb6b",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1689403",
+                    "name": "Efthimia Aivaloglou"
+                },
+                {
+                    "authorId": "1688711",
+                    "name": "F. Hermans"
+                }
+            ],
+            "doi": "10.1145/3287324.3287358",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a4dafd31c21ac2849c4dd46c901f7f1625e954b8",
+            "title": "Early Programming Education and Career Orientation: The Effects of Gender, Self-Efficacy, Motivation and Stereotypes",
+            "url": "https://www.semanticscholar.org/paper/a4dafd31c21ac2849c4dd46c901f7f1625e954b8",
+            "venue": "SIGCSE",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3126585",
+                    "name": "Wanli Xing"
+                }
+            ],
+            "doi": "10.1080/10494820.2019.1573199",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c7ce26d5de55de8ad0d65b00b6d8cb77a75ec197",
+            "title": "Large-scale path modeling of remixing to computational thinking",
+            "url": "https://www.semanticscholar.org/paper/c7ce26d5de55de8ad0d65b00b6d8cb77a75ec197",
+            "venue": "Interact. Learn. Environ.",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "113298347",
+                    "name": "K. Amanullah"
+                },
+                {
+                    "authorId": "50524999",
+                    "name": "T. Bell"
+                }
+            ],
+            "doi": "10.1109/FIE.2018.8658821",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5c4337a4e3c73f41d976eae35ef86f557345335f",
+            "title": "Analysing Students\u2019 Scratch Programs and Addressing Issues using Elementary Patterns",
+            "url": "https://www.semanticscholar.org/paper/5c4337a4e3c73f41d976eae35ef86f557345335f",
+            "venue": "2018 IEEE Frontiers in Education Conference (FIE)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2073368149",
+                    "name": "Shuo Kong"
+                },
+                {
+                    "authorId": "2076366081",
+                    "name": "An Hua"
+                },
+                {
+                    "authorId": "2110588949",
+                    "name": "Hong Luo"
+                }
+            ],
+            "doi": "10.1109/ICCE-CHINA.2018.8448413",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ee6a858005ec67e40ea0a4d6e49d45a07b08e740",
+            "title": "Study on the Tutorial Efforts to Scratch Learning",
+            "url": "https://www.semanticscholar.org/paper/ee6a858005ec67e40ea0a4d6e49d45a07b08e740",
+            "venue": "2018 IEEE International Conference on Consumer Electronics-Taiwan (ICCE-TW)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "152904988",
+                    "name": "Leonel Vinicio Morales D\u00edaz"
+                },
+                {
+                    "authorId": "2068014161",
+                    "name": "Luis Felipe Ayala Lopez"
+                }
+            ],
+            "doi": "10.1145/3151470.3156639",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ee0871006d08647ba83a7059a62a020fbadaf44b",
+            "title": "A Classification of Programming Styles in Scratch",
+            "url": "https://www.semanticscholar.org/paper/ee0871006d08647ba83a7059a62a020fbadaf44b",
+            "venue": "CLIHC",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1862524",
+                    "name": "R. Holwerda"
+                },
+                {
+                    "authorId": "1688711",
+                    "name": "F. Hermans"
+                }
+            ],
+            "doi": "10.1109/BLOCKS.2017.8120408",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "902feb243a2a6e2aee9d3b6c7b8037f759707ef9",
+            "title": "Towards blocks-based prototyping of web applications",
+            "url": "https://www.semanticscholar.org/paper/902feb243a2a6e2aee9d3b6c7b8037f759707ef9",
+            "venue": "2017 IEEE Blocks and Beyond Workshop (B&B)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2075061801",
+                    "name": "D. V. D. Ende"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "279a1d7672b5e671c1ff0ed085b9ddb6072a2dc5",
+            "title": "Opleiding Informatica",
+            "url": "https://www.semanticscholar.org/paper/279a1d7672b5e671c1ff0ed085b9ddb6072a2dc5",
+            "venue": "",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "29846641",
+                    "name": "Sabiha Yeni"
+                },
+                {
+                    "authorId": "1688711",
+                    "name": "F. Hermans"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "32454266d841aa72f8e05597855d4d213668e14f",
+            "title": "Design of CoTAS: Automated Computational Thinking Assessment System",
+            "url": "https://www.semanticscholar.org/paper/32454266d841aa72f8e05597855d4d213668e14f",
+            "venue": "TACKLE@EC-TEL",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1770006",
+                    "name": "E. Patarakin"
+                },
+                {
+                    "authorId": "145924490",
+                    "name": "V. Burov"
+                },
+                {
+                    "authorId": "3084122",
+                    "name": "B. Yarmakhov"
+                }
+            ],
+            "doi": "10.1007/978-981-13-7361-9_9",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "793c6f95166b74fa2819fe0b148683dc6ee63e0f",
+            "title": "Computational Pedagogy: Thinking, Participation, Reflection",
+            "url": "https://www.semanticscholar.org/paper/793c6f95166b74fa2819fe0b148683dc6ee63e0f",
+            "venue": "Digital Turn in Schools\u2014Research, Policy, Practice",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "79542534",
+                    "name": "Emmy-Charlotte F\u00f6rster"
+                },
+                {
+                    "authorId": "2070217294",
+                    "name": "Klaus-Tycho F\u00f6rster"
+                },
+                {
+                    "authorId": "1728673",
+                    "name": "Thomas L\u00f6we"
+                }
+            ],
+            "doi": "10.1109/EDUCON.2018.8363411",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f63f98a136462e9eb5622877be9f3dc5627e32f2",
+            "title": "Teaching programming skills in primary school mathematics classes: An evaluation using game programming",
+            "url": "https://www.semanticscholar.org/paper/f63f98a136462e9eb5622877be9f3dc5627e32f2",
+            "venue": "2018 IEEE Global Engineering Education Conference (EDUCON)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2055703934",
+                    "name": "T. David"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f36d2f2b441d6e173ae512097e781df8155c4249",
+            "title": "Learning about Progression \u2013 Informing thinking about a Curriculum for Wales Explanatory",
+            "url": "https://www.semanticscholar.org/paper/f36d2f2b441d6e173ae512097e781df8155c4249",
+            "venue": "",
+            "year": 2018
+        }
+    ],
+    "corpusId": 549693,
+    "doi": "10.1109/MSR.2017.45",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 2,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 30,
+    "numCiting": 19,
+    "paperId": "2bbd9c0192040fda1714789339fb1858e2f9215f",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143684601",
+                    "name": "G. Robles"
+                },
+                {
+                    "authorId": "1403064976",
+                    "name": "J. Moreno-Le\u00f3n"
+                },
+                {
+                    "authorId": "1689403",
+                    "name": "Efthimia Aivaloglou"
+                },
+                {
+                    "authorId": "1688711",
+                    "name": "F. Hermans"
+                }
+            ],
+            "doi": "10.1109/IWSC.2017.7880506",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c02d33ecfc143cb603b1cd9193b5999544caff44",
+            "title": "Software clones in scratch projects: on the presence of copy-and-paste in computational thinking learning",
+            "url": "https://www.semanticscholar.org/paper/c02d33ecfc143cb603b1cd9193b5999544caff44",
+            "venue": "2017 IEEE 11th International Workshop on Software Clones (IWSC)",
+            "year": 2017
+        },
+        {
+            "arxivId": "1702.01184",
+            "authors": [
+                {
+                    "authorId": "37264444",
+                    "name": "Benjamin Mako Hill"
+                },
+                {
+                    "authorId": "1403171029",
+                    "name": "A. Monroy-Hern\u00e1ndez"
+                }
+            ],
+            "doi": "10.1038/sdata.2017.2",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1b02259c007486985394ab8bfc72c138b4b7fd31",
+            "title": "A longitudinal dataset of five years of public activity in the Scratch online community",
+            "url": "https://www.semanticscholar.org/paper/1b02259c007486985394ab8bfc72c138b4b7fd31",
+            "venue": "Scientific Data",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1689403",
+                    "name": "Efthimia Aivaloglou"
+                },
+                {
+                    "authorId": "1688711",
+                    "name": "F. Hermans"
+                }
+            ],
+            "doi": "10.1145/2960310.2960325",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "fec8b2b18097add64530e66ee37d376de290aa9b",
+            "title": "How Kids Code and How We Know: An Exploratory Study on the Scratch Repository",
+            "url": "https://www.semanticscholar.org/paper/fec8b2b18097add64530e66ee37d376de290aa9b",
+            "venue": "ICER",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1688711",
+                    "name": "F. Hermans"
+                },
+                {
+                    "authorId": "1689403",
+                    "name": "Efthimia Aivaloglou"
+                }
+            ],
+            "doi": "10.1109/ICPC.2016.7503706",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6ca49f01da2d755e7ca41391ff3c7968d5ce19d9",
+            "title": "Do code smells hamper novice programming? A controlled experiment on Scratch programs",
+            "url": "https://www.semanticscholar.org/paper/6ca49f01da2d755e7ca41391ff3c7968d5ce19d9",
+            "venue": "2016 IEEE 24th International Conference on Program Comprehension (ICPC)",
+            "year": 2016
+        },
+        {
+            "arxivId": "1605.08766",
+            "authors": [
+                {
+                    "authorId": "39982990",
+                    "name": "Sayamindu Dasgupta"
+                },
+                {
+                    "authorId": "1905073793",
+                    "name": "W. Hale"
+                },
+                {
+                    "authorId": "1403171029",
+                    "name": "A. Monroy-Hern\u00e1ndez"
+                },
+                {
+                    "authorId": "37264444",
+                    "name": "Benjamin Mako Hill"
+                }
+            ],
+            "doi": "10.1145/2818048.2819984",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "bb48334cfcad6ae2a5145079bfb83b9075b9665d",
+            "title": "Remixing as a Pathway to Computational Thinking",
+            "url": "https://www.semanticscholar.org/paper/bb48334cfcad6ae2a5145079bfb83b9075b9665d",
+            "venue": "CSCW",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1403064976",
+                    "name": "J. Moreno-Le\u00f3n"
+                },
+                {
+                    "authorId": "143684601",
+                    "name": "G. Robles"
+                },
+                {
+                    "authorId": "1387447295",
+                    "name": "Marcos Rom\u00e1n-Gonz\u00e1lez"
+                }
+            ],
+            "doi": "10.6018/red/46/10",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "10e1213d9993444c1e5d67248dc54d38a82be54c",
+            "title": "Dr. Scratch : an\u00e1lisis autom\u00e1tico de proyectos Scratch para evaluar y fomentar el pensamiento computacional",
+            "url": "https://www.semanticscholar.org/paper/10e1213d9993444c1e5d67248dc54d38a82be54c",
+            "venue": "",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "7388913",
+                    "name": "Seungwon Yang"
+                },
+                {
+                    "authorId": "1741392",
+                    "name": "C. Domeniconi"
+                },
+                {
+                    "authorId": "31856639",
+                    "name": "Matt Revelle"
+                },
+                {
+                    "authorId": "35584929",
+                    "name": "Mack Sweeney"
+                },
+                {
+                    "authorId": "51204084",
+                    "name": "Ben U. Gelman"
+                },
+                {
+                    "authorId": "3136225",
+                    "name": "Chris Beckley"
+                },
+                {
+                    "authorId": "1710392",
+                    "name": "A. Johri"
+                }
+            ],
+            "doi": "10.1145/2724660.2724674",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d8f09218c4afde4925b0ad4c932b29cf8d7a20ee",
+            "title": "Uncovering Trajectories of Informal Learning in Large Online Communities of Creators",
+            "url": "https://www.semanticscholar.org/paper/d8f09218c4afde4925b0ad4c932b29cf8d7a20ee",
+            "venue": "L@S",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145032340",
+                    "name": "D. Fields"
+                },
+                {
+                    "authorId": "2576129",
+                    "name": "M. Giang"
+                },
+                {
+                    "authorId": "1726545",
+                    "name": "Y. Kafai"
+                }
+            ],
+            "doi": "10.1145/2670757.2670768",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f3008acc2469a6d05b517a9247806f3c08d9b1f6",
+            "title": "Programming in the wild: trends in youth computational participation in the online scratch community",
+            "url": "https://www.semanticscholar.org/paper/f3008acc2469a6d05b517a9247806f3c08d9b1f6",
+            "venue": "WiPSCE",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1403064976",
+                    "name": "J. Moreno-Le\u00f3n"
+                },
+                {
+                    "authorId": "143684601",
+                    "name": "G. Robles"
+                }
+            ],
+            "doi": "10.1109/FIE.2014.7044055",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "3d4fa05f3c05b3d727b41ad8c51e5b60b9906c0b",
+            "title": "Automatic detection of bad programming habits in scratch: A preliminary study",
+            "url": "https://www.semanticscholar.org/paper/3d4fa05f3c05b3d727b41ad8c51e5b60b9906c0b",
+            "venue": "2014 IEEE Frontiers in Education Conference (FIE) Proceedings",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3033976",
+                    "name": "L. Seiter"
+                },
+                {
+                    "authorId": "2165609",
+                    "name": "B. Foreman"
+                }
+            ],
+            "doi": "10.1145/2493394.2493403",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "dd2393f444aa875a341ddf32249381f6d1cd36b8",
+            "title": "Modeling the learning progressions of computational thinking of primary grade students",
+            "url": "https://www.semanticscholar.org/paper/dd2393f444aa875a341ddf32249381f6d1cd36b8",
+            "venue": "ICER",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2176723",
+                    "name": "B. Boe"
+                },
+                {
+                    "authorId": "48274033",
+                    "name": "Charlotte Hill"
+                },
+                {
+                    "authorId": "2103910978",
+                    "name": "Michelle Len"
+                },
+                {
+                    "authorId": "2084132641",
+                    "name": "Greg Dreschler"
+                },
+                {
+                    "authorId": "152826787",
+                    "name": "Phill Conrad"
+                },
+                {
+                    "authorId": "1508455657",
+                    "name": "Diana Franklin"
+                }
+            ],
+            "doi": "10.1145/2445196.2445265",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "3583c374df66eee567580bf8fc9156cad9b4ef41",
+            "title": "Hairball: lint-inspired static analysis of scratch projects",
+            "url": "https://www.semanticscholar.org/paper/3583c374df66eee567580bf8fc9156cad9b4ef41",
+            "venue": "SIGCSE '13",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1398913227",
+                    "name": "Orni Meerbaum-Salant"
+                },
+                {
+                    "authorId": "1782253",
+                    "name": "M. Armoni"
+                },
+                {
+                    "authorId": "1398913278",
+                    "name": "M. Ben-Ari"
+                }
+            ],
+            "doi": "10.1145/1999747.1999796",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "cbc5eaf4995813fa1401f5ad932202650b95338a",
+            "title": "Habits of programming in scratch",
+            "url": "https://www.semanticscholar.org/paper/cbc5eaf4995813fa1401f5ad932202650b95338a",
+            "venue": "ITiCSE '11",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1398913227",
+                    "name": "Orni Meerbaum-Salant"
+                },
+                {
+                    "authorId": "1782253",
+                    "name": "M. Armoni"
+                },
+                {
+                    "authorId": "1398913278",
+                    "name": "M. Ben-Ari"
+                }
+            ],
+            "doi": "10.1145/1839594.1839607",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a0cb9c79ba7f4e1593e59fdef8a60ec09d3474f6",
+            "title": "Learning computer science concepts with scratch",
+            "url": "https://www.semanticscholar.org/paper/a0cb9c79ba7f4e1593e59fdef8a60ec09d3474f6",
+            "venue": "ICER '10",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2054710291",
+                    "name": "John H. Maloney"
+                },
+                {
+                    "authorId": "8611295",
+                    "name": "K. Peppler"
+                },
+                {
+                    "authorId": "1726545",
+                    "name": "Y. Kafai"
+                },
+                {
+                    "authorId": "145632679",
+                    "name": "M. Resnick"
+                },
+                {
+                    "authorId": "1701672",
+                    "name": "N. Rusk"
+                }
+            ],
+            "doi": "10.1145/1352135.1352260",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "24dd04071a135f305b7da8c2c65679e0b50c26d5",
+            "title": "Programming by choice: urban youth learning programming with scratch",
+            "url": "https://www.semanticscholar.org/paper/24dd04071a135f305b7da8c2c65679e0b50c26d5",
+            "venue": "SIGCSE '08",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2109699048",
+                    "name": "Amanda Wilson"
+                },
+                {
+                    "authorId": "1719255",
+                    "name": "T. Hainey"
+                },
+                {
+                    "authorId": "34779808",
+                    "name": "T. Connolly"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "436c852c4094a58ff9e629ace758612f58459342",
+            "title": "Evaluation of Computer Games Developed by Primary School Children to Gauge Understanding of Programming Concepts",
+            "url": "https://www.semanticscholar.org/paper/436c852c4094a58ff9e629ace758612f58459342",
+            "venue": "",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201cScratch: Programming for All,\u201d",
+            "url": "",
+            "venue": "Commun. ACM",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2065385925",
+                    "name": "M. Fowler"
+                }
+            ],
+            "doi": "10.1145/581441.581453",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a9279f45075b48610789145ce235ed6516d2778d",
+            "title": "Refactoring",
+            "url": "https://www.semanticscholar.org/paper/a9279f45075b48610789145ce235ed6516d2778d",
+            "venue": "Proceedings of the 24th International Conference on Software Engineering. ICSE 2002",
+            "year": 2002
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2257213690",
+                    "name": "Martin Fowler"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c5e73f144d4c34b6408ef4f6d992279c287cbafe",
+            "title": "Refactoring - Improving the Design of Existing Code",
+            "url": "https://www.semanticscholar.org/paper/c5e73f144d4c34b6408ef4f6d992279c287cbafe",
+            "venue": "Addison Wesley object technology series",
+            "year": 1999
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "For a given project id x , the program\u2019s JSON representation can be obtained",
+            "url": "",
+            "venue": "cdn.projects.scratch",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Education",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "A Dataset of Scratch Programs: Scraped, Shaped and Scored",
+    "topics": [
+        {
+            "topic": "Software engineering",
+            "topicId": "7832",
+            "url": "https://www.semanticscholar.org/topic/7832"
+        },
+        {
+            "topic": "Scratch (programming language)",
+            "topicId": "442401",
+            "url": "https://www.semanticscholar.org/topic/442401"
+        },
+        {
+            "topic": "Programming language",
+            "topicId": "8202",
+            "url": "https://www.semanticscholar.org/topic/8202"
+        },
+        {
+            "topic": "Code smell",
+            "topicId": "178913",
+            "url": "https://www.semanticscholar.org/topic/178913"
+        },
+        {
+            "topic": "Programmer",
+            "topicId": "23475",
+            "url": "https://www.semanticscholar.org/topic/23475"
+        },
+        {
+            "topic": "ENCODE",
+            "topicId": "365717",
+            "url": "https://www.semanticscholar.org/topic/365717"
+        }
+    ],
+    "url": "https://www.semanticscholar.org/paper/2bbd9c0192040fda1714789339fb1858e2f9215f",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2017
+}

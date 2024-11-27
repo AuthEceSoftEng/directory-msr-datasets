@@ -1,0 +1,579 @@
+{
+    "abstract": "The process of selecting open-source software (OSS) for adoption is not straightforward as it involves exploring various sources of information to determine the quality, maturity, activity, and user support of each project. In the context of the OSSMETER project, we have developed a forge-agnostic metamodel that captures the meta-information common to all OSS projects. We specialise this metamodel for popular OSS forges in order to capture forge-specific meta-information. In this paper we present a dataset conforming to these metamodels for over 500,000 OSS projects hosted on three popular OSS forges: Eclipse, SourceForge, and GitHub. The dataset enables different kinds of automatic analysis and supports objective comparisons of cross-forge OSS alternatives with respect to a user's needs and quality requirements.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2111787154",
+            "name": "James R. Williams",
+            "url": "https://www.semanticscholar.org/author/2111787154"
+        },
+        {
+            "authorId": "2133181",
+            "name": "D. D. Ruscio",
+            "url": "https://www.semanticscholar.org/author/2133181"
+        },
+        {
+            "authorId": "144955759",
+            "name": "N. Matragkas",
+            "url": "https://www.semanticscholar.org/author/144955759"
+        },
+        {
+            "authorId": "37121973",
+            "name": "Juri Di Rocco",
+            "url": "https://www.semanticscholar.org/author/37121973"
+        },
+        {
+            "authorId": "1798552",
+            "name": "D. Kolovos",
+            "url": "https://www.semanticscholar.org/author/1798552"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00085",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "43148fabe2636026e07ca04974aff40d204bfb6b",
+            "title": "Standing on Shoulders or Feet? The Usage of the MSR Data Papers",
+            "url": "https://www.semanticscholar.org/paper/43148fabe2636026e07ca04974aff40d204bfb6b",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143988212",
+                    "name": "Lina Ochoa"
+                },
+                {
+                    "authorId": "2965083",
+                    "name": "Thomas Degueule"
+                },
+                {
+                    "authorId": "1791575",
+                    "name": "J. Vinju"
+                }
+            ],
+            "doi": "10.1145/3196398.3196416",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a4419164aaeb80b7564b5b6900f94a9872d1d5bf",
+            "title": "An Empirical Evaluation of OSGi Dependencies Best Practices in the Eclipse IDE",
+            "url": "https://www.semanticscholar.org/paper/a4419164aaeb80b7564b5b6900f94a9872d1d5bf",
+            "venue": "2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34820138",
+                    "name": "Valerio Cosentino"
+                },
+                {
+                    "authorId": "144272262",
+                    "name": "Javier Luis C\u00e1novas Izquierdo"
+                },
+                {
+                    "authorId": "1705375",
+                    "name": "Jordi Cabot"
+                }
+            ],
+            "doi": "10.1007/978-3-319-25264-3_24",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5f619462eed99d11e9e7adfeb39dee0febd49fb4",
+            "title": "Gitana: A SQL-Based Git Repository Inspector",
+            "url": "https://www.semanticscholar.org/paper/5f619462eed99d11e9e7adfeb39dee0febd49fb4",
+            "venue": "ER",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2133181",
+                    "name": "D. D. Ruscio"
+                },
+                {
+                    "authorId": "2909166",
+                    "name": "Patrizio Pelliccione"
+                }
+            ],
+            "doi": "10.1002/smr.1716",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b1b150866fbd1448e9d7c252ebc8133977fe7165",
+            "title": "A model\u2010driven approach to detect faults in FOSS systems",
+            "url": "https://www.semanticscholar.org/paper/b1b150866fbd1448e9d7c252ebc8133977fe7165",
+            "venue": "J. Softw. Evol. Process.",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "33787987",
+                    "name": "Sven Amann"
+                },
+                {
+                    "authorId": "1839778",
+                    "name": "S. Beyer"
+                },
+                {
+                    "authorId": "3194068",
+                    "name": "Katja Kevic"
+                },
+                {
+                    "authorId": "50355692",
+                    "name": "H. Gall"
+                }
+            ],
+            "doi": "10.1007/978-3-319-28406-4_5",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "178a226a4fa68d80f709d0cfff5f5458df0daad3",
+            "title": "Software Mining Studies: Goals, Approaches, Artifacts, and Replicability",
+            "url": "https://www.semanticscholar.org/paper/178a226a4fa68d80f709d0cfff5f5458df0daad3",
+            "venue": "LASER Summer School",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1704634",
+                    "name": "M. Scheidgen"
+                },
+                {
+                    "authorId": "2115764839",
+                    "name": "Martin Schmidt"
+                },
+                {
+                    "authorId": "38703025",
+                    "name": "J. Fischer"
+                }
+            ],
+            "doi": "10.5220/0006127303290336",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "9bea68d9c1fd0db6aeb1864068a0a18009184a75",
+            "title": "Creating and Analyzing Source Code Repository Models - A Model-based Approach to Mining Software Repositories",
+            "url": "https://www.semanticscholar.org/paper/9bea68d9c1fd0db6aeb1864068a0a18009184a75",
+            "venue": "MODELSWARD",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144485054",
+                    "name": "B. Almeida"
+                },
+                {
+                    "authorId": "1881965",
+                    "name": "S. Ananiadou"
+                },
+                {
+                    "authorId": "36000045",
+                    "name": "A. Bagnato"
+                },
+                {
+                    "authorId": "46214701",
+                    "name": "Alberto Berreteaga Barbero"
+                },
+                {
+                    "authorId": "37121973",
+                    "name": "Juri Di Rocco"
+                },
+                {
+                    "authorId": "2133181",
+                    "name": "D. D. Ruscio"
+                },
+                {
+                    "authorId": "1798552",
+                    "name": "D. Kolovos"
+                },
+                {
+                    "authorId": "2076561",
+                    "name": "Ioannis Korkontzelos"
+                },
+                {
+                    "authorId": "2055547454",
+                    "name": "Scott Hansen"
+                },
+                {
+                    "authorId": "145507681",
+                    "name": "P. Mal\u00f3"
+                },
+                {
+                    "authorId": "144955759",
+                    "name": "N. Matragkas"
+                },
+                {
+                    "authorId": "1739513",
+                    "name": "R. Paige"
+                },
+                {
+                    "authorId": "1791575",
+                    "name": "J. Vinju"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "dd5c097b9f15ececd7585ffbcf1e40326ce7f69d",
+            "title": "OSSMETER: Automated Measurement and Analysis of Open Source Software",
+            "url": "https://www.semanticscholar.org/paper/dd5c097b9f15ececd7585ffbcf1e40326ce7f69d",
+            "venue": "STAF Projects Showcase",
+            "year": 2015
+        }
+    ],
+    "corpusId": 14668234,
+    "doi": "10.1145/2597073.2597132",
+    "fieldsOfStudy": [
+        "Engineering",
+        "Computer Science"
+    ],
+    "influentialCitationCount": 2,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 9,
+    "numCiting": 8,
+    "paperId": "399345e081508e02d26786732d858aa251024cb8",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624034",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2867eb64cc4bb1945363fdae12a168962ea823aa",
+            "title": "The GHTorent dataset and tool suite",
+            "url": "https://www.semanticscholar.org/paper/2867eb64cc4bb1945363fdae12a168962ea823aa",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                },
+                {
+                    "authorId": "1695408",
+                    "name": "V. Giannikas"
+                }
+            ],
+            "doi": "10.1016/j.jss.2011.09.037",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "869bdc9d12db0fd06ec50626c12e170aae5540da",
+            "title": "Organizational adoption of open source software",
+            "url": "https://www.semanticscholar.org/paper/869bdc9d12db0fd06ec50626c12e170aae5540da",
+            "venue": "J. Syst. Softw.",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1692292",
+                    "name": "G. Antoniol"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "50355692",
+                    "name": "H. Gall"
+                },
+                {
+                    "authorId": "1775709",
+                    "name": "M. Pinzger"
+                }
+            ],
+            "doi": "10.1016/J.ENTCS.2004.08.036",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "59d33217988157ea11d6a9c3b509413fcf9eba25",
+            "title": "Towards the Integration of Versioning Systems, Bug Reports and Source Code Meta-Models",
+            "url": "https://www.semanticscholar.org/paper/59d33217988157ea11d6a9c3b509413fcf9eba25",
+            "venue": "SETra@ICGT",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "D2.1 -domain analysis of OSS projects",
+            "url": "",
+            "venue": "D2.1 -domain analysis of OSS projects",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2441057",
+                    "name": "C. Schweik"
+                },
+                {
+                    "authorId": "1861467",
+                    "name": "Robert C. English"
+                },
+                {
+                    "authorId": "73727077",
+                    "name": "Qimti Paienjton"
+                },
+                {
+                    "authorId": "40511578",
+                    "name": "Sandra L. Haire"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e56fe1c76f4ae1857edb177609d1653f7dcce274",
+            "title": "Success and Abandonment in Open Source Commons: Selected Findings from an Empirical Study of Sourceforge.net Projects",
+            "url": "https://www.semanticscholar.org/paper/e56fe1c76f4ae1857edb177609d1653f7dcce274",
+            "venue": "",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2249556587",
+                    "name": "D. Schmidt"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3f21283d368ca0c88ea4f93a8afd1d4a84538467",
+            "title": "Model-Driven Engineering",
+            "url": "https://www.semanticscholar.org/paper/3f21283d368ca0c88ea4f93a8afd1d4a84538467",
+            "venue": "",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2178028",
+                    "name": "J. Howison"
+                },
+                {
+                    "authorId": "39106713",
+                    "name": "Megan Conklin"
+                },
+                {
+                    "authorId": "1716974",
+                    "name": "Kevin Crowston"
+                }
+            ],
+            "doi": "10.4018/978-1-60566-418-7.CH002",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "7a4c775e05e2948d8b19034c346791e1c94c0898",
+            "title": "FLOSSmole: A Collaborative Repository for FLOSS Research Data and Analyses",
+            "url": "https://www.semanticscholar.org/paper/7a4c775e05e2948d8b19034c346791e1c94c0898",
+            "venue": "Int. J. Inf. Technol. Web Eng.",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1716974",
+                    "name": "Kevin Crowston"
+                },
+                {
+                    "authorId": "2603698",
+                    "name": "Hala Annabi"
+                },
+                {
+                    "authorId": "2178028",
+                    "name": "J. Howison"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1e4e5fd34272c9cfff0cc794736d2f6f90050661",
+            "title": "Defining Open Source Software Project Success",
+            "url": "https://www.semanticscholar.org/paper/1e4e5fd34272c9cfff0cc794736d2f6f90050661",
+            "venue": "ICIS",
+            "year": 2003
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "Models of OSS project meta-information: a dataset of three forges",
+    "topics": [
+        {
+            "topic": "Forge",
+            "topicId": "311494",
+            "url": "https://www.semanticscholar.org/topic/311494"
+        },
+        {
+            "topic": "Open-source software",
+            "topicId": "8878",
+            "url": "https://www.semanticscholar.org/topic/8878"
+        },
+        {
+            "topic": "Metamodeling",
+            "topicId": "15232",
+            "url": "https://www.semanticscholar.org/topic/15232"
+        },
+        {
+            "topic": "Open Sound System",
+            "topicId": "3552426",
+            "url": "https://www.semanticscholar.org/topic/3552426"
+        },
+        {
+            "topic": "SourceForge",
+            "topicId": "115278",
+            "url": "https://www.semanticscholar.org/topic/115278"
+        },
+        {
+            "topic": "Eclipse",
+            "topicId": "91965",
+            "url": "https://www.semanticscholar.org/topic/91965"
+        },
+        {
+            "topic": "Requirement",
+            "topicId": "136",
+            "url": "https://www.semanticscholar.org/topic/136"
+        },
+        {
+            "topic": "Capability Maturity Model",
+            "topicId": "134548",
+            "url": "https://www.semanticscholar.org/topic/134548"
+        }
+    ],
+    "url": "https://www.semanticscholar.org/paper/399345e081508e02d26786732d858aa251024cb8",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2014
+}

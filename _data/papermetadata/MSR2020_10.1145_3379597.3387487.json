@@ -1,0 +1,1036 @@
+{
+    "abstract": "Data of long-lived and high profile projects is valuable for research on successful software engineering in the wild. Having a dataset with different linked software repositories of such projects, enables deeper diving investigations. This paper presents 20-MAD, a dataset linking the commit and issue data of Mozilla and Apache projects. It includes over 20 years of information about 765 projects, 3.4M commits, 2.3M issues, and 17.3M issue comments, and its compressed size is over 6 GB. The data contains all the typical information about source code commits (e.g., lines added and removed, message and commit time) and issues (status, severity, votes, and summary). The issue comments have been pre-processed for natural language processing and sentiment analysis. This includes emoticons and valence and arousal scores. Linking code repository and issue tracker information, allows studying individuals in two types of repositories and provide more accurate time zone information for issue trackers as well. To our knowledge, this the largest linked dataset in size and in project lifetime that is not based on GitHub.",
+    "arxivId": "2003.14015",
+    "authors": [
+        {
+            "authorId": "2002057",
+            "name": "Ma\u00eblick Claes",
+            "url": "https://www.semanticscholar.org/author/2002057"
+        },
+        {
+            "authorId": "144811716",
+            "name": "M. M\u00e4ntyl\u00e4",
+            "url": "https://www.semanticscholar.org/author/144811716"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1661036943",
+                    "name": "Zakeya Namrud"
+                },
+                {
+                    "authorId": "2279032750",
+                    "name": "Komal Sarda"
+                },
+                {
+                    "authorId": "2300291719",
+                    "name": "Marin Litoiu"
+                },
+                {
+                    "authorId": "2279030091",
+                    "name": "Larisa Shwartz"
+                },
+                {
+                    "authorId": "2279029770",
+                    "name": "Ian Watts"
+                }
+            ],
+            "doi": "10.1145/3629527.3653665",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e0053d45113546acb2cf30ab8c99cbf83eef685a",
+            "title": "KubePlaybook: A Repository of Ansible Playbooks for Kubernetes Auto-Remediation with LLMs",
+            "url": "https://www.semanticscholar.org/paper/e0053d45113546acb2cf30ab8c99cbf83eef685a",
+            "venue": "ICPE",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2196230524",
+                    "name": "Yang Deng"
+                },
+                {
+                    "authorId": "2237547516",
+                    "name": "Bangchao Wang"
+                },
+                {
+                    "authorId": "2283100644",
+                    "name": "Qiang Zhu"
+                },
+                {
+                    "authorId": "2290628197",
+                    "name": "Junping Liu"
+                },
+                {
+                    "authorId": "2282619706",
+                    "name": "Jiewen Kuang"
+                },
+                {
+                    "authorId": "2197059100",
+                    "name": "Xingfu Li"
+                }
+            ],
+            "doi": "10.1016/j.jksuci.2024.101958",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4991dd022779bb25783b853be1a44c97c0dc66e6",
+            "title": "MTLink: Adaptive multi-task learning based pre-trained language model for traceability link recovery between issues and commits",
+            "url": "https://www.semanticscholar.org/paper/4991dd022779bb25783b853be1a44c97c0dc66e6",
+            "venue": "Journal of King Saud University - Computer and Information Sciences",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2266341799",
+                    "name": "Shayan Noei"
+                },
+                {
+                    "authorId": "2266364319",
+                    "name": "Heng Li"
+                },
+                {
+                    "authorId": "2386975",
+                    "name": "Stefanos Georgiou"
+                },
+                {
+                    "authorId": "2266470063",
+                    "name": "Ying Zou"
+                }
+            ],
+            "doi": "10.1109/TSE.2023.3326775",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2d6bdfb54fcc1f7441359afb9707acb9b26c7801",
+            "title": "An Empirical Study of Refactoring Rhythms and Tactics in the Software Development Process",
+            "url": "https://www.semanticscholar.org/paper/2d6bdfb54fcc1f7441359afb9707acb9b26c7801",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2023
+        },
+        {
+            "arxivId": "2308.10759",
+            "authors": [
+                {
+                    "authorId": "3303548",
+                    "name": "Chenyuan Zhang"
+                },
+                {
+                    "authorId": "2108975906",
+                    "name": "Yanlin Wang"
+                },
+                {
+                    "authorId": "2218582488",
+                    "name": "Zhao Wei"
+                },
+                {
+                    "authorId": "2177037670",
+                    "name": "Yong Xu"
+                },
+                {
+                    "authorId": "2218690375",
+                    "name": "Juhong Wang"
+                },
+                {
+                    "authorId": "2256782747",
+                    "name": "Hui Li"
+                },
+                {
+                    "authorId": "2232781359",
+                    "name": "Rongrong Ji"
+                }
+            ],
+            "doi": "10.1109/ASE56229.2023.00059",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "3a4b35aea307a3a8692c33ede876231875c79f97",
+            "title": "EALink: An Efficient and Accurate Pre-Trained Framework for Issue-Commit Link Recovery",
+            "url": "https://www.semanticscholar.org/paper/3a4b35aea307a3a8692c33ede876231875c79f97",
+            "venue": "2023 38th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "26972197",
+                    "name": "Jinpeng Lan"
+                },
+                {
+                    "authorId": "145685957",
+                    "name": "Lina Gong"
+                },
+                {
+                    "authorId": "2144177754",
+                    "name": "Jingxuan Zhang"
+                },
+                {
+                    "authorId": "2266845091",
+                    "name": "Haoxiang Zhang"
+                }
+            ],
+            "doi": "10.1007/s10664-023-10342-7",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "e43763d97a070dd29e786540ecda6bf90ce18de3",
+            "title": "BTLink : automatic link recovery between issues and commits based on pre-trained BERT model",
+            "url": "https://www.semanticscholar.org/paper/e43763d97a070dd29e786540ecda6bf90ce18de3",
+            "venue": "Empirical Software Engineering",
+            "year": 2023
+        },
+        {
+            "arxivId": "2305.17708",
+            "authors": [
+                {
+                    "authorId": "2143857503",
+                    "name": "Hao Liu"
+                },
+                {
+                    "authorId": "2108975906",
+                    "name": "Yanlin Wang"
+                },
+                {
+                    "authorId": "2218582488",
+                    "name": "Zhao Wei"
+                },
+                {
+                    "authorId": "32513699",
+                    "name": "Yongxue Xu"
+                },
+                {
+                    "authorId": "2218690375",
+                    "name": "Juhong Wang"
+                },
+                {
+                    "authorId": "2155494617",
+                    "name": "Hui Li"
+                },
+                {
+                    "authorId": "2192252547",
+                    "name": "Rongrong Ji"
+                }
+            ],
+            "doi": "10.1145/3597926.3598092",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "90c0246dda360a18b6fbc60cd088f6785406072a",
+            "title": "RefBERT: A Two-Stage Pre-trained Framework for Automatic Rename Refactoring",
+            "url": "https://www.semanticscholar.org/paper/90c0246dda360a18b6fbc60cd088f6785406072a",
+            "venue": "ISSTA",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "17344806",
+                    "name": "Maram Assi"
+                },
+                {
+                    "authorId": "35706963",
+                    "name": "Safwat Hassan"
+                },
+                {
+                    "authorId": "2386975",
+                    "name": "Stefanos Georgiou"
+                },
+                {
+                    "authorId": "2167737355",
+                    "name": "Ying Zou"
+                }
+            ],
+            "doi": "10.1145/3593802",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "41f91e23f0f281f323e21bc177b07081397a7976",
+            "title": "Predicting the Change Impact of Resolving Defects by Leveraging the Topics of Issue Reports in Open Source Software Systems",
+            "url": "https://www.semanticscholar.org/paper/41f91e23f0f281f323e21bc177b07081397a7976",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2023
+        },
+        {
+            "arxivId": "2303.14029",
+            "authors": [
+                {
+                    "authorId": "1411949200",
+                    "name": "Murali Sridharan"
+                },
+                {
+                    "authorId": "150192393",
+                    "name": "Leevi Rantala"
+                },
+                {
+                    "authorId": "144811716",
+                    "name": "M. M\u00e4ntyl\u00e4"
+                }
+            ],
+            "doi": "10.1109/MSR59073.2023.00063",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "413f2bc634d54baec015563b60b049d10477fe76",
+            "title": "PENTACET data - 23 Million Contextual Code Comments and 250,000 SATD comments",
+            "url": "https://www.semanticscholar.org/paper/413f2bc634d54baec015563b60b049d10477fe76",
+            "venue": "2023 IEEE/ACM 20th International Conference on Mining Software Repositories (MSR)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": "2202.04068",
+            "authors": [
+                {
+                    "authorId": "2108033948",
+                    "name": "Yuqing Wang"
+                },
+                {
+                    "authorId": "144811716",
+                    "name": "M. M\u00e4ntyl\u00e4"
+                },
+                {
+                    "authorId": "2155718676",
+                    "name": "Zihao Liu"
+                },
+                {
+                    "authorId": "1999942",
+                    "name": "Jouni Markkula"
+                }
+            ],
+            "doi": "10.1016/j.jss.2022.111259",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c92f5ca23bf5f6287cd9cab901dae67dd032b0f8",
+            "title": "Test Automation Maturity Improves Product Quality - Quantitative Study of Open Source Projects Using Continuous Integration",
+            "url": "https://www.semanticscholar.org/paper/c92f5ca23bf5f6287cd9cab901dae67dd032b0f8",
+            "venue": "J. Syst. Softw.",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144125116",
+                    "name": "Santiago Due\u00f1as"
+                },
+                {
+                    "authorId": "34820138",
+                    "name": "Valerio Cosentino"
+                },
+                {
+                    "authorId": "1397826059",
+                    "name": "Jesus M. Gonzalez-Barahona"
+                },
+                {
+                    "authorId": "2120374921",
+                    "name": "Alvaro del Castillo San Felix"
+                },
+                {
+                    "authorId": "1384382015",
+                    "name": "Daniel Izquierdo-Cortazar"
+                },
+                {
+                    "authorId": "2120340149",
+                    "name": "Luis Ca\u00f1as-D\u00edaz"
+                },
+                {
+                    "authorId": "2120359686",
+                    "name": "Alberto P\u00e9rez Garc\u00eda-Plaza"
+                }
+            ],
+            "doi": "10.7717/peerj-cs.601",
+            "intent": [],
+            "isInfluential": true,
+            "paperId": "7e383ddd9aaecc4c700f47ad824f4dfb711e5c14",
+            "title": "GrimoireLab: A toolset for software development analytics",
+            "url": "https://www.semanticscholar.org/paper/7e383ddd9aaecc4c700f47ad824f4dfb711e5c14",
+            "venue": "PeerJ Comput. Sci.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2107.01894",
+            "authors": [
+                {
+                    "authorId": "2117589348",
+                    "name": "Pooya Rostami Mazrae"
+                },
+                {
+                    "authorId": "145774460",
+                    "name": "M. Izadi"
+                },
+                {
+                    "authorId": "1798455",
+                    "name": "A. Heydarnoori"
+                }
+            ],
+            "doi": "10.26226/morressier.613b5419842293c031b5b63b",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "9d0b62583d9f86eaa09c1d8f41ae5eab462a882d",
+            "title": "Automated Recovery of Issue-Commit Links Leveraging Both Textual and Non-textual Data",
+            "url": "https://www.semanticscholar.org/paper/9d0b62583d9f86eaa09c1d8f41ae5eab462a882d",
+            "venue": "2021 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.11339",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "145310968",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00022",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6292534df173d295c8ffe489134c81593a2f7592",
+            "title": "Escaping the Time Pit: Pitfalls and Guidelines for Using Time-Based Git Data",
+            "url": "https://www.semanticscholar.org/paper/6292534df173d295c8ffe489134c81593a2f7592",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.04506",
+            "authors": [
+                {
+                    "authorId": "2052100528",
+                    "name": "J. Lefever"
+                },
+                {
+                    "authorId": "1806106",
+                    "name": "Yuanfang Cai"
+                },
+                {
+                    "authorId": "145302268",
+                    "name": "H. Cervantes"
+                },
+                {
+                    "authorId": "1699020",
+                    "name": "R. Kazman"
+                },
+                {
+                    "authorId": "2113485432",
+                    "name": "Hongzhou Fang"
+                }
+            ],
+            "doi": "10.1109/ICSE-SEIP52600.2021.00021",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d27a1635cd6a12f9f8eccc46bcf90206e13eca0f",
+            "title": "On the Lack of Consensus Among Technical Debt Detection Tools",
+            "url": "https://www.semanticscholar.org/paper/d27a1635cd6a12f9f8eccc46bcf90206e13eca0f",
+            "venue": "2021 IEEE/ACM 43rd International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2645237",
+                    "name": "Valentina Y. Guleva"
+                },
+                {
+                    "authorId": "146660360",
+                    "name": "E. Shikov"
+                },
+                {
+                    "authorId": "2934601",
+                    "name": "Klavdiya Olegovna Bochenina"
+                }
+            ],
+            "doi": "10.5220/0010839400003117",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ef884bc74a0ac4020eea64c7621952d91cc596bb",
+            "title": "Modelling Influence of Motivation on Efficient Tasks Distribution for Given Team-project Correspondence",
+            "url": "https://www.semanticscholar.org/paper/ef884bc74a0ac4020eea64c7621952d91cc596bb",
+            "venue": "ICORES",
+            "year": 2022
+        }
+    ],
+    "corpusId": 214728187,
+    "doi": "10.1145/3379597.3387487",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 2,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 15,
+    "numCiting": 19,
+    "paperId": "cd3370b044217e32e2753cba6597df6094de4603",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2002057",
+                    "name": "Ma\u00eblick Claes"
+                }
+            ],
+            "doi": "10.17605/OSF.IO/SR56U",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6c1ff00fcc6c26e985d9b15dec023678c53cd1f0",
+            "title": "20-MAD: R package",
+            "url": "https://www.semanticscholar.org/paper/6c1ff00fcc6c26e985d9b15dec023678c53cd1f0",
+            "venue": "",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2054853574",
+                    "name": "M. Claes"
+                }
+            ],
+            "doi": "10.17605/OSF.IO/KVXR4",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a9f2c1d688af828f0bdf7c806c4b1b29fe7dc8c9",
+            "title": "20-MAD: Mozilla Apache Dataset",
+            "url": "https://www.semanticscholar.org/paper/a9f2c1d688af828f0bdf7c806c4b1b29fe7dc8c9",
+            "venue": "",
+            "year": 2020
+        },
+        {
+            "arxivId": "1808.10639",
+            "authors": [
+                {
+                    "authorId": "2002057",
+                    "name": "Ma\u00eblick Claes"
+                },
+                {
+                    "authorId": "144811716",
+                    "name": "M. M\u00e4ntyl\u00e4"
+                },
+                {
+                    "authorId": "2113504177",
+                    "name": "Umar Farooq"
+                }
+            ],
+            "doi": "10.1145/3239235.3267434",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "232c709244b3739be5f78e981857ae56f6c47d9d",
+            "title": "On the use of emoticons in open source software development",
+            "url": "https://www.semanticscholar.org/paper/232c709244b3739be5f78e981857ae56f6c47d9d",
+            "venue": "ESEM",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2122187",
+                    "name": "V. Efstathiou"
+                },
+                {
+                    "authorId": "51120099",
+                    "name": "Christos Chatzilenas"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1145/3196398.3196448",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6e1cafd50333b3812bf002a51bcb1f720e35b7ed",
+            "title": "Word Embeddings for the Software Engineering Domain",
+            "url": "https://www.semanticscholar.org/paper/6e1cafd50333b3812bf002a51bcb1f720e35b7ed",
+            "venue": "2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2002057",
+                    "name": "Ma\u00eblick Claes"
+                },
+                {
+                    "authorId": "144811716",
+                    "name": "M. M\u00e4ntyl\u00e4"
+                },
+                {
+                    "authorId": "3456517",
+                    "name": "Miikka Kuutila"
+                },
+                {
+                    "authorId": "2113504177",
+                    "name": "Umar Farooq"
+                }
+            ],
+            "doi": "10.1145/3196398.3196447",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6338e6bf21b00e80cb1fecd97537f187bf417522",
+            "title": "Towards Automatically Identifying Paid Open Source Developers",
+            "url": "https://www.semanticscholar.org/paper/6338e6bf21b00e80cb1fecd97537f187bf417522",
+            "venue": "2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144125116",
+                    "name": "Santiago Due\u00f1as"
+                },
+                {
+                    "authorId": "34820138",
+                    "name": "Valerio Cosentino"
+                },
+                {
+                    "authorId": "143684601",
+                    "name": "G. Robles"
+                },
+                {
+                    "authorId": "1397826059",
+                    "name": "Jesus M. Gonzalez-Barahona"
+                }
+            ],
+            "doi": "10.1145/3183440.3183475",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "d2efef27cc5a10d61c50a5298019cbd6991fe42d",
+            "title": "Perceval: Software Project Data at Your Will",
+            "url": "https://www.semanticscholar.org/paper/d2efef27cc5a10d61c50a5298019cbd6991fe42d",
+            "venue": "2018 IEEE/ACM 40th International Conference on Software Engineering: Companion (ICSE-Companion)",
+            "year": 2018
+        },
+        {
+            "arxivId": "1804.02153",
+            "authors": [
+                {
+                    "authorId": "2002057",
+                    "name": "Ma\u00eblick Claes"
+                },
+                {
+                    "authorId": "144811716",
+                    "name": "M. M\u00e4ntyl\u00e4"
+                },
+                {
+                    "authorId": "3456517",
+                    "name": "Miikka Kuutila"
+                },
+                {
+                    "authorId": "2113504177",
+                    "name": "Umar Farooq"
+                }
+            ],
+            "doi": "10.1145/3196398.3196447",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a660c4a81b93ac9c41e16e3175f989bfd85a3367",
+            "title": "Towards Identifying Paid Open Source Developers - A Case Study with Mozilla Developers",
+            "url": "https://www.semanticscholar.org/paper/a660c4a81b93ac9c41e16e3175f989bfd85a3367",
+            "venue": "ArXiv",
+            "year": 2018
+        },
+        {
+            "arxivId": "1803.07292",
+            "authors": [
+                {
+                    "authorId": "144811716",
+                    "name": "M. M\u00e4ntyl\u00e4"
+                },
+                {
+                    "authorId": "1810643",
+                    "name": "Fabio Calefato"
+                },
+                {
+                    "authorId": "2002057",
+                    "name": "Ma\u00eblick Claes"
+                }
+            ],
+            "doi": "10.1145/3196398.3196444",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c87bc8e1f5beab3b474df28f10d1a5774c9759ef",
+            "title": "Natural Language or Not (NLoN) - A Package for Software Engineering Text Analysis Pipeline",
+            "url": "https://www.semanticscholar.org/paper/c87bc8e1f5beab3b474df28f10d1a5774c9759ef",
+            "venue": "2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR)",
+            "year": 2018
+        },
+        {
+            "arxivId": "1802.05084",
+            "authors": [
+                {
+                    "authorId": "2002057",
+                    "name": "Ma\u00eblick Claes"
+                },
+                {
+                    "authorId": "144811716",
+                    "name": "M. M\u00e4ntyl\u00e4"
+                },
+                {
+                    "authorId": "3456517",
+                    "name": "Miikka Kuutila"
+                },
+                {
+                    "authorId": "143612725",
+                    "name": "Bram Adams"
+                }
+            ],
+            "doi": "10.1145/3180155.3180193",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "a600294061e2cfa16621d278a7b86c5a47d48d20",
+            "title": "Do Programmers Work at Night or During the Weekend?",
+            "url": "https://www.semanticscholar.org/paper/a600294061e2cfa16621d278a7b86c5a47d48d20",
+            "venue": "2018 IEEE/ACM 40th International Conference on Software Engineering (ICSE)",
+            "year": 2018
+        },
+        {
+            "arxivId": "1709.02984",
+            "authors": [
+                {
+                    "authorId": "1810643",
+                    "name": "Fabio Calefato"
+                },
+                {
+                    "authorId": "1743022",
+                    "name": "F. Lanubile"
+                },
+                {
+                    "authorId": "26391277",
+                    "name": "Federico Maiorano"
+                },
+                {
+                    "authorId": "1750021",
+                    "name": "Nicole Novielli"
+                }
+            ],
+            "doi": "10.1007/s10664-017-9546-9",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "7deeb94777af3649a24402de1b0573294560bd56",
+            "title": "Sentiment Polarity Detection for Software Development",
+            "url": "https://www.semanticscholar.org/paper/7deeb94777af3649a24402de1b0573294560bd56",
+            "venue": "Empirical Software Engineering",
+            "year": 2017
+        },
+        {
+            "arxivId": "1704.03652",
+            "authors": [
+                {
+                    "authorId": "2002057",
+                    "name": "Ma\u00eblick Claes"
+                },
+                {
+                    "authorId": "144811716",
+                    "name": "M. M\u00e4ntyl\u00e4"
+                },
+                {
+                    "authorId": "3456517",
+                    "name": "Miikka Kuutila"
+                },
+                {
+                    "authorId": "143612725",
+                    "name": "Bram Adams"
+                }
+            ],
+            "doi": "10.1109/MSR.2017.3",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "8dda2601d53fb55de96453851a18b03e066ce051",
+            "title": "Abnormal Working Hours: Effect of Rapid Releases and Implications to Work Content",
+            "url": "https://www.semanticscholar.org/paper/8dda2601d53fb55de96453851a18b03e066ce051",
+            "venue": "2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)",
+            "year": 2017
+        },
+        {
+            "arxivId": "1703.09046",
+            "authors": [
+                {
+                    "authorId": "144811716",
+                    "name": "M. M\u00e4ntyl\u00e4"
+                },
+                {
+                    "authorId": "1750021",
+                    "name": "Nicole Novielli"
+                },
+                {
+                    "authorId": "1743022",
+                    "name": "F. Lanubile"
+                },
+                {
+                    "authorId": "2002057",
+                    "name": "Ma\u00eblick Claes"
+                },
+                {
+                    "authorId": "3456517",
+                    "name": "Miikka Kuutila"
+                }
+            ],
+            "doi": "10.1109/MSR.2017.47",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d54d56b99d63afbeb69af95dc4ede26c2ff12e54",
+            "title": "Bootstrapping a Lexicon for Emotional Arousal in Software Engineering",
+            "url": "https://www.semanticscholar.org/paper/d54d56b99d63afbeb69af95dc4ede26c2ff12e54",
+            "venue": "2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3348154",
+                    "name": "Marco Ortu"
+                },
+                {
+                    "authorId": "2048851",
+                    "name": "Giuseppe Destefanis"
+                },
+                {
+                    "authorId": "143612725",
+                    "name": "Bram Adams"
+                },
+                {
+                    "authorId": "39381939",
+                    "name": "Alessandro Murgia"
+                },
+                {
+                    "authorId": "144083401",
+                    "name": "M. Marchesi"
+                },
+                {
+                    "authorId": "2192634",
+                    "name": "R. Tonelli"
+                }
+            ],
+            "doi": "10.1145/2810146.2810147",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8bb5fb97a6998d40b227dc6941466ee4b7a8294c",
+            "title": "The JIRA Repository Dataset: Understanding Social Aspects of Software Development",
+            "url": "https://www.semanticscholar.org/paper/8bb5fb97a6998d40b227dc6941466ee4b7a8294c",
+            "venue": "PROMISE",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1643744348",
+                    "name": "ThelwallMike"
+                },
+                {
+                    "authorId": "1643808682",
+                    "name": "BuckleyKevan"
+                },
+                {
+                    "authorId": "1643795695",
+                    "name": "PaltoglouGeorgios"
+                },
+                {
+                    "authorId": "2080672518",
+                    "name": "CaiDi"
+                },
+                {
+                    "authorId": "1742554",
+                    "name": "Arvid Kappas"
+                }
+            ],
+            "doi": "10.1002/asi.21416",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5b2bc4aaa63412ff1745a79d2f322b5ff67d0f9c",
+            "title": "Sentiment in short strength detection informal text",
+            "url": "https://www.semanticscholar.org/paper/5b2bc4aaa63412ff1745a79d2f322b5ff67d0f9c",
+            "venue": "J. Assoc. Inf. Sci. Technol.",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2073385296",
+                    "name": "Richard Mayou"
+                }
+            ],
+            "doi": "10.1192/bjp.144.3.320",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "46a7aab76296dc3905005ac471926fd2aa1ed835",
+            "title": "Comments",
+            "url": "https://www.semanticscholar.org/paper/46a7aab76296dc3905005ac471926fd2aa1ed835",
+            "venue": "British Journal of Psychiatry",
+            "year": 1984
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1701298",
+                    "name": "M. Thelwall"
+                },
+                {
+                    "authorId": "144563108",
+                    "name": "K. Buckley"
+                },
+                {
+                    "authorId": "1718676",
+                    "name": "G. Paltoglou"
+                },
+                {
+                    "authorId": "2052543565",
+                    "name": "Di Cai"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "4329d5fcfbecdd362d315bdfb73ceba5fb1a6221",
+            "title": "Sentiment Strength Detection in Short Informal Text 1",
+            "url": "https://www.semanticscholar.org/paper/4329d5fcfbecdd362d315bdfb73ceba5fb1a6221",
+            "venue": "",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Commits Meta-data information about commits",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "(Gothenburg, Sweden) (ICSE \u201918)",
+            "url": "",
+            "venue": "ACM, New York, NY, USA",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Issues Meta-data information about issues. An issue is uniquely identified by its source, its product tag, and its id",
+            "url": "",
+            "venue": "fields",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "20-MAD - 20 Years of Issues and Commits of Mozilla and Apache Development",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/cd3370b044217e32e2753cba6597df6094de4603",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2020
+}

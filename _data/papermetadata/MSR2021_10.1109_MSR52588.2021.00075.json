@@ -1,0 +1,1537 @@
+{
+    "abstract": "Function as a Service (FaaS) has grown in popularity in recent years, with an increasing number of applications following the Serverless computing model. Serverless computing supports out of the box autoscaling in a pay-as-you-go manner, letting developers focus on the application logic rather than worrying about resource management. With the increasing adoption of the this model, researchers have started studying a wide variety of aspects of Serverless computing, including communication, security, performance, and cost optimization. Yet, we still know very little of how Serverless computing is used in practice.In this paper, we introduce Wonderless, a novel dataset of open-source Serverless applications. Wonderless consists of 1,877 real-world Serverless applications extracted from GitHub, and it can be used as a data source for further research in the Serverless ecosystem, such as performance evaluation and software mining. To the best of our knowledge, Wonderless is currently the most diverse and largest dataset for research on Serverless computing.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "1397375971",
+            "name": "Nafise Eskandani",
+            "url": "https://www.semanticscholar.org/author/1397375971"
+        },
+        {
+            "authorId": "3095489",
+            "name": "G. Salvaneschi",
+            "url": "https://www.semanticscholar.org/author/3095489"
+        }
+    ],
+    "citationVelocity": 5,
+    "citations": [
+        {
+            "arxivId": "2407.14572",
+            "authors": [
+                {
+                    "authorId": "28923214",
+                    "name": "G. Palma"
+                },
+                {
+                    "authorId": "2422411",
+                    "name": "S. Giallorenzo"
+                },
+                {
+                    "authorId": "1786679",
+                    "name": "J. Mauro"
+                },
+                {
+                    "authorId": "1493159588",
+                    "name": "Matteo Trentin"
+                },
+                {
+                    "authorId": "1777352",
+                    "name": "G. Zavattaro"
+                }
+            ],
+            "doi": "10.48550/arXiv.2407.14572",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "710129ddcd770afd8600ede7450d1591a760df01",
+            "title": "Affinity-aware Serverless Function Scheduling",
+            "url": "https://www.semanticscholar.org/paper/710129ddcd770afd8600ede7450d1591a760df01",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": "2306.04892",
+            "authors": [
+                {
+                    "authorId": "2197659721",
+                    "name": "Mir Sameed Ali"
+                },
+                {
+                    "authorId": "2197582565",
+                    "name": "Nikhil Manjunath"
+                },
+                {
+                    "authorId": "1926332",
+                    "name": "S. Chimalakonda"
+                }
+            ],
+            "doi": "10.48550/arXiv.2306.04892",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1006367adb5eafd2a434808b8b3fa951a4e59490",
+            "title": "X-COBOL: A Dataset of COBOL Repositories",
+            "url": "https://www.semanticscholar.org/paper/1006367adb5eafd2a434808b8b3fa951a4e59490",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": "2306.01620",
+            "authors": [
+                {
+                    "authorId": "145672103",
+                    "name": "Jinfeng Wen"
+                },
+                {
+                    "authorId": "115023982",
+                    "name": "Zhenpeng Chen"
+                },
+                {
+                    "authorId": "2103653",
+                    "name": "Federica Sarro"
+                },
+                {
+                    "authorId": "2110773587",
+                    "name": "Xuanzhe Liu"
+                }
+            ],
+            "doi": "10.48550/arXiv.2306.01620",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "28317f0b7c644d3497f316dcacb9cb9f97160acf",
+            "title": "SuperFlow: Performance Testing for Serverless Computing",
+            "url": "https://www.semanticscholar.org/paper/28317f0b7c644d3497f316dcacb9cb9f97160acf",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "38444531",
+                    "name": "G. Raffa"
+                },
+                {
+                    "authorId": "3337068",
+                    "name": "Jorge Blasco Al\u00eds"
+                },
+                {
+                    "authorId": "1402937609",
+                    "name": "Dan O'Keeffe"
+                },
+                {
+                    "authorId": "70354487",
+                    "name": "Santanu Kumar Dash"
+                }
+            ],
+            "doi": "10.1145/3592533.3592811",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "cb3c3b62b346572d4727dda8d0dc52f1d72b5261",
+            "title": "AWSomePy: A Dataset and Characterization of Serverless Applications",
+            "url": "https://www.semanticscholar.org/paper/cb3c3b62b346572d4727dda8d0dc52f1d72b5261",
+            "venue": "SESAME@EuroSys",
+            "year": 2023
+        },
+        {
+            "arxivId": "2305.04309",
+            "authors": [
+                {
+                    "authorId": "145672103",
+                    "name": "Jinfeng Wen"
+                },
+                {
+                    "authorId": "115023982",
+                    "name": "Zhenpeng Chen"
+                },
+                {
+                    "authorId": "2103653",
+                    "name": "Federica Sarro"
+                },
+                {
+                    "authorId": "2110773587",
+                    "name": "Xuanzhe Liu"
+                }
+            ],
+            "doi": "10.48550/arXiv.2305.04309",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "521a1e6ae144c2cdf94a261f68727ce82d0aa0b8",
+            "title": "Revisiting the Performance of Serverless Computing: An Analysis of Variance",
+            "url": "https://www.semanticscholar.org/paper/521a1e6ae144c2cdf94a261f68727ce82d0aa0b8",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "152655121",
+                    "name": "S. Bhatnagar"
+                },
+                {
+                    "authorId": "2220586040",
+                    "name": "Zhengquan Li"
+                },
+                {
+                    "authorId": "1388034062",
+                    "name": "Z. Song"
+                },
+                {
+                    "authorId": "1682441",
+                    "name": "E. Tilevich"
+                }
+            ],
+            "doi": "10.1109/PerComWorkshops56833.2023.10150370",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c95aaa2d4e32e2141de334bc365b2d11ae25f502",
+            "title": "OS3: The Art and the Practice of Searching for Open-Source Serverless Functions",
+            "url": "https://www.semanticscholar.org/paper/c95aaa2d4e32e2141de334bc365b2d11ae25f502",
+            "venue": "2023 IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events (PerCom Workshops)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2200062198",
+                    "name": "Dengzhe Wang"
+                },
+                {
+                    "authorId": "2143792363",
+                    "name": "Xingshu Chen"
+                },
+                {
+                    "authorId": "2109090709",
+                    "name": "Qixu Wang"
+                },
+                {
+                    "authorId": "2200075742",
+                    "name": "Shengkai Wang"
+                },
+                {
+                    "authorId": "2724114",
+                    "name": "Feiyu Xu"
+                },
+                {
+                    "authorId": "2199958555",
+                    "name": "Tao Zheng"
+                }
+            ],
+            "doi": "10.1109/GLOBECOM48099.2022.10001386",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9e74364b44c6b9f1b0223483e3fe91506acfc45f",
+            "title": "Autoscaling cracker: an efficient asymmetric DDoS attack on serverless functions",
+            "url": "https://www.semanticscholar.org/paper/9e74364b44c6b9f1b0223483e3fe91506acfc45f",
+            "venue": "GLOBECOM 2022 - 2022 IEEE Global Communications Conference",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1397375971",
+                    "name": "Nafise Eskandani"
+                },
+                {
+                    "authorId": "3095489",
+                    "name": "G. Salvaneschi"
+                }
+            ],
+            "doi": "10.1016/j.jss.2022.111589",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "f5ce3fd9102f3567d0d11d61d6881a13e88b6fc3",
+            "title": "The uphill journey of FaaS in the open-source community",
+            "url": "https://www.semanticscholar.org/paper/f5ce3fd9102f3567d0d11d61d6881a13e88b6fc3",
+            "venue": "J. Syst. Softw.",
+            "year": 2022
+        },
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": "2207.08175",
+            "authors": [
+                {
+                    "authorId": "2110773587",
+                    "name": "Xuanzhe Liu"
+                },
+                {
+                    "authorId": "145672103",
+                    "name": "Jinfeng Wen"
+                },
+                {
+                    "authorId": "115023982",
+                    "name": "Zhenpeng Chen"
+                },
+                {
+                    "authorId": "2191500831",
+                    "name": "Ding Li"
+                },
+                {
+                    "authorId": "2260819586",
+                    "name": "Junkai Chen"
+                },
+                {
+                    "authorId": "2153628951",
+                    "name": "Yi Liu"
+                },
+                {
+                    "authorId": "2109571635",
+                    "name": "Haoyu Wang"
+                },
+                {
+                    "authorId": "2149170624",
+                    "name": "Xin Jin"
+                }
+            ],
+            "doi": "10.1145/3585007",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "e51a70eb7424aa9720742d987aed7d6713580033",
+            "title": "FaaSLight: General Application-level Cold-start Latency Optimization for Function-as-a-Service in Serverless Computing",
+            "url": "https://www.semanticscholar.org/paper/e51a70eb7424aa9720742d987aed7d6713580033",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2022
+        },
+        {
+            "arxivId": "2206.12275",
+            "authors": [
+                {
+                    "authorId": "145672103",
+                    "name": "Jinfeng Wen"
+                },
+                {
+                    "authorId": "115023982",
+                    "name": "Zhenpeng Chen"
+                },
+                {
+                    "authorId": "2149170624",
+                    "name": "Xin Jin"
+                },
+                {
+                    "authorId": "2110773587",
+                    "name": "Xuanzhe Liu"
+                }
+            ],
+            "doi": "10.1145/3579643",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e5617de21e517ac5b6dcb1b041710dbd2c755ffc",
+            "title": "Rise of the Planet of Serverless Computing: A Systematic Review",
+            "url": "https://www.semanticscholar.org/paper/e5617de21e517ac5b6dcb1b041710dbd2c755ffc",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2022
+        },
+        {
+            "arxivId": "2205.10176",
+            "authors": [
+                {
+                    "authorId": "28923214",
+                    "name": "G. Palma"
+                },
+                {
+                    "authorId": "2422411",
+                    "name": "S. Giallorenzo"
+                },
+                {
+                    "authorId": "1786679",
+                    "name": "J. Mauro"
+                },
+                {
+                    "authorId": "1493159588",
+                    "name": "Matteo Trentin"
+                },
+                {
+                    "authorId": "1777352",
+                    "name": "G. Zavattaro"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "e165e329d675b55c63b4c414700d8ed95cbb92bc",
+            "title": "Topology-aware Serverless Function-Execution Scheduling",
+            "url": "https://www.semanticscholar.org/paper/e165e329d675b55c63b4c414700d8ed95cbb92bc",
+            "venue": "",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2008264331",
+                    "name": "Deepak Sirone Jegan"
+                },
+                {
+                    "authorId": "2144692109",
+                    "name": "Liang Wang"
+                },
+                {
+                    "authorId": "1864257184",
+                    "name": "Siddhant Bhagat"
+                },
+                {
+                    "authorId": "9833675",
+                    "name": "M. Swift"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2a8d4b77525ce72e81f9a57657605bfde53e946f",
+            "title": "Guarding Serverless Applications with Kalium",
+            "url": "https://www.semanticscholar.org/paper/2a8d4b77525ce72e81f9a57657605bfde53e946f",
+            "venue": "USENIX Security Symposium",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "152655121",
+                    "name": "S. Bhatnagar"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "cd8a0b69a94a4e326d66ee8c2111db98a9ed12d6",
+            "title": "OS: A Step Forward Towards Enhancing Share and Reuse in Serverless Functions",
+            "url": "https://www.semanticscholar.org/paper/cd8a0b69a94a4e326d66ee8c2111db98a9ed12d6",
+            "venue": "",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "28923214",
+                    "name": "G. Palma"
+                },
+                {
+                    "authorId": "2422411",
+                    "name": "S. Giallorenzo"
+                },
+                {
+                    "authorId": "1786679",
+                    "name": "J. Mauro"
+                },
+                {
+                    "authorId": "1493159588",
+                    "name": "Matteo Trentin"
+                },
+                {
+                    "authorId": "1777352",
+                    "name": "G. Zavattaro"
+                }
+            ],
+            "doi": "10.48550/arXiv.2205.10176",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e7835393487f69ba96d080d584d55f60571ebaa6",
+            "title": "Topology-aware Serverless Function-Execution Scheduling",
+            "url": "https://www.semanticscholar.org/paper/e7835393487f69ba96d080d584d55f60571ebaa6",
+            "venue": "SSRN Electronic Journal",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145672103",
+                    "name": "Jinfeng Wen"
+                },
+                {
+                    "authorId": "115023982",
+                    "name": "Zhenpeng Chen"
+                },
+                {
+                    "authorId": "2110773587",
+                    "name": "Xuanzhe Liu"
+                }
+            ],
+            "doi": "10.48550/arXiv.2206.12275",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3aa0fe9d05af104ec56dd0edc09d716919f7275a",
+            "title": "A Literature Review on Serverless Computing",
+            "url": "https://www.semanticscholar.org/paper/3aa0fe9d05af104ec56dd0edc09d716919f7275a",
+            "venue": "ArXiv",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2286326257",
+                    "name": "Deepak Sirone"
+                },
+                {
+                    "authorId": "2255768629",
+                    "name": "Jegan"
+                },
+                {
+                    "authorId": "2277434492",
+                    "name": "Liang Wang"
+                },
+                {
+                    "authorId": "1864257184",
+                    "name": "Siddhant Bhagat"
+                },
+                {
+                    "authorId": "2255403490",
+                    "name": "Michael Swift"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d854031e898ef4f14c9ab94565346f210c48ba79",
+            "title": "This paper is included in the Proceedings of the 32nd USENIX Security Symposium.",
+            "url": "https://www.semanticscholar.org/paper/d854031e898ef4f14c9ab94565346f210c48ba79",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "corpusId": 235718425,
+    "doi": "10.1109/MSR52588.2021.00075",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 1,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 17,
+    "numCiting": 30,
+    "paperId": "d409c2a477ba522afa38af91edc3a659d52b20d9",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2073007816",
+                    "name": "Kun Du"
+                },
+                {
+                    "authorId": "2115537628",
+                    "name": "Hao Yang"
+                },
+                {
+                    "authorId": "49889038",
+                    "name": "Yubao Zhang"
+                },
+                {
+                    "authorId": "39999006",
+                    "name": "Haixin Duan"
+                },
+                {
+                    "authorId": "46507023",
+                    "name": "Haining Wang"
+                },
+                {
+                    "authorId": "49107685",
+                    "name": "S. Hao"
+                },
+                {
+                    "authorId": "121544553",
+                    "name": "Zhou Li"
+                },
+                {
+                    "authorId": "2110950734",
+                    "name": "Min Yang"
+                }
+            ],
+            "doi": "10.1145/3427228.3427258",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1435fede230321789263aad3b4b770fddf79a884",
+            "title": "Understanding Promotion-as-a-Service on GitHub",
+            "url": "https://www.semanticscholar.org/paper/1435fede230321789263aad3b4b770fddf79a884",
+            "venue": "ACSAC",
+            "year": 2020
+        },
+        {
+            "arxivId": "2009.08173",
+            "authors": [
+                {
+                    "authorId": "40879589",
+                    "name": "Simon Eismann"
+                },
+                {
+                    "authorId": "2383382",
+                    "name": "Joel Scheuner"
+                },
+                {
+                    "authorId": "29990622",
+                    "name": "Erwin Van Eyk"
+                },
+                {
+                    "authorId": "69024084",
+                    "name": "Maximilian Schwinger"
+                },
+                {
+                    "authorId": "34825425",
+                    "name": "Johannes Grohmann"
+                },
+                {
+                    "authorId": "2004049",
+                    "name": "Cristina L. Abad"
+                },
+                {
+                    "authorId": "1760940",
+                    "name": "A. Iosup"
+                }
+            ],
+            "doi": "10.1109/MS.2020.3023302",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "f459746dde2b0504aff4517c33a5a2601c9a47c3",
+            "title": "Serverless Applications: Why, When, and How?",
+            "url": "https://www.semanticscholar.org/paper/f459746dde2b0504aff4517c33a5a2601c9a47c3",
+            "venue": "IEEE Software",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1941866194",
+                    "name": "Fengcai Wen"
+                },
+                {
+                    "authorId": "144116331",
+                    "name": "Csaba Nagy"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                }
+            ],
+            "doi": "10.1145/3387904.3389266",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1f4ef21dd1f5d7fad2180ecb433a94d9ebef7ba0",
+            "title": "An Empirical Study of Quick Remedy Commits",
+            "url": "https://www.semanticscholar.org/paper/1f4ef21dd1f5d7fad2180ecb433a94d9ebef7ba0",
+            "venue": "2020 IEEE/ACM 28th International Conference on Program Comprehension (ICPC)",
+            "year": 2020
+        },
+        {
+            "arxivId": "2006.00177",
+            "authors": [
+                {
+                    "authorId": "39864830",
+                    "name": "A. Rahman"
+                },
+                {
+                    "authorId": "2174723",
+                    "name": "Effat Farhana"
+                },
+                {
+                    "authorId": "144426849",
+                    "name": "L. Williams"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09841-8",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d5b5eefab546670ca6b684c5d4d17612f82f0939",
+            "title": "The \u2018as code\u2019 activities: development anti-patterns for infrastructure as code",
+            "url": "https://www.semanticscholar.org/paper/d5b5eefab546670ca6b684c5d4d17612f82f0939",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144745121",
+                    "name": "L. Sousa"
+                },
+                {
+                    "authorId": "3400328",
+                    "name": "Diego Cedrim"
+                },
+                {
+                    "authorId": "144447774",
+                    "name": "Alessandro F. Garcia"
+                },
+                {
+                    "authorId": "2849051",
+                    "name": "W. Oizumi"
+                },
+                {
+                    "authorId": "50811639",
+                    "name": "Ana Carla Bibiano"
+                },
+                {
+                    "authorId": "2004169353",
+                    "name": "Daniel Oliveira"
+                },
+                {
+                    "authorId": "35710133",
+                    "name": "Miryung Kim"
+                },
+                {
+                    "authorId": "115598091",
+                    "name": "Anderson Oliveira"
+                }
+            ],
+            "doi": "10.1145/3379597.3387477",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "de7e89a005b5e62040b1919b13368c82de35592c",
+            "title": "Characterizing and Identifying Composite Refactorings: Concepts, Heuristics and Patterns",
+            "url": "https://www.semanticscholar.org/paper/de7e89a005b5e62040b1919b13368c82de35592c",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "76949175",
+                    "name": "J. Nupponen"
+                },
+                {
+                    "authorId": "1766982",
+                    "name": "D. Taibi"
+                }
+            ],
+            "doi": "10.1109/ICSA-C50368.2020.00016",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "bc2b8de36dc938f6793c308ec7e815c7908a8214",
+            "title": "Serverless: What it Is, What to Do and What Not to Do",
+            "url": "https://www.semanticscholar.org/paper/bc2b8de36dc938f6793c308ec7e815c7908a8214",
+            "venue": "2020 IEEE International Conference on Software Architecture Companion (ICSA-C)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1580186594",
+                    "name": "Ilja Pavlov"
+                },
+                {
+                    "authorId": "2221004887",
+                    "name": "Susanne Ali"
+                },
+                {
+                    "authorId": "5891657",
+                    "name": "Tauhid Mahmud"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ed4b5cc3ec1b8d578bde66f0626f7a4d83da1e9c",
+            "title": "Serverless Development Trends in Open Source: a Mixed-Research Study",
+            "url": "https://www.semanticscholar.org/paper/ed4b5cc3ec1b8d578bde66f0626f7a4d83da1e9c",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1418224857",
+                    "name": "Diogo Bortolini"
+                },
+                {
+                    "authorId": "2480949",
+                    "name": "R. Obelheiro"
+                }
+            ],
+            "doi": "10.1007/978-3-030-33509-0_16",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a13aa2df4a6d4de530e25da7a9e306d081ec853a",
+            "title": "Investigating Performance and Cost in Function-as-a-Service Platforms",
+            "url": "https://www.semanticscholar.org/paper/a13aa2df4a6d4de530e25da7a9e306d081ec853a",
+            "venue": "3PGCIC",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2325913",
+                    "name": "Istv\u00e1n Pelle"
+                },
+                {
+                    "authorId": "2421256",
+                    "name": "J\u00e1nos Czentye"
+                },
+                {
+                    "authorId": "1396263385",
+                    "name": "J\u00e1nos D\u00f3ka"
+                },
+                {
+                    "authorId": "1771457",
+                    "name": "Bal\u00e1zs Sonkoly"
+                }
+            ],
+            "doi": "10.1109/CLOUD.2019.00054",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d70bf5b8ca0473e8cc98c268ebf382d910f55507",
+            "title": "Towards Latency Sensitive Cloud Native Applications: A Performance Study on AWS",
+            "url": "https://www.semanticscholar.org/paper/d70bf5b8ca0473e8cc98c268ebf382d910f55507",
+            "venue": "2019 IEEE 12th International Conference on Cloud Computing (CLOUD)",
+            "year": 2019
+        },
+        {
+            "arxivId": "1905.04800",
+            "authors": [
+                {
+                    "authorId": "1765470",
+                    "name": "Josef Spillner"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "819e6d7391faaebeee60aeba04d496f0b7317d39",
+            "title": "Quantitative Analysis of Cloud Function Evolution in the AWS Serverless Application Repository",
+            "url": "https://www.semanticscholar.org/paper/819e6d7391faaebeee60aeba04d496f0b7317d39",
+            "venue": "ArXiv",
+            "year": 2019
+        },
+        {
+            "arxivId": "1902.03383",
+            "authors": [
+                {
+                    "authorId": "145426489",
+                    "name": "Eric Jonas"
+                },
+                {
+                    "authorId": "1389954462",
+                    "name": "Johann Schleier-Smith"
+                },
+                {
+                    "authorId": "7905466",
+                    "name": "Vikram Sreekanti"
+                },
+                {
+                    "authorId": "2104538",
+                    "name": "Chia-che Tsai"
+                },
+                {
+                    "authorId": "2712026",
+                    "name": "Anurag Khandelwal"
+                },
+                {
+                    "authorId": "2699039",
+                    "name": "Qifan Pu"
+                },
+                {
+                    "authorId": "34961417",
+                    "name": "Vaishaal Shankar"
+                },
+                {
+                    "authorId": "144601996",
+                    "name": "J. Carreira"
+                },
+                {
+                    "authorId": "48778049",
+                    "name": "K. Krauth"
+                },
+                {
+                    "authorId": "2397000",
+                    "name": "N. Yadwadkar"
+                },
+                {
+                    "authorId": "2119114305",
+                    "name": "Joseph Gonzalez"
+                },
+                {
+                    "authorId": "144963510",
+                    "name": "Raluca A. Popa"
+                },
+                {
+                    "authorId": "2316152822",
+                    "name": "Ion Stoica"
+                },
+                {
+                    "authorId": "2091409722",
+                    "name": "D. Patterson"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "05a2f1fe94ac485d9adf9a5bce131b66c56b47c4",
+            "title": "Cloud Programming Simplified: A Berkeley View on Serverless Computing",
+            "url": "https://www.semanticscholar.org/paper/05a2f1fe94ac485d9adf9a5bce131b66c56b47c4",
+            "venue": "ArXiv",
+            "year": 2019
+        },
+        {
+            "arxivId": "1812.03651",
+            "authors": [
+                {
+                    "authorId": "1695576",
+                    "name": "J. Hellerstein"
+                },
+                {
+                    "authorId": "145963370",
+                    "name": "Jose M. Faleiro"
+                },
+                {
+                    "authorId": "2119114305",
+                    "name": "Joseph Gonzalez"
+                },
+                {
+                    "authorId": "1389954462",
+                    "name": "Johann Schleier-Smith"
+                },
+                {
+                    "authorId": "7905466",
+                    "name": "Vikram Sreekanti"
+                },
+                {
+                    "authorId": "144312193",
+                    "name": "Alexey Tumanov"
+                },
+                {
+                    "authorId": "144329773",
+                    "name": "Chenggang Wu"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "810c5e5cd7f83edbd141a6e89981e116b0de405f",
+            "title": "Serverless Computing: One Step Forward, Two Steps Back",
+            "url": "https://www.semanticscholar.org/paper/810c5e5cd7f83edbd141a6e89981e116b0de405f",
+            "venue": "CIDR",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1718383",
+                    "name": "K. Kritikos"
+                },
+                {
+                    "authorId": "51135888",
+                    "name": "Pawel Skrzypek"
+                }
+            ],
+            "doi": "10.1109/UCC-Companion.2018.00051",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5fdeff48a5703aa3574d4f8169e303fcd158a61f",
+            "title": "A Review of Serverless Frameworks",
+            "url": "https://www.semanticscholar.org/paper/5fdeff48a5703aa3574d4f8169e303fcd158a61f",
+            "venue": "2018 IEEE/ACM International Conference on Utility and Cloud Computing Companion (UCC Companion)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49633363",
+                    "name": "S. Mohanty"
+                },
+                {
+                    "authorId": "2769953",
+                    "name": "Gopika Premsankar"
+                },
+                {
+                    "authorId": "10753022",
+                    "name": "M. D. Francesco"
+                }
+            ],
+            "doi": "10.1109/CloudCom2018.2018.00033",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "861bba0ca847e3dbd35b8ac66e099538dc5bb6cf",
+            "title": "An Evaluation of Open Source Serverless Computing Frameworks",
+            "url": "https://www.semanticscholar.org/paper/861bba0ca847e3dbd35b8ac66e099538dc5bb6cf",
+            "venue": "2018 IEEE International Conference on Cloud Computing Technology and Science (CloudCom)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "37387138",
+                    "name": "Johannes Manner"
+                },
+                {
+                    "authorId": "2073705173",
+                    "name": "M. Endre\u00df"
+                },
+                {
+                    "authorId": "2071373586",
+                    "name": "Tobias Heckel"
+                },
+                {
+                    "authorId": "145889900",
+                    "name": "G. Wirtz"
+                }
+            ],
+            "doi": "10.1109/UCC-Companion.2018.00054",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d4892caf59f25fc5677e1ed8fee3876c3b604a19",
+            "title": "Cold Start Influencing Factors in Function as a Service",
+            "url": "https://www.semanticscholar.org/paper/d4892caf59f25fc5677e1ed8fee3876c3b604a19",
+            "venue": "2018 IEEE/ACM International Conference on Utility and Cloud Computing Companion (UCC Companion)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145635631",
+                    "name": "D. Jackson"
+                },
+                {
+                    "authorId": "2868270",
+                    "name": "Gary Clynch"
+                }
+            ],
+            "doi": "10.1109/UCC-Companion.2018.00050",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "933bf8db8daf71725316d829665e34396b75b77c",
+            "title": "An Investigation of the Impact of Language Runtime on the Performance and Cost of Serverless Functions",
+            "url": "https://www.semanticscholar.org/paper/933bf8db8daf71725316d829665e34396b75b77c",
+            "venue": "2018 IEEE/ACM International Conference on Utility and Cloud Computing Companion (UCC Companion)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51237897",
+                    "name": "Timon Back"
+                },
+                {
+                    "authorId": "1704200",
+                    "name": "V. Andrikopoulos"
+                }
+            ],
+            "doi": "10.1007/978-3-319-99819-0_11",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "008a751966b97edbb3b76d545a9f568880e7f2c6",
+            "title": "Using a Microbenchmark to Compare Function as a Service Solutions",
+            "url": "https://www.semanticscholar.org/paper/008a751966b97edbb3b76d545a9f568880e7f2c6",
+            "venue": "ESOCC",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1903212",
+                    "name": "Kamil Figiela"
+                },
+                {
+                    "authorId": "40583820",
+                    "name": "A. Gajek"
+                },
+                {
+                    "authorId": "1871218",
+                    "name": "Adam Zima"
+                },
+                {
+                    "authorId": "52209159",
+                    "name": "Beata Obrok"
+                },
+                {
+                    "authorId": "2073373103",
+                    "name": "Maciej Malawski"
+                }
+            ],
+            "doi": "10.1002/cpe.4792",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5d5f736277be5833ff89f0b834b4f0fc247a268c",
+            "title": "Performance evaluation of heterogeneous cloud functions",
+            "url": "https://www.semanticscholar.org/paper/5d5f736277be5833ff89f0b834b4f0fc247a268c",
+            "venue": "Concurr. Comput. Pract. Exp.",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1693997",
+                    "name": "Liang Wang"
+                },
+                {
+                    "authorId": "2145711629",
+                    "name": "Mengyuan Li"
+                },
+                {
+                    "authorId": "39939156",
+                    "name": "Yinqian Zhang"
+                },
+                {
+                    "authorId": "1707461",
+                    "name": "Thomas Ristenpart"
+                },
+                {
+                    "authorId": "9833675",
+                    "name": "M. Swift"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "bbb606d78d379262c85c4615cb5d9c191cd2e3bf",
+            "title": "Peeking Behind the Curtains of Serverless Platforms",
+            "url": "https://www.semanticscholar.org/paper/bbb606d78d379262c85c4615cb5d9c191cd2e3bf",
+            "venue": "USENIX ATC",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1971184",
+                    "name": "Ana Klimovic"
+                },
+                {
+                    "authorId": "2115626425",
+                    "name": "Ya-wen Wang"
+                },
+                {
+                    "authorId": "117272782",
+                    "name": "Christos Kozyrakis"
+                },
+                {
+                    "authorId": "2840980",
+                    "name": "Patrick Stuedi"
+                },
+                {
+                    "authorId": "3205436",
+                    "name": "Jonas Pfefferle"
+                },
+                {
+                    "authorId": "2488489",
+                    "name": "A. Trivedi"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "86dd654e0664ed3a05a922aaf4913692719c551a",
+            "title": "Understanding Ephemeral Storage for Serverless Analytics",
+            "url": "https://www.semanticscholar.org/paper/86dd654e0664ed3a05a922aaf4913692719c551a",
+            "venue": "USENIX ATC",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2629277",
+                    "name": "Hyungro Lee"
+                },
+                {
+                    "authorId": "3194472",
+                    "name": "K. Satyam"
+                },
+                {
+                    "authorId": "145943292",
+                    "name": "G. Fox"
+                }
+            ],
+            "doi": "10.1109/CLOUD.2018.00062",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d9eaeccc9cca929af052aa362efaf83267daf614",
+            "title": "Evaluation of Production Serverless Computing Environments",
+            "url": "https://www.semanticscholar.org/paper/d9eaeccc9cca929af052aa362efaf83267daf614",
+            "venue": "2018 IEEE 11th International Conference on Cloud Computing (CLOUD)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1910406",
+                    "name": "P. Leitner"
+                },
+                {
+                    "authorId": "101116834",
+                    "name": "Erik Wittern"
+                },
+                {
+                    "authorId": "1765470",
+                    "name": "Josef Spillner"
+                },
+                {
+                    "authorId": "2074606983",
+                    "name": "W. Hummer"
+                }
+            ],
+            "doi": "10.7287/peerj.preprints.27005v1",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "4e02bb7ee0310bed001caf5deb744760da0ea7c4",
+            "title": "A mixed-method empirical study of Function-as-a-Service software development in industrial practice",
+            "url": "https://www.semanticscholar.org/paper/4e02bb7ee0310bed001caf5deb744760da0ea7c4",
+            "venue": "PeerJ Prepr.",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "152208762",
+                    "name": "W. Lloyd"
+                },
+                {
+                    "authorId": "2484126",
+                    "name": "S. Ramesh"
+                },
+                {
+                    "authorId": "41152160",
+                    "name": "Swetha Chinthalapati"
+                },
+                {
+                    "authorId": "2074847534",
+                    "name": "Lan Ly"
+                },
+                {
+                    "authorId": "1747019",
+                    "name": "S. Pallickara"
+                }
+            ],
+            "doi": "10.1109/IC2E.2018.00039",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6c778f7dfcde0e2508fd9c35a6ebb5b4ff58107e",
+            "title": "Serverless Computing: An Investigation of Factors Influencing Microservice Performance",
+            "url": "https://www.semanticscholar.org/paper/6c778f7dfcde0e2508fd9c35a6ebb5b4ff58107e",
+            "venue": "2018 IEEE International Conference on Cloud Engineering (IC2E)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "36942521",
+                    "name": "Ioana Baldini"
+                },
+                {
+                    "authorId": "35977213",
+                    "name": "P. Cheng"
+                },
+                {
+                    "authorId": "33802916",
+                    "name": "Stephen J. Fink"
+                },
+                {
+                    "authorId": "145642029",
+                    "name": "N. Mitchell"
+                },
+                {
+                    "authorId": "46761645",
+                    "name": "Vinod Muthusamy"
+                },
+                {
+                    "authorId": "1714477",
+                    "name": "Rodric M. Rabbah"
+                },
+                {
+                    "authorId": "4010451",
+                    "name": "Philippe Suter"
+                },
+                {
+                    "authorId": "1886026",
+                    "name": "O. Tardieu"
+                }
+            ],
+            "doi": "10.1145/3133850.3133855",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3a056216bdfc3ec7d9e2fceef9c688380f7a1b86",
+            "title": "The serverless trilemma: function composition for serverless computing",
+            "url": "https://www.semanticscholar.org/paper/3a056216bdfc3ec7d9e2fceef9c688380f7a1b86",
+            "venue": "Onward!",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "32137515",
+                    "name": "Gojko Adzic"
+                },
+                {
+                    "authorId": "3070568",
+                    "name": "Robert Chatley"
+                }
+            ],
+            "doi": "10.1145/3106237.3117767",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "13f0bd79b4b31c6dedd885b622ee16f3ca63debc",
+            "title": "Serverless computing: economic and architectural impact",
+            "url": "https://www.semanticscholar.org/paper/13f0bd79b4b31c6dedd885b622ee16f3ca63debc",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1453217524",
+                    "name": "Garrett McGrath"
+                },
+                {
+                    "authorId": "7924527",
+                    "name": "P. Brenner"
+                }
+            ],
+            "doi": "10.1109/ICDCSW.2017.36",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2b1759673f0f8da5e9477b127bab976f8d4d50fe",
+            "title": "Serverless Computing: Design, Implementation, and Performance",
+            "url": "https://www.semanticscholar.org/paper/2b1759673f0f8da5e9477b127bab976f8d4d50fe",
+            "venue": "2017 IEEE 37th International Conference on Distributed Computing Systems Workshops (ICDCSW)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2012.6224294",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "de760552279b241976676f4723a159060a433198",
+            "title": "GHTorrent: Github's data from a firehose",
+            "url": "https://www.semanticscholar.org/paper/de760552279b241976676f4723a159060a433198",
+            "venue": "2012 9th IEEE Working Conference on Mining Software Repositories (MSR)",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2989307",
+                    "name": "Valentina Lenarduzzi"
+                },
+                {
+                    "authorId": "2285926207",
+                    "name": "A. Panichella"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "af42b82d85249925185663c9f8c7bab6377e3c77",
+            "title": "Serverless Testing: Tool Vendors\u2019 and Experts\u2019 Point of View",
+            "url": "https://www.semanticscholar.org/paper/af42b82d85249925185663c9f8c7bab6377e3c77",
+            "venue": "",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "151128214",
+                    "name": "Matthew Obetz"
+                },
+                {
+                    "authorId": "35092032",
+                    "name": "S. Patterson"
+                },
+                {
+                    "authorId": "2572691",
+                    "name": "Ana L. Milanova"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "10d30ef0f615b2a2be13d90d7a04f86705d99be8",
+            "title": "Static Call Graph Construction in AWS Lambda Serverless Applications",
+            "url": "https://www.semanticscholar.org/paper/10d30ef0f615b2a2be13d90d7a04f86705d99be8",
+            "venue": "HotCloud",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2111053680",
+                    "name": "Sanghyun Hong"
+                },
+                {
+                    "authorId": "151488592",
+                    "name": "Abhinav Srivastava"
+                },
+                {
+                    "authorId": "51128047",
+                    "name": "William Shambrook"
+                },
+                {
+                    "authorId": "3343194",
+                    "name": "Tudor Dumitras"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "89cf9e58b931bc4755ab00b7d100ba13e43d64d9",
+            "title": "Go Serverless: Securing Cloud via Serverless Design Patterns",
+            "url": "https://www.semanticscholar.org/paper/89cf9e58b931bc4755ab00b7d100ba13e43d64d9",
+            "venue": "HotCloud",
+            "year": 2018
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "The Wonderless Dataset for Serverless Computing",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/d409c2a477ba522afa38af91edc3a659d52b20d9",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2021
+}

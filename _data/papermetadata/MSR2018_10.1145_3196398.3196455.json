@@ -1,0 +1,1280 @@
+{
+    "abstract": "In GitHub, the pull-based development model enables community contributors to collaborate in a more efficient way. However, the distributed and parallel characteristics of this model pose a potential risk for developers to submit duplicate pull-requests (PRs), which increase the extra cost of project maintenance. To facilitate the further studies to better understand and solve the issues introduced by duplicate PRs, we construct a large dataset of historical duplicate PRs extracted from 26 popular open source projects in GitHub by using a semi-automatic approach. Furthermore, we present some preliminary applications to illustrate how further researches can be conducted based on this dataset.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "47111832",
+            "name": "Yue Yu",
+            "url": "https://www.semanticscholar.org/author/47111832"
+        },
+        {
+            "authorId": "46948203",
+            "name": "Zhixing Li",
+            "url": "https://www.semanticscholar.org/author/46948203"
+        },
+        {
+            "authorId": "143634613",
+            "name": "Gang Yin",
+            "url": "https://www.semanticscholar.org/author/143634613"
+        },
+        {
+            "authorId": "39082503",
+            "name": "Tao Wang",
+            "url": "https://www.semanticscholar.org/author/39082503"
+        },
+        {
+            "authorId": "143969934",
+            "name": "Huaimin Wang",
+            "url": "https://www.semanticscholar.org/author/143969934"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1817470",
+                    "name": "David Broneske"
+                },
+                {
+                    "authorId": "2311223875",
+                    "name": "Sebastian Kittan"
+                },
+                {
+                    "authorId": "2294487423",
+                    "name": "Jacob Kr\u00fcger"
+                }
+            ],
+            "doi": "10.1145/3660798",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6f30b34e9e923168baa57f2edc5233577d778292",
+            "title": "Sharing Software-Evolution Datasets: Practices, Challenges, and Recommendations",
+            "url": "https://www.semanticscholar.org/paper/6f30b34e9e923168baa57f2edc5233577d778292",
+            "venue": "Proceedings of the ACM on Software Engineering",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1935710",
+                    "name": "Montassar Ben Messaoud"
+                },
+                {
+                    "authorId": "2307637923",
+                    "name": "Rania Ben Chekaya"
+                },
+                {
+                    "authorId": "2121857527",
+                    "name": "Mohamed Wiem Mkaouer"
+                },
+                {
+                    "authorId": "3011155",
+                    "name": "Ilyes Jenhani"
+                },
+                {
+                    "authorId": "71953310",
+                    "name": "Wajdi Aljedaani"
+                }
+            ],
+            "doi": "10.1007/s13198-024-02361-4",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "02a8f7cf9574e7545b93ac0311b7b9257adc74ae",
+            "title": "PR-DupliChecker: detecting duplicate pull requests in Fork-based workflows",
+            "url": "https://www.semanticscholar.org/paper/02a8f7cf9574e7545b93ac0311b7b9257adc74ae",
+            "venue": "Int. J. Syst. Assur. Eng. Manag.",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "72211136",
+                    "name": "M\u00e1rcia Lima"
+                },
+                {
+                    "authorId": "2266325363",
+                    "name": "Igor Steinmacher"
+                },
+                {
+                    "authorId": "2266326905",
+                    "name": "Denae Ford"
+                },
+                {
+                    "authorId": "2173314069",
+                    "name": "Evangeline Liu"
+                },
+                {
+                    "authorId": "2173451869",
+                    "name": "Grace Vorreuter"
+                },
+                {
+                    "authorId": "8956664",
+                    "name": "T. Conte"
+                },
+                {
+                    "authorId": "2160471610",
+                    "name": "B. Gadelha"
+                }
+            ],
+            "doi": "10.7717/peerj-cs.1567",
+            "intent": [
+                "methodology",
+                "result"
+            ],
+            "isInfluential": true,
+            "paperId": "aa5bb5e65acbe3b8925b262f144cfd6bc653f736",
+            "title": "Looking for related posts on GitHub discussions",
+            "url": "https://www.semanticscholar.org/paper/aa5bb5e65acbe3b8925b262f144cfd6bc653f736",
+            "venue": "PeerJ Comput. Sci.",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1395091002",
+                    "name": "Akhila Sri Manasa Venigalla"
+                },
+                {
+                    "authorId": "1926332",
+                    "name": "S. Chimalakonda"
+                }
+            ],
+            "doi": "10.1109/MSR59073.2023.00062",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "fa7ae1c4892eedc12504f2e66d094f5fb7e5379b",
+            "title": "DocMine: A Software Documentation-Related Dataset of 950 GitHub Repositories",
+            "url": "https://www.semanticscholar.org/paper/fa7ae1c4892eedc12504f2e66d094f5fb7e5379b",
+            "venue": "2023 IEEE/ACM 20th International Conference on Mining Software Repositories (MSR)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2142704681",
+                    "name": "He Jiang"
+                },
+                {
+                    "authorId": "2212078906",
+                    "name": "Yulong Li"
+                },
+                {
+                    "authorId": "3467285",
+                    "name": "Shikai Guo"
+                },
+                {
+                    "authorId": "2108236962",
+                    "name": "Xiaochen Li"
+                },
+                {
+                    "authorId": "1689115",
+                    "name": "Zhang Tao"
+                },
+                {
+                    "authorId": "2155493417",
+                    "name": "Hui Li"
+                },
+                {
+                    "authorId": "2122822832",
+                    "name": "Rong Chen"
+                }
+            ],
+            "doi": "10.1109/TSE.2023.3235942",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "92749c5db740260436f5359beb9b434cac56aeef",
+            "title": "DupHunter: Detecting Duplicate Pull Requests in Fork-Based Development",
+            "url": "https://www.semanticscholar.org/paper/92749c5db740260436f5359beb9b434cac56aeef",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3440433",
+                    "name": "Xunhui Zhang"
+                },
+                {
+                    "authorId": "47111832",
+                    "name": "Yue Yu"
+                },
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "40464536",
+                    "name": "Ayushi Rastogi"
+                }
+            ],
+            "doi": "10.1109/TSE.2022.3165056",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b427620250eab16fb23f13de88bb4572d8bd63af",
+            "title": "Pull Request Decisions Explained: An Empirical Overview",
+            "url": "https://www.semanticscholar.org/paper/b427620250eab16fb23f13de88bb4572d8bd63af",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2185976678",
+                    "name": "Cleyciane Lima"
+                },
+                {
+                    "authorId": "1810228",
+                    "name": "D. Soares"
+                }
+            ],
+            "doi": "10.1145/3559712.3559722",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b44cc20eff0c663bb7b61dc47a9244eaea0200b8",
+            "title": "On the Nature of Duplicate Pull Requests: An Empirical Study Using Association Rules",
+            "url": "https://www.semanticscholar.org/paper/b44cc20eff0c663bb7b61dc47a9244eaea0200b8",
+            "venue": "SBCARS",
+            "year": 2022
+        },
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": "2206.11971",
+            "authors": [
+                {
+                    "authorId": "72211136",
+                    "name": "M\u00e1rcia Lima"
+                },
+                {
+                    "authorId": "2091414",
+                    "name": "Igor Steinmacher"
+                },
+                {
+                    "authorId": "3131402",
+                    "name": "Denae Ford"
+                },
+                {
+                    "authorId": "2173314069",
+                    "name": "Evangeline Liu"
+                },
+                {
+                    "authorId": "2173451869",
+                    "name": "Grace Vorreuter"
+                },
+                {
+                    "authorId": "8956664",
+                    "name": "T. Conte"
+                },
+                {
+                    "authorId": "2160471610",
+                    "name": "B. Gadelha"
+                }
+            ],
+            "doi": "10.48550/arXiv.2206.11971",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0fd7aac0657940444df2d421ef167fa4eb667db3",
+            "title": "Looking for related discussions on GitHub Discussions",
+            "url": "https://www.semanticscholar.org/paper/0fd7aac0657940444df2d421ef167fa4eb667db3",
+            "venue": "ArXiv",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "46948203",
+                    "name": "Zhixing Li"
+                },
+                {
+                    "authorId": "47111832",
+                    "name": "Yue Yu"
+                },
+                {
+                    "authorId": "40318014",
+                    "name": "Minghui Zhou"
+                },
+                {
+                    "authorId": "39082503",
+                    "name": "Tao Wang"
+                },
+                {
+                    "authorId": "143634613",
+                    "name": "Gang Yin"
+                },
+                {
+                    "authorId": "2065721520",
+                    "name": "Long Lan"
+                },
+                {
+                    "authorId": "143969934",
+                    "name": "Huaimin Wang"
+                }
+            ],
+            "doi": "10.1109/tse.2020.3018726",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "062e7f87ecd0d145b28059a183fa3d523d82dee5",
+            "title": "Redundancy, Context, and Preference: An Empirical Study of Duplicate Pull Requests in OSS Projects",
+            "url": "https://www.semanticscholar.org/paper/062e7f87ecd0d145b28059a183fa3d523d82dee5",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1822509",
+                    "name": "H. E. Salman"
+                },
+                {
+                    "authorId": "2309583",
+                    "name": "Z. Alshara"
+                },
+                {
+                    "authorId": "2033929",
+                    "name": "A. Seriai"
+                }
+            ],
+            "doi": "10.3390/info13020073",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "914fa7f8c8261d722e3621a4a4477048fdd7f4e3",
+            "title": "Automatic Identification of Similar Pull-Requests in GitHub's Repositories Using Machine Learning",
+            "url": "https://www.semanticscholar.org/paper/914fa7f8c8261d722e3621a4a4477048fdd7f4e3",
+            "venue": "Inf.",
+            "year": 2022
+        },
+        {
+            "arxivId": "2112.14464",
+            "authors": [
+                {
+                    "authorId": "2148662397",
+                    "name": "Anurag Dhasmana"
+                },
+                {
+                    "authorId": "2013869064",
+                    "name": "Arindaam Roy"
+                },
+                {
+                    "authorId": "2023320845",
+                    "name": "Divjeet Singh Jas"
+                },
+                {
+                    "authorId": "39595218",
+                    "name": "K. Kaur"
+                },
+                {
+                    "authorId": "2136100218",
+                    "name": "Pinn Prugsanapan"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ae0337737ec6fe604c7c7fdd471bbddc3b111998",
+            "title": "Forking Around: Correlation of forking practices with the success of a project",
+            "url": "https://www.semanticscholar.org/paper/ae0337737ec6fe604c7c7fdd471bbddc3b111998",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34755489",
+                    "name": "M. Vidoni"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2021.106791",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8b608f646a96c545af167e66a146f54ecd595ffa",
+            "title": "A systematic process for Mining Software Repositories: Results from a systematic literature review",
+            "url": "https://www.semanticscholar.org/paper/8b608f646a96c545af167e66a146f54ecd595ffa",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2110.15447",
+            "authors": [
+                {
+                    "authorId": "70044512",
+                    "name": "S. Khatoonabadi"
+                },
+                {
+                    "authorId": "115989708",
+                    "name": "D. Costa"
+                },
+                {
+                    "authorId": "2154809",
+                    "name": "Rabe Abdalkareem"
+                },
+                {
+                    "authorId": "3318024",
+                    "name": "Emad Shihab"
+                }
+            ],
+            "doi": "10.1145/3530785",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9742ae014ce8d8eb16016e9f4b52247a8517b49c",
+            "title": "On Wasted Contributions: Understanding the Dynamics of Contributor-Abandoned Pull Requests\u2013A Mixed-Methods Study of 10 Large Open-Source Projects",
+            "url": "https://www.semanticscholar.org/paper/9742ae014ce8d8eb16016e9f4b52247a8517b49c",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2108.09946",
+            "authors": [
+                {
+                    "authorId": "3440433",
+                    "name": "Xunhui Zhang"
+                },
+                {
+                    "authorId": "47111832",
+                    "name": "Yue Yu"
+                },
+                {
+                    "authorId": "39082503",
+                    "name": "Tao Wang"
+                },
+                {
+                    "authorId": "40464536",
+                    "name": "Ayushi Rastogi"
+                },
+                {
+                    "authorId": "143969934",
+                    "name": "Huaimin Wang"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10143-4",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2c3698c3106dc69f9e03b5b159dc79d1abd3e994",
+            "title": "Pull request latency explained: an empirical overview",
+            "url": "https://www.semanticscholar.org/paper/2c3698c3106dc69f9e03b5b159dc79d1abd3e994",
+            "venue": "Empirical Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2153635885",
+                    "name": "Yu Zhang"
+                },
+                {
+                    "authorId": "47111832",
+                    "name": "Yue Yu"
+                },
+                {
+                    "authorId": "39082503",
+                    "name": "Tao Wang"
+                },
+                {
+                    "authorId": "46948203",
+                    "name": "Zhixing Li"
+                },
+                {
+                    "authorId": "2108387809",
+                    "name": "Xiaochuan Wang"
+                }
+            ],
+            "doi": "10.1142/s0218194021500388",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ccada2b9159ae17af390456b02054a72f761e04b",
+            "title": "Dual Channel Among Task and Contribution on OSS Communities: An Empirical Study",
+            "url": "https://www.semanticscholar.org/paper/ccada2b9159ae17af390456b02054a72f761e04b",
+            "venue": "Int. J. Softw. Eng. Knowl. Eng.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2106.02306",
+            "authors": [
+                {
+                    "authorId": "2152688335",
+                    "name": "Dong Wang"
+                },
+                {
+                    "authorId": "1680034",
+                    "name": "R. Kula"
+                },
+                {
+                    "authorId": "145682543",
+                    "name": "T. Ishio"
+                },
+                {
+                    "authorId": "144975613",
+                    "name": "Ken-ichi Matsumoto"
+                }
+            ],
+            "doi": "10.1016/J.INFSOF.2021.106637",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "1612d4d2f6d69f33432a0925c9faa00815ace794",
+            "title": "Automatic Patch Linkage Detection in Code Review Using TextualContent and File Location Features",
+            "url": "https://www.semanticscholar.org/paper/1612d4d2f6d69f33432a0925c9faa00815ace794",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2105.13970",
+            "authors": [
+                {
+                    "authorId": "3440433",
+                    "name": "Xunhui Zhang"
+                },
+                {
+                    "authorId": "2256771665",
+                    "name": "Yue Yu"
+                },
+                {
+                    "authorId": "2256666498",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "2288256305",
+                    "name": "Ayushi Rastogi"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ca16ab513fa6299e1024ba6d9780254fe1118209",
+            "title": "Pull Request Decision Explained: An Empirical Overview",
+            "url": "https://www.semanticscholar.org/paper/ca16ab513fa6299e1024ba6d9780254fe1118209",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "46948203",
+                    "name": "Zhixing Li"
+                },
+                {
+                    "authorId": "47111832",
+                    "name": "Yue Yu"
+                },
+                {
+                    "authorId": "39082503",
+                    "name": "Tao Wang"
+                },
+                {
+                    "authorId": "143634613",
+                    "name": "Gang Yin"
+                },
+                {
+                    "authorId": "39389365",
+                    "name": "Xinjun Mao"
+                },
+                {
+                    "authorId": "143969934",
+                    "name": "Huaimin Wang"
+                }
+            ],
+            "doi": "10.1007/s11390-020-9935-1",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "dbb69b290fc2c6a56ccb5cf59e1e4de03b48e5f1",
+            "title": "Detecting Duplicate Contributions in Pull-Based Model Combining Textual and Change Similarities",
+            "url": "https://www.semanticscholar.org/paper/dbb69b290fc2c6a56ccb5cf59e1e4de03b48e5f1",
+            "venue": "Journal of Computer Science and Technology",
+            "year": 2021
+        },
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": "2004.08846",
+            "authors": [
+                {
+                    "authorId": "151504676",
+                    "name": "Sandeep Muvva"
+                },
+                {
+                    "authorId": "2228826361",
+                    "name": "Eashaan Rao"
+                },
+                {
+                    "authorId": "1926332",
+                    "name": "S. Chimalakonda"
+                }
+            ],
+            "doi": "10.5281/ZENODO.3653836",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "fecb581e2eb243510adfbab5439db2dcb2855118",
+            "title": "BuGL - A Cross-Language Dataset for Bug Localization",
+            "url": "https://www.semanticscholar.org/paper/fecb581e2eb243510adfbab5439db2dcb2855118",
+            "venue": "ArXiv",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1402933401",
+                    "name": "Sharifah Mashita Syed-Mohamad"
+                },
+                {
+                    "authorId": "92964059",
+                    "name": "Nur Asyraf Md Akhir"
+                }
+            ],
+            "doi": "10.1109/APSEC48747.2019.00011",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ef993a0de0ee79e77454b25153b93e3ab6c6bdd6",
+            "title": "SoReady: An Extension of the Test and Defect Coverage-Based Analytics Model for Pull-Based Software Development",
+            "url": "https://www.semanticscholar.org/paper/ef993a0de0ee79e77454b25153b93e3ab6c6bdd6",
+            "venue": "2019 26th Asia-Pacific Software Engineering Conference (APSEC)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2828975",
+                    "name": "Shurui Zhou"
+                }
+            ],
+            "doi": "10.1109/ASE.2019.00144",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "ea1e24f264ff87c894bf2b4babab74fb7cd6804f",
+            "title": "Improving Collaboration Efficiency in Fork-Based Development",
+            "url": "https://www.semanticscholar.org/paper/ea1e24f264ff87c894bf2b4babab74fb7cd6804f",
+            "venue": "2019 34th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2258298781",
+                    "name": "Qingye Wang"
+                },
+                {
+                    "authorId": "2203459",
+                    "name": "Bowen Xu"
+                },
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "2155389789",
+                    "name": "Ting Wang"
+                },
+                {
+                    "authorId": "1773299",
+                    "name": "Shanping Li"
+                }
+            ],
+            "doi": "10.1145/3361242.3361254",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7c282ae4a3251b73041634fe469f94a2eca478a6",
+            "title": "Duplicate Pull Request Detection: When Time Matters",
+            "url": "https://www.semanticscholar.org/paper/7c282ae4a3251b73041634fe469f94a2eca478a6",
+            "venue": "Internetware",
+            "year": 2019
+        },
+        {
+            "arxivId": "1909.00642",
+            "authors": [
+                {
+                    "authorId": "1904494",
+                    "name": "P. Bunyakiati"
+                },
+                {
+                    "authorId": "1491174331",
+                    "name": "Usa Sammapun"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "54c1d22617be88107159780150cb8fea7ed7eb98",
+            "title": "Open-Source Projects and their Collaborative Development Workflows",
+            "url": "https://www.semanticscholar.org/paper/54c1d22617be88107159780150cb8fea7ed7eb98",
+            "venue": "ArXiv",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2828975",
+                    "name": "Shurui Zhou"
+                },
+                {
+                    "authorId": "2434621",
+                    "name": "Bogdan Vasilescu"
+                },
+                {
+                    "authorId": "145832795",
+                    "name": "Christian K\u00e4stner"
+                }
+            ],
+            "doi": "10.1145/3338906.3338918",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7e194fef865bbc6dcaac4100132c4b535636ddde",
+            "title": "What the fork: a study of inefficient and efficient forking practices in social coding",
+            "url": "https://www.semanticscholar.org/paper/7e194fef865bbc6dcaac4100132c4b535636ddde",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00085",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "43148fabe2636026e07ca04974aff40d204bfb6b",
+            "title": "Standing on Shoulders or Feet? The Usage of the MSR Data Papers",
+            "url": "https://www.semanticscholar.org/paper/43148fabe2636026e07ca04974aff40d204bfb6b",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": "1904.02414",
+            "authors": [
+                {
+                    "authorId": "3144783",
+                    "name": "Andrea Di Sorbo"
+                },
+                {
+                    "authorId": "1765470",
+                    "name": "Josef Spillner"
+                },
+                {
+                    "authorId": "1711200",
+                    "name": "G. Canfora"
+                },
+                {
+                    "authorId": "3117169",
+                    "name": "Sebastiano Panichella"
+                }
+            ],
+            "doi": "10.1016/J.INFSOF.2021.106665",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9fad68beb7c40895609edc3cc3b1933a55de2206",
+            "title": "\"Won't We Fix this Issue?\" Qualitative Characterization and Automated Identification of Wontfix Issues on GitHub",
+            "url": "https://www.semanticscholar.org/paper/9fad68beb7c40895609edc3cc3b1933a55de2206",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47111832",
+                    "name": "Yue Yu"
+                },
+                {
+                    "authorId": "22769371",
+                    "name": "Y. Zeng"
+                },
+                {
+                    "authorId": "2036554644",
+                    "name": "Qiang Fan"
+                },
+                {
+                    "authorId": "143969934",
+                    "name": "Huaimin Wang"
+                }
+            ],
+            "doi": "10.1145/3275219.3275237",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f883c60abc663d313ffef1b321c0f6c93246a049",
+            "title": "Transferring Well-Trained Models for Cross-Project Issue Classification: A Large-Scale Empirical Study",
+            "url": "https://www.semanticscholar.org/paper/f883c60abc663d313ffef1b321c0f6c93246a049",
+            "venue": "Internetware",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2309583",
+                    "name": "Z. Alshara"
+                },
+                {
+                    "authorId": "34826773",
+                    "name": "Anas Shatnawi"
+                },
+                {
+                    "authorId": "1417856448",
+                    "name": "Hamzeh Eyal-Salman"
+                },
+                {
+                    "authorId": "2033929",
+                    "name": "A. Seriai"
+                },
+                {
+                    "authorId": "2349041",
+                    "name": "M. Shatnawi"
+                }
+            ],
+            "doi": "10.1109/ACCESS.2022.3232982",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c9217b082aaa6399c4bbec27a24a5132b7770192",
+            "title": "PI-Link: A Ground-Truth Dataset of Links Between Pull-Requests and Issues in GitHub",
+            "url": "https://www.semanticscholar.org/paper/c9217b082aaa6399c4bbec27a24a5132b7770192",
+            "venue": "IEEE Access",
+            "year": 2023
+        }
+    ],
+    "corpusId": 50780538,
+    "doi": "10.1145/3196398.3196455",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 4,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 30,
+    "numCiting": 10,
+    "paperId": "33dab73c106d9b4e50c272d829b5c3249a81293c",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47111832",
+                    "name": "Yue Yu"
+                },
+                {
+                    "authorId": "143969934",
+                    "name": "Huaimin Wang"
+                },
+                {
+                    "authorId": "143634613",
+                    "name": "Gang Yin"
+                },
+                {
+                    "authorId": "39082503",
+                    "name": "Tao Wang"
+                }
+            ],
+            "doi": "10.1016/J.INFSOF.2016.01.004",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9b4df30d4019ad196ca0d5c34b8ef6ae5e5fc7ca",
+            "title": "Reviewer recommendation for pull-requests in GitHub: What can we learn from code review and bug assignment?",
+            "url": "https://www.semanticscholar.org/paper/9b4df30d4019ad196ca0d5c34b8ef6ae5e5fc7ca",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2158105870",
+                    "name": "Wenjian Huang"
+                },
+                {
+                    "authorId": "1711569",
+                    "name": "T. Lu"
+                },
+                {
+                    "authorId": "1742431",
+                    "name": "Haiyi Zhu"
+                },
+                {
+                    "authorId": "2116730766",
+                    "name": "Guo Li"
+                },
+                {
+                    "authorId": "39341617",
+                    "name": "Ning Gu"
+                }
+            ],
+            "doi": "10.1145/2818048.2819950",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d1caa02943506bd9be682c4abd5e540388d69e23",
+            "title": "Effectiveness of Conflict Management Strategies in Peer Review Process of Online Collaboration Projects",
+            "url": "https://www.semanticscholar.org/paper/d1caa02943506bd9be682c4abd5e540388d69e23",
+            "venue": "CSCW",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2434621",
+                    "name": "Bogdan Vasilescu"
+                },
+                {
+                    "authorId": "47111832",
+                    "name": "Yue Yu"
+                },
+                {
+                    "authorId": "143969934",
+                    "name": "Huaimin Wang"
+                },
+                {
+                    "authorId": "1730296",
+                    "name": "Premkumar T. Devanbu"
+                },
+                {
+                    "authorId": "3179220",
+                    "name": "V. Filkov"
+                }
+            ],
+            "doi": "10.1145/2786805.2786850",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0b5a3c73c3a72941664828c049f1f483d462dd08",
+            "title": "Quality and productivity outcomes relating to continuous integration in GitHub",
+            "url": "https://www.semanticscholar.org/paper/0b5a3c73c3a72941664828c049f1f483d462dd08",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47111832",
+                    "name": "Yue Yu"
+                },
+                {
+                    "authorId": "143969934",
+                    "name": "Huaimin Wang"
+                },
+                {
+                    "authorId": "3179220",
+                    "name": "V. Filkov"
+                },
+                {
+                    "authorId": "1730296",
+                    "name": "Premkumar T. Devanbu"
+                },
+                {
+                    "authorId": "2434621",
+                    "name": "Bogdan Vasilescu"
+                }
+            ],
+            "doi": "10.1109/MSR.2015.42",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "23393bdaea4de56302836575327bf995aac8696e",
+            "title": "Wait for It: Determinants of Pull Request Evaluation Latency on GitHub",
+            "url": "https://www.semanticscholar.org/paper/23393bdaea4de56302836575327bf995aac8696e",
+            "venue": "2015 IEEE/ACM 12th Working Conference on Mining Software Repositories",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2352093",
+                    "name": "Patanamon Thongtanunam"
+                },
+                {
+                    "authorId": "1957122",
+                    "name": "C. Tantithamthavorn"
+                },
+                {
+                    "authorId": "1680034",
+                    "name": "R. Kula"
+                },
+                {
+                    "authorId": "143884632",
+                    "name": "Norihiro Yoshida"
+                },
+                {
+                    "authorId": "1687605",
+                    "name": "Hajimu Iida"
+                },
+                {
+                    "authorId": "144975613",
+                    "name": "Ken-ichi Matsumoto"
+                }
+            ],
+            "doi": "10.1109/SANER.2015.7081824",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "62ebbaaefa0aea8dbf5f145d7d3a228448565770",
+            "title": "Who should review my code? A file location-based code-reviewer recommendation approach for Modern Code Review",
+            "url": "https://www.semanticscholar.org/paper/62ebbaaefa0aea8dbf5f145d7d3a228448565770",
+            "venue": "2015 IEEE 22nd International Conference on Software Analysis, Evolution, and Reengineering (SANER)",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2052949",
+                    "name": "Jason Tsay"
+                },
+                {
+                    "authorId": "1784365",
+                    "name": "Laura A. Dabbish"
+                },
+                {
+                    "authorId": "1705550",
+                    "name": "J. Herbsleb"
+                }
+            ],
+            "doi": "10.1145/2635868.2635882",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "89b0cd5087f697ce9b9b82b6507ad48c28da400d",
+            "title": "Let's talk about it: evaluating contributions through discussion in GitHub",
+            "url": "https://www.semanticscholar.org/paper/89b0cd5087f697ce9b9b82b6507ad48c28da400d",
+            "venue": "SIGSOFT FSE",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "1734938",
+                    "name": "M. Storey"
+                },
+                {
+                    "authorId": "1686038",
+                    "name": "Alberto Bacchelli"
+                }
+            ],
+            "doi": "10.1145/2884781.2884826",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8455b1a9c02e256cf9bc3244f31110db12eb62fc",
+            "title": "Work Practices and Challenges in Pull-Based Development: The Contributor's Perspective",
+            "url": "https://www.semanticscholar.org/paper/8455b1a9c02e256cf9bc3244f31110db12eb62fc",
+            "venue": "2016 IEEE/ACM 38th International Conference on Software Engineering (ICSE)",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "1702285",
+                    "name": "A. Zaidman"
+                }
+            ],
+            "doi": "10.1145/2597073.2597122",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0d855817b4218b87e5b58b05b039fee3ba108710",
+            "title": "A dataset for pull-based development research",
+            "url": "https://www.semanticscholar.org/paper/0d855817b4218b87e5b58b05b039fee3ba108710",
+            "venue": "MSR 2014",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "1775709",
+                    "name": "M. Pinzger"
+                },
+                {
+                    "authorId": "1737202",
+                    "name": "A. Deursen"
+                }
+            ],
+            "doi": "10.1145/2568225.2568260",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "79d0909c84fbf4e0fba60ecc235192183fecc8c1",
+            "title": "An exploratory study of the pull-based software development model",
+            "url": "https://www.semanticscholar.org/paper/79d0909c84fbf4e0fba60ecc235192183fecc8c1",
+            "venue": "ICSE",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2012.6224294",
+            "intent": [
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "de760552279b241976676f4723a159060a433198",
+            "title": "GHTorrent: Github's data from a firehose",
+            "url": "https://www.semanticscholar.org/paper/de760552279b241976676f4723a159060a433198",
+            "venue": "2012 9th IEEE Working Conference on Mining Software Repositories (MSR)",
+            "year": 2012
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "A Dataset of Duplicate Pull-Requests in GitHub",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/33dab73c106d9b4e50c272d829b5c3249a81293c",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2018
+}

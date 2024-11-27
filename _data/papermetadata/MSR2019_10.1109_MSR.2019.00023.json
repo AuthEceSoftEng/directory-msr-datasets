@@ -1,0 +1,907 @@
+{
+    "abstract": "Cryptographic APIs (Crypto APIs) provide the foundations for the development of secure applications. Unfortunately, most applications do not use Crypto APIs securely and end up being insecure, e.g., by the usage of an outdated algorithm, a constant initialization vector, or an inappropriate hashing algorithm. Two different studies [1], [2] have recently shown that 88% to 95% of those applications using Crypto APIs are insecure due to misuses. To facilitate further research on these kinds of misuses, we created a collection of 201 misuses found in real-world applications along with a classification of those misuses. In the provided dataset, each misuse consists of the corresponding open-source project, the project's build information, a description of the misuse, and the misuse's location. Further, we integrated our dataset into MUBench [3], a benchmark for API misuse detection. Our dataset provides a foundation for research on Crypto API misuses. For example, it can be used to evaluate the precision and recall of detection tools, as a foundation for studies related to Crypto API misuses, or as a training set.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "3469814",
+            "name": "A. Wickert",
+            "url": "https://www.semanticscholar.org/author/3469814"
+        },
+        {
+            "authorId": "47138634",
+            "name": "Michael Reif",
+            "url": "https://www.semanticscholar.org/author/47138634"
+        },
+        {
+            "authorId": "1696396",
+            "name": "Michael Eichberg",
+            "url": "https://www.semanticscholar.org/author/1696396"
+        },
+        {
+            "authorId": "79420173",
+            "name": "Anam Dodhy",
+            "url": "https://www.semanticscholar.org/author/79420173"
+        },
+        {
+            "authorId": "1681134",
+            "name": "M. Mezini",
+            "url": "https://www.semanticscholar.org/author/1681134"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2407.07064",
+            "authors": [
+                {
+                    "authorId": "2164989094",
+                    "name": "Catherine Tony"
+                },
+                {
+                    "authorId": "2278790365",
+                    "name": "Nicol'as E. D'iaz Ferreyra"
+                },
+                {
+                    "authorId": "2211737182",
+                    "name": "Markus Mutas"
+                },
+                {
+                    "authorId": "2310436158",
+                    "name": "Salem Dhiff"
+                },
+                {
+                    "authorId": "2278794889",
+                    "name": "Riccardo Scandariato"
+                }
+            ],
+            "doi": "10.48550/arXiv.2407.07064",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b5efc80da0bd72e7059470c1a9a6c34ab6f966a6",
+            "title": "Prompting Techniques for Secure Code Generation: A Systematic Investigation",
+            "url": "https://www.semanticscholar.org/paper/b5efc80da0bd72e7059470c1a9a6c34ab6f966a6",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2303806042",
+                    "name": "Haoling Fan"
+                },
+                {
+                    "authorId": "2369828",
+                    "name": "Fangyu Zheng"
+                },
+                {
+                    "authorId": "2261549781",
+                    "name": "Jingqiang Lin"
+                },
+                {
+                    "authorId": "2113609612",
+                    "name": "Lingjia Meng"
+                },
+                {
+                    "authorId": "2271663715",
+                    "name": "Mingyu Wang"
+                },
+                {
+                    "authorId": "2303714608",
+                    "name": "Qiang Wang"
+                },
+                {
+                    "authorId": "2261513936",
+                    "name": "Shijie Jia"
+                },
+                {
+                    "authorId": "2279959811",
+                    "name": "Yuan Ma"
+                }
+            ],
+            "doi": "10.1109/TrustCom60117.2023.00116",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "66450d5619c1bf04f0ebffe70d5101b0a16829e2",
+            "title": "Hydamc: A Hybrid Detection Approach for Misuse of Cryptographic Algorithms in Closed-Source Software",
+            "url": "https://www.semanticscholar.org/paper/66450d5619c1bf04f0ebffe70d5101b0a16829e2",
+            "venue": "2023 IEEE 22nd International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2307.16325",
+            "authors": [
+                {
+                    "authorId": "3484843",
+                    "name": "Amit Seal Ami"
+                },
+                {
+                    "authorId": "1381376597",
+                    "name": "Kevin Moran"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                },
+                {
+                    "authorId": "3200206",
+                    "name": "Adwait Nadkarni"
+                }
+            ],
+            "doi": "10.1109/SP54263.2024.00019",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4d2b5eb3a76d2e8c227e06bd9dab7de90fbf5ce3",
+            "title": "\"False negative - that one is going to kill you\": Understanding Industry Perspectives of Static Analysis based Security Testing",
+            "url": "https://www.semanticscholar.org/paper/4d2b5eb3a76d2e8c227e06bd9dab7de90fbf5ce3",
+            "venue": "2024 IEEE Symposium on Security and Privacy (SP)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2303.09384",
+            "authors": [
+                {
+                    "authorId": "2164989094",
+                    "name": "Catherine Tony"
+                },
+                {
+                    "authorId": "2211737182",
+                    "name": "Markus Mutas"
+                },
+                {
+                    "authorId": "2210729647",
+                    "name": "Nicol\u00e1s E. D\u00edaz Ferreyra"
+                },
+                {
+                    "authorId": "1723601",
+                    "name": "R. Scandariato"
+                }
+            ],
+            "doi": "10.1109/MSR59073.2023.00084",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8205612a6d15df52b8c3d26aabfd50abc10fdee3",
+            "title": "LLMSecEval: A Dataset of Natural Language Prompts for Security Evaluations",
+            "url": "https://www.semanticscholar.org/paper/8205612a6d15df52b8c3d26aabfd50abc10fdee3",
+            "venue": "2023 IEEE/ACM 20th International Conference on Mining Software Repositories (MSR)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2211.13498",
+            "authors": [
+                {
+                    "authorId": "2164989094",
+                    "name": "Catherine Tony"
+                },
+                {
+                    "authorId": "2156116825",
+                    "name": "Nicol'as E. D'iaz Ferreyra"
+                },
+                {
+                    "authorId": "1723601",
+                    "name": "R. Scandariato"
+                }
+            ],
+            "doi": "10.1109/QRS57517.2022.00094",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "ce9397eaa3de0f791bead5d16f14b5dd4a15052f",
+            "title": "GitHub Considered Harmful? Analyzing Open-Source Projects for the Automatic Generation of Cryptographic API Call Sequences",
+            "url": "https://www.semanticscholar.org/paper/ce9397eaa3de0f791bead5d16f14b5dd4a15052f",
+            "venue": "2022 IEEE 22nd International Conference on Software Quality, Reliability and Security (QRS)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144188161",
+                    "name": "Thomas Hirsch"
+                },
+                {
+                    "authorId": "3334382",
+                    "name": "Birgit Hofer"
+                }
+            ],
+            "doi": "10.1016/j.jss.2022.111423",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9a7b7867d1c2a540fd2c3ad9df666a32751374e2",
+            "title": "A systematic literature review on benchmarks for evaluating debugging approaches",
+            "url": "https://www.semanticscholar.org/paper/9a7b7867d1c2a540fd2c3ad9df666a32751374e2",
+            "venue": "J. Syst. Softw.",
+            "year": 2022
+        },
+        {
+            "arxivId": "2204.06447",
+            "authors": [
+                {
+                    "authorId": "51174451",
+                    "name": "Michael Schlichtig"
+                },
+                {
+                    "authorId": "3469814",
+                    "name": "A. Wickert"
+                },
+                {
+                    "authorId": "1508873065",
+                    "name": "Stefan Kr\u00fcger"
+                },
+                {
+                    "authorId": "1752222",
+                    "name": "E. Bodden"
+                },
+                {
+                    "authorId": "1681134",
+                    "name": "M. Mezini"
+                }
+            ],
+            "doi": "10.48550/arXiv.2204.06447",
+            "intent": [
+                "result",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "0b4f4cab119263e610cc65e2b16d842f0c0c6308",
+            "title": "CamBench - Cryptographic API Misuse Detection Tool Benchmark Suite",
+            "url": "https://www.semanticscholar.org/paper/0b4f4cab119263e610cc65e2b16d842f0c0c6308",
+            "venue": "ArXiv",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "35159204",
+                    "name": "Zhiwu Xu"
+                },
+                {
+                    "authorId": "2109768876",
+                    "name": "Xiong Hu"
+                },
+                {
+                    "authorId": "2090219",
+                    "name": "Yida Tao"
+                },
+                {
+                    "authorId": "8307590",
+                    "name": "S. Qin"
+                }
+            ],
+            "doi": "10.1109/TASE49443.2020.00029",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "59fd878cc5008bc92a3c7755d7e318d40dc44a48",
+            "title": "Analyzing Cryptographic API Usages for Android Applications Using HMM and N-Gram",
+            "url": "https://www.semanticscholar.org/paper/59fd878cc5008bc92a3c7755d7e318d40dc44a48",
+            "venue": "2020 International Symposium on Theoretical Aspects of Software Engineering (TASE)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": "10.1109/msr45733.2019",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "de20e3a4dbd7d0d30eb4a5b46d6222ba827cf208",
+            "title": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "url": "https://www.semanticscholar.org/paper/de20e3a4dbd7d0d30eb4a5b46d6222ba827cf208",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2221135213",
+                    "name": "Scott Marsden"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ed3e823fd29f9856d3e7f14263124d1c7c924514",
+            "title": "A Reevaluation of Why Crypto-detectors Fail: A Systematic Revaluation of Cryptographic Misuse Detection Techniques",
+            "url": "https://www.semanticscholar.org/paper/ed3e823fd29f9856d3e7f14263124d1c7c924514",
+            "venue": "",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2188817847",
+                    "name": "Jens Berberich"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "81bb522ccf4767c68176dd306d6c8420e9f72d60",
+            "title": "Automatic Derivation of Rules for Static Security Analysis from Public Source Code Repositories",
+            "url": "https://www.semanticscholar.org/paper/81bb522ccf4767c68176dd306d6c8420e9f72d60",
+            "venue": "",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2101060936",
+                    "name": "Kristen L Newbury"
+                },
+                {
+                    "authorId": "153806724",
+                    "name": "Karim Ali"
+                },
+                {
+                    "authorId": "8705396",
+                    "name": "Andrew Craik"
+                }
+            ],
+            "doi": "10.5555/3507788.3507799",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2887c24bfc5be336e87377fe17bee9d02061e7f7",
+            "title": "Hotfixing misuses of crypto APIs in Java programs",
+            "url": "https://www.semanticscholar.org/paper/2887c24bfc5be336e87377fe17bee9d02061e7f7",
+            "venue": "CASCON",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2101060936",
+                    "name": "Kristen L Newbury"
+                }
+            ],
+            "doi": "10.7939/R3-3TH1-NG86",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "05e45859a2258d212cd5f302af5698744ff3984c",
+            "title": "Automated Hotfixes for Misuses of Crypto APIs",
+            "url": "https://www.semanticscholar.org/paper/05e45859a2258d212cd5f302af5698744ff3984c",
+            "venue": "",
+            "year": 2020
+        }
+    ],
+    "corpusId": 181874345,
+    "doi": "10.1109/MSR.2019.00023",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 1,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 13,
+    "numCiting": 20,
+    "paperId": "8a29e6fe92b8f8c0d5461feaee8ec59a2b063aea",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1508873065",
+                    "name": "Stefan Kr\u00fcger"
+                },
+                {
+                    "authorId": "1486407469",
+                    "name": "Johannes Sp\u00e4th"
+                },
+                {
+                    "authorId": "49975642",
+                    "name": "Karim Ali"
+                },
+                {
+                    "authorId": "1752222",
+                    "name": "E. Bodden"
+                },
+                {
+                    "authorId": "1681134",
+                    "name": "M. Mezini"
+                }
+            ],
+            "doi": "10.4230/LIPIcs.ECOOP.2018.10",
+            "intent": [
+                "result",
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "b05b6f8f05beb7fa029a2b0101f1ad931027c099",
+            "title": "CrySL: An Extensible Approach to Validating the Correct Usage of Cryptographic APIs",
+            "url": "https://www.semanticscholar.org/paper/b05b6f8f05beb7fa029a2b0101f1ad931027c099",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2647473",
+                    "name": "Antonios Gkortzis"
+                },
+                {
+                    "authorId": "7498035",
+                    "name": "Dimitris Mitropoulos"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1145/3196398.3196454",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "337fd6a9824cc1c4f8b81fa34cdc198dc733e2d3",
+            "title": "VulinOSS: A Dataset of Security Vulnerabilities in Open-Source Systems",
+            "url": "https://www.semanticscholar.org/paper/337fd6a9824cc1c4f8b81fa34cdc198dc733e2d3",
+            "venue": "2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR)",
+            "year": 2018
+        },
+        {
+            "arxivId": "1805.11683",
+            "authors": [
+                {
+                    "authorId": "1884064",
+                    "name": "Michael Pradel"
+                },
+                {
+                    "authorId": "145741786",
+                    "name": "Koushik Sen"
+                }
+            ],
+            "doi": "10.1145/3276517",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c70f11da5a8bb2df36def1d99c4c08df315e2233",
+            "title": "DeepBugs: a learning approach to name-based bug detection",
+            "url": "https://www.semanticscholar.org/paper/c70f11da5a8bb2df36def1d99c4c08df315e2233",
+            "venue": "Proc. ACM Program. Lang.",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "33787987",
+                    "name": "Sven Amann"
+                },
+                {
+                    "authorId": "2909676",
+                    "name": "H. Nguyen"
+                },
+                {
+                    "authorId": "1869015",
+                    "name": "Sarah Nadi"
+                },
+                {
+                    "authorId": "2327697",
+                    "name": "T. Nguyen"
+                },
+                {
+                    "authorId": "1681134",
+                    "name": "M. Mezini"
+                }
+            ],
+            "doi": "10.1109/TSE.2018.2827384",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "f436230166963725638114133ddb4fa096a9c4d4",
+            "title": "A Systematic Evaluation of Static API-Misuse Detectors",
+            "url": "https://www.semanticscholar.org/paper/f436230166963725638114133ddb4fa096a9c4d4",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2017
+        },
+        {
+            "arxivId": "1709.09970",
+            "authors": [
+                {
+                    "authorId": "46720340",
+                    "name": "Na Meng"
+                },
+                {
+                    "authorId": "36542225",
+                    "name": "Stefan Nagy"
+                },
+                {
+                    "authorId": "144805631",
+                    "name": "D. Yao"
+                },
+                {
+                    "authorId": "1380927164",
+                    "name": "Wenjie Zhuang"
+                },
+                {
+                    "authorId": "2145326947",
+                    "name": "Gustavo A. Arango-Argoty"
+                }
+            ],
+            "doi": "10.1145/3180155.3180201",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0a9128fddb62e441c38680be30129b638a6e19d0",
+            "title": "Secure Coding Practices in Java: Challenges and Vulnerabilities",
+            "url": "https://www.semanticscholar.org/paper/0a9128fddb62e441c38680be30129b638a6e19d0",
+            "venue": "2018 IEEE/ACM 40th International Conference on Software Engineering (ICSE)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3224778",
+                    "name": "Y. Acar"
+                },
+                {
+                    "authorId": "144588806",
+                    "name": "M. Backes"
+                },
+                {
+                    "authorId": "2200198",
+                    "name": "S. Fahl"
+                },
+                {
+                    "authorId": "1682642",
+                    "name": "S. Garfinkel"
+                },
+                {
+                    "authorId": "1999637",
+                    "name": "Doowon Kim"
+                },
+                {
+                    "authorId": "37176218",
+                    "name": "Michelle L. Mazurek"
+                },
+                {
+                    "authorId": "3447368",
+                    "name": "Christian Stransky"
+                }
+            ],
+            "doi": "10.1109/SP.2017.52",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8feb09cc758a2bb79f20bd5dc67f027951eefabe",
+            "title": "Comparing the Usability of Cryptographic APIs",
+            "url": "https://www.semanticscholar.org/paper/8feb09cc758a2bb79f20bd5dc67f027951eefabe",
+            "venue": "2017 IEEE Symposium on Security and Privacy (SP)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1796709",
+                    "name": "Siqi Ma"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                },
+                {
+                    "authorId": "144193778",
+                    "name": "Teng Li"
+                },
+                {
+                    "authorId": "1713669",
+                    "name": "R. Deng"
+                }
+            ],
+            "doi": "10.1145/2897845.2897896",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "dc3e717c89df8c4a75a6ee6adf94bd7ddc0a8103",
+            "title": "CDRep: Automatic Repair of Cryptographic Misuses in Android Applications",
+            "url": "https://www.semanticscholar.org/paper/dc3e717c89df8c4a75a6ee6adf94bd7ddc0a8103",
+            "venue": "AsiaCCS",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "33787987",
+                    "name": "Sven Amann"
+                },
+                {
+                    "authorId": "1869015",
+                    "name": "Sarah Nadi"
+                },
+                {
+                    "authorId": "2909676",
+                    "name": "H. Nguyen"
+                },
+                {
+                    "authorId": "2327697",
+                    "name": "T. Nguyen"
+                },
+                {
+                    "authorId": "1681134",
+                    "name": "M. Mezini"
+                }
+            ],
+            "doi": "10.1145/2901739.2903506",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "e51ba9911af6e355277f5268f7e8312a5931599b",
+            "title": "MUBench: A Benchmark for API-Misuse Detectors",
+            "url": "https://www.semanticscholar.org/paper/e51ba9911af6e355277f5268f7e8312a5931599b",
+            "venue": "2016 IEEE/ACM 13th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1869015",
+                    "name": "Sarah Nadi"
+                },
+                {
+                    "authorId": "1508873065",
+                    "name": "Stefan Kr\u00fcger"
+                },
+                {
+                    "authorId": "1681134",
+                    "name": "M. Mezini"
+                },
+                {
+                    "authorId": "1752222",
+                    "name": "E. Bodden"
+                }
+            ],
+            "doi": "10.1145/2884781.2884790",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ffb2003551fa97cde9d82f8219fb2754090e37b3",
+            "title": "\"Jumping Through Hoops\": Why do Java Developers Struggle with Cryptography APIs?",
+            "url": "https://www.semanticscholar.org/paper/ffb2003551fa97cde9d82f8219fb2754090e37b3",
+            "venue": "2016 IEEE/ACM 38th International Conference on Software Engineering (ICSE)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144623320",
+                    "name": "David Lazar"
+                },
+                {
+                    "authorId": "2812833",
+                    "name": "Haogang Chen"
+                },
+                {
+                    "authorId": "2108249416",
+                    "name": "Xi Wang"
+                },
+                {
+                    "authorId": "1789973",
+                    "name": "Nickolai Zeldovich"
+                }
+            ],
+            "doi": "10.1145/2637166.2637237",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f7642fb46cd7fba5ea01cc5e49f7631b9f561d6d",
+            "title": "Why does cryptographic software fail?: a case study and open problems",
+            "url": "https://www.semanticscholar.org/paper/f7642fb46cd7fba5ea01cc5e49f7631b9f561d6d",
+            "venue": "APSys",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2489809",
+                    "name": "Manuel Egele"
+                },
+                {
+                    "authorId": "145959809",
+                    "name": "David Brumley"
+                },
+                {
+                    "authorId": "2416629",
+                    "name": "Y. Fratantonio"
+                },
+                {
+                    "authorId": "69508619",
+                    "name": "C. Kruegel"
+                }
+            ],
+            "doi": "10.1145/2508859.2516693",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "14a0511f05820914a3c10f5c43f2c6bd8d069c9a",
+            "title": "An empirical study of cryptographic misuse in android applications",
+            "url": "https://www.semanticscholar.org/paper/14a0511f05820914a3c10f5c43f2c6bd8d069c9a",
+            "venue": "CCS",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143777370",
+                    "name": "Brittany Johnson"
+                },
+                {
+                    "authorId": "2188802",
+                    "name": "Yoonki Song"
+                },
+                {
+                    "authorId": "1398156124",
+                    "name": "E. Murphy-Hill"
+                },
+                {
+                    "authorId": "2861612",
+                    "name": "Robert W. Bowdidge"
+                }
+            ],
+            "doi": "10.1109/ICSE.2013.6606613",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "060cc5c0fa6bed9a39bdb6f9c995586f4709006e",
+            "title": "Why don't software developers use static analysis tools to find bugs?",
+            "url": "https://www.semanticscholar.org/paper/060cc5c0fa6bed9a39bdb6f9c995586f4709006e",
+            "venue": "2013 35th International Conference on Software Engineering (ICSE)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f04ab6d9a3ff3d1e43fa7bb2f66ed4e3b9c8b676",
+            "title": "Cryptographic Mechanisms: Recommendations and Key Lengths, Version 2022-01",
+            "url": "https://www.semanticscholar.org/paper/f04ab6d9a3ff3d1e43fa7bb2f66ed4e3b9c8b676",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "stg-tud/github-query-script: MSR19 Alpha",
+            "url": "",
+            "venue": "Feb. 2019. [Online]. Available: https://zenodo.org/record/ 2558580",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "MUBench - GitHub repository",
+            "url": "",
+            "venue": "Jan. 2019, original-date: 2016-02-12T15:26:49Z. [Online]. Available: https://github.com/stg-tud/ MUBench",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Workshop on Systems, ser. APSys '14",
+            "url": "",
+            "venue": "",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Legion of the Bouncy Castle Inc , \u201c Bouncy Castle . \u201d [ Online ]",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201cBouncy Castle.\u201d",
+            "url": "",
+            "venue": "http://bouncycastle.org/",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201cJava Cryptography Architecture (JCA) Reference Guide.\u201d",
+            "url": "",
+            "venue": "docs",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201cFind Security Bugs.\u201d",
+            "url": "",
+            "venue": "\ufb01nd-sec-bugs.github.io/",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "A Dataset of Parametric Cryptographic Misuses",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/8a29e6fe92b8f8c0d5461feaee8ec59a2b063aea",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2019
+}

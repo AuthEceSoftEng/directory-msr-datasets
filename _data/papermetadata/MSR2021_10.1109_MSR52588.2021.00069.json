@@ -1,0 +1,1229 @@
+{
+    "abstract": "Many developers and organizations implement apps for Android, the most widely used operating system for mobile devices. Common problems developers face are the various hardware devices, customized Android variants, and frequent updates, forcing them to implement workarounds for the different versions and variants of Android APIs used in practice. In this paper, we contribute the Android Compatibility checkS dataSet (AndroidCompass) that comprises changes to compatibility checks developers use to enforce workarounds for specific Android versions in their apps. We extracted 80,324 changes to compatibility checks from 1,394 apps by analyzing the version histories of 2,399 projects from the F-Droid catalog. With AndroidCompass, we aim to provide data on when and how developers introduced or evolved workarounds to handle Android incompatibilities. We hope that AndroidCompass fosters research to deal with version incompatibilities, address potential design flaws, identify security concerns, and help derive solutions for other developers, among others\u2014helping researchers to develop and evaluate novel techniques, and Android app as well as operating-system developers in engineering their software.",
+    "arxivId": "2103.09620",
+    "authors": [
+        {
+            "authorId": "3289277",
+            "name": "Sebastian Nielebock",
+            "url": "https://www.semanticscholar.org/author/3289277"
+        },
+        {
+            "authorId": "1844282240",
+            "name": "Paul Blockhaus",
+            "url": "https://www.semanticscholar.org/author/1844282240"
+        },
+        {
+            "authorId": "38256069",
+            "name": "J. Kr\u00fcger",
+            "url": "https://www.semanticscholar.org/author/38256069"
+        },
+        {
+            "authorId": "2421227",
+            "name": "F. Ortmeier",
+            "url": "https://www.semanticscholar.org/author/2421227"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2294487423",
+                    "name": "Jacob Kr\u00fcger"
+                },
+                {
+                    "authorId": "2265422274",
+                    "name": "Yi Li"
+                },
+                {
+                    "authorId": "2298481473",
+                    "name": "Kirill Lossev"
+                },
+                {
+                    "authorId": "2298618947",
+                    "name": "Chenguang Zhu"
+                },
+                {
+                    "authorId": "1854323",
+                    "name": "M. Chechik"
+                },
+                {
+                    "authorId": "2242416696",
+                    "name": "Thorsten Berger"
+                },
+                {
+                    "authorId": "2242472874",
+                    "name": "Julia Rubin"
+                }
+            ],
+            "doi": "10.1145/3661484",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0a93644f25559025fdc2091d6b49f3ced5d5e470",
+            "title": "A Meta-Study of Software-Change Intentions",
+            "url": "https://www.semanticscholar.org/paper/0a93644f25559025fdc2091d6b49f3ced5d5e470",
+            "venue": "ACM Computing Surveys",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2113250846",
+                    "name": "Pei Liu"
+                },
+                {
+                    "authorId": "2109712263",
+                    "name": "Yanjie Zhao"
+                },
+                {
+                    "authorId": "49820350",
+                    "name": "M. Fazzini"
+                },
+                {
+                    "authorId": "39136735",
+                    "name": "Haipeng Cai"
+                },
+                {
+                    "authorId": "2095462233",
+                    "name": "John C. Grundy"
+                },
+                {
+                    "authorId": "3913791",
+                    "name": "Li Li"
+                }
+            ],
+            "doi": "10.1145/3624737",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "1b90052d7c39b5c41c26b98f72058d755303bbd2",
+            "title": "Automatically Detecting Incompatible Android APIs",
+            "url": "https://www.semanticscholar.org/paper/1b90052d7c39b5c41c26b98f72058d755303bbd2",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2023
+        },
+        {
+            "arxivId": "2305.08671",
+            "authors": [
+                {
+                    "authorId": "72613353",
+                    "name": "Xiu-sheng Xu"
+                },
+                {
+                    "authorId": "8652308",
+                    "name": "Chenguang Zhu"
+                },
+                {
+                    "authorId": "47002970",
+                    "name": "Yi Li"
+                }
+            ],
+            "doi": "10.1109/ASE56229.2023.00127",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5f5824a34dc96e89954519c69e9931e963ce4c32",
+            "title": "Compsuite: A Dataset of Java Library Upgrade Incompatibility Issues",
+            "url": "https://www.semanticscholar.org/paper/5f5824a34dc96e89954519c69e9931e963ce4c32",
+            "venue": "2023 38th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2115256751",
+                    "name": "Sen Yang"
+                },
+                {
+                    "authorId": "48847695",
+                    "name": "Sen Chen"
+                },
+                {
+                    "authorId": "41075481",
+                    "name": "Lingling Fan"
+                },
+                {
+                    "authorId": "2550742",
+                    "name": "Sihan Xu"
+                },
+                {
+                    "authorId": "2175781",
+                    "name": "Zhan-wei Hui"
+                },
+                {
+                    "authorId": "2116104475",
+                    "name": "Song Huang"
+                }
+            ],
+            "doi": "10.1109/ICSE48619.2023.00033",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "799cc02e0ec652f4542237926eeded2017aa35c1",
+            "title": "Compatibility Issue Detection for Android Apps Based on Path-Sensitive Semantic Analysis",
+            "url": "https://www.semanticscholar.org/paper/799cc02e0ec652f4542237926eeded2017aa35c1",
+            "venue": "2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2115256751",
+                    "name": "Sen Yang"
+                },
+                {
+                    "authorId": "2175781",
+                    "name": "Zhan-wei Hui"
+                },
+                {
+                    "authorId": "2198168979",
+                    "name": "Hui li"
+                },
+                {
+                    "authorId": "35894007",
+                    "name": "Changyou Zheng"
+                },
+                {
+                    "authorId": "2158511325",
+                    "name": "Yifan Huang"
+                }
+            ],
+            "doi": "10.1002/smr.2523",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f671ddc167579c77365c70801afb407bdf13b2ff",
+            "title": "APP constraint analysis approach to select mobile devices for compatibility crowdtesting",
+            "url": "https://www.semanticscholar.org/paper/f671ddc167579c77365c70801afb407bdf13b2ff",
+            "venue": "J. Softw. Evol. Process.",
+            "year": 2022
+        },
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": "2207.06665",
+            "authors": [
+                {
+                    "authorId": "3289277",
+                    "name": "Sebastian Nielebock"
+                },
+                {
+                    "authorId": "1844282240",
+                    "name": "Paul Blockhaus"
+                },
+                {
+                    "authorId": "2156838820",
+                    "name": "Jacob Kr\u00fcger"
+                },
+                {
+                    "authorId": "2421227",
+                    "name": "F. Ortmeier"
+                }
+            ],
+            "doi": "10.48550/arXiv.2207.06665",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "541115cd797bcbfe636fe753b179a89e6e250dd8",
+            "title": "Automated Change Rule Inference for Distance-Based API Misuse Detection",
+            "url": "https://www.semanticscholar.org/paper/541115cd797bcbfe636fe753b179a89e6e250dd8",
+            "venue": "ArXiv",
+            "year": 2022
+        },
+        {
+            "arxivId": "2205.15561",
+            "authors": [
+                {
+                    "authorId": "2113250846",
+                    "name": "Pei Liu"
+                },
+                {
+                    "authorId": "2109712263",
+                    "name": "Yanjie Zhao"
+                },
+                {
+                    "authorId": "39136735",
+                    "name": "Haipeng Cai"
+                },
+                {
+                    "authorId": "49820350",
+                    "name": "M. Fazzini"
+                },
+                {
+                    "authorId": "2095462233",
+                    "name": "John C. Grundy"
+                },
+                {
+                    "authorId": "3913791",
+                    "name": "Li Li"
+                }
+            ],
+            "doi": "10.1145/3533767.3534407",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "ba320ed119a550c4a20c210e1002fcdb54eff99c",
+            "title": "Automatically detecting API-induced compatibility issues in Android apps: a comparative analysis (replicability study)",
+            "url": "https://www.semanticscholar.org/paper/ba320ed119a550c4a20c210e1002fcdb54eff99c",
+            "venue": "ISSTA",
+            "year": 2022
+        },
+        {
+            "arxivId": "2203.04448",
+            "authors": [
+                {
+                    "authorId": "1753394319",
+                    "name": "Jordan Samhi"
+                },
+                {
+                    "authorId": "11128727",
+                    "name": "Tegawend'e F. Bissyand'e"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                }
+            ],
+            "doi": "10.1145/3524842.3528020",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "34a306bf9fffd645f24b121874f22f1752da461a",
+            "title": "TriggerZoo: A Dataset of Android Applications Automatically Infected with Logic Bombs",
+            "url": "https://www.semanticscholar.org/paper/34a306bf9fffd645f24b121874f22f1752da461a",
+            "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2108.12511",
+            "authors": [
+                {
+                    "authorId": "3289277",
+                    "name": "Sebastian Nielebock"
+                },
+                {
+                    "authorId": "1844282240",
+                    "name": "Paul Blockhaus"
+                },
+                {
+                    "authorId": "38256069",
+                    "name": "J. Kr\u00fcger"
+                },
+                {
+                    "authorId": "2421227",
+                    "name": "F. Ortmeier"
+                }
+            ],
+            "doi": "10.26226/morressier.613b54401459512fce6a7d05",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "82aaae90ad2ff525e9bd94b4105783a089139811",
+            "title": "An Experimental Analysis of Graph-Distance Algorithms for Comparing API Usages",
+            "url": "https://www.semanticscholar.org/paper/82aaae90ad2ff525e9bd94b4105783a089139811",
+            "venue": "2021 IEEE 21st International Working Conference on Source Code Analysis and Manipulation (SCAM)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2008.00277",
+            "authors": [
+                {
+                    "authorId": "3289277",
+                    "name": "Sebastian Nielebock"
+                },
+                {
+                    "authorId": "2350478",
+                    "name": "R. Heum\u00fcller"
+                },
+                {
+                    "authorId": "2052588771",
+                    "name": "Kevin Michael Schott"
+                },
+                {
+                    "authorId": "2421227",
+                    "name": "F. Ortmeier"
+                }
+            ],
+            "doi": "10.1007/s10515-021-00294-x",
+            "intent": [
+                "background",
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "b2fb4dff8ce7a53324a8d862babcdb48e1058e5a",
+            "title": "Guided pattern mining for API misuse detection by change-based code analysis",
+            "url": "https://www.semanticscholar.org/paper/b2fb4dff8ce7a53324a8d862babcdb48e1058e5a",
+            "venue": "Automated Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2141007147",
+                    "name": "Mudassar Waheed"
+                },
+                {
+                    "authorId": "2301024406",
+                    "name": "Sana Qadir"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1f6f69ccf17a1c4eca90372ce0433160651d1c8d",
+            "title": "Effective and Efficient Android Malware Detection and Category Classification Using the Enhanced KronoDroid Dataset",
+            "url": "https://www.semanticscholar.org/paper/1f6f69ccf17a1c4eca90372ce0433160651d1c8d",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "corpusId": 232257786,
+    "doi": "10.1109/MSR52588.2021.00069",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 3,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 12,
+    "numCiting": 24,
+    "paperId": "0806a7f1e3a7fa46f6ad59a59ea41655b3370d72",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2110552415",
+                    "name": "Lili Wei"
+                },
+                {
+                    "authorId": "39584070",
+                    "name": "Yepang Liu"
+                },
+                {
+                    "authorId": "143608708",
+                    "name": "S. Cheung"
+                },
+                {
+                    "authorId": "31192483",
+                    "name": "Huaxun Huang"
+                },
+                {
+                    "authorId": "1522975334",
+                    "name": "Xuan Lu"
+                },
+                {
+                    "authorId": "2110773587",
+                    "name": "Xuanzhe Liu"
+                }
+            ],
+            "doi": "10.1109/TSE.2018.2876439",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5950129202a4d1d531dc02bc080cac0945476778",
+            "title": "Understanding and Detecting Fragmentation-Induced Compatibility Issues for Android Apps",
+            "url": "https://www.semanticscholar.org/paper/5950129202a4d1d531dc02bc080cac0945476778",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3439470",
+                    "name": "Simone Scalabrino"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "1397411901",
+                    "name": "Mario Linares-V\u00e1squez"
+                },
+                {
+                    "authorId": "134846475",
+                    "name": "Valentina Piantadosi"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09877-w",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "0220b4fe0247094527404568af19c4b7e5b85a20",
+            "title": "API compatibility issues in Android: Causes and effectiveness of data-driven detection techniques",
+            "url": "https://www.semanticscholar.org/paper/0220b4fe0247094527404568af19c4b7e5b85a20",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": "2008.00277",
+            "authors": [
+                {
+                    "authorId": "3289277",
+                    "name": "Sebastian Nielebock"
+                },
+                {
+                    "authorId": "2350478",
+                    "name": "R. Heum\u00fcller"
+                },
+                {
+                    "authorId": "2052588771",
+                    "name": "Kevin Michael Schott"
+                },
+                {
+                    "authorId": "2421227",
+                    "name": "F. Ortmeier"
+                }
+            ],
+            "doi": "10.1007/s10515-021-00294-x",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b2fb4dff8ce7a53324a8d862babcdb48e1058e5a",
+            "title": "Guided pattern mining for API misuse detection by change-based code analysis",
+            "url": "https://www.semanticscholar.org/paper/b2fb4dff8ce7a53324a8d862babcdb48e1058e5a",
+            "venue": "Automated Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2065045355",
+                    "name": "Hao Xia"
+                },
+                {
+                    "authorId": "1703465",
+                    "name": "Yuan Zhang"
+                },
+                {
+                    "authorId": "2118862147",
+                    "name": "Ying Zhou"
+                },
+                {
+                    "authorId": "2144148967",
+                    "name": "Xiaoting Chen"
+                },
+                {
+                    "authorId": "2155651937",
+                    "name": "Yang Wang"
+                },
+                {
+                    "authorId": "1771551",
+                    "name": "X. Zhang"
+                },
+                {
+                    "authorId": "2075307150",
+                    "name": "Shuaishuai Cui"
+                },
+                {
+                    "authorId": "2054278588",
+                    "name": "Geng Hong"
+                },
+                {
+                    "authorId": "2108583363",
+                    "name": "Xiaohan Zhang"
+                },
+                {
+                    "authorId": "2110950734",
+                    "name": "Min Yang"
+                },
+                {
+                    "authorId": "2133673",
+                    "name": "Zhemin Yang"
+                }
+            ],
+            "doi": "10.1145/3377811.3380357",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "2b8b131e5807f6bfc8786e18dd4eb595f5efd4fb",
+            "title": "How Android Developers Handle Evolution-induced API Compatibility Issues: A Large-scale Study",
+            "url": "https://www.semanticscholar.org/paper/2b8b131e5807f6bfc8786e18dd4eb595f5efd4fb",
+            "venue": "2020 IEEE/ACM 42nd International Conference on Software Engineering (ICSE)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3289277",
+                    "name": "Sebastian Nielebock"
+                },
+                {
+                    "authorId": "2350478",
+                    "name": "R. Heum\u00fcller"
+                },
+                {
+                    "authorId": "38256069",
+                    "name": "J. Kr\u00fcger"
+                },
+                {
+                    "authorId": "2421227",
+                    "name": "F. Ortmeier"
+                }
+            ],
+            "doi": "10.1145/3377816.3381735",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ae6bae7a27eda45ad989d3a1d3c0d5d76f625540",
+            "title": "Cooperative API Misuse Detection Using Correction Rules",
+            "url": "https://www.semanticscholar.org/paper/ae6bae7a27eda45ad989d3a1d3c0d5d76f625540",
+            "venue": "2020 IEEE/ACM 42nd International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER)",
+            "year": 2020
+        },
+        {
+            "arxivId": "2006.10306",
+            "authors": [
+                {
+                    "authorId": "39244585",
+                    "name": "Nadeem Ahmed"
+                },
+                {
+                    "authorId": "145335613",
+                    "name": "Regio A. Michelin"
+                },
+                {
+                    "authorId": "143884610",
+                    "name": "Wanli Xue"
+                },
+                {
+                    "authorId": "1727457",
+                    "name": "S. Ruj"
+                },
+                {
+                    "authorId": "8883319",
+                    "name": "R. Malaney"
+                },
+                {
+                    "authorId": "1733096",
+                    "name": "S. Kanhere"
+                },
+                {
+                    "authorId": "144810596",
+                    "name": "A. Seneviratne"
+                },
+                {
+                    "authorId": "153014717",
+                    "name": "Wen Hu"
+                },
+                {
+                    "authorId": "1757757",
+                    "name": "H. Janicke"
+                },
+                {
+                    "authorId": "2174062047",
+                    "name": "S. Jha"
+                }
+            ],
+            "doi": "10.1109/ACCESS.2020.3010226",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2887d216089eb7bbaf01aeaca95a0e2e6fd45ec6",
+            "title": "A Survey of COVID-19 Contact Tracing Apps",
+            "url": "https://www.semanticscholar.org/paper/2887d216089eb7bbaf01aeaca95a0e2e6fd45ec6",
+            "venue": "IEEE Access",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "94746907",
+                    "name": "Miriam Ballhausen"
+                }
+            ],
+            "doi": "10.1109/MC.2019.2907766",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "ed0823a034228131f27ee279f6366e6c314ed25c",
+            "title": "Free and Open Source Software Licenses Explained",
+            "url": "https://www.semanticscholar.org/paper/ed0823a034228131f27ee279f6366e6c314ed25c",
+            "venue": "Computer",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3439470",
+                    "name": "Simone Scalabrino"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "1397411901",
+                    "name": "Mario Linares-V\u00e1squez"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00055",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "30a007a63903d845f133f5965bc103b3fb3ae1cb",
+            "title": "Data-Driven Solutions to Detect API Compatibility Issues in Android: An Empirical Study",
+            "url": "https://www.semanticscholar.org/paper/30a007a63903d845f133f5965bc103b3fb3ae1cb",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2110552415",
+                    "name": "Lili Wei"
+                },
+                {
+                    "authorId": "39584070",
+                    "name": "Yepang Liu"
+                },
+                {
+                    "authorId": "143608708",
+                    "name": "S. Cheung"
+                }
+            ],
+            "doi": "10.1109/ICSE.2019.00094",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "654f9770d2ca818bb1018e45940194df48f7378e",
+            "title": "PIVOT: Learning API-Device Correlations to Facilitate Android Compatibility Issue Detection",
+            "url": "https://www.semanticscholar.org/paper/654f9770d2ca818bb1018e45940194df48f7378e",
+            "venue": "2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "19165535",
+                    "name": "D. Spadini"
+                },
+                {
+                    "authorId": "2289215",
+                    "name": "M. Aniche"
+                },
+                {
+                    "authorId": "1686038",
+                    "name": "Alberto Bacchelli"
+                }
+            ],
+            "doi": "10.1145/3236024.3264598",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "7b5f909e1ab4d076116d11e1e7754b3c12471db8",
+            "title": "PyDriller: Python framework for mining software repositories",
+            "url": "https://www.semanticscholar.org/paper/7b5f909e1ab4d076116d11e1e7754b3c12471db8",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2020605676",
+                    "name": "Dongjie He"
+                },
+                {
+                    "authorId": "50704040",
+                    "name": "Lian Li"
+                },
+                {
+                    "authorId": "2152514328",
+                    "name": "Lei Wang"
+                },
+                {
+                    "authorId": "2115584578",
+                    "name": "Hengjie Zheng"
+                },
+                {
+                    "authorId": "2151299176",
+                    "name": "Guangwei Li"
+                },
+                {
+                    "authorId": "144198209",
+                    "name": "Jingling Xue"
+                }
+            ],
+            "doi": "10.1145/3238147.3238185",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "b60c96581d8de06ca7fcdf74ad487fa252a61e35",
+            "title": "Understanding and Detecting Evolution-Induced Compatibility Issues in Android Apps",
+            "url": "https://www.semanticscholar.org/paper/b60c96581d8de06ca7fcdf74ad487fa252a61e35",
+            "venue": "2018 33rd IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "31192483",
+                    "name": "Huaxun Huang"
+                },
+                {
+                    "authorId": "2110552415",
+                    "name": "Lili Wei"
+                },
+                {
+                    "authorId": "39584070",
+                    "name": "Yepang Liu"
+                },
+                {
+                    "authorId": "143608708",
+                    "name": "S. Cheung"
+                }
+            ],
+            "doi": "10.1145/3238147.3238181",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a2320dbfe1e0a40c8be1c8ca12dc1cc445b47fdb",
+            "title": "Understanding and Detecting Callback Compatibility Issues for Android Applications",
+            "url": "https://www.semanticscholar.org/paper/a2320dbfe1e0a40c8be1c8ca12dc1cc445b47fdb",
+            "venue": "2018 33rd IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2156057406",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "3023999",
+                    "name": "T\u00e9gawend\u00e9 F. Bissyand\u00e9"
+                },
+                {
+                    "authorId": "2109570965",
+                    "name": "Haoyu Wang"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                }
+            ],
+            "doi": "10.1145/3213846.3213857",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b2b58df4810c071ffab517da5dd97663924b7461",
+            "title": "CiD: automating the detection of API-related compatibility issues in Android apps",
+            "url": "https://www.semanticscholar.org/paper/b2b58df4810c071ffab517da5dd97663924b7461",
+            "venue": "ISSTA",
+            "year": 2018
+        },
+        {
+            "arxivId": "1802.02938",
+            "authors": [
+                {
+                    "authorId": "1728435",
+                    "name": "Sebastian Baltes"
+                },
+                {
+                    "authorId": "1680836",
+                    "name": "S. Diehl"
+                }
+            ],
+            "doi": "10.1007/s10664-018-9650-5",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8af484d6c95a4875aced87acbc8de99a3c40a902",
+            "title": "Usage and attribution of Stack Overflow code snippets in GitHub projects",
+            "url": "https://www.semanticscholar.org/paper/8af484d6c95a4875aced87acbc8de99a3c40a902",
+            "venue": "Empirical Software Engineering",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "33787987",
+                    "name": "Sven Amann"
+                },
+                {
+                    "authorId": "2909676",
+                    "name": "H. Nguyen"
+                },
+                {
+                    "authorId": "1869015",
+                    "name": "Sarah Nadi"
+                },
+                {
+                    "authorId": "2327697",
+                    "name": "T. Nguyen"
+                },
+                {
+                    "authorId": "1681134",
+                    "name": "M. Mezini"
+                }
+            ],
+            "doi": "10.1109/TSE.2018.2827384",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f436230166963725638114133ddb4fa096a9c4d4",
+            "title": "A Systematic Evaluation of Static API-Misuse Detectors",
+            "url": "https://www.semanticscholar.org/paper/f436230166963725638114133ddb4fa096a9c4d4",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2110552415",
+                    "name": "Lili Wei"
+                },
+                {
+                    "authorId": "39584070",
+                    "name": "Yepang Liu"
+                },
+                {
+                    "authorId": "143608708",
+                    "name": "S. Cheung"
+                }
+            ],
+            "doi": "10.1145/2970276.2970312",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "bbc028268dc9b4cf186eeb06a68f5bb86310e4f5",
+            "title": "Taming Android fragmentation: Characterizing and detecting compatibility issues for Android apps",
+            "url": "https://www.semanticscholar.org/paper/bbc028268dc9b4cf186eeb06a68f5bb86310e4f5",
+            "venue": "2016 31st IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "83263357",
+                    "name": "X. Le"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                },
+                {
+                    "authorId": "2957803",
+                    "name": "Claire Le Goues"
+                }
+            ],
+            "doi": "10.1109/SANER.2016.76",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a331e24a763fb411a51a4962731976d9030e2556",
+            "title": "History Driven Program Repair",
+            "url": "https://www.semanticscholar.org/paper/a331e24a763fb411a51a4962731976d9030e2556",
+            "venue": "2016 IEEE 23rd International Conference on Software Analysis, Evolution, and Reengineering (SANER)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "37693118",
+                    "name": "Fan Long"
+                },
+                {
+                    "authorId": "1720971",
+                    "name": "M. Rinard"
+                }
+            ],
+            "doi": "10.1145/2837614.2837617",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "50358e3f30ab8c99f9d383e5683b31c2311e5651",
+            "title": "Automatic patch generation by learning correct code",
+            "url": "https://www.semanticscholar.org/paper/50358e3f30ab8c99f9d383e5683b31c2311e5651",
+            "venue": "POPL",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2247430",
+                    "name": "Boya Sun"
+                },
+                {
+                    "authorId": "50258375",
+                    "name": "Gang Shu"
+                },
+                {
+                    "authorId": "2098981",
+                    "name": "Andy Podgurski"
+                },
+                {
+                    "authorId": "2117808043",
+                    "name": "Shirong Li"
+                },
+                {
+                    "authorId": "2145407488",
+                    "name": "Shijie Zhang"
+                },
+                {
+                    "authorId": "2144561096",
+                    "name": "Jiong Yang"
+                }
+            ],
+            "doi": "10.1109/ISSRE.2010.36",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b2aedc52930f4ddd0b84d6072db90410fd26b3e3",
+            "title": "Propagating Bug Fixes with Fast Subgraph Matching",
+            "url": "https://www.semanticscholar.org/paper/b2aedc52930f4ddd0b84d6072db90410fd26b3e3",
+            "venue": "2010 IEEE 21st International Symposium on Software Reliability Engineering",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144755752",
+                    "name": "Hao Zhong"
+                },
+                {
+                    "authorId": "145906750",
+                    "name": "Tao Xie"
+                },
+                {
+                    "authorId": "144281339",
+                    "name": "Lu Zhang"
+                },
+                {
+                    "authorId": "145525190",
+                    "name": "J. Pei"
+                },
+                {
+                    "authorId": "2072391067",
+                    "name": "Hong Mei"
+                }
+            ],
+            "doi": "10.1007/978-3-642-03013-0_15",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fed132d312a9f618329238ac6542d0148a0ff157",
+            "title": "MAPO: Mining and Recommending API Usage Patterns",
+            "url": "https://www.semanticscholar.org/paper/fed132d312a9f618329238ac6542d0148a0ff157",
+            "venue": "ECOOP",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1734481",
+                    "name": "Eirini Kalliamvakou"
+                },
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "1715864",
+                    "name": "Kelly Blincoe"
+                },
+                {
+                    "authorId": "18264995",
+                    "name": "Leif Singer"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "1741744",
+                    "name": "D. Damian"
+                }
+            ],
+            "doi": "10.1145/2597073.2597074",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d80d307a463df3526bf12ef1974afa7352f7b863",
+            "title": "The promises and perils of mining GitHub",
+            "url": "https://www.semanticscholar.org/paper/d80d307a463df3526bf12ef1974afa7352f7b863",
+            "venue": "MSR 2014",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1787729",
+                    "name": "Sunghun Kim"
+                },
+                {
+                    "authorId": "145834128",
+                    "name": "Kai Pan"
+                },
+                {
+                    "authorId": "145007710",
+                    "name": "E. J. Whitehead"
+                }
+            ],
+            "doi": "10.1145/1181775.1181781",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c4d20c13667e328b5a924c6773102b5b515ae5e5",
+            "title": "Memories of bug fixes",
+            "url": "https://www.semanticscholar.org/paper/c4d20c13667e328b5a924c6773102b5b515ae5e5",
+            "venue": "SIGSOFT '06/FSE-14",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145269784",
+                    "name": "B. Livshits"
+                },
+                {
+                    "authorId": "143609903",
+                    "name": "Thomas Zimmermann"
+                }
+            ],
+            "doi": "10.1145/1081706.1081754",
+            "intent": [
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "fe02922aec81016e1ae1e11cfa69b8408baa7d4e",
+            "title": "DynaMine: finding common error patterns by mining software revision histories",
+            "url": "https://www.semanticscholar.org/paper/fe02922aec81016e1ae1e11cfa69b8408baa7d4e",
+            "venue": "ESEC/FSE-13",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2460404",
+                    "name": "Jacek Sliwerski"
+                },
+                {
+                    "authorId": "143609903",
+                    "name": "Thomas Zimmermann"
+                },
+                {
+                    "authorId": "145594351",
+                    "name": "A. Zeller"
+                }
+            ],
+            "doi": "10.1145/1082983.1083147",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "9784038a293df294d955c0edd72ee37a4bfe8705",
+            "title": "When do changes induce fixes?",
+            "url": "https://www.semanticscholar.org/paper/9784038a293df294d955c0edd72ee37a4bfe8705",
+            "venue": "ACM SIGSOFT Softw. Eng. Notes",
+            "year": 2005
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "AndroidCompass: A Dataset of Android Compatibility Checks in Code Repositories",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/0806a7f1e3a7fa46f6ad59a59ea41655b3370d72",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2021
+}

@@ -1,0 +1,604 @@
+{
+    "abstract": "Open source distributions such as Gentoo need to accurately track dependency relations between software packages in order to install working systems. To do this, Gentoo has a carefully authored database containing those relations. In this paper, we extract the Gentoo package dependency graph and its changes over time. The final dependency graph spans 15 thousand open source projects and 80 thousand dependency relations. Furthermore, the development of this graph is tracked over time from the beginning of the Gentoo project in 2000 to the first quarter of 2012, with monthly resolution. The resulting dataset provides many opportunities for research. In this paper we explore cluster analysis to reveals meaningful relations between packages and in a separate paper we analyze changes in the dependencies over time to get insights in the innovation dynamics of open source software.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "38787250",
+            "name": "Remco Bloemen",
+            "url": "https://www.semanticscholar.org/author/38787250"
+        },
+        {
+            "authorId": "2880089",
+            "name": "C. Amrit",
+            "url": "https://www.semanticscholar.org/author/2880089"
+        },
+        {
+            "authorId": "48731807",
+            "name": "S. Kuhlmann",
+            "url": "https://www.semanticscholar.org/author/48731807"
+        },
+        {
+            "authorId": "1405318799",
+            "name": "Gonzalo Ord\u00f3\u00f1ez\u2010Matamoros",
+            "url": "https://www.semanticscholar.org/author/1405318799"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "10660223",
+                    "name": "Dominik Wermke"
+                },
+                {
+                    "authorId": "98517058",
+                    "name": "J. Klemmer"
+                },
+                {
+                    "authorId": "2179560214",
+                    "name": "Noah W\u00f6hler"
+                },
+                {
+                    "authorId": "2183391266",
+                    "name": "Juliane Schm\u00fcser"
+                },
+                {
+                    "authorId": "2165704595",
+                    "name": "Harshini Sri Ramulu"
+                },
+                {
+                    "authorId": "3224778",
+                    "name": "Y. Acar"
+                },
+                {
+                    "authorId": "2200198",
+                    "name": "S. Fahl"
+                }
+            ],
+            "doi": "10.1109/SP46215.2023.10179378",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "bf6caa2f1ba99636f71058d98d38da591221df7f",
+            "title": "\"Always Contribute Back\": A Qualitative Study on Security Challenges of the Open Source Supply Chain",
+            "url": "https://www.semanticscholar.org/paper/bf6caa2f1ba99636f71058d98d38da591221df7f",
+            "venue": "2023 IEEE Symposium on Security and Privacy (SP)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2125013745",
+                    "name": "Md Atique Reza Chowdhury"
+                },
+                {
+                    "authorId": "2154809",
+                    "name": "Rabe Abdalkareem"
+                },
+                {
+                    "authorId": "3318024",
+                    "name": "Emad Shihab"
+                },
+                {
+                    "authorId": "143612725",
+                    "name": "Bram Adams"
+                }
+            ],
+            "doi": "10.1109/TSE.2021.3068901",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1e5a0421e3ff826b769f65a312170079c16e9286",
+            "title": "On the Untriviality of Trivial Packages: An Empirical Study of npm JavaScript Packages",
+            "url": "https://www.semanticscholar.org/paper/1e5a0421e3ff826b769f65a312170079c16e9286",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": "2002.11066",
+            "authors": [
+                {
+                    "authorId": "11360887",
+                    "name": "Kaifeng Huang"
+                },
+                {
+                    "authorId": "144943089",
+                    "name": "Bihuan Chen"
+                },
+                {
+                    "authorId": "2075335053",
+                    "name": "Bowen Shi"
+                },
+                {
+                    "authorId": "2155516518",
+                    "name": "Ying Wang"
+                },
+                {
+                    "authorId": "2110087644",
+                    "name": "Cong-jian Xu"
+                },
+                {
+                    "authorId": "143621878",
+                    "name": "Xin Peng"
+                }
+            ],
+            "doi": "10.1145/3368089.3409689",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2e1607893fed0bd907e3ab947a3f07b4ca8e3997",
+            "title": "Interactive, effort-aware library version harmonization",
+            "url": "https://www.semanticscholar.org/paper/2e1607893fed0bd907e3ab947a3f07b4ca8e3997",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2154809",
+                    "name": "Rabe Abdalkareem"
+                },
+                {
+                    "authorId": "1481766276",
+                    "name": "Vinicius Oda"
+                },
+                {
+                    "authorId": "19281977",
+                    "name": "Suhaib Mujahid"
+                },
+                {
+                    "authorId": "3318024",
+                    "name": "Emad Shihab"
+                }
+            ],
+            "doi": "10.1007/s10664-019-09792-9",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1f676ac2d78537680ba926f60d6d97bc1180d6c5",
+            "title": "On the impact of using trivial packages: an empirical case study on npm and PyPI",
+            "url": "https://www.semanticscholar.org/paper/1f676ac2d78537680ba926f60d6d97bc1180d6c5",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "9225466",
+                    "name": "Atiq Chowdhury"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7b26998817f7893ca951e0f3e995fd4d006b0383",
+            "title": "Untriviality of Trivial Packages",
+            "url": "https://www.semanticscholar.org/paper/7b26998817f7893ca951e0f3e995fd4d006b0383",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": "2004.00138",
+            "authors": [
+                {
+                    "authorId": "1575448139",
+                    "name": "Olivier Bal-P\u00e9tr\u00e9"
+                },
+                {
+                    "authorId": "1575327592",
+                    "name": "Pierre Varlez"
+                },
+                {
+                    "authorId": "1397808828",
+                    "name": "Fernando P\u00e9rez-T\u00e9llez"
+                }
+            ],
+            "doi": "10.1145/3380678.3380685",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "add1a19acea8cc06ada2839d16cd42574df298c4",
+            "title": "Pacloud: Towards a Universal Cloud-based Linux Package Manager",
+            "url": "https://www.semanticscholar.org/paper/add1a19acea8cc06ada2839d16cd42574df298c4",
+            "venue": "Proceedings of the 2019 International Communication Engineering and Cloud Computing Conference",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00085",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "43148fabe2636026e07ca04974aff40d204bfb6b",
+            "title": "Standing on Shoulders or Feet? The Usage of the MSR Data Papers",
+            "url": "https://www.semanticscholar.org/paper/43148fabe2636026e07ca04974aff40d204bfb6b",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": "1902.09217",
+            "authors": [
+                {
+                    "authorId": "2054206337",
+                    "name": "Markus Zimmermann"
+                },
+                {
+                    "authorId": "40141524",
+                    "name": "Cristian-Alexandru Staicu"
+                },
+                {
+                    "authorId": "73771429",
+                    "name": "Cam Tenny"
+                },
+                {
+                    "authorId": "1884064",
+                    "name": "Michael Pradel"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "30c4476f6af1653874221b78a930a549a801e72c",
+            "title": "Small World with High Risks: A Study of Security Threats in the npm Ecosystem",
+            "url": "https://www.semanticscholar.org/paper/30c4476f6af1653874221b78a930a549a801e72c",
+            "venue": "USENIX Security Symposium",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2017758",
+                    "name": "Michael Lienhardt"
+                },
+                {
+                    "authorId": "1732808",
+                    "name": "Ferruccio Damiani"
+                },
+                {
+                    "authorId": "31876887",
+                    "name": "Simone Donetti"
+                },
+                {
+                    "authorId": "2611029",
+                    "name": "Luca Paolini"
+                }
+            ],
+            "doi": "10.1145/3168365.3170425",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ce6616de8f95bd9f1a8dea973c7d86528cabd993",
+            "title": "Multi Software Product Lines in the Wild",
+            "url": "https://www.semanticscholar.org/paper/ce6616de8f95bd9f1a8dea973c7d86528cabd993",
+            "venue": "VaMoS",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2154809",
+                    "name": "Rabe Abdalkareem"
+                },
+                {
+                    "authorId": "2105324470",
+                    "name": "Olivier Nourry"
+                },
+                {
+                    "authorId": "3408327",
+                    "name": "Sultan Wehaibi"
+                },
+                {
+                    "authorId": "19281977",
+                    "name": "Suhaib Mujahid"
+                },
+                {
+                    "authorId": "3318024",
+                    "name": "Emad Shihab"
+                }
+            ],
+            "doi": "10.1145/3106237.3106267",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7af8a7cff59902ddfe8fb845ff4eda639c486f5f",
+            "title": "Why do developers use trivial packages? an empirical case study on npm",
+            "url": "https://www.semanticscholar.org/paper/7af8a7cff59902ddfe8fb845ff4eda639c486f5f",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2154809",
+                    "name": "Rabe Abdalkareem"
+                }
+            ],
+            "doi": "10.1145/3106237.3121278",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "01a06804d77bd3a2cf1c86b159a8e6865cb5155a",
+            "title": "Reasons and drawbacks of using trivial npm packages: the developers' perspective",
+            "url": "https://www.semanticscholar.org/paper/01a06804d77bd3a2cf1c86b159a8e6865cb5155a",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "101116834",
+                    "name": "Erik Wittern"
+                },
+                {
+                    "authorId": "4010451",
+                    "name": "Philippe Suter"
+                },
+                {
+                    "authorId": "2640561",
+                    "name": "Shriram Rajagopalan"
+                }
+            ],
+            "doi": "10.1145/2901739.2901743",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "acfd7508986738045547598fe07440ef0141abde",
+            "title": "A Look at the Dynamics of the JavaScript Package Ecosystem",
+            "url": "https://www.semanticscholar.org/paper/acfd7508986738045547598fe07440ef0141abde",
+            "venue": "2016 IEEE/ACM 13th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "38787250",
+                    "name": "Remco Bloemen"
+                },
+                {
+                    "authorId": "2880089",
+                    "name": "C. Amrit"
+                },
+                {
+                    "authorId": "48731807",
+                    "name": "S. Kuhlmann"
+                },
+                {
+                    "authorId": "1405318799",
+                    "name": "Gonzalo Ord\u00f3\u00f1ez\u2010Matamoros"
+                }
+            ],
+            "doi": "10.1145/2597073.2597079",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0df995ccce30e3dc0d9cb9b734963a63cbd554f4",
+            "title": "Innovation diffusion in open source software: preliminary analysis of dependency changes in the gentoo portage package database",
+            "url": "https://www.semanticscholar.org/paper/0df995ccce30e3dc0d9cb9b734963a63cbd554f4",
+            "venue": "MSR 2014",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "33787987",
+                    "name": "Sven Amann"
+                },
+                {
+                    "authorId": "1839778",
+                    "name": "S. Beyer"
+                },
+                {
+                    "authorId": "3194068",
+                    "name": "Katja Kevic"
+                },
+                {
+                    "authorId": "50355692",
+                    "name": "H. Gall"
+                }
+            ],
+            "doi": "10.1007/978-3-319-28406-4_5",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "178a226a4fa68d80f709d0cfff5f5458df0daad3",
+            "title": "Software Mining Studies: Goals, Approaches, Artifacts, and Replicability",
+            "url": "https://www.semanticscholar.org/paper/178a226a4fa68d80f709d0cfff5f5458df0daad3",
+            "venue": "LASER Summer School",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "134856901",
+                    "name": "W. Aker"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "96c94c041ca4404d851f40c615ba175b2ec86f24",
+            "title": "Checking Conway \u2019 s Law for Inter Package Dependencies in Open Source Software",
+            "url": "https://www.semanticscholar.org/paper/96c94c041ca4404d851f40c615ba175b2ec86f24",
+            "venue": "",
+            "year": 2014
+        }
+    ],
+    "corpusId": 17762092,
+    "doi": "10.1145/2597073.2597131",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 17,
+    "numCiting": 2,
+    "paperId": "1b8a3890b66e19912cf0cf1c7ccdd0f94679d128",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "38787250",
+                    "name": "Remco Bloemen"
+                },
+                {
+                    "authorId": "2880089",
+                    "name": "C. Amrit"
+                },
+                {
+                    "authorId": "48731807",
+                    "name": "S. Kuhlmann"
+                },
+                {
+                    "authorId": "1405318799",
+                    "name": "Gonzalo Ord\u00f3\u00f1ez\u2010Matamoros"
+                }
+            ],
+            "doi": "10.1145/2597073.2597079",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0df995ccce30e3dc0d9cb9b734963a63cbd554f4",
+            "title": "Innovation diffusion in open source software: preliminary analysis of dependency changes in the gentoo portage package database",
+            "url": "https://www.semanticscholar.org/paper/0df995ccce30e3dc0d9cb9b734963a63cbd554f4",
+            "venue": "MSR 2014",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145091983",
+                    "name": "Xiaolong Zheng"
+                },
+                {
+                    "authorId": "1741722",
+                    "name": "D. Zeng"
+                },
+                {
+                    "authorId": "2109028876",
+                    "name": "Huiqian Li"
+                },
+                {
+                    "authorId": "49450967",
+                    "name": "Fei-Yue Wang"
+                }
+            ],
+            "doi": "10.1016/J.PHYSA.2008.06.050",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "69bae28615eff1c38dd1ac8dc9d89a7953ff31a9",
+            "title": "Analyzing open-source software systems as complex networks",
+            "url": "https://www.semanticscholar.org/paper/69bae28615eff1c38dd1ac8dc9d89a7953ff31a9",
+            "venue": "",
+            "year": 2008
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "Gentoo package dependencies over time",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/1b8a3890b66e19912cf0cf1c7ccdd0f94679d128",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2014
+}

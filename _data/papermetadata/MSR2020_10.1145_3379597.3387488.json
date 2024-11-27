@@ -1,0 +1,949 @@
+{
+    "abstract": "High test-to-code traceability can be an important aspect of quality assurance and can contribute to bug localization and code mainte-nance. Several existing techniques and a considerable effort from the scientific community already made significant advances in the field. Despite this, readily accessible data on traceability links is very scarce. To contribute to related research, we present a manually curated test-to-code traceability dataset containing the traceability information on 220 test cases. This method-level data was gathered from 4 open-source software systems written in the Java language, distinguishing not only focal information on test cases but also highlighting the utilized helper methods on both the test and production aspects of code. The data includes more than 2000 of such method classifications.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "41072717",
+            "name": "Andr\u00e1s Kicsi",
+            "url": "https://www.semanticscholar.org/author/41072717"
+        },
+        {
+            "authorId": "1793601",
+            "name": "L\u00e1szl\u00f3 Vid\u00e1cs",
+            "url": "https://www.semanticscholar.org/author/1793601"
+        },
+        {
+            "authorId": "1681248",
+            "name": "T. Gyim\u00f3thy",
+            "url": "https://www.semanticscholar.org/author/1681248"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2296031120",
+                    "name": "Andr\u00e9 Hora"
+                }
+            ],
+            "doi": "10.1145/3643991.3644875",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "19625909593f3f0313439c13e38a101da2d0fd5a",
+            "title": "TestDossier: A Dataset of Tested Values Automatically Extracted from Test Execution",
+            "url": "https://www.semanticscholar.org/paper/19625909593f3f0313439c13e38a101da2d0fd5a",
+            "venue": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2405.04063",
+            "authors": [
+                {
+                    "authorId": "2300176929",
+                    "name": "Partha Protim Paul"
+                },
+                {
+                    "authorId": "2300176175",
+                    "name": "Md Tonoy Akanda"
+                },
+                {
+                    "authorId": "2184207214",
+                    "name": "Mohammed Raihan Ullah"
+                },
+                {
+                    "authorId": "2300176566",
+                    "name": "Dipto Mondal"
+                },
+                {
+                    "authorId": "2184191173",
+                    "name": "N. S. Chowdhury"
+                },
+                {
+                    "authorId": "2007009019",
+                    "name": "Fazle Mohammed Tawsif"
+                }
+            ],
+            "doi": "10.1145/3639478.3643116",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "bdfe66154d04400b9fdb2f3956e6ed0646c55767",
+            "title": "xNose: A Test Smell Detector for C#",
+            "url": "https://www.semanticscholar.org/paper/bdfe66154d04400b9fdb2f3956e6ed0646c55767",
+            "venue": "2024 IEEE/ACM 46th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2203.12776",
+            "authors": [
+                {
+                    "authorId": "40626221",
+                    "name": "Michele Tufano"
+                },
+                {
+                    "authorId": "1702996983",
+                    "name": "Shao Kun Deng"
+                },
+                {
+                    "authorId": "145507437",
+                    "name": "Neel Sundaresan"
+                },
+                {
+                    "authorId": "2061625488",
+                    "name": "Alexey Svyatkovskiy"
+                }
+            ],
+            "doi": "10.1145/3524842.3528009",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "23c4cb69ed2682dfe9c83061ff7c844c2e0b7636",
+            "title": "METHODS2TEST: A dataset of focal methods mapped to test cases",
+            "url": "https://www.semanticscholar.org/paper/23c4cb69ed2682dfe9c83061ff7c844c2e0b7636",
+            "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2109702918",
+                    "name": "Robert White"
+                },
+                {
+                    "authorId": "1824150",
+                    "name": "J. Krinke"
+                }
+            ],
+            "doi": "10.1007/s10664-021-10079-1",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6d159ed540e203d40fd3a6b458d088934819a9bc",
+            "title": "TCTracer: Establishing test-to-code traceability links using dynamic and static techniques",
+            "url": "https://www.semanticscholar.org/paper/6d159ed540e203d40fd3a6b458d088934819a9bc",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": "2108.04639",
+            "authors": [
+                {
+                    "authorId": "2155339700",
+                    "name": "Tongjie Wang"
+                },
+                {
+                    "authorId": "1486450758",
+                    "name": "Yaroslav Golubev"
+                },
+                {
+                    "authorId": "2070919492",
+                    "name": "O. Smirnov"
+                },
+                {
+                    "authorId": "2144508634",
+                    "name": "Jiawei Li"
+                },
+                {
+                    "authorId": "2851011",
+                    "name": "T. Bryksin"
+                },
+                {
+                    "authorId": "144743420",
+                    "name": "Iftekhar Ahmed"
+                }
+            ],
+            "doi": "10.1109/ASE51524.2021.9678615",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "05463f53b67305ad8da7b8f3d5e4cfab28c7d125",
+            "title": "PyNose: A Test Smell Detector For Python",
+            "url": "https://www.semanticscholar.org/paper/05463f53b67305ad8da7b8f3d5e4cfab28c7d125",
+            "venue": "2021 36th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "41072717",
+                    "name": "Andr\u00e1s Kicsi"
+                },
+                {
+                    "authorId": "41072383",
+                    "name": "Viktor Csuvik"
+                },
+                {
+                    "authorId": "1793601",
+                    "name": "L\u00e1szl\u00f3 Vid\u00e1cs"
+                }
+            ],
+            "doi": "10.1109/ACCESS.2021.3083923",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "3de5720a4c852fffbb14f507634b46fde0068c76",
+            "title": "Large Scale Evaluation of Natural Language Processing Based Test-to-Code Traceability Approaches",
+            "url": "https://www.semanticscholar.org/paper/3de5720a4c852fffbb14f507634b46fde0068c76",
+            "venue": "IEEE Access",
+            "year": 2021
+        }
+    ],
+    "corpusId": 221784959,
+    "doi": "10.1145/3379597.3387488",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 6,
+    "numCiting": 26,
+    "paperId": "edeed47ef83fc1d7693ad068946adb811a760740",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "41072383",
+                    "name": "Viktor Csuvik"
+                },
+                {
+                    "authorId": "41072717",
+                    "name": "Andr\u00e1s Kicsi"
+                },
+                {
+                    "authorId": "1793601",
+                    "name": "L\u00e1szl\u00f3 Vid\u00e1cs"
+                }
+            ],
+            "doi": "10.1007/978-3-030-24305-0_40",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2e73f0e738b2af0f0b425011280eca932e08a093",
+            "title": "Evaluation of Textual Similarity Techniques in Code Level Traceability",
+            "url": "https://www.semanticscholar.org/paper/2e73f0e738b2af0f0b425011280eca932e08a093",
+            "venue": "ICCSA",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "41072383",
+                    "name": "Viktor Csuvik"
+                },
+                {
+                    "authorId": "41072717",
+                    "name": "Andr\u00e1s Kicsi"
+                },
+                {
+                    "authorId": "1793601",
+                    "name": "L\u00e1szl\u00f3 Vid\u00e1cs"
+                }
+            ],
+            "doi": "10.1109/SST.2019.00016",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "27f8115be0d3bbc6042ee23260e2cc1528f17a6a",
+            "title": "Source Code Level Word Embeddings in Aiding Semantic Test-to-Code Traceability",
+            "url": "https://www.semanticscholar.org/paper/27f8115be0d3bbc6042ee23260e2cc1528f17a6a",
+            "venue": "2019 IEEE/ACM 10th International Symposium on Software and Systems Traceability (SST)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "41072717",
+                    "name": "Andr\u00e1s Kicsi"
+                },
+                {
+                    "authorId": "145307542",
+                    "name": "L. T\u00f3th"
+                },
+                {
+                    "authorId": "1793601",
+                    "name": "L\u00e1szl\u00f3 Vid\u00e1cs"
+                }
+            ],
+            "doi": "10.1145/3194104.3194106",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "0e7ec9be3e2c2af5f9919ebd4fdb624ebf015a3c",
+            "title": "Exploring the Benefits of Utilizing Conceptual Information in Test-to-Code Traceability",
+            "url": "https://www.semanticscholar.org/paper/0e7ec9be3e2c2af5f9919ebd4fdb624ebf015a3c",
+            "venue": "2018 IEEE/ACM 6th International Workshop on Realizing Artificial Intelligence Synergies in Software Engineering (RAISE)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "41022914",
+                    "name": "M. Rath"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                },
+                {
+                    "authorId": "35215848",
+                    "name": "Patrick M\u00e4der"
+                }
+            ],
+            "doi": "10.1145/3196398.3196415",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9d1418387f91259293d472361331073c75f528c9",
+            "title": "Analyzing Requirements and Traceability Information to Improve Bug Localization",
+            "url": "https://www.semanticscholar.org/paper/9d1418387f91259293d472361331073c75f528c9",
+            "venue": "2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "41072717",
+                    "name": "Andr\u00e1s Kicsi"
+                },
+                {
+                    "authorId": "1793601",
+                    "name": "L\u00e1szl\u00f3 Vid\u00e1cs"
+                },
+                {
+                    "authorId": "41072383",
+                    "name": "Viktor Csuvik"
+                },
+                {
+                    "authorId": "2062882044",
+                    "name": "Ferenc Horv\u00e1th"
+                },
+                {
+                    "authorId": "1752419",
+                    "name": "\u00c1rp\u00e1d Besz\u00e9des"
+                },
+                {
+                    "authorId": "2083652748",
+                    "name": "Ferenc Kocsis"
+                }
+            ],
+            "doi": "10.1007/978-3-319-90421-4_10",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "e7967e11d9dd9b9488c26265ad457f8c02bdb973",
+            "title": "Supporting Product Line Adoption by Combining Syntactic and Textual Feature Extraction",
+            "url": "https://www.semanticscholar.org/paper/e7967e11d9dd9b9488c26265ad457f8c02bdb973",
+            "venue": "ICSR",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1793601",
+                    "name": "L\u00e1szl\u00f3 Vid\u00e1cs"
+                },
+                {
+                    "authorId": "1775709",
+                    "name": "M. Pinzger"
+                }
+            ],
+            "doi": "10.1109/MALTESQUE.2018.8368456",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "e7d92c17878280c3268f9681a1021d83248e073d",
+            "title": "Co-evolution analysis of production and test code by learning association rules of changes",
+            "url": "https://www.semanticscholar.org/paper/e7d92c17878280c3268f9681a1021d83248e073d",
+            "venue": "2018 IEEE Workshop on Machine Learning Techniques for Software Quality Evaluation (MaLTeSQuE)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2808113",
+                    "name": "R. Parizi"
+                }
+            ],
+            "doi": "10.1109/SERA.2016.7516146",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e788ac1baba919f19ffdca2fd2c189ac5b6b3517",
+            "title": "On the gamification of human-centric traceability tasks in software testing and coding",
+            "url": "https://www.semanticscholar.org/paper/e788ac1baba919f19ffdca2fd2c189ac5b6b3517",
+            "venue": "2016 IEEE 14th International Conference on Software Engineering Research, Management and Applications (SERA)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50403294",
+                    "name": "Mohammad Ghafari"
+                },
+                {
+                    "authorId": "1716252",
+                    "name": "C. Ghezzi"
+                },
+                {
+                    "authorId": "3196260",
+                    "name": "K. Rubinov"
+                }
+            ],
+            "doi": "10.1109/SCAM.2015.7335402",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "503742ae3a4fa8e8a745b59153c2207447550b9d",
+            "title": "Automatically identifying focal methods under test in unit test cases",
+            "url": "https://www.semanticscholar.org/paper/503742ae3a4fa8e8a745b59153c2207447550b9d",
+            "venue": "2015 IEEE 15th International Working Conference on Source Code Analysis and Manipulation (SCAM)",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2671585",
+                    "name": "Ripon K. Saha"
+                },
+                {
+                    "authorId": "2145398332",
+                    "name": "Lingming Zhang"
+                },
+                {
+                    "authorId": "145802044",
+                    "name": "S. Khurshid"
+                },
+                {
+                    "authorId": "143977783",
+                    "name": "D. Perry"
+                }
+            ],
+            "doi": "10.1109/ICSE.2015.47",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5622150975290eab199779c3b072ab75e5d99765",
+            "title": "An Information Retrieval Approach for Regression Test Prioritization Based on Program Changes",
+            "url": "https://www.semanticscholar.org/paper/5622150975290eab199779c3b072ab75e5d99765",
+            "venue": "2015 IEEE/ACM 37th IEEE International Conference on Software Engineering",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144968299",
+                    "name": "Laura Moreno"
+                },
+                {
+                    "authorId": "73690189",
+                    "name": "J. Treadway"
+                },
+                {
+                    "authorId": "40473936",
+                    "name": "Andrian Marcus"
+                },
+                {
+                    "authorId": "1800949",
+                    "name": "Wuwei Shen"
+                }
+            ],
+            "doi": "10.1109/ICSME.2014.37",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a9bc8d5ae333cd1ed47e4ac168ec61ef1aef988f",
+            "title": "On the Use of Stack Traces to Improve Text Retrieval-Based Bug Localization",
+            "url": "https://www.semanticscholar.org/paper/a9bc8d5ae333cd1ed47e4ac168ec61ef1aef988f",
+            "venue": "2014 IEEE International Conference on Software Maintenance and Evolution",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2808113",
+                    "name": "R. Parizi"
+                },
+                {
+                    "authorId": "1459934440",
+                    "name": "S. Lee"
+                },
+                {
+                    "authorId": "144285656",
+                    "name": "M. Dabbagh"
+                }
+            ],
+            "doi": "10.1109/TR.2014.2338254",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "43ac08728ea66901376bf002388938156419e9d4",
+            "title": "Achievements and Challenges in State-of-the-Art Software Traceability Between Test and Code Artifacts",
+            "url": "https://www.semanticscholar.org/paper/43ac08728ea66901376bf002388938156419e9d4",
+            "venue": "IEEE Transactions on Reliability",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2595813",
+                    "name": "A. Qusef"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                },
+                {
+                    "authorId": "145818752",
+                    "name": "A. D. Lucia"
+                },
+                {
+                    "authorId": "3408880",
+                    "name": "D. Binkley"
+                }
+            ],
+            "doi": "10.1016/j.jss.2013.10.019",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "19a63d1955059ab46ddf2d44fc8ccef662b18e5c",
+            "title": "Recovering test-to-code traceability using slicing and textual analysis",
+            "url": "https://www.semanticscholar.org/paper/19a63d1955059ab46ddf2d44fc8ccef662b18e5c",
+            "venue": "J. Syst. Softw.",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2053276373",
+                    "name": "Diana Diaz"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "40473936",
+                    "name": "Andrian Marcus"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                },
+                {
+                    "authorId": "2110648612",
+                    "name": "Silvia Takahashi"
+                },
+                {
+                    "authorId": "145818752",
+                    "name": "A. D. Lucia"
+                }
+            ],
+            "doi": "10.1109/ICPC.2013.6613840",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "33fcafedee740b1818ee1a05473c7159e9452ddf",
+            "title": "Using code ownership to improve IR-based Traceability Link Recovery",
+            "url": "https://www.semanticscholar.org/paper/33fcafedee740b1818ee1a05473c7159e9452ddf",
+            "venue": "2013 21st International Conference on Program Comprehension (ICPC)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3013302",
+                    "name": "Annibale Panichella"
+                },
+                {
+                    "authorId": "1725171",
+                    "name": "Collin McMillan"
+                },
+                {
+                    "authorId": "1876830",
+                    "name": "Evan Moritz"
+                },
+                {
+                    "authorId": "52371416",
+                    "name": "D. Palmieri"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                },
+                {
+                    "authorId": "145818752",
+                    "name": "A. D. Lucia"
+                }
+            ],
+            "doi": "10.1109/CSMR.2013.29",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "8efb807671da00527719b07c5c28c4f076d4e940",
+            "title": "When and How Using Structural Information to Improve IR-Based Traceability Recovery",
+            "url": "https://www.semanticscholar.org/paper/8efb807671da00527719b07c5c28c4f076d4e940",
+            "venue": "2013 17th European Conference on Software Maintenance and Reengineering",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "35215848",
+                    "name": "Patrick M\u00e4der"
+                },
+                {
+                    "authorId": "1690528",
+                    "name": "Alexander Egyed"
+                }
+            ],
+            "doi": "10.1109/ICSM.2012.6405269",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8e347d3bc04a75d195be8ee0bbf5dc24be498879",
+            "title": "Assessing the effect of requirements traceability for software maintenance",
+            "url": "https://www.semanticscholar.org/paper/8e347d3bc04a75d195be8ee0bbf5dc24be498879",
+            "venue": "2012 28th IEEE International Conference on Software Maintenance (ICSM)",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1848463",
+                    "name": "Nilam Kaushik"
+                },
+                {
+                    "authorId": "1728879",
+                    "name": "L. Tahvildari"
+                },
+                {
+                    "authorId": "2117172128",
+                    "name": "Mark Moore"
+                }
+            ],
+            "doi": "10.1109/WCRE.2011.58",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "4e59214fd76b4fa1bbeac8db92a74d8af8117c1c",
+            "title": "Reconstructing Traceability between Bugs and Test Cases: An Experimental Study",
+            "url": "https://www.semanticscholar.org/paper/4e59214fd76b4fa1bbeac8db92a74d8af8117c1c",
+            "venue": "2011 18th Working Conference on Reverse Engineering",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2595813",
+                    "name": "A. Qusef"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                },
+                {
+                    "authorId": "145818752",
+                    "name": "A. D. Lucia"
+                },
+                {
+                    "authorId": "3408880",
+                    "name": "D. Binkley"
+                }
+            ],
+            "doi": "10.1109/ICSM.2011.6080773",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d38a88ee65b56c2e3e3efc33c727d0990678683c",
+            "title": "SCOTCH: Test-to-code traceability using slicing and conceptual coupling",
+            "url": "https://www.semanticscholar.org/paper/d38a88ee65b56c2e3e3efc33c727d0990678683c",
+            "venue": "2011 27th IEEE International Conference on Software Maintenance (ICSM)",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2595813",
+                    "name": "A. Qusef"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                },
+                {
+                    "authorId": "145818752",
+                    "name": "A. D. Lucia"
+                }
+            ],
+            "doi": "10.1109/ICSM.2010.5609581",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "ab556df6fc3daf871a2aa0acbca50051ba91f459",
+            "title": "Recovering traceability links between unit tests and classes under test: An improved method",
+            "url": "https://www.semanticscholar.org/paper/ab556df6fc3daf871a2aa0acbca50051ba91f459",
+            "venue": "2010 IEEE International Conference on Software Maintenance",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2047164",
+                    "name": "B. Rompaey"
+                },
+                {
+                    "authorId": "1688862",
+                    "name": "S. Demeyer"
+                }
+            ],
+            "doi": "10.1109/CSMR.2009.39",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "7c0388e01c45961cf56ce39d0a669da894c75118",
+            "title": "Establishing Traceability Links between Unit Test Cases and Units under Test",
+            "url": "https://www.semanticscholar.org/paper/7c0388e01c45961cf56ce39d0a669da894c75118",
+            "venue": "2009 13th European Conference on Software Maintenance and Reengineering",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3023356",
+                    "name": "P. Bouillon"
+                },
+                {
+                    "authorId": "1824150",
+                    "name": "J. Krinke"
+                },
+                {
+                    "authorId": "2057329657",
+                    "name": "Nils Meyer"
+                },
+                {
+                    "authorId": "3175379",
+                    "name": "F. Steimann"
+                }
+            ],
+            "doi": "10.1007/978-3-540-73101-6_14",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6b14cd89d04e7b41ec85cdec77f8096f2c506aca",
+            "title": "EzUnit: A Framework for Associating Failed Unit Tests with Potential Programming Errors",
+            "url": "https://www.semanticscholar.org/paper/6b14cd89d04e7b41ec85cdec77f8096f2c506aca",
+            "venue": "XP",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40473936",
+                    "name": "Andrian Marcus"
+                },
+                {
+                    "authorId": "2518515",
+                    "name": "Jonathan I. Maletic"
+                },
+                {
+                    "authorId": "144376078",
+                    "name": "A. Sergeyev"
+                }
+            ],
+            "doi": "10.1142/S0218194005002543",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "92ec07c2b62917c96be1d3d0c57a01b8c6ac7d1c",
+            "title": "Recovery of Traceability Links between Software Documentation and Source Code",
+            "url": "https://www.semanticscholar.org/paper/92ec07c2b62917c96be1d3d0c57a01b8c6ac7d1c",
+            "venue": "Int. J. Softw. Eng. Knowl. Eng.",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1721780",
+                    "name": "H. Sneed"
+                }
+            ],
+            "doi": "10.1109/CSMR.2004.1281407",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "4b38bc465695600b5aa95a51f9c88aea7082a25b",
+            "title": "Reverse engineering of test cases for selective regression testing",
+            "url": "https://www.semanticscholar.org/paper/4b38bc465695600b5aa95a51f9c88aea7082a25b",
+            "venue": "Eighth European Conference on Software Maintenance and Reengineering, 2004. CSMR 2004. Proceedings.",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40473936",
+                    "name": "Andrian Marcus"
+                },
+                {
+                    "authorId": "2518515",
+                    "name": "Jonathan I. Maletic"
+                }
+            ],
+            "doi": "10.1109/ICSE.2003.1201194",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "deaace1da763ed0cb4004625665e58c43e2f540e",
+            "title": "Recovering documentation-to-source-code traceability links using latent semantic indexing",
+            "url": "https://www.semanticscholar.org/paper/deaace1da763ed0cb4004625665e58c43e2f540e",
+            "venue": "25th International Conference on Software Engineering, 2003. Proceedings.",
+            "year": 2003
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1692292",
+                    "name": "G. Antoniol"
+                },
+                {
+                    "authorId": "1711200",
+                    "name": "G. Canfora"
+                },
+                {
+                    "authorId": "36012934",
+                    "name": "G. Casazza"
+                },
+                {
+                    "authorId": "145818752",
+                    "name": "A. D. Lucia"
+                },
+                {
+                    "authorId": "1750177",
+                    "name": "E. Merlo"
+                }
+            ],
+            "doi": "10.1109/TSE.2002.1041053",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2bacdbb7db0ce23929b2dd5293e330b975f4ce61",
+            "title": "Recovering Traceability Links between Code and Documentation",
+            "url": "https://www.semanticscholar.org/paper/2bacdbb7db0ce23929b2dd5293e330b975f4ce61",
+            "venue": "IEEE Trans. Software Eng.",
+            "year": 2002
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "SourceMeter",
+            "url": "",
+            "venue": "SourceMeter Webpage",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "license agreement with IEEE. Restrictions apply",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "TestRoutes: A Manually Curated Method Level Dataset for Test-to-Code Traceability",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/edeed47ef83fc1d7693ad068946adb811a760740",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2020
+}

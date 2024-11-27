@@ -1,0 +1,816 @@
+{
+    "abstract": "Equivalence checking techniques help establish whether two versions of a program exhibit the same behavior. The majority of popular techniques for formally proving/refuting equivalence are evaluated on small and simplistic benchmarks, omitting \"difficult\" programming constructs, such as non-linear arithmetic, loops, floating-point arithmetic, and string and array manipulation. This hinders efficient evaluation of these techniques and the ability to establish their practical applicability in real scenarios. This paper addresses this gap by contributing EqBench \u2013 the largest and most comprehensive benchmark for equivalence checking analysis, which contains 147 equivalent and 125 non-equivalent cases, in both C and Java languages. We believe EqBench can facilitate a more realistic evaluation of equivalence checking techniques, assessing their individual strength and weaknesses. EqBench is publicly available at: https://osf.io/93s5b/.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "8438921",
+            "name": "Sahar Badihi",
+            "url": "https://www.semanticscholar.org/author/8438921"
+        },
+        {
+            "authorId": "47002970",
+            "name": "Yi Li",
+            "url": "https://www.semanticscholar.org/author/47002970"
+        },
+        {
+            "authorId": "40575065",
+            "name": "J. Rubin",
+            "url": "https://www.semanticscholar.org/author/40575065"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2191325",
+                    "name": "M. Acher"
+                },
+                {
+                    "authorId": "145546830",
+                    "name": "Jabier Martinez"
+                }
+            ],
+            "doi": "10.1145/3579028.3609016",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "84611a36030fc6f7c4da24134f4257ce7d7e92cd",
+            "title": "Generative AI for Reengineering Variants into Software Product Lines: An Experience Report",
+            "url": "https://www.semanticscholar.org/paper/84611a36030fc6f7c4da24134f4257ce7d7e92cd",
+            "venue": "SPLC",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "68972932",
+                    "name": "Laboni Sarker"
+                }
+            ],
+            "doi": "10.1145/3597926.3605238",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1f271d7b54387c5e939b4a6b8d642c4fd7583fa4",
+            "title": "Quantitative Symbolic Similarity Analysis",
+            "url": "https://www.semanticscholar.org/paper/1f271d7b54387c5e939b4a6b8d642c4fd7583fa4",
+            "venue": "ISSTA",
+            "year": 2023
+        },
+        {
+            "arxivId": "2306.04892",
+            "authors": [
+                {
+                    "authorId": "2197659721",
+                    "name": "Mir Sameed Ali"
+                },
+                {
+                    "authorId": "2197582565",
+                    "name": "Nikhil Manjunath"
+                },
+                {
+                    "authorId": "1926332",
+                    "name": "S. Chimalakonda"
+                }
+            ],
+            "doi": "10.48550/arXiv.2306.04892",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1006367adb5eafd2a434808b8b3fa951a4e59490",
+            "title": "X-COBOL: A Dataset of COBOL Repositories",
+            "url": "https://www.semanticscholar.org/paper/1006367adb5eafd2a434808b8b3fa951a4e59490",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": "2304.14550",
+            "authors": [
+                {
+                    "authorId": "2166071900",
+                    "name": "Kenny Ballou"
+                },
+                {
+                    "authorId": "40577381",
+                    "name": "Elena Sherman"
+                }
+            ],
+            "doi": "10.1007/978-3-031-35257-7_13",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0c423b34b39f3eeb2e45d08bccb5cf8bbab6c0f3",
+            "title": "Identifying Minimal Changes in the Zone Abstract Domain",
+            "url": "https://www.semanticscholar.org/paper/0c423b34b39f3eeb2e45d08bccb5cf8bbab6c0f3",
+            "venue": "TASE",
+            "year": 2023
+        },
+        {
+            "arxivId": "2109.10476",
+            "authors": [
+                {
+                    "authorId": "51957922",
+                    "name": "Steve Kommrusch"
+                },
+                {
+                    "authorId": "150220964",
+                    "name": "Monperrus Martin"
+                },
+                {
+                    "authorId": "1793611",
+                    "name": "L. Pouchet"
+                }
+            ],
+            "doi": "10.1109/TSE.2023.3271065",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6ca9b34fbabbdb33288508906b79beabd0b2ef3e",
+            "title": "Self-Supervised Learning to Prove Equivalence Between Straight-Line Programs via Rewrite Rules",
+            "url": "https://www.semanticscholar.org/paper/6ca9b34fbabbdb33288508906b79beabd0b2ef3e",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "52044234",
+                    "name": "Steven J Kommrusch"
+                },
+                {
+                    "authorId": "150220964",
+                    "name": "Monperrus Martin"
+                },
+                {
+                    "authorId": "1793611",
+                    "name": "L. Pouchet"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "fb3f5e3dfd8fd2dbebbb529a1a3808c42470683b",
+            "title": "Self-Supervised Learning to Prove Equivalence Between Programs via Semantics-Preserving Rewrite Rules",
+            "url": "https://www.semanticscholar.org/paper/fb3f5e3dfd8fd2dbebbb529a1a3808c42470683b",
+            "venue": "ArXiv",
+            "year": 2021
+        }
+    ],
+    "corpusId": 235433505,
+    "doi": "10.1109/MSR52588.2021.00084",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 6,
+    "numCiting": 22,
+    "paperId": "402669cc0583151da083061b1b2c9b302d1c7c12",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8438921",
+                    "name": "Sahar Badihi"
+                },
+                {
+                    "authorId": "2008293255",
+                    "name": "Faridah Akinotcho"
+                },
+                {
+                    "authorId": "47002970",
+                    "name": "Yi Li"
+                },
+                {
+                    "authorId": "40575065",
+                    "name": "J. Rubin"
+                }
+            ],
+            "doi": "10.1145/3368089.3409757",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "7dc2ddbee25757a20c005f959c4f93b3464cabaa",
+            "title": "ARDiff: scaling program equivalence checking via iterative abstraction and refinement of common code",
+            "url": "https://www.semanticscholar.org/paper/7dc2ddbee25757a20c005f959c4f93b3464cabaa",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2056216136",
+                    "name": "Federico Mora"
+                },
+                {
+                    "authorId": "47002970",
+                    "name": "Yi Li"
+                },
+                {
+                    "authorId": "40575065",
+                    "name": "J. Rubin"
+                },
+                {
+                    "authorId": "1854323",
+                    "name": "M. Chechik"
+                }
+            ],
+            "doi": "10.1145/3238147.3238178",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "854dcee880832e5eaa43fe92def34ff63b7137b0",
+            "title": "Client-Specific Equivalence Checking",
+            "url": "https://www.semanticscholar.org/paper/854dcee880832e5eaa43fe92def34ff63b7137b0",
+            "venue": "2018 33rd IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "9870643",
+                    "name": "Anna Trostanetski"
+                },
+                {
+                    "authorId": "1700348",
+                    "name": "O. Grumberg"
+                },
+                {
+                    "authorId": "145763733",
+                    "name": "D. Kroening"
+                }
+            ],
+            "doi": "10.1007/978-3-319-66706-5_20",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "d67d3aeb8556e0490ca56db6ee327096b95cd1cc",
+            "title": "Modular Demand-Driven Analysis of Semantic Difference for Program Versions",
+            "url": "https://www.semanticscholar.org/paper/d67d3aeb8556e0490ca56db6ee327096b95cd1cc",
+            "venue": "SAS",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2153898987",
+                    "name": "Xin Li"
+                },
+                {
+                    "authorId": "2110376513",
+                    "name": "Yongjuan Liang"
+                },
+                {
+                    "authorId": "2112125670",
+                    "name": "Hong Qian"
+                },
+                {
+                    "authorId": "2166411332",
+                    "name": "Yi-Qi Hu"
+                },
+                {
+                    "authorId": "1808054",
+                    "name": "Lei Bu"
+                },
+                {
+                    "authorId": "2152846045",
+                    "name": "Yang Yu"
+                },
+                {
+                    "authorId": "2145229683",
+                    "name": "Xin Chen"
+                },
+                {
+                    "authorId": "2108262661",
+                    "name": "Xuandong Li"
+                }
+            ],
+            "doi": "10.1145/2970276.2970364",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "17200ee52d019e4d60497114a383100ee1a7426a",
+            "title": "Symbolic execution of complex program driven by machine learning based constraint solving",
+            "url": "https://www.semanticscholar.org/paper/17200ee52d019e4d60497114a383100ee1a7426a",
+            "venue": "2016 31st IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2928025",
+                    "name": "Peter Dinges"
+                },
+                {
+                    "authorId": "1725306",
+                    "name": "G. Agha"
+                }
+            ],
+            "doi": "10.1145/2635868.2635889",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "f35b3b59ca2238cedb542f56e1c22c393043412c",
+            "title": "Solving complex path conditions through heuristic search on induced polytopes",
+            "url": "https://www.semanticscholar.org/paper/f35b3b59ca2238cedb542f56e1c22c393043412c",
+            "venue": "SIGSOFT FSE",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2941500",
+                    "name": "Dennis Felsing"
+                },
+                {
+                    "authorId": "1770610",
+                    "name": "S. Grebing"
+                },
+                {
+                    "authorId": "1789960",
+                    "name": "V. Klebanov"
+                },
+                {
+                    "authorId": "1739683",
+                    "name": "Philipp R\u00fcmmer"
+                },
+                {
+                    "authorId": "34752863",
+                    "name": "Mattias Ulbrich"
+                }
+            ],
+            "doi": "10.1145/2642937.2642987",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "9b52c5fd1b6ad0e84065f7801a771673f765f948",
+            "title": "Automating regression verification",
+            "url": "https://www.semanticscholar.org/paper/9b52c5fd1b6ad0e84065f7801a771673f765f948",
+            "venue": "Software Engineering & Management",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144360071",
+                    "name": "John D. Backes"
+                },
+                {
+                    "authorId": "1750460",
+                    "name": "Suzette Person"
+                },
+                {
+                    "authorId": "1696320",
+                    "name": "Neha Rungta"
+                },
+                {
+                    "authorId": "145595718",
+                    "name": "O. Tkachuk"
+                }
+            ],
+            "doi": "10.1007/978-3-642-39176-7_7",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5c1ef430970fc11ed488511e49e678cbe8ffd492",
+            "title": "Regression Verification Using Impact Summaries",
+            "url": "https://www.semanticscholar.org/paper/5c1ef430970fc11ed488511e49e678cbe8ffd492",
+            "venue": "SPIN",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2248753445",
+                    "name": "Gilles Barthe"
+                },
+                {
+                    "authorId": "2058324896",
+                    "name": "Juan Manuel Crespo"
+                },
+                {
+                    "authorId": "2108314",
+                    "name": "Sumit Gulwani"
+                },
+                {
+                    "authorId": "2372002",
+                    "name": "C\u00e9sar Kunz"
+                },
+                {
+                    "authorId": "2286110209",
+                    "name": "Mark Marron"
+                }
+            ],
+            "doi": "10.1145/2442516.2442529",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d96fe7505143787787ba5869719aaab3a2364e1d",
+            "title": "From relational verification to SIMD loop synthesis",
+            "url": "https://www.semanticscholar.org/paper/d96fe7505143787787ba5869719aaab3a2364e1d",
+            "venue": "PPoPP '13",
+            "year": 2013
+        },
+        {
+            "arxivId": "1211.0557",
+            "authors": [
+                {
+                    "authorId": "1945094",
+                    "name": "Eric Schkufza"
+                },
+                {
+                    "authorId": "2111333766",
+                    "name": "Rahul Sharma"
+                },
+                {
+                    "authorId": "144653825",
+                    "name": "A. Aiken"
+                }
+            ],
+            "doi": "10.1145/2451116.2451150",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "308388616c12158423fbf8bd8c441d11d1f432a2",
+            "title": "Stochastic superoptimization",
+            "url": "https://www.semanticscholar.org/paper/308388616c12158423fbf8bd8c441d11d1f432a2",
+            "venue": "ASPLOS '13",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145474353",
+                    "name": "Shuvendu K. Lahiri"
+                },
+                {
+                    "authorId": "3095589",
+                    "name": "C. Hawblitzel"
+                },
+                {
+                    "authorId": "1706936",
+                    "name": "Ming Kawaguchi"
+                },
+                {
+                    "authorId": "1751228",
+                    "name": "Henrique Reb\u00ealo"
+                }
+            ],
+            "doi": "10.1007/978-3-642-31424-7_54",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e0764b9142c211ec094543c447612dfe79da2662",
+            "title": "SYMDIFF: A Language-Agnostic Semantic Diff Tool for Imperative Programs",
+            "url": "https://www.semanticscholar.org/paper/e0764b9142c211ec094543c447612dfe79da2662",
+            "venue": "CAV",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "37721653",
+                    "name": "S. Eder"
+                },
+                {
+                    "authorId": "1706795",
+                    "name": "Maximilian Junker"
+                },
+                {
+                    "authorId": "3166470",
+                    "name": "B. Hauptmann"
+                },
+                {
+                    "authorId": "2037611",
+                    "name": "Elmar J\u00fcrgens"
+                },
+                {
+                    "authorId": "3152742",
+                    "name": "Rudolf Vaas"
+                },
+                {
+                    "authorId": "1977613",
+                    "name": "Karl-Heinz Prommer"
+                }
+            ],
+            "doi": "10.1109/ICSE.2012.6227109",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0d4f1cb9e194ea9ef072e6bf1183b30fb7a32453",
+            "title": "How much does unused code matter for maintenance?",
+            "url": "https://www.semanticscholar.org/paper/0d4f1cb9e194ea9ef072e6bf1183b30fb7a32453",
+            "venue": "2012 34th International Conference on Software Engineering (ICSE)",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145401173",
+                    "name": "Yue Jia"
+                },
+                {
+                    "authorId": "145836176",
+                    "name": "M. Harman"
+                }
+            ],
+            "doi": "10.1109/TSE.2010.62",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d7c38286734419b52de4262c9802ebdfcf4b9447",
+            "title": "An Analysis and Survey of the Development of Mutation Testing",
+            "url": "https://www.semanticscholar.org/paper/d7c38286734419b52de4262c9802ebdfcf4b9447",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2109816811",
+                    "name": "Matheus Souza"
+                },
+                {
+                    "authorId": "145030726",
+                    "name": "Mateus Borges"
+                },
+                {
+                    "authorId": "1403835151",
+                    "name": "Marcelo d\u2019Amorim"
+                },
+                {
+                    "authorId": "1723381",
+                    "name": "C. P\u0103s\u0103reanu"
+                }
+            ],
+            "doi": "10.1007/978-3-642-20398-5_26",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "dc2c37bea6b70bd082a0539455205eb20ac6153c",
+            "title": "CORAL: Solving Complex Constraints for Symbolic PathFinder",
+            "url": "https://www.semanticscholar.org/paper/dc2c37bea6b70bd082a0539455205eb20ac6153c",
+            "venue": "NASA Formal Methods",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1747890",
+                    "name": "O. Strichman"
+                }
+            ],
+            "doi": "10.1007/978-3-642-02658-4_8",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0d446728515f7f322664520020bfbeb4cee7334b",
+            "title": "Regression Verification: Proving the Equivalence of Similar Programs",
+            "url": "https://www.semanticscholar.org/paper/0d446728515f7f322664520020bfbeb4cee7334b",
+            "venue": "CAV",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1750460",
+                    "name": "Suzette Person"
+                },
+                {
+                    "authorId": "145738070",
+                    "name": "Matthew B. Dwyer"
+                },
+                {
+                    "authorId": "143754832",
+                    "name": "Sebastian G. Elbaum"
+                },
+                {
+                    "authorId": "1723381",
+                    "name": "C. P\u0103s\u0103reanu"
+                }
+            ],
+            "doi": "10.1145/1453101.1453131",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "38a0e40c5b04ebe9154390ccde800dc6cebbd6cb",
+            "title": "Differential symbolic execution",
+            "url": "https://www.semanticscholar.org/paper/38a0e40c5b04ebe9154390ccde800dc6cebbd6cb",
+            "venue": "SIGSOFT '08/FSE-16",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2987608",
+                    "name": "Benny Godlin"
+                },
+                {
+                    "authorId": "1747890",
+                    "name": "O. Strichman"
+                }
+            ],
+            "doi": "10.1007/s00236-008-0075-2",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a6d945f031a7b7cf2b5239f97a09cda8db6d4f50",
+            "title": "Inference rules for proving the equivalence of recursive procedures",
+            "url": "https://www.semanticscholar.org/paper/a6d945f031a7b7cf2b5239f97a09cda8db6d4f50",
+            "venue": "Acta Informatica",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2732715",
+                    "name": "B. Fluri"
+                },
+                {
+                    "authorId": "1712335",
+                    "name": "Michael W\u00fcrsch"
+                },
+                {
+                    "authorId": "1775709",
+                    "name": "M. Pinzger"
+                },
+                {
+                    "authorId": "50355692",
+                    "name": "H. Gall"
+                }
+            ],
+            "doi": "10.1109/TSE.2007.70731",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "34c6dbcd1af19f033f1e436a8391d0cc9db2a489",
+            "title": "Change Distilling:Tree Differencing for Fine-Grained Source Code Change Extraction",
+            "url": "https://www.semanticscholar.org/paper/34c6dbcd1af19f033f1e436a8391d0cc9db2a489",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2249372608",
+                    "name": "Mike Barnett"
+                },
+                {
+                    "authorId": "1759442",
+                    "name": "B. E. Chang"
+                },
+                {
+                    "authorId": "1710751",
+                    "name": "R. Deline"
+                },
+                {
+                    "authorId": "145511756",
+                    "name": "B. Jacobs"
+                },
+                {
+                    "authorId": "69892693",
+                    "name": "K. Rustan"
+                },
+                {
+                    "authorId": "66231644",
+                    "name": "M. Leino"
+                }
+            ],
+            "doi": "10.1007/11804192_17",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "31120ae4647ed520efa75ddcaaa3316966f4eff9",
+            "title": "Boogie: A Modular Reusable Verifier for Object-Oriented Programs",
+            "url": "https://www.semanticscholar.org/paper/31120ae4647ed520efa75ddcaaa3316966f4eff9",
+            "venue": "FMCO",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1790411",
+                    "name": "G. Necula"
+                }
+            ],
+            "doi": "10.1145/349299.349314",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "011f7da0095ac8c0d4477eeda2728e5f80a35767",
+            "title": "Translation validation for an optimizing compiler",
+            "url": "https://www.semanticscholar.org/paper/011f7da0095ac8c0d4477eeda2728e5f80a35767",
+            "venue": "PLDI '00",
+            "year": 2000
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1766652",
+                    "name": "A. Kuehlmann"
+                },
+                {
+                    "authorId": "47278961",
+                    "name": "F. Krohm"
+                }
+            ],
+            "doi": "10.1145/266021.266090",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ed8c3b56b68bab15af51f6c875061355129cdd85",
+            "title": "Equivalence Checking Using Cuts And Heaps",
+            "url": "https://www.semanticscholar.org/paper/ed8c3b56b68bab15af51f6c875061355129cdd85",
+            "venue": "Proceedings of the 34th Design Automation Conference",
+            "year": 1997
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Description of muJava \u2019 s Method - level Mutation Operators Refactoring home page",
+            "url": "",
+            "venue": "IEEE Transactions on Software Engineering ( TSE )",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201cRedundant Code,\u201d",
+            "url": "",
+            "venue": "wiki/Redundant_code",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "EqBench: A Dataset of Equivalent and Non-equivalent Program Pairs",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/402669cc0583151da083061b1b2c9b302d1c7c12",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2021
+}

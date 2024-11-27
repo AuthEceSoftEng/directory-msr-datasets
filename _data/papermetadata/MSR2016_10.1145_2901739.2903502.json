@@ -1,0 +1,696 @@
+{
+    "abstract": "Many studies analyze issue tracking repositories to understand and support software development. To facilitate the analyses, we share a Mozilla issue tracking dataset covering a 15-year history. The dataset includes three extracts and multiple levels for each extract. The three extracts were retrieved through two channels, a front-end (web user interface (UI)), and a back-end (official database dump) of Mozilla Bugzilla at three different times. The variations (dynamics) among extracts provide space for researchers to reproduce and validate their studies, while revealing potential opportunities for studies that otherwise could not be conducted. We provide different data levels for each extract ranging from raw data to standardized data as well as to the calculated data level for targeting specific research questions. Data retrieving and processing scripts related to each data level are offered too. By employing the multi-level structure, analysts can more efficiently start an inquiry from the standardized level and easily trace the data chain when necessary (e.g., to verify if a phenomenon reflected by the data is an actual event). We applied this dataset to several published studies and intend to expand the multi-level and multi-extract feature to other software engineering datasets.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2290445146",
+            "name": "Jiaxin Zhu",
+            "url": "https://www.semanticscholar.org/author/2290445146"
+        },
+        {
+            "authorId": "40318014",
+            "name": "Minghui Zhou",
+            "url": "https://www.semanticscholar.org/author/40318014"
+        },
+        {
+            "authorId": "145642974",
+            "name": "Hong Mei",
+            "url": "https://www.semanticscholar.org/author/145642974"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2403.05716",
+            "authors": [
+                {
+                    "authorId": "2290847527",
+                    "name": "Lloyd Montgomery"
+                },
+                {
+                    "authorId": "51508446",
+                    "name": "C. Luders"
+                },
+                {
+                    "authorId": "1706506",
+                    "name": "W. Maalej"
+                }
+            ],
+            "doi": "10.48550/arXiv.2403.05716",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ea3b8409e09defd4bdffacbb4c0685bc4c2eb96c",
+            "title": "Mining Issue Trackers: Concepts and Techniques",
+            "url": "https://www.semanticscholar.org/paper/ea3b8409e09defd4bdffacbb4c0685bc4c2eb96c",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2058999729",
+                    "name": "Renan G. Vieira"
+                },
+                {
+                    "authorId": "2122102379",
+                    "name": "Ant\u00f4nio da Silva"
+                },
+                {
+                    "authorId": "3225841",
+                    "name": "L. Rocha"
+                },
+                {
+                    "authorId": "144227442",
+                    "name": "J. Gomes"
+                }
+            ],
+            "doi": "10.1145/3345629.3345639",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "43a4962ff6b3eeee2ef9d44e73efed1027d2f80c",
+            "title": "From Reports to Bug-Fix Commits: A 10 Years Dataset of Bug-Fixing Activity from 55 Apache's Open Source Projects",
+            "url": "https://www.semanticscholar.org/paper/43a4962ff6b3eeee2ef9d44e73efed1027d2f80c",
+            "venue": "PROMISE",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2112780861",
+                    "name": "Xin Tan"
+                }
+            ],
+            "doi": "10.1145/3338906.3342490",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "eac78daf3b2777abf6ad877ffb85013ae65c0eb4",
+            "title": "Reducing the workload of the Linux kernel maintainers: multiple-committer model",
+            "url": "https://www.semanticscholar.org/paper/eac78daf3b2777abf6ad877ffb85013ae65c0eb4",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00085",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "43148fabe2636026e07ca04974aff40d204bfb6b",
+            "title": "Standing on Shoulders or Feet? The Usage of the MSR Data Papers",
+            "url": "https://www.semanticscholar.org/paper/43148fabe2636026e07ca04974aff40d204bfb6b",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3376120",
+                    "name": "Feifei Tu"
+                },
+                {
+                    "authorId": "2290445146",
+                    "name": "Jiaxin Zhu"
+                },
+                {
+                    "authorId": "1752339",
+                    "name": "Qimu Zheng"
+                },
+                {
+                    "authorId": "40318014",
+                    "name": "Minghui Zhou"
+                }
+            ],
+            "doi": "10.1145/3236024.3236054",
+            "intent": [
+                "result",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "32a47b9f3fc790b0b5d41c38937c775e85ab348f",
+            "title": "Be careful of when: an empirical study on time-related misuse of issue tracking data",
+            "url": "https://www.semanticscholar.org/paper/32a47b9f3fc790b0b5d41c38937c775e85ab348f",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2110180441",
+                    "name": "Yulin Xu"
+                },
+                {
+                    "authorId": "40318014",
+                    "name": "Minghui Zhou"
+                }
+            ],
+            "doi": "10.1145/3196398.3196475",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "91f3852ce194e09635375c09927851d637720f28",
+            "title": "A Multi-level Dataset of Linux Kernel Patchwork",
+            "url": "https://www.semanticscholar.org/paper/91f3852ce194e09635375c09927851d637720f28",
+            "venue": "2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40318014",
+                    "name": "Minghui Zhou"
+                },
+                {
+                    "authorId": "2152520646",
+                    "name": "Qingying Chen"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                },
+                {
+                    "authorId": "1724703",
+                    "name": "Fengguang Wu"
+                }
+            ],
+            "doi": "10.1145/3106237.3106287",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d34614f6e4d0d5c20d0ce85b542035b5a3dd034f",
+            "title": "On the scalability of Linux kernel maintainers' work",
+            "url": "https://www.semanticscholar.org/paper/d34614f6e4d0d5c20d0ce85b542035b5a3dd034f",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2017
+        }
+    ],
+    "corpusId": 8866658,
+    "doi": "10.1145/2901739.2903502",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 9,
+    "numCiting": 11,
+    "paperId": "9b3aba7d1cc17d76cd2407a5acfa3d2d363c6ab3",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1706639",
+                    "name": "Yasutaka Kamei"
+                },
+                {
+                    "authorId": "2053477109",
+                    "name": "Takafumi Fukushima"
+                },
+                {
+                    "authorId": "1725534",
+                    "name": "Shane McIntosh"
+                },
+                {
+                    "authorId": "3089323",
+                    "name": "Kazuhiro Yamashita"
+                },
+                {
+                    "authorId": "1806862",
+                    "name": "Naoyasu Ubayashi"
+                },
+                {
+                    "authorId": "144890499",
+                    "name": "A. Hassan"
+                }
+            ],
+            "doi": "10.1007/s10664-015-9400-x",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4f57a25ef59731c404feef8bc67f527f0f8c3943",
+            "title": "Studying just-in-time defect prediction using cross-project models",
+            "url": "https://www.semanticscholar.org/paper/4f57a25ef59731c404feef8bc67f527f0f8c3943",
+            "venue": "Empirical Software Engineering",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2279881",
+                    "name": "Mayy Habayeb"
+                },
+                {
+                    "authorId": "3314051",
+                    "name": "A. Miranskyy"
+                },
+                {
+                    "authorId": "2307843",
+                    "name": "Syed Shariyar Murtaza"
+                },
+                {
+                    "authorId": "40398161",
+                    "name": "Leotis Buchanan"
+                },
+                {
+                    "authorId": "1730000",
+                    "name": "A. Bener"
+                }
+            ],
+            "doi": "10.1109/MSR.2015.73",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "3fa7185de6785382af4a9a9b28e274ab7c4e5b48",
+            "title": "The Firefox Temporal Defect Dataset",
+            "url": "https://www.semanticscholar.org/paper/3fa7185de6785382af4a9a9b28e274ab7c4e5b48",
+            "venue": "2015 IEEE/ACM 12th Working Conference on Mining Software Repositories",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2216564344",
+                    "name": "Jialiang Xie"
+                },
+                {
+                    "authorId": "40318014",
+                    "name": "Minghui Zhou"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": "10.1109/ESEM.2013.62",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "6a6a2946a03011ea08a6ba22efa84a4d47fd8f3b",
+            "title": "Impact of Triage: A Study of Mozilla and Gnome",
+            "url": "https://www.semanticscholar.org/paper/6a6a2946a03011ea08a6ba22efa84a4d47fd8f3b",
+            "venue": "2013 ACM / IEEE International Symposium on Empirical Software Engineering and Measurement",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1693773",
+                    "name": "Ahmed Lamkanfi"
+                },
+                {
+                    "authorId": "2115198492",
+                    "name": "Javier P\u00e9rez"
+                },
+                {
+                    "authorId": "1688862",
+                    "name": "S. Demeyer"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624028",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "ee7d535cdef36c1733fa324fbdd835b9273e4960",
+            "title": "The Eclipse and Mozilla defect tracking dataset: A genuine dataset for mining bug information",
+            "url": "https://www.semanticscholar.org/paper/ee7d535cdef36c1733fa324fbdd835b9273e4960",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144172502",
+                    "name": "Emily Hill"
+                },
+                {
+                    "authorId": "34724102",
+                    "name": "Shivani Rao"
+                },
+                {
+                    "authorId": "1703247",
+                    "name": "A. Kak"
+                }
+            ],
+            "doi": "10.1109/SCAM.2012.29",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4c4b6b90d950bdb92c950f77e50cc9170e985635",
+            "title": "On the Use of Stemming for Concern Location and Bug Localization in Java",
+            "url": "https://www.semanticscholar.org/paper/4c4b6b90d950bdb92c950f77e50cc9170e985635",
+            "venue": "2012 IEEE 12th International Working Conference on Source Code Analysis and Manipulation",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "25701557",
+                    "name": "Olga Baysal"
+                },
+                {
+                    "authorId": "1789705",
+                    "name": "Reid Holmes"
+                },
+                {
+                    "authorId": "47521175",
+                    "name": "Michael W. Godfrey"
+                }
+            ],
+            "doi": "10.1109/USER.2012.6226578",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c9ff270be97e1c09f2c1c371e6d780f12f98aa05",
+            "title": "Revisiting bug triage and resolution practices",
+            "url": "https://www.semanticscholar.org/paper/c9ff270be97e1c09f2c1c371e6d780f12f98aa05",
+            "venue": "2012 First International Workshop on User Evaluation for Software Engineering Researchers (USER)",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47790742",
+                    "name": "V. Popovici"
+                },
+                {
+                    "authorId": "2109955343",
+                    "name": "Weijie Chen"
+                },
+                {
+                    "authorId": "2065244128",
+                    "name": "Brandon G Gallas"
+                },
+                {
+                    "authorId": "1892595",
+                    "name": "C. Hatzis"
+                },
+                {
+                    "authorId": "2154039653",
+                    "name": "W. Shi"
+                },
+                {
+                    "authorId": "2877747",
+                    "name": "F. Samuelson"
+                },
+                {
+                    "authorId": "2743601",
+                    "name": "Y. Nikolsky"
+                },
+                {
+                    "authorId": "144354751",
+                    "name": "M. Tsyganova"
+                },
+                {
+                    "authorId": "6621144",
+                    "name": "A. Ishkin"
+                },
+                {
+                    "authorId": "1970915",
+                    "name": "T. Nikolskaya"
+                },
+                {
+                    "authorId": "2554693",
+                    "name": "K. Hess"
+                },
+                {
+                    "authorId": "116205756",
+                    "name": "V. Valero"
+                },
+                {
+                    "authorId": "4477279",
+                    "name": "D. Booser"
+                },
+                {
+                    "authorId": "3057687",
+                    "name": "M. Delorenzi"
+                },
+                {
+                    "authorId": "3057687",
+                    "name": "M. Delorenzi"
+                },
+                {
+                    "authorId": "4172107",
+                    "name": "G. Hortobagyi"
+                },
+                {
+                    "authorId": "36982973",
+                    "name": "Leming Shi"
+                },
+                {
+                    "authorId": "2531094",
+                    "name": "W. Symmans"
+                },
+                {
+                    "authorId": "2467239",
+                    "name": "L. Pusztai"
+                }
+            ],
+            "doi": "10.1186/bcr2468",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4ed9ec21b7a022b5463ae202ebe1646c9d504d09",
+            "title": "Effect of training-sample size and classification difficulty on the accuracy of genomic predictors",
+            "url": "https://www.semanticscholar.org/paper/4ed9ec21b7a022b5463ae202ebe1646c9d504d09",
+            "venue": "Breast Cancer Research",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2247653542",
+                    "name": "John P. A. Ioannidis"
+                }
+            ],
+            "doi": "10.1080/09332480.2005.10722754",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "44fc4497fbd8de9f92c8cfd480b6f8a8c0b4ff39",
+            "title": "Why Most Published Research Findings Are False",
+            "url": "https://www.semanticscholar.org/paper/44fc4497fbd8de9f92c8cfd480b6f8a8c0b4ff39",
+            "venue": "PLoS medicine",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49618988",
+                    "name": "A. Pettigrew"
+                }
+            ],
+            "doi": "10.1287/ORSC.1.3.267",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a0c5e1f0968b8f58842019e817848bc12d6953bc",
+            "title": "Longitudinal Field Research on Change: Theory and Practice",
+            "url": "https://www.semanticscholar.org/paper/a0c5e1f0968b8f58842019e817848bc12d6953bc",
+            "venue": "",
+            "year": 1990
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40318014",
+                    "name": "Minghui Zhou"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": "10.1109/TSE.2014.2349496",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "00d44dba9a45cb2bf0e59898901d13dd679ad1f2",
+            "title": "Who Will Stay in the FLOSS Community? Modeling Participant\u2019s Initial Behavior",
+            "url": "https://www.semanticscholar.org/paper/00d44dba9a45cb2bf0e59898901d13dd679ad1f2",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2178028",
+                    "name": "J. Howison"
+                },
+                {
+                    "authorId": "39106713",
+                    "name": "Megan Conklin"
+                },
+                {
+                    "authorId": "1716974",
+                    "name": "Kevin Crowston"
+                }
+            ],
+            "doi": "10.4018/978-1-60566-418-7.CH002",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "7a4c775e05e2948d8b19034c346791e1c94c0898",
+            "title": "FLOSSmole: A Collaborative Repository for FLOSS Research Data and Analyses",
+            "url": "https://www.semanticscholar.org/paper/7a4c775e05e2948d8b19034c346791e1c94c0898",
+            "venue": "Int. J. Inf. Technol. Web Eng.",
+            "year": 2006
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "Multi-extract and Multi-level Dataset of Mozilla Issue Tracking History",
+    "topics": [
+        {
+            "topic": "Tract (literature)",
+            "topicId": "64840",
+            "url": "https://www.semanticscholar.org/topic/64840"
+        },
+        {
+            "topic": "Trac",
+            "topicId": "350045",
+            "url": "https://www.semanticscholar.org/topic/350045"
+        },
+        {
+            "topic": "Software development",
+            "topicId": "78",
+            "url": "https://www.semanticscholar.org/topic/78"
+        },
+        {
+            "topic": "User interface",
+            "topicId": "4509",
+            "url": "https://www.semanticscholar.org/topic/4509"
+        },
+        {
+            "topic": "Issue tracking system",
+            "topicId": "364727",
+            "url": "https://www.semanticscholar.org/topic/364727"
+        },
+        {
+            "topic": "Software engineering",
+            "topicId": "7832",
+            "url": "https://www.semanticscholar.org/topic/7832"
+        },
+        {
+            "topic": "Level structure",
+            "topicId": "1350027",
+            "url": "https://www.semanticscholar.org/topic/1350027"
+        }
+    ],
+    "url": "https://www.semanticscholar.org/paper/9b3aba7d1cc17d76cd2407a5acfa3d2d363c6ab3",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2016
+}

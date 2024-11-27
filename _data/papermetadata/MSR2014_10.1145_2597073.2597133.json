@@ -1,0 +1,934 @@
+{
+    "abstract": "This paper introduces a new dataset of clone references, which is a set of correct clones consisting of their locational information with their gapped lines. Bellon's dataset is one of widely used clone datasets. Bellon's dataset contains many clone references, thus the dataset is useful for comparing accuracies among clone detectors. However, Bellon's dataset does not have locational information of gapped lines. Thus, Bellon's benchmark does not evaluate some Type-3 clones correctly. In order to resolve the problem, we added locational information of gapped lines to Bellon's dataset. The new dataset is available at ``http://sdl.ist.osaka-u.ac.jp/~h-murakm/2014_clone_references_with_gaps/''. \n This paper also shows some examples that the new dataset and Bellon's dataset yield different evaluation results. Moreover, we report an experimental result that compares Bellon's dataset and the new dataset by using three clone detectors that can detect Type-3 clones. Finally, we conclude that the new dataset can evaluate Type-3 clones more correctly than Bellon's dataset.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2076130",
+            "name": "Hiroaki Murakami",
+            "url": "https://www.semanticscholar.org/author/2076130"
+        },
+        {
+            "authorId": "2271908",
+            "name": "Yoshiki Higo",
+            "url": "https://www.semanticscholar.org/author/2271908"
+        },
+        {
+            "authorId": "49220716",
+            "name": "S. Kusumoto",
+            "url": "https://www.semanticscholar.org/author/49220716"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2199947821",
+                    "name": "Gul Aftab Ahmed"
+                },
+                {
+                    "authorId": "144524942",
+                    "name": "James Patten"
+                },
+                {
+                    "authorId": "2284213107",
+                    "name": "Yuanhua Han"
+                },
+                {
+                    "authorId": "70164241",
+                    "name": "Guoxian Lu"
+                },
+                {
+                    "authorId": "2306084323",
+                    "name": "Wei Hou"
+                },
+                {
+                    "authorId": "2283848302",
+                    "name": "David Gregg"
+                },
+                {
+                    "authorId": "2283847367",
+                    "name": "Jim Buckley"
+                },
+                {
+                    "authorId": "1934548",
+                    "name": "Muslim Chochlov"
+                }
+            ],
+            "doi": "10.1002/spe.3355",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "35b8fbb383f5b1e0d1d0b5e2ad9b40c812100932",
+            "title": "Nearest\u2010neighbor, BERT\u2010based, scalable clone detection: A practical approach for large\u2010scale industrial code bases",
+            "url": "https://www.semanticscholar.org/paper/35b8fbb383f5b1e0d1d0b5e2ad9b40c812100932",
+            "venue": "Software: Practice and Experience",
+            "year": 2024
+        },
+        {
+            "arxivId": "2308.13963",
+            "authors": [
+                {
+                    "authorId": "70645384",
+                    "name": "A. Alam"
+                },
+                {
+                    "authorId": "2051272535",
+                    "name": "Palash Ranjan Roy"
+                },
+                {
+                    "authorId": "67187029",
+                    "name": "Farouq Al-Omari"
+                },
+                {
+                    "authorId": "1738612",
+                    "name": "C. Roy"
+                },
+                {
+                    "authorId": "50666808",
+                    "name": "B. Roy"
+                },
+                {
+                    "authorId": "38558513",
+                    "name": "Kevin A. Schneider"
+                }
+            ],
+            "doi": "10.1109/ICSME58846.2023.00013",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "50d40d05598e456188a3be42983b8daabd3f04f7",
+            "title": "GPTCloneBench: A comprehensive benchmark of semantic clones and cross-language clones using GPT-3 model and SemanticCloneBench",
+            "url": "https://www.semanticscholar.org/paper/50d40d05598e456188a3be42983b8daabd3f04f7",
+            "venue": "2023 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2306.16171",
+            "authors": [
+                {
+                    "authorId": "52568572",
+                    "name": "Morteza Zakeri Nasrabadi"
+                },
+                {
+                    "authorId": "89634098",
+                    "name": "S. Parsa"
+                },
+                {
+                    "authorId": "2191436416",
+                    "name": "Mohammad Ramezani"
+                },
+                {
+                    "authorId": "1738612",
+                    "name": "C. Roy"
+                },
+                {
+                    "authorId": "2191461019",
+                    "name": "Masoud Ekhtiarzadeh"
+                }
+            ],
+            "doi": "10.48550/arXiv.2306.16171",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e2d5f5ae4af1f6e9ff394bfcac523a6ea7a61621",
+            "title": "A systematic literature review on source code similarity measurement and clone detection: techniques, applications, and challenges",
+            "url": "https://www.semanticscholar.org/paper/e2d5f5ae4af1f6e9ff394bfcac523a6ea7a61621",
+            "venue": "J. Syst. Softw.",
+            "year": 2023
+        },
+        {
+            "arxivId": "2309.02182",
+            "authors": [
+                {
+                    "authorId": "1934548",
+                    "name": "Muslim Chochlov"
+                },
+                {
+                    "authorId": "2199947821",
+                    "name": "Gul Aftab Ahmed"
+                },
+                {
+                    "authorId": "144524942",
+                    "name": "James Patten"
+                },
+                {
+                    "authorId": "70164241",
+                    "name": "Guoxian Lu"
+                },
+                {
+                    "authorId": "2061634134",
+                    "name": "Wei Hou"
+                },
+                {
+                    "authorId": "145453252",
+                    "name": "David Gregg"
+                },
+                {
+                    "authorId": "144383043",
+                    "name": "J. Buckley"
+                }
+            ],
+            "doi": "10.1109/ICSME55016.2022.00080",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1fcfa6b8a2d51cc4c6c8b7f480982a7c65f5933b",
+            "title": "Using a Nearest-Neighbour, BERT-Based Approach for Scalable Clone Detection",
+            "url": "https://www.semanticscholar.org/paper/1fcfa6b8a2d51cc4c6c8b7f480982a7c65f5933b",
+            "venue": "2022 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2575107",
+                    "name": "Maciej Bartoszuk"
+                },
+                {
+                    "authorId": "3205960",
+                    "name": "M. Gagolewski"
+                }
+            ],
+            "doi": "10.1016/J.KNOSYS.2021.107427",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "517634bf5fed3065003eaee03db817795e037f52",
+            "title": "T-norms or t-conorms? How to aggregate similarity degrees for plagiarism detection",
+            "url": "https://www.semanticscholar.org/paper/517634bf5fed3065003eaee03db817795e037f52",
+            "venue": "Knowl. Based Syst.",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3028841",
+                    "name": "Yuede Ji"
+                },
+                {
+                    "authorId": "2114844109",
+                    "name": "Lei Cui"
+                },
+                {
+                    "authorId": "2285839051",
+                    "name": "Howie Huang"
+                }
+            ],
+            "doi": "10.1145/3433210.3437533",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0fe62fa57a9c7502a15ea17c4545752c9f625d47",
+            "title": "BugGraph: Differentiating Source-Binary Code Similarity with Graph Triplet-Loss Network",
+            "url": "https://www.semanticscholar.org/paper/0fe62fa57a9c7502a15ea17c4545752c9f625d47",
+            "venue": "AsiaCCS",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1732111",
+                    "name": "Jeffrey Svajlenko"
+                },
+                {
+                    "authorId": "1738612",
+                    "name": "C. Roy"
+                }
+            ],
+            "doi": "10.1109/TSE.2019.2912962",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "87e9b7155f94d6498222264811a48e47f8faad04",
+            "title": "The Mutation and Injection Framework: Evaluating Clone Detection Tools with Mutation Analysis",
+            "url": "https://www.semanticscholar.org/paper/87e9b7155f94d6498222264811a48e47f8faad04",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": "2007.11671",
+            "authors": [
+                {
+                    "authorId": "1409270430",
+                    "name": "Muhammad Hammad"
+                },
+                {
+                    "authorId": "2914285",
+                    "name": "\u00d6nder Babur"
+                },
+                {
+                    "authorId": "2076259",
+                    "name": "H. A. Basit"
+                },
+                {
+                    "authorId": "1718306",
+                    "name": "M. Brand"
+                }
+            ],
+            "doi": "10.1007/978-3-030-64694-3_9",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "cb77d713469e3fd06da2c633caa75c425bcc4541",
+            "title": "DeepClone: Modeling Clones to Generate Code Predictions",
+            "url": "https://www.semanticscholar.org/paper/cb77d713469e3fd06da2c633caa75c425bcc4541",
+            "venue": "ICSR",
+            "year": 2020
+        },
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": "2006.15682",
+            "authors": [
+                {
+                    "authorId": "1732111",
+                    "name": "Jeffrey Svajlenko"
+                },
+                {
+                    "authorId": "1738612",
+                    "name": "C. Roy"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "52a6825c99704927099cda105d0edd1c3d51645d",
+            "title": "A Survey on the Evaluation of Clone Detection Performance and Benchmarking",
+            "url": "https://www.semanticscholar.org/paper/52a6825c99704927099cda105d0edd1c3d51645d",
+            "venue": "ArXiv",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00085",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "43148fabe2636026e07ca04974aff40d204bfb6b",
+            "title": "Standing on Shoulders or Feet? The Usage of the MSR Data Papers",
+            "url": "https://www.semanticscholar.org/paper/43148fabe2636026e07ca04974aff40d204bfb6b",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": "1812.05195",
+            "authors": [
+                {
+                    "authorId": "40188003",
+                    "name": "V. Saini"
+                },
+                {
+                    "authorId": "51030223",
+                    "name": "Farima Farmahinifarahani"
+                },
+                {
+                    "authorId": "47006133",
+                    "name": "Yadong Lu"
+                },
+                {
+                    "authorId": "2110919594",
+                    "name": "Di Yang"
+                },
+                {
+                    "authorId": "145784437",
+                    "name": "Pedro Martins"
+                },
+                {
+                    "authorId": "1906848",
+                    "name": "Hitesh Sajnani"
+                },
+                {
+                    "authorId": "144902513",
+                    "name": "P. Baldi"
+                },
+                {
+                    "authorId": "34955824",
+                    "name": "C. Lopes"
+                }
+            ],
+            "doi": "10.1109/ICSE.2019.00023",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d99e9ffa3d871b2f9eadc0a49a398bfda73ccd24",
+            "title": "Towards Automating Precision Studies of Clone Detectors",
+            "url": "https://www.semanticscholar.org/paper/d99e9ffa3d871b2f9eadc0a49a398bfda73ccd24",
+            "venue": "2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1732111",
+                    "name": "Jeffrey Svajlenko"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "81b5226dcb61ec29bc956a80ab909699a90417ff",
+            "title": "Large-Scale Clone Detection and Benchmarking",
+            "url": "https://www.semanticscholar.org/paper/81b5226dcb61ec29bc956a80ab909699a90417ff",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1738612",
+                    "name": "C. Roy"
+                },
+                {
+                    "authorId": "1683822",
+                    "name": "J. Cordy"
+                }
+            ],
+            "doi": "10.1109/SANER.2018.8330194",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7f7e22ec97b3d4f13b26b1f03135c9b61766be26",
+            "title": "Benchmarks for software clone detection: A ten-year retrospective",
+            "url": "https://www.semanticscholar.org/paper/7f7e22ec97b3d4f13b26b1f03135c9b61766be26",
+            "venue": "2018 IEEE 25th International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8860667",
+                    "name": "Abdullah M. Sheneamer"
+                },
+                {
+                    "authorId": "32779358",
+                    "name": "H. Hazazi"
+                },
+                {
+                    "authorId": "38217938",
+                    "name": "Swarup Roy"
+                },
+                {
+                    "authorId": "34694214",
+                    "name": "J. Kalita"
+                }
+            ],
+            "doi": "10.1109/ICMLA.2017.00-25",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "816d53f17cfd362c59cab83a290793d20f4e784d",
+            "title": "Schemes for Labeling Semantic Code Clones using Machine Learning",
+            "url": "https://www.semanticscholar.org/paper/816d53f17cfd362c59cab83a290793d20f4e784d",
+            "venue": "2017 16th IEEE International Conference on Machine Learning and Applications (ICMLA)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "10961308",
+                    "name": "Alan Charpentier"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a2c6a687f64d8752aa937bdb9b5a1810fb5bfd7e",
+            "title": "Contributions \u00e0 l'usage des d\u00e9tecteurs de clones pour des t\u00e2ches de maintenance logicielle. (Contributions to the use of code clone detectors in software maintenance tasks)",
+            "url": "https://www.semanticscholar.org/paper/a2c6a687f64d8752aa937bdb9b5a1810fb5bfd7e",
+            "venue": "",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1732111",
+                    "name": "Jeffrey Svajlenko"
+                },
+                {
+                    "authorId": "1738612",
+                    "name": "C. Roy"
+                }
+            ],
+            "doi": "10.1109/ICSME.2016.62",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c0a10f12c25c1ba1cf62791681ebb82dbef35b28",
+            "title": "BigCloneEval: A Clone Detection Tool Evaluation Framework with BigCloneBench",
+            "url": "https://www.semanticscholar.org/paper/c0a10f12c25c1ba1cf62791681ebb82dbef35b28",
+            "venue": "2016 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8860667",
+                    "name": "Abdullah M. Sheneamer"
+                },
+                {
+                    "authorId": "34694214",
+                    "name": "J. Kalita"
+                }
+            ],
+            "doi": "10.1109/INTELCIS.2015.7397263",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "3d2eca46349a79e7f1972240cd2e402a39cfefa3",
+            "title": "Code clone detection using coarse and fine-grained hybrid approaches",
+            "url": "https://www.semanticscholar.org/paper/3d2eca46349a79e7f1972240cd2e402a39cfefa3",
+            "venue": "2015 IEEE Seventh International Conference on Intelligent Computing and Information Systems (ICICIS)",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1732111",
+                    "name": "Jeffrey Svajlenko"
+                },
+                {
+                    "authorId": "1738612",
+                    "name": "C. Roy"
+                }
+            ],
+            "doi": "10.1109/ICSM.2015.7332459",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "de7293a0137fefe92412d61d3db93e22c0988136",
+            "title": "Evaluating clone detection tools with BigCloneBench",
+            "url": "https://www.semanticscholar.org/paper/de7293a0137fefe92412d61d3db93e22c0988136",
+            "venue": "2015 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "10961308",
+                    "name": "Alan Charpentier"
+                },
+                {
+                    "authorId": "3191798",
+                    "name": "Jean-R\u00e9my Falleri"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                },
+                {
+                    "authorId": "2367871",
+                    "name": "Laurent R\u00e9veill\u00e8re"
+                }
+            ],
+            "doi": "10.1145/2745802.2745821",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "63ac3f69fc8589b1ee00e675e6e959f11d1fb074",
+            "title": "An empirical assessment of Bellon's clone benchmark",
+            "url": "https://www.semanticscholar.org/paper/63ac3f69fc8589b1ee00e675e6e959f11d1fb074",
+            "venue": "EASE",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2013851",
+                    "name": "Daniel E. Krutz"
+                },
+                {
+                    "authorId": "2049817",
+                    "name": "Samuel A. Malachowsky"
+                },
+                {
+                    "authorId": "3318024",
+                    "name": "Emad Shihab"
+                }
+            ],
+            "doi": "10.1145/2695664.2695929",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e614bbc075284a6e903230b4dc2199ca912ebf07",
+            "title": "Examining the effectiveness of using concolic analysis to detect code clones",
+            "url": "https://www.semanticscholar.org/paper/e614bbc075284a6e903230b4dc2199ca912ebf07",
+            "venue": "SAC",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1732111",
+                    "name": "Jeffrey Svajlenko"
+                },
+                {
+                    "authorId": "1738612",
+                    "name": "C. Roy"
+                }
+            ],
+            "doi": "10.1109/ICSME.2014.54",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "69f77328df60fd991f1b1a75df6e66d1ad9f7493",
+            "title": "Evaluating Modern Clone Detection Tools",
+            "url": "https://www.semanticscholar.org/paper/69f77328df60fd991f1b1a75df6e66d1ad9f7493",
+            "venue": "2014 IEEE International Conference on Software Maintenance and Evolution",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "33787987",
+                    "name": "Sven Amann"
+                },
+                {
+                    "authorId": "1839778",
+                    "name": "S. Beyer"
+                },
+                {
+                    "authorId": "3194068",
+                    "name": "Katja Kevic"
+                },
+                {
+                    "authorId": "50355692",
+                    "name": "H. Gall"
+                }
+            ],
+            "doi": "10.1007/978-3-319-28406-4_5",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "178a226a4fa68d80f709d0cfff5f5458df0daad3",
+            "title": "Software Mining Studies: Goals, Approaches, Artifacts, and Replicability",
+            "url": "https://www.semanticscholar.org/paper/178a226a4fa68d80f709d0cfff5f5458df0daad3",
+            "venue": "LASER Summer School",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3460787",
+                    "name": "Chaiyong Ragkhitwetsagul"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "f353f5487c948676efbe745350ffdeff63deabcb",
+            "title": "Code similarity and clone search in large-scale source code data",
+            "url": "https://www.semanticscholar.org/paper/f353f5487c948676efbe745350ffdeff63deabcb",
+            "venue": "",
+            "year": 2018
+        }
+    ],
+    "corpusId": 6534482,
+    "doi": "10.1145/2597073.2597133",
+    "fieldsOfStudy": [
+        "Engineering",
+        "Computer Science"
+    ],
+    "influentialCitationCount": 2,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 24,
+    "numCiting": 7,
+    "paperId": "b04a4a153e4e05a68d7f22d0bc72a2cf5480865a",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2076130",
+                    "name": "Hiroaki Murakami"
+                },
+                {
+                    "authorId": "2875222",
+                    "name": "Keisuke Hotta"
+                },
+                {
+                    "authorId": "2271908",
+                    "name": "Yoshiki Higo"
+                },
+                {
+                    "authorId": "1735036",
+                    "name": "H. Igaki"
+                },
+                {
+                    "authorId": "49220716",
+                    "name": "S. Kusumoto"
+                }
+            ],
+            "doi": "10.1109/ICPC.2013.6613837",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "8b95d9faa5efde7f4f96dc4e2a058f85d40aa163",
+            "title": "Gapped code clone detection with lightweight source code analysis",
+            "url": "https://www.semanticscholar.org/paper/8b95d9faa5efde7f4f96dc4e2a058f85d40aa163",
+            "venue": "2013 21st International Conference on Program Comprehension (ICPC)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1901923",
+                    "name": "Nils G\u00f6de"
+                },
+                {
+                    "authorId": "1704279",
+                    "name": "R. Koschke"
+                }
+            ],
+            "doi": "10.1145/1985793.1985836",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7d1eca285c21f568a82ec3f4479fedbcaa04df92",
+            "title": "Frequency and risks of changes to clones",
+            "url": "https://www.semanticscholar.org/paper/7d1eca285c21f568a82ec3f4479fedbcaa04df92",
+            "venue": "2011 33rd International Conference on Software Engineering (ICSE)",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2271908",
+                    "name": "Yoshiki Higo"
+                },
+                {
+                    "authorId": "49220716",
+                    "name": "S. Kusumoto"
+                }
+            ],
+            "doi": "10.1109/CSMR.2011.12",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "3ca4fc2f48f5f3d49895a0f0c3c76c8c029ea93f",
+            "title": "Code Clone Detection on Specialized PDGs with Heuristics",
+            "url": "https://www.semanticscholar.org/paper/3ca4fc2f48f5f3d49895a0f0c3c76c8c029ea93f",
+            "venue": "2011 15th European Conference on Software Maintenance and Reengineering",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2426138",
+                    "name": "Nicolas Bettenburg"
+                },
+                {
+                    "authorId": "39724619",
+                    "name": "Weiyi Shang"
+                },
+                {
+                    "authorId": "153809230",
+                    "name": "Walid M. Ibrahim"
+                },
+                {
+                    "authorId": "143612725",
+                    "name": "Bram Adams"
+                },
+                {
+                    "authorId": "145930277",
+                    "name": "Ying Zou"
+                },
+                {
+                    "authorId": "144890499",
+                    "name": "A. Hassan"
+                }
+            ],
+            "doi": "10.1016/j.scico.2010.11.010",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c12dc9d76bd75134b883e0315ddd62aef82b5a0f",
+            "title": "An Empirical Study on Inconsistent Changes to Code Clones at Release Level",
+            "url": "https://www.semanticscholar.org/paper/c12dc9d76bd75134b883e0315ddd62aef82b5a0f",
+            "venue": "2009 16th Working Conference on Reverse Engineering",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1738612",
+                    "name": "C. Roy"
+                },
+                {
+                    "authorId": "1683822",
+                    "name": "J. Cordy"
+                }
+            ],
+            "doi": "10.1109/ICPC.2008.41",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f4c8a53854c6f60ace78c1993ed9fb4d27ec8ea6",
+            "title": "NICAD: Accurate Detection of Near-Miss Intentional Clones Using Flexible Pretty-Printing and Code Normalization",
+            "url": "https://www.semanticscholar.org/paper/f4c8a53854c6f60ace78c1993ed9fb4d27ec8ea6",
+            "venue": "2008 16th IEEE International Conference on Program Comprehension",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "153030932",
+                    "name": "Stefan Bellon"
+                },
+                {
+                    "authorId": "1704279",
+                    "name": "R. Koschke"
+                },
+                {
+                    "authorId": "1692292",
+                    "name": "G. Antoniol"
+                },
+                {
+                    "authorId": "1824150",
+                    "name": "J. Krinke"
+                },
+                {
+                    "authorId": "1750177",
+                    "name": "E. Merlo"
+                }
+            ],
+            "doi": "10.1109/TSE.2007.70725",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a369ec7cc8a6d84bbae2b1f0fa073a06e7d32ac0",
+            "title": "Comparison and Evaluation of Clone Detection Tools",
+            "url": "https://www.semanticscholar.org/paper/a369ec7cc8a6d84bbae2b1f0fa073a06e7d32ac0",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1738612",
+                    "name": "C. Roy"
+                },
+                {
+                    "authorId": "1683822",
+                    "name": "J. Cordy"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2209b7af4d41bc60f1b044a8305a49df77da1637",
+            "title": "A Survey on Software Clone Detection Research",
+            "url": "https://www.semanticscholar.org/paper/2209b7af4d41bc60f1b044a8305a49df77da1637",
+            "venue": "",
+            "year": 2007
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "A dataset of clone references with gaps",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/b04a4a153e4e05a68d7f22d0bc72a2cf5480865a",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2014
+}

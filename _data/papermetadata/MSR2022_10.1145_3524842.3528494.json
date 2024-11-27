@@ -1,0 +1,733 @@
+{
+    "abstract": "We introduce the General Index of Software Engineering Papers, a dataset of fulltext-indexed papers from the most prominent scientific venues in the field of Software Engineering. The dataset includes both complete bibliographic information and indexed n-grams (sequence of contiguous words after removal of stopwords and non-words, for a total of 577 276 382 unique n-grams in this release) with length 1 to 5 for 44 581 papers retrieved from 34 venues over the 1971\u20132020 period. The dataset serves use cases in the field of meta-research, allowing to introspect the output of software engineering research even when access to papers or scholarly search engines is not possible (e.g., due to contractual reasons). The dataset also contributes to making such analyses reproducible and independently verifiable, as opposed to what happens when they are conducted using 3rd-party and non-open scholarly indexing services. The dataset is available as a portable Postgres database dump and released as open data.",
+    "arxivId": "2204.03254",
+    "authors": [
+        {
+            "authorId": "151409813",
+            "name": "Zeinab Abou Khalil",
+            "url": "https://www.semanticscholar.org/author/151409813"
+        },
+        {
+            "authorId": "1682225",
+            "name": "Stefano Zacchiroli",
+            "url": "https://www.semanticscholar.org/author/1682225"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2404.06852",
+            "authors": [
+                {
+                    "authorId": "2292669905",
+                    "name": "Mugeng Liu"
+                },
+                {
+                    "authorId": "2292484080",
+                    "name": "Xiaolong Huang"
+                },
+                {
+                    "authorId": "2292692848",
+                    "name": "Wei He"
+                },
+                {
+                    "authorId": "2292487352",
+                    "name": "Yibing Xie"
+                },
+                {
+                    "authorId": "2293042568",
+                    "name": "Jie M. Zhang"
+                },
+                {
+                    "authorId": "2215526137",
+                    "name": "Xiang Jing"
+                },
+                {
+                    "authorId": "2267391486",
+                    "name": "Zhenpeng Chen"
+                },
+                {
+                    "authorId": "2289831881",
+                    "name": "Yun Ma"
+                }
+            ],
+            "doi": "10.1016/j.jss.2024.112032",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "b1ce7476b4f44e2cc2dca12d45330f5919c7ec55",
+            "title": "Research Artifacts in Software Engineering Publications: Status and Trends",
+            "url": "https://www.semanticscholar.org/paper/b1ce7476b4f44e2cc2dca12d45330f5919c7ec55",
+            "venue": "J. Syst. Softw.",
+            "year": 2024
+        }
+    ],
+    "corpusId": 248005881,
+    "doi": "10.1145/3524842.3528494",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 1,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 1,
+    "numCiting": 24,
+    "paperId": "05b40a53c139563ddc200df43d11ef1b439ef00f",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40898374",
+                    "name": "Holly Else"
+                }
+            ],
+            "doi": "10.1038/d41586-021-02895-8",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "fc1fa2be1765644c9b8792a7b297c54a34939e20",
+            "title": "Giant, free index to world's research papers released online.",
+            "url": "https://www.semanticscholar.org/paper/fc1fa2be1765644c9b8792a7b297c54a34939e20",
+            "venue": "Nature",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144451375",
+                    "name": "David G. Pina"
+                },
+                {
+                    "authorId": "12135599",
+                    "name": "I. Buljan"
+                },
+                {
+                    "authorId": "46657261",
+                    "name": "Darko Hren"
+                },
+                {
+                    "authorId": "1745800",
+                    "name": "A. Maru\u0161i\u0107"
+                }
+            ],
+            "doi": "10.7554/eLife.59338",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1d6d16439b6b7cc7ecd90ba75a0be050aac2564e",
+            "title": "A retrospective analysis of the peer review of more than 75,000 Marie Curie proposals between 2007 and 2018",
+            "url": "https://www.semanticscholar.org/paper/1d6d16439b6b7cc7ecd90ba75a0be050aac2564e",
+            "venue": "eLife",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1557391149",
+                    "name": "C. Huang"
+                },
+                {
+                    "authorId": "144330153",
+                    "name": "C. Neylon"
+                },
+                {
+                    "authorId": "70468108",
+                    "name": "Richard Hosking"
+                },
+                {
+                    "authorId": "37809005",
+                    "name": "Lucy Montgomery"
+                },
+                {
+                    "authorId": "144514808",
+                    "name": "Katie S Wilson"
+                },
+                {
+                    "authorId": "51482038",
+                    "name": "Alkim Ozaygen"
+                },
+                {
+                    "authorId": "1401959785",
+                    "name": "Chloe Brookes-Kenworthy"
+                }
+            ],
+            "doi": "10.7554/eLife.57067",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "feb2745a6a2f6de011cb59674eb4410efa2aac93",
+            "title": "Evaluating the impact of open access policies on research institutions",
+            "url": "https://www.semanticscholar.org/paper/feb2745a6a2f6de011cb59674eb4410efa2aac93",
+            "venue": "eLife",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3460565",
+                    "name": "Fatih Gurcan"
+                },
+                {
+                    "authorId": "1803934",
+                    "name": "N. Cagiltay"
+                }
+            ],
+            "doi": "10.1080/10494820.2020.1815795",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "894db09058471baa2490f2518ffb7bd108f20158",
+            "title": "Research trends on distance learning: a text mining-based literature review from 2008 to 2018",
+            "url": "https://www.semanticscholar.org/paper/894db09058471baa2490f2518ffb7bd108f20158",
+            "venue": "Interact. Learn. Environ.",
+            "year": 2020
+        },
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "46942630",
+                    "name": "J. Andersen"
+                },
+                {
+                    "authorId": "4671030",
+                    "name": "M. W. Nielsen"
+                },
+                {
+                    "authorId": "3376712",
+                    "name": "N. Simone"
+                },
+                {
+                    "authorId": "3902014",
+                    "name": "R. Lewiss"
+                },
+                {
+                    "authorId": "2805842",
+                    "name": "R. Jagsi"
+                }
+            ],
+            "doi": "10.7554/eLife.58807",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4f6b461d00282d3aead224ed888be0d5db1a4e0e",
+            "title": "COVID-19 medical papers have fewer women first authors than expected",
+            "url": "https://www.semanticscholar.org/paper/4f6b461d00282d3aead224ed888be0d5db1a4e0e",
+            "venue": "eLife",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1557630033",
+                    "name": "Sanam Fayaz Sahito"
+                },
+                {
+                    "authorId": "3363362",
+                    "name": "Abdul Rehman Gilal"
+                },
+                {
+                    "authorId": "1557630704",
+                    "name": "Rizwan Ali Abro"
+                },
+                {
+                    "authorId": "1814285",
+                    "name": "A. Waqas"
+                },
+                {
+                    "authorId": "1557630362",
+                    "name": "Khisaluddin Shaikh"
+                }
+            ],
+            "doi": "10.1109/MACS48846.2019.9024767",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "bd3061f61e8a80dc8c9c1fb4868d96e3f1b059b4",
+            "title": "Research Publication Trends in Software Engineering",
+            "url": "https://www.semanticscholar.org/paper/bd3061f61e8a80dc8c9c1fb4868d96e3f1b059b4",
+            "venue": "2019 13th International Conference on Mathematics, Actuarial Science, Computer Science and Statistics (MACS)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1695024",
+                    "name": "Dominika Tkaczyk"
+                },
+                {
+                    "authorId": "151483665",
+                    "name": "Andrew Collins"
+                },
+                {
+                    "authorId": "144421407",
+                    "name": "P. Sheridan"
+                },
+                {
+                    "authorId": "1781377",
+                    "name": "J\u00f6ran Beel"
+                }
+            ],
+            "doi": "10.1145/3197026.3197048",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a007fd97885ccce88a435754f1213195afd3d57b",
+            "title": "Machine Learning vs. Rules and Out-of-the-Box vs. Retrained: An Evaluation of Open-Source Bibliographic Reference and Citation Parsers",
+            "url": "https://www.semanticscholar.org/paper/a007fd97885ccce88a435754f1213195afd3d57b",
+            "venue": "JCDL",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2644564",
+                    "name": "Gali Halevi"
+                },
+                {
+                    "authorId": "1809160",
+                    "name": "H. Moed"
+                },
+                {
+                    "authorId": "1389920075",
+                    "name": "J. Bar-Ilan"
+                }
+            ],
+            "doi": "10.1016/J.JOI.2017.06.005",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "daa957c767c501f0ba4af3cea699674f5fde389e",
+            "title": "Suitability of Google Scholar as a source of scientific information and as a source of data for scientific evaluation - Review of the Literature",
+            "url": "https://www.semanticscholar.org/paper/daa957c767c501f0ba4af3cea699674f5fde389e",
+            "venue": "J. Informetrics",
+            "year": 2017
+        },
+        {
+            "arxivId": "1608.08100",
+            "authors": [
+                {
+                    "authorId": "2065190460",
+                    "name": "George Mathew"
+                },
+                {
+                    "authorId": "41152241",
+                    "name": "Amritanshu Agrawal"
+                },
+                {
+                    "authorId": "1703872",
+                    "name": "T. Menzies"
+                }
+            ],
+            "doi": "10.1109/TSE.2018.2870388",
+            "intent": [
+                "background",
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "c90c418cae116170442e906493841e017cd8ab27",
+            "title": "Finding Trends in Software Research",
+            "url": "https://www.semanticscholar.org/paper/c90c418cae116170442e906493841e017cd8ab27",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1471621799",
+                    "name": "Xiaobing Sun"
+                },
+                {
+                    "authorId": "1771984",
+                    "name": "Xiangyue Liu"
+                },
+                {
+                    "authorId": "2156071626",
+                    "name": "Bin Li"
+                },
+                {
+                    "authorId": "145963973",
+                    "name": "Yucong Duan"
+                },
+                {
+                    "authorId": "2156108232",
+                    "name": "Hui Yang"
+                },
+                {
+                    "authorId": "2112508869",
+                    "name": "Jiajun Hu"
+                }
+            ],
+            "doi": "10.1109/SNPD.2016.7515925",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d996bd45107881735664a08113034fc016dde41a",
+            "title": "Exploring topic models in software engineering data analysis: A survey",
+            "url": "https://www.semanticscholar.org/paper/d996bd45107881735664a08113034fc016dde41a",
+            "venue": "2016 17th IEEE/ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144118551",
+                    "name": "M. A. Farias"
+                },
+                {
+                    "authorId": "3247901",
+                    "name": "R. Novais"
+                },
+                {
+                    "authorId": "3410094",
+                    "name": "M. C. J\u00fanior"
+                },
+                {
+                    "authorId": "40605686",
+                    "name": "Luis Paulo da Silva Carvalho"
+                },
+                {
+                    "authorId": "1723519",
+                    "name": "Manoel G. Mendon\u00e7a"
+                },
+                {
+                    "authorId": "2738811",
+                    "name": "R. Sp\u00ednola"
+                }
+            ],
+            "doi": "10.1145/2851613.2851786",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1758aace06584c0ae987cae4703d830e059f2215",
+            "title": "A systematic mapping study on mining software repositories",
+            "url": "https://www.semanticscholar.org/paper/1758aace06584c0ae987cae4703d830e059f2215",
+            "venue": "SAC",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145441750",
+                    "name": "J. Ioannidis"
+                },
+                {
+                    "authorId": "30080277",
+                    "name": "D. Fanelli"
+                },
+                {
+                    "authorId": "5279324",
+                    "name": "Debbie Drake Dunne"
+                },
+                {
+                    "authorId": "1815823",
+                    "name": "S. Goodman"
+                }
+            ],
+            "doi": "10.1371/journal.pbio.1002264",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "5a9896c42edf538b1f58c206754b3200b21f0300",
+            "title": "Meta-research: Evaluation and Improvement of Research Methods and Practices",
+            "url": "https://www.semanticscholar.org/paper/5a9896c42edf538b1f58c206754b3200b21f0300",
+            "venue": "PLoS biology",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1688862",
+                    "name": "S. Demeyer"
+                },
+                {
+                    "authorId": "39381939",
+                    "name": "Alessandro Murgia"
+                },
+                {
+                    "authorId": "2869111",
+                    "name": "Kevin Wyckmans"
+                },
+                {
+                    "authorId": "1693773",
+                    "name": "Ahmed Lamkanfi"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624049",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "14caf748a711e95b06a2036a5f475141c52ce36f",
+            "title": "Happy Birthday! A trend analysis on past MSR papers",
+            "url": "https://www.semanticscholar.org/paper/14caf748a711e95b06a2036a5f475141c52ce36f",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2434621",
+                    "name": "Bogdan Vasilescu"
+                },
+                {
+                    "authorId": "1747171",
+                    "name": "Alexander Serebrenik"
+                },
+                {
+                    "authorId": "1794675",
+                    "name": "T. Mens"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624051",
+            "intent": [
+                "background",
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "24495773e6d696fe3705de86dfb4e133508eb237",
+            "title": "A historical dataset of software engineering conferences",
+            "url": "https://www.semanticscholar.org/paper/24495773e6d696fe3705de86dfb4e133508eb237",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145441750",
+                    "name": "J. Ioannidis"
+                }
+            ],
+            "doi": "10.1002/jrsm.19",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "35505da0049feda93e0ffd38de4a734e7f056ea5",
+            "title": "Meta\u2010research: The art of getting it wrong",
+            "url": "https://www.semanticscholar.org/paper/35505da0049feda93e0ffd38de4a734e7f056ea5",
+            "venue": "Research synthesis methods",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145968635",
+                    "name": "B. Kitchenham"
+                },
+                {
+                    "authorId": "1724774",
+                    "name": "T. Dyb\u00e5"
+                },
+                {
+                    "authorId": "50518658",
+                    "name": "M. J\u00f8rgensen"
+                }
+            ],
+            "doi": "10.1109/ICSE.2004.1317449",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c9382574e6a868fe45aa9cc09d19c0f5fadbd652",
+            "title": "Evidence-based software engineering",
+            "url": "https://www.semanticscholar.org/paper/c9382574e6a868fe45aa9cc09d19c0f5fadbd652",
+            "venue": "Proceedings. 26th International Conference on Software Engineering",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1422155236",
+                    "name": "Michael Ley"
+                }
+            ],
+            "doi": "10.1007/3-540-45735-6_1",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "8f7e5c9a00811249da6581a639eee7fe2567266b",
+            "title": "The DBLP Computer Science Bibliography: Evolution, Research Issues, Perspectives",
+            "url": "https://www.semanticscholar.org/paper/8f7e5c9a00811249da6581a639eee7fe2567266b",
+            "venue": "SPIRE",
+            "year": 2002
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145345023",
+                    "name": "M. Stonebraker"
+                },
+                {
+                    "authorId": "32203126",
+                    "name": "G. Kemnitz"
+                }
+            ],
+            "doi": "10.1145/125223.125262",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "23f57515404b8e57efb41fc2e5d3b88f394b4dab",
+            "title": "The POSTGRES next generation database management system",
+            "url": "https://www.semanticscholar.org/paper/23f57515404b8e57efb41fc2e5d3b88f394b4dab",
+            "venue": "CACM",
+            "year": 1991
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145968635",
+                    "name": "B. Kitchenham"
+                },
+                {
+                    "authorId": "145662410",
+                    "name": "P. Brereton"
+                },
+                {
+                    "authorId": "1896276",
+                    "name": "D. Budgen"
+                },
+                {
+                    "authorId": "145689630",
+                    "name": "M. Turner"
+                },
+                {
+                    "authorId": "2067719224",
+                    "name": "J. Bailey"
+                },
+                {
+                    "authorId": "1700115",
+                    "name": "S. Linkman"
+                }
+            ],
+            "doi": "10.1016/J.INFSOF.2008.09.009",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a963d05b9d4acd347ad528e7d098eb53d8f555a2",
+            "title": "Systematic literature reviews in software engineering - A systematic literature review",
+            "url": "https://www.semanticscholar.org/paper/a963d05b9d4acd347ad528e7d098eb53d8f555a2",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "74546596",
+                    "name": "\u674e\u5fb7\u6210"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "cabaf38b2f2cc72f47c98ca3fcb44294eeb75bc7",
+            "title": "\u83b7\u53d6\u5b66\u672f\u4fe1\u606f\u65b0\u9014\u5f84--Google Scholar",
+            "url": "https://www.semanticscholar.org/paper/cabaf38b2f2cc72f47c98ca3fcb44294eeb75bc7",
+            "venue": "",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "GROBID -GeneRation Of BIbliographic Data",
+            "url": "",
+            "venue": "",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "MSR \u201922, May 23\u201324, 2022, Pittsburgh, PA, USA",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Meta-Research: How significant are the public dimensions of faculty work in review, promotion and tenure documents? eLife",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "The General Index of Software Engineering Papers",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/05b40a53c139563ddc200df43d11ef1b439ef00f",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2022
+}

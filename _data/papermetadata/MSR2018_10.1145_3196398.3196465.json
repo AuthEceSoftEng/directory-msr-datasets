@@ -1,0 +1,1072 @@
+{
+    "abstract": "As the popularity of the JavaScript language is constantly increasing, one of the most important challenges today is to assess the quality of JavaScript packages. Developers often employ tools for code linting and for the extraction of static analysis metrics in order to assess and/or improve their code. In this context, we have developed npn-miner, a platform that crawls the npm registry and analyzes the packages using static analysis tools in order to extract detailed quality metrics as well as high-level quality attributes, such as maintainability and security. Our infrastructure includes an index that is accessible through a web interface, while we have also constructed a dataset with the results of a detailed analysis for 2000 popular npm packages.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2125391",
+            "name": "Kyriakos C. Chatzidimitriou",
+            "url": "https://www.semanticscholar.org/author/2125391"
+        },
+        {
+            "authorId": "49703251",
+            "name": "Michail D. Papamichail",
+            "url": "https://www.semanticscholar.org/author/49703251"
+        },
+        {
+            "authorId": "8493745",
+            "name": "Themistoklis G. Diamantopoulos",
+            "url": "https://www.semanticscholar.org/author/8493745"
+        },
+        {
+            "authorId": "51137584",
+            "name": "Michail Tsapanos",
+            "url": "https://www.semanticscholar.org/author/51137584"
+        },
+        {
+            "authorId": "145937532",
+            "name": "A. Symeonidis",
+            "url": "https://www.semanticscholar.org/author/145937532"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2407.02522",
+            "authors": [
+                {
+                    "authorId": "2309480025",
+                    "name": "Angel Temelko"
+                },
+                {
+                    "authorId": "2276055385",
+                    "name": "Fang Hou"
+                },
+                {
+                    "authorId": "40267505",
+                    "name": "Siamak Farshidi"
+                },
+                {
+                    "authorId": "2305285263",
+                    "name": "Slinger Jansen"
+                }
+            ],
+            "doi": "10.48550/arXiv.2407.02522",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "9b1d5751c413a3a8c63cd96dca3433057da2be46",
+            "title": "Systematic literature review of the trust reinforcement mechanisms exist in package ecosystems",
+            "url": "https://www.semanticscholar.org/paper/9b1d5751c413a3a8c63cd96dca3433057da2be46",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2159122321",
+                    "name": "Elizabeth Wyss"
+                },
+                {
+                    "authorId": "2268778214",
+                    "name": "Lorenzo De Carli"
+                },
+                {
+                    "authorId": "2248362975",
+                    "name": "Drew Davidson"
+                }
+            ],
+            "doi": "10.1145/3605770.3625216",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "46ffad6efd5f2dab609ad7ee78c902b3d20f4b58",
+            "title": "(Nothing But) Many Eyes Make All Bugs Shallow",
+            "url": "https://www.semanticscholar.org/paper/46ffad6efd5f2dab609ad7ee78c902b3d20f4b58",
+            "venue": "SCORED@CCS",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1708153075",
+                    "name": "David Moreno-Lumbreras"
+                },
+                {
+                    "authorId": "2257286488",
+                    "name": "Jes\u00fas M. Gonz\u00e1lez-Barahona"
+                },
+                {
+                    "authorId": "2262459815",
+                    "name": "Michele Lanza"
+                }
+            ],
+            "doi": "10.1109/VISSOFT60811.2023.00019",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "bdb701aa08c884be06bea806b429512d0990a125",
+            "title": "Understanding the NPM Dependencies Ecosystem of a Project Using Virtual Reality",
+            "url": "https://www.semanticscholar.org/paper/bdb701aa08c884be06bea806b429512d0990a125",
+            "venue": "2023 IEEE Working Conference on Software Visualization (VISSOFT)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2133974276",
+                    "name": "Tja\u0161a Heri\u010dko"
+                },
+                {
+                    "authorId": "2675525",
+                    "name": "Bo\u0161tjan \u0160umak"
+                }
+            ],
+            "doi": "10.1145/3584871.3584884",
+            "intent": [],
+            "isInfluential": true,
+            "paperId": "8b80fa58a31c1d4cdafdadf9249f04f026cc6367",
+            "title": "On the Relationship Between Linter Warning Density and Software Maintainability: An Empirical Study of JavaScript Projects",
+            "url": "https://www.semanticscholar.org/paper/8b80fa58a31c1d4cdafdadf9249f04f026cc6367",
+            "venue": "ICSIM",
+            "year": 2023
+        },
+        {
+            "arxivId": "2209.11946",
+            "authors": [
+                {
+                    "authorId": "1789829",
+                    "name": "N. Hasabnis"
+                }
+            ],
+            "doi": "10.1145/3549034.3561176",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "363758e9e296adc9391ed731e834809cf5d4c19b",
+            "title": "Are machine programming systems using right source-code measures to select code repositories?",
+            "url": "https://www.semanticscholar.org/paper/363758e9e296adc9391ed731e834809cf5d4c19b",
+            "venue": "MaLTeSQuE@ESEC/SIGSOFT FSE",
+            "year": 2022
+        },
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2159122321",
+                    "name": "Elizabeth Wyss"
+                },
+                {
+                    "authorId": "2159159514",
+                    "name": "Alexander Wittman"
+                },
+                {
+                    "authorId": "2054581635",
+                    "name": "Drew Davidson"
+                },
+                {
+                    "authorId": "1943304",
+                    "name": "Lorenzo De Carli"
+                }
+            ],
+            "doi": "10.1145/3488932.3523262",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0e4b5cdda418bcd962e2a35428dae967c79cdc73",
+            "title": "Wolf at the Door: Preventing Install-Time Attacks in npm with Latch",
+            "url": "https://www.semanticscholar.org/paper/0e4b5cdda418bcd962e2a35428dae967c79cdc73",
+            "venue": "AsiaCCS",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2159122321",
+                    "name": "Elizabeth Wyss"
+                },
+                {
+                    "authorId": "1943304",
+                    "name": "Lorenzo De Carli"
+                },
+                {
+                    "authorId": "2054581635",
+                    "name": "Drew Davidson"
+                }
+            ],
+            "doi": "10.1145/3510003.3510168",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7dc0b4bd8a57344dab969c336db576d5c780f4a0",
+            "title": "What the Fork? Finding Hidden Code Clones in npm",
+            "url": "https://www.semanticscholar.org/paper/7dc0b4bd8a57344dab969c336db576d5c780f4a0",
+            "venue": "2022 IEEE/ACM 44th International Conference on Software Engineering (ICSE)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2205.02360",
+            "authors": [
+                {
+                    "authorId": "1789829",
+                    "name": "N. Hasabnis"
+                }
+            ],
+            "doi": "10.1145/3524842.3528519",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "38703b2f736343e0f159845090304aa832fb3cfc",
+            "title": "GitRank: A Framework to Rank GitHub Repositories",
+            "url": "https://www.semanticscholar.org/paper/38703b2f736343e0f159845090304aa832fb3cfc",
+            "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34755489",
+                    "name": "M. Vidoni"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2021.106791",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8b608f646a96c545af167e66a146f54ecd595ffa",
+            "title": "A systematic process for Mining Software Repositories: Results from a systematic literature review",
+            "url": "https://www.semanticscholar.org/paper/8b608f646a96c545af167e66a146f54ecd595ffa",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2155979241",
+                    "name": "Yu Wang"
+                },
+                {
+                    "authorId": "8424919",
+                    "name": "Huaxiao Liu"
+                },
+                {
+                    "authorId": "35380326",
+                    "name": "Shanquan Gao"
+                },
+                {
+                    "authorId": "92552985",
+                    "name": "Shujia Li"
+                }
+            ],
+            "doi": "10.1109/APSEC53868.2021.00013",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ccfa5ad3a11b9644c08a22c46d847e6825b083fb",
+            "title": "Categorizing npm Packages by Analyzing the Text Information in Software Repositories",
+            "url": "https://www.semanticscholar.org/paper/ccfa5ad3a11b9644c08a22c46d847e6825b083fb",
+            "venue": "2021 28th Asia-Pacific Software Engineering Conference (APSEC)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2105.06838",
+            "authors": [
+                {
+                    "authorId": "1605760370",
+                    "name": "Haiyang Sun"
+                },
+                {
+                    "authorId": "145142971",
+                    "name": "Andrea Ros\u00e0"
+                },
+                {
+                    "authorId": "2066218",
+                    "name": "Daniele Bonetta"
+                },
+                {
+                    "authorId": "144756486",
+                    "name": "Walter Binder"
+                }
+            ],
+            "doi": "10.1109/AST52587.2021.00013",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "58e5a0f0ddfe8316f19c376e244d8733ba6cedbe",
+            "title": "Automatically Assessing and Extending Code Coverage for NPM Packages",
+            "url": "https://www.semanticscholar.org/paper/58e5a0f0ddfe8316f19c376e244d8733ba6cedbe",
+            "venue": "2021 IEEE/ACM International Conference on Automation of Software Test (AST)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145141548",
+                    "name": "Ahmad Abdellatif"
+                },
+                {
+                    "authorId": "2111106864",
+                    "name": "Yi Zeng"
+                },
+                {
+                    "authorId": "1431282109",
+                    "name": "Mohamed Elshafei"
+                },
+                {
+                    "authorId": "3318024",
+                    "name": "Emad Shihab"
+                },
+                {
+                    "authorId": "39724619",
+                    "name": "Weiyi Shang"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2020.106365",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "836545c62625bd79f455a915ea10049954f802ed",
+            "title": "Simplifying the Search of npm Packages",
+            "url": "https://www.semanticscholar.org/paper/836545c62625bd79f455a915ea10049954f802ed",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1956551",
+                    "name": "Luca Ardito"
+                },
+                {
+                    "authorId": "3469762",
+                    "name": "Riccardo Coppola"
+                },
+                {
+                    "authorId": "2074213615",
+                    "name": "L. Barbato"
+                },
+                {
+                    "authorId": "2006169053",
+                    "name": "Diego Verga"
+                }
+            ],
+            "doi": "10.1155/2020/8840389",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "f820283830d8978dd6d5accad2402c40cce165c2",
+            "title": "A Tool-Based Perspective on Software Code Maintainability Metrics: A Systematic Literature Review",
+            "url": "https://www.semanticscholar.org/paper/f820283830d8978dd6d5accad2402c40cce165c2",
+            "venue": "Sci. Program.",
+            "year": 2020
+        },
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1956551",
+                    "name": "Luca Ardito"
+                },
+                {
+                    "authorId": "2074213615",
+                    "name": "L. Barbato"
+                },
+                {
+                    "authorId": "2451835",
+                    "name": "M. Castelluccio"
+                },
+                {
+                    "authorId": "3469762",
+                    "name": "Riccardo Coppola"
+                },
+                {
+                    "authorId": "2040114155",
+                    "name": "Calixte Denizet"
+                },
+                {
+                    "authorId": "46763941",
+                    "name": "Sylvestre Ledru"
+                },
+                {
+                    "authorId": "2040114109",
+                    "name": "Michele Valsesia"
+                }
+            ],
+            "doi": "10.1016/j.softx.2020.100635",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a79c14877536005cf41a88f938696ea7e9de3d7a",
+            "title": "rust-code-analysis: A Rust library to analyze and extract maintainability information from source codes",
+            "url": "https://www.semanticscholar.org/paper/a79c14877536005cf41a88f938696ea7e9de3d7a",
+            "venue": "SoftwareX",
+            "year": 2020
+        },
+        {
+            "arxivId": "2002.09989",
+            "authors": [
+                {
+                    "authorId": "8041820",
+                    "name": "Tapajit Dey"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": "10.1007/s10664-019-09791-w",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "decc56122a977d1b8071dd325f0f990cd4557d6b",
+            "title": "Deriving a usage-independent software quality metric",
+            "url": "https://www.semanticscholar.org/paper/decc56122a977d1b8071dd325f0f990cd4557d6b",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00085",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "43148fabe2636026e07ca04974aff40d204bfb6b",
+            "title": "Standing on Shoulders or Feet? The Usage of the MSR Data Papers",
+            "url": "https://www.semanticscholar.org/paper/43148fabe2636026e07ca04974aff40d204bfb6b",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": "2405.07213",
+            "authors": [
+                {
+                    "authorId": "3172077",
+                    "name": "R. Ferenc"
+                },
+                {
+                    "authorId": "2076092",
+                    "name": "P\u00e9ter Heged\u00fcs"
+                },
+                {
+                    "authorId": "3260492",
+                    "name": "P\u00e9ter Gyimesi"
+                },
+                {
+                    "authorId": "50448100",
+                    "name": "G\u00e1bor Antal"
+                },
+                {
+                    "authorId": "2442722",
+                    "name": "D\u00e9nes B\u00e1n"
+                },
+                {
+                    "authorId": "1681248",
+                    "name": "T. Gyim\u00f3thy"
+                }
+            ],
+            "doi": "10.1109/RAISE.2019.00010",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "7c3c046dd44f242b899963925772f117dc351e00",
+            "title": "Challenging Machine Learning Algorithms in Predicting Vulnerable JavaScript Functions",
+            "url": "https://www.semanticscholar.org/paper/7c3c046dd44f242b899963925772f117dc351e00",
+            "venue": "2019 IEEE/ACM 7th International Workshop on Realizing Artificial Intelligence Synergies in Software Engineering (RAISE)",
+            "year": 2019
+        },
+        {
+            "arxivId": "1902.09217",
+            "authors": [
+                {
+                    "authorId": "2054206337",
+                    "name": "Markus Zimmermann"
+                },
+                {
+                    "authorId": "40141524",
+                    "name": "Cristian-Alexandru Staicu"
+                },
+                {
+                    "authorId": "73771429",
+                    "name": "Cam Tenny"
+                },
+                {
+                    "authorId": "1884064",
+                    "name": "Michael Pradel"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "30c4476f6af1653874221b78a930a549a801e72c",
+            "title": "Small World with High Risks: A Study of Security Threats in the npm Ecosystem",
+            "url": "https://www.semanticscholar.org/paper/30c4476f6af1653874221b78a930a549a801e72c",
+            "venue": "USENIX Security Symposium",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2125391",
+                    "name": "Kyriakos C. Chatzidimitriou"
+                },
+                {
+                    "authorId": "49703251",
+                    "name": "Michail D. Papamichail"
+                },
+                {
+                    "authorId": "8493745",
+                    "name": "Themistoklis G. Diamantopoulos"
+                },
+                {
+                    "authorId": "120854911",
+                    "name": "Napoleon-Christos I. Oikonomou"
+                },
+                {
+                    "authorId": "145937532",
+                    "name": "A. Symeonidis"
+                }
+            ],
+            "doi": "10.5220/0007966805440551",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ac8a87f9dfed8aa76e44b956df8a095e9b6d7d99",
+            "title": "npm Packages as Ingredients: A Recipe-based Approach",
+            "url": "https://www.semanticscholar.org/paper/ac8a87f9dfed8aa76e44b956df8a095e9b6d7d99",
+            "venue": "ICSOFT",
+            "year": 2019
+        }
+    ],
+    "corpusId": 50774388,
+    "doi": "10.1145/3196398.3196465",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 3,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 21,
+    "numCiting": 14,
+    "paperId": "a0d33fc57a9f3648c10ed111ece93f2a82692bb1",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51501338",
+                    "name": "Miltiadis G. Siavvas"
+                },
+                {
+                    "authorId": "2125391",
+                    "name": "Kyriakos C. Chatzidimitriou"
+                },
+                {
+                    "authorId": "145937532",
+                    "name": "A. Symeonidis"
+                }
+            ],
+            "doi": "10.1016/j.eswa.2017.05.060",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "85772deca93c53ddc24b72d261d8e38ade9359f8",
+            "title": "QATCH - An adaptive framework for software product quality assessment",
+            "url": "https://www.semanticscholar.org/paper/85772deca93c53ddc24b72d261d8e38ade9359f8",
+            "venue": "Expert Syst. Appl.",
+            "year": 2017
+        },
+        {
+            "arxivId": "1709.04638",
+            "authors": [
+                {
+                    "authorId": "1680034",
+                    "name": "R. Kula"
+                },
+                {
+                    "authorId": "1994554",
+                    "name": "Ali Ouni"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "144875558",
+                    "name": "Katsuro Inoue"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b0d241a2aeb873598aa531afb55538659cb52a47",
+            "title": "On the Impact of Micro-Packages: An Empirical Study of the npm JavaScript Ecosystem",
+            "url": "https://www.semanticscholar.org/paper/b0d241a2aeb873598aa531afb55538659cb52a47",
+            "venue": "ArXiv",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8701060",
+                    "name": "Fiorella Zampetti"
+                },
+                {
+                    "authorId": "3439470",
+                    "name": "Simone Scalabrino"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                },
+                {
+                    "authorId": "1711200",
+                    "name": "G. Canfora"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                }
+            ],
+            "doi": "10.1109/MSR.2017.2",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d88c60186aed638822ba7fb47ddb36533419fa67",
+            "title": "How Open Source Projects Use Static Code Analysis Tools in Continuous Integration Pipelines",
+            "url": "https://www.semanticscholar.org/paper/d88c60186aed638822ba7fb47ddb36533419fa67",
+            "venue": "2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2016688",
+                    "name": "R. Kikas"
+                },
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "144065089",
+                    "name": "M. Dumas"
+                },
+                {
+                    "authorId": "1681323",
+                    "name": "Dietmar Pfahl"
+                }
+            ],
+            "doi": "10.1109/MSR.2017.55",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d0a9d38c33229834dd55dc2050bf43fb77be3328",
+            "title": "Structure and Evolution of Package Dependency Networks",
+            "url": "https://www.semanticscholar.org/paper/d0a9d38c33229834dd55dc2050bf43fb77be3328",
+            "venue": "2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49703251",
+                    "name": "Michail D. Papamichail"
+                },
+                {
+                    "authorId": "8493745",
+                    "name": "Themistoklis G. Diamantopoulos"
+                },
+                {
+                    "authorId": "145937532",
+                    "name": "A. Symeonidis"
+                }
+            ],
+            "doi": "10.1109/QRS.2016.22",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a634cb57ebfa0c2ce249875bf8adf4476055d2ef",
+            "title": "User-Perceived Source Code Quality Estimation Based on Static Analysis Metrics",
+            "url": "https://www.semanticscholar.org/paper/a634cb57ebfa0c2ce249875bf8adf4476055d2ef",
+            "venue": "2016 IEEE International Conference on Software Quality, Reliability and Security (QRS)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "101116834",
+                    "name": "Erik Wittern"
+                },
+                {
+                    "authorId": "4010451",
+                    "name": "Philippe Suter"
+                },
+                {
+                    "authorId": "2640561",
+                    "name": "Shriram Rajagopalan"
+                }
+            ],
+            "doi": "10.1145/2901739.2901743",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "acfd7508986738045547598fe07440ef0141abde",
+            "title": "A Look at the Dynamics of the JavaScript Package Ecosystem",
+            "url": "https://www.semanticscholar.org/paper/acfd7508986738045547598fe07440ef0141abde",
+            "venue": "2016 IEEE/ACM 13th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "21003887",
+                    "name": "M. Beller"
+                },
+                {
+                    "authorId": "3408533",
+                    "name": "R. Bholanath"
+                },
+                {
+                    "authorId": "1725534",
+                    "name": "Shane McIntosh"
+                },
+                {
+                    "authorId": "1702285",
+                    "name": "A. Zaidman"
+                }
+            ],
+            "doi": "10.1109/SANER.2016.105",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8e93557e60b8147d0b1c6bea8a633f1b9272019c",
+            "title": "Analyzing the State of Static Analysis: A Large-Scale Evaluation in Open Source Software",
+            "url": "https://www.semanticscholar.org/paper/8e93557e60b8147d0b1c6bea8a633f1b9272019c",
+            "venue": "2016 IEEE 23rd International Conference on Software Analysis, Evolution, and Reengineering (SANER)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1884064",
+                    "name": "Michael Pradel"
+                },
+                {
+                    "authorId": "2620528",
+                    "name": "Parker Schuh"
+                },
+                {
+                    "authorId": "145741786",
+                    "name": "Koushik Sen"
+                }
+            ],
+            "doi": "10.1109/ICSE.2015.51",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "03c2a82f14338c5e0ffbadf9b51d2188d42e41ff",
+            "title": "TypeDevil: Dynamic Type Inconsistency Analysis for JavaScript",
+            "url": "https://www.semanticscholar.org/paper/03c2a82f14338c5e0ffbadf9b51d2188d42e41ff",
+            "venue": "2015 IEEE/ACM 37th IEEE International Conference on Software Engineering",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2755024",
+                    "name": "Karan Aggarwal"
+                },
+                {
+                    "authorId": "145369636",
+                    "name": "Abram Hindle"
+                },
+                {
+                    "authorId": "1719731",
+                    "name": "Eleni Stroulia"
+                }
+            ],
+            "doi": "10.1145/2597073.2597120",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "88e734aa451a88d606f2a6d42d20f50ef2fd5551",
+            "title": "Co-evolution of project documentation and popularity within github",
+            "url": "https://www.semanticscholar.org/paper/88e734aa451a88d606f2a6d42d20f50ef2fd5551",
+            "venue": "MSR 2014",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2660071",
+                    "name": "Ethan Fast"
+                },
+                {
+                    "authorId": "46595353",
+                    "name": "Daniel Steffee"
+                },
+                {
+                    "authorId": "2153516825",
+                    "name": "Lucy Wang"
+                },
+                {
+                    "authorId": "145671153",
+                    "name": "Joel Brandt"
+                },
+                {
+                    "authorId": "145879842",
+                    "name": "Michael S. Bernstein"
+                }
+            ],
+            "doi": "10.1145/2556288.2556998",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "67e219665c33c0bfa7f521761cf9b3a9d89a02e3",
+            "title": "Emergent, crowd-scale programming practice in the IDE",
+            "url": "https://www.semanticscholar.org/paper/67e219665c33c0bfa7f521761cf9b3a9d89a02e3",
+            "venue": "CHI",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2103630561",
+                    "name": "R. Baggen"
+                },
+                {
+                    "authorId": "3218955",
+                    "name": "Jos\u00e9 Pedro Correia"
+                },
+                {
+                    "authorId": "31499927",
+                    "name": "Katrin Schill"
+                },
+                {
+                    "authorId": "145039625",
+                    "name": "Joost Visser"
+                }
+            ],
+            "doi": "10.1007/s11219-011-9144-9",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3b4881fffbb2530f844f5f884046c4e3be6e72a3",
+            "title": "Standardized code quality benchmarking for improving software maintainability",
+            "url": "https://www.semanticscholar.org/paper/3b4881fffbb2530f844f5f884046c4e3be6e72a3",
+            "venue": "Software Quality Journal",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2220990",
+                    "name": "Ciera Jaspan"
+                },
+                {
+                    "authorId": "145180993",
+                    "name": "I. Chen"
+                },
+                {
+                    "authorId": "2109671846",
+                    "name": "Anoop Sharma"
+                }
+            ],
+            "doi": "10.1145/1297846.1297964",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d8c3b4d953af870cb35601214248012e628ac5dd",
+            "title": "Understanding the value of program analysis tools",
+            "url": "https://www.semanticscholar.org/paper/d8c3b4d953af870cb35601214248012e628ac5dd",
+            "venue": "OOPSLA '07",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2580303",
+                    "name": "R. Gabriel"
+                },
+                {
+                    "authorId": "1678228",
+                    "name": "D. F. Bacon"
+                },
+                {
+                    "authorId": "34955824",
+                    "name": "C. Lopes"
+                },
+                {
+                    "authorId": "6299439",
+                    "name": "G. Steele"
+                }
+            ],
+            "doi": "10.1145/1297846",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "808c5d20ac7e82621819f7e381be0d9c02f9cee2",
+            "title": "Companion to the 22nd ACM SIGPLAN conference on Object-oriented programming systems and applications companion",
+            "url": "https://www.semanticscholar.org/paper/808c5d20ac7e82621819f7e381be0d9c02f9cee2",
+            "venue": "OOPSLA 2007",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "30689996",
+                    "name": "Valasia Dimaridou"
+                },
+                {
+                    "authorId": "1725499570",
+                    "name": "Alexandros-Charalampos Kyprianidis"
+                },
+                {
+                    "authorId": "49703251",
+                    "name": "Michail D. Papamichail"
+                },
+                {
+                    "authorId": "8493745",
+                    "name": "Themistoklis G. Diamantopoulos"
+                },
+                {
+                    "authorId": "145937532",
+                    "name": "A. Symeonidis"
+                }
+            ],
+            "doi": "10.5220/0006420000730084",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9f1cb2a6a56a292301ccd818e4c1222f4feeb274",
+            "title": "Towards Modeling the User-perceived Quality of Source Code using Static Analysis Metrics",
+            "url": "https://www.semanticscholar.org/paper/9f1cb2a6a56a292301ccd818e4c1222f4feeb274",
+            "venue": "ICSOFT",
+            "year": 2017
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "npm-Miner: An Infrastructure for Measuring the Quality of the npm Registry",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/a0d33fc57a9f3648c10ed111ece93f2a82692bb1",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2018
+}

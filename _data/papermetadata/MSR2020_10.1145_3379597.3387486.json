@@ -1,0 +1,1091 @@
+{
+    "abstract": "Different from traditional software development, there is little in-formation about the software-engineering process and techniques in video-game development. One popular way to share knowledge among the video-game developers' community is the publishing of postmortems, which are documents summarizing what happened during the video-game development project. However, these docu-ments are written without formal structure and often providing dis-parate information. Through this paper, we provide developers and researchers with grounded dataset describing software-engineering problems in video-game development extracted from postmortems. We created the dataset using an iterative method through which we manually coded more than 200 postmortems spanning 20 years (1998 to 2018) and extracted 1,035 problems related to software en-gineering while maintaining traceability links to the postmortems. We grouped the problems in 20 different types. This dataset is useful to understand the problems faced by developers during video-game development, providing researchers and practitioners a starting point to study video-game development in the context of software engineering.",
+    "arxivId": "2001.00491",
+    "authors": [
+        {
+            "authorId": "3404912",
+            "name": "Cristiano Politowski",
+            "url": "https://www.semanticscholar.org/author/3404912"
+        },
+        {
+            "authorId": "145400424",
+            "name": "F\u00e1bio Petrillo",
+            "url": "https://www.semanticscholar.org/author/145400424"
+        },
+        {
+            "authorId": "2074959603",
+            "name": "G. Ullmann",
+            "url": "https://www.semanticscholar.org/author/2074959603"
+        },
+        {
+            "authorId": "36179195",
+            "name": "Josias de Andrade Werly",
+            "url": "https://www.semanticscholar.org/author/36179195"
+        },
+        {
+            "authorId": "1718050",
+            "name": "Yann-Ga\u00ebl Gu\u00e9h\u00e9neuc",
+            "url": "https://www.semanticscholar.org/author/1718050"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2255777915",
+                    "name": "Max Chen"
+                },
+                {
+                    "authorId": "2255574859",
+                    "name": "Gillian Smith"
+                }
+            ],
+            "doi": "10.1145/3649921.3649999",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1ca8cd30ca321734a24513d842cdd1b4917e17fa",
+            "title": "Game Development as Project-Based Learning: Synthesizing Postmortems of Student-Created Mobile Games",
+            "url": "https://www.semanticscholar.org/paper/1ca8cd30ca321734a24513d842cdd1b4917e17fa",
+            "venue": "Proceedings of the 19th International Conference on the Foundations of Digital Games",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2294662159",
+                    "name": "Herick Henrique Cardouzo"
+                },
+                {
+                    "authorId": "2162884902",
+                    "name": "Tadeu Moreira de Classe"
+                }
+            ],
+            "doi": "10.5753/sbsi_estendido.2024.238927",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d4c9771fe700df390a0d6583a89cf51571063484",
+            "title": "Taxonomia de G\u00eaneros para Sistemas de Recomenda\u00e7\u00e3o Voltados \u00e0 Engenharia de Jogos",
+            "url": "https://www.semanticscholar.org/paper/d4c9771fe700df390a0d6583a89cf51571063484",
+            "venue": "Anais Estendidos do XX Simp\u00f3sio Brasileiro de Sistemas de Informa\u00e7\u00e3o (SBSI 2024)",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2302422180",
+                    "name": "Juan Carlos de la Torre"
+                },
+                {
+                    "authorId": "2190502737",
+                    "name": "J. M. Arag\u00f3n-Jurado"
+                },
+                {
+                    "authorId": "2287288438",
+                    "name": "Abd\u00f3n Crespo-\u00c1lvarez"
+                },
+                {
+                    "authorId": "2287280164",
+                    "name": "Guillermo B\u00e1rcena-Gonz\u00e1lez"
+                }
+            ],
+            "doi": "10.1016/j.softx.2024.101665",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a1d6ac13390bdd081e9c352a7287e3250843f098",
+            "title": "GAGI: Game engine for Artificial General Intelligence experimentation",
+            "url": "https://www.semanticscholar.org/paper/a1d6ac13390bdd081e9c352a7287e3250843f098",
+            "venue": "SoftwareX",
+            "year": 2024
+        },
+        {
+            "arxivId": "2401.08561",
+            "authors": [
+                {
+                    "authorId": "2174071404",
+                    "name": "Andrea D\u2019Angelo"
+                },
+                {
+                    "authorId": "2113623494",
+                    "name": "Claudio Di Sipio"
+                },
+                {
+                    "authorId": "2279790509",
+                    "name": "Cristiano Politowski"
+                },
+                {
+                    "authorId": "80788365",
+                    "name": "Riccardo Rubei"
+                }
+            ],
+            "doi": "10.1145/3643991.3644869",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "267c4a4e30546dec9052efffef471b65436af74a",
+            "title": "PlayMyData: a curated dataset of multi-platform video games",
+            "url": "https://www.semanticscholar.org/paper/267c4a4e30546dec9052efffef471b65436af74a",
+            "venue": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2231822606",
+                    "name": "Jorge Chueca"
+                },
+                {
+                    "authorId": "2241924475",
+                    "name": "Javier Ver\u00f3n"
+                },
+                {
+                    "authorId": "11248626",
+                    "name": "Jaime Font"
+                },
+                {
+                    "authorId": "144105026",
+                    "name": "Francisca P\u00e9rez"
+                },
+                {
+                    "authorId": "144927584",
+                    "name": "Carlos Cetina"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2023.107330",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "726952d60c230c1fce7b37edf7db8b627fe571d2",
+            "title": "The consolidation of game software engineering: A systematic literature review of software engineering for industry-scale computer games",
+            "url": "https://www.semanticscholar.org/paper/726952d60c230c1fce7b37edf7db8b627fe571d2",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "119120016",
+                    "name": "Vartika Agrahari"
+                },
+                {
+                    "authorId": "2169794374",
+                    "name": "Shriram Shanbhag"
+                },
+                {
+                    "authorId": "1926332",
+                    "name": "S. Chimalakonda"
+                },
+                {
+                    "authorId": "2113655040",
+                    "name": "A. Rao"
+                }
+            ],
+            "doi": "10.1016/j.jss.2023.111789",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "41eb83b6586b904fba7d6702d472e68a3b1c3db5",
+            "title": "A catalogue of game-specific anti-patterns based on GitHub and Game Development Stack Exchange",
+            "url": "https://www.semanticscholar.org/paper/41eb83b6586b904fba7d6702d472e68a3b1c3db5",
+            "venue": "J. Syst. Softw.",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2253599066",
+                    "name": "Junialdi Dwijaputra"
+                },
+                {
+                    "authorId": "2229274446",
+                    "name": "Diana Purwitasari"
+                },
+                {
+                    "authorId": "2083345085",
+                    "name": "E. Zulaikha"
+                }
+            ],
+            "doi": "10.1145/3604571.3604574",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "5d1e542abb550d98a740423615f459fb35b50496",
+            "title": "Identifying Gamification Project Challenges through Literature Review and Post-Mortem Documents",
+            "url": "https://www.semanticscholar.org/paper/5d1e542abb550d98a740423615f459fb35b50496",
+            "venue": "Asian CHI",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144746170",
+                    "name": "L. Kumar"
+                },
+                {
+                    "authorId": "144556074",
+                    "name": "N. B. Murthy"
+                },
+                {
+                    "authorId": "2189562",
+                    "name": "A. Krishna"
+                },
+                {
+                    "authorId": "70339436",
+                    "name": "Bits Pilani"
+                },
+                {
+                    "authorId": "120219023",
+                    "name": "I. Hyderabad"
+                }
+            ],
+            "doi": "10.1145/3578527.3578543",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c284dcea442dd3325de417e39eb988b69fa3fce5",
+            "title": "Automatic Identification of Video Game Development Problems using Word Embedding and Ensemble Classifiers",
+            "url": "https://www.semanticscholar.org/paper/c284dcea442dd3325de417e39eb988b69fa3fce5",
+            "venue": "ISEC",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2212791271",
+                    "name": "Raheela Chand"
+                },
+                {
+                    "authorId": "9231650",
+                    "name": "Saif Ur Rehman Khan"
+                },
+                {
+                    "authorId": "2113621236",
+                    "name": "S. Hussain"
+                },
+                {
+                    "authorId": "47825073",
+                    "name": "Wen Wang"
+                }
+            ],
+            "doi": "10.1109/QRS-C57518.2022.00093",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a2f1b9941fdcf81fa1653f2e8e5c6c3854b3e600",
+            "title": "TTAG+R: A Dataset of Google Play Store's Top Trending Android Games and User Reviews",
+            "url": "https://www.semanticscholar.org/paper/a2f1b9941fdcf81fa1653f2e8e5c6c3854b3e600",
+            "venue": "2022 IEEE 22nd International Conference on Software Quality, Reliability, and Security Companion (QRS-C)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2209.06367",
+            "authors": [
+                {
+                    "authorId": "2183269339",
+                    "name": "Hang Chen"
+                },
+                {
+                    "authorId": "2184775227",
+                    "name": "Keqing Du"
+                },
+                {
+                    "authorId": "2150439354",
+                    "name": "Xinyu Yang"
+                },
+                {
+                    "authorId": "2144121762",
+                    "name": "Chenguang Li"
+                }
+            ],
+            "doi": "10.48550/arXiv.2209.06367",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9fa315ef9e652795be743fd9e292a701f94eb4c1",
+            "title": "A Review and Roadmap of Deep Learning Causal Discovery in Different Variable Paradigms",
+            "url": "https://www.semanticscholar.org/paper/9fa315ef9e652795be743fd9e292a701f94eb4c1",
+            "venue": "ArXiv",
+            "year": 2022
+        },
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": "2208.02335",
+            "authors": [
+                {
+                    "authorId": "115698543",
+                    "name": "Finlay Macklon"
+                },
+                {
+                    "authorId": "2129465393",
+                    "name": "Mohammad Reza Taesiri"
+                },
+                {
+                    "authorId": "51119802",
+                    "name": "Markos Viggiato"
+                },
+                {
+                    "authorId": "2180394170",
+                    "name": "Stefan Antoszko"
+                },
+                {
+                    "authorId": "48971237",
+                    "name": "Natalia Romanova"
+                },
+                {
+                    "authorId": "2133235305",
+                    "name": "Dale Paas"
+                },
+                {
+                    "authorId": "1755660",
+                    "name": "C. Bezemer"
+                }
+            ],
+            "doi": "10.1145/3551349.3556913",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c6668238a799d59b5b80d7c1ee1f796fbeda4521",
+            "title": "Automatically Detecting Visual Bugs in HTML5 Canvas Games",
+            "url": "https://www.semanticscholar.org/paper/c6668238a799d59b5b80d7c1ee1f796fbeda4521",
+            "venue": "ASE",
+            "year": 2022
+        },
+        {
+            "arxivId": "2203.11096",
+            "authors": [
+                {
+                    "authorId": "2129465393",
+                    "name": "Mohammad Reza Taesiri"
+                },
+                {
+                    "authorId": "115698543",
+                    "name": "Finlay Macklon"
+                },
+                {
+                    "authorId": "1755660",
+                    "name": "C. Bezemer"
+                }
+            ],
+            "doi": "10.1145/3524842.3528438",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3941eef6e5299688ed6e7f0235dc8846e1a1e56c",
+            "title": "CLIP meets GamePhysics: Towards bug identification in gameplay videos using zero-shot transfer learning",
+            "url": "https://www.semanticscholar.org/paper/3941eef6e5299688ed6e7f0235dc8846e1a1e56c",
+            "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2202.06183",
+            "authors": [
+                {
+                    "authorId": "2074959603",
+                    "name": "G. Ullmann"
+                },
+                {
+                    "authorId": "3404912",
+                    "name": "Cristiano Politowski"
+                },
+                {
+                    "authorId": "1718050",
+                    "name": "Yann-Ga\u00ebl Gu\u00e9h\u00e9neuc"
+                },
+                {
+                    "authorId": "145400424",
+                    "name": "F\u00e1bio Petrillo"
+                },
+                {
+                    "authorId": "2093148",
+                    "name": "Jo\u00e3o Eduardo Montandon"
+                }
+            ],
+            "doi": "10.1145/3524494.3527623",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "600063b6f8d4645c63deeb3388ecddfbcdacc5de",
+            "title": "What Makes a Game High-rated? Towards Factors of Video Game Success",
+            "url": "https://www.semanticscholar.org/paper/600063b6f8d4645c63deeb3388ecddfbcdacc5de",
+            "venue": "2022 IEEE/ACM 6th International Workshop on Games and Software Engineering (GAS)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2172109393",
+                    "name": "Kieran Newell"
+                },
+                {
+                    "authorId": "1725411161",
+                    "name": "K. Patel"
+                },
+                {
+                    "authorId": "46220781",
+                    "name": "M. Lind\u00e9n"
+                },
+                {
+                    "authorId": "2053885084",
+                    "name": "Michael K. Demetriou"
+                },
+                {
+                    "authorId": "2172213495",
+                    "name": "Michal Huk"
+                },
+                {
+                    "authorId": "2172040489",
+                    "name": "Mohammed Mahmoud"
+                }
+            ],
+            "doi": "10.1109/CSCI54926.2021.00367",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "44c2e141f9e81cc33afb53d064fa419125394113",
+            "title": "Evolution of Software Development in the Video Game Industry",
+            "url": "https://www.semanticscholar.org/paper/44c2e141f9e81cc33afb53d064fa419125394113",
+            "venue": "2021 International Conference on Computational Science and Computational Intelligence (CSCI)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2105.14137",
+            "authors": [
+                {
+                    "authorId": "2074959603",
+                    "name": "G. Ullmann"
+                },
+                {
+                    "authorId": "3404912",
+                    "name": "Cristiano Politowski"
+                },
+                {
+                    "authorId": "1718050",
+                    "name": "Yann-Ga\u00ebl Gu\u00e9h\u00e9neuc"
+                },
+                {
+                    "authorId": "145400424",
+                    "name": "F\u00e1bio Petrillo"
+                }
+            ],
+            "doi": "10.1145/3524494.3527628",
+            "intent": [
+                "background",
+                "methodology",
+                "result"
+            ],
+            "isInfluential": true,
+            "paperId": "252f26e3d9ed174ebeca6e58ef9fc50694985494",
+            "title": "What makes a game high-rated?: towards factors of video game success",
+            "url": "https://www.semanticscholar.org/paper/252f26e3d9ed174ebeca6e58ef9fc50694985494",
+            "venue": "GAS@ICSE",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.06431",
+            "authors": [
+                {
+                    "authorId": "3404912",
+                    "name": "Cristiano Politowski"
+                },
+                {
+                    "authorId": "145400424",
+                    "name": "F\u00e1bio Petrillo"
+                },
+                {
+                    "authorId": "1718050",
+                    "name": "Yann-Ga\u00ebl Gu\u00e9h\u00e9neuc"
+                }
+            ],
+            "doi": "10.1109/AST52587.2021.00018",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "75b6aca9e7bf05988dc6c615ec4c9ae6418f7673",
+            "title": "A Survey of Video Game Testing",
+            "url": "https://www.semanticscholar.org/paper/75b6aca9e7bf05988dc6c615ec4c9ae6418f7673",
+            "venue": "2021 IEEE/ACM International Conference on Automation of Software Test (AST)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2009.02440",
+            "authors": [
+                {
+                    "authorId": "3404912",
+                    "name": "Cristiano Politowski"
+                },
+                {
+                    "authorId": "145400424",
+                    "name": "F\u00e1bio Petrillo"
+                },
+                {
+                    "authorId": "2074959603",
+                    "name": "G. Ullmann"
+                },
+                {
+                    "authorId": "31657462",
+                    "name": "Yann-Gael Gu'eh'eneuc"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2021.106538",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7bbcca5a652347fe6245b8ddf8014c66bc9c46b5",
+            "title": "Game Industry Problems: an Extensive Analysis on the Gray Literature",
+            "url": "https://www.semanticscholar.org/paper/7bbcca5a652347fe6245b8ddf8014c66bc9c46b5",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "119120016",
+                    "name": "Vartika Agrahari"
+                },
+                {
+                    "authorId": "1926332",
+                    "name": "S. Chimalakonda"
+                }
+            ],
+            "doi": "10.1145/3511430.3511436",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0932de6d731ff4376afa4802a67c729525b0cbdd",
+            "title": "A Catalogue of Game-Specific Anti-Patterns",
+            "url": "https://www.semanticscholar.org/paper/0932de6d731ff4376afa4802a67c729525b0cbdd",
+            "venue": "ISEC",
+            "year": 2020
+        },
+        {
+            "arxivId": "2006.13129",
+            "authors": [
+                {
+                    "authorId": "119120016",
+                    "name": "Vartika Agrahari"
+                },
+                {
+                    "authorId": "1926332",
+                    "name": "S. Chimalakonda"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c404d5b4434dd12bf4990de30f2d65dd560527d6",
+            "title": "A Catalogue of Game-Specific Software Nuggets",
+            "url": "https://www.semanticscholar.org/paper/c404d5b4434dd12bf4990de30f2d65dd560527d6",
+            "venue": "",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2074959603",
+                    "name": "G. Ullmann"
+                },
+                {
+                    "authorId": "3404912",
+                    "name": "Cristiano Politowski"
+                },
+                {
+                    "authorId": "145400424",
+                    "name": "F\u00e1bio Petrillo"
+                },
+                {
+                    "authorId": "31657462",
+                    "name": "Yann-Gael Gu'eh'eneuc"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "f302d9bc546081fd01a854dbf08e0b58941962d9",
+            "title": "Aspects of High-Rated Games",
+            "url": "https://www.semanticscholar.org/paper/f302d9bc546081fd01a854dbf08e0b58941962d9",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5437489",
+                    "name": "A. Anirudh"
+                },
+                {
+                    "authorId": null,
+                    "name": "Aman RAJ Singh"
+                },
+                {
+                    "authorId": "1387335996",
+                    "name": "Anjali Goyal"
+                },
+                {
+                    "authorId": "144746170",
+                    "name": "L. Kumar"
+                },
+                {
+                    "authorId": "144556074",
+                    "name": "N. B. Murthy"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c1e54b62783cf8403f6b0e1ca698c8c3b106cfb9",
+            "title": "Prediction of Video Game Development Problems Based on Postmortems using Different Word Embedding Techniques",
+            "url": "https://www.semanticscholar.org/paper/c1e54b62783cf8403f6b0e1ca698c8c3b106cfb9",
+            "venue": "ICON",
+            "year": 2021
+        }
+    ],
+    "corpusId": 209531742,
+    "doi": "10.1145/3379597.3387486",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 2,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 22,
+    "numCiting": 17,
+    "paperId": "11dbc5444ca1825cc5fdd7e6c117def8fd9708c7",
+    "references": [
+        {
+            "arxivId": "2009.02445",
+            "authors": [
+                {
+                    "authorId": "3404912",
+                    "name": "Cristiano Politowski"
+                },
+                {
+                    "authorId": "144407769",
+                    "name": "L. M. Fontoura"
+                },
+                {
+                    "authorId": "145400424",
+                    "name": "F\u00e1bio Petrillo"
+                },
+                {
+                    "authorId": "1718050",
+                    "name": "Yann-Ga\u00ebl Gu\u00e9h\u00e9neuc"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2018.04.003",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5f31b94a641d9763c6e994d76539f450cfd9cae8",
+            "title": "Learning from the past: A process recommendation system for video game projects using postmortems experiences",
+            "url": "https://www.semanticscholar.org/paper/5f31b94a641d9763c6e994d76539f450cfd9cae8",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8626524",
+                    "name": "Dayi Lin"
+                },
+                {
+                    "authorId": "1755660",
+                    "name": "C. Bezemer"
+                },
+                {
+                    "authorId": "144890499",
+                    "name": "A. Hassan"
+                }
+            ],
+            "doi": "10.1007/s10664-016-9480-2",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "86172f449ecd191de908df97035aa3bcf1cade80",
+            "title": "Studying the urgent updates of popular games on the Steam platform",
+            "url": "https://www.semanticscholar.org/paper/86172f449ecd191de908df97035aa3bcf1cade80",
+            "venue": "Empirical Software Engineering",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "91897706",
+                    "name": "Michael Washburn"
+                },
+                {
+                    "authorId": "2103019624",
+                    "name": "Pavithra Sathiyanarayanan"
+                },
+                {
+                    "authorId": "7274019",
+                    "name": "M. Nagappan"
+                },
+                {
+                    "authorId": "143609903",
+                    "name": "Thomas Zimmermann"
+                },
+                {
+                    "authorId": "145193818",
+                    "name": "C. Bird"
+                }
+            ],
+            "doi": "10.1145/2889160.2889253",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "17cbe2cf69be214e427cacc0c818c9cd81273453",
+            "title": "\"What Went Right and What Went Wrong\": An Analysis of 155 Postmortems from Game Development",
+            "url": "https://www.semanticscholar.org/paper/17cbe2cf69be214e427cacc0c818c9cd81273453",
+            "venue": "2016 IEEE/ACM 38th International Conference on Software Engineering Companion (ICSE-C)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2931632",
+                    "name": "Klaas-Jan Stol"
+                },
+                {
+                    "authorId": "144785030",
+                    "name": "P. Ralph"
+                },
+                {
+                    "authorId": "145623071",
+                    "name": "Brian Fitzgerald"
+                }
+            ],
+            "doi": "10.1145/2884781.2884833",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "8fe2f59ff3733f9ee50ffa295beda502f4e268e2",
+            "title": "Grounded Theory in Software Engineering Research: A Critical Review and Guidelines",
+            "url": "https://www.semanticscholar.org/paper/8fe2f59ff3733f9ee50ffa295beda502f4e268e2",
+            "venue": "2016 IEEE/ACM 38th International Conference on Software Engineering (ICSE)",
+            "year": 2016
+        },
+        {
+            "arxivId": "2009.02448",
+            "authors": [
+                {
+                    "authorId": "3404912",
+                    "name": "Cristiano Politowski"
+                },
+                {
+                    "authorId": "144407769",
+                    "name": "L. M. Fontoura"
+                },
+                {
+                    "authorId": "145400424",
+                    "name": "F\u00e1bio Petrillo"
+                },
+                {
+                    "authorId": "1718050",
+                    "name": "Yann-Ga\u00ebl Gu\u00e9h\u00e9neuc"
+                }
+            ],
+            "doi": "10.1145/2896958.2896960",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9b93816d773c50ac0bedf7be4b7eeff928f39d26",
+            "title": "Are the Old Days Gone? A Survey on Actual Software Engineering Processes in Video Game Industry",
+            "url": "https://www.semanticscholar.org/paper/9b93816d773c50ac0bedf7be4b7eeff928f39d26",
+            "venue": "2016 IEEE/ACM 5th International Workshop on Games and Software Engineering (GAS)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48516775",
+                    "name": "Chris Lewis"
+                },
+                {
+                    "authorId": "104112572",
+                    "name": "J. Whitehead"
+                }
+            ],
+            "doi": "10.1145/1984674.1984676",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "211a8a109f5d5d54bd8d8b9f76083db87d893e11",
+            "title": "The whats and the whys of games and software engineering",
+            "url": "https://www.semanticscholar.org/paper/211a8a109f5d5d54bd8d8b9f76083db87d893e11",
+            "venue": "GAS '11",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2150342",
+                    "name": "Christopher M. Kanode"
+                },
+                {
+                    "authorId": "2048863",
+                    "name": "Hisham M. Haddad"
+                }
+            ],
+            "doi": "10.1109/ITNG.2009.74",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3b1228cee8e74fa231ad730c405bc1b1e1cc174f",
+            "title": "Software Engineering Challenges in Game Development",
+            "url": "https://www.semanticscholar.org/paper/3b1228cee8e74fa231ad730c405bc1b1e1cc174f",
+            "venue": "2009 Sixth International Conference on Information Technology: New Generations",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145400424",
+                    "name": "F\u00e1bio Petrillo"
+                },
+                {
+                    "authorId": "48065095",
+                    "name": "M. Pimenta"
+                },
+                {
+                    "authorId": "143803985",
+                    "name": "Francisco M. Trindade"
+                },
+                {
+                    "authorId": "34913932",
+                    "name": "Carlos Dietrich"
+                }
+            ],
+            "doi": "10.1145/1486508.1486521",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "07e4bd750da8e0aa8cf2fbc3832711189a28c852",
+            "title": "What went wrong? A survey of problems in game development",
+            "url": "https://www.semanticscholar.org/paper/07e4bd750da8e0aa8cf2fbc3832711189a28c852",
+            "venue": "CIE",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2779240",
+                    "name": "David Callele"
+                },
+                {
+                    "authorId": "32487012",
+                    "name": "E. Neufeld"
+                },
+                {
+                    "authorId": "38558513",
+                    "name": "Kevin A. Schneider"
+                }
+            ],
+            "doi": "10.1109/RE.2005.58",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "581ecbc1ddb9fcca0dea659b356f76db7bc03775",
+            "title": "Requirements engineering and the creative process in the video game industry",
+            "url": "https://www.semanticscholar.org/paper/581ecbc1ddb9fcca0dea659b356f76db7bc03775",
+            "venue": "13th IEEE International Conference on Requirements Engineering (RE'05)",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49336101",
+                    "name": "T. Tschang"
+                }
+            ],
+            "doi": "10.1142/S1363919605001198",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "481bbf14b85a7e34db43f5ec7571d2b0ec39cb1b",
+            "title": "VIDEOGAMES AS INTERACTIVE EXPERIENTIAL PRODUCTS AND THEIR MANNER OF DEVELOPMENT",
+            "url": "https://www.semanticscholar.org/paper/481bbf14b85a7e34db43f5ec7571d2b0ec39cb1b",
+            "venue": "",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "88102531",
+                    "name": "John d. Blow"
+                }
+            ],
+            "doi": "10.1145/971564.971590",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "e6851559a93c5683280ef783ccc5baba68c493b8",
+            "title": "Game Development: Harder Than You Think",
+            "url": "https://www.semanticscholar.org/paper/e6851559a93c5683280ef783ccc5baba68c493b8",
+            "venue": "ACM Queue",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "119447553",
+                    "name": "Jeffrey S. Raskin"
+                }
+            ],
+            "doi": "10.1145/945131.945161",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "16fe5a473a7e1d0f91bef418a4b0c97ae466049c",
+            "title": "User Interface Designers, Slaves of Fashion",
+            "url": "https://www.semanticscholar.org/paper/16fe5a473a7e1d0f91bef418a4b0c97ae466049c",
+            "venue": "ACM Queue",
+            "year": 2003
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2019 Global Games Market Report",
+            "url": "",
+            "venue": ":/",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Blood, Sweat, and Pixels: The Triumphant, Turbulent Stories Behind How Video Games Are Made",
+            "url": "",
+            "venue": "",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Dissecting The Postmortem: Lessons Learned From Two Years Of Game Development Self-Reportage",
+            "url": "",
+            "venue": "",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Software engineering challengesingamedevelopment,In2009SixthInternationalConferenceonInfor-mation Technology: New Generations",
+            "url": "",
+            "venue": "ITNG 2009 - 6 th International Conference on Information Technology: New Generations",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "There are many examples of successful indie games, one of them is \u201cStardew Valley\u201d, written by a single developer in the span of four years, which made him millionaire in one day after launch",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "Dataset of Video Game Development Problems",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/11dbc5444ca1825cc5fdd7e6c117def8fd9708c7",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2020
+}

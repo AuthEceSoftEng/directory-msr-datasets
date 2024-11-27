@@ -1,0 +1,998 @@
+{
+    "abstract": "Dataflow diagrams (DFDs) are useful resources in securing applications since they show a software system\u2019s architecture and allow assessing architectural security and weaknesses. Enriching them with annotations about implemented security features further strengthens this ability. This is especially true for microservice applications, as their most pressing security concerns stem from their separation into multiple services. Researchers need data to work on these issues and enhance microservices\u2019 architectural security. In this work, we present microSecEnD, a dataset of 17 manually created DFDs that are extensively annotated with information on implemented security features. We provide traceability for all model items. Further, a mapping to a list of 17 architectural security best-practices is provided. Finally, for each best-practice that an application violates, we present a model variant that does adhere to it.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2067750134",
+            "name": "S. Schneider",
+            "url": "https://www.semanticscholar.org/author/2067750134"
+        },
+        {
+            "authorId": "2223127584",
+            "name": "Tufan \u00d6zen",
+            "url": "https://www.semanticscholar.org/author/2223127584"
+        },
+        {
+            "authorId": "2223356689",
+            "name": "Michael Chen",
+            "url": "https://www.semanticscholar.org/author/2223356689"
+        },
+        {
+            "authorId": "1723601",
+            "name": "R. Scandariato",
+            "url": "https://www.semanticscholar.org/author/1723601"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2405.05541",
+            "authors": [
+                {
+                    "authorId": "2300370621",
+                    "name": "Philip Oliver"
+                },
+                {
+                    "authorId": "2300371031",
+                    "name": "Jens Dietrich"
+                },
+                {
+                    "authorId": "1741672",
+                    "name": "C. Anslow"
+                },
+                {
+                    "authorId": "2239110364",
+                    "name": "Michael Homer"
+                }
+            ],
+            "doi": "10.1145/3643991.3644912",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "aee4ae2631ef612458fead210ce214b3ffb1d6dd",
+            "title": "CrashJS: A NodeJS Benchmark for Automated Crash Reproduction",
+            "url": "https://www.semanticscholar.org/paper/aee4ae2631ef612458fead210ce214b3ffb1d6dd",
+            "venue": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2171106698",
+                    "name": "Dario Amoroso d'Aragona"
+                },
+                {
+                    "authorId": "2139609649",
+                    "name": "Alexander Bakhtin"
+                },
+                {
+                    "authorId": "2238406368",
+                    "name": "Xiaozhou Li"
+                },
+                {
+                    "authorId": "2275151927",
+                    "name": "Ruoyu Su"
+                },
+                {
+                    "authorId": "2307280889",
+                    "name": "Lauren Adams"
+                },
+                {
+                    "authorId": "2275357684",
+                    "name": "Ernesto Aponte"
+                },
+                {
+                    "authorId": "2307283878",
+                    "name": "Francis Boyle"
+                },
+                {
+                    "authorId": "2307283525",
+                    "name": "Patrick Boyle"
+                },
+                {
+                    "authorId": "2275357676",
+                    "name": "Rachel Koerner"
+                },
+                {
+                    "authorId": "2275280966",
+                    "name": "Joseph Lee"
+                },
+                {
+                    "authorId": "2307281126",
+                    "name": "Fangchao Tian"
+                },
+                {
+                    "authorId": "2267384942",
+                    "name": "Yuqing Wang"
+                },
+                {
+                    "authorId": "2181062814",
+                    "name": "Jesse Nyyss\u00f6l\u00e4"
+                },
+                {
+                    "authorId": "2264242791",
+                    "name": "Ernesto Quevedo"
+                },
+                {
+                    "authorId": "2307283285",
+                    "name": "Shahidur Md Rahaman"
+                },
+                {
+                    "authorId": "40592899",
+                    "name": "Amr S. Abdelfattah"
+                },
+                {
+                    "authorId": "2265551913",
+                    "name": "Mika M\u00e4ntyl\u00e4"
+                },
+                {
+                    "authorId": "2237988208",
+                    "name": "Tom\u00e1s Cern\u00fd"
+                },
+                {
+                    "authorId": "2242643367",
+                    "name": "Davide Taibi"
+                }
+            ],
+            "doi": "10.1145/3643991.3644890",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "4b2002430209d4dc7cda90ab79d6dc041a2d6b30",
+            "title": "A Dataset of Microservices-based Open-Source Projects",
+            "url": "https://www.semanticscholar.org/paper/4b2002430209d4dc7cda90ab79d6dc041a2d6b30",
+            "venue": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2403.09402",
+            "authors": [
+                {
+                    "authorId": "2003025153",
+                    "name": "Nicolas Boltz"
+                },
+                {
+                    "authorId": "2019964914",
+                    "name": "Sebastian Hahner"
+                },
+                {
+                    "authorId": "1815420",
+                    "name": "Christopher Gerking"
+                },
+                {
+                    "authorId": "2238220698",
+                    "name": "Robert Heinrich"
+                }
+            ],
+            "doi": "10.48550/arXiv.2403.09402",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "5edc8e9f6fc9281780d4101ecd4535ea5177ef5e",
+            "title": "An Extensible Framework for Architecture-Based Data Flow Analysis for Information Security",
+            "url": "https://www.semanticscholar.org/paper/5edc8e9f6fc9281780d4101ecd4535ea5177ef5e",
+            "venue": "ECSA",
+            "year": 2024
+        },
+        {
+            "arxivId": "2403.06941",
+            "authors": [
+                {
+                    "authorId": "2278796527",
+                    "name": "Simon Schneider"
+                },
+                {
+                    "authorId": "2139609649",
+                    "name": "Alexander Bakhtin"
+                },
+                {
+                    "authorId": "2238406368",
+                    "name": "Xiaozhou Li"
+                },
+                {
+                    "authorId": "2265546",
+                    "name": "J. Soldani"
+                },
+                {
+                    "authorId": "2268969664",
+                    "name": "Antonio Brogi"
+                },
+                {
+                    "authorId": "2237988208",
+                    "name": "Tom\u00e1s Cern\u00fd"
+                },
+                {
+                    "authorId": "2278794889",
+                    "name": "Riccardo Scandariato"
+                },
+                {
+                    "authorId": "2242643367",
+                    "name": "Davide Taibi"
+                }
+            ],
+            "doi": "10.48550/arXiv.2403.06941",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "387302627b81a9143761cf4be89381bd4477050f",
+            "title": "Comparison of Static Analysis Architecture Recovery Tools for Microservice Applications",
+            "url": "https://www.semanticscholar.org/paper/387302627b81a9143761cf4be89381bd4477050f",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": "2401.09838",
+            "authors": [
+                {
+                    "authorId": "9728897",
+                    "name": "Clinton Cao"
+                },
+                {
+                    "authorId": "2278796527",
+                    "name": "Simon Schneider"
+                },
+                {
+                    "authorId": "2278790365",
+                    "name": "Nicol'as E. D'iaz Ferreyra"
+                },
+                {
+                    "authorId": "1682757",
+                    "name": "S. Verwer"
+                },
+                {
+                    "authorId": "3013302",
+                    "name": "Annibale Panichella"
+                },
+                {
+                    "authorId": "2278794889",
+                    "name": "Riccardo Scandariato"
+                }
+            ],
+            "doi": "10.1145/3639478.3640022",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "227871386d46f0acbd07d623eeb2c23d93b04512",
+            "title": "CATMA: Conformance Analysis Tool For Microservice Applications",
+            "url": "https://www.semanticscholar.org/paper/227871386d46f0acbd07d623eeb2c23d93b04512",
+            "venue": "2024 IEEE/ACM 46th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2401.04446",
+            "authors": [
+                {
+                    "authorId": "2278796527",
+                    "name": "Simon Schneider"
+                },
+                {
+                    "authorId": "2278790365",
+                    "name": "Nicol'as E. D'iaz Ferreyra"
+                },
+                {
+                    "authorId": "2278790760",
+                    "name": "Pierre-Jean Qu'eval"
+                },
+                {
+                    "authorId": "41036621",
+                    "name": "Georg Simhandl"
+                },
+                {
+                    "authorId": "1741807",
+                    "name": "Uwe Zdun"
+                },
+                {
+                    "authorId": "2278794889",
+                    "name": "Riccardo Scandariato"
+                }
+            ],
+            "doi": "10.1109/SANER60148.2024.00103",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0159c224ebf8d3d0f61327d12467a82a84f61987",
+            "title": "How Dataflow Diagrams Impact Software Security Analysis: an Empirical Experiment",
+            "url": "https://www.semanticscholar.org/paper/0159c224ebf8d3d0f61327d12467a82a84f61987",
+            "venue": "2024 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2304.12769",
+            "authors": [
+                {
+                    "authorId": "2067750134",
+                    "name": "S. Schneider"
+                },
+                {
+                    "authorId": "1723601",
+                    "name": "R. Scandariato"
+                }
+            ],
+            "doi": "10.1016/j.jss.2023.111722",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "eb483312fd529a1ba5e4a812b18e151a1474279e",
+            "title": "Automatic Extraction of Security-Rich Dataflow Diagrams for Microservice Applications written in Java",
+            "url": "https://www.semanticscholar.org/paper/eb483312fd529a1ba5e4a812b18e151a1474279e",
+            "venue": "J. Syst. Softw.",
+            "year": 2023
+        }
+    ],
+    "corpusId": 259835537,
+    "doi": "10.1109/MSR59073.2023.00030",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 7,
+    "numCiting": 31,
+    "paperId": "daf23f97bdbacf4092f495bbd79b5f40d42a628b",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2152225908",
+                    "name": "Anusha Bambhore Tukaram"
+                },
+                {
+                    "authorId": "2067750134",
+                    "name": "S. Schneider"
+                },
+                {
+                    "authorId": "3370607",
+                    "name": "N. E. D. Ferreyra"
+                },
+                {
+                    "authorId": "41036621",
+                    "name": "Georg Simhandl"
+                },
+                {
+                    "authorId": "1741807",
+                    "name": "Uwe Zdun"
+                },
+                {
+                    "authorId": "1723601",
+                    "name": "R. Scandariato"
+                }
+            ],
+            "doi": "10.1145/3538969.3543807",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "7d56d49fdf1b94b5a16986d43493bb310d38c7b3",
+            "title": "Towards a Security Benchmark for the Architectural Design of Microservice Applications",
+            "url": "https://www.semanticscholar.org/paper/7d56d49fdf1b94b5a16986d43493bb310d38c7b3",
+            "venue": "ARES",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145140289",
+                    "name": "Anelis Pereira Vale"
+                },
+                {
+                    "authorId": "1745901",
+                    "name": "E. Fern\u00e1ndez"
+                },
+                {
+                    "authorId": "2071461430",
+                    "name": "R. Monge"
+                },
+                {
+                    "authorId": "145337114",
+                    "name": "H. Astudillo"
+                },
+                {
+                    "authorId": "50812004",
+                    "name": "Gast\u00f3n M\u00e1rquez"
+                }
+            ],
+            "doi": "10.1016/j.cose.2021.102200",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8c34bfc8ac3f4b84cb7e89af07ba14d604e0d8b4",
+            "title": "Security in microservice-based systems: A Multivocal literature review",
+            "url": "https://www.semanticscholar.org/paper/8c34bfc8ac3f4b84cb7e89af07ba14d604e0d8b4",
+            "venue": "Comput. Secur.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2003.07262",
+            "authors": [
+                {
+                    "authorId": "2218286",
+                    "name": "Abdelhakim Hannousse"
+                },
+                {
+                    "authorId": "1565487461",
+                    "name": "Salima Yahiouche"
+                }
+            ],
+            "doi": "10.1016/j.cosrev.2021.100415",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "274ec10c6bd368bf9463f1d080cb94361b84599a",
+            "title": "Securing Microservices and Microservice Architectures: A Systematic Mapping Study",
+            "url": "https://www.semanticscholar.org/paper/274ec10c6bd368bf9463f1d080cb94361b84599a",
+            "venue": "Comput. Sci. Rev.",
+            "year": 2020
+        },
+        {
+            "arxivId": "1909.03249",
+            "authors": [
+                {
+                    "authorId": "1387909016",
+                    "name": "Mohammad Imranur Rahman"
+                },
+                {
+                    "authorId": "3117169",
+                    "name": "Sebastiano Panichella"
+                },
+                {
+                    "authorId": "1766982",
+                    "name": "D. Taibi"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8c55b9259eec94bddda8bbebd524de84c9883253",
+            "title": "A curated Dataset of Microservices-Based Systems",
+            "url": "https://www.semanticscholar.org/paper/8c55b9259eec94bddda8bbebd524de84c9883253",
+            "venue": "ArXiv",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2155444719",
+                    "name": "Xing Li"
+                },
+                {
+                    "authorId": "2048685606",
+                    "name": "Yan Chen"
+                },
+                {
+                    "authorId": "34472423",
+                    "name": "Zhiqiang Lin"
+                }
+            ],
+            "doi": "10.1145/3342280.3342288",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a4d3ddbc6ffc57a32a08fa7266ea4cc51a36d050",
+            "title": "Towards Automated Inter-Service Authorization for Microservice Applications",
+            "url": "https://www.semanticscholar.org/paper/a4d3ddbc6ffc57a32a08fa7266ea4cc51a36d050",
+            "venue": "SIGCOMM Posters and Demos",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47824217",
+                    "name": "Katja Tuma"
+                },
+                {
+                    "authorId": "1723601",
+                    "name": "R. Scandariato"
+                },
+                {
+                    "authorId": "2190423",
+                    "name": "Musard Balliu"
+                }
+            ],
+            "doi": "10.1109/ICSA.2019.00028",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1246ff362a4c3de61e87a10032d9a030ed9d8077",
+            "title": "Flaws in Flows: Unveiling Design Flaws via Information Flow Analysis",
+            "url": "https://www.semanticscholar.org/paper/1246ff362a4c3de61e87a10032d9a030ed9d8077",
+            "venue": "2019 IEEE International Conference on Software Architecture (ICSA)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50812004",
+                    "name": "Gast\u00f3n M\u00e1rquez"
+                },
+                {
+                    "authorId": "145337114",
+                    "name": "H. Astudillo"
+                }
+            ],
+            "doi": "10.1109/APSEC.2018.00017",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "bfe50cc74e1efd8ac2cf814e36fc869dec3a7248",
+            "title": "Actual Use of Architectural Patterns in Microservices-Based Open Source Projects",
+            "url": "https://www.semanticscholar.org/paper/bfe50cc74e1efd8ac2cf814e36fc869dec3a7248",
+            "venue": "2018 25th Asia-Pacific Software Engineering Conference (APSEC)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8223978",
+                    "name": "Martin Kleehaus"
+                },
+                {
+                    "authorId": "51924432",
+                    "name": "\u00d6mer Uluda\u011f"
+                },
+                {
+                    "authorId": "152351508",
+                    "name": "Patrick Sch\u00e4fer"
+                },
+                {
+                    "authorId": "2522197",
+                    "name": "F. Matthes"
+                }
+            ],
+            "doi": "10.1007/978-3-319-92901-9_14",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c6c3ba11053d4ac0effd03781748b5a050820c00",
+            "title": "MICROLYZE: A Framework for Recovering the Software Architecture in Microservice-Based Environments",
+            "url": "https://www.semanticscholar.org/paper/c6c3ba11053d4ac0effd03781748b5a050820c00",
+            "venue": "CAiSE Forum",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "31948108",
+                    "name": "Pooyan Jamshidi"
+                },
+                {
+                    "authorId": "8516149",
+                    "name": "C. Pahl"
+                },
+                {
+                    "authorId": "2280971",
+                    "name": "N. Mendon\u00e7a"
+                },
+                {
+                    "authorId": "2109241500",
+                    "name": "James Lewis"
+                },
+                {
+                    "authorId": "2268917",
+                    "name": "Stefan Tilkov"
+                }
+            ],
+            "doi": "10.1109/MS.2018.2141039",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c3320daa1e96a820975830b2c5f6d8209bbf1389",
+            "title": "Microservices: The Journey So Far and Challenges Ahead",
+            "url": "https://www.semanticscholar.org/paper/c3320daa1e96a820975830b2c5f6d8209bbf1389",
+            "venue": "IEEE Softw.",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "7180087",
+                    "name": "Nuha Alshuqayran"
+                },
+                {
+                    "authorId": "144092156",
+                    "name": "Nour Ali"
+                },
+                {
+                    "authorId": "2115604165",
+                    "name": "R. Evans"
+                }
+            ],
+            "doi": "10.1109/ICSA.2018.00014",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7a67b37f9ecf10ec262ef935ccc7317be918529a",
+            "title": "Towards Micro Service Architecture Recovery: An Empirical Study",
+            "url": "https://www.semanticscholar.org/paper/7a67b37f9ecf10ec262ef935ccc7317be918529a",
+            "venue": "2018 IEEE International Conference on Software Architecture (ICSA)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3045650",
+                    "name": "Laurens Sion"
+                },
+                {
+                    "authorId": "2211794",
+                    "name": "Dimitri Van Landuyt"
+                },
+                {
+                    "authorId": "2770872",
+                    "name": "Koen Yskout"
+                },
+                {
+                    "authorId": "1752104",
+                    "name": "W. Joosen"
+                }
+            ],
+            "doi": "10.1109/ICSA-C.2018.00032",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c223b8a2a8dcc193d4426c9ab5d05de2262d447e",
+            "title": "SPARTA: Security & Privacy Architecture Through Risk-Driven Threat Assessment",
+            "url": "https://www.semanticscholar.org/paper/c223b8a2a8dcc193d4426c9ab5d05de2262d447e",
+            "venue": "2018 IEEE International Conference on Software Architecture Companion (ICSA-C)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "18118448",
+                    "name": "T. Yarygina"
+                },
+                {
+                    "authorId": "1765289",
+                    "name": "A. H. Bagge"
+                }
+            ],
+            "doi": "10.1109/SOSE.2018.00011",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f5eeacec4b4a19e60b6fc187dc08aca12dd13625",
+            "title": "Overcoming Security Challenges in Microservice Architectures",
+            "url": "https://www.semanticscholar.org/paper/f5eeacec4b4a19e60b6fc187dc08aca12dd13625",
+            "venue": "2018 IEEE Symposium on Service-Oriented System Engineering (SOSE)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144313209",
+                    "name": "R. Chen"
+                },
+                {
+                    "authorId": "2119028371",
+                    "name": "Shanshan Li"
+                },
+                {
+                    "authorId": "2146248387",
+                    "name": "Zheng Li"
+                }
+            ],
+            "doi": "10.1109/APSEC.2017.53",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5bcda95f64d9f8ddc9abb31ed6b18dbf66db2077",
+            "title": "From Monolith to Microservices: A Dataflow-Driven Approach",
+            "url": "https://www.semanticscholar.org/paper/5bcda95f64d9f8ddc9abb31ed6b18dbf66db2077",
+            "venue": "2017 24th Asia-Pacific Software Engineering Conference (APSEC)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "14777662",
+                    "name": "Bernhard J. Berger"
+                },
+                {
+                    "authorId": "1786703",
+                    "name": "K. Sohr"
+                },
+                {
+                    "authorId": "1704279",
+                    "name": "R. Koschke"
+                }
+            ],
+            "doi": "10.1007/978-3-319-30806-7_4",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "00bd02d0c427de4f6bd52064501e357403b29ab5",
+            "title": "Automatically Extracting Threats from Extended Data Flow Diagrams",
+            "url": "https://www.semanticscholar.org/paper/00bd02d0c427de4f6bd52064501e357403b29ab5",
+            "venue": "ESSoS",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1398154021",
+                    "name": "Marwan Abi-Antoun"
+                },
+                {
+                    "authorId": "65814526",
+                    "name": "Daniel Wang"
+                },
+                {
+                    "authorId": "2105908635",
+                    "name": "Peter Torr"
+                }
+            ],
+            "doi": "10.1145/1321631.1321692",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b1ef84599ca7a255bbf98822e25970d69ad49dac",
+            "title": "Checking threat modeling data flow diagrams for implementation conformance and security",
+            "url": "https://www.semanticscholar.org/paper/b1ef84599ca7a255bbf98822e25970d69ad49dac",
+            "venue": "ASE",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "The state of developer ecosystem 2022",
+            "url": "",
+            "venue": "JetBrains, Tech. Rep., 2022, accessed on 24.01.2023. [Online]. Available: https://www.jetbrains.com/lp/devecosystem-2022/microservices/",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2022 java developer productivity report",
+            "url": "",
+            "venue": "JRebel, Tech. Rep., 2022, accessed on 24.01.2023. [Online]. Available: https://www.jrebel.com/resources/java-developerproductivity-report-2022",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3423026",
+                    "name": "S\u00e9bastien Mosser"
+                },
+                {
+                    "authorId": "1997969578",
+                    "name": "J. Caissy"
+                },
+                {
+                    "authorId": "2037397337",
+                    "name": "Florian Juroszek"
+                },
+                {
+                    "authorId": "2037402412",
+                    "name": "Florian Vouters"
+                },
+                {
+                    "authorId": "2420979",
+                    "name": "Naouel Moha"
+                }
+            ],
+            "doi": "10.1007/978-3-030-65310-1_3",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1effaea80bfa51eb2c8673f67f235124c121b81e",
+            "title": "Charting Microservices to Support Services' Developers: The Anaximander Approach",
+            "url": "https://www.semanticscholar.org/paper/1effaea80bfa51eb2c8673f67f235124c121b81e",
+            "venue": "ICSOC",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Microsoft threat modeling tool 2016",
+            "url": "",
+            "venue": "2016. [Online]. Available: https://www.microsoft.com/enus/download/details.aspx?id=49168",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "R6 A limit for the maximum number of login attempts before preventive measures are taken should exist",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "R9 A central logging subsystem which includes a monitoring dashboard should exist",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Dataset of models for 17 Java microservice applications. Zenodo, 2022",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "R13 A circuit breaker should be used at the proxy",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "R3 Authorization and authentication processes should be decoupled from other services and should be implemented at platform level to enable reuse by different services",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "R8 All communication between the services should be encrypted using secure communication protocols",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "R16 Service registry services should be deployed on dedicated servers or as part of a service mesh architecture",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "R17 Service registry services should have validation checks to ensure that only legitimate services are performing the registration, refresh operations, and database queries to discover services",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "R11 The local logging agent should sanitize the log data and remove any PII, passwords, API keys, etc",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "R14 The API gateway should perform load balancing",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "R2 Services should mutually authenticate and authorize requests from other services",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "R4 All the external entity identity representations should be transformed into an extendable internal identity representation",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "microSecEnD: A Dataset of Security-Enriched Dataflow Diagrams for Microservice Applications",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/daf23f97bdbacf4092f495bbd79b5f40d42a628b",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2023
+}

@@ -1,0 +1,863 @@
+{
+    "abstract": "Software package managers facilitate reuse and rapid construction of software systems. Since evermore software is distributed via package managers, researchers and practitioners require explicit data of software dependency networks that are opaquely formed by dependency relations between software packages. To reason about increasingly complex software products and ecosystems, researchers and practitioners rely either on publicly available datasets like the seemingly unattended libraries.io [14] or they mine problem-specific data from software ecosystems repeatedly and non-transparently. Therefore, we present the DaSEA dataset, which contains metadata of software packages, their versions, and dependencies from multiple ecosystems (currently six programming languages and five operating system package managers). Alongside the dataset, we provide an extensible open-source tool under the same name that is used to create updated versions of the DaSEA dataset allowing studies of evolution of software ecosystems.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2169797188",
+            "name": "Petya Buchkova",
+            "url": "https://www.semanticscholar.org/author/2169797188"
+        },
+        {
+            "authorId": "2172226258",
+            "name": "Joakim Hey Hinnerskov",
+            "url": "https://www.semanticscholar.org/author/2172226258"
+        },
+        {
+            "authorId": "2172072022",
+            "name": "Kasper Olsen",
+            "url": "https://www.semanticscholar.org/author/2172072022"
+        },
+        {
+            "authorId": "20760893",
+            "name": "R. Pfeiffer",
+            "url": "https://www.semanticscholar.org/author/20760893"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2300649238",
+                    "name": "Moming Duan"
+                },
+                {
+                    "authorId": "92621060",
+                    "name": "Q. Li"
+                },
+                {
+                    "authorId": "2082463717",
+                    "name": "Bingsheng He"
+                }
+            ],
+            "doi": "10.1145/3589334.3645520",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7fd33765b0eb21c58b57feefb29ce86b205f6394",
+            "title": "ModelGo: A Practical Tool for Machine Learning License Analysis",
+            "url": "https://www.semanticscholar.org/paper/7fd33765b0eb21c58b57feefb29ce86b205f6394",
+            "venue": "WWW",
+            "year": 2024
+        },
+        {
+            "arxivId": "2308.12545",
+            "authors": [
+                {
+                    "authorId": "2197066999",
+                    "name": "Donald Pinckney"
+                },
+                {
+                    "authorId": "2197063831",
+                    "name": "Federico Cassano"
+                },
+                {
+                    "authorId": "2100712",
+                    "name": "Arjun Guha"
+                },
+                {
+                    "authorId": "2115025755",
+                    "name": "Jonathan Bell"
+                }
+            ],
+            "doi": "10.1145/3611643.3613094",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "be5d25b8be30e2de14eec35d9e68bd04832e0760",
+            "title": "npm-follower: A Complete Dataset Tracking the NPM Ecosystem",
+            "url": "https://www.semanticscholar.org/paper/be5d25b8be30e2de14eec35d9e68bd04832e0760",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2023
+        }
+    ],
+    "corpusId": 249579823,
+    "doi": "10.1145/3524842.3528004",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 1,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 2,
+    "numCiting": 29,
+    "paperId": "9824474967c7a32356fda29ae2ba49ed1da47152",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "20760893",
+                    "name": "R. Pfeiffer"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00017",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "9f5712acff98126b0671ca801affc34077b0dff8",
+            "title": "Identifying Critical Projects via PageRank and Truck Factor",
+            "url": "https://www.semanticscholar.org/paper/9f5712acff98126b0671ca801affc34077b0dff8",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "35899298",
+                    "name": "Gede Artha Azriadi Prana"
+                },
+                {
+                    "authorId": "1753692164",
+                    "name": "Abhishek Sharma"
+                },
+                {
+                    "authorId": "1752735",
+                    "name": "Lwin Khin Shar"
+                },
+                {
+                    "authorId": "51510084",
+                    "name": "Darius Foo"
+                },
+                {
+                    "authorId": "1794252",
+                    "name": "A. Santosa"
+                },
+                {
+                    "authorId": "39117273",
+                    "name": "Asankhaya Sharma"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                }
+            ],
+            "doi": "10.1007/s10664-021-09959-3",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "831e5f90ae9ad6e986f54e6a48d243b9bb7f6118",
+            "title": "Out of sight, out of mind? How vulnerable dependencies affect open-source projects",
+            "url": "https://www.semanticscholar.org/paper/831e5f90ae9ad6e986f54e6a48d243b9bb7f6118",
+            "venue": "Empirical Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "153802805",
+                    "name": "Jacob Stringer"
+                },
+                {
+                    "authorId": "2494905",
+                    "name": "Amjed Tahir"
+                },
+                {
+                    "authorId": "1715864",
+                    "name": "Kelly Blincoe"
+                },
+                {
+                    "authorId": "144212658",
+                    "name": "Jens Dietrich"
+                }
+            ],
+            "doi": "10.1109/APSEC51365.2020.00031",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "021d6dc510cfada680ac29a51b8e206b95e5fefe",
+            "title": "Technical Lag of Dependencies in Major Package Managers",
+            "url": "https://www.semanticscholar.org/paper/021d6dc510cfada680ac29a51b8e206b95e5fefe",
+            "venue": "2020 27th Asia-Pacific Software Engineering Conference (APSEC)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2154809",
+                    "name": "Rabe Abdalkareem"
+                },
+                {
+                    "authorId": "1481766276",
+                    "name": "Vinicius Oda"
+                },
+                {
+                    "authorId": "19281977",
+                    "name": "Suhaib Mujahid"
+                },
+                {
+                    "authorId": "3318024",
+                    "name": "Emad Shihab"
+                }
+            ],
+            "doi": "10.1007/s10664-019-09792-9",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1f676ac2d78537680ba926f60d6d97bc1180d6c5",
+            "title": "On the impact of using trivial packages: an empirical case study on npm and PyPI",
+            "url": "https://www.semanticscholar.org/paper/1f676ac2d78537680ba926f60d6d97bc1180d6c5",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "13546149",
+                    "name": "M. Golzadeh"
+                }
+            ],
+            "doi": "10.1145/3338906.3342497",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "11988cabfd93a3451ec6d941cbd284b9e990de2f",
+            "title": "Analysing socio-technical congruence in the package dependency network of Cargo",
+            "url": "https://www.semanticscholar.org/paper/11988cabfd93a3451ec6d941cbd284b9e990de2f",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144212658",
+                    "name": "Jens Dietrich"
+                },
+                {
+                    "authorId": "1753053",
+                    "name": "David J. Pearce"
+                },
+                {
+                    "authorId": "153802805",
+                    "name": "Jacob Stringer"
+                },
+                {
+                    "authorId": "2494905",
+                    "name": "Amjed Tahir"
+                },
+                {
+                    "authorId": "1715864",
+                    "name": "Kelly Blincoe"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00061",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "402cb813e212df02c69c1ddecfd89976f7980fcb",
+            "title": "Dependency Versioning in the Wild",
+            "url": "https://www.semanticscholar.org/paper/402cb813e212df02c69c1ddecfd89976f7980fcb",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "114748393",
+                    "name": "Antoine Pietri"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                },
+                {
+                    "authorId": "1682225",
+                    "name": "Stefano Zacchiroli"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00030",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2f7e2700f241ca48b43c559583dd60ea47c59e43",
+            "title": "The Software Heritage Graph Dataset: Public Software Development Under One Roof",
+            "url": "https://www.semanticscholar.org/paper/2f7e2700f241ca48b43c559583dd60ea47c59e43",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": "1901.04217",
+            "authors": [
+                {
+                    "authorId": "37129683",
+                    "name": "Ahmed Zerouali"
+                },
+                {
+                    "authorId": "1794675",
+                    "name": "T. Mens"
+                },
+                {
+                    "authorId": "143684601",
+                    "name": "G. Robles"
+                },
+                {
+                    "authorId": "1397826059",
+                    "name": "Jesus M. Gonzalez-Barahona"
+                }
+            ],
+            "doi": "10.1109/SANER.2019.8667997",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7a71bfcc4ccc1080b3392c953079bf1211eaec8d",
+            "title": "On the Diversity of Software Package Popularity Metrics: An Empirical Study of npm",
+            "url": "https://www.semanticscholar.org/paper/7a71bfcc4ccc1080b3392c953079bf1211eaec8d",
+            "venue": "2019 IEEE 26th International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2019
+        },
+        {
+            "arxivId": "1806.01545",
+            "authors": [
+                {
+                    "authorId": "2794053",
+                    "name": "Alexandre Decan"
+                },
+                {
+                    "authorId": "1794675",
+                    "name": "T. Mens"
+                },
+                {
+                    "authorId": "2970508",
+                    "name": "Eleni Constantinou"
+                }
+            ],
+            "doi": "10.1109/ICSME.2018.00050",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9d2901635003af975aa96a0071a9c387446fb23c",
+            "title": "On the Evolution of Technical Lag in the npm Package Dependency Network",
+            "url": "https://www.semanticscholar.org/paper/9d2901635003af975aa96a0071a9c387446fb23c",
+            "venue": "2018 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2794053",
+                    "name": "Alexandre Decan"
+                },
+                {
+                    "authorId": "1794675",
+                    "name": "T. Mens"
+                },
+                {
+                    "authorId": "2970508",
+                    "name": "Eleni Constantinou"
+                }
+            ],
+            "doi": "10.1145/3196398.3196401",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "211e923e1f80d29d7c3cac8aba249f5d7da3dd3e",
+            "title": "On the Impact of Security Vulnerabilities in the npm Package Dependency Network",
+            "url": "https://www.semanticscholar.org/paper/211e923e1f80d29d7c3cac8aba249f5d7da3dd3e",
+            "venue": "2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "37129683",
+                    "name": "Ahmed Zerouali"
+                },
+                {
+                    "authorId": "2970508",
+                    "name": "Eleni Constantinou"
+                },
+                {
+                    "authorId": "1794675",
+                    "name": "T. Mens"
+                },
+                {
+                    "authorId": "143684601",
+                    "name": "G. Robles"
+                },
+                {
+                    "authorId": "1397826059",
+                    "name": "Jesus M. Gonzalez-Barahona"
+                }
+            ],
+            "doi": "10.1007/978-3-319-90421-4_6",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c26422ace7bd6c78efb7626ee05bc987b81d1c2a",
+            "title": "An Empirical Analysis of Technical Lag in npm Package Dependencies",
+            "url": "https://www.semanticscholar.org/paper/c26422ace7bd6c78efb7626ee05bc987b81d1c2a",
+            "venue": "ICSR",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2064129137",
+                    "name": "Andrew M. Nesbitt"
+                },
+                {
+                    "authorId": "150045674",
+                    "name": "Benjamin Nickolls"
+                }
+            ],
+            "doi": "10.5281/ZENODO.1068916",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0ee7260904ad229d6d154f4e5953a0abf857c03c",
+            "title": "Libraries.io Open Source Repository and Dependency Metadata",
+            "url": "https://www.semanticscholar.org/paper/0ee7260904ad229d6d154f4e5953a0abf857c03c",
+            "venue": "",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3194663",
+                    "name": "Ruian Duan"
+                },
+                {
+                    "authorId": "2237275",
+                    "name": "Ashish Bijlani"
+                },
+                {
+                    "authorId": "2110682254",
+                    "name": "Meng Xu"
+                },
+                {
+                    "authorId": "3254849",
+                    "name": "Taesoo Kim"
+                },
+                {
+                    "authorId": "1738428",
+                    "name": "Wenke Lee"
+                }
+            ],
+            "doi": "10.1145/3133956.3134048",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "dc650ab9609fcfe7a6c1018709c7b97aa1a171c2",
+            "title": "Identifying Open-Source License Violation and 1-day Security Risk at Large Scale",
+            "url": "https://www.semanticscholar.org/paper/dc650ab9609fcfe7a6c1018709c7b97aa1a171c2",
+            "venue": "CCS",
+            "year": 2017
+        },
+        {
+            "arxivId": "1710.04936",
+            "authors": [
+                {
+                    "authorId": "2794053",
+                    "name": "Alexandre Decan"
+                },
+                {
+                    "authorId": "1794675",
+                    "name": "T. Mens"
+                },
+                {
+                    "authorId": "34653341",
+                    "name": "P. Grosjean"
+                }
+            ],
+            "doi": "10.1007/s10664-017-9589-y",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "141bfd55f50dbc9af1ee73805aeb9e248978e00c",
+            "title": "An empirical comparison of dependency network evolution in seven software packaging ecosystems",
+            "url": "https://www.semanticscholar.org/paper/141bfd55f50dbc9af1ee73805aeb9e248978e00c",
+            "venue": "Empirical Software Engineering",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2016688",
+                    "name": "R. Kikas"
+                },
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "144065089",
+                    "name": "M. Dumas"
+                },
+                {
+                    "authorId": "1681323",
+                    "name": "Dietmar Pfahl"
+                }
+            ],
+            "doi": "10.1109/MSR.2017.55",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d0a9d38c33229834dd55dc2050bf43fb77be3328",
+            "title": "Structure and Evolution of Package Dependency Networks",
+            "url": "https://www.semanticscholar.org/paper/d0a9d38c33229834dd55dc2050bf43fb77be3328",
+            "venue": "2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2850502",
+                    "name": "Matthieu Caneill"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "1682225",
+                    "name": "Stefano Zacchiroli"
+                }
+            ],
+            "doi": "10.1007/s10664-016-9461-5",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "40857f9cf875c1856e28e907b35c18b1d0c841f3",
+            "title": "The Debsources Dataset: two decades of free and open source software",
+            "url": "https://www.semanticscholar.org/paper/40857f9cf875c1856e28e907b35c18b1d0c841f3",
+            "venue": "Empirical Software Engineering",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39565422",
+                    "name": "T. Berger"
+                },
+                {
+                    "authorId": "20760893",
+                    "name": "R. Pfeiffer"
+                },
+                {
+                    "authorId": "1899062",
+                    "name": "Reinhard Tartler"
+                },
+                {
+                    "authorId": "50650396",
+                    "name": "Steffen Dienst"
+                },
+                {
+                    "authorId": "1726889",
+                    "name": "K. Czarnecki"
+                },
+                {
+                    "authorId": "1723400",
+                    "name": "A. W\u0105sowski"
+                },
+                {
+                    "authorId": "3134301",
+                    "name": "S. She"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2014.05.005",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b92b0719a10ea00566b30ff6e057bd87b4ee10d8",
+            "title": "Variability mechanisms in software ecosystems",
+            "url": "https://www.semanticscholar.org/paper/b92b0719a10ea00566b30ff6e057bd87b4ee10d8",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2546164",
+                    "name": "S. Raemaekers"
+                },
+                {
+                    "authorId": "1737202",
+                    "name": "A. Deursen"
+                },
+                {
+                    "authorId": "145039625",
+                    "name": "Joost Visser"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624031",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a98aabd33ec05291d696d1f94670f4b44e0b8ba6",
+            "title": "The Maven repository dataset of metrics, changes, and dependencies",
+            "url": "https://www.semanticscholar.org/paper/a98aabd33ec05291d696d1f94670f4b44e0b8ba6",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2012.6224294",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "de760552279b241976676f4723a159060a433198",
+            "title": "GHTorrent: Github's data from a firehose",
+            "url": "https://www.semanticscholar.org/paper/de760552279b241976676f4723a159060a433198",
+            "venue": "2012 9th IEEE Working Conference on Mining Software Repositories (MSR)",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3126897",
+                    "name": "M. Kechagia"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                },
+                {
+                    "authorId": "1403485514",
+                    "name": "Stephanos Androutsellis-Theotokis"
+                }
+            ],
+            "doi": "10.1109/PCI.2010.28",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7b62848fda94269eac167aa27f38243b72835615",
+            "title": "Open Source Licensing Across Package Dependencies",
+            "url": "https://www.semanticscholar.org/paper/7b62848fda94269eac167aa27f38243b72835615",
+            "venue": "2010 14th Panhellenic Conference on Informatics",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145724817",
+                    "name": "M. Lungu"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                },
+                {
+                    "authorId": "1795069",
+                    "name": "Tudor G\u00eerba"
+                },
+                {
+                    "authorId": "1853058",
+                    "name": "R. Robbes"
+                }
+            ],
+            "doi": "10.1016/j.scico.2009.09.004",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "52b9bae286e2508cb10eead3b7e7a97a4539a197",
+            "title": "The Small Project Observatory: Visualizing software ecosystems",
+            "url": "https://www.semanticscholar.org/paper/52b9bae286e2508cb10eead3b7e7a97a4539a197",
+            "venue": "Sci. Comput. Program.",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2059693585",
+                    "name": "L. Freeman"
+                }
+            ],
+            "doi": "10.2307/3033543",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ef4481cbc18c91e7bf0e53693bb77f3608743626",
+            "title": "A set of measures of centrality based upon betweenness",
+            "url": "https://www.semanticscholar.org/paper/ef4481cbc18c91e7bf0e53693bb77f3608743626",
+            "venue": "",
+            "year": 1977
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2664645",
+                    "name": "Christopher Vendome"
+                }
+            ],
+            "doi": "10.21220/S2-XP8W-0W53",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ca4d4d526ec5354085511fb753c2d0dd137b12cd",
+            "title": "Assisting Software Developers With License Compliance",
+            "url": "https://www.semanticscholar.org/paper/ca4d4d526ec5354085511fb753c2d0dd137b12cd",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Building Maintainable Software, Java Edition: Ten Guidelines for Future-Proof Code",
+            "url": "",
+            "venue": "",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Graph drawing by forcedirected placement",
+            "url": "",
+            "venue": "Software: Practice and experience 21,",
+            "year": 1991
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2060459359",
+                    "name": "John Thomson"
+                },
+                {
+                    "authorId": "145991710",
+                    "name": "Andr\u00e9 Guerreiro"
+                },
+                {
+                    "authorId": "3303894",
+                    "name": "Paulo Trezentos"
+                },
+                {
+                    "authorId": "2115353764",
+                    "name": "Jeff Johnson"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "894beb5f04c7ecc530a9a087b7f116b9c72583df",
+            "title": "Package Management Systems",
+            "url": "https://www.semanticscholar.org/paper/894beb5f04c7ecc530a9a087b7f116b9c72583df",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Rob van der Leek",
+            "url": "",
+            "venue": "Pascal van Eck, and Gijs Wijnholds. 2016. Building Maintainable Software, Java Edition: Ten Guidelines for Future-Proof Code",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "SIG/T\u00dcViT Evaluation Criteria Trusted Product Maintainability, Version 12.0",
+            "url": "",
+            "venue": "www",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "MSR \u201922, May 23\u201324, 2022, Pittsburgh, PA, USA",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "DaSEA - A Dataset for Software Ecosystem Analysis",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/9824474967c7a32356fda29ae2ba49ed1da47152",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2022
+}

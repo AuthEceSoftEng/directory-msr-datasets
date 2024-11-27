@@ -1,0 +1,609 @@
+{
+    "abstract": "Real-world test suites are often complex and may have thousands of test cases. In this scenario, it is not easy to spot what values are actually covered by the tests. Having access to every tested value of a test suite would provide the basis to (1) assess the quality of tested data and (2) have actionable information to improve them. In this paper, we propose TestDossier, a dataset of tested values automatically extracted from the execution of Python tests. To collect runtime data, we run an instrumented version of the tests, monitoring the test execution, and extracting argument and variable values. We monitored the test suites of 15 Python Standard Libraries to create the dataset. TestDossier contains 1,234 distinct argument/variable names and 133,169 distinct values, leading to a total of 12,9M individual values. We envision that our dataset can help developers detect rarely tested values, untested values, and variations of tested values. We also foresee that our dataset can support novel empirical studies in the context of software testing, for example, it can expose the diversity of the tested data.CCS CONCEPTS\u2022 Software and its engineering \u2192 Software testing and debugging; Runtime environments.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2296031120",
+            "name": "Andr\u00e9 Hora",
+            "url": "https://www.semanticscholar.org/author/2296031120"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [],
+    "corpusId": 269011072,
+    "doi": "10.1145/3643991.3644875",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 0,
+    "numCiting": 26,
+    "paperId": "19625909593f3f0313439c13e38a101da2d0fd5a",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2296031120",
+                    "name": "Andr\u00e9 Hora"
+                }
+            ],
+            "doi": "10.1145/3639478.3640029",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2e13c473415c76e79e5cb1b4f876410b2aaaaa35",
+            "title": "SpotFlow: Tracking Method Calls and States at Runtime",
+            "url": "https://www.semanticscholar.org/paper/2e13c473415c76e79e5cb1b4f876410b2aaaaa35",
+            "venue": "2024 IEEE/ACM 46th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143857974",
+                    "name": "Andr\u00e9 C. Hora"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10259-7",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4deaee2119a719ee2a069ba6a1cb992fde958464",
+            "title": "Excluding code from test coverage: practices, motivations, and impact",
+            "url": "https://www.semanticscholar.org/paper/4deaee2119a719ee2a069ba6a1cb992fde958464",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "46235560",
+                    "name": "A. Eghbali"
+                },
+                {
+                    "authorId": "1884064",
+                    "name": "Michael Pradel"
+                }
+            ],
+            "doi": "10.1145/3540250.3549126",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6745a84bd2222149463e6a9d0b56b5f675b31fa8",
+            "title": "DynaPyt: a dynamic analysis framework for Python",
+            "url": "https://www.semanticscholar.org/paper/6745a84bd2222149463e6a9d0b56b5f675b31fa8",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2022
+        },
+        {
+            "arxivId": "2203.12776",
+            "authors": [
+                {
+                    "authorId": "40626221",
+                    "name": "Michele Tufano"
+                },
+                {
+                    "authorId": "1702996983",
+                    "name": "Shao Kun Deng"
+                },
+                {
+                    "authorId": "145507437",
+                    "name": "Neel Sundaresan"
+                },
+                {
+                    "authorId": "2061625488",
+                    "name": "Alexey Svyatkovskiy"
+                }
+            ],
+            "doi": "10.1145/3524842.3528009",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "23c4cb69ed2682dfe9c83061ff7c844c2e0b7636",
+            "title": "METHODS2TEST: A dataset of focal methods mapped to test cases",
+            "url": "https://www.semanticscholar.org/paper/23c4cb69ed2682dfe9c83061ff7c844c2e0b7636",
+            "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "88389584",
+                    "name": "Gina R. Bai"
+                },
+                {
+                    "authorId": "2129432569",
+                    "name": "Justin Smith"
+                },
+                {
+                    "authorId": "2619495",
+                    "name": "Kathryn T. Stolee"
+                }
+            ],
+            "doi": "10.1145/3430665.3456368",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6d45cb0648985cf373a8fe327ced372de9082a83",
+            "title": "How Students Unit Test: Perceptions, Practices, and Pitfalls",
+            "url": "https://www.semanticscholar.org/paper/6d45cb0648985cf373a8fe327ced372de9082a83",
+            "venue": "ITiCSE",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143857974",
+                    "name": "Andr\u00e9 C. Hora"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00051",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "84f8e4b1c39e5bbc99f64df23e74c554f98c4d0c",
+            "title": "What Code Is Deliberately Excluded from Test Coverage and Why?",
+            "url": "https://www.semanticscholar.org/paper/84f8e4b1c39e5bbc99f64df23e74c554f98c4d0c",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.01783",
+            "authors": [
+                {
+                    "authorId": "2289215",
+                    "name": "M. Aniche"
+                },
+                {
+                    "authorId": "1685418",
+                    "name": "Christoph Treude"
+                },
+                {
+                    "authorId": "1702285",
+                    "name": "A. Zaidman"
+                }
+            ],
+            "doi": "10.1109/TSE.2021.3129889",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0ffc50a040f403b56edc64cd873ce062a52902b2",
+            "title": "How Developers Engineer Test Cases: An Observational Study",
+            "url": "https://www.semanticscholar.org/paper/0ffc50a040f403b56edc64cd873ce062a52902b2",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "41072717",
+                    "name": "Andr\u00e1s Kicsi"
+                },
+                {
+                    "authorId": "1793601",
+                    "name": "L\u00e1szl\u00f3 Vid\u00e1cs"
+                },
+                {
+                    "authorId": "1681248",
+                    "name": "T. Gyim\u00f3thy"
+                }
+            ],
+            "doi": "10.1145/3379597.3387488",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "edeed47ef83fc1d7693ad068946adb811a760740",
+            "title": "TestRoutes: A Manually Curated Method Level Dataset for Test-to-Code Traceability",
+            "url": "https://www.semanticscholar.org/paper/edeed47ef83fc1d7693ad068946adb811a760740",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144160450",
+                    "name": "Iflaah Salman"
+                },
+                {
+                    "authorId": "145973228",
+                    "name": "Burak Turhan"
+                },
+                {
+                    "authorId": "2831847",
+                    "name": "S. Vegas"
+                }
+            ],
+            "doi": "10.1007/s10664-018-9668-8",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2172f1f0211a3c42ba1cb8a74870e688cc7b25da",
+            "title": "A controlled experiment on time pressure and confirmation bias in functional software testing",
+            "url": "https://www.semanticscholar.org/paper/2172f1f0211a3c42ba1cb8a74870e688cc7b25da",
+            "venue": "Empirical Software Engineering",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2225803",
+                    "name": "Yli\u00e8s Falcone"
+                },
+                {
+                    "authorId": "46693537",
+                    "name": "S. Krstic"
+                },
+                {
+                    "authorId": "2479689",
+                    "name": "Giles Reger"
+                },
+                {
+                    "authorId": "3209484",
+                    "name": "Dmitriy Traytel"
+                }
+            ],
+            "doi": "10.1007/s10009-021-00609-z",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "68e099016a2d01b49c53f9acacccdf096ebac575",
+            "title": "A taxonomy for classifying runtime verification tools",
+            "url": "https://www.semanticscholar.org/paper/68e099016a2d01b49c53f9acacccdf096ebac575",
+            "venue": "International Journal on Software Tools for Technology Transfer",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1761511",
+                    "name": "V. Garousi"
+                },
+                {
+                    "authorId": "40813716",
+                    "name": "Baris K\u00fc\u00e7\u00fck"
+                }
+            ],
+            "doi": "10.1016/j.jss.2017.12.013",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d1a5d87581a0302dfefde7b96062ac22d3d04819",
+            "title": "Smells in software test code: A survey of knowledge in industry and academia",
+            "url": "https://www.semanticscholar.org/paper/d1a5d87581a0302dfefde7b96062ac22d3d04819",
+            "venue": "J. Syst. Softw.",
+            "year": 2018
+        },
+        {
+            "arxivId": "1707.03869",
+            "authors": [
+                {
+                    "authorId": "2109443",
+                    "name": "Rahul Mohanani"
+                },
+                {
+                    "authorId": "144160450",
+                    "name": "Iflaah Salman"
+                },
+                {
+                    "authorId": "145973228",
+                    "name": "Burak Turhan"
+                },
+                {
+                    "authorId": "7881310",
+                    "name": "Pilar Rodr\u00edguez Mar\u00edn"
+                },
+                {
+                    "authorId": "144785030",
+                    "name": "P. Ralph"
+                }
+            ],
+            "doi": "10.1109/TSE.2018.2877759",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "819f36c0ddae12132d60ebc5cc0a19f7db8668b1",
+            "title": "Cognitive Biases in Software Engineering: A Systematic Mapping Study",
+            "url": "https://www.semanticscholar.org/paper/819f36c0ddae12132d60ebc5cc0a19f7db8668b1",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2140666",
+                    "name": "Rick Rabiser"
+                },
+                {
+                    "authorId": "1683524",
+                    "name": "Sam Guinea"
+                },
+                {
+                    "authorId": "3044069",
+                    "name": "Michael Vierhauser"
+                },
+                {
+                    "authorId": "1704858",
+                    "name": "L. Baresi"
+                },
+                {
+                    "authorId": "1777858",
+                    "name": "P. Gr\u00fcnbacher"
+                }
+            ],
+            "doi": "10.1016/j.jss.2016.12.034",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3755698bf17d3ca5af6b5a0f5169a4b422eece11",
+            "title": "A comparison framework for runtime monitoring approaches",
+            "url": "https://www.semanticscholar.org/paper/3755698bf17d3ca5af6b5a0f5169a4b422eece11",
+            "venue": "J. Syst. Softw.",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1781540",
+                    "name": "S. Edwards"
+                },
+                {
+                    "authorId": "2842206",
+                    "name": "Z. Shams"
+                }
+            ],
+            "doi": "10.1145/2591708.2591757",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5e9a4ec6df9016f90f21c90677cbb43c415e5f63",
+            "title": "Do student programmers all tend to write the same software tests?",
+            "url": "https://www.semanticscholar.org/paper/5e9a4ec6df9016f90f21c90677cbb43c415e5f63",
+            "venue": "ITiCSE '14",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2154222",
+                    "name": "C. Kaner"
+                },
+                {
+                    "authorId": "32616449",
+                    "name": "Sowmya Padmanabhan"
+                },
+                {
+                    "authorId": "2063013875",
+                    "name": "D. Hoffman"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "99e3e5347c77b74c09f19fb866a8d4b5131bfef4",
+            "title": "The Domain Testing Workbook",
+            "url": "https://www.semanticscholar.org/paper/99e3e5347c77b74c09f19fb866a8d4b5131bfef4",
+            "venue": "",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2244669297",
+                    "name": "Beck"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f87ba03926a5fd37483e454d442d283241e31c29",
+            "title": "Test Driven Development: By Example",
+            "url": "https://www.semanticscholar.org/paper/f87ba03926a5fd37483e454d442d283241e31c29",
+            "venue": "",
+            "year": 2002
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1963990",
+                    "name": "L. Leventhal"
+                },
+                {
+                    "authorId": "2454277",
+                    "name": "Barbee Teasley"
+                },
+                {
+                    "authorId": "2123776",
+                    "name": "D. Rohlman"
+                },
+                {
+                    "authorId": "2004431",
+                    "name": "Keith Instone"
+                }
+            ],
+            "doi": "10.1007/3-540-57433-6_50",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9644efa993e49db7cb699f9e8bdb330020ebbb1b",
+            "title": "Positive Test Bias in Software Testing Among Professionals: A Review",
+            "url": "https://www.semanticscholar.org/paper/9644efa993e49db7cb699f9e8bdb330020ebbb1b",
+            "venue": "EWHCI",
+            "year": 1993
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Faker is a Python package that generates fake data for you",
+            "url": "",
+            "venue": "github",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "LearnableProgramming: Designing a programming system for understanding programs",
+            "url": "",
+            "venue": "http://worrydream.com/LearnableProgramming",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Howdostudentstestsoftwareunits?",
+            "url": "",
+            "venue": "InternationalConferenceonSoftware Engineering: Software Engineering Education and Training",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Software Engineering at Google: Lessons Learned from Programming over Time",
+            "url": "",
+            "venue": "",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Jbench:adatasetofdataracesforconcurrencytesting",
+            "url": "",
+            "venue": "InternationalConference on Mining Software Repositories",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Asystematicsurveyofprogramcomprehensionthroughdynamic analysis",
+            "url": "",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2887385",
+                    "name": "Michael C. Feathers"
+                }
+            ],
+            "doi": "10.1007/978-3-540-27777-4_42",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4ba3af51485a5e2e73f29a6289054504ffa46d62",
+            "title": "Working Effectively with Legacy Code",
+            "url": "https://www.semanticscholar.org/paper/4ba3af51485a5e2e73f29a6289054504ffa46d62",
+            "venue": "XP/Agile Universe",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2023. Snapshot Testing Dataset",
+            "url": "",
+            "venue": "International Conference on Mining Software Repositories",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2022. Effective Software Testing: A developer\u2019s guide",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "TestDossier: A Dataset of Tested Values Automatically Extracted from Test Execution",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/19625909593f3f0313439c13e38a101da2d0fd5a",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2024
+}

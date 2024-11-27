@@ -1,0 +1,643 @@
+{
+    "abstract": "Software repositories hosted on GitHub frequently use development bots to automate repetitive, effort intensive and error-prone tasks. To understand and study how these bots are used, state-of-the-art bot identification tools have been developed to detect bots based on their comments in commits, issues and pull requests. Given that bots can be involved in many other activity types, there is a need to consider more activities that they are carrying out in the software repositories they are involved in. We therefore propose a curated dataset of such activities carried out by bots and humans involved in GitHub repositories. The dataset was constructed by identifying 24 high-level activity types that could be extracted from 15 lower-level event types that were queried from GitHub\u2019s event stream API for all considered bots and humans. The proposed dataset contains around 834K activities performed by 385 bots and 616 humans involved in GitHub repositories, during an observation period ranging from 25 November 2022 to 9 March 2023. By analysing the activity patterns of bots and humans, this dataset could lead to better bot identification tools and empirical studies on how bots play a role in collaborative software development.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "52286934",
+            "name": "Natarajan Chidambaram",
+            "url": "https://www.semanticscholar.org/author/52286934"
+        },
+        {
+            "authorId": "2794053",
+            "name": "Alexandre Decan",
+            "url": "https://www.semanticscholar.org/author/2794053"
+        },
+        {
+            "authorId": "1794675",
+            "name": "T. Mens",
+            "url": "https://www.semanticscholar.org/author/1794675"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2295089187",
+                    "name": "Jin Zhang"
+                },
+                {
+                    "authorId": "2186525949",
+                    "name": "Xingjin Wu"
+                },
+                {
+                    "authorId": "2295310465",
+                    "name": "Yang Zhang"
+                },
+                {
+                    "authorId": "2294764829",
+                    "name": "Shunyu Xu"
+                },
+                {
+                    "authorId": "2317100672",
+                    "name": "Maoqi Peng"
+                }
+            ],
+            "doi": "10.1109/COMPSAC61105.2024.00180",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3e4b1c464d48f5a12a36d616039f93e7509b7d5a",
+            "title": "Enhancing Collaborative Software Development: A Deep Learning Approach for Bot Recommendation",
+            "url": "https://www.semanticscholar.org/paper/3e4b1c464d48f5a12a36d616039f93e7509b7d5a",
+            "venue": "2024 IEEE 48th Annual Computers, Software, and Applications Conference (COMPSAC)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2405.05541",
+            "authors": [
+                {
+                    "authorId": "2300370621",
+                    "name": "Philip Oliver"
+                },
+                {
+                    "authorId": "2300371031",
+                    "name": "Jens Dietrich"
+                },
+                {
+                    "authorId": "1741672",
+                    "name": "C. Anslow"
+                },
+                {
+                    "authorId": "2239110364",
+                    "name": "Michael Homer"
+                }
+            ],
+            "doi": "10.1145/3643991.3644912",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "aee4ae2631ef612458fead210ce214b3ffb1d6dd",
+            "title": "CrashJS: A NodeJS Benchmark for Automated Crash Reproduction",
+            "url": "https://www.semanticscholar.org/paper/aee4ae2631ef612458fead210ce214b3ffb1d6dd",
+            "venue": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2280678884",
+                    "name": "Stefan Florczyk"
+                }
+            ],
+            "doi": "10.1109/ICECET58911.2023.10389534",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "719b5f42fd776acfacda4c08bb3b75181a7c5394",
+            "title": "A Control Room Monitored Software Engineering Robot Working Fully Autonomously at High Speed",
+            "url": "https://www.semanticscholar.org/paper/719b5f42fd776acfacda4c08bb3b75181a7c5394",
+            "venue": "2023 International Conference on Electrical, Computer and Energy Technologies (ICECET)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "52286934",
+                    "name": "Natarajan Chidambaram"
+                },
+                {
+                    "authorId": "2794053",
+                    "name": "Alexandre Decan"
+                },
+                {
+                    "authorId": "2239456818",
+                    "name": "Tom Mens"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "8593261eccc3d00a610f6f91648660838792ae78",
+            "title": "Distinguishing Bots from Human Developers Based on Their GitHub Activity Types",
+            "url": "https://www.semanticscholar.org/paper/8593261eccc3d00a610f6f91648660838792ae78",
+            "venue": "SATToSE",
+            "year": 2023
+        }
+    ],
+    "corpusId": 259836026,
+    "doi": "10.1109/MSR59073.2023.00070",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 4,
+    "numCiting": 15,
+    "paperId": "e30f471aa4235fd2afc262e47b5649e615cd0283",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50218098",
+                    "name": "Zhendong Wang"
+                },
+                {
+                    "authorId": "2154458114",
+                    "name": "Yi Wang"
+                },
+                {
+                    "authorId": "2168723096",
+                    "name": "D. Redmiles"
+                }
+            ],
+            "doi": "10.1109/MS.2022.3180297",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "26fcccece971169e98c302a8a68389d6a8d96f25",
+            "title": "From Specialized Mechanics to Project Butlers: The Usage of Bots in Open Source Software Development",
+            "url": "https://www.semanticscholar.org/paper/26fcccece971169e98c302a8a68389d6a8d96f25",
+            "venue": "IEEE Software",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "13546149",
+                    "name": "M. Golzadeh"
+                },
+                {
+                    "authorId": "1794675",
+                    "name": "T. Mens"
+                },
+                {
+                    "authorId": "2794053",
+                    "name": "Alexandre Decan"
+                },
+                {
+                    "authorId": "2970508",
+                    "name": "Eleni Constantinou"
+                },
+                {
+                    "authorId": "52286934",
+                    "name": "Natarajan Chidambaram"
+                }
+            ],
+            "doi": "10.1109/MS.2022.3178601",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e39b5ce2ab43c7651bd6e074971f985a597d1966",
+            "title": "Recognizing Bot Activity in Collaborative Software Development",
+            "url": "https://www.semanticscholar.org/paper/e39b5ce2ab43c7651bd6e074971f985a597d1966",
+            "venue": "IEEE Software",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145141548",
+                    "name": "Ahmad Abdellatif"
+                },
+                {
+                    "authorId": "2156237",
+                    "name": "M. Wessel"
+                },
+                {
+                    "authorId": "2091414",
+                    "name": "Igor Steinmacher"
+                },
+                {
+                    "authorId": "143911967",
+                    "name": "M. Gerosa"
+                },
+                {
+                    "authorId": "3318024",
+                    "name": "Emad Shihab"
+                }
+            ],
+            "doi": "10.1145/3524842.3527959",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "349011c795d5a7e10ae8215a74ad3730ad35fb0a",
+            "title": "BotHunter: An Approach to Detect Software Bots in GitHub",
+            "url": "https://www.semanticscholar.org/paper/349011c795d5a7e10ae8215a74ad3730ad35fb0a",
+            "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2203.16987",
+            "authors": [
+                {
+                    "authorId": "52286934",
+                    "name": "Natarajan Chidambaram"
+                },
+                {
+                    "authorId": "2794053",
+                    "name": "Alexandre Decan"
+                },
+                {
+                    "authorId": "13546149",
+                    "name": "M. Golzadeh"
+                }
+            ],
+            "doi": "10.1145/3528228.3528403",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b926b6adc154c92c682aa2932e9cbfd44f56efdc",
+            "title": "Leveraging Predictions From Multiple Repositories to Improve Bot Detection",
+            "url": "https://www.semanticscholar.org/paper/b926b6adc154c92c682aa2932e9cbfd44f56efdc",
+            "venue": "2022 IEEE/ACM 4th International Workshop on Bots in Software Engineering (BotSE)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2103.11007",
+            "authors": [
+                {
+                    "authorId": "2232853",
+                    "name": "Jean-Gabriel Young"
+                },
+                {
+                    "authorId": "1413053668",
+                    "name": "Amanda Casari"
+                },
+                {
+                    "authorId": "2058592124",
+                    "name": "Katie McLaughlin"
+                },
+                {
+                    "authorId": "1612340138",
+                    "name": "Milo Z. Trujillo"
+                },
+                {
+                    "authorId": "2023694909",
+                    "name": "Laurent H'ebert-Dufresne"
+                },
+                {
+                    "authorId": "2229958",
+                    "name": "James P. Bagrow"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00036",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "50a8982971266f850c87bf6cf65b10fdce0ed870",
+            "title": "Which contributions count? Analysis of attribution in open source",
+            "url": "https://www.semanticscholar.org/paper/50a8982971266f850c87bf6cf65b10fdce0ed870",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2010.03303",
+            "authors": [
+                {
+                    "authorId": "13546149",
+                    "name": "M. Golzadeh"
+                },
+                {
+                    "authorId": "2794053",
+                    "name": "Alexandre Decan"
+                },
+                {
+                    "authorId": "52307499",
+                    "name": "Damien Legay"
+                },
+                {
+                    "authorId": "1794675",
+                    "name": "T. Mens"
+                }
+            ],
+            "doi": "10.1016/j.jss.2021.110911",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "111da19e8911ba04cdd38fec42587c8b8c976287",
+            "title": "A ground-truth dataset and classification model for detecting bots in GitHub issue and PR comments",
+            "url": "https://www.semanticscholar.org/paper/111da19e8911ba04cdd38fec42587c8b8c976287",
+            "venue": "J. Syst. Softw.",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "7777374",
+                    "name": "Yuxing Ma"
+                },
+                {
+                    "authorId": "2065313146",
+                    "name": "Chris Bogart"
+                },
+                {
+                    "authorId": "3110752",
+                    "name": "Sadika Amreen"
+                },
+                {
+                    "authorId": "2858102",
+                    "name": "R. Zaretzki"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00031",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "53b56a0f176d2fb025678d864dd6e390282ffbea",
+            "title": "World of Code: An Infrastructure for Mining the Universe of Open Source VCS Data",
+            "url": "https://www.semanticscholar.org/paper/53b56a0f176d2fb025678d864dd6e390282ffbea",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1734481",
+                    "name": "Eirini Kalliamvakou"
+                },
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "1715864",
+                    "name": "Kelly Blincoe"
+                },
+                {
+                    "authorId": "18264995",
+                    "name": "Leif Singer"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "1741744",
+                    "name": "D. Damian"
+                }
+            ],
+            "doi": "10.1007/s10664-015-9393-5",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ec893b923db8f30349ef5a02b57bc928110f9f71",
+            "title": "An in-depth study of the promises and perils of mining GitHub",
+            "url": "https://www.semanticscholar.org/paper/ec893b923db8f30349ef5a02b57bc928110f9f71",
+            "venue": "Empirical Software Engineering",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2908305",
+                    "name": "Saya Onoue"
+                },
+                {
+                    "authorId": "145050815",
+                    "name": "Hideaki Hata"
+                },
+                {
+                    "authorId": "144975613",
+                    "name": "Ken-ichi Matsumoto"
+                }
+            ],
+            "doi": "10.1109/APSEC.2013.104",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f8e8d390b5319985a426b8ede798878ebc0e7469",
+            "title": "A Study of the Characteristics of Developers' Activities in GitHub",
+            "url": "https://www.semanticscholar.org/paper/f8e8d390b5319985a426b8ede798878ebc0e7469",
+            "venue": "2013 20th Asia-Pacific Software Engineering Conference (APSEC)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2012.6224294",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "de760552279b241976676f4723a159060a433198",
+            "title": "GHTorrent: Github's data from a firehose",
+            "url": "https://www.semanticscholar.org/paper/de760552279b241976676f4723a159060a433198",
+            "venue": "2012 9th IEEE Working Conference on Mining Software Repositories (MSR)",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1784365",
+                    "name": "Laura A. Dabbish"
+                },
+                {
+                    "authorId": "2223681983",
+                    "name": "Colleen Stuart"
+                },
+                {
+                    "authorId": "2052949",
+                    "name": "Jason Tsay"
+                },
+                {
+                    "authorId": "1705550",
+                    "name": "J. Herbsleb"
+                }
+            ],
+            "doi": "10.1145/2145204.2145396",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "aeaaa72d4a35388cba9ea0d81e1d46c8c2abaac1",
+            "title": "Social coding in GitHub: transparency and collaboration in an open software repository",
+            "url": "https://www.semanticscholar.org/paper/aeaaa72d4a35388cba9ea0d81e1d46c8c2abaac1",
+            "venue": "CSCW",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2110854853",
+                    "name": "J. Costa"
+                },
+                {
+                    "authorId": "35110398",
+                    "name": "M. Cataldo"
+                },
+                {
+                    "authorId": "4572461",
+                    "name": "C. D. Souza"
+                }
+            ],
+            "doi": "10.1145/1978942.1979409",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "9ef2ccdec718d8a3d7b841eb5af9cf7619460244",
+            "title": "The scale and evolution of coordination needs in large-scale distributed projects: implications for the future generation of collaborative tools",
+            "url": "https://www.semanticscholar.org/paper/9ef2ccdec718d8a3d7b841eb5af9cf7619460244",
+            "venue": "CHI",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51928752",
+                    "name": "Bruno Mendes de Souza"
+                },
+                {
+                    "authorId": "2288895104",
+                    "name": "Ana Paula Chaves"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8790146508d0b1c48e70627dde63f21ccec73d13",
+            "title": "The Power of Bots: Understanding Bots in OSS Projects",
+            "url": "https://www.semanticscholar.org/paper/8790146508d0b1c48e70627dde63f21ccec73d13",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145193818",
+                    "name": "C. Bird"
+                },
+                {
+                    "authorId": "39374345",
+                    "name": "Peter C. Rigby"
+                },
+                {
+                    "authorId": "1757975",
+                    "name": "Earl T. Barr"
+                },
+                {
+                    "authorId": "2052972168",
+                    "name": "David J. Hamilton"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "1730296",
+                    "name": "Premkumar T. Devanbu"
+                }
+            ],
+            "doi": "10.1109/msr.2009.5069475",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3d7f482edc1844d85319b26ee5a2df8aac20ce89",
+            "title": "The promises and perils of mining git",
+            "url": "https://www.semanticscholar.org/paper/3d7f482edc1844d85319b26ee5a2df8aac20ce89",
+            "venue": "2009 6th IEEE International Working Conference on Mining Software Repositories",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "13546149",
+                    "name": "M. Golzadeh"
+                },
+                {
+                    "authorId": "2794053",
+                    "name": "Alexandre Decan"
+                },
+                {
+                    "authorId": "52307499",
+                    "name": "Damien Legay"
+                },
+                {
+                    "authorId": "2239456818",
+                    "name": "Tom Mens"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "023905f81d15a7062eb3dc4b4897cd8483f4f1ce",
+            "title": "A ground-truth dataset and classi\ufb01cation model for detecting bots in GitHub issue and PR comments",
+            "url": "https://www.semanticscholar.org/paper/023905f81d15a7062eb3dc4b4897cd8483f4f1ce",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "A Dataset of Bot and Human Activities in GitHub",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/e30f471aa4235fd2afc262e47b5649e615cd0283",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2023
+}

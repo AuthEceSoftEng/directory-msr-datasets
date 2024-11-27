@@ -1,0 +1,811 @@
+{
+    "abstract": "Over the last few years, researchers proposed several semantic history slicing approaches that identify the set of semantically-related commits implementing a particular software functionality. However, there is no comprehensive benchmark for evaluating these approaches, making it difficult to assess their capabilities. This paper presents a dataset of 81 semantic change data collected from 8 real-world projects. The dataset is created for benchmarking semantic history slicing techniques. We provide details on the data collection process and the storage format. We also discuss usage and possible extensions of the dataset.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "8652308",
+            "name": "Chenguang Zhu",
+            "url": "https://www.semanticscholar.org/author/8652308"
+        },
+        {
+            "authorId": "47002970",
+            "name": "Yi Li",
+            "url": "https://www.semanticscholar.org/author/47002970"
+        },
+        {
+            "authorId": "40575065",
+            "name": "J. Rubin",
+            "url": "https://www.semanticscholar.org/author/40575065"
+        },
+        {
+            "authorId": "1854323",
+            "name": "M. Chechik",
+            "url": "https://www.semanticscholar.org/author/1854323"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2305.08671",
+            "authors": [
+                {
+                    "authorId": "72613353",
+                    "name": "Xiu-sheng Xu"
+                },
+                {
+                    "authorId": "8652308",
+                    "name": "Chenguang Zhu"
+                },
+                {
+                    "authorId": "47002970",
+                    "name": "Yi Li"
+                }
+            ],
+            "doi": "10.1109/ASE56229.2023.00127",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5f5824a34dc96e89954519c69e9931e963ce4c32",
+            "title": "Compsuite: A Dataset of Java Library Upgrade Incompatibility Issues",
+            "url": "https://www.semanticscholar.org/paper/5f5824a34dc96e89954519c69e9931e963ce4c32",
+            "venue": "2023 38th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47769411",
+                    "name": "Alexander Schultheiss"
+                },
+                {
+                    "authorId": "1392979479",
+                    "name": "P. M. Bittner"
+                },
+                {
+                    "authorId": "3439842",
+                    "name": "Sandra Greiner"
+                },
+                {
+                    "authorId": "1795801",
+                    "name": "Timo Kehrer"
+                }
+            ],
+            "doi": "10.1145/3571788.3571793",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e2ef8b46ac14d03a78195c6000d38aadc7331d92",
+            "title": "Benchmark Generation with VEVOS: A Coverage Analysis of Evolution Scenarios in Variant-Rich Systems",
+            "url": "https://www.semanticscholar.org/paper/e2ef8b46ac14d03a78195c6000d38aadc7331d92",
+            "venue": "VaMoS",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2142479116",
+                    "name": "Xiuheng Wu"
+                }
+            ],
+            "doi": "10.1145/3551349.3559513",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "697b5afa4000562683bfad9adaf7ab59e6122000",
+            "title": "Software Evolution Management with Differential Facts",
+            "url": "https://www.semanticscholar.org/paper/697b5afa4000562683bfad9adaf7ab59e6122000",
+            "venue": "ASE",
+            "year": 2022
+        },
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47769411",
+                    "name": "Alexander Schultheiss"
+                },
+                {
+                    "authorId": "1392979479",
+                    "name": "P. M. Bittner"
+                },
+                {
+                    "authorId": "1401247601",
+                    "name": "Sascha El-Sharkawy"
+                },
+                {
+                    "authorId": "1691006",
+                    "name": "Thomas Th\u00fcm"
+                },
+                {
+                    "authorId": "1795801",
+                    "name": "Timo Kehrer"
+                }
+            ],
+            "doi": "10.1145/3530019.3534084",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9e63dc861287d9cb4f13916129c0c17fc4db2472",
+            "title": "Simulating the Evolution of Clone-and-Own Projects with VEVOS",
+            "url": "https://www.semanticscholar.org/paper/9e63dc861287d9cb4f13916129c0c17fc4db2472",
+            "venue": "EASE",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2142479116",
+                    "name": "Xiuheng Wu"
+                },
+                {
+                    "authorId": "1456009348",
+                    "name": "Chenguang Zhu"
+                },
+                {
+                    "authorId": "47002970",
+                    "name": "Yi Li"
+                }
+            ],
+            "doi": "10.1145/3468264.3468605",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "622fe022a2686c94e939b456ba323ca9b6588206",
+            "title": "DIFFBASE: a differential factbase for effective software evolution management",
+            "url": "https://www.semanticscholar.org/paper/622fe022a2686c94e939b456ba323ca9b6588206",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1456009348",
+                    "name": "Chenguang Zhu"
+                },
+                {
+                    "authorId": "47002970",
+                    "name": "Yi Li"
+                },
+                {
+                    "authorId": "40575065",
+                    "name": "J. Rubin"
+                },
+                {
+                    "authorId": "1854323",
+                    "name": "M. Chechik"
+                }
+            ],
+            "doi": "10.1109/ICSME46990.2020.00018",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a81012cc818c792ef1fdc3a59165d3ad06f340f7",
+            "title": "GenSlice: Generalized Semantic History Slicing",
+            "url": "https://www.semanticscholar.org/paper/a81012cc818c792ef1fdc3a59165d3ad06f340f7",
+            "venue": "2020 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2020
+        },
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1706739",
+                    "name": "A. Iorio"
+                },
+                {
+                    "authorId": "49829027",
+                    "name": "Gianmarco Spinaci"
+                },
+                {
+                    "authorId": "1737427",
+                    "name": "F. Vitali"
+                }
+            ],
+            "doi": "10.1145/3342558.3345406",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0ea925a2d3c2e4118537d1f7b35eb2e370463bc8",
+            "title": "Multi-layered edits for meaningful interpretation of textual differences",
+            "url": "https://www.semanticscholar.org/paper/0ea925a2d3c2e4118537d1f7b35eb2e370463bc8",
+            "venue": "DocEng",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1932576",
+                    "name": "D. Str\u00fcber"
+                },
+                {
+                    "authorId": "37607538",
+                    "name": "M. Mukelabai"
+                },
+                {
+                    "authorId": "38256069",
+                    "name": "J. Kr\u00fcger"
+                },
+                {
+                    "authorId": "21852047",
+                    "name": "Stefan Fischer"
+                },
+                {
+                    "authorId": "2410403",
+                    "name": "L. Linsbauer"
+                },
+                {
+                    "authorId": "145546830",
+                    "name": "Jabier Martinez"
+                },
+                {
+                    "authorId": "39565422",
+                    "name": "T. Berger"
+                }
+            ],
+            "doi": "10.1145/3336294.3336302",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6f8e4f3887bf3f1f28a5507475bfe76690f23378",
+            "title": "Facing the Truth: Benchmarking the Techniques for the Evolution of Variant-Rich Systems",
+            "url": "https://www.semanticscholar.org/paper/6f8e4f3887bf3f1f28a5507475bfe76690f23378",
+            "venue": "SPLC",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00085",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "43148fabe2636026e07ca04974aff40d204bfb6b",
+            "title": "Standing on Shoulders or Feet? The Usage of the MSR Data Papers",
+            "url": "https://www.semanticscholar.org/paper/43148fabe2636026e07ca04974aff40d204bfb6b",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": "1904.11164",
+            "authors": [
+                {
+                    "authorId": "80177375",
+                    "name": "P. Pickerill"
+                },
+                {
+                    "authorId": "81323265",
+                    "name": "Heiko Joshua Jungen"
+                },
+                {
+                    "authorId": "2723325",
+                    "name": "Miros\u0142aw Ochodek"
+                },
+                {
+                    "authorId": "1787356",
+                    "name": "M. Staron"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09825-8",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "51497665d475eb53a5818251a1202e0db93c9b59",
+            "title": "PHANTOM: Curating GitHub for engineered software projects using time-series clustering",
+            "url": "https://www.semanticscholar.org/paper/51497665d475eb53a5818251a1202e0db93c9b59",
+            "venue": "Empirical Software Engineering",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47002970",
+                    "name": "Yi Li"
+                },
+                {
+                    "authorId": "8652308",
+                    "name": "Chenguang Zhu"
+                },
+                {
+                    "authorId": "40575065",
+                    "name": "J. Rubin"
+                },
+                {
+                    "authorId": "1854323",
+                    "name": "M. Chechik"
+                }
+            ],
+            "doi": "10.1145/3183440.3183491",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0cc5321732fc8b5e2ab534f2ee05dec604bb0d0b",
+            "title": "CSlicerCloud: A Web-Based Semantic History Slicing Framework",
+            "url": "https://www.semanticscholar.org/paper/0cc5321732fc8b5e2ab534f2ee05dec604bb0d0b",
+            "venue": "2018 IEEE/ACM 40th International Conference on Software Engineering: Companion (ICSE-Companion)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47002970",
+                    "name": "Yi Li"
+                }
+            ],
+            "doi": "10.1109/ASE.2017.8115722",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b8c82eae2a6a5422fe991443d62e316548ebd69f",
+            "title": "Managing software evolution through semantic history slicing",
+            "url": "https://www.semanticscholar.org/paper/b8c82eae2a6a5422fe991443d62e316548ebd69f",
+            "venue": "2017 32nd IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47002970",
+                    "name": "Yi Li"
+                },
+                {
+                    "authorId": "8652308",
+                    "name": "Chenguang Zhu"
+                },
+                {
+                    "authorId": "40575065",
+                    "name": "J. Rubin"
+                },
+                {
+                    "authorId": "1854323",
+                    "name": "M. Chechik"
+                }
+            ],
+            "doi": "10.1145/3106195.3106216",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0444be64dde44793d9bb9db600e54108829e98cf",
+            "title": "FHistorian: Locating Features in Version Histories",
+            "url": "https://www.semanticscholar.org/paper/0444be64dde44793d9bb9db600e54108829e98cf",
+            "venue": "SPLC",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47002970",
+                    "name": "Yi Li"
+                },
+                {
+                    "authorId": "8652308",
+                    "name": "Chenguang Zhu"
+                },
+                {
+                    "authorId": "40575065",
+                    "name": "J. Rubin"
+                },
+                {
+                    "authorId": "1854323",
+                    "name": "M. Chechik"
+                }
+            ],
+            "doi": "10.1007/s10515-019-00260-8",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "eaac048bc296a3eddc2108f45c362ce3b30211c7",
+            "title": "Precise semantic history slicing through dynamic delta refinement",
+            "url": "https://www.semanticscholar.org/paper/eaac048bc296a3eddc2108f45c362ce3b30211c7",
+            "venue": "Automated Software Engineering",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "81323265",
+                    "name": "Heiko Joshua Jungen"
+                },
+                {
+                    "authorId": "80177375",
+                    "name": "P. Pickerill"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "55cb2cff59499e50d514411ae05531e45041f8d8",
+            "title": "Clustering software projects at large-scale using time-series",
+            "url": "https://www.semanticscholar.org/paper/55cb2cff59499e50d514411ae05531e45041f8d8",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47002970",
+                    "name": "Yi Li"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "5395857171bce14c1912da59fb1b333bf852b73d",
+            "title": "Managing Software Evolution through Semantic History Slicing",
+            "url": "https://www.semanticscholar.org/paper/5395857171bce14c1912da59fb1b333bf852b73d",
+            "venue": "",
+            "year": 2017
+        }
+    ],
+    "corpusId": 3974563,
+    "doi": "10.1109/MSR.2017.49",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 18,
+    "numCiting": 9,
+    "paperId": "cda1746e422e08df85e5f5cd95bbafb4024007f8",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47002970",
+                    "name": "Yi Li"
+                },
+                {
+                    "authorId": "8652308",
+                    "name": "Chenguang Zhu"
+                },
+                {
+                    "authorId": "40575065",
+                    "name": "J. Rubin"
+                },
+                {
+                    "authorId": "1854323",
+                    "name": "M. Chechik"
+                }
+            ],
+            "doi": "10.1007/s10515-019-00260-8",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "eaac048bc296a3eddc2108f45c362ce3b30211c7",
+            "title": "Precise semantic history slicing through dynamic delta refinement",
+            "url": "https://www.semanticscholar.org/paper/eaac048bc296a3eddc2108f45c362ce3b30211c7",
+            "venue": "Automated Software Engineering",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47002970",
+                    "name": "Yi Li"
+                },
+                {
+                    "authorId": "8652308",
+                    "name": "Chenguang Zhu"
+                },
+                {
+                    "authorId": "40575065",
+                    "name": "J. Rubin"
+                },
+                {
+                    "authorId": "1854323",
+                    "name": "M. Chechik"
+                }
+            ],
+            "doi": "10.1109/ASE.2015.47",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "f7584b7021a810dd3449c46e7fdff23964bda8e8",
+            "title": "Semantic Slicing of Software Version Histories (T)",
+            "url": "https://www.semanticscholar.org/paper/f7584b7021a810dd3449c46e7fdff23964bda8e8",
+            "venue": "2015 30th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1979660",
+                    "name": "Kivan\u00e7 Muslu"
+                },
+                {
+                    "authorId": "47151226",
+                    "name": "Luke Swart"
+                },
+                {
+                    "authorId": "2932798",
+                    "name": "Yuriy Brun"
+                },
+                {
+                    "authorId": "6698059",
+                    "name": "Michael D. Ernst"
+                }
+            ],
+            "doi": "10.1109/ASE.2015.53",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6a721b9d37015d1b71e74473deb63091bb7facc6",
+            "title": "Development History Granularity Transformations (N)",
+            "url": "https://www.semanticscholar.org/paper/6a721b9d37015d1b71e74473deb63091bb7facc6",
+            "venue": "2015 30th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2145398332",
+                    "name": "Lingming Zhang"
+                },
+                {
+                    "authorId": "35710133",
+                    "name": "Miryung Kim"
+                },
+                {
+                    "authorId": "145802044",
+                    "name": "S. Khurshid"
+                }
+            ],
+            "doi": "10.1109/ICSM.2011.6080769",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4bf18ee29b04fd5421bab555c217c4ad1fea5ed9",
+            "title": "Localizing failure-inducing program edits based on spectrum information",
+            "url": "https://www.semanticscholar.org/paper/4bf18ee29b04fd5421bab555c217c4ad1fea5ed9",
+            "venue": "2011 27th IEEE International Conference on Software Maintenance (ICSM)",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1704279",
+                    "name": "R. Koschke"
+                },
+                {
+                    "authorId": "2151477",
+                    "name": "Jochen Quante"
+                }
+            ],
+            "doi": "10.1145/1101908.1101923",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6383f27240d20c99a93116b1792e9b17e81de93b",
+            "title": "On dynamic feature location",
+            "url": "https://www.semanticscholar.org/paper/6383f27240d20c99a93116b1792e9b17e81de93b",
+            "venue": "ASE",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "33225351",
+                    "name": "James A. Jones"
+                },
+                {
+                    "authorId": "4933686",
+                    "name": "M. J. Harrold"
+                },
+                {
+                    "authorId": "1691661",
+                    "name": "J. Stasko"
+                }
+            ],
+            "doi": "10.1145/581396.581397",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "54a7d105ee1a5256b168f16d8264262340c0f6c3",
+            "title": "Visualization of test information to assist fault localization",
+            "url": "https://www.semanticscholar.org/paper/54a7d105ee1a5256b168f16d8264262340c0f6c3",
+            "venue": "Proceedings of the 24th International Conference on Software Engineering. ICSE 2002",
+            "year": 2002
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145594351",
+                    "name": "A. Zeller"
+                },
+                {
+                    "authorId": "2071474367",
+                    "name": "Ralf Hildebrandt"
+                }
+            ],
+            "doi": "10.1109/32.988498",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a397c5d4fadcc0ce29123b78815987b543417ba4",
+            "title": "Simplifying and Isolating Failure-Inducing Input",
+            "url": "https://www.semanticscholar.org/paper/a397c5d4fadcc0ce29123b78815987b543417ba4",
+            "venue": "IEEE Trans. Software Eng.",
+            "year": 2002
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1979660",
+                    "name": "Kivan\u00e7 Muslu"
+                },
+                {
+                    "authorId": "47151226",
+                    "name": "Luke Swart"
+                },
+                {
+                    "authorId": "2932798",
+                    "name": "Yuriy Brun"
+                },
+                {
+                    "authorId": "6698059",
+                    "name": "Michael D. Ernst"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "43d328397d5aa346a4176d591969ab3abd29a37b",
+            "title": "Development History Granularity Transformations",
+            "url": "https://www.semanticscholar.org/paper/43d328397d5aa346a4176d591969ab3abd29a37b",
+            "venue": "",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40575065",
+                    "name": "J. Rubin"
+                },
+                {
+                    "authorId": "1854323",
+                    "name": "M. Chechik"
+                }
+            ],
+            "doi": "10.1007/978-3-642-36654-3_2",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0933388123b2e3b605805446d73741497d0c8d90",
+            "title": "A Survey of Feature Location Techniques",
+            "url": "https://www.semanticscholar.org/paper/0933388123b2e3b605805446d73741497d0c8d90",
+            "venue": "Domain Engineering, Product Lines, Languages, and Conceptual Models",
+            "year": 2013
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "A Dataset for Dynamic Discovery of Semantic Changes in Version Controlled Software Histories",
+    "topics": [
+        {
+            "topic": "Benchmark (computing)",
+            "topicId": "1374",
+            "url": "https://www.semanticscholar.org/topic/1374"
+        },
+        {
+            "topic": "Software versioning",
+            "topicId": "604217",
+            "url": "https://www.semanticscholar.org/topic/604217"
+        }
+    ],
+    "url": "https://www.semanticscholar.org/paper/cda1746e422e08df85e5f5cd95bbafb4024007f8",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2017
+}

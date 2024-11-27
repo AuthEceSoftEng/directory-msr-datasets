@@ -1,0 +1,660 @@
+{
+    "abstract": "Software projects, whether open source, proprietary, or a combination thereof, rarely exist in isolation. Rather, most projects build on a network of people and ideas from dozens, hundreds, or even thousands of other projects. Using the GitHub APIs it is possible to extract these relationships for millions of users and projects. In this paper we present a dataset of a large network of open source projects centered around Ruby on Rails. This dataset provides insight into the relationships between Ruby on Rails and an ecosystem involving 1116 projects. To facilitate understanding of this data in the context of relationships between projects, users, and their activities, it is provided as a graph database suitable for assessing network properties of the community and individuals within those communities and can be found at https://github.com/pridkett/gitminer-data-rails.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "1728292",
+            "name": "Patrick Wagstrom",
+            "url": "https://www.semanticscholar.org/author/1728292"
+        },
+        {
+            "authorId": "2488565",
+            "name": "C. Jergensen",
+            "url": "https://www.semanticscholar.org/author/2488565"
+        },
+        {
+            "authorId": "2805449",
+            "name": "A. Sarma",
+            "url": "https://www.semanticscholar.org/author/2805449"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00085",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "43148fabe2636026e07ca04974aff40d204bfb6b",
+            "title": "Standing on Shoulders or Feet? The Usage of the MSR Data Papers",
+            "url": "https://www.semanticscholar.org/paper/43148fabe2636026e07ca04974aff40d204bfb6b",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "80147432",
+                    "name": "V. Y. Radygin"
+                },
+                {
+                    "authorId": "122098957",
+                    "name": "N. V. Lukyanova"
+                },
+                {
+                    "authorId": "1415506818",
+                    "name": "D. Kupriyanov"
+                }
+            ],
+            "doi": "10.1063/1.4972435",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "840e2ea582e7179b546d4a3fbf05baca2bf52361",
+            "title": "LMS in university for in-class education: Synergy of free software, competitive approach and social networks technology",
+            "url": "https://www.semanticscholar.org/paper/840e2ea582e7179b546d4a3fbf05baca2bf52361",
+            "venue": "",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1734481",
+                    "name": "Eirini Kalliamvakou"
+                },
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "1715864",
+                    "name": "Kelly Blincoe"
+                },
+                {
+                    "authorId": "18264995",
+                    "name": "Leif Singer"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "1741744",
+                    "name": "D. Damian"
+                }
+            ],
+            "doi": "10.1007/s10664-015-9393-5",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "ec893b923db8f30349ef5a02b57bc928110f9f71",
+            "title": "An in-depth study of the promises and perils of mining GitHub",
+            "url": "https://www.semanticscholar.org/paper/ec893b923db8f30349ef5a02b57bc928110f9f71",
+            "venue": "Empirical Software Engineering",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2933173",
+                    "name": "T. Kowark"
+                },
+                {
+                    "authorId": "36577903",
+                    "name": "Christoph Matthies"
+                },
+                {
+                    "authorId": "3151537",
+                    "name": "M. Uflacker"
+                },
+                {
+                    "authorId": "1810943",
+                    "name": "H. Plattner"
+                }
+            ],
+            "doi": "10.1145/2970276.2970286",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "bb0b8c3854b920b213f1d6f902b028751b6542e9",
+            "title": "Lightweight collection and storage of software repository data with DataRover",
+            "url": "https://www.semanticscholar.org/paper/bb0b8c3854b920b213f1d6f902b028751b6542e9",
+            "venue": "2016 31st IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3089323",
+                    "name": "Kazuhiro Yamashita"
+                },
+                {
+                    "authorId": "1706639",
+                    "name": "Yasutaka Kamei"
+                },
+                {
+                    "authorId": "1725534",
+                    "name": "Shane McIntosh"
+                },
+                {
+                    "authorId": "1891605",
+                    "name": "Ahmed E. Hassan"
+                },
+                {
+                    "authorId": "1806862",
+                    "name": "Naoyasu Ubayashi"
+                }
+            ],
+            "doi": "10.2197/ipsjjip.24.339",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fd014cd38072f3094bb3f29d0b2da01d8ff9f71d",
+            "title": "Magnet or Sticky? Measuring Project Characteristics from the Perspective of Developer Attraction and Retention",
+            "url": "https://www.semanticscholar.org/paper/fd014cd38072f3094bb3f29d0b2da01d8ff9f71d",
+            "venue": "J. Inf. Process.",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "2434621",
+                    "name": "Bogdan Vasilescu"
+                },
+                {
+                    "authorId": "1747171",
+                    "name": "Alexander Serebrenik"
+                },
+                {
+                    "authorId": "1702285",
+                    "name": "A. Zaidman"
+                }
+            ],
+            "doi": "10.1145/2597073.2597126",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7074a3e345e632e6328a408bf129edd148d1659e",
+            "title": "Lean GHTorrent: GitHub data on demand",
+            "url": "https://www.semanticscholar.org/paper/7074a3e345e632e6328a408bf129edd148d1659e",
+            "venue": "MSR 2014",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144768011",
+                    "name": "Claudio Guti\u00e9rrez"
+                },
+                {
+                    "authorId": "1853058",
+                    "name": "R. Robbes"
+                }
+            ],
+            "doi": "10.1145/2501585.2501589",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c18a418e87491d496f2f2bdd7167f62530bffabd",
+            "title": "WEON: towards a software ecosystem ONtology",
+            "url": "https://www.semanticscholar.org/paper/c18a418e87491d496f2f2bdd7167f62530bffabd",
+            "venue": "WEA 2013",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1734481",
+                    "name": "Eirini Kalliamvakou"
+                },
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "1715864",
+                    "name": "Kelly Blincoe"
+                },
+                {
+                    "authorId": "18264995",
+                    "name": "Leif Singer"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "1741744",
+                    "name": "D. Damian"
+                }
+            ],
+            "doi": "10.1145/2597073.2597074",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d80d307a463df3526bf12ef1974afa7352f7b863",
+            "title": "The promises and perils of mining GitHub",
+            "url": "https://www.semanticscholar.org/paper/d80d307a463df3526bf12ef1974afa7352f7b863",
+            "venue": "MSR 2014",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1734481",
+                    "name": "Eirini Kalliamvakou"
+                },
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "1715864",
+                    "name": "Kelly Blincoe"
+                },
+                {
+                    "authorId": "18264995",
+                    "name": "Leif Singer"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "1741744",
+                    "name": "D. Damian"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "0cb5de4f73f2b858d9d31941eba6e2dc4f1bb7eb",
+            "title": "The Promises and Perils of Mining GitHub ( Extended Version )",
+            "url": "https://www.semanticscholar.org/paper/0cb5de4f73f2b858d9d31941eba6e2dc4f1bb7eb",
+            "venue": "",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2286374597",
+                    "name": "Richard Berntsson Svensson"
+                },
+                {
+                    "authorId": "1580186594",
+                    "name": "Ilja Pavlov"
+                },
+                {
+                    "authorId": "2221004887",
+                    "name": "Susanne Ali"
+                },
+                {
+                    "authorId": "5891657",
+                    "name": "Tauhid Mahmud"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c43827c007238b7f4020a2894ada757f29a61bf8",
+            "title": "Serverless Development Trends in Open Source: a Mixed-Research Study",
+            "url": "https://www.semanticscholar.org/paper/c43827c007238b7f4020a2894ada757f29a61bf8",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "corpusId": 17111369,
+    "doi": "10.1109/MSR.2013.6624033",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 2,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 12,
+    "numCiting": 9,
+    "paperId": "4f27783cc009b1516dc251ffcd75866f3bb41d1f",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39374345",
+                    "name": "Peter C. Rigby"
+                },
+                {
+                    "authorId": "1757975",
+                    "name": "Earl T. Barr"
+                },
+                {
+                    "authorId": "145193818",
+                    "name": "C. Bird"
+                },
+                {
+                    "authorId": "1730296",
+                    "name": "Premkumar T. Devanbu"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                }
+            ],
+            "doi": "10.1109/RELENG.2013.6607694",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a4637b1a7ddff29a908c420c68a651ea16a00088",
+            "title": "What effect does Distributed Version Control have on OSS project organization?",
+            "url": "https://www.semanticscholar.org/paper/a4637b1a7ddff29a908c420c68a651ea16a00088",
+            "venue": "2013 1st International Workshop on Release Engineering (RELENG)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1734481",
+                    "name": "Eirini Kalliamvakou"
+                },
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "1715864",
+                    "name": "Kelly Blincoe"
+                },
+                {
+                    "authorId": "18264995",
+                    "name": "Leif Singer"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "1741744",
+                    "name": "D. Damian"
+                }
+            ],
+            "doi": "10.1145/2597073.2597074",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d80d307a463df3526bf12ef1974afa7352f7b863",
+            "title": "The promises and perils of mining GitHub",
+            "url": "https://www.semanticscholar.org/paper/d80d307a463df3526bf12ef1974afa7352f7b863",
+            "venue": "MSR 2014",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Available from: https://github.com/pridkett/gitminer. 2013. Last Visited: Feb",
+            "url": "",
+            "venue": "Available from: https://github.com/pridkett/gitminer. 2013. Last Visited: Feb",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201cGitMiner\u201d",
+            "url": "",
+            "venue": "github.com/pridkett",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201cGremlin\u201d",
+            "url": "",
+            "venue": "",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201cGitHub Archive\u201d",
+            "url": "",
+            "venue": "http://www.githubarchive.org/",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201cRails GitMiner Dataset\u201d",
+            "url": "",
+            "venue": "github.com",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145193818",
+                    "name": "C. Bird"
+                },
+                {
+                    "authorId": "39374345",
+                    "name": "Peter C. Rigby"
+                },
+                {
+                    "authorId": "1757975",
+                    "name": "Earl T. Barr"
+                },
+                {
+                    "authorId": "2052972168",
+                    "name": "David J. Hamilton"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "1730296",
+                    "name": "Premkumar T. Devanbu"
+                }
+            ],
+            "doi": "10.1109/msr.2009.5069475",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3d7f482edc1844d85319b26ee5a2df8aac20ce89",
+            "title": "The promises and perils of mining git",
+            "url": "https://www.semanticscholar.org/paper/3d7f482edc1844d85319b26ee5a2df8aac20ce89",
+            "venue": "2009 6th IEEE International Working Conference on Mining Software Repositories",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1767600",
+                    "name": "J. Feller"
+                },
+                {
+                    "authorId": "145623071",
+                    "name": "Brian Fitzgerald"
+                },
+                {
+                    "authorId": "2244343",
+                    "name": "S. Hissam"
+                },
+                {
+                    "authorId": "72143997",
+                    "name": "Karim R. huff"
+                }
+            ],
+            "doi": "10.7551/mitpress/5326.003.0017",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1f1cfae8731b12adabbb810399127910d2aa6bd5",
+            "title": "Software Engineering Practices in the GNOME Project",
+            "url": "https://www.semanticscholar.org/paper/1f1cfae8731b12adabbb810399127910d2aa6bd5",
+            "venue": "",
+            "year": 2007
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "A network of Rails a graph dataset of Ruby on Rails and associated projects",
+    "topics": [
+        {
+            "topic": "Ruby on Rails",
+            "topicId": "353949",
+            "url": "https://www.semanticscholar.org/topic/353949"
+        },
+        {
+            "topic": "Graph database",
+            "topicId": "173574",
+            "url": "https://www.semanticscholar.org/topic/173574"
+        },
+        {
+            "topic": "Open-source software",
+            "topicId": "8878",
+            "url": "https://www.semanticscholar.org/topic/8878"
+        },
+        {
+            "topic": "Isolation (database systems)",
+            "topicId": "934491",
+            "url": "https://www.semanticscholar.org/topic/934491"
+        },
+        {
+            "topic": "Ecosystem",
+            "topicId": "727",
+            "url": "https://www.semanticscholar.org/topic/727"
+        }
+    ],
+    "url": "https://www.semanticscholar.org/paper/4f27783cc009b1516dc251ffcd75866f3bb41d1f",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2013
+}

@@ -1,0 +1,695 @@
+{
+    "abstract": "Cloud-native applications increasingly provision infrastructure resources programmatically through Infrastructure as Code (IaC) scripts. These scripts have in turn become the subject of empirical software engineering research. However, an often-overlooked part are the software ecosystems that have grown around the IaC languages. For example, Galaxy is an ecosystem for the popular Ansible IaC language. Galaxy features a large number of so-called \"roles\", which are reusable collections of Ansible code akin to libraries for general-purpose languages. In contrast to, and despite their similarities, such IaC ecosystems have enjoyed far less attention in the literature than library ecosystems for general-purpose languages.In this data showcase paper, we present Andromeda, the first dataset capturing the Ansible Galaxy ecosystem, its roles, and their evolution. Andromeda provides structural representations of more than 125 000 role versions, and upwards of 800 000 concrete changes between such versions extracted from the underlying git repositories. Andromeda aims to provide an extensive view of the contributor side of the Galaxy ecosystem, which we hope will stimulate additional research on IaC ecosystems.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2023734578",
+            "name": "R. Opdebeeck",
+            "url": "https://www.semanticscholar.org/author/2023734578"
+        },
+        {
+            "authorId": "37129683",
+            "name": "Ahmed Zerouali",
+            "url": "https://www.semanticscholar.org/author/37129683"
+        },
+        {
+            "authorId": "2502279",
+            "name": "Coen De Roover",
+            "url": "https://www.semanticscholar.org/author/2502279"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1661036943",
+                    "name": "Zakeya Namrud"
+                },
+                {
+                    "authorId": "2279032750",
+                    "name": "Komal Sarda"
+                },
+                {
+                    "authorId": "2300291719",
+                    "name": "Marin Litoiu"
+                },
+                {
+                    "authorId": "2279030091",
+                    "name": "Larisa Shwartz"
+                },
+                {
+                    "authorId": "2279029770",
+                    "name": "Ian Watts"
+                }
+            ],
+            "doi": "10.1145/3629527.3653665",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "e0053d45113546acb2cf30ab8c99cbf83eef685a",
+            "title": "KubePlaybook: A Repository of Ansible Playbooks for Kubernetes Auto-Remediation with LLMs",
+            "url": "https://www.semanticscholar.org/paper/e0053d45113546acb2cf30ab8c99cbf83eef685a",
+            "venue": "ICPE",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1381280760",
+                    "name": "Daniel Sokolowski"
+                },
+                {
+                    "authorId": "2248032398",
+                    "name": "David Spielmann"
+                },
+                {
+                    "authorId": "2299396078",
+                    "name": "Guido Salvaneschi"
+                }
+            ],
+            "doi": "10.1145/3643991.3644888",
+            "intent": [
+                "background",
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "9600ac2386161acb418f9eb44553f6050b931acf",
+            "title": "The PIPr Dataset of Public Infrastructure as Code Programs",
+            "url": "https://www.semanticscholar.org/paper/9600ac2386161acb418f9eb44553f6050b931acf",
+            "venue": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2278981412",
+                    "name": "Sunjae Kwon"
+                },
+                {
+                    "authorId": "2182349662",
+                    "name": "Sungu Lee"
+                },
+                {
+                    "authorId": "2278684339",
+                    "name": "Taehyoun Kim"
+                },
+                {
+                    "authorId": "1912898",
+                    "name": "Duksan Ryu"
+                },
+                {
+                    "authorId": "98798518",
+                    "name": "Jong-Chan Baik"
+                }
+            ],
+            "doi": "10.13052/jwe1540-9589.2263",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3e1b7600bf1dfe2c5e622fb0cc57cc4c2f7efc91",
+            "title": "Exploring LLM-based Automated Repairing of Ansible Script in Edge-Cloud Infrastructures",
+            "url": "https://www.semanticscholar.org/paper/3e1b7600bf1dfe2c5e622fb0cc57cc4c2f7efc91",
+            "venue": "J. Web Eng.",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2281975311",
+                    "name": "Weiguo Sha"
+                },
+                {
+                    "authorId": "2281996162",
+                    "name": "Minrong Wu"
+                },
+                {
+                    "authorId": "2281982921",
+                    "name": "Yuyu Qiao"
+                }
+            ],
+            "doi": "10.1109/ICAICA58456.2023.10405593",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e411fcc319db38da47b53acc561b7c18d7aaaca3",
+            "title": "Research on Automated Operation and Maintenance Methods for Power Management Networks Based on Ansible",
+            "url": "https://www.semanticscholar.org/paper/e411fcc319db38da47b53acc561b7c18d7aaaca3",
+            "venue": "2023 5th International Conference on Artificial Intelligence and Computer Applications (ICAICA)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2279032750",
+                    "name": "Komal Sarda"
+                }
+            ],
+            "doi": "10.1109/ACSOS-C58168.2023.00025",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "3a436adae0013bc53aada5b41f35fb6217b824b7",
+            "title": "Leveraging Large Language Models for Auto-remediation in Microservices Architecture",
+            "url": "https://www.semanticscholar.org/paper/3a436adae0013bc53aada5b41f35fb6217b824b7",
+            "venue": "2023 IEEE International Conference on Autonomic Computing and Self-Organizing Systems Companion (ACSOS-C)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2023734578",
+                    "name": "R. Opdebeeck"
+                },
+                {
+                    "authorId": "37129683",
+                    "name": "Ahmed Zerouali"
+                },
+                {
+                    "authorId": "2502279",
+                    "name": "Coen De Roover"
+                }
+            ],
+            "doi": "10.1109/MSR59073.2023.00079",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "117b5ddc405b85fc4adf6559702f4eda2487d5ce",
+            "title": "Control and Data Flow in Security Smell Detection for Infrastructure as Code: Is It Worth the Effort?",
+            "url": "https://www.semanticscholar.org/paper/117b5ddc405b85fc4adf6559702f4eda2487d5ce",
+            "venue": "2023 IEEE/ACM 20th International Conference on Mining Software Repositories (MSR)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2023734578",
+                    "name": "R. Opdebeeck"
+                },
+                {
+                    "authorId": "37129683",
+                    "name": "Ahmed Zerouali"
+                },
+                {
+                    "authorId": "2502279",
+                    "name": "Coen De Roover"
+                }
+            ],
+            "doi": "10.1145/3524842.3527964",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3632515dfca62c34c0b16671ae10df2660276dac",
+            "title": "Smelly Variables in Ansible Infrastructure Code: Detection, Prevalence, and Lifetime",
+            "url": "https://www.semanticscholar.org/paper/3632515dfca62c34c0b16671ae10df2660276dac",
+            "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2023734578",
+                    "name": "R. Opdebeeck"
+                },
+                {
+                    "authorId": "37129683",
+                    "name": "Ahmed Zerouali"
+                },
+                {
+                    "authorId": "2065040960",
+                    "name": "Camilo Vel\u00e1zquez-Rodr\u00edguez"
+                },
+                {
+                    "authorId": "2502279",
+                    "name": "Coen De Roover"
+                }
+            ],
+            "doi": "10.1016/J.JSS.2021.111059",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "79ad4992f28154a7295c82dde6100213867ae98c",
+            "title": "On the practice of semantic versioning for Ansible galaxy roles: An empirical study and a change classification model",
+            "url": "https://www.semanticscholar.org/paper/79ad4992f28154a7295c82dde6100213867ae98c",
+            "venue": "J. Syst. Softw.",
+            "year": 2021
+        }
+    ],
+    "corpusId": 235666072,
+    "doi": "10.1109/MSR52588.2021.00078",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 9,
+    "numCiting": 16,
+    "paperId": "09721df46fc059472c6c472ef922573949f18da6",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2037478920",
+                    "name": "Stefano Dalla Palma"
+                },
+                {
+                    "authorId": "116336149",
+                    "name": "Dario Di Nucci"
+                },
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                },
+                {
+                    "authorId": "144273542",
+                    "name": "D. Tamburri"
+                }
+            ],
+            "doi": "10.1109/TSE.2021.3051492",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "77174b11a61da8133baa60d129a63cfb9aed5175",
+            "title": "Within-Project Defect Prediction of Infrastructure-as-Code Using Product and Process Metrics",
+            "url": "https://www.semanticscholar.org/paper/77174b11a61da8133baa60d129a63cfb9aed5175",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2023734578",
+                    "name": "R. Opdebeeck"
+                },
+                {
+                    "authorId": "37129683",
+                    "name": "Ahmed Zerouali"
+                },
+                {
+                    "authorId": "2065040960",
+                    "name": "Camilo Vel\u00e1zquez-Rodr\u00edguez"
+                },
+                {
+                    "authorId": "2502279",
+                    "name": "Coen De Roover"
+                }
+            ],
+            "doi": "10.1109/SCAM51674.2020.00032",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "f386746b0d92e7a2a353c680edbbccd93964d879",
+            "title": "Does Infrastructure as Code Adhere to Semantic Versioning? An Analysis of Ansible Role Evolution",
+            "url": "https://www.semanticscholar.org/paper/f386746b0d92e7a2a353c680edbbccd93964d879",
+            "venue": "2020 IEEE 20th International Working Conference on Source Code Analysis and Manipulation (SCAM)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "152712382",
+                    "name": "Stefano Dalla Palma"
+                },
+                {
+                    "authorId": "50515157",
+                    "name": "Dario Di Nucci"
+                },
+                {
+                    "authorId": "144273542",
+                    "name": "D. Tamburri"
+                }
+            ],
+            "doi": "10.1016/j.softx.2020.100633",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2c87c04aefaa542ddb6ad0ce018756c2748c6a05",
+            "title": "AnsibleMetrics: A Python library for measuring Infrastructure-as-Code blueprints in Ansible",
+            "url": "https://www.semanticscholar.org/paper/2c87c04aefaa542ddb6ad0ce018756c2748c6a05",
+            "venue": "SoftwareX",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "66423016",
+                    "name": "Thodoris Sotiropoulos"
+                },
+                {
+                    "authorId": "7498035",
+                    "name": "Dimitris Mitropoulos"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1145/3377811.3380384",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "547d2218eddcd7c8ff52c6a6928b2f4ab1795a83",
+            "title": "Practical Fault Detection in Puppet Programs",
+            "url": "https://www.semanticscholar.org/paper/547d2218eddcd7c8ff52c6a6928b2f4ab1795a83",
+            "venue": "2020 IEEE/ACM 42nd International Conference on Software Engineering (ICSE)",
+            "year": 2020
+        },
+        {
+            "arxivId": "2005.13474",
+            "authors": [
+                {
+                    "authorId": "152712382",
+                    "name": "Stefano Dalla Palma"
+                },
+                {
+                    "authorId": "50515157",
+                    "name": "Dario Di Nucci"
+                },
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                },
+                {
+                    "authorId": "144273542",
+                    "name": "D. Tamburri"
+                }
+            ],
+            "doi": "10.1016/j.jss.2020.110726",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a85b6e89fb966584b5f81d2ec4e95ba138fc48dd",
+            "title": "Towards a Catalogue of Software Quality Metrics for Infrastructure Code",
+            "url": "https://www.semanticscholar.org/paper/a85b6e89fb966584b5f81d2ec4e95ba138fc48dd",
+            "venue": "J. Syst. Softw.",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "21668539",
+                    "name": "M. Guerriero"
+                },
+                {
+                    "authorId": "40612434",
+                    "name": "Martin Garriga"
+                },
+                {
+                    "authorId": "144273542",
+                    "name": "D. Tamburri"
+                },
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                }
+            ],
+            "doi": "10.1109/ICSME.2019.00092",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "38c556d55bfb0939938015e824709bf778e5ec85",
+            "title": "Adoption, Support, and Challenges of Infrastructure-as-Code: Insights from Industry",
+            "url": "https://www.semanticscholar.org/paper/38c556d55bfb0939938015e824709bf778e5ec85",
+            "venue": "2019 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39864830",
+                    "name": "A. Rahman"
+                },
+                {
+                    "authorId": "9449596",
+                    "name": "Md. Rayhanur Rahman"
+                },
+                {
+                    "authorId": "1765101",
+                    "name": "Chris Parnin"
+                },
+                {
+                    "authorId": "144426849",
+                    "name": "L. Williams"
+                }
+            ],
+            "doi": "10.1145/3408897",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c750940ed61bec0050297635011f2e706cf5b912",
+            "title": "Security Smells in Ansible and Chef Scripts",
+            "url": "https://www.semanticscholar.org/paper/c750940ed61bec0050297635011f2e706cf5b912",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2019
+        },
+        {
+            "arxivId": "1807.04872",
+            "authors": [
+                {
+                    "authorId": "39864830",
+                    "name": "A. Rahman"
+                },
+                {
+                    "authorId": "1414752345",
+                    "name": "Rezvan Mahdavi-Hezaveh"
+                },
+                {
+                    "authorId": "144426849",
+                    "name": "L. Williams"
+                }
+            ],
+            "doi": "10.1016/J.INFSOF.2018.12.004",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f3a83ad0e8e8d6a440034a31ebf1062811a34386",
+            "title": "Where Are The Gaps? A Systematic Mapping Study of Infrastructure as Code Research",
+            "url": "https://www.semanticscholar.org/paper/f3a83ad0e8e8d6a440034a31ebf1062811a34386",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2007882123",
+                    "name": "Tushar Sharma"
+                },
+                {
+                    "authorId": "1792039",
+                    "name": "Marios Fragkoulis"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1145/2901739.2901761",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7b7d94ad155a9c0006cf45272d60a485359252ac",
+            "title": "Does Your Configuration Code Smell?",
+            "url": "https://www.semanticscholar.org/paper/7b7d94ad155a9c0006cf45272d60a485359252ac",
+            "venue": "2016 IEEE/ACM 13th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2074606983",
+                    "name": "W. Hummer"
+                },
+                {
+                    "authorId": "144687957",
+                    "name": "Florian Rosenberg"
+                },
+                {
+                    "authorId": "2151029768",
+                    "name": "F\u00e1bio Oliveira"
+                },
+                {
+                    "authorId": "3306942",
+                    "name": "T. Eilam"
+                }
+            ],
+            "doi": "10.1007/978-3-642-45065-5_19",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "bb7ad2a01628ff10bd31631a63f1151c9e7a482b",
+            "title": "Testing Idempotence for Infrastructure as Code",
+            "url": "https://www.semanticscholar.org/paper/bb7ad2a01628ff10bd31631a63f1151c9e7a482b",
+            "venue": "Middleware",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624034",
+            "intent": [
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "2867eb64cc4bb1945363fdae12a168962ea823aa",
+            "title": "The GHTorent dataset and tool suite",
+            "url": "https://www.semanticscholar.org/paper/2867eb64cc4bb1945363fdae12a168962ea823aa",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "",
+            "title": "Provider namespaces are similar to namespaces, but represent users or organisations on GitHub",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Content can be any type of content on Galaxy, e.g., roles,",
+            "url": "",
+            "venue": "Ansible plugins",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Community surveys contain responses to quality surveys for repositories, submitted by Galaxy users",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Repositories aggregate metadata on a GitHub repository, which may contain multiple pieces of content",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "A role is a speci\ufb01c type of content, containing additional metadata",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "Andromeda: A Dataset of Ansible Galaxy Roles and Their Evolution",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/09721df46fc059472c6c472ef922573949f18da6",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2021
+}

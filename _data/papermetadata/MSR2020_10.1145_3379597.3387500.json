@@ -1,0 +1,1614 @@
+{
+    "abstract": "The data collected from open source projects provide means to model large software ecosystems, but often suffer from data quality issues, specifically, multiple author identification strings in code commits might actually be associated with one developer. While many methods have been proposed for addressing this problem, they are either heuristics requiring manual tweaking, or require too much calculation time to do pairwise comparisons for 38M author IDs in, for example, the World of Code collection. In this paper, we propose a method that finds all author IDs belonging to a single developer in this entire dataset, and share the list of all author IDs that were found to have aliases. To do this, we first create blocks of potentially connected author IDs and then use a machine learning model to predict which of these potentially related IDs belong to the same developer. We processed around 38 million author IDs and found around 14.8 million IDs to have an alias, which belong to 5.4 million different developers, with the median number of aliases being 2 per developer. This dataset can be used to create more accurate models of developer behaviour at the entire OSS ecosystem level and can be used to provide a service to rapidly resolve new author IDs.",
+    "arxivId": "2003.08349",
+    "authors": [
+        {
+            "authorId": "1557361743",
+            "name": "Tanner Fry",
+            "url": "https://www.semanticscholar.org/author/1557361743"
+        },
+        {
+            "authorId": "8041820",
+            "name": "Tapajit Dey",
+            "url": "https://www.semanticscholar.org/author/8041820"
+        },
+        {
+            "authorId": "98524776",
+            "name": "Andrey Karnauch",
+            "url": "https://www.semanticscholar.org/author/98524776"
+        },
+        {
+            "authorId": "1702551",
+            "name": "A. Mockus",
+            "url": "https://www.semanticscholar.org/author/1702551"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2409.04824",
+            "authors": [
+                {
+                    "authorId": "2057485166",
+                    "name": "Mahmoud Jahanshahi"
+                },
+                {
+                    "authorId": "2058644472",
+                    "name": "David Reid"
+                },
+                {
+                    "authorId": "2320311508",
+                    "name": "Adam McDaniel"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1488416ff0b3caec77e252756256a009f696c1cc",
+            "title": "OSS License Identification at Scale: A Comprehensive Dataset Using World of Code",
+            "url": "https://www.semanticscholar.org/paper/1488416ff0b3caec77e252756256a009f696c1cc",
+            "venue": "",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2307282321",
+                    "name": "Ajiromola Kola-Olawuyi"
+                },
+                {
+                    "authorId": "2261044260",
+                    "name": "N. Weeraddana"
+                },
+                {
+                    "authorId": "7274019",
+                    "name": "M. Nagappan"
+                }
+            ],
+            "doi": "10.1145/3643991.3644924",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "ca8fdc3dc23b403277188c526a882dac145448a1",
+            "title": "The Impact of Code Ownership of DevOps Artefacts on the Outcome of DevOps CI Builds",
+            "url": "https://www.semanticscholar.org/paper/ca8fdc3dc23b403277188c526a882dac145448a1",
+            "venue": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2113485693",
+                    "name": "Hongbo Fang"
+                },
+                {
+                    "authorId": "2262933523",
+                    "name": "James D. Herbsleb"
+                },
+                {
+                    "authorId": "2268786501",
+                    "name": "Bogdan Vasilescu"
+                }
+            ],
+            "doi": "10.1145/3597503.3608142",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "bcd3d1a87ea0e5dd88c00f3e2ef3688ee4d797ac",
+            "title": "Novelty Begets Long-Term Popularity, But Curbs Participation: A Macroscopic View of the Python Open-Source Ecosystem",
+            "url": "https://www.semanticscholar.org/paper/bcd3d1a87ea0e5dd88c00f3e2ef3688ee4d797ac",
+            "venue": "2024 IEEE/ACM 46th International Conference on Software Engineering (ICSE)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2312.09370",
+            "authors": [
+                {
+                    "authorId": "2057485166",
+                    "name": "Mahmoud Jahanshahi"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": "10.1145/3643991.3644868",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "66d8a00fe55582c86495715da256708fc70360e6",
+            "title": "Dataset: Copy-based Reuse in Open Source Software",
+            "url": "https://www.semanticscholar.org/paper/66d8a00fe55582c86495715da256708fc70360e6",
+            "venue": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2113485693",
+                    "name": "Hongbo Fang"
+                },
+                {
+                    "authorId": "2262933523",
+                    "name": "James D. Herbsleb"
+                },
+                {
+                    "authorId": "2268786501",
+                    "name": "Bogdan Vasilescu"
+                }
+            ],
+            "doi": "10.1145/3611643.3616282",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "f441d9af2c23d2864e9cbfbd6a69e9cdb4d07747",
+            "title": "Matching Skills, Past Collaboration, and Limited Competition: Modeling When Open-Source Projects Attract Contributors",
+            "url": "https://www.semanticscholar.org/paper/f441d9af2c23d2864e9cbfbd6a69e9cdb4d07747",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2153199006",
+                    "name": "Weijie Sun"
+                },
+                {
+                    "authorId": "2223130794",
+                    "name": "Samuel Iwuchukwu"
+                },
+                {
+                    "authorId": "50777874",
+                    "name": "A. A. Bangash"
+                },
+                {
+                    "authorId": "145369636",
+                    "name": "Abram Hindle"
+                }
+            ],
+            "doi": "10.1109/MSR59073.2023.00054",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "071804c1be6e618fd8877dfdd1e0e27331b5f364",
+            "title": "An Empirical Study to Investigate Collaboration Among Developers in Open Source Software (OSS)",
+            "url": "https://www.semanticscholar.org/paper/071804c1be6e618fd8877dfdd1e0e27331b5f364",
+            "venue": "2023 IEEE/ACM 20th International Conference on Mining Software Repositories (MSR)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1396200332",
+                    "name": "Gerhard Jungwirth"
+                },
+                {
+                    "authorId": "51302811",
+                    "name": "Aakanksha Saha"
+                },
+                {
+                    "authorId": "2054072272",
+                    "name": "M. Schr\u00f6der"
+                },
+                {
+                    "authorId": "33612172",
+                    "name": "T. Fiebig"
+                },
+                {
+                    "authorId": "40608753",
+                    "name": "Martina Lindorfer"
+                },
+                {
+                    "authorId": "2897763",
+                    "name": "J\u00fcrgen Cito"
+                }
+            ],
+            "doi": "10.1109/MSR59073.2023.00051",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b4d812345010d96c383fa054fc1d65009f597b40",
+            "title": "Connecting the .dotfiles: Checked-In Secret Exposure with Extra (Lateral Movement) Steps",
+            "url": "https://www.semanticscholar.org/paper/b4d812345010d96c383fa054fc1d65009f597b40",
+            "venue": "2023 IEEE/ACM 20th International Conference on Mining Software Repositories (MSR)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2304.10983",
+            "authors": [
+                {
+                    "authorId": "91023155",
+                    "name": "A. Agroskin"
+                },
+                {
+                    "authorId": "21780991",
+                    "name": "Elena Lyulina"
+                },
+                {
+                    "authorId": "2071866864",
+                    "name": "Sergey Titov"
+                },
+                {
+                    "authorId": "145218314",
+                    "name": "V. Kovalenko"
+                }
+            ],
+            "doi": "10.1109/SANER56733.2023.00067",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d9ef2311bfcc8028f96da426a5cf78cf5e0c1a84",
+            "title": "Constructing Temporal Networks of OSS Programming Language Ecosystems",
+            "url": "https://www.semanticscholar.org/paper/d9ef2311bfcc8028f96da426a5cf78cf5e0c1a84",
+            "venue": "2023 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3348154",
+                    "name": "Marco Ortu"
+                },
+                {
+                    "authorId": "2048851",
+                    "name": "Giuseppe Destefanis"
+                },
+                {
+                    "authorId": "143936625",
+                    "name": "T. Hall"
+                },
+                {
+                    "authorId": "143969104",
+                    "name": "David Bowes"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2023.107187",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "60076e5688a15253bbb18b80b2769db56d28cc02",
+            "title": "Fault-insertion and fault-fixing behavioural patterns in Apache Software Foundation Projects",
+            "url": "https://www.semanticscholar.org/paper/60076e5688a15253bbb18b80b2769db56d28cc02",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2023
+        },
+        {
+            "arxivId": "2207.01015",
+            "authors": [
+                {
+                    "authorId": "2174738095",
+                    "name": "Ahmed Samir Imam Mahmoud"
+                },
+                {
+                    "authorId": "8041820",
+                    "name": "Tapajit Dey"
+                },
+                {
+                    "authorId": "1727000",
+                    "name": "Alexander Nolte"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                },
+                {
+                    "authorId": "1705550",
+                    "name": "J. Herbsleb"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10201-x",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "dc8a53a9117bb7a97519ad9ccbb657236da96e79",
+            "title": "One-off events? An empirical study of hackathon code creation and reuse",
+            "url": "https://www.semanticscholar.org/paper/dc8a53a9117bb7a97519ad9ccbb657236da96e79",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": "2205.04268",
+            "authors": [
+                {
+                    "authorId": "2164382908",
+                    "name": "Willam Schueller"
+                },
+                {
+                    "authorId": "39963117",
+                    "name": "Johannes Wachs"
+                }
+            ],
+            "doi": "10.1177/26339137241231912",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "bbb1824f51a7291e9f2f0e43957e6d7fe50af253",
+            "title": "Modeling interconnected social and technical risks in open source software ecosystems",
+            "url": "https://www.semanticscholar.org/paper/bbb1824f51a7291e9f2f0e43957e6d7fe50af253",
+            "venue": "Collective Intelligence",
+            "year": 2022
+        },
+        {
+            "arxivId": "2205.03597",
+            "authors": [
+                {
+                    "authorId": "48175883",
+                    "name": "William Schueller"
+                },
+                {
+                    "authorId": "39963117",
+                    "name": "Johannes Wachs"
+                },
+                {
+                    "authorId": "2776193",
+                    "name": "V. Servedio"
+                },
+                {
+                    "authorId": "1723195",
+                    "name": "S. Thurner"
+                },
+                {
+                    "authorId": "148301756",
+                    "name": "V. Loreto"
+                }
+            ],
+            "doi": "10.1038/s41597-022-01819-z",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e230ded658393b34ea2d844d60d385f50ee14632",
+            "title": "Evolving collaboration, dependencies, and use in the Rust Open Source Software ecosystem",
+            "url": "https://www.semanticscholar.org/paper/e230ded658393b34ea2d844d60d385f50ee14632",
+            "venue": "Scientific Data",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2058644472",
+                    "name": "David Reid"
+                },
+                {
+                    "authorId": "2057485166",
+                    "name": "Mahmoud Jahanshahi"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": "10.1145/3510003.3510216",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "db5c5f69cbf840a1b70087a17ea1f2d89c481a38",
+            "title": "The Extent of Orphan Vulnerabilities from Code Reuse in Open Source Software",
+            "url": "https://www.semanticscholar.org/paper/db5c5f69cbf840a1b70087a17ea1f2d89c481a38",
+            "venue": "2022 IEEE/ACM 44th International Conference on Software Engineering (ICSE)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2201.11657",
+            "authors": [
+                {
+                    "authorId": "40033559",
+                    "name": "Sourya Dey"
+                },
+                {
+                    "authorId": "86941640",
+                    "name": "Walt Woods"
+                }
+            ],
+            "doi": "10.1145/3524842.3528504",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b31dab638c3150593bd4c09db939d5e567c00d8e",
+            "title": "LAGOON: An Analysis Tool for Open Source Communities",
+            "url": "https://www.semanticscholar.org/paper/b31dab638c3150593bd4c09db939d5e567c00d8e",
+            "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1754291",
+                    "name": "N. Gold"
+                },
+                {
+                    "authorId": "1824150",
+                    "name": "J. Krinke"
+                }
+            ],
+            "doi": "10.1007/s10664-021-10057-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8a7ab081a35f9f7336c60d6cf1c6a9627e8c71e1",
+            "title": "Ethics in the mining of software repositories",
+            "url": "https://www.semanticscholar.org/paper/8a7ab081a35f9f7336c60d6cf1c6a9627e8c71e1",
+            "venue": "Empirical Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": "2107.03200",
+            "authors": [
+                {
+                    "authorId": "39963117",
+                    "name": "Johannes Wachs"
+                },
+                {
+                    "authorId": "2117705823",
+                    "name": "Mariusz Nitecki"
+                },
+                {
+                    "authorId": "48175883",
+                    "name": "William Schueller"
+                },
+                {
+                    "authorId": "1708607",
+                    "name": "A. Polleres"
+                }
+            ],
+            "doi": "10.1016/j.techfore.2022.121478",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "41ce104079b61ad0cd61a7884dbc829e2ec348a8",
+            "title": "The Geography of Open Source Software: Evidence from GitHub",
+            "url": "https://www.semanticscholar.org/paper/41ce104079b61ad0cd61a7884dbc829e2ec348a8",
+            "venue": "Technological Forecasting and Social Change",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.12168",
+            "authors": [
+                {
+                    "authorId": "21780991",
+                    "name": "Elena Lyulina"
+                },
+                {
+                    "authorId": "2057485166",
+                    "name": "Mahmoud Jahanshahi"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00086",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6e1c2ed0d4c3ea5780e9c295a60b1814791336e0",
+            "title": "Building the Collaboration Graph of Open-Source Software Ecosystem",
+            "url": "https://www.semanticscholar.org/paper/6e1c2ed0d4c3ea5780e9c295a60b1814791336e0",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.11007",
+            "authors": [
+                {
+                    "authorId": "2232853",
+                    "name": "Jean-Gabriel Young"
+                },
+                {
+                    "authorId": "1413053668",
+                    "name": "Amanda Casari"
+                },
+                {
+                    "authorId": "2058592124",
+                    "name": "Katie McLaughlin"
+                },
+                {
+                    "authorId": "1612340138",
+                    "name": "Milo Z. Trujillo"
+                },
+                {
+                    "authorId": "2023694909",
+                    "name": "Laurent H'ebert-Dufresne"
+                },
+                {
+                    "authorId": "2229958",
+                    "name": "James P. Bagrow"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00036",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "50a8982971266f850c87bf6cf65b10fdce0ed870",
+            "title": "Which contributions count? Analysis of attribution in open source",
+            "url": "https://www.semanticscholar.org/paper/50a8982971266f850c87bf6cf65b10fdce0ed870",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.10167",
+            "authors": [
+                {
+                    "authorId": "1643783463",
+                    "name": "Ahmed Imam"
+                },
+                {
+                    "authorId": "8041820",
+                    "name": "Tapajit Dey"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00085",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "56f1ce9f5d440fc7fcdca4517422aa31a4e226bf",
+            "title": "Tracking Hackathon Code Creation and Reuse",
+            "url": "https://www.semanticscholar.org/paper/56f1ce9f5d440fc7fcdca4517422aa31a4e226bf",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.01145",
+            "authors": [
+                {
+                    "authorId": "1643783463",
+                    "name": "Ahmed Imam"
+                },
+                {
+                    "authorId": "8041820",
+                    "name": "Tapajit Dey"
+                },
+                {
+                    "authorId": "1727000",
+                    "name": "Alexander Nolte"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                },
+                {
+                    "authorId": "1705550",
+                    "name": "J. Herbsleb"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00020",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c5a850f50a95a56cf7000425c8bb59e87f80d6ee",
+            "title": "The Secret Life of Hackathon Code Where does it come from and where does it go?",
+            "url": "https://www.semanticscholar.org/paper/c5a850f50a95a56cf7000425c8bb59e87f80d6ee",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2010.16196",
+            "authors": [
+                {
+                    "authorId": "7777374",
+                    "name": "Yuxing Ma"
+                },
+                {
+                    "authorId": "8041820",
+                    "name": "Tapajit Dey"
+                },
+                {
+                    "authorId": "2065313146",
+                    "name": "Chris Bogart"
+                },
+                {
+                    "authorId": "3110752",
+                    "name": "Sadika Amreen"
+                },
+                {
+                    "authorId": "2091537692",
+                    "name": "Marat Valiev"
+                },
+                {
+                    "authorId": "1866565388",
+                    "name": "Adam Tutko"
+                },
+                {
+                    "authorId": "2081943297",
+                    "name": "David Kennard"
+                },
+                {
+                    "authorId": "2858102",
+                    "name": "R. Zaretzki"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09905-9",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "12404a5147b39e9a34849606bf2c056f84903c8d",
+            "title": "World of code: enabling a research workflow for mining and analyzing the universe of open source VCS data",
+            "url": "https://www.semanticscholar.org/paper/12404a5147b39e9a34849606bf2c056f84903c8d",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "66607870",
+                    "name": "Yisen Xu"
+                },
+                {
+                    "authorId": "2116490577",
+                    "name": "Fan Wu"
+                },
+                {
+                    "authorId": "35219802",
+                    "name": "Xiangyang Jia"
+                },
+                {
+                    "authorId": "1965963923",
+                    "name": "Lingbo Li"
+                },
+                {
+                    "authorId": "8050585",
+                    "name": "J. Xuan"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09842-7",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "43cbf1f9b55490d5932aa69ecf44f57d98c46ea6",
+            "title": "Mining the use of higher-order functions:",
+            "url": "https://www.semanticscholar.org/paper/43cbf1f9b55490d5932aa69ecf44f57d98c46ea6",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": "2007.04816",
+            "authors": [
+                {
+                    "authorId": "8041820",
+                    "name": "Tapajit Dey"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": "10.1145/3382494.3410685",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "abe78288366f7b38149ca0853daa65a4d1b71214",
+            "title": "Effect of Technical and Social Factors on Pull Request Quality for the NPM Ecosystem",
+            "url": "https://www.semanticscholar.org/paper/abe78288366f7b38149ca0853daa65a4d1b71214",
+            "venue": "ESEM",
+            "year": 2020
+        },
+        {
+            "arxivId": "2005.10176",
+            "authors": [
+                {
+                    "authorId": "8041820",
+                    "name": "Tapajit Dey"
+                },
+                {
+                    "authorId": "98524776",
+                    "name": "Andrey Karnauch"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": "10.1109/ICSE43902.2021.00094",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d558e0171d1cb60071ec5d55c222823005141067",
+            "title": "Representation of Developer Expertise in Open Source Software",
+            "url": "https://www.semanticscholar.org/paper/d558e0171d1cb60071ec5d55c222823005141067",
+            "venue": "2021 IEEE/ACM 43rd International Conference on Software Engineering (ICSE)",
+            "year": 2020
+        },
+        {
+            "arxivId": "2003.07961",
+            "authors": [
+                {
+                    "authorId": "8041820",
+                    "name": "Tapajit Dey"
+                },
+                {
+                    "authorId": "2434621",
+                    "name": "Bogdan Vasilescu"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": "10.1145/3387940.3391502",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c6e1e2b00feca97b662fe67af434f090df3fc339",
+            "title": "An Exploratory Study of Bot Commits",
+            "url": "https://www.semanticscholar.org/paper/c6e1e2b00feca97b662fe67af434f090df3fc339",
+            "venue": "ICSE",
+            "year": 2020
+        },
+        {
+            "arxivId": "2003.03172",
+            "authors": [
+                {
+                    "authorId": "8041820",
+                    "name": "Tapajit Dey"
+                },
+                {
+                    "authorId": "2053564239",
+                    "name": "Sara Mousavi"
+                },
+                {
+                    "authorId": "144167059",
+                    "name": "Eduardo Ponce"
+                },
+                {
+                    "authorId": "1557361743",
+                    "name": "Tanner Fry"
+                },
+                {
+                    "authorId": "2434621",
+                    "name": "Bogdan Vasilescu"
+                },
+                {
+                    "authorId": "145853127",
+                    "name": "Anna Filippova"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": "10.1145/3379597.3387478",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a743e4b5cafbe988a02be3f981e2724963ee4ef2",
+            "title": "Detecting and Characterizing Bots that Commit Code",
+            "url": "https://www.semanticscholar.org/paper/a743e4b5cafbe988a02be3f981e2724963ee4ef2",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2020
+        },
+        {
+            "arxivId": "1911.09484",
+            "authors": [
+                {
+                    "authorId": "3327783",
+                    "name": "Christoph Gote"
+                },
+                {
+                    "authorId": "1796314",
+                    "name": "Ingo Scholtes"
+                },
+                {
+                    "authorId": "1733303",
+                    "name": "F. Schweitzer"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09928-2",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1b83444148a5b1052a1ed9aeb7ed1b70bfbe52b3",
+            "title": "Analysing Time-Stamped Co-Editing Networks in Software Development Teams using git2net",
+            "url": "https://www.semanticscholar.org/paper/1b83444148a5b1052a1ed9aeb7ed1b70bfbe52b3",
+            "venue": "Empirical Software Engineering",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2309583",
+                    "name": "Z. Alshara"
+                },
+                {
+                    "authorId": "34826773",
+                    "name": "Anas Shatnawi"
+                },
+                {
+                    "authorId": "1417856448",
+                    "name": "Hamzeh Eyal-Salman"
+                },
+                {
+                    "authorId": "2033929",
+                    "name": "A. Seriai"
+                },
+                {
+                    "authorId": "2349041",
+                    "name": "M. Shatnawi"
+                }
+            ],
+            "doi": "10.1109/ACCESS.2022.3232982",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c9217b082aaa6399c4bbec27a24a5132b7770192",
+            "title": "PI-Link: A Ground-Truth Dataset of Links Between Pull-Requests and Issues in GitHub",
+            "url": "https://www.semanticscholar.org/paper/c9217b082aaa6399c4bbec27a24a5132b7770192",
+            "venue": "IEEE Access",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "150016139",
+                    "name": "Alexa Hernandez"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c006142542206eafc16e48ef1f0076cc639d0cab",
+            "title": "Understanding Test Convention Consistency as a Dimension of Test Quality",
+            "url": "https://www.semanticscholar.org/paper/c006142542206eafc16e48ef1f0076cc639d0cab",
+            "venue": "",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1474566818",
+                    "name": "Noppadol Assavakamhaenghan"
+                },
+                {
+                    "authorId": "84165401",
+                    "name": "Supatsara Wattanakriengkrai"
+                },
+                {
+                    "authorId": "2067298393",
+                    "name": "Naomichi Shimada"
+                },
+                {
+                    "authorId": "1680034",
+                    "name": "R. Kula"
+                },
+                {
+                    "authorId": "145682543",
+                    "name": "T. Ishio"
+                },
+                {
+                    "authorId": "2148302707",
+                    "name": "Kenichi Matsumoto"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5e21f779806557d18098a70402aefaa505fefd5d",
+            "title": "Does the First-Response Matter for Future Contributions? A Study of First Contributions*",
+            "url": "https://www.semanticscholar.org/paper/5e21f779806557d18098a70402aefaa505fefd5d",
+            "venue": "",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3348154",
+                    "name": "Marco Ortu"
+                },
+                {
+                    "authorId": "2048851",
+                    "name": "Giuseppe Destefanis"
+                },
+                {
+                    "authorId": "2285514898",
+                    "name": "Tracy Hall"
+                },
+                {
+                    "authorId": "143969104",
+                    "name": "David Bowes"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "186e46c03cf4f2e0fb29ad5a1cbd2c7e0a73bda2",
+            "title": "Information and Software Technology",
+            "url": "https://www.semanticscholar.org/paper/186e46c03cf4f2e0fb29ad5a1cbd2c7e0a73bda2",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2318907325",
+                    "name": "Stefano Campanella"
+                },
+                {
+                    "authorId": "2318743446",
+                    "name": "Michele Lanza"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "48d6104bc72e6f63246797f0f1603416cf39cc95",
+            "title": "Hidden in the Code: Visualizing True Developer Identities",
+            "url": "https://www.semanticscholar.org/paper/48d6104bc72e6f63246797f0f1603416cf39cc95",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "corpusId": 212747889,
+    "doi": "10.1145/3379597.3387500",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 32,
+    "numCiting": 22,
+    "paperId": "c8d40343dfc0654154e42717209e1d6ab70ebc01",
+    "references": [
+        {
+            "arxivId": "2003.07961",
+            "authors": [
+                {
+                    "authorId": "8041820",
+                    "name": "Tapajit Dey"
+                },
+                {
+                    "authorId": "2434621",
+                    "name": "Bogdan Vasilescu"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": "10.1145/3387940.3391502",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c6e1e2b00feca97b662fe67af434f090df3fc339",
+            "title": "An Exploratory Study of Bot Commits",
+            "url": "https://www.semanticscholar.org/paper/c6e1e2b00feca97b662fe67af434f090df3fc339",
+            "venue": "ICSE",
+            "year": 2020
+        },
+        {
+            "arxivId": "2003.01153",
+            "authors": [
+                {
+                    "authorId": "8041820",
+                    "name": "Tapajit Dey"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e9fff6449a13f2c9ce548cab4cc0701f7466c77a",
+            "title": "Which Pull Requests Get Accepted and Why? A study of popular NPM Packages",
+            "url": "https://www.semanticscholar.org/paper/e9fff6449a13f2c9ce548cab4cc0701f7466c77a",
+            "venue": "ArXiv",
+            "year": 2020
+        },
+        {
+            "arxivId": "2003.03172",
+            "authors": [
+                {
+                    "authorId": "8041820",
+                    "name": "Tapajit Dey"
+                },
+                {
+                    "authorId": "2053564239",
+                    "name": "Sara Mousavi"
+                },
+                {
+                    "authorId": "144167059",
+                    "name": "Eduardo Ponce"
+                },
+                {
+                    "authorId": "1557361743",
+                    "name": "Tanner Fry"
+                },
+                {
+                    "authorId": "2434621",
+                    "name": "Bogdan Vasilescu"
+                },
+                {
+                    "authorId": "145853127",
+                    "name": "Anna Filippova"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": "10.1145/3379597.3387478",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a743e4b5cafbe988a02be3f981e2724963ee4ef2",
+            "title": "Detecting and Characterizing Bots that Commit Code",
+            "url": "https://www.semanticscholar.org/paper/a743e4b5cafbe988a02be3f981e2724963ee4ef2",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2020
+        },
+        {
+            "arxivId": "2002.09989",
+            "authors": [
+                {
+                    "authorId": "8041820",
+                    "name": "Tapajit Dey"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": "10.1007/s10664-019-09791-w",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "decc56122a977d1b8071dd325f0f990cd4557d6b",
+            "title": "Deriving a usage-independent software quality metric",
+            "url": "https://www.semanticscholar.org/paper/decc56122a977d1b8071dd325f0f990cd4557d6b",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3110752",
+                    "name": "Sadika Amreen"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                },
+                {
+                    "authorId": "2858102",
+                    "name": "R. Zaretzki"
+                },
+                {
+                    "authorId": "2065313146",
+                    "name": "Chris Bogart"
+                },
+                {
+                    "authorId": "2108079034",
+                    "name": "Yuxia Zhang"
+                }
+            ],
+            "doi": "10.1007/s10664-019-09786-7",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "8385e8ccc91f621936989eab69499b10414a5cd8",
+            "title": "ALFAA: Active Learning Fingerprint based Anti-Aliasing for correcting developer identity errors in version control systems",
+            "url": "https://www.semanticscholar.org/paper/8385e8ccc91f621936989eab69499b10414a5cd8",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": "1907.06538",
+            "authors": [
+                {
+                    "authorId": "8041820",
+                    "name": "Tapajit Dey"
+                },
+                {
+                    "authorId": "7777374",
+                    "name": "Yuxing Ma"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": "10.1145/3345629.3345634",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "43c8db3f20667f90d3ef5151d7b518456b7ece4e",
+            "title": "Patterns of Effort Contribution and Demand and User Classification based on Participation Patterns in NPM Ecosystem",
+            "url": "https://www.semanticscholar.org/paper/43c8db3f20667f90d3ef5151d7b518456b7ece4e",
+            "venue": "PROMISE",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "7777374",
+                    "name": "Yuxing Ma"
+                },
+                {
+                    "authorId": "2065313146",
+                    "name": "Chris Bogart"
+                },
+                {
+                    "authorId": "3110752",
+                    "name": "Sadika Amreen"
+                },
+                {
+                    "authorId": "2858102",
+                    "name": "R. Zaretzki"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00031",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "53b56a0f176d2fb025678d864dd6e390282ffbea",
+            "title": "World of Code: An Infrastructure for Mining the Universe of Open Source VCS Data",
+            "url": "https://www.semanticscholar.org/paper/53b56a0f176d2fb025678d864dd6e390282ffbea",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8041820",
+                    "name": "Tapajit Dey"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": "10.1145/3273934.3273942",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b010fe08ccae77d4af3e6d12dc5a2eadd241bddd",
+            "title": "Are Software Dependency Supply Chain Metrics Useful in Predicting Change of Popularity of NPM Packages?",
+            "url": "https://www.semanticscholar.org/paper/b010fe08ccae77d4af3e6d12dc5a2eadd241bddd",
+            "venue": "PROMISE",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8041820",
+                    "name": "Tapajit Dey"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": "10.1145/3273934.3273941",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "70c8b3fe409e7f06381c8c1f6bdea13716447199",
+            "title": "Modeling Relationship between Post-Release Faults and Usage in Mobile Software",
+            "url": "https://www.semanticscholar.org/paper/70c8b3fe409e7f06381c8c1f6bdea13716447199",
+            "venue": "PROMISE",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "23215444",
+                    "name": "Yunxiang Xiong"
+                },
+                {
+                    "authorId": "23129238",
+                    "name": "Zhangyuan Meng"
+                },
+                {
+                    "authorId": "37421035",
+                    "name": "Beijun Shen"
+                },
+                {
+                    "authorId": "2066489823",
+                    "name": "Wei Yin"
+                }
+            ],
+            "doi": "10.18293/SEKE2017-062",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ec3e5a2fd771cf28315923f07e8a55dd7872aac1",
+            "title": "Mining Developer Behavior Across GitHub and StackOverflow",
+            "url": "https://www.semanticscholar.org/paper/ec3e5a2fd771cf28315923f07e8a55dd7872aac1",
+            "venue": "SEKE",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2381447",
+                    "name": "I. Wiese"
+                },
+                {
+                    "authorId": "2111424330",
+                    "name": "Jos\u00e9 Teodoro da Silva"
+                },
+                {
+                    "authorId": "2091414",
+                    "name": "Igor Steinmacher"
+                },
+                {
+                    "authorId": "1685418",
+                    "name": "Christoph Treude"
+                },
+                {
+                    "authorId": "143911967",
+                    "name": "M. Gerosa"
+                }
+            ],
+            "doi": "10.1109/ICSME.2016.13",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9810fd9f6b4b5769c85fd74c8441e15ff5ac2d93",
+            "title": "Who is Who in the Mailing List? Comparing Six Disambiguation Heuristics to Identify Multiple Addresses of a Participant",
+            "url": "https://www.semanticscholar.org/paper/9810fd9f6b4b5769c85fd74c8441e15ff5ac2d93",
+            "venue": "2016 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3155647",
+                    "name": "Mohammad Gharehyazie"
+                },
+                {
+                    "authorId": "49703359",
+                    "name": "Daryl Posnett"
+                },
+                {
+                    "authorId": "2434621",
+                    "name": "Bogdan Vasilescu"
+                },
+                {
+                    "authorId": "3179220",
+                    "name": "V. Filkov"
+                }
+            ],
+            "doi": "10.1007/s10664-014-9332-x",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "93d4748f75f46bbcc8940b7bf2921eae7abaf2a2",
+            "title": "Developer initiation and social interactions in OSS: A case study of the Apache Software Foundation",
+            "url": "https://www.semanticscholar.org/paper/93d4748f75f46bbcc8940b7bf2921eae7abaf2a2",
+            "venue": "Empirical Software Engineering",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2434621",
+                    "name": "Bogdan Vasilescu"
+                },
+                {
+                    "authorId": "1747171",
+                    "name": "Alexander Serebrenik"
+                },
+                {
+                    "authorId": "3179220",
+                    "name": "V. Filkov"
+                }
+            ],
+            "doi": "10.1109/MSR.2015.77",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5077b7b61e49e3211001209b055a0d3e0f486e7c",
+            "title": "A Data Set for Social Diversity Studies of GitHub Teams",
+            "url": "https://www.semanticscholar.org/paper/5077b7b61e49e3211001209b055a0d3e0f486e7c",
+            "venue": "2015 IEEE/ACM 12th Working Conference on Mining Software Repositories",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": "10.1145/1882291.1882311",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d036c3ffd47c3ea89ab11fdefb63f25057908d5c",
+            "title": "Organizational volatility and its effects on software defects",
+            "url": "https://www.semanticscholar.org/paper/d036c3ffd47c3ea89ab11fdefb63f25057908d5c",
+            "venue": "FSE '10",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2594381",
+                    "name": "Randy L. Hackbarth"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                },
+                {
+                    "authorId": "3135929",
+                    "name": "J. Palframan"
+                },
+                {
+                    "authorId": "1773783",
+                    "name": "D. Weiss"
+                }
+            ],
+            "doi": "10.1007/s10664-009-9120-1",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "83bab240cde01abb92339e89a97b231deb48227f",
+            "title": "Assessing the state of software in a large enterprise",
+            "url": "https://www.semanticscholar.org/paper/83bab240cde01abb92339e89a97b231deb48227f",
+            "venue": "Empirical Software Engineering",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2372612",
+                    "name": "Pierre Naubourg"
+                },
+                {
+                    "authorId": "32618021",
+                    "name": "V. Lopes"
+                },
+                {
+                    "authorId": "2104997645",
+                    "name": "Laurent Bossu"
+                }
+            ],
+            "doi": "10.1109/SITIS.2008.83",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1761e0f32c82bd72eb8ba10ba2f954ebb3726afd",
+            "title": "A Case Study of Open Source Software Development in Proteomic Area: The LIMS ePims",
+            "url": "https://www.semanticscholar.org/paper/1761e0f32c82bd72eb8ba10ba2f954ebb3726afd",
+            "venue": "2008 IEEE International Conference on Signal Image Technology and Internet Based Systems",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1557316739",
+                    "name": "Justin Schwartz"
+                }
+            ],
+            "doi": "10.1038/123373d0",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0a2c1509c36c80fe7457df33d94c0d0550681a40",
+            "title": "Engineering",
+            "url": "https://www.semanticscholar.org/paper/0a2c1509c36c80fe7457df33d94c0d0550681a40",
+            "venue": "Nature",
+            "year": 1929
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3110752",
+                    "name": "Sadika Amreen"
+                },
+                {
+                    "authorId": "2416088",
+                    "name": "B. Bichescu"
+                },
+                {
+                    "authorId": "2093806",
+                    "name": "Randy V. Bradley"
+                },
+                {
+                    "authorId": "8041820",
+                    "name": "Tapajit Dey"
+                },
+                {
+                    "authorId": "7777374",
+                    "name": "Yuxing Ma"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                },
+                {
+                    "authorId": "2053564239",
+                    "name": "Sara Mousavi"
+                },
+                {
+                    "authorId": "2858102",
+                    "name": "R. Zaretzki"
+                }
+            ],
+            "doi": "10.1007/978-981-13-7099-1_1",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ea76fc2a940c9b64364c88dd951c3a84ec0d30b8",
+            "title": "A Methodology for Measuring FLOSS Ecosystems",
+            "url": "https://www.semanticscholar.org/paper/ea76fc2a940c9b64364c88dd951c3a84ec0d30b8",
+            "venue": "Towards Engineering Free/Libre Open Source Software (FLOSS) Ecosystems for Impact and Sustainability",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Mining Email Social Networks (MSR \u201906)",
+            "url": "",
+            "venue": "",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                }
+            ],
+            "doi": "10.1049/IC:20040469",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b2ee79911306dc39e5d018d02e593003530bcb34",
+            "title": "Mining CVS repositories, the softChange experience",
+            "url": "https://www.semanticscholar.org/paper/b2ee79911306dc39e5d018d02e593003530bcb34",
+            "venue": "MSR",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "dd869ae979d9ea0dfe2692b87ccfec78cc1b7711",
+            "title": "Automating the Measurement of Open Source Projects",
+            "url": "https://www.semanticscholar.org/paper/dd869ae979d9ea0dfe2692b87ccfec78cc1b7711",
+            "venue": "",
+            "year": 2003
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                },
+                {
+                    "authorId": "1806247",
+                    "name": "R. Fielding"
+                },
+                {
+                    "authorId": "1705550",
+                    "name": "J. Herbsleb"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2f40d0ee2ca5f6845f553b7b6e385a03ace36607",
+            "title": "Source Software Development : The Apache Server",
+            "url": "https://www.semanticscholar.org/paper/2f40d0ee2ca5f6845f553b7b6e385a03ace36607",
+            "venue": "",
+            "year": 2000
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "A Dataset and an Approach for Identity Resolution of 38 Million Author IDs extracted from 2B Git Commits",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/c8d40343dfc0654154e42717209e1d6ab70ebc01",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2020
+}

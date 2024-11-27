@@ -1,0 +1,1759 @@
+{
+    "abstract": "Large Language Models (LLMs) like Codex are powerful tools for performing code completion and code generation tasks as they are trained on billions of lines of code from publicly available sources. Moreover, these models are capable of generating code snippets from Natural Language (NL) descriptions by learning languages and programming practices from public GitHub repositories. Although LLMs promise an effortless NL-driven deployment of software applications, the security of the code they generate has not been extensively investigated nor documented. In this work, we present LLMSecEval, a dataset containing 150 NL prompts that can be leveraged for assessing the security performance of such models. Such prompts are NL descriptions of code snippets prone to various security vulnerabilities listed in MITRE\u2019s Top 25 Common Weakness Enumeration (CWE) ranking. Each prompt in our dataset comes with a secure implementation example to facilitate comparative evaluations against code produced by LLMs. As a practical application, we show how LLMSecEval can be used for evaluating the security of snippets automatically generated from NL descriptions.",
+    "arxivId": "2303.09384",
+    "authors": [
+        {
+            "authorId": "2164989094",
+            "name": "Catherine Tony",
+            "url": "https://www.semanticscholar.org/author/2164989094"
+        },
+        {
+            "authorId": "2211737182",
+            "name": "Markus Mutas",
+            "url": "https://www.semanticscholar.org/author/2211737182"
+        },
+        {
+            "authorId": "2210729647",
+            "name": "Nicol\u00e1s E. D\u00edaz Ferreyra",
+            "url": "https://www.semanticscholar.org/author/2210729647"
+        },
+        {
+            "authorId": "1723601",
+            "name": "R. Scandariato",
+            "url": "https://www.semanticscholar.org/author/1723601"
+        }
+    ],
+    "citationVelocity": 13,
+    "citations": [
+        {
+            "arxivId": "2408.11060",
+            "authors": [
+                {
+                    "authorId": "3102537",
+                    "name": "J. D. Vecchio"
+                },
+                {
+                    "authorId": "2316558798",
+                    "name": "Andrew Perreault"
+                },
+                {
+                    "authorId": "2316560979",
+                    "name": "Eliana Furmanek"
+                }
+            ],
+            "doi": "10.48550/arXiv.2408.11060",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "25a1176d68998d13ba92976d6211f54f4c721459",
+            "title": "Dynamic Code Orchestration: Harnessing the Power of Large Language Models for Adaptive Script Execution",
+            "url": "https://www.semanticscholar.org/paper/25a1176d68998d13ba92976d6211f54f4c721459",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": "2407.07064",
+            "authors": [
+                {
+                    "authorId": "2164989094",
+                    "name": "Catherine Tony"
+                },
+                {
+                    "authorId": "2278790365",
+                    "name": "Nicol'as E. D'iaz Ferreyra"
+                },
+                {
+                    "authorId": "2211737182",
+                    "name": "Markus Mutas"
+                },
+                {
+                    "authorId": "2310436158",
+                    "name": "Salem Dhiff"
+                },
+                {
+                    "authorId": "2278794889",
+                    "name": "Riccardo Scandariato"
+                }
+            ],
+            "doi": "10.48550/arXiv.2407.07064",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b5efc80da0bd72e7059470c1a9a6c34ab6f966a6",
+            "title": "Prompting Techniques for Secure Code Generation: A Systematic Investigation",
+            "url": "https://www.semanticscholar.org/paper/b5efc80da0bd72e7059470c1a9a6c34ab6f966a6",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2276234507",
+                    "name": "Yuya Sasaki"
+                },
+                {
+                    "authorId": "1794290",
+                    "name": "H. Washizaki"
+                },
+                {
+                    "authorId": "2293142356",
+                    "name": "Jialong Li"
+                },
+                {
+                    "authorId": "2317106295",
+                    "name": "Dominik Sander"
+                },
+                {
+                    "authorId": "2241907402",
+                    "name": "Nobukazu Yoshioka"
+                },
+                {
+                    "authorId": "1759835",
+                    "name": "Y. Fukazawa"
+                }
+            ],
+            "doi": "10.1109/COMPSAC61105.2024.00096",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "21b28bb0bf81812d97da95da155cc52d795de0ad",
+            "title": "Systematic Literature Review of Prompt Engineering Patterns in Software Engineering",
+            "url": "https://www.semanticscholar.org/paper/21b28bb0bf81812d97da95da155cc52d795de0ad",
+            "venue": "2024 IEEE 48th Annual Computers, Software, and Applications Conference (COMPSAC)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2407.02518",
+            "authors": [
+                {
+                    "authorId": "2258548905",
+                    "name": "Hung Le"
+                },
+                {
+                    "authorId": "2118860628",
+                    "name": "Yingbo Zhou"
+                },
+                {
+                    "authorId": "2292439981",
+                    "name": "Caiming Xiong"
+                },
+                {
+                    "authorId": "2238207181",
+                    "name": "Silvio Savarese"
+                },
+                {
+                    "authorId": "36187119",
+                    "name": "Doyen Sahoo"
+                }
+            ],
+            "doi": "10.48550/arXiv.2407.02518",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "dab57aa71794781ae305218fce9fd004ecdfc4f0",
+            "title": "INDICT: Code Generation with Internal Dialogues of Critiques for Both Security and Helpfulness",
+            "url": "https://www.semanticscholar.org/paper/dab57aa71794781ae305218fce9fd004ecdfc4f0",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1844295395",
+                    "name": "Claudia Negri Ribalta"
+                },
+                {
+                    "authorId": "2301388785",
+                    "name": "R\u00e9mi Geraud-Stewart"
+                },
+                {
+                    "authorId": "2113910200",
+                    "name": "A. Sergeeva"
+                },
+                {
+                    "authorId": "2242640006",
+                    "name": "Gabriele Lenzini"
+                }
+            ],
+            "doi": "10.3389/fdata.2024.1386720",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2eebee74ef2f8f1f7d5fe48c1712762d2d99f1f9",
+            "title": "A systematic literature review on the impact of AI models on the security of code generation",
+            "url": "https://www.semanticscholar.org/paper/2eebee74ef2f8f1f7d5fe48c1712762d2d99f1f9",
+            "venue": "Frontiers Big Data",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1661036943",
+                    "name": "Zakeya Namrud"
+                },
+                {
+                    "authorId": "2279032750",
+                    "name": "Komal Sarda"
+                },
+                {
+                    "authorId": "2300291719",
+                    "name": "Marin Litoiu"
+                },
+                {
+                    "authorId": "2279030091",
+                    "name": "Larisa Shwartz"
+                },
+                {
+                    "authorId": "2279029770",
+                    "name": "Ian Watts"
+                }
+            ],
+            "doi": "10.1145/3629527.3653665",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e0053d45113546acb2cf30ab8c99cbf83eef685a",
+            "title": "KubePlaybook: A Repository of Ansible Playbooks for Kubernetes Auto-Remediation with LLMs",
+            "url": "https://www.semanticscholar.org/paper/e0053d45113546acb2cf30ab8c99cbf83eef685a",
+            "venue": "ICPE",
+            "year": 2024
+        },
+        {
+            "arxivId": "2405.03644",
+            "authors": [
+                {
+                    "authorId": "2300373722",
+                    "name": "Jie Zhang"
+                },
+                {
+                    "authorId": "2300091500",
+                    "name": "Haoyu Bu"
+                },
+                {
+                    "authorId": "2300083605",
+                    "name": "Hui Wen"
+                },
+                {
+                    "authorId": "2300163790",
+                    "name": "Yu Chen"
+                },
+                {
+                    "authorId": "2300196563",
+                    "name": "Lun Li"
+                },
+                {
+                    "authorId": "2300134286",
+                    "name": "Hongsong Zhu"
+                }
+            ],
+            "doi": "10.48550/arXiv.2405.03644",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "bf0e9446eca16e8ac1e759dce6a7b3f22d2111de",
+            "title": "When LLMs Meet Cybersecurity: A Systematic Literature Review",
+            "url": "https://www.semanticscholar.org/paper/bf0e9446eca16e8ac1e759dce6a7b3f22d2111de",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": "2405.05541",
+            "authors": [
+                {
+                    "authorId": "2300370621",
+                    "name": "Philip Oliver"
+                },
+                {
+                    "authorId": "2300371031",
+                    "name": "Jens Dietrich"
+                },
+                {
+                    "authorId": "1741672",
+                    "name": "C. Anslow"
+                },
+                {
+                    "authorId": "2239110364",
+                    "name": "Michael Homer"
+                }
+            ],
+            "doi": "10.1145/3643991.3644912",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "aee4ae2631ef612458fead210ce214b3ffb1d6dd",
+            "title": "CrashJS: A NodeJS Benchmark for Automated Crash Reproduction",
+            "url": "https://www.semanticscholar.org/paper/aee4ae2631ef612458fead210ce214b3ffb1d6dd",
+            "venue": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2404.07548",
+            "authors": [
+                {
+                    "authorId": "2262446310",
+                    "name": "Domenico Cotroneo"
+                },
+                {
+                    "authorId": "2240543530",
+                    "name": "Roberta de Luca"
+                },
+                {
+                    "authorId": "52013287",
+                    "name": "Pietro Liguori"
+                }
+            ],
+            "doi": "10.48550/arXiv.2404.07548",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a2d58458ac8956bb69ebb281b83b871cc48ee27b",
+            "title": "DeVAIC: A Tool for Security Assessment of AI-generated Code",
+            "url": "https://www.semanticscholar.org/paper/a2d58458ac8956bb69ebb281b83b871cc48ee27b",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": "2403.07974",
+            "authors": [
+                {
+                    "authorId": "1646458461",
+                    "name": "Naman Jain"
+                },
+                {
+                    "authorId": "2291438028",
+                    "name": "King Han"
+                },
+                {
+                    "authorId": "2261364306",
+                    "name": "Alex Gu"
+                },
+                {
+                    "authorId": "2288349006",
+                    "name": "Wen-Ding Li"
+                },
+                {
+                    "authorId": "2291072588",
+                    "name": "Fanjia Yan"
+                },
+                {
+                    "authorId": "1993655237",
+                    "name": "Tianjun Zhang"
+                },
+                {
+                    "authorId": "2278894217",
+                    "name": "Sida I. Wang"
+                },
+                {
+                    "authorId": "2278433392",
+                    "name": "Armando Solar-Lezama"
+                },
+                {
+                    "authorId": "2268398121",
+                    "name": "Koushik Sen"
+                },
+                {
+                    "authorId": "2290576964",
+                    "name": "Ion Stoica"
+                }
+            ],
+            "doi": "10.48550/arXiv.2403.07974",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "afe0998d191f3ea8490c7df100a3ffc5dcc62c5e",
+            "title": "LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code",
+            "url": "https://www.semanticscholar.org/paper/afe0998d191f3ea8490c7df100a3ffc5dcc62c5e",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": "2402.17970",
+            "authors": [
+                {
+                    "authorId": "2296750304",
+                    "name": "Junming Huang"
+                },
+                {
+                    "authorId": "2255894250",
+                    "name": "Jiawei Zhang"
+                },
+                {
+                    "authorId": "2288038475",
+                    "name": "Qi Wang"
+                },
+                {
+                    "authorId": "2289184179",
+                    "name": "Weihong Han"
+                },
+                {
+                    "authorId": "2261893173",
+                    "name": "Yanchun Zhang"
+                }
+            ],
+            "doi": "10.48550/arXiv.2402.17970",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4efa6328a0fd405ecc133da93eeed60b82276ae2",
+            "title": "Exploring Advanced Methodologies in Security Evaluation for LLMs",
+            "url": "https://www.semanticscholar.org/paper/4efa6328a0fd405ecc133da93eeed60b82276ae2",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2691991",
+                    "name": "Barun Kumar Saha"
+                }
+            ],
+            "doi": "10.1109/ICAIIC60209.2024.10463245",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9c067960a689e2b3a9fd41a8fdf3bf9a44e4715f",
+            "title": "Generative Artificial Intelligence for Industry: Opportunities, Challenges, and Impact",
+            "url": "https://www.semanticscholar.org/paper/9c067960a689e2b3a9fd41a8fdf3bf9a44e4715f",
+            "venue": "2024 International Conference on Artificial Intelligence in Information and Communication (ICAIIC)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2402.00689",
+            "authors": [
+                {
+                    "authorId": "2282136670",
+                    "name": "Ran Elgedawy"
+                },
+                {
+                    "authorId": "2282137106",
+                    "name": "John Sadik"
+                },
+                {
+                    "authorId": "2263567489",
+                    "name": "Senjuti Dutta"
+                },
+                {
+                    "authorId": "2135668144",
+                    "name": "Anuj Gautam"
+                },
+                {
+                    "authorId": "2282136638",
+                    "name": "Konstantinos Georgiou"
+                },
+                {
+                    "authorId": "2282136899",
+                    "name": "Farzin Gholamrezae"
+                },
+                {
+                    "authorId": "2282137157",
+                    "name": "Fujiao Ji"
+                },
+                {
+                    "authorId": "2282234016",
+                    "name": "Kyungchan Lim"
+                },
+                {
+                    "authorId": "2282310165",
+                    "name": "Qian Liu"
+                },
+                {
+                    "authorId": "1470817317",
+                    "name": "Scott Ruoti"
+                }
+            ],
+            "doi": "10.48550/arXiv.2402.00689",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2ce498ce796640ef37c3f31b50533eca518f5303",
+            "title": "Ocassionally Secure: A Comparative Analysis of Code Generation Assistants",
+            "url": "https://www.semanticscholar.org/paper/2ce498ce796640ef37c3f31b50533eca518f5303",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": "2401.15963",
+            "authors": [
+                {
+                    "authorId": "2281742585",
+                    "name": "Manav Singhal"
+                },
+                {
+                    "authorId": "2281744612",
+                    "name": "Tushar Aggarwal"
+                },
+                {
+                    "authorId": "67126112",
+                    "name": "Abhijeet Awasthi"
+                },
+                {
+                    "authorId": "2244618406",
+                    "name": "Nagarajan Natarajan"
+                },
+                {
+                    "authorId": "2244618470",
+                    "name": "Aditya Kanade"
+                }
+            ],
+            "doi": "10.48550/arXiv.2401.15963",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f5f00afb894c5f3cb6decc531c9b64d49e865875",
+            "title": "NoFunEval: Funny How Code LMs Falter on Requirements Beyond Functional Correctness",
+            "url": "https://www.semanticscholar.org/paper/f5f00afb894c5f3cb6decc531c9b64d49e865875",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": "2312.09126",
+            "authors": [
+                {
+                    "authorId": "2274107104",
+                    "name": "Daniel Maninger"
+                },
+                {
+                    "authorId": "2118930782",
+                    "name": "Krishna Narasimhan"
+                },
+                {
+                    "authorId": "2283933027",
+                    "name": "Mira Mezini"
+                }
+            ],
+            "doi": "10.1145/3639476.3639770",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "fc237b87681cb11a42890b829dcb413a4aecfd57",
+            "title": "Towards Trustworthy AI Software Development Assistance",
+            "url": "https://www.semanticscholar.org/paper/fc237b87681cb11a42890b829dcb413a4aecfd57",
+            "venue": "NIER@ICSE",
+            "year": 2023
+        },
+        {
+            "arxivId": "2312.00024",
+            "authors": [
+                {
+                    "authorId": "30123878",
+                    "name": "Kamel Alrashedy"
+                },
+                {
+                    "authorId": "2269141013",
+                    "name": "Abdullah Aljasser"
+                }
+            ],
+            "doi": "10.48550/arXiv.2312.00024",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f1c93c2f2e0fad83f323db5a6b6ac1aec9dbd830",
+            "title": "Can LLMs Patch Security Issues?",
+            "url": "https://www.semanticscholar.org/paper/f1c93c2f2e0fad83f323db5a6b6ac1aec9dbd830",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": "2311.00889",
+            "authors": [
+                {
+                    "authorId": "2091784637",
+                    "name": "Mohammed Latif Siddiq"
+                },
+                {
+                    "authorId": "2265242774",
+                    "name": "Joanna C. S. Santos"
+                }
+            ],
+            "doi": "10.1145/3691621.3694934",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "c6649c4247282c3e46593e26c5e0429fcb7c7673",
+            "title": "SALLM: Security Assessment of Generated Code",
+            "url": "https://www.semanticscholar.org/paper/c6649c4247282c3e46593e26c5e0429fcb7c7673",
+            "venue": "",
+            "year": 2023
+        },
+        {
+            "arxivId": "2310.18834",
+            "authors": [
+                {
+                    "authorId": "2262446310",
+                    "name": "Domenico Cotroneo"
+                },
+                {
+                    "authorId": "2181354381",
+                    "name": "Alessio Foggia"
+                },
+                {
+                    "authorId": "93268228",
+                    "name": "Cristina Improta"
+                },
+                {
+                    "authorId": "52013287",
+                    "name": "Pietro Liguori"
+                },
+                {
+                    "authorId": "1830720",
+                    "name": "R. Natella"
+                }
+            ],
+            "doi": "10.1016/j.jss.2024.112113",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f80bf4b1ca6973a5aad0155736e40b7fb2142f71",
+            "title": "Automating the Correctness Assessment of AI-generated Code for Security Contexts",
+            "url": "https://www.semanticscholar.org/paper/f80bf4b1ca6973a5aad0155736e40b7fb2142f71",
+            "venue": "J. Syst. Softw.",
+            "year": 2023
+        },
+        {
+            "arxivId": "2310.06046",
+            "authors": [
+                {
+                    "authorId": "2256992493",
+                    "name": "Dipayan Saha"
+                },
+                {
+                    "authorId": "2114625129",
+                    "name": "Shams Tarek"
+                },
+                {
+                    "authorId": "2256991081",
+                    "name": "Katayoon Yahyaei"
+                },
+                {
+                    "authorId": "2231854143",
+                    "name": "S. Saha"
+                },
+                {
+                    "authorId": "2257235852",
+                    "name": "Jingbo Zhou"
+                },
+                {
+                    "authorId": "145954982",
+                    "name": "M. Tehranipoor"
+                },
+                {
+                    "authorId": "1997019",
+                    "name": "Farimah Farahmandi"
+                }
+            ],
+            "doi": "10.48550/arXiv.2310.06046",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "99e6c90c0ed18030164a731250d547b5e5735055",
+            "title": "LLM for SoC Security: A Paradigm Shift",
+            "url": "https://www.semanticscholar.org/paper/99e6c90c0ed18030164a731250d547b5e5735055",
+            "venue": "IACR Cryptol. ePrint Arch.",
+            "year": 2023
+        },
+        {
+            "arxivId": "2310.02530",
+            "authors": [
+                {
+                    "authorId": "2255884021",
+                    "name": "Tianyu Chen"
+                },
+                {
+                    "authorId": "2148946070",
+                    "name": "Lin Li"
+                },
+                {
+                    "authorId": "2253668940",
+                    "name": "Taotao Qian"
+                },
+                {
+                    "authorId": "2213942973",
+                    "name": "Jingyi Liu"
+                },
+                {
+                    "authorId": "2306149225",
+                    "name": "Wei Yang"
+                },
+                {
+                    "authorId": "2223703882",
+                    "name": "Ding Li"
+                },
+                {
+                    "authorId": "2084524",
+                    "name": "Guangtai Liang"
+                },
+                {
+                    "authorId": "2253829508",
+                    "name": "Qianxiang Wang"
+                },
+                {
+                    "authorId": "2144071699",
+                    "name": "Tao Xie"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "df152b79d90c1672c2ec652d01abe291732c623d",
+            "title": "CompVPD: Iteratively Identifying Vulnerability Patches Based on Human Validation Results with a Precise Context",
+            "url": "https://www.semanticscholar.org/paper/df152b79d90c1672c2ec652d01abe291732c623d",
+            "venue": "",
+            "year": 2023
+        },
+        {
+            "arxivId": "2310.02059",
+            "authors": [
+                {
+                    "authorId": "2253943715",
+                    "name": "Yujia Fu"
+                },
+                {
+                    "authorId": "2249641248",
+                    "name": "Peng Liang"
+                },
+                {
+                    "authorId": "2494905",
+                    "name": "Amjed Tahir"
+                },
+                {
+                    "authorId": "2045008",
+                    "name": "Zengyang Li"
+                },
+                {
+                    "authorId": "32723366",
+                    "name": "Mojtaba Shahin"
+                },
+                {
+                    "authorId": "2198507593",
+                    "name": "Jiaxin Yu"
+                }
+            ],
+            "doi": "10.48550/arXiv.2310.02059",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "03f4fb34b7655280e87a704294b3684dc18b52a0",
+            "title": "Security Weaknesses of Copilot Generated Code in GitHub",
+            "url": "https://www.semanticscholar.org/paper/03f4fb34b7655280e87a704294b3684dc18b52a0",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": "2308.14434",
+            "authors": [
+                {
+                    "authorId": "3980857",
+                    "name": "Atieh Bakhshandeh"
+                },
+                {
+                    "authorId": "66258471",
+                    "name": "Abdalsamad Keramatfar"
+                },
+                {
+                    "authorId": "2234368719",
+                    "name": "Amir Norouzi"
+                },
+                {
+                    "authorId": "2234369026",
+                    "name": "Mohammad Mahdi Chekidehkhoun"
+                }
+            ],
+            "doi": "10.48550/arXiv.2308.14434",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1f78887164a6feb8115710ae3e5be4695571ed5c",
+            "title": "Using ChatGPT as a Static Application Security Testing Tool",
+            "url": "https://www.semanticscholar.org/paper/1f78887164a6feb8115710ae3e5be4695571ed5c",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2260598730",
+                    "name": "Zhiyin Yu"
+                }
+            ],
+            "doi": "10.1109/ICBAIE59714.2023.10281279",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5a7226f75102eabb16cc6863f4fadfaa060b6bca",
+            "title": "A Multi-dimensional Generic Evaluation Framework for the Security of Large Language Models",
+            "url": "https://www.semanticscholar.org/paper/5a7226f75102eabb16cc6863f4fadfaa060b6bca",
+            "venue": "2023 4th International Conference on Big Data, Artificial Intelligence and Internet of Things Engineering (ICBAIE)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2308.04451",
+            "authors": [
+                {
+                    "authorId": "1694894",
+                    "name": "Domenico Cotroneo"
+                },
+                {
+                    "authorId": "93268228",
+                    "name": "Cristina Improta"
+                },
+                {
+                    "authorId": "52013287",
+                    "name": "Pietro Liguori"
+                },
+                {
+                    "authorId": "1830720",
+                    "name": "R. Natella"
+                }
+            ],
+            "doi": "10.1145/3643916.3644416",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "2cf57d6317eaecc905adde1a6adf4db313d9d808",
+            "title": "Vulnerabilities in AI Code Generators: Exploring Targeted Data Poisoning Attacks",
+            "url": "https://www.semanticscholar.org/paper/2cf57d6317eaecc905adde1a6adf4db313d9d808",
+            "venue": "2024 IEEE/ACM 32nd International Conference on Program Comprehension (ICPC)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2118333",
+                    "name": "Danyang Zhang"
+                },
+                {
+                    "authorId": "1390833791",
+                    "name": "Lu Chen"
+                },
+                {
+                    "authorId": "1806179720",
+                    "name": "Zihan Zhao"
+                },
+                {
+                    "authorId": "150273321",
+                    "name": "Ruisheng Cao"
+                },
+                {
+                    "authorId": "2114076600",
+                    "name": "Kai Yu"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "08a3986c595dc38147edf6425641de1fe0d796b3",
+            "title": "Mobile-Env: An Evaluation Platform and Benchmark for Interactive Agents in LLM Era",
+            "url": "https://www.semanticscholar.org/paper/08a3986c595dc38147edf6425641de1fe0d796b3",
+            "venue": "",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2117180359",
+                    "name": "Tianyu Chen"
+                },
+                {
+                    "authorId": "2148946070",
+                    "name": "Lin Li"
+                },
+                {
+                    "authorId": "2230201293",
+                    "name": "Liuchuan Zhu"
+                },
+                {
+                    "authorId": "2118207557",
+                    "name": "Zongyang Li"
+                },
+                {
+                    "authorId": "2084524",
+                    "name": "Guangtai Liang"
+                },
+                {
+                    "authorId": "2223703882",
+                    "name": "Ding Li"
+                },
+                {
+                    "authorId": "7417844",
+                    "name": "Qianxiang Wang"
+                },
+                {
+                    "authorId": "2144071699",
+                    "name": "Tao Xie"
+                }
+            ],
+            "doi": "10.48550/arXiv.2308.04662",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d07a15aba636f04b2d021779eee40f21d2fc295b",
+            "title": "VulLibGen: Identifying Vulnerable Third-Party Libraries via Generative Pre-Trained Model",
+            "url": "https://www.semanticscholar.org/paper/d07a15aba636f04b2d021779eee40f21d2fc295b",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2296269471",
+                    "name": "Cheng Cheng"
+                },
+                {
+                    "authorId": "2266138898",
+                    "name": "Jinqiu Yang"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ff026a4ca8a861155a6e21cf0e9e9d324b64b9ad",
+            "title": "Benchmarking the Security Aspect of Large Language Model-Based Code Generation",
+            "url": "https://www.semanticscholar.org/paper/ff026a4ca8a861155a6e21cf0e9e9d324b64b9ad",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "corpusId": 257557620,
+    "doi": "10.1109/MSR59073.2023.00084",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 3,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 27,
+    "numCiting": 19,
+    "paperId": "8205612a6d15df52b8c3d26aabfd50abc10fdee3",
+    "references": [
+        {
+            "arxivId": "2211.13498",
+            "authors": [
+                {
+                    "authorId": "2164989094",
+                    "name": "Catherine Tony"
+                },
+                {
+                    "authorId": "2156116825",
+                    "name": "Nicol'as E. D'iaz Ferreyra"
+                },
+                {
+                    "authorId": "1723601",
+                    "name": "R. Scandariato"
+                }
+            ],
+            "doi": "10.1109/QRS57517.2022.00094",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ce9397eaa3de0f791bead5d16f14b5dd4a15052f",
+            "title": "GitHub Considered Harmful? Analyzing Open-Source Projects for the Automatic Generation of Cryptographic API Call Sequences",
+            "url": "https://www.semanticscholar.org/paper/ce9397eaa3de0f791bead5d16f14b5dd4a15052f",
+            "venue": "2022 IEEE 22nd International Conference on Software Quality, Reliability and Security (QRS)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2110049191",
+                    "name": "Xing Hu"
+                },
+                {
+                    "authorId": "2109625622",
+                    "name": "Qiuyuan Chen"
+                },
+                {
+                    "authorId": "1390779400",
+                    "name": "Haoye Wang"
+                },
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                },
+                {
+                    "authorId": "143609903",
+                    "name": "Thomas Zimmermann"
+                }
+            ],
+            "doi": "10.1145/3502853",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3f673691509b430a3c57040928008b9949508987",
+            "title": "Correlating Automated and Human Evaluation of Code Documentation Generation Quality",
+            "url": "https://www.semanticscholar.org/paper/3f673691509b430a3c57040928008b9949508987",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2022
+        },
+        {
+            "arxivId": "2202.13169",
+            "authors": [
+                {
+                    "authorId": "40027632",
+                    "name": "Frank F. Xu"
+                },
+                {
+                    "authorId": "47051926",
+                    "name": "Uri Alon"
+                },
+                {
+                    "authorId": "1700325",
+                    "name": "Graham Neubig"
+                },
+                {
+                    "authorId": "22747364",
+                    "name": "Vincent J. Hellendoorn"
+                }
+            ],
+            "doi": "10.1145/3520312.3534862",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b32a6f6ef7dd775e0f876b4713ceccebc56e651e",
+            "title": "A systematic evaluation of large language models of code",
+            "url": "https://www.semanticscholar.org/paper/b32a6f6ef7dd775e0f876b4713ceccebc56e651e",
+            "venue": "MAPS@PLDI",
+            "year": 2022
+        },
+        {
+            "arxivId": "2112.02125",
+            "authors": [
+                {
+                    "authorId": "3437933",
+                    "name": "H. Pearce"
+                },
+                {
+                    "authorId": "143645422",
+                    "name": "Benjamin Tan"
+                },
+                {
+                    "authorId": "2124891963",
+                    "name": "Baleegh Ahmad"
+                },
+                {
+                    "authorId": "1707355",
+                    "name": "R. Karri"
+                },
+                {
+                    "authorId": "1398683279",
+                    "name": "Brendan Dolan-Gavitt"
+                }
+            ],
+            "doi": "10.1109/SP46215.2023.10179324",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a5731122200fbb8b37f048010a1e1ca4474aa606",
+            "title": "Examining Zero-Shot Vulnerability Repair with Large Language Models",
+            "url": "https://www.semanticscholar.org/paper/a5731122200fbb8b37f048010a1e1ca4474aa606",
+            "venue": "2023 IEEE Symposium on Security and Privacy (SP)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2108.09293",
+            "authors": [
+                {
+                    "authorId": "3437933",
+                    "name": "H. Pearce"
+                },
+                {
+                    "authorId": "2124891963",
+                    "name": "Baleegh Ahmad"
+                },
+                {
+                    "authorId": "143645422",
+                    "name": "Benjamin Tan"
+                },
+                {
+                    "authorId": "1398683279",
+                    "name": "Brendan Dolan-Gavitt"
+                },
+                {
+                    "authorId": "1707355",
+                    "name": "R. Karri"
+                }
+            ],
+            "doi": "10.1109/sp46214.2022.9833571",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "6e5eb6167d9766fbb4d14611d15cf95d7b75fb9d",
+            "title": "Asleep at the Keyboard? Assessing the Security of GitHub Copilot\u2019s Code Contributions",
+            "url": "https://www.semanticscholar.org/paper/6e5eb6167d9766fbb4d14611d15cf95d7b75fb9d",
+            "venue": "2022 IEEE Symposium on Security and Privacy (SP)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2108.07732",
+            "authors": [
+                {
+                    "authorId": "2058365883",
+                    "name": "Jacob Austin"
+                },
+                {
+                    "authorId": "2624088",
+                    "name": "Augustus Odena"
+                },
+                {
+                    "authorId": "51150953",
+                    "name": "Maxwell Nye"
+                },
+                {
+                    "authorId": "40377863",
+                    "name": "Maarten Bosma"
+                },
+                {
+                    "authorId": "47407464",
+                    "name": "H. Michalewski"
+                },
+                {
+                    "authorId": "35363891",
+                    "name": "David Dohan"
+                },
+                {
+                    "authorId": "122064392",
+                    "name": "Ellen Jiang"
+                },
+                {
+                    "authorId": "145941081",
+                    "name": "Carrie J. Cai"
+                },
+                {
+                    "authorId": "2053829286",
+                    "name": "Michael Terry"
+                },
+                {
+                    "authorId": "1397917613",
+                    "name": "Quoc V. Le"
+                },
+                {
+                    "authorId": "152549864",
+                    "name": "Charles Sutton"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a38e0f993e4805ba8a9beae4c275c91ffcec01df",
+            "title": "Program Synthesis with Large Language Models",
+            "url": "https://www.semanticscholar.org/paper/a38e0f993e4805ba8a9beae4c275c91ffcec01df",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": "2107.03374",
+            "authors": [
+                {
+                    "authorId": "2108828435",
+                    "name": "Mark Chen"
+                },
+                {
+                    "authorId": "2065005836",
+                    "name": "Jerry Tworek"
+                },
+                {
+                    "authorId": "35450887",
+                    "name": "Heewoo Jun"
+                },
+                {
+                    "authorId": "153930486",
+                    "name": "Qiming Yuan"
+                },
+                {
+                    "authorId": "2117715024",
+                    "name": "Henrique Pond\u00e9"
+                },
+                {
+                    "authorId": "2053807409",
+                    "name": "Jared Kaplan"
+                },
+                {
+                    "authorId": "144632352",
+                    "name": "Harrison Edwards"
+                },
+                {
+                    "authorId": "51178856",
+                    "name": "Yura Burda"
+                },
+                {
+                    "authorId": "2117706920",
+                    "name": "Nicholas Joseph"
+                },
+                {
+                    "authorId": "2065151121",
+                    "name": "Greg Brockman"
+                },
+                {
+                    "authorId": "2064770039",
+                    "name": "Alex Ray"
+                },
+                {
+                    "authorId": "41158993",
+                    "name": "Raul Puri"
+                },
+                {
+                    "authorId": "2064404342",
+                    "name": "Gretchen Krueger"
+                },
+                {
+                    "authorId": "2136008481",
+                    "name": "Michael Petrov"
+                },
+                {
+                    "authorId": "2103414",
+                    "name": "Heidy Khlaaf"
+                },
+                {
+                    "authorId": "144864359",
+                    "name": "Girish Sastry"
+                },
+                {
+                    "authorId": "2051714782",
+                    "name": "Pamela Mishkin"
+                },
+                {
+                    "authorId": "1466431052",
+                    "name": "Brooke Chan"
+                },
+                {
+                    "authorId": "145565184",
+                    "name": "Scott Gray"
+                },
+                {
+                    "authorId": "39849748",
+                    "name": "Nick Ryder"
+                },
+                {
+                    "authorId": "2068123790",
+                    "name": "Mikhail Pavlov"
+                },
+                {
+                    "authorId": "146162186",
+                    "name": "Alethea Power"
+                },
+                {
+                    "authorId": "40527594",
+                    "name": "Lukasz Kaiser"
+                },
+                {
+                    "authorId": "2400764",
+                    "name": "Mohammad Bavarian"
+                },
+                {
+                    "authorId": "2059411355",
+                    "name": "Clemens Winter"
+                },
+                {
+                    "authorId": "2704719",
+                    "name": "Philippe Tillet"
+                },
+                {
+                    "authorId": "9927844",
+                    "name": "F. Such"
+                },
+                {
+                    "authorId": "80876468",
+                    "name": "D. Cummings"
+                },
+                {
+                    "authorId": "3407285",
+                    "name": "Matthias Plappert"
+                },
+                {
+                    "authorId": "2117714459",
+                    "name": "Fotios Chantzis"
+                },
+                {
+                    "authorId": "2057742918",
+                    "name": "Elizabeth Barnes"
+                },
+                {
+                    "authorId": "1404060687",
+                    "name": "Ariel Herbert-Voss"
+                },
+                {
+                    "authorId": "39121861",
+                    "name": "William H. Guss"
+                },
+                {
+                    "authorId": "38967461",
+                    "name": "Alex Nichol"
+                },
+                {
+                    "authorId": "2256699302",
+                    "name": "Igor Babuschkin"
+                },
+                {
+                    "authorId": "2054519183",
+                    "name": "S. Balaji"
+                },
+                {
+                    "authorId": "150298413",
+                    "name": "Shantanu Jain"
+                },
+                {
+                    "authorId": "153480842",
+                    "name": "A. Carr"
+                },
+                {
+                    "authorId": "2990741",
+                    "name": "J. Leike"
+                },
+                {
+                    "authorId": "3381809",
+                    "name": "Joshua Achiam"
+                },
+                {
+                    "authorId": "40055795",
+                    "name": "Vedant Misra"
+                },
+                {
+                    "authorId": "1404556973",
+                    "name": "Evan Morikawa"
+                },
+                {
+                    "authorId": "38909097",
+                    "name": "Alec Radford"
+                },
+                {
+                    "authorId": "3555117",
+                    "name": "M. Knight"
+                },
+                {
+                    "authorId": "35167962",
+                    "name": "Miles Brundage"
+                },
+                {
+                    "authorId": "2117715631",
+                    "name": "Mira Murati"
+                },
+                {
+                    "authorId": "2059169400",
+                    "name": "Katie Mayer"
+                },
+                {
+                    "authorId": "2930640",
+                    "name": "P. Welinder"
+                },
+                {
+                    "authorId": "39593364",
+                    "name": "Bob McGrew"
+                },
+                {
+                    "authorId": "2698777",
+                    "name": "Dario Amodei"
+                },
+                {
+                    "authorId": "52238703",
+                    "name": "Sam McCandlish"
+                },
+                {
+                    "authorId": "1701686",
+                    "name": "I. Sutskever"
+                },
+                {
+                    "authorId": "2563432",
+                    "name": "Wojciech Zaremba"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "acbdbf49f9bc3f151b93d9ca9a06009f4f6eb269",
+            "title": "Evaluating Large Language Models Trained on Code",
+            "url": "https://www.semanticscholar.org/paper/acbdbf49f9bc3f151b93d9ca9a06009f4f6eb269",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": "2106.07139",
+            "authors": [
+                {
+                    "authorId": "48506411",
+                    "name": "Xu Han"
+                },
+                {
+                    "authorId": "2148904862",
+                    "name": "Zhengyan Zhang"
+                },
+                {
+                    "authorId": "46649145",
+                    "name": "Ning Ding"
+                },
+                {
+                    "authorId": "2116405624",
+                    "name": "Yuxian Gu"
+                },
+                {
+                    "authorId": "2111312892",
+                    "name": "Xiao Liu"
+                },
+                {
+                    "authorId": "4140493",
+                    "name": "Yuqi Huo"
+                },
+                {
+                    "authorId": "40125294",
+                    "name": "J. Qiu"
+                },
+                {
+                    "authorId": "2146643767",
+                    "name": "Liang Zhang"
+                },
+                {
+                    "authorId": "2114924784",
+                    "name": "Wentao Han"
+                },
+                {
+                    "authorId": "1730108",
+                    "name": "Minlie Huang"
+                },
+                {
+                    "authorId": "2160884081",
+                    "name": "Qin Jin"
+                },
+                {
+                    "authorId": "37510256",
+                    "name": "Yanyan Lan"
+                },
+                {
+                    "authorId": "2152797548",
+                    "name": "Yang Liu"
+                },
+                {
+                    "authorId": "49293587",
+                    "name": "Zhiyuan Liu"
+                },
+                {
+                    "authorId": "1776220",
+                    "name": "Zhiwu Lu"
+                },
+                {
+                    "authorId": "1767521",
+                    "name": "Xipeng Qiu"
+                },
+                {
+                    "authorId": "35119829",
+                    "name": "Ruihua Song"
+                },
+                {
+                    "authorId": "2109541439",
+                    "name": "Jie Tang"
+                },
+                {
+                    "authorId": "153693432",
+                    "name": "Ji-rong Wen"
+                },
+                {
+                    "authorId": "2118572640",
+                    "name": "Jinhui Yuan"
+                },
+                {
+                    "authorId": "2542603",
+                    "name": "Wayne Xin Zhao"
+                },
+                {
+                    "authorId": "145254043",
+                    "name": "Jun Zhu"
+                }
+            ],
+            "doi": "10.1016/j.aiopen.2021.08.002",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "feba0c47bf12a02c3a725174bb53df78658a72a8",
+            "title": "Pre-Trained Models: Past, Present and Future",
+            "url": "https://www.semanticscholar.org/paper/feba0c47bf12a02c3a725174bb53df78658a72a8",
+            "venue": "AI Open",
+            "year": 2021
+        },
+        {
+            "arxivId": "2102.07350",
+            "authors": [
+                {
+                    "authorId": "2049583158",
+                    "name": "Laria Reynolds"
+                },
+                {
+                    "authorId": "2049410219",
+                    "name": "Kyle McDonell"
+                }
+            ],
+            "doi": "10.1145/3411763.3451760",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ac3cdb50606f7770eef8e4cd951840a4f71287a0",
+            "title": "Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm",
+            "url": "https://www.semanticscholar.org/paper/ac3cdb50606f7770eef8e4cd951840a4f71287a0",
+            "venue": "CHI Extended Abstracts",
+            "year": 2021
+        },
+        {
+            "arxivId": "2009.01101",
+            "authors": [
+                {
+                    "authorId": "50824495",
+                    "name": "Mohammadreza Hazhirpasand"
+                },
+                {
+                    "authorId": "50403294",
+                    "name": "Mohammad Ghafari"
+                },
+                {
+                    "authorId": "144591580",
+                    "name": "Oscar Nierstrasz"
+                }
+            ],
+            "doi": "10.1145/3382494.3422166",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b6774487f82844ccc8538d7536c314f5f9da129b",
+            "title": "Java Cryptography Uses in the Wild",
+            "url": "https://www.semanticscholar.org/paper/b6774487f82844ccc8538d7536c314f5f9da129b",
+            "venue": "ESEM",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3469814",
+                    "name": "A. Wickert"
+                },
+                {
+                    "authorId": "47138634",
+                    "name": "Michael Reif"
+                },
+                {
+                    "authorId": "1696396",
+                    "name": "Michael Eichberg"
+                },
+                {
+                    "authorId": "79420173",
+                    "name": "Anam Dodhy"
+                },
+                {
+                    "authorId": "1681134",
+                    "name": "M. Mezini"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00023",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8a29e6fe92b8f8c0d5461feaee8ec59a2b063aea",
+            "title": "A Dataset of Parametric Cryptographic Misuses",
+            "url": "https://www.semanticscholar.org/paper/8a29e6fe92b8f8c0d5461feaee8ec59a2b063aea",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": "1902.02595",
+            "authors": [
+                {
+                    "authorId": "2005211",
+                    "name": "Serena Elisa Ponta"
+                },
+                {
+                    "authorId": "3283588",
+                    "name": "H. Plate"
+                },
+                {
+                    "authorId": "1737833",
+                    "name": "A. Sabetta"
+                },
+                {
+                    "authorId": "34876221",
+                    "name": "M. Bezzi"
+                },
+                {
+                    "authorId": "68977382",
+                    "name": "C\u00e9dric Dangremont"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00064",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1abbaa1dec355d99291d151845e5aa568af46b1c",
+            "title": "A Manually-Curated Dataset of Fixes to Vulnerabilities of Open-Source Software",
+            "url": "https://www.semanticscholar.org/paper/1abbaa1dec355d99291d151845e5aa568af46b1c",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2068306",
+                    "name": "M. McHugh"
+                }
+            ],
+            "doi": "10.11613/BM.2012.031",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "bf3a7271860b1667e3ceb84e5bc400d2635ff8b7",
+            "title": "Interrater reliability: the kappa statistic",
+            "url": "https://www.semanticscholar.org/paper/bf3a7271860b1667e3ceb84e5bc400d2635ff8b7",
+            "venue": "Biochemia medica",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6734096",
+                    "name": "J. Fleiss"
+                },
+                {
+                    "authorId": "145670758",
+                    "name": "Jacob Cohen"
+                }
+            ],
+            "doi": "10.1177/001316447303300309",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "85ecca58c8b4d40a4bf53c1c45b1b8e410468aea",
+            "title": "The Equivalence of Weighted Kappa and the Intraclass Correlation Coefficient as Measures of Reliability",
+            "url": "https://www.semanticscholar.org/paper/85ecca58c8b4d40a4bf53c1c45b1b8e410468aea",
+            "venue": "",
+            "year": 1973
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "",
+            "title": "Research: Quantifying github copilot\u2019s impact on developer productivity and happiness",
+            "url": "",
+            "venue": "2022. [Online]. Available: https://github.blog/2022-09-07-research-quantifying-githubcopilots-impact-on-developer-productivity-and-happiness/",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2203858998",
+                    "name": "Brayan Stiven Torrres Ovalle"
+                }
+            ],
+            "doi": "10.26507/paper.2300",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8c92e2f083ce579fc7ee0be2c4d2719c7c2a4c07",
+            "title": "GitHub Copilot",
+            "url": "https://www.semanticscholar.org/paper/8c92e2f083ce579fc7ee0be2c4d2719c7c2a4c07",
+            "venue": "Encuentro Internacional de Educaci\u00f3n en Ingenier\u00eda",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Cwe top 25 most dangerous software weaknesses",
+            "url": "",
+            "venue": "2021. [Online]. Available: https://cwe.mitre.org/top25/archive/2021/2021_cwe_top25.html",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "license agreement with IEEE. Restrictions apply",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Solving problems for safer world",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "LLMSecEval: A Dataset of Natural Language Prompts for Security Evaluations",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/8205612a6d15df52b8c3d26aabfd50abc10fdee3",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2023
+}

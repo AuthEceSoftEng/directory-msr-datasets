@@ -1,0 +1,1473 @@
+{
+    "abstract": "An Application Programming Interface (API) provides a specific set of functionalities to a developer. The main aim of an API is to encourage the reuse of already existing functionality. There has been some work done into API popularity trends, API evolution and API usage. For all the aforementioned research avenues there has been a need to mine the usage of an API in order to perform any kind of analysis. Each one of the approaches that has been employed in the past involved a certain degree of inaccuracy as there was no type check that takes place. We introduce an approach that takes type information into account while mining API method invocations and annotation usages. This approach accurately makes a connection between a method invocation and the class of the API to which the method belongs to. We try collecting as many usages of an API as possible, this is achieved by targeting projects hosted on GitHub. Additionally, we look at the history of every project to collect the usage of an API from earliest version onwards. By making such a large and rich dataset public, we hope to stimulate some more research in the field of APIs with the aid of accurate API usage samples.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2744080",
+            "name": "A. Sawant",
+            "url": "https://www.semanticscholar.org/author/2744080"
+        },
+        {
+            "authorId": "1686038",
+            "name": "Alberto Bacchelli",
+            "url": "https://www.semanticscholar.org/author/1686038"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2220895165",
+                    "name": "Nicolas Robles"
+                },
+                {
+                    "authorId": "2220895682",
+                    "name": "Nicol\u00e1s Potes"
+                },
+                {
+                    "authorId": "144105666",
+                    "name": "Kelly Garc\u00e9s"
+                },
+                {
+                    "authorId": "144272262",
+                    "name": "Javier Luis C\u00e1novas Izquierdo"
+                },
+                {
+                    "authorId": "144220398",
+                    "name": "Jordi Cabot"
+                }
+            ],
+            "doi": "10.5753/cibse.2023.24695",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8964b8cae9d4c80092aaca2238b1fa008d1ab1a0",
+            "title": "Exploratory Analysis of the Structural Evolution of public REST APIs",
+            "url": "https://www.semanticscholar.org/paper/8964b8cae9d4c80092aaca2238b1fa008d1ab1a0",
+            "venue": "CIbSE",
+            "year": 2023
+        },
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51118871",
+                    "name": "Maxime Lamothe"
+                },
+                {
+                    "authorId": "1718050",
+                    "name": "Yann-Ga\u00ebl Gu\u00e9h\u00e9neuc"
+                },
+                {
+                    "authorId": "39724619",
+                    "name": "Weiyi Shang"
+                }
+            ],
+            "doi": "10.1145/3470133",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "f5b8084c6d171cd3c0d8b330c7aeeae65b9a6383",
+            "title": "A Systematic Review of API Evolution Literature",
+            "url": "https://www.semanticscholar.org/paper/f5b8084c6d171cd3c0d8b330c7aeeae65b9a6383",
+            "venue": "ACM Comput. Surv.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2061259837",
+                    "name": "Caroline Lima"
+                },
+                {
+                    "authorId": "143857974",
+                    "name": "Andr\u00e9 C. Hora"
+                }
+            ],
+            "doi": "10.1007/s11219-019-09476-z",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "008bb976a13750a52b00e359ee1424f27a02f1d0",
+            "title": "What are the characteristics of popular APIs? A large-scale study on Java, Android, and 165 libraries",
+            "url": "https://www.semanticscholar.org/paper/008bb976a13750a52b00e359ee1424f27a02f1d0",
+            "venue": "Software Quality Journal",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "68972898",
+                    "name": "Philipp Seifer"
+                },
+                {
+                    "authorId": "47848983",
+                    "name": "Johannes H\u00e4rtel"
+                },
+                {
+                    "authorId": "2632547",
+                    "name": "Martin Leinberger"
+                },
+                {
+                    "authorId": "1738018",
+                    "name": "R. L\u00e4mmel"
+                },
+                {
+                    "authorId": "1752093",
+                    "name": "Steffen Staab"
+                }
+            ],
+            "doi": "10.1145/3357766.3359541",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "cf233efccb2dcbaf2cbfa7da43b6e22dd8b3305a",
+            "title": "Empirical study on the usage of graph query languages in open source Java projects",
+            "url": "https://www.semanticscholar.org/paper/cf233efccb2dcbaf2cbfa7da43b6e22dd8b3305a",
+            "venue": "SLE",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2744080",
+                    "name": "A. Sawant"
+                }
+            ],
+            "doi": "10.4233/UUID:3D7BC400-2447-4A88-8768-3025D7B54B7F",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "ee301565852ebfb48abb9f436c3a178a1e5666c0",
+            "title": "The impact of API evolution on API consumers and how this can be affected by API producers and language designers",
+            "url": "https://www.semanticscholar.org/paper/ee301565852ebfb48abb9f436c3a178a1e5666c0",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "12696977",
+                    "name": "Elmira Mohsenzadeh Korayem"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7d9710830d9766c85805eb58c2b81d7c3903f298",
+            "title": "Towards automatic context-aware summarization of code entities",
+            "url": "https://www.semanticscholar.org/paper/7d9710830d9766c85805eb58c2b81d7c3903f298",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00085",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "43148fabe2636026e07ca04974aff40d204bfb6b",
+            "title": "Standing on Shoulders or Feet? The Usage of the MSR Data Papers",
+            "url": "https://www.semanticscholar.org/paper/43148fabe2636026e07ca04974aff40d204bfb6b",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "118981028",
+                    "name": "Anderson S. Matos"
+                },
+                {
+                    "authorId": "2986777",
+                    "name": "J. B. P. Filho"
+                },
+                {
+                    "authorId": "3225841",
+                    "name": "L. Rocha"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00062",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7c8449e75d644ce15ca9fff4fea03dc489313353",
+            "title": "Splitting APIs: An Exploratory Study of Software Unbundling",
+            "url": "https://www.semanticscholar.org/paper/7c8449e75d644ce15ca9fff4fea03dc489313353",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "114960691",
+                    "name": "Kadek Darmaastawan"
+                },
+                {
+                    "authorId": "118710980",
+                    "name": "I. M. Sukarsa"
+                },
+                {
+                    "authorId": "2076644035",
+                    "name": "Putu Wira Buana"
+                }
+            ],
+            "doi": "10.5815/IJMECS.2019.03.01",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f4b5fd18c7546520bf46684063d6de84d32fc106",
+            "title": "LINE Messenger as a Transport Layer to Distribute Messages to Partner Instant Messaging",
+            "url": "https://www.semanticscholar.org/paper/f4b5fd18c7546520bf46684063d6de84d32fc106",
+            "venue": "International Journal of Modern Education and Computer Science",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2744080",
+                    "name": "A. Sawant"
+                },
+                {
+                    "authorId": "8253086",
+                    "name": "Guangzhe Huang"
+                },
+                {
+                    "authorId": "51877249",
+                    "name": "Gabriel Vil\u00e9n"
+                },
+                {
+                    "authorId": "1632505193",
+                    "name": "Stefan Stojkovski"
+                },
+                {
+                    "authorId": "1686038",
+                    "name": "Alberto Bacchelli"
+                }
+            ],
+            "doi": "10.1109/ICSME.2018.00011",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7bf72b5ec812eb2002b1d8fe9c7111b2591c5689",
+            "title": "Why are Features Deprecated? An Investigation Into the Motivation Behind Deprecation",
+            "url": "https://www.semanticscholar.org/paper/7bf72b5ec812eb2002b1d8fe9c7111b2591c5689",
+            "venue": "2018 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47848983",
+                    "name": "Johannes H\u00e4rtel"
+                },
+                {
+                    "authorId": "2074326947",
+                    "name": "Marcel Heinz"
+                },
+                {
+                    "authorId": "1738018",
+                    "name": "R. L\u00e4mmel"
+                }
+            ],
+            "doi": "10.1007/978-3-319-92997-2_14",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2b9e3382d2d9b609e489355d5891835e2b2af729",
+            "title": "EMF Patterns of Usage on GitHub",
+            "url": "https://www.semanticscholar.org/paper/2b9e3382d2d9b609e489355d5891835e2b2af729",
+            "venue": "ECMFA",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2220273",
+                    "name": "A. M. Eilertsen"
+                },
+                {
+                    "authorId": "1765289",
+                    "name": "A. H. Bagge"
+                }
+            ],
+            "doi": "10.1145/3194793.3194799",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "89c0c5134afc6acd5d447a5a5c0768f1ed42ee1f",
+            "title": "Exploring API/Client Co-Evolution",
+            "url": "https://www.semanticscholar.org/paper/89c0c5134afc6acd5d447a5a5c0768f1ed42ee1f",
+            "venue": "2018 IEEE/ACM 2nd International Workshop on API Usage and Evolution (WAPI)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51118871",
+                    "name": "Maxime Lamothe"
+                },
+                {
+                    "authorId": "39724619",
+                    "name": "Weiyi Shang"
+                }
+            ],
+            "doi": "10.1145/3196398.3196420",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a9cb0f4c320391f2db1eec04e59d80cd26235edd",
+            "title": "Exploring the Use of Automated API Migrating Techniques in Practice: An Experience Report on Android",
+            "url": "https://www.semanticscholar.org/paper/a9cb0f4c320391f2db1eec04e59d80cd26235edd",
+            "venue": "2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47848983",
+                    "name": "Johannes H\u00e4rtel"
+                },
+                {
+                    "authorId": "2064442725",
+                    "name": "Hakan Aksu"
+                },
+                {
+                    "authorId": "1738018",
+                    "name": "R. L\u00e4mmel"
+                }
+            ],
+            "doi": "10.1145/3196321.3196344",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b825a0813501c1af7d035fb425f0df66ec604a1d",
+            "title": "Classification of APIs by Hierarchical Clustering",
+            "url": "https://www.semanticscholar.org/paper/b825a0813501c1af7d035fb425f0df66ec604a1d",
+            "venue": "2018 IEEE/ACM 26th International Conference on Program Comprehension (ICPC)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3456584",
+                    "name": "Frederik R\u00fcther"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "3d2cbfa9219ffe2fc475f00157a3a6273d251e2b",
+            "title": "A rule-based approach for the automatic extraction of Mega Models",
+            "url": "https://www.semanticscholar.org/paper/3d2cbfa9219ffe2fc475f00157a3a6273d251e2b",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2744080",
+                    "name": "A. Sawant"
+                },
+                {
+                    "authorId": "1853058",
+                    "name": "R. Robbes"
+                },
+                {
+                    "authorId": "1686038",
+                    "name": "Alberto Bacchelli"
+                }
+            ],
+            "doi": "10.1007/s10664-017-9554-9",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "e543548a8d305f83799213b18811b12696f60161",
+            "title": "On the reaction to deprecation of clients of 4 + 1 popular Java APIs and the JDK",
+            "url": "https://www.semanticscholar.org/paper/e543548a8d305f83799213b18811b12696f60161",
+            "venue": "Empirical Software Engineering",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3232947",
+                    "name": "Kamil Jezek"
+                },
+                {
+                    "authorId": "144212658",
+                    "name": "Jens Dietrich"
+                }
+            ],
+            "doi": "10.5381/jot.2017.16.4.a2",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4e2cac88e2dbd6bca651a06064cb896626ca792e",
+            "title": "API Evolution and Compatibility: A Data Corpus and Tool Evaluation",
+            "url": "https://www.semanticscholar.org/paper/4e2cac88e2dbd6bca651a06064cb896626ca792e",
+            "venue": "J. Object Technol.",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145867557",
+                    "name": "Manuel Leuenberger"
+                },
+                {
+                    "authorId": "38658084",
+                    "name": "Haidar Osman"
+                },
+                {
+                    "authorId": "50403294",
+                    "name": "Mohammad Ghafari"
+                },
+                {
+                    "authorId": "144591580",
+                    "name": "Oscar Nierstrasz"
+                }
+            ],
+            "doi": "10.1109/ICSME.2017.78",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "5a90cbcc6d43ba9bee88ed94696e6994ee49bdee",
+            "title": "KOWALSKI: Collecting API Clients in Easy Mode",
+            "url": "https://www.semanticscholar.org/paper/5a90cbcc6d43ba9bee88ed94696e6994ee49bdee",
+            "venue": "2017 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145867557",
+                    "name": "Manuel Leuenberger"
+                },
+                {
+                    "authorId": "38658084",
+                    "name": "Haidar Osman"
+                },
+                {
+                    "authorId": "50403294",
+                    "name": "Mohammad Ghafari"
+                },
+                {
+                    "authorId": "144591580",
+                    "name": "Oscar Nierstrasz"
+                }
+            ],
+            "doi": "10.1109/SCAM.2017.22",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "00246086929d353c8c4c695676360b3beb665543",
+            "title": "Harvesting the Wisdom of the Crowd to Infer Method Nullness in Java",
+            "url": "https://www.semanticscholar.org/paper/00246086929d353c8c4c695676360b3beb665543",
+            "venue": "2017 IEEE 17th International Working Conference on Source Code Analysis and Manipulation (SCAM)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2154474649",
+                    "name": "Jitong Zhao"
+                },
+                {
+                    "authorId": "40457371",
+                    "name": "Yan Liu"
+                }
+            ],
+            "doi": "10.1007/978-3-319-66808-6_4",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b6e479ed49eb0d029fb30541206e4cd716854d2b",
+            "title": "Detecting and Ranking API Usage Pattern in Large Source Code Repository: A LFM Based Approach",
+            "url": "https://www.semanticscholar.org/paper/b6e479ed49eb0d029fb30541206e4cd716854d2b",
+            "venue": "CD-MAKE",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "69475930",
+                    "name": "Marc Juchli"
+                },
+                {
+                    "authorId": "21318680",
+                    "name": "L. Krombeen"
+                },
+                {
+                    "authorId": "2109307020",
+                    "name": "Shashank Rao"
+                },
+                {
+                    "authorId": "20504057",
+                    "name": "C. S. Yu"
+                },
+                {
+                    "authorId": "2744080",
+                    "name": "A. Sawant"
+                },
+                {
+                    "authorId": "1686038",
+                    "name": "Alberto Bacchelli"
+                }
+            ],
+            "doi": "10.1109/WAPI.2017.6",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "bdf5a246b4c19355dd15c90fe22e690b11879686",
+            "title": "Mining Motivated Trends of Usage of Haskell Libraries",
+            "url": "https://www.semanticscholar.org/paper/bdf5a246b4c19355dd15c90fe22e690b11879686",
+            "venue": "2017 IEEE/ACM 1st International Workshop on API Usage and Evolution (WAPI)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40326660",
+                    "name": "Qianqian Wang"
+                },
+                {
+                    "authorId": "2932798",
+                    "name": "Yuriy Brun"
+                },
+                {
+                    "authorId": "8172306",
+                    "name": "A. Orso"
+                }
+            ],
+            "doi": "10.1109/ICST.2017.36",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "43cbebfcb9f067aa369a1eb299dba97c04355b1d",
+            "title": "Behavioral Execution Comparison: Are Tests Representative of Field Behavior?",
+            "url": "https://www.semanticscholar.org/paper/43cbebfcb9f067aa369a1eb299dba97c04355b1d",
+            "venue": "2017 IEEE International Conference on Software Testing, Verification and Validation (ICST)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1696074",
+                    "name": "Zhongjie Wang"
+                },
+                {
+                    "authorId": "143977783",
+                    "name": "D. Perry"
+                },
+                {
+                    "authorId": "1785762",
+                    "name": "Xiaofei Xu"
+                }
+            ],
+            "doi": "10.1142/S021819401750005X",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d460851b13ec588185c5140e6f1168be896126da",
+            "title": "Characterizing Individualized Coding Contributions of OSS Developers from Topic Perspective",
+            "url": "https://www.semanticscholar.org/paper/d460851b13ec588185c5140e6f1168be896126da",
+            "venue": "Int. J. Softw. Eng. Knowl. Eng.",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "46702864",
+                    "name": "Hongyu Zhang"
+                },
+                {
+                    "authorId": "49147986",
+                    "name": "A. Jain"
+                },
+                {
+                    "authorId": "2065181280",
+                    "name": "G. Khandelwal"
+                },
+                {
+                    "authorId": "2064557903",
+                    "name": "Chandrashekhar Kaushik"
+                },
+                {
+                    "authorId": "8049512",
+                    "name": "Scott Ge"
+                },
+                {
+                    "authorId": "50105419",
+                    "name": "Wenxiang Hu"
+                }
+            ],
+            "doi": "10.1145/2950290.2983955",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f4f874c431b75432ed6c1badd1359c2af1cdd70e",
+            "title": "Bing developer assistant: improving developer productivity by recommending sample code",
+            "url": "https://www.semanticscholar.org/paper/f4f874c431b75432ed6c1badd1359c2af1cdd70e",
+            "venue": "SIGSOFT FSE",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144659797",
+                    "name": "A. Nguyen"
+                },
+                {
+                    "authorId": "145007093",
+                    "name": "Michael C Hilton"
+                },
+                {
+                    "authorId": "2888841",
+                    "name": "Mihai Codoban"
+                },
+                {
+                    "authorId": "2909676",
+                    "name": "H. Nguyen"
+                },
+                {
+                    "authorId": "5697094",
+                    "name": "L. Mast"
+                },
+                {
+                    "authorId": "3537652",
+                    "name": "E. Rademacher"
+                },
+                {
+                    "authorId": "2327697",
+                    "name": "T. Nguyen"
+                },
+                {
+                    "authorId": "1687704",
+                    "name": "Danny Dig"
+                }
+            ],
+            "doi": "10.1145/2950290.2950333",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2f40f934842d64911ccbd5edcf6e20ec8c670261",
+            "title": "API code recommendation using statistical learning from fine-grained changes",
+            "url": "https://www.semanticscholar.org/paper/2f40f934842d64911ccbd5edcf6e20ec8c670261",
+            "venue": "SIGSOFT FSE",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2744080",
+                    "name": "A. Sawant"
+                },
+                {
+                    "authorId": "1853058",
+                    "name": "R. Robbes"
+                },
+                {
+                    "authorId": "1686038",
+                    "name": "Alberto Bacchelli"
+                }
+            ],
+            "doi": "10.1109/ICSME.2016.64",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a4df5a474a9a2eac7010c8f58d6e55e72cddb6e5",
+            "title": "On the Reaction to Deprecation of 25,357 Clients of 4+1 Popular Java APIs",
+            "url": "https://www.semanticscholar.org/paper/a4df5a474a9a2eac7010c8f58d6e55e72cddb6e5",
+            "venue": "2016 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2744080",
+                    "name": "A. Sawant"
+                },
+                {
+                    "authorId": "1686038",
+                    "name": "Alberto Bacchelli"
+                }
+            ],
+            "doi": "10.1007/s10664-016-9444-6",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "98bd5b9f53be8f064865075ec1868a385f67ce74",
+            "title": "fine-GRAPE: fine-grained APi usage extractor \u2013 an approach and dataset to investigate API usage",
+            "url": "https://www.semanticscholar.org/paper/98bd5b9f53be8f064865075ec1868a385f67ce74",
+            "venue": "Empirical Software Engineering",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "31276457",
+                    "name": "Mohini Ghute"
+                },
+                {
+                    "authorId": "1714912",
+                    "name": "M. Raghuwanshi"
+                }
+            ],
+            "doi": "10.1109/STARTUP.2016.7583990",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "674b6987fc5977b253056cdfcf83b07011c50540",
+            "title": "Improving business applications using open web API's",
+            "url": "https://www.semanticscholar.org/paper/674b6987fc5977b253056cdfcf83b07011c50540",
+            "venue": "2016 World Conference on Futuristic Trends in Research and Innovation for Social Welfare (Startup Conclave)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2148651803",
+                    "name": "Astrit Desku"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "22fb640798f1bfd98f57016f3c21eec444be9b09",
+            "title": "Methods and Techniques for Recommender Systems in Secure Software Engineering: A Literature Review",
+            "url": "https://www.semanticscholar.org/paper/22fb640798f1bfd98f57016f3c21eec444be9b09",
+            "venue": "",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "113323742",
+                    "name": "T. Lewowski"
+                },
+                {
+                    "authorId": "1731361",
+                    "name": "L. Madeyski"
+                }
+            ],
+            "doi": "10.1007/978-3-030-26574-8_1",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "43e60e7a4ad086644c5b1a4ef2810a76f5bae19c",
+            "title": "Creating Evolving Project Data Sets in Software Engineering",
+            "url": "https://www.semanticscholar.org/paper/43e60e7a4ad086644c5b1a4ef2810a76f5bae19c",
+            "venue": "Integrating Research and Practice in Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2285928067",
+                    "name": "Dr. K S Mann"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "53167847ae24cc112784f041b7cd7d089361234f",
+            "title": "To Integrate Heterogeneous devices to provide Astroinformatics Data",
+            "url": "https://www.semanticscholar.org/paper/53167847ae24cc112784f041b7cd7d089361234f",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "38658084",
+                    "name": "Haidar Osman"
+                }
+            ],
+            "doi": "10.7892/boris.109713",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0b2fa232f67014b23e45a9f3860d57b6cd9cfece",
+            "title": "Empirically-Grounded Construction of Bug Prediction and Detection Tools",
+            "url": "https://www.semanticscholar.org/paper/0b2fa232f67014b23e45a9f3860d57b6cd9cfece",
+            "venue": "",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2270672601",
+                    "name": "Sebastian Proksch"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "70f1e76a2ae14b8c1b78eeb2dffc2e3ceddfa319",
+            "title": "Enriched Event Streams: A General Platform For Empirical Studies On In-IDE Activities Of Software Developers",
+            "url": "https://www.semanticscholar.org/paper/70f1e76a2ae14b8c1b78eeb2dffc2e3ceddfa319",
+            "venue": "",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144659797",
+                    "name": "A. Nguyen"
+                },
+                {
+                    "authorId": "145007093",
+                    "name": "Michael C Hilton"
+                },
+                {
+                    "authorId": "2888841",
+                    "name": "Mihai Codoban"
+                },
+                {
+                    "authorId": "2909676",
+                    "name": "H. Nguyen"
+                },
+                {
+                    "authorId": "5697094",
+                    "name": "L. Mast"
+                },
+                {
+                    "authorId": "3537652",
+                    "name": "E. Rademacher"
+                },
+                {
+                    "authorId": "2327697",
+                    "name": "T. Nguyen"
+                },
+                {
+                    "authorId": "1687704",
+                    "name": "Danny Dig"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d1db92d598394908bc6f7e4b036bb940de6445dc",
+            "title": "Using Change Context with Statistical Learning for API Code Recommendation",
+            "url": "https://www.semanticscholar.org/paper/d1db92d598394908bc6f7e4b036bb940de6445dc",
+            "venue": "",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "101532249",
+                    "name": "Dereck Bridi\u00e9"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "92073af06528d17c0e994cae564449762e6a4d33",
+            "title": "Investigating deprecation misuse",
+            "url": "https://www.semanticscholar.org/paper/92073af06528d17c0e994cae564449762e6a4d33",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "corpusId": 7685675,
+    "doi": "10.1109/MSR.2015.75",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 1,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 37,
+    "numCiting": 17,
+    "paperId": "f89bbf0280554d1e37f0064590a7145377343840",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2055637017",
+                    "name": "S. Anand"
+                },
+                {
+                    "authorId": "67065093",
+                    "name": "Bacchelli Alberto"
+                }
+            ],
+            "doi": "10.6084/M9.FIGSHARE.1320591.V9",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a8f459dde9c102902fd91968faaef6fc4218feea",
+            "title": "API Usage Databases",
+            "url": "https://www.semanticscholar.org/paper/a8f459dde9c102902fd91968faaef6fc4218feea",
+            "venue": "",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "2434621",
+                    "name": "Bogdan Vasilescu"
+                },
+                {
+                    "authorId": "1747171",
+                    "name": "Alexander Serebrenik"
+                },
+                {
+                    "authorId": "1702285",
+                    "name": "A. Zaidman"
+                }
+            ],
+            "doi": "10.1145/2597073.2597126",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7074a3e345e632e6328a408bf129edd148d1659e",
+            "title": "Lean GHTorrent: GitHub data on demand",
+            "url": "https://www.semanticscholar.org/paper/7074a3e345e632e6328a408bf129edd148d1659e",
+            "venue": "MSR 2014",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1767060",
+                    "name": "Luca Ponzanelli"
+                },
+                {
+                    "authorId": "1686038",
+                    "name": "Alberto Bacchelli"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                }
+            ],
+            "doi": "10.1109/ICSE.2013.6606701",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "218f9e89f2f585b184d928b08636d300e1307c7f",
+            "title": "Seahawk: Stack Overflow in the IDE",
+            "url": "https://www.semanticscholar.org/paper/218f9e89f2f585b184d928b08636d300e1307c7f",
+            "venue": "2013 35th International Conference on Software Engineering (ICSE)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1757975",
+                    "name": "Earl T. Barr"
+                },
+                {
+                    "authorId": "145193818",
+                    "name": "C. Bird"
+                },
+                {
+                    "authorId": "39374345",
+                    "name": "Peter C. Rigby"
+                },
+                {
+                    "authorId": "145369636",
+                    "name": "Abram Hindle"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "1730296",
+                    "name": "Premkumar T. Devanbu"
+                }
+            ],
+            "doi": "10.1007/978-3-642-28872-2_22",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f67fec15365477bb3ee2b0307517b262048a2334",
+            "title": "Cohesive and Isolated Development with Branches",
+            "url": "https://www.semanticscholar.org/paper/f67fec15365477bb3ee2b0307517b262048a2334",
+            "venue": "FASE",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1710587",
+                    "name": "M. Robillard"
+                },
+                {
+                    "authorId": "1710751",
+                    "name": "R. Deline"
+                }
+            ],
+            "doi": "10.1007/s10664-010-9150-8",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "32ad7c8fd7c0003bb855f1f1117df75706ab9c89",
+            "title": "A field study of API learning obstacles",
+            "url": "https://www.semanticscholar.org/paper/32ad7c8fd7c0003bb855f1f1117df75706ab9c89",
+            "venue": "Empirical Software Engineering",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1738018",
+                    "name": "R. L\u00e4mmel"
+                },
+                {
+                    "authorId": "2145189",
+                    "name": "Ekaterina Pek"
+                },
+                {
+                    "authorId": "34034469",
+                    "name": "J\u00fcrgen Starek"
+                }
+            ],
+            "doi": "10.1145/1982185.1982471",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "e7e708966bd9eb93b39fb407ca0c122624f2756c",
+            "title": "Large-scale, AST-based API-usage analysis of open-source Java projects",
+            "url": "https://www.semanticscholar.org/paper/e7e708966bd9eb93b39fb407ca0c122624f2756c",
+            "venue": "SAC",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1686038",
+                    "name": "Alberto Bacchelli"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                },
+                {
+                    "authorId": "2472187",
+                    "name": "Vitezslav Humpa"
+                }
+            ],
+            "doi": "10.1109/CSMR.2011.6",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "cc0f9f7cd631b4717b32564ed29efec5a23ffdad",
+            "title": "RTFM (Read the Factual Mails) - Augmenting Program Comprehension with Remail",
+            "url": "https://www.semanticscholar.org/paper/cc0f9f7cd631b4717b32564ed29efec5a23ffdad",
+            "venue": "2011 15th European Conference on Software Maintenance and Reengineering",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3026603",
+                    "name": "Yana Momchilova Mileva"
+                },
+                {
+                    "authorId": "1783197",
+                    "name": "Valentin Dallmeier"
+                },
+                {
+                    "authorId": "145594351",
+                    "name": "A. Zeller"
+                }
+            ],
+            "doi": "10.1007/978-3-642-15585-7_17",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b5cb6b998539e5056e8e52ad2eacd43fb40908e7",
+            "title": "Mining API Popularity",
+            "url": "https://www.semanticscholar.org/paper/b5cb6b998539e5056e8e52ad2eacd43fb40908e7",
+            "venue": "TAIC PART",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3076399",
+                    "name": "Barth\u00e9l\u00e9my Dagenais"
+                },
+                {
+                    "authorId": "1699786",
+                    "name": "L. Hendren"
+                }
+            ],
+            "doi": "10.1145/1449764.1449790",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ad866efbe615844b76b5df7372d62f0d6eb2ae58",
+            "title": "Enabling static analysis for partial java programs",
+            "url": "https://www.semanticscholar.org/paper/ad866efbe615844b76b5df7372d62f0d6eb2ae58",
+            "venue": "OOPSLA",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145906750",
+                    "name": "Tao Xie"
+                },
+                {
+                    "authorId": "145525190",
+                    "name": "J. Pei"
+                }
+            ],
+            "doi": "10.1145/1137983.1137997",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "523a4342478c553115e896a88c178a5996ef7a4a",
+            "title": "MAPO: mining API usages from open source repositories",
+            "url": "https://www.semanticscholar.org/paper/523a4342478c553115e896a88c178a5996ef7a4a",
+            "venue": "MSR '06",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1698329",
+                    "name": "S. Jansen"
+                },
+                {
+                    "authorId": "1723584",
+                    "name": "G. Ballintijn"
+                },
+                {
+                    "authorId": "145646810",
+                    "name": "S. Brinkkemper"
+                },
+                {
+                    "authorId": "2239450464",
+                    "name": "Arco van Nieuwland"
+                }
+            ],
+            "doi": "10.1002/SMR.330",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "bcdfe9225120bccdc5e5498daa05fdbf60cf1024",
+            "title": "Integrated development and maintenance for the release, delivery, deployment, and customization of product software: a case study in mass-market ERP software",
+            "url": "https://www.semanticscholar.org/paper/bcdfe9225120bccdc5e5498daa05fdbf60cf1024",
+            "venue": "J. Softw. Maintenance Res. Pract.",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "67085635",
+                    "name": "Vincent Massol"
+                },
+                {
+                    "authorId": "2057856066",
+                    "name": "Timothy M. O'Brien"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "524b06a463aa0f5c9a61910b58b5f03b4baf61d8",
+            "title": "Maven: A Developer's Notebook (Developer's Notebooks)",
+            "url": "https://www.semanticscholar.org/paper/524b06a463aa0f5c9a61910b58b5f03b4baf61d8",
+            "venue": "",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1797322",
+                    "name": "St\u00e9phane Ducasse"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                },
+                {
+                    "authorId": "3177929",
+                    "name": "S. Tichelaar"
+                }
+            ],
+            "doi": "10.7892/BORIS.104480",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "220bde66eabf064617f7d23d61a71e021c0fffbe",
+            "title": "Moose: an Extensible Language-Independent Environment for Reengineering Object-Oriented Systems",
+            "url": "https://www.semanticscholar.org/paper/220bde66eabf064617f7d23d61a71e021c0fffbe",
+            "venue": "",
+            "year": 2000
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Github\u2019s 10,000 most popular java projects \u2013 here are the top libraries they use",
+            "url": "",
+            "venue": "http://blog.takipi.com/githubs-10000-most-popularjava-projects-here-are-the-top-libraries-they-use/, nov 2013.",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2108867427",
+                    "name": "Ralph E. Johnson"
+                },
+                {
+                    "authorId": "2152989",
+                    "name": "B. Foote"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8dabc3028342e5cd247b8c55219ee298d80aa7e7",
+            "title": "Designing Reusable Classes",
+            "url": "https://www.semanticscholar.org/paper/8dabc3028342e5cd247b8c55219ee298d80aa7e7",
+            "venue": "",
+            "year": 2001
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Eclipse JDT-Abstract Syntax Tree (AST) and the java modeltutorial",
+            "url": "",
+            "venue": "http://www.vogella.com/tutorials/EclipseJDT/article.html.",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1687704",
+                    "name": "Danny Dig"
+                },
+                {
+                    "authorId": "2108867427",
+                    "name": "Ralph E. Johnson"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "93f114e7f95110557a5c6d1be02f04e78287a906",
+            "title": "Journal of Software Maintenance and Evolution: Research and Practice How Do Apis Evolve? a Story of Refactoring",
+            "url": "https://www.semanticscholar.org/paper/93f114e7f95110557a5c6d1be02f04e78287a906",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "A Dataset for API Usage",
+    "topics": [
+        {
+            "topic": "Application programming interface",
+            "topicId": "8555",
+            "url": "https://www.semanticscholar.org/topic/8555"
+        },
+        {
+            "topic": "Subroutine",
+            "topicId": "60582",
+            "url": "https://www.semanticscholar.org/topic/60582"
+        }
+    ],
+    "url": "https://www.semanticscholar.org/paper/f89bbf0280554d1e37f0064590a7145377343840",
+    "venue": "2015 IEEE/ACM 12th Working Conference on Mining Software Repositories",
+    "year": 2015
+}

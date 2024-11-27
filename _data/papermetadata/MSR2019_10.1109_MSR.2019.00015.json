@@ -1,0 +1,2002 @@
+{
+    "abstract": "The emergence of online open source repositories in the recent years has led to an explosion in the volume of openly available source code, coupled with metadata that relate to a variety of software development activities. As an effect, in line with recent advances in machine learning research, software maintenance activities are switching from symbolic formal methods to data\u2013driven methods. In this context, the rich semantics hidden in source code identifiers provide opportunities for building semantic representations of code which can assist tasks of code search and reuse. To this end, we deliver in the form of pretrained vector space models, distributed code representations for six popular programming languages, namely, Java, Python, PHP, C, C++, and C#. The models are produced using fastText, a state\u2013of\u2013the\u2013art library for learning word representations. Each model is trained on data from a single programming language; the code mined for producing all models amounts to over 13.000 repositories. We indicate dissimilarities between natural language and source code, as well as variations in coding conventions in between the different programming languages we processed. We describe how these heterogeneities guided the data preprocessing decisions we took and the selection of the training parameters in the released models. Finally, we propose potential applications of the models and discuss limitations of the models.",
+    "arxivId": "1904.06929",
+    "authors": [
+        {
+            "authorId": "2122187",
+            "name": "V. Efstathiou",
+            "url": "https://www.semanticscholar.org/author/2122187"
+        },
+        {
+            "authorId": "1740799",
+            "name": "D. Spinellis",
+            "url": "https://www.semanticscholar.org/author/1740799"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2203101437",
+                    "name": "Ding Li"
+                },
+                {
+                    "authorId": "2290114000",
+                    "name": "Yan Liu"
+                },
+                {
+                    "authorId": "2203201991",
+                    "name": "Jun Huang"
+                }
+            ],
+            "doi": "10.3390/make6020050",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5b39d90b83be425cb0e84fe5d3a75d02a6822eca",
+            "title": "Assessment of Software Vulnerability Contributing Factors by Model-Agnostic Explainable AI",
+            "url": "https://www.semanticscholar.org/paper/5b39d90b83be425cb0e84fe5d3a75d02a6822eca",
+            "venue": "Mach. Learn. Knowl. Extr.",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2237263073",
+                    "name": "Guodong Fan"
+                },
+                {
+                    "authorId": "2110750613",
+                    "name": "Shizhan Chen"
+                },
+                {
+                    "authorId": "2238546927",
+                    "name": "Cuiyun Gao"
+                },
+                {
+                    "authorId": "27058920",
+                    "name": "Jianmao Xiao"
+                },
+                {
+                    "authorId": "2280983218",
+                    "name": "Tao Zhang"
+                },
+                {
+                    "authorId": "2113907598",
+                    "name": "Zhiyong Feng"
+                }
+            ],
+            "doi": "10.1145/3641542",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "7cfe14caa71baad3c19bd878feeebe8e0a6d61df",
+            "title": "RAPID: Zero-Shot Domain Adaptation for Code Search with Pre-Trained Models",
+            "url": "https://www.semanticscholar.org/paper/7cfe14caa71baad3c19bd878feeebe8e0a6d61df",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2233087051",
+                    "name": "Tushar Sharma"
+                },
+                {
+                    "authorId": "3126897",
+                    "name": "M. Kechagia"
+                },
+                {
+                    "authorId": "2386975",
+                    "name": "Stefanos Georgiou"
+                },
+                {
+                    "authorId": "2054167519",
+                    "name": "Rohit Tiwari"
+                },
+                {
+                    "authorId": "2212139964",
+                    "name": "Indira Vats"
+                },
+                {
+                    "authorId": "2275460764",
+                    "name": "Hadi Moazen"
+                },
+                {
+                    "authorId": "2275465565",
+                    "name": "Federica Sarro"
+                }
+            ],
+            "doi": "10.1016/j.jss.2023.111934",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "445c71912a718b6add8b79d01ee02aaadb51a5cb",
+            "title": "A survey on machine learning techniques applied to source code",
+            "url": "https://www.semanticscholar.org/paper/445c71912a718b6add8b79d01ee02aaadb51a5cb",
+            "venue": "J. Syst. Softw.",
+            "year": 2023
+        },
+        {
+            "arxivId": "2310.03174",
+            "authors": [
+                {
+                    "authorId": "151501415",
+                    "name": "Mosab Rezaei"
+                },
+                {
+                    "authorId": "2122345729",
+                    "name": "Hamed Alhoori"
+                },
+                {
+                    "authorId": "2254272120",
+                    "name": "Mona Rahimi"
+                }
+            ],
+            "doi": "10.1109/ASEW60602.2023.00026",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1f8978f89f04ebbf4065b3c1d8dcd3e8e0768eb8",
+            "title": "Test Case Recommendations with Distributed Representation of Code Syntactic Features",
+            "url": "https://www.semanticscholar.org/paper/1f8978f89f04ebbf4065b3c1d8dcd3e8e0768eb8",
+            "venue": "2023 38th IEEE/ACM International Conference on Automated Software Engineering Workshops (ASEW)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2307.02443",
+            "authors": [
+                {
+                    "authorId": "2091097171",
+                    "name": "Max Hort"
+                },
+                {
+                    "authorId": "73569689",
+                    "name": "Anastasiia Grishina"
+                },
+                {
+                    "authorId": "1762006",
+                    "name": "L. Moonen"
+                }
+            ],
+            "doi": "10.1109/ESEM56168.2023.10304803",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b531ec9810a1c913df2d76c75b167b55211e8a85",
+            "title": "An Exploratory Literature Study on Sharing and Energy Use of Language Models for Source Code",
+            "url": "https://www.semanticscholar.org/paper/b531ec9810a1c913df2d76c75b167b55211e8a85",
+            "venue": "2023 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "30982572",
+                    "name": "Zishuo Ding"
+                }
+            ],
+            "doi": "10.1109/ICSE-Companion58688.2023.00077",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a3e3c85afa3c1b02718af6cdbfb4b4746dd6fe0f",
+            "title": "Towards Utilizing Natural Language Processing Techniques to Assist in Software Engineering Tasks",
+            "url": "https://www.semanticscholar.org/paper/a3e3c85afa3c1b02718af6cdbfb4b4746dd6fe0f",
+            "venue": "2023 IEEE/ACM 45th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2108085119",
+                    "name": "Jingxuan Zhang"
+                },
+                {
+                    "authorId": "2108641060",
+                    "name": "Siyuan Liu"
+                },
+                {
+                    "authorId": "145685957",
+                    "name": "Lina Gong"
+                },
+                {
+                    "authorId": "2135688831",
+                    "name": "Haoxiang Zhang"
+                },
+                {
+                    "authorId": "1713329",
+                    "name": "Zhiqiu Huang"
+                },
+                {
+                    "authorId": "2142704657",
+                    "name": "He Jiang"
+                }
+            ],
+            "doi": "10.1109/TSE.2022.3227559",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b656867be04657a6a1da5ef74411200446cfcce8",
+            "title": "BEQAIN: An Effective and Efficient Identifier Normalization Approach With BERT and the Question Answering System",
+            "url": "https://www.semanticscholar.org/paper/b656867be04657a6a1da5ef74411200446cfcce8",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2023
+        },
+        {
+            "arxivId": "2209.12181",
+            "authors": [
+                {
+                    "authorId": "143768607",
+                    "name": "Thanh Vu"
+                },
+                {
+                    "authorId": "1833292",
+                    "name": "H. Vo"
+                }
+            ],
+            "doi": "10.1109/KSE56063.2022.9953786",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "8c9db8b51817f44c33180db7e0cca86fc1925916",
+            "title": "Using Multiple Code Representations to Prioritize Static Analysis Warnings",
+            "url": "https://www.semanticscholar.org/paper/8c9db8b51817f44c33180db7e0cca86fc1925916",
+            "venue": "2022 14th International Conference on Knowledge and Systems Engineering (KSE)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2207.04285",
+            "authors": [
+                {
+                    "authorId": "2154873391",
+                    "name": "Yaoxian Li"
+                },
+                {
+                    "authorId": "2166478864",
+                    "name": "Shiyi Qi"
+                },
+                {
+                    "authorId": "2337550",
+                    "name": "Cuiyun Gao"
+                },
+                {
+                    "authorId": "2111035155",
+                    "name": "Yun Peng"
+                },
+                {
+                    "authorId": "2150912791",
+                    "name": "David Lo"
+                },
+                {
+                    "authorId": "2155432076",
+                    "name": "Zenglin Xu"
+                },
+                {
+                    "authorId": "2146840128",
+                    "name": "Michael R. Lyu"
+                }
+            ],
+            "doi": "10.48550/arXiv.2207.04285",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9692886ba8e2c9d8990b0505e9c67a696d9f28a7",
+            "title": "A Closer Look into Transformer-Based Code Intelligence Through Code Transformation: Challenges and Opportunities",
+            "url": "https://www.semanticscholar.org/paper/9692886ba8e2c9d8990b0505e9c67a696d9f28a7",
+            "venue": "ArXiv",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "30982572",
+                    "name": "Zishuo Ding"
+                },
+                {
+                    "authorId": "2153612424",
+                    "name": "Heng Li"
+                },
+                {
+                    "authorId": "39724619",
+                    "name": "Weiyi Shang"
+                },
+                {
+                    "authorId": "50815221",
+                    "name": "T. Chen"
+                }
+            ],
+            "doi": "10.1145/3542944",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "79c3300cc33ab7a48a72e478fdf8af7c5f937006",
+            "title": "Towards Learning Generalizable Code Embeddings Using Task-agnostic Graph Convolutional Networks",
+            "url": "https://www.semanticscholar.org/paper/79c3300cc33ab7a48a72e478fdf8af7c5f937006",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2022
+        },
+        {
+            "arxivId": "2204.09654",
+            "authors": [
+                {
+                    "authorId": "1625805736",
+                    "name": "Rishab Sharma"
+                },
+                {
+                    "authorId": "7243120",
+                    "name": "Fuxiang Chen"
+                },
+                {
+                    "authorId": "72982363",
+                    "name": "Fatemeh H. Fard"
+                }
+            ],
+            "doi": "10.1145/3524610.3527924",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "f1df52e7d617ad81e74c83b96729a8c3d31ccd63",
+            "title": "LAMNER: Code Comment Generation Using Character Language Model and Named Entity Recognition",
+            "url": "https://www.semanticscholar.org/paper/f1df52e7d617ad81e74c83b96729a8c3d31ccd63",
+            "venue": "2022 IEEE/ACM 30th International Conference on Program Comprehension (ICPC)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "36571930",
+                    "name": "Sawan Rai"
+                },
+                {
+                    "authorId": "70613208",
+                    "name": "R. Belwal"
+                },
+                {
+                    "authorId": "2110603265",
+                    "name": "Atul Gupta"
+                }
+            ],
+            "doi": "10.1145/3519312",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1c75fb85125541566a89562a0fbc8b8531e3e9a0",
+            "title": "A Review on Source Code Documentation",
+            "url": "https://www.semanticscholar.org/paper/1c75fb85125541566a89562a0fbc8b8531e3e9a0",
+            "venue": "ACM Trans. Intell. Syst. Technol.",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "30982572",
+                    "name": "Zishuo Ding"
+                },
+                {
+                    "authorId": "2153612424",
+                    "name": "Heng Li"
+                },
+                {
+                    "authorId": "39724619",
+                    "name": "Weiyi Shang"
+                },
+                {
+                    "authorId": "50815221",
+                    "name": "T. Chen"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10118-5",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a9e50a97cc7fa77ffd69a74c38cc23663506b1f6",
+            "title": "Can pre-trained code embeddings improve model performance? Revisiting the use of code embeddings in software engineering tasks",
+            "url": "https://www.semanticscholar.org/paper/a9e50a97cc7fa77ffd69a74c38cc23663506b1f6",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": "2201.09476",
+            "authors": [
+                {
+                    "authorId": "2154869696",
+                    "name": "Weidong Wang"
+                },
+                {
+                    "authorId": "2151495793",
+                    "name": "Dian Li"
+                },
+                {
+                    "authorId": "15491211",
+                    "name": "Y. Kang"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "665f15fe6d2ef6c7518cf7e3c604c03f1a7c38c3",
+            "title": "A Two-phase Recommendation Framework for Consistent Java Method Names",
+            "url": "https://www.semanticscholar.org/paper/665f15fe6d2ef6c7518cf7e3c604c03f1a7c38c3",
+            "venue": "ArXiv",
+            "year": 2022
+        },
+        {
+            "arxivId": "2110.09610",
+            "authors": [
+                {
+                    "authorId": "2007882123",
+                    "name": "Tushar Sharma"
+                },
+                {
+                    "authorId": "3126897",
+                    "name": "M. Kechagia"
+                },
+                {
+                    "authorId": "2386975",
+                    "name": "Stefanos Georgiou"
+                },
+                {
+                    "authorId": "2054167519",
+                    "name": "Rohit Tiwari"
+                },
+                {
+                    "authorId": "2103653",
+                    "name": "Federica Sarro"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "416bb2238e92cc9c664bc932a5e968bf03bd2845",
+            "title": "A Survey on Machine Learning Techniques for Source Code Analysis",
+            "url": "https://www.semanticscholar.org/paper/416bb2238e92cc9c664bc932a5e968bf03bd2845",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": "2108.02702",
+            "authors": [
+                {
+                    "authorId": "2110883355",
+                    "name": "Rodrigo F. Silva"
+                },
+                {
+                    "authorId": "2238172661",
+                    "name": "Mohammad Masudur Rahman"
+                },
+                {
+                    "authorId": "150054953",
+                    "name": "C. Dantas"
+                },
+                {
+                    "authorId": "1738612",
+                    "name": "C. Roy"
+                },
+                {
+                    "authorId": "1703493",
+                    "name": "Foutse Khomh"
+                },
+                {
+                    "authorId": "2256652704",
+                    "name": "Marcelo de Almeida Maia"
+                }
+            ],
+            "doi": "10.1016/j.jss.2021.111063",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "9eed4d23d9459e37f0fdd65851f7d4f9f08d1233",
+            "title": "Improved Retrieval of Programming Solutions With Code Examples Using a Multi-featured Score",
+            "url": "https://www.semanticscholar.org/paper/9eed4d23d9459e37f0fdd65851f7d4f9f08d1233",
+            "venue": "J. Syst. Softw.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2105.03131",
+            "authors": [
+                {
+                    "authorId": "2984475",
+                    "name": "Z. Bilgin"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2d17fab6714d5f9688ada893c25180c61f4b9652",
+            "title": "Code2Image: Intelligent Code Analysis by Computer Vision Techniques and Application to Vulnerability Prediction",
+            "url": "https://www.semanticscholar.org/paper/2d17fab6714d5f9688ada893c25180c61f4b9652",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2051972539",
+                    "name": "Priti Oli"
+                },
+                {
+                    "authorId": "2004401966",
+                    "name": "Rabin Banjade"
+                },
+                {
+                    "authorId": "37229526",
+                    "name": "L. Tamang"
+                },
+                {
+                    "authorId": "145154896",
+                    "name": "V. Rus"
+                }
+            ],
+            "doi": "10.32473/FLAIRS.V34I1.128560",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "280bc591471dbcc39d9acd90b96a57692fd59148",
+            "title": "Automated Assessment of Quality of Jupyter Notebooks Using Artificial Intelligence and Big Code",
+            "url": "https://www.semanticscholar.org/paper/280bc591471dbcc39d9acd90b96a57692fd59148",
+            "venue": "FLAIRS",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2638067",
+                    "name": "S. Mishra"
+                },
+                {
+                    "authorId": "1443782917",
+                    "name": "Arpit Sharma"
+                }
+            ],
+            "doi": "10.1145/3452383.3452401",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "917d71c11046b5c744ffaf3604ddc985cf3a46d4",
+            "title": "Crawling Wikipedia Pages to Train Word Embeddings Model for Software Engineering Domain",
+            "url": "https://www.semanticscholar.org/paper/917d71c11046b5c744ffaf3604ddc985cf3a46d4",
+            "venue": "ISEC",
+            "year": 2021
+        },
+        {
+            "arxivId": "2003.05620",
+            "authors": [
+                {
+                    "authorId": "9719656",
+                    "name": "Thong Hoang"
+                },
+                {
+                    "authorId": "48654378",
+                    "name": "Hong Jin Kang"
+                },
+                {
+                    "authorId": "1793096",
+                    "name": "J. Lawall"
+                },
+                {
+                    "authorId": "143960552",
+                    "name": "David Lo"
+                }
+            ],
+            "doi": "10.1145/3377811.3380361",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0dfe706526e5234338411489e1826b4060acc4e8",
+            "title": "CC2Vec: Distributed Representations of Code Changes",
+            "url": "https://www.semanticscholar.org/paper/0dfe706526e5234338411489e1826b4060acc4e8",
+            "venue": "2020 IEEE/ACM 42nd International Conference on Software Engineering (ICSE)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48654378",
+                    "name": "Hong Jin Kang"
+                },
+                {
+                    "authorId": "3023999",
+                    "name": "T\u00e9gawend\u00e9 F. Bissyand\u00e9"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                }
+            ],
+            "doi": "10.1109/ASE.2019.00011",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d47f1239d13c153af15a6bb62e67109bcb5beaad",
+            "title": "Assessing the Generalizability of Code2vec Token Embeddings",
+            "url": "https://www.semanticscholar.org/paper/d47f1239d13c153af15a6bb62e67109bcb5beaad",
+            "venue": "2019 34th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": "10.1109/msr45733.2019",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "de20e3a4dbd7d0d30eb4a5b46d6222ba827cf208",
+            "title": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "url": "https://www.semanticscholar.org/paper/de20e3a4dbd7d0d30eb4a5b46d6222ba827cf208",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": "1904.03031",
+            "authors": [
+                {
+                    "authorId": "50847845",
+                    "name": "Tushar Sharma"
+                },
+                {
+                    "authorId": "2122187",
+                    "name": "V. Efstathiou"
+                },
+                {
+                    "authorId": "123396793",
+                    "name": "Panos Louridas"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1016/j.jss.2021.110936",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "97cec4d8591c27bf1a9346a0a520c82fe37061be",
+            "title": "On the Feasibility of Transfer-learning Code Smells using Deep Learning",
+            "url": "https://www.semanticscholar.org/paper/97cec4d8591c27bf1a9346a0a520c82fe37061be",
+            "venue": "J. Syst. Softw.",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1752869419",
+                    "name": "Samiha S. Shimmi"
+                },
+                {
+                    "authorId": "2313026411",
+                    "name": "Ashiqur Rahman"
+                },
+                {
+                    "authorId": "2312309504",
+                    "name": "Mohan Gadde"
+                },
+                {
+                    "authorId": "2312310313",
+                    "name": "Hamed Okhravi"
+                },
+                {
+                    "authorId": "2309862570",
+                    "name": "Mona Rahimi"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "beca27d59016fa787c0dfcd6c93cfd29f9db2a09",
+            "title": "VulSim: Leveraging Similarity of Multi-Dimensional Neighbor Embeddings for Vulnerability Detection",
+            "url": "https://www.semanticscholar.org/paper/beca27d59016fa787c0dfcd6c93cfd29f9db2a09",
+            "venue": "USENIX Security Symposium",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47616409",
+                    "name": "Vladimir Ivanov"
+                },
+                {
+                    "authorId": "49237969",
+                    "name": "Vitaly Romanov"
+                },
+                {
+                    "authorId": "144248287",
+                    "name": "G. Succi"
+                }
+            ],
+            "doi": "10.5220/0010500305480556",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "60ab4984108c51c2c2aa451c7865f3765d1c7b4a",
+            "title": "Predicting Type Annotations for Python using Embeddings from Graph Neural Networks",
+            "url": "https://www.semanticscholar.org/paper/60ab4984108c51c2c2aa451c7865f3765d1c7b4a",
+            "venue": "ICEIS",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2984475",
+                    "name": "Z. Bilgin"
+                },
+                {
+                    "authorId": "49317014",
+                    "name": "M. Ersoy"
+                },
+                {
+                    "authorId": "37273378",
+                    "name": "Elif Ustundag Soykan"
+                },
+                {
+                    "authorId": "31767353",
+                    "name": "E. Tomur"
+                },
+                {
+                    "authorId": "2103981403",
+                    "name": "Pinar \u00c7omak"
+                },
+                {
+                    "authorId": "1904044692",
+                    "name": "Leyli Kara\u00e7ay"
+                }
+            ],
+            "doi": "10.1109/ACCESS.2020.3016774",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f2e5702330e52b730378ca1e7f1a041fc4f81c07",
+            "title": "Vulnerability Prediction From Source Code Using Machine Learning",
+            "url": "https://www.semanticscholar.org/paper/f2e5702330e52b730378ca1e7f1a041fc4f81c07",
+            "venue": "IEEE Access",
+            "year": 2020
+        }
+    ],
+    "corpusId": 118640240,
+    "doi": "10.1109/MSR.2019.00015",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 2,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 26,
+    "numCiting": 43,
+    "paperId": "675046f82f293cbd546b706992c2738255eb417e",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2122187",
+                    "name": "V. Efstathiou"
+                },
+                {
+                    "authorId": "51120099",
+                    "name": "Christos Chatzilenas"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1145/3196398.3196448",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6e1cafd50333b3812bf002a51bcb1f720e35b7ed",
+            "title": "Word Embeddings for the Software Engineering Domain",
+            "url": "https://www.semanticscholar.org/paper/6e1cafd50333b3812bf002a51bcb1f720e35b7ed",
+            "venue": "2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR)",
+            "year": 2018
+        },
+        {
+            "arxivId": "1803.09473",
+            "authors": [
+                {
+                    "authorId": "47051926",
+                    "name": "Uri Alon"
+                },
+                {
+                    "authorId": "20809735",
+                    "name": "Meital Zilberstein"
+                },
+                {
+                    "authorId": "39455775",
+                    "name": "Omer Levy"
+                },
+                {
+                    "authorId": "1743232",
+                    "name": "Eran Yahav"
+                }
+            ],
+            "doi": "10.1145/3290353",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2403c68b7805342fc2c7dc6815bc29e189fb495a",
+            "title": "code2vec: learning distributed representations of code",
+            "url": "https://www.semanticscholar.org/paper/2403c68b7805342fc2c7dc6815bc29e189fb495a",
+            "venue": "Proc. ACM Program. Lang.",
+            "year": 2018
+        },
+        {
+            "arxivId": "1802.06893",
+            "authors": [
+                {
+                    "authorId": "3024698",
+                    "name": "Edouard Grave"
+                },
+                {
+                    "authorId": "2329288",
+                    "name": "Piotr Bojanowski"
+                },
+                {
+                    "authorId": "46479926",
+                    "name": "Prakhar Gupta"
+                },
+                {
+                    "authorId": "2319608",
+                    "name": "Armand Joulin"
+                },
+                {
+                    "authorId": "2047446108",
+                    "name": "Tomas Mikolov"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0fe73c19513dfd17372d8ef58da0d0149725832c",
+            "title": "Learning Word Vectors for 157 Languages",
+            "url": "https://www.semanticscholar.org/paper/0fe73c19513dfd17372d8ef58da0d0149725832c",
+            "venue": "LREC",
+            "year": 2018
+        },
+        {
+            "arxivId": "1712.09405",
+            "authors": [
+                {
+                    "authorId": "2047446108",
+                    "name": "Tomas Mikolov"
+                },
+                {
+                    "authorId": "3024698",
+                    "name": "Edouard Grave"
+                },
+                {
+                    "authorId": "2329288",
+                    "name": "Piotr Bojanowski"
+                },
+                {
+                    "authorId": "1940183",
+                    "name": "Christian Puhrsch"
+                },
+                {
+                    "authorId": "2319608",
+                    "name": "Armand Joulin"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "95b3d6b9d50bfd4b0a77a096269762b28e218346",
+            "title": "Advances in Pre-Training Distributed Word Representations",
+            "url": "https://www.semanticscholar.org/paper/95b3d6b9d50bfd4b0a77a096269762b28e218346",
+            "venue": "LREC",
+            "year": 2017
+        },
+        {
+            "arxivId": "1709.06182",
+            "authors": [
+                {
+                    "authorId": "3216345",
+                    "name": "Miltiadis Allamanis"
+                },
+                {
+                    "authorId": "1757975",
+                    "name": "Earl T. Barr"
+                },
+                {
+                    "authorId": "1730296",
+                    "name": "Premkumar T. Devanbu"
+                },
+                {
+                    "authorId": "37210858",
+                    "name": "Charles Sutton"
+                }
+            ],
+            "doi": "10.1145/3212695",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "960ba564e9e598d864dff38d2f3d0bad1b319ead",
+            "title": "A Survey of Machine Learning for Big Code and Naturalness",
+            "url": "https://www.semanticscholar.org/paper/960ba564e9e598d864dff38d2f3d0bad1b319ead",
+            "venue": "ACM Comput. Surv.",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2434621",
+                    "name": "Bogdan Vasilescu"
+                },
+                {
+                    "authorId": "33355487",
+                    "name": "Casey Casalnuovo"
+                },
+                {
+                    "authorId": "1730296",
+                    "name": "Premkumar T. Devanbu"
+                }
+            ],
+            "doi": "10.1145/3106237.3106289",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "53da3749987b3a4d166449e32af7b474ce776096",
+            "title": "Recovering clear, natural identifiers from obfuscated JS names",
+            "url": "https://www.semanticscholar.org/paper/53da3749987b3a4d166449e32af7b474ce776096",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2115439061",
+                    "name": "Huihui Wei"
+                },
+                {
+                    "authorId": "35834541",
+                    "name": "Ming Li"
+                }
+            ],
+            "doi": "10.24963/ijcai.2017/423",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "29d2ec9b25e5a0844d156a0e7bc19df24a2c3a48",
+            "title": "Supervised Deep Features for Software Functional Clone Detection by Exploiting Lexical and Syntactical Information in Source Code",
+            "url": "https://www.semanticscholar.org/paper/29d2ec9b25e5a0844d156a0e7bc19df24a2c3a48",
+            "venue": "IJCAI",
+            "year": 2017
+        },
+        {
+            "arxivId": "1707.06598",
+            "authors": [
+                {
+                    "authorId": "2844293",
+                    "name": "Navid Rekabsaz"
+                },
+                {
+                    "authorId": "116506812",
+                    "name": "Bhaskar Mitra"
+                },
+                {
+                    "authorId": "144307089",
+                    "name": "M. Lupu"
+                },
+                {
+                    "authorId": "1699657",
+                    "name": "A. Hanbury"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "575c8cbf97b0b5fb99cb359570f2ecb438b77036",
+            "title": "Toward Incorporation of Relevant Documents in word2vec",
+            "url": "https://www.semanticscholar.org/paper/575c8cbf97b0b5fb99cb359570f2ecb438b77036",
+            "venue": "ArXiv",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2747210",
+                    "name": "Carol V. Alexandru"
+                },
+                {
+                    "authorId": "3117169",
+                    "name": "Sebastiano Panichella"
+                },
+                {
+                    "authorId": "50355692",
+                    "name": "H. Gall"
+                }
+            ],
+            "doi": "10.1109/ICPC.2017.11",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e07ad3b37981b767cee09cbf463cf43ad00cb268",
+            "title": "Replicating Parser Behavior Using Neural Machine Translation",
+            "url": "https://www.semanticscholar.org/paper/e07ad3b37981b767cee09cbf463cf43ad00cb268",
+            "venue": "2017 IEEE/ACM 25th International Conference on Program Comprehension (ICPC)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5511581",
+                    "name": "Nuthan Munaiah"
+                },
+                {
+                    "authorId": "8642170",
+                    "name": "Steven Kroh"
+                },
+                {
+                    "authorId": "8680312",
+                    "name": "Craig Cabrey"
+                },
+                {
+                    "authorId": "7274019",
+                    "name": "M. Nagappan"
+                }
+            ],
+            "doi": "10.1007/s10664-017-9512-6",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "8adfb836c1af62800be790e3353f7d28a2943192",
+            "title": "Curating GitHub for engineered software projects",
+            "url": "https://www.semanticscholar.org/paper/8adfb836c1af62800be790e3353f7d28a2943192",
+            "venue": "Empirical Software Engineering",
+            "year": 2017
+        },
+        {
+            "arxivId": "1703.00133",
+            "authors": [
+                {
+                    "authorId": "144188710",
+                    "name": "Wei Fu"
+                },
+                {
+                    "authorId": "1703872",
+                    "name": "T. Menzies"
+                }
+            ],
+            "doi": "10.1145/3106237.3106256",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b0f6f8a3239fccc2c40c6d5728da5e4304d03f6f",
+            "title": "Easy over hard: a case study on deep learning",
+            "url": "https://www.semanticscholar.org/paper/b0f6f8a3239fccc2c40c6d5728da5e4304d03f6f",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2144558043",
+                    "name": "Rahul Gupta"
+                },
+                {
+                    "authorId": "9566918",
+                    "name": "Soham Pal"
+                },
+                {
+                    "authorId": "2594759",
+                    "name": "Aditya Kanade"
+                },
+                {
+                    "authorId": "1772326",
+                    "name": "S. Shevade"
+                }
+            ],
+            "doi": "10.1609/aaai.v31i1.10742",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "554c9b3aa8c3b7504810270b18b942a0d22156e7",
+            "title": "DeepFix: Fixing Common C Language Errors by Deep Learning",
+            "url": "https://www.semanticscholar.org/paper/554c9b3aa8c3b7504810270b18b942a0d22156e7",
+            "venue": "AAAI",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144301139",
+                    "name": "Anas Mahmoud"
+                },
+                {
+                    "authorId": "2488289",
+                    "name": "Gary L. Bradshaw"
+                }
+            ],
+            "doi": "10.1007/s10664-016-9473-1",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "cd2ee6384d06ef3b1894fd9af826d6135bfa027d",
+            "title": "Semantic topic models for source code analysis",
+            "url": "https://www.semanticscholar.org/paper/cd2ee6384d06ef3b1894fd9af826d6135bfa027d",
+            "venue": "Empirical Software Engineering",
+            "year": 2016
+        },
+        {
+            "arxivId": "1608.08176",
+            "authors": [
+                {
+                    "authorId": "41152241",
+                    "name": "Amritanshu Agrawal"
+                },
+                {
+                    "authorId": "144188710",
+                    "name": "Wei Fu"
+                },
+                {
+                    "authorId": "1703872",
+                    "name": "T. Menzies"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2018.02.005",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "66a77e79e91575df5e687875d68ec55765e68d90",
+            "title": "What is wrong with topic modeling? And how to fix it using search-based software engineering",
+            "url": "https://www.semanticscholar.org/paper/66a77e79e91575df5e687875d68ec55765e68d90",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2118713819",
+                    "name": "Martin White"
+                },
+                {
+                    "authorId": "40626221",
+                    "name": "Michele Tufano"
+                },
+                {
+                    "authorId": "2664645",
+                    "name": "Christopher Vendome"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                }
+            ],
+            "doi": "10.1145/2970276.2970326",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "775dd65fd70c13bc4144c28b25aa3376bbab3254",
+            "title": "Deep learning code fragments for code clone detection",
+            "url": "https://www.semanticscholar.org/paper/775dd65fd70c13bc4144c28b25aa3376bbab3254",
+            "venue": "2016 31st IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2203459",
+                    "name": "Bowen Xu"
+                },
+                {
+                    "authorId": "3091234",
+                    "name": "Deheng Ye"
+                },
+                {
+                    "authorId": "3138980",
+                    "name": "Zhenchang Xing"
+                },
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "2116379539",
+                    "name": "Guibin Chen"
+                },
+                {
+                    "authorId": "1773299",
+                    "name": "Shanping Li"
+                }
+            ],
+            "doi": "10.1145/2970276.2970357",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "4a43fa68f5717c92e8debf16ace74a0bec48f950",
+            "title": "Predicting semantically linkable knowledge in developer online forums via convolutional neural network",
+            "url": "https://www.semanticscholar.org/paper/4a43fa68f5717c92e8debf16ace74a0bec48f950",
+            "venue": "2016 31st IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1900163",
+                    "name": "Srini Iyer"
+                },
+                {
+                    "authorId": "2621022",
+                    "name": "Ioannis Konstas"
+                },
+                {
+                    "authorId": "144385783",
+                    "name": "Alvin Cheung"
+                },
+                {
+                    "authorId": "1982950",
+                    "name": "Luke Zettlemoyer"
+                }
+            ],
+            "doi": "10.18653/v1/P16-1195",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "32aa2517b03c871c11e521c2a3406f457833e2c3",
+            "title": "Summarizing Source Code using a Neural Attention Model",
+            "url": "https://www.semanticscholar.org/paper/32aa2517b03c871c11e521c2a3406f457833e2c3",
+            "venue": "ACL",
+            "year": 2016
+        },
+        {
+            "arxivId": "1607.04606",
+            "authors": [
+                {
+                    "authorId": "2329288",
+                    "name": "Piotr Bojanowski"
+                },
+                {
+                    "authorId": "3024698",
+                    "name": "Edouard Grave"
+                },
+                {
+                    "authorId": "2319608",
+                    "name": "Armand Joulin"
+                },
+                {
+                    "authorId": "2047446108",
+                    "name": "Tomas Mikolov"
+                }
+            ],
+            "doi": "10.1162/tacl_a_00051",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "e2dba792360873aef125572812f3673b1a85d850",
+            "title": "Enriching Word Vectors with Subword Information",
+            "url": "https://www.semanticscholar.org/paper/e2dba792360873aef125572812f3673b1a85d850",
+            "venue": "TACL",
+            "year": 2016
+        },
+        {
+            "arxivId": "1607.02902",
+            "authors": [
+                {
+                    "authorId": "2155555",
+                    "name": "Yewen Pu"
+                },
+                {
+                    "authorId": "144958935",
+                    "name": "Karthik Narasimhan"
+                },
+                {
+                    "authorId": "1389870240",
+                    "name": "Armando Solar-Lezama"
+                },
+                {
+                    "authorId": "1741283",
+                    "name": "R. Barzilay"
+                }
+            ],
+            "doi": "10.1145/2984043.2989222",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5b0602f9d0f1384dc95335c6ed220fef40a7e186",
+            "title": "sk_p: a neural program corrector for MOOCs",
+            "url": "https://www.semanticscholar.org/paper/5b0602f9d0f1384dc95335c6ed220fef40a7e186",
+            "venue": "SPLASH",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                },
+                {
+                    "authorId": "3013302",
+                    "name": "Annibale Panichella"
+                },
+                {
+                    "authorId": "145818752",
+                    "name": "A. D. Lucia"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                },
+                {
+                    "authorId": "1702285",
+                    "name": "A. Zaidman"
+                }
+            ],
+            "doi": "10.1109/ICPC.2016.7503704",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "23b1c3354024453e0d8e8402810893943b891ea2",
+            "title": "A textual-based technique for Smell Detection",
+            "url": "https://www.semanticscholar.org/paper/23b1c3354024453e0d8e8402810893943b891ea2",
+            "venue": "2016 IEEE 24th International Conference on Program Comprehension (ICPC)",
+            "year": 2016
+        },
+        {
+            "arxivId": "1603.06744",
+            "authors": [
+                {
+                    "authorId": "1379953252",
+                    "name": "Wang Ling"
+                },
+                {
+                    "authorId": "1685771",
+                    "name": "Phil Blunsom"
+                },
+                {
+                    "authorId": "1864353",
+                    "name": "Edward Grefenstette"
+                },
+                {
+                    "authorId": "2910877",
+                    "name": "Karl Moritz Hermann"
+                },
+                {
+                    "authorId": "2367821",
+                    "name": "Tom\u00e1s Kocisk\u00fd"
+                },
+                {
+                    "authorId": "2115096249",
+                    "name": "Fumin Wang"
+                },
+                {
+                    "authorId": "33666044",
+                    "name": "A. Senior"
+                }
+            ],
+            "doi": "10.18653/v1/P16-1057",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e957747f4f8600940be4c5bb001aa70c84e53a53",
+            "title": "Latent Predictor Networks for Code Generation",
+            "url": "https://www.semanticscholar.org/paper/e957747f4f8600940be4c5bb001aa70c84e53a53",
+            "venue": "ACL",
+            "year": 2016
+        },
+        {
+            "arxivId": "1603.04259",
+            "authors": [
+                {
+                    "authorId": "48797862",
+                    "name": "Oren Barkan"
+                },
+                {
+                    "authorId": "1683070",
+                    "name": "Noam Koenigstein"
+                }
+            ],
+            "doi": "10.1109/MLSP.2016.7738886",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "902493094eae4458a8f4cb70ab883a3885651607",
+            "title": "ITEM2VEC: Neural item embedding for collaborative filtering",
+            "url": "https://www.semanticscholar.org/paper/902493094eae4458a8f4cb70ab883a3885651607",
+            "venue": "2016 IEEE 26th International Workshop on Machine Learning for Signal Processing (MLSP)",
+            "year": 2016
+        },
+        {
+            "arxivId": "1602.03001",
+            "authors": [
+                {
+                    "authorId": "3216345",
+                    "name": "Miltiadis Allamanis"
+                },
+                {
+                    "authorId": "1818378366",
+                    "name": "Hao Peng"
+                },
+                {
+                    "authorId": "37210858",
+                    "name": "Charles Sutton"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "484ed558a5863060b373e8a2cb7cb302b8c36116",
+            "title": "A Convolutional Attention Network for Extreme Summarization of Source Code",
+            "url": "https://www.semanticscholar.org/paper/484ed558a5863060b373e8a2cb7cb302b8c36116",
+            "venue": "ICML",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143800179",
+                    "name": "Yusuke Oda"
+                },
+                {
+                    "authorId": "2281695",
+                    "name": "Hiroyuki Fudaba"
+                },
+                {
+                    "authorId": "1700325",
+                    "name": "Graham Neubig"
+                },
+                {
+                    "authorId": "145050815",
+                    "name": "Hideaki Hata"
+                },
+                {
+                    "authorId": "1783949",
+                    "name": "S. Sakti"
+                },
+                {
+                    "authorId": "1726559",
+                    "name": "T. Toda"
+                },
+                {
+                    "authorId": "145223960",
+                    "name": "Satoshi Nakamura"
+                }
+            ],
+            "doi": "10.1109/ASE.2015.36",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "27e1dbe9f7c71cd6cc1b0357f49aef497e572d09",
+            "title": "Learning to Generate Pseudo-Code from Source Code Using Statistical Machine Translation (T)",
+            "url": "https://www.semanticscholar.org/paper/27e1dbe9f7c71cd6cc1b0357f49aef497e572d09",
+            "venue": "2015 30th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1940272",
+                    "name": "Matt J. Kusner"
+                },
+                {
+                    "authorId": "2117103358",
+                    "name": "Yu Sun"
+                },
+                {
+                    "authorId": "1971973",
+                    "name": "Nicholas I. Kolkin"
+                },
+                {
+                    "authorId": "7446832",
+                    "name": "Kilian Q. Weinberger"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "66021a920001bc3e6258bffe7076d647614147b7",
+            "title": "From Word Embeddings To Document Distances",
+            "url": "https://www.semanticscholar.org/paper/66021a920001bc3e6258bffe7076d647614147b7",
+            "venue": "ICML",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143845796",
+                    "name": "Jeffrey Pennington"
+                },
+                {
+                    "authorId": "2166511",
+                    "name": "R. Socher"
+                },
+                {
+                    "authorId": "144783904",
+                    "name": "Christopher D. Manning"
+                }
+            ],
+            "doi": "10.3115/v1/D14-1162",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "f37e1b62a767a307c046404ca96bc140b3e68cb5",
+            "title": "GloVe: Global Vectors for Word Representation",
+            "url": "https://www.semanticscholar.org/paper/f37e1b62a767a307c046404ca96bc140b3e68cb5",
+            "venue": "EMNLP",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2884436",
+                    "name": "Ruiji Fu"
+                },
+                {
+                    "authorId": "144084849",
+                    "name": "Jiang Guo"
+                },
+                {
+                    "authorId": "152277111",
+                    "name": "Bing Qin"
+                },
+                {
+                    "authorId": "2256319",
+                    "name": "Wanxiang Che"
+                },
+                {
+                    "authorId": "144270731",
+                    "name": "Haifeng Wang"
+                },
+                {
+                    "authorId": "40282288",
+                    "name": "Ting Liu"
+                }
+            ],
+            "doi": "10.3115/v1/P14-1113",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5f1697b60c10e76617463ecd998211d8d933022d",
+            "title": "Learning Semantic Hierarchies via Word Embeddings",
+            "url": "https://www.semanticscholar.org/paper/5f1697b60c10e76617463ecd998211d8d933022d",
+            "venue": "ACL",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144659797",
+                    "name": "A. Nguyen"
+                },
+                {
+                    "authorId": "40538640",
+                    "name": "Tung Thanh Nguyen"
+                },
+                {
+                    "authorId": "2327697",
+                    "name": "T. Nguyen"
+                }
+            ],
+            "doi": "10.1145/2491411.2494584",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5447a3b8701d59f3a2f1a7f7af030f687ba495c3",
+            "title": "Lexical statistical machine translation for language migration",
+            "url": "https://www.semanticscholar.org/paper/5447a3b8701d59f3a2f1a7f7af030f687ba495c3",
+            "venue": "ESEC/FSE 2013",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3216345",
+                    "name": "Miltiadis Allamanis"
+                },
+                {
+                    "authorId": "37210858",
+                    "name": "Charles Sutton"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624029",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "110b7719f16eae8d82af0f56fca6e802c842c181",
+            "title": "Mining source code repositories at massive scale using language modeling",
+            "url": "https://www.semanticscholar.org/paper/110b7719f16eae8d82af0f56fca6e802c842c181",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3013302",
+                    "name": "Annibale Panichella"
+                },
+                {
+                    "authorId": "2628011",
+                    "name": "Bogdan Dit"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                },
+                {
+                    "authorId": "145818752",
+                    "name": "A. D. Lucia"
+                }
+            ],
+            "doi": "10.1109/ICSE.2013.6606598",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5ed409e2bee9203af02f63b0a57aa139f9ea2cc3",
+            "title": "How to effectively use topic models for software engineering tasks? An approach based on Genetic Algorithms",
+            "url": "https://www.semanticscholar.org/paper/5ed409e2bee9203af02f63b0a57aa139f9ea2cc3",
+            "venue": "2013 35th International Conference on Software Engineering (ICSE)",
+            "year": 2013
+        },
+        {
+            "arxivId": "1301.3781",
+            "authors": [
+                {
+                    "authorId": "2047446108",
+                    "name": "Tomas Mikolov"
+                },
+                {
+                    "authorId": "2118440152",
+                    "name": "Kai Chen"
+                },
+                {
+                    "authorId": "32131713",
+                    "name": "G. Corrado"
+                },
+                {
+                    "authorId": "49959210",
+                    "name": "J. Dean"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "f6b51c8753a871dc94ff32152c00c01e94f90f09",
+            "title": "Efficient Estimation of Word Representations in Vector Space",
+            "url": "https://www.semanticscholar.org/paper/f6b51c8753a871dc94ff32152c00c01e94f90f09",
+            "venue": "ICLR",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144637578",
+                    "name": "S. Foster"
+                },
+                {
+                    "authorId": "1733025",
+                    "name": "W. Griswold"
+                },
+                {
+                    "authorId": "145655689",
+                    "name": "Sorin Lerner"
+                }
+            ],
+            "doi": "10.1109/ICSE.2012.6227191",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "83229d7a75a13fc5e6954f91aa4a0bbdf52cab61",
+            "title": "WitchDoctor: IDE support for real-time auto-completion of refactorings",
+            "url": "https://www.semanticscholar.org/paper/83229d7a75a13fc5e6954f91aa4a0bbdf52cab61",
+            "venue": "2012 34th International Conference on Software Engineering (ICSE)",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1730296",
+                    "name": "Premkumar T. Devanbu"
+                }
+            ],
+            "doi": "10.1109/ICSE.2012.6227135",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "77bdb4c1117d72ad863845f35ba50929cb623776",
+            "title": "On the naturalness of software",
+            "url": "https://www.semanticscholar.org/paper/77bdb4c1117d72ad863845f35ba50929cb623776",
+            "venue": "2012 34th International Conference on Software Engineering (ICSE)",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1770962",
+                    "name": "A. Halevy"
+                },
+                {
+                    "authorId": "2784519",
+                    "name": "Peter Norvig"
+                },
+                {
+                    "authorId": "145366908",
+                    "name": "Fernando C Pereira"
+                }
+            ],
+            "doi": "10.1109/MIS.2009.36",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c1787db25af5614f41e56938aa594f2dbb1dca07",
+            "title": "The Unreasonable Effectiveness of Data",
+            "url": "https://www.semanticscholar.org/paper/c1787db25af5614f41e56938aa594f2dbb1dca07",
+            "venue": "IEEE Intelligent Systems",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "11065420",
+                    "name": "Gregory P. Finley"
+                },
+                {
+                    "authorId": "50656001",
+                    "name": "Stephanie Farmer"
+                },
+                {
+                    "authorId": "143847074",
+                    "name": "Serguei V. S. Pakhomov"
+                }
+            ],
+            "doi": "10.18653/v1/S17-1001",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5cc1723e98e8451a4bc23358b40a518897da10a2",
+            "title": "What Analogies Reveal about Word Vectors and their Compositionality",
+            "url": "https://www.semanticscholar.org/paper/5cc1723e98e8451a4bc23358b40a518897da10a2",
+            "venue": "*SEM",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6698059",
+                    "name": "Michael D. Ernst"
+                }
+            ],
+            "doi": "10.4230/LIPIcs.SNAPL.2017.4",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c27009a331655c1bab4d2940590dc8b73a63da2b",
+            "title": "Natural Language is a Programming Language: Applying Natural Language Processing to Software Development",
+            "url": "https://www.semanticscholar.org/paper/c27009a331655c1bab4d2940590dc8b73a63da2b",
+            "venue": "SNAPL",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "A syntactic neural model for general-purpose code generation",
+            "url": "",
+            "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2916420",
+                    "name": "K. Taghipour"
+                },
+                {
+                    "authorId": "34789794",
+                    "name": "H. Ng"
+                }
+            ],
+            "doi": "10.3115/v1/N15-1035",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4dab3babc6ffde1d29c305558f8d2aa488a2f620",
+            "title": "Semi-Supervised Word Sense Disambiguation Using Word Embeddings in General and Specific Domains",
+            "url": "https://www.semanticscholar.org/paper/4dab3babc6ffde1d29c305558f8d2aa488a2f620",
+            "venue": "NAACL",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "35400286",
+                    "name": "Z. Harris"
+                }
+            ],
+            "doi": "10.1007/978-94-017-6059-1_36",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "decd9bc0385612bdf936928206d83730718e737e",
+            "title": "Distributional Structure",
+            "url": "https://www.semanticscholar.org/paper/decd9bc0385612bdf936928206d83730718e737e",
+            "venue": "",
+            "year": 1954
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "fasttext -library for efficient text classification and representation learning",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "dspinellis/tokenizer: Version 1.1",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Tiobe -the software quality company",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Home of the reporeapers",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "Semantic Source Code Models Using Identifier Embeddings",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/675046f82f293cbd546b706992c2738255eb417e",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2019
+}

@@ -1,0 +1,451 @@
+{
+    "abstract": "We constructed a newly large-scale and comprehensive C/C++ vulnerability dataset named MegaVul by crawling the Common Vulnerabilities and Exposures (CVE) database and CVE-related open-source projects. Specifically, we collected all crawlable descriptive information of the vulnerabilities from the CVE database and extracted all vulnerability-related code changes from 28 Git-based websites. We adopt advanced tools to ensure the extracted code integrality and enrich the code with four different transformed representations. Totally, MegaVul contains 17,380 vulnerabilities collected from 992 open-source repositories spanning 169 different vulnerability types disclosed from January 2006 to October 2023. Thus, MegaVul can be used for a variety of software security-related tasks including detecting vulnerabilities and assessing vulnerability severity. All information is stored in the JSON format for easy usage. MegaVul is publicly available on GitHub and will be continuously updated. It can be easily extended to other programming languages.CCS CONCEPTS\u2022Software and its engineering \u2192 Software defect analysis.",
+    "arxivId": "2406.12415",
+    "authors": [
+        {
+            "authorId": "2294574801",
+            "name": "Chao Ni",
+            "url": "https://www.semanticscholar.org/author/2294574801"
+        },
+        {
+            "authorId": "2223484577",
+            "name": "Liyu Shen",
+            "url": "https://www.semanticscholar.org/author/2223484577"
+        },
+        {
+            "authorId": "2265717851",
+            "name": "Xiaohu Yang",
+            "url": "https://www.semanticscholar.org/author/2265717851"
+        },
+        {
+            "authorId": "2265676427",
+            "name": "Yan Zhu",
+            "url": "https://www.semanticscholar.org/author/2265676427"
+        },
+        {
+            "authorId": "2298901331",
+            "name": "Shaohua Wang",
+            "url": "https://www.semanticscholar.org/author/2298901331"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [],
+    "corpusId": 270562696,
+    "doi": "10.1145/3643991.3644886",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 0,
+    "numCiting": 16,
+    "paperId": "decb9b7b155a712f042c59e0588e6d07db02d320",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2134832209",
+                    "name": "Wenbo Wang"
+                },
+                {
+                    "authorId": "2216769546",
+                    "name": "Tien N. Nguyen"
+                },
+                {
+                    "authorId": "2145317386",
+                    "name": "Shaohua Wang"
+                },
+                {
+                    "authorId": "6299740",
+                    "name": "Yi Li"
+                },
+                {
+                    "authorId": "2223158060",
+                    "name": "Jiyuan Zhang"
+                },
+                {
+                    "authorId": "2133066141",
+                    "name": "Aashish Yadavally"
+                }
+            ],
+            "doi": "10.1109/ICSE48619.2023.00189",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f65aef29c0759b21325ab4c42a9461ea8d68c553",
+            "title": "DeepVD: Toward Class-Separation Features for Neural Network Vulnerability Detection",
+            "url": "https://www.semanticscholar.org/paper/f65aef29c0759b21325ab4c42a9461ea8d68c553",
+            "venue": "2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2067666152",
+                    "name": "Michael Fu"
+                },
+                {
+                    "authorId": "1957122",
+                    "name": "C. Tantithamthavorn"
+                }
+            ],
+            "doi": "10.1145/3524842.3528452",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "eca89f33fa090b3d51ac55f2cedc509c62a1e034",
+            "title": "LineVul: A Transformer-based Line-Level Vulnerability Prediction",
+            "url": "https://www.semanticscholar.org/paper/eca89f33fa090b3d51ac55f2cedc509c62a1e034",
+            "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2107.08760",
+            "authors": [
+                {
+                    "authorId": "11670279",
+                    "name": "G. Bhandari"
+                },
+                {
+                    "authorId": "2040705478",
+                    "name": "Amara Naseer"
+                },
+                {
+                    "authorId": "1762006",
+                    "name": "L. Moonen"
+                }
+            ],
+            "doi": "10.1145/3475960.3475985",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f1d7a4ed38192f156e77cde0785093cc0b66259e",
+            "title": "CVEfixes: automated collection of vulnerabilities and their fixes from open-source software",
+            "url": "https://www.semanticscholar.org/paper/f1d7a4ed38192f156e77cde0785093cc0b66259e",
+            "venue": "PROMISE",
+            "year": 2021
+        },
+        {
+            "arxivId": "2106.10478",
+            "authors": [
+                {
+                    "authorId": "6299740",
+                    "name": "Yi Li"
+                },
+                {
+                    "authorId": "2145317386",
+                    "name": "Shaohua Wang"
+                },
+                {
+                    "authorId": "2327697",
+                    "name": "T. Nguyen"
+                }
+            ],
+            "doi": "10.1145/3468264.3468597",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6912494c2b9c2bab33a3fbd221591328d9d9120c",
+            "title": "Vulnerability detection with fine-grained interpretations",
+            "url": "https://www.semanticscholar.org/paper/6912494c2b9c2bab33a3fbd221591328d9d9120c",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2021
+        },
+        {
+            "arxivId": "2009.07235",
+            "authors": [
+                {
+                    "authorId": "47570053",
+                    "name": "Saikat Chakraborty"
+                },
+                {
+                    "authorId": "49206685",
+                    "name": "R. Krishna"
+                },
+                {
+                    "authorId": "1902935998",
+                    "name": "Yangruibo Ding"
+                },
+                {
+                    "authorId": "31631000",
+                    "name": "Baishakhi Ray"
+                }
+            ],
+            "doi": "10.1109/TSE.2021.3087402",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "bd02bcf2a437217eaac245abe443b2f672b3b36a",
+            "title": "Deep Learning Based Vulnerability Detection: Are We There Yet?",
+            "url": "https://www.semanticscholar.org/paper/bd02bcf2a437217eaac245abe443b2f672b3b36a",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1949178496",
+                    "name": "Jiahao Fan"
+                },
+                {
+                    "authorId": "6299740",
+                    "name": "Yi Li"
+                },
+                {
+                    "authorId": "2145317386",
+                    "name": "Shaohua Wang"
+                },
+                {
+                    "authorId": "2327697",
+                    "name": "T. Nguyen"
+                }
+            ],
+            "doi": "10.1145/3379597.3387501",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7eebae9c294f68d8061d921e7c2bb76a06b15889",
+            "title": "A C/C++ Code Vulnerability Dataset with Code Changes and CVE Summaries",
+            "url": "https://www.semanticscholar.org/paper/7eebae9c294f68d8061d921e7c2bb76a06b15889",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "19370897",
+                    "name": "Matthieu Jimenez"
+                },
+                {
+                    "authorId": "47681863",
+                    "name": "Y. L. Traon"
+                },
+                {
+                    "authorId": "37766916",
+                    "name": "Mike Papadakis"
+                }
+            ],
+            "doi": "10.1109/SCAM.2018.00014",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9d58d7c7044fe672bd0d947abbf16ed70fae0268",
+            "title": "[Engineering Paper] Enabling the Continuous Analysis of Security Vulnerabilities with VulData7",
+            "url": "https://www.semanticscholar.org/paper/9d58d7c7044fe672bd0d947abbf16ed70fae0268",
+            "venue": "2018 IEEE 18th International Working Conference on Source Code Analysis and Manipulation (SCAM)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2070296066",
+                    "name": "Henrique Alves"
+                },
+                {
+                    "authorId": "3252372",
+                    "name": "B. Neto"
+                },
+                {
+                    "authorId": "143725286",
+                    "name": "Nuno Antunes"
+                }
+            ],
+            "doi": "10.1109/EDCC.2016.34",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9364ff8b58564e4564969108e405925980dc4fc5",
+            "title": "Software Metrics and Security Vulnerabilities: Dataset and Exploratory Study",
+            "url": "https://www.semanticscholar.org/paper/9364ff8b58564e4564969108e405925980dc4fc5",
+            "venue": "2016 12th European Dependable Computing Conference (EDCC)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144704592",
+                    "name": "J. Ferrante"
+                },
+                {
+                    "authorId": "2920711",
+                    "name": "K. J. Ottenstein"
+                },
+                {
+                    "authorId": "3036988",
+                    "name": "J. Warren"
+                }
+            ],
+            "doi": "10.1145/24039.24041",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "38641821f40fe883c5ce51a5133d538099093f9a",
+            "title": "The program dependence graph and its use in optimization",
+            "url": "https://www.semanticscholar.org/paper/38641821f40fe883c5ce51a5133d538099093f9a",
+            "venue": "TOPL",
+            "year": 1984
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Sysevr:Aframeworkforusingdeeplearningtodetectsoftwarevulnerabilities",
+            "url": "",
+            "venue": "IEEE Transactions on Dependable and Secure Computing",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "",
+            "title": "Devign:Effectivevulnerabilityidentificationbylearningcomprehensiveprogram semanticsviagraphneuralnetworks",
+            "url": "",
+            "venue": "Proceedings of the 33rd International Conference on Neural Information Processing Systems",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1700892",
+                    "name": "Z. Li"
+                },
+                {
+                    "authorId": "2068865",
+                    "name": "Deqing Zou"
+                },
+                {
+                    "authorId": "5030313",
+                    "name": "Shouhuai Xu"
+                },
+                {
+                    "authorId": "2456308",
+                    "name": "Xinyu Ou"
+                },
+                {
+                    "authorId": "145914256",
+                    "name": "Hai Jin"
+                },
+                {
+                    "authorId": "2116429557",
+                    "name": "Sujuan Wang"
+                },
+                {
+                    "authorId": null,
+                    "name": "Zhijun Deng"
+                },
+                {
+                    "authorId": "2112887959",
+                    "name": "Yuyi Zhong"
+                }
+            ],
+            "doi": "10.14722/ndss.2018.23158",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "de83185c7a2b7924a110d841fcf3694a9a416e74",
+            "title": "A Security Analysis of Honeywords",
+            "url": "https://www.semanticscholar.org/paper/de83185c7a2b7924a110d841fcf3694a9a416e74",
+            "venue": "NDSS",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2023. VulnerabilityDetectionwithGraphSimplificationandEnhanced Graph Representation Learning",
+            "url": "",
+            "venue": "45th IEEE/ACM International Conference on Software Engineering, ICSE 2023, Melbourne, Australia, May 14-20, 2023",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2023. Common Vulnerabilities and Exposures",
+            "url": "",
+            "venue": "cve.mitre.org/",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2023. MegaVul Github Source Code",
+            "url": "",
+            "venue": "github.com/Icyrockton/MegaVul [",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2023.DistinguishingLook-AlikeInnocentandVulnerableCodebySubtleSemantic RepresentationLearningandExplanation",
+            "url": "",
+            "venue": "Proceedings of the 2023 31th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "MegaVul: A C/C++ Vulnerability Dataset with Comprehensive Code Representations",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/decb9b7b155a712f042c59e0588e6d07db02d320",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2024
+}

@@ -1,0 +1,735 @@
+{
+    "abstract": "Cryptocurrencies are a significant development in recent years, featuring in global news, the financial sector, and academic research. They also hold a significant presence in open source development, comprising some of the most popular repositories on GitHub. Their openly developed software artifacts thus present a unique and exclusive avenue to quantitatively observe human activity, effort, and software growth for cryptocurrencies. Our data set marks the first concentrated effort toward high-fidelity panel data of cryptocurrency development for a wide range of metrics. The data set is foremost a quantitative measure of developer activity for budding open source cryptocurrency development. We collect metrics like daily commits, contributors, lines of code changes, stars, forks, and subscribers. We also include financial data for each cryptocurrency: the daily price and market capitalization. The data set includes data for 236 cryptocurrencies for 380 days (roughly January 2018 to January 2019). We discuss particularly interesting research opportunities for this combination of data, and release new tooling to enable continuing data collection for future research opportunities as development and application of cryptocurrencies mature.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2066095",
+            "name": "Rijnard van Tonder",
+            "url": "https://www.semanticscholar.org/author/2066095"
+        },
+        {
+            "authorId": "50820040",
+            "name": "Asher Trockman",
+            "url": "https://www.semanticscholar.org/author/50820040"
+        },
+        {
+            "authorId": "2957803",
+            "name": "Claire Le Goues",
+            "url": "https://www.semanticscholar.org/author/2957803"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34755489",
+                    "name": "M. Vidoni"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2021.106791",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8b608f646a96c545af167e66a146f54ecd595ffa",
+            "title": "A systematic process for Mining Software Repositories: Results from a systematic literature review",
+            "url": "https://www.semanticscholar.org/paper/8b608f646a96c545af167e66a146f54ecd595ffa",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2004.07290",
+            "authors": [
+                {
+                    "authorId": "51435753",
+                    "name": "Lorenzo Lucchini"
+                },
+                {
+                    "authorId": "2818774",
+                    "name": "Laura Alessandretti"
+                },
+                {
+                    "authorId": "1776476",
+                    "name": "B. Lepri"
+                },
+                {
+                    "authorId": "48694677",
+                    "name": "Angela Gallo"
+                },
+                {
+                    "authorId": "2836702",
+                    "name": "Andrea Baronchelli"
+                }
+            ],
+            "doi": "10.1126/sciadv.abd2204",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2ddb0b0050b74cb72a7e0f818d612160764e822e",
+            "title": "From code to market: Network of developers and correlated returns of cryptocurrencies",
+            "url": "https://www.semanticscholar.org/paper/2ddb0b0050b74cb72a7e0f818d612160764e822e",
+            "venue": "Science advances",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50820040",
+                    "name": "Asher Trockman"
+                },
+                {
+                    "authorId": "2066095",
+                    "name": "Rijnard van Tonder"
+                },
+                {
+                    "authorId": "2434621",
+                    "name": "Bogdan Vasilescu"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00036",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b54a359d66ea913bb2ea06f953137d2f0c655080",
+            "title": "Striking Gold in Software Repositories? An Econometric Study of Cryptocurrencies on GitHub",
+            "url": "https://www.semanticscholar.org/paper/b54a359d66ea913bb2ea06f953137d2f0c655080",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": "10.1109/msr45733.2019",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "de20e3a4dbd7d0d30eb4a5b46d6222ba827cf208",
+            "title": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "url": "https://www.semanticscholar.org/paper/de20e3a4dbd7d0d30eb4a5b46d6222ba827cf208",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "78866168",
+                    "name": "L. Rossi"
+                },
+                {
+                    "authorId": "1721203",
+                    "name": "M. Avital"
+                },
+                {
+                    "authorId": "3205585",
+                    "name": "Rob Gleasure"
+                }
+            ],
+            "doi": "10.24251/hicss.2022.738",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "e97da354c5b2bfd169631b60afdf4217550050a9",
+            "title": "The Proliferation of End Users as a Success Metric for Cryptocurrencies",
+            "url": "https://www.semanticscholar.org/paper/e97da354c5b2bfd169631b60afdf4217550050a9",
+            "venue": "HICSS",
+            "year": 2022
+        }
+    ],
+    "corpusId": 195298494,
+    "doi": "10.1109/MSR.2019.00037",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 1,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 6,
+    "numCiting": 19,
+    "paperId": "da915930e709009fce92f163d90e3e9aee3f824b",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50820040",
+                    "name": "Asher Trockman"
+                },
+                {
+                    "authorId": "2066095",
+                    "name": "Rijnard van Tonder"
+                },
+                {
+                    "authorId": "2434621",
+                    "name": "Bogdan Vasilescu"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00036",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b54a359d66ea913bb2ea06f953137d2f0c655080",
+            "title": "Striking Gold in Software Repositories? An Econometric Study of Cryptocurrencies on GitHub",
+            "url": "https://www.semanticscholar.org/paper/b54a359d66ea913bb2ea06f953137d2f0c655080",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50820040",
+                    "name": "Asher Trockman"
+                },
+                {
+                    "authorId": "2828975",
+                    "name": "Shurui Zhou"
+                },
+                {
+                    "authorId": "2289028231",
+                    "name": "Christian K\u00e4stner"
+                },
+                {
+                    "authorId": "2434621",
+                    "name": "Bogdan Vasilescu"
+                }
+            ],
+            "doi": "10.1145/3180155.3180209",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "bd8cb78f752cf75e59531ded1f01f66deb003699",
+            "title": "Adding Sparkle to Social Coding: An Empirical Study of Repository Badges in the npm Ecosystem",
+            "url": "https://www.semanticscholar.org/paper/bd8cb78f752cf75e59531ded1f01f66deb003699",
+            "venue": "2018 IEEE/ACM 40th International Conference on Software Engineering (ICSE)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1723270",
+                    "name": "Yangyang Zhao"
+                },
+                {
+                    "authorId": "1747171",
+                    "name": "Alexander Serebrenik"
+                },
+                {
+                    "authorId": "7743656",
+                    "name": "Yuming Zhou"
+                },
+                {
+                    "authorId": "3179220",
+                    "name": "V. Filkov"
+                },
+                {
+                    "authorId": "2434621",
+                    "name": "Bogdan Vasilescu"
+                }
+            ],
+            "doi": "10.1109/ASE.2017.8115619",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d5ff993a9bcffc9aa0dd49042f842b3b945c8c76",
+            "title": "The impact of continuous integration on other software development practices: A large-scale empirical study",
+            "url": "https://www.semanticscholar.org/paper/d5ff993a9bcffc9aa0dd49042f842b3b945c8c76",
+            "venue": "2017 32nd IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47176837",
+                    "name": "M. Apostolaki"
+                },
+                {
+                    "authorId": "1782535",
+                    "name": "Aviv Zohar"
+                },
+                {
+                    "authorId": "2562998",
+                    "name": "Laurent Vanbever"
+                }
+            ],
+            "doi": "10.1109/SP.2017.29",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "07db4d7b141081644b9cbb3e6d1f34c1bc80db24",
+            "title": "Hijacking Bitcoin: Routing Attacks on Cryptocurrencies",
+            "url": "https://www.semanticscholar.org/paper/07db4d7b141081644b9cbb3e6d1f34c1bc80db24",
+            "venue": "2017 IEEE Symposium on Security and Privacy (SP)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144848951",
+                    "name": "Joseph Bonneau"
+                },
+                {
+                    "authorId": "145596465",
+                    "name": "Andrew K. Miller"
+                },
+                {
+                    "authorId": "47125503",
+                    "name": "Jeremy Clark"
+                },
+                {
+                    "authorId": "47735253",
+                    "name": "Arvind Narayanan"
+                },
+                {
+                    "authorId": "145973578",
+                    "name": "Joshua A. Kroll"
+                },
+                {
+                    "authorId": "1752733",
+                    "name": "E. Felten"
+                }
+            ],
+            "doi": "10.1109/SP.2015.14",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9584863217908a530f7bc1bff2e9e19f423d8204",
+            "title": "SoK: Research Perspectives and Challenges for Bitcoin and Cryptocurrencies",
+            "url": "https://www.semanticscholar.org/paper/9584863217908a530f7bc1bff2e9e19f423d8204",
+            "venue": "2015 IEEE Symposium on Security and Privacy",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1734481",
+                    "name": "Eirini Kalliamvakou"
+                },
+                {
+                    "authorId": "1741744",
+                    "name": "D. Damian"
+                },
+                {
+                    "authorId": "1715864",
+                    "name": "Kelly Blincoe"
+                },
+                {
+                    "authorId": "18264995",
+                    "name": "Leif Singer"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                }
+            ],
+            "doi": "10.1109/ICSE.2015.74",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "148ce170043d69665120ccf876a9604f82d683da",
+            "title": "Open Source-Style Collaborative Development Practices in Commercial Projects Using GitHub",
+            "url": "https://www.semanticscholar.org/paper/148ce170043d69665120ccf876a9604f82d683da",
+            "venue": "2015 IEEE/ACM 37th IEEE International Conference on Software Engineering",
+            "year": 2015
+        },
+        {
+            "arxivId": "1408.1494",
+            "authors": [
+                {
+                    "authorId": "144240725",
+                    "name": "David Garc\u00eda"
+                },
+                {
+                    "authorId": "2146531",
+                    "name": "C. Tessone"
+                },
+                {
+                    "authorId": "2618549",
+                    "name": "Pavlin Mavrodiev"
+                },
+                {
+                    "authorId": "2939899",
+                    "name": "N. Perony"
+                }
+            ],
+            "doi": "10.1098/rsif.2014.0623",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "7328d31f9b5078658718ada22e94088c5a094291",
+            "title": "The digital traces of bubbles: feedback cycles between socio-economic signals in the Bitcoin economy",
+            "url": "https://www.semanticscholar.org/paper/7328d31f9b5078658718ada22e94088c5a094291",
+            "venue": "Journal of The Royal Society Interface",
+            "year": 2014
+        },
+        {
+            "arxivId": "1406.0268",
+            "authors": [
+                {
+                    "authorId": "2607477",
+                    "name": "L. Kristoufek"
+                }
+            ],
+            "doi": "10.1371/journal.pone.0123923",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b2c445eb9b5b917f51ac14e91a7603e58553d29a",
+            "title": "What Are the Main Drivers of the Bitcoin Price? Evidence from Wavelet Coherence Analysis",
+            "url": "https://www.semanticscholar.org/paper/b2c445eb9b5b917f51ac14e91a7603e58553d29a",
+            "venue": "PloS one",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624034",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2867eb64cc4bb1945363fdae12a168962ea823aa",
+            "title": "The GHTorent dataset and tool suite",
+            "url": "https://www.semanticscholar.org/paper/2867eb64cc4bb1945363fdae12a168962ea823aa",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": "1611.04433",
+            "authors": [
+                {
+                    "authorId": "49859108",
+                    "name": "S. Wagner"
+                },
+                {
+                    "authorId": "2489913",
+                    "name": "K. Lochmann"
+                },
+                {
+                    "authorId": "34289841",
+                    "name": "L. Heinemann"
+                },
+                {
+                    "authorId": "2696295",
+                    "name": "Michael Kl\u00e4s"
+                },
+                {
+                    "authorId": "3197618",
+                    "name": "Adam Trendowicz"
+                },
+                {
+                    "authorId": "1718610",
+                    "name": "Reinhold Pl\u00f6sch"
+                },
+                {
+                    "authorId": "34627937",
+                    "name": "A. Seidl"
+                },
+                {
+                    "authorId": "46621115",
+                    "name": "A. Goeb"
+                },
+                {
+                    "authorId": "47748743",
+                    "name": "Jonathan Streit"
+                }
+            ],
+            "doi": "10.1109/ICSE.2012.6227106",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7a9eae66a61e3c48ba09b04b0048b3d8a12961ab",
+            "title": "The Quamoco product quality modelling and assessment approach",
+            "url": "https://www.semanticscholar.org/paper/7a9eae66a61e3c48ba09b04b0048b3d8a12961ab",
+            "venue": "2012 34th International Conference on Software Engineering (ICSE)",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1784365",
+                    "name": "Laura A. Dabbish"
+                },
+                {
+                    "authorId": "2223681983",
+                    "name": "Colleen Stuart"
+                },
+                {
+                    "authorId": "2052949",
+                    "name": "Jason Tsay"
+                },
+                {
+                    "authorId": "1705550",
+                    "name": "J. Herbsleb"
+                }
+            ],
+            "doi": "10.1145/2145204.2145396",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "aeaaa72d4a35388cba9ea0d81e1d46c8c2abaac1",
+            "title": "Social coding in GitHub: transparency and collaboration in an open software repository",
+            "url": "https://www.semanticscholar.org/paper/aeaaa72d4a35388cba9ea0d81e1d46c8c2abaac1",
+            "venue": "CSCW",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143981571",
+                    "name": "M. Markus"
+                }
+            ],
+            "doi": "10.1007/S10997-007-9021-X",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d6f6fefd8a2d498c2de682f77ef010025204dd1c",
+            "title": "The governance of free/open source software projects: monolithic, multidimensional, or configurational?",
+            "url": "https://www.semanticscholar.org/paper/d6f6fefd8a2d498c2de682f77ef010025204dd1c",
+            "venue": "",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1398204711",
+                    "name": "C. Anderson\u2010Cook"
+                }
+            ],
+            "doi": "10.1198/jasa.2005.s22",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "8898b724908a41b8a1483104d99fe4d1b48a31cb",
+            "title": "Experimental and Quasi-Experimental Designs for Generalized Causal Inference",
+            "url": "https://www.semanticscholar.org/paper/8898b724908a41b8a1483104d99fe4d1b48a31cb",
+            "venue": "",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "94812404",
+                    "name": "S. Slaughter"
+                },
+                {
+                    "authorId": "39632545",
+                    "name": "Donald E. Harter"
+                },
+                {
+                    "authorId": "8040456",
+                    "name": "M. S. Krishnan"
+                }
+            ],
+            "doi": "10.1145/280324.280335",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8f90c49825155e0250d4b74cb23e55ba80aab6d3",
+            "title": "Evaluating the cost of software quality",
+            "url": "https://www.semanticscholar.org/paper/8f90c49825155e0250d4b74cb23e55ba80aab6d3",
+            "venue": "CACM",
+            "year": 1998
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144938348",
+                    "name": "J. Rosenberg"
+                }
+            ],
+            "doi": "10.1109/METRIC.1997.637174",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "31078af3520ac5f85dee8fd23a00b15d009cdb38",
+            "title": "Some misconceptions about lines of code",
+            "url": "https://www.semanticscholar.org/paper/31078af3520ac5f85dee8fd23a00b15d009cdb38",
+            "venue": "Proceedings Fourth International Software Metrics Symposium",
+            "year": 1997
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "32115754",
+                    "name": "D. Coleman"
+                },
+                {
+                    "authorId": "2480693",
+                    "name": "D. Ash"
+                },
+                {
+                    "authorId": "2299980",
+                    "name": "B. Lowther"
+                },
+                {
+                    "authorId": "8945547",
+                    "name": "P. Oman"
+                }
+            ],
+            "doi": "10.1109/2.303623",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "40196eb61a0c8757675a5db9fa5f0e5001216877",
+            "title": "Using metrics to evaluate software system maintainability",
+            "url": "https://www.semanticscholar.org/paper/40196eb61a0c8757675a5db9fa5f0e5001216877",
+            "venue": "Computer",
+            "year": 1994
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "21003142",
+                    "name": "Allan J. Albrecht"
+                },
+                {
+                    "authorId": "32273411",
+                    "name": "J. Gaffney"
+                }
+            ],
+            "doi": "10.1109/TSE.1983.235271",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "56663b496dbfba8ba05576de3d8595692a72a410",
+            "title": "Software Function, Source Lines of Code, and Development Effort Prediction: A Software Science Validation",
+            "url": "https://www.semanticscholar.org/paper/56663b496dbfba8ba05576de3d8595692a72a410",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 1983
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "46188896",
+                    "name": "Nico Abbatemarco"
+                },
+                {
+                    "authorId": "78866168",
+                    "name": "L. Rossi"
+                },
+                {
+                    "authorId": "46187654",
+                    "name": "Gianluca Salviotti"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d6bebe45c128e4d0bca46c2c4c2b11b44de373ab",
+            "title": "An econometric model to estimate the value of a cryptocurrency network. The Bitcoin case",
+            "url": "https://www.semanticscholar.org/paper/d6bebe45c128e4d0bca46c2c4c2b11b44de373ab",
+            "venue": "ECIS",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49467407",
+                    "name": "W. Shadish"
+                },
+                {
+                    "authorId": "2244807154",
+                    "name": "Thomas D. Cook"
+                },
+                {
+                    "authorId": "2288343498",
+                    "name": "Donald T. Campbell"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4e950e026f5199219facb36d1886c3d096944f43",
+            "title": "Experimental and Quasi-Experimental Designs for Generalized Causal Inference",
+            "url": "https://www.semanticscholar.org/paper/4e950e026f5199219facb36d1886c3d096944f43",
+            "venue": "",
+            "year": 2001
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "A Panel Data Set of Cryptocurrency Development Activity on GitHub",
+    "topics": [
+        {
+            "topic": "Cryptocurrency",
+            "topicId": "345694",
+            "url": "https://www.semanticscholar.org/topic/345694"
+        },
+        {
+            "topic": "Panel data",
+            "topicId": "4270",
+            "url": "https://www.semanticscholar.org/topic/4270"
+        }
+    ],
+    "url": "https://www.semanticscholar.org/paper/da915930e709009fce92f163d90e3e9aee3f824b",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2019
+}

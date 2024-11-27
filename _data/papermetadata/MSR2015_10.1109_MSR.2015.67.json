@@ -1,0 +1,1404 @@
+{
+    "abstract": "Stack Overflow is the de facto Question and Answer (Q&A) website for developers, and it has been used in many approaches by software engineering researchers to mine useful data. However, the contents of a Stack Overflow discussion are inherently heterogeneous, mixing natural language, source code, stack traces and configuration files in XML or JSON format. We constructed a full island grammar capable of modeling the set of 700,000 Stack Overflow discussions talking about Java, building a heterogeneous abstract syntax tree (H-AST) of each post (question, answer or comment) in a discussion. The resulting dataset models every Stack Overflow discussion, providing a full H-AST for each type of structured fragment (i.e., JSON, XML, Java, Stack traces), and complementing this information with a set of basic meta-information like term frequency to enable natural language analyses. Our dataset allows the end-user to perform combined analyses of the Stack Overflow by visiting the H-AST of a discussion.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "1767060",
+            "name": "Luca Ponzanelli",
+            "url": "https://www.semanticscholar.org/author/1767060"
+        },
+        {
+            "authorId": "1720673",
+            "name": "Andrea Mocci",
+            "url": "https://www.semanticscholar.org/author/1720673"
+        },
+        {
+            "authorId": "144216050",
+            "name": "Michele Lanza",
+            "url": "https://www.semanticscholar.org/author/144216050"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2302934265",
+                    "name": "Ying Fu"
+                },
+                {
+                    "authorId": "2116582672",
+                    "name": "Teng Wang"
+                },
+                {
+                    "authorId": "2298565274",
+                    "name": "Shanshan Li"
+                },
+                {
+                    "authorId": "2302956519",
+                    "name": "Jinyan Ding"
+                },
+                {
+                    "authorId": "144798425",
+                    "name": "Shulin Zhou"
+                },
+                {
+                    "authorId": "10414205",
+                    "name": "Zhouyang Jia"
+                },
+                {
+                    "authorId": "2154690632",
+                    "name": "Wang Li"
+                },
+                {
+                    "authorId": "2258702697",
+                    "name": "Yu Jiang"
+                },
+                {
+                    "authorId": "2258970489",
+                    "name": "Xiangke Liao"
+                }
+            ],
+            "doi": "10.1145/3639478.3647635",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b423c709e2e98dd3949f192582b473fa3fdad5b5",
+            "title": "MissConf: LLM-Enhanced Reproduction of Configuration-Triggered Bugs",
+            "url": "https://www.semanticscholar.org/paper/b423c709e2e98dd3949f192582b473fa3fdad5b5",
+            "venue": "2024 IEEE/ACM 46th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144188161",
+                    "name": "Thomas Hirsch"
+                },
+                {
+                    "authorId": "3334382",
+                    "name": "Birgit Hofer"
+                }
+            ],
+            "doi": "10.1007/s10515-022-00350-0",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "aa56512702a9e20067473c9d03a154112f6bb462",
+            "title": "Detecting non-natural language artifacts for de-noising bug reports",
+            "url": "https://www.semanticscholar.org/paper/aa56512702a9e20067473c9d03a154112f6bb462",
+            "venue": "Automated Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2065040960",
+                    "name": "Camilo Vel\u00e1zquez-Rodr\u00edguez"
+                },
+                {
+                    "authorId": "2970508",
+                    "name": "Eleni Constantinou"
+                },
+                {
+                    "authorId": "2502279",
+                    "name": "Coen De Roover"
+                }
+            ],
+            "doi": "10.1109/saner53432.2022.00035",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "23a9d9fdf18a7308589d4e577dd963bbaa7c174c",
+            "title": "Uncovering Library Features from API Usage on Stack Overflow",
+            "url": "https://www.semanticscholar.org/paper/23a9d9fdf18a7308589d4e577dd963bbaa7c174c",
+            "venue": "2022 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2110.01336",
+            "authors": [
+                {
+                    "authorId": "144188161",
+                    "name": "Thomas Hirsch"
+                },
+                {
+                    "authorId": "3334382",
+                    "name": "Birgit Hofer"
+                }
+            ],
+            "doi": "10.1109/ASEW52652.2021.00046",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "740d05bca3d8b6b81b749f1590189c4e7feb5d5b",
+            "title": "Identifying non-natural language artifacts in bug reports",
+            "url": "https://www.semanticscholar.org/paper/740d05bca3d8b6b81b749f1590189c4e7feb5d5b",
+            "venue": "2021 36th IEEE/ACM International Conference on Automated Software Engineering Workshops (ASEW)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "41075492",
+                    "name": "Sofonias Yitagesu"
+                },
+                {
+                    "authorId": "1780738",
+                    "name": "Xiaowang Zhang"
+                },
+                {
+                    "authorId": "145774078",
+                    "name": "Zhiyong Feng"
+                },
+                {
+                    "authorId": "2118890069",
+                    "name": "Xiaohong Li"
+                },
+                {
+                    "authorId": "3138980",
+                    "name": "Zhenchang Xing"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00016",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0c791b2299bf910cea23fe4d13f2509532891c26",
+            "title": "Automatic Part-of-Speech Tagging for Security Vulnerability Descriptions",
+            "url": "https://www.semanticscholar.org/paper/0c791b2299bf910cea23fe4d13f2509532891c26",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.11386",
+            "authors": [
+                {
+                    "authorId": "2056773520",
+                    "name": "Mohamad Yazdaninia"
+                },
+                {
+                    "authorId": "143960552",
+                    "name": "David Lo"
+                },
+                {
+                    "authorId": "12238096",
+                    "name": "A. Sami"
+                }
+            ],
+            "doi": "10.1109/ICPC52881.2021.00015",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0f0c9ecc3e482280f20e5367e4bd6aca46dce3ad",
+            "title": "Characterization and Prediction of Questions without Accepted Answers on Stack Overflow",
+            "url": "https://www.semanticscholar.org/paper/0f0c9ecc3e482280f20e5367e4bd6aca46dce3ad",
+            "venue": "2021 IEEE/ACM 29th International Conference on Program Comprehension (ICPC)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "102939693",
+                    "name": "Hamed Tahmooresi"
+                },
+                {
+                    "authorId": "1798455",
+                    "name": "A. Heydarnoori"
+                },
+                {
+                    "authorId": "107605199",
+                    "name": "Reza Nadri"
+                }
+            ],
+            "doi": "10.1016/j.jss.2020.110724",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "cc5312c543e1b9ca27e96348222181b0fdeebdd4",
+            "title": "Studying the Relationship Between the Usage of APIs Discussed in the Crowd and Post-Release Defects",
+            "url": "https://www.semanticscholar.org/paper/cc5312c543e1b9ca27e96348222181b0fdeebdd4",
+            "venue": "J. Syst. Softw.",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1977375399",
+                    "name": "Profir-Petru P\u00e2r\u0163achi"
+                },
+                {
+                    "authorId": "70354487",
+                    "name": "Santanu Kumar Dash"
+                },
+                {
+                    "authorId": "1685418",
+                    "name": "Christoph Treude"
+                },
+                {
+                    "authorId": "1757975",
+                    "name": "Earl T. Barr"
+                }
+            ],
+            "doi": "10.1145/3377811.3380440",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "4a7e7b24389d190d20f214054156e43dc269e595",
+            "title": "POSIT: Simultaneously Tagging Natural and Programming Languages",
+            "url": "https://www.semanticscholar.org/paper/4a7e7b24389d190d20f214054156e43dc269e595",
+            "venue": "2020 IEEE/ACM 42nd International Conference on Software Engineering (ICSE)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2038245",
+                    "name": "Ali Sajedi Badashian"
+                },
+                {
+                    "authorId": "1719731",
+                    "name": "Eleni Stroulia"
+                }
+            ],
+            "doi": "10.1002/spe.2830",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ad3f348c5573061ec705edc202b1f5d28e45cc68",
+            "title": "Vocabulary and time based bug\u2010assignment: A recommender system for open\u2010source projects",
+            "url": "https://www.semanticscholar.org/paper/ad3f348c5573061ec705edc202b1f5d28e45cc68",
+            "venue": "Softw. Pract. Exp.",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "46173455",
+                    "name": "Salvatore Geremia"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                }
+            ],
+            "doi": "10.1109/SCAM.2019.00025",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1e0258477f2912566cf266c412d0bdf0dc1fc334",
+            "title": "Characterizing Leveraged Stack Overflow Posts",
+            "url": "https://www.semanticscholar.org/paper/1e0258477f2912566cf266c412d0bdf0dc1fc334",
+            "venue": "2019 19th International Working Conference on Source Code Analysis and Manipulation (SCAM)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2110260346",
+                    "name": "Yu Zhao"
+                },
+                {
+                    "authorId": "2113625319",
+                    "name": "Kye Miller"
+                },
+                {
+                    "authorId": "50391262",
+                    "name": "Tingting Yu"
+                },
+                {
+                    "authorId": "151503915",
+                    "name": "Wei Zheng"
+                },
+                {
+                    "authorId": "147572938",
+                    "name": "Minchao Pu"
+                }
+            ],
+            "doi": "10.1007/978-3-030-22888-0_8",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f2a8ef3fec9d6dd361b7d6f74d03b68a1c5405c7",
+            "title": "Automatically Extracting Bug Reproducing Steps from Android Bug Reports",
+            "url": "https://www.semanticscholar.org/paper/f2a8ef3fec9d6dd361b7d6f74d03b68a1c5405c7",
+            "venue": "ICSR",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00085",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "43148fabe2636026e07ca04974aff40d204bfb6b",
+            "title": "Standing on Shoulders or Feet? The Usage of the MSR Data Papers",
+            "url": "https://www.semanticscholar.org/paper/43148fabe2636026e07ca04974aff40d204bfb6b",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2053678636",
+                    "name": "Edmund Wong"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "81aedf5bc0ac2f4f675ce7dfe5017ef44e9ee5ab",
+            "title": "Improving Software Dependability through Documentation Analysis",
+            "url": "https://www.semanticscholar.org/paper/81aedf5bc0ac2f4f675ce7dfe5017ef44e9ee5ab",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145471996",
+                    "name": "Oscar Chaparro"
+                },
+                {
+                    "authorId": "33350755",
+                    "name": "Juan Manuel Florez"
+                },
+                {
+                    "authorId": "40473936",
+                    "name": "Andrian Marcus"
+                }
+            ],
+            "doi": "10.1007/s10664-018-9672-z",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "110c88ed37c812e4761e6f0399d0ea6498d9b67c",
+            "title": "Using bug descriptions to reformulate queries during text-retrieval-based bug localization",
+            "url": "https://www.semanticscholar.org/paper/110c88ed37c812e4761e6f0399d0ea6498d9b67c",
+            "venue": "Empirical Software Engineering",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2111120731",
+                    "name": "Arshad Ahmad"
+                },
+                {
+                    "authorId": "144579978",
+                    "name": "Chong Feng"
+                },
+                {
+                    "authorId": "2295789286",
+                    "name": "Ge Shi"
+                },
+                {
+                    "authorId": "9391011",
+                    "name": "Abdallah Yousif"
+                }
+            ],
+            "doi": "10.1108/DTA-07-2017-0054",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5ddfca1e7d2f2a4cfc28898f59e5bc04de96675b",
+            "title": "A survey on mining stack overflow: question and answering (Q&A) community",
+            "url": "https://www.semanticscholar.org/paper/5ddfca1e7d2f2a4cfc28898f59e5bc04de96675b",
+            "venue": "Data Technol. Appl.",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2970997",
+                    "name": "Venkatesh Vinayakarao"
+                },
+                {
+                    "authorId": "3349425",
+                    "name": "Rahul Purandare"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "bae9f0f4a48ca817a5e49cbcf20818f0e99f5809",
+            "title": "Code variants and their retrieval using knowledge discovery based approaches",
+            "url": "https://www.semanticscholar.org/paper/bae9f0f4a48ca817a5e49cbcf20818f0e99f5809",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1767060",
+                    "name": "Luca Ponzanelli"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "1720673",
+                    "name": "Andrea Mocci"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "1762499",
+                    "name": "S. Haiduc"
+                },
+                {
+                    "authorId": "143786074",
+                    "name": "B. Russo"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                }
+            ],
+            "doi": "10.1109/TSE.2017.2779479",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "3c7ae846a06789e6d4f9698ddf121a61968c97fe",
+            "title": "Automatic Identification and Classification of Software Development Video Tutorial Fragments",
+            "url": "https://www.semanticscholar.org/paper/3c7ae846a06789e6d4f9698ddf121a61968c97fe",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145471996",
+                    "name": "Oscar Chaparro"
+                },
+                {
+                    "authorId": "2115404151",
+                    "name": "Jing Lu"
+                },
+                {
+                    "authorId": "8701060",
+                    "name": "Fiorella Zampetti"
+                },
+                {
+                    "authorId": "144968299",
+                    "name": "Laura Moreno"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "40473936",
+                    "name": "Andrian Marcus"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "145106110",
+                    "name": "Vincent Ng"
+                }
+            ],
+            "doi": "10.1145/3106237.3106285",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e38e4cde8a32df4047174054157b43d9023e44b8",
+            "title": "Detecting missing information in bug descriptions",
+            "url": "https://www.semanticscholar.org/paper/e38e4cde8a32df4047174054157b43d9023e44b8",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1767060",
+                    "name": "Luca Ponzanelli"
+                },
+                {
+                    "authorId": "3439470",
+                    "name": "Simone Scalabrino"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "1720673",
+                    "name": "Andrea Mocci"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                }
+            ],
+            "doi": "10.1109/ICSE.2017.17",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "e57634d1d3da618bcdf4d51c4e98b5bffda777f7",
+            "title": "Supporting Software Developers with a Holistic Recommender System",
+            "url": "https://www.semanticscholar.org/paper/e57634d1d3da618bcdf4d51c4e98b5bffda777f7",
+            "venue": "2017 IEEE/ACM 39th International Conference on Software Engineering (ICSE)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145471996",
+                    "name": "Oscar Chaparro"
+                },
+                {
+                    "authorId": "33350755",
+                    "name": "Juan Manuel Florez"
+                },
+                {
+                    "authorId": "40473936",
+                    "name": "Andrian Marcus"
+                }
+            ],
+            "doi": "10.1109/ICSME.2016.44",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3a9ef8b96a5505fae0fbe4b2b10ae7bc0fca0dc6",
+            "title": "On the Vocabulary Agreement in Software Issue Descriptions",
+            "url": "https://www.semanticscholar.org/paper/3a9ef8b96a5505fae0fbe4b2b10ae7bc0fca0dc6",
+            "venue": "2016 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2577845",
+                    "name": "Junhao Wen"
+                },
+                {
+                    "authorId": "2113640156",
+                    "name": "Guanghui Sun"
+                },
+                {
+                    "authorId": "39321868",
+                    "name": "Fengji Luo"
+                }
+            ],
+            "doi": "10.1109/ICSS.2016.13",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "96e75932f9906570d7efdc583989b0322fab83ca",
+            "title": "Data Driven Development Trend Analysis of Mainstream Information Technologies",
+            "url": "https://www.semanticscholar.org/paper/96e75932f9906570d7efdc583989b0322fab83ca",
+            "venue": "2016 9th International Conference on Service Science (ICSS)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145471996",
+                    "name": "Oscar Chaparro"
+                },
+                {
+                    "authorId": "40473936",
+                    "name": "Andrian Marcus"
+                }
+            ],
+            "doi": "10.1145/2889160.2892647",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0054ec295bc0b122dad3df8414b0e330a786f0b9",
+            "title": "On the Reduction of Verbose Queries in Text Retrieval Based Software Maintenance",
+            "url": "https://www.semanticscholar.org/paper/0054ec295bc0b122dad3df8414b0e330a786f0b9",
+            "venue": "2016 IEEE/ACM 38th International Conference on Software Engineering Companion (ICSE-C)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1767060",
+                    "name": "Luca Ponzanelli"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "1720673",
+                    "name": "Andrea Mocci"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                },
+                {
+                    "authorId": "1876540",
+                    "name": "Mir Anamul Hasan"
+                },
+                {
+                    "authorId": "143786074",
+                    "name": "B. Russo"
+                },
+                {
+                    "authorId": "1762499",
+                    "name": "S. Haiduc"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                }
+            ],
+            "doi": "10.1145/2884781.2884824",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "29afdb3f12701cf1904c734a4c0947a59318dfa7",
+            "title": "Too Long; Didn't Watch! Extracting Relevant Fragments from Software Development Video Tutorials",
+            "url": "https://www.semanticscholar.org/paper/29afdb3f12701cf1904c734a4c0947a59318dfa7",
+            "venue": "2016 IEEE/ACM 38th International Conference on Software Engineering (ICSE)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1767060",
+                    "name": "Luca Ponzanelli"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "1720673",
+                    "name": "Andrea Mocci"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                },
+                {
+                    "authorId": "143786074",
+                    "name": "B. Russo"
+                },
+                {
+                    "authorId": "1762499",
+                    "name": "S. Haiduc"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                }
+            ],
+            "doi": "10.1145/2889160.2889172",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "82f2876b011aae58823a6851c88b18d975b215c1",
+            "title": "CodeTube: Extracting Relevant Fragments from Software Development Video Tutorials",
+            "url": "https://www.semanticscholar.org/paper/82f2876b011aae58823a6851c88b18d975b215c1",
+            "venue": "2016 IEEE/ACM 38th International Conference on Software Engineering Companion (ICSE-C)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2674425",
+                    "name": "Luis Mastrangelo"
+                },
+                {
+                    "authorId": "1767060",
+                    "name": "Luca Ponzanelli"
+                },
+                {
+                    "authorId": "1720673",
+                    "name": "Andrea Mocci"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                },
+                {
+                    "authorId": "1798838",
+                    "name": "Matthias Hauswirth"
+                },
+                {
+                    "authorId": "2059566",
+                    "name": "Nathaniel Nystrom"
+                }
+            ],
+            "doi": "10.1145/2814270.2814313",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "abafd97294daf3ff028775e58a977376b7510a69",
+            "title": "Use at your own risk: the Java unsafe API in the wild",
+            "url": "https://www.semanticscholar.org/paper/abafd97294daf3ff028775e58a977376b7510a69",
+            "venue": "OOPSLA",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144116331",
+                    "name": "Csaba Nagy"
+                },
+                {
+                    "authorId": "2377431",
+                    "name": "Anthony Cleve"
+                }
+            ],
+            "doi": "10.1109/ICSM.2015.7332505",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "1d3f6eececa9b1ea5ec37e112f7ffa82ef2ed1d2",
+            "title": "Mining Stack Overflow for discovering error patterns in SQL queries",
+            "url": "https://www.semanticscholar.org/paper/1d3f6eececa9b1ea5ec37e112f7ffa82ef2ed1d2",
+            "venue": "2015 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2148651803",
+                    "name": "Astrit Desku"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "22fb640798f1bfd98f57016f3c21eec444be9b09",
+            "title": "Methods and Techniques for Recommender Systems in Secure Software Engineering: A Literature Review",
+            "url": "https://www.semanticscholar.org/paper/22fb640798f1bfd98f57016f3c21eec444be9b09",
+            "venue": "",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143621878",
+                    "name": "Xin Peng"
+                },
+                {
+                    "authorId": "1772070",
+                    "name": "Apostolos Ampatzoglou"
+                },
+                {
+                    "authorId": "2132640",
+                    "name": "Tanmay Bhowmik"
+                }
+            ],
+            "doi": "10.1007/978-3-030-22888-0",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "4be6d39019486cdf4ce5461fc5157a250c0f55b7",
+            "title": "Reuse in the Big Data Era",
+            "url": "https://www.semanticscholar.org/paper/4be6d39019486cdf4ce5461fc5157a250c0f55b7",
+            "venue": "Lecture Notes in Computer Science",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2125166083",
+                    "name": "Lucas Pennati"
+                },
+                {
+                    "authorId": "2286359005",
+                    "name": "Prof. Dr. Michele Lanza Assistants"
+                },
+                {
+                    "authorId": "2286372667",
+                    "name": "Dr. Andrea Mocci"
+                },
+                {
+                    "authorId": "2286359560",
+                    "name": "Dr. Luca Ponzanelli"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b186d01df7efe321e39db52db6a7e874d96f67a6",
+            "title": "WebDistiller Integrating a Summarizer into a Holistic Recommender System",
+            "url": "https://www.semanticscholar.org/paper/b186d01df7efe321e39db52db6a7e874d96f67a6",
+            "venue": "",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2270672601",
+                    "name": "Sebastian Proksch"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "70f1e76a2ae14b8c1b78eeb2dffc2e3ceddfa319",
+            "title": "Enriched Event Streams: A General Platform For Empirical Studies On In-IDE Activities Of Software Developers",
+            "url": "https://www.semanticscholar.org/paper/70f1e76a2ae14b8c1b78eeb2dffc2e3ceddfa319",
+            "venue": "",
+            "year": 2017
+        }
+    ],
+    "corpusId": 1478434,
+    "doi": "10.1109/MSR.2015.67",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 2,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 31,
+    "numCiting": 15,
+    "paperId": "7bfded4695ee0b7e9ec0ab7dd55845d1624b0195",
+    "references": [
+        {
+            "arxivId": "1807.02255",
+            "authors": [
+                {
+                    "authorId": "2210196781",
+                    "name": "M. M. Rahman"
+                },
+                {
+                    "authorId": "2215270",
+                    "name": "S. Yeasmin"
+                },
+                {
+                    "authorId": "1738612",
+                    "name": "C. Roy"
+                }
+            ],
+            "doi": "10.1109/CSMR-WCRE.2014.6747170",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a6f1bb6ab494adb05fcf6a74af05ea048fbe5816",
+            "title": "Towards a context-aware IDE-based meta search engine for recommendation about programming errors and exceptions",
+            "url": "https://www.semanticscholar.org/paper/a6f1bb6ab494adb05fcf6a74af05ea048fbe5816",
+            "venue": "2014 Software Evolution Week - IEEE Conference on Software Maintenance, Reengineering, and Reverse Engineering (CSMR-WCRE)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1767060",
+                    "name": "Luca Ponzanelli"
+                },
+                {
+                    "authorId": "1720673",
+                    "name": "Andrea Mocci"
+                },
+                {
+                    "authorId": "1686038",
+                    "name": "Alberto Bacchelli"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                }
+            ],
+            "doi": "10.1109/QSIC.2014.27",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ad7d4f93f0b888e7fdb17e555defdaa4407a2546",
+            "title": "Understanding and Classifying the Quality of Technical Forum Questions",
+            "url": "https://www.semanticscholar.org/paper/ad7d4f93f0b888e7fdb17e555defdaa4407a2546",
+            "venue": "2014 14th International Conference on Quality Software",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1767060",
+                    "name": "Luca Ponzanelli"
+                },
+                {
+                    "authorId": "1720673",
+                    "name": "Andrea Mocci"
+                },
+                {
+                    "authorId": "1686038",
+                    "name": "Alberto Bacchelli"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                },
+                {
+                    "authorId": "2060368027",
+                    "name": "David Fullerton"
+                }
+            ],
+            "doi": "10.1109/ICSME.2014.90",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f0f95dcdda7d33b2db70e86aaae87467697147f1",
+            "title": "Improving Low Quality Stack Overflow Post Detection",
+            "url": "https://www.semanticscholar.org/paper/f0f95dcdda7d33b2db70e86aaae87467697147f1",
+            "venue": "2014 IEEE International Conference on Software Maintenance and Evolution",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1767060",
+                    "name": "Luca Ponzanelli"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                }
+            ],
+            "doi": "10.1145/2597073.2597077",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "123216dfa1b6028856c753dd47b96105135685fd",
+            "title": "Mining StackOverflow to turn the IDE into a self-confident programming prompter",
+            "url": "https://www.semanticscholar.org/paper/123216dfa1b6028856c753dd47b96105135685fd",
+            "venue": "MSR 2014",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3326078",
+                    "name": "Kartik Bajaj"
+                },
+                {
+                    "authorId": "1715185",
+                    "name": "K. Pattabiraman"
+                },
+                {
+                    "authorId": "1853199",
+                    "name": "A. Mesbah"
+                }
+            ],
+            "doi": "10.1145/2597073.2597083",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7c04b5102a09dc59b834aa081d24a978019134a8",
+            "title": "Mining questions asked by web developers",
+            "url": "https://www.semanticscholar.org/paper/7c04b5102a09dc59b834aa081d24a978019134a8",
+            "venue": "MSR 2014",
+            "year": 2014
+        },
+        {
+            "arxivId": "1401.0480",
+            "authors": [
+                {
+                    "authorId": "40056533",
+                    "name": "D. Correa"
+                },
+                {
+                    "authorId": "145914213",
+                    "name": "A. Sureka"
+                }
+            ],
+            "doi": "10.1145/2566486.2568036",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2404f3384b78178a4deac1d1a32b349182f6f107",
+            "title": "Chaff from the wheat: characterization and modeling of deleted questions on stack overflow",
+            "url": "https://www.semanticscholar.org/paper/2404f3384b78178a4deac1d1a32b349182f6f107",
+            "venue": "WWW",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39374345",
+                    "name": "Peter C. Rigby"
+                },
+                {
+                    "authorId": "1710587",
+                    "name": "M. Robillard"
+                }
+            ],
+            "doi": "10.1109/ICSE.2013.6606629",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5fd3029b5fcbbaa55b17466c476dc7b41897d9c2",
+            "title": "Discovering essential code elements in informal documentation",
+            "url": "https://www.semanticscholar.org/paper/5fd3029b5fcbbaa55b17466c476dc7b41897d9c2",
+            "venue": "2013 35th International Conference on Software Engineering (ICSE)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39470145",
+                    "name": "Wei Wang"
+                },
+                {
+                    "authorId": "47521175",
+                    "name": "Michael W. Godfrey"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624006",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b2bdf993e4b8b4185ea3cdda1c563919086f3a01",
+            "title": "Detecting API usage obstacles: A study of iOS and Android developer questions",
+            "url": "https://www.semanticscholar.org/paper/b2bdf993e4b8b4185ea3cdda1c563919086f3a01",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2499080",
+                    "name": "J. Cordeiro"
+                },
+                {
+                    "authorId": "145025231",
+                    "name": "B. Antunes"
+                },
+                {
+                    "authorId": "145828470",
+                    "name": "Paulo Gomes"
+                }
+            ],
+            "doi": "10.1109/RSSE.2012.6233418",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a4342733fc6a9aa22ccc972092a389604e7f96ad",
+            "title": "Context-based recommendation to support problem solving in software development",
+            "url": "https://www.semanticscholar.org/paper/a4342733fc6a9aa22ccc972092a389604e7f96ad",
+            "venue": "2012 Third International Workshop on Recommendation Systems for Software Engineering (RSSE)",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1686038",
+                    "name": "Alberto Bacchelli"
+                },
+                {
+                    "authorId": "2377431",
+                    "name": "Anthony Cleve"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                },
+                {
+                    "authorId": "1720673",
+                    "name": "Andrea Mocci"
+                }
+            ],
+            "doi": "10.1109/ASE.2011.6100103",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3fd93fc49e343b96e12620c8069638b7f46fbef8",
+            "title": "Extracting structured data from natural language documents with island parsing",
+            "url": "https://www.semanticscholar.org/paper/3fd93fc49e343b96e12620c8069638b7f46fbef8",
+            "venue": "2011 26th IEEE/ACM International Conference on Automated Software Engineering (ASE 2011)",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1685418",
+                    "name": "Christoph Treude"
+                },
+                {
+                    "authorId": "2683123",
+                    "name": "Ohad Barzilay"
+                },
+                {
+                    "authorId": "1734938",
+                    "name": "M. Storey"
+                }
+            ],
+            "doi": "10.1145/1985793.1985907",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f783cb2549f75143c8e4cc92ce5dc9bc76bfb5dc",
+            "title": "How do programmers ask and answer questions on the web?: NIER track",
+            "url": "https://www.semanticscholar.org/paper/f783cb2549f75143c8e4cc92ce5dc9bc76bfb5dc",
+            "venue": "2011 33rd International Conference on Software Engineering (ICSE)",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3245570",
+                    "name": "Lena Mamykina"
+                },
+                {
+                    "authorId": "2918047",
+                    "name": "Bella Manoim"
+                },
+                {
+                    "authorId": "2113291",
+                    "name": "Manas Mittal"
+                },
+                {
+                    "authorId": "1686114",
+                    "name": "G. Hripcsak"
+                },
+                {
+                    "authorId": "28226629",
+                    "name": "Bjoern Hartmann"
+                }
+            ],
+            "doi": "10.1145/1978942.1979366",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c426ab1cb2e12a5d09110866fb0e77cc6fcfa632",
+            "title": "Design lessons from the fastest q&a site in the west",
+            "url": "https://www.semanticscholar.org/paper/c426ab1cb2e12a5d09110866fb0e77cc6fcfa632",
+            "venue": "CHI",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1739674",
+                    "name": "G. Murphy"
+                },
+                {
+                    "authorId": "145937871",
+                    "name": "D. Notkin"
+                },
+                {
+                    "authorId": "145909274",
+                    "name": "K. Sullivan"
+                }
+            ],
+            "doi": "10.1109/32.917525",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0f52fa7e6c48d0e747ce498d577b658793c49be3",
+            "title": "Software Reflexion Models: Bridging the Gap between Design and Implementation",
+            "url": "https://www.semanticscholar.org/paper/0f52fa7e6c48d0e747ce498d577b658793c49be3",
+            "venue": "IEEE Trans. Software Eng.",
+            "year": 2001
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1762006",
+                    "name": "L. Moonen"
+                }
+            ],
+            "doi": "10.1109/WCRE.2001.957806",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6915b33b0ae48de5d63d97895d39d2e6d5b28197",
+            "title": "Generating robust parsers using island grammars",
+            "url": "https://www.semanticscholar.org/paper/6915b33b0ae48de5d63d97895d39d2e6d5b28197",
+            "venue": "Proceedings Eighth Working Conference on Reverse Engineering",
+            "year": 2001
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "( 11 th Working Conference on Mining Software Repositories )",
+            "url": "",
+            "venue": "ACM",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "StORMeD: Stack Overflow Ready Made Data",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/7bfded4695ee0b7e9ec0ab7dd55845d1624b0195",
+    "venue": "2015 IEEE/ACM 12th Working Conference on Mining Software Repositories",
+    "year": 2015
+}

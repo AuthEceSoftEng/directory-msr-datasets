@@ -1,0 +1,837 @@
+{
+    "abstract": "Build logs are textual by-products that a software build process creates, often as part of its Continuous Integration (CI) pipeline. Build logs are a paramount source of information for developers when debugging into and understanding a build failure. Recently, attempts to partly automate this time-consuming, purely manual activity have come up, such as rule- or information-retrieval-based techniques. We believe that having a common data set to compare different build log analysis techniques will advance the research area. It will ultimately increase our understanding of CI build failures. In this paper, we present LogChunks, a collection of 797 annotated Travis CI build logs from 80 GitHub repositories in 29 programming languages. For each build log, LogChunks contains a manually labeled log part (chunk) describing why the build failed. We externally validated the data set with the developers who caused the original build failure. The width and depth of the LogChunks data set are intended to make it the default benchmark for automated build log analysis techniques.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "46494811",
+            "name": "C. Brandt",
+            "url": "https://www.semanticscholar.org/author/46494811"
+        },
+        {
+            "authorId": "3013302",
+            "name": "Annibale Panichella",
+            "url": "https://www.semanticscholar.org/author/3013302"
+        },
+        {
+            "authorId": "1702285",
+            "name": "A. Zaidman",
+            "url": "https://www.semanticscholar.org/author/1702285"
+        },
+        {
+            "authorId": "21003887",
+            "name": "M. Beller",
+            "url": "https://www.semanticscholar.org/author/21003887"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2408.11544",
+            "authors": [
+                {
+                    "authorId": "50269468",
+                    "name": "Mat\u00fa\u0161 Sul\u00edr"
+                },
+                {
+                    "authorId": "2889084",
+                    "name": "J. Porub\u00e4n"
+                },
+                {
+                    "authorId": "2277315",
+                    "name": "Sergej Chodarev"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b86798860e3f1af373089fa5c85ae2626ebd975e",
+            "title": "Local Software Buildability across Java Versions (Registered Report)",
+            "url": "https://www.semanticscholar.org/paper/b86798860e3f1af373089fa5c85ae2626ebd975e",
+            "venue": "",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1817470",
+                    "name": "David Broneske"
+                },
+                {
+                    "authorId": "2311223875",
+                    "name": "Sebastian Kittan"
+                },
+                {
+                    "authorId": "2294487423",
+                    "name": "Jacob Kr\u00fcger"
+                }
+            ],
+            "doi": "10.1145/3660798",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6f30b34e9e923168baa57f2edc5233577d778292",
+            "title": "Sharing Software-Evolution Datasets: Practices, Challenges, and Recommendations",
+            "url": "https://www.semanticscholar.org/paper/6f30b34e9e923168baa57f2edc5233577d778292",
+            "venue": "Proceedings of the ACM on Software Engineering",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1438950900",
+                    "name": "Casper Boone"
+                },
+                {
+                    "authorId": "46494811",
+                    "name": "C. Brandt"
+                },
+                {
+                    "authorId": "1702285",
+                    "name": "A. Zaidman"
+                }
+            ],
+            "doi": "10.1145/3524610.3527908",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7de3bce19f19fcabea628f3e61381324e1279f88",
+            "title": "Fixing Continuous Integration Tests From Within the IDE With Contextual Information",
+            "url": "https://www.semanticscholar.org/paper/7de3bce19f19fcabea628f3e61381324e1279f88",
+            "venue": "2022 IEEE/ACM 30th International Conference on Program Comprehension (ICPC)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144567725",
+                    "name": "A. Nogueira"
+                },
+                {
+                    "authorId": "1405248266",
+                    "name": "M. Zenha-Rela"
+                }
+            ],
+            "doi": "10.1007/s42979-021-00830-2",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "eda5e0dae5cc729ecc3ca7f1a949e01aa11403bf",
+            "title": "Monitoring a CI/CD Workflow Using Process Mining",
+            "url": "https://www.semanticscholar.org/paper/eda5e0dae5cc729ecc3ca7f1a949e01aa11403bf",
+            "venue": "SN Computer Science",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50269468",
+                    "name": "Mat\u00fa\u0161 Sul\u00edr"
+                },
+                {
+                    "authorId": "2365135",
+                    "name": "M. Ba\u010d\u00edkov\u00e1"
+                },
+                {
+                    "authorId": "40859887",
+                    "name": "Matej Madeja"
+                },
+                {
+                    "authorId": "2277315",
+                    "name": "Sergej Chodarev"
+                },
+                {
+                    "authorId": "2131288",
+                    "name": "J\u00e1n Juh\u00e1r"
+                }
+            ],
+            "doi": "10.3390/data5030086",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "bd159dab4db21748a0df31d58c25ed37e02823fa",
+            "title": "Large-Scale Dataset of Local Java Software Build Results",
+            "url": "https://www.semanticscholar.org/paper/bd159dab4db21748a0df31d58c25ed37e02823fa",
+            "venue": "Data",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2221606820",
+                    "name": "\u0141ukasz Korzeniowski"
+                },
+                {
+                    "authorId": "1719099",
+                    "name": "K. Goczy\u0142a"
+                }
+            ],
+            "doi": "10.1109/ACCESS.2022.3152549",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "bfc2e1bf95090c1c53a5828e79d9cf041ae2a4a5",
+            "title": "Landscape of Automated Log Analysis: A Systematic Literature Review and Mapping Study",
+            "url": "https://www.semanticscholar.org/paper/bfc2e1bf95090c1c53a5828e79d9cf041ae2a4a5",
+            "venue": "IEEE Access",
+            "year": 2022
+        }
+    ],
+    "corpusId": 214676610,
+    "doi": "10.1145/3379597.3387485",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 6,
+    "numCiting": 23,
+    "paperId": "22a1d4e8c0073fc7f4a3d8c69458e8d996eae0ed",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "32891700",
+                    "name": "Nathan Cassee"
+                },
+                {
+                    "authorId": "2434621",
+                    "name": "Bogdan Vasilescu"
+                },
+                {
+                    "authorId": "1747171",
+                    "name": "Alexander Serebrenik"
+                }
+            ],
+            "doi": "10.1109/SANER48275.2020.9054818",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e4f4afac02dc4b0600d889751b2549642a4637b3",
+            "title": "The Silent Helper: The Impact of Continuous Integration on Code Reviews",
+            "url": "https://www.semanticscholar.org/paper/e4f4afac02dc4b0600d889751b2549642a4637b3",
+            "venue": "2020 IEEE 27th International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2020
+        },
+        {
+            "arxivId": "2303.02555",
+            "authors": [
+                {
+                    "authorId": "1417010517",
+                    "name": "IV LouisG.Michael"
+                },
+                {
+                    "authorId": "144010378",
+                    "name": "James Donohue"
+                },
+                {
+                    "authorId": "113882367",
+                    "name": "James C. Davis"
+                },
+                {
+                    "authorId": "2006849",
+                    "name": "Dongyoon Lee"
+                },
+                {
+                    "authorId": "2897094",
+                    "name": "Francisco Servant"
+                }
+            ],
+            "doi": "10.1109/ASE.2019.00047",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "bd1b191937954d277559a184407022e7cf081dba",
+            "title": "Regexes are Hard: Decision-Making, Difficulties, and Risks in Programming Regular Expressions",
+            "url": "https://www.semanticscholar.org/paper/bd1b191937954d277559a184407022e7cf081dba",
+            "venue": "2019 34th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145101558",
+                    "name": "Anunay Amar"
+                },
+                {
+                    "authorId": "39374345",
+                    "name": "Peter C. Rigby"
+                }
+            ],
+            "doi": "10.1109/ICSE.2019.00031",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9bdce16603224064a8f1d84d2ace899b671d6c81",
+            "title": "Mining Historical Test Logs to Predict Bugs and Localize Faults in the Test Logs",
+            "url": "https://www.semanticscholar.org/paper/9bdce16603224064a8f1d84d2ace899b671d6c81",
+            "venue": "2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE)",
+            "year": 2019
+        },
+        {
+            "arxivId": "1811.03509",
+            "authors": [
+                {
+                    "authorId": "2108997533",
+                    "name": "Jieming Zhu"
+                },
+                {
+                    "authorId": "3470504",
+                    "name": "Shilin He"
+                },
+                {
+                    "authorId": "2108510525",
+                    "name": "Jinyang Liu"
+                },
+                {
+                    "authorId": "40532404",
+                    "name": "Pinjia He"
+                },
+                {
+                    "authorId": "2055458428",
+                    "name": "Qi Xie"
+                },
+                {
+                    "authorId": "144291579",
+                    "name": "Zibin Zheng"
+                },
+                {
+                    "authorId": "1785083",
+                    "name": "Michael R. Lyu"
+                }
+            ],
+            "doi": "10.1109/ICSE-SEIP.2019.00021",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "97224dfaa9517c51e86250cd4443958d37c17220",
+            "title": "Tools and Benchmarks for Automated Log Parsing",
+            "url": "https://www.semanticscholar.org/paper/97224dfaa9517c51e86250cd4443958d37c17220",
+            "venue": "2019 IEEE/ACM 41st International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2404391",
+                    "name": "Carmine Vassallo"
+                },
+                {
+                    "authorId": "1933475",
+                    "name": "Sebastian Proksch"
+                },
+                {
+                    "authorId": "51139131",
+                    "name": "Timothy Zemp"
+                },
+                {
+                    "authorId": "50355692",
+                    "name": "H. Gall"
+                }
+            ],
+            "doi": "10.1145/3196321.3196350",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d90d4a5dd68bc5a5057de83dea4aedd7055705ec",
+            "title": "Un-break My Build: Assisting Developers with Build Repair Hints",
+            "url": "https://www.semanticscholar.org/paper/d90d4a5dd68bc5a5057de83dea4aedd7055705ec",
+            "venue": "2018 IEEE/ACM 26th International Conference on Program Comprehension (ICPC)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2404391",
+                    "name": "Carmine Vassallo"
+                },
+                {
+                    "authorId": "36196893",
+                    "name": "Gerald Schermann"
+                },
+                {
+                    "authorId": "8701060",
+                    "name": "Fiorella Zampetti"
+                },
+                {
+                    "authorId": "1639723643",
+                    "name": "Daniele Romano"
+                },
+                {
+                    "authorId": "1910406",
+                    "name": "P. Leitner"
+                },
+                {
+                    "authorId": "1702285",
+                    "name": "A. Zaidman"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "3117169",
+                    "name": "Sebastiano Panichella"
+                }
+            ],
+            "doi": "10.1109/ICSME.2017.67",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "01e11e568174a5812f9b974185f3da60c9d4e9c2",
+            "title": "A Tale of CI Build Failures: An Open Source and a Financial Organization Perspective",
+            "url": "https://www.semanticscholar.org/paper/01e11e568174a5812f9b974185f3da60c9d4e9c2",
+            "venue": "2017 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "21003887",
+                    "name": "M. Beller"
+                },
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "1702285",
+                    "name": "A. Zaidman"
+                }
+            ],
+            "doi": "10.1109/MSR.2017.62",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "7ee65ebc3da7eb35e3bf1425008d22f693d135a4",
+            "title": "Oops, My Tests Broke the Build: An Explorative Analysis of Travis CI with GitHub",
+            "url": "https://www.semanticscholar.org/paper/7ee65ebc3da7eb35e3bf1425008d22f693d135a4",
+            "venue": "2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": "10.1109/MSR.2017.24",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "840d779e02a646d19cabd6bb186533cae81fc966",
+            "title": "TravisTorrent: Synthesizing Travis CI and GitHub for Full-Stack Research on Continuous Integration",
+            "url": "https://www.semanticscholar.org/paper/840d779e02a646d19cabd6bb186533cae81fc966",
+            "venue": "2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1734481",
+                    "name": "Eirini Kalliamvakou"
+                },
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "1715864",
+                    "name": "Kelly Blincoe"
+                },
+                {
+                    "authorId": "18264995",
+                    "name": "Leif Singer"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "1741744",
+                    "name": "D. Damian"
+                }
+            ],
+            "doi": "10.1007/s10664-015-9393-5",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "ec893b923db8f30349ef5a02b57bc928110f9f71",
+            "title": "An in-depth study of the promises and perils of mining GitHub",
+            "url": "https://www.semanticscholar.org/paper/ec893b923db8f30349ef5a02b57bc928110f9f71",
+            "venue": "Empirical Software Engineering",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145007093",
+                    "name": "Michael C Hilton"
+                },
+                {
+                    "authorId": "34869920",
+                    "name": "T. Tunnell"
+                },
+                {
+                    "authorId": "2112768743",
+                    "name": "Kai Huang"
+                },
+                {
+                    "authorId": "1718171",
+                    "name": "D. Marinov"
+                },
+                {
+                    "authorId": "1687704",
+                    "name": "Danny Dig"
+                }
+            ],
+            "doi": "10.1145/2970276.2970358",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7f099e5bdae86cdb01d4a1da5678f493ac7266d1",
+            "title": "Usage, costs, and benefits of continuous integration in open-source projects",
+            "url": "https://www.semanticscholar.org/paper/7f099e5bdae86cdb01d4a1da5678f493ac7266d1",
+            "venue": "2016 31st IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2434621",
+                    "name": "Bogdan Vasilescu"
+                },
+                {
+                    "authorId": "47111832",
+                    "name": "Yue Yu"
+                },
+                {
+                    "authorId": "143969934",
+                    "name": "Huaimin Wang"
+                },
+                {
+                    "authorId": "1730296",
+                    "name": "Premkumar T. Devanbu"
+                },
+                {
+                    "authorId": "3179220",
+                    "name": "V. Filkov"
+                }
+            ],
+            "doi": "10.1145/2786805.2786850",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0b5a3c73c3a72941664828c049f1f483d462dd08",
+            "title": "Quality and productivity outcomes relating to continuous integration in GitHub",
+            "url": "https://www.semanticscholar.org/paper/0b5a3c73c3a72941664828c049f1f483d462dd08",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2286267328",
+                    "name": "Hyunmin Seo"
+                },
+                {
+                    "authorId": "2286316680",
+                    "name": "Caitlin Sadowski"
+                },
+                {
+                    "authorId": "143754832",
+                    "name": "Sebastian G. Elbaum"
+                },
+                {
+                    "authorId": "3184719",
+                    "name": "E. Aftandilian"
+                },
+                {
+                    "authorId": "2861612",
+                    "name": "Robert W. Bowdidge"
+                }
+            ],
+            "doi": "10.1145/2568225.2568255",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ff2aea3828175dbeba47eacf456f966845be3768",
+            "title": "Programmers' build errors: a case study (at google)",
+            "url": "https://www.semanticscholar.org/paper/ff2aea3828175dbeba47eacf456f966845be3768",
+            "venue": "ICSE",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "21401565",
+                    "name": "Edward K. Smith"
+                },
+                {
+                    "authorId": "32182645",
+                    "name": "R. Loftin"
+                },
+                {
+                    "authorId": "1398156124",
+                    "name": "E. Murphy-Hill"
+                },
+                {
+                    "authorId": "145193818",
+                    "name": "C. Bird"
+                },
+                {
+                    "authorId": "143609903",
+                    "name": "Thomas Zimmermann"
+                }
+            ],
+            "doi": "10.1109/CHASE.2013.6614738",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "964cf983df773bcf91584f4199298304dc8ecdb9",
+            "title": "Improving developer participation rates in surveys",
+            "url": "https://www.semanticscholar.org/paper/964cf983df773bcf91584f4199298304dc8ecdb9",
+            "venue": "2013 6th International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624034",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "2867eb64cc4bb1945363fdae12a168962ea823aa",
+            "title": "The GHTorent dataset and tool suite",
+            "url": "https://www.semanticscholar.org/paper/2867eb64cc4bb1945363fdae12a168962ea823aa",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "123445749",
+                    "name": "J. Downs"
+                },
+                {
+                    "authorId": "1738492",
+                    "name": "B. Plimmer"
+                },
+                {
+                    "authorId": "1741726",
+                    "name": "J. Hosking"
+                }
+            ],
+            "doi": "10.1109/ICSE.2012.6227165",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1934b51e6971eee267d21c015bdbda87dc468ccb",
+            "title": "Ambient awareness of build status in collocated software teams",
+            "url": "https://www.semanticscholar.org/paper/1934b51e6971eee267d21c015bdbda87dc468ccb",
+            "venue": "2012 34th International Conference on Software Engineering (ICSE)",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34902086",
+                    "name": "A. Miller"
+                }
+            ],
+            "doi": "10.1109/Agile.2008.8",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e6194d5a671d83dc617c8169ae04e56f7c09da7c",
+            "title": "A Hundred Days of Continuous Integration",
+            "url": "https://www.semanticscholar.org/paper/e6194d5a671d83dc617c8169ae04e56f7c09da7c",
+            "venue": "Agile 2008 Conference",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "69566222",
+                    "name": "P. Duvall"
+                },
+                {
+                    "authorId": "1754747",
+                    "name": "S. Matyas"
+                },
+                {
+                    "authorId": "2064154658",
+                    "name": "Andy Glover"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "77e3051180623f0a5d0f859e28fce9078873cf22",
+            "title": "Continuous Integration: Improving Software Quality and Reducing Risk (The Addison-Wesley Signature Series)",
+            "url": "https://www.semanticscholar.org/paper/77e3051180623f0a5d0f859e28fce9078873cf22",
+            "venue": "",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1705823",
+                    "name": "S. Sim"
+                },
+                {
+                    "authorId": "1693900",
+                    "name": "S. Easterbrook"
+                },
+                {
+                    "authorId": "144345125",
+                    "name": "R. Holt"
+                }
+            ],
+            "doi": "10.1109/ICSE.2003.1201189",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1f1e25367457f67d74ea2a3b497645898c5962a8",
+            "title": "Using benchmarking to advance research: a challenge to software engineering",
+            "url": "https://www.semanticscholar.org/paper/1f1e25367457f67d74ea2a3b497645898c5962a8",
+            "venue": "25th International Conference on Software Engineering, 2003. Proceedings.",
+            "year": 2003
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "LogChunks: A Data Set for Build Log Analysis",
+            "url": "",
+            "venue": "",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Travis Build Status",
+            "url": "",
+            "venue": ":",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144858193",
+                    "name": "Daniel St\u00e5hl"
+                },
+                {
+                    "authorId": "144913779",
+                    "name": "J. Bosch"
+                }
+            ],
+            "doi": "10.1016/j.jss.2013.08.032",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "230af601ce5dc148eb349e3223f5e127f6e32977",
+            "title": "Modeling continuous integration practice differences in industry software development",
+            "url": "https://www.semanticscholar.org/paper/230af601ce5dc148eb349e3223f5e127f6e32977",
+            "venue": "J. Syst. Softw.",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49853288",
+                    "name": "Wang Zhi-jian"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "6df4a83dd283a1e8a538d8820805966e01129176",
+            "title": "Using Benchmarking to Advance Research:A Challenge to Software Engineering",
+            "url": "https://www.semanticscholar.org/paper/6df4a83dd283a1e8a538d8820805966e01129176",
+            "venue": "",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "MSR \u201920, October 5\u20136, 2020, Seoul, Republic of Korea",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "LogChunks: A Data Set for Build Log Analysis",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/22a1d4e8c0073fc7f4a3d8c69458e8d996eae0ed",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2020
+}

@@ -1,0 +1,700 @@
+{
+    "abstract": "The bug tracking repositories of software projects capture initial defect (bug) reports and the history of interactions among developers, testers, and customers. Extracting and mining information from these repositories is time consuming and daunting. Researchers have focused mostly on analyzing the frequency of the occurrence of defects and their attributes (e.g., The number of comments and lines of code changed, count of developers). However, the counting process eliminates information about the temporal alignment of events leading to changes in the attributes count. Software quality teams could plan and prioritize their work more efficiently if they were aware of these temporal sequences and knew their frequency of occurrence. In this paper, we introduce a novel dataset mined from the Fire fox bug repository (Bugzilla) which contains information about the temporal alignment of developer interactions. Our dataset covers eight years of data from the Fire fox project on activities throughout the project's lifecycle. Some of these activities have not been reported in frequency-based or other temporal datasets. The dataset we mined from the Fire fox project contains new activities, such as reporter experience, file exchange events, code-review process activities, and setting of milestones. We believe that this new dataset will improve analysis of bug reports and enable mining of temporal relationships so that practitioners can enhance their bug-fixing process.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2279881",
+            "name": "Mayy Habayeb",
+            "url": "https://www.semanticscholar.org/author/2279881"
+        },
+        {
+            "authorId": "3314051",
+            "name": "A. Miranskyy",
+            "url": "https://www.semanticscholar.org/author/3314051"
+        },
+        {
+            "authorId": "2307843",
+            "name": "Syed Shariyar Murtaza",
+            "url": "https://www.semanticscholar.org/author/2307843"
+        },
+        {
+            "authorId": "40398161",
+            "name": "Leotis Buchanan",
+            "url": "https://www.semanticscholar.org/author/40398161"
+        },
+        {
+            "authorId": "1730000",
+            "name": "A. Bener",
+            "url": "https://www.semanticscholar.org/author/1730000"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2058999729",
+                    "name": "Renan G. Vieira"
+                },
+                {
+                    "authorId": "2122102379",
+                    "name": "Ant\u00f4nio da Silva"
+                },
+                {
+                    "authorId": "3225841",
+                    "name": "L. Rocha"
+                },
+                {
+                    "authorId": "144227442",
+                    "name": "J. Gomes"
+                }
+            ],
+            "doi": "10.1145/3345629.3345639",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "43a4962ff6b3eeee2ef9d44e73efed1027d2f80c",
+            "title": "From Reports to Bug-Fix Commits: A 10 Years Dataset of Bug-Fixing Activity from 55 Apache's Open Source Projects",
+            "url": "https://www.semanticscholar.org/paper/43a4962ff6b3eeee2ef9d44e73efed1027d2f80c",
+            "venue": "PROMISE",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00085",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "43148fabe2636026e07ca04974aff40d204bfb6b",
+            "title": "Standing on Shoulders or Feet? The Usage of the MSR Data Papers",
+            "url": "https://www.semanticscholar.org/paper/43148fabe2636026e07ca04974aff40d204bfb6b",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2279881",
+                    "name": "Mayy Habayeb"
+                },
+                {
+                    "authorId": "2307843",
+                    "name": "Syed Shariyar Murtaza"
+                },
+                {
+                    "authorId": "3314051",
+                    "name": "A. Miranskyy"
+                },
+                {
+                    "authorId": "1730000",
+                    "name": "A. Bener"
+                }
+            ],
+            "doi": "10.1145/3180155.3182522",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "3ae24613974622f4fc362e89131b390404a2f27e",
+            "title": "On the Use of Hidden Markov Model to Predict the Time to Fix Bugs",
+            "url": "https://www.semanticscholar.org/paper/3ae24613974622f4fc362e89131b390404a2f27e",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2279881",
+                    "name": "Mayy Habayeb"
+                },
+                {
+                    "authorId": "2307843",
+                    "name": "Syed Shariyar Murtaza"
+                },
+                {
+                    "authorId": "3314051",
+                    "name": "A. Miranskyy"
+                },
+                {
+                    "authorId": "1730000",
+                    "name": "A. Bener"
+                }
+            ],
+            "doi": "10.1109/TSE.2017.2757480",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "32c51d52c728b6331f7a39973f975f16387e64d8",
+            "title": "[Journal First] On the Use of Hidden Markov Model to Predict the Time to Fix Bugs",
+            "url": "https://www.semanticscholar.org/paper/32c51d52c728b6331f7a39973f975f16387e64d8",
+            "venue": "2018 IEEE/ACM 40th International Conference on Software Engineering (ICSE)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3404969",
+                    "name": "S. Akbarinasaji"
+                },
+                {
+                    "authorId": "1721943",
+                    "name": "Bora Caglayan"
+                },
+                {
+                    "authorId": "1730000",
+                    "name": "A. Bener"
+                }
+            ],
+            "doi": "10.1016/j.jss.2017.02.021",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "68ee9af4957e531672b1b83e8f0578c5bd1fd8fd",
+            "title": "Predicting bug-fixing time: A replication study using an open source software project",
+            "url": "https://www.semanticscholar.org/paper/68ee9af4957e531672b1b83e8f0578c5bd1fd8fd",
+            "venue": "J. Syst. Softw.",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143678679",
+                    "name": "N. R. Barraza"
+                }
+            ],
+            "doi": "10.1109/CLEI.2017.8226412",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9777aa6a9fac50b8901afb3204d5314f783c26df",
+            "title": "Mining Bugzilla datasets with new increasing failure rate software reliability models",
+            "url": "https://www.semanticscholar.org/paper/9777aa6a9fac50b8901afb3204d5314f783c26df",
+            "venue": "2017 XLIII Latin American Computer Conference (CLEI)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2103420",
+                    "name": "T. Abdou"
+                },
+                {
+                    "authorId": "3435423",
+                    "name": "Atakan Erdem"
+                },
+                {
+                    "authorId": "1730000",
+                    "name": "A. Bener"
+                },
+                {
+                    "authorId": "46824724",
+                    "name": "Adam Neal"
+                }
+            ],
+            "doi": "10.1145/2989238.2989246",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "6c56c0684b2e3a792d81b3382320413e41a49245",
+            "title": "A replication study: mining a proprietary temporal defect dataset",
+            "url": "https://www.semanticscholar.org/paper/6c56c0684b2e3a792d81b3382320413e41a49245",
+            "venue": "SWAN@SIGSOFT FSE",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2290445146",
+                    "name": "Jiaxin Zhu"
+                },
+                {
+                    "authorId": "40318014",
+                    "name": "Minghui Zhou"
+                },
+                {
+                    "authorId": "145642974",
+                    "name": "Hong Mei"
+                }
+            ],
+            "doi": "10.1145/2901739.2903502",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "9b3aba7d1cc17d76cd2407a5acfa3d2d363c6ab3",
+            "title": "Multi-extract and Multi-level Dataset of Mozilla Issue Tracking History",
+            "url": "https://www.semanticscholar.org/paper/9b3aba7d1cc17d76cd2407a5acfa3d2d363c6ab3",
+            "venue": "2016 IEEE/ACM 13th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "113323742",
+                    "name": "T. Lewowski"
+                },
+                {
+                    "authorId": "1731361",
+                    "name": "L. Madeyski"
+                }
+            ],
+            "doi": "10.1007/978-3-030-26574-8_1",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "43e60e7a4ad086644c5b1a4ef2810a76f5bae19c",
+            "title": "Creating Evolving Project Data Sets in Software Engineering",
+            "url": "https://www.semanticscholar.org/paper/43e60e7a4ad086644c5b1a4ef2810a76f5bae19c",
+            "venue": "Integrating Research and Practice in Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2075105182",
+                    "name": "Fareen Sayed"
+                },
+                {
+                    "authorId": "82820641",
+                    "name": "Hetvi Shah"
+                },
+                {
+                    "authorId": "2097422583",
+                    "name": "Namrata Kharat"
+                },
+                {
+                    "authorId": "2102188708",
+                    "name": "P. Ohal"
+                },
+                {
+                    "authorId": "2075203158",
+                    "name": "Gopal Deshmukh"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "da7f08c74357265f323e9df8669d4ad61af71207",
+            "title": "Bug Triage: An Automated Process",
+            "url": "https://www.semanticscholar.org/paper/da7f08c74357265f323e9df8669d4ad61af71207",
+            "venue": "",
+            "year": 2017
+        }
+    ],
+    "corpusId": 2748519,
+    "doi": "10.1109/MSR.2015.73",
+    "fieldsOfStudy": [
+        "Computer Science",
+        "Engineering"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 11,
+    "numCiting": 12,
+    "paperId": "3fa7185de6785382af4a9a9b28e274ab7c4e5b48",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1693773",
+                    "name": "Ahmed Lamkanfi"
+                },
+                {
+                    "authorId": "2115198492",
+                    "name": "Javier P\u00e9rez"
+                },
+                {
+                    "authorId": "1688862",
+                    "name": "S. Demeyer"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624028",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "ee7d535cdef36c1733fa324fbdd835b9273e4960",
+            "title": "The Eclipse and Mozilla defect tracking dataset: A genuine dataset for mining bug information",
+            "url": "https://www.semanticscholar.org/paper/ee7d535cdef36c1733fa324fbdd835b9273e4960",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": "1302.6764",
+            "authors": [
+                {
+                    "authorId": "1796314",
+                    "name": "Ingo Scholtes"
+                },
+                {
+                    "authorId": "2055648",
+                    "name": "M. S. Zanetti"
+                },
+                {
+                    "authorId": "2146531",
+                    "name": "C. Tessone"
+                },
+                {
+                    "authorId": "1733303",
+                    "name": "F. Schweitzer"
+                }
+            ],
+            "doi": "10.1109/ICSE.2013.6606653",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "520ba085756492bbd45361fc0d87bf396eef5134",
+            "title": "Categorizing bugs with social networks: A case study on four open source software communities",
+            "url": "https://www.semanticscholar.org/paper/520ba085756492bbd45361fc0d87bf396eef5134",
+            "venue": "2013 35th International Conference on Software Engineering (ICSE)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1732227",
+                    "name": "E. Giger"
+                },
+                {
+                    "authorId": "1775709",
+                    "name": "M. Pinzger"
+                },
+                {
+                    "authorId": "50355692",
+                    "name": "H. Gall"
+                }
+            ],
+            "doi": "10.1145/1808920.1808933",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "f11d382a23eca5ba225df0f8f6eb1fc97b7065d3",
+            "title": "Predicting the fix time of bugs",
+            "url": "https://www.semanticscholar.org/paper/f11d382a23eca5ba225df0f8f6eb1fc97b7065d3",
+            "venue": "RSSE '10",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1953263",
+                    "name": "Nicholas Jalbert"
+                },
+                {
+                    "authorId": "47211092",
+                    "name": "Westley Weimer"
+                }
+            ],
+            "doi": "10.1109/DSN.2008.4630070",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "649acd55aeece28925dd384d15b01e54c525c3f0",
+            "title": "Automated duplicate detection for bug tracking systems",
+            "url": "https://www.semanticscholar.org/paper/649acd55aeece28925dd384d15b01e54c525c3f0",
+            "venue": "2008 IEEE International Conference on Dependable Systems and Networks With FTCS and DCC (DSN)",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2096418443",
+                    "name": "Pieter Hooimeijer"
+                },
+                {
+                    "authorId": "47211092",
+                    "name": "Westley Weimer"
+                }
+            ],
+            "doi": "10.1145/1321631.1321639",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "9fc6894ea75e2880e764bcac88315accf3ac3ff5",
+            "title": "Modeling bug report quality",
+            "url": "https://www.semanticscholar.org/paper/9fc6894ea75e2880e764bcac88315accf3ac3ff5",
+            "venue": "ASE",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "19293876",
+                    "name": "Cathrin Weiss"
+                },
+                {
+                    "authorId": "2000241",
+                    "name": "Rahul Premraj"
+                },
+                {
+                    "authorId": "143609903",
+                    "name": "Thomas Zimmermann"
+                },
+                {
+                    "authorId": "145594351",
+                    "name": "A. Zeller"
+                }
+            ],
+            "doi": "10.1109/MSR.2007.13",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c9f540a5db7668714f193bcec37dc5ce442e9282",
+            "title": "How Long Will It Take to Fix This Bug?",
+            "url": "https://www.semanticscholar.org/paper/c9f540a5db7668714f193bcec37dc5ce442e9282",
+            "venue": "Fourth International Workshop on Mining Software Repositories (MSR'07:ICSE Workshops 2007)",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2485434",
+                    "name": "Lucas D. Panjer"
+                }
+            ],
+            "doi": "10.1109/MSR.2007.25",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "bff1da2c10029b162552d3a6757abb14f39f2b73",
+            "title": "Predicting Eclipse Bug Lifetimes",
+            "url": "https://www.semanticscholar.org/paper/bff1da2c10029b162552d3a6757abb14f39f2b73",
+            "venue": "Fourth International Workshop on Mining Software Repositories (MSR'07:ICSE Workshops 2007)",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2226695",
+                    "name": "J. Anvik"
+                },
+                {
+                    "authorId": "47799990",
+                    "name": "L. Hiew"
+                },
+                {
+                    "authorId": "1739674",
+                    "name": "G. Murphy"
+                }
+            ],
+            "doi": "10.1145/1134285.1134336",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b3b3c562a45d7710d6f62ad8f210ebca9a47d23f",
+            "title": "Who should fix this bug?",
+            "url": "https://www.semanticscholar.org/paper/b3b3c562a45d7710d6f62ad8f210ebca9a47d23f",
+            "venue": "ICSE",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2274422",
+                    "name": "Gaeul Jeong"
+                },
+                {
+                    "authorId": "1787729",
+                    "name": "Sunghun Kim"
+                },
+                {
+                    "authorId": "143609903",
+                    "name": "Thomas Zimmermann"
+                },
+                {
+                    "authorId": "40344266",
+                    "name": "K. Yi"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2c9b1dac31694c65466487dd11534d41cf328d32",
+            "title": "Improving Code Review by Predicting Reviewers and Acceptance of Patches",
+            "url": "https://www.semanticscholar.org/paper/2c9b1dac31694c65466487dd11534d41cf328d32",
+            "venue": "",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201cLife cycle of a bug,\u201d",
+            "url": "",
+            "venue": "2015-02-14",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201cSuper-review policy,\u201d",
+            "url": "",
+            "venue": "2015-02-14",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201cMozilla,\u201d",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "The Firefox Temporal Defect Dataset",
+    "topics": [
+        {
+            "topic": "Firefox",
+            "topicId": "55846",
+            "url": "https://www.semanticscholar.org/topic/55846"
+        },
+        {
+            "topic": "Software bug",
+            "topicId": "37",
+            "url": "https://www.semanticscholar.org/topic/37"
+        },
+        {
+            "topic": "Bugzilla",
+            "topicId": "893656",
+            "url": "https://www.semanticscholar.org/topic/893656"
+        },
+        {
+            "topic": "Interaction",
+            "topicId": "72",
+            "url": "https://www.semanticscholar.org/topic/72"
+        },
+        {
+            "topic": "MinEd",
+            "topicId": "3856937",
+            "url": "https://www.semanticscholar.org/topic/3856937"
+        },
+        {
+            "topic": "Software quality",
+            "topicId": "26008",
+            "url": "https://www.semanticscholar.org/topic/26008"
+        },
+        {
+            "topic": "Comment (computer programming)",
+            "topicId": "85348",
+            "url": "https://www.semanticscholar.org/topic/85348"
+        },
+        {
+            "topic": "Bug tracking system",
+            "topicId": "115269",
+            "url": "https://www.semanticscholar.org/topic/115269"
+        },
+        {
+            "topic": "Source lines of code",
+            "topicId": "3614",
+            "url": "https://www.semanticscholar.org/topic/3614"
+        }
+    ],
+    "url": "https://www.semanticscholar.org/paper/3fa7185de6785382af4a9a9b28e274ab7c4e5b48",
+    "venue": "2015 IEEE/ACM 12th Working Conference on Mining Software Repositories",
+    "year": 2015
+}

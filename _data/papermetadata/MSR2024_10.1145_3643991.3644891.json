@@ -1,0 +1,619 @@
+{
+    "abstract": "Developing tools in the context of autonomous systems [22], [24], such as self-driving cars (SDCs), is time-consuming and costly since researchers and practitioners rely on expensive computing hardware and simulation software. We propose SensoDat, a dataset of 32,580 executed simulation-based SDC test cases generated with state-of-the-art test generators for SDCs. The dataset consists of trajectory logs and a variety of sensor data from the SDCs (e.g., rpm, wheel speed, brake thermals, transmission, etc.) represented as a time series. In total, SensoDat provides data from 81 different simulated sensors. Future research in the domain of SDCs does not necessarily depend on executing expensive test cases when using SensoDat. Furthermore, with the high amount and variety of sensor data, we think SensoDat can contribute to research, particularly for AI development, regression testing techniques for simulation-based SDC testing, flakiness in simulation, etc. Link to the dataset: https://doi.org/10.5281/zenodo.10307479",
+    "arxivId": "2401.09808",
+    "authors": [
+        {
+            "authorId": "2120148615",
+            "name": "Christian Birchler",
+            "url": "https://www.semanticscholar.org/author/2120148615"
+        },
+        {
+            "authorId": "2221313677",
+            "name": "Cyrill Rohrbach",
+            "url": "https://www.semanticscholar.org/author/2221313677"
+        },
+        {
+            "authorId": "2279830787",
+            "name": "Timo Kehrer",
+            "url": "https://www.semanticscholar.org/author/2279830787"
+        },
+        {
+            "authorId": "3117169",
+            "name": "Sebastiano Panichella",
+            "url": "https://www.semanticscholar.org/author/3117169"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [],
+    "corpusId": 267035035,
+    "doi": "10.1145/3643991.3644891",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 0,
+    "numCiting": 22,
+    "paperId": "97c4af9217cf17197d222e0ce4dc216eb2c05b4c",
+    "references": [
+        {
+            "arxivId": "2307.03279",
+            "authors": [
+                {
+                    "authorId": "2120148615",
+                    "name": "Christian Birchler"
+                },
+                {
+                    "authorId": "2221313677",
+                    "name": "Cyrill Rohrbach"
+                },
+                {
+                    "authorId": "2155256379",
+                    "name": "Hyeon-Soo Kim"
+                },
+                {
+                    "authorId": "2976964",
+                    "name": "Alessio Gambi"
+                },
+                {
+                    "authorId": "2221445056",
+                    "name": "Tianhai Liu"
+                },
+                {
+                    "authorId": "1752043",
+                    "name": "Jens Horneber"
+                },
+                {
+                    "authorId": "1795801",
+                    "name": "Timo Kehrer"
+                },
+                {
+                    "authorId": "3117169",
+                    "name": "Sebastiano Panichella"
+                }
+            ],
+            "doi": "10.1109/ASE56229.2023.00154",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "bb34b25096a873d0af41a3eb518d15e24d93e7d2",
+            "title": "TEASER: Simulation-Based CAN Bus Regression Testing for Self-Driving Cars Software",
+            "url": "https://www.semanticscholar.org/paper/bb34b25096a873d0af41a3eb518d15e24d93e7d2",
+            "venue": "2023 38th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2258947556",
+                    "name": "Matteo Biagiola"
+                },
+                {
+                    "authorId": "3198077",
+                    "name": "Stefan Klikovits"
+                },
+                {
+                    "authorId": "3164723",
+                    "name": "J. Peltom\u00e4ki"
+                },
+                {
+                    "authorId": "1490932156",
+                    "name": "Vincenzo Riccio"
+                }
+            ],
+            "doi": "10.1109/SBFT59156.2023.00010",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "5a81cd32c631a203e96e5da553adcbb18f56dd90",
+            "title": "SBFT Tool Competition 2023 - Cyber-Physical Systems Track",
+            "url": "https://www.semanticscholar.org/paper/5a81cd32c631a203e96e5da553adcbb18f56dd90",
+            "venue": "2023 IEEE/ACM International Workshop on Search-Based and Fuzz Testing (SBFT)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2110374063",
+                    "name": "Chengjie Lu"
+                },
+                {
+                    "authorId": "145456500",
+                    "name": "T. Yue"
+                },
+                {
+                    "authorId": "47495965",
+                    "name": "Sajid Ali"
+                }
+            ],
+            "doi": "10.1109/MSR59073.2023.00020",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "152447103ea24f379975ae40747b9b8141517541",
+            "title": "DeepScenario: An Open Driving Scenario Dataset for Autonomous Driving System Testing",
+            "url": "https://www.semanticscholar.org/paper/152447103ea24f379975ae40747b9b8141517541",
+            "venue": "2023 IEEE/ACM 20th International Conference on Mining Software Repositories (MSR)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2120168936",
+                    "name": "Sajad Khatiri"
+                },
+                {
+                    "authorId": "3117169",
+                    "name": "Sebastiano Panichella"
+                },
+                {
+                    "authorId": "1769017",
+                    "name": "P. Tonella"
+                }
+            ],
+            "doi": "10.1109/ICST57152.2023.00034",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "29b740e21f2a6621780925fa7eaf3e52cddb1023",
+            "title": "Simulation-based Test Case Generation for Unmanned Aerial Vehicles in the Neighborhood of Real Flights",
+            "url": "https://www.semanticscholar.org/paper/29b740e21f2a6621780925fa7eaf3e52cddb1023",
+            "venue": "2023 IEEE Conference on Software Testing, Verification and Validation (ICST)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2118297862",
+                    "name": "Tahereh Zohdinasab"
+                },
+                {
+                    "authorId": "1490932156",
+                    "name": "Vincenzo Riccio"
+                },
+                {
+                    "authorId": "2976964",
+                    "name": "Alessio Gambi"
+                },
+                {
+                    "authorId": "1769017",
+                    "name": "P. Tonella"
+                }
+            ],
+            "doi": "10.1145/3544792",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "31a88c022247da62871f5c08528b2680ce67a3b4",
+            "title": "Efficient and Effective Feature Space Exploration for Testing Deep Learning Systems",
+            "url": "https://www.semanticscholar.org/paper/31a88c022247da62871f5c08528b2680ce67a3b4",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "10997133",
+                    "name": "Ezequiel Castellano"
+                },
+                {
+                    "authorId": "3198077",
+                    "name": "Stefan Klikovits"
+                },
+                {
+                    "authorId": "143830984",
+                    "name": "A. Cetinkaya"
+                },
+                {
+                    "authorId": "2122951953",
+                    "name": "Paolo Arcaini"
+                }
+            ],
+            "doi": "10.1145/3526072.3527532",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b586c4396274ce0766dc65735c0619a45795920f",
+            "title": "FreneticV at the SBST 2022 Tool Competition",
+            "url": "https://www.semanticscholar.org/paper/b586c4396274ce0766dc65735c0619a45795920f",
+            "venue": "2022 IEEE/ACM 15th International Workshop on Search-Based Software Testing (SBST)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1578277616",
+                    "name": "D. Humeniuk"
+                },
+                {
+                    "authorId": "1692292",
+                    "name": "G. Antoniol"
+                },
+                {
+                    "authorId": "1703493",
+                    "name": "Foutse Khomh"
+                }
+            ],
+            "doi": "10.1145/3526072.3527531",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "28e5b24a5b92a7eef330d01c2f50553db62b917b",
+            "title": "AmbieGen tool at the SBST 2022 Tool Competition",
+            "url": "https://www.semanticscholar.org/paper/28e5b24a5b92a7eef330d01c2f50553db62b917b",
+            "venue": "2022 IEEE/ACM 15th International Workshop on Search-Based Software Testing (SBST)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2976964",
+                    "name": "Alessio Gambi"
+                },
+                {
+                    "authorId": "3430665",
+                    "name": "Gunel Jahangirova"
+                },
+                {
+                    "authorId": "1490932156",
+                    "name": "Vincenzo Riccio"
+                },
+                {
+                    "authorId": "8701060",
+                    "name": "Fiorella Zampetti"
+                }
+            ],
+            "doi": "10.1145/3526072.3527538",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "894960588da52c881208fae5bc02373de0f44ae8",
+            "title": "SBST Tool Competition 2022",
+            "url": "https://www.semanticscholar.org/paper/894960588da52c881208fae5bc02373de0f44ae8",
+            "venue": "2022 IEEE/ACM 15th International Workshop on Search-Based Software Testing (SBST)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2211.11409",
+            "authors": [
+                {
+                    "authorId": "2120148615",
+                    "name": "Christian Birchler"
+                },
+                {
+                    "authorId": "1414004138",
+                    "name": "Nicolas Ganz"
+                },
+                {
+                    "authorId": "2120168936",
+                    "name": "Sajad Khatiri"
+                },
+                {
+                    "authorId": "2976964",
+                    "name": "Alessio Gambi"
+                },
+                {
+                    "authorId": "3117169",
+                    "name": "Sebastiano Panichella"
+                }
+            ],
+            "doi": "10.1016/j.scico.2023.102926",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2871598c65cfd63aaebb1b33222dfb56a840b22b",
+            "title": "Cost-effective Simulation-based Test Selection in Self-driving Cars Software with SDC-Scissor",
+            "url": "https://www.semanticscholar.org/paper/2871598c65cfd63aaebb1b33222dfb56a840b22b",
+            "venue": "2022 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2111.04666",
+            "authors": [
+                {
+                    "authorId": "2120148615",
+                    "name": "Christian Birchler"
+                },
+                {
+                    "authorId": "2120168936",
+                    "name": "Sajad Khatiri"
+                },
+                {
+                    "authorId": "14019416",
+                    "name": "B. Bosshard"
+                },
+                {
+                    "authorId": "2976964",
+                    "name": "Alessio Gambi"
+                },
+                {
+                    "authorId": "3117169",
+                    "name": "Sebastiano Panichella"
+                }
+            ],
+            "doi": "10.1007/s10664-023-10286-y",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "582093c6ab79e845cd1c91e199291fe92f36d068",
+            "title": "Machine learning-based test selection for simulation-based testing of self-driving cars software",
+            "url": "https://www.semanticscholar.org/paper/582093c6ab79e845cd1c91e199291fe92f36d068",
+            "venue": "Empirical Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": "2107.09614",
+            "authors": [
+                {
+                    "authorId": "2120148615",
+                    "name": "Christian Birchler"
+                },
+                {
+                    "authorId": "2120168936",
+                    "name": "Sajad Khatiri"
+                },
+                {
+                    "authorId": "51213676",
+                    "name": "P. Derakhshanfar"
+                },
+                {
+                    "authorId": "3117169",
+                    "name": "Sebastiano Panichella"
+                },
+                {
+                    "authorId": "3013302",
+                    "name": "Annibale Panichella"
+                }
+            ],
+            "doi": "10.1145/3533818",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "998aae8f83359b257869da6ee86778efa86a5609",
+            "title": "Single and Multi-objective Test Cases Prioritization for Self-driving Cars in Virtual Environments",
+            "url": "https://www.semanticscholar.org/paper/998aae8f83359b257869da6ee86778efa86a5609",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144104767",
+                    "name": "Aitor Arrieta"
+                },
+                {
+                    "authorId": "2118511351",
+                    "name": "Shuai Wang"
+                },
+                {
+                    "authorId": "7809921",
+                    "name": "Goiuria Sagardui Mendieta"
+                },
+                {
+                    "authorId": "8102329",
+                    "name": "L. Elorza"
+                }
+            ],
+            "doi": "10.1016/J.JSS.2018.09.055",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2771032f15300cd8a6d24353aa5e0c48fd27b8a0",
+            "title": "Search-Based test case prioritization for simulation-Based testing of cyber-Physical system product lines",
+            "url": "https://www.semanticscholar.org/paper/2771032f15300cd8a6d24353aa5e0c48fd27b8a0",
+            "venue": "J. Syst. Softw.",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144104767",
+                    "name": "Aitor Arrieta"
+                },
+                {
+                    "authorId": "2118511351",
+                    "name": "Shuai Wang"
+                },
+                {
+                    "authorId": "51042690",
+                    "name": "Ainhoa Arruabarrena"
+                },
+                {
+                    "authorId": "19356400",
+                    "name": "Urtzi Markiegi"
+                },
+                {
+                    "authorId": "7809921",
+                    "name": "Goiuria Sagardui Mendieta"
+                },
+                {
+                    "authorId": "8102329",
+                    "name": "L. Elorza"
+                }
+            ],
+            "doi": "10.1145/3205455.3205490",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "94111fd457d99623cc92f298bb1a13c8e2f1a355",
+            "title": "Multi-objective black-box test case selection for cost-effectively testing simulation models",
+            "url": "https://www.semanticscholar.org/paper/94111fd457d99623cc92f298bb1a13c8e2f1a355",
+            "venue": "GECCO",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145080287",
+                    "name": "K. Deb"
+                },
+                {
+                    "authorId": "2112401245",
+                    "name": "S. Agrawal"
+                },
+                {
+                    "authorId": "143761916",
+                    "name": "Amrit Pratap"
+                },
+                {
+                    "authorId": "2939646",
+                    "name": "T. Meyarivan"
+                }
+            ],
+            "doi": "10.1007/3-540-45356-3_83",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6b6d6502f89bd2d74c2cec745075e1995f812072",
+            "title": "A Fast Elitist Non-dominated Sorting Genetic Algorithm for Multi-objective Optimisation: NSGA-II",
+            "url": "https://www.semanticscholar.org/paper/6b6d6502f89bd2d74c2cec745075e1995f812072",
+            "venue": "PPSN",
+            "year": 2000
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Deepdrive",
+            "url": "",
+            "venue": "Deepdrive",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2023. SVL Simulator: An Autonomous Vehicle Simulator",
+            "url": "",
+            "venue": "LGSVL",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "A self-driving car simulator built with Unity",
+            "url": "",
+            "venue": ":/",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2023. Optimizing Highly-Parallel Simulation-Based Verification of Cyber-Physical Systems",
+            "url": "",
+            "venue": "IEEE Trans. Software Eng.",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Apollo Auto. 2023",
+            "url": "",
+            "venue": "apollo",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2023. SensoDat",
+            "url": "",
+            "venue": ": Simulation-based Sensor Dataset of Self-driving Cars",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2023. PyMongo 4.6.1 Documentation",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Docker Inc. 2023",
+            "url": "",
+            "venue": "Get Started with Docker",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "SensoDat: Simulation-based Sensor Dataset of Self-driving Cars",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/97c4af9217cf17197d222e0ce4dc216eb2c05b4c",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2024
+}

@@ -1,0 +1,3760 @@
+{
+    "abstract": "Advancing our understanding of software vulnerabilities, automating their identification, the analysis of their impact, and ultimately their mitigation is necessary to enable the development of software that is more secure. While operating a vulnerability assessment tool, which we developed, and that is currently used by hundreds of development units at SAP, we manually collected and curated a dataset of vulnerabilities of open-source software, and the commits fixing them. The data were obtained both from the National Vulnerability Database (NVD), and from project-specific web resources, which we monitor on a continuous basis. From that data, we extracted a dataset that maps 624 publicly disclosed vulnerabilities affecting 205 distinct opensource Java projects, used in SAP products or internal tools, onto the 1282 commits that fix them. Out of 624 vulnerabilities, 29 do not have a CVE (Common Vulnerability and Exposure) identifier at all, and 46, which do have such identifier assigned by a numbering authority, are not available in the NVD yet. The dataset is released under an open-source license, together with supporting scripts that allow researchers to automatically retrieve the actual content of the commits from the corresponding repositories, and to augment the attributes available for each instance. Moreover, these scripts allow to complement the dataset with additional instances that are not security fixes (which is useful, for example, in machine learning applications). Our dataset has been successfully used to train classifiers that could automatically identify security-relevant commits in code repositories. The release of this dataset and the supporting code as open-source will allow future research to be based on data of industrial relevance; it also represents a concrete step towards making the maintenance of this dataset a shared effort involving open-source communities, academia, and the industry.",
+    "arxivId": "1902.02595",
+    "authors": [
+        {
+            "authorId": "2005211",
+            "name": "Serena Elisa Ponta",
+            "url": "https://www.semanticscholar.org/author/2005211"
+        },
+        {
+            "authorId": "3283588",
+            "name": "H. Plate",
+            "url": "https://www.semanticscholar.org/author/3283588"
+        },
+        {
+            "authorId": "1737833",
+            "name": "A. Sabetta",
+            "url": "https://www.semanticscholar.org/author/1737833"
+        },
+        {
+            "authorId": "34876221",
+            "name": "M. Bezzi",
+            "url": "https://www.semanticscholar.org/author/34876221"
+        },
+        {
+            "authorId": "68977382",
+            "name": "C\u00e9dric Dangremont",
+            "url": "https://www.semanticscholar.org/author/68977382"
+        }
+    ],
+    "citationVelocity": 24,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2294295552",
+                    "name": "Santosh Kumar Kande"
+                }
+            ],
+            "doi": "10.47941/ijce.2258",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1f36b79b687c6d13ccad640bf8cc474bc6b83b88",
+            "title": "Enhancing Software Vulnerability Prediction Models",
+            "url": "https://www.semanticscholar.org/paper/1f36b79b687c6d13ccad640bf8cc474bc6b83b88",
+            "venue": "International Journal of Computing and Engineering",
+            "year": 2024
+        },
+        {
+            "arxivId": "2409.08512",
+            "authors": [
+                {
+                    "authorId": "2321333897",
+                    "name": "Mei Han"
+                },
+                {
+                    "authorId": "2276437761",
+                    "name": "Lulu Wang"
+                },
+                {
+                    "authorId": "2276487451",
+                    "name": "Jianming Chang"
+                },
+                {
+                    "authorId": "2305046654",
+                    "name": "Bixin Li"
+                },
+                {
+                    "authorId": "2321472101",
+                    "name": "Chunguang Zhang"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "3347bee22bbf007ed012b8c766cf1149993abf64",
+            "title": "Learning Graph-based Patch Representations for Identifying and Assessing Silent Vulnerability Fixes",
+            "url": "https://www.semanticscholar.org/paper/3347bee22bbf007ed012b8c766cf1149993abf64",
+            "venue": "",
+            "year": 2024
+        },
+        {
+            "arxivId": "2409.05576",
+            "authors": [
+                {
+                    "authorId": "2320308699",
+                    "name": "Tan Bui"
+                },
+                {
+                    "authorId": "2199322154",
+                    "name": "Yan Naing Tun"
+                },
+                {
+                    "authorId": "2320659154",
+                    "name": "Yiran Cheng"
+                },
+                {
+                    "authorId": "9223952",
+                    "name": "I. Irsan"
+                },
+                {
+                    "authorId": "2316106469",
+                    "name": "Ting Zhang"
+                },
+                {
+                    "authorId": "2320310745",
+                    "name": "Hong Jin Kang"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "35297b8190e9ec94170a7307d4d9d76b9e36bb46",
+            "title": "JavaVFC: Java Vulnerability Fixing Commits from Open-source Software",
+            "url": "https://www.semanticscholar.org/paper/35297b8190e9ec94170a7307d4d9d76b9e36bb46",
+            "venue": "",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2313574283",
+                    "name": "Zhenkan Fu"
+                },
+                {
+                    "authorId": "2242857384",
+                    "name": "Shikai Guo"
+                },
+                {
+                    "authorId": "2155493417",
+                    "name": "Hui Li"
+                },
+                {
+                    "authorId": "2122822832",
+                    "name": "Rong Chen"
+                },
+                {
+                    "authorId": "2267732231",
+                    "name": "Xiaochen Li"
+                },
+                {
+                    "authorId": "2241983881",
+                    "name": "He Jiang"
+                }
+            ],
+            "doi": "10.24963/ijcai.2024/643",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "dea9f11b75cea8d154ecf559279f529ec1799a38",
+            "title": "VF-Detector: Making Multi-Granularity Code Changes on Vulnerability Fix Detector Robust to Mislabeled Changes",
+            "url": "https://www.semanticscholar.org/paper/dea9f11b75cea8d154ecf559279f529ec1799a38",
+            "venue": "Proceedings of the Thirty-ThirdInternational Joint Conference on Artificial Intelligence",
+            "year": 2024
+        },
+        {
+            "arxivId": "2407.17853",
+            "authors": [
+                {
+                    "authorId": "2296605833",
+                    "name": "Stefan Schott"
+                },
+                {
+                    "authorId": "2312921307",
+                    "name": "Wolfram Fischer"
+                },
+                {
+                    "authorId": "2005211",
+                    "name": "Serena Elisa Ponta"
+                },
+                {
+                    "authorId": "2296605819",
+                    "name": "Jonas Klauke"
+                },
+                {
+                    "authorId": "2290667498",
+                    "name": "Eric Bodden"
+                }
+            ],
+            "doi": "10.48550/arXiv.2407.17853",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "c5e55d213f55cb043c654707daf32ab0b7249c2c",
+            "title": "Compilation of Commit Changes within Java Source Code Repositories",
+            "url": "https://www.semanticscholar.org/paper/c5e55d213f55cb043c654707daf32ab0b7249c2c",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": "2407.02395",
+            "authors": [
+                {
+                    "authorId": "2273933485",
+                    "name": "Jiexin Wang"
+                },
+                {
+                    "authorId": "2261811508",
+                    "name": "Xitong Luo"
+                },
+                {
+                    "authorId": "2261908971",
+                    "name": "Liuwen Cao"
+                },
+                {
+                    "authorId": "2301665415",
+                    "name": "Hongkui He"
+                },
+                {
+                    "authorId": "2301968008",
+                    "name": "Hailin Huang"
+                },
+                {
+                    "authorId": "1387837930",
+                    "name": "Jiayuan Xie"
+                },
+                {
+                    "authorId": "2261673463",
+                    "name": "Adam Jatowt"
+                },
+                {
+                    "authorId": "2273679718",
+                    "name": "Yi Cai"
+                }
+            ],
+            "doi": "10.48550/arXiv.2407.02395",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1d0a9e60bb166c7e78f62fe0271618eb893d767d",
+            "title": "Is Your AI-Generated Code Really Safe? Evaluating Large Language Models on Secure Code Generation with CodeSecEval",
+            "url": "https://www.semanticscholar.org/paper/1d0a9e60bb166c7e78f62fe0271618eb893d767d",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "33904787",
+                    "name": "T. Dunlap"
+                },
+                {
+                    "authorId": "2214478599",
+                    "name": "Elizabeth Lin"
+                },
+                {
+                    "authorId": "2300102041",
+                    "name": "William Enck"
+                },
+                {
+                    "authorId": "48514229",
+                    "name": "Bradley Reaves"
+                }
+            ],
+            "doi": "10.1145/3634737.3657007",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "57625fc84d908d02491242aa8a69ed2d696e68ef",
+            "title": "VFCFinder: Pairing Security Advisories and Patches",
+            "url": "https://www.semanticscholar.org/paper/57625fc84d908d02491242aa8a69ed2d696e68ef",
+            "venue": "AsiaCCS",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2306354766",
+                    "name": "Gareth Bennett"
+                },
+                {
+                    "authorId": "2141899841",
+                    "name": "Tracy Hall"
+                },
+                {
+                    "authorId": "2277533834",
+                    "name": "Emily Winter"
+                },
+                {
+                    "authorId": "2277476682",
+                    "name": "Steve Counsell"
+                }
+            ],
+            "doi": "10.1145/3661167.3661262",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c6120d7b5b46288f8a01380f77b775d529847f2a",
+            "title": "Semgrep*: Improving the Limited Performance of Static Application Security Testing (SAST) Tools",
+            "url": "https://www.semanticscholar.org/paper/c6120d7b5b46288f8a01380f77b775d529847f2a",
+            "venue": "EASE",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2180646859",
+                    "name": "Matteo Esposito"
+                },
+                {
+                    "authorId": "2275613881",
+                    "name": "Davide Falessi"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2024.107448",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "3778e7697403c24cf28870eeb6369b94e65c7bcf",
+            "title": "VALIDATE: A deep dive into vulnerability prediction datasets",
+            "url": "https://www.semanticscholar.org/paper/3778e7697403c24cf28870eeb6369b94e65c7bcf",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2190436127",
+                    "name": "Fahad Al Debeyan"
+                },
+                {
+                    "authorId": "1731361",
+                    "name": "L. Madeyski"
+                },
+                {
+                    "authorId": "2285514898",
+                    "name": "Tracy Hall"
+                },
+                {
+                    "authorId": "143969104",
+                    "name": "David Bowes"
+                }
+            ],
+            "doi": "10.1016/j.jss.2024.112003",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c22ec5d76f04483370975979047bf9ae4899aa9f",
+            "title": "The impact of hard and easy negative training data on vulnerability prediction performance",
+            "url": "https://www.semanticscholar.org/paper/c22ec5d76f04483370975979047bf9ae4899aa9f",
+            "venue": "J. Syst. Softw.",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2088467765",
+                    "name": "Janaka Senanayake"
+                },
+                {
+                    "authorId": "2387461",
+                    "name": "H. Kalutarage"
+                },
+                {
+                    "authorId": "2241338121",
+                    "name": "A. Petrovski"
+                },
+                {
+                    "authorId": "2290559734",
+                    "name": "Luca Piras"
+                },
+                {
+                    "authorId": "1402526178",
+                    "name": "M. Al-Kadri"
+                }
+            ],
+            "doi": "10.1016/j.jisa.2024.103741",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1514c7952aa2e50bb69f12fe0141dd39bbe3a541",
+            "title": "Defendroid: Real-time Android code vulnerability detection via blockchain federated neural network with XAI",
+            "url": "https://www.semanticscholar.org/paper/1514c7952aa2e50bb69f12fe0141dd39bbe3a541",
+            "venue": "J. Inf. Secur. Appl.",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1517751872",
+                    "name": "Simone Scalco"
+                },
+                {
+                    "authorId": "2146916894",
+                    "name": "Ranindya Paramitha"
+                }
+            ],
+            "doi": "10.1145/3643991.3644871",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2930a3a5149a3177e8fee9e1b04ad7a2bc281d57",
+            "title": "Hash4Patch: A Lightweight Low False Positive Tool for Finding Vulnerability Patch Commits",
+            "url": "https://www.semanticscholar.org/paper/2930a3a5149a3177e8fee9e1b04ad7a2bc281d57",
+            "venue": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2279904313",
+                    "name": "Sarah Elder"
+                },
+                {
+                    "authorId": "9449596",
+                    "name": "Md. Rayhanur Rahman"
+                },
+                {
+                    "authorId": "2292540670",
+                    "name": "Gage Fringer"
+                },
+                {
+                    "authorId": "2292532119",
+                    "name": "Kunal Kapoor"
+                },
+                {
+                    "authorId": "2279932366",
+                    "name": "Laurie Williams"
+                }
+            ],
+            "doi": "10.1145/3648610",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "84ef61c3c5daac57b0f411a79cbfb9b018845cdc",
+            "title": "A Survey on Software Vulnerability Exploitability Assessment",
+            "url": "https://www.semanticscholar.org/paper/84ef61c3c5daac57b0f411a79cbfb9b018845cdc",
+            "venue": "ACM Comput. Surv.",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2221697109",
+                    "name": "Junwei Zhang"
+                },
+                {
+                    "authorId": "2243000314",
+                    "name": "Xing Hu"
+                },
+                {
+                    "authorId": "2254294023",
+                    "name": "Lingfeng Bao"
+                },
+                {
+                    "authorId": "2265241871",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "2244166471",
+                    "name": "Shanping Li"
+                }
+            ],
+            "doi": "10.1109/SANER60148.2024.00102",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c434dded333cd1c2551ff49e2ed8f91379fe86f1",
+            "title": "Dual Prompt-Based Few-Shot Learning for Automated Vulnerability Patch Localization",
+            "url": "https://www.semanticscholar.org/paper/c434dded333cd1c2551ff49e2ed8f91379fe86f1",
+            "venue": "2024 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2402.07294",
+            "authors": [
+                {
+                    "authorId": "143909797",
+                    "name": "A. Mir"
+                },
+                {
+                    "authorId": "47583328",
+                    "name": "Mehdi Keshani"
+                },
+                {
+                    "authorId": "2270672601",
+                    "name": "Sebastian Proksch"
+                }
+            ],
+            "doi": "10.1145/3643991.3644897",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c16819bc296422e1dd5377395b4e5ef78d38d946",
+            "title": "On the Effectiveness of Machine Learning-based Call Graph Pruning: An Empirical Study",
+            "url": "https://www.semanticscholar.org/paper/c16819bc296422e1dd5377395b4e5ef78d38d946",
+            "venue": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2401.17010",
+            "authors": [
+                {
+                    "authorId": "2281827324",
+                    "name": "Alexey Shestov"
+                },
+                {
+                    "authorId": "2281827488",
+                    "name": "Anton Cheshkov"
+                },
+                {
+                    "authorId": "2214521799",
+                    "name": "Rodion Levichev"
+                },
+                {
+                    "authorId": "9137452",
+                    "name": "Ravil Mussabayev"
+                },
+                {
+                    "authorId": "2281826797",
+                    "name": "Pavel Zadorozhny"
+                },
+                {
+                    "authorId": "2281829532",
+                    "name": "Evgeny Maslov"
+                },
+                {
+                    "authorId": "2281826180",
+                    "name": "Chibirev Vadim"
+                },
+                {
+                    "authorId": "145175137",
+                    "name": "Egor Bulychev"
+                }
+            ],
+            "doi": "10.48550/arXiv.2401.17010",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "bb931368ad1576a1b504be1405ccf8b178c49f85",
+            "title": "Finetuning Large Language Models for Vulnerability Detection",
+            "url": "https://www.semanticscholar.org/paper/bb931368ad1576a1b504be1405ccf8b178c49f85",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2051539980",
+                    "name": "Quang-Cuong Bui"
+                },
+                {
+                    "authorId": "2146916894",
+                    "name": "Ranindya Paramitha"
+                },
+                {
+                    "authorId": "146562819",
+                    "name": "Duc-Ly Vu"
+                },
+                {
+                    "authorId": "2257390021",
+                    "name": "Fabio Massacci"
+                },
+                {
+                    "authorId": "2256394676",
+                    "name": "Riccardo Scandariato"
+                }
+            ],
+            "doi": "10.1007/s10664-023-10415-7",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "bd6990b1a10347b5fd7bd7341c0658a7bc12d780",
+            "title": "APR4Vul: an empirical study of automatic program repair techniques on real-world Java vulnerabilities",
+            "url": "https://www.semanticscholar.org/paper/bd6990b1a10347b5fd7bd7341c0658a7bc12d780",
+            "venue": "Empirical Software Engineering",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2269461396",
+                    "name": "Laura Bottner"
+                },
+                {
+                    "authorId": "2219089136",
+                    "name": "Artur Hermann"
+                },
+                {
+                    "authorId": "2269474485",
+                    "name": "Jeremias Eppler"
+                },
+                {
+                    "authorId": "1691006",
+                    "name": "Thomas Th\u00fcm"
+                },
+                {
+                    "authorId": "1728575",
+                    "name": "F. Kargl"
+                }
+            ],
+            "doi": "10.1145/3631204.3631862",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "707331c2bfaa73e7fd4e918b4b84c67a429df108",
+            "title": "Evaluation of Free and Open Source Tools for Automated Software Composition Analysis",
+            "url": "https://www.semanticscholar.org/paper/707331c2bfaa73e7fd4e918b4b84c67a429df108",
+            "venue": "CSCS",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2233087051",
+                    "name": "Tushar Sharma"
+                },
+                {
+                    "authorId": "3126897",
+                    "name": "M. Kechagia"
+                },
+                {
+                    "authorId": "2386975",
+                    "name": "Stefanos Georgiou"
+                },
+                {
+                    "authorId": "2054167519",
+                    "name": "Rohit Tiwari"
+                },
+                {
+                    "authorId": "2212139964",
+                    "name": "Indira Vats"
+                },
+                {
+                    "authorId": "2275460764",
+                    "name": "Hadi Moazen"
+                },
+                {
+                    "authorId": "2275465565",
+                    "name": "Federica Sarro"
+                }
+            ],
+            "doi": "10.1016/j.jss.2023.111934",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "445c71912a718b6add8b79d01ee02aaadb51a5cb",
+            "title": "A survey on machine learning techniques applied to source code",
+            "url": "https://www.semanticscholar.org/paper/445c71912a718b6add8b79d01ee02aaadb51a5cb",
+            "venue": "J. Syst. Softw.",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2214121071",
+                    "name": "Lida Zhao"
+                },
+                {
+                    "authorId": "2268794846",
+                    "name": "Sen Chen"
+                },
+                {
+                    "authorId": "3430657",
+                    "name": "Zhengzi Xu"
+                },
+                {
+                    "authorId": "2158155335",
+                    "name": "Chengwei Liu"
+                },
+                {
+                    "authorId": "2108323899",
+                    "name": "Lyuye Zhang"
+                },
+                {
+                    "authorId": "2184214864",
+                    "name": "Jiahui Wu"
+                },
+                {
+                    "authorId": "2268796924",
+                    "name": "Jun Sun"
+                },
+                {
+                    "authorId": "2265753296",
+                    "name": "Yang Liu"
+                }
+            ],
+            "doi": "10.1145/3611643.3616299",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "58f9adb58cc6593c6e1e8050311120bd9bdcf083",
+            "title": "Software Composition Analysis for Vulnerability Detection: An Empirical Study on Java Projects",
+            "url": "https://www.semanticscholar.org/paper/58f9adb58cc6593c6e1e8050311120bd9bdcf083",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2226441217",
+                    "name": "Amit Singhal"
+                },
+                {
+                    "authorId": "2284347541",
+                    "name": "P. Goel"
+                }
+            ],
+            "doi": "10.1109/AECE59614.2023.10428519",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "51d5b3c02152bb769ad93b52b60444c13b86a732",
+            "title": "Analysis and Identification of Malicious Mobile Applications",
+            "url": "https://www.semanticscholar.org/paper/51d5b3c02152bb769ad93b52b60444c13b86a732",
+            "venue": "2023 3rd International Conference on Advancement in Electronics & Communication Engineering (AECE)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2311.01532",
+            "authors": [
+                {
+                    "authorId": "33904787",
+                    "name": "T. Dunlap"
+                },
+                {
+                    "authorId": "2214478599",
+                    "name": "Elizabeth Lin"
+                },
+                {
+                    "authorId": "1716269",
+                    "name": "W. Enck"
+                },
+                {
+                    "authorId": "48514229",
+                    "name": "Bradley Reaves"
+                }
+            ],
+            "doi": "10.48550/arXiv.2311.01532",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "ba2e095fa63cb6f5d72d6e2817b9c64d43260cb6",
+            "title": "VFCFinder: Seamlessly Pairing Security Advisories and Patches",
+            "url": "https://www.semanticscholar.org/paper/ba2e095fa63cb6f5d72d6e2817b9c64d43260cb6",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": "2310.16263",
+            "authors": [
+                {
+                    "authorId": "46583614",
+                    "name": "Jiexin Wang"
+                },
+                {
+                    "authorId": "2261908971",
+                    "name": "Liuwen Cao"
+                },
+                {
+                    "authorId": "2261811508",
+                    "name": "Xitong Luo"
+                },
+                {
+                    "authorId": "2261844688",
+                    "name": "Zhiping Zhou"
+                },
+                {
+                    "authorId": "1387837930",
+                    "name": "Jiayuan Xie"
+                },
+                {
+                    "authorId": "2261673463",
+                    "name": "Adam Jatowt"
+                },
+                {
+                    "authorId": "2273679718",
+                    "name": "Yi Cai"
+                }
+            ],
+            "doi": "10.48550/arXiv.2310.16263",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "bff7b8aa4f92fe16d9bd24158b9baef317ef7cc5",
+            "title": "Enhancing Large Language Models for Secure Code Generation: A Dataset-driven Study on Vulnerability Mitigation",
+            "url": "https://www.semanticscholar.org/paper/bff7b8aa4f92fe16d9bd24158b9baef317ef7cc5",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": "2310.00710",
+            "authors": [
+                {
+                    "authorId": "2250184651",
+                    "name": "Ying Zhang"
+                },
+                {
+                    "authorId": "2118728850",
+                    "name": "Wen-Kai Song"
+                },
+                {
+                    "authorId": "2249762411",
+                    "name": "Zhengjie Ji"
+                },
+                {
+                    "authorId": "2065759959",
+                    "name": "D. Yao"
+                },
+                {
+                    "authorId": "2165585346",
+                    "name": "Na Meng"
+                }
+            ],
+            "doi": "10.48550/arXiv.2310.00710",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0ace4a1d304649d6b48f12104855bcda1fa76d54",
+            "title": "How well does LLM generate security tests?",
+            "url": "https://www.semanticscholar.org/paper/0ace4a1d304649d6b48f12104855bcda1fa76d54",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": "2309.01971",
+            "authors": [
+                {
+                    "authorId": "144889441",
+                    "name": "S. Nguyen"
+                },
+                {
+                    "authorId": "143768607",
+                    "name": "Thanh Vu"
+                },
+                {
+                    "authorId": "1833292",
+                    "name": "H. Vo"
+                }
+            ],
+            "doi": "10.1109/KSE59128.2023.10299438",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "523b451e99503f69f14811324da3c6ce8e1b712c",
+            "title": "VFFINDER: A Graph-Based Approach for Automated Silent Vulnerability-Fix Identification",
+            "url": "https://www.semanticscholar.org/paper/523b451e99503f69f14811324da3c6ce8e1b712c",
+            "venue": "2023 15th International Conference on Knowledge and Systems Engineering (KSE)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2307.11853",
+            "authors": [
+                {
+                    "authorId": "2224624885",
+                    "name": "Shiyu Sun"
+                },
+                {
+                    "authorId": "2116931743",
+                    "name": "Shu Wang"
+                },
+                {
+                    "authorId": "2108048373",
+                    "name": "Xinda Wang"
+                },
+                {
+                    "authorId": "2072728630",
+                    "name": "Yunlong Xing"
+                },
+                {
+                    "authorId": "2224621430",
+                    "name": "Elisa Zhang"
+                },
+                {
+                    "authorId": "2113848921",
+                    "name": "Kun Sun"
+                }
+            ],
+            "doi": "10.1109/ICSME58846.2023.00027",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "c00ab6315da3385377a70f237454371201b70019",
+            "title": "Exploring Security Commits in Python",
+            "url": "https://www.semanticscholar.org/paper/c00ab6315da3385377a70f237454371201b70019",
+            "venue": "2023 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2177371880",
+                    "name": "Xu Nie"
+                },
+                {
+                    "authorId": "2177447932",
+                    "name": "Ningke Li"
+                },
+                {
+                    "authorId": "3088630",
+                    "name": "Kailong Wang"
+                },
+                {
+                    "authorId": "2177451",
+                    "name": "Shangguang Wang"
+                },
+                {
+                    "authorId": "1708419",
+                    "name": "Xiapu Luo"
+                },
+                {
+                    "authorId": null,
+                    "name": "Haoyu Wang"
+                }
+            ],
+            "doi": "10.1145/3597926.3598037",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "91410f6866727b290b3be871a68925a17c405cbd",
+            "title": "Understanding and Tackling Label Errors in Deep Learning-Based Vulnerability Detection (Experience Paper)",
+            "url": "https://www.semanticscholar.org/paper/91410f6866727b290b3be871a68925a17c405cbd",
+            "venue": "ISSTA",
+            "year": 2023
+        },
+        {
+            "arxivId": "2307.08705",
+            "authors": [
+                {
+                    "authorId": "118377107",
+                    "name": "Md. Mostafizer Rahman"
+                },
+                {
+                    "authorId": "1684644",
+                    "name": "Y. Watanobe"
+                },
+                {
+                    "authorId": "2203414615",
+                    "name": "Atsushi Shirafuji"
+                },
+                {
+                    "authorId": "2112092056",
+                    "name": "Mohamed Hamada"
+                }
+            ],
+            "doi": "10.48550/arXiv.2307.08705",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "3a8cac2a5b01a177d9b59f01f399f9215cb97858",
+            "title": "Exploring Automated Code Evaluation Systems and Resources for Code Analysis: A Comprehensive Survey",
+            "url": "https://www.semanticscholar.org/paper/3a8cac2a5b01a177d9b59f01f399f9215cb97858",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "33904787",
+                    "name": "T. Dunlap"
+                },
+                {
+                    "authorId": "40990684",
+                    "name": "Seaver Thorn"
+                },
+                {
+                    "authorId": "1716269",
+                    "name": "W. Enck"
+                },
+                {
+                    "authorId": "48514229",
+                    "name": "Bradley Reaves"
+                }
+            ],
+            "doi": "10.1109/EuroSP57164.2023.00036",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1f5992928cbc7d27f449f0c13e32fffe3b87e169",
+            "title": "Finding Fixed Vulnerabilities with Off-the-Shelf Static Analysis",
+            "url": "https://www.semanticscholar.org/paper/1f5992928cbc7d27f449f0c13e32fffe3b87e169",
+            "venue": "2023 IEEE 8th European Symposium on Security and Privacy (EuroS&P)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2306.17193",
+            "authors": [
+                {
+                    "authorId": "1651190626",
+                    "name": "Niklas Risse"
+                },
+                {
+                    "authorId": "51384306",
+                    "name": "Marcel Bohme"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1d788c10d9b8c52bb451f2dd4400583e7f9d731c",
+            "title": "Uncovering the Limits of Machine Learning for Automatic Vulnerability Detection",
+            "url": "https://www.semanticscholar.org/paper/1d788c10d9b8c52bb451f2dd4400583e7f9d731c",
+            "venue": "USENIX Security Symposium",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2060121253",
+                    "name": "Sofia Reis"
+                },
+                {
+                    "authorId": "2137327666",
+                    "name": "Rui Abreu"
+                },
+                {
+                    "authorId": "1723381",
+                    "name": "C. P\u0103s\u0103reanu"
+                }
+            ],
+            "doi": "10.1145/3593434.3593481",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9afdcc1d3f37ad5894a9ab88471084078b27c950",
+            "title": "Are security commit messages informative? Not enough!",
+            "url": "https://www.semanticscholar.org/paper/9afdcc1d3f37ad5894a9ab88471084078b27c950",
+            "venue": "EASE",
+            "year": 2023
+        },
+        {
+            "arxivId": "2306.05534",
+            "authors": [
+                {
+                    "authorId": "144212658",
+                    "name": "Jens Dietrich"
+                },
+                {
+                    "authorId": "17285449",
+                    "name": "Shawn Rasheed"
+                },
+                {
+                    "authorId": "2054376552",
+                    "name": "Alexander Jordan"
+                }
+            ],
+            "doi": "10.48550/arXiv.2306.05534",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "74005b17770f44440c79af8f55e5c9095b7cd8d8",
+            "title": "On the Security Blind Spots of Software Composition Analysis",
+            "url": "https://www.semanticscholar.org/paper/74005b17770f44440c79af8f55e5c9095b7cd8d8",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": "2305.18607",
+            "authors": [
+                {
+                    "authorId": "2218970074",
+                    "name": "Yi Wu"
+                },
+                {
+                    "authorId": "2176531984",
+                    "name": "Nan Jiang"
+                },
+                {
+                    "authorId": "49976542",
+                    "name": "H. Pham"
+                },
+                {
+                    "authorId": "2492099",
+                    "name": "Thibaud Lutellier"
+                },
+                {
+                    "authorId": "144331415",
+                    "name": "Jordan Davis"
+                },
+                {
+                    "authorId": "2106349652",
+                    "name": "Lin Tan"
+                },
+                {
+                    "authorId": "47440567",
+                    "name": "Petr Babkin"
+                },
+                {
+                    "authorId": "36532736",
+                    "name": "Sameena Shah"
+                }
+            ],
+            "doi": "10.1145/3597926.3598135",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "08f53d20666077f3398cf23c598e5e42fb01aa94",
+            "title": "How Effective Are Neural Networks for Fixing Security Vulnerabilities",
+            "url": "https://www.semanticscholar.org/paper/08f53d20666077f3398cf23c598e5e42fb01aa94",
+            "venue": "ISSTA",
+            "year": 2023
+        },
+        {
+            "arxivId": "2305.13884",
+            "authors": [
+                {
+                    "authorId": "2116110168",
+                    "name": "Truong-Giang Nguyen"
+                },
+                {
+                    "authorId": "1811413300",
+                    "name": "Thanh Le-Cong"
+                },
+                {
+                    "authorId": "48654378",
+                    "name": "Hong Jin Kang"
+                },
+                {
+                    "authorId": "2008294024",
+                    "name": "Ratnadira Widyasari"
+                },
+                {
+                    "authorId": "2154172271",
+                    "name": "Chengran Yang"
+                },
+                {
+                    "authorId": "2199943764",
+                    "name": "Zhipeng Zhao"
+                },
+                {
+                    "authorId": "2203459",
+                    "name": "Bowen Xu"
+                },
+                {
+                    "authorId": "2143462940",
+                    "name": "Jiayuan Zhou"
+                },
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "119700081",
+                    "name": "A. Hassan"
+                },
+                {
+                    "authorId": "83263357",
+                    "name": "X. Le"
+                },
+                {
+                    "authorId": "143960552",
+                    "name": "David Lo"
+                }
+            ],
+            "doi": "10.1109/TSE.2023.3281275",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "789e65ec3f568f419d25d1cd1f06d4b848c9da81",
+            "title": "Multi-Granularity Detector for Vulnerability Fixes",
+            "url": "https://www.semanticscholar.org/paper/789e65ec3f568f419d25d1cd1f06d4b848c9da81",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2023
+        },
+        {
+            "arxivId": "2306.05375",
+            "authors": [
+                {
+                    "authorId": "2110004067",
+                    "name": "Ammar Ahmed"
+                },
+                {
+                    "authorId": "50192588",
+                    "name": "Anwar Said"
+                },
+                {
+                    "authorId": "38776168",
+                    "name": "Mudassir Shabbir"
+                },
+                {
+                    "authorId": "1727409",
+                    "name": "X. Koutsoukos"
+                }
+            ],
+            "doi": "10.48550/arXiv.2306.05375",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3539f1039c9e3caad260374c57e2b124270cc2ae",
+            "title": "Sequential Graph Neural Networks for Source Code Vulnerability Identification",
+            "url": "https://www.semanticscholar.org/paper/3539f1039c9e3caad260374c57e2b124270cc2ae",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1849211",
+                    "name": "A. Okutan"
+                },
+                {
+                    "authorId": "152956203",
+                    "name": "P. Mell"
+                },
+                {
+                    "authorId": "2097532",
+                    "name": "Mehdi Mirakhorli"
+                },
+                {
+                    "authorId": "2191241131",
+                    "name": "Igor Khokhlov"
+                },
+                {
+                    "authorId": "30299173",
+                    "name": "Joanna C. S. Santos"
+                },
+                {
+                    "authorId": "10707876",
+                    "name": "Danielle Gonzalez"
+                },
+                {
+                    "authorId": "2191241377",
+                    "name": "Steven Simmons"
+                }
+            ],
+            "doi": "10.1109/TSE.2023.3250479",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c3527d80b5d92a04839777079cce973e16e2c147",
+            "title": "Empirical Validation of Automated Vulnerability Curation and Characterization",
+            "url": "https://www.semanticscholar.org/paper/c3527d80b5d92a04839777079cce973e16e2c147",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2188250743",
+                    "name": "M. Bhuiyan"
+                },
+                {
+                    "authorId": "2223176973",
+                    "name": "Adithya Srinivas Parthasarathy"
+                },
+                {
+                    "authorId": "2220400096",
+                    "name": "Nikos Vasilakis"
+                },
+                {
+                    "authorId": "1884064",
+                    "name": "Michael Pradel"
+                },
+                {
+                    "authorId": "40141524",
+                    "name": "Cristian-Alexandru Staicu"
+                }
+            ],
+            "doi": "10.1109/ICSE48619.2023.00096",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9819a1114cbc1648d4f35b40271908daae9557a0",
+            "title": "SecBench.js: An Executable Security Benchmark Suite for Server-Side JavaScript",
+            "url": "https://www.semanticscholar.org/paper/9819a1114cbc1648d4f35b40271908daae9557a0",
+            "venue": "2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2223144852",
+                    "name": "Yulun Wu"
+                },
+                {
+                    "authorId": "2223172928",
+                    "name": "Zeliang Yu"
+                },
+                {
+                    "authorId": "2143099423",
+                    "name": "Ming Wen"
+                },
+                {
+                    "authorId": "2223274787",
+                    "name": "Qiang Li"
+                },
+                {
+                    "authorId": "2068865",
+                    "name": "Deqing Zou"
+                },
+                {
+                    "authorId": "2152883041",
+                    "name": "Hai Jin"
+                }
+            ],
+            "doi": "10.1109/ICSE48619.2023.00095",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7c24d555389b327e37c2fcb051d8fd8119b3f737",
+            "title": "Understanding the Threats of Upstream Vulnerabilities to Downstream Projects in the Maven Ecosystem",
+            "url": "https://www.semanticscholar.org/paper/7c24d555389b327e37c2fcb051d8fd8119b3f737",
+            "venue": "2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2281247548",
+                    "name": "Laith Alzubaidi"
+                },
+                {
+                    "authorId": "2048597283",
+                    "name": "Jinshuai Bai"
+                },
+                {
+                    "authorId": "1411258793",
+                    "name": "Aiman Al-Sabaawi"
+                },
+                {
+                    "authorId": "2146732191",
+                    "name": "Jos\u00e9 I. Santamar\u00eda"
+                },
+                {
+                    "authorId": "145400504",
+                    "name": "A. Albahri"
+                },
+                {
+                    "authorId": "1580197731",
+                    "name": "B. S. Al-dabbagh"
+                },
+                {
+                    "authorId": "1412407676",
+                    "name": "M. Fadhel"
+                },
+                {
+                    "authorId": "2448516",
+                    "name": "M. Manoufali"
+                },
+                {
+                    "authorId": "2214539205",
+                    "name": "Jinglan Zhang"
+                },
+                {
+                    "authorId": "1404550727",
+                    "name": "Ali H. Al-timemy"
+                },
+                {
+                    "authorId": "2151245099",
+                    "name": "Ye Duan"
+                },
+                {
+                    "authorId": "2214474453",
+                    "name": "Amjed Abdullah"
+                },
+                {
+                    "authorId": "144121680",
+                    "name": "Laith Farhan"
+                },
+                {
+                    "authorId": "2143774159",
+                    "name": "Yi Lu"
+                },
+                {
+                    "authorId": "2204829304",
+                    "name": "Ashish Gupta"
+                },
+                {
+                    "authorId": "2214471161",
+                    "name": "Felix Albu"
+                },
+                {
+                    "authorId": "2214474151",
+                    "name": "Amin Abbosh"
+                },
+                {
+                    "authorId": "2153395256",
+                    "name": "Yuantong Gu"
+                }
+            ],
+            "doi": "10.1186/s40537-023-00727-2",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4a07ded5f56aa76c75e844f353e046414b427cc2",
+            "title": "A survey on deep learning tools dealing with data scarcity: definitions, challenges, solutions, tips, and applications",
+            "url": "https://www.semanticscholar.org/paper/4a07ded5f56aa76c75e844f353e046414b427cc2",
+            "venue": "Journal of Big Data",
+            "year": 2023
+        },
+        {
+            "arxivId": "2303.16591",
+            "authors": [
+                {
+                    "authorId": "2006136724",
+                    "name": "Tam\u00e1s Aladics"
+                },
+                {
+                    "authorId": "2076092",
+                    "name": "P\u00e9ter Heged\u00fcs"
+                },
+                {
+                    "authorId": "3172077",
+                    "name": "R. Ferenc"
+                }
+            ],
+            "doi": "10.48550/arXiv.2303.16591",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6ec17acaf2449808815f6e94512230925ecfce5c",
+            "title": "An AST-based Code Change Representation and its Performance in Just-in-time Vulnerability Prediction",
+            "url": "https://www.semanticscholar.org/paper/6ec17acaf2449808815f6e94512230925ecfce5c",
+            "venue": "ICSOFT",
+            "year": 2023
+        },
+        {
+            "arxivId": "2303.09384",
+            "authors": [
+                {
+                    "authorId": "2164989094",
+                    "name": "Catherine Tony"
+                },
+                {
+                    "authorId": "2211737182",
+                    "name": "Markus Mutas"
+                },
+                {
+                    "authorId": "2210729647",
+                    "name": "Nicol\u00e1s E. D\u00edaz Ferreyra"
+                },
+                {
+                    "authorId": "1723601",
+                    "name": "R. Scandariato"
+                }
+            ],
+            "doi": "10.1109/MSR59073.2023.00084",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8205612a6d15df52b8c3d26aabfd50abc10fdee3",
+            "title": "LLMSecEval: A Dataset of Natural Language Prompts for Security Evaluations",
+            "url": "https://www.semanticscholar.org/paper/8205612a6d15df52b8c3d26aabfd50abc10fdee3",
+            "venue": "2023 IEEE/ACM 20th International Conference on Mining Software Repositories (MSR)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2238406368",
+                    "name": "Xiaozhou Li"
+                },
+                {
+                    "authorId": "2008202884",
+                    "name": "Sergio Moreschini"
+                },
+                {
+                    "authorId": "2295680673",
+                    "name": "Zheying Zhang"
+                },
+                {
+                    "authorId": "2288338893",
+                    "name": "Fabio Palomba"
+                },
+                {
+                    "authorId": "2261106576",
+                    "name": "Davide Taibi"
+                }
+            ],
+            "doi": "10.2139/ssrn.4211033",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "52519ed0577c007ed9d816c734010f502c008515",
+            "title": "The anatomy of a vulnerability database: A systematic mapping study",
+            "url": "https://www.semanticscholar.org/paper/52519ed0577c007ed9d816c734010f502c008515",
+            "venue": "J. Syst. Softw.",
+            "year": 2023
+        },
+        {
+            "arxivId": "2302.07445",
+            "authors": [
+                {
+                    "authorId": "48480511",
+                    "name": "Jiamou Sun"
+                },
+                {
+                    "authorId": "3138980",
+                    "name": "Zhenchang Xing"
+                },
+                {
+                    "authorId": "2151674574",
+                    "name": "Qinghua Lu"
+                },
+                {
+                    "authorId": "3087664",
+                    "name": "Xiwei Xu"
+                },
+                {
+                    "authorId": "2125737414",
+                    "name": "Liming Zhu"
+                },
+                {
+                    "authorId": "9719656",
+                    "name": "Thong Hoang"
+                },
+                {
+                    "authorId": "2110556397",
+                    "name": "Dehai Zhao"
+                }
+            ],
+            "doi": "10.1109/ICSE48619.2023.00089",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "99e446871bfdbe9db524159107906d460579fe34",
+            "title": "Silent Vulnerable Dependency Alert Prediction with Vulnerability Key Aspect Explanation",
+            "url": "https://www.semanticscholar.org/paper/99e446871bfdbe9db524159107906d460579fe34",
+            "venue": "2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2301.08434",
+            "authors": [
+                {
+                    "authorId": "2108323899",
+                    "name": "Lyuye Zhang"
+                },
+                {
+                    "authorId": "2158155335",
+                    "name": "Chengwei Liu"
+                },
+                {
+                    "authorId": "3430657",
+                    "name": "Zhengzi Xu"
+                },
+                {
+                    "authorId": "48847695",
+                    "name": "Sen Chen"
+                },
+                {
+                    "authorId": "41075481",
+                    "name": "Lingling Fan"
+                },
+                {
+                    "authorId": "2214121071",
+                    "name": "Lida Zhao"
+                },
+                {
+                    "authorId": "2184214864",
+                    "name": "Jiahui Wu"
+                },
+                {
+                    "authorId": "2152797936",
+                    "name": "Yang Liu"
+                }
+            ],
+            "doi": "10.1109/ICSE48619.2023.00212",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "84dacaab5c7253196b5add066ab93b0412a448ab",
+            "title": "Compatible Remediation on Vulnerabilities from Third-Party Libraries for Java Projects",
+            "url": "https://www.semanticscholar.org/paper/84dacaab5c7253196b5add066ab93b0412a448ab",
+            "venue": "2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2301.03270",
+            "authors": [
+                {
+                    "authorId": "1409701329",
+                    "name": "Quanjun Zhang"
+                },
+                {
+                    "authorId": "7595994",
+                    "name": "Chunrong Fang"
+                },
+                {
+                    "authorId": "2109179504",
+                    "name": "Yuxiang Ma"
+                },
+                {
+                    "authorId": "3433022",
+                    "name": "Weisong Sun"
+                },
+                {
+                    "authorId": "9220930",
+                    "name": "Zhenyu Chen"
+                }
+            ],
+            "doi": "10.48550/arXiv.2301.03270",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1bf36d887a4317e8a25377504b102fff6f70029f",
+            "title": "A Survey of Learning-based Automated Program Repair",
+            "url": "https://www.semanticscholar.org/paper/1bf36d887a4317e8a25377504b102fff6f70029f",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2199266820",
+                    "name": "Jon Chapman"
+                },
+                {
+                    "authorId": "2305831176",
+                    "name": "Hari Venugopalan"
+                }
+            ],
+            "doi": "10.1109/CSIT56902.2022.10000561",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1db7361b70f79ee96200efb51c9c9c9693c46b41",
+            "title": "Open Source Software Computed Risk Framework",
+            "url": "https://www.semanticscholar.org/paper/1db7361b70f79ee96200efb51c9c9c9693c46b41",
+            "venue": "2022 IEEE 17th International Conference on Computer Sciences and Information Technologies (CSIT)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2091784637",
+                    "name": "Mohammed Latif Siddiq"
+                },
+                {
+                    "authorId": "2184325708",
+                    "name": "Joanna C. S. Santos"
+                }
+            ],
+            "doi": "10.1145/3549035.3561184",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "71280dba5bda65c162f9deaffed7d3d20692ca0a",
+            "title": "SecurityEval dataset: mining vulnerability examples to evaluate machine learning-based code generation techniques",
+            "url": "https://www.semanticscholar.org/paper/71280dba5bda65c162f9deaffed7d3d20692ca0a",
+            "venue": "",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2051152417",
+                    "name": "T. Coskun"
+                },
+                {
+                    "authorId": "2675993",
+                    "name": "Rusen Halepmollasi"
+                },
+                {
+                    "authorId": "9460338",
+                    "name": "Khadija Hanifi"
+                },
+                {
+                    "authorId": "38586345",
+                    "name": "R. Fouladi"
+                },
+                {
+                    "authorId": "2190437257",
+                    "name": "Pinar Comak De Cnudde"
+                },
+                {
+                    "authorId": "4458730",
+                    "name": "Ayse Tosun Misirli"
+                }
+            ],
+            "doi": "10.1145/3558489.3559069",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "3da0dd6bfe3163891c49a3cce1aa411333de7e2a",
+            "title": "Profiling developers to predict vulnerable code changes",
+            "url": "https://www.semanticscholar.org/paper/3da0dd6bfe3163891c49a3cce1aa411333de7e2a",
+            "venue": "PROMISE",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2052108267",
+                    "name": "Dejiang Jing"
+                }
+            ],
+            "doi": "10.1088/1742-6596/2363/1/012010",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "00aacec39159bcd92a412aa314b376c3378c49cb",
+            "title": "Improvement of Vulnerable Code Dataset Based on Program Equivalence Transformation",
+            "url": "https://www.semanticscholar.org/paper/00aacec39159bcd92a412aa314b376c3378c49cb",
+            "venue": "Journal of Physics: Conference Series",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2112548652",
+                    "name": "Qing Sun"
+                },
+                {
+                    "authorId": "2112143005",
+                    "name": "Lili Xu"
+                },
+                {
+                    "authorId": "2116643764",
+                    "name": "Yang Xiao"
+                },
+                {
+                    "authorId": "2146311731",
+                    "name": "Feng Li"
+                },
+                {
+                    "authorId": "1485839353",
+                    "name": "He Su"
+                },
+                {
+                    "authorId": "2108054582",
+                    "name": "Yiming Liu"
+                },
+                {
+                    "authorId": "2115735379",
+                    "name": "Hongyun Huang"
+                },
+                {
+                    "authorId": "2056206270",
+                    "name": "Wei Huo"
+                }
+            ],
+            "doi": "10.1109/ICSME55016.2022.00037",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6343bf05313f8d5915123458a6903c5dd5d74818",
+            "title": "VERJava: Vulnerable Version Identification for Java OSS with a Two-Stage Analysis",
+            "url": "https://www.semanticscholar.org/paper/6343bf05313f8d5915123458a6903c5dd5d74818",
+            "venue": "2022 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2209.07211",
+            "authors": [
+                {
+                    "authorId": "2184928836",
+                    "name": "Aurora Papotti"
+                },
+                {
+                    "authorId": "2146916894",
+                    "name": "Ranindya Paramitha"
+                },
+                {
+                    "authorId": "1746220",
+                    "name": "F. Massacci"
+                }
+            ],
+            "doi": "10.48550/arXiv.2209.07211",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "01f00657c8aa0bfa458b4be21d41a3a452ec9683",
+            "title": "On the acceptance by code reviewers of candidate security patches suggested by Automated Program Repair tools",
+            "url": "https://www.semanticscholar.org/paper/01f00657c8aa0bfa458b4be21d41a3a452ec9683",
+            "venue": "Empir. Softw. Eng.",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "79789272",
+                    "name": "J. M. D. Senanayake"
+                },
+                {
+                    "authorId": "2387461",
+                    "name": "H. Kalutarage"
+                },
+                {
+                    "authorId": "1402526178",
+                    "name": "M. Al-Kadri"
+                },
+                {
+                    "authorId": "145090329",
+                    "name": "Andrei V. Petrovski"
+                },
+                {
+                    "authorId": "2094999",
+                    "name": "Luca Piras"
+                }
+            ],
+            "doi": "10.1145/3556974",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5a6473028256d0a9eabce0fac18fb6ad289a7c1a",
+            "title": "Android Source Code Vulnerability Detection: A Systematic Literature Review",
+            "url": "https://www.semanticscholar.org/paper/5a6473028256d0a9eabce0fac18fb6ad289a7c1a",
+            "venue": "ACM Comput. Surv.",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2623314",
+                    "name": "Arthur D. Sawadogo"
+                },
+                {
+                    "authorId": "3023999",
+                    "name": "T\u00e9gawend\u00e9 F. Bissyand\u00e9"
+                },
+                {
+                    "authorId": "2420979",
+                    "name": "Naouel Moha"
+                },
+                {
+                    "authorId": "1790388",
+                    "name": "Kevin Allix"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                },
+                {
+                    "authorId": "2156057406",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "118221059",
+                    "name": "Yves Le Traon"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10168-9",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "19fc59f5da93b88f8306614d3cef597d719e3d81",
+            "title": "SSPCatcher: Learning to catch security patches",
+            "url": "https://www.semanticscholar.org/paper/19fc59f5da93b88f8306614d3cef597d719e3d81",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2051539980",
+                    "name": "Quang-Cuong Bui"
+                },
+                {
+                    "authorId": "1723601",
+                    "name": "R. Scandariato"
+                },
+                {
+                    "authorId": "3370607",
+                    "name": "N. E. D. Ferreyra"
+                }
+            ],
+            "doi": "10.1145/3524842.3528482",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "30e13e65d68a195ab6748da16e2a015756d4ca7b",
+            "title": "Vul4J: A Dataset of Reproducible Java Vulnerabilities Geared Towards the Study of Program Repair Techniques",
+            "url": "https://www.semanticscholar.org/paper/30e13e65d68a195ab6748da16e2a015756d4ca7b",
+            "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2551250",
+                    "name": "Lingfeng Bao"
+                },
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "144890499",
+                    "name": "A. Hassan"
+                },
+                {
+                    "authorId": "1809356",
+                    "name": "Xiaohu Yang"
+                }
+            ],
+            "doi": "10.1145/3510003.3510113",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "0e01648d438bfedf8409e69dba2d7b1778483f06",
+            "title": "V-SZZ: Automatic Identification of Version Ranges Affected by CVE Vulnerabilities",
+            "url": "https://www.semanticscholar.org/paper/0e01648d438bfedf8409e69dba2d7b1778483f06",
+            "venue": "2022 IEEE/ACM 44th International Conference on Software Engineering (ICSE)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2060121253",
+                    "name": "Sofia Reis"
+                },
+                {
+                    "authorId": "144837389",
+                    "name": "Rui Abreu"
+                },
+                {
+                    "authorId": "1744500",
+                    "name": "H. Erdogmus"
+                },
+                {
+                    "authorId": "1723381",
+                    "name": "C. P\u0103s\u0103reanu"
+                }
+            ],
+            "doi": "10.1145/3524842.3528513",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e60fcc6817a2867188620e3a5611521d483efb19",
+            "title": "SECOM: Towards a convention for security commit messages",
+            "url": "https://www.semanticscholar.org/paper/e60fcc6817a2867188620e3a5611521d483efb19",
+            "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2162541417",
+                    "name": "Alexis Challande"
+                },
+                {
+                    "authorId": "48774542",
+                    "name": "Robin David"
+                },
+                {
+                    "authorId": "1868741",
+                    "name": "Gu\u00e9na\u00ebl Renault"
+                }
+            ],
+            "doi": "10.1145/3508398.3511495",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a60b130eed91be21dd23d2c07789589ddb1b853f",
+            "title": "Building a Commit-level Dataset of Real-world Vulnerabilities",
+            "url": "https://www.semanticscholar.org/paper/a60b130eed91be21dd23d2c07789589ddb1b853f",
+            "venue": "CODASPY",
+            "year": 2022
+        },
+        {
+            "arxivId": "2203.08417",
+            "authors": [
+                {
+                    "authorId": "47267142",
+                    "name": "T. H. Le"
+                },
+                {
+                    "authorId": "145348760",
+                    "name": "M. Babar"
+                }
+            ],
+            "doi": "10.1145/3524842.3528433",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "8ff1d53405d1548ed00dda89e18f1e879e70896c",
+            "title": "On the Use of Fine-grained Vulnerable Code Statements for Software Vulnerability Assessment Models",
+            "url": "https://www.semanticscholar.org/paper/8ff1d53405d1548ed00dda89e18f1e879e70896c",
+            "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2203.06502",
+            "authors": [
+                {
+                    "authorId": "51220845",
+                    "name": "Nima Shiri Harzevili"
+                },
+                {
+                    "authorId": "2111246288",
+                    "name": "Jiho Shin"
+                },
+                {
+                    "authorId": "2109763128",
+                    "name": "Junjie Wang"
+                },
+                {
+                    "authorId": "2117074753",
+                    "name": "Song Wang"
+                }
+            ],
+            "doi": "10.1109/MSR59073.2023.00018",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2ebd3a9ae4466d76a9314f0a1ebf25a723fdaef1",
+            "title": "Characterizing and Understanding Software Security Vulnerabilities in Machine Learning Libraries",
+            "url": "https://www.semanticscholar.org/paper/2ebd3a9ae4466d76a9314f0a1ebf25a723fdaef1",
+            "venue": "2023 IEEE/ACM 20th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2178753479",
+                    "name": "Giang Nguyen-Truong"
+                },
+                {
+                    "authorId": "48654378",
+                    "name": "Hong Jin Kang"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                },
+                {
+                    "authorId": "1753692164",
+                    "name": "Abhishek Sharma"
+                },
+                {
+                    "authorId": "1794252",
+                    "name": "A. Santosa"
+                },
+                {
+                    "authorId": "39117273",
+                    "name": "Asankhaya Sharma"
+                },
+                {
+                    "authorId": "40373102",
+                    "name": "Ming Yi Ang"
+                }
+            ],
+            "doi": "10.1109/saner53432.2022.00018",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a0bbf502e0cc9878b253fa3c9bc751f27d106f08",
+            "title": "HERMES: Using Commit-Issue Linking to Detect Vulnerability-Fixing Commits",
+            "url": "https://www.semanticscholar.org/paper/a0bbf502e0cc9878b253fa3c9bc751f27d106f08",
+            "venue": "2022 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2178533999",
+                    "name": "Shichao Wang"
+                },
+                {
+                    "authorId": "2122996313",
+                    "name": "Yun Zhang"
+                },
+                {
+                    "authorId": "2178438121",
+                    "name": "Liagfeng Bao"
+                },
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "49227857",
+                    "name": "Ming-hui Wu"
+                }
+            ],
+            "doi": "10.1109/saner53432.2022.00076",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4345c6b6744b8cc5d7fe167a49c10fa5eb9ee33f",
+            "title": "VCMatch: A Ranking-based Approach for Automatic Security Patches Localization for OSS Vulnerabilities",
+            "url": "https://www.semanticscholar.org/paper/4345c6b6744b8cc5d7fe167a49c10fa5eb9ee33f",
+            "venue": "2022 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1711200",
+                    "name": "G. Canfora"
+                },
+                {
+                    "authorId": "3144783",
+                    "name": "Andrea Di Sorbo"
+                },
+                {
+                    "authorId": "51176953",
+                    "name": "S. Forootani"
+                },
+                {
+                    "authorId": "37368749",
+                    "name": "Matias Martinez"
+                },
+                {
+                    "authorId": "1717023",
+                    "name": "C. A. Visaggio"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2021.106745",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9776b72b9c831c74fae55539ce7d1b64490d68b9",
+            "title": "Patchworking: Exploring the code changes induced by vulnerability fixing activities",
+            "url": "https://www.semanticscholar.org/paper/9776b72b9c831c74fae55539ce7d1b64490d68b9",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2022
+        },
+        {
+            "arxivId": "2112.10123",
+            "authors": [
+                {
+                    "authorId": "2623314",
+                    "name": "Arthur D. Sawadogo"
+                },
+                {
+                    "authorId": "2146376768",
+                    "name": "Quentin Guimard"
+                },
+                {
+                    "authorId": "11128727",
+                    "name": "Tegawend'e F. Bissyand'e"
+                },
+                {
+                    "authorId": "2121305884",
+                    "name": "Abdoul Kader Kabor'e"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                },
+                {
+                    "authorId": "2420979",
+                    "name": "Naouel Moha"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "9f1d045bac2d85ac3560bb299f4f5d87f34fd354",
+            "title": "Early Detection of Security-Relevant Bug Reports using Machine Learning: How Far Are We?",
+            "url": "https://www.semanticscholar.org/paper/9f1d045bac2d85ac3560bb299f4f5d87f34fd354",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": "2112.02240",
+            "authors": [
+                {
+                    "authorId": "2110087568",
+                    "name": "Congying Xu"
+                },
+                {
+                    "authorId": "144943089",
+                    "name": "Bihuan Chen"
+                },
+                {
+                    "authorId": "2110373960",
+                    "name": "Chenhao Lu"
+                },
+                {
+                    "authorId": "11360887",
+                    "name": "Kaifeng Huang"
+                },
+                {
+                    "authorId": "2115815952",
+                    "name": "Xin Peng"
+                },
+                {
+                    "authorId": "2152799257",
+                    "name": "Yang Liu"
+                }
+            ],
+            "doi": "10.1145/3540250.3549125",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "46799d692f25afe05bdbe2ba258d65d10fa94b25",
+            "title": "Tracking patches for open source software vulnerabilities",
+            "url": "https://www.semanticscholar.org/paper/46799d692f25afe05bdbe2ba258d65d10fa94b25",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "104814692",
+                    "name": "Azin Piran"
+                },
+                {
+                    "authorId": "2158607631",
+                    "name": "Che-Pin Chang"
+                },
+                {
+                    "authorId": "34584522",
+                    "name": "Amin Milani Fard"
+                }
+            ],
+            "doi": "10.1109/QRS54544.2021.00076",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "bfe9bddd776594107973811ceaf2fe5f73b742d7",
+            "title": "Vulnerability Analysis of Similar Code",
+            "url": "https://www.semanticscholar.org/paper/bfe9bddd776594107973811ceaf2fe5f73b742d7",
+            "venue": "2021 IEEE 21st International Conference on Software Quality, Reliability and Security (QRS)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2135783537",
+                    "name": "Tom Ganz"
+                },
+                {
+                    "authorId": "2736329",
+                    "name": "Martin H\u00e4rterich"
+                },
+                {
+                    "authorId": "1750929757",
+                    "name": "Alexander Warnecke"
+                },
+                {
+                    "authorId": "144825749",
+                    "name": "Konrad Rieck"
+                }
+            ],
+            "doi": "10.1145/3474369.3486866",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e687d3272cc7913157c037480ec09cac12b97dce",
+            "title": "Explaining Graph Neural Networks for Vulnerability Discovery",
+            "url": "https://www.semanticscholar.org/paper/e687d3272cc7913157c037480ec09cac12b97dce",
+            "venue": "AISec@CCS",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2143462940",
+                    "name": "Jiayuan Zhou"
+                },
+                {
+                    "authorId": "2150710938",
+                    "name": "Michael Pacheco"
+                },
+                {
+                    "authorId": "3453740",
+                    "name": "Zhiyuan Wan"
+                },
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                },
+                {
+                    "authorId": "2156167230",
+                    "name": "Yuan Wang"
+                },
+                {
+                    "authorId": "1891605",
+                    "name": "Ahmed E. Hassan"
+                }
+            ],
+            "doi": "10.1109/ASE51524.2021.9678720",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "26f460cd1d160a8068347e58fb44260be3dddcca",
+            "title": "Finding A Needle in a Haystack: Automated Mining of Silent Vulnerability Fixes",
+            "url": "https://www.semanticscholar.org/paper/26f460cd1d160a8068347e58fb44260be3dddcca",
+            "venue": "2021 36th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "151237913",
+                    "name": "Tim Sonnekalb"
+                },
+                {
+                    "authorId": "122233317",
+                    "name": "Thomas S. Heinze"
+                },
+                {
+                    "authorId": "35215848",
+                    "name": "Patrick M\u00e4der"
+                }
+            ],
+            "doi": "10.1007/s10664-021-10029-x",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e84315eccc5a10c35e7a2d64631a24dbbf9543d1",
+            "title": "Deep security analysis of program code",
+            "url": "https://www.semanticscholar.org/paper/e84315eccc5a10c35e7a2d64631a24dbbf9543d1",
+            "venue": "Empirical Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": "2110.09610",
+            "authors": [
+                {
+                    "authorId": "2007882123",
+                    "name": "Tushar Sharma"
+                },
+                {
+                    "authorId": "3126897",
+                    "name": "M. Kechagia"
+                },
+                {
+                    "authorId": "2386975",
+                    "name": "Stefanos Georgiou"
+                },
+                {
+                    "authorId": "2054167519",
+                    "name": "Rohit Tiwari"
+                },
+                {
+                    "authorId": "2103653",
+                    "name": "Federica Sarro"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "416bb2238e92cc9c664bc932a5e968bf03bd2845",
+            "title": "A Survey on Machine Learning Techniques for Source Code Analysis",
+            "url": "https://www.semanticscholar.org/paper/416bb2238e92cc9c664bc932a5e968bf03bd2845",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144011505",
+                    "name": "Rodrigo Andrade"
+                },
+                {
+                    "authorId": "2146472941",
+                    "name": "Vin\u00edcius Santos"
+                }
+            ],
+            "doi": "10.5753/vem.2021.17213",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "e5c04b7d9d8b4fba5c412331fa6dc9a2f521d14a",
+            "title": "Investigating vulnerability datasets",
+            "url": "https://www.semanticscholar.org/paper/e5c04b7d9d8b4fba5c412331fa6dc9a2f521d14a",
+            "venue": "VEM",
+            "year": 2021
+        },
+        {
+            "arxivId": "2108.08041",
+            "authors": [
+                {
+                    "authorId": "47267142",
+                    "name": "T. H. Le"
+                },
+                {
+                    "authorId": "101855073",
+                    "name": "David Hin"
+                },
+                {
+                    "authorId": "1557381907",
+                    "name": "Roland Croft"
+                },
+                {
+                    "authorId": "2142773270",
+                    "name": "M. A. Babar"
+                }
+            ],
+            "doi": "10.1109/ASE51524.2021.9678622",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "ac7053c2f056c3ea0b48b2519ebac88b5a22e05a",
+            "title": "DeepCVA: Automated Commit-level Vulnerability Assessment with Deep Multi-task Learning",
+            "url": "https://www.semanticscholar.org/paper/ac7053c2f056c3ea0b48b2519ebac88b5a22e05a",
+            "venue": "2021 36th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2123635428",
+                    "name": "Georgios Nikitopoulos"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "123396793",
+                    "name": "Panos Louridas"
+                },
+                {
+                    "authorId": "7498035",
+                    "name": "Dimitris Mitropoulos"
+                }
+            ],
+            "doi": "10.1145/3468264.3473122",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6e32e7c61ad20fc60f603ee742dc8a57fcbaae27",
+            "title": "CrossVul: a cross-language vulnerability dataset with commit data",
+            "url": "https://www.semanticscholar.org/paper/6e32e7c61ad20fc60f603ee742dc8a57fcbaae27",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2021
+        },
+        {
+            "arxivId": "2108.06590",
+            "authors": [
+                {
+                    "authorId": "2714361",
+                    "name": "Guanqun Yang"
+                },
+                {
+                    "authorId": "2123320008",
+                    "name": "Shay Dineen"
+                },
+                {
+                    "authorId": "2152796396",
+                    "name": "Zhipeng Lin"
+                },
+                {
+                    "authorId": "2151060618",
+                    "name": "Xueqing Liu"
+                }
+            ],
+            "doi": "10.1007/978-3-030-87839-9_3",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5e9dff737d627e1c959e577b6b6e8b0c9fc01443",
+            "title": "Few-Sample Named Entity Recognition for Security Vulnerability Reports by Fine-Tuning Pre-Trained Language Models",
+            "url": "https://www.semanticscholar.org/paper/5e9dff737d627e1c959e577b6b6e8b0c9fc01443",
+            "venue": "Deployable Machine Learning for Security Defense",
+            "year": 2021
+        },
+        {
+            "arxivId": "2108.05115",
+            "authors": [
+                {
+                    "authorId": "2005211",
+                    "name": "Serena Elisa Ponta"
+                },
+                {
+                    "authorId": "2057396807",
+                    "name": "Wolf Fischer"
+                },
+                {
+                    "authorId": "3283588",
+                    "name": "H. Plate"
+                },
+                {
+                    "authorId": "1737833",
+                    "name": "A. Sabetta"
+                }
+            ],
+            "doi": "10.26226/morressier.613b5418842293c031b5b612",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c49a25914c031a0c97da9400bcad595208c29f2a",
+            "title": "The Used, the Bloated, and the Vulnerable: Reducing the Attack Surface of an Industrial Application",
+            "url": "https://www.semanticscholar.org/paper/c49a25914c031a0c97da9400bcad595208c29f2a",
+            "venue": "2021 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34299345",
+                    "name": "A. Dann"
+                },
+                {
+                    "authorId": "3283588",
+                    "name": "H. Plate"
+                },
+                {
+                    "authorId": "39888100",
+                    "name": "Ben Hermann"
+                },
+                {
+                    "authorId": "2005211",
+                    "name": "Serena Elisa Ponta"
+                },
+                {
+                    "authorId": "1752222",
+                    "name": "E. Bodden"
+                }
+            ],
+            "doi": "10.1109/TSE.2021.3101739",
+            "intent": [
+                "result",
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "5d6267899142efae424656b827edee6c4fed09e3",
+            "title": "Identifying Challenges for OSS Vulnerability Scanners - A Study & Test Suite",
+            "url": "https://www.semanticscholar.org/paper/5d6267899142efae424656b827edee6c4fed09e3",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": "2107.08760",
+            "authors": [
+                {
+                    "authorId": "11670279",
+                    "name": "G. Bhandari"
+                },
+                {
+                    "authorId": "2040705478",
+                    "name": "Amara Naseer"
+                },
+                {
+                    "authorId": "1762006",
+                    "name": "L. Moonen"
+                }
+            ],
+            "doi": "10.1145/3475960.3475985",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "f1d7a4ed38192f156e77cde0785093cc0b66259e",
+            "title": "CVEfixes: automated collection of vulnerabilities and their fixes from open-source software",
+            "url": "https://www.semanticscholar.org/paper/f1d7a4ed38192f156e77cde0785093cc0b66259e",
+            "venue": "PROMISE",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "79789272",
+                    "name": "J. M. D. Senanayake"
+                },
+                {
+                    "authorId": "2387461",
+                    "name": "H. Kalutarage"
+                },
+                {
+                    "authorId": "1402526178",
+                    "name": "M. Al-Kadri"
+                }
+            ],
+            "doi": "10.3390/ELECTRONICS10131606",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "59e524af7d76212968ddfac1783dc8f1edcbdba2",
+            "title": "Android Mobile Malware Detection Using Machine Learning: A Systematic Review",
+            "url": "https://www.semanticscholar.org/paper/59e524af7d76212968ddfac1783dc8f1edcbdba2",
+            "venue": "Electronics",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2113364164",
+                    "name": "Spandan Garg"
+                },
+                {
+                    "authorId": "1680427",
+                    "name": "Roshanak Zilouchian Moghaddam"
+                },
+                {
+                    "authorId": "145507437",
+                    "name": "Neel Sundaresan"
+                },
+                {
+                    "authorId": "4438547",
+                    "name": "Chen Wu"
+                }
+            ],
+            "doi": "10.1145/3460946.3464318",
+            "intent": [
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "034b4fddbc76c9e64c3982ee11ef488bde5d1173",
+            "title": "PerfLens: a data-driven performance bug detection and fix platform",
+            "url": "https://www.semanticscholar.org/paper/034b4fddbc76c9e64c3982ee11ef488bde5d1173",
+            "venue": "SOAP@PLDI",
+            "year": 2021
+        },
+        {
+            "arxivId": "2106.03271",
+            "authors": [
+                {
+                    "authorId": "2060121253",
+                    "name": "Sofia Reis"
+                },
+                {
+                    "authorId": "144837389",
+                    "name": "Rui Abreu"
+                },
+                {
+                    "authorId": "144758605",
+                    "name": "L. Cruz"
+                }
+            ],
+            "doi": "10.1007/s10664-021-10019-z",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "3b9d420dd9e3bcca6b846eea583aa3d74ea9c7a4",
+            "title": "Fixing vulnerabilities potentially hinders maintainability",
+            "url": "https://www.semanticscholar.org/paper/3b9d420dd9e3bcca6b846eea583aa3d74ea9c7a4",
+            "venue": "Empirical Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": "2105.03346",
+            "authors": [
+                {
+                    "authorId": "2089741485",
+                    "name": "Therese Fehrer"
+                },
+                {
+                    "authorId": "116053037",
+                    "name": "Roc\u00edo Cabrera Lozoya"
+                },
+                {
+                    "authorId": "1737833",
+                    "name": "A. Sabetta"
+                },
+                {
+                    "authorId": "116336149",
+                    "name": "Dario Di Nucci"
+                },
+                {
+                    "authorId": "144273542",
+                    "name": "D. Tamburri"
+                }
+            ],
+            "doi": "10.1145/3661167.3661217",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "61f04a04d5f9cf13557c2cffcc4c042848edc81b",
+            "title": "Detecting Security Fixes in Open-Source Repositories using Static Code Analyzers",
+            "url": "https://www.semanticscholar.org/paper/61f04a04d5f9cf13557c2cffcc4c042848edc81b",
+            "venue": "EASE",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1941163595",
+                    "name": "Emanuele Iannone"
+                },
+                {
+                    "authorId": "50515157",
+                    "name": "Dario Di Nucci"
+                },
+                {
+                    "authorId": "1737833",
+                    "name": "A. Sabetta"
+                },
+                {
+                    "authorId": "145818752",
+                    "name": "A. D. Lucia"
+                }
+            ],
+            "doi": "10.1109/ICPC52881.2021.00046",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a41644cc7d251d084444320a28f46cf2e76ef4c3",
+            "title": "Toward Automated Exploit Generation for Known Vulnerabilities in Open-Source Libraries",
+            "url": "https://www.semanticscholar.org/paper/a41644cc7d251d084444320a28f46cf2e76ef4c3",
+            "venue": "2021 IEEE/ACM 29th International Conference on Program Comprehension (ICPC)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2104.08308",
+            "authors": [
+                {
+                    "authorId": "46842516",
+                    "name": "Zimin Chen"
+                },
+                {
+                    "authorId": "51957922",
+                    "name": "Steve Kommrusch"
+                },
+                {
+                    "authorId": "150220964",
+                    "name": "Monperrus Martin"
+                }
+            ],
+            "doi": "10.1109/TSE.2022.3147265",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "19f1e79eb46bfac683b68345e482838f41be69fa",
+            "title": "Neural Transfer Learning for Repairing Security Vulnerabilities in C Code",
+            "url": "https://www.semanticscholar.org/paper/19f1e79eb46bfac683b68345e482838f41be69fa",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.13375",
+            "authors": [
+                {
+                    "authorId": "2058076478",
+                    "name": "Daan Hommersom"
+                },
+                {
+                    "authorId": "1737833",
+                    "name": "A. Sabetta"
+                },
+                {
+                    "authorId": "39783117",
+                    "name": "Bonaventura Coppola"
+                },
+                {
+                    "authorId": "144273542",
+                    "name": "D. Tamburri"
+                }
+            ],
+            "doi": "10.1145/3649590",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "8b59fc3e1ee88f8453abcf61386dec64ef24f571",
+            "title": "Automated Mapping of Vulnerability Advisories onto their Fix Commits in Open Source Repositories",
+            "url": "https://www.semanticscholar.org/paper/8b59fc3e1ee88f8453abcf61386dec64ef24f571",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2010.10805",
+            "authors": [
+                {
+                    "authorId": "7518332",
+                    "name": "Jianlei Chi"
+                },
+                {
+                    "authorId": "96023068",
+                    "name": "YunHuan Qu"
+                },
+                {
+                    "authorId": "40282288",
+                    "name": "Ting Liu"
+                },
+                {
+                    "authorId": "50320297",
+                    "name": "Q. Zheng"
+                },
+                {
+                    "authorId": "145503585",
+                    "name": "Heng Yin"
+                }
+            ],
+            "doi": "10.1109/TSE.2022.3156637",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c74242e97212867b2ed00cd0d6ac90652c2dc604",
+            "title": "SeqTrans: Automatic Vulnerability Fix Via Sequence to Sequence Learning",
+            "url": "https://www.semanticscholar.org/paper/c74242e97212867b2ed00cd0d6ac90652c2dc604",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2005211",
+                    "name": "Serena Elisa Ponta"
+                },
+                {
+                    "authorId": "3283588",
+                    "name": "H. Plate"
+                },
+                {
+                    "authorId": "1737833",
+                    "name": "A. Sabetta"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09830-x",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "728eab7ac5ae7dd624d306ae5e1887f7b10447cc",
+            "title": "Detection, assessment and mitigation of vulnerabilities in open source dependencies",
+            "url": "https://www.semanticscholar.org/paper/728eab7ac5ae7dd624d306ae5e1887f7b10447cc",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1965898930",
+                    "name": "Alexander Marchand-Melsom"
+                },
+                {
+                    "authorId": "1998023787",
+                    "name": "Duong Bao Nguyen Mai"
+                }
+            ],
+            "doi": "10.1145/3387940.3392200",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "7be72610f0ce23c28250a22dfa0a2b2e53cd68d5",
+            "title": "Automatic repair of OWASP Top 10 security vulnerabilities: A survey",
+            "url": "https://www.semanticscholar.org/paper/7be72610f0ce23c28250a22dfa0a2b2e53cd68d5",
+            "venue": "ICSE",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1949178496",
+                    "name": "Jiahao Fan"
+                },
+                {
+                    "authorId": "6299740",
+                    "name": "Yi Li"
+                },
+                {
+                    "authorId": "2145317386",
+                    "name": "Shaohua Wang"
+                },
+                {
+                    "authorId": "2327697",
+                    "name": "T. Nguyen"
+                }
+            ],
+            "doi": "10.1145/3379597.3387501",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "7eebae9c294f68d8061d921e7c2bb76a06b15889",
+            "title": "A C/C++ Code Vulnerability Dataset with Code Changes and CVE Summaries",
+            "url": "https://www.semanticscholar.org/paper/7eebae9c294f68d8061d921e7c2bb76a06b15889",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2020
+        },
+        {
+            "arxivId": "2002.02650",
+            "authors": [
+                {
+                    "authorId": "2060602470",
+                    "name": "Patrick Keller"
+                },
+                {
+                    "authorId": "2042715833",
+                    "name": "A. Kabor\u00e9"
+                },
+                {
+                    "authorId": "94158679",
+                    "name": "L. Plein"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                },
+                {
+                    "authorId": "118221059",
+                    "name": "Yves Le Traon"
+                },
+                {
+                    "authorId": "11128727",
+                    "name": "Tegawend'e F. Bissyand'e"
+                }
+            ],
+            "doi": "10.1145/3485135",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "027c95b0f028fa2fdb1c5c8bc8ea7e89e17a67fa",
+            "title": "What You See is What it Means! Semantic Representation Learning of Code based on Visualization and Transfer Learning",
+            "url": "https://www.semanticscholar.org/paper/027c95b0f028fa2fdb1c5c8bc8ea7e89e17a67fa",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2020
+        },
+        {
+            "arxivId": "2001.09148",
+            "authors": [
+                {
+                    "authorId": "2623314",
+                    "name": "Arthur D. Sawadogo"
+                },
+                {
+                    "authorId": "11128727",
+                    "name": "Tegawend'e F. Bissyand'e"
+                },
+                {
+                    "authorId": "2420979",
+                    "name": "Naouel Moha"
+                },
+                {
+                    "authorId": "1790388",
+                    "name": "Kevin Allix"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                },
+                {
+                    "authorId": "2156057406",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "47681863",
+                    "name": "Y. L. Traon"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e1e6d28ac7142882fb3218a1c905146a820ca19a",
+            "title": "Learning to Catch Security Patches",
+            "url": "https://www.semanticscholar.org/paper/e1e6d28ac7142882fb3218a1c905146a820ca19a",
+            "venue": "ArXiv",
+            "year": 2020
+        },
+        {
+            "arxivId": "1911.07605",
+            "authors": [
+                {
+                    "authorId": "116053037",
+                    "name": "Roc\u00edo Cabrera Lozoya"
+                },
+                {
+                    "authorId": "2064782399",
+                    "name": "Arnaud Baumann"
+                },
+                {
+                    "authorId": "1737833",
+                    "name": "A. Sabetta"
+                },
+                {
+                    "authorId": "34876221",
+                    "name": "M. Bezzi"
+                }
+            ],
+            "doi": "10.1007/s42979-021-00566-z",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "1e218cb21ef3378842763a483fc8b20833ec54e0",
+            "title": "Commit2Vec: Learning Distributed Representations of Code Changes",
+            "url": "https://www.semanticscholar.org/paper/1e218cb21ef3378842763a483fc8b20833ec54e0",
+            "venue": "SN Computer Science",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1971870",
+                    "name": "Roc\u00edo Cabrera Lozoya"
+                },
+                {
+                    "authorId": "2064782399",
+                    "name": "Arnaud Baumann"
+                },
+                {
+                    "authorId": "1737833",
+                    "name": "A. Sabetta"
+                },
+                {
+                    "authorId": "34876221",
+                    "name": "M. Bezzi"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "9254ba88f61873c0dad9c72a17f9beb4254850c4",
+            "title": "patch2vec: Distributed Representation of Code Changes",
+            "url": "https://www.semanticscholar.org/paper/9254ba88f61873c0dad9c72a17f9beb4254850c4",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": "1911.07620",
+            "authors": [
+                {
+                    "authorId": "46253949",
+                    "name": "Achyudh Ram"
+                },
+                {
+                    "authorId": "2059016789",
+                    "name": "Ji Xin"
+                },
+                {
+                    "authorId": "7274019",
+                    "name": "M. Nagappan"
+                },
+                {
+                    "authorId": "40508553",
+                    "name": "Yaoliang Yu"
+                },
+                {
+                    "authorId": "1971870",
+                    "name": "Roc\u00edo Cabrera Lozoya"
+                },
+                {
+                    "authorId": "1737833",
+                    "name": "A. Sabetta"
+                },
+                {
+                    "authorId": "145580839",
+                    "name": "Jimmy J. Lin"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ca4ddad3aff3c1808ade7b2cfbfc93ca36d01d70",
+            "title": "Exploiting Token and Path-based Representations of Code for Identifying Security-Relevant Commits",
+            "url": "https://www.semanticscholar.org/paper/ca4ddad3aff3c1808ade7b2cfbfc93ca36d01d70",
+            "venue": "ArXiv",
+            "year": 2019
+        },
+        {
+            "arxivId": "1907.12141",
+            "authors": [
+                {
+                    "authorId": "2117074753",
+                    "name": "Song Wang"
+                },
+                {
+                    "authorId": "1693689",
+                    "name": "Nachiappan Nagappan"
+                }
+            ],
+            "doi": "10.1109/ISSRE52982.2021.00061",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a1ff68c6d53c995695f7f2cedd3dbf84128b26d0",
+            "title": "Characterizing and Understanding Software Developer Networks in Security Development",
+            "url": "https://www.semanticscholar.org/paper/a1ff68c6d53c995695f7f2cedd3dbf84128b26d0",
+            "venue": "2021 IEEE 32nd International Symposium on Software Reliability Engineering (ISSRE)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": "10.1109/msr45733.2019",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "de20e3a4dbd7d0d30eb4a5b46d6222ba827cf208",
+            "title": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "url": "https://www.semanticscholar.org/paper/de20e3a4dbd7d0d30eb4a5b46d6222ba827cf208",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2218970074",
+                    "name": "Yi Wu"
+                },
+                {
+                    "authorId": "2218971134",
+                    "name": "Nan Jiang"
+                },
+                {
+                    "authorId": "49976542",
+                    "name": "H. Pham"
+                },
+                {
+                    "authorId": "2492099",
+                    "name": "Thibaud Lutellier"
+                },
+                {
+                    "authorId": "2289321417",
+                    "name": "Jordan Davis"
+                },
+                {
+                    "authorId": "2289600905",
+                    "name": "Lin Tan"
+                },
+                {
+                    "authorId": "47440567",
+                    "name": "Petr Babkin"
+                },
+                {
+                    "authorId": "2289152217",
+                    "name": "J. P. Morgan"
+                },
+                {
+                    "authorId": "2289271747",
+                    "name": "Sameena Shah"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e7a0b409a900dfc086f4cd0d405f10e8272023c7",
+            "title": "How Effective Are Neural Networks for Fixing Security Vulnerabilities",
+            "url": "https://www.semanticscholar.org/paper/e7a0b409a900dfc086f4cd0d405f10e8272023c7",
+            "venue": "",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2006136724",
+                    "name": "Tam\u00e1s Aladics"
+                },
+                {
+                    "authorId": "2076092",
+                    "name": "P\u00e9ter Heged\u00fcs"
+                },
+                {
+                    "authorId": "3172077",
+                    "name": "R. Ferenc"
+                }
+            ],
+            "doi": "10.5220/0011275200003266",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "efb90e4774f4904af0a1c55b6b4b7fc7e22abc70",
+            "title": "A Vulnerability Introducing Commit Dataset for Java: An Improved SZZ based Approach",
+            "url": "https://www.semanticscholar.org/paper/efb90e4774f4904af0a1c55b6b4b7fc7e22abc70",
+            "venue": "ICSOFT",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "88acc073815889284cafa90ee0133d8539b1b52e",
+            "title": "B EYOND SYNTAX TREES : LEARNING EMBEDDINGS OF CODE EDITS BY COMBINING MULTIPLE SOURCE REP - RESENTATIONS",
+            "url": "https://www.semanticscholar.org/paper/88acc073815889284cafa90ee0133d8539b1b52e",
+            "venue": "",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2205305998",
+                    "name": "Andrea Stefanoni"
+                },
+                {
+                    "authorId": "69947993",
+                    "name": "Sarunas Girdzijauskas"
+                },
+                {
+                    "authorId": "2205309228",
+                    "name": "Christina Jenkins"
+                },
+                {
+                    "authorId": "32612989",
+                    "name": "Zekarias T. Kefato"
+                },
+                {
+                    "authorId": "1730958",
+                    "name": "L. Sbattella"
+                },
+                {
+                    "authorId": "2053857707",
+                    "name": "Vincenzo Scotti"
+                },
+                {
+                    "authorId": "1799401796",
+                    "name": "Emil W\u00e5reus"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "e4a638bd3befb508f5ec26721650cddb3ceaf4aa",
+            "title": "Detecting Security Patches in Java Projects Using NLP Technology",
+            "url": "https://www.semanticscholar.org/paper/e4a638bd3befb508f5ec26721650cddb3ceaf4aa",
+            "venue": "ICNLSP",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2117074753",
+                    "name": "Song Wang"
+                },
+                {
+                    "authorId": "1693689",
+                    "name": "Nachiappan Nagappan"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2ad1c9ae97fd24e2819a1008d7c8f7fb20a79cf7",
+            "title": "Mining and Building Software Developer Networks for Characterizing and Understanding Security Development",
+            "url": "https://www.semanticscholar.org/paper/2ad1c9ae97fd24e2819a1008d7c8f7fb20a79cf7",
+            "venue": "",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2140046195",
+                    "name": "Jian Yi David Lee"
+                },
+                {
+                    "authorId": "3024630",
+                    "name": "Hai Leong Chieu"
+                }
+            ],
+            "doi": "10.18653/v1/2021.wnut-1.43",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b410df16a1957d5aab1d3571659693808eead455",
+            "title": "Co-training for Commit Classification",
+            "url": "https://www.semanticscholar.org/paper/b410df16a1957d5aab1d3571659693808eead455",
+            "venue": "WNUT",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2257379657",
+                    "name": "Congying Xu"
+                },
+                {
+                    "authorId": "144943089",
+                    "name": "Bihuan Chen"
+                },
+                {
+                    "authorId": "2257179687",
+                    "name": "Chenhao Lu"
+                },
+                {
+                    "authorId": "11360887",
+                    "name": "Kaifeng Huang"
+                },
+                {
+                    "authorId": "2152488627",
+                    "name": "Xin Peng"
+                },
+                {
+                    "authorId": "2152799257",
+                    "name": "Yang Liu"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "169bd84bbcb588990bd3525d0a8ac4fbfedad9bb",
+            "title": "TRACER: Finding Patches for Open Source Software Vulnerabilities",
+            "url": "https://www.semanticscholar.org/paper/169bd84bbcb588990bd3525d0a8ac4fbfedad9bb",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2445447",
+                    "name": "S. Tate"
+                },
+                {
+                    "authorId": "1900918533",
+                    "name": "Moulika Bollinadi"
+                },
+                {
+                    "authorId": "2109011537",
+                    "name": "Joshua Moore"
+                }
+            ],
+            "doi": "10.18293/SEKE2020-033",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "837b8cae686b9592f65b79d210d670682c3b6995",
+            "title": "Characterizing Vulnerabilities in a Major Linux Distribution",
+            "url": "https://www.semanticscholar.org/paper/837b8cae686b9592f65b79d210d670682c3b6995",
+            "venue": "SEKE",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2268423278",
+                    "name": "Zhan Qi"
+                },
+                {
+                    "authorId": "2268431375",
+                    "name": "Sheng-Yi Pan"
+                },
+                {
+                    "authorId": "2268426017",
+                    "name": "HU Xing"
+                },
+                {
+                    "authorId": "2268426666",
+                    "name": "Ling-Feng Bao"
+                },
+                {
+                    "authorId": "2268424823",
+                    "name": "Xia Xin"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e5bc4b6a16ed1390b0d078d4b1aff857d1ebc732",
+            "title": "Survey on Vulnerability Awareness of Open Source Software",
+            "url": "https://www.semanticscholar.org/paper/e5bc4b6a16ed1390b0d078d4b1aff857d1ebc732",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2186337473",
+                    "name": "Mohammad Mahdi Abdollahpour"
+                },
+                {
+                    "authorId": "2320371471",
+                    "name": "Jens Dietrich"
+                },
+                {
+                    "authorId": "2320362452",
+                    "name": "\u2021. PatrickLam"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a5f3dfd48d17ed1713e55091cf1c20254ac71181",
+            "title": "Enhancing Security through Modularization: A Counterfactual Analysis of Vulnerability Propagation and Detection Precision",
+            "url": "https://www.semanticscholar.org/paper/a5f3dfd48d17ed1713e55091cf1c20254ac71181",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "corpusId": 59608838,
+    "doi": "10.1109/MSR.2019.00064",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 14,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 104,
+    "numCiting": 9,
+    "paperId": "1abbaa1dec355d99291d151845e5aa568af46b1c",
+    "references": [
+        {
+            "arxivId": "1808.09753",
+            "authors": [
+                {
+                    "authorId": "34266092",
+                    "name": "Ivan Pashchenko"
+                },
+                {
+                    "authorId": "3283588",
+                    "name": "H. Plate"
+                },
+                {
+                    "authorId": "2005211",
+                    "name": "Serena Elisa Ponta"
+                },
+                {
+                    "authorId": "1737833",
+                    "name": "A. Sabetta"
+                },
+                {
+                    "authorId": "1746220",
+                    "name": "F. Massacci"
+                }
+            ],
+            "doi": "10.1145/3239235.3268920",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c30800e9d5ab3296c593b43baee1b1824e887df7",
+            "title": "Vulnerable open source dependencies: counting those that matter",
+            "url": "https://www.semanticscholar.org/paper/c30800e9d5ab3296c593b43baee1b1824e887df7",
+            "venue": "ESEM",
+            "year": 2018
+        },
+        {
+            "arxivId": "1807.02458",
+            "authors": [
+                {
+                    "authorId": "1737833",
+                    "name": "A. Sabetta"
+                },
+                {
+                    "authorId": "34876221",
+                    "name": "M. Bezzi"
+                }
+            ],
+            "doi": "10.1109/ICSME.2018.00058",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "80592ad12d3ed6f274823c7ed9a17b154cb319fd",
+            "title": "A Practical Approach to the Automatic Classification of Security-Relevant Commits",
+            "url": "https://www.semanticscholar.org/paper/80592ad12d3ed6f274823c7ed9a17b154cb319fd",
+            "venue": "2018 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2018
+        },
+        {
+            "arxivId": "1806.05893",
+            "authors": [
+                {
+                    "authorId": "2005211",
+                    "name": "Serena Elisa Ponta"
+                },
+                {
+                    "authorId": "3283588",
+                    "name": "H. Plate"
+                },
+                {
+                    "authorId": "1737833",
+                    "name": "A. Sabetta"
+                }
+            ],
+            "doi": "10.1109/ICSME.2018.00054",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3d2f956f885dbe4807c74097180d7955a42e0aa9",
+            "title": "Beyond Metadata: Code-Centric and Usage-Based Analysis of Known Vulnerabilities in Open-Source Software",
+            "url": "https://www.semanticscholar.org/paper/3d2f956f885dbe4807c74097180d7955a42e0aa9",
+            "venue": "2018 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2647473",
+                    "name": "Antonios Gkortzis"
+                },
+                {
+                    "authorId": "7498035",
+                    "name": "Dimitris Mitropoulos"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1145/3196398.3196454",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "337fd6a9824cc1c4f8b81fa34cdc198dc733e2d3",
+            "title": "VulinOSS: A Dataset of Security Vulnerabilities in Open-Source Systems",
+            "url": "https://www.semanticscholar.org/paper/337fd6a9824cc1c4f8b81fa34cdc198dc733e2d3",
+            "venue": "2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR)",
+            "year": 2018
+        },
+        {
+            "arxivId": "1709.06182",
+            "authors": [
+                {
+                    "authorId": "3216345",
+                    "name": "Miltiadis Allamanis"
+                },
+                {
+                    "authorId": "1757975",
+                    "name": "Earl T. Barr"
+                },
+                {
+                    "authorId": "1730296",
+                    "name": "Premkumar T. Devanbu"
+                },
+                {
+                    "authorId": "37210858",
+                    "name": "Charles Sutton"
+                }
+            ],
+            "doi": "10.1145/3212695",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "960ba564e9e598d864dff38d2f3d0bad1b319ead",
+            "title": "A Survey of Machine Learning for Big Code and Naturalness",
+            "url": "https://www.semanticscholar.org/paper/960ba564e9e598d864dff38d2f3d0bad1b319ead",
+            "venue": "ACM Comput. Surv.",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2110347097",
+                    "name": "Yaqin Zhou"
+                },
+                {
+                    "authorId": "39117273",
+                    "name": "Asankhaya Sharma"
+                }
+            ],
+            "doi": "10.1145/3106237.3117771",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "89c6a8c77284e2453efbd3f4c5f494f7b693cb6a",
+            "title": "Automated identification of security issues from commit messages and bug reports",
+            "url": "https://www.semanticscholar.org/paper/89c6a8c77284e2453efbd3f4c5f494f7b693cb6a",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2822996",
+                    "name": "H. Perl"
+                },
+                {
+                    "authorId": "1930390",
+                    "name": "Sergej Dechand"
+                },
+                {
+                    "authorId": "2110170092",
+                    "name": "Matthew Smith"
+                },
+                {
+                    "authorId": "79405068",
+                    "name": "Dan Arp"
+                },
+                {
+                    "authorId": "2944486",
+                    "name": "Fabian Yamaguchi"
+                },
+                {
+                    "authorId": "144825749",
+                    "name": "Konrad Rieck"
+                },
+                {
+                    "authorId": "2200198",
+                    "name": "S. Fahl"
+                },
+                {
+                    "authorId": "3224778",
+                    "name": "Y. Acar"
+                }
+            ],
+            "doi": "10.1145/2810103.2813604",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2feccf0992285a8d9d5b5480785d34358f5a8918",
+            "title": "VCCFinder: Finding Potential Vulnerabilities in Open-Source Projects to Assist Code Audits",
+            "url": "https://www.semanticscholar.org/paper/2feccf0992285a8d9d5b5480785d34358f5a8918",
+            "venue": "CCS",
+            "year": 2015
+        },
+        {
+            "arxivId": "1504.04971",
+            "authors": [
+                {
+                    "authorId": "3283588",
+                    "name": "H. Plate"
+                },
+                {
+                    "authorId": "2005211",
+                    "name": "Serena Elisa Ponta"
+                },
+                {
+                    "authorId": "1737833",
+                    "name": "A. Sabetta"
+                }
+            ],
+            "doi": "10.1109/ICSM.2015.7332492",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "b250ee0b8ce4631ea5cfd83a036883cc963eddce",
+            "title": "Impact assessment for vulnerabilities in open-source software libraries",
+            "url": "https://www.semanticscholar.org/paper/b250ee0b8ce4631ea5cfd83a036883cc963eddce",
+            "venue": "2015 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1730296",
+                    "name": "Premkumar T. Devanbu"
+                }
+            ],
+            "doi": "10.1109/ICSE.2012.6227135",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "77bdb4c1117d72ad863845f35ba50929cb623776",
+            "title": "On the naturalness of software",
+            "url": "https://www.semanticscholar.org/paper/77bdb4c1117d72ad863845f35ba50929cb623776",
+            "venue": "2012 34th International Conference on Software Engineering (ICSE)",
+            "year": 2012
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "A Manually-Curated Dataset of Fixes to Vulnerabilities of Open-Source Software",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/1abbaa1dec355d99291d151845e5aa568af46b1c",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2019
+}

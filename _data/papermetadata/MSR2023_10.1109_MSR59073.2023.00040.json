@@ -1,0 +1,815 @@
+{
+    "abstract": "We present HasBugs, an extensible and manually-curated dataset of real-world 25 Haskell Bugs from 6 open source repositories. We provide a faulty, tested, and fixed version of each bug in our dataset with reproduction packages, description, and bug context. For technical users, the dataset is meant to either help researchers adapt techniques from other programming languages to Haskell or to provide a human-verified gold standard for tools evaluation and enable future reproducibility. We also see applicability for qualitative research, e.g., by analysis of bug lifecycles and comparison to other languages. We provide a companion website for easy access and overview under https://ciselab.github.io/HasBugs/.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "1418132255",
+            "name": "Leonhard Applis",
+            "url": "https://www.semanticscholar.org/author/1418132255"
+        },
+        {
+            "authorId": "3013302",
+            "name": "Annibale Panichella",
+            "url": "https://www.semanticscholar.org/author/3013302"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2405.05541",
+            "authors": [
+                {
+                    "authorId": "2300370621",
+                    "name": "Philip Oliver"
+                },
+                {
+                    "authorId": "2300371031",
+                    "name": "Jens Dietrich"
+                },
+                {
+                    "authorId": "1741672",
+                    "name": "C. Anslow"
+                },
+                {
+                    "authorId": "2239110364",
+                    "name": "Michael Homer"
+                }
+            ],
+            "doi": "10.1145/3643991.3644912",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "aee4ae2631ef612458fead210ce214b3ffb1d6dd",
+            "title": "CrashJS: A NodeJS Benchmark for Automated Crash Reproduction",
+            "url": "https://www.semanticscholar.org/paper/aee4ae2631ef612458fead210ce214b3ffb1d6dd",
+            "venue": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+            "year": 2024
+        }
+    ],
+    "corpusId": 259835897,
+    "doi": "10.1109/MSR59073.2023.00040",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 1,
+    "numCiting": 26,
+    "paperId": "e5de06040789b619450ec3d8003bea6a7883b34f",
+    "references": [
+        {
+            "arxivId": "2108.04455",
+            "authors": [
+                {
+                    "authorId": "144712289",
+                    "name": "Gabin An"
+                },
+                {
+                    "authorId": "2118110297",
+                    "name": "Juyeon Yoon"
+                },
+                {
+                    "authorId": "143828721",
+                    "name": "S. Yoo"
+                }
+            ],
+            "doi": "10.1007/978-3-030-88106-1_11",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "13697ba6c68a1e9f4a56e82b42363b74a83e0564",
+            "title": "Searching for Multi-Fault Programs in Defects4J",
+            "url": "https://www.semanticscholar.org/paper/13697ba6c68a1e9f4a56e82b42363b74a83e0564",
+            "venue": "SSBSE",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.09604",
+            "authors": [
+                {
+                    "authorId": "1975033603",
+                    "name": "Bal\u00e1zs Mosolyg\u00f3"
+                },
+                {
+                    "authorId": "1975081712",
+                    "name": "Norbert V\u00e1ndor"
+                },
+                {
+                    "authorId": "50448100",
+                    "name": "G\u00e1bor Antal"
+                },
+                {
+                    "authorId": "2076092",
+                    "name": "P\u00e9ter Heged\u00fcs"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00061",
+            "intent": [
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "cfaafa1a064a34216b1d39d6d81538113a968c98",
+            "title": "On the Rise and Fall of Simple Stupid Bugs: a Life-Cycle Analysis of SStuBs",
+            "url": "https://www.semanticscholar.org/paper/cfaafa1a064a34216b1d39d6d81538113a968c98",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144401763",
+                    "name": "A. Zakari"
+                },
+                {
+                    "authorId": "1459934440",
+                    "name": "S. Lee"
+                },
+                {
+                    "authorId": "144837389",
+                    "name": "Rui Abreu"
+                },
+                {
+                    "authorId": "1515093570",
+                    "name": "B. Ahmed"
+                },
+                {
+                    "authorId": "153199118",
+                    "name": "Rasheed Abubakar Rasheed"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2020.106312",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "58a3fa3fb38f5b8deec5a0c2dfeeee6926517959",
+            "title": "Multiple fault localization of software programs: A systematic literature review",
+            "url": "https://www.semanticscholar.org/paper/58a3fa3fb38f5b8deec5a0c2dfeeee6926517959",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2020
+        },
+        {
+            "arxivId": "1911.08938",
+            "authors": [
+                {
+                    "authorId": "3063461",
+                    "name": "Steffen Herbold"
+                },
+                {
+                    "authorId": "8058979",
+                    "name": "Alexander Trautsch"
+                },
+                {
+                    "authorId": "2940915",
+                    "name": "Fabian Trautsch"
+                },
+                {
+                    "authorId": "1477285159",
+                    "name": "Benjamin Ledel"
+                }
+            ],
+            "doi": "10.1007/s10664-021-10092-4",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0e61c50103e1bc1de9417304ebb06c1fb504c080",
+            "title": "Problems with SZZ and features: An empirical study of the state of practice of defect prediction data collection",
+            "url": "https://www.semanticscholar.org/paper/0e61c50103e1bc1de9417304ebb06c1fb504c080",
+            "venue": "Empir. Softw. Eng.",
+            "year": 2019
+        },
+        {
+            "arxivId": "1905.13334",
+            "authors": [
+                {
+                    "authorId": "3466166",
+                    "name": "Rafael-Michael Karampatsis"
+                },
+                {
+                    "authorId": "37210858",
+                    "name": "Charles Sutton"
+                }
+            ],
+            "doi": "10.1145/3379597.3387491",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a14ef6eee732a0d66a6c534d4e696e36767332d7",
+            "title": "How Often Do Single-Statement Bugs Occur? The ManySStuBs4J Dataset",
+            "url": "https://www.semanticscholar.org/paper/a14ef6eee732a0d66a6c534d4e696e36767332d7",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": "1905.11973",
+            "authors": [
+                {
+                    "authorId": "1882033",
+                    "name": "Thomas Durieux"
+                },
+                {
+                    "authorId": "2297740",
+                    "name": "Fernanda Madeiral Delfim"
+                },
+                {
+                    "authorId": "37368749",
+                    "name": "Matias Martinez"
+                },
+                {
+                    "authorId": "144837389",
+                    "name": "Rui Abreu"
+                }
+            ],
+            "doi": "10.1145/3338906.3338911",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "18372e40dbe61bde47017a31bebb195619bfbf2e",
+            "title": "Empirical review of Java program repair tools: a large-scale experiment on 2,141 bugs and 23,551 repair attempts",
+            "url": "https://www.semanticscholar.org/paper/18372e40dbe61bde47017a31bebb195619bfbf2e",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2019
+        },
+        {
+            "arxivId": "1903.06725",
+            "authors": [
+                {
+                    "authorId": "1388822043",
+                    "name": "Naji Dmeiri"
+                },
+                {
+                    "authorId": "83719588",
+                    "name": "David A. Tomassi"
+                },
+                {
+                    "authorId": "2116641420",
+                    "name": "Yichen Wang"
+                },
+                {
+                    "authorId": "87436956",
+                    "name": "Antara Bhowmick"
+                },
+                {
+                    "authorId": "1604960321",
+                    "name": "Yen-Chuan Liu"
+                },
+                {
+                    "authorId": "1730296",
+                    "name": "Premkumar T. Devanbu"
+                },
+                {
+                    "authorId": "2434621",
+                    "name": "Bogdan Vasilescu"
+                },
+                {
+                    "authorId": "2058009148",
+                    "name": "Cindy Rubio-Gonz'alez"
+                }
+            ],
+            "doi": "10.1109/ICSE.2019.00048",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b549f387e582816ae507c69baabc6a11f78d9965",
+            "title": "BugSwarm: Mining and Continuously Growing a Dataset of Reproducible Failures and Fixes",
+            "url": "https://www.semanticscholar.org/paper/b549f387e582816ae507c69baabc6a11f78d9965",
+            "venue": "2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1403723810",
+                    "name": "Gema Rodr\u00edguez-P\u00e9rez"
+                },
+                {
+                    "authorId": "143684601",
+                    "name": "G. Robles"
+                },
+                {
+                    "authorId": "1397826059",
+                    "name": "Jesus M. Gonzalez-Barahona"
+                }
+            ],
+            "doi": "10.1016/J.INFSOF.2018.03.009",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "cf8bfcb20fe96aec32b3f12e00b9ed2eb13fb023",
+            "title": "Reproducibility and credibility in empirical software engineering: A case study based on a systematic literature review of the use of the SZZ algorithm",
+            "url": "https://www.semanticscholar.org/paper/cf8bfcb20fe96aec32b3f12e00b9ed2eb13fb023",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3013302",
+                    "name": "Annibale Panichella"
+                },
+                {
+                    "authorId": "2685462",
+                    "name": "Fitsum Meshesha Kifetew"
+                },
+                {
+                    "authorId": "1769017",
+                    "name": "P. Tonella"
+                }
+            ],
+            "doi": "10.1109/TSE.2017.2663435",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0943d656221144bf063a538f6c667ac006c303cd",
+            "title": "Automated Test Case Generation as a Many-Objective Optimisation Problem with Dynamic Selection of the Targets",
+            "url": "https://www.semanticscholar.org/paper/0943d656221144bf063a538f6c667ac006c303cd",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2018
+        },
+        {
+            "arxivId": "1801.06393",
+            "authors": [
+                {
+                    "authorId": "2096843539",
+                    "name": "Victor Sobreira"
+                },
+                {
+                    "authorId": "1882033",
+                    "name": "Thomas Durieux"
+                },
+                {
+                    "authorId": "2297740",
+                    "name": "Fernanda Madeiral Delfim"
+                },
+                {
+                    "authorId": "150220964",
+                    "name": "Monperrus Martin"
+                },
+                {
+                    "authorId": "2018487",
+                    "name": "M. Maia"
+                }
+            ],
+            "doi": "10.1109/SANER.2018.8330203",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "3ed7dd0a31bd06a622cf958d31da81f827f9d10c",
+            "title": "Dissection of a bug dataset: Anatomy of 395 patches from Defects4J",
+            "url": "https://www.semanticscholar.org/paper/3ed7dd0a31bd06a622cf958d31da81f827f9d10c",
+            "venue": "2018 IEEE 25th International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2018
+        },
+        {
+            "arxivId": "1705.10692",
+            "authors": [
+                {
+                    "authorId": "8428291",
+                    "name": "Benjamin Danglot"
+                },
+                {
+                    "authorId": "1399417577",
+                    "name": "O. Vera-P\u00e9rez"
+                },
+                {
+                    "authorId": "2354569",
+                    "name": "Zhongxing Yu"
+                },
+                {
+                    "authorId": "1702285",
+                    "name": "A. Zaidman"
+                },
+                {
+                    "authorId": "150220964",
+                    "name": "Monperrus Martin"
+                },
+                {
+                    "authorId": "1730420",
+                    "name": "B. Baudry"
+                }
+            ],
+            "doi": "10.1016/j.jss.2019.110398",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d3b4a24c753718b8cd24b7e7b59e576340f1907d",
+            "title": "A snowballing literature study on test amplification",
+            "url": "https://www.semanticscholar.org/paper/d3b4a24c753718b8cd24b7e7b59e576340f1907d",
+            "venue": "J. Syst. Softw.",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2894435",
+                    "name": "M. Almasi"
+                },
+                {
+                    "authorId": "1857838",
+                    "name": "H. Hemmati"
+                },
+                {
+                    "authorId": "145507591",
+                    "name": "G. Fraser"
+                },
+                {
+                    "authorId": "1803468",
+                    "name": "Andrea Arcuri"
+                },
+                {
+                    "authorId": "2745908",
+                    "name": "Janis Benefelds"
+                }
+            ],
+            "doi": "10.1109/ICSE-SEIP.2017.27",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b08642a12f8cf4638bcf3877ecfc92581099d113",
+            "title": "An Industrial Evaluation of Unit Test Generation: Finding Real Faults in a Financial Application",
+            "url": "https://www.semanticscholar.org/paper/b08642a12f8cf4638bcf3877ecfc92581099d113",
+            "venue": "2017 IEEE/ACM 39th International Conference on Software Engineering: Software Engineering in Practice Track (ICSE-SEIP)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145793708",
+                    "name": "W. E. Wong"
+                },
+                {
+                    "authorId": "144822432",
+                    "name": "Ruizhi Gao"
+                },
+                {
+                    "authorId": "121704356",
+                    "name": "Yihao Li"
+                },
+                {
+                    "authorId": "144837389",
+                    "name": "Rui Abreu"
+                },
+                {
+                    "authorId": "1743138",
+                    "name": "F. Wotawa"
+                }
+            ],
+            "doi": "10.1109/TSE.2016.2521368",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "be0ed514aa9afa080e2fbc51a88d21543580179d",
+            "title": "A Survey on Software Fault Localization",
+            "url": "https://www.semanticscholar.org/paper/be0ed514aa9afa080e2fbc51a88d21543580179d",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "37368749",
+                    "name": "Matias Martinez"
+                },
+                {
+                    "authorId": "150220964",
+                    "name": "Monperrus Martin"
+                }
+            ],
+            "doi": "10.1145/2931037.2948705",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "feabe0fbb48f740e2251f6173a0949caac81a0c0",
+            "title": "ASTOR: a program repair library for Java (demo)",
+            "url": "https://www.semanticscholar.org/paper/feabe0fbb48f740e2251f6173a0949caac81a0c0",
+            "venue": "ISSTA",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2658689",
+                    "name": "Zichao Qi"
+                },
+                {
+                    "authorId": "37693118",
+                    "name": "Fan Long"
+                },
+                {
+                    "authorId": "32475290",
+                    "name": "Sara Achour"
+                },
+                {
+                    "authorId": "1720971",
+                    "name": "M. Rinard"
+                }
+            ],
+            "doi": "10.1145/2771783.2771791",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "193136b86539bd6df3f57a3685629c049a037418",
+            "title": "An analysis of patch plausibility and correctness for generate-and-validate patch generation systems",
+            "url": "https://www.semanticscholar.org/paper/193136b86539bd6df3f57a3685629c049a037418",
+            "venue": "ISSTA",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2707595",
+                    "name": "Ren\u00e9 Just"
+                },
+                {
+                    "authorId": "2728496",
+                    "name": "D. Jalali"
+                },
+                {
+                    "authorId": "6698059",
+                    "name": "Michael D. Ernst"
+                }
+            ],
+            "doi": "10.1145/2610384.2628055",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "37e2106bebd02f4ac9c410941fde7f358279e4a4",
+            "title": "Defects4J: a database of existing faults to enable controlled testing studies for Java programs",
+            "url": "https://www.semanticscholar.org/paper/37e2106bebd02f4ac9c410941fde7f358279e4a4",
+            "venue": "ISSTA 2014",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "33209907",
+                    "name": "Saswat Anand"
+                },
+                {
+                    "authorId": "1741789",
+                    "name": "E. Burke"
+                },
+                {
+                    "authorId": "144587401",
+                    "name": "T. Chen"
+                },
+                {
+                    "authorId": "144901926",
+                    "name": "John A. Clark"
+                },
+                {
+                    "authorId": "2111280798",
+                    "name": "Myra B. Cohen"
+                },
+                {
+                    "authorId": "1718871",
+                    "name": "W. Grieskamp"
+                },
+                {
+                    "authorId": "145836176",
+                    "name": "M. Harman"
+                },
+                {
+                    "authorId": "4933686",
+                    "name": "M. J. Harrold"
+                },
+                {
+                    "authorId": "3033824",
+                    "name": "Phil McMinn"
+                }
+            ],
+            "doi": "10.1016/j.jss.2013.02.061",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1fab8830baef8f353dce995c0269a32fd3105f64",
+            "title": "An orchestrated survey of methodologies for automated software test case generation",
+            "url": "https://www.semanticscholar.org/paper/1fab8830baef8f353dce995c0269a32fd3105f64",
+            "venue": "J. Syst. Softw.",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143828721",
+                    "name": "S. Yoo"
+                },
+                {
+                    "authorId": "145836176",
+                    "name": "M. Harman"
+                }
+            ],
+            "doi": "10.1002/stvr.430",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "34811b5b64c7b5b228d1dd12735a8a8b09bd357e",
+            "title": "Regression testing minimization, selection and prioritization: a survey",
+            "url": "https://www.semanticscholar.org/paper/34811b5b64c7b5b228d1dd12735a8a8b09bd357e",
+            "venue": "Softw. Test. Verification Reliab.",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143754832",
+                    "name": "Sebastian G. Elbaum"
+                },
+                {
+                    "authorId": "2616508",
+                    "name": "H. Chin"
+                },
+                {
+                    "authorId": "145738070",
+                    "name": "Matthew B. Dwyer"
+                },
+                {
+                    "authorId": "1911476",
+                    "name": "Jonathan Dokulil"
+                }
+            ],
+            "doi": "10.1145/1181775.1181806",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "52937e42955c28a654d23762f085e7ca0cd37fcb",
+            "title": "Carving differential unit test cases from system test cases",
+            "url": "https://www.semanticscholar.org/paper/52937e42955c28a654d23762f085e7ca0cd37fcb",
+            "venue": "SIGSOFT '06/FSE-14",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2460404",
+                    "name": "Jacek Sliwerski"
+                },
+                {
+                    "authorId": "143609903",
+                    "name": "Thomas Zimmermann"
+                },
+                {
+                    "authorId": "145594351",
+                    "name": "A. Zeller"
+                }
+            ],
+            "doi": "10.1145/1082983.1083147",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9784038a293df294d955c0edd72ee37a4bfe8705",
+            "title": "When do changes induce fixes?",
+            "url": "https://www.semanticscholar.org/paper/9784038a293df294d955c0edd72ee37a4bfe8705",
+            "venue": "ACM SIGSOFT Softw. Eng. Notes",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3033824",
+                    "name": "Phil McMinn"
+                }
+            ],
+            "doi": "10.1002/stvr.294",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "dad0ae85f7a2cfbff1d44098347f6c00f90f8a9a",
+            "title": "Search\u2010based software test data generation: a survey",
+            "url": "https://www.semanticscholar.org/paper/dad0ae85f7a2cfbff1d44098347f6c00f90f8a9a",
+            "venue": "Softw. Test. Verification Reliab.",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Searching for multi - fault programs in defects 4 j , \u201d in Search - Based Software Engineering , U . - M . O \u2019 Reilly and X . Devroey",
+            "url": "",
+            "venue": "",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2957803",
+                    "name": "Claire Le Goues"
+                },
+                {
+                    "authorId": "1810147",
+                    "name": "Thanhvu Nguyen"
+                },
+                {
+                    "authorId": "30123380",
+                    "name": "S. Forrest"
+                },
+                {
+                    "authorId": "47211092",
+                    "name": "Westley Weimer"
+                }
+            ],
+            "doi": "10.1109/TSE.2011.104",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3aa35c213730e688fa191a1ce241db31087956f0",
+            "title": "GenProg: A Generic Method for Automatic Software Repair",
+            "url": "https://www.semanticscholar.org/paper/3aa35c213730e688fa191a1ce241db31087956f0",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Rich context information",
+            "url": "",
+            "venue": "linking source code and GitHub",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Multi-point fault-locations, test-patches and 3-stage-versions (faulty, tested & \ufb01xed)",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "license agreement with IEEE. Restrictions apply",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "HasBugs - Handpicked Haskell Bugs",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/e5de06040789b619450ec3d8003bea6a7883b34f",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2023
+}

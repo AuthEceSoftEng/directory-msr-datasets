@@ -1,0 +1,630 @@
+{
+    "abstract": "The Metrics Grimoire system is composed by a set of tools designed to retrieve data from repositories related to software development. Their aim is to produce organized databases suitable for easy querying with research and industrial purposes. The data in those databases have a similar structure, to easy cross-database studies, and can be enriched with information such as linkage of the multiple identities of actors, or their affiliation. This paper presents the general structure of those databases, and a collection of up-to-date database dumps that are publicly available. They correspond to two well-known projects, Open Stack, and Eclipse, including data from source code management repositories, issue tracking systems, mailing lists, and code review systems.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "1397826059",
+            "name": "Jesus M. Gonzalez-Barahona",
+            "url": "https://www.semanticscholar.org/author/1397826059"
+        },
+        {
+            "authorId": "143684601",
+            "name": "G. Robles",
+            "url": "https://www.semanticscholar.org/author/143684601"
+        },
+        {
+            "authorId": "1384382015",
+            "name": "Daniel Izquierdo-Cortazar",
+            "url": "https://www.semanticscholar.org/author/1384382015"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "14914365",
+                    "name": "I. Bardhan"
+                },
+                {
+                    "authorId": "34074917",
+                    "name": "Subhajit Datta"
+                },
+                {
+                    "authorId": "145042312",
+                    "name": "S. Majumder"
+                }
+            ],
+            "doi": "10.1109/APSEC53868.2021.00048",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "a28f53fae84be780731b5b17692f150a20079871",
+            "title": "Degree doesn't Matter: Identifying the Drivers of Interaction in Software Development Ecosystems",
+            "url": "https://www.semanticscholar.org/paper/a28f53fae84be780731b5b17692f150a20079871",
+            "venue": "2021 28th Asia-Pacific Software Engineering Conference (APSEC)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1754291",
+                    "name": "N. Gold"
+                },
+                {
+                    "authorId": "1824150",
+                    "name": "J. Krinke"
+                }
+            ],
+            "doi": "10.1007/s10664-021-10057-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8a7ab081a35f9f7336c60d6cf1c6a9627e8c71e1",
+            "title": "Ethics in the mining of software repositories",
+            "url": "https://www.semanticscholar.org/paper/8a7ab081a35f9f7336c60d6cf1c6a9627e8c71e1",
+            "venue": "Empirical Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144125116",
+                    "name": "Santiago Due\u00f1as"
+                },
+                {
+                    "authorId": "34820138",
+                    "name": "Valerio Cosentino"
+                },
+                {
+                    "authorId": "1397826059",
+                    "name": "Jesus M. Gonzalez-Barahona"
+                },
+                {
+                    "authorId": "2120374921",
+                    "name": "Alvaro del Castillo San Felix"
+                },
+                {
+                    "authorId": "1384382015",
+                    "name": "Daniel Izquierdo-Cortazar"
+                },
+                {
+                    "authorId": "2120340149",
+                    "name": "Luis Ca\u00f1as-D\u00edaz"
+                },
+                {
+                    "authorId": "2120359686",
+                    "name": "Alberto P\u00e9rez Garc\u00eda-Plaza"
+                }
+            ],
+            "doi": "10.7717/peerj-cs.601",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7e383ddd9aaecc4c700f47ad824f4dfb711e5c14",
+            "title": "GrimoireLab: A toolset for software development analytics",
+            "url": "https://www.semanticscholar.org/paper/7e383ddd9aaecc4c700f47ad824f4dfb711e5c14",
+            "venue": "PeerJ Comput. Sci.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.11339",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "145310968",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00022",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6292534df173d295c8ffe489134c81593a2f7592",
+            "title": "Escaping the Time Pit: Pitfalls and Guidelines for Using Time-Based Git Data",
+            "url": "https://www.semanticscholar.org/paper/6292534df173d295c8ffe489134c81593a2f7592",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34074917",
+                    "name": "Subhajit Datta"
+                },
+                {
+                    "authorId": "66815893",
+                    "name": "Reshma Roychoudhuri"
+                },
+                {
+                    "authorId": "145042312",
+                    "name": "S. Majumder"
+                }
+            ],
+            "doi": "10.1002/smr.2317",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6e73d303d2e565fc581632fd8162d9a3774eab02",
+            "title": "Understanding the relation between repeat developer interactions and bug resolution times in large open source ecosystems: A multisystem study",
+            "url": "https://www.semanticscholar.org/paper/6e73d303d2e565fc581632fd8162d9a3774eab02",
+            "venue": "J. Softw. Evol. Process.",
+            "year": 2020
+        },
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00085",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "43148fabe2636026e07ca04974aff40d204bfb6b",
+            "title": "Standing on Shoulders or Feet? The Usage of the MSR Data Papers",
+            "url": "https://www.semanticscholar.org/paper/43148fabe2636026e07ca04974aff40d204bfb6b",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2436060",
+                    "name": "J. Mengerink"
+                },
+                {
+                    "authorId": "1747171",
+                    "name": "Alexander Serebrenik"
+                },
+                {
+                    "authorId": "1719856",
+                    "name": "R. Schiffelers"
+                },
+                {
+                    "authorId": "1718306",
+                    "name": "M. Brand"
+                }
+            ],
+            "doi": "10.1145/3143434.3143442",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "b94b1e83d335068e7136547eaa500f3b0947286f",
+            "title": "Automated analyses of model-driven artifacts: obtaining insights into industrial application of MDE",
+            "url": "https://www.semanticscholar.org/paper/b94b1e83d335068e7136547eaa500f3b0947286f",
+            "venue": "IWSM-Mensura",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3416937",
+                    "name": "Pooya Musavi"
+                },
+                {
+                    "authorId": "143612725",
+                    "name": "Bram Adams"
+                },
+                {
+                    "authorId": "1703493",
+                    "name": "Foutse Khomh"
+                }
+            ],
+            "doi": "10.1109/ISSRE.2016.42",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "d716f068d2a57cb4e05a5f779df5fae90e20be8f",
+            "title": "Experience Report: An Empirical Study of API Failures in OpenStack Cloud Environments",
+            "url": "https://www.semanticscholar.org/paper/d716f068d2a57cb4e05a5f779df5fae90e20be8f",
+            "venue": "2016 IEEE 27th International Symposium on Software Reliability Engineering (ISSRE)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2762093",
+                    "name": "Parastou Tourani"
+                },
+                {
+                    "authorId": "143612725",
+                    "name": "Bram Adams"
+                }
+            ],
+            "doi": "10.1109/SANER.2016.113",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b26ac4578b9e2d05f037ce0776b5e4be053668f2",
+            "title": "The Impact of Human Discussions on Just-in-Time Quality Assurance: An Empirical Study on OpenStack and Eclipse",
+            "url": "https://www.semanticscholar.org/paper/b26ac4578b9e2d05f037ce0776b5e4be053668f2",
+            "venue": "2016 IEEE 23rd International Conference on Software Analysis, Evolution, and Reengineering (SANER)",
+            "year": 2016
+        },
+        {
+            "arxivId": "1603.00696",
+            "authors": [
+                {
+                    "authorId": "1409480191",
+                    "name": "Oscar Hern\u00e1n Paruma-Pab\u00f3n"
+                },
+                {
+                    "authorId": "145580599",
+                    "name": "F. Gonz\u00e1lez"
+                },
+                {
+                    "authorId": "144116604",
+                    "name": "Jairo Aponte"
+                },
+                {
+                    "authorId": "144699760",
+                    "name": "Jorge E. Camargo"
+                },
+                {
+                    "authorId": "2113939922",
+                    "name": "Felipe Restrepo-Calle"
+                }
+            ],
+            "doi": "10.1145/2897586.2897611",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b2ce34c32578ce4f5c2f45ab467b501bd1db43bb",
+            "title": "Finding Relationships between Socio-Technical Aspects and Personality Traits by Mining Developer E-mails",
+            "url": "https://www.semanticscholar.org/paper/b2ce34c32578ce4f5c2f45ab467b501bd1db43bb",
+            "venue": "2016 IEEE/ACM Cooperative and Human Aspects of Software Engineering (CHASE)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "15652407",
+                    "name": "Abel Serrano"
+                },
+                {
+                    "authorId": "38415711",
+                    "name": "J. Arroyo"
+                },
+                {
+                    "authorId": "145920653",
+                    "name": "Samer Hassan"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "7f4f7fc9123b0541bec5203e88a42b8ebc296eee",
+            "title": "Webtool for the Analysis and Visualization of the Evolution of Wiki Online Communities",
+            "url": "https://www.semanticscholar.org/paper/7f4f7fc9123b0541bec5203e88a42b8ebc296eee",
+            "venue": "ECIS",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1410630068",
+                    "name": "Dorealda Dalipaj"
+                },
+                {
+                    "authorId": "2257286488",
+                    "name": "Jes\u00fas M. Gonz\u00e1lez-Barahona"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6a4a4bd49f54fffc1f78f7696ed5f849725131fe",
+            "title": "How long does it take to \ufb01x the code: A case study of OpenStack.",
+            "url": "https://www.semanticscholar.org/paper/6a4a4bd49f54fffc1f78f7696ed5f849725131fe",
+            "venue": "",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "121317553",
+                    "name": "Harsh Lal"
+                },
+                {
+                    "authorId": "8582778",
+                    "name": "Gaurav Pahwa"
+                }
+            ],
+            "doi": "10.1109/ISCO.2017.7855962",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "bdd01333adf7f924d2e958394b65e4d34c02a24c",
+            "title": "Code review analysis of software system using machine learning techniques",
+            "url": "https://www.semanticscholar.org/paper/bdd01333adf7f924d2e958394b65e4d34c02a24c",
+            "venue": "2017 11th International Conference on Intelligent Systems and Control (ISCO)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1401989901",
+                    "name": "Germ\u00e1n Poo-Caama\u00f1o"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "f74e5d0edc60e18d3f541838f91332cf20db6a21",
+            "title": "Release management in free and open source software ecosystems",
+            "url": "https://www.semanticscholar.org/paper/f74e5d0edc60e18d3f541838f91332cf20db6a21",
+            "venue": "",
+            "year": 2016
+        }
+    ],
+    "corpusId": 15490204,
+    "doi": "10.1109/MSR.2015.68",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 3,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 16,
+    "numCiting": 4,
+    "paperId": "3fda4b27a5db72787045410baea91db610fa83fd",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1397826059",
+                    "name": "Jesus M. Gonzalez-Barahona"
+                },
+                {
+                    "authorId": "1384382015",
+                    "name": "Daniel Izquierdo-Cortazar"
+                },
+                {
+                    "authorId": "143684601",
+                    "name": "G. Robles"
+                },
+                {
+                    "authorId": "2054457021",
+                    "name": "Alvaro del Castillo"
+                }
+            ],
+            "doi": "10.14279/tuj.eceasst.0.908",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a5624c6a209a1d7f79da99c2ab39325ed5da0886",
+            "title": "Analyzing Gerrit Code Review Parameters with Bicho",
+            "url": "https://www.semanticscholar.org/paper/a5624c6a209a1d7f79da99c2ab39325ed5da0886",
+            "venue": "Electron. Commun. Eur. Assoc. Softw. Sci. Technol.",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143684601",
+                    "name": "G. Robles"
+                },
+                {
+                    "authorId": "1397826059",
+                    "name": "Jesus M. Gonzalez-Barahona"
+                }
+            ],
+            "doi": "10.1145/1082983.1083162",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f33ee0b62425fc44baa2faaa739983b7327883dc",
+            "title": "Developer identification methods for integrated data from various sources",
+            "url": "https://www.semanticscholar.org/paper/f33ee0b62425fc44baa2faaa739983b7327883dc",
+            "venue": "ACM SIGSOFT Softw. Eng. Notes",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143684601",
+                    "name": "G. Robles"
+                },
+                {
+                    "authorId": "1397826059",
+                    "name": "Jesus M. Gonzalez-Barahona"
+                },
+                {
+                    "authorId": "1384382015",
+                    "name": "Daniel Izquierdo-Cortazar"
+                },
+                {
+                    "authorId": "35197893",
+                    "name": "I. Herraiz"
+                }
+            ],
+            "doi": "10.4018/JOSSP.2009010102",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a08057aad5e1542dc0b4ea31b950917539e79914",
+            "title": "Tools for the Study of the Usual Data Sources found in Libre Software Projects",
+            "url": "https://www.semanticscholar.org/paper/a08057aad5e1542dc0b4ea31b950917539e79914",
+            "venue": "Int. J. Open Source Softw. Process.",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143684601",
+                    "name": "G. Robles"
+                },
+                {
+                    "authorId": "1397826059",
+                    "name": "Jesus M. Gonzalez-Barahona"
+                }
+            ],
+            "doi": "10.1049/IC:20040351",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0325ae3b5bd1e3aa3abf7a509b3a4c42cef50535",
+            "title": "Remote analysis and measurement of libre software systems by means of the CVSAnalY tool",
+            "url": "https://www.semanticscholar.org/paper/0325ae3b5bd1e3aa3abf7a509b3a4c42cef50535",
+            "venue": "ICSE 2004",
+            "year": 2004
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "The MetricsGrimoire Database Collection",
+    "topics": [
+        {
+            "topic": "Software development",
+            "topicId": "78",
+            "url": "https://www.semanticscholar.org/topic/78"
+        },
+        {
+            "topic": "Eclipse",
+            "topicId": "91965",
+            "url": "https://www.semanticscholar.org/topic/91965"
+        },
+        {
+            "topic": "Issue tracking system",
+            "topicId": "364727",
+            "url": "https://www.semanticscholar.org/topic/364727"
+        },
+        {
+            "topic": "Software repository",
+            "topicId": "20774",
+            "url": "https://www.semanticscholar.org/topic/20774"
+        },
+        {
+            "topic": "Version control",
+            "topicId": "15717",
+            "url": "https://www.semanticscholar.org/topic/15717"
+        },
+        {
+            "topic": "Database dump",
+            "topicId": "989733",
+            "url": "https://www.semanticscholar.org/topic/989733"
+        },
+        {
+            "topic": "Linkage (software)",
+            "topicId": "355",
+            "url": "https://www.semanticscholar.org/topic/355"
+        }
+    ],
+    "url": "https://www.semanticscholar.org/paper/3fda4b27a5db72787045410baea91db610fa83fd",
+    "venue": "2015 IEEE/ACM 12th Working Conference on Mining Software Repositories",
+    "year": 2015
+}

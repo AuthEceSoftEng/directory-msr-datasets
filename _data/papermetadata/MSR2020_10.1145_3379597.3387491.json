@@ -1,0 +1,4643 @@
+{
+    "abstract": "Program repair is an important but difficult software engineering problem. One way to achieve acceptable performance is to focus on classes of simple bugs, such as bugs with single statement fixes, or that match a small set of bug templates. However, it is very difficult to estimate the recall of repair techniques for simple bugs, as there are no datasets about how often the associated bugs occur in code. To fill this gap, we provide a dataset of 153,652 single statement bug-fix changes mined from 1,000 popular open-source Java projects, annotated by whether they match any of a set of 16 bug templates, inspired by state-of-the-art program repair techniques. In an initial analysis, we find that about 33% of the simple bug fixes match the templates, indicating that a remarkable number of single-statement bugs can be repaired with a relatively small set of templates. Further, we find that template fitting bugs appear with a frequency of about one bug per 1,600-2,500 lines of code (as measured by the size of the project's latest version). We hope that the dataset will prove a resource for both future work in program repair and studies in empirical software engineering.",
+    "arxivId": "1905.13334",
+    "authors": [
+        {
+            "authorId": "3466166",
+            "name": "Rafael-Michael Karampatsis",
+            "url": "https://www.semanticscholar.org/author/3466166"
+        },
+        {
+            "authorId": "37210858",
+            "name": "Charles Sutton",
+            "url": "https://www.semanticscholar.org/author/37210858"
+        }
+    ],
+    "citationVelocity": 30,
+    "citations": [
+        {
+            "arxivId": "2409.05177",
+            "authors": [
+                {
+                    "authorId": "2320301932",
+                    "name": "Yi Cui"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "745df369604a75534f4c989bedcbf31e45dd89b8",
+            "title": "Insights from Benchmarking Frontier Language Models on Web App Code Generation",
+            "url": "https://www.semanticscholar.org/paper/745df369604a75534f4c989bedcbf31e45dd89b8",
+            "venue": "",
+            "year": 2024
+        },
+        {
+            "arxivId": "2408.05727",
+            "authors": [
+                {
+                    "authorId": "2287815395",
+                    "name": "Zhou Yang"
+                },
+                {
+                    "authorId": "2257269079",
+                    "name": "David Lo"
+                }
+            ],
+            "doi": "10.48550/arXiv.2408.05727",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d298732b71adcadfb1a652fc36251dc9c3b4aa0b",
+            "title": "Hotfixing Large Language Models for Code: How Far Can Parameter-Efficient Fine-Tuning Go?",
+            "url": "https://www.semanticscholar.org/paper/d298732b71adcadfb1a652fc36251dc9c3b4aa0b",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1944643242",
+                    "name": "Michel Maes-Bermejo"
+                },
+                {
+                    "authorId": "144476808",
+                    "name": "M. Gallego"
+                },
+                {
+                    "authorId": "1802346",
+                    "name": "F. Gort\u00e1zar"
+                },
+                {
+                    "authorId": "2258156664",
+                    "name": "Gregorio Robles"
+                },
+                {
+                    "authorId": "2257286488",
+                    "name": "Jes\u00fas M. Gonz\u00e1lez-Barahona"
+                }
+            ],
+            "doi": "10.1007/s10664-024-10530-z",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2accfb5fd5640a3e97a474405b9e3e21059f5c1f",
+            "title": "Testing the past: can we still run tests in past snapshots for Java projects?",
+            "url": "https://www.semanticscholar.org/paper/2accfb5fd5640a3e97a474405b9e3e21059f5c1f",
+            "venue": "Empirical Software Engineering",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1817470",
+                    "name": "David Broneske"
+                },
+                {
+                    "authorId": "2311223875",
+                    "name": "Sebastian Kittan"
+                },
+                {
+                    "authorId": "2294487423",
+                    "name": "Jacob Kr\u00fcger"
+                }
+            ],
+            "doi": "10.1145/3660798",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6f30b34e9e923168baa57f2edc5233577d778292",
+            "title": "Sharing Software-Evolution Datasets: Practices, Challenges, and Recommendations",
+            "url": "https://www.semanticscholar.org/paper/6f30b34e9e923168baa57f2edc5233577d778292",
+            "venue": "Proceedings of the ACM on Software Engineering",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2182596408",
+                    "name": "Yu Liu"
+                },
+                {
+                    "authorId": "2296649251",
+                    "name": "Aditya Thimmaiah"
+                },
+                {
+                    "authorId": "3023790",
+                    "name": "Owolabi Legunsen"
+                },
+                {
+                    "authorId": "2282532814",
+                    "name": "Milos Gligoric"
+                }
+            ],
+            "doi": "10.1145/3663529.3663817",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d87d088c4cbfe61ceabb864613211667a12a3208",
+            "title": "ExLi: An Inline-Test Generation Tool for Java",
+            "url": "https://www.semanticscholar.org/paper/d87d088c4cbfe61ceabb864613211667a12a3208",
+            "venue": "SIGSOFT FSE Companion",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2291074413",
+                    "name": "Jiaxuan Han"
+                },
+                {
+                    "authorId": "2150607551",
+                    "name": "Cheng Huang"
+                },
+                {
+                    "authorId": "2312417724",
+                    "name": "Jiayong Liu"
+                }
+            ],
+            "doi": "10.1016/j.cose.2024.104024",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b25c9dd5a6d7582bdcd5adcbabb6b1f14782db0a",
+            "title": "bjCnet: A contrastive learning-based framework for software defect prediction",
+            "url": "https://www.semanticscholar.org/paper/b25c9dd5a6d7582bdcd5adcbabb6b1f14782db0a",
+            "venue": "Comput. Secur.",
+            "year": 2024
+        },
+        {
+            "arxivId": "2405.09165",
+            "authors": [
+                {
+                    "authorId": "22022819",
+                    "name": "Masanari Kondo"
+                },
+                {
+                    "authorId": "2301310561",
+                    "name": "Daniel M. German"
+                },
+                {
+                    "authorId": "1706639",
+                    "name": "Yasutaka Kamei"
+                },
+                {
+                    "authorId": "1806862",
+                    "name": "Naoyasu Ubayashi"
+                },
+                {
+                    "authorId": "2289689947",
+                    "name": "Osamu Mizuno"
+                }
+            ],
+            "doi": "10.48550/arXiv.2405.09165",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "00881e708b048d04341c7595a707cc1df8a10d90",
+            "title": "An Empirical Study of Token-based Micro Commits",
+            "url": "https://www.semanticscholar.org/paper/00881e708b048d04341c7595a707cc1df8a10d90",
+            "venue": "Empir. Softw. Eng.",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1844295395",
+                    "name": "Claudia Negri Ribalta"
+                },
+                {
+                    "authorId": "2301388785",
+                    "name": "R\u00e9mi Geraud-Stewart"
+                },
+                {
+                    "authorId": "2113910200",
+                    "name": "A. Sergeeva"
+                },
+                {
+                    "authorId": "2242640006",
+                    "name": "Gabriele Lenzini"
+                }
+            ],
+            "doi": "10.3389/fdata.2024.1386720",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2eebee74ef2f8f1f7d5fe48c1712762d2d99f1f9",
+            "title": "A systematic literature review on the impact of AI models on the security of code generation",
+            "url": "https://www.semanticscholar.org/paper/2eebee74ef2f8f1f7d5fe48c1712762d2d99f1f9",
+            "venue": "Frontiers Big Data",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2175174363",
+                    "name": "M\u00e1rk Lajk\u00f3"
+                },
+                {
+                    "authorId": "41072383",
+                    "name": "Viktor Csuvik"
+                },
+                {
+                    "authorId": "2319468739",
+                    "name": "Tibor Gyimothy"
+                },
+                {
+                    "authorId": "1793601",
+                    "name": "L\u00e1szl\u00f3 Vid\u00e1cs"
+                }
+            ],
+            "doi": "10.1145/3643788.3648021",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "74d7f5598797639ece1ebd2f52b2540a9d0a4e3f",
+            "title": "Automated Program Repair with the GPT Family, Including GPT-2, GPT-3 and CodeX",
+            "url": "https://www.semanticscholar.org/paper/74d7f5598797639ece1ebd2f52b2540a9d0a4e3f",
+            "venue": "2024 IEEE/ACM International Workshop on Automated Program Repair (APR)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2404.00971",
+            "authors": [
+                {
+                    "authorId": "2290969862",
+                    "name": "Fang Liu"
+                },
+                {
+                    "authorId": "2294504414",
+                    "name": "Yang Liu"
+                },
+                {
+                    "authorId": "2295165194",
+                    "name": "Lin Shi"
+                },
+                {
+                    "authorId": "2294528116",
+                    "name": "Houkun Huang"
+                },
+                {
+                    "authorId": "2294510508",
+                    "name": "Ruifeng Wang"
+                },
+                {
+                    "authorId": "2294664033",
+                    "name": "Zhen Yang"
+                },
+                {
+                    "authorId": "2290433096",
+                    "name": "Li Zhang"
+                }
+            ],
+            "doi": "10.48550/arXiv.2404.00971",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "da9b51050a8574c4e03e5eb8e9e17cb640e27324",
+            "title": "Exploring and Evaluating Hallucinations in LLM-Powered Code Generation",
+            "url": "https://www.semanticscholar.org/paper/da9b51050a8574c4e03e5eb8e9e17cb640e27324",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": "2403.18226",
+            "authors": [
+                {
+                    "authorId": "2293612474",
+                    "name": "Habibur Rahman"
+                },
+                {
+                    "authorId": "2223137882",
+                    "name": "Saqib Ameen"
+                }
+            ],
+            "doi": "10.48550/arXiv.2403.18226",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "4f7b4db51013480c2b2799fa3571c6a7f9f8fd9e",
+            "title": "How is Testing Related to Single Statement Bugs?",
+            "url": "https://www.semanticscholar.org/paper/4f7b4db51013480c2b2799fa3571c6a7f9f8fd9e",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": "2403.17134",
+            "authors": [
+                {
+                    "authorId": "2176865575",
+                    "name": "Islem Bouzenia"
+                },
+                {
+                    "authorId": "114875459",
+                    "name": "Prem Devanbu"
+                },
+                {
+                    "authorId": "2260683361",
+                    "name": "Michael Pradel"
+                }
+            ],
+            "doi": "10.48550/arXiv.2403.17134",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b7f46c9f01d9f649d18b709e2e88b3b97bebd016",
+            "title": "RepairAgent: An Autonomous, LLM-Based Agent for Program Repair",
+            "url": "https://www.semanticscholar.org/paper/b7f46c9f01d9f649d18b709e2e88b3b97bebd016",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2311717867",
+                    "name": "Issei Morita"
+                },
+                {
+                    "authorId": "40293906",
+                    "name": "Yutaro Kashiwa"
+                },
+                {
+                    "authorId": "22022819",
+                    "name": "Masanari Kondo"
+                },
+                {
+                    "authorId": "2311721115",
+                    "name": "Jeongju Sohn"
+                },
+                {
+                    "authorId": "2305856388",
+                    "name": "Shane McIntosh"
+                },
+                {
+                    "authorId": "2306049062",
+                    "name": "Yasutaka Kamei"
+                },
+                {
+                    "authorId": "1806862",
+                    "name": "Naoyasu Ubayashi"
+                }
+            ],
+            "doi": "10.1109/SANER60148.2024.00065",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "56b53496af4ee16f66e05dcb3c1edff5bcde3220",
+            "title": "TraceJIT: Evaluating the Impact of Behavioral Code Change on Just-In-Time Defect Prediction",
+            "url": "https://www.semanticscholar.org/paper/56b53496af4ee16f66e05dcb3c1edff5bcde3220",
+            "venue": "2024 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2402.02047",
+            "authors": [
+                {
+                    "authorId": "2268784373",
+                    "name": "Claudio Spiess"
+                },
+                {
+                    "authorId": "1986353424",
+                    "name": "David Gros"
+                },
+                {
+                    "authorId": "2214523312",
+                    "name": "Kunal Suresh Pai"
+                },
+                {
+                    "authorId": "2282536979",
+                    "name": "Michael Pradel"
+                },
+                {
+                    "authorId": "9392397",
+                    "name": "Md Rafiqul Islam Rabin"
+                },
+                {
+                    "authorId": "2282536532",
+                    "name": "Susmit Jha"
+                },
+                {
+                    "authorId": "114875459",
+                    "name": "Prem Devanbu"
+                },
+                {
+                    "authorId": "2271468417",
+                    "name": "Toufique Ahmed"
+                }
+            ],
+            "doi": "10.48550/arXiv.2402.02047",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "65b59f4ffae4f5b9e5d63fc1d11bf9ca7f7df34d",
+            "title": "Calibration and Correctness of Language Models for Code",
+            "url": "https://www.semanticscholar.org/paper/65b59f4ffae4f5b9e5d63fc1d11bf9ca7f7df34d",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": "2402.01021",
+            "authors": [
+                {
+                    "authorId": "2041779183",
+                    "name": "Sigma Jahan"
+                },
+                {
+                    "authorId": "1573915878",
+                    "name": "Mehil B. Shah"
+                },
+                {
+                    "authorId": "2238172661",
+                    "name": "Mohammad Masudur Rahman"
+                }
+            ],
+            "doi": "10.48550/arXiv.2402.01021",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "92001468c18a9f2b48046f05553ef715ec06628e",
+            "title": "Towards Understanding the Challenges of Bug Localization in Deep Learning Systems",
+            "url": "https://www.semanticscholar.org/paper/92001468c18a9f2b48046f05553ef715ec06628e",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": "2312.12492",
+            "authors": [
+                {
+                    "authorId": "1820831988",
+                    "name": "M. Weyssow"
+                },
+                {
+                    "authorId": "2113623494",
+                    "name": "Claudio Di Sipio"
+                },
+                {
+                    "authorId": "2138839042",
+                    "name": "Davide Di Ruscio"
+                },
+                {
+                    "authorId": "9460712",
+                    "name": "H. Sahraoui"
+                }
+            ],
+            "doi": "10.1145/3643991.3644864",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d590f67e3c13bb5376a1f430a358e2b9f0eeeffb",
+            "title": "CodeLL: A Lifelong Learning Dataset to Support the Co-Evolution of Data and Language Models of Code",
+            "url": "https://www.semanticscholar.org/paper/d590f67e3c13bb5376a1f430a358e2b9f0eeeffb",
+            "venue": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2312.10448",
+            "authors": [
+                {
+                    "authorId": "2133930029",
+                    "name": "Xueying Du"
+                },
+                {
+                    "authorId": "2007711208",
+                    "name": "Mingwei Liu"
+                },
+                {
+                    "authorId": "2275103074",
+                    "name": "Juntao Li"
+                },
+                {
+                    "authorId": "2275437818",
+                    "name": "Hanlin Wang"
+                },
+                {
+                    "authorId": "2216694669",
+                    "name": "Xin Peng"
+                },
+                {
+                    "authorId": "2265400203",
+                    "name": "Yiling Lou"
+                }
+            ],
+            "doi": "10.48550/arXiv.2312.10448",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8352ca18ab506ec1c8061db1b9399c553f2f9307",
+            "title": "Resolving Crash Bugs via Large Language Models: An Empirical Study",
+            "url": "https://www.semanticscholar.org/paper/8352ca18ab506ec1c8061db1b9399c553f2f9307",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": "2312.04986",
+            "authors": [
+                {
+                    "authorId": "2051798865",
+                    "name": "Julian Aron Prenner"
+                },
+                {
+                    "authorId": "2283931794",
+                    "name": "Romain Robbes"
+                }
+            ],
+            "doi": "10.1145/3597503.3639086",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "a4f85b72f44ee8608f470f46c0a0e671e43d9b63",
+            "title": "Out of Context: How Important is Local Context in Neural Program Repair?",
+            "url": "https://www.semanticscholar.org/paper/a4f85b72f44ee8608f470f46c0a0e671e43d9b63",
+            "venue": "2024 IEEE/ACM 46th International Conference on Software Engineering (ICSE)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2268841767",
+                    "name": "Jun Yang"
+                },
+                {
+                    "authorId": "2268802314",
+                    "name": "Yuehan Wang"
+                },
+                {
+                    "authorId": "2265400203",
+                    "name": "Yiling Lou"
+                },
+                {
+                    "authorId": "2268784491",
+                    "name": "Ming Wen"
+                },
+                {
+                    "authorId": "2268851903",
+                    "name": "Lingming Zhang"
+                }
+            ],
+            "doi": "10.1145/3611643.3616331",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6593acb9c563771c00cb06b05b1092da5c943ddc",
+            "title": "A Large-Scale Empirical Review of Patch Correctness Checking Approaches",
+            "url": "https://www.semanticscholar.org/paper/6593acb9c563771c00cb06b05b1092da5c943ddc",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2186337473",
+                    "name": "Mohammad Mahdi Abdollahpour"
+                },
+                {
+                    "authorId": "2331002",
+                    "name": "Mehrdad Ashtiani"
+                },
+                {
+                    "authorId": "2170645775",
+                    "name": "Fatemeh Bakhshi"
+                }
+            ],
+            "doi": "10.1007/s11219-023-09653-1",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "85fae91b2c0c2bbe1ba8410f9aa2f6849d1e6b10",
+            "title": "Automatic software code repair using deep learning techniques",
+            "url": "https://www.semanticscholar.org/paper/85fae91b2c0c2bbe1ba8410f9aa2f6849d1e6b10",
+            "venue": "Softw. Qual. J.",
+            "year": 2023
+        },
+        {
+            "arxivId": "2311.00931",
+            "authors": [
+                {
+                    "authorId": "30123878",
+                    "name": "Kamel Alrashedy"
+                },
+                {
+                    "authorId": "22747364",
+                    "name": "Vincent J. Hellendoorn"
+                },
+                {
+                    "authorId": "2282139012",
+                    "name": "Alessandro Orso"
+                }
+            ],
+            "doi": "10.1109/SANER60148.2024.00063",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8d9ddce0e47e416d21836f4b8a1e0747c0168bb2",
+            "title": "Learning Defect Prediction from Unrealistic Data",
+            "url": "https://www.semanticscholar.org/paper/8d9ddce0e47e416d21836f4b8a1e0747c0168bb2",
+            "venue": "2024 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2260345601",
+                    "name": "Francisco Ribeiro"
+                }
+            ],
+            "doi": "10.1145/3618305.3623587",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0d3831657d8ab6341e8b7e60f877069b9aaa76d7",
+            "title": "Large Language Models for Automated Program Repair",
+            "url": "https://www.semanticscholar.org/paper/0d3831657d8ab6341e8b7e60f877069b9aaa76d7",
+            "venue": "SPLASH Companion",
+            "year": 2023
+        },
+        {
+            "arxivId": "2310.06770",
+            "authors": [
+                {
+                    "authorId": "2155269683",
+                    "name": "Carlos E. Jimenez"
+                },
+                {
+                    "authorId": "2109727379",
+                    "name": "John Yang"
+                },
+                {
+                    "authorId": "2127066887",
+                    "name": "Alexander Wettig"
+                },
+                {
+                    "authorId": "2256984659",
+                    "name": "Shunyu Yao"
+                },
+                {
+                    "authorId": "2256993083",
+                    "name": "Kexin Pei"
+                },
+                {
+                    "authorId": "40170001",
+                    "name": "Ofir Press"
+                },
+                {
+                    "authorId": "2135381714",
+                    "name": "Karthik Narasimhan"
+                }
+            ],
+            "doi": "10.48550/arXiv.2310.06770",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "94a5f96308729e31c1ffbc0f0618db87795092fe",
+            "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+            "url": "https://www.semanticscholar.org/paper/94a5f96308729e31c1ffbc0f0618db87795092fe",
+            "venue": "ICLR",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2253550866",
+                    "name": "V. V. Kachanov"
+                },
+                {
+                    "authorId": "2253549449",
+                    "name": "S. I. Markov"
+                },
+                {
+                    "authorId": "103291608",
+                    "name": "V. Tsurkov"
+                }
+            ],
+            "doi": "10.1134/s106423072304007x",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d04a84ae4afe6d6c6e4ef1cf6a7bb9c66bf48140",
+            "title": "Machine Learning for Software Technical Debt Detection",
+            "url": "https://www.semanticscholar.org/paper/d04a84ae4afe6d6c6e4ef1cf6a7bb9c66bf48140",
+            "venue": "Journal of Computer and Systems Sciences International",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2203447565",
+                    "name": "Chao Ni"
+                },
+                {
+                    "authorId": "2265719961",
+                    "name": "Kaiwen Yang"
+                },
+                {
+                    "authorId": "2265676427",
+                    "name": "Yan Zhu"
+                },
+                {
+                    "authorId": "2265801575",
+                    "name": "Xiang Chen"
+                },
+                {
+                    "authorId": "2265717851",
+                    "name": "Xiaohu Yang"
+                }
+            ],
+            "doi": "10.1109/ASE56229.2023.00083",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "7c41eec403caaf1ab07d54ec03aee81f57ddf245",
+            "title": "Unifying Defect Prediction, Categorization, and Repair by Multi-Task Deep Learning",
+            "url": "https://www.semanticscholar.org/paper/7c41eec403caaf1ab07d54ec03aee81f57ddf245",
+            "venue": "2023 38th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2309.06229",
+            "authors": [
+                {
+                    "authorId": "2266009333",
+                    "name": "He Ye"
+                },
+                {
+                    "authorId": "2239165382",
+                    "name": "Zimin Chen"
+                },
+                {
+                    "authorId": "2957803",
+                    "name": "Claire Le Goues"
+                }
+            ],
+            "doi": "10.1109/ASE56229.2023.00163",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "442ad9d26fd31b3663fe98ade1c2707d1bb76798",
+            "title": "PreciseBugCollector: Extensible, Executable and Precise Bug-Fix Collection: Solution for Challenge 8: Automating Precise Data Collection for Code Snippets with Bugs, Fixes, Locations, and Types",
+            "url": "https://www.semanticscholar.org/paper/442ad9d26fd31b3663fe98ade1c2707d1bb76798",
+            "venue": "2023 38th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "91898848",
+                    "name": "Cedric Richter"
+                },
+                {
+                    "authorId": "2265489906",
+                    "name": "Heike Wehrheim"
+                }
+            ],
+            "doi": "10.1109/ASE56229.2023.00104",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "3da90938a5315a9f61b5a300631f6bb0eb71a69b",
+            "title": "How to Train Your Neural Bug Detector: Artificial vs Real Bugs",
+            "url": "https://www.semanticscholar.org/paper/3da90938a5315a9f61b5a300631f6bb0eb71a69b",
+            "venue": "2023 38th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2308.08943",
+            "authors": [
+                {
+                    "authorId": "2079107343",
+                    "name": "A. Mastropaolo"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                }
+            ],
+            "doi": "10.1109/ASE56229.2023.00103",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "5ff180524742c1641dda3b9dbca20b0a32558364",
+            "title": "Towards Automatically Addressing Self-Admitted Technical Debt: How Far Are We?",
+            "url": "https://www.semanticscholar.org/paper/5ff180524742c1641dda3b9dbca20b0a32558364",
+            "venue": "2023 38th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2307.13014",
+            "authors": [
+                {
+                    "authorId": "1417237585",
+                    "name": "Pedro Orvalho"
+                },
+                {
+                    "authorId": "2048060685",
+                    "name": "Jelle Piepenbrock"
+                },
+                {
+                    "authorId": "1388403533",
+                    "name": "Mikol'avs Janota"
+                },
+                {
+                    "authorId": "3094458",
+                    "name": "Vasco M. Manquinho"
+                }
+            ],
+            "doi": "10.48550/arXiv.2307.13014",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b1570eb34d38e54e2263e3d173a71cfed7612618",
+            "title": "Graph Neural Networks For Mapping Variables Between Programs - Extended Version",
+            "url": "https://www.semanticscholar.org/paper/b1570eb34d38e54e2263e3d173a71cfed7612618",
+            "venue": "ECAI",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2182596408",
+                    "name": "Yu Liu"
+                },
+                {
+                    "authorId": "5890416",
+                    "name": "Pengyu Nie"
+                },
+                {
+                    "authorId": "2223299350",
+                    "name": "Anna Guo"
+                },
+                {
+                    "authorId": "2020926",
+                    "name": "Milo\u0161 Gligori\u0107"
+                },
+                {
+                    "authorId": "3023790",
+                    "name": "Owolabi Legunsen"
+                }
+            ],
+            "doi": "10.1145/3597926.3598149",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "fdff5c66b2f4ce9f129bcdbcf0577f0aaff9a1e7",
+            "title": "Extracting Inline Tests from Unit Tests",
+            "url": "https://www.semanticscholar.org/paper/fdff5c66b2f4ce9f129bcdbcf0577f0aaff9a1e7",
+            "venue": "ISSTA",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2297480933",
+                    "name": "\u0412. \u0412. \u041a\u0430\u0447\u0430\u043d\u043e\u0432"
+                },
+                {
+                    "authorId": "94983795",
+                    "name": "\u0421. \u0418. \u041c\u0430\u0440\u043a\u043e\u0432"
+                },
+                {
+                    "authorId": "103796522",
+                    "name": "\u0412. \u0418. \u0426\u0443\u0440\u043a\u043e\u0432"
+                }
+            ],
+            "doi": "10.31857/s0002338823040078",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f0ec3677cf9a62985776d22084f62a2375bf5559",
+            "title": "\u041c\u0410\u0428\u0418\u041d\u041d\u041e\u0415 \u041e\u0411\u0423\u0427\u0415\u041d\u0418\u0415 \u0412 \u041f\u0420\u041e\u0411\u041b\u0415\u041c\u0415 \u0422\u0415\u0425\u041d\u0418\u0427\u0415\u0421\u041a\u041e\u0413\u041e \u0414\u041e\u041b\u0413\u0410 \u041f\u0420\u041e\u0413\u0420\u0410\u041c\u041c\u041d\u041e\u0413\u041e \u041e\u0411\u0415\u0421\u041f\u0415\u0427\u0415\u041d\u0418\u042f",
+            "url": "https://www.semanticscholar.org/paper/f0ec3677cf9a62985776d22084f62a2375bf5559",
+            "venue": "\u0418\u0437\u0432\u0435\u0441\u0442\u0438\u044f \u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u043e\u0439 \u0430\u043a\u0430\u0434\u0435\u043c\u0438\u0438 \u043d\u0430\u0443\u043a. \u0422\u0435\u043e\u0440\u0438\u044f \u0438 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f",
+            "year": 2023
+        },
+        {
+            "arxivId": "2306.17193",
+            "authors": [
+                {
+                    "authorId": "1651190626",
+                    "name": "Niklas Risse"
+                },
+                {
+                    "authorId": "51384306",
+                    "name": "Marcel Bohme"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1d788c10d9b8c52bb451f2dd4400583e7f9d731c",
+            "title": "Uncovering the Limits of Machine Learning for Automatic Vulnerability Detection",
+            "url": "https://www.semanticscholar.org/paper/1d788c10d9b8c52bb451f2dd4400583e7f9d731c",
+            "venue": "USENIX Security Symposium",
+            "year": 2023
+        },
+        {
+            "arxivId": "2306.03438",
+            "authors": [
+                {
+                    "authorId": null,
+                    "name": "Tuan Dinh"
+                },
+                {
+                    "authorId": "26128283",
+                    "name": "Jinman Zhao"
+                },
+                {
+                    "authorId": "145814654",
+                    "name": "Samson Tan"
+                },
+                {
+                    "authorId": "1905927",
+                    "name": "Renato M. P. Negrinho"
+                },
+                {
+                    "authorId": "8789103",
+                    "name": "Leonard Lausen"
+                },
+                {
+                    "authorId": "40881843",
+                    "name": "Sheng Zha"
+                },
+                {
+                    "authorId": "50877490",
+                    "name": "G. Karypis"
+                }
+            ],
+            "doi": "10.48550/arXiv.2306.03438",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0ff029e91b8185739646a4ac6ab0713909d31d16",
+            "title": "Large Language Models of Code Fail at Completing Code with Potential Bugs",
+            "url": "https://www.semanticscholar.org/paper/0ff029e91b8185739646a4ac6ab0713909d31d16",
+            "venue": "NeurIPS",
+            "year": 2023
+        },
+        {
+            "arxivId": "2305.09315",
+            "authors": [
+                {
+                    "authorId": "2108424257",
+                    "name": "Yuwei Zhang"
+                },
+                {
+                    "authorId": "2154591375",
+                    "name": "Ge Li"
+                },
+                {
+                    "authorId": "2152843753",
+                    "name": "Zhi Jin"
+                },
+                {
+                    "authorId": "48281609",
+                    "name": "Ying Xing"
+                }
+            ],
+            "doi": "10.48550/arXiv.2305.09315",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2042962f27a6f30f5e7573a887af8071674f8944",
+            "title": "Neural Program Repair with Program Dependence Analysis and Effective Filter Mechanism",
+            "url": "https://www.semanticscholar.org/paper/2042962f27a6f30f5e7573a887af8071674f8944",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": "2305.07287",
+            "authors": [
+                {
+                    "authorId": "118714472",
+                    "name": "Dominik Huber"
+                },
+                {
+                    "authorId": "2126465230",
+                    "name": "Matteo Paltenghi"
+                },
+                {
+                    "authorId": "1884064",
+                    "name": "Michael Pradel"
+                }
+            ],
+            "doi": "10.48550/arXiv.2305.07287",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ffce7badd22e769cbc336db307d505f0c738f229",
+            "title": "Where to Look When Repairing Code? Comparing the Attention of Neural Models and Developers",
+            "url": "https://www.semanticscholar.org/paper/ffce7badd22e769cbc336db307d505f0c738f229",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1418132255",
+                    "name": "Leonhard Applis"
+                },
+                {
+                    "authorId": "3013302",
+                    "name": "Annibale Panichella"
+                }
+            ],
+            "doi": "10.1109/MSR59073.2023.00040",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e5de06040789b619450ec3d8003bea6a7883b34f",
+            "title": "HasBugs - Handpicked Haskell Bugs",
+            "url": "https://www.semanticscholar.org/paper/e5de06040789b619450ec3d8003bea6a7883b34f",
+            "venue": "2023 IEEE/ACM 20th International Conference on Mining Software Repositories (MSR)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2176865575",
+                    "name": "Islem Bouzenia"
+                },
+                {
+                    "authorId": "1884064",
+                    "name": "Michael Pradel"
+                }
+            ],
+            "doi": "10.1109/ICSE48619.2023.00081",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "84e22fc6a7c0bde168ccb82bff43d3f4a8b1b923",
+            "title": "When to Say What: Learning to Find Condition-Message Inconsistencies",
+            "url": "https://www.semanticscholar.org/paper/84e22fc6a7c0bde168ccb82bff43d3f4a8b1b923",
+            "venue": "2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2304.01102",
+            "authors": [
+                {
+                    "authorId": "2051798865",
+                    "name": "Julian Aron Prenner"
+                },
+                {
+                    "authorId": "1853058",
+                    "name": "R. Robbes"
+                }
+            ],
+            "doi": "10.48550/arXiv.2304.01102",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "70ebcc3716583b7bc0d59e443c83d3ac522b79e9",
+            "title": "RunBugRun - An Executable Dataset for Automated Program Repair",
+            "url": "https://www.semanticscholar.org/paper/70ebcc3716583b7bc0d59e443c83d3ac522b79e9",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "123741619",
+                    "name": "Kenji Go"
+                },
+                {
+                    "authorId": "2213906314",
+                    "name": "Sruthi Soundarapandian"
+                },
+                {
+                    "authorId": "2213896819",
+                    "name": "Aparupa Mitra"
+                },
+                {
+                    "authorId": "34755489",
+                    "name": "M. Vidoni"
+                },
+                {
+                    "authorId": "3370607",
+                    "name": "N. E. D. Ferreyra"
+                }
+            ],
+            "doi": "10.1016/j.jss.2023.111698",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ab4110e0c966cff2c206de73d7ac1598ef8236aa",
+            "title": "Simple stupid insecure practices and GitHub's code search: A looming threat?",
+            "url": "https://www.semanticscholar.org/paper/ab4110e0c966cff2c206de73d7ac1598ef8236aa",
+            "venue": "J. Syst. Softw.",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "118283839",
+                    "name": "Giovanni Rosa"
+                },
+                {
+                    "authorId": "40695832",
+                    "name": "L. Pascarella"
+                },
+                {
+                    "authorId": "3439470",
+                    "name": "Simone Scalabrino"
+                },
+                {
+                    "authorId": "2045297541",
+                    "name": "Rosalia Tufano"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                }
+            ],
+            "doi": "10.1016/j.jss.2023.111729",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "3fd9e5d8208772791d22dd5366f856820557b17b",
+            "title": "A comprehensive evaluation of SZZ Variants through a developer-informed oracle",
+            "url": "https://www.semanticscholar.org/paper/3fd9e5d8208772791d22dd5366f856820557b17b",
+            "venue": "J. Syst. Softw.",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2367073",
+                    "name": "Noor Nashid"
+                },
+                {
+                    "authorId": "68973066",
+                    "name": "Mifta Sintaha"
+                },
+                {
+                    "authorId": "1853199",
+                    "name": "A. Mesbah"
+                }
+            ],
+            "doi": "10.1109/ICST57152.2023.00018",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "9ef1f1cf478f30f7ece6e45e7e601fdc66739fcb",
+            "title": "Embedding Context as Code Dependencies for Neural Program Repair",
+            "url": "https://www.semanticscholar.org/paper/9ef1f1cf478f30f7ece6e45e7e601fdc66739fcb",
+            "venue": "2023 IEEE Conference on Software Testing, Verification and Validation (ICST)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2303.11455",
+            "authors": [
+                {
+                    "authorId": "1382369659",
+                    "name": "Kevin Jesse"
+                },
+                {
+                    "authorId": "3432275",
+                    "name": "Toufique Ahmed"
+                },
+                {
+                    "authorId": "114875459",
+                    "name": "Prem Devanbu"
+                },
+                {
+                    "authorId": "1949990577",
+                    "name": "Emily Morgan"
+                }
+            ],
+            "doi": "10.1109/MSR59073.2023.00082",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "af622206f1e5a6632600075897385cdabcae463d",
+            "title": "Large Language Models and Simple, Stupid Bugs",
+            "url": "https://www.semanticscholar.org/paper/af622206f1e5a6632600075897385cdabcae463d",
+            "venue": "2023 IEEE/ACM 20th International Conference on Mining Software Repositories (MSR)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2303.07263",
+            "authors": [
+                {
+                    "authorId": "2072904201",
+                    "name": "Ma Jin"
+                },
+                {
+                    "authorId": "2211425830",
+                    "name": "Syed Shahriar"
+                },
+                {
+                    "authorId": "40626221",
+                    "name": "Michele Tufano"
+                },
+                {
+                    "authorId": "2159544304",
+                    "name": "Xin Shi"
+                },
+                {
+                    "authorId": "2115338656",
+                    "name": "Shuai Lu"
+                },
+                {
+                    "authorId": "145507437",
+                    "name": "Neel Sundaresan"
+                },
+                {
+                    "authorId": "2061625488",
+                    "name": "Alexey Svyatkovskiy"
+                }
+            ],
+            "doi": "10.1145/3611643.3613892",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "34d24b2d9f116f8f652c112d4ac924afcf11bd0d",
+            "title": "InferFix: End-to-End Program Repair with LLMs",
+            "url": "https://www.semanticscholar.org/paper/34d24b2d9f116f8f652c112d4ac924afcf11bd0d",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2023
+        },
+        {
+            "arxivId": "2303.00202",
+            "authors": [
+                {
+                    "authorId": "2148928671",
+                    "name": "Xin Zhou"
+                },
+                {
+                    "authorId": "2203459",
+                    "name": "Bowen Xu"
+                },
+                {
+                    "authorId": "35276441",
+                    "name": "Kisub Kim"
+                },
+                {
+                    "authorId": "7883212",
+                    "name": "Donggyun Han"
+                },
+                {
+                    "authorId": "1811413300",
+                    "name": "Thanh Le-Cong"
+                },
+                {
+                    "authorId": "2158107537",
+                    "name": "Junda He"
+                },
+                {
+                    "authorId": "2248993736",
+                    "name": "Xuan-Bach Dinh Le"
+                },
+                {
+                    "authorId": "2150912791",
+                    "name": "David Lo"
+                }
+            ],
+            "doi": "10.48550/arXiv.2303.00202",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "f857cf61c784225db92f5a500578b86e63cd73ee",
+            "title": "PatchZero: Zero-Shot Automatic Patch Correctness Assessment",
+            "url": "https://www.semanticscholar.org/paper/f857cf61c784225db92f5a500578b86e63cd73ee",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1900419629",
+                    "name": "Elia Eiroa-Lledo"
+                },
+                {
+                    "authorId": "1840197833",
+                    "name": "Rao Hamza Ali"
+                },
+                {
+                    "authorId": "2151201070",
+                    "name": "Gabriela Pinto"
+                },
+                {
+                    "authorId": "36683054",
+                    "name": "Jillian M. Anderson"
+                },
+                {
+                    "authorId": "2181139650",
+                    "name": "Erik Linstead"
+                }
+            ],
+            "doi": "10.3390/app13053150",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f4f05b3f4392b75d3a16809c3ca0c199ac2039e8",
+            "title": "Large-Scale Identification and Analysis of Factors Impacting Simple Bug Resolution Times in Open Source Software Repositories",
+            "url": "https://www.semanticscholar.org/paper/f4f05b3f4392b75d3a16809c3ca0c199ac2039e8",
+            "venue": "Applied Sciences",
+            "year": 2023
+        },
+        {
+            "arxivId": "2302.03924",
+            "authors": [
+                {
+                    "authorId": "12907867",
+                    "name": "Zhongxin Liu"
+                },
+                {
+                    "authorId": "2112473921",
+                    "name": "Zhijie Tang"
+                },
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "1809356",
+                    "name": "Xiaohu Yang"
+                }
+            ],
+            "doi": "10.1109/ICSE48619.2023.00014",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "39de27b3ba14f358ff4c9adc0a79fd1206fc7292",
+            "title": "CCRep: Learning Code Change Representations via Pre-Trained Code Model and Query Back",
+            "url": "https://www.semanticscholar.org/paper/39de27b3ba14f358ff4c9adc0a79fd1206fc7292",
+            "venue": "2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2301.12453",
+            "authors": [
+                {
+                    "authorId": "1409701329",
+                    "name": "Quanjun Zhang"
+                },
+                {
+                    "authorId": "7595994",
+                    "name": "Chunrong Fang"
+                },
+                {
+                    "authorId": "3433022",
+                    "name": "Weisong Sun"
+                },
+                {
+                    "authorId": "2279853130",
+                    "name": "Yan Liu"
+                },
+                {
+                    "authorId": "2281761",
+                    "name": "Tieke He"
+                },
+                {
+                    "authorId": "2279786767",
+                    "name": "Xiaodong Hao"
+                },
+                {
+                    "authorId": "2238950128",
+                    "name": "Zhenyu Chen"
+                }
+            ],
+            "doi": "10.1109/TSE.2024.3354969",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "ba4383f85e1ba6b8aee438c74cecf3e45d654d31",
+            "title": "APPT: Boosting Automated Patch Correctness Prediction via Fine-Tuning Pre-Trained Models",
+            "url": "https://www.semanticscholar.org/paper/ba4383f85e1ba6b8aee438c74cecf3e45d654d31",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2023
+        },
+        {
+            "arxivId": "2301.10315",
+            "authors": [
+                {
+                    "authorId": "1776368",
+                    "name": "D. A. D. Costa"
+                },
+                {
+                    "authorId": "2202549416",
+                    "name": "Natalie Grattan"
+                },
+                {
+                    "authorId": "2665144",
+                    "name": "N. Stanger"
+                },
+                {
+                    "authorId": "1716889",
+                    "name": "Sherlock A. Licorish"
+                }
+            ],
+            "doi": "10.1007/s10664-023-10295-x",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b95bc7cb5d873c5d7c962df0312f36905198db81",
+            "title": "Studying the characteristics of SQL-related development tasks: An empirical study",
+            "url": "https://www.semanticscholar.org/paper/b95bc7cb5d873c5d7c962df0312f36905198db81",
+            "venue": "Empirical Software Engineering",
+            "year": 2023
+        },
+        {
+            "arxivId": "2301.03270",
+            "authors": [
+                {
+                    "authorId": "1409701329",
+                    "name": "Quanjun Zhang"
+                },
+                {
+                    "authorId": "7595994",
+                    "name": "Chunrong Fang"
+                },
+                {
+                    "authorId": "2109179504",
+                    "name": "Yuxiang Ma"
+                },
+                {
+                    "authorId": "3433022",
+                    "name": "Weisong Sun"
+                },
+                {
+                    "authorId": "9220930",
+                    "name": "Zhenyu Chen"
+                }
+            ],
+            "doi": "10.48550/arXiv.2301.03270",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1bf36d887a4317e8a25377504b102fff6f70029f",
+            "title": "A Survey of Learning-based Automated Program Repair",
+            "url": "https://www.semanticscholar.org/paper/1bf36d887a4317e8a25377504b102fff6f70029f",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2201925268",
+                    "name": "Thi-Huyen Nguyen"
+                },
+                {
+                    "authorId": "2201985034",
+                    "name": "Van-Hoan Nguyen"
+                },
+                {
+                    "authorId": "2957030",
+                    "name": "Hoang-Viet Tran"
+                },
+                {
+                    "authorId": "1774746",
+                    "name": "Pham Ngoc Hung"
+                }
+            ],
+            "doi": "10.1109/RIVF55975.2022.10013901",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "497a35944c24092577439f659cf6276bf9160432",
+            "title": "An Automated Program Repair Method Using Atomic Replacement for Java Programs",
+            "url": "https://www.semanticscholar.org/paper/497a35944c24092577439f659cf6276bf9160432",
+            "venue": "2022 RIVF International Conference on Computing and Communication Technologies (RIVF)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2212.09132",
+            "authors": [
+                {
+                    "authorId": "100721942",
+                    "name": "Anjan Karmakar"
+                },
+                {
+                    "authorId": "3216345",
+                    "name": "Miltiadis Allamanis"
+                },
+                {
+                    "authorId": "1853058",
+                    "name": "R. Robbes"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10275-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "42630c03d3817b1153d245f20742ad4b30a80b75",
+            "title": "JEMMA: An extensible Java dataset for ML4Code applications",
+            "url": "https://www.semanticscholar.org/paper/42630c03d3817b1153d245f20742ad4b30a80b75",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": "2211.14875",
+            "authors": [
+                {
+                    "authorId": "26910508",
+                    "name": "Nghi D. Q. Bui"
+                },
+                {
+                    "authorId": "49416727",
+                    "name": "Yue Wang"
+                },
+                {
+                    "authorId": "2184854289",
+                    "name": "Steven C. H. Hoi"
+                }
+            ],
+            "doi": "10.48550/arXiv.2211.14875",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "6f0bfec3a245f1aa203d16469ec313f2eb02e028",
+            "title": "Detect-Localize-Repair: A Unified Framework for Learning to Debug with CodeT5",
+            "url": "https://www.semanticscholar.org/paper/6f0bfec3a245f1aa203d16469ec313f2eb02e028",
+            "venue": "EMNLP",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1417237585",
+                    "name": "Pedro Orvalho"
+                },
+                {
+                    "authorId": "50751618",
+                    "name": "Mikol\u00e1\u0161 Janota"
+                },
+                {
+                    "authorId": "3094458",
+                    "name": "Vasco M. Manquinho"
+                }
+            ],
+            "doi": "10.1145/3540250.3558931",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "450e50edce45b35c001b0503e75c765e0e19807f",
+            "title": "MultIPAs: applying program transformations to introductory programming assignments for data augmentation",
+            "url": "https://www.semanticscholar.org/paper/450e50edce45b35c001b0503e75c765e0e19807f",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2117865146",
+                    "name": "Yanjie Jiang"
+                },
+                {
+                    "authorId": "2146672059",
+                    "name": "Hui Liu"
+                },
+                {
+                    "authorId": "2167503058",
+                    "name": "Yuxia Zhang"
+                },
+                {
+                    "authorId": "2728980",
+                    "name": "Weixing Ji"
+                },
+                {
+                    "authorId": "47067440",
+                    "name": "Hao Zhong"
+                },
+                {
+                    "authorId": "2156145837",
+                    "name": "Lu Zhang"
+                }
+            ],
+            "doi": "10.1145/3540250.3549149",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b2db2c32a4785baafc00da4840e22d3dd5dd3862",
+            "title": "Do bugs lead to unnaturalness of source code?",
+            "url": "https://www.semanticscholar.org/paper/b2db2c32a4785baafc00da4840e22d3dd5dd3862",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "91898848",
+                    "name": "Cedric Richter"
+                },
+                {
+                    "authorId": "51175599",
+                    "name": "Jan Haltermann"
+                },
+                {
+                    "authorId": "33592809",
+                    "name": "Marie-Christine Jakobs"
+                },
+                {
+                    "authorId": "10136854",
+                    "name": "Felix Pauck"
+                },
+                {
+                    "authorId": "2199322677",
+                    "name": "Stefan Schott"
+                },
+                {
+                    "authorId": "1731680",
+                    "name": "H. Wehrheim"
+                }
+            ],
+            "doi": "10.1145/3551349.3561156",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "58a34dadfc673aad99edcd951b0ca984c3959452",
+            "title": "Are Neural Bug Detectors Comparable to Software Developers on Variable Misuse Bugs?",
+            "url": "https://www.semanticscholar.org/paper/58a34dadfc673aad99edcd951b0ca984c3959452",
+            "venue": "ASE",
+            "year": 2022
+        },
+        {
+            "arxivId": "2210.02435",
+            "authors": [
+                {
+                    "authorId": "28096370",
+                    "name": "Hareem Sahar"
+                },
+                {
+                    "authorId": "2108135919",
+                    "name": "Yuxin Liu"
+                },
+                {
+                    "authorId": "50777874",
+                    "name": "A. A. Bangash"
+                },
+                {
+                    "authorId": "145369636",
+                    "name": "Abram Hindle"
+                },
+                {
+                    "authorId": "145690522",
+                    "name": "Denilson Barbosa"
+                }
+            ],
+            "doi": "10.1007/s10664-024-10514-z",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0720b81b7510c1cb36fa33e0f897709a4fc665bb",
+            "title": "IRJIT: A simple, online, information retrieval approach for just-in-time software defect prediction",
+            "url": "https://www.semanticscholar.org/paper/0720b81b7510c1cb36fa33e0f897709a4fc665bb",
+            "venue": "Empir. Softw. Eng.",
+            "year": 2022
+        },
+        {
+            "arxivId": "2209.06315",
+            "authors": [
+                {
+                    "authorId": "2182596408",
+                    "name": "Yu Liu"
+                },
+                {
+                    "authorId": "5890416",
+                    "name": "Pengyu Nie"
+                },
+                {
+                    "authorId": "3023790",
+                    "name": "Owolabi Legunsen"
+                },
+                {
+                    "authorId": "2020926",
+                    "name": "Milo\u0161 Gligori\u0107"
+                }
+            ],
+            "doi": "10.1145/3551349.3556952",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "94298763cd373891902e7e5e0b004a490b37eeb5",
+            "title": "Inline Tests",
+            "url": "https://www.semanticscholar.org/paper/94298763cd373891902e7e5e0b004a490b37eeb5",
+            "venue": "ASE",
+            "year": 2022
+        },
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": "2208.00443",
+            "authors": [
+                {
+                    "authorId": "1685418",
+                    "name": "Christoph Treude"
+                }
+            ],
+            "doi": "10.1145/3551349.3559557",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "65256fb31098c37d6b813b560c0b828806959d2b",
+            "title": "Taming Multi-Output Recommenders for Software Engineering",
+            "url": "https://www.semanticscholar.org/paper/65256fb31098c37d6b813b560c0b828806959d2b",
+            "venue": "ASE",
+            "year": 2022
+        },
+        {
+            "arxivId": "2207.10739",
+            "authors": [
+                {
+                    "authorId": "2127465423",
+                    "name": "Paul Kassianik"
+                },
+                {
+                    "authorId": "2043490",
+                    "name": "Erik Nijkamp"
+                },
+                {
+                    "authorId": "2063096824",
+                    "name": "Bo Pang"
+                },
+                {
+                    "authorId": "2118860628",
+                    "name": "Yingbo Zhou"
+                },
+                {
+                    "authorId": "2054594326",
+                    "name": "Caiming Xiong"
+                }
+            ],
+            "doi": "10.48550/arXiv.2207.10739",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "311f171287dba3823547c6fd703c1ab8a2d45995",
+            "title": "BigIssue: A Realistic Bug Localization Benchmark",
+            "url": "https://www.semanticscholar.org/paper/311f171287dba3823547c6fd703c1ab8a2d45995",
+            "venue": "ArXiv",
+            "year": 2022
+        },
+        {
+            "arxivId": "2207.06590",
+            "authors": [
+                {
+                    "authorId": "2115623903",
+                    "name": "Yuehan Wang"
+                },
+                {
+                    "authorId": "2146158506",
+                    "name": "Jun Yang"
+                },
+                {
+                    "authorId": "2539239",
+                    "name": "Yiling Lou"
+                },
+                {
+                    "authorId": "38784613",
+                    "name": "Ming Wen"
+                },
+                {
+                    "authorId": "2145398332",
+                    "name": "Lingming Zhang"
+                }
+            ],
+            "doi": "10.48550/arXiv.2207.06590",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "855ffb42807bb1bd581e8eafcbc4962c3a8171c5",
+            "title": "Attention: Not Just Another Dataset for Patch-Correctness Checking",
+            "url": "https://www.semanticscholar.org/paper/855ffb42807bb1bd581e8eafcbc4962c3a8171c5",
+            "venue": "ArXiv",
+            "year": 2022
+        },
+        {
+            "arxivId": "2207.00301",
+            "authors": [
+                {
+                    "authorId": "91898848",
+                    "name": "Cedric Richter"
+                },
+                {
+                    "authorId": "1731680",
+                    "name": "H. Wehrheim"
+                }
+            ],
+            "doi": "10.48550/arXiv.2207.00301",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "5046d276dbaa4c5245e8427791fe7f30b26eef8e",
+            "title": "Can we learn from developer mistakes? Learning to localize and repair real bugs from real bug fixes",
+            "url": "https://www.semanticscholar.org/paper/5046d276dbaa4c5245e8427791fe7f30b26eef8e",
+            "venue": "ArXiv",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144188161",
+                    "name": "Thomas Hirsch"
+                },
+                {
+                    "authorId": "3334382",
+                    "name": "Birgit Hofer"
+                }
+            ],
+            "doi": "10.1016/j.jss.2022.111423",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9a7b7867d1c2a540fd2c3ad9df666a32751374e2",
+            "title": "A systematic literature review on benchmarks for evaluating debugging approaches",
+            "url": "https://www.semanticscholar.org/paper/9a7b7867d1c2a540fd2c3ad9df666a32751374e2",
+            "venue": "J. Syst. Softw.",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2068283803",
+                    "name": "Bo Lin"
+                },
+                {
+                    "authorId": "49184504",
+                    "name": "Shangwen Wang"
+                },
+                {
+                    "authorId": "38784613",
+                    "name": "Ming Wen"
+                },
+                {
+                    "authorId": "8191582",
+                    "name": "Xiaoguang Mao"
+                }
+            ],
+            "doi": "10.1145/3505247",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5926c87be5bebee8e2b272f4b6c38ec69d615a7d",
+            "title": "Context-Aware Code Change Embedding for Better Patch Correctness Assessment",
+            "url": "https://www.semanticscholar.org/paper/5926c87be5bebee8e2b272f4b6c38ec69d615a7d",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "147314225",
+                    "name": "L. Grazia"
+                }
+            ],
+            "doi": "10.1145/3510454.3522678",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "9aa45eb7d69ac0d8c2384c3b70e1bcb15ad557ca",
+            "title": "Efficiently and Precisely Searching for Code Changes with DiffSearch",
+            "url": "https://www.semanticscholar.org/paper/9aa45eb7d69ac0d8c2384c3b70e1bcb15ad557ca",
+            "venue": "2022 IEEE/ACM 44th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145957864",
+                    "name": "Francisco Ribeiro"
+                },
+                {
+                    "authorId": "144837389",
+                    "name": "Rui Abreu"
+                },
+                {
+                    "authorId": "2068054288",
+                    "name": "Jo\u00e3o Saraiva"
+                }
+            ],
+            "doi": "10.1145/3524459.3527347",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "4cfa2424bdb94487e1d402d91fd59f782f6caabc",
+            "title": "Framing Program Repair as Code Completion",
+            "url": "https://www.semanticscholar.org/paper/4cfa2424bdb94487e1d402d91fd59f782f6caabc",
+            "venue": "2022 IEEE/ACM International Workshop on Automated Program Repair (APR)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2175174363",
+                    "name": "M\u00e1rk Lajk\u00f3"
+                },
+                {
+                    "authorId": "41072383",
+                    "name": "Viktor Csuvik"
+                },
+                {
+                    "authorId": "1793601",
+                    "name": "L\u00e1szl\u00f3 Vid\u00e1cs"
+                }
+            ],
+            "doi": "10.1145/3524459.3527350",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "db783c480faf87b38e8806d4ef455dfde6e335aa",
+            "title": "Towards JavaScript program repair with Generative Pre-trained Transformer (GPT-2)",
+            "url": "https://www.semanticscholar.org/paper/db783c480faf87b38e8806d4ef455dfde6e335aa",
+            "venue": "2022 IEEE/ACM International Workshop on Automated Program Repair (APR)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "41072383",
+                    "name": "Viktor Csuvik"
+                },
+                {
+                    "authorId": "1793601",
+                    "name": "L\u00e1szl\u00f3 Vid\u00e1cs"
+                }
+            ],
+            "doi": "10.1145/3524842.3528480",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0f20d59ebdfe76fd9ff77d77df62a9f61d2a4c82",
+            "title": "FixJS: A Dataset of Bug-fixing JavaScript Commits",
+            "url": "https://www.semanticscholar.org/paper/0f20d59ebdfe76fd9ff77d77df62a9f61d2a4c82",
+            "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2205.00180",
+            "authors": [
+                {
+                    "authorId": "68973066",
+                    "name": "Mifta Sintaha"
+                },
+                {
+                    "authorId": "2367073",
+                    "name": "Noor Nashid"
+                },
+                {
+                    "authorId": "1853199",
+                    "name": "A. Mesbah"
+                }
+            ],
+            "doi": "10.1145/3579640",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "f19cd349bcb028323f4804e5e206c53092c0054d",
+            "title": "Katana: Dual Slicing Based Context for Learning Bug Fixes",
+            "url": "https://www.semanticscholar.org/paper/f19cd349bcb028323f4804e5e206c53092c0054d",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2022
+        },
+        {
+            "arxivId": "2204.10049",
+            "authors": [
+                {
+                    "authorId": "8516542",
+                    "name": "Jingxuan He"
+                },
+                {
+                    "authorId": "2150869869",
+                    "name": "Luca Beurer-Kellner"
+                },
+                {
+                    "authorId": "1736447",
+                    "name": "Martin T. Vechev"
+                }
+            ],
+            "doi": "10.48550/arXiv.2204.10049",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "2ba7104f7b93d77940312664f3467b8f090d6d16",
+            "title": "On Distribution Shift in Learning-based Bug Detectors",
+            "url": "https://www.semanticscholar.org/paper/2ba7104f7b93d77940312664f3467b8f090d6d16",
+            "venue": "ICML",
+            "year": 2022
+        },
+        {
+            "arxivId": "2204.04856",
+            "authors": [
+                {
+                    "authorId": "48178867",
+                    "name": "Chao Ni"
+                },
+                {
+                    "authorId": "2044649857",
+                    "name": "Kaiwen Yang"
+                },
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "143960552",
+                    "name": "David Lo"
+                },
+                {
+                    "authorId": "2143735316",
+                    "name": "Xiang Chen"
+                },
+                {
+                    "authorId": "1809356",
+                    "name": "Xiaohu Yang"
+                }
+            ],
+            "doi": "10.48550/arXiv.2204.04856",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "041d85281abc47aa80ddabfe2854308bb2946306",
+            "title": "Defect Identification, Categorization, and Repair: Better Together",
+            "url": "https://www.semanticscholar.org/paper/041d85281abc47aa80ddabfe2854308bb2946306",
+            "venue": "ArXiv",
+            "year": 2022
+        },
+        {
+            "arxivId": "2204.02787",
+            "authors": [
+                {
+                    "authorId": "147314225",
+                    "name": "L. Grazia"
+                },
+                {
+                    "authorId": "2161597321",
+                    "name": "Paul Bredl"
+                },
+                {
+                    "authorId": "1884064",
+                    "name": "Michael Pradel"
+                }
+            ],
+            "doi": "10.1109/TSE.2022.3218859",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "2103b46186035870f35cdd827ebccfb4dfdf3720",
+            "title": "DiffSearch: A Scalable and Precise Search Engine for Code Changes",
+            "url": "https://www.semanticscholar.org/paper/2103b46186035870f35cdd827ebccfb4dfdf3720",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": "2204.00963",
+            "authors": [
+                {
+                    "authorId": "143793675",
+                    "name": "Li Sui"
+                },
+                {
+                    "authorId": "17285449",
+                    "name": "Shawn Rasheed"
+                },
+                {
+                    "authorId": "2494905",
+                    "name": "Amjed Tahir"
+                },
+                {
+                    "authorId": "144212658",
+                    "name": "Jens Dietrich"
+                }
+            ],
+            "doi": "10.1145/3524610.3527883",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1174e98f5e78392c50682f9dd2dd3a5f2b647e1",
+            "title": "A Study of Single Statement Bugs Involving Dynamic Language Features",
+            "url": "https://www.semanticscholar.org/paper/d1174e98f5e78392c50682f9dd2dd3a5f2b647e1",
+            "venue": "2022 IEEE/ACM 30th International Conference on Program Comprehension (ICPC)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2203.08912",
+            "authors": [
+                {
+                    "authorId": "2069990130",
+                    "name": "Haoye Tian"
+                },
+                {
+                    "authorId": "145407228",
+                    "name": "Kui Liu"
+                },
+                {
+                    "authorId": "2110503529",
+                    "name": "Yinghua Li"
+                },
+                {
+                    "authorId": "2121305884",
+                    "name": "Abdoul Kader Kabor'e"
+                },
+                {
+                    "authorId": "31491515",
+                    "name": "Anil Koyuncu"
+                },
+                {
+                    "authorId": "1840614",
+                    "name": "Andrew Habib"
+                },
+                {
+                    "authorId": "2156057814",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "2577845",
+                    "name": "Junhao Wen"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                },
+                {
+                    "authorId": "11128727",
+                    "name": "Tegawend'e F. Bissyand'e"
+                }
+            ],
+            "doi": "10.1145/3576039",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "1cd7165a7393ba1e4234513a19cfea4a90ffcea4",
+            "title": "The Best of Both Worlds: Combining Learned Embeddings with Engineered Features for Accurate Prediction of Correct Patches",
+            "url": "https://www.semanticscholar.org/paper/1cd7165a7393ba1e4234513a19cfea4a90ffcea4",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2022
+        },
+        {
+            "arxivId": "2203.03771",
+            "authors": [
+                {
+                    "authorId": "3426307",
+                    "name": "David Bieber"
+                },
+                {
+                    "authorId": "46186660",
+                    "name": "Rishab Goel"
+                },
+                {
+                    "authorId": "1738328124",
+                    "name": "Daniel Zheng"
+                },
+                {
+                    "authorId": "1777528",
+                    "name": "H. Larochelle"
+                },
+                {
+                    "authorId": "1725299",
+                    "name": "Daniel Tarlow"
+                }
+            ],
+            "doi": "10.48550/arXiv.2203.03771",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c125b0be73c8493ebc27beb572f6c1b21d6b4ae4",
+            "title": "Static Prediction of Runtime Errors by Learning to Execute Programs with External Resource Descriptions",
+            "url": "https://www.semanticscholar.org/paper/c125b0be73c8493ebc27beb572f6c1b21d6b4ae4",
+            "venue": "ICLR",
+            "year": 2022
+        },
+        {
+            "arxivId": "2201.12046",
+            "authors": [
+                {
+                    "authorId": "91898848",
+                    "name": "Cedric Richter"
+                },
+                {
+                    "authorId": "1731680",
+                    "name": "H. Wehrheim"
+                }
+            ],
+            "doi": "10.1145/3524842.3528505",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6fa21cdea3ffa0a376dbd32b07277ef5498d5c2c",
+            "title": "TSSB-3M: Mining single statement bugs at massive scale",
+            "url": "https://www.semanticscholar.org/paper/6fa21cdea3ffa0a376dbd32b07277ef5498d5c2c",
+            "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2201.07351",
+            "authors": [
+                {
+                    "authorId": "115698543",
+                    "name": "Finlay Macklon"
+                },
+                {
+                    "authorId": "51119802",
+                    "name": "Markos Viggiato"
+                },
+                {
+                    "authorId": "48971237",
+                    "name": "Natalia Romanova"
+                },
+                {
+                    "authorId": "120607425",
+                    "name": "C. Buzon"
+                },
+                {
+                    "authorId": "2133235305",
+                    "name": "Dale Paas"
+                },
+                {
+                    "authorId": "1755660",
+                    "name": "C. Bezemer"
+                }
+            ],
+            "doi": "10.1109/TSE.2023.3270740",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "885f8e2d99de4379d5883aef4e958afe6559f7c0",
+            "title": "A Taxonomy of Testable HTML5 Canvas Issues",
+            "url": "https://www.semanticscholar.org/paper/885f8e2d99de4379d5883aef4e958afe6559f7c0",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1991847",
+                    "name": "E. Akimova"
+                },
+                {
+                    "authorId": "1486419612",
+                    "name": "A. Bersenev"
+                },
+                {
+                    "authorId": "2042613194",
+                    "name": "Artem A. Deikov"
+                },
+                {
+                    "authorId": "2112921000",
+                    "name": "Konstantin S. Kobylkin"
+                },
+                {
+                    "authorId": "50843530",
+                    "name": "A. Konygin"
+                },
+                {
+                    "authorId": "2050335594",
+                    "name": "I. Mezentsev"
+                },
+                {
+                    "authorId": "70227268",
+                    "name": "V. Misilov"
+                }
+            ],
+            "doi": "10.1109/APSEC53868.2021.00022",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c11d505b48b594b377edc1fc3780f806cda16584",
+            "title": "PyTraceBugs: A Large Python Code Dataset for Supervised Machine Learning in Software Defect Prediction",
+            "url": "https://www.semanticscholar.org/paper/c11d505b48b594b377edc1fc3780f806cda16584",
+            "venue": "2021 28th Asia-Pacific Software Engineering Conference (APSEC)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2111.07739",
+            "authors": [
+                {
+                    "authorId": "49184504",
+                    "name": "Shangwen Wang"
+                },
+                {
+                    "authorId": "145407228",
+                    "name": "Kui Liu"
+                },
+                {
+                    "authorId": "2068283803",
+                    "name": "Bo Lin"
+                },
+                {
+                    "authorId": "2156057406",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                },
+                {
+                    "authorId": "2150465957",
+                    "name": "Xiaoguang Mao"
+                },
+                {
+                    "authorId": "11128727",
+                    "name": "Tegawend'e F. Bissyand'e"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "465e6e0318958f7c9d1da0101b0d020690c1458c",
+            "title": "Beep: Fine-grained Fix Localization by Learning to Predict Buggy Code Elements",
+            "url": "https://www.semanticscholar.org/paper/465e6e0318958f7c9d1da0101b0d020690c1458c",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1754291",
+                    "name": "N. Gold"
+                },
+                {
+                    "authorId": "1824150",
+                    "name": "J. Krinke"
+                }
+            ],
+            "doi": "10.1007/s10664-021-10057-7",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "8a7ab081a35f9f7336c60d6cf1c6a9627e8c71e1",
+            "title": "Ethics in the mining of software repositories",
+            "url": "https://www.semanticscholar.org/paper/8a7ab081a35f9f7336c60d6cf1c6a9627e8c71e1",
+            "venue": "Empirical Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": "2110.14560",
+            "authors": [
+                {
+                    "authorId": "2126465230",
+                    "name": "Matteo Paltenghi"
+                },
+                {
+                    "authorId": "1884064",
+                    "name": "Michael Pradel"
+                }
+            ],
+            "doi": "10.1145/3527330",
+            "intent": [
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "3b87dafd5a412e25e06761f181ec199ca88a7398",
+            "title": "Bugs in Quantum computing platforms: an empirical study",
+            "url": "https://www.semanticscholar.org/paper/3b87dafd5a412e25e06761f181ec199ca88a7398",
+            "venue": "Proc. ACM Program. Lang.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2110.14081",
+            "authors": [
+                {
+                    "authorId": "2076161945",
+                    "name": "Marjane Namavar"
+                },
+                {
+                    "authorId": "2367073",
+                    "name": "Noor Nashid"
+                },
+                {
+                    "authorId": "1853199",
+                    "name": "A. Mesbah"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10223-5",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9642afa616480834f349f34aab8e3408b26a9b7b",
+            "title": "A controlled experiment of different code representations for learning-based program repair",
+            "url": "https://www.semanticscholar.org/paper/9642afa616480834f349f34aab8e3408b26a9b7b",
+            "venue": "Empirical Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": "2110.04353",
+            "authors": [
+                {
+                    "authorId": "1468751197",
+                    "name": "Sheena Panthaplackel"
+                },
+                {
+                    "authorId": "2108933878",
+                    "name": "J. Li"
+                },
+                {
+                    "authorId": "2020926",
+                    "name": "Milo\u0161 Gligori\u0107"
+                },
+                {
+                    "authorId": "1797655",
+                    "name": "R. Mooney"
+                }
+            ],
+            "doi": "10.18653/v1/2022.findings-acl.231",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "5bc74a4add942c340e6038235507e5f00b02d3b2",
+            "title": "Learning to Describe Solutions for Bug Reports Based on Developer Discussions",
+            "url": "https://www.semanticscholar.org/paper/5bc74a4add942c340e6038235507e5f00b02d3b2",
+            "venue": "FINDINGS",
+            "year": 2021
+        },
+        {
+            "arxivId": "2108.11199",
+            "authors": [
+                {
+                    "authorId": "2070919492",
+                    "name": "O. Smirnov"
+                },
+                {
+                    "authorId": "146116882",
+                    "name": "Artyom Lobanov"
+                },
+                {
+                    "authorId": "1486450758",
+                    "name": "Yaroslav Golubev"
+                },
+                {
+                    "authorId": "2124373816",
+                    "name": "Elena Tikhomirova"
+                },
+                {
+                    "authorId": "2851011",
+                    "name": "T. Bryksin"
+                }
+            ],
+            "doi": "10.1109/ASE51524.2021.9678635",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7ca9e525334a486be473e17778e1cf20b2ae6d02",
+            "title": "Revizor: A Data-Driven Approach to Automate Frequent Code Changes Based on Graph Matching",
+            "url": "https://www.semanticscholar.org/paper/7ca9e525334a486be473e17778e1cf20b2ae6d02",
+            "venue": "2021 36th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1954023",
+                    "name": "Jibesh Patra"
+                },
+                {
+                    "authorId": "1884064",
+                    "name": "Michael Pradel"
+                }
+            ],
+            "doi": "10.1145/3468264.3468623",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "6162b14349877749b280baa9060daaf7f7faeede",
+            "title": "Semantic bug seeding: a learning-based approach for creating realistic bugs",
+            "url": "https://www.semanticscholar.org/paper/6162b14349877749b280baa9060daaf7f7faeede",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2021
+        },
+        {
+            "arxivId": "2108.06645",
+            "authors": [
+                {
+                    "authorId": "47570053",
+                    "name": "Saikat Chakraborty"
+                },
+                {
+                    "authorId": "31631000",
+                    "name": "Baishakhi Ray"
+                }
+            ],
+            "doi": "10.1109/ASE51524.2021.9678559",
+            "intent": [
+                "result",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "07b3a1677ab6a0d662157a6469419aba66b02135",
+            "title": "On Multi-Modal Learning of Editing Source Code",
+            "url": "https://www.semanticscholar.org/paper/07b3a1677ab6a0d662157a6469419aba66b02135",
+            "venue": "2021 36th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2108.04631",
+            "authors": [
+                {
+                    "authorId": "150220964",
+                    "name": "Monperrus Martin"
+                },
+                {
+                    "authorId": "2116312726",
+                    "name": "Matias Martinez"
+                },
+                {
+                    "authorId": "1391019398",
+                    "name": "He Ye"
+                },
+                {
+                    "authorId": "1396036039",
+                    "name": "Fernanda Madeiral"
+                },
+                {
+                    "authorId": "1882033",
+                    "name": "Thomas Durieux"
+                },
+                {
+                    "authorId": "2354569",
+                    "name": "Zhongxing Yu"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1107e3fcdc70fda9a284c7c2cc9fa51b2efd2761",
+            "title": "Megadiff: A Dataset of 600k Java Source Code Changes Categorized by Diff Size",
+            "url": "https://www.semanticscholar.org/paper/1107e3fcdc70fda9a284c7c2cc9fa51b2efd2761",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": "2107.08760",
+            "authors": [
+                {
+                    "authorId": "11670279",
+                    "name": "G. Bhandari"
+                },
+                {
+                    "authorId": "2040705478",
+                    "name": "Amara Naseer"
+                },
+                {
+                    "authorId": "1762006",
+                    "name": "L. Moonen"
+                }
+            ],
+            "doi": "10.1145/3475960.3475985",
+            "intent": [
+                "result",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "f1d7a4ed38192f156e77cde0785093cc0b66259e",
+            "title": "CVEfixes: automated collection of vulnerabilities and their fixes from open-source software",
+            "url": "https://www.semanticscholar.org/paper/f1d7a4ed38192f156e77cde0785093cc0b66259e",
+            "venue": "PROMISE",
+            "year": 2021
+        },
+        {
+            "arxivId": "2107.06657",
+            "authors": [
+                {
+                    "authorId": "91898848",
+                    "name": "Cedric Richter"
+                },
+                {
+                    "authorId": "1731680",
+                    "name": "H. Wehrheim"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "485fb51d8e2e579d42a1f9be45b1806519a6ad8c",
+            "title": "DeepMutants: Training neural bug detectors with contextual mutations",
+            "url": "https://www.semanticscholar.org/paper/485fb51d8e2e579d42a1f9be45b1806519a6ad8c",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": "2106.08704",
+            "authors": [
+                {
+                    "authorId": "9392397",
+                    "name": "Md Rafiqul Islam Rabin"
+                },
+                {
+                    "authorId": "2082388485",
+                    "name": "Aftab Hussain"
+                },
+                {
+                    "authorId": "22747364",
+                    "name": "Vincent J. Hellendoorn"
+                },
+                {
+                    "authorId": "1962253",
+                    "name": "Mohammad Amin Alipour"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2022.107066",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "69e330037afd18e5546fdcacbc9a9f7deb69bba9",
+            "title": "Memorization and Generalization in Neural Code Intelligence Models",
+            "url": "https://www.semanticscholar.org/paper/69e330037afd18e5546fdcacbc9a9f7deb69bba9",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2106.06110",
+            "authors": [
+                {
+                    "authorId": "102701933",
+                    "name": "Syed Arbaaz Qureshi"
+                },
+                {
+                    "authorId": "2105589955",
+                    "name": "Sonu Mehta"
+                },
+                {
+                    "authorId": "2252388",
+                    "name": "Ranjita Bhagwan"
+                },
+                {
+                    "authorId": "2108767095",
+                    "name": "Rahul Kumar"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "result",
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "3e1034208c623ccfbd04100f15b82b2f6097b574",
+            "title": "Assessing the Effectiveness of Syntactic Structure to Learn Code Edit Representations",
+            "url": "https://www.semanticscholar.org/paper/3e1034208c623ccfbd04100f15b82b2f6097b574",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": "2106.03353",
+            "authors": [
+                {
+                    "authorId": "9392397",
+                    "name": "Md Rafiqul Islam Rabin"
+                },
+                {
+                    "authorId": "22747364",
+                    "name": "Vincent J. Hellendoorn"
+                },
+                {
+                    "authorId": "1962253",
+                    "name": "Mohammad Amin Alipour"
+                }
+            ],
+            "doi": "10.1145/3468264.3468539",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "98097b7499bffd76e89d6c28449346f383143553",
+            "title": "Understanding neural code intelligence through program simplification",
+            "url": "https://www.semanticscholar.org/paper/98097b7499bffd76e89d6c28449346f383143553",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2021
+        },
+        {
+            "arxivId": "2105.12787",
+            "authors": [
+                {
+                    "authorId": "3216345",
+                    "name": "Miltiadis Allamanis"
+                },
+                {
+                    "authorId": "2052022189",
+                    "name": "Henry Jackson-Flux"
+                },
+                {
+                    "authorId": "2107692",
+                    "name": "Marc Brockschmidt"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "result",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "7f42e68c4caf74f91bf9990012efa8d7641235d6",
+            "title": "Self-Supervised Bug Detection and Repair",
+            "url": "https://www.semanticscholar.org/paper/7f42e68c4caf74f91bf9990012efa8d7641235d6",
+            "venue": "NeurIPS",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2086607788",
+                    "name": "Jasmine Latendresse"
+                },
+                {
+                    "authorId": "2154809",
+                    "name": "Rabe Abdalkareem"
+                },
+                {
+                    "authorId": "115989708",
+                    "name": "D. Costa"
+                },
+                {
+                    "authorId": "3318024",
+                    "name": "Emad Shihab"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00062",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "bc2721ac4f1dcdbd325e0259f7fabe44c5116d58",
+            "title": "How Effective is Continuous Integration in Indicating Single-Statement Bugs?",
+            "url": "https://www.semanticscholar.org/paper/bc2721ac4f1dcdbd325e0259f7fabe44c5116d58",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2117511620",
+                    "name": "Arthur V. Kamienski"
+                },
+                {
+                    "authorId": "2117534349",
+                    "name": "Luisa Palechor"
+                },
+                {
+                    "authorId": "1755660",
+                    "name": "C. Bezemer"
+                },
+                {
+                    "authorId": "145369636",
+                    "name": "Abram Hindle"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00066",
+            "intent": [
+                "result",
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "ab8a355a687fda863114dc713c7a6781bd632a07",
+            "title": "PySStuBs: Characterizing Single-Statement Bugs in Popular Open-Source Python Projects",
+            "url": "https://www.semanticscholar.org/paper/ab8a355a687fda863114dc713c7a6781bd632a07",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "94002279",
+                    "name": "Jiayi Hua"
+                },
+                {
+                    "authorId": "2109570965",
+                    "name": "Haoyu Wang"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00068",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "554383f23225a18fcf291c86ff4c0c55b07f3769",
+            "title": "On the Effectiveness of Deep Vulnerability Detectors to Simple Stupid Bug Detection",
+            "url": "https://www.semanticscholar.org/paper/554383f23225a18fcf291c86ff4c0c55b07f3769",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2111674091",
+                    "name": "Vicente Illanes"
+                },
+                {
+                    "authorId": "1790474",
+                    "name": "Alexandre Bergel"
+                }
+            ],
+            "doi": "10.1109/GI52543.2021.00019",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "41aba3172bb829433f7ecef33605bb91050e7c43",
+            "title": "Generating Object-Oriented Source Code Using Genetic Programming",
+            "url": "https://www.semanticscholar.org/paper/41aba3172bb829433f7ecef33605bb91050e7c43",
+            "venue": "2021 IEEE/ACM International Workshop on Genetic Improvement (GI)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2104.02386",
+            "authors": [
+                {
+                    "authorId": "1396036039",
+                    "name": "Fernanda Madeiral"
+                },
+                {
+                    "authorId": "1882033",
+                    "name": "Thomas Durieux"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00064",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "612bc34aae5b6f7cad34a7aa1392413d99af48d0",
+            "title": "A large-scale study on human-cloned changes for automated program repair",
+            "url": "https://www.semanticscholar.org/paper/612bc34aae5b6f7cad34a7aa1392413d99af48d0",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.11894",
+            "authors": [
+                {
+                    "authorId": "2131383734",
+                    "name": "Wenhan Zhu"
+                },
+                {
+                    "authorId": "47521175",
+                    "name": "Michael W. Godfrey"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00065",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "639bdf06dac6bec9f02d3eda47ebb83503f0da3e",
+            "title": "Mea culpa: How developers fix their own simple bugs differently from other developers",
+            "url": "https://www.semanticscholar.org/paper/639bdf06dac6bec9f02d3eda47ebb83503f0da3e",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.11626",
+            "authors": [
+                {
+                    "authorId": "2056768255",
+                    "name": "Ehsan Mashhadi"
+                },
+                {
+                    "authorId": "1857838",
+                    "name": "H. Hemmati"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00063",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2fae299ace654a8846d22ba0726d28fc5987990a",
+            "title": "Applying CodeBERT for Automated Program Repair of Java Simple Bugs",
+            "url": "https://www.semanticscholar.org/paper/2fae299ace654a8846d22ba0726d28fc5987990a",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.11339",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "145310968",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00022",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6292534df173d295c8ffe489134c81593a2f7592",
+            "title": "Escaping the Time Pit: Pitfalls and Guidelines for Using Time-Based Git Data",
+            "url": "https://www.semanticscholar.org/paper/6292534df173d295c8ffe489134c81593a2f7592",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.09604",
+            "authors": [
+                {
+                    "authorId": "1975033603",
+                    "name": "Bal\u00e1zs Mosolyg\u00f3"
+                },
+                {
+                    "authorId": "1975081712",
+                    "name": "Norbert V\u00e1ndor"
+                },
+                {
+                    "authorId": "50448100",
+                    "name": "G\u00e1bor Antal"
+                },
+                {
+                    "authorId": "2076092",
+                    "name": "P\u00e9ter Heged\u00fcs"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00061",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "cfaafa1a064a34216b1d39d6d81538113a968c98",
+            "title": "On the Rise and Fall of Simple Stupid Bugs: a Life-Cycle Analysis of SStuBs",
+            "url": "https://www.semanticscholar.org/paper/cfaafa1a064a34216b1d39d6d81538113a968c98",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.09388",
+            "authors": [
+                {
+                    "authorId": "11002308",
+                    "name": "Anthony S Peruma"
+                },
+                {
+                    "authorId": "21216319",
+                    "name": "Christian D. Newman"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00067",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ed13d03c687b5f587d3fcfbb3b8efc3f9c92c84e",
+            "title": "On the Distribution of \"Simple Stupid Bugs\" in Unit Test Files: An Exploratory Study",
+            "url": "https://www.semanticscholar.org/paper/ed13d03c687b5f587d3fcfbb3b8efc3f9c92c84e",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.01722",
+            "authors": [
+                {
+                    "authorId": "96214938",
+                    "name": "Hlib Babii"
+                },
+                {
+                    "authorId": "2051798865",
+                    "name": "Julian Aron Prenner"
+                },
+                {
+                    "authorId": "2051798996",
+                    "name": "Laurin Stricker"
+                },
+                {
+                    "authorId": "100721942",
+                    "name": "Anjan Karmakar"
+                },
+                {
+                    "authorId": "145565492",
+                    "name": "Andrea Janes"
+                },
+                {
+                    "authorId": "1853058",
+                    "name": "R. Robbes"
+                }
+            ],
+            "doi": "10.1109/ICSE-NIER52604.2021.00030",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "9252cc9ab878bc5a33235a19d27a8f92872bd244",
+            "title": "Mining Software Repositories with a Collaborative Heuristic Repository",
+            "url": "https://www.semanticscholar.org/paper/9252cc9ab878bc5a33235a19d27a8f92872bd244",
+            "venue": "2021 IEEE/ACM 43rd International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2102.03300",
+            "authors": [
+                {
+                    "authorId": "118283839",
+                    "name": "Giovanni Rosa"
+                },
+                {
+                    "authorId": "40695832",
+                    "name": "L. Pascarella"
+                },
+                {
+                    "authorId": "3439470",
+                    "name": "Simone Scalabrino"
+                },
+                {
+                    "authorId": "2045297541",
+                    "name": "Rosalia Tufano"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                }
+            ],
+            "doi": "10.1109/ICSE43902.2021.00049",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5e8ce0c69b0c1872b5f2e9b12d627be926db8dab",
+            "title": "Evaluating SZZ Implementations Through a Developer-Informed Oracle",
+            "url": "https://www.semanticscholar.org/paper/5e8ce0c69b0c1872b5f2e9b12d627be926db8dab",
+            "venue": "2021 IEEE/ACM 43rd International Conference on Software Engineering (ICSE)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "9193431",
+                    "name": "Abdulkadir Seker"
+                },
+                {
+                    "authorId": "3278786",
+                    "name": "B. Diri"
+                },
+                {
+                    "authorId": "2060742163",
+                    "name": "Halil Arslan"
+                },
+                {
+                    "authorId": "1775715",
+                    "name": "M. Amasyal\u0131"
+                }
+            ],
+            "doi": "10.4018/978-1-7998-9158-1.ch003",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "fb4e0256b5e8ba9fd49adeeb79e4c31f7644aa75",
+            "title": "Open Source Software Development Challenges",
+            "url": "https://www.semanticscholar.org/paper/fb4e0256b5e8ba9fd49adeeb79e4c31f7644aa75",
+            "venue": "Research Anthology on Usage and Development of Open Source Software",
+            "year": 2020
+        },
+        {
+            "arxivId": "2008.10707",
+            "authors": [
+                {
+                    "authorId": "1902935998",
+                    "name": "Yangruibo Ding"
+                },
+                {
+                    "authorId": "31631000",
+                    "name": "Baishakhi Ray"
+                },
+                {
+                    "authorId": "114875459",
+                    "name": "Prem Devanbu"
+                },
+                {
+                    "authorId": "2297847300",
+                    "name": "Vincent Hellendoorn"
+                }
+            ],
+            "doi": "10.1145/3324884.3416587",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ee25620eea19f793d598dbbf6241cf7520a60ccd",
+            "title": "Patching as Translation: the Data and the Metaphor",
+            "url": "https://www.semanticscholar.org/paper/ee25620eea19f793d598dbbf6241cf7520a60ccd",
+            "venue": "2020 35th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2020
+        },
+        {
+            "arxivId": "2008.02944",
+            "authors": [
+                {
+                    "authorId": "2069990130",
+                    "name": "Haoye Tian"
+                },
+                {
+                    "authorId": "145407228",
+                    "name": "Kui Liu"
+                },
+                {
+                    "authorId": "2042715833",
+                    "name": "A. Kabor\u00e9"
+                },
+                {
+                    "authorId": "31491515",
+                    "name": "Anil Koyuncu"
+                },
+                {
+                    "authorId": "2156057406",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                },
+                {
+                    "authorId": "3023999",
+                    "name": "T\u00e9gawend\u00e9 F. Bissyand\u00e9"
+                }
+            ],
+            "doi": "10.1145/3324884.3416532",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "521b813aeb71162fe74ad09da4a2bbbcd9919b70",
+            "title": "Evaluating Representation Learning of Code Changes for Predicting Patch Correctness in Program Repair",
+            "url": "https://www.semanticscholar.org/paper/521b813aeb71162fe74ad09da4a2bbbcd9919b70",
+            "venue": "2020 35th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2020
+        },
+        {
+            "arxivId": "2004.13214",
+            "authors": [
+                {
+                    "authorId": "3466166",
+                    "name": "Rafael-Michael Karampatsis"
+                },
+                {
+                    "authorId": "152549864",
+                    "name": "Charles Sutton"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "5d839ec37463be6998a46af8e6ca7a96c575b3ba",
+            "title": "SCELMo: Source Code Embeddings from Language Models",
+            "url": "https://www.semanticscholar.org/paper/5d839ec37463be6998a46af8e6ca7a96c575b3ba",
+            "venue": "ArXiv",
+            "year": 2020
+        },
+        {
+            "arxivId": "2003.10750",
+            "authors": [
+                {
+                    "authorId": "9193431",
+                    "name": "Abdulkadir Seker"
+                },
+                {
+                    "authorId": "3278786",
+                    "name": "B. Diri"
+                },
+                {
+                    "authorId": "2060742163",
+                    "name": "Halil Arslan"
+                },
+                {
+                    "authorId": "1775715",
+                    "name": "M. Amasyal\u0131"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6808fd739bfed343221dcbe593304fbea538a303",
+            "title": "A Systematic Mapping of Software Engineering Challenges: GHTorrent Case",
+            "url": "https://www.semanticscholar.org/paper/6808fd739bfed343221dcbe593304fbea538a303",
+            "venue": "ArXiv",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "9193431",
+                    "name": "Abdulkadir Seker"
+                },
+                {
+                    "authorId": "3278786",
+                    "name": "B. Diri"
+                },
+                {
+                    "authorId": "2060742163",
+                    "name": "Halil Arslan"
+                },
+                {
+                    "authorId": "1775715",
+                    "name": "M. Amasyal\u0131"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0d0430681a2aeff6e7c07ffa9303384003ffb299",
+            "title": "Open Source Software Development Challenges: A Systematic Literature Review on GitHub",
+            "url": "https://www.semanticscholar.org/paper/0d0430681a2aeff6e7c07ffa9303384003ffb299",
+            "venue": "Int. J. Open Source Softw. Process.",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1411137832",
+                    "name": "Moshi Wei"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9fa1d5a98fe603b792d714fa910aa3a9f2b21c80",
+            "title": "Abstraction Mechanism on Neural Machine Translation Models for Automated Program Repair",
+            "url": "https://www.semanticscholar.org/paper/9fa1d5a98fe603b792d714fa910aa3a9f2b21c80",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": "1810.00314",
+            "authors": [
+                {
+                    "authorId": "47570053",
+                    "name": "Saikat Chakraborty"
+                },
+                {
+                    "authorId": "1902935998",
+                    "name": "Yangruibo Ding"
+                },
+                {
+                    "authorId": "3216345",
+                    "name": "Miltiadis Allamanis"
+                },
+                {
+                    "authorId": "31631000",
+                    "name": "Baishakhi Ray"
+                }
+            ],
+            "doi": "10.1109/TSE.2020.3020502",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2ac5f0a18b1b6892d6f7063f7583a2e08d00925b",
+            "title": "CODIT: Code Editing With Tree-Based Neural Models",
+            "url": "https://www.semanticscholar.org/paper/2ac5f0a18b1b6892d6f7063f7583a2e08d00925b",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47570053",
+                    "name": "Saikat Chakraborty"
+                },
+                {
+                    "authorId": "3216345",
+                    "name": "Miltiadis Allamanis"
+                },
+                {
+                    "authorId": "31631000",
+                    "name": "Baishakhi Ray"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f1b4a309d62598570abcf586ba508322a2ad1c3b",
+            "title": "CODIT: Code Editing with Tree-Based NeuralMachine Translation",
+            "url": "https://www.semanticscholar.org/paper/f1b4a309d62598570abcf586ba508322a2ad1c3b",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2108528154",
+                    "name": "Weishi Wang"
+                },
+                {
+                    "authorId": "2273332941",
+                    "name": "Yue Wang"
+                },
+                {
+                    "authorId": "2184854289",
+                    "name": "Steven C. H. Hoi"
+                },
+                {
+                    "authorId": "2708940",
+                    "name": "Shafiq R. Joty"
+                }
+            ],
+            "doi": "10.18653/v1/2023.emnlp-main.430",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "321cb42c7b97755b19cf7fae43fb2cb6b349841d",
+            "title": "Towards Low-Resource Automatic Program Repair with Meta-Learning and Pretrained Language Models",
+            "url": "https://www.semanticscholar.org/paper/321cb42c7b97755b19cf7fae43fb2cb6b349841d",
+            "venue": "EMNLP",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1409701329",
+                    "name": "Quanjun Zhang"
+                },
+                {
+                    "authorId": "7595994",
+                    "name": "Chunrong Fang"
+                },
+                {
+                    "authorId": "3433022",
+                    "name": "Weisong Sun"
+                },
+                {
+                    "authorId": "2156649517",
+                    "name": "Yan Liu"
+                },
+                {
+                    "authorId": "2281761",
+                    "name": "Tieke He"
+                },
+                {
+                    "authorId": "1999840619",
+                    "name": "X. Hao"
+                },
+                {
+                    "authorId": "9220930",
+                    "name": "Zhenyu Chen"
+                }
+            ],
+            "doi": "10.48550/arXiv.2301.12453",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "01530a6d54ed5c881c57c761ffdbb979751753e4",
+            "title": "Boosting Automated Patch Correctness Prediction via Pre-trained Language Model",
+            "url": "https://www.semanticscholar.org/paper/01530a6d54ed5c881c57c761ffdbb979751753e4",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1468751197",
+                    "name": "Sheena Panthaplackel"
+                },
+                {
+                    "authorId": "1797655",
+                    "name": "R. Mooney"
+                },
+                {
+                    "authorId": "2109008654",
+                    "name": "J. Li"
+                },
+                {
+                    "authorId": "2020926",
+                    "name": "Milo\u0161 Gligori\u0107"
+                },
+                {
+                    "authorId": "1814094",
+                    "name": "Greg Durrett"
+                },
+                {
+                    "authorId": "152549864",
+                    "name": "Charles Sutton"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d2d23da982af1350c99a3022a74d7196d402009f",
+            "title": "Facilitating Software Evolution through Natural Language Comments and Dialogue",
+            "url": "https://www.semanticscholar.org/paper/d2d23da982af1350c99a3022a74d7196d402009f",
+            "venue": "",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2221122824",
+                    "name": "S. Alsaedi"
+                },
+                {
+                    "authorId": "2257968",
+                    "name": "Amin Y. Noaman"
+                },
+                {
+                    "authorId": "1404837114",
+                    "name": "A. A. Gad-Elrab"
+                },
+                {
+                    "authorId": "2006519",
+                    "name": "F. Eassa"
+                }
+            ],
+            "doi": "10.1109/ACCESS.2023.3288156",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c90ca1e747342cf1235ae3ce6890526268c4885c",
+            "title": "Nature-Based Prediction Model of Bug Reports Based on Ensemble Machine Learning Model",
+            "url": "https://www.semanticscholar.org/paper/c90ca1e747342cf1235ae3ce6890526268c4885c",
+            "venue": "IEEE Access",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "91898848",
+                    "name": "Cedric Richter"
+                },
+                {
+                    "authorId": "51175599",
+                    "name": "Jan Haltermann"
+                },
+                {
+                    "authorId": "33592809",
+                    "name": "Marie-Christine Jakobs"
+                },
+                {
+                    "authorId": "10136854",
+                    "name": "Felix Pauck"
+                },
+                {
+                    "authorId": "2199322677",
+                    "name": "Stefan Schott"
+                },
+                {
+                    "authorId": "1731680",
+                    "name": "H. Wehrheim"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "db782ccd967e006d938989dddfdcac5caa222afc",
+            "title": "Variable Misuse Detection: Software Developers versus Neural Bug Detectors",
+            "url": "https://www.semanticscholar.org/paper/db782ccd967e006d938989dddfdcac5caa222afc",
+            "venue": "Software Engineering",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "115698543",
+                    "name": "Finlay Macklon"
+                },
+                {
+                    "authorId": "51119802",
+                    "name": "Markos Viggiato"
+                },
+                {
+                    "authorId": "1755660",
+                    "name": "C. Bezemer"
+                },
+                {
+                    "authorId": "48971237",
+                    "name": "Natalia Romanova"
+                },
+                {
+                    "authorId": "120607425",
+                    "name": "C. Buzon"
+                },
+                {
+                    "authorId": "2133235305",
+                    "name": "Dale Paas"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "3a0481c99092fcda12ae6e6ae509c24462ea0184",
+            "title": "A Taxonomy of HTML5 Canvas Bugs",
+            "url": "https://www.semanticscholar.org/paper/3a0481c99092fcda12ae6e6ae509c24462ea0184",
+            "venue": "ArXiv",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1752869429",
+                    "name": "Enrique Dehaerne"
+                },
+                {
+                    "authorId": "3259827",
+                    "name": "Bappaditya Dey"
+                },
+                {
+                    "authorId": "2180568266",
+                    "name": "Sandip Halder"
+                },
+                {
+                    "authorId": "2961184",
+                    "name": "S. De Gendt"
+                },
+                {
+                    "authorId": "2143963033",
+                    "name": "Wannes Meert"
+                }
+            ],
+            "doi": "10.1109/ACCESS.2022.3196347",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4797e960f8e7a2b47ae0d95c7071ef84fa5d4b5b",
+            "title": "Code Generation Using Machine Learning: A Systematic Review",
+            "url": "https://www.semanticscholar.org/paper/4797e960f8e7a2b47ae0d95c7071ef84fa5d4b5b",
+            "venue": "IEEE Access",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "65978014",
+                    "name": "Hafiza Anisa Ahmed"
+                },
+                {
+                    "authorId": "8306735",
+                    "name": "N. Bawany"
+                },
+                {
+                    "authorId": "144392010",
+                    "name": "J. Shamsi"
+                }
+            ],
+            "doi": "10.1109/ACCESS.2021.3069248",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fde6304faf5c615e66e8cffc1d9538be755b3de5",
+            "title": "CaPBug-A Framework for Automatic Bug Categorization and Prioritization Using NLP and Machine Learning Algorithms",
+            "url": "https://www.semanticscholar.org/paper/fde6304faf5c615e66e8cffc1d9538be755b3de5",
+            "venue": "IEEE Access",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "46842516",
+                    "name": "Zimin Chen"
+                },
+                {
+                    "authorId": "2297847302",
+                    "name": "Vincent J. Hellendoorn"
+                },
+                {
+                    "authorId": "3087941",
+                    "name": "Pascal Lamblin"
+                },
+                {
+                    "authorId": "2286904",
+                    "name": "Petros Maniatis"
+                },
+                {
+                    "authorId": "1798462",
+                    "name": "Pierre-Antoine Manzagol"
+                },
+                {
+                    "authorId": "1725299",
+                    "name": "Daniel Tarlow"
+                },
+                {
+                    "authorId": "3316330",
+                    "name": "Subhodeep Moitra"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1cedb352a10828b3ec263a4da907794bea052282",
+            "title": "PLUR: A Unifying, Graph-Based View of Program Learning, Understanding, and Repair",
+            "url": "https://www.semanticscholar.org/paper/1cedb352a10828b3ec263a4da907794bea052282",
+            "venue": "NeurIPS",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2076161945",
+                    "name": "Marjane Namavar"
+                },
+                {
+                    "authorId": "2367073",
+                    "name": "Noor Nashid"
+                },
+                {
+                    "authorId": "1853199",
+                    "name": "A. Mesbah"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "39893b38d00ed0217db24cea85a70619463910e0",
+            "title": "A Controlled Experiment of Different Code Representations for Learning-Based Bug Repair",
+            "url": "https://www.semanticscholar.org/paper/39893b38d00ed0217db24cea85a70619463910e0",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b4bf129d42d75c3189adfdbd162da076a596635e",
+            "title": "SCELMO: SOURCE CODE EMBEDDINGS",
+            "url": "https://www.semanticscholar.org/paper/b4bf129d42d75c3189adfdbd162da076a596635e",
+            "venue": "",
+            "year": 2019
+        }
+    ],
+    "corpusId": 173188438,
+    "doi": "10.1145/3379597.3387491",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 28,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 125,
+    "numCiting": 29,
+    "paperId": "a14ef6eee732a0d66a6c534d4e696e36767332d7",
+    "references": [
+        {
+            "arxivId": "2003.07914",
+            "authors": [
+                {
+                    "authorId": "3466166",
+                    "name": "Rafael-Michael Karampatsis"
+                },
+                {
+                    "authorId": "96214938",
+                    "name": "Hlib Babii"
+                },
+                {
+                    "authorId": "1853058",
+                    "name": "R. Robbes"
+                },
+                {
+                    "authorId": "152549864",
+                    "name": "Charles Sutton"
+                },
+                {
+                    "authorId": "145565492",
+                    "name": "Andrea Janes"
+                }
+            ],
+            "doi": "10.1145/3377811.3380342",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3944354c42ddfff7414ad06022f96c72858d5fa6",
+            "title": "Big Code != Big Vocabulary: Open-Vocabulary Models for Source Code",
+            "url": "https://www.semanticscholar.org/paper/3944354c42ddfff7414ad06022f96c72858d5fa6",
+            "venue": "2020 IEEE/ACM 42nd International Conference on Software Engineering (ICSE)",
+            "year": 2020
+        },
+        {
+            "arxivId": "1903.04055",
+            "authors": [
+                {
+                    "authorId": "80155594",
+                    "name": "Efstathia Chioteli"
+                },
+                {
+                    "authorId": "80991167",
+                    "name": "Ioannis Batas"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1145/3503823.3503872",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2ae9113ddfba99468728326efdb9d0c87d0d6901",
+            "title": "Does Unit-Tested Code Crash? A Case Study of Eclipse",
+            "url": "https://www.semanticscholar.org/paper/2ae9113ddfba99468728326efdb9d0c87d0d6901",
+            "venue": "PCI",
+            "year": 2019
+        },
+        {
+            "arxivId": "1901.01808",
+            "authors": [
+                {
+                    "authorId": "46842516",
+                    "name": "Zimin Chen"
+                },
+                {
+                    "authorId": "51957922",
+                    "name": "Steve Kommrusch"
+                },
+                {
+                    "authorId": "40626221",
+                    "name": "Michele Tufano"
+                },
+                {
+                    "authorId": "1793611",
+                    "name": "L. Pouchet"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                },
+                {
+                    "authorId": "150220964",
+                    "name": "Monperrus Martin"
+                }
+            ],
+            "doi": "10.1109/TSE.2019.2940179",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "59cc0871534a20ac98db0663539c6675ab63566f",
+            "title": "SequenceR: Sequence-to-Sequence Learning for End-to-End Program Repair",
+            "url": "https://www.semanticscholar.org/paper/59cc0871534a20ac98db0663539c6675ab63566f",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2018
+        },
+        {
+            "arxivId": "1812.08693",
+            "authors": [
+                {
+                    "authorId": "40626221",
+                    "name": "Michele Tufano"
+                },
+                {
+                    "authorId": "47543605",
+                    "name": "Cody Watson"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "2118713819",
+                    "name": "Martin White"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                }
+            ],
+            "doi": "10.1145/3340544",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "516497e7fc39ebb126bed28dcc5c6129e500acb8",
+            "title": "An Empirical Study on Learning Bug-Fixing Patches in the Wild via Neural Machine Translation",
+            "url": "https://www.semanticscholar.org/paper/516497e7fc39ebb126bed28dcc5c6129e500acb8",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40626221",
+                    "name": "Michele Tufano"
+                },
+                {
+                    "authorId": "47543605",
+                    "name": "Cody Watson"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "2118713819",
+                    "name": "Martin White"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                }
+            ],
+            "doi": "10.1145/3238147.3240732",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "59d56bcf8ce9c77399b42747813696cb2cf97f8b",
+            "title": "An Empirical Investigation into Learning Bug-Fixing Patches in the Wild via Neural Machine Translation",
+            "url": "https://www.semanticscholar.org/paper/59d56bcf8ce9c77399b42747813696cb2cf97f8b",
+            "venue": "2018 33rd IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1840614",
+                    "name": "Andrew Habib"
+                },
+                {
+                    "authorId": "1884064",
+                    "name": "Michael Pradel"
+                }
+            ],
+            "doi": "10.1145/3238147.3238213",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "72e779539de6a5f9c4d30e512ea9ca4688e02c6a",
+            "title": "How Many of All Bugs Do We Find? A Study of Static Bug Detectors",
+            "url": "https://www.semanticscholar.org/paper/72e779539de6a5f9c4d30e512ea9ca4688e02c6a",
+            "venue": "2018 33rd IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2018
+        },
+        {
+            "arxivId": "1807.03200",
+            "authors": [
+                {
+                    "authorId": "46842516",
+                    "name": "Zimin Chen"
+                },
+                {
+                    "authorId": "150220964",
+                    "name": "Monperrus Martin"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f8ff94520350485ef7ff5c2a640cc999986d6d9a",
+            "title": "The CodRep Machine Learning on Source Code Competition",
+            "url": "https://www.semanticscholar.org/paper/f8ff94520350485ef7ff5c2a640cc999986d6d9a",
+            "venue": "ArXiv",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2671585",
+                    "name": "Ripon K. Saha"
+                },
+                {
+                    "authorId": "2745323",
+                    "name": "Yingjun Lyu"
+                },
+                {
+                    "authorId": "2055478258",
+                    "name": "Wing Lam"
+                },
+                {
+                    "authorId": "2113500945",
+                    "name": "H. Yoshida"
+                },
+                {
+                    "authorId": "145134489",
+                    "name": "M. Prasad"
+                }
+            ],
+            "doi": "10.1145/3196398.3196473",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "82cb0ba021803d6f9580ec126323f673bd0efeb4",
+            "title": "Bugs.jar: A Large-Scale, Diverse Dataset of Real-World Java Bugs",
+            "url": "https://www.semanticscholar.org/paper/82cb0ba021803d6f9580ec126323f673bd0efeb4",
+            "venue": "2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR)",
+            "year": 2018
+        },
+        {
+            "arxivId": "1805.11683",
+            "authors": [
+                {
+                    "authorId": "1884064",
+                    "name": "Michael Pradel"
+                },
+                {
+                    "authorId": "145741786",
+                    "name": "Koushik Sen"
+                }
+            ],
+            "doi": "10.1145/3276517",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "c70f11da5a8bb2df36def1d99c4c08df315e2233",
+            "title": "DeepBugs: a learning approach to name-based bug detection",
+            "url": "https://www.semanticscholar.org/paper/c70f11da5a8bb2df36def1d99c4c08df315e2233",
+            "venue": "Proc. ACM Program. Lang.",
+            "year": 2018
+        },
+        {
+            "arxivId": "1807.00515",
+            "authors": [
+                {
+                    "authorId": "150220964",
+                    "name": "Monperrus Martin"
+                }
+            ],
+            "doi": "10.1145/3105906",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3f7f1c7070cff4b135b35f70a0fb81d8fff52925",
+            "title": "Automatic Software Repair",
+            "url": "https://www.semanticscholar.org/paper/3f7f1c7070cff4b135b35f70a0fb81d8fff52925",
+            "venue": "ACM Comput. Surv.",
+            "year": 2018
+        },
+        {
+            "arxivId": "1602.03001",
+            "authors": [
+                {
+                    "authorId": "3216345",
+                    "name": "Miltiadis Allamanis"
+                },
+                {
+                    "authorId": "1818378366",
+                    "name": "Hao Peng"
+                },
+                {
+                    "authorId": "37210858",
+                    "name": "Charles Sutton"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "484ed558a5863060b373e8a2cb7cb302b8c36116",
+            "title": "A Convolutional Attention Network for Extreme Summarization of Source Code",
+            "url": "https://www.semanticscholar.org/paper/484ed558a5863060b373e8a2cb7cb302b8c36116",
+            "venue": "ICML",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "37693118",
+                    "name": "Fan Long"
+                },
+                {
+                    "authorId": "1720971",
+                    "name": "M. Rinard"
+                }
+            ],
+            "doi": "10.1145/2837614.2837617",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "50358e3f30ab8c99f9d383e5683b31c2311e5651",
+            "title": "Automatic patch generation by learning correct code",
+            "url": "https://www.semanticscholar.org/paper/50358e3f30ab8c99f9d383e5683b31c2311e5651",
+            "venue": "POPL",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2957803",
+                    "name": "Claire Le Goues"
+                },
+                {
+                    "authorId": "8374259",
+                    "name": "Neal J. Holtschulte"
+                },
+                {
+                    "authorId": "21401565",
+                    "name": "Edward K. Smith"
+                },
+                {
+                    "authorId": "2932798",
+                    "name": "Yuriy Brun"
+                },
+                {
+                    "authorId": "1730296",
+                    "name": "Premkumar T. Devanbu"
+                },
+                {
+                    "authorId": "30123380",
+                    "name": "S. Forrest"
+                },
+                {
+                    "authorId": "47211092",
+                    "name": "Westley Weimer"
+                }
+            ],
+            "doi": "10.1109/TSE.2015.2454513",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "ea73e3c069f4593e916737ca8f59a3faf51d1f0c",
+            "title": "The ManyBugs and IntroClass Benchmarks for Automated Repair of C Programs",
+            "url": "https://www.semanticscholar.org/paper/ea73e3c069f4593e916737ca8f59a3faf51d1f0c",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39942172",
+                    "name": "Xinrui Guo"
+                },
+                {
+                    "authorId": "144994012",
+                    "name": "Min Zhou"
+                },
+                {
+                    "authorId": "144532322",
+                    "name": "Xiaoyu Song"
+                },
+                {
+                    "authorId": "145932525",
+                    "name": "M. Gu"
+                },
+                {
+                    "authorId": "2109517420",
+                    "name": "Jiaguang Sun"
+                }
+            ],
+            "doi": "10.1109/TSE.2015.2425392",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "93adea6f4a6fd11cd052dd786e18a07f0889aac3",
+            "title": "First, Debug the Test Oracle",
+            "url": "https://www.semanticscholar.org/paper/93adea6f4a6fd11cd052dd786e18a07f0889aac3",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "37693118",
+                    "name": "Fan Long"
+                },
+                {
+                    "authorId": "1720971",
+                    "name": "M. Rinard"
+                }
+            ],
+            "doi": "10.1145/2786805.2786811",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "6fe2f67fbd8526daaeb87b2c7940aa4b5749c550",
+            "title": "Staged program repair with condition synthesis",
+            "url": "https://www.semanticscholar.org/paper/6fe2f67fbd8526daaeb87b2c7940aa4b5749c550",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3216345",
+                    "name": "Miltiadis Allamanis"
+                },
+                {
+                    "authorId": "1757975",
+                    "name": "Earl T. Barr"
+                },
+                {
+                    "authorId": "145193818",
+                    "name": "C. Bird"
+                },
+                {
+                    "authorId": "37210858",
+                    "name": "Charles Sutton"
+                }
+            ],
+            "doi": "10.1145/2786805.2786849",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3e945f20718290d4639a23917d3385b0f710a593",
+            "title": "Suggesting accurate method and class names",
+            "url": "https://www.semanticscholar.org/paper/3e945f20718290d4639a23917d3385b0f710a593",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2015
+        },
+        {
+            "arxivId": "1506.01159",
+            "authors": [
+                {
+                    "authorId": "31631000",
+                    "name": "Baishakhi Ray"
+                },
+                {
+                    "authorId": "2297847300",
+                    "name": "Vincent Hellendoorn"
+                },
+                {
+                    "authorId": "3108669",
+                    "name": "Saheel Godhane"
+                },
+                {
+                    "authorId": "2909321",
+                    "name": "Zhaopeng Tu"
+                },
+                {
+                    "authorId": "1686038",
+                    "name": "Alberto Bacchelli"
+                },
+                {
+                    "authorId": "1730296",
+                    "name": "Premkumar T. Devanbu"
+                }
+            ],
+            "doi": "10.1145/2884781.2884848",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "cfb0d0a633957b232d467fd122d3ec5244d24184",
+            "title": "On the \"Naturalness\" of Buggy Code",
+            "url": "https://www.semanticscholar.org/paper/cfb0d0a633957b232d467fd122d3ec5244d24184",
+            "venue": "2016 IEEE/ACM 38th International Conference on Software Engineering (ICSE)",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143867476",
+                    "name": "Caitlin Sadowski"
+                },
+                {
+                    "authorId": "2086373132",
+                    "name": "Jeffrey van Gogh"
+                },
+                {
+                    "authorId": "2220990",
+                    "name": "Ciera Jaspan"
+                },
+                {
+                    "authorId": "3300970",
+                    "name": "Emma S\u00f6derberg"
+                },
+                {
+                    "authorId": "16499781",
+                    "name": "C. Winter"
+                }
+            ],
+            "doi": "10.1109/ICSE.2015.76",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b786cede5cdc3ffdc0f82c771d49d7ddb0bfcad9",
+            "title": "Tricorder: Building a Program Analysis Ecosystem",
+            "url": "https://www.semanticscholar.org/paper/b786cede5cdc3ffdc0f82c771d49d7ddb0bfcad9",
+            "venue": "2015 IEEE/ACM 37th IEEE International Conference on Software Engineering",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2707595",
+                    "name": "Ren\u00e9 Just"
+                },
+                {
+                    "authorId": "2728496",
+                    "name": "D. Jalali"
+                },
+                {
+                    "authorId": "6698059",
+                    "name": "Michael D. Ernst"
+                }
+            ],
+            "doi": "10.1145/2610384.2628055",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "37e2106bebd02f4ac9c410941fde7f358279e4a4",
+            "title": "Defects4J: a database of existing faults to enable controlled testing studies for Java programs",
+            "url": "https://www.semanticscholar.org/paper/37e2106bebd02f4ac9c410941fde7f358279e4a4",
+            "venue": "ISSTA 2014",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39496137",
+                    "name": "Kim Herzig"
+                },
+                {
+                    "authorId": "145594351",
+                    "name": "A. Zeller"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624018",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "390ef1df3f3552e6d17b34d25bb1dcb783272cc6",
+            "title": "The impact of tangled code changes",
+            "url": "https://www.semanticscholar.org/paper/390ef1df3f3552e6d17b34d25bb1dcb783272cc6",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624034",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2867eb64cc4bb1945363fdae12a168962ea823aa",
+            "title": "The GHTorent dataset and tool suite",
+            "url": "https://www.semanticscholar.org/paper/2867eb64cc4bb1945363fdae12a168962ea823aa",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "66298085",
+                    "name": "Frederic P. Miller"
+                },
+                {
+                    "authorId": "13548110",
+                    "name": "Agnes F. Vandome"
+                },
+                {
+                    "authorId": "66320951",
+                    "name": "John McBrewster"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2291c46d72836a3b5c52f4b08382d4b91ce7ba29",
+            "title": "Apache Maven",
+            "url": "https://www.semanticscholar.org/paper/2291c46d72836a3b5c52f4b08382d4b91ce7ba29",
+            "venue": "",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "32263524",
+                    "name": "Chadd C. Williams"
+                },
+                {
+                    "authorId": "1712054",
+                    "name": "Jaime Spacco"
+                }
+            ],
+            "doi": "10.1145/1390817.1390826",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "b8329f047fd832870f02bc17fb790d500c8052a6",
+            "title": "SZZ revisited: verifying when changes induce fixes",
+            "url": "https://www.semanticscholar.org/paper/b8329f047fd832870f02bc17fb790d500c8052a6",
+            "venue": "DEFECTS '08",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1787729",
+                    "name": "Sunghun Kim"
+                },
+                {
+                    "authorId": "143609903",
+                    "name": "Thomas Zimmermann"
+                },
+                {
+                    "authorId": "145834128",
+                    "name": "Kai Pan"
+                },
+                {
+                    "authorId": "2227924013",
+                    "name": "E. James Jr. Whitehead"
+                }
+            ],
+            "doi": "10.1109/ASE.2006.23",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "1f7432f3b8cf8196dbbf46086deb65aa1bb43997",
+            "title": "Automatic Identification of Bug-Introducing Changes",
+            "url": "https://www.semanticscholar.org/paper/1f7432f3b8cf8196dbbf46086deb65aa1bb43997",
+            "venue": "21st IEEE/ACM International Conference on Automated Software Engineering (ASE'06)",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2460404",
+                    "name": "Jacek Sliwerski"
+                },
+                {
+                    "authorId": "143609903",
+                    "name": "Thomas Zimmermann"
+                },
+                {
+                    "authorId": "145594351",
+                    "name": "A. Zeller"
+                }
+            ],
+            "doi": "10.1145/1082983.1083147",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "9784038a293df294d955c0edd72ee37a4bfe8705",
+            "title": "When do changes induce fixes?",
+            "url": "https://www.semanticscholar.org/paper/9784038a293df294d955c0edd72ee37a4bfe8705",
+            "venue": "ACM SIGSOFT Softw. Eng. Notes",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2957803",
+                    "name": "Claire Le Goues"
+                },
+                {
+                    "authorId": "1810147",
+                    "name": "Thanhvu Nguyen"
+                },
+                {
+                    "authorId": "30123380",
+                    "name": "S. Forrest"
+                },
+                {
+                    "authorId": "47211092",
+                    "name": "Westley Weimer"
+                }
+            ],
+            "doi": "10.1109/TSE.2011.104",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "3aa35c213730e688fa191a1ce241db31087956f0",
+            "title": "GenProg: A Generic Method for Automatic Software Repair",
+            "url": "https://www.semanticscholar.org/paper/3aa35c213730e688fa191a1ce241db31087956f0",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2402223",
+                    "name": "M. M\u00fcllerburg"
+                }
+            ],
+            "doi": "10.1145/1006147.1006165",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ec4d46df34cd83af40ee620de3e1ccbb9e830406",
+            "title": "The role of debugging within software engineering environments",
+            "url": "https://www.semanticscholar.org/paper/ec4d46df34cd83af40ee620de3e1ccbb9e830406",
+            "venue": "SIGSOFT '83",
+            "year": 1983
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Proceedings of the 15th International Conference on Mining Software Repositories (Gothenburg, Sweden) (MSR \u201918)",
+            "url": "",
+            "venue": "ACM, New York, NY, USA",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "license agreement with IEEE. Restrictions apply",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "How Often Do Single-Statement Bugs Occur? The ManySStuBs4J Dataset",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/a14ef6eee732a0d66a6c534d4e696e36767332d7",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2019
+}

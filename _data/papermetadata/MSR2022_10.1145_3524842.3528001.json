@@ -1,0 +1,1337 @@
+{
+    "abstract": "MATLAB/Simulink is widely used for model-based design. Engineers create Simulink models and compile them to embedded code, often to control safety-critical cyber-physical systems in automotive, aerospace, and healthcare applications. Despite Simulink's importance, there are few large-scale empirical Simulink studies, perhaps because there is no large readily available corpus of third-party open-source Simulink models. To enable empirical Simulink studies, this paper introduces SLNET, the largest corpus of freely available third-party Simulink models. SLNET has several advantages over earlier collections. Specifically, SLNET is 8 times larger than the largest previous corpus of Simulink models, includes fine-grained metadata, is constructed automatically, is self-contained, and allows redistribution. SLNET is available under permissive open-source licenses and contains its collection and analysis tools.",
+    "arxivId": "2203.17112",
+    "authors": [
+        {
+            "authorId": "51248180",
+            "name": "S. L. Shrestha",
+            "url": "https://www.semanticscholar.org/author/51248180"
+        },
+        {
+            "authorId": "21511788",
+            "name": "Shafiul Azam Chowdhury",
+            "url": "https://www.semanticscholar.org/author/21511788"
+        },
+        {
+            "authorId": "2926604",
+            "name": "Christoph Csallner",
+            "url": "https://www.semanticscholar.org/author/2926604"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47857584",
+                    "name": "S. Popoola"
+                },
+                {
+                    "authorId": "2145734163",
+                    "name": "Xin Zhao"
+                },
+                {
+                    "authorId": "2320762217",
+                    "name": "Jeff Gray"
+                },
+                {
+                    "authorId": "2320670976",
+                    "name": "Antonio Garcia-Dominguez"
+                }
+            ],
+            "doi": "10.1007/s11334-024-00577-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7faa5f0b6d014d23088226066356159ac6610ff9",
+            "title": "Classifying changes to LabVIEW and simulink models via changeset metrics",
+            "url": "https://www.semanticscholar.org/paper/7faa5f0b6d014d23088226066356159ac6610ff9",
+            "venue": "Innovations in Systems and Software Engineering",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1853537976",
+                    "name": "Alexander Boll"
+                },
+                {
+                    "authorId": "2279338164",
+                    "name": "Pooja Rani"
+                },
+                {
+                    "authorId": "47769411",
+                    "name": "Alexander Schultheiss"
+                },
+                {
+                    "authorId": "2247691111",
+                    "name": "Timo Kehrer"
+                }
+            ],
+            "doi": "10.1016/j.jss.2024.112087",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "08aa6d4f20c0ec0c0b612e9e26b4f0ccc7c775d5",
+            "title": "Beyond code: Is there a difference between comments in visual and textual languages?",
+            "url": "https://www.semanticscholar.org/paper/08aa6d4f20c0ec0c0b612e9e26b4f0ccc7c775d5",
+            "venue": "J. Syst. Softw.",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51248180",
+                    "name": "S. L. Shrestha"
+                },
+                {
+                    "authorId": "1853537976",
+                    "name": "Alexander Boll"
+                },
+                {
+                    "authorId": "1795801",
+                    "name": "Timo Kehrer"
+                },
+                {
+                    "authorId": "2926604",
+                    "name": "Christoph Csallner"
+                }
+            ],
+            "doi": "10.1109/MODELS-C59198.2023.00022",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "ada256dbad18867fd7db02b6854029d0284f06d2",
+            "title": "ScoutSL: An Open-Source Simulink Search Engine",
+            "url": "https://www.semanticscholar.org/paper/ada256dbad18867fd7db02b6854029d0284f06d2",
+            "venue": "2023 ACM/IEEE International Conference on Model Driven Engineering Languages and Systems Companion (MODELS-C)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51248180",
+                    "name": "S. L. Shrestha"
+                },
+                {
+                    "authorId": "1853537976",
+                    "name": "Alexander Boll"
+                },
+                {
+                    "authorId": "21511788",
+                    "name": "Shafiul Azam Chowdhury"
+                },
+                {
+                    "authorId": "1795801",
+                    "name": "Timo Kehrer"
+                },
+                {
+                    "authorId": "2926604",
+                    "name": "Christoph Csallner"
+                }
+            ],
+            "doi": "10.1109/MODELS58315.2023.00024",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e0a2537458b9ea7039ac32c43e38213aae45b689",
+            "title": "EvoSL: A Large Open-Source Corpus of Changes in Simulink Models & Projects",
+            "url": "https://www.semanticscholar.org/paper/e0a2537458b9ea7039ac32c43e38213aae45b689",
+            "venue": "2023 ACM/IEEE 26th International Conference on Model Driven Engineering Languages and Systems (MODELS)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2308.01978",
+            "authors": [
+                {
+                    "authorId": "51248180",
+                    "name": "S. L. Shrestha"
+                },
+                {
+                    "authorId": "21511788",
+                    "name": "Shafiul Azam Chowdhury"
+                },
+                {
+                    "authorId": "2926604",
+                    "name": "Christoph Csallner"
+                }
+            ],
+            "doi": "10.1109/ESEM56168.2023.10304867",
+            "intent": [
+                "background",
+                "methodology",
+                "result"
+            ],
+            "isInfluential": true,
+            "paperId": "0cdd4a779c435185813d960635ae132446f800cf",
+            "title": "Replicability Study: Corpora For Understanding Simulink Models & Projects",
+            "url": "https://www.semanticscholar.org/paper/0cdd4a779c435185813d960635ae132446f800cf",
+            "venue": "2023 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51248180",
+                    "name": "S. L. Shrestha"
+                }
+            ],
+            "doi": "10.1145/3597926.3605233",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "9080a9886dea8f1ff91b6729a1456363d6531178",
+            "title": "Harnessing Large Language Models for Simulink Toolchain Testing and Developing Diverse Open-Source Corpora of Simulink Models for Metric and Evolution Analysis",
+            "url": "https://www.semanticscholar.org/paper/9080a9886dea8f1ff91b6729a1456363d6531178",
+            "venue": "ISSTA",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144718897",
+                    "name": "Tiago Amorim"
+                },
+                {
+                    "authorId": "1853537976",
+                    "name": "Alexander Boll"
+                },
+                {
+                    "authorId": "2223361110",
+                    "name": "Ferry Bachman"
+                },
+                {
+                    "authorId": "1795801",
+                    "name": "Timo Kehrer"
+                },
+                {
+                    "authorId": "1859607",
+                    "name": "Andreas Vogelsang"
+                },
+                {
+                    "authorId": "1701654",
+                    "name": "H. Pohlheim"
+                }
+            ],
+            "doi": "10.5381/jot.2023.22.2.a12",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "08e379e17934ed9567a0d7a7cc534902d5338695",
+            "title": "Simulink bus usage in practice: an empirical study",
+            "url": "https://www.semanticscholar.org/paper/08e379e17934ed9567a0d7a7cc534902d5338695",
+            "venue": "J. Object Technol.",
+            "year": 2023
+        }
+    ],
+    "corpusId": 247799588,
+    "doi": "10.1145/3524842.3528001",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 7,
+    "numCiting": 43,
+    "paperId": "a124e7e816f3f0097abbed7f34124745dcbf11af",
+    "references": [
+        {
+            "arxivId": "2105.07465",
+            "authors": [
+                {
+                    "authorId": "51248180",
+                    "name": "S. L. Shrestha"
+                },
+                {
+                    "authorId": "2926604",
+                    "name": "Christoph Csallner"
+                }
+            ],
+            "doi": "10.1145/3463274.3463806",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "333cd0c67ec9e41ae2889139990cfbb2c01b3479",
+            "title": "SLGPT: Using Transfer Learning to Directly Generate Simulink Model Files and Find Bugs in the Simulink Toolchain",
+            "url": "https://www.semanticscholar.org/paper/333cd0c67ec9e41ae2889139990cfbb2c01b3479",
+            "venue": "EASE",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1853537976",
+                    "name": "Alexander Boll"
+                },
+                {
+                    "authorId": "84056022",
+                    "name": "F. Brokhausen"
+                },
+                {
+                    "authorId": "144718897",
+                    "name": "Tiago Amorim"
+                },
+                {
+                    "authorId": "1795801",
+                    "name": "Timo Kehrer"
+                },
+                {
+                    "authorId": "1859607",
+                    "name": "Andreas Vogelsang"
+                }
+            ],
+            "doi": "10.1007/s10270-021-00883-0",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "d1997c2d8489764abebd30525a303c3c9e827034",
+            "title": "Characteristics, potentials, and limitations of open-source Simulink projects for empirical research",
+            "url": "https://www.semanticscholar.org/paper/d1997c2d8489764abebd30525a303c3c9e827034",
+            "venue": "Software and Systems Modeling",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "21511788",
+                    "name": "Shafiul Azam Chowdhury"
+                },
+                {
+                    "authorId": "51248180",
+                    "name": "S. L. Shrestha"
+                },
+                {
+                    "authorId": "2427495",
+                    "name": "Taylor T. Johnson"
+                },
+                {
+                    "authorId": "2926604",
+                    "name": "Christoph Csallner"
+                }
+            ],
+            "doi": "10.1145/3377811.3380381",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "77acdb196d42436937da36802cab54a002352c7d",
+            "title": "SLEMI: Equivalence Modulo Input (EMI) Based Mutation of CPS Models for Finding Compiler Bugs in Simulink",
+            "url": "https://www.semanticscholar.org/paper/77acdb196d42436937da36802cab54a002352c7d",
+            "venue": "2020 IEEE/ACM 42nd International Conference on Software Engineering (ICSE)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1853537976",
+                    "name": "Alexander Boll"
+                },
+                {
+                    "authorId": "1795801",
+                    "name": "Timo Kehrer"
+                }
+            ],
+            "doi": "10.1007/978-3-030-58167-1_9",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "79c98c687de7136a00c1a37d5950d13ad6f485bd",
+            "title": "On the Replicability of Experimental Tool Evaluations in Model-Based Development - Lessons Learnt from a Systematic Literature Review Focusing on MATLAB/Simulink",
+            "url": "https://www.semanticscholar.org/paper/79c98c687de7136a00c1a37d5950d13ad6f485bd",
+            "venue": "ICSMM",
+            "year": 2020
+        },
+        {
+            "arxivId": "1909.05410",
+            "authors": [
+                {
+                    "authorId": "2109313865",
+                    "name": "Yuqi Chen"
+                },
+                {
+                    "authorId": "1717595",
+                    "name": "Christopher M. Poskitt"
+                },
+                {
+                    "authorId": "39838927",
+                    "name": "Jun Sun"
+                },
+                {
+                    "authorId": "2566932",
+                    "name": "Sridhar Adepu"
+                },
+                {
+                    "authorId": "50212920",
+                    "name": "Fan Zhang"
+                }
+            ],
+            "doi": "10.1109/ASE.2019.00093",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e363f8952599e238e7f59a3ec2828cedc063d588",
+            "title": "Learning-Guided Network Fuzzing for Testing Cyber-Physical System Defences",
+            "url": "https://www.semanticscholar.org/paper/e363f8952599e238e7f59a3ec2828cedc063d588",
+            "venue": "2019 34th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "21511788",
+                    "name": "Shafiul Azam Chowdhury"
+                },
+                {
+                    "authorId": "51126338",
+                    "name": "L. S. Varghese"
+                },
+                {
+                    "authorId": null,
+                    "name": "Soumik Mohian"
+                },
+                {
+                    "authorId": "2427495",
+                    "name": "Taylor T. Johnson"
+                },
+                {
+                    "authorId": "2926604",
+                    "name": "Christoph Csallner"
+                }
+            ],
+            "doi": "10.1145/3196478.3196484",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "ce73c1a24878ade9153722360572128fdacb7beb",
+            "title": "A Curated Corpus of Simulink Models for Model-Based Empirical Studies",
+            "url": "https://www.semanticscholar.org/paper/ce73c1a24878ade9153722360572128fdacb7beb",
+            "venue": "2018 IEEE/ACM 4th International Workshop on Software Engineering for Smart Cyber-Physical Systems (SEsCPS)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "21511788",
+                    "name": "Shafiul Azam Chowdhury"
+                },
+                {
+                    "authorId": null,
+                    "name": "Soumik Mohian"
+                },
+                {
+                    "authorId": "2069817124",
+                    "name": "Sidharth Mehra"
+                },
+                {
+                    "authorId": "22717048",
+                    "name": "Siddhant Gawsane"
+                },
+                {
+                    "authorId": "2427495",
+                    "name": "Taylor T. Johnson"
+                },
+                {
+                    "authorId": "2926604",
+                    "name": "Christoph Csallner"
+                }
+            ],
+            "doi": "10.1145/3180155.3180231",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "dba7a6e03850237d46bc99d8d3836ac54a6e937b",
+            "title": "Automatically Finding Bugs in a Commercial Cyber-Physical System Development Tool Chain With SLforge",
+            "url": "https://www.semanticscholar.org/paper/dba7a6e03850237d46bc99d8d3836ac54a6e937b",
+            "venue": "2018 IEEE/ACM 40th International Conference on Software Engineering (ICSE)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3301658",
+                    "name": "E. J. Rapos"
+                },
+                {
+                    "authorId": "1683822",
+                    "name": "J. Cordy"
+                }
+            ],
+            "doi": "10.1109/ICST.2018.00049",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5a00d8de37a66c03000db5818dcd7beff94ee63f",
+            "title": "SimEvo: A Toolset for Simulink Test Evolution & Maintenance",
+            "url": "https://www.semanticscholar.org/paper/5a00d8de37a66c03000db5818dcd7beff94ee63f",
+            "venue": "2018 IEEE 11th International Conference on Software Testing, Verification and Validation (ICST)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145383738",
+                    "name": "Xi Zheng"
+                },
+                {
+                    "authorId": "1804635",
+                    "name": "C. Julien"
+                },
+                {
+                    "authorId": "35710133",
+                    "name": "Miryung Kim"
+                },
+                {
+                    "authorId": "145802044",
+                    "name": "S. Khurshid"
+                }
+            ],
+            "doi": "10.1109/JSYST.2015.2496293",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "00355f5b41801b0049bd796eca23a267700a4428",
+            "title": "Perceptions on the State of the Art in Verification and Validation in Cyber-Physical Systems",
+            "url": "https://www.semanticscholar.org/paper/00355f5b41801b0049bd796eca23a267700a4428",
+            "venue": "IEEE Systems Journal",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50135282",
+                    "name": "Jeroen Noten"
+                },
+                {
+                    "authorId": "2436060",
+                    "name": "J. Mengerink"
+                },
+                {
+                    "authorId": "1747171",
+                    "name": "Alexander Serebrenik"
+                }
+            ],
+            "doi": "10.1109/MSR.2017.52",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0d9faaf7f95d47f029aa2ba950edb9ee0c127f9e",
+            "title": "A Data Set of OCL Expressions on GitHub",
+            "url": "https://www.semanticscholar.org/paper/0d9faaf7f95d47f029aa2ba950edb9ee0c127f9e",
+            "venue": "2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1800468",
+                    "name": "Vera Pantelic"
+                },
+                {
+                    "authorId": "7689785",
+                    "name": "S. Postma"
+                },
+                {
+                    "authorId": "1766205",
+                    "name": "M. Lawford"
+                },
+                {
+                    "authorId": "35435441",
+                    "name": "Monika Jaskolka"
+                },
+                {
+                    "authorId": "40372191",
+                    "name": "Bennett Mackenzie"
+                },
+                {
+                    "authorId": "2621258",
+                    "name": "Alexandre Korobkine"
+                },
+                {
+                    "authorId": "32406148",
+                    "name": "M. Bender"
+                },
+                {
+                    "authorId": "1941500",
+                    "name": "Jeff Ong"
+                },
+                {
+                    "authorId": "40227151",
+                    "name": "Gordon Marks"
+                },
+                {
+                    "authorId": "2369906",
+                    "name": "Alan Wassyng"
+                }
+            ],
+            "doi": "10.1007/s10009-017-0450-9",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "8f17de80f16882176bfda9e7654f262dfe68049c",
+            "title": "Software engineering practices and Simulink: bridging the gap",
+            "url": "https://www.semanticscholar.org/paper/8f17de80f16882176bfda9e7654f262dfe68049c",
+            "venue": "International Journal on Software Tools for Technology Transfer",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2073056824",
+                    "name": "Marta Olszewska"
+                },
+                {
+                    "authorId": "2025322",
+                    "name": "Y. Dajsuren"
+                },
+                {
+                    "authorId": "3246236",
+                    "name": "Harald Altinger"
+                },
+                {
+                    "authorId": "1747171",
+                    "name": "Alexander Serebrenik"
+                },
+                {
+                    "authorId": "143935881",
+                    "name": "M. Wald\u00e9n"
+                },
+                {
+                    "authorId": "1718306",
+                    "name": "M. Brand"
+                }
+            ],
+            "doi": "10.1145/2993412.3004853",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "06fa59e4a699946ff2b4b4bb4f9f704b889061cc",
+            "title": "Tailoring complexity metrics for simulink models",
+            "url": "https://www.semanticscholar.org/paper/06fa59e4a699946ff2b4b4bb4f9f704b889061cc",
+            "venue": "ECSA Workshops",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1734481",
+                    "name": "Eirini Kalliamvakou"
+                },
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "1715864",
+                    "name": "Kelly Blincoe"
+                },
+                {
+                    "authorId": "18264995",
+                    "name": "Leif Singer"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "1741744",
+                    "name": "D. Damian"
+                }
+            ],
+            "doi": "10.1007/s10664-015-9393-5",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ec893b923db8f30349ef5a02b57bc928110f9f71",
+            "title": "An in-depth study of the promises and perils of mining GitHub",
+            "url": "https://www.semanticscholar.org/paper/ec893b923db8f30349ef5a02b57bc928110f9f71",
+            "venue": "Empirical Software Engineering",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2376771",
+                    "name": "Wanwangying Ma"
+                },
+                {
+                    "authorId": "2118537038",
+                    "name": "Lin Chen"
+                },
+                {
+                    "authorId": "7743656",
+                    "name": "Yuming Zhou"
+                },
+                {
+                    "authorId": "144380518",
+                    "name": "Baowen Xu"
+                }
+            ],
+            "doi": "10.1109/TSA.2016.23",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5e45980bff9ff8d341263eee053091e648b6026a",
+            "title": "What Are the Dominant Projects in the GitHub Python Ecosystem?",
+            "url": "https://www.semanticscholar.org/paper/5e45980bff9ff8d341263eee053091e648b6026a",
+            "venue": "2016 Third International Conference on Trustworthy Systems and their Applications (TSA)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145939608",
+                    "name": "Matthew Stephan"
+                },
+                {
+                    "authorId": "1683822",
+                    "name": "J. Cordy"
+                }
+            ],
+            "doi": "10.1109/MODELS.2015.7338258",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e83500d4737d06e201520129141d673888c9af9e",
+            "title": "Identification of Simulink model antipattern instances using model clone detection",
+            "url": "https://www.semanticscholar.org/paper/e83500d4737d06e201520129141d673888c9af9e",
+            "venue": "2015 ACM/IEEE 18th International Conference on Model Driven Engineering Languages and Systems (MODELS)",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3517655",
+                    "name": "M. Wolf"
+                },
+                {
+                    "authorId": "1774493",
+                    "name": "E. Feron"
+                }
+            ],
+            "doi": "10.1145/2744769.2747950",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "fa691401b6fe310ba3d3be8790947636e382ed17",
+            "title": "What don't we know about CPS architectures?",
+            "url": "https://www.semanticscholar.org/paper/fa691401b6fe310ba3d3be8790947636e382ed17",
+            "venue": "2015 52nd ACM/EDAC/IEEE Design Automation Conference (DAC)",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2068939358",
+                    "name": "Jan Schroeder"
+                },
+                {
+                    "authorId": "144530425",
+                    "name": "C. Berger"
+                },
+                {
+                    "authorId": "1793705",
+                    "name": "Thomas Herpel"
+                },
+                {
+                    "authorId": "1787356",
+                    "name": "M. Staron"
+                }
+            ],
+            "doi": "10.1109/SAM.2015.12",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2fc3c02631ff1f4a2326ad38c4a01d239e83d7ab",
+            "title": "Comparing the Applicability of Complexity Measurements for Simulink Models during Integration Testing -- An Industrial Case Study",
+            "url": "https://www.semanticscholar.org/paper/2fc3c02631ff1f4a2326ad38c4a01d239e83d7ab",
+            "venue": "2015 IEEE/ACM 2nd International Workshop on Software Architecture and Metrics",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145844143",
+                    "name": "M. Zanoni"
+                },
+                {
+                    "authorId": "1695555",
+                    "name": "F. Fontana"
+                },
+                {
+                    "authorId": "50641180",
+                    "name": "Fabio Stella"
+                }
+            ],
+            "doi": "10.1016/J.JSS.2015.01.037",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e1bee2aa05a19161664ba9430bd5cfdafb2bdd2c",
+            "title": "On applying machine learning techniques for design pattern detection",
+            "url": "https://www.semanticscholar.org/paper/e1bee2aa05a19161664ba9430bd5cfdafb2bdd2c",
+            "venue": "J. Syst. Softw.",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1944388",
+                    "name": "R. Malhotra"
+                }
+            ],
+            "doi": "10.1016/j.asoc.2014.11.023",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "00595e7fc0efcfa6f932956f22392a5933a9e4a9",
+            "title": "A systematic review of machine learning techniques for software fault prediction",
+            "url": "https://www.semanticscholar.org/paper/00595e7fc0efcfa6f932956f22392a5933a9e4a9",
+            "venue": "Appl. Soft Comput.",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2183903",
+                    "name": "E. A. Antonio"
+                },
+                {
+                    "authorId": "32180439",
+                    "name": "F. Ferrari"
+                },
+                {
+                    "authorId": "2723136",
+                    "name": "G. Caurin"
+                },
+                {
+                    "authorId": "40202024",
+                    "name": "S. Fabbri"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "38928d9b6e4c7112f82c59526516019db7f48ffb",
+            "title": "A set of metrics for characterizing simulink model comprehension",
+            "url": "https://www.semanticscholar.org/paper/38928d9b6e4c7112f82c59526516019db7f48ffb",
+            "venue": "",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2523646",
+                    "name": "Mohammad Y. Allaho"
+                },
+                {
+                    "authorId": "1686360",
+                    "name": "Wang-Chien Lee"
+                }
+            ],
+            "doi": "10.1109/BESC.2014.7059515",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "38ab74e847531beed2e33a76ee866d6a8f72a0ba",
+            "title": "Trends and behavior of developers in open collaborative software projects",
+            "url": "https://www.semanticscholar.org/paper/38ab74e847531beed2e33a76ee866d6a8f72a0ba",
+            "venue": "2014 International Conference on Behavioral, Economic, and Socio-Cultural Computing (BESC2014)",
+            "year": 2014
+        },
+        {
+            "arxivId": "1407.2535",
+            "authors": [
+                {
+                    "authorId": "145328119",
+                    "name": "A. Lima"
+                },
+                {
+                    "authorId": "145187738",
+                    "name": "L. Rossi"
+                },
+                {
+                    "authorId": "1806767",
+                    "name": "Mirco Musolesi"
+                }
+            ],
+            "doi": "10.1609/icwsm.v8i1.14552",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "58c29d022f6c7547777e89b1de2b7bee6e92a936",
+            "title": "Coding Together at Scale: GitHub as a Collaborative Social Network",
+            "url": "https://www.semanticscholar.org/paper/58c29d022f6c7547777e89b1de2b7bee6e92a936",
+            "venue": "ICWSM",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2025322",
+                    "name": "Y. Dajsuren"
+                },
+                {
+                    "authorId": "1718306",
+                    "name": "M. Brand"
+                },
+                {
+                    "authorId": "1747171",
+                    "name": "Alexander Serebrenik"
+                },
+                {
+                    "authorId": "1722802",
+                    "name": "S. Roubtsov"
+                }
+            ],
+            "doi": "10.1145/2465478.2465482",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5a67637f332ce68b2fa1924f8e164cacb42243d2",
+            "title": "Simulink models are also software: modularity assessment",
+            "url": "https://www.semanticscholar.org/paper/5a67637f332ce68b2fa1924f8e164cacb42243d2",
+            "venue": "QoSA '13",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1705375",
+                    "name": "Jordi Cabot"
+                },
+                {
+                    "authorId": "1719007",
+                    "name": "Martin Gogolla"
+                }
+            ],
+            "doi": "10.1007/978-3-642-30982-3_3",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9b677616cf1697c76ae3a85186ecb34f4fcc7574",
+            "title": "Object Constraint Language (OCL): A Definitive Guide",
+            "url": "https://www.semanticscholar.org/paper/9b677616cf1697c76ae3a85186ecb34f4fcc7574",
+            "venue": "SFM",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3224580",
+                    "name": "Robert Reicherdt"
+                },
+                {
+                    "authorId": "1695807",
+                    "name": "S. Glesner"
+                }
+            ],
+            "doi": "10.1109/ICSE.2012.6227161",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "eb2f19120e4f1f4ae42cc463192c70f28106fd69",
+            "title": "Slicing MATLAB Simulink models",
+            "url": "https://www.semanticscholar.org/paper/eb2f19120e4f1f4ae42cc463192c70f28106fd69",
+            "venue": "2012 34th International Conference on Software Engineering (ICSE)",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39737526",
+                    "name": "Marcel Bruch"
+                },
+                {
+                    "authorId": "150220964",
+                    "name": "Monperrus Martin"
+                },
+                {
+                    "authorId": "1681134",
+                    "name": "M. Mezini"
+                }
+            ],
+            "doi": "10.1145/1595696.1595728",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "af5a7be7bfc592e400e2f12a24ad3e6a5a44b58f",
+            "title": "Learning from examples to improve code completion systems",
+            "url": "https://www.semanticscholar.org/paper/af5a7be7bfc592e400e2f12a24ad3e6a5a44b58f",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1750958",
+                    "name": "F. Dei\u00dfenb\u00f6ck"
+                },
+                {
+                    "authorId": "1951116",
+                    "name": "B. Hummel"
+                },
+                {
+                    "authorId": "2037611",
+                    "name": "Elmar J\u00fcrgens"
+                },
+                {
+                    "authorId": "1787339",
+                    "name": "B. Sch\u00e4tz"
+                },
+                {
+                    "authorId": "49859108",
+                    "name": "S. Wagner"
+                },
+                {
+                    "authorId": "19562722",
+                    "name": "J. Girard"
+                },
+                {
+                    "authorId": "2708187",
+                    "name": "S. Teuchert"
+                }
+            ],
+            "doi": "10.1145/1368088.1368172",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "ea8060f8504b533bba93a474f3252841e9210338",
+            "title": "Clone detection in automotive model-based development",
+            "url": "https://www.semanticscholar.org/paper/ea8060f8504b533bba93a474f3252841e9210338",
+            "venue": "2008 ACM/IEEE 30th International Conference on Software Engineering",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "SLNET: A Redistributable Corpus of 3rd-party Simulink Models. https://doi.org/10",
+            "url": "",
+            "venue": "",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "50417/SLNET_Metrics: SLNET_Metrics MSR Release",
+            "url": "",
+            "venue": "",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "GitHub Inc.",
+            "url": "",
+            "venue": "gitlab.com",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Intelligent Simulink Modeling Assistance Via Model Clones and Machine learning",
+            "url": "",
+            "venue": "",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "MathWorks Inc.",
+            "url": "",
+            "venue": "MATLAB Central",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Slashdot Media",
+            "url": "",
+            "venue": "SourceForge",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2436060",
+                    "name": "J. Mengerink"
+                },
+                {
+                    "authorId": "50135282",
+                    "name": "Jeroen Noten"
+                },
+                {
+                    "authorId": "1719856",
+                    "name": "R. Schiffelers"
+                },
+                {
+                    "authorId": "1718306",
+                    "name": "M. Brand"
+                },
+                {
+                    "authorId": "1747171",
+                    "name": "Alexander Serebrenik"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1056c9baac52e10ff44d9efed6355711b0051719",
+            "title": "A Case of Industrial vs. Open-source OCL: Not So Different After All",
+            "url": "https://www.semanticscholar.org/paper/1056c9baac52e10ff44d9efed6355711b0051719",
+            "venue": "MoDELS",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1699449",
+                    "name": "T. Gerlitz"
+                },
+                {
+                    "authorId": "2072972696",
+                    "name": "Q. Tran"
+                },
+                {
+                    "authorId": "2080883855",
+                    "name": "Christian Dziobek"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0142a3d0d5a2f282bbb7d4ede00114980490410f",
+            "title": "Detection and Handling of Model Smells for MATLAB/Simulink models",
+            "url": "https://www.semanticscholar.org/paper/0142a3d0d5a2f282bbb7d4ede00114980490410f",
+            "venue": "MASE@MoDELS",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145939608",
+                    "name": "Matthew Stephan"
+                },
+                {
+                    "authorId": "2613665",
+                    "name": "Manar H. Alalfi"
+                },
+                {
+                    "authorId": "1683822",
+                    "name": "J. Cordy"
+                },
+                {
+                    "authorId": "2071135618",
+                    "name": "Andrew Stevenson"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e31eaec5379050184b9f6d1872b2b45539789f5b",
+            "title": "Evolution of Model Clones in Simulink",
+            "url": "https://www.semanticscholar.org/paper/e31eaec5379050184b9f6d1872b2b45539789f5b",
+            "venue": "ME@MoDELS",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "PyGitHub. https://pygithub.readthedocs.io/en/latest/ introduction.html Accessed Jan 2022",
+            "url": "",
+            "venue": "",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Simulink Block Libraries Documentation",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "How many blocks are in that model?",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2019. 1.5MW Wind Generation Plant",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2022. 50417/SLNet_Miner: SLNET-Miner MSR",
+            "url": "",
+            "venue": "Release",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "MATLAB Simulink version Info",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "MSR \u201922, May 23\u201324, 2022, Pittsburgh, PA, USA",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "SLNET: A Redistributable Corpus of 3rd-party Simulink Models",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/a124e7e816f3f0097abbed7f34124745dcbf11af",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2022
+}

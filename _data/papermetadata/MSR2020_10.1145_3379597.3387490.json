@@ -1,0 +1,983 @@
+{
+    "abstract": "The full integration of online repositories in contemporary soft-ware development promotes remote work and collaboration. Apart from the apparent benefits, online repositories offer a deluge of data that can be utilized to monitor and improve the software de-velopment process. Towards this direction, we have designed and implemented a platform that analyzes data from GitHub in order to compute a series of metrics that quantify the contributions of project collaborators, both from a development as well as an op-erations (communication) perspective. We analyze contributions throughout the projects' lifecycle and track the number of coding violations, this way aspiring to identify cases of software development that need closer monitoring and (possibly) further actions to be taken. In this context, we have analyzed the 3000 most popular GitHub Java projects and provide the data to the community.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "8493745",
+            "name": "Themistoklis G. Diamantopoulos",
+            "url": "https://www.semanticscholar.org/author/8493745"
+        },
+        {
+            "authorId": "49703251",
+            "name": "Michail D. Papamichail",
+            "url": "https://www.semanticscholar.org/author/49703251"
+        },
+        {
+            "authorId": "120465974",
+            "name": "Thomas Karanikiotis",
+            "url": "https://www.semanticscholar.org/author/120465974"
+        },
+        {
+            "authorId": "2125391",
+            "name": "Kyriakos C. Chatzidimitriou",
+            "url": "https://www.semanticscholar.org/author/2125391"
+        },
+        {
+            "authorId": "145937532",
+            "name": "A. Symeonidis",
+            "url": "https://www.semanticscholar.org/author/145937532"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2407.15647",
+            "authors": [
+                {
+                    "authorId": "22171680",
+                    "name": "Ali Akbar Septiandri"
+                },
+                {
+                    "authorId": "38760888",
+                    "name": "Marios Constantinides"
+                },
+                {
+                    "authorId": "2260707254",
+                    "name": "Daniele Quercia"
+                }
+            ],
+            "doi": "10.48550/arXiv.2407.15647",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a909557089b2d6b4dc95e3095c929a55c07e9b9e",
+            "title": "The Impact of Responsible AI Research on Innovation and Development",
+            "url": "https://www.semanticscholar.org/paper/a909557089b2d6b4dc95e3095c929a55c07e9b9e",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8493745",
+                    "name": "Themistoklis G. Diamantopoulos"
+                },
+                {
+                    "authorId": "2219386373",
+                    "name": "Nikolaos Saoulidis"
+                },
+                {
+                    "authorId": "145937532",
+                    "name": "A. Symeonidis"
+                }
+            ],
+            "doi": "10.1049/sfw2.12129",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "64b45016548b25d376ab03f7f351951820f90fb8",
+            "title": "Automated issue assignment using topic modelling on Jira issue tracking data",
+            "url": "https://www.semanticscholar.org/paper/64b45016548b25d376ab03f7f351951820f90fb8",
+            "venue": "IET Softw.",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8493745",
+                    "name": "Themistoklis G. Diamantopoulos"
+                },
+                {
+                    "authorId": "69040021",
+                    "name": "Dimitrios Nastos"
+                },
+                {
+                    "authorId": "145937532",
+                    "name": "A. Symeonidis"
+                }
+            ],
+            "doi": "10.1109/MSR59073.2023.00039",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2ec995b3839031d98d4ce6fa72b160f0502f4176",
+            "title": "Semantically-enriched Jira Issue Tracking Data",
+            "url": "https://www.semanticscholar.org/paper/2ec995b3839031d98d4ce6fa72b160f0502f4176",
+            "venue": "2023 IEEE/ACM 20th International Conference on Mining Software Repositories (MSR)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2007882123",
+                    "name": "Tushar Sharma"
+                },
+                {
+                    "authorId": "1705734",
+                    "name": "Marouane Kessentini"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00080",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "7de56fac20a524015f9efc91edc98fbdf9245f02",
+            "title": "QScored: A Large Dataset of Code Smells and Quality Metrics",
+            "url": "https://www.semanticscholar.org/paper/7de56fac20a524015f9efc91edc98fbdf9245f02",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1391831325",
+                    "name": "Vasileios Matsoukas"
+                },
+                {
+                    "authorId": "8493745",
+                    "name": "Themistoklis G. Diamantopoulos"
+                },
+                {
+                    "authorId": "49703251",
+                    "name": "Michail D. Papamichail"
+                },
+                {
+                    "authorId": "145937532",
+                    "name": "A. Symeonidis"
+                }
+            ],
+            "doi": "10.1109/QRS51102.2020.00042",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "bc5cd571a3018d9eba706a402eaf360b0a302755",
+            "title": "Towards Analyzing Contributions from Software Repositories to Optimize Issue Assignment",
+            "url": "https://www.semanticscholar.org/paper/bc5cd571a3018d9eba706a402eaf360b0a302755",
+            "venue": "2020 IEEE 20th International Conference on Software Quality, Reliability and Security (QRS)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "69040021",
+                    "name": "Dimitrios Nastos"
+                },
+                {
+                    "authorId": "8493745",
+                    "name": "Themistoklis G. Diamantopoulos"
+                },
+                {
+                    "authorId": "145937532",
+                    "name": "A. Symeonidis"
+                }
+            ],
+            "doi": "10.5220/0012146400003538",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "40848d239cac8ad2bc2ef3870d46dc9342ce77af",
+            "title": "Towards Interpretable Monitoring and Assignment of Jira Issues",
+            "url": "https://www.semanticscholar.org/paper/40848d239cac8ad2bc2ef3870d46dc9342ce77af",
+            "venue": "ICSOFT",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8493745",
+                    "name": "Themistoklis G. Diamantopoulos"
+                },
+                {
+                    "authorId": "2121369609",
+                    "name": "Christiana Galegalidou"
+                },
+                {
+                    "authorId": "145937532",
+                    "name": "A. Symeonidis"
+                }
+            ],
+            "doi": "10.5220/0010578302690276",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c51a8e2a3f7424791effd3291c4aa6dcfd58b482",
+            "title": "Software Task Importance Prediction based on Project Management Data",
+            "url": "https://www.semanticscholar.org/paper/c51a8e2a3f7424791effd3291c4aa6dcfd58b482",
+            "venue": "ICSOFT",
+            "year": 2021
+        }
+    ],
+    "corpusId": 221785065,
+    "doi": "10.1145/3379597.3387490",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 8,
+    "numCiting": 27,
+    "paperId": "0e4704ecb8ba7cbab23f4fdec38846dce11729d7",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2137619176",
+                    "name": "Sufyan bin Uzayr"
+                }
+            ],
+            "doi": "10.1201/9781003229100-6",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2ec4d25b8ffb1821a664fb6e3722c236fe0c07db",
+            "title": "GitHub",
+            "url": "https://www.semanticscholar.org/paper/2ec4d25b8ffb1821a664fb6e3722c236fe0c07db",
+            "venue": "Mastering Git",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2177207",
+                    "name": "Zhifang Liao"
+                },
+                {
+                    "authorId": "2064928331",
+                    "name": "Dayu He"
+                },
+                {
+                    "authorId": "2109386580",
+                    "name": "Zhijie Chen"
+                },
+                {
+                    "authorId": "1865637516",
+                    "name": "Xiaoping Fan"
+                },
+                {
+                    "authorId": "2152821277",
+                    "name": "Yan Zhang"
+                },
+                {
+                    "authorId": "27739837",
+                    "name": "Shengzong Liu"
+                }
+            ],
+            "doi": "10.1109/ACCESS.2018.2810295",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a109ee4e1a9bf1734ed5dacfceeb3473598c435d",
+            "title": "Exploring the Characteristics of Issue-Related Behaviors in GitHub Using Visualization Techniques",
+            "url": "https://www.semanticscholar.org/paper/a109ee4e1a9bf1734ed5dacfceeb3473598c435d",
+            "venue": "IEEE Access",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "100861066",
+                    "name": "Wellington F. Gon\u00e7alves"
+                },
+                {
+                    "authorId": "2057828532",
+                    "name": "Carlos B. de Almeida"
+                },
+                {
+                    "authorId": "2057168046",
+                    "name": "Leonardo L. de Araujo"
+                },
+                {
+                    "authorId": "21257278",
+                    "name": "Mateus S. Ferraz"
+                },
+                {
+                    "authorId": "20475887",
+                    "name": "Rog\u00e9rio B. Xand\u00fa"
+                },
+                {
+                    "authorId": "152483688",
+                    "name": "I. J\u00fanior"
+                }
+            ],
+            "doi": "10.20897/jisem.201724",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "35f28e112d2efb8fb3ff5da95f26ed1b660e9a44",
+            "title": "The Impact of Human Factors on the Software Testing Process: The Importance of These Factors in a Software Testing Environment",
+            "url": "https://www.semanticscholar.org/paper/35f28e112d2efb8fb3ff5da95f26ed1b660e9a44",
+            "venue": "",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2899247",
+                    "name": "Gillian J. Greene"
+                },
+                {
+                    "authorId": "2054056468",
+                    "name": "B. Fischer"
+                }
+            ],
+            "doi": "10.1145/2970276.2970285",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "2d59619a629143f2b8c47c1f519e8de2060a6c2f",
+            "title": "CVExplorer: Identifying candidate developers by mining and exploring their open source contributions",
+            "url": "https://www.semanticscholar.org/paper/2d59619a629143f2b8c47c1f519e8de2060a6c2f",
+            "venue": "2016 31st IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2805449",
+                    "name": "A. Sarma"
+                },
+                {
+                    "authorId": "2150987310",
+                    "name": "Xiaofan Chen"
+                },
+                {
+                    "authorId": "3190756",
+                    "name": "S. Kuttal"
+                },
+                {
+                    "authorId": "1784365",
+                    "name": "Laura A. Dabbish"
+                },
+                {
+                    "authorId": "50218098",
+                    "name": "Zhendong Wang"
+                }
+            ],
+            "doi": "10.1109/ICGSE.2016.35",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5a2692633ef3f7d38f19adc1f2fec283cf0c77e3",
+            "title": "Hiring in the Global Stage: Profiles of Online Contributions",
+            "url": "https://www.semanticscholar.org/paper/5a2692633ef3f7d38f19adc1f2fec283cf0c77e3",
+            "venue": "2016 IEEE 11th International Conference on Global Software Engineering (ICGSE)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2116725941",
+                    "name": "Shu Li"
+                },
+                {
+                    "authorId": "3403483",
+                    "name": "Hayato Tsukiji"
+                },
+                {
+                    "authorId": "2562784",
+                    "name": "Kosuke Takano"
+                }
+            ],
+            "doi": "10.1109/WAINA.2016.107",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7a928cf97bf9c3b69f6e417d212ed303f4fb75e9",
+            "title": "Analysis of Software Developer Activity on a Distributed Version Control System",
+            "url": "https://www.semanticscholar.org/paper/7a928cf97bf9c3b69f6e417d212ed303f4fb75e9",
+            "venue": "2016 30th International Conference on Advanced Information Networking and Applications Workshops (WAINA)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "25083703",
+                    "name": "Jalerson Lima"
+                },
+                {
+                    "authorId": "1685418",
+                    "name": "Christoph Treude"
+                },
+                {
+                    "authorId": "5011359",
+                    "name": "Fernando Marques Figueira Filho"
+                },
+                {
+                    "authorId": "1717396",
+                    "name": "U. Kulesza"
+                }
+            ],
+            "doi": "10.1109/ICSM.2015.7332509",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1b7ce898911711ab91f6bff011fe7e35006d5386",
+            "title": "Assessing developer contribution with repository mining-based metrics",
+            "url": "https://www.semanticscholar.org/paper/1b7ce898911711ab91f6bff011fe7e35006d5386",
+            "venue": "2015 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1768591",
+                    "name": "L. Bass"
+                },
+                {
+                    "authorId": "144994780",
+                    "name": "I. Weber"
+                },
+                {
+                    "authorId": "144694615",
+                    "name": "Liming Zhu"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "58ee80d4309f3f0ab5ef37893e5eaa911d4f1323",
+            "title": "DevOps - A Software Architect's Perspective",
+            "url": "https://www.semanticscholar.org/paper/58ee80d4309f3f0ab5ef37893e5eaa911d4f1323",
+            "venue": "SEI series in software engineering",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1795790",
+                    "name": "Lucy Ellen Lwakatare"
+                },
+                {
+                    "authorId": "1780090",
+                    "name": "P. Kuvaja"
+                },
+                {
+                    "authorId": "1744431",
+                    "name": "M. Oivo"
+                }
+            ],
+            "doi": "10.1007/978-3-319-18612-2_19",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "60085dabed6bbd45e7a63bc9209c93ac4aea34f7",
+            "title": "Dimensions of DevOps",
+            "url": "https://www.semanticscholar.org/paper/60085dabed6bbd45e7a63bc9209c93ac4aea34f7",
+            "venue": "XP",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1705375",
+                    "name": "Jordi Cabot"
+                },
+                {
+                    "authorId": "144272262",
+                    "name": "Javier Luis C\u00e1novas Izquierdo"
+                },
+                {
+                    "authorId": "34820138",
+                    "name": "Valerio Cosentino"
+                },
+                {
+                    "authorId": "2034807",
+                    "name": "Belen Rolandi"
+                }
+            ],
+            "doi": "10.1109/SANER.2015.7081875",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f032dedaa24c938342b2990ffa0cf2aeec8b1e20",
+            "title": "Exploring the use of labels to categorize issues in Open-Source Software projects",
+            "url": "https://www.semanticscholar.org/paper/f032dedaa24c938342b2990ffa0cf2aeec8b1e20",
+            "venue": "2015 IEEE 22nd International Conference on Software Analysis, Evolution, and Reengineering (SANER)",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2510712",
+                    "name": "Marco Biazzini"
+                },
+                {
+                    "authorId": "1730420",
+                    "name": "B. Baudry"
+                }
+            ],
+            "doi": "10.1145/2593868.2593875",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0ce7b4eab786aebba8edceb36f16950926836962",
+            "title": "\"May the fork be with you\": novel metrics to analyze collaboration on GitHub",
+            "url": "https://www.semanticscholar.org/paper/0ce7b4eab786aebba8edceb36f16950926836962",
+            "venue": "WETSoM 2014",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2908305",
+                    "name": "Saya Onoue"
+                },
+                {
+                    "authorId": "145050815",
+                    "name": "Hideaki Hata"
+                },
+                {
+                    "authorId": "144975613",
+                    "name": "Ken-ichi Matsumoto"
+                }
+            ],
+            "doi": "10.1109/APSEC.2013.104",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f8e8d390b5319985a426b8ede798878ebc0e7469",
+            "title": "A Study of the Characteristics of Developers' Activities in GitHub",
+            "url": "https://www.semanticscholar.org/paper/f8e8d390b5319985a426b8ede798878ebc0e7469",
+            "venue": "2013 20th Asia-Pacific Software Engineering Conference (APSEC)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2109251062",
+                    "name": "Weicheng Yang"
+                },
+                {
+                    "authorId": "37421035",
+                    "name": "Beijun Shen"
+                },
+                {
+                    "authorId": "2112231423",
+                    "name": "Ben Xu"
+                }
+            ],
+            "doi": "10.1109/APSEC.2013.133",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1d0ba8646e1ffea055da456492d91c4a2540c7b9",
+            "title": "Mining GitHub: Why Commit Stops -- Exploring the Relationship between Developer's Commit Pattern and File Version Evolution",
+            "url": "https://www.semanticscholar.org/paper/1d0ba8646e1ffea055da456492d91c4a2540c7b9",
+            "venue": "2013 20th Asia-Pacific Software Engineering Conference (APSEC)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                },
+                {
+                    "authorId": "2115553036",
+                    "name": "Xinyu Wang"
+                },
+                {
+                    "authorId": "145818177",
+                    "name": "Bo Zhou"
+                }
+            ],
+            "doi": "10.1109/WCRE.2013.6671282",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b0e34d97b16b4d61826f3b07169fbe9172d56601",
+            "title": "Accurate developer recommendation for bug resolution",
+            "url": "https://www.semanticscholar.org/paper/b0e34d97b16b4d61826f3b07169fbe9172d56601",
+            "venue": "2013 20th Working Conference on Reverse Engineering (WCRE)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2059704813",
+                    "name": "James Roche"
+                }
+            ],
+            "doi": "10.1145/2524713.2524721",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4964875b14c78dba826a7f0485778c026c91bcc1",
+            "title": "Adopting DevOps practices in quality assurance",
+            "url": "https://www.semanticscholar.org/paper/4964875b14c78dba826a7f0485778c026c91bcc1",
+            "venue": "CACM",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3023999",
+                    "name": "T\u00e9gawend\u00e9 F. Bissyand\u00e9"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                },
+                {
+                    "authorId": "1680504",
+                    "name": "Lingxiao Jiang"
+                },
+                {
+                    "authorId": "2367871",
+                    "name": "Laurent R\u00e9veill\u00e8re"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                },
+                {
+                    "authorId": "47681863",
+                    "name": "Y. L. Traon"
+                }
+            ],
+            "doi": "10.1109/ISSRE.2013.6698918",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "870e7b24d0c379c1076baede45673c817a5f3079",
+            "title": "Got issues? Who cares about it? A large scale investigation of issue trackers from GitHub",
+            "url": "https://www.semanticscholar.org/paper/870e7b24d0c379c1076baede45673c817a5f3079",
+            "venue": "2013 IEEE 24th International Symposium on Software Reliability Engineering (ISSRE)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "33559727",
+                    "name": "P. Bhattacharya"
+                },
+                {
+                    "authorId": "145722649",
+                    "name": "Iulian Neamtiu"
+                },
+                {
+                    "authorId": "2257308918",
+                    "name": "Christian R. Shelton"
+                }
+            ],
+            "doi": "10.1016/J.JSS.2012.04.053",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a231e7e215723ea8633529e16c65459f861f330a",
+            "title": "Automated, highly-accurate, bug assignment using machine learning and tossing graphs",
+            "url": "https://www.semanticscholar.org/paper/a231e7e215723ea8633529e16c65459f861f330a",
+            "venue": "J. Syst. Softw.",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1869645",
+                    "name": "K. Christidis"
+                },
+                {
+                    "authorId": "2781581",
+                    "name": "Fotis Paraskevopoulos"
+                },
+                {
+                    "authorId": "46593026",
+                    "name": "Dimitris Panagiotou"
+                },
+                {
+                    "authorId": "1711109",
+                    "name": "G. Mentzas"
+                }
+            ],
+            "doi": "10.1109/RSSE.2012.6233408",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a74284d6a6a95be9c95b789a2443ba4ee53e91c0",
+            "title": "Combining activity metrics and contribution topics for software recommendations",
+            "url": "https://www.semanticscholar.org/paper/a74284d6a6a95be9c95b789a2443ba4ee53e91c0",
+            "venue": "2012 Third International Workshop on Recommendation Systems for Software Engineering (RSSE)",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1693689",
+                    "name": "Nachiappan Nagappan"
+                },
+                {
+                    "authorId": "145594351",
+                    "name": "A. Zeller"
+                },
+                {
+                    "authorId": "143609903",
+                    "name": "Thomas Zimmermann"
+                },
+                {
+                    "authorId": "39496137",
+                    "name": "Kim Herzig"
+                },
+                {
+                    "authorId": "49358427",
+                    "name": "Brendan Murphy"
+                }
+            ],
+            "doi": "10.1109/ISSRE.2010.25",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4d3d03a97eddfafdfd90bef6f3c5359903ffd1d6",
+            "title": "Change Bursts as Defect Predictors",
+            "url": "https://www.semanticscholar.org/paper/4d3d03a97eddfafdfd90bef6f3c5359903ffd1d6",
+            "venue": "2010 IEEE 21st International Symposium on Software Reliability Engineering",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2350060",
+                    "name": "Raimund Moser"
+                },
+                {
+                    "authorId": "1731634",
+                    "name": "W. Pedrycz"
+                },
+                {
+                    "authorId": "144248287",
+                    "name": "G. Succi"
+                }
+            ],
+            "doi": "10.1145/1368088.1368114",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "71430a83159235b456b2e50d0e847aefc7cc46e8",
+            "title": "A comparative analysis of the efficiency of change metrics and static code attributes for defect prediction",
+            "url": "https://www.semanticscholar.org/paper/71430a83159235b456b2e50d0e847aefc7cc46e8",
+            "venue": "2008 ACM/IEEE 30th International Conference on Software Engineering",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2226695",
+                    "name": "J. Anvik"
+                },
+                {
+                    "authorId": "47799990",
+                    "name": "L. Hiew"
+                },
+                {
+                    "authorId": "1739674",
+                    "name": "G. Murphy"
+                }
+            ],
+            "doi": "10.1145/1134285.1134336",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b3b3c562a45d7710d6f62ad8f210ebca9a47d23f",
+            "title": "Who should fix this bug?",
+            "url": "https://www.semanticscholar.org/paper/b3b3c562a45d7710d6f62ad8f210ebca9a47d23f",
+            "venue": "ICSE",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "PMD Static Analysis Tool",
+            "url": "",
+            "venue": "pmd.github.io/",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49703251",
+                    "name": "Michail D. Papamichail"
+                },
+                {
+                    "authorId": "8493745",
+                    "name": "Themistoklis G. Diamantopoulos"
+                },
+                {
+                    "authorId": "1391831325",
+                    "name": "Vasileios Matsoukas"
+                },
+                {
+                    "authorId": "2060698619",
+                    "name": "Christos Athanasiadis"
+                },
+                {
+                    "authorId": "145937532",
+                    "name": "A. Symeonidis"
+                }
+            ],
+            "doi": "10.5220/0007966505360543",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6f083643c76b5674e0d3343b54e2a4adc29036f0",
+            "title": "Towards Extracting the Role and Behavior of Contributors in Open-source Projects",
+            "url": "https://www.semanticscholar.org/paper/6f083643c76b5674e0d3343b54e2a4adc29036f0",
+            "venue": "ICSOFT",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "GDDownloader: GitHub Data Downloader",
+            "url": "",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "83853963",
+                    "name": "W. D. Kort"
+                }
+            ],
+            "doi": "10.1007/978-1-4842-1446-6_1",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c17bf09a953d998769c1c24f3a378bb04a3175f6",
+            "title": "What Is DevOps",
+            "url": "https://www.semanticscholar.org/paper/c17bf09a953d998769c1c24f3a378bb04a3175f6",
+            "venue": "",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "MSR \u201920, October 5\u20136, 2020, Seoul, Republic of Korea",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Employing Contribution and Quality Metrics for Quantifying the Software Development Process",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "Employing Contribution and Quality Metrics for Quantifying the Software Development Process",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/0e4704ecb8ba7cbab23f4fdec38846dce11729d7",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2020
+}

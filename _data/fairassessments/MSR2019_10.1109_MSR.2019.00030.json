@@ -1,0 +1,2261 @@
+{
+    "test_id": "d588272fb6aea34883ccbff8fb0a34868bcd989b",
+    "request": {
+        "object_identifier": "https:\/\/doi.org\/10.5281\/zenodo.2583978",
+        "metadata_service_endpoint": "",
+        "metadata_service_type": "oai_pmh",
+        "test_debug": true,
+        "use_datacite": true,
+        "metric_version": "metrics_v0.5",
+        "normalized_object_identifier": "10.5281\/zenodo.2583978"
+    },
+    "resolved_url": "https:\/\/zenodo.org\/records\/2583978",
+    "start_timestamp": "2024-11-11T22:41:46Z",
+    "end_timestamp": "2024-11-11T22:41:54Z",
+    "metric_specification": "https:\/\/doi.org\/10.5281\/zenodo.6461229",
+    "metric_version": "metrics_v0.5",
+    "software_version": "3.2.0",
+    "total_metrics": 16,
+    "summary": {
+        "score_earned": {
+            "A": 3,
+            "F": 7,
+            "I": 3,
+            "R": 6,
+            "A1": 3,
+            "F1": 2,
+            "F2": 2,
+            "F3": 1,
+            "F4": 2,
+            "I1": 2,
+            "I2": 0,
+            "I3": 1,
+            "R1": 1,
+            "R1.1": 2,
+            "R1.2": 1,
+            "R1.3": 2,
+            "FAIR": 19
+        },
+        "score_total": {
+            "A": 3,
+            "F": 7,
+            "I": 4,
+            "R": 10,
+            "A1": 3,
+            "F1": 2,
+            "F2": 2,
+            "F3": 1,
+            "F4": 2,
+            "I1": 2,
+            "I2": 1,
+            "I3": 1,
+            "R1": 4,
+            "R1.1": 2,
+            "R1.2": 2,
+            "R1.3": 2,
+            "FAIR": 24
+        },
+        "score_percent": {
+            "A": 100,
+            "F": 100,
+            "I": 75,
+            "R": 60,
+            "A1": 100,
+            "F1": 100,
+            "F2": 100,
+            "F3": 100,
+            "F4": 100,
+            "I1": 100,
+            "I2": 0,
+            "I3": 100,
+            "R1": 25,
+            "R1.1": 100,
+            "R1.2": 50,
+            "R1.3": 100,
+            "FAIR": 79.17
+        },
+        "status_total": {
+            "A1": 3,
+            "F1": 2,
+            "F2": 1,
+            "F3": 1,
+            "F4": 1,
+            "I1": 1,
+            "I2": 1,
+            "I3": 1,
+            "R1": 1,
+            "R1.1": 1,
+            "R1.2": 1,
+            "R1.3": 2,
+            "A": 3,
+            "F": 5,
+            "I": 3,
+            "R": 5,
+            "FAIR": 16
+        },
+        "status_passed": {
+            "A1": 3,
+            "F1": 2,
+            "F2": 1,
+            "F3": 1,
+            "F4": 1,
+            "I1": 1,
+            "I2": 1,
+            "I3": 1,
+            "R1": 1,
+            "R1.1": 1,
+            "R1.2": 1,
+            "R1.3": 2,
+            "A": 3,
+            "F": 5,
+            "I": 3,
+            "R": 5,
+            "FAIR": 16
+        },
+        "maturity": {
+            "A": 3,
+            "F": 3,
+            "I": 2,
+            "R": 2,
+            "A1": 3,
+            "F1": 3,
+            "F2": 3,
+            "F3": 3,
+            "F4": 3,
+            "I1": 3,
+            "I2": 1,
+            "I3": 3,
+            "R1": 1,
+            "R1.1": 3,
+            "R1.2": 2,
+            "R1.3": 2,
+            "FAIR": 2.5
+        }
+    },
+    "results": [
+        {
+            "id": 1,
+            "metric_identifier": "FsF-F1-01D",
+            "metric_name": "Data is assigned a globally unique identifier.",
+            "metric_tests": {
+                "FsF-F1-01D-1": {
+                    "metric_test_name": "Identifier is resolvable and follows a defined unique identifier syntax (IRI, URL)",
+                    "metric_test_requirements": [
+                        {
+                            "modality": "any",
+                            "required": null,
+                            "tested_on": "https:\/\/f-uji.net\/vocab\/metadata\/property\/object_identifier",
+                            "comment": "identifier can be given as user input",
+                            "target": "https:\/\/f-uji.net\/vocab\/identifier"
+                        }
+                    ],
+                    "metric_test_score": {
+                        "earned": 1,
+                        "total": 1
+                    },
+                    "metric_test_maturity": 3,
+                    "metric_test_status": "pass"
+                },
+                "FsF-F1-01D-2": {
+                    "metric_test_name": "Identifier is not resolvable but follows an UUID or HASH type syntax",
+                    "metric_test_requirements": [
+                        {
+                            "modality": "any",
+                            "required": {
+                                "name": [
+                                    "uuid",
+                                    "hash"
+                                ]
+                            },
+                            "tested_on": "https:\/\/f-uji.net\/vocab\/metadata\/property\/object_identifier",
+                            "comment": "identifier can be given as user input",
+                            "target": "https:\/\/f-uji.net\/vocab\/identifier\/unique"
+                        }
+                    ],
+                    "metric_test_score": {
+                        "earned": 0,
+                        "total": 0.5
+                    },
+                    "metric_test_maturity": 0,
+                    "metric_test_status": "fail"
+                }
+            },
+            "test_status": "pass",
+            "score": {
+                "earned": 1,
+                "total": 1
+            },
+            "maturity": 3,
+            "output": {
+                "guid": "https:\/\/doi.org\/10.5281\/zenodo.2583978",
+                "guid_scheme": "doi"
+            },
+            "test_debug": [
+                "INFO: Using idutils schemes to identify unique or persistent identifiers for metadata",
+                "INFO: Starting assessment on identifier: https:\/\/doi.org\/10.5281\/zenodo.2583978",
+                "SUCCESS: Unique identifier schemes found ['doi', 'url']",
+                "INFO: Finalized unique identifier scheme - doi"
+            ]
+        },
+        {
+            "id": 2,
+            "metric_identifier": "FsF-F1-02D",
+            "metric_name": "Data is assigned a persistent identifier.",
+            "metric_tests": {
+                "FsF-F1-02D-1": {
+                    "metric_test_name": "Identifier follows a defined persistent identifier syntax",
+                    "metric_test_requirements": [
+                        {
+                            "modality": "any",
+                            "required": null,
+                            "tested_on": "https:\/\/f-uji.net\/vocab\/metadata\/property\/object_identifier",
+                            "comment": "identifier can be given as user input",
+                            "target": "https:\/\/f-uji.net\/vocab\/identifier\/persistent"
+                        }
+                    ],
+                    "metric_test_score": {
+                        "earned": 0.5,
+                        "total": 0.5
+                    },
+                    "metric_test_maturity": 1,
+                    "metric_test_status": "pass"
+                },
+                "FsF-F1-02D-2": {
+                    "metric_test_name": "Persistent identifier is resolvable",
+                    "metric_test_requirements": [
+                        {
+                            "modality": null,
+                            "required": null,
+                            "tested_on": "https:\/\/f-uji.net\/vocab\/metadata\/property\/object_identifier",
+                            "comment": "identifier has to resolve to a valid URI",
+                            "target": "https:\/\/f-uji.net\/vocab\/identifier\/persistent"
+                        }
+                    ],
+                    "metric_test_score": {
+                        "earned": 1,
+                        "total": 1
+                    },
+                    "metric_test_maturity": 3,
+                    "metric_test_status": "pass"
+                }
+            },
+            "test_status": "pass",
+            "score": {
+                "earned": 1,
+                "total": 1
+            },
+            "maturity": 3,
+            "output": {
+                "persistent_identifiers": [
+                    {
+                        "pid": "https:\/\/doi.org\/10.5281\/zenodo.2583978",
+                        "pid_scheme": "doi",
+                        "resolvable_status": true,
+                        "resolved_url": "https:\/\/zenodo.org\/records\/2583978"
+                    }
+                ]
+            },
+            "test_debug": [
+                "INFO: Retrieving page -: https:\/\/doi.org\/10.5281\/zenodo.2583978 as text\/html, *\/*",
+                "INFO: PID schemes-based assessment supported by the assessment service - dict_keys(['ark', 'arxiv', 'bioproject', 'biosample', 'doi', 'ensembl', 'genome', 'gnd', 'handle', 'lsid', 'pmid', 'pmcid', 'purl', 'refseq', 'sra', 'uniprot', 'urn', 'identifiers.org', 'w3id'])",
+                "INFO: Found PID which could be verified (does resolve properly) -: https:\/\/doi.org\/10.5281\/zenodo.2583978",
+                "SUCCESS: Persistence identifier scheme -: doi"
+            ]
+        },
+        {
+            "id": 3,
+            "metric_identifier": "FsF-F2-01M",
+            "metric_name": "Metadata includes descriptive core elements (creator, title, data identifier, publisher, publication date, summary and keywords) to support data findability.",
+            "metric_tests": {
+                "FsF-F2-01M-1": {
+                    "metric_test_name": "Metadata has been made available via common web methods",
+                    "metric_test_requirements": [
+                        {
+                            "modality": "any",
+                            "required": null,
+                            "tested_on": null,
+                            "comment": null,
+                            "target": "https:\/\/f-uji.net\/vocab\/metadata\/offering_method"
+                        }
+                    ],
+                    "metric_test_score": {
+                        "earned": 0.5,
+                        "total": 0.5
+                    },
+                    "metric_test_maturity": 1,
+                    "metric_test_status": "pass"
+                },
+                "FsF-F2-01M-2": {
+                    "metric_test_name": "Core data citation metadata is available",
+                    "metric_test_requirements": [
+                        {
+                            "modality": "all",
+                            "required": {
+                                "name": [
+                                    "creator",
+                                    "title",
+                                    "object_identifier",
+                                    "publication_date",
+                                    "publisher",
+                                    "object_type"
+                                ]
+                            },
+                            "tested_on": "https:\/\/f-uji.net\/vocab\/metadata\/property",
+                            "comment": null,
+                            "target": "https:\/\/f-uji.net\/vocab\/metadata\/property"
+                        }
+                    ],
+                    "metric_test_score": {
+                        "earned": 0.5,
+                        "total": 0.5
+                    },
+                    "metric_test_maturity": 2,
+                    "metric_test_status": "pass"
+                },
+                "FsF-F2-01M-3": {
+                    "metric_test_name": "Core descriptive metadata is available",
+                    "metric_test_requirements": [
+                        {
+                            "modality": "all",
+                            "required": {
+                                "name": [
+                                    "creator",
+                                    "title",
+                                    "object_identifier",
+                                    "publication_date",
+                                    "publisher",
+                                    "object_type",
+                                    "summary",
+                                    "keywords"
+                                ]
+                            },
+                            "tested_on": "https:\/\/f-uji.net\/vocab\/metadata\/property",
+                            "comment": null,
+                            "target": "https:\/\/f-uji.net\/vocab\/metadata\/property"
+                        }
+                    ],
+                    "metric_test_score": {
+                        "earned": 1,
+                        "total": 1
+                    },
+                    "metric_test_maturity": 3,
+                    "metric_test_status": "pass"
+                }
+            },
+            "test_status": "pass",
+            "score": {
+                "earned": 2,
+                "total": 2
+            },
+            "maturity": 3,
+            "output": {
+                "core_metadata_status": "all metadata",
+                "core_metadata_found": {
+                    "object_identifier": [
+                        "https:\/\/doi.org\/10.5281\/zenodo.2583978",
+                        "10.5281\/zenodo.2583978",
+                        "https:\/\/zenodo.org\/records\/2583978",
+                        "https:\/\/zenodo.org\/record\/2583978"
+                    ],
+                    "title": "The Software Heritage Graph Dataset",
+                    "summary": "<p>Software Heritage is the largest existing public archive of software source<br>\ncode and accompanying development history: it currently spans more than five<br>\nbillion unique source code files and one billion unique commits, coming from<br>\nmore than 80 million software projects.<\/p>\n\n<p>This is the Software Heritage graph dataset: a fully-deduplicated<br>\nMerkle DAG representation of the Software Heritage archive. The dataset links<br>\ntogether file content identifiers, source code directories, Version Control<br>\nSystem (VCS) commits tracking evolution over time, up to the full states of VCS<br>\nrepositories as observed by Software Heritage during periodic crawls. The<br>\ndataset&rsquo;s contents come from major development forges (including GitHub and<br>\nGitLab), FOSS distributions (e.g., Debian), and language-specific package<br>\nmanagers (e.g., PyPI). &nbsp;Crawling information is also included, providing<br>\ntimestamps about when and where all archived source code artifacts have been<br>\nobserved in the wild.<\/p>\n\n<p>The Software Heritage graph dataset is available in multiple formats, including<br>\ndownloadable CSV dumps and Apache Parquet files for local use, as well as a<br>\npublic instance on Amazon Athena interactive query service for ready-to-use<br>\npowerful analytical processing.<\/p>\n\n<p>By accessing the dataset, you agree with the Software Heritage&nbsp;<a href=\"https:\/\/www.softwareheritage.org\/legal\/users-ethical-charter\/\">Ethical Charter<br>\nfor using the archive data<\/a>, and the&nbsp;<a href=\"https:\/\/www.softwareheritage.org\/legal\/bulk-access-terms-of-use\/\">terms of use for bulk access<\/a>.<\/p>\n\n<p>If you use this dataset for research purposes, please cite the following paper:<\/p>\n\n<ul>\n\t<li>Antoine Pietri, Diomidis Spinellis, Stefano Zacchiroli.&nbsp;<br>\n\t<em>The Software Heritage Graph Dataset: Public software development under one roof<\/em>.&nbsp;<br>\n\tIn proceedings of&nbsp;<a href=\"http:\/\/2019.msrconf.org\/\">MSR 2019<\/a>: The 16th International Conference on Mining Software Repositories, May 2019, Montreal, Canada. Co-located with&nbsp;<a href=\"https:\/\/2019.icse-conferences.org\/\">ICSE 2019<\/a>.&nbsp;<br>\n\t<a href=\"https:\/\/upsilon.cc\/~zack\/research\/publications\/msr-2019-swh.pdf\">preprint<\/a>,&nbsp;<a href=\"https:\/\/upsilon.cc\/~zack\/research\/publications\/msr-2019-swh.bib\">bibtex<\/a><\/li>\n<\/ul>\n\n<p>You can also refer to the above paper for more information the dataset and sample queries.<\/p>",
+                    "publication_date": "2019-03-05",
+                    "publisher": [
+                        "Zenodo",
+                        {
+                            "name": "Zenodo"
+                        }
+                    ],
+                    "keywords": [
+                        "mining software repositories, source code, dataset, open source software, free software, digital preservation, development history graph",
+                        "development history graph",
+                        "mining software repositories",
+                        " source code",
+                        " dataset",
+                        " open source software",
+                        " free software",
+                        " digital preservation",
+                        " development history graph"
+                    ],
+                    "creator": [
+                        "Diomidis Spinellis",
+                        "Stefano Zacchiroli",
+                        "Antoine Pietri",
+                        "Zacchiroli, Stefano",
+                        "Spinellis, Diomidis",
+                        "Pietri, Antoine"
+                    ],
+                    "object_type": [
+                        "Dataset",
+                        "http:\/\/schema.org\/WebPage"
+                    ]
+                },
+                "core_metadata_source": [
+                    [
+                        "MICRODATA_EMBEDDED",
+                        "microdata_rdfa"
+                    ],
+                    [
+                        "HIGHWIRE_EPRINTS_EMBEDDED",
+                        "html_embedding"
+                    ],
+                    [
+                        "DUBLINCORE_EMBEDDED",
+                        "html_embedding"
+                    ],
+                    [
+                        "DATACITE_JSON_NEGOTIATED",
+                        "content_negotiation"
+                    ],
+                    [
+                        "OPENGRAPH_EMBEDDED",
+                        "html_embedding"
+                    ],
+                    [
+                        "SCHEMAORG_NEGOTIATED",
+                        "content_negotiation"
+                    ],
+                    [
+                        "SCHEMAORG_EMBEDDED",
+                        "html_embedding"
+                    ]
+                ]
+            },
+            "test_debug": [
+                "INFO: Trying to resolve input URL -: https:\/\/doi.org\/10.5281\/zenodo.2583978",
+                "INFO: Content negotiation on https:\/\/doi.org\/10.5281\/zenodo.2583978 accept=text\/html, *\/*, status=200",
+                "INFO: Creating Cached response content",
+                "INFO: Found HTML page!",
+                "INFO: Starting to analyse EMBEDDED metadata at -: https:\/\/zenodo.org\/records\/2583978",
+                "INFO: Trying to identify EMBEDDED  Microdata, OpenGraph or Schema.org -: https:\/\/zenodo.org\/records\/2583978",
+                "INFO: Trying to retrieve schema.org JSON-LD metadata from html page",
+                "INFO: Try to parse RDF (JSON-LD) from -: landing page",
+                "INFO: Try to parse JSON-LD using JMESPath retrieved as dict from -: landing page",
+                "INFO: Trying to extract schema.org JSON-LD metadata from -: SCHEMAORG_EMBEDDED",
+                "INFO: Found JSON-LD but will not use it since it seems not to be a schema.org object based on the given context type -:['https:\/\/schema.org\/Dataset']",
+                "INFO: Could not identify schema.org JSON-LD metadata using JMESPath, continuing with RDF graph processing",
+                "INFO: Try to parse JSON-LD using RDFLib retrieved as string from -: landing page",
+                "INFO: Found RDF Graph which was sucessfully parsed",
+                "INFO: Trying to identify namespaces in RDF Graph",
+                "INFO: RDF Graph seems to contain schema.org metadata elements",
+                "INFO: Trying to get some core domain agnostic (DCAT, DC, schema.org) metadata from RDF graph",
+                "INFO: Found some core domain agnostic (DCAT, DC, schema.org) metadata from RDF graph -: {'object_identifier': ['https:\/\/doi.org\/10.5281\/zenodo.2583978'], 'title': 'The Software Heritage Graph Dataset', 'summary': '<p>Software Heritage is the largest existing public archive of software source<br>\\ncode and accompanying development history: it currently spans more than five<br>\\nbillion unique source code files and one billion unique commits, coming from<br>\\nmore than 80 million software projects.<\/p>\\n\\n<p>This is the Software Heritage graph dataset: a fully-deduplicated<br>\\nMerkle DAG representation of the Software Heritage archive. The dataset links<br>\\ntogether file content identifiers, source code directories, Version Control<br>\\nSystem (VCS) commits tracking evolution over time, up to the full states of VCS<br>\\nrepositories as observed by Software Heritage during periodic crawls. The<br>\\ndataset&rsquo;s contents come from major development forges (including GitHub and<br>\\nGitLab), FOSS distributions (e.g., Debian), and language-specific package<br>\\nmanagers (e.g., PyPI). &nbsp;Crawling information is also included, providing<br>\\ntimestamps about when and where all archived source code artifacts have been<br>\\nobserved in the wild.<\/p>\\n\\n<p>The Software Heritage graph dataset is available in multiple formats, including<br>\\ndownloadable CSV dumps and Apache Parquet files for local use, as well as a<br>\\npublic instance on Amazon Athena interactive query service for ready-to-use<br>\\npowerful analytical processing.<\/p>\\n\\n<p>By accessing the dataset, you agree with the Software Heritage&nbsp;<a href=\"https:\/\/www.softwareheritage.org\/legal\/users-ethical-charter\/\">Ethical Charter<br>\\nfor using the archive data<\/a>, and the&nbsp;<a href=\"https:\/\/www.softwareheritage.org\/legal\/bulk-access-terms-of-use\/\">terms of use for bulk access<\/a>.<\/p>\\n\\n<p>If you use this dataset for research purposes, please cite the following paper:<\/p>\\n\\n<ul>\\n\\t<li>Antoine Pietri, Diomidis Spinellis, Stefano Zacchiroli.&nbsp;<br>\\n\\t<em>The Software Heritage Graph Dataset: Public software development under one roof<\/em>.&nbsp;<br>\\n\\tIn proceedings of&nbsp;<a href=\"http:\/\/2019.msrconf.org\/\">MSR 2019<\/a>: The 16th International Conference on Mining Software Repositories, May 2019, Montreal, Canada. Co-located with&nbsp;<a href=\"https:\/\/2019.icse-conferences.org\/\">ICSE 2019<\/a>.&nbsp;<br>\\n\\t<a href=\"https:\/\/upsilon.cc\/~zack\/research\/publications\/msr-2019-swh.pdf\">preprint<\/a>,&nbsp;<a href=\"https:\/\/upsilon.cc\/~zack\/research\/publications\/msr-2019-swh.bib\">bibtex<\/a><\/li>\\n<\/ul>\\n\\n<p>You can also refer to the above paper for more information the dataset and sample queries.<\/p>', 'publication_date': '2019-03-05', 'publisher': ['Zenodo'], 'keywords': ['mining software repositories, source code, dataset, open source software, free software, digital preservation, development history graph'], 'creator': ['https:\/\/orcid.org\/0000-0003-4052-4469', 'https:\/\/orcid.org\/0000-0003-4231-1897', 'https:\/\/orcid.org\/0000-0002-4576-136X'], 'license': 'https:\/\/creativecommons.org\/licenses\/by\/4.0\/legalcode', 'object_type': 'Dataset'}",
+                "SUCCESS: Found schema.org JSON-LD metadata in html page -: dict_keys(['object_identifier', 'title', 'summary', 'publication_date', 'publisher', 'keywords', 'creator', 'license', 'object_type', 'object_content_identifier'])",
+                "INFO: Trying to retrieve Dublin Core metadata from html page",
+                "SUCCESS: Found DublinCore metadata -: dict_keys(['summary'])",
+                "INFO: Trying to retrieve Microdata metadata from html page",
+                "INFO: Trying to extract Microdata metadata from -: MetadataSources.MICRODATA_EMBEDDED",
+                "SUCCESS: Found microdata metadata -: dict_keys(['object_type'])",
+                "INFO: Trying to retrieve RDFa metadata from html page",
+                "INFO: Found RDF Graph which was sucessfully parsed",
+                "INFO: Trying to identify namespaces in RDF Graph",
+                "INFO: Could not find DCAT, schema.org or SKOS\/OWL metadata, continuing with generic SPARQL",
+                "INFO: Trying to query generic SPARQL on RDF, found triples: -:59",
+                "INFO: Found RDFa like triples but at least some of them seem to be XHTML or OpenGraph properties which are excluded",
+                "INFO: Trying to retrieve Highwire and eprints metadata from html page",
+                "INFO: Metadata property differs from metadata previously offered in a different formats -: summary: <p>Software Heritage is the largest existing publi vs. https:\/\/zenodo.org\/records\/2583978",
+                "SUCCESS: Found Highwire or eprints metadata -: dict_keys(['title', 'object_identifier', 'keywords', 'summary'])",
+                "INFO: Trying to retrieve OpenGraph metadata from html page",
+                "INFO: Found OpenGraph metadata-: dict_keys(['title', 'object_identifier', 'summary', 'publisher'])",
+                "SUCCESS: Found OpenGraph metadata -: dict_keys(['title', 'object_identifier', 'summary', 'publisher'])",
+                "INFO: Trying to identify Typed Links to data items in html page",
+                "INFO: Starting to identify EXTERNAL metadata through content negotiation or typed (signposting) links",
+                "INFO: Trying to retrieve XML metadata through content negotiation from URL -: https:\/\/doi.org\/10.5281\/zenodo.2583978",
+                "INFO: Retrieving page -: https:\/\/zenodo.org\/records\/2583978 as application\/xml, text\/xml;q=0.5",
+                "INFO: Content negotiation on https:\/\/zenodo.org\/records\/2583978 accept=application\/xml, text\/xml;q=0.5, status=200",
+                "INFO: Creating Cached response content",
+                "INFO: Ignoring HTML response",
+                "INFO: Trying to extract\/parse XML metadata from URL -: https:\/\/zenodo.org\/records\/2583978",
+                "INFO: Expected XML but content negotiation responded -: MetadataFormats.HTML",
+                "INFO: Could not identify metadata properties in XML",
+                "INFO: Trying to retrieve XML metadata through content negotiation from URL -: https:\/\/zenodo.org\/records\/2583978",
+                "INFO: Retrieving page -: https:\/\/zenodo.org\/records\/2583978 as application\/xml, text\/xml;q=0.5",
+                "INFO: Content negotiation on https:\/\/zenodo.org\/records\/2583978 accept=application\/xml, text\/xml;q=0.5, status=200",
+                "INFO: Creating Cached response content",
+                "INFO: Ignoring HTML response",
+                "INFO: Trying to extract\/parse XML metadata from URL -: https:\/\/zenodo.org\/records\/2583978",
+                "INFO: Expected XML but content negotiation responded -: MetadataFormats.HTML",
+                "INFO: Could not identify metadata properties in XML",
+                "INFO: Trying to retrieve schema.org JSON-LD metadata through content negotiation from URL -: https:\/\/doi.org\/10.5281\/zenodo.2583978",
+                "INFO: Retrieving page -: https:\/\/doi.org\/10.5281\/zenodo.2583978 as application\/ld+json",
+                "INFO: Content negotiation on https:\/\/doi.org\/10.5281\/zenodo.2583978 accept=application\/ld+json, status=200",
+                "INFO: Creating Cached response content",
+                "INFO: Try to parse RDF (JSON-LD) from -: https:\/\/data.crosscite.org\/10.5281%2Fzenodo.2583978",
+                "INFO: Try to parse JSON-LD using JMESPath retrieved as dict from -: https:\/\/data.crosscite.org\/10.5281%2Fzenodo.2583978",
+                "INFO: Trying to extract schema.org JSON-LD metadata from -: SCHEMAORG_NEGOTIATED",
+                "INFO: Found schema.org JSON-LD which seems to be valid, based on the given context type -:['Dataset']",
+                "SUCCESS: Found Schema.org metadata through content negotiation-: dict_keys(['title', 'object_type', 'publication_date', 'creator', 'creator_first', 'creator_last', 'publisher', 'license', 'summary', 'keywords', 'object_identifier'])",
+                "INFO: Trying to retrieve schema.org JSON-LD metadata through content negotiation from URL -: https:\/\/zenodo.org\/records\/2583978",
+                "INFO: Retrieving page -: https:\/\/zenodo.org\/records\/2583978 as application\/ld+json",
+                "INFO: Content negotiation on https:\/\/zenodo.org\/records\/2583978 accept=application\/ld+json, status=200",
+                "INFO: Creating Cached response content",
+                "INFO: Ignoring HTML response",
+                "INFO: Schema.org metadata through content negotiation UNAVAILABLE",
+                "INFO: Trying to retrieve RDF metadata through content negotiation from URL -: https:\/\/doi.org\/10.5281\/zenodo.2583978",
+                "INFO: Retrieving page -: https:\/\/doi.org\/10.5281\/zenodo.2583978 as text\/turtle, application\/turtle, application\/x-turtle;q=0.8, application\/rdf+xml, text\/n3;q=0.9, text\/rdf+n3;q=0.9,application\/ld+json",
+                "WARNING: Request failed, status code -: https:\/\/doi.org\/10.5281\/zenodo.2583978, text\/turtle, application\/turtle, application\/x-turtle;q=0.8, application\/rdf+xml, text\/n3;q=0.9, text\/rdf+n3;q=0.9,application\/ld+json - 422",
+                "WARNING: No response received from -: https:\/\/doi.org\/10.5281\/zenodo.2583978, text\/turtle, application\/turtle, application\/x-turtle;q=0.8, application\/rdf+xml, text\/n3;q=0.9, text\/rdf+n3;q=0.9,application\/ld+json",
+                "INFO: Linked Data metadata UNAVAILABLE",
+                "INFO: Trying to retrieve RDF metadata through content negotiation from URL -: https:\/\/zenodo.org\/records\/2583978",
+                "INFO: Retrieving page -: https:\/\/zenodo.org\/records\/2583978 as text\/turtle, application\/turtle, application\/x-turtle;q=0.8, application\/rdf+xml, text\/n3;q=0.9, text\/rdf+n3;q=0.9,application\/ld+json",
+                "INFO: Content negotiation on https:\/\/zenodo.org\/records\/2583978 accept=text\/turtle, application\/turtle, application\/x-turtle;q=0.8, application\/rdf+xml, text\/n3;q=0.9, text\/rdf+n3;q=0.9,application\/ld+json, status=200",
+                "INFO: Creating Cached response content",
+                "INFO: Ignoring HTML response",
+                "INFO: Try to parse RDF from -: https:\/\/zenodo.org\/records\/2583978 as turtle",
+                "WARNING: Failed to parse RDF -: https:\/\/zenodo.org\/records\/2583978 exactly one of source, location, file or data must be given",
+                "INFO: Retrieving page -: https:\/\/doi.org\/10.5281\/zenodo.2583978 as text\/turtle, application\/turtle, application\/x-turtle;q=0.8, application\/rdf+xml, text\/n3;q=0.9, text\/rdf+n3;q=0.9,application\/ld+json",
+                "WARNING: Request failed, status code -: https:\/\/doi.org\/10.5281\/zenodo.2583978, text\/turtle, application\/turtle, application\/x-turtle;q=0.8, application\/rdf+xml, text\/n3;q=0.9, text\/rdf+n3;q=0.9,application\/ld+json - 422",
+                "WARNING: No response received from -: https:\/\/doi.org\/10.5281\/zenodo.2583978, text\/turtle, application\/turtle, application\/x-turtle;q=0.8, application\/rdf+xml, text\/n3;q=0.9, text\/rdf+n3;q=0.9,application\/ld+json",
+                "INFO: Try to parse RDF from -: https:\/\/doi.org\/10.5281\/zenodo.2583978 as turtle",
+                "WARNING: Failed to parse RDF -: https:\/\/doi.org\/10.5281\/zenodo.2583978 exactly one of source, location, file or data must be given",
+                "INFO: Linked Data metadata UNAVAILABLE",
+                "INFO: Trying to retrieve datacite metadata",
+                "INFO: Retrieving page -: https:\/\/doi.org\/10.5281\/zenodo.2583978 as application\/vnd.datacite.datacite+json",
+                "INFO: Content negotiation on https:\/\/doi.org\/10.5281\/zenodo.2583978 accept=application\/vnd.datacite.datacite+json, status=200",
+                "INFO: Creating Cached response content",
+                "SUCCESS: Found Datacite metadata -: dict_keys(['object_identifier', 'object_type', 'creator', 'creator_first', 'creator_last', 'publisher', 'title', 'keywords', 'publication_date', 'license', 'summary', 'related_resources', 'datacite_client', 'access_level'])",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/x-tar",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/gzip",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/gzip",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/gzip",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/x-tar",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/x-tar",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/gzip",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/octet-stream",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/gzip",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/x-tar",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/gzip",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/x-tar",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/octet-stream",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/x-tar",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/x-tar",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/gzip",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/gzip",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/x-tar",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/gzip",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/gzip",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/zip",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/zip",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/gzip",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/x-tar",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/x-tar",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/x-tar",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/x-tar",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/x-tar",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/gzip",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/gzip",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/gzip",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/x-tar",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/gzip",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/gzip",
+                "INFO: Found typed link or signposting link but will ignore (can't handle) mime type -:application\/x-tar",
+                "INFO: Type of object described by the metadata -: ['Dataset', 'http:\/\/schema.org\/WebPage']",
+                "INFO: Testing if any metadata has been made available via common web standards",
+                "INFO: Found some descriptive metadata elements -: dict_keys(['object_identifier', 'title', 'summary', 'publication_date', 'publisher', 'keywords', 'creator', 'license', 'object_type', 'object_content_identifier', 'related_resources', 'datacite_client', 'access_level'])",
+                "SUCCESS: Found required core citation metadata elements -: ['creator', 'title', 'object_identifier', 'publication_date', 'publisher', 'object_type']",
+                "INFO: Will exclusively consider community specific metadata properties which are specified in metrics -: {'name': ['creator', 'title', 'object_identifier', 'publication_date', 'publisher', 'object_type', 'summary', 'keywords']}",
+                "SUCCESS: Found required core descriptive metadata elements -: ['creator', 'title', 'object_identifier', 'publication_date', 'publisher', 'object_type', 'summary', 'keywords']"
+            ]
+        },
+        {
+            "id": 4,
+            "metric_identifier": "FsF-F3-01M",
+            "metric_name": "Metadata includes the identifier of the data it describes.",
+            "metric_tests": {
+                "FsF-F3-01M-1": {
+                    "metric_test_name": "Metadata contains data content related information (file name, size, type)",
+                    "metric_test_requirements": [
+                        {
+                            "modality": "all",
+                            "required": [
+                                "type",
+                                "size"
+                            ],
+                            "tested_on": "https:\/\/f-uji.net\/vocab\/metadata\/property\/object_content_identifier",
+                            "comment": null,
+                            "target": "https:\/\/f-uji.net\/vocab\/data\/property"
+                        }
+                    ],
+                    "metric_test_score": {
+                        "earned": 0.5,
+                        "total": 0.5
+                    },
+                    "metric_test_maturity": 1,
+                    "metric_test_status": "pass"
+                },
+                "FsF-F3-01M-2": {
+                    "metric_test_name": "Metadata contains a PID or URL which indicates the location of the downloadable data content",
+                    "metric_test_requirements": [
+                        {
+                            "modality": "any",
+                            "required": null,
+                            "tested_on": "https:\/\/f-uji.net\/vocab\/metadata\/property\/object_content_identifier",
+                            "comment": null,
+                            "target": "https:\/\/f-uji.net\/vocab\/data\/property\/url"
+                        }
+                    ],
+                    "metric_test_score": {
+                        "earned": 0.5,
+                        "total": 0.5
+                    },
+                    "metric_test_maturity": 3,
+                    "metric_test_status": "pass"
+                }
+            },
+            "test_status": "pass",
+            "score": {
+                "earned": 1,
+                "total": 1
+            },
+            "maturity": 3,
+            "output": {
+                "object_identifier_included": null,
+                "object_content_identifier_included": [
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_snapshot.csv.gz\/content",
+                            "type": "application\/gzip",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_origin.tar\/content",
+                            "type": "application\/x-tar",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/athena.zip\/content",
+                            "type": "application\/zip",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_content.tar\/content",
+                            "type": "application\/x-tar",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_directory_entry_dir.tar\/content",
+                            "type": "application\/x-tar",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_directory_entry_file.tar\/content",
+                            "type": "application\/x-tar",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_directory_entry_rev.tar\/content",
+                            "type": "application\/x-tar",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_directory.tar\/content",
+                            "type": "application\/x-tar",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_origin_visit.tar\/content",
+                            "type": "application\/x-tar",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_person.tar\/content",
+                            "type": "application\/x-tar",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/swh-environment.tar.gz\/content",
+                            "type": "application\/gzip",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_swh_import.sql\/content",
+                            "type": "application\/octet-stream",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_release.tar\/content",
+                            "type": "application\/x-tar",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_revision_history.tar\/content",
+                            "type": "application\/x-tar",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_swh_import_scripts.zip\/content",
+                            "type": "application\/zip",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_snapshot_branches.csv.gz\/content",
+                            "type": "application\/gzip",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_revision.tar\/content",
+                            "type": "application\/x-tar",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_snapshot_branch.csv.gz\/content",
+                            "type": "application\/gzip",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_skipped_content.csv.gz\/content",
+                            "type": "application\/gzip",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_revision_history.csv.gz\/content",
+                            "type": "application\/gzip",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_skipped_content.tar\/content",
+                            "type": "application\/x-tar",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_revision.csv.gz\/content",
+                            "type": "application\/gzip",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_snapshot_branches.tar\/content",
+                            "type": "application\/x-tar",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_snapshot_branch.tar\/content",
+                            "type": "application\/x-tar",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_release.csv.gz\/content",
+                            "type": "application\/gzip",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_person.csv.gz\/content",
+                            "type": "application\/gzip",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_snapshot.tar\/content",
+                            "type": "application\/x-tar",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_origin_visit.csv.gz\/content",
+                            "type": "application\/gzip",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_origin.csv.gz\/content",
+                            "type": "application\/gzip",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_directory_entry_rev.csv.gz\/content",
+                            "type": "application\/gzip",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_directory_entry_file.csv.gz\/content",
+                            "type": "application\/gzip",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_directory_entry_dir.csv.gz\/content",
+                            "type": "application\/gzip",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_directory.csv.gz\/content",
+                            "type": "application\/gzip",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_content.csv.gz\/content",
+                            "type": "application\/gzip",
+                            "size": "None"
+                        }
+                    },
+                    {
+                        "content_identifier_included": {
+                            "url": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/README.md\/content",
+                            "type": "application\/octet-stream",
+                            "size": "None"
+                        }
+                    }
+                ]
+            },
+            "test_debug": [
+                "INFO: Found data links in MetadataFormats.JSONLD metadata -: 35",
+                "SUCCESS: Number of object content identifier found -: 35",
+                "WARNING: Found more than -: 5 data links (out of 16) of type application\/gzip will only take 5 for content analysis",
+                "WARNING: Found more than -: 5 data links (out of 15) of type application\/x-tar will only take 5 for content analysis"
+            ]
+        },
+        {
+            "id": 5,
+            "metric_identifier": "FsF-F4-01M",
+            "metric_name": "Metadata is offered in such a way that it can be retrieved programmatically.",
+            "metric_tests": {
+                "FsF-F4-01M-1": {
+                    "metric_test_name": "Metadata is given in a way major search engines can ingest it for their catalogues (JSON-LD, Dublin Core, RDFa)",
+                    "metric_test_requirements": [
+                        {
+                            "modality": "any",
+                            "required": {
+                                "name": [
+                                    "dublin-core",
+                                    "schemaorg",
+                                    "dcat-data-catalog-vocabulary"
+                                ]
+                            },
+                            "tested_on": null,
+                            "comment": null,
+                            "target": "http:\/\/f-uji.net\/vocab\/metadata\/standard"
+                        },
+                        {
+                            "modality": "any",
+                            "required": {
+                                "name": [
+                                    "html_embedding",
+                                    "microdata_rdfa"
+                                ]
+                            },
+                            "tested_on": null,
+                            "comment": null,
+                            "target": "http:\/\/f-uji.net\/vocab\/metadata\/offering_method"
+                        }
+                    ],
+                    "metric_test_score": {
+                        "earned": 1,
+                        "total": 1
+                    },
+                    "metric_test_maturity": 3,
+                    "metric_test_status": "pass"
+                },
+                "FsF-F4-01M-2": {
+                    "metric_test_name": "Metadata is registered in major research data registries (DataCite)",
+                    "metric_test_requirements": [],
+                    "metric_test_score": {
+                        "earned": 1,
+                        "total": 1
+                    },
+                    "metric_test_maturity": 2,
+                    "metric_test_status": "pass"
+                }
+            },
+            "test_status": "pass",
+            "score": {
+                "earned": 2,
+                "total": 2
+            },
+            "maturity": 3,
+            "output": {
+                "search_mechanisms": [
+                    {
+                        "mechanism": "structured data",
+                        "mechanism_info": [
+                            "schemaorg via: html_embedding",
+                            "dublin-core via: html_embedding",
+                            "schemaorg via: microdata_rdfa"
+                        ]
+                    },
+                    {
+                        "mechanism": "metadata registry",
+                        "mechanism_info": [
+                            "DataCite Registry"
+                        ]
+                    }
+                ]
+            },
+            "test_debug": [
+                "INFO: Will exclusively consider community specific metadata standards for FsF-F4-01M-1 which are specified in metrics -: ['dublin-core', 'schemaorg', 'dcat-data-catalog-vocabulary']",
+                "INFO: Will exclusively consider community specific metadata offering methods for FsF-F4-01M-1 which are specified in metrics -: ['html_embedding', 'microdata_rdfa']",
+                "SUCCESS: Metadata is offered in a way major search engines can ingest it -: ['schemaorg via: html_embedding', 'dublin-core via: html_embedding', 'schemaorg via: microdata_rdfa']",
+                "INFO: Querying DataCite API for -:10.5281\/zenodo.2583978",
+                "INFO: Found identifier in DataCite catalogue -:10.5281\/zenodo.2583978",
+                "INFO: Dataset already found in registry therefore skipping Google Dataset Search Cache query",
+                "INFO: Dataset already found in registry therefore skipping Mendeley Data query",
+                "SUCCESS: Metadata found through - metadata registry"
+            ]
+        },
+        {
+            "id": 10,
+            "metric_identifier": "FsF-I1-01M",
+            "metric_name": "Metadata is represented using a formal knowledge representation language.",
+            "metric_tests": {
+                "FsF-I1-01M-1": {
+                    "metric_test_name": "Parsable, structured metadata (JSON-LD, RDFa) is embedded in the landing page XHTML\/HTML code",
+                    "metric_test_requirements": [
+                        {
+                            "modality": "any",
+                            "required": {
+                                "name": [
+                                    "RDF",
+                                    "JSON-LD",
+                                    "RDFa"
+                                ]
+                            },
+                            "tested_on": null,
+                            "comment": null,
+                            "target": "http:\/\/f-uji.net\/vocab\/metadata\/format"
+                        },
+                        {
+                            "modality": "any",
+                            "required": {
+                                "name": [
+                                    "html_embedding",
+                                    "microdata_rdfa"
+                                ]
+                            },
+                            "tested_on": null,
+                            "comment": null,
+                            "target": "http:\/\/f-uji.net\/vocab\/metadata\/offering_method"
+                        }
+                    ],
+                    "metric_test_score": {
+                        "earned": 1,
+                        "total": 1
+                    },
+                    "metric_test_maturity": 2,
+                    "metric_test_status": "pass"
+                },
+                "FsF-I1-01M-2": {
+                    "metric_test_name": "Parsable, graph data (RDF, JSON-LD) is accessible through content negotiation, typed links or sparql endpoint",
+                    "metric_test_requirements": [
+                        {
+                            "modality": "any",
+                            "required": {
+                                "name": [
+                                    "RDF",
+                                    "JSON-LD",
+                                    "RDFa"
+                                ]
+                            },
+                            "tested_on": null,
+                            "comment": null,
+                            "target": "http:\/\/f-uji.net\/vocab\/metadata\/format"
+                        },
+                        {
+                            "modality": "any",
+                            "required": {
+                                "name": [
+                                    "content_negotiation"
+                                ]
+                            },
+                            "tested_on": null,
+                            "comment": null,
+                            "target": "http:\/\/f-uji.net\/vocab\/metadata\/offering_method"
+                        },
+                        {
+                            "modality": "any",
+                            "required": {
+                                "name": [
+                                    "sparql"
+                                ]
+                            },
+                            "tested_on": null,
+                            "comment": null,
+                            "target": "http:\/\/f-uji.net\/vocab\/metadata\/exchange_service"
+                        }
+                    ],
+                    "metric_test_score": {
+                        "earned": 1,
+                        "total": 1
+                    },
+                    "metric_test_maturity": 3,
+                    "metric_test_status": "pass"
+                }
+            },
+            "test_status": "pass",
+            "score": {
+                "earned": 2,
+                "total": 2
+            },
+            "maturity": 3,
+            "output": [
+                {
+                    "serialization_format": "JSON-LD",
+                    "source": "structured_data",
+                    "is_metadata_found": true
+                },
+                {
+                    "serialization_format": "JSON-LD",
+                    "source": "content_negotiate",
+                    "is_metadata_found": true
+                }
+            ],
+            "test_debug": [
+                "INFO: Check of structured data (RDF serialization) embedded in the data page",
+                "INFO: JSON-LD (schema.org) serialization found in the data page - JSON-LD",
+                "SUCCESS: Found structured data (RDF serialization) in the data page",
+                "INFO: Check if RDF-based typed link included",
+                "INFO: NO RDF-based typed link found",
+                "INFO: Check if RDF metadata available through content negotiation",
+                "INFO: JSON-LD graph retrieved through content negotiation, content type - JSON-LD",
+                "SUCCESS: Found RDF content through content negotiation or typed links"
+            ]
+        },
+        {
+            "id": 11,
+            "metric_identifier": "FsF-I2-01M",
+            "metric_name": "Metadata uses semantic resources",
+            "metric_tests": {
+                "FsF-I2-01M-1": {
+                    "metric_test_name": "Vocabulary namespace URIs can be identified in metadata",
+                    "metric_test_requirements": [
+                        {
+                            "modality": null,
+                            "required": null,
+                            "tested_on": null,
+                            "comment": "The sheer existence of namespaces declared in XML or RDF files is checked here. This test is not scored",
+                            "target": null
+                        }
+                    ],
+                    "metric_test_score": {
+                        "earned": 0,
+                        "total": 0
+                    },
+                    "metric_test_maturity": 1,
+                    "metric_test_status": "pass"
+                },
+                "FsF-I2-01M-2": {
+                    "metric_test_name": "Namespaces of known semantic resources can be identified in metadata",
+                    "metric_test_requirements": [
+                        {
+                            "modality": "any",
+                            "required": null,
+                            "tested_on": null,
+                            "comment": null,
+                            "target": "http:\/\/f-uji.net\/vocab\/semantic_resource"
+                        }
+                    ],
+                    "metric_test_score": {
+                        "earned": 0,
+                        "total": 1
+                    },
+                    "metric_test_maturity": 0,
+                    "metric_test_status": "fail"
+                }
+            },
+            "test_status": "pass",
+            "score": {
+                "earned": 0,
+                "total": 1
+            },
+            "maturity": 1,
+            "output": [],
+            "test_debug": [
+                "INFO: Removing default namespaces from 55 vocabulary namespaces found in structured metadata",
+                "INFO: Default vocabulary namespace(s) excluded -: ['http:\/\/schema.org', 'https:\/\/schema.org', 'https:\/\/schema.org', 'http:\/\/purl.org\/dc\/elements\/1.1', 'http:\/\/www.w3.org\/1999\/02\/22-rdf-syntax-ns', 'http:\/\/ogp.me\/ns', 'http:\/\/schema.org']",
+                "INFO: Removing default namespaces from 1 vocabulary namespaces extracted from links found in metadata",
+                "INFO: Default vocabulary namespace(s) excluded -: ['http:\/\/schema.org']",
+                "INFO: Check if known namespace(s) are used in structured metadata (RDF, XML) which exist(s) in a LOD registry -: ['https:\/\/zenodo.org\/api\/records\/2583978\/files\/athena.zip', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_origin.tar', 'http:\/\/schema.datacite.org\/meta\/kernel-4.3\/metadata.xsd', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_directory_entry_file.tar', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_person.tar', 'http:\/\/schema.datacite.org\/meta\/kernel-4\/metadata.xsd', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_revision_history.tar', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/swh-environment.tar.gz', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_directory_entry_dir.tar', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_directory.tar', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_revision_history.csv.gz', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_swh_import.sql', 'http:\/\/datacite.org\/schema', 'http:\/\/www.openarchives.org\/OAI\/2.0\/oai_dc.xsd', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/README.md', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_release.tar', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_revision.csv.gz', 'https:\/\/creativecommons.org\/licenses\/by\/4.0', 'https:\/\/zenodo.org\/records', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_origin_visit.tar', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_release.csv.gz', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_snapshot.csv.gz', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_snapshot_branch.csv.gz', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_directory_entry_file.csv.gz', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_origin_visit.csv.gz', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_snapshot_branch.tar', 'https:\/\/orcid.org', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_directory_entry_rev.csv.gz', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_snapshot.tar', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_snapshot_branches.csv.gz', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_swh_import_scripts.zip', 'https:\/\/doi.org\/10.5281', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_directory_entry_rev.tar', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_content.csv.gz', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_skipped_content.csv.gz', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_revision.tar', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_skipped_content.tar', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_snapshot_branches.tar', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_origin.csv.gz', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_content.tar', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_person.csv.gz', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_directory_entry_dir.csv.gz', 'http:\/\/schema.datacite.org\/oai\/oai-1.1\/oai.xsd', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_directory.csv.gz', 'https:\/\/www.loc.gov\/standards\/marcxml\/schema\/MARC21slim.xsd']",
+                "WARNING: NO known vocabulary namespace URI is found which is listed in  the LOD registry"
+            ]
+        },
+        {
+            "id": 12,
+            "metric_identifier": "FsF-I3-01M",
+            "metric_name": "Metadata includes links between the data and its related entities.",
+            "metric_tests": {
+                "FsF-I3-01M-1": {
+                    "metric_test_name": "Related resources are explicitly mentioned in metadata",
+                    "metric_test_requirements": [
+                        {
+                            "modality": "any",
+                            "required": null,
+                            "tested_on": "http:\/\/f-uji.net\/vocab\/metadata\/property\/related_resources",
+                            "comment": "The presence of a (typed, default = related) related resource is checked, can be a string or URI",
+                            "target": "http:\/\/f-uji.net\/vocab\/relation_type"
+                        }
+                    ],
+                    "metric_test_score": {
+                        "earned": 1,
+                        "total": 1
+                    },
+                    "metric_test_maturity": 2,
+                    "metric_test_status": "pass"
+                },
+                "FsF-I3-01M-2": {
+                    "metric_test_name": "Related resources are indicated by machine readable links or identifiers",
+                    "metric_test_requirements": [
+                        {
+                            "modality": null,
+                            "required": null,
+                            "tested_on": null,
+                            "comment": "same as above but relations have to be machine readable\/actionable",
+                            "target": null
+                        }
+                    ],
+                    "metric_test_score": {
+                        "earned": 1,
+                        "total": 1
+                    },
+                    "metric_test_maturity": 3,
+                    "metric_test_status": "pass"
+                }
+            },
+            "test_status": "pass",
+            "score": {
+                "earned": 1,
+                "total": 1
+            },
+            "maturity": 3,
+            "output": [
+                {
+                    "related_resource": "10.5281\/zenodo.2583977",
+                    "relation_type": "IsVersionOf"
+                }
+            ],
+            "test_debug": [
+                "INFO: No related resource(s) found in DublinCore metadata",
+                "INFO: No related resource(s) found in Schema.org metadata",
+                "INFO: 1 related resource(s) extracted from -: DATACITE_JSON_NEGOTIATED",
+                "SUCCESS: Number of related resources found in metadata -: 1"
+            ]
+        },
+        {
+            "id": 13,
+            "metric_identifier": "FsF-R1-01MD",
+            "metric_name": "Metadata specifies the content of the data.",
+            "metric_tests": {
+                "FsF-R1-01MD-1": {
+                    "metric_test_name": "Minimal information about available data content is given in metadata",
+                    "metric_test_requirements": [],
+                    "metric_test_score": {
+                        "earned": 1,
+                        "total": 1
+                    },
+                    "metric_test_maturity": 1,
+                    "metric_test_status": "pass"
+                },
+                "FsF-R1-01MD-1a": {
+                    "metric_test_name": "Resource type (e.g. dataset) is given in metadata",
+                    "metric_test_requirements": [],
+                    "metric_test_score": {
+                        "earned": 0,
+                        "total": 0
+                    },
+                    "metric_test_maturity": null,
+                    "metric_test_status": "pass"
+                },
+                "FsF-R1-01MD-1b": {
+                    "metric_test_name": "Information about data content (e.g. links) is given in metadata",
+                    "metric_test_requirements": [],
+                    "metric_test_score": {
+                        "earned": 0,
+                        "total": 0
+                    },
+                    "metric_test_maturity": null,
+                    "metric_test_status": "pass"
+                },
+                "FsF-R1-01MD-2": {
+                    "metric_test_name": "Verifiable data descriptors (file info, measured variables or observation types) are specified in metadata",
+                    "metric_test_requirements": [],
+                    "metric_test_score": {
+                        "earned": 0,
+                        "total": 1
+                    },
+                    "metric_test_maturity": 0,
+                    "metric_test_status": "fail"
+                },
+                "FsF-R1-01MD-2a": {
+                    "metric_test_name": "File size and type information are specified in metadata",
+                    "metric_test_requirements": [],
+                    "metric_test_score": {
+                        "earned": 0,
+                        "total": 0
+                    },
+                    "metric_test_maturity": 0,
+                    "metric_test_status": "fail"
+                },
+                "FsF-R1-01MD-2b": {
+                    "metric_test_name": "Measured variables or observation types are specified in metadata",
+                    "metric_test_requirements": [],
+                    "metric_test_score": {
+                        "earned": 0,
+                        "total": 0
+                    },
+                    "metric_test_maturity": 0,
+                    "metric_test_status": "fail"
+                },
+                "FsF-R1-01MD-3": {
+                    "metric_test_name": "Data content matches file type and size specified in metadata",
+                    "metric_test_requirements": [],
+                    "metric_test_score": {
+                        "earned": 0,
+                        "total": 1
+                    },
+                    "metric_test_maturity": 0,
+                    "metric_test_status": "fail"
+                },
+                "FsF-R1-01MD-4": {
+                    "metric_test_name": "Data content matches measured variables or observation types specified in metadata",
+                    "metric_test_requirements": [],
+                    "metric_test_score": {
+                        "earned": 0,
+                        "total": 1
+                    },
+                    "metric_test_maturity": 0,
+                    "metric_test_status": "fail"
+                }
+            },
+            "test_status": "pass",
+            "score": {
+                "earned": 1,
+                "total": 4
+            },
+            "maturity": 1,
+            "output": {
+                "object_type": "webpage",
+                "data_content_descriptor": []
+            },
+            "test_debug": [
+                "INFO: Successfully parsed data object file using TIKA",
+                "INFO: File request status code -: 200",
+                "INFO: Succesfully parsed data file(s) -: https:\/\/zenodo.org\/api\/records\/2583978\/files\/README.md\/content",
+                "INFO: Successfully parsed data object file using TIKA",
+                "INFO: File request status code -: 200",
+                "INFO: Succesfully parsed data file(s) -: https:\/\/zenodo.org\/api\/records\/2583978\/files\/athena.zip\/content",
+                "INFO: Successfully parsed data object file using TIKA",
+                "INFO: File request status code -: 200",
+                "INFO: Succesfully parsed data file(s) -: https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_swh_import_scripts.zip\/content",
+                "INFO: Successfully parsed data object file using TIKA",
+                "INFO: File request status code -: 200",
+                "INFO: Succesfully parsed data file(s) -: https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_directory_entry_rev.tar\/content",
+                "INFO: Successfully parsed data object file using TIKA",
+                "INFO: File request status code -: 200",
+                "INFO: Succesfully parsed data file(s) -: https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_directory_entry_dir.tar\/content",
+                "INFO: Successfully parsed data object file using TIKA",
+                "INFO: File request status code -: 200",
+                "INFO: Succesfully parsed data file(s) -: https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_origin.tar\/content",
+                "INFO: Successfully parsed data object file using TIKA",
+                "INFO: File request status code -: 200",
+                "INFO: Succesfully parsed data file(s) -: https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_content.tar\/content",
+                "INFO: Successfully parsed data object file using TIKA",
+                "INFO: File request status code -: 200",
+                "INFO: Succesfully parsed data file(s) -: https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_swh_import.sql\/content",
+                "INFO: Successfully parsed data object file using TIKA",
+                "INFO: File request status code -: 200",
+                "INFO: Succesfully parsed data file(s) -: https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_directory_entry_file.tar\/content",
+                "INFO: Successfully parsed data object file using TIKA",
+                "INFO: File request status code -: 200",
+                "INFO: Succesfully parsed data file(s) -: https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_snapshot.csv.gz\/content",
+                "INFO: Successfully parsed data object file using TIKA",
+                "INFO: File request status code -: 200",
+                "INFO: Succesfully parsed data file(s) -: https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_snapshot_branch.csv.gz\/content",
+                "INFO: Successfully parsed data object file using TIKA",
+                "INFO: File request status code -: 200",
+                "INFO: Succesfully parsed data file(s) -: https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_skipped_content.csv.gz\/content",
+                "INFO: Successfully parsed data object file using TIKA",
+                "INFO: File request status code -: 200",
+                "INFO: Succesfully parsed data file(s) -: https:\/\/zenodo.org\/api\/records\/2583978\/files\/swh-environment.tar.gz\/content",
+                "INFO: Successfully parsed data object file using TIKA",
+                "INFO: File request status code -: 200",
+                "INFO: Succesfully parsed data file(s) -: https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_snapshot_branches.csv.gz\/content",
+                "INFO: Object landing page accessible status -: True",
+                "SUCCESS: Valid resource type (e.g. subtype of schema.org\/CreativeWork, DCMI Type  or DataCite resourceType) specified -: dataset",
+                "SUCCESS: Valid resource type (e.g. subtype of schema.org\/CreativeWork, DCMI Type  or DataCite resourceType) specified -: webpage",
+                "WARNING: NO info about file size available in given metadata -:",
+                "WARNING: NO measured variables found in metadata, skip 'measured_variable' test.",
+                "WARNING: NO info about file size available in given metadata -:",
+                "WARNING: NO measured variables found in metadata, skip 'measured_variable' test.",
+                "WARNING: NO info about file size available in given metadata -:",
+                "WARNING: NO measured variables found in metadata, skip 'measured_variable' test.",
+                "WARNING: NO info about file size available in given metadata -:",
+                "WARNING: NO measured variables found in metadata, skip 'measured_variable' test.",
+                "WARNING: NO info about file size available in given metadata -:",
+                "WARNING: NO measured variables found in metadata, skip 'measured_variable' test.",
+                "WARNING: NO info about file size available in given metadata -:",
+                "WARNING: NO measured variables found in metadata, skip 'measured_variable' test.",
+                "WARNING: NO info about file size available in given metadata -:",
+                "WARNING: NO measured variables found in metadata, skip 'measured_variable' test.",
+                "WARNING: NO info about file size available in given metadata -:",
+                "WARNING: NO measured variables found in metadata, skip 'measured_variable' test.",
+                "WARNING: NO info about file size available in given metadata -:",
+                "WARNING: NO measured variables found in metadata, skip 'measured_variable' test.",
+                "WARNING: NO info about file size available in given metadata -:",
+                "WARNING: NO measured variables found in metadata, skip 'measured_variable' test.",
+                "WARNING: NO info about file size available in given metadata -:",
+                "WARNING: NO measured variables found in metadata, skip 'measured_variable' test.",
+                "WARNING: NO info about file size available in given metadata -:",
+                "WARNING: NO measured variables found in metadata, skip 'measured_variable' test.",
+                "WARNING: NO info about file size available in given metadata -:",
+                "WARNING: NO measured variables found in metadata, skip 'measured_variable' test.",
+                "WARNING: NO info about file size available in given metadata -:",
+                "WARNING: NO measured variables found in metadata, skip 'measured_variable' test."
+            ]
+        },
+        {
+            "id": 14,
+            "metric_identifier": "FsF-R1.1-01M",
+            "metric_name": "Metadata includes license information under which data can be reused.",
+            "metric_tests": {
+                "FsF-R1.1-01M-1": {
+                    "metric_test_name": "Licence information is given in an appropriate metadata element",
+                    "metric_test_requirements": [],
+                    "metric_test_score": {
+                        "earned": 1,
+                        "total": 1
+                    },
+                    "metric_test_maturity": 1,
+                    "metric_test_status": "pass"
+                },
+                "FsF-R1.1-01M-2": {
+                    "metric_test_name": "Recognized licence is valid (community specific or registered at SPDX)",
+                    "metric_test_requirements": [],
+                    "metric_test_score": {
+                        "earned": 1,
+                        "total": 1
+                    },
+                    "metric_test_maturity": 3,
+                    "metric_test_status": "pass"
+                }
+            },
+            "test_status": "pass",
+            "score": {
+                "earned": 2,
+                "total": 2
+            },
+            "maturity": 3,
+            "output": [
+                {
+                    "license": "https:\/\/creativecommons.org\/licenses\/by\/4.0\/legalcode",
+                    "osi_approved": true,
+                    "details_url": "https:\/\/creativecommons.org\/licenses\/by\/4.0\/legalcode"
+                },
+                {
+                    "license": "info:eu-repo\/semantics\/openAccess",
+                    "osi_approved": false,
+                    "details_url": null
+                },
+                {
+                    "license": "https:\/\/creativecommons.org\/licenses\/by\/4.0\/legalcode",
+                    "osi_approved": true,
+                    "details_url": "https:\/\/creativecommons.org\/licenses\/by\/4.0\/legalcode"
+                }
+            ],
+            "test_debug": [
+                "INFO: License metadata found (schema.org) -: ['https:\/\/creativecommons.org\/licenses\/by\/4.0\/legalcode', 'info:eu-repo\/semantics\/openAccess']",
+                "INFO: License expressed as access condition (rights), therefore moved from FsF-A1-01M -: https:\/\/creativecommons.org\/licenses\/by\/4.0\/legalcode",
+                "INFO: Found CreativeCommons license -: https:\/\/creativecommons.org\/licenses\/by\/4.0\/legalcode",
+                "SUCCESS: Found SPDX license representation (spdx url, osi_approved)",
+                "INFO: License verification name through SPDX registry -: info:eu-repo\/semantics\/openAccess",
+                "WARNING: NO SPDX license representation (spdx url, osi_approved) found",
+                "INFO: Found CreativeCommons license -: https:\/\/creativecommons.org\/licenses\/by\/4.0\/legalcode",
+                "SUCCESS: Found SPDX license representation (spdx url, osi_approved)",
+                "SUCCESS: Found licence information in metadata",
+                "INFO: Will consider all SPDX licenses as community specific licenses for FsF-R1.1-01M"
+            ]
+        },
+        {
+            "id": 6,
+            "metric_identifier": "FsF-A1-01M",
+            "metric_name": "Metadata contains access level and access conditions of the data.",
+            "metric_tests": {
+                "FsF-A1-01M-1": {
+                    "metric_test_name": "Information about access restrictions or rights can be identified in metadata",
+                    "metric_test_requirements": [
+                        {
+                            "modality": "any",
+                            "required": null,
+                            "tested_on": null,
+                            "comment": null,
+                            "target": "http:\/\/f-uji.net\/vocab\/metadata\/property\/access_level"
+                        }
+                    ],
+                    "metric_test_score": {
+                        "earned": 0.5,
+                        "total": 0.5
+                    },
+                    "metric_test_maturity": 1,
+                    "metric_test_status": "pass"
+                },
+                "FsF-A1-01M-3": {
+                    "metric_test_name": "Data access information is indicated by (not machine readable) standard terms",
+                    "metric_test_requirements": [
+                        {
+                            "modality": "any",
+                            "required": null,
+                            "tested_on": "http:\/\/f-uji.net\/vocab\/metadata\/property\/access_level",
+                            "comment": "label and id",
+                            "target": "http:\/\/f-uji.net\/vocab\/access_condition"
+                        }
+                    ],
+                    "metric_test_score": {
+                        "earned": 0,
+                        "total": 1
+                    },
+                    "metric_test_maturity": 0,
+                    "metric_test_status": "fail"
+                },
+                "FsF-A1-01M-2": {
+                    "metric_test_name": "Data access information is machine readable",
+                    "metric_test_requirements": [
+                        {
+                            "modality": "any",
+                            "required": null,
+                            "tested_on": "http:\/\/f-uji.net\/vocab\/metadata\/property\/access_level",
+                            "comment": "identifier (namespace)",
+                            "target": "http:\/\/f-uji.net\/vocab\/access_condition"
+                        }
+                    ],
+                    "metric_test_score": {
+                        "earned": 1,
+                        "total": 1
+                    },
+                    "metric_test_maturity": 3,
+                    "metric_test_status": "pass"
+                }
+            },
+            "test_status": "pass",
+            "score": {
+                "earned": 1,
+                "total": 1
+            },
+            "maturity": 3,
+            "output": {
+                "access_level": "public",
+                "access_details": {
+                    "access_condition": "info:eu-repo\/semantics\/openAccess"
+                }
+            },
+            "test_debug": [
+                "INFO: License verification name through SPDX registry -: info:eu-repo\/semantics\/openAccess",
+                "INFO: Access condition does not look like license, therefore continuing -: info:eu-repo\/semantics\/openAccess",
+                "INFO: Found CreativeCommons license -: https:\/\/creativecommons.org\/licenses\/by\/4.0\/legalcode",
+                "WARNING: Access condition looks like license, therefore the following is ignored -: https:\/\/creativecommons.org\/licenses\/by\/4.0\/legalcode",
+                "INFO: Found access rights information in dedicated metadata element -: ['info:eu-repo\/semantics\/openAccess']",
+                "INFO: Access right information specified -: info:eu-repo\/semantics\/openAccess",
+                "INFO: Standardized actionable access level recognized as -:public",
+                "SUCCESS: Access level to data could successfully be determined -: public"
+            ]
+        },
+        {
+            "id": 15,
+            "metric_identifier": "FsF-R1.2-01M",
+            "metric_name": "Metadata includes provenance information about data creation or generation.",
+            "metric_tests": {
+                "FsF-R1.2-01M-1": {
+                    "metric_test_name": "Metadata contains elements which hold provenance information and can be mapped to PROV",
+                    "metric_test_requirements": [],
+                    "metric_test_score": {
+                        "earned": 1,
+                        "total": 1
+                    },
+                    "metric_test_maturity": 2,
+                    "metric_test_status": "pass"
+                },
+                "FsF-R1.2-01M-2": {
+                    "metric_test_name": "Metadata contains provenance information using formal provenance ontologies (PROV-O)",
+                    "metric_test_requirements": [],
+                    "metric_test_score": {
+                        "earned": 0,
+                        "total": 1
+                    },
+                    "metric_test_maturity": 0,
+                    "metric_test_status": "fail"
+                }
+            },
+            "test_status": "pass",
+            "score": {
+                "earned": 1,
+                "total": 2
+            },
+            "maturity": 2,
+            "output": {
+                "provenance_metadata_included": {
+                    "is_available": true,
+                    "provenance_metadata": [
+                        {
+                            "prov_o_mapping": "prov:generatedAtTime",
+                            "metadata_element": "publication_date",
+                            "metadata_value": "2019-03-05"
+                        },
+                        {
+                            "prov_o_mapping": "prov:wasAttributedTo",
+                            "metadata_element": "publisher",
+                            "metadata_value": [
+                                "Zenodo",
+                                {
+                                    "name": "Zenodo"
+                                }
+                            ]
+                        },
+                        {
+                            "prov_o_mapping": "prov:wasAttributedTo",
+                            "metadata_element": "creator",
+                            "metadata_value": [
+                                "Diomidis Spinellis",
+                                "Stefano Zacchiroli",
+                                "Antoine Pietri",
+                                "Zacchiroli, Stefano",
+                                "Spinellis, Diomidis",
+                                "Pietri, Antoine"
+                            ]
+                        }
+                    ]
+                },
+                "structured_provenance_available": {
+                    "is_available": false,
+                    "provenance_metadata": []
+                }
+            },
+            "test_debug": [
+                "INFO: Check if provenance information is available in descriptive metadata",
+                "INFO: Check if provenance information is available in metadata about related resources",
+                "SUCCESS: Found data creation-related provenance information",
+                "INFO: Check if provenance specific namespaces are listed in metadata",
+                "WARNING: Formal provenance metadata is unavailable"
+            ]
+        },
+        {
+            "id": 16,
+            "metric_identifier": "FsF-R1.3-01M",
+            "metric_name": "Metadata follows a standard recommended by the target research community of the data.",
+            "metric_tests": {
+                "FsF-R1.3-01M-1": {
+                    "metric_test_name": "Community specific metadata standard is detected using namespaces or schemas found in provided metadata or metadata services outputs",
+                    "metric_test_requirements": [
+                        {
+                            "modality": "any except",
+                            "required": {
+                                "field_of_science": [
+                                    "science",
+                                    "generic"
+                                ]
+                            },
+                            "tested_on": null,
+                            "comment": "test performed on namespaces or schemas found in exposed metadata",
+                            "target": "https:\/\/f-uji.net\/vocab\/metadata\/standards"
+                        }
+                    ],
+                    "metric_test_score": {
+                        "earned": 1,
+                        "total": 1
+                    },
+                    "metric_test_maturity": 3,
+                    "metric_test_status": "pass"
+                },
+                "FsF-R1.3-01M-2": {
+                    "metric_test_name": "Community specific metadata standard is listed in the re3data record of the responsible repository",
+                    "metric_test_requirements": [
+                        {
+                            "modality": "any except",
+                            "required": {
+                                "field_of_science": [
+                                    "science",
+                                    "generic"
+                                ]
+                            },
+                            "tested_on": null,
+                            "comment": "test is performed using information collected from re3data",
+                            "target": "https:\/\/f-uji.net\/vocab\/metadata\/standards"
+                        }
+                    ],
+                    "metric_test_score": {
+                        "earned": 0,
+                        "total": 1
+                    },
+                    "metric_test_maturity": 0,
+                    "metric_test_status": "fail"
+                },
+                "FsF-R1.3-01M-3": {
+                    "metric_test_name": "Multidisciplinary but community endorsed metadata (RDA Metadata Standards Catalog, fairsharing) standard is listed in the re3data record or detected by namespace",
+                    "metric_test_requirements": [
+                        {
+                            "modality": "any",
+                            "required": {
+                                "field_of_science": [
+                                    "science",
+                                    "generic"
+                                ],
+                                "source": [
+                                    "rd-alliance.org",
+                                    "fairsharing.org"
+                                ]
+                            },
+                            "tested_on": null,
+                            "comment": null,
+                            "target": "https:\/\/f-uji.net\/vocab\/metadata\/standards"
+                        }
+                    ],
+                    "metric_test_score": {
+                        "earned": 1,
+                        "total": 1
+                    },
+                    "metric_test_maturity": 1,
+                    "metric_test_status": "pass"
+                }
+            },
+            "test_status": "pass",
+            "score": {
+                "earned": 1,
+                "total": 1
+            },
+            "maturity": 3,
+            "output": [
+                {
+                    "metadata_standard": "Schema.org",
+                    "url": "http:\/\/schema.org",
+                    "subject_areas": [
+                        "sciences"
+                    ],
+                    "type": "generic",
+                    "source": [
+                        "https:\/\/doi.org\/10.25504\/FAIRsharing.hzdzq8",
+                        "https:\/\/rdamsc.bath.ac.uk\/msc\/m101"
+                    ]
+                },
+                {
+                    "metadata_standard": "Schema.org",
+                    "url": "https:\/\/schema.org\/",
+                    "subject_areas": [
+                        "sciences"
+                    ],
+                    "type": "generic",
+                    "source": [
+                        "https:\/\/doi.org\/10.25504\/FAIRsharing.hzdzq8",
+                        "https:\/\/rdamsc.bath.ac.uk\/msc\/m101"
+                    ]
+                },
+                {
+                    "metadata_standard": "Schema.org",
+                    "url": "https:\/\/schema.org",
+                    "subject_areas": [
+                        "sciences"
+                    ],
+                    "type": "generic",
+                    "source": [
+                        "https:\/\/doi.org\/10.25504\/FAIRsharing.hzdzq8",
+                        "https:\/\/rdamsc.bath.ac.uk\/msc\/m101"
+                    ]
+                },
+                {
+                    "metadata_standard": "Dublin Core",
+                    "url": "http:\/\/purl.org\/dc\/elements\/1.1\/",
+                    "subject_areas": [
+                        "sciences"
+                    ],
+                    "type": "generic",
+                    "source": [
+                        "https:\/\/rdamsc.bath.ac.uk\/msc\/m15",
+                        "https:\/\/doi.org\/10.25504\/FAIRsharing.3nx7t",
+                        "http:\/\/www.dcc.ac.uk\/resources\/metadata-standards\/dublin-core"
+                    ]
+                },
+                {
+                    "metadata_standard": "Schema.org",
+                    "url": "http:\/\/schema.org\/",
+                    "subject_areas": [
+                        "sciences"
+                    ],
+                    "type": "generic",
+                    "source": [
+                        "https:\/\/doi.org\/10.25504\/FAIRsharing.hzdzq8",
+                        "https:\/\/rdamsc.bath.ac.uk\/msc\/m101"
+                    ]
+                },
+                {
+                    "metadata_standard": "DataCite Metadata Schema",
+                    "url": "http:\/\/www.dcc.ac.uk\/resources\/metadata-standards\/datacite-metadata-schema",
+                    "subject_areas": [
+                        "sciences"
+                    ],
+                    "type": "generic",
+                    "source": [
+                        "https:\/\/rdamsc.bath.ac.uk\/msc\/m11",
+                        "https:\/\/doi.org\/10.25504\/FAIRsharing.me4qwe",
+                        "http:\/\/www.dcc.ac.uk\/resources\/metadata-standards\/datacite-metadata-schema"
+                    ]
+                },
+                {
+                    "metadata_standard": "Dublin Core",
+                    "url": "http:\/\/www.dcc.ac.uk\/resources\/metadata-standards\/dublin-core",
+                    "subject_areas": [
+                        "sciences"
+                    ],
+                    "type": "generic",
+                    "source": [
+                        "https:\/\/rdamsc.bath.ac.uk\/msc\/m15",
+                        "https:\/\/doi.org\/10.25504\/FAIRsharing.3nx7t",
+                        "http:\/\/www.dcc.ac.uk\/resources\/metadata-standards\/dublin-core"
+                    ]
+                },
+                {
+                    "metadata_standard": "Open Archive Initiative Dublin Core (OAI DC)",
+                    "url": "http:\/\/www.openarchives.org\/OAI\/2.0\/oai_dc.xsd",
+                    "subject_areas": [
+                        "sciences"
+                    ],
+                    "type": "generic",
+                    "source": [
+                        "fuji:m44",
+                        "https:\/\/doi.org\/10.25504\/FAIRsharing.0417cf"
+                    ]
+                },
+                {
+                    "metadata_standard": "DataCite Metadata Schema",
+                    "url": "http:\/\/schema.datacite.org\/meta\/kernel-4.3\/metadata.xsd",
+                    "subject_areas": [
+                        "sciences"
+                    ],
+                    "type": "generic",
+                    "source": [
+                        "https:\/\/rdamsc.bath.ac.uk\/msc\/m11",
+                        "https:\/\/doi.org\/10.25504\/FAIRsharing.me4qwe",
+                        "http:\/\/www.dcc.ac.uk\/resources\/metadata-standards\/datacite-metadata-schema"
+                    ]
+                },
+                {
+                    "metadata_standard": "DataCite Metadata Schema",
+                    "url": "http:\/\/schema.datacite.org\/meta\/kernel-4\/metadata.xsd",
+                    "subject_areas": [
+                        "sciences"
+                    ],
+                    "type": "generic",
+                    "source": [
+                        "https:\/\/rdamsc.bath.ac.uk\/msc\/m11",
+                        "https:\/\/doi.org\/10.25504\/FAIRsharing.me4qwe",
+                        "http:\/\/www.dcc.ac.uk\/resources\/metadata-standards\/datacite-metadata-schema"
+                    ]
+                },
+                {
+                    "metadata_standard": "MARC (Machine-Readable Cataloging)",
+                    "url": "https:\/\/www.loc.gov\/standards\/marcxml\/schema\/MARC21slim.xsd",
+                    "subject_areas": [
+                        "humanities",
+                        "library sciences",
+                        "sciences"
+                    ],
+                    "type": "disciplinary",
+                    "source": [
+                        "https:\/\/rdamsc.bath.ac.uk\/msc\/m88",
+                        "https:\/\/doi.org\/10.25504\/FAIRsharing.217b1b"
+                    ]
+                }
+            ],
+            "test_debug": [
+                "INFO: re3data\/datacite client id -: cern.zenodo",
+                "INFO: Found match re3data (DOI-based) record",
+                "INFO: Found match re3data metadata record -: https:\/\/www.re3data.org\/api\/beta\/repository\/r3d100010468",
+                "INFO: Domain name listed in re3data metadata record matches landing page domain-: zenodo.org",
+                "INFO: Namespaces included in the metadata -: ['https:\/\/zenodo.org\/api\/records\/2583978\/files\/athena.zip', 'http:\/\/schema.org', 'https:\/\/schema.org\/', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_origin.tar', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_directory_entry_file.tar', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_person.tar', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_revision_history.tar', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/swh-environment.tar.gz', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_directory_entry_dir.tar', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_directory.tar', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_revision_history.csv.gz', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_swh_import.sql', 'http:\/\/datacite.org\/schema\/', 'https:\/\/schema.org', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/README.md', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_release.tar', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_revision.csv.gz', 'https:\/\/creativecommons.org\/licenses\/by\/4.0', 'https:\/\/zenodo.org\/records', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_origin_visit.tar', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_release.csv.gz', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_snapshot.csv.gz', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_snapshot_branch.csv.gz', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_directory_entry_file.csv.gz', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_origin_visit.csv.gz', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_snapshot_branch.tar', 'https:\/\/orcid.org', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_directory_entry_rev.csv.gz', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_snapshot.tar', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_snapshot_branches.csv.gz', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_swh_import_scripts.zip', 'https:\/\/doi.org\/10.5281', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_directory_entry_rev.tar', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_content.csv.gz', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_skipped_content.csv.gz', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_revision.tar', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_skipped_content.tar', 'http:\/\/purl.org\/dc\/elements\/1.1\/', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_snapshot_branches.tar', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_origin.csv.gz', 'http:\/\/www.w3.org\/1999\/02\/22-rdf-syntax-ns#', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_content.tar', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_person.csv.gz', 'http:\/\/ogp.me\/ns#', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_directory_entry_dir.csv.gz', 'http:\/\/schema.org\/', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_directory.csv.gz']",
+                "INFO: Found non-disciplinary standard (but RDA listed) -: via ns:  Schema.org - http:\/\/schema.org",
+                "INFO: Found non-disciplinary standard (but RDA listed) -: via ns:  Schema.org - https:\/\/schema.org\/",
+                "INFO: Found non-disciplinary standard (but RDA listed) -: via ns:  Schema.org - https:\/\/schema.org",
+                "INFO: Found non-disciplinary standard (but RDA listed) -: via ns:  Dublin Core - http:\/\/purl.org\/dc\/elements\/1.1\/",
+                "INFO: Found disciplinary standard -: via ns : The Open Graph protocol metadata format - http:\/\/ogp.me\/ns#",
+                "INFO: Found non-disciplinary standard (but RDA listed) -: via ns:  Schema.org - http:\/\/schema.org\/",
+                "INFO: Retrieving API and Standards",
+                "INFO: Trying to retrieve metadata info from re3data\/datacite services using client id -: cern.zenodo",
+                "INFO: Inferring metadata service endpoint (OAI, SPARQL) information and listed metadata formats through re3data\/datacite services",
+                "INFO: Found metadata service endpoint (OAI, SPARQL) listed in re3data record -: ('https:\/\/zenodo.org\/oai2d', None)",
+                "INFO: Found non-disciplinary standard (but RDA listed) -: via re3data:  DataCite Metadata Schema - http:\/\/www.dcc.ac.uk\/resources\/metadata-standards\/datacite-metadata-schema",
+                "INFO: Found non-disciplinary standard (but RDA listed) -: via re3data:  Dublin Core - http:\/\/www.dcc.ac.uk\/resources\/metadata-standards\/dublin-core",
+                "INFO: Metadata standards listed in re3data record -: ['DataCite Metadata Schema', 'Dublin Core']",
+                "INFO: Use OAI-PMH endpoint to retrieve standards used by the repository -: https:\/\/zenodo.org\/oai2d",
+                "INFO: Retrieving page -: https:\/\/zenodo.org\/oai2d?verb=ListMetadataFormats as application\/xml, text\/xml;q=0.5",
+                "INFO: Content negotiation on https:\/\/zenodo.org\/oai2d?verb=ListMetadataFormats accept=application\/xml, text\/xml;q=0.5, status=200",
+                "INFO: Creating Cached response content",
+                "INFO: Found XML document!",
+                "INFO: Found non-disciplinary standard (but RDA listed) -: via oai-pmh:  Open Archive Initiative Dublin Core (OAI DC) - http:\/\/www.openarchives.org\/OAI\/2.0\/oai_dc.xsd",
+                "INFO: Found non-disciplinary standard (but RDA listed) -: via oai-pmh:  DataCite Metadata Schema - http:\/\/schema.datacite.org\/meta\/kernel-4.3\/metadata.xsd",
+                "INFO: Found non-disciplinary standard (but RDA listed) -: via oai-pmh:  DataCite Metadata Schema - http:\/\/schema.datacite.org\/meta\/kernel-4\/metadata.xsd",
+                "INFO: Found disciplinary standard -: via oai-pmh : MARC (Machine-Readable Cataloging) - https:\/\/www.loc.gov\/standards\/marcxml\/schema\/MARC21slim.xsd",
+                "INFO: Found metadata standards that are listed in OAI-PMH endpoint -: ['MARC (Machine-Readable Cataloging)']",
+                "SUCCESS: Found non-disciplinary standards (but RDA listed) using namespaces or schemas found in re3data record or via provided metadata or metadata services outputs",
+                "SUCCESS: Found disciplinary standard using namespaces or schemas found in provided metadata or metadata services outputs"
+            ]
+        },
+        {
+            "id": 17,
+            "metric_identifier": "FsF-R1.3-02D",
+            "metric_name": "Data is available in a file format recommended by the target research community.",
+            "metric_tests": {
+                "FsF-R1.3-02D-1": {
+                    "metric_test_name": "The format of a data file given in the metadata is listed in the long term file formats, open file formats or scientific file formats controlled list",
+                    "metric_test_requirements": [],
+                    "metric_test_score": {
+                        "earned": 1,
+                        "total": 1
+                    },
+                    "metric_test_maturity": null,
+                    "metric_test_status": "pass"
+                },
+                "FsF-R1.3-02D-1a": {
+                    "metric_test_name": "The format of the data file is an open format",
+                    "metric_test_requirements": [],
+                    "metric_test_score": {
+                        "earned": 0,
+                        "total": 0
+                    },
+                    "metric_test_maturity": 1,
+                    "metric_test_status": "pass"
+                },
+                "FsF-R1.3-02D-1b": {
+                    "metric_test_name": "The format of the data file is a long term format",
+                    "metric_test_requirements": [],
+                    "metric_test_score": {
+                        "earned": 0,
+                        "total": 0
+                    },
+                    "metric_test_maturity": 2,
+                    "metric_test_status": "pass"
+                },
+                "FsF-R1.3-02D-1c": {
+                    "metric_test_name": "The format of the data file is a scientific format",
+                    "metric_test_requirements": [],
+                    "metric_test_score": {
+                        "earned": 0,
+                        "total": 0
+                    },
+                    "metric_test_maturity": 3,
+                    "metric_test_status": "fail"
+                }
+            },
+            "test_status": "pass",
+            "score": {
+                "earned": 1,
+                "total": 1
+            },
+            "maturity": 2,
+            "output": [
+                {
+                    "file_uri": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/swh-environment.tar.gz\/content",
+                    "mime_type": "text\/x-python",
+                    "is_preferred_format": true,
+                    "preference_reason": [
+                        "generic science format",
+                        "science format",
+                        "open format",
+                        "long term format"
+                    ],
+                    "subject_areas": [
+                        "General",
+                        null
+                    ]
+                },
+                {
+                    "file_uri": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/swh-environment.tar.gz\/content",
+                    "mime_type": "application\/x-sh",
+                    "is_preferred_format": false,
+                    "preference_reason": [],
+                    "subject_areas": []
+                },
+                {
+                    "file_uri": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/swh-environment.tar.gz\/content",
+                    "mime_type": "text\/python",
+                    "is_preferred_format": true,
+                    "preference_reason": [
+                        "generic science format",
+                        "open format",
+                        "long term format"
+                    ],
+                    "subject_areas": [
+                        "General"
+                    ]
+                },
+                {
+                    "file_uri": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/swh-environment.tar.gz\/content",
+                    "mime_type": "application\/sh",
+                    "is_preferred_format": false,
+                    "preference_reason": [],
+                    "subject_areas": []
+                },
+                {
+                    "file_uri": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/swh-environment.tar.gz\/content",
+                    "mime_type": "text\/x-sql",
+                    "is_preferred_format": true,
+                    "preference_reason": [
+                        "generic science format",
+                        "open format",
+                        "long term format"
+                    ],
+                    "subject_areas": [
+                        "General"
+                    ]
+                },
+                {
+                    "file_uri": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/swh-environment.tar.gz\/content",
+                    "mime_type": "text\/sql",
+                    "is_preferred_format": true,
+                    "preference_reason": [
+                        "generic science format",
+                        "open format",
+                        "long term format"
+                    ],
+                    "subject_areas": [
+                        "General"
+                    ]
+                },
+                {
+                    "file_uri": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_directory_entry_file.tar\/content",
+                    "mime_type": "application\/x-tar",
+                    "is_preferred_format": false,
+                    "preference_reason": [],
+                    "subject_areas": []
+                },
+                {
+                    "file_uri": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_snapshot_branches.csv.gz\/content",
+                    "mime_type": "text\/csv",
+                    "is_preferred_format": true,
+                    "preference_reason": [
+                        "generic science format",
+                        "open format",
+                        "long term format"
+                    ],
+                    "subject_areas": [
+                        "General"
+                    ]
+                },
+                {
+                    "file_uri": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/swh-environment.tar.gz\/content",
+                    "mime_type": "text\/x-rst",
+                    "is_preferred_format": true,
+                    "preference_reason": [
+                        "generic science format",
+                        "open format",
+                        "long term format"
+                    ],
+                    "subject_areas": [
+                        "General"
+                    ]
+                },
+                {
+                    "file_uri": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/swh-environment.tar.gz\/content",
+                    "mime_type": "text\/plain",
+                    "is_preferred_format": true,
+                    "preference_reason": [
+                        "generic science format",
+                        "open format",
+                        "long term format"
+                    ],
+                    "subject_areas": [
+                        "General"
+                    ]
+                },
+                {
+                    "file_uri": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/swh-environment.tar.gz\/content",
+                    "mime_type": "text\/x-web-markdown",
+                    "is_preferred_format": true,
+                    "preference_reason": [
+                        "generic science format",
+                        "open format",
+                        "long term format"
+                    ],
+                    "subject_areas": [
+                        "General"
+                    ]
+                },
+                {
+                    "file_uri": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/swh-environment.tar.gz\/content",
+                    "mime_type": "text\/x-ini",
+                    "is_preferred_format": true,
+                    "preference_reason": [
+                        "generic science format",
+                        "open format",
+                        "long term format"
+                    ],
+                    "subject_areas": [
+                        "General"
+                    ]
+                },
+                {
+                    "file_uri": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/swh-environment.tar.gz\/content",
+                    "mime_type": "text\/x-perl",
+                    "is_preferred_format": true,
+                    "preference_reason": [
+                        "generic science format",
+                        "open format",
+                        "long term format"
+                    ],
+                    "subject_areas": [
+                        "General"
+                    ]
+                },
+                {
+                    "file_uri": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/swh-environment.tar.gz\/content",
+                    "mime_type": "application\/x-gtar",
+                    "is_preferred_format": false,
+                    "preference_reason": [],
+                    "subject_areas": []
+                },
+                {
+                    "file_uri": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/swh-environment.tar.gz\/content",
+                    "mime_type": "text\/x-makefile",
+                    "is_preferred_format": true,
+                    "preference_reason": [
+                        "generic science format",
+                        "open format",
+                        "long term format"
+                    ],
+                    "subject_areas": [
+                        "General"
+                    ]
+                },
+                {
+                    "file_uri": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/swh-environment.tar.gz\/content",
+                    "mime_type": "text\/rst",
+                    "is_preferred_format": true,
+                    "preference_reason": [
+                        "generic science format",
+                        "open format",
+                        "long term format"
+                    ],
+                    "subject_areas": [
+                        "General"
+                    ]
+                },
+                {
+                    "file_uri": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/swh-environment.tar.gz\/content",
+                    "mime_type": "text\/web-markdown",
+                    "is_preferred_format": true,
+                    "preference_reason": [
+                        "generic science format",
+                        "open format",
+                        "long term format"
+                    ],
+                    "subject_areas": [
+                        "General"
+                    ]
+                },
+                {
+                    "file_uri": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/swh-environment.tar.gz\/content",
+                    "mime_type": "text\/ini",
+                    "is_preferred_format": true,
+                    "preference_reason": [
+                        "generic science format",
+                        "open format",
+                        "long term format"
+                    ],
+                    "subject_areas": [
+                        "General"
+                    ]
+                },
+                {
+                    "file_uri": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/swh-environment.tar.gz\/content",
+                    "mime_type": "text\/perl",
+                    "is_preferred_format": true,
+                    "preference_reason": [
+                        "generic science format",
+                        "open format",
+                        "long term format"
+                    ],
+                    "subject_areas": [
+                        "General"
+                    ]
+                },
+                {
+                    "file_uri": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/swh-environment.tar.gz\/content",
+                    "mime_type": "application\/gtar",
+                    "is_preferred_format": false,
+                    "preference_reason": [],
+                    "subject_areas": []
+                },
+                {
+                    "file_uri": "https:\/\/zenodo.org\/api\/records\/2583978\/files\/swh-environment.tar.gz\/content",
+                    "mime_type": "text\/makefile",
+                    "is_preferred_format": true,
+                    "preference_reason": [
+                        "generic science format",
+                        "open format",
+                        "long term format"
+                    ],
+                    "subject_areas": [
+                        "General"
+                    ]
+                }
+            ],
+            "test_debug": [
+                "INFO: Data content identifier provided -: ['https:\/\/zenodo.org\/api\/records\/2583978\/files\/README.md\/content', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/athena.zip\/content', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_swh_import_scripts.zip\/content', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_directory_entry_rev.tar\/content', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_directory_entry_dir.tar\/content', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_origin.tar\/content', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_content.tar\/content', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_swh_import.sql\/content', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/parquet_directory_entry_file.tar\/content', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_snapshot.csv.gz\/content', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_snapshot_branch.csv.gz\/content', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_skipped_content.csv.gz\/content', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/swh-environment.tar.gz\/content', 'https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_snapshot_branches.csv.gz\/content']",
+                "INFO: No mime type given in metadata or generic octet-stream type given, therefore guessing  the type of a file based on its filename or URL -: https:\/\/zenodo.org\/api\/records\/2583978\/files\/README.md\/content",
+                "INFO: Failed to guess mime type based on file name",
+                "INFO: Found mime type in metadata -: application\/zip",
+                "INFO: Archiving\/compression format specified -: application\/zip",
+                "INFO: Extracted file formats for selected data object (see FsF-R1-01MD) -: ['text\/x-python', 'application\/x-sh', 'text\/python', 'application\/sh']",
+                "INFO: Found mime type in metadata -: application\/zip",
+                "INFO: Archiving\/compression format specified -: application\/zip",
+                "INFO: Extracted file formats for selected data object (see FsF-R1-01MD) -: ['text\/x-sql', 'text\/sql']",
+                "INFO: Found mime type in metadata -: application\/x-tar",
+                "INFO: Found mime type in metadata -: application\/x-tar",
+                "INFO: Found mime type in metadata -: application\/x-tar",
+                "INFO: Found mime type in metadata -: application\/x-tar",
+                "INFO: No mime type given in metadata or generic octet-stream type given, therefore guessing  the type of a file based on its filename or URL -: https:\/\/zenodo.org\/api\/records\/2583978\/files\/sql_swh_import.sql\/content",
+                "INFO: Failed to guess mime type based on file name",
+                "INFO: Found mime type in metadata -: application\/x-tar",
+                "INFO: Found mime type in metadata -: application\/gzip",
+                "INFO: Archiving\/compression format specified -: application\/gzip",
+                "INFO: Extracted file formats for selected data object (see FsF-R1-01MD) -: ['text\/csv']",
+                "INFO: Found mime type in metadata -: application\/gzip",
+                "INFO: Archiving\/compression format specified -: application\/gzip",
+                "INFO: Extracted file formats for selected data object (see FsF-R1-01MD) -: ['text\/csv']",
+                "INFO: Found mime type in metadata -: application\/gzip",
+                "INFO: Archiving\/compression format specified -: application\/gzip",
+                "INFO: Extracted file formats for selected data object (see FsF-R1-01MD) -: ['text\/csv']",
+                "INFO: Found mime type in metadata -: application\/gzip",
+                "INFO: Archiving\/compression format specified -: application\/gzip",
+                "INFO: Extracted file formats for selected data object (see FsF-R1-01MD) -: ['text\/x-rst', 'text\/plain', 'text\/x-web-markdown', 'application\/x-sh', 'text\/x-ini', 'text\/x-sql', 'text\/x-perl', 'text\/x-python', 'application\/x-gtar', 'text\/csv', 'text\/x-makefile', 'text\/rst', 'text\/web-markdown', 'application\/sh', 'text\/ini', 'text\/sql', 'text\/perl', 'text\/python', 'application\/gtar', 'text\/makefile']",
+                "INFO: Found mime type in metadata -: application\/gzip",
+                "INFO: Archiving\/compression format specified -: application\/gzip",
+                "INFO: Extracted file formats for selected data object (see FsF-R1-01MD) -: ['text\/csv']",
+                "SUCCESS: Could identify a file format commonly used by the scientific community -:text\/x-python",
+                "SUCCESS: Could identify a file format commonly used by the scientific community -:text\/python",
+                "SUCCESS: Could identify a file format commonly used by the scientific community -:text\/x-sql",
+                "SUCCESS: Could identify a file format commonly used by the scientific community -:text\/sql",
+                "SUCCESS: Could identify a file format commonly used by the scientific community -:text\/csv",
+                "SUCCESS: Could identify a file format commonly used by the scientific community -:text\/x-rst",
+                "SUCCESS: Could identify a file format commonly used by the scientific community -:text\/plain",
+                "SUCCESS: Could identify a file format commonly used by the scientific community -:text\/x-web-markdown",
+                "SUCCESS: Could identify a file format commonly used by the scientific community -:text\/x-ini",
+                "SUCCESS: Could identify a file format commonly used by the scientific community -:text\/x-perl",
+                "SUCCESS: Could identify a file format commonly used by the scientific community -:text\/x-makefile",
+                "SUCCESS: Could identify a file format commonly used by the scientific community -:text\/rst",
+                "SUCCESS: Could identify a file format commonly used by the scientific community -:text\/web-markdown",
+                "SUCCESS: Could identify a file format commonly used by the scientific community -:text\/ini",
+                "SUCCESS: Could identify a file format commonly used by the scientific community -:text\/perl",
+                "SUCCESS: Could identify a file format commonly used by the scientific community -:text\/makefile"
+            ]
+        },
+        {
+            "id": 8,
+            "metric_identifier": "FsF-A1-03D",
+            "metric_name": "Data is accessible through a standardized communication protocol.",
+            "metric_tests": {
+                "FsF-A1-03D-1": {
+                    "metric_test_name": "Metadata includes a resolvable link to data based on standardized web communication protocols.",
+                    "metric_test_requirements": [],
+                    "metric_test_score": {
+                        "earned": 1,
+                        "total": 1
+                    },
+                    "metric_test_maturity": 3,
+                    "metric_test_status": "pass"
+                }
+            },
+            "test_status": "pass",
+            "score": {
+                "earned": 1,
+                "total": 1
+            },
+            "maturity": 3,
+            "output": {
+                "standard_data_protocol": {
+                    "https": {
+                        "name": "Hyper Text Transfer Protocol Secure"
+                    }
+                }
+            },
+            "test_debug": [
+                "SUCCESS: Standard protocol for access to data object found -: https"
+            ]
+        },
+        {
+            "id": 7,
+            "metric_identifier": "FsF-A1-02M",
+            "metric_name": "Metadata is accessible through a standardized communication protocol.",
+            "metric_tests": {
+                "FsF-A1-02M-1": {
+                    "metric_test_name": "Landing page link is based on standardized web communication protocols.",
+                    "metric_test_requirements": [],
+                    "metric_test_score": {
+                        "earned": 1,
+                        "total": 1
+                    },
+                    "metric_test_maturity": 3,
+                    "metric_test_status": "pass"
+                }
+            },
+            "test_status": "pass",
+            "score": {
+                "earned": 1,
+                "total": 1
+            },
+            "maturity": 3,
+            "output": {
+                "standard_metadata_protocol": {
+                    "https": {
+                        "name": "Hyper Text Transfer Protocol Secure"
+                    }
+                }
+            },
+            "test_debug": [
+                "SUCCESS: Standard protocol for access to metadata found -: https"
+            ]
+        }
+    ]
+}

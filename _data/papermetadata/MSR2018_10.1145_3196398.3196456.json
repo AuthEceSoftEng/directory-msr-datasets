@@ -1,0 +1,1192 @@
+{
+    "abstract": "Docker containers are standardized, self-contained units of applications, packaged with their dependencies and execution environment. The environment is defined in a Dockerfile that specifies the steps to reach a certain system state as infrastructure code, with the aim of enabling reproducible builds of the container. To lay the groundwork for research on infrastructure code, we collected structured information about the state and the evolution of Docker-files on GitHub and release it as a PostgreSQL database archive (over 100,000 unique Dockerfiles in over 15,000 GitHub projects). Our dataset enables answering a multitude of interesting research questions related to different kinds of software evolution behavior in the Docker ecosystem.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "36196893",
+            "name": "Gerald Schermann",
+            "url": "https://www.semanticscholar.org/author/36196893"
+        },
+        {
+            "authorId": "10733499",
+            "name": "Sali Zumberi",
+            "url": "https://www.semanticscholar.org/author/10733499"
+        },
+        {
+            "authorId": "2897763",
+            "name": "J\u00fcrgen Cito",
+            "url": "https://www.semanticscholar.org/author/2897763"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1817470",
+                    "name": "David Broneske"
+                },
+                {
+                    "authorId": "2311223875",
+                    "name": "Sebastian Kittan"
+                },
+                {
+                    "authorId": "2294487423",
+                    "name": "Jacob Kr\u00fcger"
+                }
+            ],
+            "doi": "10.1145/3660798",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6f30b34e9e923168baa57f2edc5233577d778292",
+            "title": "Sharing Software-Evolution Datasets: Practices, Challenges, and Recommendations",
+            "url": "https://www.semanticscholar.org/paper/6f30b34e9e923168baa57f2edc5233577d778292",
+            "venue": "Proceedings of the ACM on Software Engineering",
+            "year": 2024
+        },
+        {
+            "arxivId": "2306.04892",
+            "authors": [
+                {
+                    "authorId": "2197659721",
+                    "name": "Mir Sameed Ali"
+                },
+                {
+                    "authorId": "2197582565",
+                    "name": "Nikhil Manjunath"
+                },
+                {
+                    "authorId": "1926332",
+                    "name": "S. Chimalakonda"
+                }
+            ],
+            "doi": "10.48550/arXiv.2306.04892",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1006367adb5eafd2a434808b8b3fa951a4e59490",
+            "title": "X-COBOL: A Dataset of COBOL Repositories",
+            "url": "https://www.semanticscholar.org/paper/1006367adb5eafd2a434808b8b3fa951a4e59490",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "118283839",
+                    "name": "Giovanni Rosa"
+                },
+                {
+                    "authorId": "3439470",
+                    "name": "Simone Scalabrino"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                }
+            ],
+            "doi": "10.1145/3603111",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8e8b0e34f83b999722c3a5d1f7c12578a8db4169",
+            "title": "What Quality Aspects Influence the Adoption of Docker Images?",
+            "url": "https://www.semanticscholar.org/paper/8e8b0e34f83b999722c3a5d1f7c12578a8db4169",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2149852444",
+                    "name": "Lynn Htet Aung"
+                },
+                {
+                    "authorId": "1771100",
+                    "name": "N. Funabiki"
+                },
+                {
+                    "authorId": "1716215155",
+                    "name": "Soe Thandar Aung"
+                },
+                {
+                    "authorId": "2146288304",
+                    "name": "Xudong Zhou"
+                },
+                {
+                    "authorId": "2181031828",
+                    "name": "Xu Xiang"
+                },
+                {
+                    "authorId": "1854324",
+                    "name": "W. Kao"
+                }
+            ],
+            "doi": "10.3390/info14060300",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2e7ffd38f33c70fffe0b6f31074d8c0fe644f162",
+            "title": "A Web-Based Docker Image Assistant Generation Tool for User-PC Computing System",
+            "url": "https://www.semanticscholar.org/paper/2e7ffd38f33c70fffe0b6f31074d8c0fe644f162",
+            "venue": "Inf.",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145690809",
+                    "name": "A. Filippov"
+                },
+                {
+                    "authorId": "37454700",
+                    "name": "A. Romanov"
+                },
+                {
+                    "authorId": "2147179189",
+                    "name": "A. Skalkin"
+                },
+                {
+                    "authorId": "2141347034",
+                    "name": "Julia Stroeva"
+                },
+                {
+                    "authorId": "46922872",
+                    "name": "N. Yarushkina"
+                }
+            ],
+            "doi": "10.3390/software2010006",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "2100f0cf3609faddea5aebe1a9e2e255633b42d8",
+            "title": "Approach to Formalizing Software Projects for Solving Design Automation and Project Management Tasks",
+            "url": "https://www.semanticscholar.org/paper/2100f0cf3609faddea5aebe1a9e2e255633b42d8",
+            "venue": "Software",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1962331168",
+                    "name": "Nemania Borovits"
+                },
+                {
+                    "authorId": "145062920",
+                    "name": "I. Kumara"
+                },
+                {
+                    "authorId": "116336149",
+                    "name": "Dario Di Nucci"
+                },
+                {
+                    "authorId": "2068122222",
+                    "name": "Parvathy Krishnan"
+                },
+                {
+                    "authorId": "152712382",
+                    "name": "Stefano Dalla Palma"
+                },
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                },
+                {
+                    "authorId": "144273542",
+                    "name": "D. Tamburri"
+                },
+                {
+                    "authorId": "2066278684",
+                    "name": "Willem-jan Van Den Heuvel"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10215-5",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d1581fc66e442fe713f27d4cda288fa0701310b8",
+            "title": "FindICI: Using machine learning to detect linguistic inconsistencies between code and natural language descriptions in infrastructure-as-code",
+            "url": "https://www.semanticscholar.org/paper/d1581fc66e442fe713f27d4cda288fa0701310b8",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1500419986",
+                    "name": "G. Quattrocchi"
+                },
+                {
+                    "authorId": "144273542",
+                    "name": "D. Tamburri"
+                }
+            ],
+            "doi": "10.1002/smr.2480",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "bf3ac46407d1adbfe81b60d86e327ef8c6475c38",
+            "title": "Predictive maintenance of infrastructure code using \u201cfluid\u201d datasets: An exploratory study on Ansible defect proneness",
+            "url": "https://www.semanticscholar.org/paper/bf3ac46407d1adbfe81b60d86e327ef8c6475c38",
+            "venue": "J. Softw. Evol. Process.",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2166522821",
+                    "name": "Shuaihao Zhong"
+                },
+                {
+                    "authorId": "2119740",
+                    "name": "Duoqiang Wang"
+                },
+                {
+                    "authorId": "122009001",
+                    "name": "Wei Li"
+                },
+                {
+                    "authorId": "145053994",
+                    "name": "Feng Lu"
+                },
+                {
+                    "authorId": "2118832541",
+                    "name": "Hai Jin"
+                }
+            ],
+            "doi": "10.1155/2022/4592428",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ed9c0d0a3cd119f38bc45216211b7593853f90da",
+            "title": "Burner: Recipe Automatic Generation for HPC Container Based on Domain Knowledge Graph",
+            "url": "https://www.semanticscholar.org/paper/ed9c0d0a3cd119f38bc45216211b7593853f90da",
+            "venue": "Wireless Communications and Mobile Computing",
+            "year": 2022
+        },
+        {
+            "arxivId": "2203.09658",
+            "authors": [
+                {
+                    "authorId": "143923505",
+                    "name": "A. Vlasova"
+                },
+                {
+                    "authorId": "2159544097",
+                    "name": "Maria Tigina"
+                },
+                {
+                    "authorId": "2085985578",
+                    "name": "I. Vlasov"
+                },
+                {
+                    "authorId": "2034017665",
+                    "name": "Anastasiia Birillo"
+                },
+                {
+                    "authorId": "1486450758",
+                    "name": "Yaroslav Golubev"
+                },
+                {
+                    "authorId": "2851011",
+                    "name": "T. Bryksin"
+                }
+            ],
+            "doi": "10.1145/3524842.3528477",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d1a71ad127cf0ba96bad8ec2c33ad44034b614ab",
+            "title": "Lupa: A Framework for Large Scale Analysis of the Programming Language Usage",
+            "url": "https://www.semanticscholar.org/paper/d1a71ad127cf0ba96bad8ec2c33ad44034b614ab",
+            "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34755489",
+                    "name": "M. Vidoni"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2021.106791",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8b608f646a96c545af167e66a146f54ecd595ffa",
+            "title": "A systematic process for Mining Software Repositories: Results from a systematic literature review",
+            "url": "https://www.semanticscholar.org/paper/8b608f646a96c545af167e66a146f54ecd595ffa",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145062920",
+                    "name": "I. Kumara"
+                },
+                {
+                    "authorId": "40612434",
+                    "name": "Martin Garriga"
+                },
+                {
+                    "authorId": "2112014546",
+                    "name": "Angel Urbano Romeu"
+                },
+                {
+                    "authorId": "50515157",
+                    "name": "Dario Di Nucci"
+                },
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                },
+                {
+                    "authorId": "144273542",
+                    "name": "D. Tamburri"
+                },
+                {
+                    "authorId": "2066278684",
+                    "name": "Willem-jan Van Den Heuvel"
+                }
+            ],
+            "doi": "10.1016/J.INFSOF.2021.106593",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "86fff3faa6dd79ba22726d44f456ae2af5857694",
+            "title": "The do's and don'ts of infrastructure code: A systematic gray literature review",
+            "url": "https://www.semanticscholar.org/paper/86fff3faa6dd79ba22726d44f456ae2af5857694",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "151481068",
+                    "name": "Yiwen Wu"
+                },
+                {
+                    "authorId": "46867931",
+                    "name": "Yang Zhang"
+                },
+                {
+                    "authorId": "2793502",
+                    "name": "Junsheng Chang"
+                },
+                {
+                    "authorId": "144960036",
+                    "name": "Bo Ding"
+                },
+                {
+                    "authorId": "39082503",
+                    "name": "Tao Wang"
+                },
+                {
+                    "authorId": "143969934",
+                    "name": "Huaimin Wang"
+                }
+            ],
+            "doi": "10.1109/ICPADS51040.2020.00042",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "ba15362bce064309c661772b2759b26e7b8dde53",
+            "title": "Using Configuration Semantic Features and Machine Learning Algorithms to Predict Build Result in Cloud-Based Container Environment",
+            "url": "https://www.semanticscholar.org/paper/ba15362bce064309c661772b2759b26e7b8dde53",
+            "venue": "2020 IEEE 26th International Conference on Parallel and Distributed Systems (ICPADS)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "151481068",
+                    "name": "Yiwen Wu"
+                },
+                {
+                    "authorId": "46867931",
+                    "name": "Yang Zhang"
+                },
+                {
+                    "authorId": "39082503",
+                    "name": "Tao Wang"
+                },
+                {
+                    "authorId": "143969934",
+                    "name": "Huaimin Wang"
+                }
+            ],
+            "doi": "10.1109/APSEC51365.2020.00033",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "cc9188911764b31950261576d8c41ec515d7fe8d",
+            "title": "Dockerfile Changes in Practice: A Large-Scale Empirical Study of 4,110 Projects on GitHub",
+            "url": "https://www.semanticscholar.org/paper/cc9188911764b31950261576d8c41ec515d7fe8d",
+            "venue": "2020 27th Asia-Pacific Software Engineering Conference (APSEC)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "73320618",
+                    "name": "Chang-Yang Lin"
+                },
+                {
+                    "authorId": "1869015",
+                    "name": "Sarah Nadi"
+                },
+                {
+                    "authorId": "2974067",
+                    "name": "Hamzeh Khazaei"
+                }
+            ],
+            "doi": "10.1109/ICSME46990.2020.00043",
+            "intent": [
+                "result",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "36572c40ddaf84a0d22058a333f1f6b89719ab33",
+            "title": "A Large-scale Data Set and an Empirical Study of Docker Images Hosted on Docker Hub",
+            "url": "https://www.semanticscholar.org/paper/36572c40ddaf84a0d22058a333f1f6b89719ab33",
+            "venue": "2020 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2020
+        },
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "151481068",
+                    "name": "Yiwen Wu"
+                }
+            ],
+            "doi": "10.1145/3377812.3382169",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "03144e6c599f9926605ab57df49e9ef5d1b7929d",
+            "title": "Exploring the Relationship between Dockerfile Quality and Project Characteristics",
+            "url": "https://www.semanticscholar.org/paper/03144e6c599f9926605ab57df49e9ef5d1b7929d",
+            "venue": "2020 IEEE/ACM 42nd International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "151481068",
+                    "name": "Yiwen Wu"
+                },
+                {
+                    "authorId": "46867931",
+                    "name": "Yang Zhang"
+                },
+                {
+                    "authorId": "39082503",
+                    "name": "Tao Wang"
+                },
+                {
+                    "authorId": "143969934",
+                    "name": "Huaimin Wang"
+                }
+            ],
+            "doi": "10.1145/3379597.3387483",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5a4ec549044c3fbdbd65507f08bdb5e0817f6a25",
+            "title": "An Empirical Study of Build Failures in the Docker Context",
+            "url": "https://www.semanticscholar.org/paper/5a4ec549044c3fbdbd65507f08bdb5e0817f6a25",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2020
+        },
+        {
+            "arxivId": "1912.06914",
+            "authors": [
+                {
+                    "authorId": "2145189428",
+                    "name": "Long Zhang"
+                },
+                {
+                    "authorId": "2058355374",
+                    "name": "Deepika Tiwari"
+                },
+                {
+                    "authorId": "1771452",
+                    "name": "Brice Morin"
+                },
+                {
+                    "authorId": "1730420",
+                    "name": "B. Baudry"
+                },
+                {
+                    "authorId": "150220964",
+                    "name": "Monperrus Martin"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2718fd6b7275c634a95b746f48a20d7af1e6913c",
+            "title": "Automatic Observability for Dockerized Java Applications",
+            "url": "https://www.semanticscholar.org/paper/2718fd6b7275c634a95b746f48a20d7af1e6913c",
+            "venue": "ArXiv",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2154939073",
+                    "name": "Wei Chen"
+                },
+                {
+                    "authorId": "2112239902",
+                    "name": "Jiahong Zhou"
+                },
+                {
+                    "authorId": "50077206",
+                    "name": "Jiaxin Zhu"
+                },
+                {
+                    "authorId": "11472463",
+                    "name": "Guo-Quan Wu"
+                },
+                {
+                    "authorId": "144525882",
+                    "name": "Jun Wei"
+                }
+            ],
+            "doi": "10.1007/s11390-019-1954-4",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d642ae19e17481446e9bf971fa040784a5f7142f",
+            "title": "Semi-Supervised Learning Based Tag Recommendation for Docker Repositories",
+            "url": "https://www.semanticscholar.org/paper/d642ae19e17481446e9bf971fa040784a5f7142f",
+            "venue": "Journal of Computer Science and Technology",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "21668539",
+                    "name": "M. Guerriero"
+                },
+                {
+                    "authorId": "40612434",
+                    "name": "Martin Garriga"
+                },
+                {
+                    "authorId": "144273542",
+                    "name": "D. Tamburri"
+                },
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                }
+            ],
+            "doi": "10.1109/ICSME.2019.00092",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "38c556d55bfb0939938015e824709bf778e5ec85",
+            "title": "Adoption, Support, and Challenges of Infrastructure-as-Code: Insights from Industry",
+            "url": "https://www.semanticscholar.org/paper/38c556d55bfb0939938015e824709bf778e5ec85",
+            "venue": "2019 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2112239902",
+                    "name": "Jiahong Zhou"
+                },
+                {
+                    "authorId": "2154939073",
+                    "name": "Wei Chen"
+                },
+                {
+                    "authorId": "2701915",
+                    "name": "Guoquan Wu"
+                },
+                {
+                    "authorId": "144525882",
+                    "name": "Jun Wei"
+                }
+            ],
+            "doi": "10.1007/978-3-030-22888-0_10",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "351d4b2f38f2c360953c7c546cbd44d15972f041",
+            "title": "SemiTagRec: A Semi-supervised Learning Based Tag Recommendation Approach for Docker Repositories",
+            "url": "https://www.semanticscholar.org/paper/351d4b2f38f2c360953c7c546cbd44d15972f041",
+            "venue": "ICSR",
+            "year": 2019
+        },
+        {
+            "arxivId": "1905.04800",
+            "authors": [
+                {
+                    "authorId": "1765470",
+                    "name": "Josef Spillner"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "819e6d7391faaebeee60aeba04d496f0b7317d39",
+            "title": "Quantitative Analysis of Cloud Function Evolution in the AWS Serverless Application Repository",
+            "url": "https://www.semanticscholar.org/paper/819e6d7391faaebeee60aeba04d496f0b7317d39",
+            "venue": "ArXiv",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00085",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "43148fabe2636026e07ca04974aff40d204bfb6b",
+            "title": "Standing on Shoulders or Feet? The Usage of the MSR Data Papers",
+            "url": "https://www.semanticscholar.org/paper/43148fabe2636026e07ca04974aff40d204bfb6b",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2065232556",
+                    "name": "Kang Yin"
+                },
+                {
+                    "authorId": null,
+                    "name": "Wei Chen"
+                },
+                {
+                    "authorId": "2112239902",
+                    "name": "Jiahong Zhou"
+                },
+                {
+                    "authorId": "2701915",
+                    "name": "Guoquan Wu"
+                },
+                {
+                    "authorId": "144525882",
+                    "name": "Jun Wei"
+                }
+            ],
+            "doi": "10.1109/APSEC.2018.00057",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "868008185ee095b209bd093e0c1950619d0f5a96",
+            "title": "STAR: A Specialized Tagging Approach for Docker Repositories",
+            "url": "https://www.semanticscholar.org/paper/868008185ee095b209bd093e0c1950619d0f5a96",
+            "venue": "2018 25th Asia-Pacific Software Engineering Conference (APSEC)",
+            "year": 2018
+        },
+        {
+            "arxivId": "1808.04919",
+            "authors": [
+                {
+                    "authorId": "39988670",
+                    "name": "Eric Horton"
+                },
+                {
+                    "authorId": "1765101",
+                    "name": "Chris Parnin"
+                }
+            ],
+            "doi": "10.1109/ICSME.2018.00031",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "954084342f88616e942f69f5a19cb0f2728cdaa9",
+            "title": "Gistable: Evaluating the Executability of Python Code Snippets on GitHub",
+            "url": "https://www.semanticscholar.org/paper/954084342f88616e942f69f5a19cb0f2728cdaa9",
+            "venue": "2018 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "32514549",
+                    "name": "Petr Maj"
+                },
+                {
+                    "authorId": "2278507",
+                    "name": "Konrad Siek"
+                },
+                {
+                    "authorId": "2059410515",
+                    "name": "A. Kovalenko"
+                },
+                {
+                    "authorId": "144376283",
+                    "name": "J. Vitek"
+                }
+            ],
+            "doi": "10.4230/DARTS.7.2.13",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c6392513533c5ef8c96f98390d2f0ff1870f2177",
+            "title": "CodeDJ: Reproducible Queries over Large-Scale Software Repositories (Artifact)",
+            "url": "https://www.semanticscholar.org/paper/c6392513533c5ef8c96f98390d2f0ff1870f2177",
+            "venue": "Dagstuhl Artifacts Ser.",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "151481068",
+                    "name": "Yiwen Wu"
+                },
+                {
+                    "authorId": "46867931",
+                    "name": "Yang Zhang"
+                },
+                {
+                    "authorId": "39082503",
+                    "name": "Tao Wang"
+                },
+                {
+                    "authorId": "143969934",
+                    "name": "Huaimin Wang"
+                }
+            ],
+            "doi": "10.1109/ACCESS.2020.2973750",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "8fe2243acba2a7bcb925691ff7280e8e053d084d",
+            "title": "Characterizing the Occurrence of Dockerfile Smells in Open-Source Software: An Empirical Study",
+            "url": "https://www.semanticscholar.org/paper/8fe2243acba2a7bcb925691ff7280e8e053d084d",
+            "venue": "IEEE Access",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "152993180",
+                    "name": "S. Kitajima"
+                },
+                {
+                    "authorId": "47024063",
+                    "name": "Atsuji Sekiguchi"
+                }
+            ],
+            "doi": "10.1007/978-3-030-65310-1_40",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "dc7b60cb3b2ef338782bd3ff0c6c695ff86def7e",
+            "title": "Latest Image Recommendation Method for Automatic Base Image Update in Dockerfile",
+            "url": "https://www.semanticscholar.org/paper/dc7b60cb3b2ef338782bd3ff0c6c695ff86def7e",
+            "venue": "ICSOC",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2110326243",
+                    "name": "Zhigang Lu"
+                },
+                {
+                    "authorId": "2680790",
+                    "name": "Jiwei Xu"
+                },
+                {
+                    "authorId": "80611599",
+                    "name": "Yuewen Wu"
+                },
+                {
+                    "authorId": "2155478461",
+                    "name": "Tao Wang"
+                },
+                {
+                    "authorId": "145281920",
+                    "name": "Tao Huang"
+                }
+            ],
+            "doi": "10.1109/ACCESS.2019.2905424",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "9205182188df060a2c9a822c270a0eef35eacb29",
+            "title": "An Empirical Case Study on the Temporary File Smell in Dockerfiles",
+            "url": "https://www.semanticscholar.org/paper/9205182188df060a2c9a822c270a0eef35eacb29",
+            "venue": "IEEE Access",
+            "year": 2019
+        }
+    ],
+    "corpusId": 4848550,
+    "doi": "10.1145/3196398.3196456",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 2,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 30,
+    "numCiting": 11,
+    "paperId": "c2c0f993036bd93ed493c340a471e6423532ba1f",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2897763",
+                    "name": "J\u00fcrgen Cito"
+                },
+                {
+                    "authorId": "36196893",
+                    "name": "Gerald Schermann"
+                },
+                {
+                    "authorId": "101116834",
+                    "name": "Erik Wittern"
+                },
+                {
+                    "authorId": "1910406",
+                    "name": "P. Leitner"
+                },
+                {
+                    "authorId": "10733499",
+                    "name": "Sali Zumberi"
+                },
+                {
+                    "authorId": "50355692",
+                    "name": "H. Gall"
+                }
+            ],
+            "doi": "10.7287/peerj.preprints.2905v1",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "e2ec370f9dead9c7c214337473c3a4577facf4e1",
+            "title": "An Empirical Analysis of the Docker Container Ecosystem on GitHub",
+            "url": "https://www.semanticscholar.org/paper/e2ec370f9dead9c7c214337473c3a4577facf4e1",
+            "venue": "2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": "10.1109/MSR.2017.24",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "840d779e02a646d19cabd6bb186533cae81fc966",
+            "title": "TravisTorrent: Synthesizing Travis CI and GitHub for Full-Stack Research on Continuous Integration",
+            "url": "https://www.semanticscholar.org/paper/840d779e02a646d19cabd6bb186533cae81fc966",
+            "venue": "2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2897763",
+                    "name": "J\u00fcrgen Cito"
+                },
+                {
+                    "authorId": "1683586",
+                    "name": "Vincenzo Ferme"
+                },
+                {
+                    "authorId": "50355692",
+                    "name": "H. Gall"
+                }
+            ],
+            "doi": "10.1007/978-3-319-38791-8_58",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "87421d13ddd3c889c6d06679095b611dc0a4a217",
+            "title": "Using Docker Containers to Improve Reproducibility in Software and Web Engineering Research",
+            "url": "https://www.semanticscholar.org/paper/87421d13ddd3c889c6d06679095b611dc0a4a217",
+            "venue": "ICWE",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2897763",
+                    "name": "J\u00fcrgen Cito"
+                },
+                {
+                    "authorId": "50355692",
+                    "name": "H. Gall"
+                }
+            ],
+            "doi": "10.1145/2889160.2891057",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "db0ab12d029015bc3f2ff4a27ec8d4008030a92c",
+            "title": "Using Docker Containers to Improve Reproducibility in Software Engineering Research",
+            "url": "https://www.semanticscholar.org/paper/db0ab12d029015bc3f2ff4a27ec8d4008030a92c",
+            "venue": "2016 IEEE/ACM 38th International Conference on Software Engineering Companion (ICSE-C)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "38008881",
+                    "name": "Yujuan Jiang"
+                },
+                {
+                    "authorId": "143612725",
+                    "name": "Bram Adams"
+                }
+            ],
+            "doi": "10.1109/MSR.2015.12",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "57631a533c51b6d058f7018ed2e3c27b042590a1",
+            "title": "Co-evolution of Infrastructure and Source Code - An Empirical Study",
+            "url": "https://www.semanticscholar.org/paper/57631a533c51b6d058f7018ed2e3c27b042590a1",
+            "venue": "2015 IEEE/ACM 12th Working Conference on Mining Software Repositories",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2074606983",
+                    "name": "W. Hummer"
+                },
+                {
+                    "authorId": "144687957",
+                    "name": "Florian Rosenberg"
+                },
+                {
+                    "authorId": "2151029768",
+                    "name": "F\u00e1bio Oliveira"
+                },
+                {
+                    "authorId": "3306942",
+                    "name": "T. Eilam"
+                }
+            ],
+            "doi": "10.1007/978-3-642-45065-5_19",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "bb7ad2a01628ff10bd31631a63f1151c9e7a482b",
+            "title": "Testing Idempotence for Infrastructure as Code",
+            "url": "https://www.semanticscholar.org/paper/bb7ad2a01628ff10bd31631a63f1151c9e7a482b",
+            "venue": "Middleware",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624034",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2867eb64cc4bb1945363fdae12a168962ea823aa",
+            "title": "The GHTorent dataset and tool suite",
+            "url": "https://www.semanticscholar.org/paper/2867eb64cc4bb1945363fdae12a168962ea823aa",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "",
+            "title": "Paper \u2013 Online Appendix",
+            "url": "",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "",
+            "title": "Haskell Dockerfile Linter",
+            "url": "",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "",
+            "title": "https://github.com/lukasmartinelli/hadolint, accessed 2018-02-01",
+            "url": "",
+            "venue": "Haskell Dockerfile Linter",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Best practices for writing Dockerfiles",
+            "url": "",
+            "venue": "docs.docker.com/engine/userguide/eng-image/dockerfile_ best-practices/",
+            "year": 2018
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "Structured Information on State and Evolution of Dockerfiles on GitHub",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/c2c0f993036bd93ed493c340a471e6423532ba1f",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2018
+}

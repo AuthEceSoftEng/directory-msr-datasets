@@ -1,0 +1,1347 @@
+{
+    "abstract": "Unit testing is an essential part of the software development process, which helps to identify issues with source code in early stages of development and prevent regressions. Machine learning has emerged as viable approach to help software developers generate automated unit tests. However, generating reliable unit test cases that are semantically correct and capable of catching software bugs or unintended behavior via machine learning requires large, metadata-rich, datasets. In this paper we present Methods2Test: a large, supervised dataset of test cases mapped to corresponding methods under test (i.e., focal methods). This dataset contains 780,944 pairs of JUnit tests and focal methods, extracted from a total of 91,385 Java open source projects hosted on GitHub with licenses permitting re-distribution. The main challenge behind the creation of the Methods2Test was to establish a reliable mapping between a test case and the relevant focal method. To this aim, we designed a set of heuristics, based on developers' best practices in software testing, which identify the likely focal method for a given test case. To facilitate further analysis, we store a rich set of metadata for each method-test pair in JSON-formatted files. Additionally, we extract textual corpus from the dataset at different context levels, which we provide both in raw and tokenized forms, in order to enable researchers to train and evaluate machine learning models for Automated Test Generation. Methods2Test is publicly available at: https://github.com/microsoft/methods2test",
+    "arxivId": "2203.12776",
+    "authors": [
+        {
+            "authorId": "40626221",
+            "name": "Michele Tufano",
+            "url": "https://www.semanticscholar.org/author/40626221"
+        },
+        {
+            "authorId": "1702996983",
+            "name": "Shao Kun Deng",
+            "url": "https://www.semanticscholar.org/author/1702996983"
+        },
+        {
+            "authorId": "145507437",
+            "name": "Neel Sundaresan",
+            "url": "https://www.semanticscholar.org/author/145507437"
+        },
+        {
+            "authorId": "2061625488",
+            "name": "Alexey Svyatkovskiy",
+            "url": "https://www.semanticscholar.org/author/2061625488"
+        }
+    ],
+    "citationVelocity": 5,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2257390976",
+                    "name": "Jiho Shin"
+                },
+                {
+                    "authorId": "2257354796",
+                    "name": "Hadi Hemmati"
+                },
+                {
+                    "authorId": "1411137832",
+                    "name": "Moshi Wei"
+                },
+                {
+                    "authorId": "2257362205",
+                    "name": "Song Wang"
+                }
+            ],
+            "doi": "10.1109/TSE.2024.3433463",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "16aeb8940ff280b46ec2ca010de463cc72bf0f3d",
+            "title": "Assessing Evaluation Metrics for Neural Test Oracle Generation",
+            "url": "https://www.semanticscholar.org/paper/16aeb8940ff280b46ec2ca010de463cc72bf0f3d",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2024
+        },
+        {
+            "arxivId": "2408.07846",
+            "authors": [
+                {
+                    "authorId": "2316127650",
+                    "name": "Andrea Lops"
+                },
+                {
+                    "authorId": "1741231",
+                    "name": "F. Narducci"
+                },
+                {
+                    "authorId": "1738932",
+                    "name": "Azzurra Ragone"
+                },
+                {
+                    "authorId": "50416953",
+                    "name": "Michelantonio Trizio"
+                },
+                {
+                    "authorId": "2316128452",
+                    "name": "Claudio Bartolini"
+                }
+            ],
+            "doi": "10.48550/arXiv.2408.07846",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "fa8f46f5f42eb915facb9344e15cd792ebf11781",
+            "title": "A System for Automated Unit Test Generation Using Large Language Models and Assessment of Generated Test Suites",
+            "url": "https://www.semanticscholar.org/paper/fa8f46f5f42eb915facb9344e15cd792ebf11781",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2304783007",
+                    "name": "Yibo He"
+                },
+                {
+                    "authorId": "2311314972",
+                    "name": "Jiaming Huang"
+                },
+                {
+                    "authorId": "2296050795",
+                    "name": "Hao Yu"
+                },
+                {
+                    "authorId": "2277449385",
+                    "name": "Tao Xie"
+                }
+            ],
+            "doi": "10.1145/3660785",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "87e885db14465609855e269d909e3c98e18ea6b7",
+            "title": "An Empirical Study on Focal Methods in Deep-Learning-Based Approaches for Assertion Generation",
+            "url": "https://www.semanticscholar.org/paper/87e885db14465609855e269d909e3c98e18ea6b7",
+            "venue": "Proc. ACM Softw. Eng.",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2222989896",
+                    "name": "Tingwei Zhu"
+                },
+                {
+                    "authorId": "12907867",
+                    "name": "Zhongxin Liu"
+                },
+                {
+                    "authorId": "2266011532",
+                    "name": "Tongtong Xu"
+                },
+                {
+                    "authorId": "2109915677",
+                    "name": "Ze Tang"
+                },
+                {
+                    "authorId": "2256233023",
+                    "name": "Tian Zhang"
+                },
+                {
+                    "authorId": "40300027",
+                    "name": "Minxue Pan"
+                },
+                {
+                    "authorId": "2265241871",
+                    "name": "Xin Xia"
+                }
+            ],
+            "doi": "10.1145/3643916.3644421",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e9d926900f75dd425ccdead81fb7df96af3a89b0",
+            "title": "Exploring and Improving Code Completion for Test Code",
+            "url": "https://www.semanticscholar.org/paper/e9d926900f75dd425ccdead81fb7df96af3a89b0",
+            "venue": "2024 IEEE/ACM 32nd International Conference on Program Comprehension (ICPC)",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2296031120",
+                    "name": "Andr\u00e9 Hora"
+                }
+            ],
+            "doi": "10.1145/3643991.3644875",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "19625909593f3f0313439c13e38a101da2d0fd5a",
+            "title": "TestDossier: A Dataset of Tested Values Automatically Extracted from Test Execution",
+            "url": "https://www.semanticscholar.org/paper/19625909593f3f0313439c13e38a101da2d0fd5a",
+            "venue": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2403.07974",
+            "authors": [
+                {
+                    "authorId": "1646458461",
+                    "name": "Naman Jain"
+                },
+                {
+                    "authorId": "2291438028",
+                    "name": "King Han"
+                },
+                {
+                    "authorId": "2261364306",
+                    "name": "Alex Gu"
+                },
+                {
+                    "authorId": "2288349006",
+                    "name": "Wen-Ding Li"
+                },
+                {
+                    "authorId": "2291072588",
+                    "name": "Fanjia Yan"
+                },
+                {
+                    "authorId": "1993655237",
+                    "name": "Tianjun Zhang"
+                },
+                {
+                    "authorId": "2278894217",
+                    "name": "Sida I. Wang"
+                },
+                {
+                    "authorId": "2278433392",
+                    "name": "Armando Solar-Lezama"
+                },
+                {
+                    "authorId": "2268398121",
+                    "name": "Koushik Sen"
+                },
+                {
+                    "authorId": "2290576964",
+                    "name": "Ion Stoica"
+                }
+            ],
+            "doi": "10.48550/arXiv.2403.07974",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "afe0998d191f3ea8490c7df100a3ffc5dcc62c5e",
+            "title": "LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code",
+            "url": "https://www.semanticscholar.org/paper/afe0998d191f3ea8490c7df100a3ffc5dcc62c5e",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": "2402.11910",
+            "authors": [
+                {
+                    "authorId": "2208966847",
+                    "name": "Saranya Alagarsamy"
+                },
+                {
+                    "authorId": "1957122",
+                    "name": "C. Tantithamthavorn"
+                },
+                {
+                    "authorId": "2284682349",
+                    "name": "Chetan Arora"
+                },
+                {
+                    "authorId": "2387149",
+                    "name": "A. Aleti"
+                }
+            ],
+            "doi": "10.48550/arXiv.2402.11910",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2b673c70adc61e349814f5a0fe76edae63d4557e",
+            "title": "Enhancing Large Language Models for Text-to-Testcase Generation",
+            "url": "https://www.semanticscholar.org/paper/2b673c70adc61e349814f5a0fe76edae63d4557e",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": "2402.00247",
+            "authors": [
+                {
+                    "authorId": "36457920",
+                    "name": "Md Rakib Hossain Misu"
+                },
+                {
+                    "authorId": "2268865540",
+                    "name": "Cristina V. Lopes"
+                },
+                {
+                    "authorId": "2215481741",
+                    "name": "Iris Ma"
+                },
+                {
+                    "authorId": "2282205050",
+                    "name": "James Noble"
+                }
+            ],
+            "doi": "10.1145/3643763",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8ffa3d59636dfd9e0917015a6a60ab76e90199d8",
+            "title": "Towards AI-Assisted Synthesis of Verified Dafny Methods",
+            "url": "https://www.semanticscholar.org/paper/8ffa3d59636dfd9e0917015a6a60ab76e90199d8",
+            "venue": "Proc. ACM Softw. Eng.",
+            "year": 2024
+        },
+        {
+            "arxivId": "2310.07856",
+            "authors": [
+                {
+                    "authorId": "2257390976",
+                    "name": "Jiho Shin"
+                },
+                {
+                    "authorId": "2257354796",
+                    "name": "Hadi Hemmati"
+                },
+                {
+                    "authorId": "1411137832",
+                    "name": "Moshi Wei"
+                },
+                {
+                    "authorId": "2257362205",
+                    "name": "Song Wang"
+                }
+            ],
+            "doi": "10.48550/arXiv.2310.07856",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "fd0aa5715379d5a1544c40082e6e551e24561dd8",
+            "title": "Assessing Evaluation Metrics for Neural Test Oracle Generation",
+            "url": "https://www.semanticscholar.org/paper/fd0aa5715379d5a1544c40082e6e551e24561dd8",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": "2310.05727",
+            "authors": [
+                {
+                    "authorId": "2256980865",
+                    "name": "Weimin Xiong"
+                },
+                {
+                    "authorId": "2243697097",
+                    "name": "Yiwen Guo"
+                },
+                {
+                    "authorId": "2257354587",
+                    "name": "Hao Chen"
+                }
+            ],
+            "doi": "10.48550/arXiv.2310.05727",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ddb815ed9e291b2cb0678bf0754895f253732aa9",
+            "title": "The Program Testing Ability of Large Language Models for Code",
+            "url": "https://www.semanticscholar.org/paper/ddb815ed9e291b2cb0678bf0754895f253732aa9",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": "2308.08033",
+            "authors": [
+                {
+                    "authorId": "2111246288",
+                    "name": "Jiho Shin"
+                },
+                {
+                    "authorId": "2046990586",
+                    "name": "Sepehr Hashtroudi"
+                },
+                {
+                    "authorId": "1857838",
+                    "name": "H. Hemmati"
+                },
+                {
+                    "authorId": "2117074753",
+                    "name": "Song Wang"
+                }
+            ],
+            "doi": "10.1145/3650212.3680354",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "83183dcb7ef782b683682c0d2b6c4a0c6bb92a50",
+            "title": "Domain Adaptation for Code Model-Based Unit Test Case Generation",
+            "url": "https://www.semanticscholar.org/paper/83183dcb7ef782b683682c0d2b6c4a0c6bb92a50",
+            "venue": "ISSTA",
+            "year": 2023
+        },
+        {
+            "arxivId": "2307.16185",
+            "authors": [
+                {
+                    "authorId": "152609602",
+                    "name": "Luca Guglielmo"
+                },
+                {
+                    "authorId": "39348287",
+                    "name": "L. Mariani"
+                },
+                {
+                    "authorId": "1807844",
+                    "name": "G. Denaro"
+                }
+            ],
+            "doi": "10.1109/ACCESS.2024.3396625",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "eb2319afd753dae17003ea7b5dd788e63585cd12",
+            "title": "Measuring Software Testability via Automatically Generated Test Cases",
+            "url": "https://www.semanticscholar.org/paper/eb2319afd753dae17003ea7b5dd788e63585cd12",
+            "venue": "IEEE Access",
+            "year": 2023
+        },
+        {
+            "arxivId": "2305.14808",
+            "authors": [
+                {
+                    "authorId": "2108424257",
+                    "name": "Yuwei Zhang"
+                },
+                {
+                    "authorId": "2152843753",
+                    "name": "Zhi Jin"
+                },
+                {
+                    "authorId": "2211303575",
+                    "name": "Zejun Wang"
+                },
+                {
+                    "authorId": "2218211242",
+                    "name": "Ying Xing"
+                },
+                {
+                    "authorId": "2154591375",
+                    "name": "Ge Li"
+                }
+            ],
+            "doi": "10.1007/s11390-023-2878-6",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "faf958020c6c97576a9fd20249853affbf014be5",
+            "title": "SAGA: Summarization-Guided Assert Statement Generation",
+            "url": "https://www.semanticscholar.org/paper/faf958020c6c97576a9fd20249853affbf014be5",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": "2302.10352",
+            "authors": [
+                {
+                    "authorId": "2208966847",
+                    "name": "Saranya Alagarsamy"
+                },
+                {
+                    "authorId": "1957122",
+                    "name": "C. Tantithamthavorn"
+                },
+                {
+                    "authorId": "2387149",
+                    "name": "A. Aleti"
+                }
+            ],
+            "doi": "10.48550/arXiv.2302.10352",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "0ce19606b84b63df841fafb564626eeb67a61436",
+            "title": "A3Test: Assertion-Augmented Automated Test Case Generation",
+            "url": "https://www.semanticscholar.org/paper/0ce19606b84b63df841fafb564626eeb67a61436",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1387638000",
+                    "name": "Zhuo-Qi Xie"
+                },
+                {
+                    "authorId": "2108965087",
+                    "name": "Ying-Liang Chen"
+                },
+                {
+                    "authorId": "2064478633",
+                    "name": "Chen Zhi"
+                },
+                {
+                    "authorId": "145590434",
+                    "name": "Shuiguang Deng"
+                },
+                {
+                    "authorId": "2116398505",
+                    "name": "Jianwei Yin"
+                }
+            ],
+            "doi": "10.48550/arXiv.2305.04764",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "5888f7aba5c601a668c290bf57addf79cc1518f1",
+            "title": "ChatUniTest: a ChatGPT-based automated unit test generation tool",
+            "url": "https://www.semanticscholar.org/paper/5888f7aba5c601a668c290bf57addf79cc1518f1",
+            "venue": "ArXiv",
+            "year": 2023
+        }
+    ],
+    "corpusId": 247627786,
+    "doi": "10.1145/3524842.3528009",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 3,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 15,
+    "numCiting": 26,
+    "paperId": "23c4cb69ed2682dfe9c83061ff7c844c2e0b7636",
+    "references": [
+        {
+            "arxivId": "2101.02518",
+            "authors": [
+                {
+                    "authorId": "2045297541",
+                    "name": "Rosalia Tufano"
+                },
+                {
+                    "authorId": "40695832",
+                    "name": "L. Pascarella"
+                },
+                {
+                    "authorId": "40626221",
+                    "name": "Michele Tufano"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                }
+            ],
+            "doi": "10.1109/ICSE43902.2021.00027",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "012a2d74b107c0658c0e762b0dad7c6c1d6b6783",
+            "title": "Towards Automating Code Review Activities",
+            "url": "https://www.semanticscholar.org/paper/012a2d74b107c0658c0e762b0dad7c6c1d6b6783",
+            "venue": "2021 IEEE/ACM 43rd International Conference on Software Engineering (ICSE)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2010.03150",
+            "authors": [
+                {
+                    "authorId": "46203254",
+                    "name": "Colin B. Clement"
+                },
+                {
+                    "authorId": "1943097969",
+                    "name": "Dawn Drain"
+                },
+                {
+                    "authorId": "66125615",
+                    "name": "Jonathan Timcheck"
+                },
+                {
+                    "authorId": "47090739",
+                    "name": "Alexey Svyatkovskiy"
+                },
+                {
+                    "authorId": "145507437",
+                    "name": "Neel Sundaresan"
+                }
+            ],
+            "doi": "10.18653/v1/2020.emnlp-main.728",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1c6970dc9d4da9f5e94399e344fe8ba901d8fe81",
+            "title": "PyMT5: Multi-mode Translation of Natural Language and Python Code with Transformers",
+            "url": "https://www.semanticscholar.org/paper/1c6970dc9d4da9f5e94399e344fe8ba901d8fe81",
+            "venue": "EMNLP",
+            "year": 2020
+        },
+        {
+            "arxivId": "2009.05617",
+            "authors": [
+                {
+                    "authorId": "40626221",
+                    "name": "Michele Tufano"
+                },
+                {
+                    "authorId": "1943097969",
+                    "name": "Dawn Drain"
+                },
+                {
+                    "authorId": "2061625488",
+                    "name": "Alexey Svyatkovskiy"
+                },
+                {
+                    "authorId": "1702996983",
+                    "name": "Shao Kun Deng"
+                },
+                {
+                    "authorId": "145507437",
+                    "name": "Neel Sundaresan"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "dc3877e3058bc9c854e57770e596acf188d9b57e",
+            "title": "Unit Test Case Generation with Transformers",
+            "url": "https://www.semanticscholar.org/paper/dc3877e3058bc9c854e57770e596acf188d9b57e",
+            "venue": "ArXiv",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "41072717",
+                    "name": "Andr\u00e1s Kicsi"
+                },
+                {
+                    "authorId": "1793601",
+                    "name": "L\u00e1szl\u00f3 Vid\u00e1cs"
+                },
+                {
+                    "authorId": "1681248",
+                    "name": "T. Gyim\u00f3thy"
+                }
+            ],
+            "doi": "10.1145/3379597.3387488",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "edeed47ef83fc1d7693ad068946adb811a760740",
+            "title": "TestRoutes: A Manually Curated Method Level Dataset for Test-to-Code Traceability",
+            "url": "https://www.semanticscholar.org/paper/edeed47ef83fc1d7693ad068946adb811a760740",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3459335",
+                    "name": "Giovanni Grano"
+                },
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                },
+                {
+                    "authorId": "50515157",
+                    "name": "Dario Di Nucci"
+                },
+                {
+                    "authorId": "145818752",
+                    "name": "A. D. Lucia"
+                },
+                {
+                    "authorId": "50355692",
+                    "name": "H. Gall"
+                }
+            ],
+            "doi": "10.1016/J.JSS.2019.07.016",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6bd6baa057059f972f81fa95b0a674c12843b0c9",
+            "title": "Scented since the beginning: On the diffuseness of test smells in automatically generated test code",
+            "url": "https://www.semanticscholar.org/paper/6bd6baa057059f972f81fa95b0a674c12843b0c9",
+            "venue": "J. Syst. Softw.",
+            "year": 2019
+        },
+        {
+            "arxivId": "1901.01808",
+            "authors": [
+                {
+                    "authorId": "46842516",
+                    "name": "Zimin Chen"
+                },
+                {
+                    "authorId": "51957922",
+                    "name": "Steve Kommrusch"
+                },
+                {
+                    "authorId": "40626221",
+                    "name": "Michele Tufano"
+                },
+                {
+                    "authorId": "1793611",
+                    "name": "L. Pouchet"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                },
+                {
+                    "authorId": "150220964",
+                    "name": "Monperrus Martin"
+                }
+            ],
+            "doi": "10.1109/TSE.2019.2940179",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "59cc0871534a20ac98db0663539c6675ab63566f",
+            "title": "SequenceR: Sequence-to-Sequence Learning for End-to-End Program Repair",
+            "url": "https://www.semanticscholar.org/paper/59cc0871534a20ac98db0663539c6675ab63566f",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2018
+        },
+        {
+            "arxivId": "1812.08693",
+            "authors": [
+                {
+                    "authorId": "40626221",
+                    "name": "Michele Tufano"
+                },
+                {
+                    "authorId": "47543605",
+                    "name": "Cody Watson"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "2118713819",
+                    "name": "Martin White"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                }
+            ],
+            "doi": "10.1145/3340544",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "516497e7fc39ebb126bed28dcc5c6129e500acb8",
+            "title": "An Empirical Study on Learning Bug-Fixing Patches in the Wild via Neural Machine Translation",
+            "url": "https://www.semanticscholar.org/paper/516497e7fc39ebb126bed28dcc5c6129e500acb8",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3172077",
+                    "name": "R. Ferenc"
+                },
+                {
+                    "authorId": "2059944860",
+                    "name": "Z. T\u00f3th"
+                },
+                {
+                    "authorId": "1957533",
+                    "name": "Gergely Lad\u00e1nyi"
+                },
+                {
+                    "authorId": "1868524",
+                    "name": "Istv\u00e1n Siket"
+                },
+                {
+                    "authorId": "1681248",
+                    "name": "T. Gyim\u00f3thy"
+                }
+            ],
+            "doi": "10.1145/3273934.3273936",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "86a901b0408e68f918231f683456cb74f9346773",
+            "title": "A Public Unified Bug Dataset for Java",
+            "url": "https://www.semanticscholar.org/paper/86a901b0408e68f918231f683456cb74f9346773",
+            "venue": "PROMISE",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3459335",
+                    "name": "Giovanni Grano"
+                },
+                {
+                    "authorId": "3439470",
+                    "name": "Simone Scalabrino"
+                },
+                {
+                    "authorId": "50355692",
+                    "name": "H. Gall"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                }
+            ],
+            "doi": "10.1145/3196321.3196363",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1702f636b7b6388733ef6b9783b879067c289968",
+            "title": "An Empirical Investigation on the Readability of Manual and Generated Test Cases",
+            "url": "https://www.semanticscholar.org/paper/1702f636b7b6388733ef6b9783b879067c289968",
+            "venue": "2018 IEEE/ACM 26th International Conference on Program Comprehension (ICPC)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2110049191",
+                    "name": "Xing Hu"
+                },
+                {
+                    "authorId": "1410115257",
+                    "name": "Ge Li"
+                },
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                },
+                {
+                    "authorId": "1700880",
+                    "name": "Zhi Jin"
+                }
+            ],
+            "doi": "10.1145/3196321.3196334",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "15f16252af84a630f1f9442d4e0367b6fba089cf",
+            "title": "Deep Code Comment Generation",
+            "url": "https://www.semanticscholar.org/paper/15f16252af84a630f1f9442d4e0367b6fba089cf",
+            "venue": "2018 IEEE/ACM 26th International Conference on Program Comprehension (ICPC)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2894435",
+                    "name": "M. Almasi"
+                },
+                {
+                    "authorId": "1857838",
+                    "name": "H. Hemmati"
+                },
+                {
+                    "authorId": "145507591",
+                    "name": "G. Fraser"
+                },
+                {
+                    "authorId": "1803468",
+                    "name": "Andrea Arcuri"
+                },
+                {
+                    "authorId": "2745908",
+                    "name": "Janis Benefelds"
+                }
+            ],
+            "doi": "10.1109/ICSE-SEIP.2017.27",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b08642a12f8cf4638bcf3877ecfc92581099d113",
+            "title": "An Industrial Evaluation of Unit Test Generation: Finding Real Faults in a Financial Application",
+            "url": "https://www.semanticscholar.org/paper/b08642a12f8cf4638bcf3877ecfc92581099d113",
+            "venue": "2017 IEEE/ACM 39th International Conference on Software Engineering: Software Engineering in Practice Track (ICSE-SEIP)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145793708",
+                    "name": "W. E. Wong"
+                },
+                {
+                    "authorId": "144822432",
+                    "name": "Ruizhi Gao"
+                },
+                {
+                    "authorId": "121704356",
+                    "name": "Yihao Li"
+                },
+                {
+                    "authorId": "144837389",
+                    "name": "Rui Abreu"
+                },
+                {
+                    "authorId": "1743138",
+                    "name": "F. Wotawa"
+                }
+            ],
+            "doi": "10.1109/TSE.2016.2521368",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "be0ed514aa9afa080e2fbc51a88d21543580179d",
+            "title": "A Survey on Software Fault Localization",
+            "url": "https://www.semanticscholar.org/paper/be0ed514aa9afa080e2fbc51a88d21543580179d",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                },
+                {
+                    "authorId": "3013302",
+                    "name": "Annibale Panichella"
+                },
+                {
+                    "authorId": "1702285",
+                    "name": "A. Zaidman"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                },
+                {
+                    "authorId": "145818752",
+                    "name": "A. D. Lucia"
+                }
+            ],
+            "doi": "10.1145/2931037.2931057",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "aac6b9592ff2ab8e8500399ac81e677c28b04fee",
+            "title": "Automatic test case generation: what if test code quality matters?",
+            "url": "https://www.semanticscholar.org/paper/aac6b9592ff2ab8e8500399ac81e677c28b04fee",
+            "venue": "ISSTA",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                },
+                {
+                    "authorId": "50515157",
+                    "name": "Dario Di Nucci"
+                },
+                {
+                    "authorId": "3013302",
+                    "name": "Annibale Panichella"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                },
+                {
+                    "authorId": "145818752",
+                    "name": "A. D. Lucia"
+                }
+            ],
+            "doi": "10.1145/2897010.2897016",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6db47f91f8c8865c23c0868647a3000627b46ecf",
+            "title": "On the Diffusion of Test Smells in Automatically Generated Test Code: An Empirical Study",
+            "url": "https://www.semanticscholar.org/paper/6db47f91f8c8865c23c0868647a3000627b46ecf",
+            "venue": "2016 IEEE/ACM 9th International Workshop on Search-Based Software Testing (SBST)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "32842469",
+                    "name": "S. Shamshiri"
+                }
+            ],
+            "doi": "10.1145/2786805.2803196",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6c950af7d964972f0830a58a4ad54366e46b82ad",
+            "title": "Automated unit test generation for evolving software",
+            "url": "https://www.semanticscholar.org/paper/6c950af7d964972f0830a58a4ad54366e46b82ad",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2175301",
+                    "name": "Ermira Daka"
+                },
+                {
+                    "authorId": "145488888",
+                    "name": "Jos\u00e9 Campos"
+                },
+                {
+                    "authorId": "145507591",
+                    "name": "G. Fraser"
+                },
+                {
+                    "authorId": "144651072",
+                    "name": "Jonathan Dorn"
+                },
+                {
+                    "authorId": "47211092",
+                    "name": "Westley Weimer"
+                }
+            ],
+            "doi": "10.1145/2786805.2786838",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7472bd9514be1a96bc5a0ec91b157e5079e4ab29",
+            "title": "Modeling readability to improve unit tests",
+            "url": "https://www.semanticscholar.org/paper/7472bd9514be1a96bc5a0ec91b157e5079e4ab29",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                },
+                {
+                    "authorId": "50515157",
+                    "name": "Dario Di Nucci"
+                },
+                {
+                    "authorId": "40626221",
+                    "name": "Michele Tufano"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                },
+                {
+                    "authorId": "145818752",
+                    "name": "A. D. Lucia"
+                }
+            ],
+            "doi": "10.1109/MSR.2015.69",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f768340825b252213bf55093feb7b572f4d4ae53",
+            "title": "Landfill: An Open Dataset of Code Smells with Public Evaluation",
+            "url": "https://www.semanticscholar.org/paper/f768340825b252213bf55093feb7b572f4d4ae53",
+            "venue": "2015 IEEE/ACM 12th Working Conference on Mining Software Repositories",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2175301",
+                    "name": "Ermira Daka"
+                },
+                {
+                    "authorId": "145507591",
+                    "name": "G. Fraser"
+                }
+            ],
+            "doi": "10.1109/ISSRE.2014.11",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "f193e68ce6f3200b1f801e64bf49e56f668fd3ef",
+            "title": "A Survey on Unit Testing Practices and Problems",
+            "url": "https://www.semanticscholar.org/paper/f193e68ce6f3200b1f801e64bf49e56f668fd3ef",
+            "venue": "2014 IEEE 25th International Symposium on Software Reliability Engineering",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2707595",
+                    "name": "Ren\u00e9 Just"
+                },
+                {
+                    "authorId": "2728496",
+                    "name": "D. Jalali"
+                },
+                {
+                    "authorId": "6698059",
+                    "name": "Michael D. Ernst"
+                }
+            ],
+            "doi": "10.1145/2610384.2628055",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "37e2106bebd02f4ac9c410941fde7f358279e4a4",
+            "title": "Defects4J: a database of existing faults to enable controlled testing studies for Java programs",
+            "url": "https://www.semanticscholar.org/paper/37e2106bebd02f4ac9c410941fde7f358279e4a4",
+            "venue": "ISSTA 2014",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2319775",
+                    "name": "M. Shepperd"
+                },
+                {
+                    "authorId": "1678555",
+                    "name": "Qinbao Song"
+                },
+                {
+                    "authorId": "145206290",
+                    "name": "Zhongbin Sun"
+                },
+                {
+                    "authorId": "1746905",
+                    "name": "C. Mair"
+                }
+            ],
+            "doi": "10.1109/TSE.2013.11",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2ad27a03e7c120c3d1fe31368a7a897960afd8cb",
+            "title": "Data Quality: Some Comments on the NASA Software Defect Datasets",
+            "url": "https://www.semanticscholar.org/paper/2ad27a03e7c120c3d1fe31368a7a897960afd8cb",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145507591",
+                    "name": "G. Fraser"
+                },
+                {
+                    "authorId": "1803468",
+                    "name": "Andrea Arcuri"
+                }
+            ],
+            "doi": "10.1145/2025113.2025179",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "216b98bb3d9221d5f5d261864975612e4d0faaa6",
+            "title": "EvoSuite: automatic test suite generation for object-oriented software",
+            "url": "https://www.semanticscholar.org/paper/216b98bb3d9221d5f5d261864975612e4d0faaa6",
+            "venue": "ESEC/FSE '11",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2061394931",
+                    "name": "Gustavo H. L. Pinto"
+                },
+                {
+                    "authorId": "145983572",
+                    "name": "S. Vergilio"
+                }
+            ],
+            "doi": "10.1109/ICTAI.2010.26",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2bed791e70221b23e4994423e6f93705e30fd7c7",
+            "title": "A Multi-Objective Genetic Algorithm to Test Data Generation",
+            "url": "https://www.semanticscholar.org/paper/2bed791e70221b23e4994423e6f93705e30fd7c7",
+            "venue": "2010 22nd IEEE International Conference on Tools with Artificial Intelligence",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143698348",
+                    "name": "Carlos Pacheco"
+                },
+                {
+                    "authorId": "6698059",
+                    "name": "Michael D. Ernst"
+                }
+            ],
+            "doi": "10.1145/1297846.1297902",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "feebec1b65cb45de2abcb787d22cf24acf86f51a",
+            "title": "Randoop: feedback-directed random testing for Java",
+            "url": "https://www.semanticscholar.org/paper/feebec1b65cb45de2abcb787d22cf24acf86f51a",
+            "venue": "OOPSLA '07",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1421877928",
+                    "name": "M. Bennington-Davis"
+                }
+            ],
+            "doi": "10.1176/PS.2006.57.12.1819A",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "bda5cca78ca3522fcf2f543a465dd370f433e9c4",
+            "title": "The Tree-Sitter",
+            "url": "https://www.semanticscholar.org/paper/bda5cca78ca3522fcf2f543a465dd370f433e9c4",
+            "venue": "",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2061625488",
+                    "name": "Alexey Svyatkovskiy"
+                },
+                {
+                    "authorId": "1731438",
+                    "name": "Todd Mytkowicz"
+                },
+                {
+                    "authorId": "35543511",
+                    "name": "Negar Ghorbani"
+                },
+                {
+                    "authorId": "40895660",
+                    "name": "Sarah Fakhoury"
+                },
+                {
+                    "authorId": "35542621",
+                    "name": "Elizabeth Dinella"
+                },
+                {
+                    "authorId": "145193818",
+                    "name": "C. Bird"
+                },
+                {
+                    "authorId": "145507437",
+                    "name": "Neel Sundaresan"
+                },
+                {
+                    "authorId": "145474353",
+                    "name": "Shuvendu K. Lahiri"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0b0cd43fd32a394f4b9b72441465defc2183004c",
+            "title": "MergeBERT: Program Merge Conflict Resolution via Neural Transformers",
+            "url": "https://www.semanticscholar.org/paper/0b0cd43fd32a394f4b9b72441465defc2183004c",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Utilizing Fast Testing to Transform Java Development into an Agile",
+            "url": "",
+            "venue": "",
+            "year": 2020
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "METHODS2TEST: A dataset of focal methods mapped to test cases",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/23c4cb69ed2682dfe9c83061ff7c844c2e0b7636",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2022
+}

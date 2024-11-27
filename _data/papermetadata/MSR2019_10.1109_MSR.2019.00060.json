@@ -1,0 +1,1361 @@
+{
+    "abstract": "The Maven Central Repository provides an extraordinary source of data to understand complex architecture and evolution phenomena among Java applications. As of September 6, 2018, this repository includes 2.8M artifacts (compiled piece of code implemented in a JVM-based language), each of which is characterized with metadata such as exact version, date of upload and list of dependencies towards other artifacts. Today, one who wants to analyze the complete ecosystem of Maven artifacts and their dependencies faces two key challenges: (i) this is a huge data set; and (ii) dependency relationships among artifacts are not modeled explicitly and cannot be queried. In this paper, we present the Maven Dependency Graph. This open source data set provides two contributions: a snapshot of the whole Maven Central taken on September 6, 2018, stored in a graph database in which we explicitly model all dependencies; an open source infrastructure to query this huge dataset.",
+    "arxivId": "1901.05392",
+    "authors": [
+        {
+            "authorId": "3187903",
+            "name": "Amine Benelallam",
+            "url": "https://www.semanticscholar.org/author/3187903"
+        },
+        {
+            "authorId": "8752802",
+            "name": "Nicolas Harrand",
+            "url": "https://www.semanticscholar.org/author/8752802"
+        },
+        {
+            "authorId": "1403836286",
+            "name": "C\u00e9sar Soto-Valero",
+            "url": "https://www.semanticscholar.org/author/1403836286"
+        },
+        {
+            "authorId": "1730420",
+            "name": "B. Baudry",
+            "url": "https://www.semanticscholar.org/author/1730420"
+        },
+        {
+            "authorId": "2454048",
+            "name": "Olivier Barais",
+            "url": "https://www.semanticscholar.org/author/2454048"
+        }
+    ],
+    "citationVelocity": 6,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "118554484",
+                    "name": "Juri Di Rocco"
+                },
+                {
+                    "authorId": "2143967289",
+                    "name": "Phuong T. Nguyen"
+                },
+                {
+                    "authorId": "2113623494",
+                    "name": "Claudio Di Sipio"
+                },
+                {
+                    "authorId": "80788365",
+                    "name": "Riccardo Rubei"
+                },
+                {
+                    "authorId": "2138839042",
+                    "name": "Davide Di Ruscio"
+                },
+                {
+                    "authorId": "122199332",
+                    "name": "Massimiliano Di Penta"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2024.107588",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "dab4f89fd2944a7643f08cbe9458d02038974726",
+            "title": "DeepMig: A transformer-based approach to support coupled library and code migrations",
+            "url": "https://www.semanticscholar.org/paper/dab4f89fd2944a7643f08cbe9458d02038974726",
+            "venue": "Information and Software Technology",
+            "year": 2024
+        },
+        {
+            "arxivId": "2405.20455",
+            "authors": [
+                {
+                    "authorId": "8609404",
+                    "name": "Mohannad J. Alhanahnah"
+                },
+                {
+                    "authorId": "2893966",
+                    "name": "Yazan Boshmaf"
+                },
+                {
+                    "authorId": "2304325127",
+                    "name": "Benoit Baudry"
+                }
+            ],
+            "doi": "10.48550/arXiv.2405.20455",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6918acac05b869b8137f38c74cc2538a44b16028",
+            "title": "DepsRAG: Towards Managing Software Dependencies using Large Language Models",
+            "url": "https://www.semanticscholar.org/paper/6918acac05b869b8137f38c74cc2538a44b16028",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2189018736",
+                    "name": "Damien Jaime"
+                },
+                {
+                    "authorId": "2307280427",
+                    "name": "Joyce El Haddad"
+                },
+                {
+                    "authorId": "2307282401",
+                    "name": "Pascal Poizat"
+                }
+            ],
+            "doi": "10.1145/3643991.3644879",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a4345cc1918d11198a33538cb96ed850010a5743",
+            "title": "Goblin: A Framework for Enriching and Querying the Maven Central Dependency Graph",
+            "url": "https://www.semanticscholar.org/paper/a4345cc1918d11198a33538cb96ed850010a5743",
+            "venue": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2117505170",
+                    "name": "Johannes D\u00fcsing"
+                },
+                {
+                    "authorId": "2265678210",
+                    "name": "Ben Hermann"
+                }
+            ],
+            "doi": "10.1109/ASE56229.2023.00080",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2f6e313eadf506d87a5dd69f6060c06595f56f80",
+            "title": "Persisting and Reusing Results of Static Program Analyses on a Large Scale",
+            "url": "https://www.semanticscholar.org/paper/2f6e313eadf506d87a5dd69f6060c06595f56f80",
+            "venue": "2023 38th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2308.03419",
+            "authors": [
+                {
+                    "authorId": "2108323899",
+                    "name": "Lyuye Zhang"
+                },
+                {
+                    "authorId": "2158155335",
+                    "name": "Chengwei Liu"
+                },
+                {
+                    "authorId": "48847695",
+                    "name": "Sen Chen"
+                },
+                {
+                    "authorId": "3430657",
+                    "name": "Zhengzi Xu"
+                },
+                {
+                    "authorId": "41075481",
+                    "name": "Lingling Fan"
+                },
+                {
+                    "authorId": "2214121071",
+                    "name": "Lida Zhao"
+                },
+                {
+                    "authorId": "2107952604",
+                    "name": "Yiran Zhang"
+                },
+                {
+                    "authorId": "40457423",
+                    "name": "Yang Liu"
+                }
+            ],
+            "doi": "10.1109/ASE56229.2023.00058",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "36537f3d135c962f1da48c3c7168e7bbe0a9f36c",
+            "title": "Mitigating Persistence of Open-Source Vulnerabilities in Maven Ecosystem",
+            "url": "https://www.semanticscholar.org/paper/36537f3d135c962f1da48c3c7168e7bbe0a9f36c",
+            "venue": "2023 38th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47583328",
+                    "name": "Mehdi Keshani"
+                },
+                {
+                    "authorId": "2209753235",
+                    "name": "Simcha Vos"
+                },
+                {
+                    "authorId": "1933475",
+                    "name": "Sebastian Proksch"
+                }
+            ],
+            "doi": "10.1016/j.jss.2023.111738",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "315b7ebc7b5166d20ec8b246b0851b3cca55f4f5",
+            "title": "On the relation of method popularity to breaking changes in the Maven ecosystem",
+            "url": "https://www.semanticscholar.org/paper/315b7ebc7b5166d20ec8b246b0851b3cca55f4f5",
+            "venue": "J. Syst. Softw.",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2223129142",
+                    "name": "Tobias Litzenberger"
+                },
+                {
+                    "authorId": "2117505170",
+                    "name": "Johannes D\u00fcsing"
+                },
+                {
+                    "authorId": "39888100",
+                    "name": "Ben Hermann"
+                }
+            ],
+            "doi": "10.1109/MSR59073.2023.00028",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "788370a7cfc95d3b3fd32a521e9ffac2cfc9aeb6",
+            "title": "DGMF: Fast Generation of Comparable, Updatable Dependency Graphs for Software Repositories",
+            "url": "https://www.semanticscholar.org/paper/788370a7cfc95d3b3fd32a521e9ffac2cfc9aeb6",
+            "venue": "2023 IEEE/ACM 20th International Conference on Mining Software Repositories (MSR)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2212.09132",
+            "authors": [
+                {
+                    "authorId": "100721942",
+                    "name": "Anjan Karmakar"
+                },
+                {
+                    "authorId": "3216345",
+                    "name": "Miltiadis Allamanis"
+                },
+                {
+                    "authorId": "1853058",
+                    "name": "R. Robbes"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10275-7",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "42630c03d3817b1153d245f20742ad4b30a80b75",
+            "title": "JEMMA: An extensible Java dataset for ML4Code applications",
+            "url": "https://www.semanticscholar.org/paper/42630c03d3817b1153d245f20742ad4b30a80b75",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145431495",
+                    "name": "P. T. Nguyen"
+                },
+                {
+                    "authorId": "1644891552",
+                    "name": "Claudio Di Sipio"
+                },
+                {
+                    "authorId": "37121973",
+                    "name": "Juri Di Rocco"
+                },
+                {
+                    "authorId": "2133181",
+                    "name": "D. D. Ruscio"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                }
+            ],
+            "doi": "10.1016/j.eswa.2022.119477",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "df5c0e6b6a1ea3f9b528f3b2833852ab03a8b2a7",
+            "title": "Fitting missing API puzzles with machine translation techniques",
+            "url": "https://www.semanticscholar.org/paper/df5c0e6b6a1ea3f9b528f3b2833852ab03a8b2a7",
+            "venue": "Expert Syst. Appl.",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "14274394",
+                    "name": "S. Venkatanarayanan"
+                },
+                {
+                    "authorId": "144212658",
+                    "name": "Jens Dietrich"
+                },
+                {
+                    "authorId": "1741672",
+                    "name": "C. Anslow"
+                },
+                {
+                    "authorId": "145773256",
+                    "name": "Patrick Lam"
+                }
+            ],
+            "doi": "10.1109/VISSOFT55257.2022.00027",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8b88881c5f32ca02ee5e7c5e97c791c536119d0c",
+            "title": "VizAPI: Visualizing Interactions between Java Libraries and Clients",
+            "url": "https://www.semanticscholar.org/paper/8b88881c5f32ca02ee5e7c5e97c791c536119d0c",
+            "venue": "2022 Working Conference on Software Visualization (VISSOFT)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2154171210",
+                    "name": "Chen Yang"
+                },
+                {
+                    "authorId": "2156649517",
+                    "name": "Yan Liu"
+                }
+            ],
+            "doi": "10.3390/app12168347",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "74d700b7df1f3fff7a145e47250310035d845c4d",
+            "title": "Enhancements to Neural Language Model for Generating System Configuration Code: A Study with Maven Dependency",
+            "url": "https://www.semanticscholar.org/paper/74d700b7df1f3fff7a145e47250310035d845c4d",
+            "venue": "Applied Sciences",
+            "year": 2022
+        },
+        {
+            "arxivId": "2208.01321",
+            "authors": [
+                {
+                    "authorId": "2058355374",
+                    "name": "Deepika Tiwari"
+                },
+                {
+                    "authorId": "150220964",
+                    "name": "Monperrus Martin"
+                },
+                {
+                    "authorId": "1730420",
+                    "name": "B. Baudry"
+                }
+            ],
+            "doi": "10.1109/tse.2024.3458448",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c762d2689eaca5ed17022707a6bd99bd173ea406",
+            "title": "Mimicking Production Behavior with Generated Mocks",
+            "url": "https://www.semanticscholar.org/paper/c762d2689eaca5ed17022707a6bd99bd173ea406",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2036793533",
+                    "name": "K. Luong"
+                },
+                {
+                    "authorId": "144970849",
+                    "name": "M. Hadi"
+                },
+                {
+                    "authorId": "2121315",
+                    "name": "Ferdian Thung"
+                },
+                {
+                    "authorId": "72982363",
+                    "name": "Fatemeh H. Fard"
+                },
+                {
+                    "authorId": "2150912791",
+                    "name": "David Lo"
+                }
+            ],
+            "doi": "10.1145/3524610.3527918",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7624b113590a80eb43320e39a1d2c2312eb86512",
+            "title": "ARSeek: Identifying API Resource using Code and Discussion on Stack Overflow",
+            "url": "https://www.semanticscholar.org/paper/7624b113590a80eb43320e39a1d2c2312eb86512",
+            "venue": "2022 IEEE/ACM 30th International Conference on Program Comprehension (ICPC)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2143967289",
+                    "name": "Phuong T. Nguyen"
+                },
+                {
+                    "authorId": "37121973",
+                    "name": "Juri Di Rocco"
+                },
+                {
+                    "authorId": "80788365",
+                    "name": "Riccardo Rubei"
+                },
+                {
+                    "authorId": "1644891552",
+                    "name": "Claudio Di Sipio"
+                },
+                {
+                    "authorId": "2133181",
+                    "name": "D. D. Ruscio"
+                }
+            ],
+            "doi": "10.1016/j.eswa.2022.117267",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "353c7195b7875a646b6876a881827b05d5c1729a",
+            "title": "DeepLib: Machine translation techniques to recommend upgrades for third-party libraries",
+            "url": "https://www.semanticscholar.org/paper/353c7195b7875a646b6876a881827b05d5c1729a",
+            "venue": "Expert Syst. Appl.",
+            "year": 2022
+        },
+        {
+            "arxivId": "2110.07889",
+            "authors": [
+                {
+                    "authorId": "143988212",
+                    "name": "Lina Ochoa"
+                },
+                {
+                    "authorId": "2965083",
+                    "name": "Thomas Degueule"
+                },
+                {
+                    "authorId": "3191798",
+                    "name": "Jean-R\u00e9my Falleri"
+                },
+                {
+                    "authorId": "1791575",
+                    "name": "J. Vinju"
+                }
+            ],
+            "doi": "10.1007/s10664-021-10052-y",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "e41b43c429e79e20053810f4167b54cde4f4e374",
+            "title": "Breaking bad? Semantic versioning and impact of breaking changes in Maven Central",
+            "url": "https://www.semanticscholar.org/paper/e41b43c429e79e20053810f4167b54cde4f4e374",
+            "venue": "Empirical Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": "2108.12397",
+            "authors": [
+                {
+                    "authorId": "28075447",
+                    "name": "Emmanouil Krasanakis"
+                },
+                {
+                    "authorId": "144178604",
+                    "name": "S. Papadopoulos"
+                },
+                {
+                    "authorId": "1715604",
+                    "name": "Y. Kompatsiaris"
+                },
+                {
+                    "authorId": "145937532",
+                    "name": "A. Symeonidis"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "575f8c13ecff9ca415230a338f3c8ff9677f368d",
+            "title": "Prior Signal Editing for Graph Filter Posterior Fairness Constraints",
+            "url": "https://www.semanticscholar.org/paper/575f8c13ecff9ca415230a338f3c8ff9677f368d",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2117505170",
+                    "name": "Johannes D\u00fcsing"
+                },
+                {
+                    "authorId": "39888100",
+                    "name": "Ben Hermann"
+                }
+            ],
+            "doi": "10.1145/3472811",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0d2c1decd27c4bac8e15613bbf790f2b5bbfbb3f",
+            "title": "Analyzing the Direct and Transitive Impact of Vulnerabilities onto Different Artifact Repositories",
+            "url": "https://www.semanticscholar.org/paper/0d2c1decd27c4bac8e15613bbf790f2b5bbfbb3f",
+            "venue": "Digital Threats: Research and Practice",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3408489",
+                    "name": "Christian Macho"
+                },
+                {
+                    "authorId": "1839778",
+                    "name": "S. Beyer"
+                },
+                {
+                    "authorId": "1725534",
+                    "name": "Shane McIntosh"
+                },
+                {
+                    "authorId": "1775709",
+                    "name": "M. Pinzger"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09926-4",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7bbf157b01fdf153041a48d8edb7bee45e6ec78a",
+            "title": "The nature of build changes",
+            "url": "https://www.semanticscholar.org/paper/7bbf157b01fdf153041a48d8edb7bee45e6ec78a",
+            "venue": "Empirical Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": "2102.12105",
+            "authors": [
+                {
+                    "authorId": "2155516518",
+                    "name": "Ying Wang"
+                },
+                {
+                    "authorId": "48812559",
+                    "name": "Liang Qiao"
+                },
+                {
+                    "authorId": "2115473059",
+                    "name": "Chang Xu"
+                },
+                {
+                    "authorId": "39584070",
+                    "name": "Yepang Liu"
+                },
+                {
+                    "authorId": "143608708",
+                    "name": "S. Cheung"
+                },
+                {
+                    "authorId": "46720340",
+                    "name": "Na Meng"
+                },
+                {
+                    "authorId": "46492892",
+                    "name": "Hai Yu"
+                },
+                {
+                    "authorId": "1801532",
+                    "name": "Zhiliang Zhu"
+                }
+            ],
+            "doi": "10.1109/ICSE43902.2021.00022",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f5dd867cbfd537133d571b515c37b17bdf13ffd6",
+            "title": "Hero: On the Chaos When PATH Meets Modules",
+            "url": "https://www.semanticscholar.org/paper/f5dd867cbfd537133d571b515c37b17bdf13ffd6",
+            "venue": "2021 IEEE/ACM 43rd International Conference on Software Engineering (ICSE)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2065040960",
+                    "name": "Camilo Vel\u00e1zquez-Rodr\u00edguez"
+                },
+                {
+                    "authorId": "2502279",
+                    "name": "Coen De Roover"
+                }
+            ],
+            "doi": "10.1109/SCAM51674.2020.00034",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "80693caaf27076a15f5977402cce4bbe6b0c4332",
+            "title": "MUTAMA: An Automated Multi-label Tagging Approach for Software Libraries on Maven",
+            "url": "https://www.semanticscholar.org/paper/80693caaf27076a15f5977402cce4bbe6b0c4332",
+            "venue": "2020 IEEE 20th International Working Conference on Source Code Analysis and Manipulation (SCAM)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51118871",
+                    "name": "Maxime Lamothe"
+                },
+                {
+                    "authorId": "39724619",
+                    "name": "Weiyi Shang"
+                }
+            ],
+            "doi": "10.1145/3377811.3380433",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "fb267600eaac25398f0748eb21ae32a1c2728bb8",
+            "title": "When APIs are Intentionally Bypassed: An Exploratory Study of API Workarounds",
+            "url": "https://www.semanticscholar.org/paper/fb267600eaac25398f0748eb21ae32a1c2728bb8",
+            "venue": "2020 IEEE/ACM 42nd International Conference on Software Engineering (ICSE)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2065040960",
+                    "name": "Camilo Vel\u00e1zquez-Rodr\u00edguez"
+                },
+                {
+                    "authorId": "2502279",
+                    "name": "Coen De Roover"
+                }
+            ],
+            "doi": "10.1145/3387940.3392186",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c5c84568e07d7637db5f951a214a6990642c0c5a",
+            "title": "Automatic library categorization",
+            "url": "https://www.semanticscholar.org/paper/c5c84568e07d7637db5f951a214a6990642c0c5a",
+            "venue": "ICSE",
+            "year": 2020
+        },
+        {
+            "arxivId": "2004.07352",
+            "authors": [
+                {
+                    "authorId": "2075047854",
+                    "name": "John Ahlgren"
+                },
+                {
+                    "authorId": "2599874",
+                    "name": "Maria Eugenia Berezin"
+                },
+                {
+                    "authorId": "1630351196",
+                    "name": "Kinga Bojarczuk"
+                },
+                {
+                    "authorId": "1630282727",
+                    "name": "Elena Dulskyte"
+                },
+                {
+                    "authorId": "1630285266",
+                    "name": "Inna Dvortsova"
+                },
+                {
+                    "authorId": "113134471",
+                    "name": "Johann George"
+                },
+                {
+                    "authorId": "52470690",
+                    "name": "Natalija Gucevska"
+                },
+                {
+                    "authorId": "145836176",
+                    "name": "M. Harman"
+                },
+                {
+                    "authorId": "2115304189",
+                    "name": "Shan He"
+                },
+                {
+                    "authorId": "1738018",
+                    "name": "R. L\u00e4mmel"
+                },
+                {
+                    "authorId": "145943815",
+                    "name": "E. Meijer"
+                },
+                {
+                    "authorId": "87219304",
+                    "name": "Silvia Sapora"
+                },
+                {
+                    "authorId": "1630399015",
+                    "name": "Justin Spahr-Summers"
+                }
+            ],
+            "doi": "10.1145/3387904.3389293",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "3bc00eb2fd3fbead609c48e649f65a3e32b01263",
+            "title": "Ownership at Large: Open Problems and Challenges in Ownership Management",
+            "url": "https://www.semanticscholar.org/paper/3bc00eb2fd3fbead609c48e649f65a3e32b01263",
+            "venue": "2020 IEEE/ACM 28th International Conference on Program Comprehension (ICPC)",
+            "year": 2020
+        },
+        {
+            "arxivId": "2001.07808",
+            "authors": [
+                {
+                    "authorId": "1403836286",
+                    "name": "C\u00e9sar Soto-Valero"
+                },
+                {
+                    "authorId": "8752802",
+                    "name": "Nicolas Harrand"
+                },
+                {
+                    "authorId": "150220964",
+                    "name": "Monperrus Martin"
+                },
+                {
+                    "authorId": "1730420",
+                    "name": "B. Baudry"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09914-8",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "7a746db62375f797ae3a58a8ded8adc4e383377a",
+            "title": "A comprehensive study of bloated dependencies in the Maven ecosystem",
+            "url": "https://www.semanticscholar.org/paper/7a746db62375f797ae3a58a8ded8adc4e383377a",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": "1908.09757",
+            "authors": [
+                {
+                    "authorId": "8752802",
+                    "name": "Nicolas Harrand"
+                },
+                {
+                    "authorId": "3187903",
+                    "name": "Amine Benelallam"
+                },
+                {
+                    "authorId": "1403836286",
+                    "name": "C\u00e9sar Soto-Valero"
+                },
+                {
+                    "authorId": "2133351889",
+                    "name": "Franccois Bettega"
+                },
+                {
+                    "authorId": "2454048",
+                    "name": "Olivier Barais"
+                },
+                {
+                    "authorId": "1730420",
+                    "name": "B. Baudry"
+                }
+            ],
+            "doi": "10.1016/j.jss.2021.111134",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "80dde804268ca949a41cf832c9027ddbc66d8bb9",
+            "title": "API beauty is in the eye of the clients: 2.2 million Maven dependencies reveal the spectrum of client-API usages",
+            "url": "https://www.semanticscholar.org/paper/80dde804268ca949a41cf832c9027ddbc66d8bb9",
+            "venue": "J. Syst. Softw.",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8752802",
+                    "name": "Nicolas Harrand"
+                },
+                {
+                    "authorId": "3187903",
+                    "name": "Amine Benelallam"
+                },
+                {
+                    "authorId": "1403836286",
+                    "name": "C\u00e9sar Soto-Valero"
+                },
+                {
+                    "authorId": "2454048",
+                    "name": "Olivier Barais"
+                },
+                {
+                    "authorId": "1730420",
+                    "name": "B. Baudry"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "8bc90364b6e53238bbe4678689eed4bd3bedff92",
+            "title": "Analyzing 2.3 Million Maven Dependencies to Reveal an Essential Core in APIs",
+            "url": "https://www.semanticscholar.org/paper/8bc90364b6e53238bbe4678689eed4bd3bedff92",
+            "venue": "ArXiv",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": "10.1109/msr45733.2019",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "de20e3a4dbd7d0d30eb4a5b46d6222ba827cf208",
+            "title": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "url": "https://www.semanticscholar.org/paper/de20e3a4dbd7d0d30eb4a5b46d6222ba827cf208",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": "1903.05394",
+            "authors": [
+                {
+                    "authorId": "1403836286",
+                    "name": "C\u00e9sar Soto-Valero"
+                },
+                {
+                    "authorId": "3187903",
+                    "name": "Amine Benelallam"
+                },
+                {
+                    "authorId": "8752802",
+                    "name": "Nicolas Harrand"
+                },
+                {
+                    "authorId": "2454048",
+                    "name": "Olivier Barais"
+                },
+                {
+                    "authorId": "1730420",
+                    "name": "B. Baudry"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00059",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d27c812ae7d42619136109a0309640c735e89e64",
+            "title": "The Emergence of Software Diversity in Maven Central",
+            "url": "https://www.semanticscholar.org/paper/d27c812ae7d42619136109a0309640c735e89e64",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "14274394",
+                    "name": "S. Venkatanarayanan"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8be3b8fbc01b7604f86535e4b6b02642fcb14a51",
+            "title": "Studying and Leveraging API Usage Patterns",
+            "url": "https://www.semanticscholar.org/paper/8be3b8fbc01b7604f86535e4b6b02642fcb14a51",
+            "venue": "",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2189018736",
+                    "name": "Damien Jaime"
+                },
+                {
+                    "authorId": "144901934",
+                    "name": "J. E. Haddad"
+                },
+                {
+                    "authorId": "1696079",
+                    "name": "P. Poizat"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9dc0d3d13ce5e819bed6529db3f334d7c2422bec",
+            "title": "A preliminary study of rhythm and speed in the maven ecosystem",
+            "url": "https://www.semanticscholar.org/paper/9dc0d3d13ce5e819bed6529db3f334d7c2422bec",
+            "venue": "BENEVOL",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2225906938",
+                    "name": "Noak J\u00f6nsson"
+                },
+                {
+                    "authorId": "1730420",
+                    "name": "B. Baudry"
+                },
+                {
+                    "authorId": "1403836286",
+                    "name": "C\u00e9sar Soto-Valero"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "90e7d181059ef891ebd211655fb3710df9dcb121",
+            "title": "The State of Software Diversity in the Software Supply Chain of Ethereum Clients",
+            "url": "https://www.semanticscholar.org/paper/90e7d181059ef891ebd211655fb3710df9dcb121",
+            "venue": "",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "150344358",
+                    "name": "Xinlei Ma"
+                },
+                {
+                    "authorId": "2157171789",
+                    "name": "Yan Liu"
+                }
+            ],
+            "doi": "10.18293/SEKE2020-021",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "6f9bf3bf456d305572ccd649c6538b7ecb1e7647",
+            "title": "An Empirical Study of Maven Archetype",
+            "url": "https://www.semanticscholar.org/paper/6f9bf3bf456d305572ccd649c6538b7ecb1e7647",
+            "venue": "SEKE",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "769d3213b5773d104429763f3c7cf29222e53e55",
+            "title": "Activity Report 2019 Team DIVERSE Diversity-centric Software Engineering Joint team with Inria Rennes \u2013 Bretagne Atlantique D 4 \u2013 Language and Software Engineering",
+            "url": "https://www.semanticscholar.org/paper/769d3213b5773d104429763f3c7cf29222e53e55",
+            "venue": "",
+            "year": 2020
+        }
+    ],
+    "corpusId": 58007083,
+    "doi": "10.1109/MSR.2019.00060",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 4,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 33,
+    "numCiting": 14,
+    "paperId": "ae4b0b428d99169e2c68be668efc66ee575549f0",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1412921664",
+                    "name": "J. Garc\u00eda-Avil\u00e9s"
+                }
+            ],
+            "doi": "10.4135/9781412964289.n298",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3efe88c120819c08143ede15b9ccac04f3b00b36",
+            "title": "Diffusion of Innovation",
+            "url": "https://www.semanticscholar.org/paper/3efe88c120819c08143ede15b9ccac04f3b00b36",
+            "venue": "The International Encyclopedia of Media Psychology",
+            "year": 2020
+        },
+        {
+            "arxivId": "1808.09753",
+            "authors": [
+                {
+                    "authorId": "34266092",
+                    "name": "Ivan Pashchenko"
+                },
+                {
+                    "authorId": "3283588",
+                    "name": "H. Plate"
+                },
+                {
+                    "authorId": "2005211",
+                    "name": "Serena Elisa Ponta"
+                },
+                {
+                    "authorId": "1737833",
+                    "name": "A. Sabetta"
+                },
+                {
+                    "authorId": "1746220",
+                    "name": "F. Massacci"
+                }
+            ],
+            "doi": "10.1145/3239235.3268920",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c30800e9d5ab3296c593b43baee1b1824e887df7",
+            "title": "Vulnerable open source dependencies: counting those that matter",
+            "url": "https://www.semanticscholar.org/paper/c30800e9d5ab3296c593b43baee1b1824e887df7",
+            "venue": "ESEM",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2794053",
+                    "name": "Alexandre Decan"
+                },
+                {
+                    "authorId": "1794675",
+                    "name": "T. Mens"
+                },
+                {
+                    "authorId": "2970508",
+                    "name": "Eleni Constantinou"
+                }
+            ],
+            "doi": "10.1145/3196398.3196401",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "211e923e1f80d29d7c3cac8aba249f5d7da3dd3e",
+            "title": "On the Impact of Security Vulnerabilities in the npm Package Dependency Network",
+            "url": "https://www.semanticscholar.org/paper/211e923e1f80d29d7c3cac8aba249f5d7da3dd3e",
+            "venue": "2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR)",
+            "year": 2018
+        },
+        {
+            "arxivId": "1709.04626",
+            "authors": [
+                {
+                    "authorId": "1680034",
+                    "name": "R. Kula"
+                },
+                {
+                    "authorId": "2502279",
+                    "name": "Coen De Roover"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "145682543",
+                    "name": "T. Ishio"
+                },
+                {
+                    "authorId": "144875558",
+                    "name": "Katsuro Inoue"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b54713a077db418cc0a2b87a3255cfb67e24be63",
+            "title": "Modeling Library Dependencies and Updates in Large Software Repository Universes",
+            "url": "https://www.semanticscholar.org/paper/b54713a077db418cc0a2b87a3255cfb67e24be63",
+            "venue": "ArXiv",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2016688",
+                    "name": "R. Kikas"
+                },
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "144065089",
+                    "name": "M. Dumas"
+                },
+                {
+                    "authorId": "1681323",
+                    "name": "Dietmar Pfahl"
+                }
+            ],
+            "doi": "10.1109/MSR.2017.55",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d0a9d38c33229834dd55dc2050bf43fb77be3328",
+            "title": "Structure and Evolution of Package Dependency Networks",
+            "url": "https://www.semanticscholar.org/paper/d0a9d38c33229834dd55dc2050bf43fb77be3328",
+            "venue": "2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144732372",
+                    "name": "Ke Mao"
+                },
+                {
+                    "authorId": "47809306",
+                    "name": "L. Capra"
+                },
+                {
+                    "authorId": "145836176",
+                    "name": "M. Harman"
+                },
+                {
+                    "authorId": "145401173",
+                    "name": "Yue Jia"
+                }
+            ],
+            "doi": "10.1016/J.JSS.2016.09.015",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2b19768afa6fbf5abb19790cd1ee991574129933",
+            "title": "A survey of the use of crowdsourcing in software engineering",
+            "url": "https://www.semanticscholar.org/paper/2b19768afa6fbf5abb19790cd1ee991574129933",
+            "venue": "J. Syst. Softw.",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "108514702",
+                    "name": "E. Taylor"
+                }
+            ],
+            "doi": "10.1002/RWM3.20033",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "676d896bbdeb3297273ef23f5ffd9f5e7fbc5508",
+            "title": "The Diffusion of Innovation",
+            "url": "https://www.semanticscholar.org/paper/676d896bbdeb3297273ef23f5ffd9f5e7fbc5508",
+            "venue": "",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2546164",
+                    "name": "S. Raemaekers"
+                },
+                {
+                    "authorId": "1737202",
+                    "name": "A. Deursen"
+                },
+                {
+                    "authorId": "145039625",
+                    "name": "Joost Visser"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624031",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a98aabd33ec05291d696d1f94670f4b44e0b8ba6",
+            "title": "The Maven repository dataset of metrics, changes, and dependencies",
+            "url": "https://www.semanticscholar.org/paper/a98aabd33ec05291d696d1f94670f4b44e0b8ba6",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3026603",
+                    "name": "Yana Momchilova Mileva"
+                },
+                {
+                    "authorId": "1783197",
+                    "name": "Valentin Dallmeier"
+                },
+                {
+                    "authorId": "143906289",
+                    "name": "Martin Burger"
+                },
+                {
+                    "authorId": "145594351",
+                    "name": "A. Zeller"
+                }
+            ],
+            "doi": "10.1145/1595808.1595821",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "06a699b4d9b576d832f95ff1bc360b61af203de4",
+            "title": "Mining trends of library usage",
+            "url": "https://www.semanticscholar.org/paper/06a699b4d9b576d832f95ff1bc360b61af203de4",
+            "venue": "IWPSE-Evol '09",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "OpenCypher",
+            "url": "",
+            "venue": "opencypher.org/projects",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "RabbitMQ",
+            "url": "",
+            "venue": "rabbitmq.com",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Sonatype releases 2016 state of the software supply chain report,",
+            "url": "",
+            "venue": "Sonatype",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Inria",
+            "url": "",
+            "venue": "Maven-miner",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Maven-miner procedures",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "The Maven Dependency Graph: A Temporal Graph-Based Representation of Maven Central",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/ae4b0b428d99169e2c68be668efc66ee575549f0",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2019
+}

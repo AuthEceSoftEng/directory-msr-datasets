@@ -1,0 +1,509 @@
+{
+    "abstract": "A growing interest in deep learning (DL) has instigated a concomitant rise in DL-related software (DLSW). Therefore, the importance of DLSW quality has emerged as a vital issue. Simultaneously, researchers have found DLSW more complicated than traditional SW and more difficult to debug owing to the black-box nature of DL. These studies indicate the necessity of automatic debugging techniques for DLSW. Although several validated debugging techniques exist for general SW, no such techniques exist for DLSW. There is no standard bug benchmark to validate these automatic debugging techniques. In this study, we introduce a novel bug benchmark for DLSW, Denchmark, consisting of 4,577 bug reports from 193 popular DLSW projects, collected through a systematic dataset construction process. These DLSW projects are further classified into eight categories: framework, platform, engine, compiler, tool, library, DL-based application, and others. All bug reports in Denchmark contain rich textual information and links with bug-fixing commits, as well as three levels of buggy entities, such as files, methods, and lines. Our dataset aims to provide an invaluable starting point for the automatic debugging techniques of DLSW.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "50828217",
+            "name": "Misoo Kim",
+            "url": "https://www.semanticscholar.org/author/50828217"
+        },
+        {
+            "authorId": "2108091433",
+            "name": "Youngkyoung Kim",
+            "url": "https://www.semanticscholar.org/author/2108091433"
+        },
+        {
+            "authorId": "3282389",
+            "name": "Eunseok Lee",
+            "url": "https://www.semanticscholar.org/author/3282389"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2406.08688",
+            "authors": [
+                {
+                    "authorId": "2152642519",
+                    "name": "Zhongzheng Lai"
+                },
+                {
+                    "authorId": "2273385604",
+                    "name": "Huaming Chen"
+                },
+                {
+                    "authorId": "2028613172",
+                    "name": "Ruoxi Sun"
+                },
+                {
+                    "authorId": "2153638087",
+                    "name": "Yu Zhang"
+                },
+                {
+                    "authorId": "2237843527",
+                    "name": "Minhui Xue"
+                },
+                {
+                    "authorId": "2275160928",
+                    "name": "Dong Yuan"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "3d4da7cae86488b94253d0894c459279814c7400",
+            "title": "On Security Weaknesses and Vulnerabilities in Deep Learning Systems",
+            "url": "https://www.semanticscholar.org/paper/3d4da7cae86488b94253d0894c459279814c7400",
+            "venue": "",
+            "year": 2024
+        },
+        {
+            "arxivId": "2404.17871",
+            "authors": [
+                {
+                    "authorId": "2115795653",
+                    "name": "Xiaoyu Zhang"
+                },
+                {
+                    "authorId": "2261495136",
+                    "name": "Weipeng Jiang"
+                },
+                {
+                    "authorId": "2257125402",
+                    "name": "Chao Shen"
+                },
+                {
+                    "authorId": "2118912606",
+                    "name": "Qi Li"
+                },
+                {
+                    "authorId": "2283809871",
+                    "name": "Qian Wang"
+                },
+                {
+                    "authorId": "10442800",
+                    "name": "Chenhao Lin"
+                },
+                {
+                    "authorId": "2298959825",
+                    "name": "Xiaohong Guan"
+                }
+            ],
+            "doi": "10.48550/arXiv.2404.17871",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c9a0780a226abd1e3da4e386e0f9009b9d2bf6f6",
+            "title": "A Survey of Deep Learning Library Testing Methods",
+            "url": "https://www.semanticscholar.org/paper/c9a0780a226abd1e3da4e386e0f9009b9d2bf6f6",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": "2404.17046",
+            "authors": [
+                {
+                    "authorId": "17344806",
+                    "name": "Maram Assi"
+                },
+                {
+                    "authorId": "2298873690",
+                    "name": "Safwat Hassan"
+                },
+                {
+                    "authorId": "2298762910",
+                    "name": "Ying Zou"
+                }
+            ],
+            "doi": "10.48550/arXiv.2404.17046",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1b4c7e7d55f37d269f793af78bb75a8da36589be",
+            "title": "Unraveling Code Clone Dynamics in Deep Learning Frameworks",
+            "url": "https://www.semanticscholar.org/paper/1b4c7e7d55f37d269f793af78bb75a8da36589be",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": "2402.01021",
+            "authors": [
+                {
+                    "authorId": "2041779183",
+                    "name": "Sigma Jahan"
+                },
+                {
+                    "authorId": "1573915878",
+                    "name": "Mehil B. Shah"
+                },
+                {
+                    "authorId": "2238172661",
+                    "name": "Mohammad Masudur Rahman"
+                }
+            ],
+            "doi": "10.48550/arXiv.2402.01021",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "92001468c18a9f2b48046f05553ef715ec06628e",
+            "title": "Towards Understanding the Challenges of Bug Localization in Deep Learning Systems",
+            "url": "https://www.semanticscholar.org/paper/92001468c18a9f2b48046f05553ef715ec06628e",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": "2307.13777",
+            "authors": [
+                {
+                    "authorId": "2174176115",
+                    "name": "Vahid Majdinasab"
+                },
+                {
+                    "authorId": "2222761024",
+                    "name": "Sharon Chee Yin Ho"
+                },
+                {
+                    "authorId": "2174794868",
+                    "name": "Mohayeminul Islam"
+                },
+                {
+                    "authorId": "115989708",
+                    "name": "D. Costa"
+                },
+                {
+                    "authorId": "3318024",
+                    "name": "Emad Shihab"
+                },
+                {
+                    "authorId": "1703493",
+                    "name": "Foutse Khomh"
+                },
+                {
+                    "authorId": "1869015",
+                    "name": "Sarah Nadi"
+                },
+                {
+                    "authorId": "2224891018",
+                    "name": "Muhammad Raza"
+                }
+            ],
+            "doi": "10.1109/ICSME58846.2023.00031",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ba4d0821c24e18dc67109d3e6dfcec8e389157ed",
+            "title": "An Empirical Study on Bugs Inside PyTorch: A Replication Study",
+            "url": "https://www.semanticscholar.org/paper/ba4d0821c24e18dc67109d3e6dfcec8e389157ed",
+            "venue": "2023 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2154947722",
+                    "name": "Jinseok Heo"
+                },
+                {
+                    "authorId": "3418150",
+                    "name": "Hohyeon Jeong"
+                },
+                {
+                    "authorId": "3282389",
+                    "name": "Eunseok Lee"
+                }
+            ],
+            "doi": "10.3390/electronics12010179",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "40996f13d3ac73badea15f3e4bf4ad77d68891cd",
+            "title": "Patch It If You Can: Increasing the Efficiency of Patch Generation Using Context",
+            "url": "https://www.semanticscholar.org/paper/40996f13d3ac73badea15f3e4bf4ad77d68891cd",
+            "venue": "Electronics",
+            "year": 2022
+        },
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": "2208.04125",
+            "authors": [
+                {
+                    "authorId": "2069990130",
+                    "name": "Haoye Tian"
+                },
+                {
+                    "authorId": "2109925415",
+                    "name": "Xunzhu Tang"
+                },
+                {
+                    "authorId": "1840614",
+                    "name": "Andrew Habib"
+                },
+                {
+                    "authorId": "49184504",
+                    "name": "Shangwen Wang"
+                },
+                {
+                    "authorId": "145407228",
+                    "name": "Kui Liu"
+                },
+                {
+                    "authorId": "2150058039",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                },
+                {
+                    "authorId": "2170164497",
+                    "name": "Tegawend'e F. Bissyand'e"
+                }
+            ],
+            "doi": "10.1145/3551349.3556914",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "bd7d7f7d79df4c628494ee4d6ce19cd7dbebb367",
+            "title": "Is this Change the Answer to that Problem?: Correlating Descriptions of Bug and Code Changes for Evaluating Patch Correctness",
+            "url": "https://www.semanticscholar.org/paper/bd7d7f7d79df4c628494ee4d6ce19cd7dbebb367",
+            "venue": "ASE",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2108091433",
+                    "name": "Youngkyoung Kim"
+                },
+                {
+                    "authorId": "50828217",
+                    "name": "Misoo Kim"
+                },
+                {
+                    "authorId": "3282389",
+                    "name": "Eunseok Lee"
+                }
+            ],
+            "doi": "10.1609/aaai.v36i11.21628",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "cc35d924b8de42c94b2eb82b8681cf0a853b1a6f",
+            "title": "Tracking Down Misguiding Terms for Locating Bugs in Deep Learning-Based Software (Student Abstract)",
+            "url": "https://www.semanticscholar.org/paper/cc35d924b8de42c94b2eb82b8681cf0a853b1a6f",
+            "venue": "AAAI",
+            "year": 2022
+        },
+        {
+            "arxivId": "2206.12311",
+            "authors": [
+                {
+                    "authorId": "2093917139",
+                    "name": "Mohammad Mehdi Morovati"
+                },
+                {
+                    "authorId": "2076564",
+                    "name": "Amin Nikanjam"
+                },
+                {
+                    "authorId": "1703493",
+                    "name": "Foutse Khomh"
+                },
+                {
+                    "authorId": "1762589",
+                    "name": "Z. Jiang"
+                }
+            ],
+            "doi": "10.1007/s10664-023-10291-1",
+            "intent": [
+                "background",
+                "result"
+            ],
+            "isInfluential": true,
+            "paperId": "68332121944a398eef15b84a1477f7a64a56f32a",
+            "title": "Bugs in machine learning-based systems: a faultload benchmark",
+            "url": "https://www.semanticscholar.org/paper/68332121944a398eef15b84a1477f7a64a56f32a",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144188161",
+                    "name": "Thomas Hirsch"
+                },
+                {
+                    "authorId": "3334382",
+                    "name": "Birgit Hofer"
+                }
+            ],
+            "doi": "10.1016/j.jss.2022.111423",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9a7b7867d1c2a540fd2c3ad9df666a32751374e2",
+            "title": "A systematic literature review on benchmarks for evaluating debugging approaches",
+            "url": "https://www.semanticscholar.org/paper/9a7b7867d1c2a540fd2c3ad9df666a32751374e2",
+            "venue": "J. Syst. Softw.",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50828217",
+                    "name": "Misoo Kim"
+                },
+                {
+                    "authorId": "2108091433",
+                    "name": "Youngkyoung Kim"
+                },
+                {
+                    "authorId": "3282389",
+                    "name": "Eunseok Lee"
+                }
+            ],
+            "doi": "10.1145/3477314.3507034",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c1c4c7e2a2c4961bbbed6bebaef5400d31947c94",
+            "title": "How does the first buggy file work well for iterative IR-based bug localization?",
+            "url": "https://www.semanticscholar.org/paper/c1c4c7e2a2c4961bbbed6bebaef5400d31947c94",
+            "venue": "SAC",
+            "year": 2022
+        },
+        {
+            "arxivId": "2112.01771",
+            "authors": [
+                {
+                    "authorId": "1484975518",
+                    "name": "Junming Cao"
+                },
+                {
+                    "authorId": "144943089",
+                    "name": "Bihuan Chen"
+                },
+                {
+                    "authorId": "2118134385",
+                    "name": "Chao Sun"
+                },
+                {
+                    "authorId": "2143147078",
+                    "name": "Longjie Hu"
+                },
+                {
+                    "authorId": "2152956464",
+                    "name": "Shuai Wu"
+                },
+                {
+                    "authorId": "2152488627",
+                    "name": "Xin Peng"
+                }
+            ],
+            "doi": "10.1145/3540250.3549123",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9fe40f1ca822dd093caadc8c7976c06df03dd783",
+            "title": "Understanding performance problems in deep learning systems",
+            "url": "https://www.semanticscholar.org/paper/9fe40f1ca822dd093caadc8c7976c06df03dd783",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1484975518",
+                    "name": "Junming Cao"
+                },
+                {
+                    "authorId": "144943089",
+                    "name": "Bihuan Chen"
+                },
+                {
+                    "authorId": "2118134385",
+                    "name": "Chao Sun"
+                },
+                {
+                    "authorId": "2143147078",
+                    "name": "Longjie Hu"
+                },
+                {
+                    "authorId": "2152488627",
+                    "name": "Xin Peng"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "833ca46ef77fdd36e1a13bf1387995c29f253cc7",
+            "title": "Characterizing Performance Bugs in Deep Learning Systems",
+            "url": "https://www.semanticscholar.org/paper/833ca46ef77fdd36e1a13bf1387995c29f253cc7",
+            "venue": "ArXiv",
+            "year": 2021
+        }
+    ],
+    "corpusId": 235718332,
+    "doi": "10.1109/MSR52588.2021.00070",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 2,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 14,
+    "numCiting": 0,
+    "paperId": "5aab5ff7a951b2015c626067a3a3702f62c7c9f1",
+    "references": [],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "Denchmark: A Bug Benchmark of Deep Learning-related Software",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/5aab5ff7a951b2015c626067a3a3702f62c7c9f1",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2021
+}

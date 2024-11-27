@@ -1,0 +1,998 @@
+{
+    "abstract": "Team communication is essential for the development of modern software systems. For distributed software development teams, such as those found in many open source projects, this communication usually takes place using electronic tools. Among these, modern chat platforms such as Gitter are becoming the de facto choice for many software projects due to their advanced features geared towards software development and effective team communication. Gitter channels contain numerous messages exchanged by developers regarding the state of the project, issues and features of the system, team logistics, etc. These messages can contain important information to researchers studying open source software systems, developers new to a particular project and trying to get familiar with the software, etc. Therefore, uncovering what developers are communicating about through Gitter is an essential first step to-wards successfully understanding and leveraging this information. We present a new dataset, called GitterCom, which aims to enable research in this direction and represents the largest manually labeled and curated dataset of Gitter developer messages. The dataset is comprised of 10,000 messages collected from 10 Gitter communities associated with the development of open source software. Each message was manually annotated and verified by two of the authors, capturing the purpose of the communication expressed by the message. While the dataset has not yet been used in any publication, we discuss how it can enable interesting research opportunities.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "143855593",
+            "name": "Esteban Parra",
+            "url": "https://www.semanticscholar.org/author/143855593"
+        },
+        {
+            "authorId": "153263280",
+            "name": "A. Ellis",
+            "url": "https://www.semanticscholar.org/author/153263280"
+        },
+        {
+            "authorId": "1762499",
+            "name": "S. Haiduc",
+            "url": "https://www.semanticscholar.org/author/1762499"
+        }
+    ],
+    "citationVelocity": 6,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2273956338",
+                    "name": "Esteban Parra"
+                }
+            ],
+            "doi": "10.1109/ICSME58846.2023.00078",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "891f2ed257821b9368c023ef2ac22b38745e126c",
+            "title": "Developers and Modern Communication Mediums",
+            "url": "https://www.semanticscholar.org/paper/891f2ed257821b9368c023ef2ac22b38745e126c",
+            "venue": "2023 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2258515420",
+                    "name": "Tumu Akshar"
+                },
+                {
+                    "authorId": "2258072386",
+                    "name": "Lov Kumar"
+                },
+                {
+                    "authorId": "2258517382",
+                    "name": "Dr. Yogita"
+                },
+                {
+                    "authorId": "2042202334",
+                    "name": "Lalita Bhanu Murthy"
+                }
+            ],
+            "doi": "10.15439/2023F6950",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "08000cd02ab8b08a6742d02b86e022259fb4e20d",
+            "title": "Comparative Analysis of Word Embedding and Machine Learning Techniques for Classification of Software Developer Communications on Gitter",
+            "url": "https://www.semanticscholar.org/paper/08000cd02ab8b08a6742d02b86e022259fb4e20d",
+            "venue": "2023 18th Conference on Computer Science and Intelligence Systems (FedCSIS)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2305.01273",
+            "authors": [
+                {
+                    "authorId": "1736420",
+                    "name": "B. Savarimuthu"
+                },
+                {
+                    "authorId": "2091394139",
+                    "name": "Zoofishan Zareen"
+                },
+                {
+                    "authorId": "1583778267",
+                    "name": "Jithin Cheriyan"
+                },
+                {
+                    "authorId": "2215861448",
+                    "name": "Muhammad Yasir"
+                },
+                {
+                    "authorId": "1751457",
+                    "name": "M. Galster"
+                }
+            ],
+            "doi": "10.1145/3593434.3593463",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "897590558c488095e38a170805266bc2679fedbe",
+            "title": "Barriers for Social Inclusion in Online Software Engineering Communities - A Study of Offensive Language Use in Gitter Projects",
+            "url": "https://www.semanticscholar.org/paper/897590558c488095e38a170805266bc2679fedbe",
+            "venue": "EASE",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2093184672",
+                    "name": "Guodong Fan"
+                },
+                {
+                    "authorId": "2110750613",
+                    "name": "Shizhan Chen"
+                },
+                {
+                    "authorId": "2120430652",
+                    "name": "Hongyue Wu"
+                },
+                {
+                    "authorId": "2337550",
+                    "name": "Cuiyun Gao"
+                },
+                {
+                    "authorId": "27058920",
+                    "name": "Jianmao Xiao"
+                },
+                {
+                    "authorId": "144664442",
+                    "name": "Xiao Xue"
+                },
+                {
+                    "authorId": "2113907598",
+                    "name": "Zhiyong Feng"
+                }
+            ],
+            "doi": "10.1016/j.jss.2023.111763",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2f21d897cb1e808c609d7a0e6a136cce23e9050d",
+            "title": "Dialog summarization for software collaborative platform via tuning pre-trained models",
+            "url": "https://www.semanticscholar.org/paper/2f21d897cb1e808c609d7a0e6a136cce23e9050d",
+            "venue": "J. Syst. Softw.",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2071967484",
+                    "name": "E. Riggio"
+                },
+                {
+                    "authorId": "2248487",
+                    "name": "Marco Raglianti"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                }
+            ],
+            "doi": "10.1109/ICPC58990.2023.00018",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0930105c63685cb3a13d877aa8a146682f84de53",
+            "title": "Conversation Disentanglement As-a-Service",
+            "url": "https://www.semanticscholar.org/paper/0930105c63685cb3a13d877aa8a146682f84de53",
+            "venue": "2023 IEEE/ACM 31st International Conference on Program Comprehension (ICPC)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2248487",
+                    "name": "Marco Raglianti"
+                },
+                {
+                    "authorId": "144116331",
+                    "name": "Csaba Nagy"
+                },
+                {
+                    "authorId": "2623644",
+                    "name": "Roberto Minelli"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                }
+            ],
+            "doi": "10.1109/ICSME55016.2022.00062",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1511c7f4cad5510ed58222869c7be27cb51ab570",
+            "title": "DiscOrDance: Visualizing Software Developers Communities on Discord",
+            "url": "https://www.semanticscholar.org/paper/1511c7f4cad5510ed58222869c7be27cb51ab570",
+            "venue": "2022 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2008228247",
+                    "name": "Camila Mariane Costa Silva"
+                },
+                {
+                    "authorId": "1751457",
+                    "name": "M. Galster"
+                },
+                {
+                    "authorId": "1699235",
+                    "name": "Fabian Gilson"
+                }
+            ],
+            "doi": "10.1016/j.jss.2022.111397",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9782963ff0457fadd12b6db841864587afb836dd",
+            "title": "A qualitative analysis of themes in instant messaging communication of software developers",
+            "url": "https://www.semanticscholar.org/paper/9782963ff0457fadd12b6db841864587afb836dd",
+            "venue": "J. Syst. Softw.",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2111436501",
+                    "name": "Courtney Miller"
+                },
+                {
+                    "authorId": "2149810423",
+                    "name": "Sophie Cohen"
+                },
+                {
+                    "authorId": "2076339523",
+                    "name": "D. Klug"
+                },
+                {
+                    "authorId": "2434621",
+                    "name": "Bogdan Vasilescu"
+                },
+                {
+                    "authorId": "145832795",
+                    "name": "Christian K\u00e4stner"
+                }
+            ],
+            "doi": "10.1145/3510003.3510111",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "dad7810836060b8e6364e070ac3d0054644d17e7",
+            "title": "\u201cDid You Miss My Comment or What?\u201d Understanding Toxicity in Open Source Discussions",
+            "url": "https://www.semanticscholar.org/paper/dad7810836060b8e6364e070ac3d0054644d17e7",
+            "venue": "2022 IEEE/ACM 44th International Conference on Software Engineering (ICSE)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2248487",
+                    "name": "Marco Raglianti"
+                }
+            ],
+            "doi": "10.1145/3510454.3517068",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e6e79a5a7c744ce938e95ab02afe2c342bc5dbfa",
+            "title": "Topology of the Documentation Landscape",
+            "url": "https://www.semanticscholar.org/paper/e6e79a5a7c744ce938e95ab02afe2c342bc5dbfa",
+            "venue": "2022 IEEE/ACM 44th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2172214457",
+                    "name": "Keerthana Muthu Subash"
+                },
+                {
+                    "authorId": "2052125282",
+                    "name": "L. P. Kumar"
+                },
+                {
+                    "authorId": "2555008",
+                    "name": "Srinivas Vadlamani"
+                },
+                {
+                    "authorId": "9728244",
+                    "name": "Preetha Chatterjee"
+                },
+                {
+                    "authorId": "25701557",
+                    "name": "Olga Baysal"
+                }
+            ],
+            "doi": "10.1145/3524842.3528018",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "10aad7fdd11997f6c78934ca76771ba46867fcf8",
+            "title": "DISCO: A Dataset of Discord Chat Conversations for Software Engineering Research",
+            "url": "https://www.semanticscholar.org/paper/10aad7fdd11997f6c78934ca76771ba46867fcf8",
+            "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2248487",
+                    "name": "Marco Raglianti"
+                },
+                {
+                    "authorId": "144116331",
+                    "name": "Csaba Nagy"
+                },
+                {
+                    "authorId": "2623644",
+                    "name": "Roberto Minelli"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                }
+            ],
+            "doi": "10.1145/3524610.3528388",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d2140f7cbc7f66380e3fe20236fae7a149c8b0ce",
+            "title": "Using Discord Conversations as Program Comprehension Aid",
+            "url": "https://www.semanticscholar.org/paper/d2140f7cbc7f66380e3fe20236fae7a149c8b0ce",
+            "venue": "2022 IEEE/ACM 30th International Conference on Program Comprehension (ICPC)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2204.09368",
+            "authors": [
+                {
+                    "authorId": "2152999042",
+                    "name": "Lin Shi"
+                },
+                {
+                    "authorId": "1994579604",
+                    "name": "Fangwen Mu"
+                },
+                {
+                    "authorId": "2142962639",
+                    "name": "Yumin Zhang"
+                },
+                {
+                    "authorId": "49307665",
+                    "name": "Ye Yang"
+                },
+                {
+                    "authorId": "123878420",
+                    "name": "Junjie Chen"
+                },
+                {
+                    "authorId": "2119244568",
+                    "name": "Xiao Chen"
+                },
+                {
+                    "authorId": "2152631859",
+                    "name": "Hanzhi Jiang"
+                },
+                {
+                    "authorId": "2108879204",
+                    "name": "Ziyou Jiang"
+                },
+                {
+                    "authorId": "2157214565",
+                    "name": "Qing Wang"
+                }
+            ],
+            "doi": "10.1145/3510003.3510108",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0f8fa20863ea1ebbc23a48aba666fa424838270c",
+            "title": "BugListener: Identifying and Synthesizing Bug Reports from Collaborative Live Chats",
+            "url": "https://www.semanticscholar.org/paper/0f8fa20863ea1ebbc23a48aba666fa424838270c",
+            "venue": "2022 IEEE/ACM 44th International Conference on Software Engineering (ICSE)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143855593",
+                    "name": "Esteban Parra"
+                },
+                {
+                    "authorId": "50880538",
+                    "name": "Mohammad D. Alahmadi"
+                },
+                {
+                    "authorId": "153263280",
+                    "name": "A. Ellis"
+                },
+                {
+                    "authorId": "1762499",
+                    "name": "S. Haiduc"
+                }
+            ],
+            "doi": "10.1007/s10664-021-10095-1",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "64218fceee7989710aef153c94ecb9a542438018",
+            "title": "A comparative study and analysis of developer communications on Slack and Gitter\ufeff",
+            "url": "https://www.semanticscholar.org/paper/64218fceee7989710aef153c94ecb9a542438018",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34602066",
+                    "name": "Mariam El Mezouar"
+                },
+                {
+                    "authorId": "152197227",
+                    "name": "Daniel Alencar da Costa"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                },
+                {
+                    "authorId": "145930277",
+                    "name": "Ying Zou"
+                }
+            ],
+            "doi": "10.1109/TSE.2021.3109617",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "76875696cfcf430a79a0d2adcd1756f5b6c42938",
+            "title": "Exploring the Use of Chatrooms by Developers: An Empirical Study on Slack and Gitter",
+            "url": "https://www.semanticscholar.org/paper/76875696cfcf430a79a0d2adcd1756f5b6c42938",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": "2107.05823",
+            "authors": [
+                {
+                    "authorId": "2152999042",
+                    "name": "Lin Shi"
+                },
+                {
+                    "authorId": "2119244568",
+                    "name": "Xiao Chen"
+                },
+                {
+                    "authorId": "49307665",
+                    "name": "Ye Yang"
+                },
+                {
+                    "authorId": "2152631859",
+                    "name": "Hanzhi Jiang"
+                },
+                {
+                    "authorId": "2108879204",
+                    "name": "Ziyou Jiang"
+                },
+                {
+                    "authorId": "2793310",
+                    "name": "Nan Niu"
+                },
+                {
+                    "authorId": "40326638",
+                    "name": "Qing Wang"
+                }
+            ],
+            "doi": "10.1145/3468264.3468562",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "de2544e66a99b49da65f7ecb0f63d6ea817d3083",
+            "title": "A first look at developers\u2019 live chat on Gitter",
+            "url": "https://www.semanticscholar.org/paper/de2544e66a99b49da65f7ecb0f63d6ea817d3083",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2021
+        },
+        {
+            "arxivId": "2106.02245",
+            "authors": [
+                {
+                    "authorId": "1583778267",
+                    "name": "Jithin Cheriyan"
+                },
+                {
+                    "authorId": "1736420",
+                    "name": "B. Savarimuthu"
+                },
+                {
+                    "authorId": "1707051",
+                    "name": "Stephen Cranefield"
+                }
+            ],
+            "doi": "10.1145/3463274.3463805",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "af1bd2bd9ded6a729a2ee89d6caac14d7ccd9cfd",
+            "title": "Towards offensive language detection and reduction in four Software Engineering communities",
+            "url": "https://www.semanticscholar.org/paper/af1bd2bd9ded6a729a2ee89d6caac14d7ccd9cfd",
+            "venue": "EASE",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2152631859",
+                    "name": "Hanzhi Jiang"
+                },
+                {
+                    "authorId": "2305416699",
+                    "name": "Lin Shi"
+                },
+                {
+                    "authorId": "2305355075",
+                    "name": "Meiru Che"
+                },
+                {
+                    "authorId": "2167503058",
+                    "name": "Yuxia Zhang"
+                },
+                {
+                    "authorId": "2157214565",
+                    "name": "Qing Wang"
+                }
+            ],
+            "doi": "10.1109/tse.2024.3410292",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "89dba1ca7e3313f227ed56166a56fb5d4b1aebd1",
+            "title": "Bringing Open Source Communication and Development Together: A Cross-Platform Study on Gitter and GitHub",
+            "url": "https://www.semanticscholar.org/paper/89dba1ca7e3313f227ed56166a56fb5d4b1aebd1",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2248487",
+                    "name": "Marco Raglianti"
+                },
+                {
+                    "authorId": "144116331",
+                    "name": "Csaba Nagy"
+                },
+                {
+                    "authorId": "2623644",
+                    "name": "Roberto Minelli"
+                },
+                {
+                    "authorId": "144375145",
+                    "name": "B. Lin"
+                },
+                {
+                    "authorId": "144216050",
+                    "name": "Michele Lanza"
+                }
+            ],
+            "doi": "10.4230/LIPIcs.ECOOP.2023.43",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1c1d03fbee03c62ee28cb196001c7fa43f96edf2",
+            "title": "On the Rise of Modern Software Documentation (Pearl/Brave New Idea)",
+            "url": "https://www.semanticscholar.org/paper/1c1d03fbee03c62ee28cb196001c7fa43f96edf2",
+            "venue": "ECOOP",
+            "year": 2023
+        }
+    ],
+    "corpusId": 221784811,
+    "doi": "10.1145/3379597.3387494",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 19,
+    "numCiting": 14,
+    "paperId": "07267f6419c5bb2620d9e037f4bea90242595cd7",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "23159151",
+                    "name": "V. Stray"
+                },
+                {
+                    "authorId": "1705411",
+                    "name": "N. B. Moe"
+                },
+                {
+                    "authorId": "1811235696",
+                    "name": "M. Noroozi"
+                }
+            ],
+            "doi": "10.1109/ICGSE.2019.00031",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4d7e2751687ba239fdc8384f17d90128991d91ba",
+            "title": "Slack Me If You Can! Using Enterprise Social Networking Tools in Virtual Agile Teams",
+            "url": "https://www.semanticscholar.org/paper/4d7e2751687ba239fdc8384f17d90128991d91ba",
+            "venue": "2019 ACM/IEEE 14th International Conference on Global Software Engineering (ICGSE)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "9728244",
+                    "name": "Preetha Chatterjee"
+                },
+                {
+                    "authorId": "1703177",
+                    "name": "Kostadin Damevski"
+                },
+                {
+                    "authorId": "1699934",
+                    "name": "L. Pollock"
+                },
+                {
+                    "authorId": "2648839",
+                    "name": "Vinay Augustine"
+                },
+                {
+                    "authorId": "1679523",
+                    "name": "Nicholas A. Kraft"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00075",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c78fb820c84ba7195207a413c6401a27997e0750",
+            "title": "Exploratory Study of Slack Q&A Chats as a Mining Source for Software Engineering Tools",
+            "url": "https://www.semanticscholar.org/paper/c78fb820c84ba7195207a413c6401a27997e0750",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": "1803.09529",
+            "authors": [
+                {
+                    "authorId": "3326871",
+                    "name": "Verena K\u00e4fer"
+                },
+                {
+                    "authorId": "1963315",
+                    "name": "D. Graziotin"
+                },
+                {
+                    "authorId": "145083636",
+                    "name": "Ivan Bogicevic"
+                },
+                {
+                    "authorId": "49859108",
+                    "name": "S. Wagner"
+                },
+                {
+                    "authorId": "3184244",
+                    "name": "Jasmin Ramadani"
+                }
+            ],
+            "doi": "10.1145/3183440.3194951",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d9886171f9747377f3a04e9bb5d541ef29f4eaba",
+            "title": "Poster: Communication in Open-Source Projects\u2013End of the E-mail Era?",
+            "url": "https://www.semanticscholar.org/paper/d9886171f9747377f3a04e9bb5d541ef29f4eaba",
+            "venue": "2018 IEEE/ACM 40th International Conference on Software Engineering: Companion (ICSE-Companion)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144118599",
+                    "name": "Rana Alkadhi"
+                },
+                {
+                    "authorId": "7745328",
+                    "name": "Jan Ole Johanssen"
+                },
+                {
+                    "authorId": "144540463",
+                    "name": "Emitz\u00e1 Guzm\u00e1n"
+                },
+                {
+                    "authorId": "1692839",
+                    "name": "B. Br\u00fcgge"
+                }
+            ],
+            "doi": "10.1109/ESEM.2017.26",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "dc712cf039705d621458cf85b560a30e33ae6907",
+            "title": "REACT: An Approach for Capturing Rationale in Chat Messages",
+            "url": "https://www.semanticscholar.org/paper/dc712cf039705d621458cf85b560a30e33ae6907",
+            "venue": "2017 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)",
+            "year": 2017
+        },
+        {
+            "arxivId": "1704.08500",
+            "authors": [
+                {
+                    "authorId": "144118599",
+                    "name": "Rana Alkadhi"
+                },
+                {
+                    "authorId": "10802300",
+                    "name": "Teodora Lata"
+                },
+                {
+                    "authorId": "144540463",
+                    "name": "Emitz\u00e1 Guzm\u00e1n"
+                },
+                {
+                    "authorId": "1692839",
+                    "name": "B. Br\u00fcgge"
+                }
+            ],
+            "doi": "10.1109/MSR.2017.43",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d98156672710c1d479ecbe8bce0a54de3a6ac37e",
+            "title": "Rationale in Development Chat Messages: An Exploratory Study",
+            "url": "https://www.semanticscholar.org/paper/d98156672710c1d479ecbe8bce0a54de3a6ac37e",
+            "venue": "2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2049376557",
+                    "name": "D. Daly"
+                }
+            ],
+            "doi": "10.1215/00265667-3786731",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2577b2f1933ba28d857984abb043f3a2f1363e18",
+            "title": "Marionette",
+            "url": "https://www.semanticscholar.org/paper/2577b2f1933ba28d857984abb043f3a2f1363e18",
+            "venue": "",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1734938",
+                    "name": "M. Storey"
+                },
+                {
+                    "authorId": "1945021",
+                    "name": "A. Zagalsky"
+                },
+                {
+                    "authorId": "5011359",
+                    "name": "Fernando Marques Figueira Filho"
+                },
+                {
+                    "authorId": "18264995",
+                    "name": "Leif Singer"
+                },
+                {
+                    "authorId": "2131161",
+                    "name": "D. Germ\u00e1n"
+                }
+            ],
+            "doi": "10.1109/TSE.2016.2584053",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fc9f2c9c8614d12812a9706a78517a0b8e435baf",
+            "title": "How Social and Communication Channels Shape and Challenge a Participatory Culture in Software Development",
+            "url": "https://www.semanticscholar.org/paper/fc9f2c9c8614d12812a9706a78517a0b8e435baf",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144375145",
+                    "name": "B. Lin"
+                },
+                {
+                    "authorId": "1945021",
+                    "name": "A. Zagalsky"
+                },
+                {
+                    "authorId": "1734938",
+                    "name": "M. Storey"
+                },
+                {
+                    "authorId": "1747171",
+                    "name": "Alexander Serebrenik"
+                }
+            ],
+            "doi": "10.1145/2818052.2869117",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "83360d01cec5f578585354b296e0ea625c7a26e9",
+            "title": "Why Developers Are Slacking Off: Understanding How Software Teams Use Slack",
+            "url": "https://www.semanticscholar.org/paper/83360d01cec5f578585354b296e0ea625c7a26e9",
+            "venue": "CSCW Companion",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143996875",
+                    "name": "S. Chowdhury"
+                },
+                {
+                    "authorId": "145369636",
+                    "name": "Abram Hindle"
+                }
+            ],
+            "doi": "10.1109/MSR.2015.54",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f698672cc3a08a0d41bf53b3d5a571b3e647ebe9",
+            "title": "Mining StackOverflow to Filter Out Off-Topic IRC Discussion",
+            "url": "https://www.semanticscholar.org/paper/f698672cc3a08a0d41bf53b3d5a571b3e647ebe9",
+            "venue": "2015 IEEE/ACM 12th Working Conference on Mining Software Repositories",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1734938",
+                    "name": "M. Storey"
+                },
+                {
+                    "authorId": "18264995",
+                    "name": "Leif Singer"
+                },
+                {
+                    "authorId": "144850961",
+                    "name": "B. Cleary"
+                },
+                {
+                    "authorId": "5011359",
+                    "name": "Fernando Marques Figueira Filho"
+                },
+                {
+                    "authorId": "1945021",
+                    "name": "A. Zagalsky"
+                }
+            ],
+            "doi": "10.1145/2593882.2593887",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a652692b51c786bfa3ceb43f3ae9f6acb796921f",
+            "title": "The (R) Evolution of social media in software engineering",
+            "url": "https://www.semanticscholar.org/paper/a652692b51c786bfa3ceb43f3ae9f6acb796921f",
+            "venue": "FOSE",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "GitterCom, dataset. https://figshare.com/s/ 9b3df36e22a8a8f77169",
+            "url": "",
+            "venue": "",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "MSR \u201920, October 5\u20136, 2020, Seoul, Republic of Korea",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Cucumber",
+            "url": "",
+            "venue": "github.com/cucumber/cucumber",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "license agreement with IEEE. Restrictions apply",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "GitterCom - A Dataset of Open Source Developer Communications in Gitter",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/07267f6419c5bb2620d9e037f4bea90242595cd7",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2020
+}

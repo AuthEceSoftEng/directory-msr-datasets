@@ -1,0 +1,800 @@
+{
+    "abstract": "Self-admitted technical debt (SATD) refers to a form of technical debt in which developers explicitly acknowledge and document the existence of technical shortcuts, workarounds, or temporary solutions within the codebase. Over recent years, researchers have manually labeled datasets derived from various software development artifacts: source code comments, messages from the issue tracker and pull request sections, and commit messages. These datasets are designed for training, evaluation, performance validation, and improvement of machine learning and deep learning models to accurately identify SATD instances. However, class imbalance poses a serious challenge across all the existing datasets, particularly when researchers are interested in categorizing the specific types of SATD. In order to address the scarcity of labeled data for SATD identification (i.e., whether an instance is SATD or not) and categorization (i.e., which type of SATD is being classified) in existing datasets, we share the SATDAUG dataset, an augmented version of existing SATD datasets, including source code comments, issue tracker, pull requests, and commit messages. These augmented datasets have been balanced in relation to the available artifacts and provide a much richer source of labeled data for training machine learning or deep learning models.",
+    "arxivId": "2403.07690",
+    "authors": [
+        {
+            "authorId": "2819819",
+            "name": "E. Sutoyo",
+            "url": "https://www.semanticscholar.org/author/2819819"
+        },
+        {
+            "authorId": "2276431104",
+            "name": "Andrea Capiluppi",
+            "url": "https://www.semanticscholar.org/author/2276431104"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [],
+    "corpusId": 268363357,
+    "doi": "10.1145/3643991.3644880",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 0,
+    "numCiting": 30,
+    "paperId": "03dfde809f11f2cead916a16874d07fd9cf76341",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2090359459",
+                    "name": "Kuiyu Zhu"
+                },
+                {
+                    "authorId": "2116063196",
+                    "name": "Ming Yin"
+                },
+                {
+                    "authorId": "2161611312",
+                    "name": "Dan Zhu"
+                },
+                {
+                    "authorId": "2135851417",
+                    "name": "Xiaogang Zhang"
+                },
+                {
+                    "authorId": "2185470437",
+                    "name": "Cunzhi Gao"
+                },
+                {
+                    "authorId": "3187453",
+                    "name": "Jijiao Jiang"
+                }
+            ],
+            "doi": "10.1016/j.jss.2022.111514",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6e8fd83f48ac8c1e54a596f37cce04192fca3d18",
+            "title": "SCGRU: A general approach for identifying multiple classes of self-admitted technical debt with text generation oversampling",
+            "url": "https://www.semanticscholar.org/paper/6e8fd83f48ac8c1e54a596f37cce04192fca3d18",
+            "venue": "J. Syst. Softw.",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2145230505",
+                    "name": "Xin Chen"
+                },
+                {
+                    "authorId": "35762412",
+                    "name": "Dongjin Yu"
+                },
+                {
+                    "authorId": null,
+                    "name": "Xulin Fan"
+                },
+                {
+                    "authorId": "2144735600",
+                    "name": "Lin Wang"
+                },
+                {
+                    "authorId": "2155100080",
+                    "name": "Jie Chen"
+                }
+            ],
+            "doi": "10.1109/TR.2021.3087864",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ad0819ece7a3e5d49f0f25b288a6a69e439cfd9e",
+            "title": "Multiclass Classification for Self-Admitted Technical Debt Based on XGBoost",
+            "url": "https://www.semanticscholar.org/paper/ad0819ece7a3e5d49f0f25b288a6a69e439cfd9e",
+            "venue": "IEEE Transactions on Reliability",
+            "year": 2022
+        },
+        {
+            "arxivId": "2202.02387",
+            "authors": [
+                {
+                    "authorId": "2110468762",
+                    "name": "Yikun Li"
+                },
+                {
+                    "authorId": "2056412794",
+                    "name": "Mohamed Soliman"
+                },
+                {
+                    "authorId": "1727328",
+                    "name": "P. Avgeriou"
+                }
+            ],
+            "doi": "10.1007/s10664-023-10297-9",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "183ce484493bbfe1b1da5ed41d374dc749f6c7c2",
+            "title": "Automatic identification of self-admitted technical debt from four different sources",
+            "url": "https://www.semanticscholar.org/paper/183ce484493bbfe1b1da5ed41d374dc749f6c7c2",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": "2202.02180",
+            "authors": [
+                {
+                    "authorId": "2110468762",
+                    "name": "Yikun Li"
+                },
+                {
+                    "authorId": "2056412794",
+                    "name": "Mohamed Soliman"
+                },
+                {
+                    "authorId": "1727328",
+                    "name": "P. Avgeriou"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10128-3",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ae3426dd85a679f8ec8c81eab4444b1659daa9d7",
+            "title": "Identifying self-admitted technical debt in issue tracking systems using machine learning",
+            "url": "https://www.semanticscholar.org/paper/ae3426dd85a679f8ec8c81eab4444b1659daa9d7",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1677990490",
+                    "name": "Irene Sala"
+                },
+                {
+                    "authorId": "3049771",
+                    "name": "Antonela Tommasel"
+                },
+                {
+                    "authorId": "1695555",
+                    "name": "F. Fontana"
+                }
+            ],
+            "doi": "10.1145/3463274.3464455",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e913dd7bf614daff35a6407f7a8e4f5bd9d814fd",
+            "title": "DebtHunter: A Machine Learning-based Approach for Detecting Self-Admitted Technical Debt",
+            "url": "https://www.semanticscholar.org/paper/e913dd7bf614daff35a6407f7a8e4f5bd9d814fd",
+            "venue": "EASE",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2090359459",
+                    "name": "Kuiyu Zhu"
+                },
+                {
+                    "authorId": "2116063196",
+                    "name": "Ming Yin"
+                },
+                {
+                    "authorId": "2116168893",
+                    "name": "Yizhen Li"
+                }
+            ],
+            "doi": "10.1088/1742-6596/1955/1/012102",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "78d035d3e4b9dab95208c8f666c4a58649642765",
+            "title": "Detecting and Classifying Self-Admitted of Technical Debt with CNN-BiLSTM",
+            "url": "https://www.semanticscholar.org/paper/78d035d3e4b9dab95208c8f666c4a58649642765",
+            "venue": "Journal of Physics: Conference Series",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48094112",
+                    "name": "Jiapeng Wang"
+                },
+                {
+                    "authorId": null,
+                    "name": "Yihong Dong"
+                }
+            ],
+            "doi": "10.3390/info11090421",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "e3661f6a474e24a8919bffb8dfcfda6c79d47fc0",
+            "title": "Measurement of Text Similarity: A Survey",
+            "url": "https://www.semanticscholar.org/paper/e3661f6a474e24a8919bffb8dfcfda6c79d47fc0",
+            "venue": "Inf.",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144118551",
+                    "name": "M. A. Farias"
+                },
+                {
+                    "authorId": "1723519",
+                    "name": "Manoel G. Mendon\u00e7a"
+                },
+                {
+                    "authorId": "143722532",
+                    "name": "Marcos Kalinowski"
+                },
+                {
+                    "authorId": "2738811",
+                    "name": "R. Sp\u00ednola"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2020.106270",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3d919732b600dc8f557c31e321d5999a888bbc3d",
+            "title": "Identifying self-admitted technical debt through code comment analysis with a contextualized vocabulary",
+            "url": "https://www.semanticscholar.org/paper/3d919732b600dc8f557c31e321d5999a888bbc3d",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2020
+        },
+        {
+            "arxivId": "2003.09418",
+            "authors": [
+                {
+                    "authorId": "26698543",
+                    "name": "Laerte Xavier"
+                },
+                {
+                    "authorId": "2053631033",
+                    "name": "Fabio Ferreira"
+                },
+                {
+                    "authorId": "2059642766",
+                    "name": "Rodrigo Brito"
+                },
+                {
+                    "authorId": "1757592",
+                    "name": "M. T. Valente"
+                }
+            ],
+            "doi": "10.1145/3379597.3387459",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "aa6274e4fdb5bd4d653976203fd1a20b36d33104",
+            "title": "Beyond the Code: Mining Self-Admitted Technical Debt in Issue Tracker Systems",
+            "url": "https://www.semanticscholar.org/paper/aa6274e4fdb5bd4d653976203fd1a20b36d33104",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "20453764",
+                    "name": "Giancarlo Sierra"
+                },
+                {
+                    "authorId": "3318024",
+                    "name": "Emad Shihab"
+                },
+                {
+                    "authorId": "1706639",
+                    "name": "Yasutaka Kamei"
+                }
+            ],
+            "doi": "10.1016/J.JSS.2019.02.056",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e468767feb5cf28e93064d589f0eec392dacea4f",
+            "title": "A survey of self-admitted technical debt",
+            "url": "https://www.semanticscholar.org/paper/e468767feb5cf28e93064d589f0eec392dacea4f",
+            "venue": "J. Syst. Softw.",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "84165401",
+                    "name": "Supatsara Wattanakriengkrai"
+                },
+                {
+                    "authorId": "66717390",
+                    "name": "Rungroj Maipradit"
+                },
+                {
+                    "authorId": "145050815",
+                    "name": "Hideaki Hata"
+                },
+                {
+                    "authorId": "3132647",
+                    "name": "Morakot Choetkiertikul"
+                },
+                {
+                    "authorId": "2842075",
+                    "name": "T. Sunetnanta"
+                },
+                {
+                    "authorId": "144975613",
+                    "name": "Ken-ichi Matsumoto"
+                }
+            ],
+            "doi": "10.1109/IWESEP.2018.00010",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fe2dbe2c2ae7def833f8c0a08f3e4f2159689f1d",
+            "title": "Identifying Design and Requirement Self-Admitted Technical Debt Using N-gram IDF",
+            "url": "https://www.semanticscholar.org/paper/fe2dbe2c2ae7def833f8c0a08f3e4f2159689f1d",
+            "venue": "2018 9th International Workshop on Empirical Software Engineering in Practice (IWESEP)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143741583",
+                    "name": "Alberto Fern\u00e1ndez"
+                },
+                {
+                    "authorId": "39558258",
+                    "name": "S. Garc\u00eda"
+                },
+                {
+                    "authorId": "1924061",
+                    "name": "M. Galar"
+                },
+                {
+                    "authorId": "1793286",
+                    "name": "R. Prati"
+                },
+                {
+                    "authorId": "3022672",
+                    "name": "B. Krawczyk"
+                },
+                {
+                    "authorId": "1699069",
+                    "name": "F. Herrera"
+                }
+            ],
+            "doi": "10.1007/978-3-319-98074-4",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "88bcdfd021d935a28f245e178792207881b14794",
+            "title": "Learning from Imbalanced Data Sets",
+            "url": "https://www.semanticscholar.org/paper/88bcdfd021d935a28f245e178792207881b14794",
+            "venue": "Springer International Publishing",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1820955",
+                    "name": "Jernej Flisar"
+                },
+                {
+                    "authorId": "1747187",
+                    "name": "V. Podgorelec"
+                }
+            ],
+            "doi": "10.1109/SEAA.2018.00045",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "621da392b499c2bdf037ea62f3f0b27d7052d8ec",
+            "title": "Enhanced Feature Selection Using Word Embeddings for Self-Admitted Technical Debt Identification",
+            "url": "https://www.semanticscholar.org/paper/621da392b499c2bdf037ea62f3f0b27d7052d8ec",
+            "venue": "2018 44th Euromicro Conference on Software Engineering and Advanced Applications (SEAA)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2098974",
+                    "name": "Everton da S. Maldonado"
+                },
+                {
+                    "authorId": "3318024",
+                    "name": "Emad Shihab"
+                },
+                {
+                    "authorId": "2101511",
+                    "name": "Nikolaos Tsantalis"
+                }
+            ],
+            "doi": "10.1109/TSE.2017.2654244",
+            "intent": [
+                "background",
+                "methodology",
+                "result"
+            ],
+            "isInfluential": true,
+            "paperId": "94e3476be79cdcd77f365d72071f610679fca324",
+            "title": "Using Natural Language Processing to Automatically Detect Self-Admitted Technical Debt",
+            "url": "https://www.semanticscholar.org/paper/94e3476be79cdcd77f365d72071f610679fca324",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2111287178",
+                    "name": "Qiao Huang"
+                },
+                {
+                    "authorId": "3318024",
+                    "name": "Emad Shihab"
+                },
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "143960552",
+                    "name": "David Lo"
+                },
+                {
+                    "authorId": "1773299",
+                    "name": "Shanping Li"
+                }
+            ],
+            "doi": "10.1007/s10664-017-9522-4",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "25200ca879b97b0b371c541bc69b5a9c8ed1bd8f",
+            "title": "Identifying self-admitted technical debt in open source projects using text mining",
+            "url": "https://www.semanticscholar.org/paper/25200ca879b97b0b371c541bc69b5a9c8ed1bd8f",
+            "venue": "Empirical Software Engineering",
+            "year": 2017
+        },
+        {
+            "arxivId": "1503.01508",
+            "authors": [
+                {
+                    "authorId": "32015491",
+                    "name": "Xiangxin Zhu"
+                },
+                {
+                    "authorId": "1856025",
+                    "name": "Carl Vondrick"
+                },
+                {
+                    "authorId": "143800213",
+                    "name": "Charless C. Fowlkes"
+                },
+                {
+                    "authorId": "1770537",
+                    "name": "Deva Ramanan"
+                }
+            ],
+            "doi": "10.1007/s11263-015-0812-2",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "36961e595e31dea127bfa49124b5cc4f2100710f",
+            "title": "Do We Need More Training Data?",
+            "url": "https://www.semanticscholar.org/paper/36961e595e31dea127bfa49124b5cc4f2100710f",
+            "venue": "International Journal of Computer Vision",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2045008",
+                    "name": "Zengyang Li"
+                },
+                {
+                    "authorId": "1727328",
+                    "name": "P. Avgeriou"
+                },
+                {
+                    "authorId": "1750130",
+                    "name": "Peng Liang"
+                }
+            ],
+            "doi": "10.1016/J.JSS.2014.12.027",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c5dbd495acd573d4959a84fe9cdc1f78d57599c8",
+            "title": "A systematic mapping study on technical debt and its management",
+            "url": "https://www.semanticscholar.org/paper/c5dbd495acd573d4959a84fe9cdc1f78d57599c8",
+            "venue": "J. Syst. Softw.",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2064753",
+                    "name": "A. Potdar"
+                },
+                {
+                    "authorId": "3318024",
+                    "name": "Emad Shihab"
+                }
+            ],
+            "doi": "10.1109/ICSME.2014.31",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ddf82ba67e252428fde55fcf9b73e848924a3372",
+            "title": "An Exploratory Study on Self-Admitted Technical Debt",
+            "url": "https://www.semanticscholar.org/paper/ddf82ba67e252428fde55fcf9b73e848924a3372",
+            "venue": "2014 IEEE International Conference on Software Maintenance and Evolution",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40482260",
+                    "name": "Ward Cunningham"
+                }
+            ],
+            "doi": "10.1145/157709.157715",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "27b66c6e7486bc036f05d58db9dd1d8dc8f4fc46",
+            "title": "The WyCash portfolio management system",
+            "url": "https://www.semanticscholar.org/paper/27b66c6e7486bc036f05d58db9dd1d8dc8f4fc46",
+            "venue": "OOPSLA '92",
+            "year": 1992
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8785371",
+                    "name": "A. Maharana"
+                },
+                {
+                    "authorId": "143977268",
+                    "name": "Mohit Bansal"
+                }
+            ],
+            "doi": "10.18653/v1/2022.dlg4nlp-1.6",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2eddb4bffb5dda2a53a2a05da5914800c3dfa0db",
+            "title": "GraDA: Graph Generative Data Augmentation for Commonsense Reasoning",
+            "url": "https://www.semanticscholar.org/paper/2eddb4bffb5dda2a53a2a05da5914800c3dfa0db",
+            "venue": "COLING",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2165272612",
+                    "name": "Xuhang Xie"
+                },
+                {
+                    "authorId": "48574366",
+                    "name": "Xuesong Lu"
+                },
+                {
+                    "authorId": null,
+                    "name": "Bei Chen"
+                }
+            ],
+            "doi": "10.18653/v1/2022.findings-acl.97",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "63583c8acffac85644bbc8a65da4def840c81b72",
+            "title": "Multi-task Learning for Paraphrase Generation With Keyword and Part-of-Speech Reconstruction",
+            "url": "https://www.semanticscholar.org/paper/63583c8acffac85644bbc8a65da4def840c81b72",
+            "venue": "FINDINGS",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2115667527",
+                    "name": "R. M. Santos"
+                },
+                {
+                    "authorId": "3410094",
+                    "name": "M. C. J\u00fanior"
+                },
+                {
+                    "authorId": "2205826752",
+                    "name": "Manoel Gomes de Mendon\u00e7a Neto"
+                }
+            ],
+            "doi": "10.1007/978-3-030-43020-7_93",
+            "intent": [
+                "background",
+                "result"
+            ],
+            "isInfluential": true,
+            "paperId": "5eaffb804e95992d4d15b992a2f62242f1c3d1fe",
+            "title": "Self-Admitted Technical Debt classification using LSTM neural network",
+            "url": "https://www.semanticscholar.org/paper/5eaffb804e95992d4d15b992a2f62242f1c3d1fe",
+            "venue": "",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Neuralnetwork-baseddetectionofself-admittedtechnicaldebt:Fromperformancetoexplainability",
+            "url": "",
+            "venue": "ACM transactions on software engineering and methodology (TOSEM)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2054548045",
+                    "name": "Ke Dai"
+                },
+                {
+                    "authorId": "144947570",
+                    "name": "Philippe B Kruchten"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "cb74305e75cda31d8838d36bbeb2aeca29ef9f32",
+            "title": "Detecting Technical Debt through Issue Trackers",
+            "url": "https://www.semanticscholar.org/paper/cb74305e75cda31d8838d36bbeb2aeca29ef9f32",
+            "venue": "QuASoQ@APSEC",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2262204847",
+                    "name": "Jin Woo Shin"
+                },
+                {
+                    "authorId": "2262213536",
+                    "name": "Sang Joon Kim"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6d12a1d23b21a9b170118a56386552bc5d4727de",
+            "title": "A Mathematical Theory of Communication",
+            "url": "https://www.semanticscholar.org/paper/6d12a1d23b21a9b170118a56386552bc5d4727de",
+            "venue": "",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Themeasurementofobserveragreement for categorical data",
+            "url": "",
+            "venue": "biometrics",
+            "year": 1977
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "",
+            "title": "2023.Chataug:Leveraging chatgptfortextdataaugmentation",
+            "url": "",
+            "venue": "arXiv preprint",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2023. Detecting Technical Debt Using Natural LanguageProcessingApproaches\u2013ASystematicLiteratureReview",
+            "url": "",
+            "venue": "arXivpreprint",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "MSR \u201924, April 15\u201316, 2024, Lisbon, Portugal",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2023.Aprompt patterncatalogtoenhancepromptengineeringwithchatgpt",
+            "url": "",
+            "venue": "arXiv preprint",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "SATDAUG - A Balanced and Augmented Dataset for Detecting Self-Admitted Technical Debt",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/03dfde809f11f2cead916a16874d07fd9cf76341",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2024
+}

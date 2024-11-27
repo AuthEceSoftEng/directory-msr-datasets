@@ -1,0 +1,1616 @@
+{
+    "abstract": "Approaches that support software maintenance need to be evaluated and compared against existing ones, in order to demonstrate their usefulness in practice. However, oftentimes the lack of well-established sets of benchmarks leads to situations where these approaches are evaluated using different datasets, which results in biased comparisons. In this data paper we describe and make publicly available a set of benchmarks from six Java applications, which can be used in the evaluation of various software engineering (SE) tasks, such as feature location and impact analysis. These datasets consist of textual description of change requests, the locations in the source code where they were implemented, and execution traces. Four of the benchmarks were already used in several SE research papers, and two of them are new. In addition, we describe in detail the methodology used for generating these benchmarks and provide a suite of tools in order to encourage other researchers to validate our datasets and generate new benchmarks for other subject software systems. Our online appendix: http://www.cs.wm.edu/semeru/data/msr13/.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2628011",
+            "name": "Bogdan Dit",
+            "url": "https://www.semanticscholar.org/author/2628011"
+        },
+        {
+            "authorId": "2031458",
+            "name": "Andrew Holtzhauer",
+            "url": "https://www.semanticscholar.org/author/2031458"
+        },
+        {
+            "authorId": "1697757",
+            "name": "D. Poshyvanyk",
+            "url": "https://www.semanticscholar.org/author/1697757"
+        },
+        {
+            "authorId": "3315359",
+            "name": "Huzefa H. Kagdi",
+            "url": "https://www.semanticscholar.org/author/3315359"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1395589829",
+                    "name": "Amine Benmerzoug"
+                },
+                {
+                    "authorId": "1873042",
+                    "name": "L. Yessad"
+                },
+                {
+                    "authorId": "1800408",
+                    "name": "T. Ziadi"
+                }
+            ],
+            "doi": "10.1007/978-3-030-64694-3_17",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "922d1986c0ef93ef62e7eed42c336c15d2141873",
+            "title": "Analyzing the Impact of Refactoring Variants on Feature Location",
+            "url": "https://www.semanticscholar.org/paper/922d1986c0ef93ef62e7eed42c336c15d2141873",
+            "venue": "ICSR",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2115592749",
+                    "name": "Yuan Huang"
+                },
+                {
+                    "authorId": "1974019050",
+                    "name": "Shaohao Huang"
+                },
+                {
+                    "authorId": "51205633",
+                    "name": "Huanchao Chen"
+                },
+                {
+                    "authorId": "49794468",
+                    "name": "Xiangping Chen"
+                },
+                {
+                    "authorId": "144291579",
+                    "name": "Zibin Zheng"
+                },
+                {
+                    "authorId": "1708419",
+                    "name": "Xiapu Luo"
+                },
+                {
+                    "authorId": "48750972",
+                    "name": "Nan Jia"
+                },
+                {
+                    "authorId": null,
+                    "name": "Xinyu Hu"
+                },
+                {
+                    "authorId": "3143775",
+                    "name": "Xiaocong Zhou"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2020.106373",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "719c937d727d0ea2c729d5f6176baab44dcf5031",
+            "title": "Towards automatically generating block comments for code snippets",
+            "url": "https://www.semanticscholar.org/paper/719c937d727d0ea2c729d5f6176baab44dcf5031",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2783719",
+                    "name": "Christopher S. Corley"
+                },
+                {
+                    "authorId": "1703177",
+                    "name": "Kostadin Damevski"
+                },
+                {
+                    "authorId": "1679523",
+                    "name": "Nicholas A. Kraft"
+                }
+            ],
+            "doi": "10.1109/TSE.2018.2874960",
+            "intent": [
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "4090295b245481bcb80b901c544d5c873080f533",
+            "title": "Changeset-Based Topic Modeling of Software Repositories",
+            "url": "https://www.semanticscholar.org/paper/4090295b245481bcb80b901c544d5c873080f533",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": null,
+                    "name": "Henry Tang"
+                },
+                {
+                    "authorId": "1869015",
+                    "name": "Sarah Nadi"
+                }
+            ],
+            "doi": "10.1007/s10664-021-09954-8",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5219c539a59599cc5f1237cc36453a8a2a9e0197",
+            "title": "On using Stack Overflow comment-edit pairs to recommend code maintenance changes",
+            "url": "https://www.semanticscholar.org/paper/5219c539a59599cc5f1237cc36453a8a2a9e0197",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": "2004.08378",
+            "authors": [
+                {
+                    "authorId": null,
+                    "name": "Henry Tang"
+                },
+                {
+                    "authorId": "1869015",
+                    "name": "Sarah Nadi"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0eb3d4c95b370601309262a09e64ac0fbdc6e580",
+            "title": "Can We Use Stack Overflow as a Source of Explainable Bug-fix Data?",
+            "url": "https://www.semanticscholar.org/paper/0eb3d4c95b370601309262a09e64ac0fbdc6e580",
+            "venue": "ArXiv",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1659296554",
+                    "name": "Venkatasaideep Nagulapati"
+                },
+                {
+                    "authorId": "1659295272",
+                    "name": "Sai Rohit Rapelli"
+                },
+                {
+                    "authorId": "1746880",
+                    "name": "J. Fiaidhi"
+                }
+            ],
+            "doi": "10.36227/techrxiv.12089139.v1",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "363146241458c8fe3a4245381eeeb959e8fea0cc",
+            "title": "Automating Software Development using Artificial Intelligence",
+            "url": "https://www.semanticscholar.org/paper/363146241458c8fe3a4245381eeeb959e8fea0cc",
+            "venue": "",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2115592749",
+                    "name": "Yuan Huang"
+                },
+                {
+                    "authorId": null,
+                    "name": "Xinyu Hu"
+                },
+                {
+                    "authorId": "2066030934",
+                    "name": "Nan Jia"
+                },
+                {
+                    "authorId": "49794468",
+                    "name": "Xiangping Chen"
+                },
+                {
+                    "authorId": "144019830",
+                    "name": "Y. Xiong"
+                },
+                {
+                    "authorId": "144291579",
+                    "name": "Zibin Zheng"
+                }
+            ],
+            "doi": "10.1109/TR.2019.2931725",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d71963b16bc6894fce53a55ca1ff6c71e81eb752",
+            "title": "Learning Code Context Information to Predict Comment Locations",
+            "url": "https://www.semanticscholar.org/paper/d71963b16bc6894fce53a55ca1ff6c71e81eb752",
+            "venue": "IEEE Transactions on Reliability",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "153277731",
+                    "name": "Allysson Costa e Silva"
+                },
+                {
+                    "authorId": "2018487",
+                    "name": "M. Maia"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2019.106177",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "23025330a579a5c2173747abe0b3ee4462191a88",
+            "title": "Improving feature location accuracy via paragraph vector tuning",
+            "url": "https://www.semanticscholar.org/paper/23025330a579a5c2173747abe0b3ee4462191a88",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "101205062",
+                    "name": "A. Razzaq"
+                },
+                {
+                    "authorId": "80773105",
+                    "name": "AndrewJ. L. Gear"
+                },
+                {
+                    "authorId": "1797921",
+                    "name": "C. Exton"
+                },
+                {
+                    "authorId": "144383043",
+                    "name": "J. Buckley"
+                }
+            ],
+            "doi": "10.1007/s10664-019-09734-5",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "d66b5728f6c6491dec5cb2297d5c4e37ababde83",
+            "title": "An empirical assessment of baseline feature location techniques",
+            "url": "https://www.semanticscholar.org/paper/d66b5728f6c6491dec5cb2297d5c4e37ababde83",
+            "venue": "Empirical Software Engineering",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00085",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "43148fabe2636026e07ca04974aff40d204bfb6b",
+            "title": "Standing on Shoulders or Feet? The Usage of the MSR Data Papers",
+            "url": "https://www.semanticscholar.org/paper/43148fabe2636026e07ca04974aff40d204bfb6b",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "101205062",
+                    "name": "A. Razzaq"
+                },
+                {
+                    "authorId": "1859671",
+                    "name": "A. Wasala"
+                },
+                {
+                    "authorId": "1797921",
+                    "name": "C. Exton"
+                },
+                {
+                    "authorId": "144383043",
+                    "name": "J. Buckley"
+                }
+            ],
+            "doi": "10.1145/3280988",
+            "intent": [
+                "methodology",
+                "background",
+                "result"
+            ],
+            "isInfluential": true,
+            "paperId": "2c05d0a0feab5bab051876a21cef36fc966825c9",
+            "title": "The State of Empirical Evaluation in Static Feature Location",
+            "url": "https://www.semanticscholar.org/paper/2c05d0a0feab5bab051876a21cef36fc966825c9",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2108657292",
+                    "name": "Jaekwon Lee"
+                },
+                {
+                    "authorId": "144213448",
+                    "name": "Dongsun Kim"
+                },
+                {
+                    "authorId": "3023999",
+                    "name": "T\u00e9gawend\u00e9 F. Bissyand\u00e9"
+                },
+                {
+                    "authorId": "1680742",
+                    "name": "Woosung Jung"
+                },
+                {
+                    "authorId": "47681863",
+                    "name": "Y. L. Traon"
+                }
+            ],
+            "doi": "10.1145/3213846.3213856",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1db7fa608e216aeb345f7f066719e6fddf418feb",
+            "title": "Bench4BL: reproducibility study on the performance of IR-based bug localization",
+            "url": "https://www.semanticscholar.org/paper/1db7fa608e216aeb345f7f066719e6fddf418feb",
+            "venue": "ISSTA",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51205633",
+                    "name": "Huanchao Chen"
+                },
+                {
+                    "authorId": "2141313410",
+                    "name": "Zhiyong Liu"
+                },
+                {
+                    "authorId": "49794468",
+                    "name": "Xiangping Chen"
+                },
+                {
+                    "authorId": "1410083919",
+                    "name": "Fan Zhou"
+                },
+                {
+                    "authorId": "144361019",
+                    "name": "Xiaonan Luo"
+                }
+            ],
+            "doi": "10.1109/COMPSAC.2018.00029",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "345f67e29e8986698ad63ffa863d1aff742b2d3a",
+            "title": "Automatically Detecting the Scopes of Source Code Comments",
+            "url": "https://www.semanticscholar.org/paper/345f67e29e8986698ad63ffa863d1aff742b2d3a",
+            "venue": "2018 IEEE 42nd Annual Computer Software and Applications Conference (COMPSAC)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1412460263",
+                    "name": "Natthawute Sae-Lim"
+                },
+                {
+                    "authorId": "1701096",
+                    "name": "Shinpei Hayashi"
+                },
+                {
+                    "authorId": "1713108",
+                    "name": "M. Saeki"
+                }
+            ],
+            "doi": "10.1002/smr.1886",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d0a56ba9f8f6703afd018e04bd2c1a361c73ed49",
+            "title": "Context\u2010based approach to prioritize code smells for prefactoring",
+            "url": "https://www.semanticscholar.org/paper/d0a56ba9f8f6703afd018e04bd2c1a361c73ed49",
+            "venue": "J. Softw. Evol. Process.",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "101602657",
+                    "name": "S. \u017deljko"
+                },
+                {
+                    "authorId": "3190931",
+                    "name": "Jelena Stojanov"
+                },
+                {
+                    "authorId": "3337033",
+                    "name": "D. Dobrilovi\u0107"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "fabe6c715ae9697b9ada7704ebea255414fc7260",
+            "title": "Domain Complexity in Corrective Maintenance Tasks' Complexity: An Empirical Study in a Micro Software Company",
+            "url": "https://www.semanticscholar.org/paper/fabe6c715ae9697b9ada7704ebea255414fc7260",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2237929593",
+                    "name": "P. Therasa"
+                },
+                {
+                    "authorId": "144438192",
+                    "name": "P. Vivekanandan"
+                }
+            ],
+            "doi": "10.1109/ICOAC.2017.8441467",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "bb6ca0db58a02fb5e968ebfe38d40dde2bb75a01",
+            "title": "Adaptive Neuro-Fuzzy Inference System for Assessing the Maintainability of the Software",
+            "url": "https://www.semanticscholar.org/paper/bb6ca0db58a02fb5e968ebfe38d40dde2bb75a01",
+            "venue": "2017 Ninth International Conference on Advanced Computing (ICoAC)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3263403",
+                    "name": "Bonita Sharif"
+                },
+                {
+                    "authorId": "1879372",
+                    "name": "John Meinken"
+                },
+                {
+                    "authorId": "145937248",
+                    "name": "Timothy Shaffer"
+                },
+                {
+                    "authorId": "3315359",
+                    "name": "Huzefa H. Kagdi"
+                }
+            ],
+            "doi": "10.1007/s10664-016-9486-9",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "acd853b34f8e27499725ac62dbfd4375a59f600b",
+            "title": "Eye movements in software traceability link recovery",
+            "url": "https://www.semanticscholar.org/paper/acd853b34f8e27499725ac62dbfd4375a59f600b",
+            "venue": "Empirical Software Engineering",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2115592749",
+                    "name": "Yuan Huang"
+                },
+                {
+                    "authorId": "49794468",
+                    "name": "Xiangping Chen"
+                },
+                {
+                    "authorId": "2141313410",
+                    "name": "Zhiyong Liu"
+                },
+                {
+                    "authorId": "144361019",
+                    "name": "Xiaonan Luo"
+                },
+                {
+                    "authorId": "144291579",
+                    "name": "Zibin Zheng"
+                }
+            ],
+            "doi": "10.1002/smr.1859",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c8decaa0feabab8d66b46c4cc330a8cd48f915bd",
+            "title": "Using discriminative feature in software entities for relevance identification of code changes",
+            "url": "https://www.semanticscholar.org/paper/c8decaa0feabab8d66b46c4cc330a8cd48f915bd",
+            "venue": "J. Softw. Evol. Process.",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145249780",
+                    "name": "S. Christa"
+                },
+                {
+                    "authorId": "145349027",
+                    "name": "V. Suma"
+                }
+            ],
+            "doi": "10.1109/ICIMIA.2017.7975568",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9fcc6466bc43bfd2590f354742b2f6aa8e06ca97",
+            "title": "Analysis of ticket severity: A case study",
+            "url": "https://www.semanticscholar.org/paper/9fcc6466bc43bfd2590f354742b2f6aa8e06ca97",
+            "venue": "2017 International Conference on Innovative Mechanisms for Industry Applications (ICIMIA)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40016659",
+                    "name": "J. Heron"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "0ef8ecaaf79523a495a13075951467154cfbe4c4",
+            "title": "Understanding and predicting method-level source code changes using commit history data",
+            "url": "https://www.semanticscholar.org/paper/0ef8ecaaf79523a495a13075951467154cfbe4c4",
+            "venue": "",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1412460263",
+                    "name": "Natthawute Sae-Lim"
+                },
+                {
+                    "authorId": "1701096",
+                    "name": "Shinpei Hayashi"
+                },
+                {
+                    "authorId": "1713108",
+                    "name": "M. Saeki"
+                }
+            ],
+            "doi": "10.1109/ICPC.2016.7503705",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "3bcd05d315fcf34d41fa3d89ac7af6bbe536642d",
+            "title": "Context-based code smells prioritization for prefactoring",
+            "url": "https://www.semanticscholar.org/paper/3bcd05d315fcf34d41fa3d89ac7af6bbe536642d",
+            "venue": "2016 IEEE 24th International Conference on Program Comprehension (ICPC)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1836278643",
+                    "name": "Xin Ye"
+                },
+                {
+                    "authorId": "3139133",
+                    "name": "Razvan C. Bunescu"
+                },
+                {
+                    "authorId": "2118483756",
+                    "name": "Chang Liu"
+                }
+            ],
+            "doi": "10.1109/TSE.2015.2479232",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "ec038a483fa933dbfd9670ccb0b42ddbcec19904",
+            "title": "Mapping Bug Reports to Relevant Files: A Ranking Model, a Fine-Grained Benchmark, and Feature Evaluation",
+            "url": "https://www.semanticscholar.org/paper/ec038a483fa933dbfd9670ccb0b42ddbcec19904",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2378330",
+                    "name": "M. Abdelkader"
+                },
+                {
+                    "authorId": "1399242545",
+                    "name": "Ricardo P\u00e9rez-Castillo"
+                },
+                {
+                    "authorId": "34163364",
+                    "name": "M. Mimoun"
+                }
+            ],
+            "doi": "10.1109/AICCSA.2015.7507122",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a66f41a4c9edeea6c96f90321e9681c4beac6d86",
+            "title": "Using text mining to locate concepts in execution traces",
+            "url": "https://www.semanticscholar.org/paper/a66f41a4c9edeea6c96f90321e9681c4beac6d86",
+            "venue": "2015 IEEE/ACS 12th International Conference of Computer Systems and Applications (AICCSA)",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "19224366",
+                    "name": "M. Zavvar"
+                },
+                {
+                    "authorId": "104103652",
+                    "name": "F. Ramezani"
+                }
+            ],
+            "doi": "10.5815/IJMECS.2015.10.04",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "010e1142c2ccf05483c260522565c7d1740b4ce6",
+            "title": "Measuring of Software Maintainability Using Adaptive Fuzzy Neural Network",
+            "url": "https://www.semanticscholar.org/paper/010e1142c2ccf05483c260522565c7d1740b4ce6",
+            "venue": "",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2628011",
+                    "name": "Bogdan Dit"
+                },
+                {
+                    "authorId": "1876830",
+                    "name": "Evan Moritz"
+                },
+                {
+                    "authorId": "1781267",
+                    "name": "M. V\u00e1squez"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                },
+                {
+                    "authorId": "1389656608",
+                    "name": "J. Cleland-Huang"
+                }
+            ],
+            "doi": "10.1007/s10664-014-9339-3",
+            "intent": [
+                "methodology",
+                "background",
+                "result"
+            ],
+            "isInfluential": true,
+            "paperId": "8183c4d69af521202f8f66be9df68a5a7d3ecfb5",
+            "title": "Supporting and accelerating reproducible empirical research in software evolution and maintenance using TraceLab Component Library",
+            "url": "https://www.semanticscholar.org/paper/8183c4d69af521202f8f66be9df68a5a7d3ecfb5",
+            "venue": "Empirical Software Engineering",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2783719",
+                    "name": "Christopher S. Corley"
+                },
+                {
+                    "authorId": "3317998",
+                    "name": "Kelly L. Kashuda"
+                },
+                {
+                    "authorId": "1679523",
+                    "name": "Nicholas A. Kraft"
+                }
+            ],
+            "doi": "10.1109/ICSM.2015.7332453",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "7999880218fe78f77dd4bb5641b578ee5559a375",
+            "title": "Modeling changeset topics for feature location",
+            "url": "https://www.semanticscholar.org/paper/7999880218fe78f77dd4bb5641b578ee5559a375",
+            "venue": "2015 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2783719",
+                    "name": "Christopher S. Corley"
+                },
+                {
+                    "authorId": "1703177",
+                    "name": "Kostadin Damevski"
+                },
+                {
+                    "authorId": "1679523",
+                    "name": "Nicholas A. Kraft"
+                }
+            ],
+            "doi": "10.1109/ICSM.2015.7332513",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2958a1fc6cbdd78b2923a4477b0df5ab6b43e77d",
+            "title": "Exploring the use of deep learning for feature location",
+            "url": "https://www.semanticscholar.org/paper/2958a1fc6cbdd78b2923a4477b0df5ab6b43e77d",
+            "venue": "2015 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "46905197",
+                    "name": "Fabian Beck"
+                },
+                {
+                    "authorId": "2628011",
+                    "name": "Bogdan Dit"
+                },
+                {
+                    "authorId": "1408137600",
+                    "name": "Jaleo Velasco-Madden"
+                },
+                {
+                    "authorId": "69863469",
+                    "name": "D. Weiskopf"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                }
+            ],
+            "doi": "10.1109/ICPC.2015.24",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3ff6f9ab411a2a7769d20910a34111cf1367512f",
+            "title": "Rethinking User Interfaces for Feature Location",
+            "url": "https://www.semanticscholar.org/paper/3ff6f9ab411a2a7769d20910a34111cf1367512f",
+            "venue": "2015 IEEE 23rd International Conference on Program Comprehension",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2809286",
+                    "name": "Soumaya Medini"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "48632e3bb6502e2804400add850a1a80c1a609eb",
+            "title": "Concepts Extraction from Execution Traces",
+            "url": "https://www.semanticscholar.org/paper/48632e3bb6502e2804400add850a1a80c1a609eb",
+            "venue": "",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1471621799",
+                    "name": "Xiaobing Sun"
+                },
+                {
+                    "authorId": "2630157",
+                    "name": "Hareton K. N. Leung"
+                },
+                {
+                    "authorId": "2156071626",
+                    "name": "Bin Li"
+                },
+                {
+                    "authorId": "39389839",
+                    "name": "Bixin Li"
+                }
+            ],
+            "doi": "10.1016/j.jss.2014.05.036",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "21594cb93df2983992aff8bc9154c632e6186a39",
+            "title": "Change impact analysis and changeability assessment for a change proposal: An empirical study \u2606\u2606",
+            "url": "https://www.semanticscholar.org/paper/21594cb93df2983992aff8bc9154c632e6186a39",
+            "venue": "J. Syst. Softw.",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2628011",
+                    "name": "Bogdan Dit"
+                },
+                {
+                    "authorId": "40952019",
+                    "name": "M. Wagner"
+                },
+                {
+                    "authorId": "2989804",
+                    "name": "Shasha Wen"
+                },
+                {
+                    "authorId": "2108488229",
+                    "name": "Weilin Wang"
+                },
+                {
+                    "authorId": "1781267",
+                    "name": "M. V\u00e1squez"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                },
+                {
+                    "authorId": "3315359",
+                    "name": "Huzefa H. Kagdi"
+                }
+            ],
+            "doi": "10.1145/2591062.2591064",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b1655256a170dc54a8d5e3d3599afa2749da02c8",
+            "title": "ImpactMiner: a tool for change impact analysis",
+            "url": "https://www.semanticscholar.org/paper/b1655256a170dc54a8d5e3d3599afa2749da02c8",
+            "venue": "ICSE Companion",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2628011",
+                    "name": "Bogdan Dit"
+                },
+                {
+                    "authorId": "1876830",
+                    "name": "Evan Moritz"
+                },
+                {
+                    "authorId": "1781267",
+                    "name": "M. V\u00e1squez"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                }
+            ],
+            "doi": "10.1109/ICSM.2013.44",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "13265b6e8ac998f0c9a3e6b935b88787635d7a86",
+            "title": "Supporting and Accelerating Reproducible Research in Software Maintenance Using TraceLab Component Library",
+            "url": "https://www.semanticscholar.org/paper/13265b6e8ac998f0c9a3e6b935b88787635d7a86",
+            "venue": "2013 IEEE International Conference on Software Maintenance",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144172502",
+                    "name": "Emily Hill"
+                },
+                {
+                    "authorId": "1686038",
+                    "name": "Alberto Bacchelli"
+                },
+                {
+                    "authorId": "3408880",
+                    "name": "D. Binkley"
+                },
+                {
+                    "authorId": "2628011",
+                    "name": "Bogdan Dit"
+                },
+                {
+                    "authorId": "2539674",
+                    "name": "Dawn J Lawrie"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                }
+            ],
+            "doi": "10.1109/ICSM.2013.59",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "3f33359613e9e8fb7bcec4188746356cc0fb0eba",
+            "title": "Which Feature Location Technique is Better?",
+            "url": "https://www.semanticscholar.org/paper/3f33359613e9e8fb7bcec4188746356cc0fb0eba",
+            "venue": "2013 IEEE International Conference on Software Maintenance",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2809286",
+                    "name": "Soumaya Medini"
+                },
+                {
+                    "authorId": "3133380",
+                    "name": "Venera Arnaoudova"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "1692292",
+                    "name": "G. Antoniol"
+                },
+                {
+                    "authorId": "1718050",
+                    "name": "Yann-Ga\u00ebl Gu\u00e9h\u00e9neuc"
+                },
+                {
+                    "authorId": "1769017",
+                    "name": "P. Tonella"
+                }
+            ],
+            "doi": "10.1002/smr.1695",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "934994c82d59a6a66af80d8a46d9e48429f9becd",
+            "title": "SCAN: An Approach to Label and Relate Execution Trace Segments",
+            "url": "https://www.semanticscholar.org/paper/934994c82d59a6a66af80d8a46d9e48429f9becd",
+            "venue": "2012 19th Working Conference on Reverse Engineering",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34626497",
+                    "name": "Sihem Ben Sassi"
+                },
+                {
+                    "authorId": "1797322",
+                    "name": "St\u00e9phane Ducasse"
+                },
+                {
+                    "authorId": "2116204",
+                    "name": "H. Mili"
+                }
+            ],
+            "doi": "10.1007/978-3-030-64694-3",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "674bedfe1273f6a7b7630aad747869fce5e743c9",
+            "title": "Reuse in Emerging Software Engineering Practices: 19th International Conference on Software and Systems Reuse, ICSR 2020, Hammamet, Tunisia, December 2\u20134, 2020, Proceedings",
+            "url": "https://www.semanticscholar.org/paper/674bedfe1273f6a7b7630aad747869fce5e743c9",
+            "venue": "ICSR",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "101205062",
+                    "name": "A. Razzaq"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d73d9d830318739472eac5baf23c326399219ee0",
+            "title": "Towards more reliable cross-comparison of feature location techniques",
+            "url": "https://www.semanticscholar.org/paper/d73d9d830318739472eac5baf23c326399219ee0",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2286857886",
+                    "name": "S. Gomathi"
+                },
+                {
+                    "authorId": "2286858862",
+                    "name": "Swathini"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "844b52df972773f15238607d7ec8bba634e78013",
+            "title": "Rank and Classification of Bug Reports and Feature Evaluation Using SVM",
+            "url": "https://www.semanticscholar.org/paper/844b52df972773f15238607d7ec8bba634e78013",
+            "venue": "",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2110260346",
+                    "name": "Yu Zhao"
+                },
+                {
+                    "authorId": "144422095",
+                    "name": "T. S. Zaman"
+                },
+                {
+                    "authorId": "50391262",
+                    "name": "Tingting Yu"
+                },
+                {
+                    "authorId": "2151308424",
+                    "name": "J. Hayes"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "734d0503ec451d9a98f1f6dfd3d017fb0e1c8d99",
+            "title": "Using Deep Learning to Improve the Accuracy of Requirements to Code Traceability",
+            "url": "https://www.semanticscholar.org/paper/734d0503ec451d9a98f1f6dfd3d017fb0e1c8d99",
+            "venue": "",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b1983a5941c884f8310a5208bea9f44b026cccf6",
+            "title": "Delft University of Technology Which feature location technique is better ?",
+            "url": "https://www.semanticscholar.org/paper/b1983a5941c884f8310a5208bea9f44b026cccf6",
+            "venue": "",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                },
+                {
+                    "authorId": "2288620863",
+                    "name": "Daniel Grosu"
+                },
+                {
+                    "authorId": "2518515",
+                    "name": "Jonathan I. Maletic"
+                },
+                {
+                    "authorId": "40473936",
+                    "name": "Andrian Marcus"
+                },
+                {
+                    "authorId": "3246103",
+                    "name": "V. Rajlich"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "260bcad791eba769ca20fd17996d6d5f0f270108",
+            "title": "HONORS AND AWARDS",
+            "url": "https://www.semanticscholar.org/paper/260bcad791eba769ca20fd17996d6d5f0f270108",
+            "venue": "",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1876830",
+                    "name": "Evan Moritz"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "136f4f036353d99586410cf7b38d65cedfb72543",
+            "title": "TraceLab: Reproducing Empirical Software Engineering Research",
+            "url": "https://www.semanticscholar.org/paper/136f4f036353d99586410cf7b38d65cedfb72543",
+            "venue": "",
+            "year": 2013
+        }
+    ],
+    "corpusId": 6912170,
+    "doi": "10.1109/MSR.2013.6624019",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 3,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 42,
+    "numCiting": 11,
+    "paperId": "762cd1936ade795a0803c6c8e3ac5939e59be756",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3297563",
+                    "name": "Lauren R. Biggers"
+                },
+                {
+                    "authorId": "3123117",
+                    "name": "Cecylia Bocovich"
+                },
+                {
+                    "authorId": "2196511",
+                    "name": "Riley Capshaw"
+                },
+                {
+                    "authorId": "35196021",
+                    "name": "Brian P. Eddy"
+                },
+                {
+                    "authorId": "9001635",
+                    "name": "L. Etzkorn"
+                },
+                {
+                    "authorId": "1679523",
+                    "name": "Nicholas A. Kraft"
+                }
+            ],
+            "doi": "10.1007/s10664-012-9224-x",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1ee08dc625cc7b9d3c92ed16911489d72a5eb143",
+            "title": "Configuring latent Dirichlet allocation based feature location",
+            "url": "https://www.semanticscholar.org/paper/1ee08dc625cc7b9d3c92ed16911489d72a5eb143",
+            "venue": "Empirical Software Engineering",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144403222",
+                    "name": "Nasir Ali"
+                },
+                {
+                    "authorId": "1718050",
+                    "name": "Yann-Ga\u00ebl Gu\u00e9h\u00e9neuc"
+                },
+                {
+                    "authorId": "1692292",
+                    "name": "G. Antoniol"
+                }
+            ],
+            "doi": "10.1109/TSE.2012.71",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b6195f77be2e48ba5724cc9dcf4846884ce503ed",
+            "title": "Trustrace: Mining Software Repositories to Improve the Accuracy of Requirement Traceability Links",
+            "url": "https://www.semanticscholar.org/paper/b6195f77be2e48ba5724cc9dcf4846884ce503ed",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3013302",
+                    "name": "Annibale Panichella"
+                },
+                {
+                    "authorId": "2628011",
+                    "name": "Bogdan Dit"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                },
+                {
+                    "authorId": "145818752",
+                    "name": "A. D. Lucia"
+                }
+            ],
+            "doi": "10.1109/ICSE.2013.6606598",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5ed409e2bee9203af02f63b0a57aa139f9ea2cc3",
+            "title": "How to effectively use topic models for software engineering tasks? An approach based on Genetic Algorithms",
+            "url": "https://www.semanticscholar.org/paper/5ed409e2bee9203af02f63b0a57aa139f9ea2cc3",
+            "venue": "2013 35th International Conference on Software Engineering (ICSE)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2628011",
+                    "name": "Bogdan Dit"
+                },
+                {
+                    "authorId": "1857632",
+                    "name": "Meghan Revelle"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                }
+            ],
+            "doi": "10.1007/s10664-011-9194-4",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "603e71f6ffe132c0fd2934671f8c1a63d87f7b45",
+            "title": "Integrating information retrieval, execution and link analysis algorithms to improve feature location in software",
+            "url": "https://www.semanticscholar.org/paper/603e71f6ffe132c0fd2934671f8c1a63d87f7b45",
+            "venue": "Empirical Software Engineering",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2628011",
+                    "name": "Bogdan Dit"
+                },
+                {
+                    "authorId": "1857632",
+                    "name": "Meghan Revelle"
+                },
+                {
+                    "authorId": "2610703",
+                    "name": "Malcom Gethers"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                }
+            ],
+            "doi": "10.1002/smr.567",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ad302689fbc6841d7960d97774cccd0869145156",
+            "title": "Feature location in source code: a taxonomy and survey",
+            "url": "https://www.semanticscholar.org/paper/ad302689fbc6841d7960d97774cccd0869145156",
+            "venue": "J. Softw. Evol. Process.",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144250806",
+                    "name": "Steven Davies"
+                },
+                {
+                    "authorId": "145683624",
+                    "name": "M. Roper"
+                },
+                {
+                    "authorId": "145953716",
+                    "name": "M. Wood"
+                }
+            ],
+            "doi": "10.1109/WCRE.2012.22",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "759b2f8109b0aa1caf3b2bdfc4092d6acacbc98c",
+            "title": "Using Bug Report Similarity to Enhance Bug Localisation",
+            "url": "https://www.semanticscholar.org/paper/759b2f8109b0aa1caf3b2bdfc4092d6acacbc98c",
+            "venue": "2012 19th Working Conference on Reverse Engineering",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1781267",
+                    "name": "M. V\u00e1squez"
+                },
+                {
+                    "authorId": "2024706",
+                    "name": "Kamal Hossen"
+                },
+                {
+                    "authorId": "143810251",
+                    "name": "Hoang Dang"
+                },
+                {
+                    "authorId": "3315359",
+                    "name": "Huzefa H. Kagdi"
+                },
+                {
+                    "authorId": "2610703",
+                    "name": "Malcom Gethers"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                }
+            ],
+            "doi": "10.1109/ICSM.2012.6405306",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6cf717f101cb0cad4c31daba82b66816c0b9592a",
+            "title": "Triaging incoming change requests: Bug or commit history, or code authorship?",
+            "url": "https://www.semanticscholar.org/paper/6cf717f101cb0cad4c31daba82b66816c0b9592a",
+            "venue": "2012 28th IEEE International Conference on Software Maintenance (ICSM)",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2610703",
+                    "name": "Malcom Gethers"
+                },
+                {
+                    "authorId": "2628011",
+                    "name": "Bogdan Dit"
+                },
+                {
+                    "authorId": "3315359",
+                    "name": "Huzefa H. Kagdi"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                }
+            ],
+            "doi": "10.1109/ICSE.2012.6227172",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "314580ae8489b1b7bd99bb74c1e569f2ad08d635",
+            "title": "Integrated impact analysis for managing software changes",
+            "url": "https://www.semanticscholar.org/paper/314580ae8489b1b7bd99bb74c1e569f2ad08d635",
+            "venue": "2012 34th International Conference on Software Engineering (ICSE)",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2628011",
+                    "name": "Bogdan Dit"
+                },
+                {
+                    "authorId": "1782697",
+                    "name": "Latifa Guerrouj"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                },
+                {
+                    "authorId": "1692292",
+                    "name": "G. Antoniol"
+                }
+            ],
+            "doi": "10.1109/ICPC.2011.47",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "55de1fafac67f91cf0b92f485e4f000d723eda5c",
+            "title": "Can Better Identifier Splitting Techniques Help Feature Location?",
+            "url": "https://www.semanticscholar.org/paper/55de1fafac67f91cf0b92f485e4f000d723eda5c",
+            "venue": "2011 IEEE 19th International Conference on Program Comprehension",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2115199550",
+                    "name": "Dapeng Liu"
+                },
+                {
+                    "authorId": "40473936",
+                    "name": "Andrian Marcus"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                },
+                {
+                    "authorId": "3246103",
+                    "name": "V. Rajlich"
+                }
+            ],
+            "doi": "10.1145/1321631.1321667",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "8fcb43a51f45378026b5bfa791f4be16686d09ab",
+            "title": "Feature location via information retrieval based filtering of a single scenario execution trace",
+            "url": "https://www.semanticscholar.org/paper/8fcb43a51f45378026b5bfa791f4be16686d09ab",
+            "venue": "ASE",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "A Comparison of Stemming Algorithms for Text Retrieval Based Feature Location",
+            "url": "",
+            "venue": "http://software.eng.ua.edu/reports/SERG-2012-03, 2012.",
+            "year": 2012
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "A dataset from change history to support evaluation of software maintenance tasks",
+    "topics": [
+        {
+            "topic": "Software maintenance",
+            "topicId": "47881",
+            "url": "https://www.semanticscholar.org/topic/47881"
+        },
+        {
+            "topic": "Benchmark (computing)",
+            "topicId": "1374",
+            "url": "https://www.semanticscholar.org/topic/1374"
+        },
+        {
+            "topic": "Software engineering",
+            "topicId": "7832",
+            "url": "https://www.semanticscholar.org/topic/7832"
+        },
+        {
+            "topic": "Java",
+            "topicId": "1280",
+            "url": "https://www.semanticscholar.org/topic/1280"
+        },
+        {
+            "topic": "Change request",
+            "topicId": "403903",
+            "url": "https://www.semanticscholar.org/topic/403903"
+        },
+        {
+            "topic": "Software system",
+            "topicId": "79",
+            "url": "https://www.semanticscholar.org/topic/79"
+        },
+        {
+            "topic": "Tracing (software)",
+            "topicId": "2918",
+            "url": "https://www.semanticscholar.org/topic/2918"
+        }
+    ],
+    "url": "https://www.semanticscholar.org/paper/762cd1936ade795a0803c6c8e3ac5939e59be756",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2013
+}

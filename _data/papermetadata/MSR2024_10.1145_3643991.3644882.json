@@ -1,0 +1,1070 @@
+{
+    "abstract": "Jupyter notebooks have become indispensable tools for data analysis and processing in various domains. However, despite their widespread use, there is a notable research gap in understanding and analyzing the contents and code metrics of these notebooks. This gap is primarily attributed to the absence of datasets that encompass both Jupyter notebooks and extracted their code metrics. To address this limitation, we introduce DistilKaggle, a unique dataset specifically curated to facilitate research on code metrics in Jupyter notebooks, utilizing the Kaggle repository as a prime source. Through an extensive study, we identify thirty-four code metrics that significantly impact Jupyter notebook code quality. These features such as lines of code cell, mean number of words in markdown cells, performance tier of developer, etc., are crucial for understanding and improving the overall effectiveness of computational notebooks. The DistilKaggle dataset which is derived from a vast collection of notebooks constitutes two distinct datasets: (i) Code Cells and Markdown Cells Dataset which is presen\u2019 workflows as dataframes. It provides a granular view of the content structure within 542,051 Jupyter notebooks, enabling detailed analysis of code and markdown cells; and (ii) The Notebook Code Metrics Dataset focused on the identified code metrics of notebooks. Researchers can leverage this dataset to access Jupyter notebooks with specific code quality characteristics, surpassing the limitations of filters available on the Kaggle website. Furthermore, the reproducibility of the notebooks in our dataset is ensured through the code cells and markdown cells datasets, offering a reliable foundation for researchers to build upon. Given the substantial size of our datasets, it becomes an invaluable resource for the research community, surpassing the capabilities of individual Kaggle users to collect such extensive data. For accessibility and transparency, both the dataset and the code utilized in crafting this dataset are publicly available at https://github.com/ISE-Research/DistilKaggle.CCS CONCEPTS\u2022Software and its engineering \u2192 Software libraries and repositories.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "147544973",
+            "name": "Mojtaba Mostafavi Ghahfarokhi",
+            "url": "https://www.semanticscholar.org/author/147544973"
+        },
+        {
+            "authorId": "2306956822",
+            "name": "Arash Asgari",
+            "url": "https://www.semanticscholar.org/author/2306956822"
+        },
+        {
+            "authorId": "2301053682",
+            "name": "Mohammad Abolnejadian",
+            "url": "https://www.semanticscholar.org/author/2301053682"
+        },
+        {
+            "authorId": "2305843296",
+            "name": "Abbas Heydarnoori",
+            "url": "https://www.semanticscholar.org/author/2305843296"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2406.10989",
+            "authors": [
+                {
+                    "authorId": "9354524",
+                    "name": "M. M. Ghahfarokhi"
+                },
+                {
+                    "authorId": "2305764121",
+                    "name": "Alireza Asadi"
+                },
+                {
+                    "authorId": "2306956822",
+                    "name": "Arash Asgari"
+                },
+                {
+                    "authorId": "2306958183",
+                    "name": "Bardia Mohammadi"
+                },
+                {
+                    "authorId": "2306958114",
+                    "name": "Masih Beigi Rizi"
+                },
+                {
+                    "authorId": "2305843296",
+                    "name": "Abbas Heydarnoori"
+                }
+            ],
+            "doi": "10.48550/arXiv.2406.10989",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "db0c5f8b3fe71b1220147e174b2d6272cf896085",
+            "title": "Predicting the Understandability of Computational Notebooks through Code Metrics Analysis",
+            "url": "https://www.semanticscholar.org/paper/db0c5f8b3fe71b1220147e174b2d6272cf896085",
+            "venue": "ArXiv",
+            "year": 2024
+        }
+    ],
+    "corpusId": 270592932,
+    "doi": "10.1145/3643991.3644882",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 1,
+    "numCiting": 36,
+    "paperId": "bf0bf51a3311380c68b540c63836d3af253d2c03",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2197468027",
+                    "name": "Yuan Jiang"
+                },
+                {
+                    "authorId": "145832795",
+                    "name": "Christian K\u00e4stner"
+                },
+                {
+                    "authorId": "2828975",
+                    "name": "Shurui Zhou"
+                }
+            ],
+            "doi": "10.1109/ICSME55016.2022.00047",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5a9bd85dc8fe2d7eedbe328ea52938976a5d6e53",
+            "title": "Elevating Jupyter Notebook Maintenance Tooling by Identifying and Extracting Notebook Structures",
+            "url": "https://www.semanticscholar.org/paper/5a9bd85dc8fe2d7eedbe328ea52938976a5d6e53",
+            "venue": "2022 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2493657",
+                    "name": "Fotis Psallidas"
+                },
+                {
+                    "authorId": "2139103184",
+                    "name": "Yiwen Zhu"
+                },
+                {
+                    "authorId": "3451527",
+                    "name": "Bojan Karlas"
+                },
+                {
+                    "authorId": "40282163",
+                    "name": "Jordan Henkel"
+                },
+                {
+                    "authorId": "2192580",
+                    "name": "Matteo Interlandi"
+                },
+                {
+                    "authorId": "2494730",
+                    "name": "Subru Krishnan"
+                },
+                {
+                    "authorId": "1388059340",
+                    "name": "Brian Kroth"
+                },
+                {
+                    "authorId": "2179556445",
+                    "name": "Venkatesh Emani"
+                },
+                {
+                    "authorId": "5072734",
+                    "name": "Wentao Wu"
+                },
+                {
+                    "authorId": "2146064155",
+                    "name": "Ce Zhang"
+                },
+                {
+                    "authorId": "2965406",
+                    "name": "Markus Weimer"
+                },
+                {
+                    "authorId": "2327080",
+                    "name": "Avrilia Floratou"
+                },
+                {
+                    "authorId": "1692732",
+                    "name": "C. Curino"
+                }
+            ],
+            "doi": "10.1145/3552490.3552496",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "666399c50bf7fc9b027968f9cbc5c7b9b9454c91",
+            "title": "Data Science Through the Looking Glass",
+            "url": "https://www.semanticscholar.org/paper/666399c50bf7fc9b027968f9cbc5c7b9b9454c91",
+            "venue": "SIGMOD Rec.",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "103260170",
+                    "name": "Will Epperson"
+                },
+                {
+                    "authorId": "46393411",
+                    "name": "Yi Wang"
+                },
+                {
+                    "authorId": "1710751",
+                    "name": "R. Deline"
+                },
+                {
+                    "authorId": "2311676",
+                    "name": "S. Drucker"
+                }
+            ],
+            "doi": "10.1145/3510457.3513042",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a8c072f6cbd4653a1f0888b3529898f66c0e6bb0",
+            "title": "Strategies for Reuse and Sharing among Data Scientists in Software Teams",
+            "url": "https://www.semanticscholar.org/paper/a8c072f6cbd4653a1f0888b3529898f66c0e6bb0",
+            "venue": "2022 IEEE/ACM 44th International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2204.13262",
+            "authors": [
+                {
+                    "authorId": "2053001357",
+                    "name": "Vishakha Agrawal"
+                },
+                {
+                    "authorId": "2163833910",
+                    "name": "Yong-Han Lin"
+                },
+                {
+                    "authorId": "2178714",
+                    "name": "Jinghui Cheng"
+                }
+            ],
+            "doi": "10.1145/3530019.3534082",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "59bda3b34cd97a944dfa963048a70197b9fc33e9",
+            "title": "Understanding the Characteristics of Visual Contents in Open Source Issue Discussions: A Case Study of Jupyter Notebook",
+            "url": "https://www.semanticscholar.org/paper/59bda3b34cd97a944dfa963048a70197b9fc33e9",
+            "venue": "EASE",
+            "year": 2022
+        },
+        {
+            "arxivId": "2203.16718",
+            "authors": [
+                {
+                    "authorId": "2258958377",
+                    "name": "Konstantin Grotov"
+                },
+                {
+                    "authorId": "33387865",
+                    "name": "S. Titov"
+                },
+                {
+                    "authorId": "48428604",
+                    "name": "Vladimir M. Sotnikov"
+                },
+                {
+                    "authorId": "1486450758",
+                    "name": "Yaroslav Golubev"
+                },
+                {
+                    "authorId": "2851011",
+                    "name": "T. Bryksin"
+                }
+            ],
+            "doi": "10.1145/3524842.3528447",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "25679057c9ee61af868e658c65b6b69bd26251af",
+            "title": "A Large-Scale Comparison of Python Code in Jupyter Notebooks and Scripts",
+            "url": "https://www.semanticscholar.org/paper/25679057c9ee61af868e658c65b6b69bd26251af",
+            "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2154172827",
+                    "name": "Chenyang Yang"
+                },
+                {
+                    "authorId": "2828975",
+                    "name": "Shurui Zhou"
+                },
+                {
+                    "authorId": "1994701040",
+                    "name": "Jin L. C. Guo"
+                },
+                {
+                    "authorId": "145832795",
+                    "name": "Christian K\u00e4stner"
+                }
+            ],
+            "doi": "10.1109/ASE51524.2021.9678520",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "637fe2b74170b8617bd304e84098bf4a4fcfa571",
+            "title": "Subtle Bugs Everywhere: Generating Documentation for Data Wrangling Code",
+            "url": "https://www.semanticscholar.org/paper/637fe2b74170b8617bd304e84098bf4a4fcfa571",
+            "venue": "2021 36th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8652308",
+                    "name": "Chenguang Zhu"
+                },
+                {
+                    "authorId": "2671585",
+                    "name": "Ripon K. Saha"
+                },
+                {
+                    "authorId": "145134489",
+                    "name": "M. Prasad"
+                },
+                {
+                    "authorId": "145802044",
+                    "name": "S. Khurshid"
+                }
+            ],
+            "doi": "10.1109/ASE51524.2021.9678889",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "67665408fc1160755187e6326b206b68be35594c",
+            "title": "Restoring the Executability of Jupyter Notebooks by Automatic Upgrade of Deprecated APIs",
+            "url": "https://www.semanticscholar.org/paper/67665408fc1160755187e6326b206b68be35594c",
+            "venue": "2021 36th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2109.11089",
+            "authors": [
+                {
+                    "authorId": "52378466",
+                    "name": "E. Alomar"
+                },
+                {
+                    "authorId": "11002308",
+                    "name": "Anthony S Peruma"
+                },
+                {
+                    "authorId": "2121857527",
+                    "name": "Mohamed Wiem Mkaouer"
+                },
+                {
+                    "authorId": "21216319",
+                    "name": "Christian D. Newman"
+                },
+                {
+                    "authorId": "1994554",
+                    "name": "Ali Ouni"
+                }
+            ],
+            "doi": "10.1002/smr.2395",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9196fe7a0f2b483ec0823641037f7e0123b2c329",
+            "title": "Behind the Scenes: On the Relationship Between Developer Experience and Refactoring",
+            "url": "https://www.semanticscholar.org/paper/9196fe7a0f2b483ec0823641037f7e0123b2c329",
+            "venue": "Journal of Software: Evolution and Process",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "71120559",
+                    "name": "Ashwini Venkatesh"
+                },
+                {
+                    "authorId": "1752222",
+                    "name": "E. Bodden"
+                }
+            ],
+            "doi": "10.1145/3464968.3468410",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4ff62ead9e7ab19896c0a414d170f9e3e6ab35db",
+            "title": "Automated cell header generator for Jupyter notebooks",
+            "url": "https://www.semanticscholar.org/paper/4ff62ead9e7ab19896c0a414d170f9e3e6ab35db",
+            "venue": "AISTA@ISSTA",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "31252716",
+                    "name": "Malinda Dilhara"
+                },
+                {
+                    "authorId": "21006921",
+                    "name": "Ameya Ketkar"
+                },
+                {
+                    "authorId": "1687704",
+                    "name": "Danny Dig"
+                }
+            ],
+            "doi": "10.1145/3453478",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ace201cad65058947e32d2502a451963f0ae01bc",
+            "title": "Understanding Software-2.0",
+            "url": "https://www.semanticscholar.org/paper/ace201cad65058947e32d2502a451963f0ae01bc",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2104.01002",
+            "authors": [
+                {
+                    "authorId": "14910591",
+                    "name": "Xuye Liu"
+                },
+                {
+                    "authorId": "36743361",
+                    "name": "Dakuo Wang"
+                },
+                {
+                    "authorId": "1405923139",
+                    "name": "A. Wang"
+                },
+                {
+                    "authorId": "3008832",
+                    "name": "Lingfei Wu"
+                }
+            ],
+            "doi": "10.18653/v1/2021.findings-emnlp.381",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6e2b1038682cd116b2e38bec19b5721196c41eea",
+            "title": "HAConvGNN: Hierarchical Attention Based Convolutional Graph Neural Network for Code Documentation Generation in Jupyter Notebooks",
+            "url": "https://www.semanticscholar.org/paper/6e2b1038682cd116b2e38bec19b5721196c41eea",
+            "venue": "EMNLP",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.10558",
+            "authors": [
+                {
+                    "authorId": "80099077",
+                    "name": "L. Quaranta"
+                },
+                {
+                    "authorId": "1810643",
+                    "name": "Fabio Calefato"
+                },
+                {
+                    "authorId": "1743022",
+                    "name": "F. Lanubile"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00072",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "24dbf2b111ad3e5f9984f127c694e9298a92a7f8",
+            "title": "KGTorrent: A Dataset of Python Jupyter Notebooks from Kaggle",
+            "url": "https://www.semanticscholar.org/paper/24dbf2b111ad3e5f9984f127c694e9298a92a7f8",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.02959",
+            "authors": [
+                {
+                    "authorId": "2110132580",
+                    "name": "Jiawei Wang"
+                },
+                {
+                    "authorId": "2156056003",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "145594351",
+                    "name": "A. Zeller"
+                }
+            ],
+            "doi": "10.1109/ICSE43902.2021.00144",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ac4fa0172096f896a53a3bcaaa44f6fd67641534",
+            "title": "Restoring Execution Environments of Jupyter Notebooks",
+            "url": "https://www.semanticscholar.org/paper/ac4fa0172096f896a53a3bcaaa44f6fd67641534",
+            "venue": "2021 IEEE/ACM 43rd International Conference on Software Engineering (ICSE)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2066898372",
+                    "name": "Jorge Piazentin Ono"
+                },
+                {
+                    "authorId": "144162611",
+                    "name": "J. Freire"
+                },
+                {
+                    "authorId": "143803711",
+                    "name": "Cl\u00e1udio T. Silva"
+                },
+                {
+                    "authorId": "1737524",
+                    "name": "J. Comba"
+                },
+                {
+                    "authorId": "1710352",
+                    "name": "K. Gaither"
+                }
+            ],
+            "doi": "10.1109/MCSE.2021.3052619",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "614733f3e799b2b0c4701d2e5c58c89dfd5f7a7d",
+            "title": "Interactive Data Visualization in Jupyter Notebooks",
+            "url": "https://www.semanticscholar.org/paper/614733f3e799b2b0c4701d2e5c58c89dfd5f7a7d",
+            "venue": "Computing in Science & Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": "2102.12592",
+            "authors": [
+                {
+                    "authorId": "1405923139",
+                    "name": "A. Wang"
+                },
+                {
+                    "authorId": "36743361",
+                    "name": "Dakuo Wang"
+                },
+                {
+                    "authorId": "46178771",
+                    "name": "Jaimie Drozdal"
+                },
+                {
+                    "authorId": "1561777696",
+                    "name": "Michael J. Muller"
+                },
+                {
+                    "authorId": "2504744",
+                    "name": "Soya Park"
+                },
+                {
+                    "authorId": "1927553",
+                    "name": "Justin D. Weisz"
+                },
+                {
+                    "authorId": "14910591",
+                    "name": "Xuye Liu"
+                },
+                {
+                    "authorId": "3008832",
+                    "name": "Lingfei Wu"
+                },
+                {
+                    "authorId": "2391727",
+                    "name": "Casey Dugan"
+                }
+            ],
+            "doi": "10.1145/3489465",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "315b453eb889ded846c1685b2cd3ac700f69459c",
+            "title": "Documentation Matters: Human-Centered AI System to Assist Data Science Code Documentation in Computational Notebooks",
+            "url": "https://www.semanticscholar.org/paper/315b453eb889ded846c1685b2cd3ac700f69459c",
+            "venue": "ACM Trans. Comput. Hum. Interact.",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2110132580",
+                    "name": "Jiawei Wang"
+                },
+                {
+                    "authorId": "1976733223",
+                    "name": "Tzu-yang Kuo"
+                },
+                {
+                    "authorId": "2156056003",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "145594351",
+                    "name": "A. Zeller"
+                }
+            ],
+            "doi": "10.1145/3324884.3416585",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "dabc749ba149b694bf51e0eb390c2dc3e982ce9c",
+            "title": "Assessing and Restoring Reproducibility of Jupyter Notebooks",
+            "url": "https://www.semanticscholar.org/paper/dabc749ba149b694bf51e0eb390c2dc3e982ce9c",
+            "venue": "2020 35th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2024796450",
+                    "name": "Jiali Liu"
+                },
+                {
+                    "authorId": "2213879",
+                    "name": "N. Boukhelifa"
+                },
+                {
+                    "authorId": "2152856",
+                    "name": "James R. Eagan"
+                }
+            ],
+            "doi": "10.1109/TVCG.2019.2934593",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c0ec6c0548a3b754d0e750702b58fe15ddcf525f",
+            "title": "Understanding the Role of Alternatives in Data Analysis Practices",
+            "url": "https://www.semanticscholar.org/paper/c0ec6c0548a3b754d0e750702b58fe15ddcf525f",
+            "venue": "IEEE Transactions on Visualization and Computer Graphics",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "7662803",
+                    "name": "John E. Wenskovitch"
+                },
+                {
+                    "authorId": "2143572915",
+                    "name": "Jian Zhao"
+                },
+                {
+                    "authorId": "143712939",
+                    "name": "S. Carter"
+                },
+                {
+                    "authorId": "49637486",
+                    "name": "Matthew L. Cooper"
+                },
+                {
+                    "authorId": "144305975",
+                    "name": "Chris North"
+                }
+            ],
+            "doi": "10.1109/VDS48975.2019.8973385",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "af82b79fcfecfcaa44dc02c6729b3f2e45564445",
+            "title": "Albireo: An Interactive Tool for Visually Summarizing Computational Notebook Structure",
+            "url": "https://www.semanticscholar.org/paper/af82b79fcfecfcaa44dc02c6729b3f2e45564445",
+            "venue": "2019 IEEE Visualization in Data Science (VDS)",
+            "year": 2019
+        },
+        {
+            "arxivId": "1906.05234",
+            "authors": [
+                {
+                    "authorId": "2110132580",
+                    "name": "Jiawei Wang"
+                },
+                {
+                    "authorId": "2156056003",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "145594351",
+                    "name": "A. Zeller"
+                }
+            ],
+            "doi": "10.1145/3377816.3381724",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "134ef95974608bce4150ca20148cd94ed5c4366f",
+            "title": "Better Code, Better Sharing: On the Need of Analyzing Jupyter Notebooks",
+            "url": "https://www.semanticscholar.org/paper/134ef95974608bce4150ca20148cd94ed5c4366f",
+            "venue": "2020 IEEE/ACM 42nd International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2118685",
+                    "name": "J. F. Pimentel"
+                },
+                {
+                    "authorId": "2205046",
+                    "name": "Leonardo Gresta Paulino Murta"
+                },
+                {
+                    "authorId": "1740182",
+                    "name": "V. Braganholo"
+                },
+                {
+                    "authorId": "144162611",
+                    "name": "J. Freire"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00077",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "30228f5e3ecd19452a2a5388b23086569e6233f4",
+            "title": "A Large-Scale Study About Quality and Reproducibility of Jupyter Notebooks",
+            "url": "https://www.semanticscholar.org/paper/30228f5e3ecd19452a2a5388b23086569e6233f4",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3439470",
+                    "name": "Simone Scalabrino"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "2664645",
+                    "name": "Christopher Vendome"
+                },
+                {
+                    "authorId": "1397411901",
+                    "name": "Mario Linares-V\u00e1squez"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                }
+            ],
+            "doi": "10.1109/TSE.2019.2901468",
+            "intent": [
+                "methodology",
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "ae6496ec4c6d34fec0c044187cc07c91c923f848",
+            "title": "Automatically Assessing Code Understandability",
+            "url": "https://www.semanticscholar.org/paper/ae6496ec4c6d34fec0c044187cc07c91c923f848",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1960699",
+                    "name": "Adam Rule"
+                },
+                {
+                    "authorId": "2457286",
+                    "name": "A. Tabard"
+                },
+                {
+                    "authorId": "1698170",
+                    "name": "James Hollan"
+                }
+            ],
+            "doi": "10.1145/3173574.3173606",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fcc86317d6a0e5f67968d2e84d20dd5ba0524cf2",
+            "title": "Exploration and Explanation in Computational Notebooks",
+            "url": "https://www.semanticscholar.org/paper/fcc86317d6a0e5f67968d2e84d20dd5ba0524cf2",
+            "venue": "CHI",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3238134",
+                    "name": "Nadia Kasto"
+                },
+                {
+                    "authorId": "8802231",
+                    "name": "Jacqueline L. Whalley"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "98fcdf2ff4cf07009f2af360058d4f567d99b40d",
+            "title": "Measuring the difficulty of code comprehension tasks using software metrics",
+            "url": "https://www.semanticscholar.org/paper/98fcdf2ff4cf07009f2af360058d4f567d99b40d",
+            "venue": "ACE '13",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49703359",
+                    "name": "Daryl Posnett"
+                },
+                {
+                    "authorId": "145369636",
+                    "name": "Abram Hindle"
+                },
+                {
+                    "authorId": "1730296",
+                    "name": "Premkumar T. Devanbu"
+                }
+            ],
+            "doi": "10.1145/1985441.1985454",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d3a8a16096bd506d62be6ad62f9dafb9d8443240",
+            "title": "A simpler model of software readability",
+            "url": "https://www.semanticscholar.org/paper/d3a8a16096bd506d62be6ad62f9dafb9d8443240",
+            "venue": "MSR '11",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3016560",
+                    "name": "Raymond P. L. Buse"
+                },
+                {
+                    "authorId": "47211092",
+                    "name": "Westley Weimer"
+                }
+            ],
+            "doi": "10.1109/TSE.2009.70",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1a2b8aa0ed7f24ca001508654f506ea010b18a5e",
+            "title": "Learning a Metric for Code Readability",
+            "url": "https://www.semanticscholar.org/paper/1a2b8aa0ed7f24ca001508654f506ea010b18a5e",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145921766",
+                    "name": "J. Parker"
+                },
+                {
+                    "authorId": "1901483",
+                    "name": "K. Becker"
+                }
+            ],
+            "doi": "10.1145/961511.961526",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "52f65a474d2fadd7fb21660c7c21cecfae6c603a",
+            "title": "Measuring effectiveness of constructivist and behaviourist assignments in CS102",
+            "url": "https://www.semanticscholar.org/paper/52f65a474d2fadd7fb21660c7c21cecfae6c603a",
+            "venue": "ITiCSE '03",
+            "year": 2003
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6129834",
+                    "name": "A. Bedeian"
+                },
+                {
+                    "authorId": "49667830",
+                    "name": "K. W. Mossholder"
+                }
+            ],
+            "doi": "10.1177/109442810033005",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "fd165944778927b4048ad4b61c1081ec570cd372",
+            "title": "On the Use of the Coefficient of Variation as a Measure of Diversity",
+            "url": "https://www.semanticscholar.org/paper/fd165944778927b4048ad4b61c1081ec570cd372",
+            "venue": "",
+            "year": 2000
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2676013",
+                    "name": "K. S. Mathias"
+                },
+                {
+                    "authorId": "34310527",
+                    "name": "J. Cross"
+                },
+                {
+                    "authorId": "36510957",
+                    "name": "T. D. Hendrix"
+                },
+                {
+                    "authorId": "3137407",
+                    "name": "L. Barowski"
+                }
+            ],
+            "doi": "10.1145/306363.306381",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "de61261cce945d6fb144654914be257181ebeaae",
+            "title": "The role of software measures and metrics in studies of program comprehension",
+            "url": "https://www.semanticscholar.org/paper/de61261cce945d6fb144654914be257181ebeaae",
+            "venue": "ACM-SE 37",
+            "year": 1999
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Splitting, renaming,removing:AstudyofcommoncleaningactivitiesinJupyternotebooks",
+            "url": "",
+            "venue": "36th IEEE/ACM International Conference on Automated Software Engineering Workshops",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Sup-portingdataworkerstoperformexploratoryprogramming",
+            "url": "",
+            "venue": "ExtendedAbstracts of the CHI Conference on Human Factors in Computing Systems",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144651072",
+                    "name": "Jonathan Dorn"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "e24f9095a15f30f45cd4b23e84c5abe2f0095a17",
+            "title": "A General Software Readability Model",
+            "url": "https://www.semanticscholar.org/paper/e24f9095a15f30f45cd4b23e84c5abe2f0095a17",
+            "venue": "",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Downloading notebooks in a quantity comparable to the dataset presented here would take months due to Kaggle API\u2019s request rate limit",
+            "url": "",
+            "venue": "Our dataset offers a convenient access to a substantial volume of valuable data\u2014Jupyter note-books",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2023. EnhancingComprehensionandNavigationinJupyterNotebookswithStaticAnalysis",
+            "url": "",
+            "venue": "30th IEEE International Conference on Software Analysis, Evolution and Reengineering",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "to the substantial 180GB size of the KGTorrent dataset",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2022.Resplit:improvingthe structureofjupyternotebooksbyre-splittingtheircells",
+            "url": "",
+            "venue": "29thIEEEInternational Conference on Software Analysis, Evolution and Reengineering",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "MSR \u201924, April 15\u201316, 2024, Lisbon, Portugal",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "DistilKaggle: A Distilled Dataset of Kaggle Jupyter Notebooks",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/bf0bf51a3311380c68b540c63836d3af253d2c03",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2024
+}

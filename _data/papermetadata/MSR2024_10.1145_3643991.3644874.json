@@ -1,0 +1,514 @@
+{
+    "abstract": "Ensuring the readability and comprehension of source code is key for effective software maintenance and evolution, particularly in tasks involving bug fixing, refactoring, and optimization. Previous studies highlight that challenges in maintenance and the emergence of certain bugs can be traced back to small code fragments called \"Atoms of Confusion\" (AC). While initial investigations identified these snippets in C++ code bases, subsequent studies have identified analogous structures in languages such as Java. Although numerous studies have delved into observing ACs in Java projects, there is a lack of studies focused on the Android ecosystem. This paper aims to address this gap by constructing a comprehensive dataset, which catalogs ACs and assesses their prevalence in the Android Open Source Project (AOSP). After analyzing over 125,000 source code files across 370 Git repositories, our findings reveal that more than 30% of Java files within the AOSP contain at least one AC, totaling over 320,000 recorded instances. This equates to one AC for approximately every 91 lines of code. Particularly, this dataset can be used to support further studies on shedding light on the ACs prevalence in the Android ecosystem, alongside their relation with traditional object-oriented software metrics (e.g., size, complexity, cohesion, and coupling), also recorded in the dataset. Using this dataset, researchers may provide valuable insights for developers and software engineers, emphasizing the need for strategies to mitigate the possible impact of ACs on software maintenance.CCS CONCEPTS\u2022General and reference \u2192 Empirical studies; \u2022 Software and its engineering \u2192 Maintaining software; Software defect analysis; \u2022 Human-centered computing \u2192 Collaborative interaction.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "146555427",
+            "name": "Davi Tabosa",
+            "url": "https://www.semanticscholar.org/author/146555427"
+        },
+        {
+            "authorId": "2197602643",
+            "name": "Oton Pinheiro",
+            "url": "https://www.semanticscholar.org/author/2197602643"
+        },
+        {
+            "authorId": "2275642285",
+            "name": "Lincoln S. Rocha",
+            "url": "https://www.semanticscholar.org/author/2275642285"
+        },
+        {
+            "authorId": "2275649449",
+            "name": "Windson Viana",
+            "url": "https://www.semanticscholar.org/author/2275649449"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [],
+    "corpusId": 270592960,
+    "doi": "10.1145/3643991.3644874",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 0,
+    "numCiting": 16,
+    "paperId": "eb8e022f5339780e6c6793cae3cde58100891143",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48626426",
+                    "name": "Yanyan Zhuang"
+                },
+                {
+                    "authorId": "2268390588",
+                    "name": "Yu Yan"
+                },
+                {
+                    "authorId": "29819109",
+                    "name": "L. DeLong"
+                },
+                {
+                    "authorId": "2308113020",
+                    "name": "Kuo-Chuan Yeh"
+                }
+            ],
+            "doi": "10.1007/s11219-023-09654-0",
+            "intent": [
+                "background",
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "7793fd7efd31a06f680cadbbcdf3fe982f13a54e",
+            "title": "Do developer perceptions have borders?\u00a0Comparing C code responses across continents",
+            "url": "https://www.semanticscholar.org/paper/7793fd7efd31a06f680cadbbcdf3fe982f13a54e",
+            "venue": "Softw. Qual. J.",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1709285",
+                    "name": "L. Lavazza"
+                },
+                {
+                    "authorId": "1712038",
+                    "name": "S. Morasca"
+                },
+                {
+                    "authorId": "2266481660",
+                    "name": "Marco Gatto"
+                }
+            ],
+            "doi": "10.1007/s10664-023-10396-7",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0c39817c000cb974b630372e5f05aeb727141e1b",
+            "title": "An empirical study on software understandability and its dependence on code characteristics",
+            "url": "https://www.semanticscholar.org/paper/0c39817c000cb974b630372e5f05aeb727141e1b",
+            "venue": "Empirical Software Engineering",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "120058935",
+                    "name": "Adriano Torres"
+                },
+                {
+                    "authorId": "118459581",
+                    "name": "C. Oliveira"
+                },
+                {
+                    "authorId": "150224291",
+                    "name": "M. Okimoto"
+                },
+                {
+                    "authorId": "40893135",
+                    "name": "Diego Marcilio"
+                },
+                {
+                    "authorId": "2216821677",
+                    "name": "Pedro Queiroga"
+                },
+                {
+                    "authorId": "1719483",
+                    "name": "F. C. Filho"
+                },
+                {
+                    "authorId": "15561818",
+                    "name": "R. Bonif\u00e1cio"
+                },
+                {
+                    "authorId": "1813822",
+                    "name": "E. Canedo"
+                },
+                {
+                    "authorId": "2067583382",
+                    "name": "M\u00e1rcio Ribeiro"
+                },
+                {
+                    "authorId": "2054856874",
+                    "name": "Eduardo Monteiro"
+                }
+            ],
+            "doi": "10.1016/j.jss.2023.111731",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "9d571c21dfffb3cf530f13ac7db68b25dc05c964",
+            "title": "An Investigation of confusing code patterns in JavaScript",
+            "url": "https://www.semanticscholar.org/paper/9d571c21dfffb3cf530f13ac7db68b25dc05c964",
+            "venue": "J. Syst. Softw.",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1848707",
+                    "name": "Aleksandar Kova\u010devi\u0107"
+                },
+                {
+                    "authorId": "47278838",
+                    "name": "Jelena Slivka"
+                },
+                {
+                    "authorId": "4528188",
+                    "name": "D. Vidakovi\u0107"
+                },
+                {
+                    "authorId": "2087512549",
+                    "name": "Katarina-Glorija Grujic"
+                },
+                {
+                    "authorId": "3461647",
+                    "name": "Nikola Luburi\u0107"
+                },
+                {
+                    "authorId": "2087512840",
+                    "name": "Simona Proki\u0107"
+                },
+                {
+                    "authorId": "2367696",
+                    "name": "G. Sladi\u0107"
+                }
+            ],
+            "doi": "10.36227/techrxiv.17206010.v1",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "f5f5fdda14ac6c98e6861ef6e16dc4e92501cf62",
+            "title": "Automatic detection of Long Method and God Class code smells through neural source code embeddings",
+            "url": "https://www.semanticscholar.org/paper/f5f5fdda14ac6c98e6861ef6e16dc4e92501cf62",
+            "venue": "Expert Syst. Appl.",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1977437126",
+                    "name": "Linghui Luo"
+                },
+                {
+                    "authorId": "10136854",
+                    "name": "Felix Pauck"
+                },
+                {
+                    "authorId": "31216037",
+                    "name": "Goran Piskachev"
+                },
+                {
+                    "authorId": "38392588",
+                    "name": "Manuel Benz"
+                },
+                {
+                    "authorId": "34266092",
+                    "name": "Ivan Pashchenko"
+                },
+                {
+                    "authorId": "2136305020",
+                    "name": "Martin Mory"
+                },
+                {
+                    "authorId": "1752222",
+                    "name": "E. Bodden"
+                },
+                {
+                    "authorId": "39888100",
+                    "name": "Ben Hermann"
+                },
+                {
+                    "authorId": "1746220",
+                    "name": "F. Massacci"
+                }
+            ],
+            "doi": "10.1007/s10664-021-10013-5",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "4f1a1e61098bd06bcf033ab33826ad83ce913315",
+            "title": "TaintBench: Automatic real-world malware benchmarking of Android taint analyses",
+            "url": "https://www.semanticscholar.org/paper/4f1a1e61098bd06bcf033ab33826ad83ce913315",
+            "venue": "Empirical Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "104254984",
+                    "name": "W. Mendes"
+                },
+                {
+                    "authorId": "2060031432",
+                    "name": "Windson Viana"
+                },
+                {
+                    "authorId": "51259875",
+                    "name": "Lincoln S. Rocha"
+                }
+            ],
+            "doi": "10.5753/vem.2021.17216",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2fa6ce0e69724ceafd2783e42c639a3d94ec6919",
+            "title": "BOHR - Uma Ferramenta para a Identifica\u00e7\u00e3o de \u00c1tomos de Confus\u00e3o em C\u00f3digos Java",
+            "url": "https://www.semanticscholar.org/paper/2fa6ce0e69724ceafd2783e42c639a3d94ec6919",
+            "venue": "VEM",
+            "year": 2021
+        },
+        {
+            "arxivId": "2107.01766",
+            "authors": [
+                {
+                    "authorId": "2117590988",
+                    "name": "Alvin Jian Jia Tan"
+                },
+                {
+                    "authorId": "2904316",
+                    "name": "Chun Yong Chong"
+                },
+                {
+                    "authorId": "2387149",
+                    "name": "A. Aleti"
+                }
+            ],
+            "doi": "10.1016/j.jss.2021.111162",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "800b84793ebfe5c6832b206b45c9107f8ce9ae52",
+            "title": "E-SC4R: Explaining Software Clustering for Remodularisation",
+            "url": "https://www.semanticscholar.org/paper/800b84793ebfe5c6832b206b45c9107f8ce9ae52",
+            "venue": "J. Syst. Softw.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.05424",
+            "authors": [
+                {
+                    "authorId": "88918885",
+                    "name": "C. Langhout"
+                },
+                {
+                    "authorId": "2289215",
+                    "name": "M. Aniche"
+                }
+            ],
+            "doi": "10.1109/ICPC52881.2021.00012",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "199e6e6f5db2dab1c76342ea0bb970bc02b93aea",
+            "title": "Atoms of Confusion in Java",
+            "url": "https://www.semanticscholar.org/paper/199e6e6f5db2dab1c76342ea0bb970bc02b93aea",
+            "venue": "2021 IEEE/ACM 29th International Conference on Program Comprehension (ICPC)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1409270430",
+                    "name": "Muhammad Hammad"
+                },
+                {
+                    "authorId": "2076259",
+                    "name": "H. A. Basit"
+                },
+                {
+                    "authorId": "2982020",
+                    "name": "S. Jarzabek"
+                },
+                {
+                    "authorId": "1704279",
+                    "name": "R. Koschke"
+                }
+            ],
+            "doi": "10.1016/j.cosrev.2020.100266",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "f53e4c921ad74ec438da33dc40d00dec0e4e9127",
+            "title": "A systematic mapping study of clone visualization",
+            "url": "https://www.semanticscholar.org/paper/f53e4c921ad74ec438da33dc40d00dec0e4e9127",
+            "venue": "Comput. Sci. Rev.",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "123133454",
+                    "name": "Dan Gopstein"
+                },
+                {
+                    "authorId": "31271203",
+                    "name": "J. Iannacone"
+                },
+                {
+                    "authorId": "2109341601",
+                    "name": "Yu Yan"
+                },
+                {
+                    "authorId": "29819109",
+                    "name": "L. DeLong"
+                },
+                {
+                    "authorId": "48626426",
+                    "name": "Yanyan Zhuang"
+                },
+                {
+                    "authorId": "20741315",
+                    "name": "M. Yeh"
+                },
+                {
+                    "authorId": "2030168",
+                    "name": "Justin Cappos"
+                }
+            ],
+            "doi": "10.1145/3106237.3106264",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e7231f1b144537a069b570e82c09bcc8e1dbb7f2",
+            "title": "Understanding misunderstandings in source code",
+            "url": "https://www.semanticscholar.org/paper/e7231f1b144537a069b570e82c09bcc8e1dbb7f2",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background",
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Atoms of confusion do really cause confusion? A controlled experiment using eye tracking",
+            "url": "",
+            "venue": "",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "",
+            "title": "Prevalenceofconfusingcodeinsoftwareprojects:Atomsofconfusioninthewild",
+            "url": "",
+            "venue": "Proceedings of the 15th International Conference on Mining Software Repositories",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Java code metrics calculator (CK)",
+            "url": "",
+            "venue": "github.com/mauricioaniche/ck/",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1745302",
+                    "name": "K. Bennett"
+                },
+                {
+                    "authorId": "3246103",
+                    "name": "V. Rajlich"
+                },
+                {
+                    "authorId": "1748078",
+                    "name": "N. Wilde"
+                }
+            ],
+            "doi": "10.1016/S0065-2458(02)80003-1",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "728e34211940771c75c61a1a98ff6f8590fffc4a",
+            "title": "Software Evolution and the Staged Model of the Software Lifecycle",
+            "url": "https://www.semanticscholar.org/paper/728e34211940771c75c61a1a98ff6f8590fffc4a",
+            "venue": "Adv. Comput.",
+            "year": 2002
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology",
+                "result"
+            ],
+            "isInfluential": true,
+            "paperId": "",
+            "title": "2022. DazedandConfused:StudyingthePrevalenceofAtomsofConfusion in Long-Lived Java Libraries",
+            "url": "",
+            "venue": "2022 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2023. Prevalence of \u2018Atoms of Confusion\u2019in Open Source Java Systems: An Empirical Study",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "A Dataset of Atoms of Confusion in the Android Open Source Project",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/eb8e022f5339780e6c6793cae3cde58100891143",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2024
+}

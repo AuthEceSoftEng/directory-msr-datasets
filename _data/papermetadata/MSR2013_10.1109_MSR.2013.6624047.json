@@ -1,0 +1,870 @@
+{
+    "abstract": "This paper describes a large, unabridged data-set of Java source code gathered and shared as part of the Merobase Component Finder project of the Software-Engineering Group at the University of Mannheim. It consists of the complete index used to drive the search engine, www.merobase.com, the vast majority1 of the source code modules accessible through it, and a tool that enables researchers to efficiently browse the collected data. We describe the techniques used to collect, format and store the data set, as well as the core capabilities of the Merobase search engine such as classic keyword-based, interface-based and test-driven search. This data-set, which represents one of the largest searchable collections of source and binary modules available online, has been recently made available for download and use in further research projects. All files are available at http://merobase.informatik.uni-mannheim.de/sources/.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2226465",
+            "name": "Werner Janjic",
+            "url": "https://www.semanticscholar.org/author/2226465"
+        },
+        {
+            "authorId": "2982670",
+            "name": "Oliver Hummel",
+            "url": "https://www.semanticscholar.org/author/2982670"
+        },
+        {
+            "authorId": "2439959",
+            "name": "M. Schumacher",
+            "url": "https://www.semanticscholar.org/author/2439959"
+        },
+        {
+            "authorId": "144711075",
+            "name": "C. Atkinson",
+            "url": "https://www.semanticscholar.org/author/144711075"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2312.09370",
+            "authors": [
+                {
+                    "authorId": "2057485166",
+                    "name": "Mahmoud Jahanshahi"
+                },
+                {
+                    "authorId": "1702551",
+                    "name": "A. Mockus"
+                }
+            ],
+            "doi": "10.1145/3643991.3644868",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "66d8a00fe55582c86495715da256708fc70360e6",
+            "title": "Dataset: Copy-based Reuse in Open Source Software",
+            "url": "https://www.semanticscholar.org/paper/66d8a00fe55582c86495715da256708fc70360e6",
+            "venue": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2305.08286",
+            "authors": [
+                {
+                    "authorId": "2154578827",
+                    "name": "Chia-Yi Su"
+                },
+                {
+                    "authorId": "9719234",
+                    "name": "Aakash Bansal"
+                },
+                {
+                    "authorId": "1388902654",
+                    "name": "Vijayanta Jain"
+                },
+                {
+                    "authorId": "144138638",
+                    "name": "S. Ghanavati"
+                },
+                {
+                    "authorId": "1725171",
+                    "name": "Collin McMillan"
+                }
+            ],
+            "doi": "10.1145/3611643.3613090",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "ec74b0229c94b4fc279e2bab5ba648f0080e9154",
+            "title": "A Language Model of Java Methods with Train/Test Deduplication",
+            "url": "https://www.semanticscholar.org/paper/ec74b0229c94b4fc279e2bab5ba648f0080e9154",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2023
+        },
+        {
+            "arxivId": "2202.05577",
+            "authors": [
+                {
+                    "authorId": "1684347",
+                    "name": "S. Reiss"
+                },
+                {
+                    "authorId": "50269186",
+                    "name": "Qi Xin"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a8d61cb59984b9b4bc27927f693b3bd133797554",
+            "title": "A Quick Repair Facility for Debugging",
+            "url": "https://www.semanticscholar.org/paper/a8d61cb59984b9b4bc27927f693b3bd133797554",
+            "venue": "ArXiv",
+            "year": 2022
+        },
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00085",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "43148fabe2636026e07ca04974aff40d204bfb6b",
+            "title": "Standing on Shoulders or Feet? The Usage of the MSR Data Papers",
+            "url": "https://www.semanticscholar.org/paper/43148fabe2636026e07ca04974aff40d204bfb6b",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1955046",
+                    "name": "S. Makady"
+                },
+                {
+                    "authorId": "13476544",
+                    "name": "R. Walker"
+                }
+            ],
+            "doi": "10.1145/3178298.3178305",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e5a4e01bb7daa635e62597f383d210699c55fa2e",
+            "title": "Test Code Reuse from OSS: Current and Future Challenges",
+            "url": "https://www.semanticscholar.org/paper/e5a4e01bb7daa635e62597f383d210699c55fa2e",
+            "venue": "",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50269186",
+                    "name": "Qi Xin"
+                },
+                {
+                    "authorId": "1684347",
+                    "name": "S. Reiss"
+                }
+            ],
+            "doi": "10.1109/ASE.2017.8115676",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "388f8fcb6456ca33ae3e861c06e8b978ba5914cd",
+            "title": "Leveraging syntax-related code for automated program repair",
+            "url": "https://www.semanticscholar.org/paper/388f8fcb6456ca33ae3e861c06e8b978ba5914cd",
+            "venue": "2017 32nd IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2982670",
+                    "name": "Oliver Hummel"
+                },
+                {
+                    "authorId": "153495335",
+                    "name": "Stefan Burger"
+                }
+            ],
+            "doi": "10.1145/3121257.3121259",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b7e8a457b5ef0bf8c9c0aed47aa9de3b3a3df48d",
+            "title": "Analyzing source code for automated design pattern recommendation",
+            "url": "https://www.semanticscholar.org/paper/b7e8a457b5ef0bf8c9c0aed47aa9de3b3a3df48d",
+            "venue": "SWAN@ESEC/SIGSOFT FSE",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "153495335",
+                    "name": "Stefan Burger"
+                },
+                {
+                    "authorId": "2287626558",
+                    "name": "Oliver Hummel"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "7b2a6d503489acb8f091444fbcf9b2911adbd303",
+            "title": "Towards Automated Design Smell Detection",
+            "url": "https://www.semanticscholar.org/paper/7b2a6d503489acb8f091444fbcf9b2911adbd303",
+            "venue": "ICSEA 2014",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2608466",
+                    "name": "Mehrdad Nurolahzade"
+                }
+            ],
+            "doi": "10.5072/PRISM/28000",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "af38f4492d78abc9be028fb31313e881d5cb9b32",
+            "title": "Test-Driven Reuse: Improving the Selection of Semantically Relevant Code",
+            "url": "https://www.semanticscholar.org/paper/af38f4492d78abc9be028fb31313e881d5cb9b32",
+            "venue": "",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8493745",
+                    "name": "Themistoklis G. Diamantopoulos"
+                },
+                {
+                    "authorId": "145937532",
+                    "name": "A. Symeonidis"
+                }
+            ],
+            "doi": "10.1007/978-3-030-30106-4_2",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "88182ab87e98e55553cf58cd8cbca60ef03e28d7",
+            "title": "Theoretical Background and State-of-the-Art",
+            "url": "https://www.semanticscholar.org/paper/88182ab87e98e55553cf58cd8cbca60ef03e28d7",
+            "venue": "",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8493745",
+                    "name": "Themistoklis G. Diamantopoulos"
+                },
+                {
+                    "authorId": "145937532",
+                    "name": "A. Symeonidis"
+                }
+            ],
+            "doi": "10.1007/978-3-030-30106-4_6",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "cb27afa2182fb5660685b1aa8a98c56e326366e6",
+            "title": "Mining Source Code for Component Reuse",
+            "url": "https://www.semanticscholar.org/paper/cb27afa2182fb5660685b1aa8a98c56e326366e6",
+            "venue": "",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8493745",
+                    "name": "Themistoklis G. Diamantopoulos"
+                },
+                {
+                    "authorId": "145937532",
+                    "name": "A. Symeonidis"
+                }
+            ],
+            "doi": "10.1007/978-3-030-30106-4_5",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c0c6164f74c7b738d1a860cbc35ee6667a0de2f2",
+            "title": "Source Code Indexing for Component Reuse",
+            "url": "https://www.semanticscholar.org/paper/c0c6164f74c7b738d1a860cbc35ee6667a0de2f2",
+            "venue": "",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "66565257",
+                    "name": "Divanshi Priyadarshni Wangoo"
+                },
+                {
+                    "authorId": "2110937501",
+                    "name": "Archana Singh"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d083741b990d98c346caf171519fa4b657464133",
+            "title": "19-A Classification based Predictive Cost Model for Measuring Reusability Level of Open Source Software",
+            "url": "https://www.semanticscholar.org/paper/d083741b990d98c346caf171519fa4b657464133",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50358235",
+                    "name": "A. Ganser"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b2a799a6b156d1a2172a42167b167dbab54df3b7",
+            "title": "Operation-Based Model Recommenders",
+            "url": "https://www.semanticscholar.org/paper/b2a799a6b156d1a2172a42167b167dbab54df3b7",
+            "venue": "Aachener Informatik-Berichte, Software Engineering",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50269186",
+                    "name": "Qi Xin"
+                },
+                {
+                    "authorId": "1684347",
+                    "name": "S. Reiss"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "aef6293a1381d97990864486ea6063609f2248c8",
+            "title": "Leveraging Bug-Related Code for Program Repair",
+            "url": "https://www.semanticscholar.org/paper/aef6293a1381d97990864486ea6063609f2248c8",
+            "venue": "",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2143857",
+                    "name": "Joel Galenson"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "03b3bbe9b693d86d707f2d8e8b35fba1f6391101",
+            "title": "Dynamic and Interactive Synthesis of Code Snippets",
+            "url": "https://www.semanticscholar.org/paper/03b3bbe9b693d86d707f2d8e8b35fba1f6391101",
+            "venue": "",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1772390",
+                    "name": "Andrej Dyck"
+                },
+                {
+                    "authorId": "50358235",
+                    "name": "A. Ganser"
+                },
+                {
+                    "authorId": "1780564",
+                    "name": "H. Lichter"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "8cfc44fe6f636d816ca8cd02d823f053a76f51bb",
+            "title": "A framework for model recommenders requirements, architecture and tool support",
+            "url": "https://www.semanticscholar.org/paper/8cfc44fe6f636d816ca8cd02d823f053a76f51bb",
+            "venue": "2014 2nd International Conference on Model-Driven Engineering and Software Development (MODELSWARD)",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2226465",
+                    "name": "Werner Janjic"
+                },
+                {
+                    "authorId": "2982670",
+                    "name": "Oliver Hummel"
+                },
+                {
+                    "authorId": "144711075",
+                    "name": "C. Atkinson"
+                }
+            ],
+            "doi": "10.1007/978-3-642-45135-5_14",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "fcebf520a8399e38f8c90e185eb64ebf50162f4d",
+            "title": "Reuse-Oriented Code Recommendation Systems",
+            "url": "https://www.semanticscholar.org/paper/fcebf520a8399e38f8c90e185eb64ebf50162f4d",
+            "venue": "Recommendation Systems in Software Engineering",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2608466",
+                    "name": "Mehrdad Nurolahzade"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "37be992ef53b2b5b811bbff8c487a10027e49eeb",
+            "title": "Improving the Selection of Semantically Relevant Code",
+            "url": "https://www.semanticscholar.org/paper/37be992ef53b2b5b811bbff8c487a10027e49eeb",
+            "venue": "",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2226465",
+                    "name": "Werner Janjic"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0ebbf7c71345afc86680e5ed15821adf9499d784",
+            "title": "Reuse-Based Test Recommendation in Software Engineering",
+            "url": "https://www.semanticscholar.org/paper/0ebbf7c71345afc86680e5ed15821adf9499d784",
+            "venue": "",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "100621492",
+                    "name": "Oliver Erlenk\u00e4mper"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "3701f3870a32eaf963fa9d9526133938e8abfd2f",
+            "title": "Realizing Automated Test Recommendations in Software Development Environments",
+            "url": "https://www.semanticscholar.org/paper/3701f3870a32eaf963fa9d9526133938e8abfd2f",
+            "venue": "",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1772390",
+                    "name": "Andrej Dyck"
+                },
+                {
+                    "authorId": "50358235",
+                    "name": "A. Ganser"
+                },
+                {
+                    "authorId": "1780564",
+                    "name": "H. Lichter"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b97588d472e4e5178c8a8a678918ca00a961a0f7",
+            "title": "Enabling Model Recommenders for Command-Enabled Editors",
+            "url": "https://www.semanticscholar.org/paper/b97588d472e4e5178c8a8a678918ca00a961a0f7",
+            "venue": "MDEBE@MoDELS",
+            "year": 2013
+        }
+    ],
+    "corpusId": 17173026,
+    "doi": "10.1109/MSR.2013.6624047",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 1,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 23,
+    "numCiting": 13,
+    "paperId": "65e0e696e81407db6e1b8e5fec86f7f90e44d044",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1705823",
+                    "name": "S. Sim"
+                },
+                {
+                    "authorId": "1402353924",
+                    "name": "Rosalva E. Gallardo-Valencia"
+                }
+            ],
+            "doi": "10.1007/978-1-4614-6596-6",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "bfd9ef2e3ca4ec3fa08208e4d2f370644f4f246e",
+            "title": "Finding Source Code on the Web for Remix and Reuse",
+            "url": "https://www.semanticscholar.org/paper/bfd9ef2e3ca4ec3fa08208e4d2f370644f4f246e",
+            "venue": "Springer New York",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2982670",
+                    "name": "Oliver Hummel"
+                },
+                {
+                    "authorId": "2226465",
+                    "name": "Werner Janjic"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5876426f0a3da8c4df0650d92e9e690cc28d4dff",
+            "title": "Towards Better Comparability of Software Retrieval Approaches Through a Standard Collection of Reusable Artifacts",
+            "url": "https://www.semanticscholar.org/paper/5876426f0a3da8c4df0650d92e9e690cc28d4dff",
+            "venue": "ICSEA 2012",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "38735396",
+                    "name": "Cristian Duda"
+                },
+                {
+                    "authorId": "153918936",
+                    "name": "G. Frey"
+                },
+                {
+                    "authorId": "1691108",
+                    "name": "Donald Kossmann"
+                },
+                {
+                    "authorId": "3210035",
+                    "name": "R. Matter"
+                },
+                {
+                    "authorId": "2110576456",
+                    "name": "Chong Zhou"
+                }
+            ],
+            "doi": "10.1109/ICDE.2009.90",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d846ddcf52f543418f11ab3f0235b09a3880f99e",
+            "title": "AJAX Crawl: Making AJAX Applications Searchable",
+            "url": "https://www.semanticscholar.org/paper/d846ddcf52f543418f11ab3f0235b09a3880f99e",
+            "venue": "2009 IEEE 25th International Conference on Data Engineering",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2982670",
+                    "name": "Oliver Hummel"
+                },
+                {
+                    "authorId": "2226465",
+                    "name": "Werner Janjic"
+                },
+                {
+                    "authorId": "144711075",
+                    "name": "C. Atkinson"
+                }
+            ],
+            "doi": "10.1109/MS.2008.110",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f692c692d3426cc663f3ec9be0c7025b670b2e5c",
+            "title": "Code Conjurer: Pulling Reusable Software out of Thin Air",
+            "url": "https://www.semanticscholar.org/paper/f692c692d3426cc663f3ec9be0c7025b670b2e5c",
+            "venue": "IEEE Software",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144711075",
+                    "name": "C. Atkinson"
+                },
+                {
+                    "authorId": "1746062",
+                    "name": "P. Bostan"
+                },
+                {
+                    "authorId": "2982670",
+                    "name": "Oliver Hummel"
+                },
+                {
+                    "authorId": "2724569",
+                    "name": "Dietmar Stoll"
+                }
+            ],
+            "doi": "10.1109/ICWS.2007.12",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1c0cd86c00bea5bce148d9193b1c46bbc6b5f1d3",
+            "title": "A Practical Approach to Web Service Discovery and Retrieval",
+            "url": "https://www.semanticscholar.org/paper/1c0cd86c00bea5bce148d9193b1c46bbc6b5f1d3",
+            "venue": "IEEE International Conference on Web Services (ICWS 2007)",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2982670",
+                    "name": "Oliver Hummel"
+                },
+                {
+                    "authorId": "144711075",
+                    "name": "C. Atkinson"
+                }
+            ],
+            "doi": "10.1007/11763864_22",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "3ba50aa09ba923d04cc6765a12f973b1a7e456bf",
+            "title": "Using the Web as a Reuse Repository",
+            "url": "https://www.semanticscholar.org/paper/3ba50aa09ba923d04cc6765a12f973b1a7e456bf",
+            "venue": "ICSR",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "69462054",
+                    "name": "Otis Gospodnetic"
+                },
+                {
+                    "authorId": "27365653",
+                    "name": "E. Hatcher"
+                },
+                {
+                    "authorId": "3133664",
+                    "name": "D. Cutting"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "202636f452d551548d16a9742f423a0b81f5e9cc",
+            "title": "Lucene in Action",
+            "url": "https://www.semanticscholar.org/paper/202636f452d551548d16a9742f423a0b81f5e9cc",
+            "venue": "",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2970189",
+                    "name": "R. Seacord"
+                },
+                {
+                    "authorId": "144148058",
+                    "name": "K. Nwosu"
+                }
+            ],
+            "doi": "10.1109/TOOLS.1999.10063",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "838debb6aab8c8fbc49d49c0cb1a079a8b550dde",
+            "title": "Component-Based Software Engineering Processes",
+            "url": "https://www.semanticscholar.org/paper/838debb6aab8c8fbc49d49c0cb1a079a8b550dde",
+            "venue": "TOOLS",
+            "year": 1999
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1714586",
+                    "name": "A. Mili"
+                },
+                {
+                    "authorId": "2592126",
+                    "name": "R. Mili"
+                },
+                {
+                    "authorId": "1768010",
+                    "name": "R. Mittermeir"
+                }
+            ],
+            "doi": "10.1023/A:1018964121953",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f35329951a28cbdcdd0384a577f5524a852c6214",
+            "title": "A survey of software reuse libraries",
+            "url": "https://www.semanticscholar.org/paper/f35329951a28cbdcdd0384a577f5524a852c6214",
+            "venue": "Ann. Softw. Eng.",
+            "year": 1998
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "cfff95af42a79405106006424454cbbf1448776e",
+            "title": "General Terms Languages",
+            "url": "https://www.semanticscholar.org/paper/cfff95af42a79405106006424454cbbf1448776e",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "and M",
+            "url": "",
+            "venue": "McCandless. Lucene in action (2nd edition)",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Software engineering component repositories",
+            "url": "",
+            "venue": "Proc. of the Intl. WS on Component-Based Software Engineering",
+            "year": 1999
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "and Chong Zhou",
+            "url": "",
+            "venue": "Ajax crawl: Making ajax applications searchable. In Data Engineering",
+            "year": 2009
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "An unabridged source code dataset for research in software reuse",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/65e0e696e81407db6e1b8e5fec86f7f90e44d044",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2013
+}

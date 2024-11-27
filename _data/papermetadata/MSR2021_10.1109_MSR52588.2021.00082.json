@@ -1,0 +1,1582 @@
+{
+    "abstract": "Software maintenance constitutes a large portion of the software development lifecycle. To carry out maintenance tasks, developers often need to understand and reproduce bug reports. As such, there has been increasing research activity coalescing around the notion of automating various activities related to bug reporting. A sizable portion of this research interest has focused on the domain of mobile apps. However, as research around mobile app bug reporting progresses, there is a clear need for a manually vetted and reproducible set of real-world bug reports that can serve as a benchmark for future work. This paper presents AndroR2: a dataset of 90 manually reproduced bug reports for Android apps listed on Google Play and hosted on GitHub, systematically collected via an in-depth analysis of 459 reports extracted from the GitHub issue tracker. For each reproduced report, AndroR2 includes the original bug report, an apk file for the buggy version of the app, an executable reproduction script, and metadata regarding the quality of the reproduction steps associated with the original report. We believe that the AndroR2 dataset can be used to facilitate research in automatically analyzing, understanding, reproducing, localizing, and fixing bugs for mobile applications as well as other software maintenance activities more broadly.",
+    "arxivId": "2106.08403",
+    "authors": [
+        {
+            "authorId": "2111674381",
+            "name": "Tyler Wendland",
+            "url": "https://www.semanticscholar.org/author/2111674381"
+        },
+        {
+            "authorId": "2156016887",
+            "name": "Jingyang Sun",
+            "url": "https://www.semanticscholar.org/author/2156016887"
+        },
+        {
+            "authorId": "40907091",
+            "name": "Junayed Mahmud",
+            "url": "https://www.semanticscholar.org/author/40907091"
+        },
+        {
+            "authorId": "2047247933",
+            "name": "S M Hasan Mansur",
+            "url": "https://www.semanticscholar.org/author/2047247933"
+        },
+        {
+            "authorId": "2110089574",
+            "name": "Steven Huang",
+            "url": "https://www.semanticscholar.org/author/2110089574"
+        },
+        {
+            "authorId": "1381376597",
+            "name": "Kevin Moran",
+            "url": "https://www.semanticscholar.org/author/1381376597"
+        },
+        {
+            "authorId": "40575065",
+            "name": "J. Rubin",
+            "url": "https://www.semanticscholar.org/author/40575065"
+        },
+        {
+            "authorId": "49820350",
+            "name": "M. Fazzini",
+            "url": "https://www.semanticscholar.org/author/49820350"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2408.04075",
+            "authors": [
+                {
+                    "authorId": "2315305174",
+                    "name": "Antu Saha"
+                },
+                {
+                    "authorId": "2315564073",
+                    "name": "Yang Song"
+                },
+                {
+                    "authorId": "40907091",
+                    "name": "Junayed Mahmud"
+                },
+                {
+                    "authorId": "2315477432",
+                    "name": "Ying Zhou"
+                },
+                {
+                    "authorId": "2257590495",
+                    "name": "Kevin Moran"
+                },
+                {
+                    "authorId": "2315297317",
+                    "name": "Oscar Chaparro"
+                }
+            ],
+            "doi": "10.1145/3650212.3680357",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2d7aeb079e8711fc0db61f620c19434059a0cf53",
+            "title": "Toward the Automated Localization of Buggy Mobile App UIs from Bug Descriptions",
+            "url": "https://www.semanticscholar.org/paper/2d7aeb079e8711fc0db61f620c19434059a0cf53",
+            "venue": "ISSTA",
+            "year": 2024
+        },
+        {
+            "arxivId": "2407.05165",
+            "authors": [
+                {
+                    "authorId": "2265775779",
+                    "name": "Dingbang Wang"
+                },
+                {
+                    "authorId": "2110260346",
+                    "name": "Yu Zhao"
+                },
+                {
+                    "authorId": "1406333777",
+                    "name": "Sidong Feng"
+                },
+                {
+                    "authorId": "3994681",
+                    "name": "Zhaoxu Zhang"
+                },
+                {
+                    "authorId": "1716654",
+                    "name": "William G. J. Halfond"
+                },
+                {
+                    "authorId": "2310479653",
+                    "name": "Chunyang Chen"
+                },
+                {
+                    "authorId": "2310394523",
+                    "name": "Xiaoxia Sun"
+                },
+                {
+                    "authorId": "2310468698",
+                    "name": "Jiangfan Shi"
+                },
+                {
+                    "authorId": "2117901513",
+                    "name": "Tingting Yu"
+                }
+            ],
+            "doi": "10.1145/3650212.3680341",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3f78085b9b3e8e21d34a220d06903ddc4db59e19",
+            "title": "Feedback-Driven Automated Whole Bug Report Reproduction for Android Apps",
+            "url": "https://www.semanticscholar.org/paper/3f78085b9b3e8e21d34a220d06903ddc4db59e19",
+            "venue": "ISSTA",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "134239957",
+                    "name": "Kesina Baral"
+                },
+                {
+                    "authorId": "2309401442",
+                    "name": "John Johnson"
+                },
+                {
+                    "authorId": "40907091",
+                    "name": "Junayed Mahmud"
+                },
+                {
+                    "authorId": "2211432641",
+                    "name": "Sabiha Salma"
+                },
+                {
+                    "authorId": "49820350",
+                    "name": "M. Fazzini"
+                },
+                {
+                    "authorId": "2188160403",
+                    "name": "Julia Rubin"
+                },
+                {
+                    "authorId": "2256809643",
+                    "name": "Jeff Offutt"
+                },
+                {
+                    "authorId": "2257039522",
+                    "name": "Kevin Moran"
+                }
+            ],
+            "doi": "10.1145/3643991.3644930",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "70274a65a607371c62557dfbc1f6e3b27e8d2732",
+            "title": "Automating GUI-based Test Oracles for Mobile Apps",
+            "url": "https://www.semanticscholar.org/paper/70274a65a607371c62557dfbc1f6e3b27e8d2732",
+            "venue": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2407.08610",
+            "authors": [
+                {
+                    "authorId": "2235868038",
+                    "name": "Yanfu Yan"
+                },
+                {
+                    "authorId": "2065673990",
+                    "name": "Nathan Cooper"
+                },
+                {
+                    "authorId": "2243336324",
+                    "name": "Oscar Chaparro"
+                },
+                {
+                    "authorId": "2257039522",
+                    "name": "Kevin Moran"
+                },
+                {
+                    "authorId": "2221241081",
+                    "name": "Denys Poshyvanyk"
+                }
+            ],
+            "doi": "10.1145/3597503.3639163",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5fceafc6b817fe158e4f86a04a701f9e10fa46e6",
+            "title": "Semantic GUI Scene Learning and Video Alignment for Detecting Duplicate Video-based Bug Reports",
+            "url": "https://www.semanticscholar.org/paper/5fceafc6b817fe158e4f86a04a701f9e10fa46e6",
+            "venue": "2024 IEEE/ACM 46th International Conference on Software Engineering (ICSE)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2312.15318",
+            "authors": [
+                {
+                    "authorId": "40907091",
+                    "name": "Junayed Mahmud"
+                }
+            ],
+            "doi": "10.1145/3639478.3639812",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "305df8692b72a71c0ec5c1717d3545c55b9979cb",
+            "title": "Toward Rapid Bug Resolution for Android Apps",
+            "url": "https://www.semanticscholar.org/paper/305df8692b72a71c0ec5c1717d3545c55b9979cb",
+            "venue": "2024 IEEE/ACM 46th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2268785302",
+                    "name": "Enze Ma"
+                },
+                {
+                    "authorId": "2268804974",
+                    "name": "Shan Huang"
+                },
+                {
+                    "authorId": "2268852759",
+                    "name": "Weigang He"
+                },
+                {
+                    "authorId": "2256692694",
+                    "name": "Ting Su"
+                },
+                {
+                    "authorId": "2268796673",
+                    "name": "Jue Wang"
+                },
+                {
+                    "authorId": "2212193164",
+                    "name": "Huiyu Liu"
+                },
+                {
+                    "authorId": "4166714",
+                    "name": "G. Pu"
+                },
+                {
+                    "authorId": "2253973548",
+                    "name": "Zhendong Su"
+                }
+            ],
+            "doi": "10.1145/3611643.3616361",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "f8adc3f5ecb7e4d6aadd73f93d16d1599acb5dcc",
+            "title": "Automata-Based Trace Analysis for Aiding Diagnosing GUI Testing Tools for Android",
+            "url": "https://www.semanticscholar.org/paper/f8adc3f5ecb7e4d6aadd73f93d16d1599acb5dcc",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2023
+        },
+        {
+            "arxivId": "2310.08083",
+            "authors": [
+                {
+                    "authorId": "40907091",
+                    "name": "Junayed Mahmud"
+                },
+                {
+                    "authorId": "2205659085",
+                    "name": "Nadeeshan De Silva"
+                },
+                {
+                    "authorId": "2032485036",
+                    "name": "Safwat Ali Khan"
+                },
+                {
+                    "authorId": "1453338947",
+                    "name": "Seyed Hooman Mostafavi"
+                },
+                {
+                    "authorId": "2047247933",
+                    "name": "S M Hasan Mansur"
+                },
+                {
+                    "authorId": "145471996",
+                    "name": "Oscar Chaparro"
+                },
+                {
+                    "authorId": "40473936",
+                    "name": "Andrian Marcus"
+                },
+                {
+                    "authorId": "2257590495",
+                    "name": "Kevin Moran"
+                }
+            ],
+            "doi": "10.1145/3597503.3608139",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0f0fd98d249c287a39467592d27d8a780cf1495d",
+            "title": "On Using GUI Interaction Data to Improve Text Retrieval-Based Bug Localization",
+            "url": "https://www.semanticscholar.org/paper/0f0fd98d249c287a39467592d27d8a780cf1495d",
+            "venue": "2024 IEEE/ACM 46th International Conference on Software Engineering (ICSE)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2310.07128",
+            "authors": [
+                {
+                    "authorId": "2115708808",
+                    "name": "Yuchao Huang"
+                },
+                {
+                    "authorId": "2109763128",
+                    "name": "Junjie Wang"
+                },
+                {
+                    "authorId": "2116746462",
+                    "name": "Zhe Liu"
+                },
+                {
+                    "authorId": "2115626511",
+                    "name": "Yawen Wang"
+                },
+                {
+                    "authorId": "2259571951",
+                    "name": "Song Wang"
+                },
+                {
+                    "authorId": "2257028659",
+                    "name": "Chunyang Chen"
+                },
+                {
+                    "authorId": "2324216398",
+                    "name": "Yuanzhe Hu"
+                },
+                {
+                    "authorId": "2145464944",
+                    "name": "Qing Wang"
+                }
+            ],
+            "doi": "10.1145/3597503.3623298",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "f894953ce2f703064a9b64ea72b8bbb1121304f2",
+            "title": "CrashTranslator: Automatically Reproducing Mobile Application Crashes Directly from Stack Trace",
+            "url": "https://www.semanticscholar.org/paper/f894953ce2f703064a9b64ea72b8bbb1121304f2",
+            "venue": "2024 IEEE/ACM 46th International Conference on Software Engineering (ICSE)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2153657570",
+                    "name": "Yiheng Xiong"
+                },
+                {
+                    "authorId": "2223561423",
+                    "name": "Mengqian Xu"
+                },
+                {
+                    "authorId": "2176394649",
+                    "name": "Ting Su"
+                },
+                {
+                    "authorId": "2156016437",
+                    "name": "Jingling Sun"
+                },
+                {
+                    "authorId": "2109763051",
+                    "name": "Jue Wang"
+                },
+                {
+                    "authorId": "2223174229",
+                    "name": "He Wen"
+                },
+                {
+                    "authorId": "4166714",
+                    "name": "G. Pu"
+                },
+                {
+                    "authorId": "33950829",
+                    "name": "J. He"
+                },
+                {
+                    "authorId": "38319925",
+                    "name": "Z. Su"
+                }
+            ],
+            "doi": "10.1145/3597926.3598138",
+            "intent": [
+                "result",
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "7771c8b7ed15361a8424377bd7f19baf7149640d",
+            "title": "An Empirical Study of Functional Bugs in Android Apps",
+            "url": "https://www.semanticscholar.org/paper/7771c8b7ed15361a8424377bd7f19baf7149640d",
+            "venue": "ISSTA",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2115708808",
+                    "name": "Yuchao Huang"
+                },
+                {
+                    "authorId": "2109763128",
+                    "name": "Junjie Wang"
+                },
+                {
+                    "authorId": "2116746462",
+                    "name": "Zhe Liu"
+                },
+                {
+                    "authorId": "2117074753",
+                    "name": "Song Wang"
+                },
+                {
+                    "authorId": "2143953186",
+                    "name": "Chunyang Chen"
+                },
+                {
+                    "authorId": "1390521993",
+                    "name": "Mingyang Li"
+                },
+                {
+                    "authorId": "2145464944",
+                    "name": "Qing Wang"
+                }
+            ],
+            "doi": "10.1109/ICSE48619.2023.00196",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "0748496acab8c85f835a657bba889a48f3ac68fc",
+            "title": "Context-aware Bug Reproduction for Mobile Apps",
+            "url": "https://www.semanticscholar.org/paper/0748496acab8c85f835a657bba889a48f3ac68fc",
+            "venue": "2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2301.07775",
+            "authors": [
+                {
+                    "authorId": "3994681",
+                    "name": "Zhaoxu Zhang"
+                },
+                {
+                    "authorId": "2074464648",
+                    "name": "Robert Winn"
+                },
+                {
+                    "authorId": "2110260346",
+                    "name": "Yu Zhao"
+                },
+                {
+                    "authorId": "2117901513",
+                    "name": "Tingting Yu"
+                },
+                {
+                    "authorId": "1716654",
+                    "name": "William G. J. Halfond"
+                }
+            ],
+            "doi": "10.1145/3597926.3598066",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0d3289eae18ef3a4a88d912bee1e2fe184faa355",
+            "title": "Automatically Reproducing Android Bug Reports using Natural Language Processing and Reinforcement Learning",
+            "url": "https://www.semanticscholar.org/paper/0d3289eae18ef3a4a88d912bee1e2fe184faa355",
+            "venue": "ISSTA",
+            "year": 2023
+        },
+        {
+            "arxivId": "2209.04511",
+            "authors": [
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10200-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "title": "Pitfalls and guidelines for using time-based Git data",
+            "url": "https://www.semanticscholar.org/paper/d1988265d634962b4682dc2b1ff8200cbf0eb9eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144188161",
+                    "name": "Thomas Hirsch"
+                },
+                {
+                    "authorId": "3334382",
+                    "name": "Birgit Hofer"
+                }
+            ],
+            "doi": "10.1016/j.jss.2022.111423",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9a7b7867d1c2a540fd2c3ad9df666a32751374e2",
+            "title": "A systematic literature review on benchmarks for evaluating debugging approaches",
+            "url": "https://www.semanticscholar.org/paper/9a7b7867d1c2a540fd2c3ad9df666a32751374e2",
+            "venue": "J. Syst. Softw.",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49820350",
+                    "name": "M. Fazzini"
+                },
+                {
+                    "authorId": "2161046888",
+                    "name": "Chase Choi"
+                },
+                {
+                    "authorId": "2161045818",
+                    "name": "Juan Manuel Copia"
+                },
+                {
+                    "authorId": "2161230402",
+                    "name": "Gabriel Lee"
+                },
+                {
+                    "authorId": "2161045847",
+                    "name": "Yoshiki Kakehi"
+                },
+                {
+                    "authorId": "2762411",
+                    "name": "Alessandra Gorla"
+                },
+                {
+                    "authorId": "8172306",
+                    "name": "A. Orso"
+                }
+            ],
+            "doi": "10.1145/3510003.3510175",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "aa9dd4a74dad4a8a92e150bb2b1f711dd719a033",
+            "title": "Use of Test Doubles in Android Testing: An In-Depth Investigation",
+            "url": "https://www.semanticscholar.org/paper/aa9dd4a74dad4a8a92e150bb2b1f711dd719a033",
+            "venue": "2022 IEEE/ACM 44th International Conference on Software Engineering (ICSE)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2203.04448",
+            "authors": [
+                {
+                    "authorId": "1753394319",
+                    "name": "Jordan Samhi"
+                },
+                {
+                    "authorId": "11128727",
+                    "name": "Tegawend'e F. Bissyand'e"
+                },
+                {
+                    "authorId": "2445617",
+                    "name": "Jacques Klein"
+                }
+            ],
+            "doi": "10.1145/3524842.3528020",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "34a306bf9fffd645f24b121874f22f1752da461a",
+            "title": "TriggerZoo: A Dataset of Android Applications Automatically Infected with Logic Bombs",
+            "url": "https://www.semanticscholar.org/paper/34a306bf9fffd645f24b121874f22f1752da461a",
+            "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2301.01235",
+            "authors": [
+                {
+                    "authorId": "2150276459",
+                    "name": "Jack S. Johnson"
+                },
+                {
+                    "authorId": "40907091",
+                    "name": "Junayed Mahmud"
+                },
+                {
+                    "authorId": "2111674381",
+                    "name": "Tyler Wendland"
+                },
+                {
+                    "authorId": "1381376597",
+                    "name": "Kevin Moran"
+                },
+                {
+                    "authorId": "40575065",
+                    "name": "J. Rubin"
+                },
+                {
+                    "authorId": "49820350",
+                    "name": "M. Fazzini"
+                }
+            ],
+            "doi": "10.1109/SANER53432.2022.00048",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "aaf397d446ee17884e4c763a18c808a302733c37",
+            "title": "An Empirical Investigation into the Reproduction of Bug Reports for Android Apps",
+            "url": "https://www.semanticscholar.org/paper/aaf397d446ee17884e4c763a18c808a302733c37",
+            "venue": "2022 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2108.07401",
+            "authors": [
+                {
+                    "authorId": "150311588",
+                    "name": "Shengcheng Yu"
+                },
+                {
+                    "authorId": "7595994",
+                    "name": "Chunrong Fang"
+                },
+                {
+                    "authorId": "1409701329",
+                    "name": "Quanjun Zhang"
+                },
+                {
+                    "authorId": "2152223856",
+                    "name": "Zhihao Cao"
+                },
+                {
+                    "authorId": "1871654186",
+                    "name": "Yexiao Yun"
+                },
+                {
+                    "authorId": "2113999449",
+                    "name": "Zhenfei Cao"
+                },
+                {
+                    "authorId": "2219923177",
+                    "name": "Kai Mei"
+                },
+                {
+                    "authorId": "9220930",
+                    "name": "Zhenyu Chen"
+                }
+            ],
+            "doi": "10.1109/TSE.2023.3285787",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c6a776f06cad8e5f349eb0cca5006b54b6406ad5",
+            "title": "Mobile App Crowdsourced Test Report Consistency Detection via Deep Image-and-Text Fusion Understanding",
+            "url": "https://www.semanticscholar.org/paper/c6a776f06cad8e5f349eb0cca5006b54b6406ad5",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2021
+        }
+    ],
+    "corpusId": 235415603,
+    "doi": "10.1109/MSR52588.2021.00082",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 3,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 17,
+    "numCiting": 32,
+    "paperId": "1eea87b7c797abb96a0984bc263d5f4ff1ea15c8",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2065673990",
+                    "name": "Nathan Cooper"
+                },
+                {
+                    "authorId": "2065398550",
+                    "name": "Carlos Bernal-C'ardenas"
+                },
+                {
+                    "authorId": "145471996",
+                    "name": "Oscar Chaparro"
+                },
+                {
+                    "authorId": "1381376597",
+                    "name": "Kevin Moran"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                }
+            ],
+            "doi": "10.1109/ICSE-Companion52605.2021.00067",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ac5e4e3673e0fc08a610b24231c5b313650a0d11",
+            "title": "A Replication Package for It Takes Two to Tango: Combining Visual and Textual Information for Detecting Duplicate Video-Based Bug Reports",
+            "url": "https://www.semanticscholar.org/paper/ac5e4e3673e0fc08a610b24231c5b313650a0d11",
+            "venue": "2021 IEEE/ACM 43rd International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2013642430",
+                    "name": "Khaled Ahmed"
+                },
+                {
+                    "authorId": "145361862",
+                    "name": "Mieszko Lis"
+                },
+                {
+                    "authorId": "40575065",
+                    "name": "J. Rubin"
+                }
+            ],
+            "doi": "10.1109/ICST49551.2021.00022",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "38efc02005f22be34f3318e8b754a5efe1c5d4dd",
+            "title": "Mandoline: Dynamic Slicing of Android Applications with Trace-Based Alias Analysis",
+            "url": "https://www.semanticscholar.org/paper/38efc02005f22be34f3318e8b754a5efe1c5d4dd",
+            "venue": "2021 14th IEEE Conference on Software Testing, Verification and Validation (ICST)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2146672059",
+                    "name": "Hui Liu"
+                },
+                {
+                    "authorId": "2072602057",
+                    "name": "Mingzhu Shen"
+                },
+                {
+                    "authorId": "52632444",
+                    "name": "Jiahao Jin"
+                },
+                {
+                    "authorId": "2117865146",
+                    "name": "Yanjie Jiang"
+                }
+            ],
+            "doi": "10.1145/3395363.3397355",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "3de74bc33476d05059a1589eab0fe26209c3b237",
+            "title": "Automated classification of actions in bug reports of mobile apps",
+            "url": "https://www.semanticscholar.org/paper/3de74bc33476d05059a1589eab0fe26209c3b237",
+            "venue": "ISSTA",
+            "year": 2020
+        },
+        {
+            "arxivId": "2005.09057",
+            "authors": [
+                {
+                    "authorId": "2065398550",
+                    "name": "Carlos Bernal-C'ardenas"
+                },
+                {
+                    "authorId": "2065673990",
+                    "name": "Nathan Cooper"
+                },
+                {
+                    "authorId": "1381376597",
+                    "name": "Kevin Moran"
+                },
+                {
+                    "authorId": "145471996",
+                    "name": "Oscar Chaparro"
+                },
+                {
+                    "authorId": "40473936",
+                    "name": "Andrian Marcus"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                }
+            ],
+            "doi": "10.1145/3377811.3380328",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "ca268090f41e48b5775ee60653d86567bd1787c5",
+            "title": "Translating Video Recordings of Mobile App Usages into Replayable Scenarios",
+            "url": "https://www.semanticscholar.org/paper/ca268090f41e48b5775ee60653d86567bd1787c5",
+            "venue": "2020 IEEE/ACM 42nd International Conference on Software Engineering (ICSE)",
+            "year": 2020
+        },
+        {
+            "arxivId": "2002.05800",
+            "authors": [
+                {
+                    "authorId": "47543605",
+                    "name": "Cody Watson"
+                },
+                {
+                    "authorId": "40626221",
+                    "name": "Michele Tufano"
+                },
+                {
+                    "authorId": "1381376597",
+                    "name": "Kevin Moran"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                }
+            ],
+            "doi": "10.1145/3377811.3380429",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "fd12fc2b3e825885f3b921c8f796abf45f5a5b91",
+            "title": "On Learning Meaningful Assert Statements for Unit Test Cases",
+            "url": "https://www.semanticscholar.org/paper/fd12fc2b3e825885f3b921c8f796abf45f5a5b91",
+            "venue": "2020 IEEE/ACM 42nd International Conference on Software Engineering (ICSE)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2167458678",
+                    "name": "Duling Lai"
+                },
+                {
+                    "authorId": "40575065",
+                    "name": "J. Rubin"
+                }
+            ],
+            "doi": "10.1109/ASE.2019.00021",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7f20dfd11428b2fd34dceaf768e32d03eb0cb16a",
+            "title": "Goal-Driven Exploration for Android Applications",
+            "url": "https://www.semanticscholar.org/paper/7f20dfd11428b2fd34dceaf768e32d03eb0cb16a",
+            "venue": "2019 34th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2019
+        },
+        {
+            "arxivId": "1906.07107",
+            "authors": [
+                {
+                    "authorId": "145471996",
+                    "name": "Oscar Chaparro"
+                },
+                {
+                    "authorId": "1399311863",
+                    "name": "Carlos Bernal-C\u00e1rdenas"
+                },
+                {
+                    "authorId": "2115404151",
+                    "name": "Jing Lu"
+                },
+                {
+                    "authorId": "1381376597",
+                    "name": "Kevin Moran"
+                },
+                {
+                    "authorId": "40473936",
+                    "name": "Andrian Marcus"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                },
+                {
+                    "authorId": "2067064657",
+                    "name": "Vincent Ng"
+                }
+            ],
+            "doi": "10.1145/3338906.3338947",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "16b5ef8adae2edbdfb4af7312753d346e77daa15",
+            "title": "Assessing the quality of the steps to reproduce in bug reports",
+            "url": "https://www.semanticscholar.org/paper/16b5ef8adae2edbdfb4af7312753d346e77daa15",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2110260346",
+                    "name": "Yu Zhao"
+                },
+                {
+                    "authorId": "50391262",
+                    "name": "Tingting Yu"
+                },
+                {
+                    "authorId": "144121517",
+                    "name": "Ting Su"
+                },
+                {
+                    "authorId": "40457423",
+                    "name": "Yang Liu"
+                },
+                {
+                    "authorId": "151503915",
+                    "name": "Wei Zheng"
+                },
+                {
+                    "authorId": "2108030054",
+                    "name": "Jingzhi Zhang"
+                },
+                {
+                    "authorId": "1716654",
+                    "name": "William G. J. Halfond"
+                }
+            ],
+            "doi": "10.1109/ICSE.2019.00030",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b903d91c1df09d4ea282898af8b798354295d1e6",
+            "title": "ReCDroid: Automatically Reproducing Android Application Crashes from Bug Reports",
+            "url": "https://www.semanticscholar.org/paper/b903d91c1df09d4ea282898af8b798354295d1e6",
+            "venue": "2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2006399",
+                    "name": "Tanzirul Azim"
+                },
+                {
+                    "authorId": "6180123",
+                    "name": "Arash Alavi"
+                },
+                {
+                    "authorId": "145722649",
+                    "name": "Iulian Neamtiu"
+                },
+                {
+                    "authorId": "2110340773",
+                    "name": "Rajiv Gupta"
+                }
+            ],
+            "doi": "10.1109/ICSE.2019.00118",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f537ecc234126f3e8e28738a2143f3aebfde3752",
+            "title": "Dynamic Slicing for Android",
+            "url": "https://www.semanticscholar.org/paper/f537ecc234126f3e8e28738a2143f3aebfde3752",
+            "venue": "2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2083036823",
+                    "name": "E. Michaelsen"
+                },
+                {
+                    "authorId": "3004232",
+                    "name": "J. Meidow"
+                }
+            ],
+            "doi": "10.1007/978-3-030-04040-6_6",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8d38f9c7baa3c08a6cf35110471ee39f3954febe",
+            "title": "Search",
+            "url": "https://www.semanticscholar.org/paper/8d38f9c7baa3c08a6cf35110471ee39f3954febe",
+            "venue": "Principles of Quantum Artificial Intelligence",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49820350",
+                    "name": "M. Fazzini"
+                },
+                {
+                    "authorId": "1410706478",
+                    "name": "Martin Prammer"
+                },
+                {
+                    "authorId": "1403835151",
+                    "name": "Marcelo d\u2019Amorim"
+                },
+                {
+                    "authorId": "8172306",
+                    "name": "A. Orso"
+                }
+            ],
+            "doi": "10.1145/3213846.3213869",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "3e4505d6ae6127d0f524c9b44e2d649b6578514f",
+            "title": "Automatically translating bug reports into test cases for mobile apps",
+            "url": "https://www.semanticscholar.org/paper/3e4505d6ae6127d0f524c9b44e2d649b6578514f",
+            "venue": "ISSTA",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "16634986",
+                    "name": "M. Shanks"
+                }
+            ],
+            "doi": "10.4324/9780429500862-8",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1219059df109c665b1a7363fcc65302445f1306a",
+            "title": "What About Issues",
+            "url": "https://www.semanticscholar.org/paper/1219059df109c665b1a7363fcc65302445f1306a",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145793708",
+                    "name": "W. E. Wong"
+                },
+                {
+                    "authorId": "144822432",
+                    "name": "Ruizhi Gao"
+                },
+                {
+                    "authorId": "121704356",
+                    "name": "Yihao Li"
+                },
+                {
+                    "authorId": "144837389",
+                    "name": "Rui Abreu"
+                },
+                {
+                    "authorId": "1743138",
+                    "name": "F. Wotawa"
+                }
+            ],
+            "doi": "10.1109/TSE.2016.2521368",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "be0ed514aa9afa080e2fbc51a88d21543580179d",
+            "title": "A Survey on Software Fault Localization",
+            "url": "https://www.semanticscholar.org/paper/be0ed514aa9afa080e2fbc51a88d21543580179d",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2789750",
+                    "name": "Paige Rodeghero"
+                },
+                {
+                    "authorId": "2118265892",
+                    "name": "Da Huo"
+                },
+                {
+                    "authorId": "2066753603",
+                    "name": "Tao Ding"
+                },
+                {
+                    "authorId": "1725171",
+                    "name": "Collin McMillan"
+                },
+                {
+                    "authorId": "2610703",
+                    "name": "Malcom Gethers"
+                }
+            ],
+            "doi": "10.1002/smr.1773",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ce96b4dd577d7d0b7873339f12c1ff815b179d54",
+            "title": "An empirical study on how expert knowledge affects bug reports",
+            "url": "https://www.semanticscholar.org/paper/ce96b4dd577d7d0b7873339f12c1ff815b179d54",
+            "venue": "J. Softw. Evol. Process.",
+            "year": 2016
+        },
+        {
+            "arxivId": "1706.01130",
+            "authors": [
+                {
+                    "authorId": "1381376597",
+                    "name": "Kevin Moran"
+                },
+                {
+                    "authorId": "1781267",
+                    "name": "M. V\u00e1squez"
+                },
+                {
+                    "authorId": "1399311863",
+                    "name": "Carlos Bernal-C\u00e1rdenas"
+                },
+                {
+                    "authorId": "2664645",
+                    "name": "Christopher Vendome"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                }
+            ],
+            "doi": "10.1109/ICST.2016.34",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "bec3c974a55559fa25c3eb81bdc3b05b1d947a64",
+            "title": "Automatically Discovering, Reporting and Reproducing Android Application Crashes",
+            "url": "https://www.semanticscholar.org/paper/bec3c974a55559fa25c3eb81bdc3b05b1d947a64",
+            "venue": "2016 IEEE International Conference on Software Testing, Verification and Validation (ICST)",
+            "year": 2016
+        },
+        {
+            "arxivId": "1705.04016",
+            "authors": [
+                {
+                    "authorId": "1381376597",
+                    "name": "Kevin Moran"
+                },
+                {
+                    "authorId": "1781267",
+                    "name": "M. V\u00e1squez"
+                },
+                {
+                    "authorId": "1399311863",
+                    "name": "Carlos Bernal-C\u00e1rdenas"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                }
+            ],
+            "doi": "10.1145/2786805.2786857",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5e1f83dd5e5785c1963386cf2566997eb7bfe0b6",
+            "title": "Auto-completing bug reports for Android applications",
+            "url": "https://www.semanticscholar.org/paper/5e1f83dd5e5785c1963386cf2566997eb7bfe0b6",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2075244521",
+                    "name": "Hamed Mirzaei"
+                },
+                {
+                    "authorId": "1798455",
+                    "name": "A. Heydarnoori"
+                }
+            ],
+            "doi": "10.1109/MOBILESOFT.2015.42",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "355ec1a7760ef604b8e1bd2329729331cb8aa495",
+            "title": "Exception Fault Localization in Android Applications",
+            "url": "https://www.semanticscholar.org/paper/355ec1a7760ef604b8e1bd2329729331cb8aa495",
+            "venue": "2015 2nd ACM International Conference on Mobile Software Engineering and Systems",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144865615",
+                    "name": "J. Sch\u00fctte"
+                },
+                {
+                    "authorId": "1879891",
+                    "name": "Rafael Fedler"
+                },
+                {
+                    "authorId": "1916101",
+                    "name": "Dennis Titze"
+                }
+            ],
+            "doi": "10.1109/AINA.2015.238",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d5f93790f265ebcb65f036d71df4e884ac3674fc",
+            "title": "ConDroid: Targeted Dynamic Analysis of Android Applications",
+            "url": "https://www.semanticscholar.org/paper/d5f93790f265ebcb65f036d71df4e884ac3674fc",
+            "venue": "2015 IEEE 29th International Conference on Advanced Information Networking and Applications",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "16099390",
+                    "name": "C. S. Jensen"
+                },
+                {
+                    "authorId": "145134489",
+                    "name": "M. Prasad"
+                },
+                {
+                    "authorId": "144188798",
+                    "name": "Anders M\u00f8ller"
+                }
+            ],
+            "doi": "10.1145/2483760.2483777",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "aaba20c48ffac61b916031f2e8aac9b918d96eeb",
+            "title": "Automated testing with targeted event sequence generation",
+            "url": "https://www.semanticscholar.org/paper/aaba20c48ffac61b916031f2e8aac9b918d96eeb",
+            "venue": "ISSTA",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2113918147",
+                    "name": "Cong Zheng"
+                },
+                {
+                    "authorId": "2109919193",
+                    "name": "Shixiong Zhu"
+                },
+                {
+                    "authorId": "1881464",
+                    "name": "Shuaifu Dai"
+                },
+                {
+                    "authorId": "3969047",
+                    "name": "G. Gu"
+                },
+                {
+                    "authorId": "2110399",
+                    "name": "Xiaorui Gong"
+                },
+                {
+                    "authorId": "3336900",
+                    "name": "Xinhui Han"
+                },
+                {
+                    "authorId": "2057328641",
+                    "name": "Wei Zou"
+                }
+            ],
+            "doi": "10.1145/2381934.2381950",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "09cca9d37140bae6c5a78b7c9ec112bd29ab0b3d",
+            "title": "SmartDroid: an automatic system for revealing UI-based trigger conditions in android applications",
+            "url": "https://www.semanticscholar.org/paper/09cca9d37140bae6c5a78b7c9ec112bd29ab0b3d",
+            "venue": "SPSM '12",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2112332834",
+                    "name": "Dan Han"
+                },
+                {
+                    "authorId": "50445644",
+                    "name": "Chenlei Zhang"
+                },
+                {
+                    "authorId": "2117801688",
+                    "name": "Xiaochao Fan"
+                },
+                {
+                    "authorId": "145369636",
+                    "name": "Abram Hindle"
+                },
+                {
+                    "authorId": "145581354",
+                    "name": "Kenny Wong"
+                },
+                {
+                    "authorId": "1719731",
+                    "name": "Eleni Stroulia"
+                }
+            ],
+            "doi": "10.1109/WCRE.2012.18",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a2d9aef5666b1bcc1949e6e79217d7e6454e1074",
+            "title": "Understanding Android Fragmentation with Topic Analysis of Vendor-Specific Bugs",
+            "url": "https://www.semanticscholar.org/paper/a2d9aef5666b1bcc1949e6e79217d7e6454e1074",
+            "venue": "2012 19th Working Conference on Reverse Engineering",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143609903",
+                    "name": "Thomas Zimmermann"
+                },
+                {
+                    "authorId": "2000241",
+                    "name": "Rahul Premraj"
+                },
+                {
+                    "authorId": "2426138",
+                    "name": "Nicolas Bettenburg"
+                },
+                {
+                    "authorId": "39855161",
+                    "name": "Sascha Just"
+                },
+                {
+                    "authorId": "1870251",
+                    "name": "Adrian Schr\u00f6ter"
+                },
+                {
+                    "authorId": "19293876",
+                    "name": "Cathrin Weiss"
+                }
+            ],
+            "doi": "10.1145/1453101.1453146",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "21fa1dba8539598210496cfcdb853fef719a0805",
+            "title": "What Makes a Good Bug Report?",
+            "url": "https://www.semanticscholar.org/paper/21fa1dba8539598210496cfcdb853fef719a0805",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "The database for modern applications",
+            "url": "",
+            "venue": "",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Effective Regression Test Case Selection: A Systematic Literature Review",
+            "url": "",
+            "venue": "ACM Comput. Surv., vol. 50, no. 2, 2017.",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "\u201cAndroid fragmentation statistics http://opensignal . com/reports/2014/ android-fragmentation/,\u201d",
+            "url": "",
+            "venue": "",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2973984",
+                    "name": "G. Tassey"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "92b286e00a26f059c278a66d00e087c01306648f",
+            "title": "The economic impacts of inadequate infrastructure for software testing",
+            "url": "https://www.semanticscholar.org/paper/92b286e00a26f059c278a66d00e087c01306648f",
+            "venue": "",
+            "year": 2002
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "App manifest overview",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Google play",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Github rest api",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Seven best practices for optimizing mobile testing efforts",
+            "url": "",
+            "venue": "Gartner, Technical Report G00248240.",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Build and run your app",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "uses-sdk",
+            "url": "",
+            "venue": "developer",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "Andror2: A Dataset of Manually-Reproduced Bug Reports for Android apps",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/1eea87b7c797abb96a0984bc263d5f4ff1ea15c8",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2021
+}

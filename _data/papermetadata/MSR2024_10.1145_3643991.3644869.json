@@ -1,0 +1,992 @@
+{
+    "abstract": "Being predominant in digital entertainment for decades, video games have been recognized as valuable software artifacts by the software engineering (SE) community just recently. Such an acknowledgment has unveiled several research opportunities, spanning from empirical studies to the application of AI techniques for classification tasks. In this respect, several curated game datasets have been disclosed for research purposes even though the collected data are insufficient to support the application of advanced models or to enable interdisciplinary studies. Moreover, the majority of those are limited to PC games, thus excluding notorious gaming platforms, e.g., PlayStation, Xbox, and Nintendo. In this paper, we propose PlayMyData, a curated dataset composed of 99,864 multi-platform games gathered by the IGDB website. By exploiting a dedicated API, we collect relevant metadata for each game, e.g., description, genre, rating, gameplay video URLs, and screenshots. Furthermore, we enrich PlayMyData with the timing needed to complete each game by mining the HLTB website. To the best of our knowledge, this is the most comprehensive dataset in the domain that can be used to support different automated tasks in SE. More importantly, PlayMyData can be used to foster cross-domain investigations built on top of the provided multimedia data.",
+    "arxivId": "2401.08561",
+    "authors": [
+        {
+            "authorId": "2174071404",
+            "name": "Andrea D\u2019Angelo",
+            "url": "https://www.semanticscholar.org/author/2174071404"
+        },
+        {
+            "authorId": "2113623494",
+            "name": "Claudio Di Sipio",
+            "url": "https://www.semanticscholar.org/author/2113623494"
+        },
+        {
+            "authorId": "2279790509",
+            "name": "Cristiano Politowski",
+            "url": "https://www.semanticscholar.org/author/2279790509"
+        },
+        {
+            "authorId": "80788365",
+            "name": "Riccardo Rubei",
+            "url": "https://www.semanticscholar.org/author/80788365"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [],
+    "corpusId": 267028676,
+    "doi": "10.1145/3643991.3644869",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 0,
+    "numCiting": 37,
+    "paperId": "267c4a4e30546dec9052efffef471b65436af74a",
+    "references": [
+        {
+            "arxivId": "2307.14749",
+            "authors": [
+                {
+                    "authorId": "2161966049",
+                    "name": "Emanuela Guglielmi"
+                },
+                {
+                    "authorId": "3439470",
+                    "name": "Simone Scalabrino"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                }
+            ],
+            "doi": "10.1007/s10664-023-10365-0",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9fa1102ad39990242cc7de0540fa447516ba3050",
+            "title": "Using gameplay videos for detecting issues in video games",
+            "url": "https://www.semanticscholar.org/paper/9fa1102ad39990242cc7de0540fa447516ba3050",
+            "venue": "Empirical Software Engineering",
+            "year": 2023
+        },
+        {
+            "arxivId": "2302.05623",
+            "authors": [
+                {
+                    "authorId": "2266408",
+                    "name": "Reza Hadi Mogavi"
+                },
+                {
+                    "authorId": "2205547259",
+                    "name": "Chao Deng"
+                },
+                {
+                    "authorId": "119152633",
+                    "name": "J. Hoffman"
+                },
+                {
+                    "authorId": "144505165",
+                    "name": "E. Haq"
+                },
+                {
+                    "authorId": "39686395",
+                    "name": "Sujit Gujar"
+                },
+                {
+                    "authorId": "1680267",
+                    "name": "A. Bucchiarone"
+                },
+                {
+                    "authorId": "143966169",
+                    "name": "Pan Hui"
+                }
+            ],
+            "doi": "10.48550/arXiv.2302.05623",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7735670e165d5d2b3f59e85dc1e7f237ad640df8",
+            "title": "Your Favorite Gameplay Speaks Volumes about You: Predicting User Behavior and Hexad Type",
+            "url": "https://www.semanticscholar.org/paper/7735670e165d5d2b3f59e85dc1e7f237ad640df8",
+            "venue": "HCI",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1680267",
+                    "name": "A. Bucchiarone"
+                },
+                {
+                    "authorId": "145903281",
+                    "name": "K. Cooper"
+                },
+                {
+                    "authorId": "8626524",
+                    "name": "Dayi Lin"
+                },
+                {
+                    "authorId": "2089829",
+                    "name": "E. Melcer"
+                },
+                {
+                    "authorId": "39797088",
+                    "name": "Kelvin Sung"
+                }
+            ],
+            "doi": "10.1145/3573074.3573096",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f41bcb7194469299da4cb8849ba149e14aa9d5df",
+            "title": "Games and Software Engineering",
+            "url": "https://www.semanticscholar.org/paper/f41bcb7194469299da4cb8849ba149e14aa9d5df",
+            "venue": "ACM SIGSOFT Softw. Eng. Notes",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2583741",
+                    "name": "Vittoria Nardone"
+                },
+                {
+                    "authorId": "1949900135",
+                    "name": "B. Muse"
+                },
+                {
+                    "authorId": "144000117",
+                    "name": "Mouna Abidi"
+                },
+                {
+                    "authorId": "1703493",
+                    "name": "Foutse Khomh"
+                },
+                {
+                    "authorId": "122199332",
+                    "name": "Massimiliano Di Penta"
+                }
+            ],
+            "doi": "10.1145/3563214",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "326f44a8e512121d32a60b498fc72e32d97fec02",
+            "title": "Video Game Bad Smells: What They Are and How Developers Perceive Them",
+            "url": "https://www.semanticscholar.org/paper/326f44a8e512121d32a60b498fc72e32d97fec02",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2164285294",
+                    "name": "Tianrui Liu"
+                }
+            ],
+            "doi": "10.1109/cvidliccea56201.2022.9825356",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a380d9fa74d50810433402a6ac30d2b56038434c",
+            "title": "RecommenderPlus: New Content-based User-centered Game Recommendation System",
+            "url": "https://www.semanticscholar.org/paper/a380d9fa74d50810433402a6ac30d2b56038434c",
+            "venue": "2022 3rd International Conference on Computer Vision, Image and Deep Learning & International Conference on Computer Engineering and Applications (CVIDL & ICCEA)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51116192",
+                    "name": "Erin Gibson"
+                },
+                {
+                    "authorId": "145218767",
+                    "name": "M. Griffiths"
+                },
+                {
+                    "authorId": "40224162",
+                    "name": "Filipa Calado"
+                },
+                {
+                    "authorId": "2080408675",
+                    "name": "A. Harris"
+                }
+            ],
+            "doi": "10.1016/j.chb.2022.107219",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9fb2217ea9f7087a518a7728c60556a1cdbb529b",
+            "title": "The relationship between videogame micro-transactions and problem gaming and gambling: A systematic review",
+            "url": "https://www.semanticscholar.org/paper/9fb2217ea9f7087a518a7728c60556a1cdbb529b",
+            "venue": "Comput. Hum. Behav.",
+            "year": 2022
+        },
+        {
+            "arxivId": "2105.05674",
+            "authors": [
+                {
+                    "authorId": "2985104",
+                    "name": "Ismo Horppu"
+                },
+                {
+                    "authorId": "122566052",
+                    "name": "Antti Nikander"
+                },
+                {
+                    "authorId": "2091417416",
+                    "name": "Elif Buyukcan"
+                },
+                {
+                    "authorId": "2091417344",
+                    "name": "Jere Makiniemi"
+                },
+                {
+                    "authorId": "10401315",
+                    "name": "Amin Sorkhei"
+                },
+                {
+                    "authorId": "2091810265",
+                    "name": "Frederick Ayala-G'omez"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6aa6ff8469028f43f55031f38d43e2e42c2bbcac",
+            "title": "Automatic Classification of Games using Support Vector Machine",
+            "url": "https://www.semanticscholar.org/paper/6aa6ff8469028f43f55031f38d43e2e42c2bbcac",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47912150",
+                    "name": "Danielle R. Madden"
+                },
+                {
+                    "authorId": "2108135948",
+                    "name": "Yuxuan Liu"
+                },
+                {
+                    "authorId": "2110751679",
+                    "name": "Haowei Yu"
+                },
+                {
+                    "authorId": "2089407595",
+                    "name": "Mustafa Feyyaz Sonbudak"
+                },
+                {
+                    "authorId": "48442127",
+                    "name": "G. Troiano"
+                },
+                {
+                    "authorId": "32498179",
+                    "name": "C. Harteveld"
+                }
+            ],
+            "doi": "10.1145/3411764.3445248",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0fe8029e7b116648ce7cd474c816cf01b2117268",
+            "title": "\u201cWhy Are You Playing Games? You Are a Girl!\u201d: Exploring Gender Biases in Esports",
+            "url": "https://www.semanticscholar.org/paper/0fe8029e7b116648ce7cd474c816cf01b2117268",
+            "venue": "CHI",
+            "year": 2021
+        },
+        {
+            "arxivId": "2104.02643",
+            "authors": [
+                {
+                    "authorId": "66017885",
+                    "name": "D\u00e1vid Melh\u00e1rt"
+                },
+                {
+                    "authorId": "1713331",
+                    "name": "Antonios Liapis"
+                },
+                {
+                    "authorId": "1686193",
+                    "name": "Georgios N. Yannakakis"
+                }
+            ],
+            "doi": "10.1109/TAFFC.2022.3188851",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d53e46ea2852853745112e0bee30a54c603c1fcd",
+            "title": "The Arousal Video Game AnnotatIoN (AGAIN) Dataset",
+            "url": "https://www.semanticscholar.org/paper/d53e46ea2852853745112e0bee30a54c603c1fcd",
+            "venue": "IEEE Transactions on Affective Computing",
+            "year": 2021
+        },
+        {
+            "arxivId": "2011.12143",
+            "authors": [
+                {
+                    "authorId": "152771732",
+                    "name": "Yuhang Jiang"
+                },
+                {
+                    "authorId": "20455597",
+                    "name": "Lukun Zheng"
+                }
+            ],
+            "doi": "10.1007/s11042-023-14560-5",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "314e0b341abe8af7171bc686994404f50a9afb8f",
+            "title": "Deep learning for video game genre classification",
+            "url": "https://www.semanticscholar.org/paper/314e0b341abe8af7171bc686994404f50a9afb8f",
+            "venue": "Multimedia Tools and Applications",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2885480",
+                    "name": "J. Pirnot"
+                },
+                {
+                    "authorId": "49079136",
+                    "name": "M. Kern"
+                },
+                {
+                    "authorId": "2070860499",
+                    "name": "L. Melvin"
+                }
+            ],
+            "doi": "10.2307/j.ctv1931hj6.12",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "18ef20456507db2dbddd2b040fe4c8774600832a",
+            "title": "Steam",
+            "url": "https://www.semanticscholar.org/paper/18ef20456507db2dbddd2b040fe4c8774600832a",
+            "venue": "Leadership in Unknown Waters",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "150272131",
+                    "name": "Rian Ardianto"
+                },
+                {
+                    "authorId": "1658974892",
+                    "name": "Tri Rivanie"
+                },
+                {
+                    "authorId": "2092276367",
+                    "name": "Yuris Alkhalifi"
+                },
+                {
+                    "authorId": "2065248025",
+                    "name": "F. Nugraha"
+                },
+                {
+                    "authorId": "2089205948",
+                    "name": "W. Gata"
+                }
+            ],
+            "doi": "10.21609/jiki.v13i2.885",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "24c9f14f3f1eae82ebcc237343c026dbeb8e2e96",
+            "title": "SENTIMENT ANALYSIS ON E-SPORTS FOR EDUCATION CURRICULUM USING NAIVE BAYES AND SUPPORT VECTOR MACHINE",
+            "url": "https://www.semanticscholar.org/paper/24c9f14f3f1eae82ebcc237343c026dbeb8e2e96",
+            "venue": "Jurnal Ilmu Komputer dan Informasi",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "120084492",
+                    "name": "Dalila Forni"
+                }
+            ],
+            "doi": "10.26503/todigra.v5i1.111",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "274c819b8eb8b7fe5b0a53c16c6ae410f76b779a",
+            "title": "Horizon Zero Dawn: The Educational Influence of Video Games in Counteracting Gender Stereotypes",
+            "url": "https://www.semanticscholar.org/paper/274c819b8eb8b7fe5b0a53c16c6ae410f76b779a",
+            "venue": "Trans. Digit. Games Res. Assoc.",
+            "year": 2020
+        },
+        {
+            "arxivId": "2001.00491",
+            "authors": [
+                {
+                    "authorId": "3404912",
+                    "name": "Cristiano Politowski"
+                },
+                {
+                    "authorId": "145400424",
+                    "name": "F\u00e1bio Petrillo"
+                },
+                {
+                    "authorId": "2074959603",
+                    "name": "G. Ullmann"
+                },
+                {
+                    "authorId": "36179195",
+                    "name": "Josias de Andrade Werly"
+                },
+                {
+                    "authorId": "1718050",
+                    "name": "Yann-Ga\u00ebl Gu\u00e9h\u00e9neuc"
+                }
+            ],
+            "doi": "10.1145/3379597.3387486",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "11dbc5444ca1825cc5fdd7e6c117def8fd9708c7",
+            "title": "Dataset of Video Game Development Problems",
+            "url": "https://www.semanticscholar.org/paper/11dbc5444ca1825cc5fdd7e6c117def8fd9708c7",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2020
+        },
+        {
+            "arxivId": "1910.12129",
+            "authors": [
+                {
+                    "authorId": "47080255",
+                    "name": "Juraj Juraska"
+                },
+                {
+                    "authorId": "144428010",
+                    "name": "Kevin K. Bowden"
+                },
+                {
+                    "authorId": "2234088162",
+                    "name": "M. Walker"
+                }
+            ],
+            "doi": "10.18653/v1/W19-8623",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f06d725ccd33bfea7937b756d47f506aea362f6a",
+            "title": "ViGGO: A Video Game Corpus for Data-To-Text Generation in Open-Domain Conversation",
+            "url": "https://www.semanticscholar.org/paper/f06d725ccd33bfea7937b756d47f506aea362f6a",
+            "venue": "INLG",
+            "year": 2019
+        },
+        {
+            "arxivId": "1806.04900",
+            "authors": [
+                {
+                    "authorId": "46373253",
+                    "name": "Paul Bertens"
+                },
+                {
+                    "authorId": "153675975",
+                    "name": "Anna Guitart"
+                },
+                {
+                    "authorId": "2158501099",
+                    "name": "Pei Pei Chen"
+                },
+                {
+                    "authorId": "35897158",
+                    "name": "\u00c1. Peri\u00e1\u00f1ez"
+                }
+            ],
+            "doi": "10.1109/CIG.2018.8490456",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "80a3e1d693adec7c7d094abed0e7f818f8cb5dd9",
+            "title": "A Machine-Learning Item Recommendation System for Video Games",
+            "url": "https://www.semanticscholar.org/paper/80a3e1d693adec7c7d094abed0e7f818f8cb5dd9",
+            "venue": "2018 IEEE Conference on Computational Intelligence and Games (CIG)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "19382329",
+                    "name": "Saman Zadtootaghaj"
+                },
+                {
+                    "authorId": "144107509",
+                    "name": "Steven Schmidt"
+                },
+                {
+                    "authorId": "8345091",
+                    "name": "Nabajeet Barman"
+                },
+                {
+                    "authorId": "145733288",
+                    "name": "Sebastian M\u00f6ller"
+                },
+                {
+                    "authorId": "143820968",
+                    "name": "M. Martini"
+                }
+            ],
+            "doi": "10.1109/NETGAMES.2018.8463434",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3b22df1969156bad615754abc45ad323fc6fd430",
+            "title": "A Classification of Video Games based on Game Characteristics linked to Video Coding Complexity",
+            "url": "https://www.semanticscholar.org/paper/3b22df1969156bad615754abc45ad323fc6fd430",
+            "venue": "2018 16th Annual Workshop on Network and Systems Support for Games (NetGames)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40695832",
+                    "name": "L. Pascarella"
+                },
+                {
+                    "authorId": "34946033",
+                    "name": "Fabio Palomba"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "1686038",
+                    "name": "Alberto Bacchelli"
+                }
+            ],
+            "doi": "10.1145/3196398.3196418",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "dbb7ab176b5b3d0914003ce5e56113e0502f7ba5",
+            "title": "How Is Video Game Development Different from Software Development in Open Source?",
+            "url": "https://www.semanticscholar.org/paper/dbb7ab176b5b3d0914003ce5e56113e0502f7ba5",
+            "venue": "2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1895071",
+                    "name": "S. K\u00fchn"
+                },
+                {
+                    "authorId": "38656278",
+                    "name": "Dimitrij Kugler"
+                },
+                {
+                    "authorId": "35367904",
+                    "name": "Katharina Schmalen"
+                },
+                {
+                    "authorId": "6951052",
+                    "name": "Markus Weichenberger"
+                },
+                {
+                    "authorId": "28328742",
+                    "name": "C. Witt"
+                },
+                {
+                    "authorId": "2248997",
+                    "name": "J. Gallinat"
+                }
+            ],
+            "doi": "10.1038/s41380-018-0031-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "995b2fd4d95651b410fe97ed345069198aeb9344",
+            "title": "Does playing violent video games cause aggression? A longitudinal intervention study",
+            "url": "https://www.semanticscholar.org/paper/995b2fd4d95651b410fe97ed345069198aeb9344",
+            "venue": "Molecular Psychiatry",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2116793930",
+                    "name": "Joseph J. Thompson"
+                },
+                {
+                    "authorId": "27089246",
+                    "name": "Betty H. M. Leung"
+                },
+                {
+                    "authorId": "3385991",
+                    "name": "M. Blair"
+                },
+                {
+                    "authorId": "145522054",
+                    "name": "Maite Taboada"
+                }
+            ],
+            "doi": "10.1016/j.knosys.2017.09.022",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "27fcbf779e8a6d54a6c8d33c63d679017059ffaf",
+            "title": "Sentiment analysis of player chat messaging in the video game StarCraft 2: Extending a lexicon-based model",
+            "url": "https://www.semanticscholar.org/paper/27fcbf779e8a6d54a6c8d33c63d679017059ffaf",
+            "venue": "Knowl. Based Syst.",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144068459",
+                    "name": "Apurva Pathak"
+                },
+                {
+                    "authorId": "47211339",
+                    "name": "Kshitiz Gupta"
+                },
+                {
+                    "authorId": "35660011",
+                    "name": "Julian McAuley"
+                }
+            ],
+            "doi": "10.1145/3077136.3080724",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "118a0278dc3e0a653c3cf19b132c44632d7a1e13",
+            "title": "Generating and Personalizing Bundle Recommendations on Steam",
+            "url": "https://www.semanticscholar.org/paper/118a0278dc3e0a653c3cf19b132c44632d7a1e13",
+            "venue": "SIGIR",
+            "year": 2017
+        },
+        {
+            "arxivId": "1409.1556",
+            "authors": [
+                {
+                    "authorId": "34838386",
+                    "name": "K. Simonyan"
+                },
+                {
+                    "authorId": "1688869",
+                    "name": "Andrew Zisserman"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "eb42cf88027de515750f230b23b1a057dc782108",
+            "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "url": "https://www.semanticscholar.org/paper/eb42cf88027de515750f230b23b1a057dc782108",
+            "venue": "ICLR",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2064160",
+                    "name": "A. Krizhevsky"
+                },
+                {
+                    "authorId": "1701686",
+                    "name": "I. Sutskever"
+                },
+                {
+                    "authorId": "1695689",
+                    "name": "Geoffrey E. Hinton"
+                }
+            ],
+            "doi": "10.1145/3065386",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "abd1c342495432171beb7ca8fd9551ef13cbd0ff",
+            "title": "ImageNet classification with deep convolutional neural networks",
+            "url": "https://www.semanticscholar.org/paper/abd1c342495432171beb7ca8fd9551ef13cbd0ff",
+            "venue": "Commun. ACM",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1759568",
+                    "name": "M. Griffiths"
+                },
+                {
+                    "authorId": "39102028",
+                    "name": "A. Meredith"
+                }
+            ],
+            "doi": "10.1007/s10879-009-9118-4",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "683a1cab80c2a64e74d41e46c10cacfab1b23696",
+            "title": "Videogame Addiction and its Treatment",
+            "url": "https://www.semanticscholar.org/paper/683a1cab80c2a64e74d41e46c10cacfab1b23696",
+            "venue": "Journal of Contemporary Psychotherapy",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2475080",
+                    "name": "Richard T. A. Wood"
+                }
+            ],
+            "doi": "10.1007/s11469-007-9118-0",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1b3fa5344a84a82d69b94fdfe1cd3f62398ce77a",
+            "title": "Problems with the Concept of Video Game \u201cAddiction\u201d: Some Case Study Examples",
+            "url": "https://www.semanticscholar.org/paper/1b3fa5344a84a82d69b94fdfe1cd3f62398ce77a",
+            "venue": "International Journal of Mental Health and Addiction",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143678972",
+                    "name": "G. Navarro"
+                }
+            ],
+            "doi": "10.1145/375360.375365",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "e001232a2876989f52a7b4ac12bd9ed550d41240",
+            "title": "A guided tour to approximate string matching",
+            "url": "https://www.semanticscholar.org/paper/e001232a2876989f52a7b4ac12bd9ed550d41240",
+            "venue": "CSUR",
+            "year": 2001
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "PlaystationStore",
+            "url": "",
+            "venue": "store. playstation.com/",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "80788365",
+                    "name": "Riccardo Rubei"
+                },
+                {
+                    "authorId": "1644891552",
+                    "name": "Claudio Di Sipio"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "62231693b13be6484545aa8b4dbcc751b15de181",
+            "title": "AURYGA: A Recommender System for Game Tagging",
+            "url": "https://www.semanticscholar.org/paper/62231693b13be6484545aa8b4dbcc751b15de181",
+            "venue": "IIR",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Let\u2019splayforaction:Recognizingactivitiesofdaily livingbylearningfromlifesimulationvideogames",
+            "url": "",
+            "venue": "2021IEEE/RSJInternational Conference on Intelligent Robots and Systems (IROS)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3146635",
+                    "name": "Muhannad Quwaider"
+                },
+                {
+                    "authorId": "2074005664",
+                    "name": "Abdullah Alabed"
+                },
+                {
+                    "authorId": "1926336",
+                    "name": "R. Duwairi"
+                }
+            ],
+            "doi": "10.1016/J.PROCS.2019.04.077",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d72373f5536ca0a4617eddc59e36167238656bf6",
+            "title": "The Impact of Video Games on the Players Behaviors: A Survey",
+            "url": "https://www.semanticscholar.org/paper/d72373f5536ca0a4617eddc59e36167238656bf6",
+            "venue": "ANT/EDI40",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2745623",
+                    "name": "I. Granic"
+                },
+                {
+                    "authorId": "2225758",
+                    "name": "Adam Lobel"
+                },
+                {
+                    "authorId": "144140465",
+                    "name": "R. Engels"
+                }
+            ],
+            "doi": "10.1037/a0034857",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "12f6500480290c0d8ca6933382478f82883cde88",
+            "title": "The benefits of playing video games.",
+            "url": "https://www.semanticscholar.org/paper/12f6500480290c0d8ca6933382478f82883cde88",
+            "venue": "The American psychologist",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "",
+            "title": "PlayMyData",
+            "url": "",
+            "venue": "riccardoRubei/MSR2024-Data-Showcase",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2023. Games and Software Engineering: Engineering Fun, In-spiration, and Motivation",
+            "url": "",
+            "venue": "SIGSOFT Softw. Eng. Notes",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2023. Video Game Reviews, Articles, Trailers and more",
+            "url": "",
+            "venue": "www",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "igdb API",
+            "url": "",
+            "venue": "\u2013 IGDB API docs",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "MSR \u201924, April 15\u201316, 2024, Lisbon, Portugal",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "license agreement with IEEE. Restrictions apply",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "PlayMyData: a curated dataset of multi-platform video games",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/267c4a4e30546dec9052efffef471b65436af74a",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2024
+}

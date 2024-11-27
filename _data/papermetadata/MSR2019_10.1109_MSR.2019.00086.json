@@ -1,0 +1,1421 @@
+{
+    "abstract": "The popularity of Python programming language has surged in recent years due to its increasing usage in Data Science. The availability of Python repositories in Github presents an opportunity for mining software repository research, e.g., suggesting the best practices in developing Data Science applications, identifying bug-patterns, recommending code enhancements, etc. To enable this research, we have created a new dataset that includes 1,558 mature Github projects that develop Python software for Data Science tasks. By analyzing the metadata and code, we have included the projects in our dataset which use a diverse set of machine learning libraries and managed by a variety of users and organizations. The dataset is made publicly available through Boa infrastructure both as a collection of raw projects as well as in a processed form that could be used for performing large scale analysis using Boa language. We also present two initial applications to demonstrate the potential of the dataset that could be leveraged by the community.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2555876",
+            "name": "Sumon Biswas",
+            "url": "https://www.semanticscholar.org/author/2555876"
+        },
+        {
+            "authorId": "48489351",
+            "name": "Md Johirul Islam",
+            "url": "https://www.semanticscholar.org/author/48489351"
+        },
+        {
+            "authorId": "2108597316",
+            "name": "Yijia Huang",
+            "url": "https://www.semanticscholar.org/author/2108597316"
+        },
+        {
+            "authorId": "144212535",
+            "name": "Hridesh Rajan",
+            "url": "https://www.semanticscholar.org/author/144212535"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2265940947",
+                    "name": "Xiaoyan Xu"
+                },
+                {
+                    "authorId": "3261420",
+                    "name": "F. C\u00f4go"
+                },
+                {
+                    "authorId": "2277469902",
+                    "name": "Shane McIntosh"
+                }
+            ],
+            "doi": "10.1109/TSE.2024.3435067",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a2b0eca1ed53d1a390abe878be5607302a23e715",
+            "title": "Mitigating the Uncertainty and Imprecision of Log-Based Code Coverage Without Requiring Additional Logging Statements",
+            "url": "https://www.semanticscholar.org/paper/a2b0eca1ed53d1a390abe878be5607302a23e715",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2299862992",
+                    "name": "Edgar Brea"
+                }
+            ],
+            "doi": "10.1016/j.respol.2024.105008",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a24df2898c3598cb3a38dbdfa154e497c4deca3a",
+            "title": "The yin yang of AI: Exploring how commercial and non-commercial orientations shape machine learning innovation",
+            "url": "https://www.semanticscholar.org/paper/a24df2898c3598cb3a38dbdfa154e497c4deca3a",
+            "venue": "Research Policy",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2266392919",
+                    "name": "Vatsal Venkatkrishna"
+                },
+                {
+                    "authorId": "2185413163",
+                    "name": "Durga Shree Nagabushanam"
+                },
+                {
+                    "authorId": "2266395391",
+                    "name": "Emmanuel Iko-Ojo Simon"
+                },
+                {
+                    "authorId": "2302858159",
+                    "name": "Melina C. Vidoni"
+                }
+            ],
+            "doi": "10.1145/3639478.3643110",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a58bb6a371d576569e47162eeac0d81ab56d5b60",
+            "title": "Multi-Step Automated Generation of Parameter Docstrings in Python: An Exploratory Study",
+            "url": "https://www.semanticscholar.org/paper/a58bb6a371d576569e47162eeac0d81ab56d5b60",
+            "venue": "2024 IEEE/ACM 46th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2282210203",
+                    "name": "Samuel Idowu"
+                },
+                {
+                    "authorId": "2302563016",
+                    "name": "Yorick Sens"
+                },
+                {
+                    "authorId": "2242416696",
+                    "name": "Thorsten Berger"
+                },
+                {
+                    "authorId": "2242518499",
+                    "name": "Jacob Kr\u00fcger"
+                },
+                {
+                    "authorId": "3044069",
+                    "name": "Michael Vierhauser"
+                }
+            ],
+            "doi": "10.1145/3605098.3636056",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2ae73d1207e01813b143f500bc40309816828076",
+            "title": "A Large-Scale Study of ML-Related Python Projects",
+            "url": "https://www.semanticscholar.org/paper/2ae73d1207e01813b143f500bc40309816828076",
+            "venue": "SAC",
+            "year": 2024
+        },
+        {
+            "arxivId": "2401.11092",
+            "authors": [
+                {
+                    "authorId": "2280134614",
+                    "name": "Brian Sigurdson"
+                },
+                {
+                    "authorId": "2056767397",
+                    "name": "Samuel W. Flint"
+                },
+                {
+                    "authorId": "2256709693",
+                    "name": "Robert Dyer"
+                }
+            ],
+            "doi": "10.1145/3639478.3640026",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "44e7bc54220a4e7e1be3a01ac98bc7a6d0cf1ba0",
+            "title": "Boidae: Your Personal Mining Platform",
+            "url": "https://www.semanticscholar.org/paper/44e7bc54220a4e7e1be3a01ac98bc7a6d0cf1ba0",
+            "venue": "2024 IEEE/ACM 46th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2008199408",
+                    "name": "Giuseppe Colavito"
+                },
+                {
+                    "authorId": "1743022",
+                    "name": "F. Lanubile"
+                },
+                {
+                    "authorId": "1750021",
+                    "name": "Nicole Novielli"
+                },
+                {
+                    "authorId": "80099077",
+                    "name": "L. Quaranta"
+                }
+            ],
+            "doi": "10.1016/j.jss.2023.111838",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "21621d8bdf0cb4e73ff1def7972c3547c5325c00",
+            "title": "Impact of data quality for automatic issue classification using pre-trained language models",
+            "url": "https://www.semanticscholar.org/paper/21621d8bdf0cb4e73ff1def7972c3547c5325c00",
+            "venue": "Journal of Systems and Software",
+            "year": 2023
+        },
+        {
+            "arxivId": "2311.06453",
+            "authors": [
+                {
+                    "authorId": "2266392919",
+                    "name": "Vatsal Venkatkrishna"
+                },
+                {
+                    "authorId": "2185413163",
+                    "name": "Durga Shree Nagabushanam"
+                },
+                {
+                    "authorId": "2266395391",
+                    "name": "Emmanuel Iko-Ojo Simon"
+                },
+                {
+                    "authorId": "34755489",
+                    "name": "M. Vidoni"
+                }
+            ],
+            "doi": "10.48550/arXiv.2311.06453",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "bdb5323aca0aee2f0ef6301467cffc0c105fad9b",
+            "title": "DocGen: Generating Detailed Parameter Docstrings in Python",
+            "url": "https://www.semanticscholar.org/paper/bdb5323aca0aee2f0ef6301467cffc0c105fad9b",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2275644839",
+                    "name": "Md Saeed Siddik"
+                },
+                {
+                    "authorId": "1755660",
+                    "name": "C. Bezemer"
+                }
+            ],
+            "doi": "10.1109/SCAM59687.2023.00018",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "59fb891bbc28c7ba92cb4846880abb30327e5cfa",
+            "title": "Do Code Quality and Style Issues Differ Across (Non-)Machine Learning Notebooks? Yes!",
+            "url": "https://www.semanticscholar.org/paper/59fb891bbc28c7ba92cb4846880abb30327e5cfa",
+            "venue": "2023 IEEE 23rd International Working Conference on Source Code Analysis and Manipulation (SCAM)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2115295880",
+                    "name": "Di Liu"
+                },
+                {
+                    "authorId": "2115389493",
+                    "name": "Yang Feng"
+                },
+                {
+                    "authorId": "2117859043",
+                    "name": "Yanyan Yan"
+                },
+                {
+                    "authorId": "143778527",
+                    "name": "Baowen Xu"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10239-x",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "7786538c83064d983e04a007b10e3f5ad7e56ae9",
+            "title": "Towards understanding bugs in Python interpreters",
+            "url": "https://www.semanticscholar.org/paper/7786538c83064d983e04a007b10e3f5ad7e56ae9",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "121189872",
+                    "name": "D. OBrien"
+                },
+                {
+                    "authorId": "2555876",
+                    "name": "Sumon Biswas"
+                },
+                {
+                    "authorId": "2154809",
+                    "name": "Rabe Abdalkareem"
+                }
+            ],
+            "doi": "10.1145/3540250.3549088",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0477a6d7bb0ebc4377943f0213b5563e057d98f8",
+            "title": "23 shades of self-admitted technical debt: an empirical study on machine learning software",
+            "url": "https://www.semanticscholar.org/paper/0477a6d7bb0ebc4377943f0213b5563e057d98f8",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2022
+        },
+        {
+            "arxivId": "2210.16018",
+            "authors": [
+                {
+                    "authorId": "2151248596",
+                    "name": "Anastasia Drozdova"
+                },
+                {
+                    "authorId": "100891351",
+                    "name": "P. Guseva"
+                },
+                {
+                    "authorId": "153868338",
+                    "name": "E. Trofimova"
+                },
+                {
+                    "authorId": "2151248482",
+                    "name": "Anna Scherbakova"
+                },
+                {
+                    "authorId": "31318774",
+                    "name": "Andrey Ustyuzhanin"
+                }
+            ],
+            "doi": "10.7717/peerj-cs.1230",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "41f5e1ad7793593befc0b9c38f756836e8b07c98",
+            "title": "Code4ML: a large-scale dataset of annotated Machine Learning code",
+            "url": "https://www.semanticscholar.org/paper/41f5e1ad7793593befc0b9c38f756836e8b07c98",
+            "venue": "PeerJ Comput. Sci.",
+            "year": 2022
+        },
+        {
+            "arxivId": "2209.11453",
+            "authors": [
+                {
+                    "authorId": "1810643",
+                    "name": "Fabio Calefato"
+                },
+                {
+                    "authorId": "1743022",
+                    "name": "F. Lanubile"
+                },
+                {
+                    "authorId": "80099077",
+                    "name": "L. Quaranta"
+                }
+            ],
+            "doi": "10.1145/3544902.3546636",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0d1f7f167270d68fb2403c12aa8adc0f8f750a01",
+            "title": "A Preliminary Investigation of MLOps Practices in GitHub",
+            "url": "https://www.semanticscholar.org/paper/0d1f7f167270d68fb2403c12aa8adc0f8f750a01",
+            "venue": "ESEM",
+            "year": 2022
+        },
+        {
+            "arxivId": "2209.01817",
+            "authors": [
+                {
+                    "authorId": "145310968",
+                    "name": "Robert Dyer"
+                },
+                {
+                    "authorId": "2056766928",
+                    "name": "Jigyasa Chauhan"
+                }
+            ],
+            "doi": "10.1145/3540250.3549158",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "70f44a8ecbb384b4203bb53748273252a8cbed10",
+            "title": "An exploratory study on the predominant programming paradigms in Python code",
+            "url": "https://www.semanticscholar.org/paper/70f44a8ecbb384b4203bb53748273252a8cbed10",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2022
+        },
+        {
+            "arxivId": "2208.09189",
+            "authors": [
+                {
+                    "authorId": "2142774467",
+                    "name": "Bernd Gruner"
+                },
+                {
+                    "authorId": "151237913",
+                    "name": "Tim Sonnekalb"
+                },
+                {
+                    "authorId": "122233317",
+                    "name": "Thomas S. Heinze"
+                },
+                {
+                    "authorId": "2167834",
+                    "name": "C. Brust"
+                }
+            ],
+            "doi": "10.1109/MSR59073.2023.00034",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "545edde66dfbc1d47c2d66a015872cbf718691c6",
+            "title": "Cross-Domain Evaluation of a Deep Learning-Based Type Inference System",
+            "url": "https://www.semanticscholar.org/paper/545edde66dfbc1d47c2d66a015872cbf718691c6",
+            "venue": "2023 IEEE/ACM 20th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2109161852",
+                    "name": "Shibbir Ahmed"
+                },
+                {
+                    "authorId": "48489351",
+                    "name": "Md Johirul Islam"
+                },
+                {
+                    "authorId": "144212535",
+                    "name": "Hridesh Rajan"
+                }
+            ],
+            "doi": "10.1145/3511918",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c5781928f86ea51ca3d1cf21fe437dc0fe7c0a5e",
+            "title": "Semantics and Anomaly Preserving Sampling Strategy for Large-Scale Time Series Data",
+            "url": "https://www.semanticscholar.org/paper/c5781928f86ea51ca3d1cf21fe437dc0fe7c0a5e",
+            "venue": "Trans. Data Sci.",
+            "year": 2022
+        },
+        {
+            "arxivId": "2201.09953",
+            "authors": [
+                {
+                    "authorId": "2151087978",
+                    "name": "Tatiana Castro V'elez"
+                },
+                {
+                    "authorId": "2076424",
+                    "name": "Raffi Khatchadourian"
+                },
+                {
+                    "authorId": "2138771",
+                    "name": "M. Bagherzadeh"
+                },
+                {
+                    "authorId": "143940792",
+                    "name": "A. Raja"
+                }
+            ],
+            "doi": "10.1145/3524842.3528455",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2f0cc7bf06c007f8ddcc5b52381a3659457b5e03",
+            "title": "Challenges in Migrating Imperative Deep Learning Programs to Graph Execution: An Empirical Study",
+            "url": "https://www.semanticscholar.org/paper/2f0cc7bf06c007f8ddcc5b52381a3659457b5e03",
+            "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2112.01590",
+            "authors": [
+                {
+                    "authorId": "2555876",
+                    "name": "Sumon Biswas"
+                },
+                {
+                    "authorId": "2340436",
+                    "name": "Mohammad Wardat"
+                },
+                {
+                    "authorId": "144212535",
+                    "name": "Hridesh Rajan"
+                }
+            ],
+            "doi": "10.1145/3510003.3510057",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f9d403c58db99e2214f43e5b1740694b9c79002f",
+            "title": "The Art and Practice of Data Science Pipelines: A Comprehensive Study of Data Science Pipelines In Theory, In-The-Small, and In-The-Large",
+            "url": "https://www.semanticscholar.org/paper/f9d403c58db99e2214f43e5b1740694b9c79002f",
+            "venue": "2022 IEEE/ACM 44th International Conference on Software Engineering (ICSE)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2110.01710",
+            "authors": [
+                {
+                    "authorId": "3847638",
+                    "name": "M. Bahrami"
+                },
+                {
+                    "authorId": "1896758",
+                    "name": "Shrikanth N. C."
+                },
+                {
+                    "authorId": "51001352",
+                    "name": "Shade Ruangwan"
+                },
+                {
+                    "authorId": "1557267924",
+                    "name": "Lei Liu"
+                },
+                {
+                    "authorId": "2071890196",
+                    "name": "Yuji Mizobuchi"
+                },
+                {
+                    "authorId": "24858713",
+                    "name": "M. Fukuyori"
+                },
+                {
+                    "authorId": "2109593960",
+                    "name": "Wei-Peng Chen"
+                },
+                {
+                    "authorId": "2088925",
+                    "name": "Kazuki Munakata"
+                },
+                {
+                    "authorId": "1703872",
+                    "name": "T. Menzies"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "46104f79702e959798ebfa7e07bfe22f22c1096b",
+            "title": "PyTorrent: A Python Library Corpus for Large-scale Language Models",
+            "url": "https://www.semanticscholar.org/paper/46104f79702e959798ebfa7e07bfe22f22c1096b",
+            "venue": "ArXiv",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.04146",
+            "authors": [
+                {
+                    "authorId": "33660280",
+                    "name": "B. V. Oort"
+                },
+                {
+                    "authorId": "144758605",
+                    "name": "L. Cruz"
+                },
+                {
+                    "authorId": "2289215",
+                    "name": "M. Aniche"
+                },
+                {
+                    "authorId": "1737202",
+                    "name": "A. Deursen"
+                }
+            ],
+            "doi": "10.1109/WAIN52551.2021.00011",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "939c0c833a4864be9bdac99f630c9ea96caacc82",
+            "title": "The Prevalence of Code Smells in Machine Learning projects",
+            "url": "https://www.semanticscholar.org/paper/939c0c833a4864be9bdac99f630c9ea96caacc82",
+            "venue": "2021 IEEE/ACM 1st Workshop on AI Engineering - Software Engineering for AI (WAIN)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2111033812",
+                    "name": "Yun Peng"
+                },
+                {
+                    "authorId": "2153634609",
+                    "name": "Yu Zhang"
+                },
+                {
+                    "authorId": "2091856033",
+                    "name": "Mingzhe Hu"
+                }
+            ],
+            "doi": "10.1109/SANER50967.2021.00012",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "ecdc0e16b9212657a80a92e3f32177c9801ad38d",
+            "title": "An Empirical Study for Common Language Features Used in Python Projects",
+            "url": "https://www.semanticscholar.org/paper/ecdc0e16b9212657a80a92e3f32177c9801ad38d",
+            "venue": "2021 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2138771",
+                    "name": "M. Bagherzadeh"
+                },
+                {
+                    "authorId": "103348062",
+                    "name": "Nicholas Fireman"
+                },
+                {
+                    "authorId": "2020971385",
+                    "name": "Anas Shawesh"
+                },
+                {
+                    "authorId": "2076424",
+                    "name": "Raffi Khatchadourian"
+                }
+            ],
+            "doi": "10.1145/3428282",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "edf4af54b0d5442b8430dad8016d49815ba053d2",
+            "title": "Actor concurrency bugs: a comprehensive study on symptoms, root causes, API usages, and differences",
+            "url": "https://www.semanticscholar.org/paper/edf4af54b0d5442b8430dad8016d49815ba053d2",
+            "venue": "Proc. ACM Program. Lang.",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1441483323",
+                    "name": "\u00d3. Soto-S\u00e1nchez"
+                },
+                {
+                    "authorId": "1944643242",
+                    "name": "Michel Maes-Bermejo"
+                },
+                {
+                    "authorId": "144476808",
+                    "name": "M. Gallego"
+                },
+                {
+                    "authorId": "1802346",
+                    "name": "F. Gort\u00e1zar"
+                }
+            ],
+            "doi": "10.1007/s11219-021-09566-x",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d8c1df1b941de503cc73c12ae57822232edbbb1f",
+            "title": "A dataset of regressions in web applications detected by end-to-end tests",
+            "url": "https://www.semanticscholar.org/paper/d8c1df1b941de503cc73c12ae57822232edbbb1f",
+            "venue": "Software Quality Journal",
+            "year": 2020
+        },
+        {
+            "arxivId": "2007.08978",
+            "authors": [
+                {
+                    "authorId": "1992910562",
+                    "name": "Andrew J. Simmons"
+                },
+                {
+                    "authorId": "2052845461",
+                    "name": "Scott Barnett"
+                },
+                {
+                    "authorId": "1404355048",
+                    "name": "Jessica Rivera-Villicana"
+                },
+                {
+                    "authorId": "1821819447",
+                    "name": "Akshat Bajaj"
+                },
+                {
+                    "authorId": "33402434",
+                    "name": "Rajesh Vasa"
+                }
+            ],
+            "doi": "10.1145/3382494.3410680",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "aa44017cf1f1bcf8f0b60439ad02758b9a467501",
+            "title": "A large-scale comparative analysis of Coding Standard conformance in Open-Source Data Science projects",
+            "url": "https://www.semanticscholar.org/paper/aa44017cf1f1bcf8f0b60439ad02758b9a467501",
+            "venue": "ESEM",
+            "year": 2020
+        },
+        {
+            "arxivId": "1906.01388",
+            "authors": [
+                {
+                    "authorId": "48489351",
+                    "name": "Md Johirul Islam"
+                },
+                {
+                    "authorId": "2069942312",
+                    "name": "Giang Nguyen"
+                },
+                {
+                    "authorId": "134665157",
+                    "name": "Rangeet Pan"
+                },
+                {
+                    "authorId": "144212535",
+                    "name": "Hridesh Rajan"
+                }
+            ],
+            "doi": "10.1145/3338906.3338955",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "17750e76d4d3a33b1eada72f39238acd0246bd37",
+            "title": "A comprehensive study on deep learning bug characteristics",
+            "url": "https://www.semanticscholar.org/paper/17750e76d4d3a33b1eada72f39238acd0246bd37",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": "10.1109/msr45733.2019",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "de20e3a4dbd7d0d30eb4a5b46d6222ba827cf208",
+            "title": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "url": "https://www.semanticscholar.org/paper/de20e3a4dbd7d0d30eb4a5b46d6222ba827cf208",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2255531084",
+                    "name": "Mehdi Bagherzadeh"
+                },
+                {
+                    "authorId": "2076424",
+                    "name": "Raffi Khatchadourian"
+                },
+                {
+                    "authorId": "103348062",
+                    "name": "Nicholas Fireman"
+                },
+                {
+                    "authorId": "2020971385",
+                    "name": "Anas Shawesh"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "bf5660d311da30f9e14dfbc23a8813a1c78f2d3f",
+            "title": "Actor Concurrency Bugs in Akka: A Comprehensive Study on Symptoms, Root Causes, API Usages, and Differences",
+            "url": "https://www.semanticscholar.org/paper/bf5660d311da30f9e14dfbc23a8813a1c78f2d3f",
+            "venue": "",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1727809",
+                    "name": "H. Bagheri"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "effbe7654583d5034b387fbe11cfb14ad0776c05",
+            "title": "Domain-specific language and infrastructure for genomics",
+            "url": "https://www.semanticscholar.org/paper/effbe7654583d5034b387fbe11cfb14ad0776c05",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "31264555",
+                    "name": "J. Islam"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "3574a24652661b0005dbffbc0d6892bf1d149f04",
+            "title": "BoaT: A domain specific language and shared data science infrastructure for large scale transportation data analysis",
+            "url": "https://www.semanticscholar.org/paper/3574a24652661b0005dbffbc0d6892bf1d149f04",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7b7e094626ad292f318f24b5833c259cdc0c9959",
+            "title": "The Linguistics of Programming",
+            "url": "https://www.semanticscholar.org/paper/7b7e094626ad292f318f24b5833c259cdc0c9959",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "corpusId": 174767995,
+    "doi": "10.1109/MSR.2019.00086",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 2,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 29,
+    "numCiting": 17,
+    "paperId": "df3f507f3d46dece98a527999676b978af4ae987",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2146331419",
+                    "name": "Tianyi Zhang"
+                },
+                {
+                    "authorId": "145926658",
+                    "name": "Ganesha Upadhyaya"
+                },
+                {
+                    "authorId": "46259000",
+                    "name": "Anastasia Reinhardt"
+                },
+                {
+                    "authorId": "144212535",
+                    "name": "Hridesh Rajan"
+                },
+                {
+                    "authorId": "35710133",
+                    "name": "Miryung Kim"
+                }
+            ],
+            "doi": "10.1145/3180155.3180260",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "9f1ec3594a4d534e9e86c9d9680d2c50647b5c43",
+            "title": "Are Code Examples on an Online Q&A Forum Reliable?: A Study of API Misuse on Stack Overflow",
+            "url": "https://www.semanticscholar.org/paper/9f1ec3594a4d534e9e86c9d9680d2c50647b5c43",
+            "venue": "2018 IEEE/ACM 40th International Conference on Software Engineering (ICSE)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145310968",
+                    "name": "Robert Dyer"
+                },
+                {
+                    "authorId": "2909676",
+                    "name": "H. Nguyen"
+                },
+                {
+                    "authorId": "144212535",
+                    "name": "Hridesh Rajan"
+                },
+                {
+                    "authorId": "2327697",
+                    "name": "T. Nguyen"
+                }
+            ],
+            "doi": "10.1145/2803171",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "fb9eeefcd6e9c9675b1776d42bd9ddfaa05a8c76",
+            "title": "Boa",
+            "url": "https://www.semanticscholar.org/paper/fb9eeefcd6e9c9675b1776d42bd9ddfaa05a8c76",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2578361",
+                    "name": "Matteo Orr\u00f9"
+                },
+                {
+                    "authorId": "1795768",
+                    "name": "E. Tempero"
+                },
+                {
+                    "authorId": "144083401",
+                    "name": "M. Marchesi"
+                },
+                {
+                    "authorId": "2192634",
+                    "name": "R. Tonelli"
+                },
+                {
+                    "authorId": "2048851",
+                    "name": "Giuseppe Destefanis"
+                }
+            ],
+            "doi": "10.1145/2810146.2810148",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5d5cfeaafad6d7991898f6044cd1c48a1c801189",
+            "title": "A Curated Benchmark Collection of Python Systems for Empirical Studies on Software Engineering",
+            "url": "https://www.semanticscholar.org/paper/5d5cfeaafad6d7991898f6044cd1c48a1c801189",
+            "venue": "PROMISE",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "36244672",
+                    "name": "G. Farah"
+                },
+                {
+                    "authorId": "2264030",
+                    "name": "Juan Sebastian Tejada"
+                },
+                {
+                    "authorId": "3164293",
+                    "name": "Dar\u00edo Correal"
+                }
+            ],
+            "doi": "10.1145/2597073.2597135",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2061f3c7300f84fdde9de617351c36cf14b6a144",
+            "title": "OpenHub: a scalable architecture for the analysis of software quality attributes",
+            "url": "https://www.semanticscholar.org/paper/2061f3c7300f84fdde9de617351c36cf14b6a144",
+            "venue": "MSR 2014",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145310968",
+                    "name": "Robert Dyer"
+                },
+                {
+                    "authorId": "2909676",
+                    "name": "H. Nguyen"
+                },
+                {
+                    "authorId": "144212535",
+                    "name": "Hridesh Rajan"
+                },
+                {
+                    "authorId": "2327697",
+                    "name": "T. Nguyen"
+                }
+            ],
+            "doi": "10.1109/ICSE.2013.6606588",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "20379f1cc87c9bf20ff18f976bc1f7dcbfa920cd",
+            "title": "Boa: A language and infrastructure for analyzing ultra-large-scale software repositories",
+            "url": "https://www.semanticscholar.org/paper/20379f1cc87c9bf20ff18f976bc1f7dcbfa920cd",
+            "venue": "2013 35th International Conference on Software Engineering (ICSE)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3216345",
+                    "name": "Miltiadis Allamanis"
+                },
+                {
+                    "authorId": "37210858",
+                    "name": "Charles Sutton"
+                }
+            ],
+            "doi": "10.1109/MSR.2013.6624029",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "110b7719f16eae8d82af0f56fca6e802c842c181",
+            "title": "Mining source code repositories at massive scale using language modeling",
+            "url": "https://www.semanticscholar.org/paper/110b7719f16eae8d82af0f56fca6e802c842c181",
+            "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2211882",
+                    "name": "Georgios Gousios"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2012.6224294",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "de760552279b241976676f4723a159060a433198",
+            "title": "GHTorrent: Github's data from a firehose",
+            "url": "https://www.semanticscholar.org/paper/de760552279b241976676f4723a159060a433198",
+            "venue": "2012 9th IEEE Working Conference on Mining Software Repositories (MSR)",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1795768",
+                    "name": "E. Tempero"
+                },
+                {
+                    "authorId": "1741672",
+                    "name": "C. Anslow"
+                },
+                {
+                    "authorId": "144212658",
+                    "name": "Jens Dietrich"
+                },
+                {
+                    "authorId": "2075303150",
+                    "name": "Ted Han"
+                },
+                {
+                    "authorId": "2153124227",
+                    "name": "Jing Li"
+                },
+                {
+                    "authorId": "1944074",
+                    "name": "M. Lumpe"
+                },
+                {
+                    "authorId": "3147831",
+                    "name": "Hayden Melton"
+                },
+                {
+                    "authorId": "143745506",
+                    "name": "J. Noble"
+                }
+            ],
+            "doi": "10.1109/APSEC.2010.46",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9fde71d734ae8def7d1cd9d0d1625d09f9b3d614",
+            "title": "The Qualitas Corpus: A Curated Collection of Java Code for Empirical Studies",
+            "url": "https://www.semanticscholar.org/paper/9fde71d734ae8def7d1cd9d0d1625d09f9b3d614",
+            "venue": "2010 Asia Pacific Software Engineering Conference",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1794108",
+                    "name": "J. Dittrich"
+                },
+                {
+                    "authorId": "1399355221",
+                    "name": "Jorge-Arnulfo Quian\u00e9-Ruiz"
+                },
+                {
+                    "authorId": "2153832",
+                    "name": "Alekh Jindal"
+                },
+                {
+                    "authorId": "1937030",
+                    "name": "Y. Kargin"
+                },
+                {
+                    "authorId": "2852530",
+                    "name": "Vinay Setty"
+                },
+                {
+                    "authorId": "144398779",
+                    "name": "J\u00f6rg Schad"
+                }
+            ],
+            "doi": "10.14778/1920841.1920908",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0138f5e5c6598cec0d64bf42f68a2706ea21bea8",
+            "title": "Hadoop++",
+            "url": "https://www.semanticscholar.org/paper/0138f5e5c6598cec0d64bf42f68a2706ea21bea8",
+            "venue": "Proc. VLDB Endow.",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48445225",
+                    "name": "Fay W. Chang"
+                },
+                {
+                    "authorId": "49959210",
+                    "name": "J. Dean"
+                },
+                {
+                    "authorId": "1780892",
+                    "name": "Sanjay Ghemawat"
+                },
+                {
+                    "authorId": "35087612",
+                    "name": "Wilson C. Hsieh"
+                },
+                {
+                    "authorId": "37602570",
+                    "name": "D. Wallach"
+                },
+                {
+                    "authorId": "32623151",
+                    "name": "M. Burrows"
+                },
+                {
+                    "authorId": "2073806959",
+                    "name": "Tushar Chandra"
+                },
+                {
+                    "authorId": "3056963",
+                    "name": "A. Fikes"
+                },
+                {
+                    "authorId": "73260620",
+                    "name": "R. Gruber"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "18a5f443299784479e78d9e77f175af57cb2fa2b",
+            "title": "Bigtable: a distributed storage system for structured data",
+            "url": "https://www.semanticscholar.org/paper/18a5f443299784479e78d9e77f175af57cb2fa2b",
+            "venue": "OSDI '06",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3007989",
+                    "name": "S. Blackburn"
+                },
+                {
+                    "authorId": "145480995",
+                    "name": "Robin Garner"
+                },
+                {
+                    "authorId": "1720244",
+                    "name": "Chris Hoffmann"
+                },
+                {
+                    "authorId": "10044036",
+                    "name": "Asjad M. Khan"
+                },
+                {
+                    "authorId": "1766093",
+                    "name": "K. McKinley"
+                },
+                {
+                    "authorId": "2951850",
+                    "name": "Rotem Bentzur"
+                },
+                {
+                    "authorId": "145497691",
+                    "name": "Amer Diwan"
+                },
+                {
+                    "authorId": "2072122125",
+                    "name": "Daniel Feinberg"
+                },
+                {
+                    "authorId": "3043202",
+                    "name": "Daniel Frampton"
+                },
+                {
+                    "authorId": "2460388",
+                    "name": "Samuel Z. Guyer"
+                },
+                {
+                    "authorId": "1728836",
+                    "name": "Martin Hirzel"
+                },
+                {
+                    "authorId": "2094585",
+                    "name": "Antony Hosking"
+                },
+                {
+                    "authorId": "2540728",
+                    "name": "M. Jump"
+                },
+                {
+                    "authorId": "8385454",
+                    "name": "H. Lee"
+                },
+                {
+                    "authorId": "143852087",
+                    "name": "J. Moss"
+                },
+                {
+                    "authorId": "1862295",
+                    "name": "Aashish Phansalkar"
+                },
+                {
+                    "authorId": "2111306",
+                    "name": "D. Stefanovic"
+                },
+                {
+                    "authorId": "2042532",
+                    "name": "Thomas VanDrunen"
+                },
+                {
+                    "authorId": "1982980",
+                    "name": "D. V. Dincklage"
+                },
+                {
+                    "authorId": "31950940",
+                    "name": "Ben Wiedermann"
+                }
+            ],
+            "doi": "10.1145/1167473.1167488",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "00a9ba0063d34ec56792849a67ef57b4601becbb",
+            "title": "The DaCapo benchmarks: java benchmarking development and analysis",
+            "url": "https://www.semanticscholar.org/paper/00a9ba0063d34ec56792849a67ef57b4601becbb",
+            "venue": "OOPSLA '06",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1679280",
+                    "name": "Hyunsook Do"
+                },
+                {
+                    "authorId": "143754832",
+                    "name": "Sebastian G. Elbaum"
+                },
+                {
+                    "authorId": "1722304",
+                    "name": "G. Rothermel"
+                }
+            ],
+            "doi": "10.1007/s10664-005-3861-2",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "94782b2954ae2451a5963cdc39a954b5bfd077aa",
+            "title": "Supporting Controlled Experimentation with Testing Techniques: An Infrastructure and its Potential Impact",
+            "url": "https://www.semanticscholar.org/paper/94782b2954ae2451a5963cdc39a954b5bfd077aa",
+            "venue": "Empirical Software Engineering",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "9419406",
+                    "name": "I. Witten"
+                },
+                {
+                    "authorId": "1718927",
+                    "name": "S. Cunningham"
+                },
+                {
+                    "authorId": "2844320",
+                    "name": "M. Apperley"
+                }
+            ],
+            "doi": "10.1045/NOVEMBER96-WITTEN",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "cb5da6a76c10cbfb4bc3dfac02bd263c0353aac7",
+            "title": "The New Zealand Digital Library Project",
+            "url": "https://www.semanticscholar.org/paper/cb5da6a76c10cbfb4bc3dfac02bd263c0353aac7",
+            "venue": "D Lib Mag.",
+            "year": 1996
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2688662",
+                    "name": "T. Parr"
+                },
+                {
+                    "authorId": "3284993",
+                    "name": "R. Quong"
+                }
+            ],
+            "doi": "10.1002/spe.4380250705",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c55bf987abe8ebb81231268f3bda609423f6e532",
+            "title": "ANTLR: A predicated\u2010LL(k) parser generator",
+            "url": "https://www.semanticscholar.org/paper/c55bf987abe8ebb81231268f3bda609423f6e532",
+            "venue": "Softw. Pract. Exp.",
+            "year": 1995
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "MSR Data-Showcase Submission",
+            "url": "",
+            "venue": "http://design.cs.iastate.edu/papers/MSR-19/, 2019.",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "71084179",
+                    "name": "Muthu Dayalan"
+                }
+            ],
+            "doi": "10.1145/1327452.1327492",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "627be67feb084f1266cfc36e5aed3c3e7e6ce5f0",
+            "title": "MapReduce: simplified data processing on large clusters",
+            "url": "https://www.semanticscholar.org/paper/627be67feb084f1266cfc36e5aed3c3e7e6ce5f0",
+            "venue": "CACM",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Apache Software Foundation",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "Boa Meets Python: A Boa Dataset of Data Science Software in Python Language",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/df3f507f3d46dece98a527999676b978af4ae987",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2019
+}

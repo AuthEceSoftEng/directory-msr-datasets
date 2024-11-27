@@ -1,0 +1,503 @@
+{
+    "abstract": "Android apps continuously evolve to meet user expectations and thrive in the competitive environment of app stores. Hence, making informed decisions is crucial for the success of upcoming releases. In recent years, researchers have sought to aid developers in release planning by studying, analyzing, and modeling evolutionary information derived from tracking releases of various apps. They have demonstrated how the types of information provided on different platforms can effectively predict and assess the quality or success of an app. Nevertheless, this field needs a comprehensive dataset containing evolutionary information that tracks various releases of open-source Android apps. Existing datasets lack release-level information, are not publicly available, or do not cover a wide range of up-to-date apps. This paper introduces a dataset comprising diverse metadata adapted from GitHub and Google Play, along with impactful metrics extracted from the source code of 8,041 published releases of 1,363 open-source Android apps.CCS CONCEPTS\u2022 Software and its engineering \u2192 Software libraries and repositories.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2234350611",
+            "name": "Yasaman Abedini",
+            "url": "https://www.semanticscholar.org/author/2234350611"
+        },
+        {
+            "authorId": "2307278871",
+            "name": "Mohammad Hadi Hajihosseini",
+            "url": "https://www.semanticscholar.org/author/2307278871"
+        },
+        {
+            "authorId": "2305843296",
+            "name": "Abbas Heydarnoori",
+            "url": "https://www.semanticscholar.org/author/2305843296"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": "2308.14211",
+            "authors": [
+                {
+                    "authorId": "2234350611",
+                    "name": "Yasaman Abedini"
+                },
+                {
+                    "authorId": "1798455",
+                    "name": "A. Heydarnoori"
+                }
+            ],
+            "doi": "10.1145/3678170",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c50da0086e1cc493c513a5e9c4ab86a101c60c82",
+            "title": "Can GitHub Issues Help in App Review Classifications?",
+            "url": "https://www.semanticscholar.org/paper/c50da0086e1cc493c513a5e9c4ab86a101c60c82",
+            "venue": "ACM Transactions on Software Engineering and Methodology",
+            "year": 2023
+        }
+    ],
+    "corpusId": 270592578,
+    "doi": "10.1145/3643991.3644892",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 1,
+    "numCiting": 16,
+    "paperId": "21aae94367493762eaa354f6163ff210a49660ef",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "35706963",
+                    "name": "Safwat Hassan"
+                },
+                {
+                    "authorId": "1755660",
+                    "name": "C. Bezemer"
+                },
+                {
+                    "authorId": "144890499",
+                    "name": "A. Hassan"
+                }
+            ],
+            "doi": "10.1109/TSE.2018.2869395",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "81bcc9f638a8821abd6af3e617e5857f9bb128bb",
+            "title": "Studying Bad Updates of Top Free-to-Download Apps in the Google Play Store",
+            "url": "https://www.semanticscholar.org/paper/81bcc9f638a8821abd6af3e617e5857f9bb128bb",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2113250846",
+                    "name": "Pei Liu"
+                },
+                {
+                    "authorId": "2156057192",
+                    "name": "Li Li"
+                },
+                {
+                    "authorId": "2109712263",
+                    "name": "Yanjie Zhao"
+                },
+                {
+                    "authorId": "2112561483",
+                    "name": "Xiaoyu Sun"
+                },
+                {
+                    "authorId": "1687239",
+                    "name": "J. Grundy"
+                }
+            ],
+            "doi": "10.1145/3379597.3387503",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b80f7cc6321ddcb59595bfb3226f233082ceb987",
+            "title": "AndroZooOpen: Collecting Large-scale Open Source Android Apps for the Research Community",
+            "url": "https://www.semanticscholar.org/paper/b80f7cc6321ddcb59595bfb3226f233082ceb987",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2086988",
+                    "name": "John Businge"
+                },
+                {
+                    "authorId": "51909386",
+                    "name": "Moses Openja"
+                },
+                {
+                    "authorId": "3136224",
+                    "name": "David Kavaler"
+                },
+                {
+                    "authorId": "2942980",
+                    "name": "Engineer Bainomugisha"
+                },
+                {
+                    "authorId": "1703493",
+                    "name": "Foutse Khomh"
+                },
+                {
+                    "authorId": "3179220",
+                    "name": "V. Filkov"
+                }
+            ],
+            "doi": "10.1109/SANER.2019.8667998",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8da198be323c3ab8b5e673ecc86fcbea8cd7d4db",
+            "title": "Studying Android App Popularity by Cross-Linking GitHub and Google Play Store",
+            "url": "https://www.semanticscholar.org/paper/8da198be323c3ab8b5e673ecc86fcbea8cd7d4db",
+            "venue": "2019 IEEE 26th International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2060858728",
+                    "name": "Ouyang Yi"
+                },
+                {
+                    "authorId": "145066132",
+                    "name": "Bin Guo"
+                },
+                {
+                    "authorId": "2057578584",
+                    "name": "Tong Guo"
+                },
+                {
+                    "authorId": "2148761004",
+                    "name": "Longbing Cao"
+                },
+                {
+                    "authorId": "2256618",
+                    "name": "Zhiwen Yu"
+                }
+            ],
+            "doi": "10.1145/3287060",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8e77b8a459f6266f48c96666076879b3c3e135f5",
+            "title": "Modeling and Forecasting the Popularity Evolution of Mobile Apps",
+            "url": "https://www.semanticscholar.org/paper/8e77b8a459f6266f48c96666076879b3c3e135f5",
+            "venue": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2108602051",
+                    "name": "Grant Williams"
+                },
+                {
+                    "authorId": "144301139",
+                    "name": "Anas Mahmoud"
+                }
+            ],
+            "doi": "10.1109/RE.2018.00-51",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "80ea4186a262a665c1c16450bc3a538cc2b8ef78",
+            "title": "Modeling User Concerns in the App Store: A Case Study on the Rise and Fall of Yik Yak",
+            "url": "https://www.semanticscholar.org/paper/80ea4186a262a665c1c16450bc3a538cc2b8ef78",
+            "venue": "2018 IEEE 26th International Requirements Engineering Conference (RE)",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "9461040",
+                    "name": "Maleknaz Nayebi"
+                },
+                {
+                    "authorId": "11024096",
+                    "name": "Homayoon Farrahi"
+                },
+                {
+                    "authorId": "1730441",
+                    "name": "G. Ruhe"
+                }
+            ],
+            "doi": "10.1109/ESEM.2017.46",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "64eaef1c76623b54c42a84f5500f7e63657005a4",
+            "title": "Which Version Should Be Released to App Store?",
+            "url": "https://www.semanticscholar.org/paper/64eaef1c76623b54c42a84f5500f7e63657005a4",
+            "venue": "2017 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1522975334",
+                    "name": "Xuan Lu"
+                },
+                {
+                    "authorId": "115023982",
+                    "name": "Zhenpeng Chen"
+                },
+                {
+                    "authorId": "2110773587",
+                    "name": "Xuanzhe Liu"
+                },
+                {
+                    "authorId": "2369267",
+                    "name": "Huoran Li"
+                },
+                {
+                    "authorId": "145906750",
+                    "name": "Tao Xie"
+                },
+                {
+                    "authorId": "1743469",
+                    "name": "Qiaozhu Mei"
+                }
+            ],
+            "doi": "10.1145/3130944",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6ac541ae14468cfda9dcca2cecd85134333a6ff7",
+            "title": "PRADO",
+            "url": "https://www.semanticscholar.org/paper/6ac541ae14468cfda9dcca2cecd85134333a6ff7",
+            "venue": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47905806",
+                    "name": "Yingzi Wang"
+                },
+                {
+                    "authorId": "2123146",
+                    "name": "Nicholas Jing Yuan"
+                },
+                {
+                    "authorId": "2117103590",
+                    "name": "Yu Sun"
+                },
+                {
+                    "authorId": "1986859645",
+                    "name": "Chuan Qin"
+                },
+                {
+                    "authorId": "144076239",
+                    "name": "Xing Xie"
+                }
+            ],
+            "doi": "10.24963/ijcai.2017/415",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "abe792b46aa1497263a750bcc2b291bdf429b982",
+            "title": "App Download Forecasting: An Evolutionary Hierarchical Competition Approach",
+            "url": "https://www.semanticscholar.org/paper/abe792b46aa1497263a750bcc2b291bdf429b982",
+            "venue": "IJCAI",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2065773129",
+                    "name": "Lorenzo Villarroel"
+                },
+                {
+                    "authorId": "1801330",
+                    "name": "G. Bavota"
+                },
+                {
+                    "authorId": "143786074",
+                    "name": "B. Russo"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                }
+            ],
+            "doi": "10.1145/2884781.2884818",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8204559805f2b45b43ce17efcb8adc6b631d9dca",
+            "title": "Release Planning of Mobile Apps Based on User Reviews",
+            "url": "https://www.semanticscholar.org/paper/8204559805f2b45b43ce17efcb8adc6b631d9dca",
+            "venue": "2016 IEEE/ACM 38th International Conference on Software Engineering (ICSE)",
+            "year": 2016
+        },
+        {
+            "arxivId": "1910.08876",
+            "authors": [
+                {
+                    "authorId": "9461040",
+                    "name": "Maleknaz Nayebi"
+                },
+                {
+                    "authorId": "143612725",
+                    "name": "Bram Adams"
+                },
+                {
+                    "authorId": "1730441",
+                    "name": "G. Ruhe"
+                }
+            ],
+            "doi": "10.1109/SANER.2016.116",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "d71c0ab62daa41d336f2c29e2ddb1936a396f302",
+            "title": "Release Practices for Mobile Apps -- What do Users and Developers Think?",
+            "url": "https://www.semanticscholar.org/paper/d71c0ab62daa41d336f2c29e2ddb1936a396f302",
+            "venue": "2016 IEEE 23rd International Conference on Software Analysis, Evolution, and Reengineering (SANER)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1968806",
+                    "name": "Hengshu Zhu"
+                },
+                {
+                    "authorId": "3032149",
+                    "name": "Chuanren Liu"
+                },
+                {
+                    "authorId": "2068905418",
+                    "name": "Yong Ge"
+                },
+                {
+                    "authorId": "144467554",
+                    "name": "Hui Xiong"
+                },
+                {
+                    "authorId": "2227868312",
+                    "name": "Enhong Chen"
+                }
+            ],
+            "doi": "10.1109/TCYB.2014.2349954",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1368f0c0d45dbde674808868f6b11882ef782c13",
+            "title": "Popularity Modeling for Mobile Apps: A Sequential Approach",
+            "url": "https://www.semanticscholar.org/paper/1368f0c0d45dbde674808868f6b11882ef782c13",
+            "venue": "IEEE Transactions on Cybernetics",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50999742",
+                    "name": "Naila Aslam"
+                },
+                {
+                    "authorId": "50880216",
+                    "name": "Waheed Yousuf Ramay"
+                },
+                {
+                    "authorId": "2164231",
+                    "name": "Ke-wen Xia"
+                },
+                {
+                    "authorId": "152336354",
+                    "name": "N. Sarwar"
+                }
+            ],
+            "doi": "10.1109/ACCESS.2020.3029634",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f2c66f794f369164d1da46e1754a7ee3e87dd972",
+            "title": "Convolutional Neural Network Based Classification of App Reviews",
+            "url": "https://www.semanticscholar.org/paper/f2c66f794f369164d1da46e1754a7ee3e87dd972",
+            "venue": "IEEE Access",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "",
+            "title": "2022. Android app retention rates worldwide in 3rd quarter 2022",
+            "url": "",
+            "venue": "statista",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "2023. Rate limits for the REST API",
+            "url": "",
+            "venue": "docs.github.com/en/rest/overview/ rate-limits-for-the-rest-api?apiVersion=",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "MSR \u201924, April 15\u201316, 2024, Lisbon, Portugal",
+            "url": "",
+            "venue": "",
+            "year": null
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "license agreement with IEEE. Restrictions apply",
+            "url": "",
+            "venue": "",
+            "year": null
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "DATAR: A Dataset for Tracking App Releases",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/21aae94367493762eaa354f6163ff210a49660ef",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2024
+}

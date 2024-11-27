@@ -1,0 +1,3491 @@
+{
+    "abstract": "The software development process produces vast amounts of textual data expressed in natural language. Outcomes from the natural language processing community have been adapted in software engineering research for leveraging this rich textual information; these include methods and readily available tools, often furnished with pretrained models. State of the art pretrained models however, capture general, common sense knowledge, with limited value when it comes to handling data specific to a specialized domain. There is currently a lack of domain-specific pretrained models that would further enhance the processing of natural language artefacts related to software engineering. To this end, we release a word2vec model trained over 15GB of textual data from Stack Overflow posts. We illustrate how the model disambiguates polysemous words by interpreting them within their software engineering context. In addition, we present examples of fine-grained semantics captured by the model, that imply transferability of these results to diverse, targeted information retrieval tasks in software engineering and motivate for further reuse of the model.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2122187",
+            "name": "V. Efstathiou",
+            "url": "https://www.semanticscholar.org/author/2122187"
+        },
+        {
+            "authorId": "51120099",
+            "name": "Christos Chatzilenas",
+            "url": "https://www.semanticscholar.org/author/51120099"
+        },
+        {
+            "authorId": "1740799",
+            "name": "D. Spinellis",
+            "url": "https://www.semanticscholar.org/author/1740799"
+        }
+    ],
+    "citationVelocity": 13,
+    "citations": [
+        {
+            "arxivId": "2407.11955",
+            "authors": [
+                {
+                    "authorId": "145141548",
+                    "name": "Ahmad Abdellatif"
+                },
+                {
+                    "authorId": "2311506178",
+                    "name": "Khaled Badran"
+                },
+                {
+                    "authorId": "115989708",
+                    "name": "D. Costa"
+                },
+                {
+                    "authorId": "2065557640",
+                    "name": "Emad Shihab"
+                }
+            ],
+            "doi": "10.48550/arXiv.2407.11955",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "dd1d5a8c7d901757b3100de086509471d8f84f6c",
+            "title": "A Transformer-based Approach for Augmenting Software Engineering Chatbots Datasets",
+            "url": "https://www.semanticscholar.org/paper/dd1d5a8c7d901757b3100de086509471d8f84f6c",
+            "venue": "ArXiv",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2304795554",
+                    "name": "Samuel Abedu"
+                },
+                {
+                    "authorId": "145141548",
+                    "name": "Ahmad Abdellatif"
+                },
+                {
+                    "authorId": "2065557640",
+                    "name": "Emad Shihab"
+                }
+            ],
+            "doi": "10.1145/3661167.3661218",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "7d0c26c0abb86eeb7447d46e6cdba9f159fb81c0",
+            "title": "LLM-Based Chatbots for Mining Software Repositories: Challenges and Opportunities",
+            "url": "https://www.semanticscholar.org/paper/7d0c26c0abb86eeb7447d46e6cdba9f159fb81c0",
+            "venue": "EASE",
+            "year": 2024
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2156121180",
+                    "name": "Zhang Zhang"
+                },
+                {
+                    "authorId": "2271661522",
+                    "name": "Xinjun Mao"
+                },
+                {
+                    "authorId": "49184504",
+                    "name": "Shangwen Wang"
+                },
+                {
+                    "authorId": "2276455240",
+                    "name": "Kang Yang"
+                },
+                {
+                    "authorId": "1488661098",
+                    "name": "Yao Lu"
+                }
+            ],
+            "doi": "10.1145/3643916.3644431",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "36c1a8c9cdfa94f6a6b1c1b5b158f256c550dbd7",
+            "title": "CAREER: Context-Aware API Recognition with Data Augmentation for API Knowledge Extraction",
+            "url": "https://www.semanticscholar.org/paper/36c1a8c9cdfa94f6a6b1c1b5b158f256c550dbd7",
+            "venue": "2024 IEEE/ACM 32nd International Conference on Program Comprehension (ICPC)",
+            "year": 2024
+        },
+        {
+            "arxivId": "2311.16396",
+            "authors": [
+                {
+                    "authorId": "2969085",
+                    "name": "Wachiraphan Charoenwet"
+                },
+                {
+                    "authorId": "2352093",
+                    "name": "Patanamon Thongtanunam"
+                },
+                {
+                    "authorId": "2268491717",
+                    "name": "Van-Thuan Pham"
+                },
+                {
+                    "authorId": "2268491428",
+                    "name": "Christoph Treude"
+                }
+            ],
+            "doi": "10.48550/arXiv.2311.16396",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d25beae0bedc7df39095427f1ae4a5a1c07806a9",
+            "title": "Toward Effective Secure Code Reviews: An Empirical Study of Security-Related Coding Weaknesses",
+            "url": "https://www.semanticscholar.org/paper/d25beae0bedc7df39095427f1ae4a5a1c07806a9",
+            "venue": "Empir. Softw. Eng.",
+            "year": 2023
+        },
+        {
+            "arxivId": "2311.11607",
+            "authors": [
+                {
+                    "authorId": "32323216",
+                    "name": "Cezar Sas"
+                },
+                {
+                    "authorId": "2247809433",
+                    "name": "Andrea Capiluppi"
+                }
+            ],
+            "doi": "10.1007/s10664-023-10423-7",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c321873d9ff38028c1ce49501ee50b803dfbaf0f",
+            "title": "Multi-granular software annotation using file-level weak labelling",
+            "url": "https://www.semanticscholar.org/paper/c321873d9ff38028c1ce49501ee50b803dfbaf0f",
+            "venue": "Empirical Software Engineering",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2128564207",
+                    "name": "U. Iftikhar"
+                },
+                {
+                    "authorId": "2760035",
+                    "name": "J. B\u00f6rstler"
+                },
+                {
+                    "authorId": "2364350",
+                    "name": "N. Ali"
+                }
+            ],
+            "doi": "10.1109/SEAA60479.2023.00059",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "813ccf189378683079d92de2f1a37bf70215407d",
+            "title": "On potential improvements in the analysis of the evolution of themes in code review comments",
+            "url": "https://www.semanticscholar.org/paper/813ccf189378683079d92de2f1a37bf70215407d",
+            "venue": "2023 49th Euromicro Conference on Software Engineering and Advanced Applications (SEAA)",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1659142729",
+                    "name": "A. Moharil"
+                },
+                {
+                    "authorId": "40532637",
+                    "name": "Arpit Sharma"
+                }
+            ],
+            "doi": "10.1016/j.scico.2023.102994",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7bebb8743f1f0eddfa41dd0179a2e65d3dfb6352",
+            "title": "TABASCO: A transformer based contextualization toolkit",
+            "url": "https://www.semanticscholar.org/paper/7bebb8743f1f0eddfa41dd0179a2e65d3dfb6352",
+            "venue": "Sci. Comput. Program.",
+            "year": 2023
+        },
+        {
+            "arxivId": "2307.07781",
+            "authors": [
+                {
+                    "authorId": "123922463",
+                    "name": "Christof Tinnes"
+                }
+            ],
+            "doi": "10.48550/arXiv.2307.07781",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "704f660b7fc4143b94a792d732bd1a2239109bc0",
+            "title": "Improving Trace Link Recommendation by Using Non-Isotropic Distances and Combinations",
+            "url": "https://www.semanticscholar.org/paper/704f660b7fc4143b94a792d732bd1a2239109bc0",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "117659748",
+                    "name": "M. Badami"
+                },
+                {
+                    "authorId": "1734279",
+                    "name": "B. Benatallah"
+                },
+                {
+                    "authorId": "2163708992",
+                    "name": "Marcos B\u00e1ez"
+                }
+            ],
+            "doi": "10.1016/j.is.2023.102231",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "921bd91641597a42c72864affdfa3f0336c70b46",
+            "title": "Adaptive search query generation and refinement in systematic literature review",
+            "url": "https://www.semanticscholar.org/paper/921bd91641597a42c72864affdfa3f0336c70b46",
+            "venue": "Inf. Syst.",
+            "year": 2023
+        },
+        {
+            "arxivId": "2306.16143",
+            "authors": [
+                {
+                    "authorId": "83302144",
+                    "name": "Anastasia Zhukova"
+                },
+                {
+                    "authorId": "2220736815",
+                    "name": "Lukas von Sperl"
+                },
+                {
+                    "authorId": "2220738823",
+                    "name": "Christian E. Matt"
+                },
+                {
+                    "authorId": "145151838",
+                    "name": "Bela Gipp"
+                }
+            ],
+            "doi": "10.48550/arXiv.2306.16143",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "16a9c49341996e114ba6c7bc7413552321e23e59",
+            "title": "Generative User-Experience Research for Developing Domain-specific Natural Language Processing Applications",
+            "url": "https://www.semanticscholar.org/paper/16a9c49341996e114ba6c7bc7413552321e23e59",
+            "venue": "Knowledge and Information Systems",
+            "year": 2023
+        },
+        {
+            "arxivId": "2306.08616",
+            "authors": [
+                {
+                    "authorId": "1476745289",
+                    "name": "Ruiyin Li"
+                },
+                {
+                    "authorId": "2154949325",
+                    "name": "Peng Liang"
+                },
+                {
+                    "authorId": "1727328",
+                    "name": "P. Avgeriou"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "256765914afcb27929459175ff2092d377500f3e",
+            "title": "Towards Automated Identification of Violation Symptoms of Architecture Erosion",
+            "url": "https://www.semanticscholar.org/paper/256765914afcb27929459175ff2092d377500f3e",
+            "venue": "",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "29449864",
+                    "name": "Rrezarta Krasniqi"
+                },
+                {
+                    "authorId": "1679280",
+                    "name": "Hyunsook Do"
+                }
+            ],
+            "doi": "10.1109/NLBSE59153.2023.00009",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e00d49fbe8dcbc8a852ebad860eb6bd5e0becc61",
+            "title": "Generalizability of NLP-based Models for Modern Software Development Cross-Domain Environments",
+            "url": "https://www.semanticscholar.org/paper/e00d49fbe8dcbc8a852ebad860eb6bd5e0becc61",
+            "venue": "2023 IEEE/ACM 2nd International Workshop on Natural Language-Based Software Engineering (NLBSE)",
+            "year": 2023
+        },
+        {
+            "arxivId": "2304.12494",
+            "authors": [
+                {
+                    "authorId": "2215270692",
+                    "name": "Usmi Mukherjee"
+                },
+                {
+                    "authorId": "2210196781",
+                    "name": "M. M. Rahman"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "3309040a720574daeed4cf78ac35bccd5b4cd415",
+            "title": "Employing Deep Learning and Structured Information Retrieval to Answer Clarification Questions on Bug Reports",
+            "url": "https://www.semanticscholar.org/paper/3309040a720574daeed4cf78ac35bccd5b4cd415",
+            "venue": "",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "90989651",
+                    "name": "Zaki Pauzi"
+                },
+                {
+                    "authorId": "1729877",
+                    "name": "A. Capiluppi"
+                }
+            ],
+            "doi": "10.2139/ssrn.4170366",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "45144b45e42229684280e48866acba78edba7153",
+            "title": "Applications of natural language processing in software traceability: A systematic mapping study",
+            "url": "https://www.semanticscholar.org/paper/45144b45e42229684280e48866acba78edba7153",
+            "venue": "J. Syst. Softw.",
+            "year": 2023
+        },
+        {
+            "arxivId": "2303.18058",
+            "authors": [
+                {
+                    "authorId": "1476745289",
+                    "name": "Ruiyin Li"
+                },
+                {
+                    "authorId": "2154949325",
+                    "name": "Peng Liang"
+                },
+                {
+                    "authorId": "1727328",
+                    "name": "P. Avgeriou"
+                }
+            ],
+            "doi": "10.1145/3593434.3593450",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "705ae088c0236141ae07c042d85bae7f0d60c808",
+            "title": "Code Reviewer Recommendation for Architecture Violations: An Exploratory Study",
+            "url": "https://www.semanticscholar.org/paper/705ae088c0236141ae07c042d85bae7f0d60c808",
+            "venue": "EASE",
+            "year": 2023
+        },
+        {
+            "arxivId": "2212.12168",
+            "authors": [
+                {
+                    "authorId": "1476745289",
+                    "name": "Ruiyin Li"
+                },
+                {
+                    "authorId": "1750130",
+                    "name": "Peng Liang"
+                },
+                {
+                    "authorId": "1727328",
+                    "name": "P. Avgeriou"
+                }
+            ],
+            "doi": "10.48550/arXiv.2212.12168",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c5330b27948d113f46317ad8616524cd49d85bc5",
+            "title": "Warnings: Violation Symptoms Indicating Architecture Erosion",
+            "url": "https://www.semanticscholar.org/paper/c5330b27948d113f46317ad8616524cd49d85bc5",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2022
+        },
+        {
+            "arxivId": "2212.09976",
+            "authors": [
+                {
+                    "authorId": "2041779183",
+                    "name": "Sigma Jahan"
+                },
+                {
+                    "authorId": "2210196781",
+                    "name": "M. M. Rahman"
+                }
+            ],
+            "doi": "10.1109/SANER56733.2023.00013",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "bd78680add4eceb1eabed94745f11a285885381f",
+            "title": "Towards Understanding the Impacts of Textual Dissimilarity on Duplicate Bug Report Detection",
+            "url": "https://www.semanticscholar.org/paper/bd78680add4eceb1eabed94745f11a285885381f",
+            "venue": "2023 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40521719",
+                    "name": "Paulina Toro Isaza"
+                },
+                {
+                    "authorId": "152710186",
+                    "name": "Yu Deng"
+                },
+                {
+                    "authorId": "2904640",
+                    "name": "M. Nidd"
+                },
+                {
+                    "authorId": "1704816",
+                    "name": "A. Azad"
+                },
+                {
+                    "authorId": "102237417",
+                    "name": "Laura Shwartz"
+                }
+            ],
+            "doi": "10.1109/BigData55660.2022.10020746",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "966ac8fbf98b9f231137a466dd02d2e6158b5cef",
+            "title": "Improving Model Performance Using Metric-Guided Data Selection Framework",
+            "url": "https://www.semanticscholar.org/paper/966ac8fbf98b9f231137a466dd02d2e6158b5cef",
+            "venue": "2022 IEEE International Conference on Big Data (Big Data)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "152632219",
+                    "name": "Srijoni Majumdar"
+                },
+                {
+                    "authorId": "2064363358",
+                    "name": "Ashutosh Varshney"
+                },
+                {
+                    "authorId": "48503962",
+                    "name": "Partha Pratim Das"
+                },
+                {
+                    "authorId": "1704149",
+                    "name": "Paul D. Clough"
+                },
+                {
+                    "authorId": "1379534518",
+                    "name": "S. Chattopadhyay"
+                }
+            ],
+            "doi": "10.1109/QRS57517.2022.00082",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "52a902d1a3b74e3e186d71d83d300a49dd9191b3",
+            "title": "An Effective Low-Dimensional Software Code Representation using BERT and ELMo",
+            "url": "https://www.semanticscholar.org/paper/52a902d1a3b74e3e186d71d83d300a49dd9191b3",
+            "venue": "2022 IEEE 22nd International Conference on Software Quality, Reliability and Security (QRS)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2164794972",
+                    "name": "Lina Gong"
+                },
+                {
+                    "authorId": "2144177754",
+                    "name": "Jingxuan Zhang"
+                },
+                {
+                    "authorId": "1806122",
+                    "name": "Mingqiang Wei"
+                },
+                {
+                    "authorId": "2135688831",
+                    "name": "Haoxiang Zhang"
+                },
+                {
+                    "authorId": "1713329",
+                    "name": "Zhiqiu Huang"
+                }
+            ],
+            "doi": "10.1145/3569934",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6109abeed0947e99bebfd19b92c8ce6fd01f3d8f",
+            "title": "What Is the Intended Usage Context of This Model? An Exploratory Study of Pre-Trained Models on Various Model Repositories",
+            "url": "https://www.semanticscholar.org/paper/6109abeed0947e99bebfd19b92c8ce6fd01f3d8f",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2164764110",
+                    "name": "Chenhao Wei"
+                },
+                {
+                    "authorId": "144172480",
+                    "name": "Lu Xiao"
+                },
+                {
+                    "authorId": "2151684578",
+                    "name": "Tingting Yu"
+                },
+                {
+                    "authorId": "2144155638",
+                    "name": "Xinyu Chen"
+                },
+                {
+                    "authorId": "2118449229",
+                    "name": "Xiao Wang"
+                },
+                {
+                    "authorId": "145370804",
+                    "name": "Sunny Wong"
+                },
+                {
+                    "authorId": "2199322996",
+                    "name": "Abigail Clune"
+                }
+            ],
+            "doi": "10.1109/TSE.2023.3252442",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "5dbdd01147c869f2cfc17e4d65c306c97c1439ff",
+            "title": "Automatically Tagging the \u201cAAA\u201d Pattern in Unit Test Cases Using Machine Learning Models",
+            "url": "https://www.semanticscholar.org/paper/5dbdd01147c869f2cfc17e4d65c306c97c1439ff",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51136223",
+                    "name": "Arianna Blasi"
+                },
+                {
+                    "authorId": "2762411",
+                    "name": "Alessandra Gorla"
+                },
+                {
+                    "authorId": "6698059",
+                    "name": "Michael D. Ernst"
+                },
+                {
+                    "authorId": "7931048",
+                    "name": "M. Pezz\u00e8"
+                }
+            ],
+            "doi": "10.1145/3551349.3556961",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "65d919643afa4b7e7786eb224e3243cddd5ea78c",
+            "title": "Call Me Maybe: Using NLP to Automatically Generate Unit Test Cases Respecting Temporal Constraints",
+            "url": "https://www.semanticscholar.org/paper/65d919643afa4b7e7786eb224e3243cddd5ea78c",
+            "venue": "ASE",
+            "year": 2022
+        },
+        {
+            "arxivId": "2208.00443",
+            "authors": [
+                {
+                    "authorId": "1685418",
+                    "name": "Christoph Treude"
+                }
+            ],
+            "doi": "10.1145/3551349.3559557",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "65256fb31098c37d6b813b560c0b828806959d2b",
+            "title": "Taming Multi-Output Recommenders for Software Engineering",
+            "url": "https://www.semanticscholar.org/paper/65256fb31098c37d6b813b560c0b828806959d2b",
+            "venue": "ASE",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1683035",
+                    "name": "J. A. D. Pace"
+                },
+                {
+                    "authorId": "2186187569",
+                    "name": "Rodrigo Cian Berrios"
+                },
+                {
+                    "authorId": "3049771",
+                    "name": "Antonela Tommasel"
+                },
+                {
+                    "authorId": "21535427",
+                    "name": "H. V\u00e1zquez"
+                }
+            ],
+            "doi": "10.5753/cibse.2022.20960",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "e3356f208644f7177da5caa4001d9e0ec9234ee3",
+            "title": "A Metrics-based Approach for Assessing Architecture-Implementation Mappings",
+            "url": "https://www.semanticscholar.org/paper/e3356f208644f7177da5caa4001d9e0ec9234ee3",
+            "venue": "CIBSE",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "152632219",
+                    "name": "Srijoni Majumdar"
+                },
+                {
+                    "authorId": "32132464",
+                    "name": "Ayush Bansal"
+                },
+                {
+                    "authorId": "2153318545",
+                    "name": "P. Das"
+                },
+                {
+                    "authorId": "1704149",
+                    "name": "Paul D. Clough"
+                },
+                {
+                    "authorId": "2057334100",
+                    "name": "Kausik Datta"
+                },
+                {
+                    "authorId": "2155615327",
+                    "name": "Soumya K. Ghosh"
+                }
+            ],
+            "doi": "10.1002/smr.2463",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b50d6bd396f97c6f54616e21ec685feb61bf4dfe",
+            "title": "Automated evaluation of comments to aid software maintenance",
+            "url": "https://www.semanticscholar.org/paper/b50d6bd396f97c6f54616e21ec685feb61bf4dfe",
+            "venue": "J. Softw. Evol. Process.",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1659142729",
+                    "name": "A. Moharil"
+                },
+                {
+                    "authorId": "1443782917",
+                    "name": "Arpit Sharma"
+                }
+            ],
+            "doi": "10.1145/3528588.3528651",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "00ffff396b72238b93adc772f8c03c19dc7d3e71",
+            "title": "Identification of Intra-Domain Ambiguity using Transformer-based Machine Learning",
+            "url": "https://www.semanticscholar.org/paper/00ffff396b72238b93adc772f8c03c19dc7d3e71",
+            "venue": "2022 IEEE/ACM 1st International Workshop on Natural Language-Based Software Engineering (NLBSE)",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2120192839",
+                    "name": "Tim Schopf"
+                },
+                {
+                    "authorId": "2176770240",
+                    "name": "Peter Weinberger"
+                },
+                {
+                    "authorId": "2017902",
+                    "name": "T. Kinkeldei"
+                },
+                {
+                    "authorId": "2522197",
+                    "name": "F. Matthes"
+                }
+            ],
+            "doi": "10.1145/3535782.3535835",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "fa27e1366439f6ecc1274d9c2bc65b0f37f3dfe4",
+            "title": "Towards Bilingual Word Embedding Models for Engineering: Evaluating Semantic Linking Capabilities of Engineering-Specific Word Embeddings Across Languages",
+            "url": "https://www.semanticscholar.org/paper/fa27e1366439f6ecc1274d9c2bc65b0f37f3dfe4",
+            "venue": "MSIE",
+            "year": 2022
+        },
+        {
+            "arxivId": "2204.08880",
+            "authors": [
+                {
+                    "authorId": "32323216",
+                    "name": "Cezar Sas"
+                },
+                {
+                    "authorId": "1729877",
+                    "name": "A. Capiluppi"
+                }
+            ],
+            "doi": "10.1016/j.jss.2022.111343",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2e22e0b5d870ceace1008529dc0618e47a63796a",
+            "title": "Antipatterns in Software Classification Taxonomies",
+            "url": "https://www.semanticscholar.org/paper/2e22e0b5d870ceace1008529dc0618e47a63796a",
+            "venue": "J. Syst. Softw.",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2057156654",
+                    "name": "Arthur Marques"
+                },
+                {
+                    "authorId": "1739674",
+                    "name": "G. Murphy"
+                }
+            ],
+            "doi": "10.1109/saner53432.2022.00039",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8e7acebe9487c4a3491a27a496b2f0ea24ac0a0c",
+            "title": "Evaluating the Use of Semantics for Identifying Task-relevant Textual Information",
+            "url": "https://www.semanticscholar.org/paper/8e7acebe9487c4a3491a27a496b2f0ea24ac0a0c",
+            "venue": "2022 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2022
+        },
+        {
+            "arxivId": "2202.02180",
+            "authors": [
+                {
+                    "authorId": "2110468762",
+                    "name": "Yikun Li"
+                },
+                {
+                    "authorId": "2056412794",
+                    "name": "Mohamed Soliman"
+                },
+                {
+                    "authorId": "1727328",
+                    "name": "P. Avgeriou"
+                }
+            ],
+            "doi": "10.1007/s10664-022-10128-3",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "ae3426dd85a679f8ec8c81eab4444b1659daa9d7",
+            "title": "Identifying self-admitted technical debt in issue tracking systems using machine learning",
+            "url": "https://www.semanticscholar.org/paper/ae3426dd85a679f8ec8c81eab4444b1659daa9d7",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143855593",
+                    "name": "Esteban Parra"
+                },
+                {
+                    "authorId": "50880538",
+                    "name": "Mohammad D. Alahmadi"
+                },
+                {
+                    "authorId": "153263280",
+                    "name": "A. Ellis"
+                },
+                {
+                    "authorId": "1762499",
+                    "name": "S. Haiduc"
+                }
+            ],
+            "doi": "10.1007/s10664-021-10095-1",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "64218fceee7989710aef153c94ecb9a542438018",
+            "title": "A comparative study and analysis of developer communications on Slack and Gitter\ufeff",
+            "url": "https://www.semanticscholar.org/paper/64218fceee7989710aef153c94ecb9a542438018",
+            "venue": "Empirical Software Engineering",
+            "year": 2022
+        },
+        {
+            "arxivId": "2112.12653",
+            "authors": [
+                {
+                    "authorId": "2111035155",
+                    "name": "Yun Peng"
+                },
+                {
+                    "authorId": "48831710",
+                    "name": "Shuqing Li"
+                },
+                {
+                    "authorId": "2152036668",
+                    "name": "Wenwei Gu"
+                },
+                {
+                    "authorId": "2122082597",
+                    "name": "Yichen Li"
+                },
+                {
+                    "authorId": "2144328160",
+                    "name": "Wenxuan Wang"
+                },
+                {
+                    "authorId": "2337550",
+                    "name": "Cuiyun Gao"
+                },
+                {
+                    "authorId": "2146840128",
+                    "name": "Michael R. Lyu"
+                }
+            ],
+            "doi": "10.1109/TSE.2022.3197063",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f3bae6b5461abcbf9f5fb2c4b4998010fa91d2f3",
+            "title": "Revisiting, Benchmarking and Exploring API Recommendation: How Far Are We?",
+            "url": "https://www.semanticscholar.org/paper/f3bae6b5461abcbf9f5fb2c4b4998010fa91d2f3",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": "2109.04738",
+            "authors": [
+                {
+                    "authorId": "2214761830",
+                    "name": "Julian von der Mosel"
+                },
+                {
+                    "authorId": "8058979",
+                    "name": "Alexander Trautsch"
+                },
+                {
+                    "authorId": "3063461",
+                    "name": "Steffen Herbold"
+                }
+            ],
+            "doi": "10.1109/TSE.2022.3178469",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "11907f691e9b7fc32a492e1de676a4b788add155",
+            "title": "On the Validity of Pre-Trained Transformers for Natural Language Processing in the Software Engineering Domain",
+            "url": "https://www.semanticscholar.org/paper/11907f691e9b7fc32a492e1de676a4b788add155",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": "2111.13962",
+            "authors": [
+                {
+                    "authorId": "2141777131",
+                    "name": "AmirHossein Naghshzan"
+                },
+                {
+                    "authorId": "1782697",
+                    "name": "Latifa Guerrouj"
+                },
+                {
+                    "authorId": "25701557",
+                    "name": "Olga Baysal"
+                }
+            ],
+            "doi": "10.1109/SCAM52516.2021.00026",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "efc886667f8976b6c38e7b2877ae4ca47781e3c8",
+            "title": "Leveraging Unsupervised Learning to Summarize APIs Discussed in Stack Overflow",
+            "url": "https://www.semanticscholar.org/paper/efc886667f8976b6c38e7b2877ae4ca47781e3c8",
+            "venue": "2021 IEEE 21st International Working Conference on Source Code Analysis and Manipulation (SCAM)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "73134832",
+                    "name": "G. Ajam"
+                },
+                {
+                    "authorId": "2107131606",
+                    "name": "Carlos Rodr\u00edguez"
+                },
+                {
+                    "authorId": "1734279",
+                    "name": "B. Benatallah"
+                }
+            ],
+            "doi": "10.19153/cleiej.24.2.5",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f2ba5dbe2cf7dc0bf084c2e0edeafd64cad0fa86",
+            "title": "Scout-bot: Leveraging API Community Knowledge for Exploration and Discovery of API Learning Resources",
+            "url": "https://www.semanticscholar.org/paper/f2ba5dbe2cf7dc0bf084c2e0edeafd64cad0fa86",
+            "venue": "CLEI Electron. J.",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": null,
+                    "name": "Tao Wang"
+                },
+                {
+                    "authorId": "143997941",
+                    "name": "Y. Cai"
+                },
+                {
+                    "authorId": "1701688",
+                    "name": "Ho-fung Leung"
+                },
+                {
+                    "authorId": "2066210498",
+                    "name": "Raymond Y. K. Lau"
+                },
+                {
+                    "authorId": "3607957",
+                    "name": "Haoran Xie"
+                },
+                {
+                    "authorId": "2117895101",
+                    "name": "Qing Li"
+                }
+            ],
+            "doi": "10.1007/s10115-021-01581-5",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "ef983fece816a1ea3201571da81cf33ace1f5771",
+            "title": "On entropy-based term weighting schemes for text categorization",
+            "url": "https://www.semanticscholar.org/paper/ef983fece816a1ea3201571da81cf33ace1f5771",
+            "venue": "Knowledge and Information Systems",
+            "year": 2021
+        },
+        {
+            "arxivId": "2106.15209",
+            "authors": [
+                {
+                    "authorId": "2051798865",
+                    "name": "Julian Aron Prenner"
+                },
+                {
+                    "authorId": "1853058",
+                    "name": "R. Robbes"
+                }
+            ],
+            "doi": "10.1109/TSE.2021.3135465",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c65dcc599f4539295c83b8d12f7bbf9b361e4697",
+            "title": "Making the Most of Small Software Engineering Datasets With Modern Machine Learning",
+            "url": "https://www.semanticscholar.org/paper/c65dcc599f4539295c83b8d12f7bbf9b361e4697",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": "2106.09844",
+            "authors": [
+                {
+                    "authorId": "145097802",
+                    "name": "Alvi Mahadi"
+                },
+                {
+                    "authorId": "1755165",
+                    "name": "Neil A. Ernst"
+                },
+                {
+                    "authorId": "9398278",
+                    "name": "Karan N. Tongay"
+                }
+            ],
+            "doi": "10.1007/s10664-021-10009-1",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "21f34f646866794fffa896c7f2b25d7abf99522d",
+            "title": "Conclusion stability for natural language based mining of design discussions",
+            "url": "https://www.semanticscholar.org/paper/21f34f646866794fffa896c7f2b25d7abf99522d",
+            "venue": "Empirical Software Engineering",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47253941",
+                    "name": "Daniel Braun"
+                },
+                {
+                    "authorId": "2095056032",
+                    "name": "Oleksandra Klymenko"
+                },
+                {
+                    "authorId": "2120192839",
+                    "name": "Tim Schopf"
+                },
+                {
+                    "authorId": "2120192662",
+                    "name": "Yusuf KAAN AKAN"
+                },
+                {
+                    "authorId": "2522197",
+                    "name": "F. Matthes"
+                }
+            ],
+            "doi": "10.1145/3460824.3460826",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d900d79a7d7305c1d536f2fa619064e7025edcc8",
+            "title": "The Language of Engineering: Training a Domain-Specific Word Embedding Model for Engineering",
+            "url": "https://www.semanticscholar.org/paper/d900d79a7d7305c1d536f2fa619064e7025edcc8",
+            "venue": "MSIE",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2086989641",
+                    "name": "Sagar Bharadwaj"
+                },
+                {
+                    "authorId": "2087121006",
+                    "name": "Praveen Gupta"
+                },
+                {
+                    "authorId": "2252388",
+                    "name": "Ranjita Bhagwan"
+                },
+                {
+                    "authorId": "39967853",
+                    "name": "S. Guha"
+                }
+            ],
+            "doi": "10.14778/3457390.3457403",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1209fa1868ce4571a18cb9c404779f5f11d3224a",
+            "title": "Discovering Related Data At Scale",
+            "url": "https://www.semanticscholar.org/paper/1209fa1868ce4571a18cb9c404779f5f11d3224a",
+            "venue": "Proc. VLDB Endow.",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.10763",
+            "authors": [
+                {
+                    "authorId": "2056066423",
+                    "name": "Jiayan Pei"
+                },
+                {
+                    "authorId": "48607374",
+                    "name": "Yimin Wu"
+                },
+                {
+                    "authorId": "3248957",
+                    "name": "Zishan Qin"
+                },
+                {
+                    "authorId": "2070813657",
+                    "name": "Yao Cong"
+                },
+                {
+                    "authorId": "9586751",
+                    "name": "Jingtao Guan"
+                }
+            ],
+            "doi": "10.1109/MSR52588.2021.00023",
+            "intent": [
+                "result",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "04887ace250540da57c73fb759ee5edbadf74301",
+            "title": "Attention-based model for predicting question relatedness on Stack Overflow",
+            "url": "https://www.semanticscholar.org/paper/04887ace250540da57c73fb759ee5edbadf74301",
+            "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+            "year": 2021
+        },
+        {
+            "arxivId": "2103.02330",
+            "authors": [
+                {
+                    "authorId": "2401683",
+                    "name": "Saad Shafiq"
+                },
+                {
+                    "authorId": "2678825",
+                    "name": "A. Mashkoor"
+                },
+                {
+                    "authorId": "1412106655",
+                    "name": "Christoph Mayr-Dorn"
+                },
+                {
+                    "authorId": "1690528",
+                    "name": "Alexander Egyed"
+                }
+            ],
+            "doi": "10.1109/ICSSP-ICGSE52873.2021.00014",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b232f93e7a491a824d6c86323bbea61f439df4c1",
+            "title": "TaskAllocator: A Recommendation Approach for Role-based Tasks Allocation in Agile Software Development",
+            "url": "https://www.semanticscholar.org/paper/b232f93e7a491a824d6c86323bbea61f439df4c1",
+            "venue": "2021 IEEE/ACM Joint 15th International Conference on Software and System Processes (ICSSP) and 16th ACM/IEEE International Conference on Global Software Engineering (ICGSE)",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2638067",
+                    "name": "S. Mishra"
+                },
+                {
+                    "authorId": "1443782917",
+                    "name": "Arpit Sharma"
+                }
+            ],
+            "doi": "10.1145/3452383.3452401",
+            "intent": [
+                "result",
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "917d71c11046b5c744ffaf3604ddc985cf3a46d4",
+            "title": "Crawling Wikipedia Pages to Train Word Embeddings Model for Software Engineering Domain",
+            "url": "https://www.semanticscholar.org/paper/917d71c11046b5c744ffaf3604ddc985cf3a46d4",
+            "venue": "ISEC",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "152220571",
+                    "name": "Souvick Das"
+                },
+                {
+                    "authorId": "2989431",
+                    "name": "Novarun Deb"
+                },
+                {
+                    "authorId": "1701110",
+                    "name": "Agostino Cortesi"
+                },
+                {
+                    "authorId": "1721188",
+                    "name": "N. Chaki"
+                }
+            ],
+            "doi": "10.1007/s42979-020-00427-1",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "56935e76cc6c3cf536d0e8ed459a26e75866c3ee",
+            "title": "Sentence Embedding Models for Similarity Detection of Software Requirements",
+            "url": "https://www.semanticscholar.org/paper/56935e76cc6c3cf536d0e8ed459a26e75866c3ee",
+            "venue": "SN Computer Science",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "115023982",
+                    "name": "Zhenpeng Chen"
+                },
+                {
+                    "authorId": "2007813499",
+                    "name": "Yanbin Cao"
+                },
+                {
+                    "authorId": "2046733822",
+                    "name": "Huihan Yao"
+                },
+                {
+                    "authorId": "1522975334",
+                    "name": "Xuan Lu"
+                },
+                {
+                    "authorId": "2215501537",
+                    "name": "Xin Peng"
+                },
+                {
+                    "authorId": "2057132450",
+                    "name": "Hong Mei"
+                },
+                {
+                    "authorId": "2110773587",
+                    "name": "Xuanzhe Liu"
+                }
+            ],
+            "doi": "10.1145/3424308",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b99661e49a406e4bb3079da246aa003f3ef0bf87",
+            "title": "Emoji-powered Sentiment and Emotion Detection from Software Developers\u2019 Communication Data",
+            "url": "https://www.semanticscholar.org/paper/b99661e49a406e4bb3079da246aa003f3ef0bf87",
+            "venue": "ACM Trans. Softw. Eng. Methodol.",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "90989651",
+                    "name": "Zaki Pauzi"
+                },
+                {
+                    "authorId": "1729877",
+                    "name": "A. Capiluppi"
+                }
+            ],
+            "doi": "10.1007/978-3-030-62362-3_12",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b883e462a28bfdbdf9bb93a810426614735d08f0",
+            "title": "Text Similarity Between Concepts Extracted from Source Code and Documentation",
+            "url": "https://www.semanticscholar.org/paper/b883e462a28bfdbdf9bb93a810426614735d08f0",
+            "venue": "IDEAL",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "9330096",
+                    "name": "R. Sonbol"
+                },
+                {
+                    "authorId": "9194066",
+                    "name": "Ghaida Rebdawi"
+                },
+                {
+                    "authorId": "3165960",
+                    "name": "Nada Ghneim"
+                }
+            ],
+            "doi": "10.1109/AIRE51212.2020.00007",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "da4c16af5d5f0945b62dec14e9a093d026edb35e",
+            "title": "Towards a Semantic Representation for Functional Software Requirements",
+            "url": "https://www.semanticscholar.org/paper/da4c16af5d5f0945b62dec14e9a093d026edb35e",
+            "venue": "2020 IEEE Seventh International Workshop on Artificial Intelligence for Requirements Engineering (AIRE)",
+            "year": 2020
+        },
+        {
+            "arxivId": "2111.14583",
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "2937511",
+                    "name": "Konstantinos Kravvaritis"
+                },
+                {
+                    "authorId": "41095366",
+                    "name": "Konstantina Dritsa"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1007/s10664-020-09834-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "title": "Standing on shoulders or feet? An extended study on the usage of the MSR data papers",
+            "url": "https://www.semanticscholar.org/paper/7889d09a8d6c1fc0089ad645b5fda0dae57a6314",
+            "venue": "Empirical Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "150192393",
+                    "name": "Leevi Rantala"
+                },
+                {
+                    "authorId": "144811716",
+                    "name": "M. M\u00e4ntyl\u00e4"
+                }
+            ],
+            "doi": "10.1007/s11219-020-09520-3",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "d598099dd737e847bfb5ce83393255403d6fefc6",
+            "title": "Predicting technical debt from commit contents: reproduction and extension with automated feature selection",
+            "url": "https://www.semanticscholar.org/paper/d598099dd737e847bfb5ce83393255403d6fefc6",
+            "venue": "Software Quality Journal",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2723325",
+                    "name": "Miros\u0142aw Ochodek"
+                },
+                {
+                    "authorId": "2323017",
+                    "name": "Sylwia Kopczy\u0144ska"
+                },
+                {
+                    "authorId": "1787356",
+                    "name": "M. Staron"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2020.106310",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2035a1bc64426c69b4525b72ba7be900f3e6b88e",
+            "title": "Deep learning model for end-to-end approximation of COSMIC functional size based on use-case names",
+            "url": "https://www.semanticscholar.org/paper/2035a1bc64426c69b4525b72ba7be900f3e6b88e",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48178330",
+                    "name": "Sara Mumtaz"
+                },
+                {
+                    "authorId": "2107131606",
+                    "name": "Carlos Rodr\u00edguez"
+                },
+                {
+                    "authorId": "1734279",
+                    "name": "B. Benatallah"
+                },
+                {
+                    "authorId": "1411031790",
+                    "name": "Mortada Al-Banna"
+                },
+                {
+                    "authorId": "27333372",
+                    "name": "Shayan Zamanirad"
+                }
+            ],
+            "doi": "10.1109/IJCNN48605.2020.9207140",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "0825171765f394f21aec4ef9c1c58d38901a36a6",
+            "title": "Learning Word Representation for the Cyber Security Vulnerability Domain",
+            "url": "https://www.semanticscholar.org/paper/0825171765f394f21aec4ef9c1c58d38901a36a6",
+            "venue": "2020 International Joint Conference on Neural Networks (IJCNN)",
+            "year": 2020
+        },
+        {
+            "arxivId": "2006.16831",
+            "authors": [
+                {
+                    "authorId": "2065610880",
+                    "name": "E. M. D. B. F'avero"
+                },
+                {
+                    "authorId": "2152400",
+                    "name": "Dalcimar Casanova"
+                },
+                {
+                    "authorId": "2064125368",
+                    "name": "Andrey R. Pimentel"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a19256cb6fc0cfe36ad13fd5f282a740a05c51a8",
+            "title": "SE3M: A Model for Software Effort Estimation Using Pre-trained Embedding Models",
+            "url": "https://www.semanticscholar.org/paper/a19256cb6fc0cfe36ad13fd5f282a740a05c51a8",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "30982572",
+                    "name": "Zishuo Ding"
+                },
+                {
+                    "authorId": "2108146300",
+                    "name": "Jinfu Chen"
+                },
+                {
+                    "authorId": "39724619",
+                    "name": "Weiyi Shang"
+                }
+            ],
+            "doi": "10.1145/3377811.3380351",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "ddf582429fff1ba9abd24d5cd0ff80b6f200ed02",
+            "title": "Towards the Use of the Readily Available Tests from the Release Pipeline as Performance Tests. Are We There Yet?",
+            "url": "https://www.semanticscholar.org/paper/ddf582429fff1ba9abd24d5cd0ff80b6f200ed02",
+            "venue": "2020 IEEE/ACM 42nd International Conference on Software Engineering (ICSE)",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "19148566",
+                    "name": "Guanjun Lin"
+                },
+                {
+                    "authorId": "145018149",
+                    "name": "Sheng Wen"
+                },
+                {
+                    "authorId": "2067611028",
+                    "name": "Qing-Long Han"
+                },
+                {
+                    "authorId": "37269546",
+                    "name": "Jun Zhang"
+                },
+                {
+                    "authorId": "98232756",
+                    "name": "Yang Xiang"
+                }
+            ],
+            "doi": "10.1109/JPROC.2020.2993293",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "24220139c25d5e1191e66ed148382dfdcda1486e",
+            "title": "Software Vulnerability Detection Using Deep Neural Networks: A Survey",
+            "url": "https://www.semanticscholar.org/paper/24220139c25d5e1191e66ed148382dfdcda1486e",
+            "venue": "Proceedings of the IEEE",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "30441825",
+                    "name": "Andr\u00e9 N. Meyer"
+                },
+                {
+                    "authorId": "1710856347",
+                    "name": "Chris Satterfield"
+                },
+                {
+                    "authorId": "33532850",
+                    "name": "Manuela Z\u00fcger"
+                },
+                {
+                    "authorId": "3194068",
+                    "name": "Katja Kevic"
+                },
+                {
+                    "authorId": "1739674",
+                    "name": "G. Murphy"
+                },
+                {
+                    "authorId": "143609903",
+                    "name": "Thomas Zimmermann"
+                },
+                {
+                    "authorId": "144497270",
+                    "name": "Thomas Fritz"
+                }
+            ],
+            "doi": "10.1109/tse.2020.2984086",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0963c1988141f256ab1864772d41bbb0842a4da2",
+            "title": "Detecting Developers\u2019 Task Switches and Types",
+            "url": "https://www.semanticscholar.org/paper/0963c1988141f256ab1864772d41bbb0842a4da2",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2287096959",
+                    "name": "Sabrina Tiun"
+                },
+                {
+                    "authorId": "38883678",
+                    "name": "U. A. Mokhtar"
+                },
+                {
+                    "authorId": "82659700",
+                    "name": "S. H. Bakar"
+                },
+                {
+                    "authorId": "2248898",
+                    "name": "S. Saad"
+                }
+            ],
+            "doi": "10.1088/1742-6596/1529/4/042077",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "291b7b24f7090428c319d73e681ded245b55c470",
+            "title": "Classification of functional and non-functional requirement in software requirement using Word2vec and fast Text",
+            "url": "https://www.semanticscholar.org/paper/291b7b24f7090428c319d73e681ded245b55c470",
+            "venue": "Journal of Physics: Conference Series",
+            "year": 2020
+        },
+        {
+            "arxivId": "2003.14015",
+            "authors": [
+                {
+                    "authorId": "2002057",
+                    "name": "Ma\u00eblick Claes"
+                },
+                {
+                    "authorId": "144811716",
+                    "name": "M. M\u00e4ntyl\u00e4"
+                }
+            ],
+            "doi": "10.1145/3379597.3387487",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "cd3370b044217e32e2753cba6597df6094de4603",
+            "title": "20-MAD - 20 Years of Issues and Commits of Mozilla and Apache Development",
+            "url": "https://www.semanticscholar.org/paper/cd3370b044217e32e2753cba6597df6094de4603",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2020
+        },
+        {
+            "arxivId": "2003.03741",
+            "authors": [
+                {
+                    "authorId": "47267142",
+                    "name": "T. H. Le"
+                },
+                {
+                    "authorId": "101855073",
+                    "name": "David Hin"
+                },
+                {
+                    "authorId": "1557381907",
+                    "name": "Roland Croft"
+                },
+                {
+                    "authorId": "145348760",
+                    "name": "M. Babar"
+                }
+            ],
+            "doi": "10.1145/3379597.3387443",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1fd77edfb5c60b401c999ab2c70d3ac211786b7a",
+            "title": "PUMiner: Mining Security Posts from Developer Question and Answer Websites with PU Learning",
+            "url": "https://www.semanticscholar.org/paper/1fd77edfb5c60b401c999ab2c70d3ac211786b7a",
+            "venue": "2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)",
+            "year": 2020
+        },
+        {
+            "arxivId": "2005.11757",
+            "authors": [
+                {
+                    "authorId": "1624735143",
+                    "name": "Zhensu Sun"
+                },
+                {
+                    "authorId": "2156649517",
+                    "name": "Yan Liu"
+                },
+                {
+                    "authorId": "2149004405",
+                    "name": "Ziming Cheng"
+                },
+                {
+                    "authorId": "2154171210",
+                    "name": "Chen Yang"
+                },
+                {
+                    "authorId": "1622580654",
+                    "name": "Pengyu Che"
+                }
+            ],
+            "doi": "10.1109/SANER48275.2020.9054865",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "bf9c0c9104d948051707b4b593567e0424126c04",
+            "title": "Req2Lib: A Semantic Neural Model for Software Library Recommendation",
+            "url": "https://www.semanticscholar.org/paper/bf9c0c9104d948051707b4b593567e0424126c04",
+            "venue": "2020 IEEE 27th International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2020
+        },
+        {
+            "arxivId": "2001.01424",
+            "authors": [
+                {
+                    "authorId": "145097802",
+                    "name": "Alvi Mahadi"
+                },
+                {
+                    "authorId": "2065597758",
+                    "name": "Karan Tongay"
+                },
+                {
+                    "authorId": "1755165",
+                    "name": "Neil A. Ernst"
+                }
+            ],
+            "doi": "10.1109/SANER48275.2020.9054792",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1b353dfaa390a350096a8f8a04733549b6f986e4",
+            "title": "Cross-Dataset Design Discussion Mining",
+            "url": "https://www.semanticscholar.org/paper/1b353dfaa390a350096a8f8a04733549b6f986e4",
+            "venue": "2020 IEEE 27th International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+            "year": 2020
+        },
+        {
+            "arxivId": "1911.12038",
+            "authors": [
+                {
+                    "authorId": "1761511",
+                    "name": "V. Garousi"
+                },
+                {
+                    "authorId": "1955934",
+                    "name": "M. Felderer"
+                },
+                {
+                    "authorId": "144811716",
+                    "name": "M. M\u00e4ntyl\u00e4"
+                },
+                {
+                    "authorId": "3102561",
+                    "name": "A. Rainer"
+                }
+            ],
+            "doi": "10.1007/978-3-030-32489-6_14",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "82f1dc222944a923325fed703fc93a75174f6873",
+            "title": "Benefitting from the Grey Literature in Software Engineering Research",
+            "url": "https://www.semanticscholar.org/paper/82f1dc222944a923325fed703fc93a75174f6873",
+            "venue": "Contemporary Empirical Methods in Software Engineering",
+            "year": 2019
+        },
+        {
+            "arxivId": "1910.12591",
+            "authors": [
+                {
+                    "authorId": "145872970",
+                    "name": "David Solans"
+                },
+                {
+                    "authorId": "2139570269",
+                    "name": "Christopher Tauchmann"
+                },
+                {
+                    "authorId": "120124017",
+                    "name": "Aideen Farrell"
+                },
+                {
+                    "authorId": "1948542",
+                    "name": "Karolin Kappler"
+                },
+                {
+                    "authorId": "2058338259",
+                    "name": "Hans-Hendrik Huber"
+                },
+                {
+                    "authorId": "2082412452",
+                    "name": "Carlos Castillo"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "5d058aadc2e938f421d0acae6dcdad3be35bc8fd",
+            "title": "Conflict and Cooperation: AI Research and Development in terms of the Economy of Conventions",
+            "url": "https://www.semanticscholar.org/paper/5d058aadc2e938f421d0acae6dcdad3be35bc8fd",
+            "venue": "ArXiv",
+            "year": 2019
+        },
+        {
+            "arxivId": "1908.09876",
+            "authors": [
+                {
+                    "authorId": "32743984",
+                    "name": "J. Barbosa"
+                },
+                {
+                    "authorId": "1916456",
+                    "name": "R. Marcacini"
+                },
+                {
+                    "authorId": "145517956",
+                    "name": "Ricardo Britto"
+                },
+                {
+                    "authorId": "2054292222",
+                    "name": "Frederico Soares"
+                },
+                {
+                    "authorId": "1806906",
+                    "name": "S. O. Rezende"
+                },
+                {
+                    "authorId": "1690337",
+                    "name": "A. Vincenzi"
+                },
+                {
+                    "authorId": "1745775",
+                    "name": "M. Delamaro"
+                }
+            ],
+            "doi": "10.5753/vem.2019.7580",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8650abc3ba8eceb87b915134112ad9932b0f737d",
+            "title": "BULNER: BUg Localization with word embeddings and NEtwork Regularization",
+            "url": "https://www.semanticscholar.org/paper/8650abc3ba8eceb87b915134112ad9932b0f737d",
+            "venue": "VEM",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "41072717",
+                    "name": "Andr\u00e1s Kicsi"
+                },
+                {
+                    "authorId": "1395924590",
+                    "name": "M\u00e1rk R\u00e1k\u00f3czi"
+                },
+                {
+                    "authorId": "1793601",
+                    "name": "L\u00e1szl\u00f3 Vid\u00e1cs"
+                }
+            ],
+            "doi": "10.5220/0007981003390346",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2a239f0b9e89eb8dab90a5685b2d02c82573ab39",
+            "title": "Exploration and Mining of Source Code Level Traceability Links on Stack Overflow",
+            "url": "https://www.semanticscholar.org/paper/2a239f0b9e89eb8dab90a5685b2d02c82573ab39",
+            "venue": "ICSOFT",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "41072383",
+                    "name": "Viktor Csuvik"
+                },
+                {
+                    "authorId": "41072717",
+                    "name": "Andr\u00e1s Kicsi"
+                },
+                {
+                    "authorId": "1793601",
+                    "name": "L\u00e1szl\u00f3 Vid\u00e1cs"
+                }
+            ],
+            "doi": "10.1007/978-3-030-24305-0_40",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "2e73f0e738b2af0f0b425011280eca932e08a093",
+            "title": "Evaluation of Textual Similarity Techniques in Code Level Traceability",
+            "url": "https://www.semanticscholar.org/paper/2e73f0e738b2af0f0b425011280eca932e08a093",
+            "venue": "ICCSA",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1853058",
+                    "name": "R. Robbes"
+                },
+                {
+                    "authorId": "145565492",
+                    "name": "Andrea Janes"
+                }
+            ],
+            "doi": "10.1109/ICSE-NIER.2019.00016",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "f876efb3f336c7fa782c63d7aaffb947e826bbc0",
+            "title": "Leveraging Small Software Engineering Data Sets with Pre-Trained Neural Networks",
+            "url": "https://www.semanticscholar.org/paper/f876efb3f336c7fa782c63d7aaffb947e826bbc0",
+            "venue": "2019 IEEE/ACM 41st International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "41072383",
+                    "name": "Viktor Csuvik"
+                },
+                {
+                    "authorId": "41072717",
+                    "name": "Andr\u00e1s Kicsi"
+                },
+                {
+                    "authorId": "1793601",
+                    "name": "L\u00e1szl\u00f3 Vid\u00e1cs"
+                }
+            ],
+            "doi": "10.1109/SST.2019.00016",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "27f8115be0d3bbc6042ee23260e2cc1528f17a6a",
+            "title": "Source Code Level Word Embeddings in Aiding Semantic Test-to-Code Traceability",
+            "url": "https://www.semanticscholar.org/paper/27f8115be0d3bbc6042ee23260e2cc1528f17a6a",
+            "venue": "2019 IEEE/ACM 10th International Symposium on Software and Systems Traceability (SST)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1416079494",
+                    "name": "Eeshita Biswas"
+                },
+                {
+                    "authorId": "1400820110",
+                    "name": "K. Vijay-Shanker"
+                },
+                {
+                    "authorId": "1699934",
+                    "name": "L. Pollock"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00020",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "783cecea8362f5f472b887166b7495297189832d",
+            "title": "Exploring Word Embedding Techniques to Improve Sentiment Analysis of Software Engineering Texts",
+            "url": "https://www.semanticscholar.org/paper/783cecea8362f5f472b887166b7495297189832d",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "148430293",
+                    "name": "Zoe Kotti"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00085",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "43148fabe2636026e07ca04974aff40d204bfb6b",
+            "title": "Standing on Shoulders or Feet? The Usage of the MSR Data Papers",
+            "url": "https://www.semanticscholar.org/paper/43148fabe2636026e07ca04974aff40d204bfb6b",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": "1904.06929",
+            "authors": [
+                {
+                    "authorId": "2122187",
+                    "name": "V. Efstathiou"
+                },
+                {
+                    "authorId": "1740799",
+                    "name": "D. Spinellis"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00015",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "675046f82f293cbd546b706992c2738255eb417e",
+            "title": "Semantic Source Code Models Using Identifier Embeddings",
+            "url": "https://www.semanticscholar.org/paper/675046f82f293cbd546b706992c2738255eb417e",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": "1904.01873",
+            "authors": [
+                {
+                    "authorId": "96214938",
+                    "name": "Hlib Babii"
+                },
+                {
+                    "authorId": "145565492",
+                    "name": "Andrea Janes"
+                },
+                {
+                    "authorId": "1853058",
+                    "name": "R. Robbes"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "dfd252415b37208617da78d09cfd87480b9800eb",
+            "title": "Modeling Vocabulary for Big Code Machine Learning",
+            "url": "https://www.semanticscholar.org/paper/dfd252415b37208617da78d09cfd87480b9800eb",
+            "venue": "ArXiv",
+            "year": 2019
+        },
+        {
+            "arxivId": "1904.03990",
+            "authors": [
+                {
+                    "authorId": "2513090",
+                    "name": "B. Theeten"
+                },
+                {
+                    "authorId": "2992269",
+                    "name": "Frederik Vandeputte"
+                },
+                {
+                    "authorId": "3180865",
+                    "name": "T. V. Cutsem"
+                }
+            ],
+            "doi": "10.1109/MSR.2019.00014",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "3b1ac14467a3d0360b95e919a8b4c282423826ef",
+            "title": "Import2vec: Learning Embeddings for Software Libraries",
+            "url": "https://www.semanticscholar.org/paper/3b1ac14467a3d0360b95e919a8b4c282423826ef",
+            "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51452296",
+                    "name": "Waad Alhoshan"
+                },
+                {
+                    "authorId": "1400900759",
+                    "name": "R. Batista-Navarro"
+                },
+                {
+                    "authorId": "46586676",
+                    "name": "Liping Zhao"
+                }
+            ],
+            "doi": "10.18653/v1/W19-0606",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "a8efcea49a7b29a9bd63a3b59e53cba3f3603639",
+            "title": "Semantic Frame Embeddings for Detecting Relations between Software Requirements",
+            "url": "https://www.semanticscholar.org/paper/a8efcea49a7b29a9bd63a3b59e53cba3f3603639",
+            "venue": "Proceedings of the 13th International Conference on Computational Semantics - Student Papers",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51452296",
+                    "name": "Waad Alhoshan"
+                },
+                {
+                    "authorId": "1400900759",
+                    "name": "R. Batista-Navarro"
+                },
+                {
+                    "authorId": "46586676",
+                    "name": "Liping Zhao"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6a7b8fbcbec4f8f33b0f7972ed14161f0930b17a",
+            "title": "Using Frame Embeddings to Identify Semantically Related Software Requirements",
+            "url": "https://www.semanticscholar.org/paper/6a7b8fbcbec4f8f33b0f7972ed14161f0930b17a",
+            "venue": "REFSQ Workshops",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51452296",
+                    "name": "Waad Alhoshan"
+                },
+                {
+                    "authorId": "46586676",
+                    "name": "Liping Zhao"
+                },
+                {
+                    "authorId": "1400900759",
+                    "name": "R. Batista-Navarro"
+                }
+            ],
+            "doi": "10.1145/3239235.3267441",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "856923be1edec197ed5b1da4764ff06ccf1b979a",
+            "title": "Using semantic frames to identify related textual requirements: an initial validation",
+            "url": "https://www.semanticscholar.org/paper/856923be1edec197ed5b1da4764ff06ccf1b979a",
+            "venue": "ESEM",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2215270692",
+                    "name": "Usmi Mukherjee"
+                },
+                {
+                    "authorId": "2210196781",
+                    "name": "M. M. Rahman"
+                }
+            ],
+            "doi": "10.48550/arXiv.2304.12494",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "8d34a0a4f90f40a754fb0c6b73136d94b6ec7bd0",
+            "title": "Answering Follow-up Questions on Bug Reports with Structured Information Retrieval and Deep Learning",
+            "url": "https://www.semanticscholar.org/paper/8d34a0a4f90f40a754fb0c6b73136d94b6ec7bd0",
+            "venue": "ArXiv",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2241231891",
+                    "name": "Marie Salomon"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "06dc0f108041a634c4195ce2792eb596deededbe",
+            "title": "Automatically Associating Resources with Tasks based on a Software Developer\u2019s Activity (DRAFT: August 14, 2023)",
+            "url": "https://www.semanticscholar.org/paper/06dc0f108041a634c4195ce2792eb596deededbe",
+            "venue": "",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2248316803",
+                    "name": "Keiichiro Masuda"
+                },
+                {
+                    "authorId": "2001006030",
+                    "name": "Goragod Pongthanisorn"
+                },
+                {
+                    "authorId": "1718054",
+                    "name": "G. Capi"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c7ec70e1ad964b63151cb08e92fa28e59539a515",
+            "title": "Development of an Intelligent Compact Crawler Robot for House Foundation Inspection",
+            "url": "https://www.semanticscholar.org/paper/c7ec70e1ad964b63151cb08e92fa28e59539a515",
+            "venue": "WiPiEC Journal",
+            "year": 2023
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "41072717",
+                    "name": "Andr\u00e1s Kicsi"
+                },
+                {
+                    "authorId": "41072383",
+                    "name": "Viktor Csuvik"
+                },
+                {
+                    "authorId": "1793601",
+                    "name": "L\u00e1szl\u00f3 Vid\u00e1cs"
+                }
+            ],
+            "doi": "10.1109/ACCESS.2021.3083923",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3de5720a4c852fffbb14f507634b46fde0068c76",
+            "title": "Large Scale Evaluation of Natural Language Processing Based Test-to-Code Traceability Approaches",
+            "url": "https://www.semanticscholar.org/paper/3de5720a4c852fffbb14f507634b46fde0068c76",
+            "venue": "IEEE Access",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2083283875",
+                    "name": "Ekta Tyagi"
+                },
+                {
+                    "authorId": "2300679516",
+                    "name": "Deeksha"
+                },
+                {
+                    "authorId": "2300662",
+                    "name": "Lokesh Chouhan"
+                }
+            ],
+            "doi": "10.1007/978-981-33-6984-9_20",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "54daa01b6421f4f1bf2ef21db9164f562dda4159",
+            "title": "Design of Automatic Answer Checker",
+            "url": "https://www.semanticscholar.org/paper/54daa01b6421f4f1bf2ef21db9164f562dda4159",
+            "venue": "",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2148753678",
+                    "name": "Getasew Abeba"
+                },
+                {
+                    "authorId": "30403474",
+                    "name": "E. Alemneh"
+                }
+            ],
+            "doi": "10.1007/978-3-030-93709-6_29",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ed517599b7987e0717da783fc2350a859680b69a",
+            "title": "Identification of Nonfunctional Requirement Conflicts: Machine Learning Approach",
+            "url": "https://www.semanticscholar.org/paper/ed517599b7987e0717da783fc2350a859680b69a",
+            "venue": "ICAST",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "90989651",
+                    "name": "Zaki Pauzi"
+                },
+                {
+                    "authorId": "1729877",
+                    "name": "A. Capiluppi"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "491d5f62da515f9f30a8255ea80c3148e0e91c78",
+            "title": "Extracting Concepts Emerging from Software Code, Documentation and Tests",
+            "url": "https://www.semanticscholar.org/paper/491d5f62da515f9f30a8255ea80c3148e0e91c78",
+            "venue": "BENEVOL",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "94051097",
+                    "name": "Vincent Nguyen"
+                },
+                {
+                    "authorId": "1785901",
+                    "name": "Sarvnaz Karimi"
+                },
+                {
+                    "authorId": "3138980",
+                    "name": "Zhenchang Xing"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b85e611e3be0f540343ad29491add893f3d97e6d",
+            "title": "Combining Shallow and Deep Representations for Text-Pair Classification",
+            "url": "https://www.semanticscholar.org/paper/b85e611e3be0f540343ad29491add893f3d97e6d",
+            "venue": "ALTA",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1710856347",
+                    "name": "Chris Satterfield"
+                }
+            ],
+            "doi": "10.14288/1.0390001",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "23c1574d557d3eaa47e893dcd70251353152bc82",
+            "title": "Automatic identification and description of software developers tasks",
+            "url": "https://www.semanticscholar.org/paper/23c1574d557d3eaa47e893dcd70251353152bc82",
+            "venue": "",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1955934",
+                    "name": "M. Felderer"
+                },
+                {
+                    "authorId": "1688347",
+                    "name": "G. Travassos"
+                }
+            ],
+            "doi": "10.1007/978-3-030-32489-6",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a1b349a21a390b0eb882e65dfc4f1caf9e385c39",
+            "title": "Contemporary Empirical Methods in Software Engineering",
+            "url": "https://www.semanticscholar.org/paper/a1b349a21a390b0eb882e65dfc4f1caf9e385c39",
+            "venue": "",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145302989",
+                    "name": "P. Novais"
+                },
+                {
+                    "authorId": "143869061",
+                    "name": "David Camacho"
+                },
+                {
+                    "authorId": "1709042",
+                    "name": "Hujun Yin"
+                }
+            ],
+            "doi": "10.1007/978-3-030-62362-3",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2ef549fbd0aa3c6b0cd3cdbc01320e53e72ded9f",
+            "title": "Intelligent Data Engineering and Automated Learning \u2013 IDEAL 2020: 21st International Conference, Guimaraes, Portugal, November 4\u20136, 2020, Proceedings, Part I",
+            "url": "https://www.semanticscholar.org/paper/2ef549fbd0aa3c6b0cd3cdbc01320e53e72ded9f",
+            "venue": "IDEAL",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2118133309",
+                    "name": "Chao Sun"
+                },
+                {
+                    "authorId": "145481501",
+                    "name": "Mingjing Tang"
+                },
+                {
+                    "authorId": "2087653134",
+                    "name": "Li Liang"
+                },
+                {
+                    "authorId": "2057329056",
+                    "name": "Wei Zou"
+                }
+            ],
+            "doi": "10.1007/978-3-030-62463-7_4",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6530058296e34354de5792fbad43525d248220cc",
+            "title": "Software Entity Recognition Method Based on BERT Embedding",
+            "url": "https://www.semanticscholar.org/paper/6530058296e34354de5792fbad43525d248220cc",
+            "venue": "ML4CS",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143624709",
+                    "name": "Ankur Agrawal"
+                },
+                {
+                    "authorId": "2286413077",
+                    "name": "Ryan A. Chi"
+                },
+                {
+                    "authorId": "2289025227",
+                    "name": "Varuni Gupta"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "aa3606aaaa0459ade13a0217217b28a93bd7f616",
+            "title": "Automated Topic-Tagging for Software-Related Question-and-Answer Sites",
+            "url": "https://www.semanticscholar.org/paper/aa3606aaaa0459ade13a0217217b28a93bd7f616",
+            "venue": "",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2289621872",
+                    "name": "Zishuo Ding"
+                },
+                {
+                    "authorId": "2288674892",
+                    "name": "Chair Dr. Tse-Hsun"
+                },
+                {
+                    "authorId": "2288698734",
+                    "name": "Chen"
+                },
+                {
+                    "authorId": "2288672344",
+                    "name": "Dr. Juergen Rilling"
+                },
+                {
+                    "authorId": "2288772649",
+                    "name": "Dr. Jinqiu Yang"
+                },
+                {
+                    "authorId": "2288675896",
+                    "name": "Dr. Weiyi Shang"
+                },
+                {
+                    "authorId": "2288679556",
+                    "name": "Dr Amir Asif"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c6d3a6be140cc2acce726d78a68b850f8d62aac0",
+            "title": "Towards the Use of the Readily Available Tests from the Release Pipeline as Performance Tests. Are We There Yet?",
+            "url": "https://www.semanticscholar.org/paper/c6d3a6be140cc2acce726d78a68b850f8d62aac0",
+            "venue": "",
+            "year": 2019
+        }
+    ],
+    "corpusId": 50775826,
+    "doi": "10.1145/3196398.3196448",
+    "fieldsOfStudy": [
+        "Computer Science"
+    ],
+    "influentialCitationCount": 7,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 89,
+    "numCiting": 33,
+    "paperId": "6e1cafd50333b3812bf002a51bcb1f720e35b7ed",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2098974",
+                    "name": "Everton da S. Maldonado"
+                },
+                {
+                    "authorId": "3318024",
+                    "name": "Emad Shihab"
+                },
+                {
+                    "authorId": "2101511",
+                    "name": "Nikolaos Tsantalis"
+                }
+            ],
+            "doi": "10.1109/TSE.2017.2654244",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "94e3476be79cdcd77f365d72071f610679fca324",
+            "title": "Using Natural Language Processing to Automatically Detect Self-Admitted Technical Debt",
+            "url": "https://www.semanticscholar.org/paper/94e3476be79cdcd77f365d72071f610679fca324",
+            "venue": "IEEE Transactions on Software Engineering",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39892496",
+                    "name": "Fouad Nasser A. Al Omran"
+                },
+                {
+                    "authorId": "1685418",
+                    "name": "Christoph Treude"
+                }
+            ],
+            "doi": "10.1109/MSR.2017.42",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "72f280e47e91b30af24205fa24d53247605aa591",
+            "title": "Choosing an NLP Library for Analyzing Software Documentation: A Systematic Literature Review and a Series of Experiments",
+            "url": "https://www.semanticscholar.org/paper/72f280e47e91b30af24205fa24d53247605aa591",
+            "venue": "2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)",
+            "year": 2017
+        },
+        {
+            "arxivId": "1807.04485",
+            "authors": [
+                {
+                    "authorId": "2210196781",
+                    "name": "M. M. Rahman"
+                },
+                {
+                    "authorId": "1738612",
+                    "name": "C. Roy"
+                },
+                {
+                    "authorId": "1680034",
+                    "name": "R. Kula"
+                }
+            ],
+            "doi": "10.1109/MSR.2017.17",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "654b51f729cd1ca3830ba4dacf8cbdb11fa626e0",
+            "title": "Predicting Usefulness of Code Review Comments Using Textual Features and Developer Experience",
+            "url": "https://www.semanticscholar.org/paper/654b51f729cd1ca3830ba4dacf8cbdb11fa626e0",
+            "venue": "2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "37733467",
+                    "name": "D. Gachechiladze"
+                },
+                {
+                    "authorId": "1743022",
+                    "name": "F. Lanubile"
+                },
+                {
+                    "authorId": "1750021",
+                    "name": "Nicole Novielli"
+                },
+                {
+                    "authorId": "1747171",
+                    "name": "Alexander Serebrenik"
+                }
+            ],
+            "doi": "10.1109/ICSE-NIER.2017.18",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3cfd7adad23ff9ab8985ffc70f27d6946a6252ff",
+            "title": "Anger and Its Direction in Collaborative Software Development",
+            "url": "https://www.semanticscholar.org/paper/3cfd7adad23ff9ab8985ffc70f27d6946a6252ff",
+            "venue": "2017 IEEE/ACM 39th International Conference on Software Engineering: New Ideas and Emerging Technologies Results Track (ICSE-NIER)",
+            "year": 2017
+        },
+        {
+            "arxivId": "1703.09046",
+            "authors": [
+                {
+                    "authorId": "144811716",
+                    "name": "M. M\u00e4ntyl\u00e4"
+                },
+                {
+                    "authorId": "1750021",
+                    "name": "Nicole Novielli"
+                },
+                {
+                    "authorId": "1743022",
+                    "name": "F. Lanubile"
+                },
+                {
+                    "authorId": "2002057",
+                    "name": "Ma\u00eblick Claes"
+                },
+                {
+                    "authorId": "3456517",
+                    "name": "Miikka Kuutila"
+                }
+            ],
+            "doi": "10.1109/MSR.2017.47",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d54d56b99d63afbeb69af95dc4ede26c2ff12e54",
+            "title": "Bootstrapping a Lexicon for Emotional Arousal in Software Engineering",
+            "url": "https://www.semanticscholar.org/paper/d54d56b99d63afbeb69af95dc4ede26c2ff12e54",
+            "venue": "2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)",
+            "year": 2017
+        },
+        {
+            "arxivId": "1703.00133",
+            "authors": [
+                {
+                    "authorId": "144188710",
+                    "name": "Wei Fu"
+                },
+                {
+                    "authorId": "1703872",
+                    "name": "T. Menzies"
+                }
+            ],
+            "doi": "10.1145/3106237.3106256",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "b0f6f8a3239fccc2c40c6d5728da5e4304d03f6f",
+            "title": "Easy over hard: a case study on deep learning",
+            "url": "https://www.semanticscholar.org/paper/b0f6f8a3239fccc2c40c6d5728da5e4304d03f6f",
+            "venue": "ESEC/SIGSOFT FSE",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3091234",
+                    "name": "Deheng Ye"
+                },
+                {
+                    "authorId": "3138980",
+                    "name": "Zhenchang Xing"
+                },
+                {
+                    "authorId": "144193045",
+                    "name": "Nachiket Kapre"
+                }
+            ],
+            "doi": "10.1007/s10664-016-9430-z",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a3ba139b97bfa0cd4801ff6ddc5a13673f5a58a8",
+            "title": "The structure and dynamics of knowledge network in domain-specific Q&A sites: a case study of stack overflow",
+            "url": "https://www.semanticscholar.org/paper/a3ba139b97bfa0cd4801ff6ddc5a13673f5a58a8",
+            "venue": "Empirical Software Engineering",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2630193",
+                    "name": "R. Jongeling"
+                },
+                {
+                    "authorId": "2239207",
+                    "name": "Proshanta Sarkar"
+                },
+                {
+                    "authorId": "34074917",
+                    "name": "Subhajit Datta"
+                },
+                {
+                    "authorId": "1747171",
+                    "name": "Alexander Serebrenik"
+                }
+            ],
+            "doi": "10.1007/s10664-016-9493-x",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "63b8ebfe57af400c8bbadc5c111cb5fe71f331bd",
+            "title": "On negative results when using sentiment analysis tools for software engineering research",
+            "url": "https://www.semanticscholar.org/paper/63b8ebfe57af400c8bbadc5c111cb5fe71f331bd",
+            "venue": "Empirical Software Engineering",
+            "year": 2017
+        },
+        {
+            "arxivId": "1608.08176",
+            "authors": [
+                {
+                    "authorId": "41152241",
+                    "name": "Amritanshu Agrawal"
+                },
+                {
+                    "authorId": "144188710",
+                    "name": "Wei Fu"
+                },
+                {
+                    "authorId": "1703872",
+                    "name": "T. Menzies"
+                }
+            ],
+            "doi": "10.1016/j.infsof.2018.02.005",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "66a77e79e91575df5e687875d68ec55765e68d90",
+            "title": "What is wrong with topic modeling? And how to fix it using search-based software engineering",
+            "url": "https://www.semanticscholar.org/paper/66a77e79e91575df5e687875d68ec55765e68d90",
+            "venue": "Inf. Softw. Technol.",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2203459",
+                    "name": "Bowen Xu"
+                },
+                {
+                    "authorId": "3091234",
+                    "name": "Deheng Ye"
+                },
+                {
+                    "authorId": "3138980",
+                    "name": "Zhenchang Xing"
+                },
+                {
+                    "authorId": "144558659",
+                    "name": "Xin Xia"
+                },
+                {
+                    "authorId": "2116379539",
+                    "name": "Guibin Chen"
+                },
+                {
+                    "authorId": "1773299",
+                    "name": "Shanping Li"
+                }
+            ],
+            "doi": "10.1145/2970276.2970357",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "4a43fa68f5717c92e8debf16ace74a0bec48f950",
+            "title": "Predicting semantically linkable knowledge in developer online forums via convolutional neural network",
+            "url": "https://www.semanticscholar.org/paper/4a43fa68f5717c92e8debf16ace74a0bec48f950",
+            "venue": "2016 31st IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+            "year": 2016
+        },
+        {
+            "arxivId": "1605.04464",
+            "authors": [
+                {
+                    "authorId": "2110919594",
+                    "name": "Di Yang"
+                },
+                {
+                    "authorId": "1665063492",
+                    "name": "Aftab Hussain"
+                },
+                {
+                    "authorId": "34955824",
+                    "name": "C. Lopes"
+                }
+            ],
+            "doi": "10.1145/2901739.2901767",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "274be5e898828f84766bf06f579024cc363bd975",
+            "title": "From Query to Usable Code: An Analysis of Stack Overflow Code Snippets",
+            "url": "https://www.semanticscholar.org/paper/274be5e898828f84766bf06f579024cc363bd975",
+            "venue": "2016 IEEE/ACM 13th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "151102672",
+                    "name": "Md Ahasanuzzaman"
+                },
+                {
+                    "authorId": "47150119",
+                    "name": "M. Asaduzzaman"
+                },
+                {
+                    "authorId": "1738612",
+                    "name": "C. Roy"
+                },
+                {
+                    "authorId": "38558513",
+                    "name": "Kevin A. Schneider"
+                }
+            ],
+            "doi": "10.1145/2901739.2901770",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6355c8062a704ebd28e0315a6211a2d55373d05a",
+            "title": "Mining Duplicate Questions of Stack Overflow",
+            "url": "https://www.semanticscholar.org/paper/6355c8062a704ebd28e0315a6211a2d55373d05a",
+            "venue": "2016 IEEE/ACM 13th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3348154",
+                    "name": "Marco Ortu"
+                },
+                {
+                    "authorId": "39381939",
+                    "name": "Alessandro Murgia"
+                },
+                {
+                    "authorId": "2048851",
+                    "name": "Giuseppe Destefanis"
+                },
+                {
+                    "authorId": "2762093",
+                    "name": "Parastou Tourani"
+                },
+                {
+                    "authorId": "2192634",
+                    "name": "R. Tonelli"
+                },
+                {
+                    "authorId": "144083401",
+                    "name": "M. Marchesi"
+                },
+                {
+                    "authorId": "143612725",
+                    "name": "Bram Adams"
+                }
+            ],
+            "doi": "10.1145/2901739.2903505",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "dedc7d776d94da0270b38732f3da579fdb938ee3",
+            "title": "The Emotional Side of Software Developers in JIRA",
+            "url": "https://www.semanticscholar.org/paper/dedc7d776d94da0270b38732f3da579fdb938ee3",
+            "venue": "2016 IEEE/ACM 13th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2016
+        },
+        {
+            "arxivId": "1603.04287",
+            "authors": [
+                {
+                    "authorId": "144811716",
+                    "name": "M. M\u00e4ntyl\u00e4"
+                },
+                {
+                    "authorId": "143612725",
+                    "name": "Bram Adams"
+                },
+                {
+                    "authorId": "2048851",
+                    "name": "Giuseppe Destefanis"
+                },
+                {
+                    "authorId": "1963315",
+                    "name": "D. Graziotin"
+                },
+                {
+                    "authorId": "3348154",
+                    "name": "Marco Ortu"
+                }
+            ],
+            "doi": "10.1145/2901739.2901752",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4d9f17f653e5b45be7b590e0085ee07e0731c565",
+            "title": "Mining Valence, Arousal, and Dominance - Possibilities for Detecting Burnout and Productivity?",
+            "url": "https://www.semanticscholar.org/paper/4d9f17f653e5b45be7b590e0085ee07e0731c565",
+            "venue": "2016 IEEE/ACM 13th Working Conference on Mining Software Repositories (MSR)",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2517154",
+                    "name": "Amiangshu Bosu"
+                },
+                {
+                    "authorId": "2873548",
+                    "name": "Michaela Greiler"
+                },
+                {
+                    "authorId": "145193818",
+                    "name": "C. Bird"
+                }
+            ],
+            "doi": "10.1109/MSR.2015.21",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4c535cd6557b148cc048686ec64e20291b61c698",
+            "title": "Characteristics of Useful Code Reviews: An Empirical Study at Microsoft",
+            "url": "https://www.semanticscholar.org/paper/4c535cd6557b148cc048686ec64e20291b61c698",
+            "venue": "2015 IEEE/ACM 12th Working Conference on Mining Software Repositories",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3348154",
+                    "name": "Marco Ortu"
+                },
+                {
+                    "authorId": "143612725",
+                    "name": "Bram Adams"
+                },
+                {
+                    "authorId": "2048851",
+                    "name": "Giuseppe Destefanis"
+                },
+                {
+                    "authorId": "2762093",
+                    "name": "Parastou Tourani"
+                },
+                {
+                    "authorId": "144083401",
+                    "name": "M. Marchesi"
+                },
+                {
+                    "authorId": "2192634",
+                    "name": "R. Tonelli"
+                }
+            ],
+            "doi": "10.1109/MSR.2015.35",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "39ba63cfbf9de378bcbfc7b7cf8c345d94fdbf47",
+            "title": "Are Bullies More Productive? Empirical Study of Affectiveness vs. Issue Fixing Time",
+            "url": "https://www.semanticscholar.org/paper/39ba63cfbf9de378bcbfc7b7cf8c345d94fdbf47",
+            "venue": "2015 IEEE/ACM 12th Working Conference on Mining Software Repositories",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3308761",
+                    "name": "Anton Barua"
+                },
+                {
+                    "authorId": "1847208",
+                    "name": "Stephen W. Thomas"
+                },
+                {
+                    "authorId": "144890499",
+                    "name": "A. Hassan"
+                }
+            ],
+            "doi": "10.1007/s10664-012-9231-y",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6f471ab81a994c77a5d0336e03807bc6839261eb",
+            "title": "What are developers talking about? An analysis of topics and trends in Stack Overflow",
+            "url": "https://www.semanticscholar.org/paper/6f471ab81a994c77a5d0336e03807bc6839261eb",
+            "venue": "Empirical Software Engineering",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49902369",
+                    "name": "Yuan Tian"
+                },
+                {
+                    "authorId": "143960553",
+                    "name": "D. Lo"
+                },
+                {
+                    "authorId": "1793096",
+                    "name": "J. Lawall"
+                }
+            ],
+            "doi": "10.1109/CSMR-WCRE.2014.6747213",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1e12f01425dcf73cbf823c4250d47086d60c5afe",
+            "title": "Automated construction of a software-specific word similarity database",
+            "url": "https://www.semanticscholar.org/paper/1e12f01425dcf73cbf823c4250d47086d60c5afe",
+            "venue": "2014 Software Evolution Week - IEEE Conference on Software Maintenance, Reengineering, and Reverse Engineering (CSMR-WCRE)",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3013302",
+                    "name": "Annibale Panichella"
+                },
+                {
+                    "authorId": "2628011",
+                    "name": "Bogdan Dit"
+                },
+                {
+                    "authorId": "143764471",
+                    "name": "Rocco Oliveto"
+                },
+                {
+                    "authorId": "1719962",
+                    "name": "M. D. Penta"
+                },
+                {
+                    "authorId": "1697757",
+                    "name": "D. Poshyvanyk"
+                },
+                {
+                    "authorId": "145818752",
+                    "name": "A. D. Lucia"
+                }
+            ],
+            "doi": "10.1109/ICSE.2013.6606598",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5ed409e2bee9203af02f63b0a57aa139f9ea2cc3",
+            "title": "How to effectively use topic models for software engineering tasks? An approach based on Genetic Algorithms",
+            "url": "https://www.semanticscholar.org/paper/5ed409e2bee9203af02f63b0a57aa139f9ea2cc3",
+            "venue": "2013 35th International Conference on Software Engineering (ICSE)",
+            "year": 2013
+        },
+        {
+            "arxivId": "1301.3781",
+            "authors": [
+                {
+                    "authorId": "2047446108",
+                    "name": "Tomas Mikolov"
+                },
+                {
+                    "authorId": "2118440152",
+                    "name": "Kai Chen"
+                },
+                {
+                    "authorId": "32131713",
+                    "name": "G. Corrado"
+                },
+                {
+                    "authorId": "49959210",
+                    "name": "J. Dean"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "f6b51c8753a871dc94ff32152c00c01e94f90f09",
+            "title": "Efficient Estimation of Word Representations in Vector Space",
+            "url": "https://www.semanticscholar.org/paper/f6b51c8753a871dc94ff32152c00c01e94f90f09",
+            "venue": "ICLR",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "29738525",
+                    "name": "N. Khamis"
+                },
+                {
+                    "authorId": "145364793",
+                    "name": "R. Witte"
+                },
+                {
+                    "authorId": "1398213085",
+                    "name": "J. Rilling"
+                }
+            ],
+            "doi": "10.1007/978-3-642-13881-2_7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3c1068cedc8e98df9d09a5fc370636f55e45aa76",
+            "title": "Automatic Quality Assessment of Source Code Comments: The JavadocMiner",
+            "url": "https://www.semanticscholar.org/paper/3c1068cedc8e98df9d09a5fc370636f55e45aa76",
+            "venue": "NLDB",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3267573",
+                    "name": "Radim Rehurek"
+                },
+                {
+                    "authorId": "1980208",
+                    "name": "Petr Sojka"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "83a6cacc126d85c45605797406262677c256a6af",
+            "title": "Software Framework for Topic Modelling with Large Corpora",
+            "url": "https://www.semanticscholar.org/paper/83a6cacc126d85c45605797406262677c256a6af",
+            "venue": "",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1524732329",
+                    "name": "Xiaoyin Wang"
+                },
+                {
+                    "authorId": "144281339",
+                    "name": "Lu Zhang"
+                },
+                {
+                    "authorId": "145906750",
+                    "name": "Tao Xie"
+                },
+                {
+                    "authorId": "2226695",
+                    "name": "J. Anvik"
+                },
+                {
+                    "authorId": "1716498",
+                    "name": "Jiasu Sun"
+                }
+            ],
+            "doi": "10.1145/1368088.1368151",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a18e5eecebd45c72edb4388ab2d9266de3f757c7",
+            "title": "An approach to detecting duplicate bug reports using natural language and execution information",
+            "url": "https://www.semanticscholar.org/paper/a18e5eecebd45c72edb4388ab2d9266de3f757c7",
+            "venue": "2008 ACM/IEEE 30th International Conference on Software Engineering",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1785952",
+                    "name": "P. Runeson"
+                },
+                {
+                    "authorId": "1788979",
+                    "name": "Magnus Alexandersson"
+                },
+                {
+                    "authorId": "2101964543",
+                    "name": "Oskar Nyholm"
+                }
+            ],
+            "doi": "10.1109/ICSE.2007.32",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0d459e3be20f7f529bc0d92d42fa63e60fc1e1ba",
+            "title": "Detection of Duplicate Defect Reports Using Natural Language Processing",
+            "url": "https://www.semanticscholar.org/paper/0d459e3be20f7f529bc0d92d42fa63e60fc1e1ba",
+            "venue": "29th International Conference on Software Engineering (ICSE'07)",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39025291",
+                    "name": "Am\u00e9rico Sampaio"
+                },
+                {
+                    "authorId": "1951201",
+                    "name": "R. Chitchyan"
+                },
+                {
+                    "authorId": "1929390",
+                    "name": "Paul Rayson"
+                }
+            ],
+            "doi": "10.1145/1101908.1101967",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "3985fff2e41ec18e364a6d004d4019ee0c572c92",
+            "title": "EA-Miner: a tool for automating aspect-oriented requirements identification",
+            "url": "https://www.semanticscholar.org/paper/3985fff2e41ec18e364a6d004d4019ee0c572c92",
+            "venue": "ASE",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3021582",
+                    "name": "V. Ambriola"
+                },
+                {
+                    "authorId": "1723386",
+                    "name": "V. Gervasi"
+                }
+            ],
+            "doi": "10.1109/ASE.1997.632822",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "f4098bc278b7cf2fe8525c904c62f9391214efca",
+            "title": "Processing natural language requirements",
+            "url": "https://www.semanticscholar.org/paper/f4098bc278b7cf2fe8525c904c62f9391214efca",
+            "venue": "Proceedings 12th IEEE International Conference Automated Software Engineering",
+            "year": 1997
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144096985",
+                    "name": "G. Miller"
+                }
+            ],
+            "doi": "10.1145/219717.219748",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "68c03788224000794d5491ab459be0b2a2c38677",
+            "title": "WordNet: A Lexical Database for English",
+            "url": "https://www.semanticscholar.org/paper/68c03788224000794d5491ab459be0b2a2c38677",
+            "venue": "HLT",
+            "year": 1995
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49859108",
+                    "name": "S. Wagner"
+                }
+            ],
+            "doi": "10.1016/B978-0-12-804206-9.00033-7",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "42a08e6b0142b92e437e88ee3a615da2973f23c4",
+            "title": "Natural language processing is no free lunch",
+            "url": "https://www.semanticscholar.org/paper/42a08e6b0142b92e437e88ee3a615da2973f23c4",
+            "venue": "Perspectives on Data Science for Software Engineering",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "",
+            "title": "Topic modeling for humans",
+            "url": "",
+            "venue": "gensim",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145679048",
+                    "name": "Tanmay Sinha"
+                },
+                {
+                    "authorId": "2149192662",
+                    "name": "Wei Wei"
+                },
+                {
+                    "authorId": "1702030",
+                    "name": "Kathleen M. Carley"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a5ab6a7fbd0b9d060217f15fe2492c0605d81d4f",
+            "title": "Modeling Similarity in Incentivized Interaction : A Longitudinal Case Study of StackOverFlow",
+            "url": "https://www.semanticscholar.org/paper/a5ab6a7fbd0b9d060217f15fe2492c0605d81d4f",
+            "venue": "",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1803520",
+                    "name": "L. Maaten"
+                },
+                {
+                    "authorId": "1695689",
+                    "name": "Geoffrey E. Hinton"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1c46943103bd7b7a2c7be86859995a4144d1938b",
+            "title": "Visualizing Data using t-SNE",
+            "url": "https://www.semanticscholar.org/paper/1c46943103bd7b7a2c7be86859995a4144d1938b",
+            "venue": "",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2000916",
+                    "name": "Johan Natt och Dag"
+                },
+                {
+                    "authorId": "1723386",
+                    "name": "V. Gervasi"
+                },
+                {
+                    "authorId": "145646810",
+                    "name": "S. Brinkkemper"
+                },
+                {
+                    "authorId": "1707872",
+                    "name": "B. Regnell"
+                }
+            ],
+            "doi": "10.1109/MS.2005.1",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "aeacd6f5b723be15d5835d4b5847932929f230c3",
+            "title": "A linguistic-engineering approach to large-scale requirements management",
+            "url": "https://www.semanticscholar.org/paper/aeacd6f5b723be15d5835d4b5847932929f230c3",
+            "venue": "IEEE Software",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "35400286",
+                    "name": "Z. Harris"
+                }
+            ],
+            "doi": "10.1007/978-94-017-6059-1_36",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "decd9bc0385612bdf936928206d83730718e737e",
+            "title": "Distributional Structure",
+            "url": "https://www.semanticscholar.org/paper/decd9bc0385612bdf936928206d83730718e737e",
+            "venue": "",
+            "year": 1954
+        }
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "title": "Word Embeddings for the Software Engineering Domain",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/6e1cafd50333b3812bf002a51bcb1f720e35b7ed",
+    "venue": "IEEE Working Conference on Mining Software Repositories",
+    "year": 2018
+}
