@@ -7,3 +7,5 @@ of the dataset, computed using the F-UJI tool.
 
 More details can be found in the paper `A Directory of Datasets for Mining Software Repositories`,
 which has been submitted for publication.
+
+You can download the dataset from [this link](https://github.com/AuthEceSoftEng/directory-msr-datasets/raw/refs/heads/main/_data/directory.zip) or view the data online in [this link](https://AuthEceSoftEng.github.io/directory-msr-datasets/).
