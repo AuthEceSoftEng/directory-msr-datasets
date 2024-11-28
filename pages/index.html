@@ -36,6 +36,8 @@ excluded_in_search: true
 	{% assign papercategory = paper["category"] %}
 	{% assign paper = site.data.papermetadata[paperid] %}
 	{% assign paperfairness = site.data.fairassessments[paperid] %}
+	{% assign downloadlocation = "https://github.com/AuthEceSoftEng/directory-msr-datasets/raw/refs/heads/main/_data" %}
+	{% assign paperfilename = "MSR" | append: paper["year"] | append: "_" | append: paperdoi | append: ".json" | replace: "/", "_" %}
 	<div class="row mb-10 mt-10 p-0 paper-item {{ paperid }}"
 		paper-title="{{ paper.title | xml_escape }}" paper-year="{{ paper.year | xml_escape }}"
 		paper-category="{{ papercategory | xml_escape }}"
@@ -43,7 +45,22 @@ excluded_in_search: true
 		<div class="col-sm-12">
 			<div class="card">
 				<div class="card-body">
-					<h5 class="card-title">{{paper.title}}</h5>
+					<h5 class="card-title d-flex justify-content-between">
+						<div>{{paper.title}}</div>
+						<div class="btn-group">
+							<button type="button" class="btn btn-link pt-0 pb-0 m-0" data-bs-toggle="dropdown" aria-expanded="false"
+								style="color: #6c757d;">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+									<path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+								</svg>
+							</button>
+							<ul class="dropdown-menu dropdown-menu-end">
+								<li><a class="dropdown-item" href="{{downloadlocation}}/papermetadata/{{paperfilename}}" target="_blank">Download metadata</a></li>
+								<li><a class="dropdown-item" href="{{downloadlocation}}/fairassessments/{{paperfilename}}" target="_blank">Download FAIR analysis</a></li>
+								<li><a class="dropdown-item" href="{{downloadlocation}}/paperannotations/{{paperfilename}}" target="_blank">Download annotations</a></li>
+							</ul>
+						</div>
+					</h5>
 					<p class="card-text" style="margin-bottom: 0.5rem;">
 						{% for author in paper.authors %}{{author.name}}{% if forloop.last == false %}, {% endif %}{% endfor %}
 					</p>
@@ -75,7 +92,7 @@ excluded_in_search: true
 						<div class="col-sm-4 d-flex justify-content-end">
 							{% assign fairscore = paperfairness.summary.score_percent.FAIR %}
 							<div class="progress position-relative d-flex justify-content-start w-50 mt-1 h-75">
-							    <div class="progress-bar" role="progressbar" style="width: {{fairscore}}%; background-color: #6293a1;" aria-valuenow="{{fairscore}}" aria-valuemin="0" aria-valuemax="100"></div>
+							    <div class="progress-bar" role="progressbar" style="background-color: #6293a1; width: {{fairscore}}%;" aria-valuenow="{{fairscore}}" aria-valuemin="0" aria-valuemax="100"></div>
 							    <div class="justify-content-center d-flex position-absolute w-100 fw-bold">FAIR Score: {{fairscore}}%</div>
 							</div>
 						</div>
