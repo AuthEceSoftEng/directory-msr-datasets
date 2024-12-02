@@ -9,10 +9,10 @@ excluded_in_search: true
 	<div class="container text-center">
 		<h1>{{ site.title }}</h1>
 		<p>Select filters</p>
-		<div class="row text-center justify-content-center align-items-center">
-			<div class="col-sm-4 text-center" style="min-width: 516px;">
+		<div class="row text-center justify-content-center align-items-center" style="width: 100%; border: none; box-shadow: none; margin: 10px 0 10px 0;">
+			<div class="text-center w-75" style="min-width: 340px !important; max-width: 648px !important;">
 				<div class="input-group rounded">
-					<input class="search-input form-control rounded" type="search" placeholder="Filter using title, year (e.g. 2013) or category (e.g. Software Issues)"
+					<input class="search-input form-control rounded" type="search" placeholder="Filter using title, year or category"
 						aria-label="Filter title" aria-describedby="search-addon" />
 				</div>
 			</div>
@@ -77,23 +77,25 @@ excluded_in_search: true
 						<a onclick="{{paperid}}myFunction()" id="myBtn{{paperid}}" style="color: #069; cursor: pointer;">Read more</a>
 					</p>
 					<div class="row">
-						<div class="col-sm-4">
-							<span class="badge" style="background-color: #6c7d74;">{{papercategory}}</span>
-						</div>
-						<div class="col-sm-4 d-flex justify-content-center">
-							<a {% if paperdataset != "-" %}class="text-decoration-none" style="color: #069; cursor: pointer;" href="{{paperdataset}}" target="_blank"{% else %}class="text-decoration-none disabled" style="color: gray;"{% endif %}>
-								Link to dataset
-								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
-								<path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z"></path>
-								<path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z"></path>
-								</svg>
-							</a>
-						</div>
-						<div class="col-sm-4 d-flex justify-content-end">
-							{% assign fairscore = paperfairness.summary.score_percent.FAIR %}
-							<div class="progress position-relative d-flex justify-content-start w-50 mt-1 h-75">
-							    <div class="progress-bar" role="progressbar" style="background-color: #6293a1; width: {{fairscore}}%;" aria-valuenow="{{fairscore}}" aria-valuemin="0" aria-valuemax="100"></div>
-							    <div class="justify-content-center d-flex position-absolute w-100 fw-bold">FAIR Score: {{fairscore}}%</div>
+					    <div class="d-flex flex-column flex-md-row justify-content-between">
+							<div class="d-flex flex-fill justify-content-xs-start justify-content-md-start" style="flex: 1 !important; margin-top: 3px;">
+								<span class="badge" style="background-color: #6c7d74;">{{papercategory}}</span>
+							</div>
+							<div class="d-flex flex-fill justify-content-xs-start justify-content-md-center" style="flex: 1 !important;">
+								<a {% if paperdataset != "-" %}class="text-decoration-none" style="color: #069; cursor: pointer;" href="{{paperdataset}}" target="_blank"{% else %}class="text-decoration-none disabled" style="color: gray;"{% endif %}>
+									Link to dataset
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+									<path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z"></path>
+									<path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z"></path>
+									</svg>
+								</a>
+							</div>
+							<div class="d-flex flex-fill justify-content-xs-start justify-content-md-end" style="flex: 1 !important;">
+								{% assign fairscore = paperfairness.summary.score_percent.FAIR %}
+								<div class="progress w-50 mt-1 h-75 position-relative" style="min-height: 18px; min-width: 124px;">
+								    <div class="progress-bar" role="progressbar" style="background-color: #6293a1; width: {{fairscore}}%;" aria-valuenow="{{fairscore}}" aria-valuemin="0" aria-valuemax="100"></div>
+								    <div class="fw-bold position-absolute w-100 text-center">FAIR Score: {{fairscore}}%</div>
+								</div>
 							</div>
 						</div>
 					</div>
