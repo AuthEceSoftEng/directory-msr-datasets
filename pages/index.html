@@ -72,12 +72,15 @@ excluded_in_search: true
 						</a>
 					</p>
 					<p class="card-text" style="margin-bottom: 0.5rem;">
+						Publication year: {{ paper.year }}
+					</p>
+					<p class="card-text" style="margin-bottom: 0.5rem;">
 						<span id="dots{{paperid}}">Abstract: {{paper.abstract | truncate: 200}}</span>
 						<span id="more{{paperid}}" style="display: none;">Abstract: {{paper.abstract}}</span>
 						<a onclick="{{paperid}}myFunction()" id="myBtn{{paperid}}" style="color: #069; cursor: pointer;">Read more</a>
 					</p>
 					<div class="row">
-					    <div class="d-flex flex-column flex-md-row justify-content-between">
+						<div class="d-flex flex-column flex-md-row justify-content-between">
 							<div class="d-flex flex-fill justify-content-xs-start justify-content-md-start" style="flex: 1 !important; margin-top: 3px;">
 								<span class="badge" style="background-color: #6c7d74;">{{papercategory}}</span>
 							</div>
@@ -93,8 +96,8 @@ excluded_in_search: true
 							<div class="d-flex flex-fill justify-content-xs-start justify-content-md-end" style="flex: 1 !important;">
 								{% assign fairscore = paperfairness.summary.score_percent.FAIR %}
 								<div class="progress w-50 mt-1 h-75 position-relative" style="min-height: 18px; min-width: 124px;">
-								    <div class="progress-bar" role="progressbar" style="background-color: #6293a1; width: {{fairscore}}%;" aria-valuenow="{{fairscore}}" aria-valuemin="0" aria-valuemax="100"></div>
-								    <div class="fw-bold position-absolute w-100 text-center">FAIR Score: {{fairscore}}%</div>
+									<div class="progress-bar" role="progressbar" style="background-color: #6293a1; width: {{fairscore}}%;" aria-valuenow="{{fairscore}}" aria-valuemin="0" aria-valuemax="100"></div>
+									<div class="fw-bold position-absolute w-100 text-center">FAIR Score: {{fairscore}}%</div>
 								</div>
 							</div>
 						</div>
