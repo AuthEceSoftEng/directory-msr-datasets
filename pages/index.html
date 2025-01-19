@@ -78,7 +78,7 @@ excluded_in_search: true
 						Publication year: {{ paper.year }}
 					</p>
 					<p class="card-text" style="margin-bottom: 0.5rem;">
-						Topic {{ paperstopic }} - Terms: {% for topicterm in papertopicterms %}{{topicterm}}{% if forloop.last == false %}, {% endif %}{% endfor %}
+						Topic {{ papertopic }} - Terms: {% for topicterm in papertopicterms %}{{topicterm}}{% if forloop.last == false %}, {% endif %}{% endfor %}
 					</p>
 					<p class="card-text" style="margin-bottom: 0.5rem;">
 						<span id="dots{{paperid}}">Abstract: {{paper.abstract | truncate: 200}}</span>
