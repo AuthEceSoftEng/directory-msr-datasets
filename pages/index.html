@@ -8,12 +8,12 @@ excluded_in_search: true
 <div class="mt-0 p-5 bg-secondary text-white text-center">
 	<div class="container text-center">
 		<h1>{{ site.title }}</h1>
-		<p>Select filters</p>
+		<p><a class="text-decoration-none" style="color: white; cursor: pointer;" href="https://github.com/AuthEceSoftEng/directory-msr-datasets" target="_blank">About this directory</a></p>
 		<div class="row text-center justify-content-center align-items-center" style="width: 100%; border: none; box-shadow: none; margin: 10px 0 10px 0;">
 			<div class="text-center w-75" style="min-width: 340px !important; max-width: 648px !important;">
 				<div class="input-group rounded">
-					<input class="search-input form-control rounded" type="search" placeholder="Filter using title, year or category"
-						aria-label="Filter title" aria-describedby="search-addon" />
+					<input class="search-input form-control rounded" type="search" placeholder="Filter using title, year, category or topic terms"
+						aria-label="Filter using title, year, category or topic terms" aria-describedby="search-addon" />
 				</div>
 			</div>
 		</div>
@@ -34,6 +34,8 @@ excluded_in_search: true
 	{% assign paperdoi = paper["doi"] %}
 	{% assign paperdataset = paper["dataset"] %}
 	{% assign papercategory = paper["category"] %}
+	{% assign papertopic = paper["topic"] %}
+	{% assign papertopicterms = paper["topicTerms"] %}
 	{% assign paper = site.data.papermetadata[paperid] %}
 	{% assign paperfairness = site.data.fairassessments[paperid] %}
 	{% assign downloadlocation = "https://github.com/AuthEceSoftEng/directory-msr-datasets/raw/refs/heads/main/_data" %}
@@ -41,6 +43,7 @@ excluded_in_search: true
 	<div class="row mb-10 mt-10 p-0 paper-item {{ paperid }}"
 		paper-title="{{ paper.title | xml_escape }}" paper-year="{{ paper.year | xml_escape }}"
 		paper-category="{{ papercategory | xml_escape }}"
+		paper-topic="{% for topicterm in papertopicterms %} {{topicterm}}{% endfor %}"
 		style="width: 100%; border: none; box-shadow: none; margin: 10px 0 10px 0;">
 		<div class="col-sm-12">
 			<div class="card">
@@ -73,6 +76,9 @@ excluded_in_search: true
 					</p>
 					<p class="card-text" style="margin-bottom: 0.5rem;">
 						Publication year: {{ paper.year }}
+					</p>
+					<p class="card-text" style="margin-bottom: 0.5rem;">
+						Topic {{ paperstopic }} - Terms: {% for topicterm in papertopicterms %}{{topicterm}}{% if forloop.last == false %}, {% endif %}{% endfor %}
 					</p>
 					<p class="card-text" style="margin-bottom: 0.5rem;">
 						<span id="dots{{paperid}}">Abstract: {{paper.abstract | truncate: 200}}</span>

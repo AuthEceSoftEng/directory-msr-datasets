@@ -63,7 +63,7 @@
 
 					// Hide any papers for which no terms is searched
 					papers.show().filter(function () {
-						text = $(this).attr("paper-title") + " " + $(this).attr("paper-year") + " " + $(this).attr("paper-category");
+						text = $(this).attr("paper-title") + " " + $(this).attr("paper-year") + " " + $(this).attr("paper-category") + " " + $(this).attr("paper-topic");
 						text = text.replace(/\s+/g, ' ');
 						return !text.toLowerCase().includes(query);
 					}).hide();

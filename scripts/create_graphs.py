@@ -8,10 +8,10 @@ import matplotlib.pyplot as plt
 
 
 """ Set the input and output paths """
-input_path = "_data"
+input_path = "../_data"
 save_to_disk = False # whether to save the results and graphs to disk or not
 if save_to_disk:
-	output_path = "results"
+	output_path = "../results"
 	if not os.path.exists(output_path):
 		os.makedirs(output_path)
 
@@ -26,6 +26,8 @@ for paper in os.listdir(os.path.join(input_path, 'papermetadata')):
 		papers[paperid]["metadata"] = json.load(infile)
 	with open(os.path.join(input_path, 'paperannotations', paper)) as infile:
 		papers[paperid]["annotations"] = json.load(infile)
+	with open(os.path.join(input_path, 'topicmodeling', 'topics_abstracts.json')) as infile:
+		papers[paperid]["topic"] = json.load(infile)[paperid]
 	if os.path.exists(os.path.join(input_path, 'fairassessments', paper)):
 		with open(os.path.join(input_path, 'fairassessments', paper)) as infile:
 			papers[paperid]["fairassessment"] = json.load(infile)
@@ -35,11 +37,12 @@ for paperid, paper in papers.items():
 	dfpaperdata.append([paperid,
 						paper["metadata"]["title"],
 						paper["annotations"]["category"],
+						paper["topic"],
 						paper["metadata"]["year"],
 						len(paper["metadata"]["citations"]),
 						paper["annotations"]["dataset"] != "-",
 						paper["fairassessment"]["summary"]["score_percent"]["FAIR"] if "fairassessment" in paper else None])
-df = pd.DataFrame(dfpaperdata, columns = ["ID", "Title", "Category", "Year", "Citations", "Dataset", "FAIRScore"])
+df = pd.DataFrame(dfpaperdata, columns = ["ID", "Title", "Category", "Topic", "Year", "Citations", "Dataset", "FAIRScore"])
 if save_to_disk:
 	df.to_csv(os.path.join(output_path, 'allresults.csv'), index = False, sep = ';')  
 
@@ -47,6 +50,7 @@ if save_to_disk:
 """ Set data and plot parameters """
 years = list(sorted(df.Year.unique()))
 categories = ["Version Control", "Software Issues", "Developer Metrics", "Software Evolution", "Semantic Metrics", "Other Data"]
+topics = [str(t) for t in range(0, 14)]
 mpl.rcParams['axes.prop_cycle'] = mpl.cycler(color = ["#7a7a9b", "#dcdcff"]) 
 
 
@@ -94,8 +98,8 @@ for category in categories:
 	avgcitations.append(df.loc[df.Category == category].Citations.mean())
 categories_dfrm = pd.DataFrame({"Dataset Category": categories,
 								"Total number of datasets": countcategories,
-								"Percentage of datasets": [100 * c / sum(countcategories) for c in countcategories],
-								"Average number of citations": avgcitations})
+								"Percentage of datasets": [round(100 * c / sum(countcategories), 2) for c in countcategories],
+								"Average number of citations": [round(a) for a in avgcitations]})
 print(categories_dfrm.to_string(index = False))
 # Plot the number of citations per category
 fig, ax = plt.subplots(figsize = (6.65, 3))
@@ -106,6 +110,23 @@ ax.set_ylabel("Number of citations")
 plt.tight_layout()
 if save_to_disk:
 	plt.savefig(os.path.join(output_path, "citationspercategory.pdf"))
+
+
+""" Number of citations per topic """
+# Compute the number of datasets per topic, the percentage per topic, and the average number of citations
+counttopics = []
+countcitations = []
+avgcitations = []
+for topic in topics:
+	tempdf = df.loc[df.Topic == topic]
+	counttopics.append(len(df.loc[df.Topic == topic]))
+	countcitations.append(df.loc[df.Topic == topic].Citations)
+	avgcitations.append(df.loc[df.Topic == topic].Citations.mean())
+topics_dfrm = pd.DataFrame({"Dataset Topic": topics,
+								"Total number of datasets": counttopics,
+								"Percentage of datasets": [round(100 * c / sum(counttopics), 2) for c in counttopics],
+								"Average number of citations": [round(a) for a in avgcitations]})
+print(topics_dfrm.to_string(index = False))
 
 
 """ Average FAIR score per year """
