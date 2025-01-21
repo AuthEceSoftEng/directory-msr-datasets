@@ -28,7 +28,7 @@ excluded_in_search: true
 </div>
 
 <div class="container">
-	{% for paper_item in site.data.paperannotations %}
+	{% for paper_item in site.data.paperannotations reversed %}
 	{% assign paperid = paper_item[0] %}
 	{% assign paper = paper_item[1] %}
 	{% assign paperdoi = paper["doi"] %}

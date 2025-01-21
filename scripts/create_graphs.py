@@ -26,8 +26,6 @@ for paper in os.listdir(os.path.join(input_path, 'papermetadata')):
 		papers[paperid]["metadata"] = json.load(infile)
 	with open(os.path.join(input_path, 'paperannotations', paper)) as infile:
 		papers[paperid]["annotations"] = json.load(infile)
-	with open(os.path.join(input_path, 'topicmodeling', 'topics_abstracts.json')) as infile:
-		papers[paperid]["topic"] = json.load(infile)[paperid]
 	if os.path.exists(os.path.join(input_path, 'fairassessments', paper)):
 		with open(os.path.join(input_path, 'fairassessments', paper)) as infile:
 			papers[paperid]["fairassessment"] = json.load(infile)
@@ -37,14 +35,14 @@ for paperid, paper in papers.items():
 	dfpaperdata.append([paperid,
 						paper["metadata"]["title"],
 						paper["annotations"]["category"],
-						paper["topic"],
+						paper["annotations"]["topic"],
 						paper["metadata"]["year"],
 						len(paper["metadata"]["citations"]),
 						paper["annotations"]["dataset"] != "-",
 						paper["fairassessment"]["summary"]["score_percent"]["FAIR"] if "fairassessment" in paper else None])
 df = pd.DataFrame(dfpaperdata, columns = ["ID", "Title", "Category", "Topic", "Year", "Citations", "Dataset", "FAIRScore"])
-if save_to_disk:
-	df.to_csv(os.path.join(output_path, 'allresults.csv'), index = False, sep = ';')  
+#if save_to_disk:
+#	df.to_csv(os.path.join(output_path, 'allresults.csv'), index = False, sep = ';')  
 
 
 """ Set data and plot parameters """
@@ -62,7 +60,7 @@ for year in years:
 	totals.append(len(dataforyear))
 	havedata.append(len(dataforyear.loc[df.Dataset == True]))
 # Plot using a stacked bar plot
-fig, ax = plt.subplots(figsize = (6.65, 3))
+fig, ax = plt.subplots(figsize = (6.65, 2.95))
 ax.bar([str(year) for year in years], havedata, label = "Data available")
 ax.bar([str(year) for year in years], [t - h for h, t in zip(havedata, totals)], label = "Total papers", bottom = havedata)
 ax.legend()
@@ -75,7 +73,7 @@ if save_to_disk:
 
 """ Number of citations per paper """
 # Plot the number of citations per paper
-fig, ax = plt.subplots(figsize = (6.65, 3.5))
+fig, ax = plt.subplots(figsize = (6.65, 3.45))
 bins = np.arange(0, 106, 5)
 plt.hist(np.clip(df.Citations, bins[0], bins[-1]), bins = bins, edgecolor = 'black', range = [0, 101], align = 'mid', rwidth = 1)
 ax.set_xlabel("Number of citations")
@@ -98,11 +96,11 @@ for category in categories:
 	avgcitations.append(df.loc[df.Category == category].Citations.mean())
 categories_dfrm = pd.DataFrame({"Dataset Category": categories,
 								"Total number of datasets": countcategories,
-								"Percentage of datasets": [round(100 * c / sum(countcategories), 2) for c in countcategories],
+								"Percentage of datasets": [round(100 * c / sum(countcategories), 4) for c in countcategories],
 								"Average number of citations": [round(a) for a in avgcitations]})
 print(categories_dfrm.to_string(index = False))
 # Plot the number of citations per category
-fig, ax = plt.subplots(figsize = (6.65, 3))
+fig, ax = plt.subplots(figsize = (6.65, 2.95))
 ax.boxplot(countcitations, patch_artist = True, labels = ["\n".join(c.split(" ")) for c in categories])
 ax.set_ylim(0, 100)
 ax.set_xlabel("Dataset category")
@@ -124,7 +122,7 @@ for topic in topics:
 	avgcitations.append(df.loc[df.Topic == topic].Citations.mean())
 topics_dfrm = pd.DataFrame({"Dataset Topic": topics,
 								"Total number of datasets": counttopics,
-								"Percentage of datasets": [round(100 * c / sum(counttopics), 2) for c in counttopics],
+								"Percentage of datasets": [round(100 * c / sum(counttopics), 4) for c in counttopics],
 								"Average number of citations": [round(a) for a in avgcitations]})
 print(topics_dfrm.to_string(index = False))
 
@@ -136,7 +134,7 @@ YearFAIRscore = []
 for year in years:
 	tempdf = df.loc[df.Year == year]
 	YearFAIRscore.append(tempdf.FAIRScore.mean())
-fig, ax = plt.subplots(figsize = (6.65, 3))
+fig, ax = plt.subplots(figsize = (6.65, 2.73))
 ax.bar([str(year) for year in years], YearFAIRscore)
 ax.plot([str(year) for year in years], YearFAIRscore, 'k--')
 ax.set_xlabel("Year")
