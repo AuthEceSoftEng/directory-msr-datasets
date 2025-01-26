@@ -60,7 +60,7 @@ for year in years:
 	totals.append(len(dataforyear))
 	havedata.append(len(dataforyear.loc[df.Dataset == True]))
 # Plot using a stacked bar plot
-fig, ax = plt.subplots(figsize = (6.65, 2.95))
+fig, ax = plt.subplots(figsize = (6.65, 3))
 ax.bar([str(year) for year in years], havedata, label = "Data available")
 ax.bar([str(year) for year in years], [t - h for h, t in zip(havedata, totals)], label = "Total papers", bottom = havedata)
 ax.legend()
@@ -73,7 +73,7 @@ if save_to_disk:
 
 """ Number of citations per paper """
 # Plot the number of citations per paper
-fig, ax = plt.subplots(figsize = (6.65, 3.45))
+fig, ax = plt.subplots(figsize = (6.65, 3.36))
 bins = np.arange(0, 106, 5)
 plt.hist(np.clip(df.Citations, bins[0], bins[-1]), bins = bins, edgecolor = 'black', range = [0, 101], align = 'mid', rwidth = 1)
 ax.set_xlabel("Number of citations")
@@ -100,7 +100,7 @@ categories_dfrm = pd.DataFrame({"Dataset Category": categories,
 								"Average number of citations": [round(a) for a in avgcitations]})
 print(categories_dfrm.to_string(index = False))
 # Plot the number of citations per category
-fig, ax = plt.subplots(figsize = (6.65, 2.95))
+fig, ax = plt.subplots(figsize = (6.65, 3.21))
 ax.boxplot(countcitations, patch_artist = True, labels = ["\n".join(c.split(" ")) for c in categories])
 ax.set_ylim(0, 100)
 ax.set_xlabel("Dataset category")
@@ -134,7 +134,7 @@ YearFAIRscore = []
 for year in years:
 	tempdf = df.loc[df.Year == year]
 	YearFAIRscore.append(tempdf.FAIRScore.mean())
-fig, ax = plt.subplots(figsize = (6.65, 2.73))
+fig, ax = plt.subplots(figsize = (6.65, 3))
 ax.bar([str(year) for year in years], YearFAIRscore)
 ax.plot([str(year) for year in years], YearFAIRscore, 'k--')
 ax.set_xlabel("Year")
